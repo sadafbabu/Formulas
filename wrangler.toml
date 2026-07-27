@@ -1,7 +1,9 @@
 name = "formulas-book"
+main = "worker.js"
 compatibility_date = "2025-07-01"
+workers_dev = true
 
 [assets]
 directory = "./dist"
+binding = "ASSETS"
 not_found_handling = "single-page-application"
-html_handling = "auto-trailing-slash"
