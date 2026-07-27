@@ -3,6 +3,14 @@ import physicsMeta from '../../content/subjects/physics/meta.json'
 import magneticMeta from '../../content/subjects/physics/chapters/magnetic-current/meta.json'
 import thermoMeta from '../../content/subjects/physics/chapters/thermodynamics/meta.json'
 import staticMeta from '../../content/subjects/physics/chapters/static-electricity/meta.json'
+import currentMeta from '../../content/subjects/physics/chapters/current-electricity/meta.json'
+import vectorMeta from '../../content/subjects/physics/chapters/vector/meta.json'
+
+import ohmsLaw from '../../content/subjects/physics/chapters/current-electricity/formulas/ohms-law.json'
+import wheatstoneBridge from '../../content/subjects/physics/chapters/current-electricity/formulas/wheatstone-bridge.json'
+
+import vectorResultant from '../../content/subjects/physics/chapters/vector/formulas/vector-resultant.json'
+import vectorDotProduct from '../../content/subjects/physics/chapters/vector/formulas/vector-dot-product.json'
 
 import firstLawThermo from '../../content/subjects/physics/chapters/thermodynamics/formulas/first-law-thermo.json'
 import isothermalWork from '../../content/subjects/physics/chapters/thermodynamics/formulas/isothermal-work.json'
@@ -76,12 +84,12 @@ export const allChapters: ChapterMeta[] = [
   { id: 'magnetic-current', slug: 'magnetic-current', name: 'Magnetic Effects of Current & Magnetism', nameBn: 'তড়িৎ প্রবাহের চৌম্বক ক্রিয়া ও চুম্বকত্ব', subjectId: 'physics', paperId: '2nd-paper', order: 4, formulaCount: 35, isReady: true },
   { id: 'thermodynamics', slug: 'thermodynamics', name: 'Thermodynamics', nameBn: 'তাপগতিবিদ্যা', subjectId: 'physics', paperId: '2nd-paper', order: 1, formulaCount: 3, isReady: true },
   { id: 'static-electricity', slug: 'static-electricity', name: 'Static Electricity', nameBn: 'স্থির তড়িৎ', subjectId: 'physics', paperId: '2nd-paper', order: 2, formulaCount: 2, isReady: true },
-  { id: 'current-electricity', slug: 'current-electricity', name: 'Current Electricity', nameBn: 'চল তড়িৎ', subjectId: 'physics', paperId: '2nd-paper', order: 3, formulaCount: 24, isReady: false },
+  { id: 'current-electricity', slug: 'current-electricity', name: 'Current Electricity', nameBn: 'চল তড়িৎ', subjectId: 'physics', paperId: '2nd-paper', order: 3, formulaCount: 2, isReady: true },
   { id: 'induction-ac', slug: 'induction-ac', name: 'Electromagnetic Induction & AC', nameBn: 'তড়িচ্চৌম্বক আবেশ ও পর্যায়বৃত্ত প্রবাহ', subjectId: 'physics', paperId: '2nd-paper', order: 5, formulaCount: 16, isReady: false },
   { id: 'modern-physics', slug: 'modern-physics', name: 'Modern Physics', nameBn: 'আধুনিক পদার্থবিজ্ঞানের সূচনা', subjectId: 'physics', paperId: '2nd-paper', order: 8, formulaCount: 20, isReady: false },
 
   // Physics 1st Paper
-  { id: 'vector', slug: 'vector', name: 'Vector', nameBn: 'ভেক্টর', subjectId: 'physics', paperId: '1st-paper', order: 2, formulaCount: 15, isReady: false },
+  { id: 'vector', slug: 'vector', name: 'Vector', nameBn: 'ভেক্টর', subjectId: 'physics', paperId: '1st-paper', order: 2, formulaCount: 2, isReady: true },
   { id: 'dynamics', slug: 'dynamics', name: 'Newtonian Mechanics', nameBn: 'নিউটনীয় বলবিদ্যা', subjectId: 'physics', paperId: '1st-paper', order: 4, formulaCount: 18, isReady: false },
   { id: 'work-energy', slug: 'work-energy', name: 'Work, Energy & Power', nameBn: 'কাজ, ক্ষমতা ও শক্তি', subjectId: 'physics', paperId: '1st-paper', order: 5, formulaCount: 14, isReady: false },
   { id: 'gravitation', slug: 'gravitation', name: 'Gravitation & Gravity', nameBn: 'মহাকর্ষ ও অভিকর্ষ', subjectId: 'physics', paperId: '1st-paper', order: 6, formulaCount: 16, isReady: false },
@@ -95,10 +103,16 @@ export const allChapters: ChapterMeta[] = [
   { id: 'calculus', slug: 'calculus', name: 'Calculus & Integration', nameBn: 'ক্যালকুলাস ও যোগজীকরণ', subjectId: 'math', paperId: '1st-paper', order: 9, formulaCount: 30, isReady: false },
 ]
 
-export const chapters: ChapterMeta[] = [magneticMeta, thermoMeta, staticMeta] as ChapterMeta[]
+export const chapters: ChapterMeta[] = [magneticMeta, thermoMeta, staticMeta, currentMeta, vectorMeta] as ChapterMeta[]
 export const defaultChapterId = 'magnetic-current'
 
 export const formulas: Formula[] = [
+  ohmsLaw,
+  wheatstoneBridge,
+
+  vectorResultant,
+  vectorDotProduct,
+
   coulombsLaw,
   electricPotential,
 
