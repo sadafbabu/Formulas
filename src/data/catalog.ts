@@ -1,6 +1,15 @@
 import tagsJson from '../../content/tags.json'
 import physicsMeta from '../../content/subjects/physics/meta.json'
 import magneticMeta from '../../content/subjects/physics/chapters/magnetic-current/meta.json'
+import thermoMeta from '../../content/subjects/physics/chapters/thermodynamics/meta.json'
+import staticMeta from '../../content/subjects/physics/chapters/static-electricity/meta.json'
+
+import firstLawThermo from '../../content/subjects/physics/chapters/thermodynamics/formulas/first-law-thermo.json'
+import isothermalWork from '../../content/subjects/physics/chapters/thermodynamics/formulas/isothermal-work.json'
+import carnaudEfficiency from '../../content/subjects/physics/chapters/thermodynamics/formulas/carnaud-efficiency.json'
+
+import coulombsLaw from '../../content/subjects/physics/chapters/static-electricity/formulas/coulombs-law.json'
+import electricPotential from '../../content/subjects/physics/chapters/static-electricity/formulas/electric-potential.json'
 
 import biotSavart from '../../content/subjects/physics/chapters/magnetic-current/formulas/biot-savart.json'
 import wireField from '../../content/subjects/physics/chapters/magnetic-current/formulas/wire-field.json'
@@ -65,8 +74,8 @@ export const subjectsList: SubjectMeta[] = [
 export const allChapters: ChapterMeta[] = [
   // Physics 2nd Paper
   { id: 'magnetic-current', slug: 'magnetic-current', name: 'Magnetic Effects of Current & Magnetism', nameBn: 'তড়িৎ প্রবাহের চৌম্বক ক্রিয়া ও চুম্বকত্ব', subjectId: 'physics', paperId: '2nd-paper', order: 4, formulaCount: 35, isReady: true },
-  { id: 'thermodynamics', slug: 'thermodynamics', name: 'Thermodynamics', nameBn: 'তাপগতিবিদ্যা', subjectId: 'physics', paperId: '2nd-paper', order: 1, formulaCount: 18, isReady: false },
-  { id: 'static-electricity', slug: 'static-electricity', name: 'Static Electricity', nameBn: 'স্থির তড়িৎ', subjectId: 'physics', paperId: '2nd-paper', order: 2, formulaCount: 22, isReady: false },
+  { id: 'thermodynamics', slug: 'thermodynamics', name: 'Thermodynamics', nameBn: 'তাপগতিবিদ্যা', subjectId: 'physics', paperId: '2nd-paper', order: 1, formulaCount: 3, isReady: true },
+  { id: 'static-electricity', slug: 'static-electricity', name: 'Static Electricity', nameBn: 'স্থির তড়িৎ', subjectId: 'physics', paperId: '2nd-paper', order: 2, formulaCount: 2, isReady: true },
   { id: 'current-electricity', slug: 'current-electricity', name: 'Current Electricity', nameBn: 'চল তড়িৎ', subjectId: 'physics', paperId: '2nd-paper', order: 3, formulaCount: 24, isReady: false },
   { id: 'induction-ac', slug: 'induction-ac', name: 'Electromagnetic Induction & AC', nameBn: 'তড়িচ্চৌম্বক আবেশ ও পর্যায়বৃত্ত প্রবাহ', subjectId: 'physics', paperId: '2nd-paper', order: 5, formulaCount: 16, isReady: false },
   { id: 'modern-physics', slug: 'modern-physics', name: 'Modern Physics', nameBn: 'আধুনিক পদার্থবিজ্ঞানের সূচনা', subjectId: 'physics', paperId: '2nd-paper', order: 8, formulaCount: 20, isReady: false },
@@ -86,10 +95,17 @@ export const allChapters: ChapterMeta[] = [
   { id: 'calculus', slug: 'calculus', name: 'Calculus & Integration', nameBn: 'ক্যালকুলাস ও যোগজীকরণ', subjectId: 'math', paperId: '1st-paper', order: 9, formulaCount: 30, isReady: false },
 ]
 
-export const chapters: ChapterMeta[] = [magneticMeta as ChapterMeta]
+export const chapters: ChapterMeta[] = [magneticMeta, thermoMeta, staticMeta] as ChapterMeta[]
 export const defaultChapterId = 'magnetic-current'
 
 export const formulas: Formula[] = [
+  coulombsLaw,
+  electricPotential,
+
+  firstLawThermo,
+  isothermalWork,
+  carnaudEfficiency,
+
   biotSavart,
   wireField,
   straightWireFinite,
