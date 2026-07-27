@@ -55,12 +55,14 @@ import solubilityProduct from '../../content/subjects/chemistry/chapters/qualita
 
 import faradaysElectrolysis from '../../content/subjects/chemistry/chapters/electrochemistry/formulas/faradays-electrolysis.json'
 import nernstEquation from '../../content/subjects/chemistry/chapters/electrochemistry/formulas/nernst-equation.json'
+import conductanceKohlrausch from '../../content/subjects/chemistry/chapters/electrochemistry/formulas/conductance-kohlrausch.json'
 
 import perpendicularDistance from '../../content/subjects/math/chapters/straight-lines/formulas/perpendicular-distance.json'
 import straightLineAngle from '../../content/subjects/math/chapters/straight-lines/formulas/straight-line-angle.json'
 
 import integrationByParts from '../../content/subjects/math/chapters/calculus/formulas/integration-by-parts.json'
 import differentiationChainRule from '../../content/subjects/math/chapters/calculus/formulas/differentiation-chain-rule.json'
+import definiteIntegralArea from '../../content/subjects/math/chapters/calculus/formulas/definite-integral-area.json'
 
 
 import newtonsGravitation from '../../content/subjects/physics/chapters/gravitation/formulas/newtons-gravitation.json'
@@ -85,11 +87,13 @@ import wheatstoneBridge from '../../content/subjects/physics/chapters/current-el
 import vectorResultant from '../../content/subjects/physics/chapters/vector/formulas/vector-resultant.json'
 import vectorDotProduct from '../../content/subjects/physics/chapters/vector/formulas/vector-dot-product.json'
 import vectorCrossArea from '../../content/subjects/physics/chapters/vector/formulas/vector-cross-area.json'
+import vectorDotAngle from '../../content/subjects/physics/chapters/vector/formulas/vector-dot-angle.json'
 
 import firstLawThermo from '../../content/subjects/physics/chapters/thermodynamics/formulas/first-law-thermo.json'
 import isothermalWork from '../../content/subjects/physics/chapters/thermodynamics/formulas/isothermal-work.json'
 import carnaudEfficiency from '../../content/subjects/physics/chapters/thermodynamics/formulas/carnaud-efficiency.json'
 import cpCvRelation from '../../content/subjects/physics/chapters/thermodynamics/formulas/cp-cv-relation.json'
+import entropyChange from '../../content/subjects/physics/chapters/thermodynamics/formulas/entropy-change.json'
 
 import coulombsLaw from '../../content/subjects/physics/chapters/static-electricity/formulas/coulombs-law.json'
 import electricPotential from '../../content/subjects/physics/chapters/static-electricity/formulas/electric-potential.json'
@@ -161,14 +165,14 @@ export const subjectsList: SubjectMeta[] = [
 export const allChapters: ChapterMeta[] = [
   // Physics 2nd Paper
   { id: 'magnetic-current', slug: 'magnetic-current', name: 'Magnetic Effects of Current & Magnetism', nameBn: 'তড়িৎ প্রবাহের চৌম্বক ক্রিয়া ও চুম্বকত্ব', subjectId: 'physics', paperId: '2nd-paper', order: 4, formulaCount: 35, isReady: true },
-  { id: 'thermodynamics', slug: 'thermodynamics', name: 'Thermodynamics', nameBn: 'তাপগতিবিদ্যা', subjectId: 'physics', paperId: '2nd-paper', order: 1, formulaCount: 4, isReady: true },
+  { id: 'thermodynamics', slug: 'thermodynamics', name: 'Thermodynamics', nameBn: 'তাপগতিবিদ্যা', subjectId: 'physics', paperId: '2nd-paper', order: 1, formulaCount: 5, isReady: true },
   { id: 'static-electricity', slug: 'static-electricity', name: 'Static Electricity', nameBn: 'স্থির তড়িৎ', subjectId: 'physics', paperId: '2nd-paper', order: 2, formulaCount: 3, isReady: true },
   { id: 'current-electricity', slug: 'current-electricity', name: 'Current Electricity', nameBn: 'চল তড়িৎ', subjectId: 'physics', paperId: '2nd-paper', order: 3, formulaCount: 3, isReady: true },
   { id: 'induction-ac', slug: 'induction-ac', name: 'Electromagnetic Induction & AC', nameBn: 'তড়িচ্চৌম্বক আবেশ ও পর্যায়বৃত্ত প্রবাহ', subjectId: 'physics', paperId: '2nd-paper', order: 5, formulaCount: 3, isReady: true },
   { id: 'modern-physics', slug: 'modern-physics', name: 'Modern Physics', nameBn: 'আধুনিক পদার্থবিজ্ঞানের সূচনা', subjectId: 'physics', paperId: '2nd-paper', order: 8, formulaCount: 2, isReady: true },
 
   // Physics 1st Paper
-  { id: 'vector', slug: 'vector', name: 'Vector', nameBn: 'ভেক্টর', subjectId: 'physics', paperId: '1st-paper', order: 2, formulaCount: 3, isReady: true },
+  { id: 'vector', slug: 'vector', name: 'Vector', nameBn: 'ভেক্টর', subjectId: 'physics', paperId: '1st-paper', order: 2, formulaCount: 4, isReady: true },
   { id: 'dynamics', slug: 'dynamics', name: 'Newtonian Mechanics', nameBn: 'নিউটনীয় বলবিদ্যা', subjectId: 'physics', paperId: '1st-paper', order: 4, formulaCount: 3, isReady: true },
   { id: 'work-energy', slug: 'work-energy', name: 'Work, Energy & Power', nameBn: 'কাজ, ক্ষমতা ও শক্তি', subjectId: 'physics', paperId: '1st-paper', order: 5, formulaCount: 2, isReady: true },
   { id: 'gravitation', slug: 'gravitation', name: 'Gravitation & Gravity', nameBn: 'মহাকর্ষ ও অভিকর্ষ', subjectId: 'physics', paperId: '1st-paper', order: 6, formulaCount: 3, isReady: true },
@@ -230,6 +234,11 @@ export const chapters: ChapterMeta[] = [
 export const defaultChapterId = 'magnetic-current'
 
 export const formulas: Formula[] = [
+  vectorDotAngle,
+  entropyChange,
+  conductanceKohlrausch,
+  definiteIntegralArea,
+
   lensMakersFormula,
   hybridizationShapes,
   quadraticEquationRoots,

@@ -1,0 +1,32 @@
+{
+  "id": "definite-integral-area",
+  "chapter": "calculus",
+  "title": "Area Bounded by Curves & Definite Integral",
+  "titleBn": "নির্দিষ্ট যোগজ ও বক্ররেখা দ্বারা আবদ্ধ ক্ষেত্রফল",
+  "summary": "y = f(x) বক্ররেখা, x-অক্ষ এবং x = a, b রেখা দ্বারা আবদ্ধ ক্ষেত্রফল",
+  "latex": "\\text{Area} = \\int_{a}^{b} f(x) \\, dx, \\quad \\text{Area} = \\int_{a}^{b} [f_1(x) - f_2(x)] \\, dx",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "\\text{Area}", "meaning": "আবদ্ধ এলাকার ক্ষেত্রফল", "unit": "বর্গ একক" },
+    { "symbol": "f(x)", "meaning": "বক্ররেখার সমীকরণ", "unit": "ফাংশন" },
+    { "symbol": "a, b", "meaning": "সীমা (Limits of integration)", "unit": "সংখ্যা" }
+  ],
+  "derivation": {
+    "lead": "ক্ষুদ্র উল্লম্ব ফালি dx এর ক্ষেত্রফল dA = y dx সমাকলন করে পাওয়া যায়।",
+    "steps": [
+      {
+        "title": "ক্ষেত্রফল সমাকলন",
+        "latex": "A = \\lim_{\\Delta x \\to 0} \\sum y_i \\Delta x = \\int_a^b y \\, dx",
+        "note": "বৃত্ত x² + y² = r² এর ক্ষেত্রফল = 4 ∫₀ʳ √(r² - x²) dx = π r²"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Hard",
+      "question": "y = x² পরাবৃত্ত এবং y = x রেখা দ্বারা আবদ্ধ এলাকার ক্ষেত্রফল কত?",
+      "answer": "x^2 = x \\implies x(x-1) = 0 \\implies x = 0, 1 \\implies \\text{Area} = \\int_0^1 (x - x^2) dx = \\left[ \\frac{x^2}{2} - \\frac{x^3}{3} \\right]_0^1 = \\frac{1}{2} - \\frac{1}{3} = \\frac{1}{6}\\text{ sq. unit}"
+    }
+  ]
+}
