@@ -1,32 +1,31 @@
 :root {
-  /* Presentation stage — modern dark, no glow */
   --bg-deep: #121212;
-  --bg-stage: #0c0c0c;
+  --bg-stage: #0a0a0a;
   --bg-elevated: #1c1c1c;
   --bg-panel: #242424;
-  --page-bg: #181818;
+  --page-bg: #161616;
   --page-edge: rgba(255, 255, 255, 0.1);
-  --ink: #d4d4d4;
-  --ink-bright: #f2f2f2;
-  --ink-soft: #9a9a9a;
-  --ink-faint: #5c5c5c;
-  --accent: #eaeaea;
+  --ink: #d6d6d6;
+  --ink-bright: #f4f4f4;
+  --ink-soft: #9b9b9b;
+  --ink-faint: #5a5a5a;
+  --accent: #ececec;
   --accent-dim: rgba(255, 255, 255, 0.06);
   --focus: #5b9cff;
-  --line: rgba(255, 255, 255, 0.07);
-  --line-strong: rgba(255, 255, 255, 0.12);
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 255, 255, 0.14);
 
   --font-display: 'Outfit', system-ui, sans-serif;
   --font-ui: 'Outfit', system-ui, sans-serif;
   --font-body: 'Outfit', system-ui, sans-serif;
 
-  --page-pad: 1.1rem 1.15rem 0.85rem;
+  --page-pad: 0.65rem 0.85rem 0.5rem;
   --radius-sm: 6px;
-  --radius-slide: 10px;
+  --radius-slide: 0;
   --spread-gap: 0;
-  --nav-size: 2.15rem;
+  --nav-size: 2.1rem;
   --ease-slide: cubic-bezier(0.22, 1, 0.36, 1);
-  --shadow-slide: 0 18px 50px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(255, 255, 255, 0.04);
+  --shadow-slide: none;
 
   color-scheme: dark;
 }

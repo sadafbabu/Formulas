@@ -1,0 +1,26 @@
+{
+  "id": "centripetal",
+  "title": "Centripetal Force",
+  "titleBn": "কেন্দ্রমুখী বল",
+  "latex": "F_{c} = \\dfrac{mv^{2}}{r}",
+  "summary": "বৃত্তাকার পথে চলতে প্রয়োজনীয় কেন্দ্রমুখী বল। দিক কেন্দ্রের দিকে।",
+  "tags": ["hsc", "eng-admission", "varsity"],
+  "subjects": ["physics"],
+  "related": ["newtons-second", "kinetic-energy"],
+  "derivation": {
+    "lead": "কেন্দ্রমুখী ত্বরণ a = v²/r কে F = ma তে বসিয়ে এই সূত্র আসে।",
+    "steps": [
+      {
+        "title": "কেন্দ্রমুখী ত্বরণ",
+        "latex": "a_{c} = \\dfrac{v^{2}}{r}",
+        "note": "বৃত্তাকার গতির জ্যামিতি থেকে।"
+      },
+      {
+        "title": "নিউটনের সূত্র",
+        "latex": "F_{c} = ma_{c} = \\dfrac{mv^{2}}{r}",
+        "note": "নেট বল কেন্দ্রের দিকে।"
+      }
+    ],
+    "assumptions": ["সমবৃত্তীয় গতি", "ধ্রুব দ্রুতি"]
+  }
+}

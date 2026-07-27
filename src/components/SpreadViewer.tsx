@@ -51,6 +51,7 @@ export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
   const safeSpread = Math.min(spreadIndex, maxSpread)
   const left = pages[safeSpread * 2]
   const right = pages[safeSpread * 2 + 1]
+  const singleWide = Boolean(left && !right)
 
   const safeMobile = Math.min(mobileIndex, pages.length - 1)
   const mobilePage = pages[safeMobile]
@@ -68,7 +69,7 @@ export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
     if (canMob) setMobileIndex((i) => i - 1)
     window.setTimeout(() => {
       animLock.current = false
-    }, 420)
+    }, 400)
   }
 
   const goNext = () => {
@@ -83,7 +84,7 @@ export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
     if (canMob) setMobileIndex((i) => i + 1)
     window.setTimeout(() => {
       animLock.current = false
-    }, 420)
+    }, 400)
   }
 
   useEffect(() => {
@@ -126,28 +127,29 @@ export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
 
   return (
     <div className="spread-stage">
-      <div className="stage-vignette" aria-hidden="true" />
-
       <div
         key={`desk-${animKey}`}
-        className={`slide-deck ${slideClass}`}
+        className={`slide-deck ${slideClass}${singleWide ? ' is-single-wide' : ''}`}
         aria-label="Presentation slide"
       >
         <div className="spread">
           {left && (
             <div
-              className={`page-hit is-left${safeSpread <= 0 ? ' is-edge' : ''}`}
-              onClick={(e) => onPageClick('left', e)}
+              className={`page-hit is-left${singleWide ? ' is-wide' : ''}${safeSpread <= 0 ? ' is-edge' : ''}`}
+              onClick={(e) =>
+                onPageClick(singleWide ? 'single' : 'left', e)
+              }
             >
               <A5Page
                 page={left}
                 subject={subject}
-                side="left"
+                side={singleWide ? 'single' : 'left'}
                 activeTag={activeTag}
+                dense={!singleWide}
               />
             </div>
           )}
-          {right ? (
+          {right && (
             <div
               className={`page-hit is-right${safeSpread >= maxSpread ? ' is-edge' : ''}`}
               onClick={(e) => onPageClick('right', e)}
@@ -157,18 +159,28 @@ export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
                 subject={subject}
                 side="right"
                 activeTag={activeTag}
+                dense
               />
             </div>
-          ) : (
-            <div className="page-hit is-right is-blank" aria-hidden="true" />
           )}
+        </div>
+
+        <div className="deck-chrome">
+          <div className="progress-track" aria-hidden="true">
+            <div
+              className="progress-fill"
+              style={{ width: `${progress * 100}%` }}
+            />
+          </div>
+          <div className="page-indicator" aria-live="polite">
+            <span>{safeSpread + 1}</span>
+            <span className="page-indicator-sep">/</span>
+            <span>{maxSpread + 1}</span>
+          </div>
         </div>
       </div>
 
-      <div
-        key={`mob-${animKey}`}
-        className={`mobile-pager ${slideClass}`}
-      >
+      <div key={`mob-${animKey}`} className={`mobile-pager ${slideClass}`}>
         {mobilePage && (
           <div
             className="page-hit is-single"
@@ -179,19 +191,24 @@ export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
               subject={subject}
               side="single"
               activeTag={activeTag}
+              dense
             />
           </div>
         )}
-      </div>
-
-      <div className="deck-chrome">
-        <div className="progress-track" aria-hidden="true">
-          <div className="progress-fill" style={{ width: `${progress * 100}%` }} />
-        </div>
-        <div className="page-indicator" aria-live="polite">
-          <span>{safeSpread + 1}</span>
-          <span className="page-indicator-sep">/</span>
-          <span>{maxSpread + 1}</span>
+        <div className="deck-chrome">
+          <div className="progress-track" aria-hidden="true">
+            <div
+              className="progress-fill"
+              style={{
+                width: `${((safeMobile + 1) / pages.length) * 100}%`,
+              }}
+            />
+          </div>
+          <div className="page-indicator" aria-live="polite">
+            <span>{safeMobile + 1}</span>
+            <span className="page-indicator-sep">/</span>
+            <span>{pages.length}</span>
+          </div>
         </div>
       </div>
     </div>
