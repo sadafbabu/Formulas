@@ -1,0 +1,34 @@
+{
+  "id": "transistor-alpha-beta",
+  "chapter": "semiconductor",
+  "title": "Transistor Current Gains (Alpha and Beta)",
+  "titleBn": "ট্রানজিস্টরের প্রবাহ লাভ (Alpha ও Beta)",
+  "summary": "ট্রানজিস্টরের নিঃসারক, পিঠ ও সংগ্রাহক প্রবাহ এবং α ও β এর সম্পর্ক",
+  "latex": "I_E = I_B + I_C, \\quad \\alpha = \\frac{\\Delta I_C}{\\Delta I_E}, \\quad \\beta = \\frac{\\Delta I_C}{\\Delta I_B} = \\frac{\\alpha}{1 - \\alpha}",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "I_E", "meaning": "নিঃসারক প্রবাহ (Emitter current)", "unit": "mA" },
+    { "symbol": "I_B", "meaning": "পিঠ প্রবাহ (Base current)", "unit": "μA" },
+    { "symbol": "I_C", "meaning": "সংগ্রাহক প্রবাহ (Collector current)", "unit": "mA" },
+    { "symbol": "\\alpha", "meaning": "প্রবাহ বিবর্ধন গুণক (Common Base)", "unit": "এককহীন (<1)" },
+    { "symbol": "\\beta", "meaning": "প্রবাহ লাভ (Common Emitter)", "unit": "এককহীন (>20)" }
+  ],
+  "derivation": {
+    "lead": "IE = IB + IC সমীকরণকে ΔIC দ্বারা ভাগ করে α ও β এর সম্পর্ক পাওয়া যায়।",
+    "steps": [
+      {
+        "title": "গুণক সম্পর্ক রূপায়ণ",
+        "latex": "\\frac{\\Delta I_E}{\\Delta I_C} = \\frac{\\Delta I_B}{\\Delta I_C} + 1 \\implies \\frac{1}{\\alpha} = \\frac{1}{\\beta} + 1 \\implies \\beta = \\frac{\\alpha}{1 - \\alpha}",
+        "note": "α সাধারণত 0.95 থেকে 0.99 এর মধ্যে থাকে"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Hard",
+      "question": "একটি ট্রানজিস্টরের α = 0.98 এবং I_E = 5 mA হলে I_B ও β এর মান কত?",
+      "answer": "\\beta = \\frac{0.98}{1 - 0.98} = \\frac{0.98}{0.02} = 49, \\quad I_C = \\alpha I_E = 0.98 \\times 5 = 4.9\\text{ mA} \\implies I_B = I_E - I_C = 5 - 4.9 = 0.1\\text{ mA} = 100\\,\\mu\\text{A}"
+    }
+  ]
+}

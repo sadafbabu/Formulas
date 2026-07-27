@@ -12,8 +12,20 @@ import inductionAcMeta from '../../content/subjects/physics/chapters/induction-a
 import modernPhysicsMeta from '../../content/subjects/physics/chapters/modern-physics/meta.json'
 import qualitativeMeta from '../../content/subjects/chemistry/chapters/qualitative-chem/meta.json'
 import electrochemMeta from '../../content/subjects/chemistry/chapters/electrochemistry/meta.json'
+import chemEquilibriumMeta from '../../content/subjects/chemistry/chapters/chemical-equilibrium/meta.json'
+
 import straightLinesMeta from '../../content/subjects/math/chapters/straight-lines/meta.json'
 import calculusMeta from '../../content/subjects/math/chapters/calculus/meta.json'
+import complexNumbersMeta from '../../content/subjects/math/chapters/complex-numbers/meta.json'
+
+import periodicMotionMeta from '../../content/subjects/physics/chapters/periodic-motion/meta.json'
+import semiconductorMeta from '../../content/subjects/physics/chapters/semiconductor/meta.json'
+
+import shmTimePeriod from '../../content/subjects/physics/chapters/periodic-motion/formulas/shm-time-period.json'
+import transistorAlphaBeta from '../../content/subjects/physics/chapters/semiconductor/formulas/transistor-alpha-beta.json'
+import kpKcRelation from '../../content/subjects/chemistry/chapters/chemical-equilibrium/formulas/kp-kc-relation.json'
+import complexModulusArgument from '../../content/subjects/math/chapters/complex-numbers/formulas/complex-modulus-argument.json'
+
 
 import bohrAtomModel from '../../content/subjects/chemistry/chapters/qualitative-chem/formulas/bohr-atom-model.json'
 import solubilityProduct from '../../content/subjects/chemistry/chapters/qualitative-chem/formulas/solubility-product.json'
@@ -137,14 +149,21 @@ export const allChapters: ChapterMeta[] = [
   { id: 'dynamics', slug: 'dynamics', name: 'Newtonian Mechanics', nameBn: 'নিউটনীয় বলবিদ্যা', subjectId: 'physics', paperId: '1st-paper', order: 4, formulaCount: 3, isReady: true },
   { id: 'work-energy', slug: 'work-energy', name: 'Work, Energy & Power', nameBn: 'কাজ, ক্ষমতা ও শক্তি', subjectId: 'physics', paperId: '1st-paper', order: 5, formulaCount: 2, isReady: true },
   { id: 'gravitation', slug: 'gravitation', name: 'Gravitation & Gravity', nameBn: 'মহাকর্ষ ও অভিকর্ষ', subjectId: 'physics', paperId: '1st-paper', order: 6, formulaCount: 3, isReady: true },
+  { id: 'periodic-motion', slug: 'periodic-motion', name: 'Periodic Motion & SHM', nameBn: 'পর্যায়বৃত্ত গতি', subjectId: 'physics', paperId: '1st-paper', order: 8, formulaCount: 1, isReady: true },
+
+  // Physics 2nd Paper (Extra)
+  { id: 'semiconductor', slug: 'semiconductor', name: 'Semiconductor & Electronics', nameBn: 'সেমিকন্ডাক্টর ও ইলেকট্রনিক্স', subjectId: 'physics', paperId: '2nd-paper', order: 10, formulaCount: 1, isReady: true },
   
   // Chemistry
   { id: 'qualitative-chem', slug: 'qualitative-chem', name: 'Qualitative Chemistry', nameBn: 'গুণগত রসায়ন', subjectId: 'chemistry', paperId: '1st-paper', order: 2, formulaCount: 2, isReady: true },
+  { id: 'chemical-equilibrium', slug: 'chemical-equilibrium', name: 'Chemical Equilibrium & Kinetics', nameBn: 'রাসায়নিক পরিবর্তন ও সাম্যাবস্থা', subjectId: 'chemistry', paperId: '1st-paper', order: 4, formulaCount: 1, isReady: true },
   { id: 'electrochemistry', slug: 'electrochemistry', name: 'Electrochemistry', nameBn: 'তড়িৎ রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 4, formulaCount: 2, isReady: true },
 
   // Math
   { id: 'straight-lines', slug: 'straight-lines', name: 'Straight Lines', nameBn: 'সরলরেখা', subjectId: 'math', paperId: '1st-paper', order: 3, formulaCount: 2, isReady: true },
   { id: 'calculus', slug: 'calculus', name: 'Calculus & Integration', nameBn: 'ক্যালকুলাস ও যোগজীকরণ', subjectId: 'math', paperId: '1st-paper', order: 9, formulaCount: 2, isReady: true },
+  { id: 'complex-numbers', slug: 'complex-numbers', name: 'Complex Numbers', nameBn: 'জটিল সংখ্যা', subjectId: 'math', paperId: '2nd-paper', order: 3, formulaCount: 1, isReady: true },
+
 ]
 
 export const chapters: ChapterMeta[] = [
@@ -162,10 +181,19 @@ export const chapters: ChapterMeta[] = [
   electrochemMeta,
   straightLinesMeta,
   calculusMeta,
+  periodicMotionMeta,
+  semiconductorMeta,
+  chemEquilibriumMeta,
+  complexNumbersMeta,
 ] as ChapterMeta[]
 export const defaultChapterId = 'magnetic-current'
 
 export const formulas: Formula[] = [
+  shmTimePeriod,
+  transistorAlphaBeta,
+  kpKcRelation,
+  complexModulusArgument,
+
   solubilityProduct,
   nernstEquation,
   straightLineAngle,

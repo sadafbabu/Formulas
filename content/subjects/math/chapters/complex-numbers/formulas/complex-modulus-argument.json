@@ -1,0 +1,33 @@
+{
+  "id": "complex-modulus-argument",
+  "chapter": "complex-numbers",
+  "title": "Modulus, Argument & De Moivre's Theorem",
+  "titleBn": "জটিল সংখ্যার পরমমান, নতি ও ডিময়ভারের উপপাদ্য",
+  "summary": "জটিল সংখ্যা z = a + ib এর মডুলাস, আর্গুমেন্ট এবং ডিময়ভারের সূত্র",
+  "latex": "|z| = r = \\sqrt{a^2 + b^2}, \\quad \\text{Arg}(z) = \\theta = \\tan^{-1}\\left(\\frac{b}{a}\\right), \\quad (\\cos\\theta + i\\sin\\theta)^n = \\cos(n\\theta) + i\\sin(n\\theta)",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "z", "meaning": "জটিল সংখ্যা (a + ib)", "unit": "সংখ্যা" },
+    { "symbol": "|z|", "meaning": "মডুলাস (পরমমান)", "unit": "একক" },
+    { "symbol": "\\text{Arg}(z)", "meaning": "প্রধান আর্গুমেন্ট (-π < θ ≤ π)", "unit": "রেডিয়ান/ডিগ্রী" },
+    { "symbol": "i", "meaning": "কাল্পনিক একক (i² = -1)", "unit": "একক" }
+  ],
+  "derivation": {
+    "lead": "আর্গাঁ চিত্রে (Argand Diagram) কার্তেসীয় স্থানাঙ্ক (a, b) কে পোলার স্থানাঙ্ক (r, θ) এ রূপান্তর করে প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "পোলার আকৃতি",
+        "latex": "z = r (\\cos\\theta + i \\sin\\theta) = r e^{i \\theta} \\implies z^n = r^n e^{i n \\theta} = r^n (\\cos n\\theta + i \\sin n\\theta)",
+        "note": "এককের ঘনমূল ১, ω, ω² এর যোগফল ১ + ω + ω² = 0 এবং ω³ = 1"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Hard",
+      "question": "z = 1 - i\\sqrt{3} জটিল সংখ্যার মডুলাস ও প্রধান আর্গুমেন্ট কত?",
+      "answer": "a = 1, \\, b = -\\sqrt{3} (4th quadrant) \\implies |z| = \\sqrt{1^2 + (-\\sqrt{3})^2} = 2, \\quad \\text{Arg}(z) = -\\tan^{-1}\\left(\\frac{\\sqrt{3}}{1}\\right) = -\\frac{\\pi}{3} \\text{ (বা } -60^\\circ\\text{)}"
+    }
+  ]
+}
