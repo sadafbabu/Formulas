@@ -1,16 +1,16 @@
 # Formulas
 
-A5 formula book (black theme) — screen spreads + future A4-landscape print.
+A5 formula book (dark grey, slideshow-style) for HSC / admission.
 
-## What’s in this sample
+## Current chapter
 
-One **average template spread** for Physics / Newtonian Mechanics:
+**তড়িত প্রবাহের চৌম্বক ক্রিয়া** — Magnetic Effects of Current
 
-- A5 pages paired as a landscape spread on desktop
-- Single-page stack on mobile
-- Tags (`HSC`, `Eng Admission`, `Medical`, …) beside each formula
-- **বিস্তারিত →** opens a derivation page (`/formula/:id`)
-- Search + tag filter
+Each formula has:
+- short name + one-line note
+- tags (HSC / Eng Admission / Medical / …)
+- **Σ icon** → symbols, units, constant values
+- **ⓘ icon** → how it comes + full derivation page
 
 ## Develop
 
@@ -19,24 +19,15 @@ npm install
 npm run dev
 ```
 
-```bash
-npm run build
-npm run preview
-```
-
-## Content layout
-
-New formulas = data only (no UI changes):
+## Add content
 
 ```
-content/
-  tags.json
-  subjects/<subject>/
-    meta.json
-    formulas/<id>.json
+content/subjects/<subject>/chapters/<chapter>/
+  meta.json
+  formulas/<id>.json
 ```
 
-Each formula JSON: `title`, `titleBn`, `latex`, `summary`, `tags`, `derivation`.
+Formula JSON fields: `title`, `titleBn`, `latex`, `summary`, `tags`, `symbols[]`, `derivation`.
 
 ## Stack
 
