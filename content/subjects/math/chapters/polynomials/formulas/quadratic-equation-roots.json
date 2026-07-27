@@ -1,0 +1,32 @@
+{
+  "id": "quadratic-equation-roots",
+  "chapter": "polynomials",
+  "title": "Quadratic Equation Roots & Discriminant",
+  "titleBn": "দ্বিঘাত সমীকরণের মূল ও নিশ্চায়ক",
+  "summary": "ax² + bx + c = 0 সমীকরণের মূলদ্বয়ের যোগফল, গুণফল ও নিশ্চয়ক",
+  "latex": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}, \\quad \\alpha + \\beta = -\\frac{b}{a}, \\quad \\alpha \\beta = \\frac{c}{a}, \\quad D = b^2 - 4ac",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "\\alpha, \\beta", "meaning": "দ্বিঘাত সমীকরণের দুই মূল", "unit": "সংখ্যা" },
+    { "symbol": "D", "meaning": "নিশ্চায়ক (Discriminant)", "unit": "সংখ্যা" },
+    { "symbol": "a, b, c", "meaning": "সমীকরণের সহগ ও ধ্রুবক", "unit": "সংখ্যা" }
+  ],
+  "derivation": {
+    "lead": "পূর্ণবর্গ প্রকাশ পদ্ধতি দ্বারা ax² + bx + c = 0 সমাধান করে মূলদ্বয়ের সম্পর্ক পাওয়া যায়।",
+    "steps": [
+      {
+        "title": "মূলের প্রকৃতি",
+        "latex": "D > 0 \\implies \\text{বাস্তব ও অসম}, \\quad D = 0 \\implies \\text{বাস্তব ও সমান}, \\quad D < 0 \\implies \\text{জটিল/জটিল জোড়}",
+        "note": "ত্রিঘাত সমীকরণের মূলের যোগফল S1 = -b/a, S2 = c/a, S3 = -d/a"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Hard",
+      "question": "3x² - 5x + p = 0 সমীকরণের একটি মূল অপরটির দ্বিগুণ হলে p এর মান কত?",
+      "answer": "\\alpha + 2\\alpha = \\frac{5}{3} \\implies 3\\alpha = \\frac{5}{3} \\implies \\alpha = \\frac{5}{9}, \\quad \\alpha \\cdot 2\\alpha = \\frac{p}{3} \\implies 2 \\left(\\frac{5}{9}\\right)^2 = \\frac{p}{3} \\implies p = 3 \\times 2 \\times \\frac{25}{81} = \\frac{50}{27}"
+    }
+  ]
+}

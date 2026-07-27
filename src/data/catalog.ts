@@ -22,9 +22,20 @@ import periodicMotionMeta from '../../content/subjects/physics/chapters/periodic
 import semiconductorMeta from '../../content/subjects/physics/chapters/semiconductor/meta.json'
 import idealGasMeta from '../../content/subjects/physics/chapters/ideal-gas/meta.json'
 import waveOpticsMeta from '../../content/subjects/physics/chapters/wave-optics/meta.json'
+import geometricOpticsMeta from '../../content/subjects/physics/chapters/geometric-optics/meta.json'
 
+import chemicalBondingMeta from '../../content/subjects/chemistry/chapters/chemical-bonding/meta.json'
 import organicChemMeta from '../../content/subjects/chemistry/chapters/organic-chem/meta.json'
+
 import binomialTheoremMeta from '../../content/subjects/math/chapters/binomial-theorem/meta.json'
+import polynomialsMeta from '../../content/subjects/math/chapters/polynomials/meta.json'
+import trigEquationsMeta from '../../content/subjects/math/chapters/trigonometric-equations/meta.json'
+
+import lensMakersFormula from '../../content/subjects/physics/chapters/geometric-optics/formulas/lens-makers-formula.json'
+import hybridizationShapes from '../../content/subjects/chemistry/chapters/chemical-bonding/formulas/hybridization-shapes.json'
+import quadraticEquationRoots from '../../content/subjects/math/chapters/polynomials/formulas/quadratic-equation-roots.json'
+import generalSolutionsTrig from '../../content/subjects/math/chapters/trigonometric-equations/formulas/general-solutions-trig.json'
+
 
 import shmTimePeriod from '../../content/subjects/physics/chapters/periodic-motion/formulas/shm-time-period.json'
 import transistorAlphaBeta from '../../content/subjects/physics/chapters/semiconductor/formulas/transistor-alpha-beta.json'
@@ -165,20 +176,25 @@ export const allChapters: ChapterMeta[] = [
   { id: 'ideal-gas', slug: 'ideal-gas', name: 'Ideal Gas & Kinetic Theory', nameBn: 'আদর্শ গ্যাস ও গতিতত্ত্ব', subjectId: 'physics', paperId: '1st-paper', order: 10, formulaCount: 1, isReady: true },
 
   // Physics 2nd Paper (Extra)
+  { id: 'geometric-optics', slug: 'geometric-optics', name: 'Geometric Optics', nameBn: 'জ্যামিতিক আলোকবিজ্ঞান', subjectId: 'physics', paperId: '2nd-paper', order: 5, formulaCount: 1, isReady: true },
   { id: 'wave-optics', slug: 'wave-optics', name: 'Wave Optics', nameBn: 'ভৌত আলোকবিজ্ঞান', subjectId: 'physics', paperId: '2nd-paper', order: 6, formulaCount: 1, isReady: true },
   { id: 'semiconductor', slug: 'semiconductor', name: 'Semiconductor & Electronics', nameBn: 'সেমিকন্ডাক্টর ও ইলেকট্রনিক্স', subjectId: 'physics', paperId: '2nd-paper', order: 10, formulaCount: 1, isReady: true },
   
   // Chemistry
   { id: 'qualitative-chem', slug: 'qualitative-chem', name: 'Qualitative Chemistry', nameBn: 'গুণগত রসায়ন', subjectId: 'chemistry', paperId: '1st-paper', order: 2, formulaCount: 2, isReady: true },
+  { id: 'chemical-bonding', slug: 'chemical-bonding', name: 'Chemical Bonding & Structure', nameBn: 'পর্যায়বৃত্ত ধর্ম ও রাসায়নিক বন্ধন', subjectId: 'chemistry', paperId: '1st-paper', order: 3, formulaCount: 1, isReady: true },
   { id: 'chemical-equilibrium', slug: 'chemical-equilibrium', name: 'Chemical Equilibrium & Kinetics', nameBn: 'রাসায়নিক পরিবর্তন ও সাম্যাবস্থা', subjectId: 'chemistry', paperId: '1st-paper', order: 4, formulaCount: 1, isReady: true },
   { id: 'organic-chem', slug: 'organic-chem', name: 'Organic Chemistry', nameBn: 'জৈব রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 2, formulaCount: 1, isReady: true },
   { id: 'electrochemistry', slug: 'electrochemistry', name: 'Electrochemistry', nameBn: 'তড়িৎ রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 4, formulaCount: 2, isReady: true },
 
   // Math
   { id: 'straight-lines', slug: 'straight-lines', name: 'Straight Lines', nameBn: 'সরলরেখা', subjectId: 'math', paperId: '1st-paper', order: 3, formulaCount: 2, isReady: true },
+  { id: 'trigonometric-equations', slug: 'trigonometric-equations', name: 'Trigonometric Equations', nameBn: 'ত্রিকোণমিতিক সমীকরণ', subjectId: 'math', paperId: '2nd-paper', order: 7, formulaCount: 1, isReady: true },
   { id: 'calculus', slug: 'calculus', name: 'Calculus & Integration', nameBn: 'ক্যালকুলাস ও যোগজীকরণ', subjectId: 'math', paperId: '1st-paper', order: 9, formulaCount: 2, isReady: true },
   { id: 'complex-numbers', slug: 'complex-numbers', name: 'Complex Numbers', nameBn: 'জটিল সংখ্যা', subjectId: 'math', paperId: '2nd-paper', order: 3, formulaCount: 1, isReady: true },
+  { id: 'polynomials', slug: 'polynomials', name: 'Polynomials & Equations', nameBn: 'বহুপদী ও বহুপদী সমীকরণ', subjectId: 'math', paperId: '2nd-paper', order: 4, formulaCount: 1, isReady: true },
   { id: 'binomial-theorem', slug: 'binomial-theorem', name: 'Binomial Theorem', nameBn: 'দ্বিপদী উপপাদ্য', subjectId: 'math', paperId: '2nd-paper', order: 5, formulaCount: 1, isReady: true },
+
 
 
 ]
@@ -206,10 +222,19 @@ export const chapters: ChapterMeta[] = [
   waveOpticsMeta,
   organicChemMeta,
   binomialTheoremMeta,
+  geometricOpticsMeta,
+  chemicalBondingMeta,
+  polynomialsMeta,
+  trigEquationsMeta,
 ] as ChapterMeta[]
 export const defaultChapterId = 'magnetic-current'
 
 export const formulas: Formula[] = [
+  lensMakersFormula,
+  hybridizationShapes,
+  quadraticEquationRoots,
+  generalSolutionsTrig,
+
   rmsVelocity,
   youngsDoubleSlit,
   grignardReaction,

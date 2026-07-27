@@ -1,0 +1,34 @@
+{
+  "id": "lens-makers-formula",
+  "chapter": "geometric-optics",
+  "title": "Lens Maker's Formula & Thin Lens Equation",
+  "titleBn": "লেন্স প্রস্তুতকারীর সমীকরণ ও সাধারণ লেন্স সূত্র",
+  "summary": "লেন্সের ফোকাস দূরত্ব, বক্রতার ব্যাসার্ধ ও উপাদানের প্রতিসরাঙ্ক",
+  "latex": "\\frac{1}{f} = (\\mu - 1)\\left(\\frac{1}{R_1} - \\frac{1}{R_2}\\right), \\quad \\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v}, \\quad P = \\frac{1}{f \\text{ (in m)}}",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "f", "meaning": "ফোকাস দূরত্ব (Focus length)", "unit": "m" },
+    { "symbol": "\\mu", "meaning": "লেন্সের উপাদানের প্রতিসরাঙ্ক", "unit": "এককহীন" },
+    { "symbol": "R_1, R_2", "meaning": "লেন্সের ১ম ও ২য় তলের বক্রতার ব্যাসার্ধ", "unit": "m" },
+    { "symbol": "u, v", "meaning": "লক্ষ্যবস্তু ও প্রতিবিম্বের দূরত্ব", "unit": "m" },
+    { "symbol": "P", "meaning": "লেন্সের ক্ষমতা (Power)", "unit": "D (Diopter)" }
+  ],
+  "derivation": {
+    "lead": "গেল গোলকীয় তলে প্রতিসরণের সূত্র μ2/v - μ1/u = (μ2 - μ1)/R পরপর দুটি তলে প্রয়োগ করে প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "প্রতিসরণ সমীকরণ সমন্বয়",
+        "latex": "\\frac{1}{v} - \\frac{1}{u} = (\\mu - 1)\\left(\\frac{1}{R_1} - \\frac{1}{R_2}\\right) = \\frac{1}{f}",
+        "note": "উত্তল তলের জন্য R ধনাত্মক এবং অবতল তলের জন্য R ঋণাত্মক"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Hard",
+      "question": "একটি উভোত্তল লেন্সের উপাদানের প্রতিসরাঙ্ক 1.5 এবং বক্রতার ব্যাসার্ধ দুটি যথাক্রমে 20 cm ও 30 cm হলে শূন্যে লেন্সটির ফোকাস দূরত্ব কত?",
+      "answer": "R_1 = +20\\text{ cm}, \\, R_2 = -30\\text{ cm} \\implies \\frac{1}{f} = (1.5 - 1)\\left(\\frac{1}{20} - \\left(-\\frac{1}{30}\\right)\\right) = 0.5 \\times \\frac{5}{60} = \\frac{1}{24} \\implies f = +24\\text{ cm}"
+    }
+  ]
+}
