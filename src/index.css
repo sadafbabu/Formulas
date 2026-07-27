@@ -450,6 +450,16 @@ button {
   overflow: hidden;
 }
 
+.a5-page.is-sparse .page-body {
+  justify-content: flex-start;
+}
+
+.a5-page.is-sparse .formula {
+  flex: 0 0 auto;
+  min-height: 4.2rem;
+  max-height: 5.6rem;
+}
+
 .page-footer {
   display: none;
 }

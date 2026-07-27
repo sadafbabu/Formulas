@@ -24,6 +24,8 @@ export function SpreadViewer({
   const isSpread = mode === 'desktop'
   const chapter = getChapter(chapterId) ?? getChapter(defaultChapterId)!
 
+  const perPage = mode === 'desktop' ? 7 : mode === 'tablet' ? 6 : 5
+
   const { pages, emptyFilter } = useMemo(() => {
     const q = query.trim().toLowerCase()
     const source = formulasForChapter(chapterId)
@@ -40,9 +42,8 @@ export function SpreadViewer({
     if (!filtered.length) {
       return { pages: [], emptyFilter: true }
     }
-    const perPage = mode === 'desktop' ? 7 : mode === 'tablet' ? 6 : 5
     return { pages: buildPages(filtered, perPage), emptyFilter: false }
-  }, [activeTag, query, chapterId, mode])
+  }, [activeTag, query, chapterId, perPage])
 
   const [pageIndex, setPageIndex] = useState(0)
   const [dir, setDir] = useState<'next' | 'prev' | 'none'>('none')
@@ -171,6 +172,7 @@ export function SpreadViewer({
                   chapter={chapter}
                   side={singleWide ? 'single' : 'left'}
                   activeTag={activeTag}
+                  perPage={perPage}
                 />
               </div>
             )}
@@ -181,6 +183,7 @@ export function SpreadViewer({
                   chapter={chapter}
                   side="right"
                   activeTag={activeTag}
+                  perPage={perPage}
                 />
               </div>
             )}
@@ -224,6 +227,7 @@ export function SpreadViewer({
                 chapter={chapter}
                 side="single"
                 activeTag={activeTag}
+                perPage={perPage}
               />
             </div>
           )}

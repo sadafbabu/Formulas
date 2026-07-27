@@ -6,6 +6,8 @@ interface A5PageProps {
   chapter: ChapterMeta
   side?: 'left' | 'right' | 'single'
   activeTag?: TagId | null
+  /** Expected formulas per full page — sparse pages pack to the top */
+  perPage?: number
 }
 
 export function A5Page({
@@ -13,13 +15,15 @@ export function A5Page({
   chapter,
   side = 'single',
   activeTag,
+  perPage = 7,
 }: A5PageProps) {
   const sideClass =
     side === 'left' ? 'is-left' : side === 'right' ? 'is-right' : 'is-single'
+  const sparse = page.formulas.length < perPage
 
   return (
     <section
-      className={`a5-page ${sideClass}`}
+      className={`a5-page ${sideClass}${sparse ? ' is-sparse' : ''}`}
       aria-label={`Page ${page.pageNumber}`}
     >
       <header className="page-header">
