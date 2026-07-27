@@ -1,0 +1,34 @@
+{
+  "id": "youngs-double-slit",
+  "chapter": "wave-optics",
+  "title": "Young's Double Slit Fringe Width",
+  "titleBn": "ইয়ং-এর দ্বি-চির পরীক্ষায় ডোরার ব্যবধান",
+  "summary": "ব্যতিচার ডোরার প্রস্থ ও পর পর দুটি উজ্জ্বল/ অন্ধকার ডোরার দূরত্ব",
+  "latex": "\\beta = \\frac{\\lambda D}{d}, \\quad \\Delta x = \\frac{\\lambda D}{2 d}, \\quad y_n = n \\frac{\\lambda D}{d} \\text{ (Bright)}",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "\\beta", "meaning": "ডোরার ব্যবধান (Fringe width)", "unit": "m" },
+    { "symbol": "\\lambda", "meaning": "আলোর তরঙ্গদৈর্ঘ্য", "unit": "m" },
+    { "symbol": "D", "meaning": "চির হতে পর্দার দূরত্ব", "unit": "m" },
+    { "symbol": "d", "meaning": "দ্বি-চিরের মধ্যবর্তী দূরত্ব", "unit": "m" },
+    { "symbol": "\\Delta x", "meaning": "একটি ডোরার প্রস্থ", "unit": "m" }
+  ],
+  "derivation": {
+    "lead": "পথ পার্থক্য ΔS = d sinθ ≈ d (y/D) = n λ গঠনমূলক ব্যতিচারের শর্ত হতে প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "ডোরার ব্যবধান নির্ণয়",
+        "latex": "y_n = n \\frac{\\lambda D}{d} \\implies \\beta = y_{n+1} - y_n = \\frac{\\lambda D}{d}",
+        "note": "ধ্বংসাত্মক ব্যতিচারের জন্য পথ পার্থক্য = (2n + 1) λ/2"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Hard",
+      "question": "d = 0.4 mm, D = 1 m এবং λ = 6000 Å হলে পর পর দুটি উজ্জ্বল ডোরার কেন্দ্রগুলোর মধ্যে দূরত্ব (β) কত?",
+      "answer": "\\beta = \\frac{6000 \\times 10^{-10} \\times 1}{0.4 \\times 10^{-3}} = \\frac{6 \\times 10^{-7}}{4 \\times 10^{-4}} = 1.5 \\times 10^{-3}\\text{ m} = 1.5\\text{ mm}"
+    }
+  ]
+}

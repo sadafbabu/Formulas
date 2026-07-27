@@ -1,0 +1,32 @@
+{
+  "id": "grignard-reaction",
+  "chapter": "organic-chem",
+  "title": "Grignard Reagent Synthesis Reactions",
+  "titleBn": "গ্রিগনার্ড বিকারক ও অ্যালকোহল সংস্লেষণ",
+  "summary": "R-MgX এর অ্যালডিহাইড ও কিটোনের সাথে সংযোজন এবং অ্যালকোহল প্রস্তুতি",
+  "latex": "R\\text{-MgX} + HCHO \\xrightarrow{H_2O/H^+} R\\text{-CH}_2\\text{OH} \\quad (1^\\circ), \\quad R\\text{-MgX} + R'CHO \\xrightarrow{H_2O/H^+} R\\text{-CH}(OH)\\text{-}R' \\quad (2^\\circ)",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "R\\text{-MgX}", "meaning": "অ্যালকাইল ম্যাগনেসিয়াম হ্যালয়েড (গ্রিগনার্ড বিকারক)", "unit": "যৌগ" },
+    { "symbol": "HCHO", "meaning": "ফরমালডিহাইড (মেথান্যাল)", "unit": "অ্যালডিহাইড" },
+    { "symbol": "1^\\circ, 2^\\circ, 3^\\circ", "meaning": "প্রাথমিক, মাধ্যমিক ও টারশিয়ারী অ্যালকোহল", "unit": "শ্রেণী" }
+  ],
+  "derivation": {
+    "lead": "R-MgX এর অ্যালকাইল অংশ কার্বোনাইল কার্বনে নিউক্লিওফিলিক সংযোজন ঘটায়।",
+    "steps": [
+      {
+        "title": "নিউক্লিওফিলিক সংযোজন নীতি",
+        "latex": "R^{\\delta-} \\dots Mg^{\\delta+}X + >C^{\\delta+}=O^{\\delta-} \\rightarrow >C(R)-O-MgX \\xrightarrow{H_2O} >C(R)-OH + Mg(OH)X",
+        "note": "প্রোপানোন (কিটোন) এর সাথে বিক্রিয়ায় ৩° অ্যালকোহল তৈরি হয়"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Hard",
+      "question": "মিথাইল ম্যাগনেসিয়াম আয়োডাইড (CH3MgI) এর সাথে প্রোপানোন (CH3COCH3) বিক্রিয়া করে আর্দ্রবিশ্লেষিত হলে কোন অ্যালকোহল উৎপন্ন হবে?",
+      "answer": "\\text{CH}_3\\text{MgI} + (\\text{CH}_3)_2\\text{C}=O \\rightarrow (\\text{CH}_3)_3\\text{C-O-MgI} \\xrightarrow{H_2O} (\\text{CH}_3)_3\\text{C-OH} \\text{ (2-মিথাইলপ্রোপান-2-অল / ২-মেথাইল ২-প্রোপানল / ৩° অ্যালকোহল)}"
+    }
+  ]
+}

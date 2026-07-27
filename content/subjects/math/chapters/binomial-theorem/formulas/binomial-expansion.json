@@ -1,0 +1,33 @@
+{
+  "id": "binomial-expansion",
+  "slug": "binomial-expansion",
+  "chapter": "binomial-theorem",
+  "title": "Binomial Expansion & General Term",
+  "titleBn": "দ্বিপদী বিস্তৃতি ও সাধারণ পদ",
+  "summary": "(a + x)ⁿ এর বিস্তৃতি এবং (r + 1)-তম পদ নির্ণয়",
+  "latex": "T_{r+1} = \\binom{n}{r} a^{n-r} x^r, \\quad (1 + x)^n = 1 + n x + \\frac{n(n-1)}{2!} x^2 + \\dots",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "T_{r+1}", "meaning": "(r + 1)-তম সাধারণ পদ", "unit": "পদ" },
+    { "symbol": "\\binom{n}{r}", "meaning": "দ্বিপদী সহগ ⁿC_r", "unit": "সংখ্যা" },
+    { "symbol": "n", "meaning": "ঘাত/সূচক", "unit": "পূর্ণসংখ্যা/ঋণাত্মক/ভগ্নাংশ" }
+  ],
+  "derivation": {
+    "lead": "গাণিতিক আরোহ প্রণালী (Mathematical Induction) দ্বারা দ্বিপদী উপপাদ্য প্রমাণিত।",
+    "steps": [
+      {
+        "title": "সাধারণ পদ রূপায়ণ",
+        "latex": "T_{r+1} = \\binom{n}{r} a^{n-r} x^r = \\frac{n!}{r!(n-r)!} a^{n-r} x^r",
+        "note": "x বর্জিত বা স্বাধীন পদের জন্য x এর সূচক = 0 ধরা হয়"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Hard",
+      "question": "(2x + 1/x²)⁹ এর বিস্তৃতিতে x মুক্ত পদটির মান কত?",
+      "answer": "T_{r+1} = \\binom{9}{r} (2x)^{9-r} (x^{-2})^r = \\binom{9}{r} 2^{9-r} x^{9 - 3r} \\implies 9 - 3r = 0 \\implies r = 3 \\implies T_4 = \\binom{9}{3} 2^6 = 84 \\times 64 = 5376"
+    }
+  ]
+}
