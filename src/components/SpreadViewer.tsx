@@ -194,9 +194,13 @@ export function SpreadViewer({
               <div className="progress-fill" style={{ width: `${progress * 100}%` }} />
             </div>
             <div className="page-indicator" aria-live="polite">
-              <span>{safeSpread + 1}</span>
+              <span>
+                {right
+                  ? `Pages ${String(left.pageNumber).padStart(2, '0')}–${String(right.pageNumber).padStart(2, '0')}`
+                  : `Page ${String(left.pageNumber).padStart(2, '0')}`}
+              </span>
               <span className="page-indicator-sep">/</span>
-              <span>{maxSpread + 1}</span>
+              <span>{String(pages.length).padStart(2, '0')}</span>
             </div>
           </div>
         </div>
@@ -236,9 +240,9 @@ export function SpreadViewer({
               <div className="progress-fill" style={{ width: `${progress * 100}%` }} />
             </div>
             <div className="page-indicator" aria-live="polite">
-              <span>{safePage + 1}</span>
+              <span>Page {String(safePage + 1).padStart(2, '0')}</span>
               <span className="page-indicator-sep">/</span>
-              <span>{pages.length}</span>
+              <span>{String(pages.length).padStart(2, '0')}</span>
             </div>
           </div>
         </div>
