@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// GitHub Pages project site: https://<user>.github.io/Formulas/
+// Cloudflare / local root deploy. Override with VITE_BASE=/Formulas/ for GitHub Pages.
 export default defineConfig({
-  base: '/Formulas/',
+  base: process.env.VITE_BASE || '/',
   plugins: [react()],
 })

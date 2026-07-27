@@ -72,7 +72,7 @@ export function formulasForChapter(chapterId: string = defaultChapterId): Formul
 
 /** Compact pack: denser pages, top-aligned (no stretch) */
 export function buildPages(items: Formula[]): BookPage[] {
-  const perPage = 6
+  const perPage = 7
   const pages: BookPage[] = []
   for (let i = 0; i < items.length; i += perPage) {
     pages.push({
