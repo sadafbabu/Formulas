@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// GitHub Pages base URL /Formulas/
+// Supports Cloudflare Pages (root '/') and GitHub Pages ('/Formulas/')
 export default defineConfig({
-  base: process.env.VITE_BASE || '/Formulas/',
+  base: process.env.VITE_BASE || '/',
   plugins: [react()],
 })
