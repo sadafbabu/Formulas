@@ -3,33 +3,35 @@
   "title": "Cyclotron Path Radius",
   "titleBn": "সাইক্লোট্রনে ঘূর্ণন পথের ব্যাসার্ধ",
   "latex": "r = \\frac{m v}{q B}",
-  "summary": "চৌম্বক ক্ষেত্র B তে লম্বভাবে গতিশীল আধানের বৃত্তাকার ঘূর্ণন পথের ব্যাসার্ধ।",
-  "tags": ["hsc", "eng-admission", "varsity", "4-star"],
+  "summary": "চৌম্বক ক্ষেত্রে গতিশীল আধানের বৃত্তাকার ঘূর্ণন পথের ব্যাসার্ধ।",
+  "tags": ["hsc", "eng-admission", "varsity", "1-star"],
   "chapter": "magnetic-current",
-  "importance": 4,
+  "importance": 1,
   "subjects": ["physics"],
-  "related": ["lorentz", "cyclotron-freq"],
+  "related": ["cyclotron-freq", "lorentz"],
   "symbols": [
     { "symbol": "r", "meaning": "ঘূর্ণন পথের ব্যাসার্ধ", "unit": "m" },
-    { "symbol": "m", "meaning": "কণার ভর", "unit": "kg" },
-    { "symbol": "v", "meaning": "কণার বেগ", "unit": "m/s" },
-    { "symbol": "q", "meaning": "আধানের পরিমাণ", "unit": "C" },
-    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" }
+    { "symbol": "m", "meaning": "গতিশীল কণার ভর", "unit": "kg" },
+    { "symbol": "v", "meaning": "কণার লম্ব বেগ", "unit": "m/s" },
+    { "symbol": "q", "meaning": "কণার আধান", "unit": "C" },
+    { "symbol": "B", "meaning": "সুষম চৌম্বক ক্ষেত্র", "unit": "T" }
   ],
   "derivation": {
-    "lead": "চৌম্বক বলকে কেন্দ্রমুখী বলের সাথে সমতা করে:",
+    "lead": "কেন্দ্রমুখী বল ও লরেঞ্জ চৌম্বক বলের সমতা:",
     "steps": [
       {
-        "title": "বল সাম্য সমীকরণ",
-        "latex": "q v B = \\frac{m v^2}{r}",
-        "note": "চৌম্বক বল কেন্দ্রমুখী বল প্রদান করে।"
-      },
-      {
-        "title": "ব্যাসার্ধ প্রকাশমালা",
-        "latex": "r = \\frac{m v}{q B} = \\frac{p}{q B}",
-        "note": "কণার ভরবেগ $p = mv$ বাড়লে ব্যাসার্ধ r বৃদ্ধি পায়।"
+        "title": "বল সমতা সমীকরণ",
+        "latex": "\\frac{m v^2}{r} = q v B \\implies r = \\frac{m v}{q B}",
+        "note": "ভরবেগ p বাড়লে ঘূর্ণন ব্যাসার্ধ r সমানুপাতিকভাবে বাড়ে।"
       }
     ],
-    "assumptions": ["বেগ v চৌম্বক ক্ষেত্র B এর সমকোণে স্থিত।"]
-  }
+    "assumptions": ["কণাটি চৌম্বক ক্ষেত্রের সমকোণে ($90^\\circ$) প্রবেশ করে।"]
+  },
+  "questions": [
+    {
+      "examType": "BUET / CKREU Admission (Hard)",
+      "question": "একটি আলফা কণা (m = 6.64 × 10⁻²⁷ kg, q = 3.2 × 10⁻¹⁹ C) 0.8 T চৌম্বক ক্ষেত্রে ২ × ১০⁶ m/s বেগে সমকোণে ঘুরলে ব্যাসার্ধ কত?",
+      "answer": "r = \\frac{6.64 \\times 10^{-27} \\times 2 \\times 10^6}{3.2 \\times 10^{-19} \\times 0.8} = 0.051875 \\text{ m} = 5.1875 \\text{ cm}"
+    }
+  ]
 }

@@ -4,9 +4,9 @@
   "titleBn": "গ্যালভানোমিটার থেকে অ্যামিটার (শাণ্ট রূপান্তর)",
   "latex": "S = \\frac{I_g \\cdot G}{I - I_g}",
   "summary": "গ্যালভানোমিটারের সাথে সমান্তরালে ক্ষুদ্র মানের রোধ (Shunt S) যুক্ত করে অ্যামিটারে রূপান্তর।",
-  "tags": ["hsc", "eng-admission", "varsity", "5-star"],
+  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
   "chapter": "magnetic-current",
-  "importance": 5,
+  "importance": 3,
   "subjects": ["physics"],
   "related": ["galvanometer-voltmeter"],
   "symbols": [
@@ -30,5 +30,12 @@
       }
     ],
     "assumptions": ["গ্যালভানোমিটারের সর্বোচ্চ প্রবাহসীমা $I_g$ অতিক্রম করা যাবে না।"]
-  }
+  },
+  "questions": [
+    {
+      "examType": "BUET / CKREU Admission (Hard)",
+      "question": "১০০ Ω রোধের একটি গ্যালভানোমিটার সর্বোচ্চ ১০ mA প্রবাহ মাপতে পারে। একে ১০ A পরিমাপের অ্যামিটারে রূপান্তর করতে কত শাণ্ট লাগবে? শাণ্ট যুক্ত করার পর কুণ্ডলীর মধ্য দিয়ে মোট প্রবাহের কত শতাংশ যাবে?",
+      "answer": "S = \\frac{0.01 \\times 100}{10 - 0.01} = 0.1001 \\text{ } \\Omega, \\quad \\frac{I_g}{I} \\times 100\\% = 0.1\\%"
+    }
+  ]
 }

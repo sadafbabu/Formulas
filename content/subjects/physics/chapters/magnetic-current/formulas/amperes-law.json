@@ -2,32 +2,34 @@
   "id": "amperes-law",
   "title": "Ampere's Circuital Law",
   "titleBn": "অ্যাম্পিয়ারের সার্কিটাল সূত্র",
-  "latex": "\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{\\text{enc}}",
-  "summary": "যেকোনো বদ্ধ লুপ বরাবর চৌম্বক ক্ষেত্রের রৈখিক সমাকলন ওই আবদ্ধ ক্ষেত্রের মোট এনক্লোজড তড়িৎপ্রবাহের μ0 গুণ।",
-  "tags": ["hsc", "eng-admission", "varsity", "5-star"],
+  "latex": "\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{enc}",
+  "summary": "যেকোনো বদ্ধ পথ বরাবর চৌম্বক ক্ষেত্রের রৈখিক সমাকলন ওই আবদ্ধ ক্ষেত্রের মোট প্রবাহের μ₀ গুণ।",
+  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
   "chapter": "magnetic-current",
-  "importance": 5,
+  "importance": 3,
   "subjects": ["physics"],
-  "related": ["solenoid", "toroid"],
+  "related": ["wire-field", "solenoid", "toroid"],
   "symbols": [
-    { "symbol": "\\oint \\vec{B} \\cdot d\\vec{l}", "meaning": "চৌম্বক ক্ষেত্রের আবদ্ধ রৈখিক সমাকলন", "unit": "T·m" },
+    { "symbol": "\\oint \\vec{B} \\cdot d\\vec{l}", "meaning": "চৌম্বক ক্ষেত্রের বদ্ধ রৈখিক সমাকলন", "unit": "T·m" },
     { "symbol": "\\mu_0", "meaning": "শূন্যস্থানের চৌম্বক প্রবেশ্যতা", "unit": "T·m/A" },
-    { "symbol": "I_{\\text{enc}}", "meaning": "আবদ্ধ লুপের অভ্যন্তরীণ মোট এনক্লোজড কারেন্ট", "unit": "A" }
+    { "symbol": "I_{enc}", "meaning": "অ্যাম্পিয়ারিয়ান লুপ দ্বারা আবদ্ধ মোট বীজগণিতীয় প্রবাহ", "unit": "A" }
   ],
   "derivation": {
-    "lead": "অ্যাম্পিয়ারিয়ান লুপ বরাবর চৌম্বক ক্ষেত্রের প্রবাহ মান হিসাব করা হয়:",
+    "lead": "সংমেতি ব্যবহার করে B নির্ণয়:",
     "steps": [
       {
-        "title": "বৃত্তাকার পথ সমাকলন",
-        "latex": "\\oint B dl = B \\oint dl = B (2\\pi r)",
-        "note": "সুষম বৃত্তাকার পথের জন্য $B$ ধ্রুবক।"
-      },
-      {
-        "title": "বায়োট-সাভার্ট ক্ষেত্র প্রতিস্থাপন",
-        "latex": "B (2\\pi r) = \\left(\\frac{\\mu_0 I}{2\\pi r}\\right) (2\\pi r) = \\mu_0 I",
-        "note": "অ্যাম্পিয়ারের সার্কিটাল সূত্রের প্রাথমিক রূপ প্রমানিত।"
+        "title": "সোজা তারের প্রয়োগ",
+        "latex": "B \\oint dl = B (2\\pi r) = \\mu_0 I \\implies B = \\frac{\\mu_0 I}{2\\pi r}",
+        "note": "অ্যাম্পিয়ারের সূত্র স্থির তড়িচ্চৌম্বক বিজ্ঞানে একটি মৌলিক সমীকরণ।"
       }
     ],
-    "assumptions": ["স্থির ও অপরিবর্তনশীল তড়িৎপ্রবাহ ক্ষেত্র বিদ্যমান।"]
-  }
+    "assumptions": ["স্থির বিদ্যুৎপ্রবাহ এবং উচ্চ সংমেতিপূর্ণ অ্যাম্পিয়ারিয়ান লুপ বিবেচনা করা হয়েছে।"]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Special (Hard)",
+      "question": "একটি বদ্ধ অ্যাম্পিয়ারিয়ান লুপের মধ্য দিয়ে তিনটি তার যথাক্রমে +১০ A, -৪ A এবং +২ A প্রবাহ বহন করছে। ওই লুপ বরাবর ∮ B·dl এর মান কত?",
+      "answer": "I_{\\text{enc}} = +10 - 4 + 2 = 8 \\text{ A}. \\quad \\oint \\vec{B} \\cdot d\\vec{l} = 4\\pi \\times 10^{-7} \\times 8 = 3.2\\pi \\times 10^{-6} \\approx 1.005 \\times 10^{-5} \\text{ T}\\cdot\\text{m}"
+    }
+  ]
 }

@@ -1,36 +1,38 @@
 {
   "id": "hall-effect",
-  "title": "Hall Voltage & Hall Coefficient",
-  "titleBn": "হল ভোল্টেজ ও হল গুণাঙ্ক",
-  "latex": "V_H = \\frac{I B}{n q d}, \\quad R_H = \\frac{1}{n q}",
-  "summary": "চৌম্বক ক্ষেত্রে অবস্থিত তড়িৎবাহী পরিবাহীতে প্রস্থ বরাবর সৃষ্ট বিভব পার্থক্য হল হল ভোল্টেজ।",
-  "tags": ["hsc", "eng-admission", "varsity", "2-star"],
+  "title": "Hall Effect Voltage",
+  "titleBn": "হল প্রভাব ও হল বিভব",
+  "latex": "V_H = \\frac{I B}{n q d}",
+  "summary": "চৌম্বক ক্ষেত্রে অবস্থিত সুপরিবাহীর দুই পার্শ্বের মধ্যে সৃষ্ট হল বিভব পার্থক্য।",
+  "tags": ["hsc", "eng-admission", "varsity", "1-star"],
   "chapter": "magnetic-current",
-  "importance": 2,
+  "importance": 1,
   "subjects": ["physics"],
-  "related": ["lorentz", "force-on-wire"],
+  "related": ["lorentz", "wire-field"],
   "symbols": [
-    { "symbol": "V_H", "meaning": "হল বিভব (Hall Voltage)", "unit": "V" },
-    { "symbol": "I", "meaning": "পরিবাহীর মধ্য দিয়ে মোট বিদ্যুৎপ্রবাহ", "unit": "A" },
-    { "symbol": "B", "meaning": "প্রযুক্ত চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "n", "meaning": "প্রতি একক আয়তনে মুক্ত ইলেকট্রনের সংখ্যা", "unit": "m⁻³" },
-    { "symbol": "d", "meaning": "পরিবাহীর পাতলা পাতের পুরুত্ব", "unit": "m" },
-    { "symbol": "q", "meaning": "চার্জের মান (e = 1.6 × 10⁻¹⁹ C)", "unit": "C" }
+    { "symbol": "V_H", "meaning": "হল বিভব পার্থক্য", "unit": "V" },
+    { "symbol": "I", "meaning": "প্রবাহক তলের বিদ্যুৎপ্রবাহ", "unit": "A" },
+    { "symbol": "B", "meaning": "লম্ব চৌম্বক ক্ষেত্র", "unit": "T" },
+    { "symbol": "n", "meaning": "একক আয়তনে মুক্ত আধান বাহকের সংখ্যা", "unit": "m⁻³" },
+    { "symbol": "q", "meaning": "আধানের মান", "unit": "C" },
+    { "symbol": "d", "meaning": "পরিবাহীর চৌম্বক ক্ষেত্র বরাবর বেধ", "unit": "m" }
   ],
   "derivation": {
-    "lead": "তড়িৎ বল ও চৌম্বক লরেন্জ বল সাম্যাবস্থায় পৌঁছালে হল ভোল্টেজ তৈরি হয়:",
+    "lead": "হল তড়িৎ ক্ষেত্র ও চৌম্বক বলের সাম্যাবস্থা:",
     "steps": [
       {
-        "title": "বল সাম্য সমীকরণ",
-        "latex": "q E_H = q v_d B \\implies E_H = v_d B",
-        "note": "$E_H$ হল হল তড়িৎ ক্ষেত্র এবং $v_d$ ড্রাফট বেগ।"
-      },
-      {
-        "title": "হল ভোল্টেজ প্রকাশমালা",
-        "latex": "V_H = E_H t = \\frac{I B}{n q d}",
-        "note": "হল গুণাঙ্ক $R_H = \\frac{E_H}{J B} = \\frac{1}{n q}$।"
+        "title": "বল সমতা ও হল বিভব",
+        "latex": "q E_H = q v_d B \\implies E_H = v_d B \\implies \\frac{V_H}{w} = \\frac{I}{n q w d} B \\implies V_H = \\frac{I B}{n q d}",
+        "note": "হল প্রভাবের মাধ্যমে আধান বাহকের প্রকৃতি (p-type বা n-type) নির্ণয় করা যায়।"
       }
     ],
-    "assumptions": ["পরিবাহী পাতের ক্ষেত্র সমকোণে চৌম্বক ক্ষেত্রের সাথে স্থিত।"]
-  }
+    "assumptions": ["আধান বাহক একজাতীয় এবং কেবল ইলেকট্রন বা হোল।"]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Special (Hard)",
+      "question": "১.০ mm পুরু তামার পাাতের মধ্য দিয়ে ৫০ A প্রবাহ যাচ্ছে। পাটি ১.২ T লম্ব চৌম্বক ক্ষেত্রে থাকলে হল বিভব পার্থক্য কত হবে? (তামায় n = 8.5 × 10²⁸ m⁻³)",
+      "answer": "V_H = \\frac{50 \\times 1.2}{8.5 \\times 10^{28} \\times 1.6 \\times 10^{-19} \\times 0.001} = \\frac{60}{1.36 \\times 10^7} = 4.41 \\times 10^{-6} \\text{ V} = 4.41 \\text{ } \\mu\\text{V}"
+    }
+  ]
 }

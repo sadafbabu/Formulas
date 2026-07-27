@@ -2,34 +2,41 @@
   "id": "lorentz",
   "title": "Lorentz Force",
   "titleBn": "লরেঞ্জ বল",
-  "latex": "\\vec{F} = q (\\vec{E} + \\vec{v} \\times \\vec{B})",
-  "summary": "তড়িৎ ক্ষেত্র (E) ও চৌম্বক ক্ষেত্র (B) উভয় বিদ্যমান স্থানে গতিশীল আধানের ওপর কার্যকর সর্বমোট লব্ধি বল।",
-  "tags": ["hsc", "eng-admission", "varsity", "5-star"],
+  "latex": "\\vec{F} = q(\\vec{E} + \\vec{v} \\times \\vec{B})",
+  "summary": "তড়িৎ ক্ষেত্র (E) ও চৌম্বক ক্ষেত্র (B) উভয় বিদ্যমান স্থানে গতিশীল আধানের ওপর প্রযুক্ত মোট বল।",
+  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
   "chapter": "magnetic-current",
-  "importance": 5,
+  "importance": 3,
   "subjects": ["physics"],
   "related": ["force-on-wire", "cyclotron-radius"],
   "symbols": [
-    { "symbol": "\\vec{F}", "meaning": "মোট লরেঞ্জ বল", "unit": "N" },
-    { "symbol": "q", "meaning": "গতিশীল আধানের পরিমাণ", "unit": "C" },
-    { "symbol": "\\vec{E}", "meaning": "তড়িৎ ক্ষেত্রের তীব্রতা", "unit": "V/m" },
-    { "symbol": "\\vec{v}", "meaning": "আধানের বেগ", "unit": "m/s" },
-    { "symbol": "\\vec{B}", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" }
+    { "symbol": "\\vec{F}", "meaning": "লরেঞ্জ বল ভেক্টর", "unit": "N" },
+    { "symbol": "q", "meaning": "গতিশীল কণার আধান", "unit": "C" },
+    { "symbol": "\\vec{E}", "meaning": "তড়িৎ ক্ষেত্র ভেক্টর", "unit": "V/m বা N/C" },
+    { "symbol": "\\vec{v}", "meaning": "কণার বেগ ভেক্টর", "unit": "m/s" },
+    { "symbol": "\\vec{B}", "meaning": "চৌম্বক ক্ষেত্র ভেক্টর", "unit": "T" }
   ],
   "derivation": {
-    "lead": "তড়িৎ বল ও চৌম্বক বলের ভেক্টর যোগফল থেকে লরেঞ্জ বল উৎপন্ন হয়:",
+    "lead": "তড়িৎ বল ও চৌম্বক বলের ভেক্টর সংযোজন:",
     "steps": [
       {
-        "title": "তড়িৎ ও চৌম্বক বল পৃথকীকরণ",
+        "title": "পৃথক বল উপাংশ",
         "latex": "\\vec{F}_e = q\\vec{E}, \\quad \\vec{F}_m = q(\\vec{v} \\times \\vec{B})",
-        "note": "চৌম্বক বল কেবল গতিশীল আধানের ওপরেই কাজ করে।"
+        "note": "লরেঞ্জ বল হল তড়িচ্চৌম্বক উভয় ক্ষেত্রের যৌথ ক্রিয়া।"
       },
       {
-        "title": "লব্ধি বল সমীকরণ",
-        "latex": "\\vec{F} = \\vec{F}_e + \\vec{F}_m = q (\\vec{E} + \\vec{v} \\times \\vec{B})",
-        "note": "কেবল চৌম্বক ক্ষেত্র থাকলে $F = q v B \\sin\\theta$।"
+        "title": "বেগ নির্বাচন অবস্থা (Velocity Selector)",
+        "latex": "q E = q v B \\implies v = \\frac{E}{B}",
+        "note": "যখন লরেঞ্জ বল শূন্য হয় ($F = 0$), কণাটি অবিকৃত বেগে সরলরেখায় যায়।"
       }
     ],
-    "assumptions": ["আধানের বেগ আলোর বেগের তুলনায় নগণ্য।"]
-  }
+    "assumptions": ["কণাটির ওপর কোনো মহাকর্ষীয় বল বিবেচনা করা হয়নি।"]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Special (Hard)",
+      "question": "একটি প্রোটন (q = 1.6 × 10⁻¹⁹ C) 2 × 10⁶ m/s বেগে x-অক্ষ বরাবর যাচ্ছে। এটি E = 10⁴ V/m (y-অক্ষ) ও B = 0.5 T (z-অক্ষ) সমবায় অঞ্চলে প্রবেশ করলে প্রোটনের ওপর লব্ধি লরেঞ্জ বলের মান ও দিক কত?",
+      "answer": "F_e = 1.6 \\times 10^{-15} \\text{ N (y-অক্ষ)}, \\quad F_m = q v B = 1.6 \\times 10^{-19} \\times 2 \\times 10^6 \\times 0.5 = 1.6 \\times 10^{-13} \\text{ N (-y অক্ষ)}. \\quad F_{\\text{net}} = 1.584 \\times 10^{-13} \\text{ N (-y দিক)।}"
+    }
+  ]
 }

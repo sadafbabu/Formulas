@@ -8,28 +8,34 @@
   "chapter": "magnetic-current",
   "importance": 3,
   "subjects": ["physics"],
-  "related": ["biot-savart", "loop-axis"],
+  "related": ["loop-axis", "biot-savart"],
   "symbols": [
-    { "symbol": "B", "meaning": "কেন্দ্রের চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "\\mu_0", "meaning": "শূন্যস্থানের চৌম্বক প্রবেশ্যতা", "unit": "T·m/A" },
-    { "symbol": "N", "meaning": "কুণ্ডলীর পাকসংখ্যা", "unit": "এককহীন" },
+    { "symbol": "B", "meaning": "কেন্দ্রীয় চৌম্বক ক্ষেত্র", "unit": "T" },
+    { "symbol": "N", "meaning": "কুণ্ডলীর পাকসংখ্যা", "unit": "মাত্রাচ্ছন্ন" },
     { "symbol": "I", "meaning": "বিদ্যুৎপ্রবাহ", "unit": "A" },
     { "symbol": "r", "meaning": "কুণ্ডলীর ব্যাসার্ধ", "unit": "m" }
   ],
   "derivation": {
-    "lead": "বায়োট-সাভার্ট সূত্র সম্পূর্ণ বৃত্তাকার পরিবাহীর জন্য সমাকলন করে:",
+    "lead": "বায়োট-সাভার্ট সূত্র প্রয়োগ করে কেন্দ্রে চৌম্বক ক্ষেত্র:",
     "steps": [
       {
-        "title": "বৃত্তীয় সমাকলন",
-        "latex": "B = \\int \\frac{\\mu_0}{4\\pi} \\frac{I dl}{r^2} = \\frac{\\mu_0 I}{4\\pi r^2} (2\\pi r) = \\frac{\\mu_0 I}{2r}",
-        "note": "অক্ষ বরাবর কোণ $\\theta = 90^\\circ$ স্থির থাকে।"
+        "title": "এক পাক কুণ্ডলীর ক্ষেত্রে",
+        "latex": "B = \\int \\frac{\\mu_0}{4\\pi} \\frac{I dl \\sin 90^\\circ}{r^2} = \\frac{\\mu_0 I}{4\\pi r^2} (2\\pi r) = \\frac{\\mu_0 I}{2r}",
+        "note": "বৃত্তাকার পরিধির জন্য মোট দৈর্ঘ্য $\\int dl = 2\\pi r$।"
       },
       {
-        "title": "N পাকের সাধারণ সমীকরণ",
-        "latex": "B = \\frac{\\mu_0 N I}{2r}",
-        "note": "পাকসংখ্যা বাড়লে কেন্দ্রে চৌম্বক ক্ষেত্র গুণোত্তর বৃদ্ধি পায়।"
+        "title": "N পাক কুণ্ডলীর ক্ষেত্রে",
+        "latex": "B = \\frac{\\mu_0 N I}{2 r}",
+        "note": "পাকসংখ্যা বাড়লে চৌম্বক ক্ষেত্র সমানুপাতিকভাবে বৃদ্ধি পায়।"
       }
     ],
-    "assumptions": ["কুণ্ডলীর প্রস্থ ব্যাসার্ধের তুলনায় অত্যন্ত নগণ্য।"]
-  }
+    "assumptions": ["কুণ্ডলীটি সমতল এবং সবকটি পাক সমঅক্ষীয়।"]
+  },
+  "questions": [
+    {
+      "examType": "CKRU / BUET (Hard)",
+      "question": "৫০ পাকের ও ১০ cm ব্যাসার্ধের বৃত্তাকার কুণ্ডলীতে ২ A প্রবাহ দিলে কেন্দ্রে চৌম্বক ক্ষেত্র কত? প্রবাহ দ্বিগুণ এবং ব্যাসার্ধ অর্ধেক করলে ক্ষেত্র কত গুণ হবে?",
+      "answer": "B = \\frac{4\\pi \\times 10^{-7} \\times 50 \\times 2}{2 \\times 0.1} = 1.257 \\times 10^{-3} \\text{ T}. \\quad B \\propto \\frac{I}{r} \\implies \\text{ক্ষেত্র ৪ গুণ হবে।}"
+    }
+  ]
 }

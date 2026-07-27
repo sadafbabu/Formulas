@@ -2,54 +2,35 @@
   "id": "cyclotron-freq",
   "title": "Cyclotron Frequency",
   "titleBn": "সাইক্লোট্রন কম্পাঙ্ক",
-  "latex": "f = \\dfrac{qB}{2\\pi m}",
-  "summary": "বৃত্তগতির আবর্তন কম্পাঙ্ক — v নিরপেক্ষ।",
-  "tags": [
-    "eng-admission",
-    "varsity"
-  ],
+  "latex": "f = \\frac{q B}{2\\pi m}",
+  "summary": "চৌম্বক ক্ষেত্রে গতিশীল আধানের পর্যায়কাল ও আবর্তন কম্পাঙ্ক — যা বেগের ওপর স্বাধীন।",
+  "tags": ["eng-admission", "varsity", "2-star"],
   "chapter": "magnetic-current",
-  "subjects": [
-    "physics"
-  ],
-  "related": [
-    "cyclotron-radius",
-    "lorentz"
-  ],
+  "importance": 2,
+  "subjects": ["physics"],
+  "related": ["cyclotron-radius", "lorentz"],
   "symbols": [
-    {
-      "symbol": "f",
-      "meaning": "আবর্তন কম্পাঙ্ক",
-      "unit": "Hz"
-    },
-    {
-      "symbol": "q",
-      "meaning": "চার্জ",
-      "unit": "C"
-    },
-    {
-      "symbol": "B",
-      "meaning": "চৌম্বক ক্ষেত্র",
-      "unit": "T"
-    },
-    {
-      "symbol": "m",
-      "meaning": "কণার ভর",
-      "unit": "kg"
-    }
+    { "symbol": "f", "meaning": "সাইক্লোট্রন পর্যায় কম্পাঙ্ক", "unit": "Hz (s⁻¹)" },
+    { "symbol": "q", "meaning": "কণার আধান", "unit": "C" },
+    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
+    { "symbol": "m", "meaning": "কণার ভর", "unit": "kg" }
   ],
   "derivation": {
-    "lead": "T = 2πr/v এবং r = mv/(qB) থেকে।",
+    "lead": "পর্যায়কাল T ও বেগ বর্জন সমীকরণ:",
     "steps": [
       {
-        "title": "কম্পাঙ্ক",
-        "latex": "f = 1/T = \\dfrac{qB}{2\\pi m}",
-        "note": "ω = qB/mও ব্যবহার্য।"
+        "title": "পর্যায়কাল ও কম্পাঙ্ক সমতা",
+        "latex": "T = \\frac{2\\pi r}{v} = \\frac{2\\pi (m v / q B)}{v} = \\frac{2\\pi m}{q B} \\implies f = \\frac{q B}{2\\pi m}",
+        "note": "কম্পাঙ্ক কণার বেগ v এবং ঘূর্ণন ব্যাসার্ধ r-এর ওপর নির্ভর করে না।"
       }
     ],
-    "assumptions": [
-      "অঅপেক্ষিকীয় গতি",
-      "v ⊥ B"
-    ]
-  }
+    "assumptions": ["আপেক্ষিকতার প্রভাব (Relativistic mass change) উপেক্ষণীয়।"]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Special (Hard)",
+      "question": "১.৫ T চৌম্বক ক্ষেত্রে একটি প্রোটনের (m = 1.67 × 10⁻²⁷ kg, q = 1.6 × 10⁻¹⁹ C) সাইক্লোট্রন কম্পাঙ্ক কত MHz হবে?",
+      "answer": "f = \\frac{1.6 \\times 10^{-19} \\times 1.5}{2\\pi \\times 1.67 \\times 10^{-27}} = 22.87 \\times 10^6 \\text{ Hz} = 22.87 \\text{ MHz}"
+    }
+  ]
 }
