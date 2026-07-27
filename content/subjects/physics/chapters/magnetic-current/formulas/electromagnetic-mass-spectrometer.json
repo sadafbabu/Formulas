@@ -1,0 +1,37 @@
+{
+  "id": "electromagnetic-mass-spectrometer",
+  "title": "Mass Spectrometer Equation",
+  "titleBn": "ভর স্পেকট্রোমিটার সূত্র",
+  "latex": "m = \\frac{q B^2 r^2}{2 V}",
+  "summary": "বিভব পার্থক্য V দ্বারা ত্বরান্বিত এবং B চৌম্বক ক্ষেত্রে ঘুরানো আইসোটোপের ভর নির্ণয় সূত্র।",
+  "tags": ["eng-admission", "varsity", "3-star"],
+  "chapter": "magnetic-current",
+  "importance": 3,
+  "subjects": ["physics"],
+  "related": ["cyclotron-radius", "moving-charge-energy"],
+  "symbols": [
+    { "symbol": "m", "meaning": "আয়ন বা কণার ভর", "unit": "kg" },
+    { "symbol": "q", "meaning": "আয়নের আধান", "unit": "C" },
+    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
+    { "symbol": "r", "meaning": "বিক্ষিপ্ত বৃত্তাকার ঘূর্ণন পথের ব্যাসার্ধ", "unit": "m" },
+    { "symbol": "V", "meaning": "ত্বরণীয় বিভব পার্থক্য", "unit": "V" }
+  ],
+  "derivation": {
+    "lead": "তড়িৎ গতিশক্তি $qV = \\frac{1}{2} m v^2$ ও ব্যাসার্ধ $r = mv / qB$ সমবায়:",
+    "steps": [
+      {
+        "title": "বেগ v প্রতিস্থাপন",
+        "latex": "v = \\sqrt{\\frac{2 q V}{m}} \\implies r = \\frac{m}{q B} \\sqrt{\\frac{2 q V}{m}} = \\frac{1}{B} \\sqrt{\\frac{2 m V}{q}} \\implies m = \\frac{q B^2 r^2}{2 V}",
+        "note": "আইসোটোপসমূহের ভর পার্থক্যের কারণে ফোটোগ্রাফিক প্লেটে বিভিন্ন ব্যাসার্ধ r-এ দাগ ফেলে।"
+      }
+    ],
+    "assumptions": ["আয়নগুলো এককভাবে চার্জিত এবং প্রাথমিক স্থির অবস্থান থেকে ত্বরান্বিত।"]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Special (Hard)",
+      "question": "একক আধানের (q = 1.6 × 10⁻¹⁹ C) একটি আয়ন ১০০০ V দ্বারা ত্বরান্বিত হয়ে ০.১ T চৌম্বক ক্ষেত্রে ০.২ m ব্যাসার্ধের পথে ঘুরলে আয়নটির ভর কত amu হবে? (1 amu = 1.66 × 10⁻²⁷ kg)",
+      "answer": "m = \\frac{1.6 \\times 10^{-19} \\times (0.1)^2 \\times (0.2)^2}{2 \\times 1000} = 3.2 \\times 10^{-26} \\text{ kg} = \\frac{3.2 \\times 10^{-26}}{1.66 \\times 10^{-27}} = 19.28 \\text{ amu}"
+    }
+  ]
+}

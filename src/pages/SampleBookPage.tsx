@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { NavMenu } from '../components/NavMenu'
+import { OverviewHome } from '../components/OverviewHome'
 import { SpreadViewer } from '../components/SpreadViewer'
 import { TopBar } from '../components/TopBar'
 import {
@@ -14,6 +15,8 @@ export function SampleBookPage() {
   const [params, setParams] = useSearchParams()
   const activeTag = (params.get('tag') as TagId | null) ?? null
   const chapterId = params.get('chapter') || defaultChapterId
+  const initialView = (params.get('view') as 'home' | 'book') || 'home'
+  const [viewMode, setViewMode] = useState<'home' | 'book'>(initialView)
   const [query, setQuery] = useState('')
 
   const all = formulasForChapter(chapterId)
@@ -24,7 +27,9 @@ export function SampleBookPage() {
   const setChapterId = (id: string) => {
     const next = new URLSearchParams(params)
     next.set('chapter', id)
+    next.set('view', 'book')
     setParams(next, { replace: true })
+    setViewMode('book')
   }
 
   const setTag = (tag: TagId | null) => {
@@ -32,7 +37,16 @@ export function SampleBookPage() {
     if (tag) next.set('tag', tag)
     else next.delete('tag')
     if (!next.get('chapter')) next.set('chapter', chapterId)
+    next.set('view', 'book')
     setParams(next, { replace: true })
+    setViewMode('book')
+  }
+
+  const handleGoHome = () => {
+    const next = new URLSearchParams(params)
+    next.set('view', 'home')
+    setParams(next, { replace: true })
+    setViewMode('home')
   }
 
   return (
@@ -42,6 +56,8 @@ export function SampleBookPage() {
         onTagChange={setTag}
         matchCount={matchCount}
         totalCount={all.length}
+        viewMode={viewMode}
+        onGoHome={handleGoHome}
         menuSlot={
           <NavMenu
             query={query}
@@ -51,11 +67,16 @@ export function SampleBookPage() {
           />
         }
       />
-      <SpreadViewer
-        activeTag={activeTag}
-        query={query}
-        chapterId={chapterId}
-      />
+
+      {viewMode === 'home' ? (
+        <OverviewHome onSelectChapter={setChapterId} />
+      ) : (
+        <SpreadViewer
+          activeTag={activeTag}
+          query={query}
+          chapterId={chapterId}
+        />
+      )}
     </div>
   )
 }

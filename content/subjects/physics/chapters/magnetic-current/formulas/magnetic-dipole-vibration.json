@@ -1,0 +1,36 @@
+{
+  "id": "magnetic-dipole-vibration",
+  "title": "Vibration Magnetometer Period",
+  "titleBn": "কম্পন চৌম্বকমান যন্ত্রের পর্যায়কাল",
+  "latex": "T = 2\\pi \\sqrt{\\frac{I_{\\text{mom}}}{M B_H}}",
+  "summary": "ভূ-চৌম্বক ক্ষেত্র B_H এ মুক্তভাবে ঝোলানো চুম্বকের ক্ষুদ্র কৌণিক স্পন্দনের পর্যায়কাল T।",
+  "tags": ["hsc", "eng-admission", "varsity", "1-star"],
+  "chapter": "magnetic-current",
+  "importance": 1,
+  "subjects": ["physics"],
+  "related": ["earth-magnetism", "magnetic-moment"],
+  "symbols": [
+    { "symbol": "T", "meaning": "স্পন্দনের পর্যায়কাল", "unit": "s" },
+    { "symbol": "I_{\\text{mom}}", "meaning": "চুম্বকের জড়তার ভ্রামক (Moment of Inertia)", "unit": "kg·m²" },
+    { "symbol": "M", "meaning": "চুম্বকের চৌম্বক ভ্রামক", "unit": "A·m²" },
+    { "symbol": "B_H", "meaning": "ভূ-চৌম্বক ক্ষেত্রের অনুভূমিক উপাংশ", "unit": "T" }
+  ],
+  "derivation": {
+    "lead": "প্রত্যয়নী টর্ক $\\tau = -M B_H \\theta$ থেকে সরল ছন্দিত স্পন্দন সমীকরণ:",
+    "steps": [
+      {
+        "title": "কৌণিক স্পন্দন সমীকরণ",
+        "latex": "I_{\\text{mom}} \\frac{d^2\\theta}{dt^2} = -M B_H \\theta \\implies \\omega = \\sqrt{\\frac{M B_H}{I_{\\text{mom}}}} \\implies T = 2\\pi \\sqrt{\\frac{I_{\\text{mom}}}{M B_H}}",
+        "note": "দুই স্থানে পর্যায়কাল তুলনা করে $B_H$ উপাংশ নির্ণয় করা যায় ($T_1^2 / T_2^2 = B_{H2} / B_{H1}$)।"
+      }
+    ],
+    "assumptions": ["বিক্ষেপ কোণ $\\theta$ অত্যন্ত ক্ষুদ্র ($\\sin\\theta \\approx \\theta$)।"]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Special (Hard)",
+      "question": "একটি দণ্ড চুম্বকের জড়তার ভ্রামক 2.5 × 10⁻⁶ kg·m² এবং চৌম্বক ভ্রামক 1.2 A·m²। ভূ-চৌম্বক B_H = 3 × 10⁻⁵ T হলে স্পন্দনের পর্যায়কাল কত সেকেন্ড হবে?",
+      "answer": "T = 2\\pi \\sqrt{\\frac{2.5 \\times 10^{-6}}{1.2 \\times 3 \\times 10^{-5}}} = 2\\pi \\sqrt{0.06944} = 1.655 \\text{ s}"
+    }
+  ]
+}

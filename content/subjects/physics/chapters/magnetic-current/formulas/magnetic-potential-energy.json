@@ -1,0 +1,36 @@
+{
+  "id": "magnetic-potential-energy",
+  "title": "Magnetic Potential Energy",
+  "titleBn": "চৌম্বক বিভব শক্তি",
+  "latex": "U = -\\vec{M} \\cdot \\vec{B} = -M B \\cos \\theta",
+  "summary": "সুষম B চৌম্বক ক্ষেত্রে M দ্বিমেৰু ভ্রামকবিশিষ্ট চুম্বকের অবস্থানগত বিভব শক্তি।",
+  "tags": ["hsc", "eng-admission", "varsity", "2-star"],
+  "chapter": "magnetic-current",
+  "importance": 2,
+  "subjects": ["physics"],
+  "related": ["magnetic-moment", "torque-loop"],
+  "symbols": [
+    { "symbol": "U", "meaning": "চৌম্বক বিভব শক্তি", "unit": "J (Joules)" },
+    { "symbol": "M", "meaning": "চৌম্বক দ্বিমেৰু ভ্রামক", "unit": "A·m²" },
+    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
+    { "symbol": "\\theta", "meaning": "M ও B এর অন্তর্বর্তী কোণ", "unit": "°" }
+  ],
+  "derivation": {
+    "lead": "টর্কের বিরুদ্ধে কৃতকাজ থেকে বিভব শক্তি:",
+    "steps": [
+      {
+        "title": "কাজ ও শক্তি সমতা",
+        "latex": "U = \\int_{90^\\circ}^{\\theta} \\tau d\\theta = \\int_{90^\\circ}^{\\theta} M B \\sin \\theta d\\theta = -M B \\cos \\theta",
+        "note": "সাম্যাবস্থায় ($\\theta = 0^\\circ$) বিভব শক্তি সর্বনিম্ন ($-MB$) এবং সর্বাপেক্ষা অস্থিতিশীল অবস্থায় ($\\theta = 180^\\circ$) সর্বোচ্চ ($+MB$) হয়।"
+      }
+    ],
+    "assumptions": ["চৌম্বক ক্ষেত্র B সুষম ও অপরিবর্তনীয়।"]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Special (Hard)",
+      "question": "২.৫ A·m² ভ্রামকের একটি চুম্বক ০.৪ T সুষম চৌম্বক ক্ষেত্রে ক্ষেত্র লাইনের সাথে ৬০° কোণে থাকলে বিভব শক্তি কত? ক্ষেত্র থেকে ৯০° কোণে ফেরাতে কত কাজ করতে হবে?",
+      "answer": "U = -2.5 \\times 0.4 \\times \\cos 60^\\circ = -0.5 \\text{ J}. \\quad W = U_{90^\\circ} - U_{60^\\circ} = 0 - (-0.5) = +0.5 \\text{ J}"
+    }
+  ]
+}

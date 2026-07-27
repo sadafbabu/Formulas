@@ -8,6 +8,8 @@ interface TopBarProps {
   matchCount: number
   totalCount: number
   menuSlot: ReactNode
+  viewMode: 'home' | 'book'
+  onGoHome: () => void
 }
 
 export function TopBar({
@@ -16,35 +18,51 @@ export function TopBar({
   matchCount,
   totalCount,
   menuSlot,
+  viewMode,
+  onGoHome,
 }: TopBarProps) {
   return (
     <header className="top-bar">
-      <div className="top-bar-left">{menuSlot}</div>
-
-      <div className="top-bar-tags" role="toolbar" aria-label="Filter by exam tag">
+      <div className="top-bar-left">
         <button
           type="button"
-          className={`top-tag${!activeTag ? ' is-active' : ''}`}
-          onClick={() => onTagChange(null)}
+          className={`home-nav-btn${viewMode === 'home' ? ' is-active' : ''}`}
+          onClick={onGoHome}
+          title="সকল বিষয় ও অধ্যায়ের ওভারভিউ ড্যাশবোর্ড"
         >
-          All
+          🏠 ওভারভিউ (Home)
         </button>
-        {tags.map((tag) => (
-          <button
-            key={tag.id}
-            type="button"
-            className={`top-tag${activeTag === tag.id ? ' is-active' : ''}`}
-            onClick={() => onTagChange(tag.id)}
-            title={tag.labelBn}
-          >
-            {tag.label}
-          </button>
-        ))}
+        {viewMode === 'book' && menuSlot}
       </div>
 
-      <div className="top-bar-count" aria-live="polite">
-        {activeTag ? `${matchCount}/${totalCount}` : `${totalCount}`}
-      </div>
+      {viewMode === 'book' && (
+        <div className="top-bar-tags" role="toolbar" aria-label="Filter by exam tag">
+          <button
+            type="button"
+            className={`top-tag${!activeTag ? ' is-active' : ''}`}
+            onClick={() => onTagChange(null)}
+          >
+            All
+          </button>
+          {tags.map((tag) => (
+            <button
+              key={tag.id}
+              type="button"
+              className={`top-tag${activeTag === tag.id ? ' is-active' : ''}`}
+              onClick={() => onTagChange(tag.id)}
+              title={tag.labelBn}
+            >
+              {tag.label}
+            </button>
+          ))}
+        </div>
+      )}
+
+      {viewMode === 'book' && (
+        <div className="top-bar-count" aria-live="polite">
+          {activeTag ? `${matchCount}/${totalCount}` : `${totalCount}`}
+        </div>
+      )}
     </header>
   )
 }

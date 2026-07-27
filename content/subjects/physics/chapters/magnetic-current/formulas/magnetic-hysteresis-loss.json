@@ -1,0 +1,37 @@
+{
+  "id": "magnetic-hysteresis-loss",
+  "title": "Hysteresis Energy Loss",
+  "titleBn": "হিস্টেরেসিস শক্তি অপচয়",
+  "latex": "P_{\\text{loss}} = V \\cdot f \\cdot (\\text{Loop Area}) \\cdot t",
+  "summary": "ফেরোম্যাগনেটিক পদার্থের চৌম্বক চক্রে ঘূর্ণনের সময় প্রতি চক্রে তাপ হিসেবে অপচয় হওয়া শক্তি।",
+  "tags": ["hsc", "eng-admission", "varsity", "1-star"],
+  "chapter": "magnetic-current",
+  "importance": 1,
+  "subjects": ["physics"],
+  "related": ["magnetic-intensity", "solenoid"],
+  "symbols": [
+    { "symbol": "P_{\\text{loss}}", "meaning": "মোট অপচয়কৃত শক্তি", "unit": "J (Joules)" },
+    { "symbol": "V", "meaning": "পদার্থের আয়তন", "unit": "m³" },
+    { "symbol": "f", "meaning": "প্লাবিত তরঙ্গের কম্পাঙ্ক", "unit": "Hz" },
+    { "symbol": "\\text{Loop Area}", "meaning": "B-H লুপের ক্ষেত্রফল", "unit": "J/m³" },
+    { "symbol": "t", "meaning": "সময়", "unit": "s" }
+  ],
+  "derivation": {
+    "lead": "B-H চক্রের বদ্ধ ক্ষেত্রফল সমাকলন:",
+    "steps": [
+      {
+        "title": "চক্রীয় কাজের সমীকরণ",
+        "latex": "W_{\\text{cycle}} = V \\oint H dB",
+        "note": "নরম লোহার লুপের ক্ষেত্রফল কাঁচা ইস্পাতের চেয়ে কম হওয়ায় রূপান্তরকে কাঁচা লোহা ব্যবহৃত হয়।"
+      }
+    ],
+    "assumptions": ["চৌম্বক ক্ষেত্রটি দিক-পরিবর্তী (AC) আবর্তনযুক্ত।"]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Special (Hard)",
+      "question": "০.০০২ m³ আয়তনের একটি লোহার কোরের B-H লুপের ক্ষেত্রফল ২৫০ J/m³। ৫০ Hz কম্পাঙ্কের পরিবর্তনশীল প্রবাহে ১ ঘণ্টায় মোট কত কিলোজুল হিস্টেরেসিস শক্তি অপচয় হবে?",
+      "answer": "P_{\\text{loss}} = 0.002 \\times 50 \\times 250 \\times 3600 = 90000 \\text{ J} = 90 \\text{ kJ}"
+    }
+  ]
+}

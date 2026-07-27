@@ -1,0 +1,36 @@
+{
+  "id": "straight-wire-finite",
+  "title": "Finite Wire Magnetic Field",
+  "titleBn": "সসীম দৈর্ঘ্যের তারের চৌম্বক ক্ষেত্র",
+  "latex": "B = \\frac{\\mu_0 I}{4\\pi r} (\\sin \\phi_1 + \\sin \\phi_2)",
+  "summary": "সসীম দৈর্ঘ্যের সোজা পরিবাহী থেকে r লম্ব দূরত্বে অবস্থিত বিন্দুতে সৃষ্ট চৌম্বক ক্ষেত্র।",
+  "tags": ["eng-admission", "varsity", "3-star"],
+  "chapter": "magnetic-current",
+  "importance": 3,
+  "subjects": ["physics"],
+  "related": ["wire-field", "biot-savart"],
+  "symbols": [
+    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
+    { "symbol": "I", "meaning": "বিদ্যুৎপ্রবাহ", "unit": "A" },
+    { "symbol": "r", "meaning": "তার থেকে বিন্দুর লম্ব দূরত্ব", "unit": "m" },
+    { "symbol": "\\phi_1, \\phi_2", "meaning": "তারের দুই প্রান্ত থেকে লম্বের সাথে উৎপন্ন কোণ", "unit": "°" }
+  ],
+  "derivation": {
+    "lead": "বায়োট-সাভার্ট সূত্রে সীমা $\\phi_1$ থেকে $\\phi_2$ বসিয়ে সমাকলন:",
+    "steps": [
+      {
+        "title": "সীমা সমাকলন",
+        "latex": "B = \\frac{\\mu_0 I}{4\\pi r} \\int_{-\\phi_1}^{\\phi_2} \\cos \\phi d\\phi = \\frac{\\mu_0 I}{4\\pi r} (\\sin \\phi_1 + \\sin \\phi_2)",
+        "note": "অসীম তারের ক্ষেত্রে $\\phi_1 = \\phi_2 = 90^\\circ$ বসালে $B = \\frac{\\mu_0 I}{2\\pi r}$ হয়।"
+      }
+    ],
+    "assumptions": ["কোণ $\\phi_1, \\phi_2$ লম্ব রেখার সাপেক্ষে পরিমাপ করা হয়।"]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Special (Hard)",
+      "question": "একটি বর্গাকার কুণ্ডলীর প্রতি বাহুর দৈর্ঘ্য ২০ cm এবং এতে ১০ A প্রবাহ চলছে। বর্গক্ষেত্রের কেন্দ্রে চৌম্বক ক্ষেত্র কত?",
+      "answer": "r = 10 \\text{ cm} = 0.1 \\text{ m}, \\phi_1 = \\phi_2 = 45^\\circ. \\quad B_{\\text{side}} = \\frac{4\\pi \\times 10^{-7} \\times 10}{4\\pi \\times 0.1} (2 \\sin 45^\\circ) = 1.414 \\times 10^{-5} \\text{ T}. \\quad B_{\\text{center}} = 4 \\times B_{\\text{side}} = 5.657 \\times 10^{-5} \\text{ T}"
+    }
+  ]
+}

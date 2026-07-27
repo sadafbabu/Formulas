@@ -1,0 +1,35 @@
+{
+  "id": "velocity-selector",
+  "title": "Velocity Selector Condition",
+  "titleBn": "বেগ নির্বাচক শর্ত",
+  "latex": "v = \\frac{E}{B}",
+  "summary": "তড়িৎ ও চৌম্বক ক্ষেত্র পারস্পরিক লম্বালম্বি থাকলে কোনো গতিশীল আধান অবিকল না বেঁকে সোজা যাওয়ার শর্ত।",
+  "tags": ["hsc", "eng-admission", "varsity", "2-star"],
+  "chapter": "magnetic-current",
+  "importance": 2,
+  "subjects": ["physics"],
+  "related": ["lorentz", "cyclotron-radius"],
+  "symbols": [
+    { "symbol": "v", "meaning": "নির্বাচিত কণার সুনির্দিষ্ট বেগ", "unit": "m/s" },
+    { "symbol": "E", "meaning": "তড়িৎ ক্ষেত্র", "unit": "V/m" },
+    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" }
+  ],
+  "derivation": {
+    "lead": "তড়িৎ বল ও চৌম্বক বলের পারস্পরিক সমতা:",
+    "steps": [
+      {
+        "title": "বল সমতা",
+        "latex": "F_e = F_m \\implies q E = q v B \\implies v = \\frac{E}{B}",
+        "note": "কেবলমাত্র $v = E/B$ বেগসম্পন্ন কণাই বিক্ষিপ্ত না হয়ে সোজা ছিদ্র দিয়ে নির্গত হয়।"
+      }
+    ],
+    "assumptions": ["তড়িৎ ক্ষেত্র E ও চৌম্বক ক্ষেত্র B পারস্পরিক সমকোণে অবস্থান করছে।"]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Special (Hard)",
+      "question": "একটি ভেলোসিটি সিলেক্টরে E = 6 × 10⁴ V/m এবং B = 0.2 T। এই অঞ্চলে প্রবেশকারী ইলেকট্রন বিক্ষিপ্ত না হয়ে সোজা নির্গত হলে তার গতিশক্তি কত eV হবে? (m = 9.1 × 10⁻³¹ kg)",
+      "answer": "v = \\frac{6 \\times 10^4}{0.2} = 3 \\times 10^5 \\text{ m/s}. \\quad E_k = \\frac{1}{2} (9.1 \\times 10^{-31}) (3 \\times 10^5)^2 = 4.095 \\times 10^{-20} \\text{ J} = 0.256 \\text{ eV}"
+    }
+  ]
+}

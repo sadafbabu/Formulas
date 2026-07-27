@@ -42,6 +42,9 @@ export interface QuestionItem {
   answer: string
 }
 
+export type PaperId = '1st-paper' | '2nd-paper'
+export type SubjectId = 'physics' | 'chemistry' | 'math'
+
 export interface Formula {
   id: string
   title: string
@@ -50,6 +53,7 @@ export interface Formula {
   summary: string
   tags: TagId[]
   chapter: string
+  paper?: PaperId
   importance?: 1 | 2 | 3 // 1 to 3 grey stars (3 being highest / most important)
   subjects: string[]
   related: string[]
@@ -63,15 +67,27 @@ export interface ChapterMeta {
   slug: string
   name: string
   nameBn: string
+  subjectId: SubjectId
+  paperId: PaperId
   order: number
+  formulaCount?: number
+  isReady?: boolean
 }
 
 export interface SubjectMeta {
-  id: string
+  id: SubjectId
   slug: string
   name: string
   nameBn: string
+  icon: string
+  color: string
   order: number
+}
+
+export interface PaperMeta {
+  id: PaperId
+  name: string
+  nameBn: string
 }
 
 export interface BookPage {
