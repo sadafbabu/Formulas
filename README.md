@@ -4,7 +4,7 @@ Dark, compact A5 formula book for HSC / admission.
 
 ## Live site (Cloudflare)
 
-**https://formulas-book.frill-bison.workers.dev**
+**https://formulas-book.frill-bison.workers.dev
 
 Temporary preview (claim within ~60 min to keep forever):  
 https://dash.cloudflare.com/claim-preview?claimToken=33uHHel8jMAY10bD_XSHjaQwb9eCyL1bs1cCwfigivw
