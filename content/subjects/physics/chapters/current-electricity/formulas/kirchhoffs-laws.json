@@ -1,0 +1,32 @@
+{
+  "id": "kirchhoffs-laws",
+  "chapter": "current-electricity",
+  "title": "Kirchhoff's Voltage & Current Laws (KCL & KVL)",
+  "titleBn": "কার্শফের তড়িৎ প্রবাহ ও বিভব সূত্র",
+  "summary": "জটিল তড়িৎ বর্তনী বিশ্লেষণের কার্শফের ১ম ও ২য় সূত্র",
+  "latex": "\\sum I = 0 \\quad (\\text{KCL}), \\quad \\sum E = \\sum I R \\quad (\\text{KVL})",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "\\sum I", "meaning": "সংযোগ বিন্দুতে প্রবাহের বীজগণিতীয় যোগফল", "unit": "A" },
+    { "symbol": "\\sum E", "meaning": "বন্ধ লুপে মোট তড়িচ্চালক শক্তি", "unit": "V" },
+    { "symbol": "\\sum I R", "meaning": "লুপে প্রবাহ ও রোধের গুণফলের যোগফল", "unit": "V" }
+  ],
+  "derivation": {
+    "lead": "KCL আধানের সংরক্ষণশীলতা নীতি এবং KVL শক্তির সংরক্ষণশীলতা নীতির ওপর প্রতিষ্ঠিত।",
+    "steps": [
+      {
+        "title": "সংরক্ষণশীলতা সম্পর্ক",
+        "latex": "\\text{KCL: Charge Conservation}, \\quad \\text{KVL: Energy Conservation}",
+        "note": "লুপে ঘড়ির কাটার দিকে প্রবাহকে ধনাত্মক ধরে সমাধান করা হয়"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Hard",
+      "question": "একটি সংযোগবিন্দুতে ৩টি তারের প্রবাহ যথাক্রমে 2 A (প্রবেশ), 5 A (প্রবেশ) এবং I (নির্গত)। I এর মান কত?",
+      "answer": "\\sum I = 0 \\implies 2 + 5 - I = 0 \\implies I = 7\\text{ A}"
+    }
+  ]
+}

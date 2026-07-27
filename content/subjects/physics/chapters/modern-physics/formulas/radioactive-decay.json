@@ -1,0 +1,33 @@
+{
+  "id": "radioactive-decay",
+  "chapter": "modern-physics",
+  "title": "Radioactive Decay and Half-Life",
+  "titleBn": "তেজস্ক্রিয় ক্ষয় সূত্র ও অর্ধায়ু",
+  "summary": "তেজস্ক্রিয় পরমাণুর ক্ষয়ের হার ও অর্ধায়ুর সমীকরণ",
+  "latex": "N(t) = N_0 e^{-\\lambda t}, \\quad T_{1/2} = \\frac{\\ln 2}{\\lambda} \\approx \\frac{0.693}{\\lambda}",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "N(t)", "meaning": "t সময় পর অবশিষ্টাংশ পরমাণুর সংখ্যা", "unit": "সংখ্যা" },
+    { "symbol": "N_0", "meaning": "প্রাথমিক অবশিষ্টাংশ পরমাণুর সংখ্যা", "unit": "সংখ্যা" },
+    { "symbol": "\\lambda", "meaning": "ক্ষয় ধ্রুবক (Decay constant)", "unit": "s⁻¹ (বা day⁻¹)" },
+    { "symbol": "T_{1/2}", "meaning": "অর্ধায়ু (Half-life)", "unit": "s (বা day)" }
+  ],
+  "derivation": {
+    "lead": "ক্ষয়ের হার dN/dt = -λ N সমাকলন করে পাওয়া যায়।",
+    "steps": [
+      {
+        "title": "সমাকলন রূপায়ণ",
+        "latex": "\\int_{N_0}^N \\frac{dN}{N} = -\\lambda \\int_0^t dt \\implies \\ln\\left(\\frac{N}{N_0}\\right) = -\\lambda t \\implies N = N_0 e^{-\\lambda t}",
+        "note": "N = N0/2 বসিয়ে T1/2 = ln 2 / λ পাওয়া যায়"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Hard",
+      "question": "একটি তেজস্ক্রিয় পদার্থের অর্ধায়ু 5 দিন। 20 দিন পর প্রাথমিক পরিমাণের কত অংশ অবশিষ্ট থাকবে?",
+      "answer": "n = \\frac{t}{T_{1/2}} = \\frac{20}{5} = 4 \\implies N = N_0 \\left(\\frac{1}{2}\\right)^4 = \\frac{N_0}{16} = 6.25\\%"
+    }
+  ]
+}

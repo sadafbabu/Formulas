@@ -43,10 +43,15 @@ import vectorDotProduct from '../../content/subjects/physics/chapters/vector/for
 import firstLawThermo from '../../content/subjects/physics/chapters/thermodynamics/formulas/first-law-thermo.json'
 import isothermalWork from '../../content/subjects/physics/chapters/thermodynamics/formulas/isothermal-work.json'
 import carnaudEfficiency from '../../content/subjects/physics/chapters/thermodynamics/formulas/carnaud-efficiency.json'
+import cpCvRelation from '../../content/subjects/physics/chapters/thermodynamics/formulas/cp-cv-relation.json'
 
 import coulombsLaw from '../../content/subjects/physics/chapters/static-electricity/formulas/coulombs-law.json'
 import electricPotential from '../../content/subjects/physics/chapters/static-electricity/formulas/electric-potential.json'
+import capacitorEnergy from '../../content/subjects/physics/chapters/static-electricity/formulas/capacitor-energy.json'
 
+import kirchhoffsLaws from '../../content/subjects/physics/chapters/current-electricity/formulas/kirchhoffs-laws.json'
+import transformerRatio from '../../content/subjects/physics/chapters/induction-ac/formulas/transformer-ratio.json'
+import radioactiveDecay from '../../content/subjects/physics/chapters/modern-physics/formulas/radioactive-decay.json'
 import biotSavart from '../../content/subjects/physics/chapters/magnetic-current/formulas/biot-savart.json'
 import wireField from '../../content/subjects/physics/chapters/magnetic-current/formulas/wire-field.json'
 import straightWireFinite from '../../content/subjects/physics/chapters/magnetic-current/formulas/straight-wire-finite.json'
@@ -110,11 +115,11 @@ export const subjectsList: SubjectMeta[] = [
 export const allChapters: ChapterMeta[] = [
   // Physics 2nd Paper
   { id: 'magnetic-current', slug: 'magnetic-current', name: 'Magnetic Effects of Current & Magnetism', nameBn: 'তড়িৎ প্রবাহের চৌম্বক ক্রিয়া ও চুম্বকত্ব', subjectId: 'physics', paperId: '2nd-paper', order: 4, formulaCount: 35, isReady: true },
-  { id: 'thermodynamics', slug: 'thermodynamics', name: 'Thermodynamics', nameBn: 'তাপগতিবিদ্যা', subjectId: 'physics', paperId: '2nd-paper', order: 1, formulaCount: 3, isReady: true },
-  { id: 'static-electricity', slug: 'static-electricity', name: 'Static Electricity', nameBn: 'স্থির তড়িৎ', subjectId: 'physics', paperId: '2nd-paper', order: 2, formulaCount: 2, isReady: true },
-  { id: 'current-electricity', slug: 'current-electricity', name: 'Current Electricity', nameBn: 'চল তড়িৎ', subjectId: 'physics', paperId: '2nd-paper', order: 3, formulaCount: 2, isReady: true },
-  { id: 'induction-ac', slug: 'induction-ac', name: 'Electromagnetic Induction & AC', nameBn: 'তড়িচ্চৌম্বক আবেশ ও পর্যায়বৃত্ত প্রবাহ', subjectId: 'physics', paperId: '2nd-paper', order: 5, formulaCount: 2, isReady: true },
-  { id: 'modern-physics', slug: 'modern-physics', name: 'Modern Physics', nameBn: 'আধুনিক পদার্থবিজ্ঞানের সূচনা', subjectId: 'physics', paperId: '2nd-paper', order: 8, formulaCount: 1, isReady: true },
+  { id: 'thermodynamics', slug: 'thermodynamics', name: 'Thermodynamics', nameBn: 'তাপগতিবিদ্যা', subjectId: 'physics', paperId: '2nd-paper', order: 1, formulaCount: 4, isReady: true },
+  { id: 'static-electricity', slug: 'static-electricity', name: 'Static Electricity', nameBn: 'স্থির তড়িৎ', subjectId: 'physics', paperId: '2nd-paper', order: 2, formulaCount: 3, isReady: true },
+  { id: 'current-electricity', slug: 'current-electricity', name: 'Current Electricity', nameBn: 'চল তড়িৎ', subjectId: 'physics', paperId: '2nd-paper', order: 3, formulaCount: 3, isReady: true },
+  { id: 'induction-ac', slug: 'induction-ac', name: 'Electromagnetic Induction & AC', nameBn: 'তড়িচ্চৌম্বক আবেশ ও পর্যায়বৃত্ত প্রবাহ', subjectId: 'physics', paperId: '2nd-paper', order: 5, formulaCount: 3, isReady: true },
+  { id: 'modern-physics', slug: 'modern-physics', name: 'Modern Physics', nameBn: 'আধুনিক পদার্থবিজ্ঞানের সূচনা', subjectId: 'physics', paperId: '2nd-paper', order: 8, formulaCount: 2, isReady: true },
 
   // Physics 1st Paper
   { id: 'vector', slug: 'vector', name: 'Vector', nameBn: 'ভেক্টর', subjectId: 'physics', paperId: '1st-paper', order: 2, formulaCount: 2, isReady: true },
@@ -150,6 +155,12 @@ export const chapters: ChapterMeta[] = [
 export const defaultChapterId = 'magnetic-current'
 
 export const formulas: Formula[] = [
+  cpCvRelation,
+  capacitorEnergy,
+  kirchhoffsLaws,
+  transformerRatio,
+  radioactiveDecay,
+
   bohrAtomModel,
   faradaysElectrolysis,
   perpendicularDistance,

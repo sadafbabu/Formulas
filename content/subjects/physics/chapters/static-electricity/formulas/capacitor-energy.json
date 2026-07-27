@@ -1,0 +1,33 @@
+{
+  "id": "capacitor-energy",
+  "chapter": "static-electricity",
+  "title": "Energy Stored in Capacitor",
+  "titleBn": "ধারকে সঞ্চিত শক্তি",
+  "summary": "আহিত ধারকের তড়িৎ ক্ষেত্রে সঞ্চিত বিভব শক্তি",
+  "latex": "U = \\frac{1}{2} C V^2 = \\frac{1}{2} \\frac{Q^2}{C} = \\frac{1}{2} Q V",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "U", "meaning": "সঞ্চিত শক্তি", "unit": "J (Joule)" },
+    { "symbol": "C", "meaning": "ধারকত্ব", "unit": "F (Farad)" },
+    { "symbol": "V", "meaning": "বিভব পার্থক্য", "unit": "V (Volt)" },
+    { "symbol": "Q", "meaning": "আধান", "unit": "C" }
+  ],
+  "derivation": {
+    "lead": "ধারককে dq আধান দিতে প্রয়োজনীয় ক্ষুদ্র কাজ dW = V dq সমাকলন করে মোট শক্তি পাওয়া যায়।",
+    "steps": [
+      {
+        "title": "আধান সমাকলন",
+        "latex": "U = \\int_0^Q V dq = \\int_0^Q \\frac{q}{C} dq = \\frac{Q^2}{2C} = \\frac{1}{2} C V^2",
+        "note": "Q = C V বসিয়ে বিকল্প রূপগুলো পাওয়া যায়"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "CKRUET Admission",
+      "question": "10 μF ধারকত্ব সম্পন্ন একটি ধারককে 100 V ভোল্টেজে আহিত করলে সঞ্চিত শক্তি কত?",
+      "answer": "U = \\frac{1}{2} (10 \\times 10^{-6}) (100)^2 = 5 \\times 10^{-6} \\times 10000 = 0.05\\text{ J}"
+    }
+  ]
+}

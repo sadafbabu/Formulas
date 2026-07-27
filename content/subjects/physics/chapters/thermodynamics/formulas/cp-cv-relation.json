@@ -1,0 +1,33 @@
+{
+  "id": "cp-cv-relation",
+  "chapter": "thermodynamics",
+  "title": "Molar Specific Heats (Cp and Cv)",
+  "titleBn": "মোলায়ার আপেক্ষিক তাপ (Cp ও Cv)",
+  "summary": "মেয়ারের সমীকরণ ও মোলার তাপধারণ ক্ষমতার সম্পর্ক",
+  "latex": "C_p - C_v = R, \\quad \\gamma = \\frac{C_p}{C_v}",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "C_p", "meaning": "স্থির চাপে মোলার আপেক্ষিক তাপ", "unit": "J/(mol·K)" },
+    { "symbol": "C_v", "meaning": "স্থির আয়তনে মোলার আপেক্ষিক তাপ", "unit": "J/(mol·K)" },
+    { "symbol": "R", "meaning": "গ্যাস ধ্রুবক (8.314)", "unit": "J/(mol·K)" },
+    { "symbol": "\\gamma", "meaning": "তাপগতীয় ধ্রুবক (একপরমাণুকের জন্য 1.67)", "unit": "এককহীন" }
+  ],
+  "derivation": {
+    "lead": "স্থির চাপ ও স্থির আয়তনে ১ম তাপগতীয় সূত্রের তুলনা থেকে পাওয়া যায়।",
+    "steps": [
+      {
+        "title": "মেয়ারের সম্পর্ক রূপায়ণ",
+        "latex": "dQ_p - dQ_v = P dV = n R dT \\implies C_p - C_v = R",
+        "note": "দ্বিপারমাণবিক গ্যাসের জন্য γ = 1.40"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Hard",
+      "question": "একটি দ্বিপারমাণবিক গ্যাসের জন্য γ = 1.40 হলে C_v এর মান কত? [R = 8.314 J/mol·K]",
+      "answer": "C_v = \\frac{R}{\\gamma - 1} = \\frac{8.314}{1.40 - 1} = \\frac{8.314}{0.4} = 20.785\\text{ J/(mol·K)}"
+    }
+  ]
+}
