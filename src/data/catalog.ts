@@ -5,6 +5,13 @@ import thermoMeta from '../../content/subjects/physics/chapters/thermodynamics/m
 import staticMeta from '../../content/subjects/physics/chapters/static-electricity/meta.json'
 import currentMeta from '../../content/subjects/physics/chapters/current-electricity/meta.json'
 import vectorMeta from '../../content/subjects/physics/chapters/vector/meta.json'
+import dynamicsMeta from '../../content/subjects/physics/chapters/dynamics/meta.json'
+import workEnergyMeta from '../../content/subjects/physics/chapters/work-energy/meta.json'
+
+import centripetalForce from '../../content/subjects/physics/chapters/dynamics/formulas/centripetal-force.json'
+import torqueAngularAcc from '../../content/subjects/physics/chapters/dynamics/formulas/torque-angular-acc.json'
+
+import kineticEnergy from '../../content/subjects/physics/chapters/work-energy/formulas/kinetic-energy.json'
 
 import ohmsLaw from '../../content/subjects/physics/chapters/current-electricity/formulas/ohms-law.json'
 import wheatstoneBridge from '../../content/subjects/physics/chapters/current-electricity/formulas/wheatstone-bridge.json'
@@ -90,8 +97,8 @@ export const allChapters: ChapterMeta[] = [
 
   // Physics 1st Paper
   { id: 'vector', slug: 'vector', name: 'Vector', nameBn: 'ভেক্টর', subjectId: 'physics', paperId: '1st-paper', order: 2, formulaCount: 2, isReady: true },
-  { id: 'dynamics', slug: 'dynamics', name: 'Newtonian Mechanics', nameBn: 'নিউটনীয় বলবিদ্যা', subjectId: 'physics', paperId: '1st-paper', order: 4, formulaCount: 18, isReady: false },
-  { id: 'work-energy', slug: 'work-energy', name: 'Work, Energy & Power', nameBn: 'কাজ, ক্ষমতা ও শক্তি', subjectId: 'physics', paperId: '1st-paper', order: 5, formulaCount: 14, isReady: false },
+  { id: 'dynamics', slug: 'dynamics', name: 'Newtonian Mechanics', nameBn: 'নিউটনীয় বলবিদ্যা', subjectId: 'physics', paperId: '1st-paper', order: 4, formulaCount: 2, isReady: true },
+  { id: 'work-energy', slug: 'work-energy', name: 'Work, Energy & Power', nameBn: 'কাজ, ক্ষমতা ও শক্তি', subjectId: 'physics', paperId: '1st-paper', order: 5, formulaCount: 1, isReady: true },
   { id: 'gravitation', slug: 'gravitation', name: 'Gravitation & Gravity', nameBn: 'মহাকর্ষ ও অভিকর্ষ', subjectId: 'physics', paperId: '1st-paper', order: 6, formulaCount: 16, isReady: false },
   
   // Chemistry
@@ -103,10 +110,22 @@ export const allChapters: ChapterMeta[] = [
   { id: 'calculus', slug: 'calculus', name: 'Calculus & Integration', nameBn: 'ক্যালকুলাস ও যোগজীকরণ', subjectId: 'math', paperId: '1st-paper', order: 9, formulaCount: 30, isReady: false },
 ]
 
-export const chapters: ChapterMeta[] = [magneticMeta, thermoMeta, staticMeta, currentMeta, vectorMeta] as ChapterMeta[]
+export const chapters: ChapterMeta[] = [
+  magneticMeta,
+  thermoMeta,
+  staticMeta,
+  currentMeta,
+  vectorMeta,
+  dynamicsMeta,
+  workEnergyMeta,
+] as ChapterMeta[]
 export const defaultChapterId = 'magnetic-current'
 
 export const formulas: Formula[] = [
+  centripetalForce,
+  torqueAngularAcc,
+  kineticEnergy,
+
   ohmsLaw,
   wheatstoneBridge,
 

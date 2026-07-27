@@ -1,0 +1,34 @@
+{
+  "id": "centripetal-force",
+  "chapter": "dynamics",
+  "title": "Centripetal Force",
+  "titleBn": "কেন্দ্রমুখী বল",
+  "summary": "বৃত্তাকার পথে বস্তু ঘুরানোর জন্য কেন্দ্রের দিকে প্রয়োজনীয় বল",
+  "latex": "F_c = \\frac{m v^2}{r} = m \\omega^2 r",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "F_c", "meaning": "কেন্দ্রমুখী বল", "unit": "N (Newton)" },
+    { "symbol": "m", "meaning": "বস্তুর ভর", "unit": "kg" },
+    { "symbol": "v", "meaning": "রৈখিক বেগ", "unit": "m/s" },
+    { "symbol": "\\omega", "meaning": "কৌণিক বেগ", "unit": "rad/s" },
+    { "symbol": "r", "meaning": "বৃত্তাকার পথের ব্যাসার্ধ", "unit": "m" }
+  ],
+  "derivation": {
+    "lead": "কৌণিক ত্বরন a = v²/r বসিয়ে নিউটনের ২য় সূত্র থেকে কেন্দ্রমুখী বল পাওয়া যায়।",
+    "steps": [
+      {
+        "title": "নিউটনের দ্বিতীয় সূত্র",
+        "latex": "F = m a = m \\left(\\frac{v^2}{r}\\right) = m \\omega^2 r",
+        "note": "v = ω r প্রতিস্থাপন করা হয়েছে"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Hard",
+      "question": "0.5 kg ভরের বস্তু 2 m ব্যাসার্ধের বৃত্তে 4 m/s বেগে ঘুরলে কেন্দ্রমুখী বল কত?",
+      "answer": "F_c = \\frac{0.5 \\times 4^2}{2} = \\frac{8}{2} = 4\\text{ N}"
+    }
+  ]
+}
