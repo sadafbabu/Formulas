@@ -7,6 +7,7 @@ import {
 } from '../data/catalog'
 import type { TagId } from '../data/types'
 import { useLayoutMode } from '../hooks/useLayoutMode'
+import { matchFormula } from '../utils/search'
 import { A5Page } from './A5Page'
 
 interface SpreadViewerProps {
@@ -27,18 +28,8 @@ export function SpreadViewer({
   const perPage = mode === 'desktop' ? 7 : mode === 'tablet' ? 6 : 5
 
   const { pages, emptyFilter } = useMemo(() => {
-    const q = query.trim().toLowerCase()
     const source = formulasForChapter(chapterId)
-    const filtered = source.filter((f) => {
-      if (activeTag && !f.tags.includes(activeTag)) return false
-      if (!q) return true
-      return (
-        f.title.toLowerCase().includes(q) ||
-        f.titleBn.includes(query.trim()) ||
-        f.summary.toLowerCase().includes(q) ||
-        f.latex.toLowerCase().includes(q)
-      )
-    })
+    const filtered = source.filter((f) => matchFormula(f, query, activeTag))
     if (!filtered.length) {
       return { pages: [], emptyFilter: true }
     }

@@ -1,0 +1,31 @@
+{
+  "id": "moving-charge-energy",
+  "title": "Kinetic Energy of Motion in Magnetic Field",
+  "titleBn": "চৌম্বক ক্ষেত্রে আধানের গতিশক্তি ও বেগ",
+  "latex": "K = \\frac{q^2 B^2 r^2}{2m}, \\quad v = \\sqrt{\\frac{2 q V}{m}}",
+  "summary": "চৌম্বক ক্ষেত্রে সমকোণে ঘূর্ণায়মান আধানের সর্বোচ্চ গতিশক্তি ও বিভব পার্থক্যে অর্জিত বেগ।",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "chapter": "magnetic-current",
+  "importance": 3,
+  "subjects": ["physics"],
+  "related": ["cyclotron-radius", "lorentz"],
+  "symbols": [
+    { "symbol": "K", "meaning": "সর্বোচ্চ গতিশক্তি (Kinetic Energy)", "unit": "J / eV" },
+    { "symbol": "q", "meaning": "আধানের পরিমাণ", "unit": "C" },
+    { "symbol": "B", "meaning": "চৌম্বক তীব্রতা", "unit": "T" },
+    { "symbol": "r", "meaning": "বৃত্তাকার পথের ব্যাসার্ধ", "unit": "m" },
+    { "symbol": "m", "meaning": "কণার ভর", "unit": "kg" },
+    { "symbol": "V", "meaning": "ত্বরণ সৃষ্টকারী বিভব পার্থক্য", "unit": "V" }
+  ],
+  "derivation": {
+    "lead": "ব্যাসার্ধ $r = \\frac{m v}{q B}$ এবং গতিশক্তি $K = \\frac{1}{2} m v^2$ থেকে গতিশক্তির সমীকরণ:",
+    "steps": [
+      {
+        "title": "বেগ প্রতিস্থাপন",
+        "latex": "v = \\frac{q B r}{m} \\implies K = \\frac{1}{2} m \\left(\\frac{q B r}{m}\\right)^2 = \\frac{q^2 B^2 r^2}{2m}",
+        "note": "সাইক্লোট্রন তরিত্রে কণার শক্তি এই সমীকরণের মাধ্যমে হিসাব করা হয়।"
+      }
+    ],
+    "assumptions": ["কণার বেগ আলোর বেগের চেয়ে অনেক কম (Non-relativistic movement)।"]
+  }
+}

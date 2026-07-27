@@ -1,0 +1,35 @@
+{
+  "id": "magnetic-intensity",
+  "title": "Magnetic Permeability & Susceptibility",
+  "titleBn": "চৌম্বক তীব্রতা, প্রবেশ্যতা ও প্রবেশনযোগ্যতা",
+  "latex": "B = \\mu H, \\quad \\mu_r = 1 + \\chi_m, \\quad B = \\mu_0 (H + M)",
+  "summary": "চৌম্বক তীব্রতা H, চৌম্বক আবেশ B, আপেক্ষিক প্রবেশ্যতা μ_r এবং চৌম্বক প্রবণতা χ_m এর মধ্যকার সম্পর্ক।",
+  "tags": ["hsc", "eng-admission", "varsity", "2-star"],
+  "chapter": "magnetic-current",
+  "importance": 2,
+  "subjects": ["physics"],
+  "related": ["earth-magnetism"],
+  "symbols": [
+    { "symbol": "B", "meaning": "চৌম্বক আবেশ / ক্ষেত্রফল তীব্রতা", "unit": "T" },
+    { "symbol": "H", "meaning": "চৌম্বক তীব্রতা (Magnetizing field)", "unit": "A/m" },
+    { "symbol": "\\mu", "meaning": "মাধ্যমের চৌম্বক প্রবেশ্যতা", "unit": "T·m/A" },
+    { "symbol": "\\mu_r", "meaning": "আপেক্ষিক চৌম্বক প্রবেশ্যতা", "unit": "এককহীন" },
+    { "symbol": "\\chi_m", "meaning": "চৌম্বক প্রবণতা (Susceptibility)", "unit": "এককহীন" }
+  ],
+  "derivation": {
+    "lead": "পদার্থের চৌম্বকীকরণ তীব্রতা M ও প্রযুক্ত ক্ষেত্র H এর যোগফল দ্বারা মোট ক্ষেত্র নির্ধারিত হয়:",
+    "steps": [
+      {
+        "title": "মোট চৌম্বক ক্ষেত্র",
+        "latex": "B = \\mu_0 (H + M) = \\mu_0 H (1 + \\chi_m)",
+        "note": "যেখানে $M = \\chi_m H$।"
+      },
+      {
+        "title": "আপেক্ষিক প্রবেশ্যতা সম্পর্ক",
+        "latex": "\\mu_r = \\frac{\\mu}{\\mu_0} = 1 + \\chi_m",
+        "note": "ডায়াচৌম্বকের জন্য $\\chi_m < 0$, প্যারার জন্য $\\chi_m > 0$ এবং ফেরো পদার্থের জন্য $\\chi_m \\gg 1$।"
+      }
+    ],
+    "assumptions": ["সুষম মাধ্যমে চৌম্বকীয় আবেশ প্রযোজ্য।"]
+  }
+}

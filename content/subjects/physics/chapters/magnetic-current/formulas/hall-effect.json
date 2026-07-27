@@ -1,0 +1,36 @@
+{
+  "id": "hall-effect",
+  "title": "Hall Voltage & Hall Coefficient",
+  "titleBn": "হল ভোল্টেজ ও হল গুণাঙ্ক",
+  "latex": "V_H = \\frac{I B}{n q d}, \\quad R_H = \\frac{1}{n q}",
+  "summary": "চৌম্বক ক্ষেত্রে অবস্থিত তড়িৎবাহী পরিবাহীতে প্রস্থ বরাবর সৃষ্ট বিভব পার্থক্য হল হল ভোল্টেজ।",
+  "tags": ["hsc", "eng-admission", "varsity", "2-star"],
+  "chapter": "magnetic-current",
+  "importance": 2,
+  "subjects": ["physics"],
+  "related": ["lorentz", "force-on-wire"],
+  "symbols": [
+    { "symbol": "V_H", "meaning": "হল বিভব (Hall Voltage)", "unit": "V" },
+    { "symbol": "I", "meaning": "পরিবাহীর মধ্য দিয়ে মোট বিদ্যুৎপ্রবাহ", "unit": "A" },
+    { "symbol": "B", "meaning": "প্রযুক্ত চৌম্বক ক্ষেত্র", "unit": "T" },
+    { "symbol": "n", "meaning": "প্রতি একক আয়তনে মুক্ত ইলেকট্রনের সংখ্যা", "unit": "m⁻³" },
+    { "symbol": "d", "meaning": "পরিবাহীর পাতলা পাতের পুরুত্ব", "unit": "m" },
+    { "symbol": "q", "meaning": "চার্জের মান (e = 1.6 × 10⁻¹⁹ C)", "unit": "C" }
+  ],
+  "derivation": {
+    "lead": "তড়িৎ বল ও চৌম্বক লরেন্জ বল সাম্যাবস্থায় পৌঁছালে হল ভোল্টেজ তৈরি হয়:",
+    "steps": [
+      {
+        "title": "বল সাম্য সমীকরণ",
+        "latex": "q E_H = q v_d B \\implies E_H = v_d B",
+        "note": "$E_H$ হল হল তড়িৎ ক্ষেত্র এবং $v_d$ ড্রাফট বেগ।"
+      },
+      {
+        "title": "হল ভোল্টেজ প্রকাশমালা",
+        "latex": "V_H = E_H t = \\frac{I B}{n q d}",
+        "note": "হল গুণাঙ্ক $R_H = \\frac{E_H}{J B} = \\frac{1}{n q}$।"
+      }
+    ],
+    "assumptions": ["পরিবাহী পাতের ক্ষেত্র সমকোণে চৌম্বক ক্ষেত্রের সাথে স্থিত।"]
+  }
+}

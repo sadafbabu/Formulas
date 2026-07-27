@@ -1,0 +1,34 @@
+{
+  "id": "magnetic-flux",
+  "title": "Magnetic Flux & Gauss Law for Magnetism",
+  "titleBn": "চৌম্বক ফ্লাক্স ও চৌম্বকত্বের গাউসের সূত্র",
+  "latex": "\\Phi_B = B A \\cos \\theta, \\quad \\oint \\vec{B} \\cdot d\\vec{A} = 0",
+  "summary": "কোনো তলের মধ্য দিয়ে অতিক্রান্ত মোট চৌম্বক বলরেখার সংখ্যা হল চৌম্বক ফ্লাক্স। চৌম্বক একমেরুর অস্তিত্ব না থাকায় আবদ্ধ তলে নিট ফ্লাক্স শূন্য।",
+  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "chapter": "magnetic-current",
+  "importance": 3,
+  "subjects": ["physics"],
+  "related": ["biot-savart", "amperes-law"],
+  "symbols": [
+    { "symbol": "\\Phi_B", "meaning": "চৌম্বক ফ্লাক্স", "unit": "Wb (Weber) / T·m²" },
+    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T (Tesla)" },
+    { "symbol": "A", "meaning": "ক্ষেত্রের ক্ষেত্রফল", "unit": "m²" },
+    { "symbol": "\\theta", "meaning": "ক্ষেত্রফলের অভিলম্ব ও B-এর মধ্যবর্তী কোণ", "unit": "°" }
+  ],
+  "derivation": {
+    "lead": "চৌম্বক ফ্লাক্সের সাধারণ ভেক্টর সমীকরণ:",
+    "steps": [
+      {
+        "title": "ডট গুণন প্রকাশ",
+        "latex": "\\Phi_B = \\vec{B} \\cdot \\vec{A} = B A \\cos \\theta",
+        "note": "তল চৌম্বক ক্ষেত্রের লম্ব হলে $\\theta = 0^\\circ \\implies \\Phi_{max} = BA$।"
+      },
+      {
+        "title": "চৌম্বক গাউস সূত্র",
+        "latex": "\\oint \\vec{B} \\cdot d\\vec{A} = 0",
+        "note": "চৌম্বক একক মেরুর (Magnetic Monopole) কোনো অস্তিত্ব নেই।"
+      }
+    ],
+    "assumptions": ["সুষম চৌম্বক ক্ষেত্রে নির্দেশিত তল অবস্থান করছে।"]
+  }
+}

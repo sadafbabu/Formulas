@@ -8,6 +8,7 @@ import {
   formulasForChapter,
 } from '../data/catalog'
 import type { TagId } from '../data/types'
+import { matchFormula } from '../utils/search'
 
 export function SampleBookPage() {
   const [params, setParams] = useSearchParams()
@@ -17,16 +18,7 @@ export function SampleBookPage() {
 
   const all = formulasForChapter(chapterId)
   const matchCount = useMemo(() => {
-    const q = query.trim().toLowerCase()
-    return all.filter((f) => {
-      if (activeTag && !f.tags.includes(activeTag)) return false
-      if (!q) return true
-      return (
-        f.title.toLowerCase().includes(q) ||
-        f.titleBn.includes(query.trim()) ||
-        f.summary.toLowerCase().includes(q)
-      )
-    }).length
+    return all.filter((f) => matchFormula(f, query, activeTag)).length
   }, [all, activeTag, query])
 
   const setChapterId = (id: string) => {

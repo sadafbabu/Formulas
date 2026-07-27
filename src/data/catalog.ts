@@ -19,6 +19,10 @@ import cyclotronFreq from '../../content/subjects/physics/chapters/magnetic-curr
 import galvanometerAmmeter from '../../content/subjects/physics/chapters/magnetic-current/formulas/galvanometer-ammeter.json'
 import galvanometerVoltmeter from '../../content/subjects/physics/chapters/magnetic-current/formulas/galvanometer-voltmeter.json'
 import earthMagnetism from '../../content/subjects/physics/chapters/magnetic-current/formulas/earth-magnetism.json'
+import magneticFlux from '../../content/subjects/physics/chapters/magnetic-current/formulas/magnetic-flux.json'
+import hallEffect from '../../content/subjects/physics/chapters/magnetic-current/formulas/hall-effect.json'
+import movingChargeEnergy from '../../content/subjects/physics/chapters/magnetic-current/formulas/moving-charge-energy.json'
+import magneticIntensity from '../../content/subjects/physics/chapters/magnetic-current/formulas/magnetic-intensity.json'
 
 import type {
   BookPage,
@@ -55,6 +59,10 @@ export const formulas: Formula[] = [
   galvanometerAmmeter,
   galvanometerVoltmeter,
   earthMagnetism,
+  magneticFlux,
+  hallEffect,
+  movingChargeEnergy,
+  magneticIntensity,
 ] as Formula[]
 
 const tagMap = new Map(tags.map((t) => [t.id, t]))
