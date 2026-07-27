@@ -532,29 +532,32 @@ button {
 
 .formula-main {
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
-  gap: 0.4rem 0.75rem;
+  grid-template-columns: minmax(0, 1.25fr) auto minmax(0, 1fr);
+  gap: 0.4rem 0.65rem;
   width: 100%;
   align-items: center;
   min-height: 0;
 }
 
-.formula-latex-side {
+.formula-latex-col {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 0.3rem;
+  align-items: center;
   min-width: 0;
 }
 
+.formula-diagram-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
 .formula-diagram {
-  width: min(130px, 90%);
+  width: min(105px, 18vw);
   height: auto;
-  max-height: 52px;
+  max-height: 48px;
   flex-shrink: 0;
   display: block;
-  margin-top: 0.15rem;
   filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.45));
 }
 
@@ -571,7 +574,7 @@ button {
   font-size: 1.05em;
 }
 
-.formula-text {
+.formula-text-col {
   display: flex;
   flex-direction: column;
   gap: 0.12rem;

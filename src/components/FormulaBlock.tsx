@@ -33,13 +33,15 @@ export function FormulaBlock({
       style={{ animationDelay: `${30 + index * 30}ms` }}
     >
       <div className="formula-main">
-        <div className="formula-latex-side">
-          <div className="formula-latex">
-            <Katex latex={formula.latex} display />
-          </div>
+        <div className="formula-latex-col">
+          <Katex latex={formula.latex} display />
+        </div>
+        
+        <div className="formula-diagram-col">
           <FormulaDiagram id={formula.id} />
         </div>
-        <div className="formula-text">
+
+        <div className="formula-text-col">
           <header className="formula-head">
             <h2 className="formula-title">
               <span className="formula-title-bn">{formula.titleBn}</span>
