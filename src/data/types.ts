@@ -5,8 +5,6 @@ export type TagId =
   | 'varsity'
   | 'general'
   | 'olympic'
-  | '5-star'
-  | '4-star'
   | '3-star'
   | '2-star'
   | '1-star'
@@ -46,7 +44,7 @@ export interface Formula {
   summary: string
   tags: TagId[]
   chapter: string
-  importance?: 1 | 2 | 3 | 4 | 5 // 1 to 5 grey stars (5 being most important)
+  importance?: 1 | 2 | 3 // 1 to 3 grey stars (3 being highest / most important)
   subjects: string[]
   related: string[]
   symbols: SymbolInfo[]

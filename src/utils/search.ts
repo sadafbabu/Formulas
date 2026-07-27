@@ -23,8 +23,8 @@ const ALIASES: Record<string, string[]> = {
   loop: ['লুপ', 'কুন্ডলী'],
   radius: ['ব্যাসার্ধ'],
   freq: ['কম্পাঙ্ক'],
-  important: ['গুরুত্বপূর্ণ', 'মোস্ট'],
-  top: ['সর্বোচ্চ', '5-star'],
+  important: ['গুরুত্বপূর্ণ', 'সর্বোচ্চ'],
+  top: ['সর্বোচ্চ', '3-star'],
 }
 
 export function matchFormula(
@@ -32,12 +32,10 @@ export function matchFormula(
   query: string,
   activeTag?: TagId | null
 ): boolean {
-  const imp = formula.importance ?? 3
+  const imp = formula.importance ?? 2
 
   // Tag filter
   if (activeTag) {
-    if (activeTag === '5-star' && imp !== 5) return false
-    if (activeTag === '4-star' && imp !== 4) return false
     if (activeTag === '3-star' && imp !== 3) return false
     if (activeTag === '2-star' && imp !== 2) return false
     if (activeTag === '1-star' && imp !== 1) return false
@@ -52,13 +50,7 @@ export function matchFormula(
   const q = query.trim().toLowerCase()
   if (!q) return true
 
-  // Direct star search (e.g. "5", "5 star", "5star", "*****")
-  if (q === '5' || q === '5 star' || q === '5star' || q === '*****') {
-    return imp === 5
-  }
-  if (q === '4' || q === '4 star' || q === '4star' || q === '****') {
-    return imp === 4
-  }
+  // Direct star search (e.g. "3", "3 star", "3star", "***")
   if (q === '3' || q === '3 star' || q === '3star' || q === '***') {
     return imp === 3
   }

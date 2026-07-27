@@ -15,22 +15,14 @@ export function FormulaBlock({
   activeTag,
   index = 0,
 }: FormulaBlockProps) {
-  // Determine grey star importance tag (5 to 1 stars)
-  const imp = formula.importance ?? 3
+  // Determine grey star importance tag (3-star highest, 2-star, 1-star)
+  const imp = formula.importance ?? 2
   const importanceTag: TagId =
-    imp === 5
-      ? '5-star'
-      : imp === 4
-      ? '4-star'
-      : imp === 3
-      ? '3-star'
-      : imp === 2
-      ? '2-star'
-      : '1-star'
+    imp === 3 ? '3-star' : imp === 2 ? '2-star' : '1-star'
 
   // Filter out any older star tags from formula.tags to avoid duplicates
   const examTags = formula.tags.filter((t) => !t.endsWith('-star'))
-  
+
   // Clean ordered display tags: exam tags first, followed by single grey star tag
   const displayTags: TagId[] = [...examTags, importanceTag]
 
