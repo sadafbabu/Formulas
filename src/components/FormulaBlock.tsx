@@ -6,15 +6,23 @@ import { TagChip } from './TagChip'
 interface FormulaBlockProps {
   formula: Formula
   activeTag?: TagId | null
+  index?: number
 }
 
-export function FormulaBlock({ formula, activeTag }: FormulaBlockProps) {
+export function FormulaBlock({
+  formula,
+  activeTag,
+  index = 0,
+}: FormulaBlockProps) {
   return (
-    <article className="formula">
+    <article
+      className="formula"
+      style={{ animationDelay: `${80 + index * 70}ms` }}
+    >
       <div className="formula-title-row">
         <h2 className="formula-title">
           {formula.title}
-          <span className="formula-title-bn"> · {formula.titleBn}</span>
+          <span className="formula-title-bn">{formula.titleBn}</span>
         </h2>
         <DeriveHint formula={formula} />
       </div>

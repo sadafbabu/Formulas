@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { buildPages, formulas, subject } from '../data/catalog'
 import type { TagId } from '../data/types'
 import { A5Page } from './A5Page'
@@ -36,10 +36,15 @@ export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
 
   const [spreadIndex, setSpreadIndex] = useState(0)
   const [mobileIndex, setMobileIndex] = useState(0)
+  const [dir, setDir] = useState<'next' | 'prev' | 'none'>('none')
+  const [animKey, setAnimKey] = useState(0)
+  const animLock = useRef(false)
 
   useEffect(() => {
     setSpreadIndex(0)
     setMobileIndex(0)
+    setDir('none')
+    setAnimKey((k) => k + 1)
   }, [activeTag, query])
 
   const maxSpread = Math.max(0, Math.ceil(pages.length / 2) - 1)
@@ -49,15 +54,36 @@ export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
 
   const safeMobile = Math.min(mobileIndex, pages.length - 1)
   const mobilePage = pages[safeMobile]
+  const progress = maxSpread === 0 ? 1 : (safeSpread + 1) / (maxSpread + 1)
 
   const goPrev = () => {
-    setSpreadIndex((i) => Math.max(0, i - 1))
-    setMobileIndex((i) => Math.max(0, i - 1))
+    if (animLock.current) return
+    const canDesk = spreadIndex > 0
+    const canMob = mobileIndex > 0
+    if (!canDesk && !canMob) return
+    animLock.current = true
+    setDir('prev')
+    setAnimKey((k) => k + 1)
+    if (canDesk) setSpreadIndex((i) => i - 1)
+    if (canMob) setMobileIndex((i) => i - 1)
+    window.setTimeout(() => {
+      animLock.current = false
+    }, 420)
   }
 
   const goNext = () => {
-    setSpreadIndex((i) => Math.min(maxSpread, i + 1))
-    setMobileIndex((i) => Math.min(pages.length - 1, i + 1))
+    if (animLock.current) return
+    const canDesk = spreadIndex < maxSpread
+    const canMob = mobileIndex < pages.length - 1
+    if (!canDesk && !canMob) return
+    animLock.current = true
+    setDir('next')
+    setAnimKey((k) => k + 1)
+    if (canDesk) setSpreadIndex((i) => i + 1)
+    if (canMob) setMobileIndex((i) => i + 1)
+    window.setTimeout(() => {
+      animLock.current = false
+    }, 420)
   }
 
   useEffect(() => {
@@ -77,13 +103,16 @@ export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
 
   const onPageClick = (
     side: 'left' | 'right' | 'single',
-    e: { target: EventTarget | null; currentTarget: EventTarget; clientX: number },
+    e: {
+      target: EventTarget | null
+      currentTarget: EventTarget
+      clientX: number
+    },
   ) => {
     if (isInteractive(e.target)) return
     if (side === 'left') goPrev()
     else if (side === 'right') goNext()
     else {
-      // mobile: left half prev, right half next
       const el = e.currentTarget as HTMLElement
       const rect = el.getBoundingClientRect()
       const x = e.clientX - rect.left
@@ -92,40 +121,54 @@ export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
     }
   }
 
+  const slideClass =
+    dir === 'prev' ? 'is-from-left' : dir === 'next' ? 'is-from-right' : 'is-enter'
+
   return (
     <div className="spread-stage">
-      <div className="spread" aria-label="Book spread">
-        {left && (
-          <div
-            className={`page-hit is-left${safeSpread <= 0 ? ' is-edge' : ''}`}
-            onClick={(e) => onPageClick('left', e)}
-          >
-            <A5Page
-              page={left}
-              subject={subject}
-              side="left"
-              activeTag={activeTag}
-            />
-          </div>
-        )}
-        {right ? (
-          <div
-            className={`page-hit is-right${safeSpread >= maxSpread ? ' is-edge' : ''}`}
-            onClick={(e) => onPageClick('right', e)}
-          >
-            <A5Page
-              page={right}
-              subject={subject}
-              side="right"
-              activeTag={activeTag}
-            />
-          </div>
-        ) : (
-          <div className="page-hit is-right is-blank" aria-hidden="true" />
-        )}
+      <div className="stage-vignette" aria-hidden="true" />
+
+      <div
+        key={`desk-${animKey}`}
+        className={`slide-deck ${slideClass}`}
+        aria-label="Presentation slide"
+      >
+        <div className="spread">
+          {left && (
+            <div
+              className={`page-hit is-left${safeSpread <= 0 ? ' is-edge' : ''}`}
+              onClick={(e) => onPageClick('left', e)}
+            >
+              <A5Page
+                page={left}
+                subject={subject}
+                side="left"
+                activeTag={activeTag}
+              />
+            </div>
+          )}
+          {right ? (
+            <div
+              className={`page-hit is-right${safeSpread >= maxSpread ? ' is-edge' : ''}`}
+              onClick={(e) => onPageClick('right', e)}
+            >
+              <A5Page
+                page={right}
+                subject={subject}
+                side="right"
+                activeTag={activeTag}
+              />
+            </div>
+          ) : (
+            <div className="page-hit is-right is-blank" aria-hidden="true" />
+          )}
+        </div>
       </div>
 
-      <div className="mobile-pager">
+      <div
+        key={`mob-${animKey}`}
+        className={`mobile-pager ${slideClass}`}
+      >
         {mobilePage && (
           <div
             className="page-hit is-single"
@@ -141,8 +184,15 @@ export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
         )}
       </div>
 
-      <div className="page-indicator" aria-live="polite">
-        {safeSpread + 1}/{maxSpread + 1}
+      <div className="deck-chrome">
+        <div className="progress-track" aria-hidden="true">
+          <div className="progress-fill" style={{ width: `${progress * 100}%` }} />
+        </div>
+        <div className="page-indicator" aria-live="polite">
+          <span>{safeSpread + 1}</span>
+          <span className="page-indicator-sep">/</span>
+          <span>{maxSpread + 1}</span>
+        </div>
       </div>
     </div>
   )
