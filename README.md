@@ -32,3 +32,16 @@ Formula JSON fields: `title`, `titleBn`, `latex`, `summary`, `tags`, `symbols[]`
 ## Stack
 
 Vite · React · TypeScript · KaTeX · React Router
+
+## Live site (GitHub Pages)
+
+**URL:** https://sadafbabu.github.io/Formulas/
+
+If the link 404s, enable Pages once:
+
+1. Open https://github.com/sadafbabu/Formulas/settings/pages
+2. **Deploy from a branch**
+3. Branch: `gh-pages` · folder: `/ (root)`
+4. Save
+
+(Or choose **GitHub Actions** as source — workflow is already in `.github/workflows/deploy.yml`.)
