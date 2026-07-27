@@ -10,6 +10,16 @@ import workEnergyMeta from '../../content/subjects/physics/chapters/work-energy/
 import gravitationMeta from '../../content/subjects/physics/chapters/gravitation/meta.json'
 import inductionAcMeta from '../../content/subjects/physics/chapters/induction-ac/meta.json'
 import modernPhysicsMeta from '../../content/subjects/physics/chapters/modern-physics/meta.json'
+import qualitativeMeta from '../../content/subjects/chemistry/chapters/qualitative-chem/meta.json'
+import electrochemMeta from '../../content/subjects/chemistry/chapters/electrochemistry/meta.json'
+import straightLinesMeta from '../../content/subjects/math/chapters/straight-lines/meta.json'
+import calculusMeta from '../../content/subjects/math/chapters/calculus/meta.json'
+
+import bohrAtomModel from '../../content/subjects/chemistry/chapters/qualitative-chem/formulas/bohr-atom-model.json'
+import faradaysElectrolysis from '../../content/subjects/chemistry/chapters/electrochemistry/formulas/faradays-electrolysis.json'
+
+import perpendicularDistance from '../../content/subjects/math/chapters/straight-lines/formulas/perpendicular-distance.json'
+import integrationByParts from '../../content/subjects/math/chapters/calculus/formulas/integration-by-parts.json'
 
 import newtonsGravitation from '../../content/subjects/physics/chapters/gravitation/formulas/newtons-gravitation.json'
 import escapeVelocity from '../../content/subjects/physics/chapters/gravitation/formulas/escape-velocity.json'
@@ -113,12 +123,12 @@ export const allChapters: ChapterMeta[] = [
   { id: 'gravitation', slug: 'gravitation', name: 'Gravitation & Gravity', nameBn: 'মহাকর্ষ ও অভিকর্ষ', subjectId: 'physics', paperId: '1st-paper', order: 6, formulaCount: 2, isReady: true },
   
   // Chemistry
-  { id: 'qualitative-chem', slug: 'qualitative-chem', name: 'Qualitative Chemistry', nameBn: 'গুণগত রসায়ন', subjectId: 'chemistry', paperId: '1st-paper', order: 2, formulaCount: 12, isReady: false },
-  { id: 'electrochemistry', slug: 'electrochemistry', name: 'Electrochemistry', nameBn: 'তড়িৎ রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 4, formulaCount: 14, isReady: false },
+  { id: 'qualitative-chem', slug: 'qualitative-chem', name: 'Qualitative Chemistry', nameBn: 'গুণগত রসায়ন', subjectId: 'chemistry', paperId: '1st-paper', order: 2, formulaCount: 1, isReady: true },
+  { id: 'electrochemistry', slug: 'electrochemistry', name: 'Electrochemistry', nameBn: 'তড়িৎ রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 4, formulaCount: 1, isReady: true },
 
   // Math
-  { id: 'straight-lines', slug: 'straight-lines', name: 'Straight Lines', nameBn: 'সরলরেখা', subjectId: 'math', paperId: '1st-paper', order: 3, formulaCount: 25, isReady: false },
-  { id: 'calculus', slug: 'calculus', name: 'Calculus & Integration', nameBn: 'ক্যালকুলাস ও যোগজীকরণ', subjectId: 'math', paperId: '1st-paper', order: 9, formulaCount: 30, isReady: false },
+  { id: 'straight-lines', slug: 'straight-lines', name: 'Straight Lines', nameBn: 'সরলরেখা', subjectId: 'math', paperId: '1st-paper', order: 3, formulaCount: 1, isReady: true },
+  { id: 'calculus', slug: 'calculus', name: 'Calculus & Integration', nameBn: 'ক্যালকুলাস ও যোগজীকরণ', subjectId: 'math', paperId: '1st-paper', order: 9, formulaCount: 1, isReady: true },
 ]
 
 export const chapters: ChapterMeta[] = [
@@ -132,10 +142,19 @@ export const chapters: ChapterMeta[] = [
   gravitationMeta,
   inductionAcMeta,
   modernPhysicsMeta,
+  qualitativeMeta,
+  electrochemMeta,
+  straightLinesMeta,
+  calculusMeta,
 ] as ChapterMeta[]
 export const defaultChapterId = 'magnetic-current'
 
 export const formulas: Formula[] = [
+  bohrAtomModel,
+  faradaysElectrolysis,
+  perpendicularDistance,
+  integrationByParts,
+
   newtonsGravitation,
   escapeVelocity,
   faradaysLaw,

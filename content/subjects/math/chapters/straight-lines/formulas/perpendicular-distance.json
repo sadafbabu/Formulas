@@ -1,0 +1,32 @@
+{
+  "id": "perpendicular-distance",
+  "chapter": "straight-lines",
+  "title": "Perpendicular Distance of Point to Line",
+  "titleBn": "বিন্দু হতে সরলরেখার লম্ব দূরত্ব",
+  "summary": "বিন্দু (x₁, y₁) হতে Ax + By + C = 0 রেখার লম্ব দূরত্ব",
+  "latex": "d = \\frac{|A x_1 + B y_1 + C|}{\\sqrt{A^2 + B^2}}",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "d", "meaning": "লম্ব দূরত্ব", "unit": "একক" },
+    { "symbol": "(x_1, y_1)", "meaning": "প্রদত্ত বিন্দু", "unit": "স্থানাঙ্ক" },
+    { "symbol": "A, B, C", "meaning": "সরলরেখার সহগ ও ধ্রুবক", "unit": "সংখ্যা" }
+  ],
+  "derivation": {
+    "lead": "বিন্দুগামী লম্বরেখার ছেদবিন্দু নির্ণয় করে দূরত্বের সূত্র প্রয়োগ করা হয়।",
+    "steps": [
+      {
+        "title": "দূরত্ব সূত্র রূপায়ণ",
+        "latex": "d = \\frac{|A x_1 + B y_1 + C|}{\\sqrt{A^2 + B^2}}",
+        "note": "দুটি সমান্তরাল রেখার দূরত্ব d = |C₁ - C₂| / √(A² + B²)"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Hard",
+      "question": "(2, 3) বিন্দু হতে 3x - 4y + 1 = 0 রেখার লম্ব দূরত্ব কত?",
+      "answer": "d = \\frac{|3(2) - 4(3) + 1|}{\\sqrt{3^2 + (-4)^2}} = \\frac{|6 - 12 + 1|}{5} = \\frac{|-5|}{5} = 1"
+    }
+  ]
+}
