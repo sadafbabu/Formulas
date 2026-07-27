@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
 import type { Formula, TagId } from '../data/types'
+import { DeriveHint } from './DeriveHint'
 import { Katex } from './Katex'
 import { TagChip } from './TagChip'
 
@@ -16,6 +16,7 @@ export function FormulaBlock({ formula, activeTag }: FormulaBlockProps) {
           {formula.title}
           <span className="formula-title-bn"> · {formula.titleBn}</span>
         </h2>
+        <DeriveHint formula={formula} />
       </div>
 
       <div className="formula-latex">
@@ -28,9 +29,6 @@ export function FormulaBlock({ formula, activeTag }: FormulaBlockProps) {
         {formula.tags.map((tag) => (
           <TagChip key={tag} id={tag} active={activeTag === tag} />
         ))}
-        <Link className="derive-link" to={`/formula/${formula.id}`}>
-          বিস্তারিত →
-        </Link>
       </div>
     </article>
   )

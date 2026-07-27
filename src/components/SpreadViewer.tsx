@@ -8,6 +8,15 @@ interface SpreadViewerProps {
   query?: string
 }
 
+function isInteractive(target: EventTarget | null): boolean {
+  if (!(target instanceof Element)) return false
+  return Boolean(
+    target.closest(
+      'a, button, input, textarea, select, label, .derive-hint, .tag, .nav-root',
+    ),
+  )
+}
+
 export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
   const pages = useMemo(() => {
     const q = query.trim().toLowerCase()
@@ -41,68 +50,99 @@ export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
   const safeMobile = Math.min(mobileIndex, pages.length - 1)
   const mobilePage = pages[safeMobile]
 
+  const goPrev = () => {
+    setSpreadIndex((i) => Math.max(0, i - 1))
+    setMobileIndex((i) => Math.max(0, i - 1))
+  }
+
+  const goNext = () => {
+    setSpreadIndex((i) => Math.min(maxSpread, i + 1))
+    setMobileIndex((i) => Math.min(pages.length - 1, i + 1))
+  }
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+        e.preventDefault()
+        goPrev()
+      }
+      if (e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') {
+        e.preventDefault()
+        goNext()
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  })
+
+  const onPageClick = (
+    side: 'left' | 'right' | 'single',
+    e: { target: EventTarget | null; currentTarget: EventTarget; clientX: number },
+  ) => {
+    if (isInteractive(e.target)) return
+    if (side === 'left') goPrev()
+    else if (side === 'right') goNext()
+    else {
+      // mobile: left half prev, right half next
+      const el = e.currentTarget as HTMLElement
+      const rect = el.getBoundingClientRect()
+      const x = e.clientX - rect.left
+      if (x < rect.width / 2) goPrev()
+      else goNext()
+    }
+  }
+
   return (
     <div className="spread-stage">
       <div className="spread" aria-label="Book spread">
         {left && (
-          <A5Page
-            page={left}
-            subject={subject}
-            side="left"
-            activeTag={activeTag}
-          />
+          <div
+            className={`page-hit is-left${safeSpread <= 0 ? ' is-edge' : ''}`}
+            onClick={(e) => onPageClick('left', e)}
+          >
+            <A5Page
+              page={left}
+              subject={subject}
+              side="left"
+              activeTag={activeTag}
+            />
+          </div>
         )}
-        {right && (
-          <A5Page
-            page={right}
-            subject={subject}
-            side="right"
-            activeTag={activeTag}
-          />
+        {right ? (
+          <div
+            className={`page-hit is-right${safeSpread >= maxSpread ? ' is-edge' : ''}`}
+            onClick={(e) => onPageClick('right', e)}
+          >
+            <A5Page
+              page={right}
+              subject={subject}
+              side="right"
+              activeTag={activeTag}
+            />
+          </div>
+        ) : (
+          <div className="page-hit is-right is-blank" aria-hidden="true" />
         )}
       </div>
 
       <div className="mobile-pager">
         {mobilePage && (
-          <A5Page
-            page={mobilePage}
-            subject={subject}
-            side="single"
-            activeTag={activeTag}
-          />
+          <div
+            className="page-hit is-single"
+            onClick={(e) => onPageClick('single', e)}
+          >
+            <A5Page
+              page={mobilePage}
+              subject={subject}
+              side="single"
+              activeTag={activeTag}
+            />
+          </div>
         )}
       </div>
 
-      <div className="spread-controls">
-        <button
-          type="button"
-          className="btn-ghost"
-          disabled={safeSpread <= 0 && safeMobile <= 0}
-          onClick={() => {
-            setSpreadIndex((i) => Math.max(0, i - 1))
-            setMobileIndex((i) => Math.max(0, i - 1))
-          }}
-        >
-          ← Prev
-        </button>
-        <span>
-          Spread {safeSpread + 1} / {maxSpread + 1}
-          <span aria-hidden="true"> · </span>
-          Page {safeMobile + 1}/{pages.length}
-        </span>
-        <button
-          type="button"
-          className="btn-ghost"
-          disabled={
-            safeSpread >= maxSpread && safeMobile >= pages.length - 1
-          }
-          onClick={() => {
-            setSpreadIndex((i) => Math.min(maxSpread, i + 1))
-            setMobileIndex((i) => Math.min(pages.length - 1, i + 1))
-          }}
-        >
-          Next →
-        </button>
+      <div className="page-indicator" aria-live="polite">
+        {safeSpread + 1}/{maxSpread + 1}
       </div>
     </div>
   )

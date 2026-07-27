@@ -1,22 +1,26 @@
+import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { Katex } from '../components/Katex'
+import { NavMenu } from '../components/NavMenu'
 import { TagChip } from '../components/TagChip'
 import { getFormula } from '../data/catalog'
 
 export function FormulaDetailPage() {
   const { id } = useParams()
   const formula = id ? getFormula(id) : undefined
+  const [query, setQuery] = useState('')
 
   if (!formula) {
     return (
-      <div className="app-shell">
-        <main className="main">
-          <div className="detail">
+      <div className="book-shell detail-shell">
+        <NavMenu query={query} onQueryChange={setQuery} />
+        <main className="detail-scroll">
+          <article className="detail">
             <Link className="detail-back" to="/">
               ← বইয়ে ফিরে যান
             </Link>
             <h1>সূত্র পাওয়া যায়নি</h1>
-          </div>
+          </article>
         </main>
       </div>
     )
@@ -25,26 +29,18 @@ export function FormulaDetailPage() {
   const { derivation } = formula
 
   return (
-    <div className="app-shell">
-      <header className="topbar">
-        <Link to="/" className="brand">
-          Formulas<span>.</span>
-        </Link>
-        <div className="topbar-meta">
-          <span>কেভাবে এলো</span>
-        </div>
-      </header>
-
-      <main className="main">
+    <div className="book-shell detail-shell">
+      <NavMenu query={query} onQueryChange={setQuery} />
+      <main className="detail-scroll">
         <article className="detail">
           <Link className="detail-back" to="/">
-            ← Spread-এ ফিরে যান
+            ← বইয়ে ফিরে যান
           </Link>
 
           <h1>{formula.title}</h1>
           <p className="subtitle">{formula.titleBn}</p>
 
-          <div className="formula-meta" style={{ marginBottom: '0.75rem' }}>
+          <div className="formula-meta">
             {formula.tags.map((tag) => (
               <TagChip key={tag} id={tag} />
             ))}

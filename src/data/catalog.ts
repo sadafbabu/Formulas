@@ -5,6 +5,8 @@ import kineticEnergy from '../../content/subjects/physics/formulas/kinetic-energ
 import momentum from '../../content/subjects/physics/formulas/momentum.json'
 import impulse from '../../content/subjects/physics/formulas/impulse.json'
 import workEnergy from '../../content/subjects/physics/formulas/work-energy.json'
+import projectileRange from '../../content/subjects/physics/formulas/projectile-range.json'
+import friction from '../../content/subjects/physics/formulas/friction.json'
 import type { BookPage, Formula, SubjectMeta, Tag, TagId } from './types'
 
 export const tags = tagsJson as Tag[]
@@ -18,6 +20,8 @@ export const formulas: Formula[] = [
   impulse,
   kineticEnergy,
   workEnergy,
+  projectileRange,
+  friction,
 ] as Formula[]
 
 const tagMap = new Map(tags.map((t) => [t.id, t]))
@@ -35,7 +39,7 @@ export function getFormula(id: string): Formula | undefined {
  * Average template: ~2–3 formulas per page (title + latex + summary + tags).
  */
 export function buildPages(items: Formula[] = formulas): BookPage[] {
-  const perPage = 2
+  const perPage = 3
   const pages: BookPage[] = []
   for (let i = 0; i < items.length; i += perPage) {
     pages.push({

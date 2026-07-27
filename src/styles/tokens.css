@@ -1,28 +1,27 @@
 :root {
-  --bg-deep: #060607;
-  --bg-elevated: #0e0e11;
-  --page-bg: #121216;
-  --page-edge: #1c1c22;
-  --ink: #ece7df;
-  --ink-soft: #a39e96;
-  --ink-faint: #6b6660;
-  --accent: #d4a574;
-  --accent-dim: color-mix(in oklab, var(--accent) 35%, transparent);
-  --accent-glow: color-mix(in oklab, var(--accent) 18%, transparent);
-  --danger-soft: #c47a6a;
-  --line: rgba(236, 231, 223, 0.08);
-  --line-strong: rgba(236, 231, 223, 0.16);
+  /* Cursor-like professional greys — no warm glow */
+  --bg-deep: #1e1e1e;
+  --bg-elevated: #252526;
+  --bg-panel: #2d2d2d;
+  --page-bg: #252526;
+  --page-edge: #3c3c3c;
+  --ink: #cccccc;
+  --ink-bright: #e8e8e8;
+  --ink-soft: #9d9d9d;
+  --ink-faint: #6e6e6e;
+  --accent: #cfcfcf;
+  --accent-dim: rgba(255, 255, 255, 0.06);
+  --focus: #3794ff;
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 255, 255, 0.14);
 
-  --font-display: 'Syne', sans-serif;
-  --font-body: 'Source Serif 4', 'Source Serif Pro', Georgia, serif;
   --font-ui: 'DM Sans', system-ui, sans-serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
 
-  /* A5 at 96dpi ≈ 148mm × 210mm → 559 × 794 px; we scale fluidly */
-  --a5-w: 22rem;
-  --a5-h: 31.2rem;
-  --page-pad: 1.35rem;
-  --radius-sm: 4px;
-  --spread-gap: 0.65rem;
+  --page-pad: 0.7rem 0.8rem;
+  --radius-sm: 3px;
+  --spread-gap: 0;
+  --nav-size: 2rem;
 
   color-scheme: dark;
 }
