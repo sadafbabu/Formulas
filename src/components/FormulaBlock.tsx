@@ -1,6 +1,6 @@
 import type { Formula, TagId } from '../data/types'
 import { DeriveHint } from './DeriveHint'
-import { FormulaDiagram } from './FormulaDiagram'
+import { DiagramHint } from './DiagramHint'
 import { Katex } from './Katex'
 import { SymbolHint } from './SymbolHint'
 import { TagChip } from './TagChip'
@@ -36,10 +36,6 @@ export function FormulaBlock({
         <div className="formula-latex-col">
           <Katex latex={formula.latex} display />
         </div>
-        
-        <div className="formula-diagram-col">
-          <FormulaDiagram id={formula.id} />
-        </div>
 
         <div className="formula-text-col">
           <header className="formula-head">
@@ -48,6 +44,7 @@ export function FormulaBlock({
               <span className="formula-title-en">{formula.title}</span>
             </h2>
             <div className="formula-actions">
+              <DiagramHint formulaId={formula.id} titleBn={formula.titleBn} />
               <SymbolHint formula={formula} />
               <DeriveHint formula={formula} />
             </div>
