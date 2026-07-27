@@ -1,0 +1,26 @@
+{
+  "id": "impulse",
+  "title": "Impulse–Momentum",
+  "titleBn": "আবেগ–ভরবেগ",
+  "latex": "J = F\\Delta t = \\Delta p",
+  "summary": "কোনো সময় ব্যবধানে বলের প্রভাব = ভরবেগের পরিবর্তন।",
+  "tags": ["hsc", "eng-admission", "medical"],
+  "subjects": ["physics"],
+  "related": ["momentum", "newtons-second"],
+  "derivation": {
+    "lead": "F = dp/dt কে সময়ের উপর ইন্টিগ্রেট করলে আবেগ পাওয়া যায়।",
+    "steps": [
+      {
+        "title": "ডিফারেনশিয়াল রূপ",
+        "latex": "F\\,dt = dp",
+        "note": "দুই পাশে dt গুণ।"
+      },
+      {
+        "title": "ইন্টিগ্রেশন",
+        "latex": "\\int F\\,dt = \\Delta p = J",
+        "note": "ধ্রুব F হলে J = FΔt।"
+      }
+    ],
+    "assumptions": ["ইনার্শিয়াল ফ্রেম", "নেট ফোর্স বিবেচিত"]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "momentum",
+  "title": "Linear Momentum",
+  "titleBn": "রৈখিক ভরবেগ",
+  "latex": "p = mv",
+  "summary": "ভর ও বেগের গুণফল। সংঘর্ষ ও সংরক্ষণ সূত্রে মূল রাশি।",
+  "tags": ["hsc", "eng-admission", "varsity"],
+  "subjects": ["physics"],
+  "related": ["newtons-second", "impulse"],
+  "derivation": {
+    "lead": "এটি সংজ্ঞামূলক রাশি — নিউটনীয় বলবিদ্যায় ভরবেগকে কেন্দ্র করে সূত্র গঠিত।",
+    "steps": [
+      {
+        "title": "সংজ্ঞা",
+        "latex": "p = mv",
+        "note": "ভেক্টর রাশি; দিক বেগের দিকে।"
+      },
+      {
+        "title": "বলের সাথে সম্পর্ক",
+        "latex": "F = \\dfrac{dp}{dt}",
+        "note": "এখান থেকেই F = ma আসে (ধ্রুব m)।"
+      }
+    ],
+    "assumptions": ["ক্লাসিক্যাল মেকানিক্স", "v ≪ c"]
+  }
+}

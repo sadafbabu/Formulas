@@ -1,0 +1,35 @@
+{
+  "id": "kinetic-energy",
+  "title": "Kinetic Energy",
+  "titleBn": "গতিশক্তি",
+  "latex": "K = \\tfrac{1}{2}mv^{2}",
+  "summary": "গতিশীল বস্তুর শক্তি। কাজ–শক্তি উপপাদ্য থেকে পাওয়া যায়।",
+  "tags": ["hsc", "eng-admission", "medical"],
+  "subjects": ["physics"],
+  "related": ["work-energy", "newtons-second"],
+  "derivation": {
+    "lead": "ধ্রুব বলের অধীনে স্থানচ্যুতির কাজ থেকে গতিশক্তির রাশি আসে।",
+    "steps": [
+      {
+        "title": "কাজের সংজ্ঞা",
+        "latex": "W = F \\cdot s = mas",
+        "note": "F = ma এবং স্থানচ্যুতি s ধরে।"
+      },
+      {
+        "title": "গতি সমীকরণ",
+        "latex": "v^{2} = u^{2} + 2as \\Rightarrow as = \\tfrac{v^{2}-u^{2}}{2}",
+        "note": "as কে v, u দিয়ে প্রকাশ।"
+      },
+      {
+        "title": "কাজ = শক্তির পরিবর্তন",
+        "latex": "W = \\tfrac{1}{2}m(v^{2}-u^{2})",
+        "note": "u = 0 হলে K = ½mv²।"
+      }
+    ],
+    "assumptions": [
+      "ধ্রুব ভর",
+      "ধ্রুব ত্বরণ / কাজ–শক্তি উপপাদ্য প্রযোজ্য",
+      "অরৈখিক ঘর্ষণ উপেক্ষিত (এই সরল রূপে)"
+    ]
+  }
+}

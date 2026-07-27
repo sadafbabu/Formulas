@@ -1,0 +1,35 @@
+{
+  "id": "newtons-second",
+  "title": "Newton's Second Law",
+  "titleBn": "নিউটনের দ্বিতীয় সূত্র",
+  "latex": "F = ma",
+  "summary": "বস্তুর উপর কৃত মোট বল = ভর × ত্বরণ। দিক বলের দিকেই।",
+  "tags": ["hsc", "eng-admission", "medical", "varsity"],
+  "subjects": ["physics"],
+  "related": ["momentum", "impulse"],
+  "derivation": {
+    "lead": "মোমেন্টামের পরিবর্তনের হার থেকে এই সূত্র আসে।",
+    "steps": [
+      {
+        "title": "মোমেন্টামের সংজ্ঞা",
+        "latex": "p = mv",
+        "note": "রৈখিক ভরবেগ = ভর × বেগ।"
+      },
+      {
+        "title": "নিউটনের মূল বক্তব্য",
+        "latex": "F = \\dfrac{dp}{dt}",
+        "note": "মোট বল = ভরবেগের সময়গত পরিবর্তনের হার।"
+      },
+      {
+        "title": "ধ্রুব ভর হলে",
+        "latex": "F = m\\dfrac{dv}{dt} = ma",
+        "note": "ভর ধ্রুব ধরলে m বাইরে আসে; dv/dt = ত্বরণ a।"
+      }
+    ],
+    "assumptions": [
+      "ভর সময়ের সাথে ধ্রুব",
+      "ইনার্শিয়াল ফ্রেম",
+      "রৈখিক গতি / নেট ফোর্স ভেক্টর"
+    ]
+  }
+}
