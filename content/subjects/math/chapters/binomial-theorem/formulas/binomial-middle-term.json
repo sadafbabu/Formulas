@@ -1,0 +1,32 @@
+{
+  "id": "binomial-middle-term",
+  "chapter": "binomial-theorem",
+  "title": "Middle Term & Greatest Coefficient in Binomial",
+  "titleBn": "দ্বিপদী উপপাদ্যে মধ্যপদ ও বৃহত্তম সহগ",
+  "summary": "(a+x)ⁿ এর মধ্যপদ, r+1 তম পদে x এর ঘাত নির্ণয় এবং বৃহত্তম পদ",
+  "latex": "T_{r+1} = \\binom{n}{r} a^{n-r} x^r, \\quad \\text{Middle term (n even): } T_{\\frac{n}{2}+1}, \\quad \\text{Middle terms (n odd): } T_{\\frac{n+1}{2}}, T_{\\frac{n+3}{2}}",
+  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "T_{r+1}", "meaning": "(r+1)তম পদ", "unit": "রাশিমালা" },
+    { "symbol": "\\binom{n}{r}", "meaning": "দ্বিপদী সহগ = nCr", "unit": "সংখ্যা" },
+    { "symbol": "n", "meaning": "ঘাত", "unit": "ধনাত্মক পূর্ণসংখ্যা" }
+  ],
+  "derivation": {
+    "lead": "(a+x)ⁿ এর মোট পদ সংখ্যা n+1। n জোড় হলে একটি মধ্যপদ, n বিজোড় হলে দুটি মধ্যপদ।",
+    "steps": [
+      {
+        "title": "x^k পদের সহগ নির্ণয়",
+        "latex": "\\text{In } (1+x)^n: \\text{ coefficient of } x^k = \\binom{n}{k}, \\quad \\text{sum of coefficients} = 2^n",
+        "note": "(1+x)^n এ x=1 রাখলে সহগের যোগফল = 2ⁿ, x=-1 রাখলে = 0"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission",
+      "question": "(2x - 1/x²)¹² তে x এর কোনো শক্তি থেকে মুক্ত পদটি কত?",
+      "answer": "T_{r+1} = \\binom{12}{r}(2x)^{12-r}(-1/x^2)^r = \\binom{12}{r}2^{12-r}(-1)^r x^{12-r-2r} \\implies 12-3r = 0 \\implies r=4 \\implies T_5 = \\binom{12}{4} \\cdot 2^8 \\cdot 1 = 495 \\times 256 = 126720"
+    }
+  ]
+}

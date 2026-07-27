@@ -1,0 +1,35 @@
+{
+  "id": "wave-equation",
+  "chapter": "periodic-motion",
+  "title": "Wave Equation & Wave Properties",
+  "titleBn": "তরঙ্গ সমীকরণ ও তরঙ্গের বৈশিষ্ট্য",
+  "summary": "তরঙ্গের গতি, কম্পাঙ্ক, তরঙ্গদৈর্ঘ্য এবং তরঙ্গ সমীকরণ",
+  "latex": "v = f\\lambda, \\quad y = A\\sin(\\omega t - kx), \\quad \\omega = 2\\pi f, \\quad k = \\frac{2\\pi}{\\lambda}, \\quad v = \\sqrt{\\frac{T}{\\mu}}",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "v", "meaning": "তরঙ্গের গতিবেগ", "unit": "m/s" },
+    { "symbol": "f", "meaning": "কম্পাঙ্ক", "unit": "Hz" },
+    { "symbol": "\\lambda", "meaning": "তরঙ্গদৈর্ঘ্য", "unit": "m" },
+    { "symbol": "A", "meaning": "বিস্তার", "unit": "m" },
+    { "symbol": "\\omega", "meaning": "কৌণিক কম্পাঙ্ক", "unit": "rad/s" },
+    { "symbol": "k", "meaning": "তরঙ্গ সংখ্যা", "unit": "rad/m" }
+  ],
+  "derivation": {
+    "lead": "তরঙ্গের গতিবেগ v = fλ সকল তরঙ্গের ক্ষেত্রে প্রযোজ্য।",
+    "steps": [
+      {
+        "title": "স্থির তরঙ্গ (Standing Wave)",
+        "latex": "y = 2A\\cos(kx)\\sin(\\omega t), \\quad \\text{Node: } kx = (2n+1)\\frac{\\pi}{2}, \\quad \\text{Antinode: } kx = n\\pi",
+        "note": "তারে তরঙ্গ: v = √(T/μ), যেখানে T = তারের টান, μ = রৈখিক ভর ঘনত্ব"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Board Exam",
+      "question": "340 m/s বেগে শব্দ তরঙ্গের কম্পাঙ্ক 1700 Hz হলে তরঙ্গদৈর্ঘ্য কত?",
+      "answer": "\\lambda = \\frac{v}{f} = \\frac{340}{1700} = 0.2 \\text{ m} = 20 \\text{ cm}"
+    }
+  ]
+}

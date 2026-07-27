@@ -1,0 +1,32 @@
+{
+  "id": "polynomial-remainder",
+  "chapter": "polynomials",
+  "title": "Remainder Theorem & Factor Theorem",
+  "titleBn": "অবশিষ্ট উপপাদ্য ও গুণনীয় উপপাদ্য",
+  "summary": "বহুপদীকে (x-a) দিয়ে ভাগ করলে অবশিষ্ট f(a), এবং f(a)=0 হলে (x-a) একটি গুণনীয়",
+  "latex": "P(x) \\div (x - a) \\Rightarrow \\text{Remainder} = P(a), \\quad P(a) = 0 \\Rightarrow (x - a) \\text{ is a factor}",
+  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "P(x)", "meaning": "বহুপদী ফাংশন", "unit": "ফাংশন" },
+    { "symbol": "a", "meaning": "শূন্য বা মূল", "unit": "সংখ্যা" },
+    { "symbol": "P(a)", "meaning": "x=a তে বহুপদীর মান", "unit": "সংখ্যা" }
+  ],
+  "derivation": {
+    "lead": "যদি P(x) = (x-a)Q(x) + R হয়, তাহলে x=a বসিয়ে P(a) = R পাওয়া যায়।",
+    "steps": [
+      {
+        "title": "উচ্চতর সমীকরণের মূলের গুণ ও যোগফল",
+        "latex": "ax^3 + bx^2 + cx + d = 0 \\implies \\alpha+\\beta+\\gamma = -\\frac{b}{a}, \\quad \\alpha\\beta+\\beta\\gamma+\\gamma\\alpha = \\frac{c}{a}, \\quad \\alpha\\beta\\gamma = -\\frac{d}{a}",
+        "note": "এটি Vieta's formulas নামে পরিচিত"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission",
+      "question": "P(x) = x³ - 2x² + 3x - 4 কে (x-2) দিয়ে ভাগ করলে অবশিষ্ট কত?",
+      "answer": "P(2) = 2^3 - 2(2^2) + 3(2) - 4 = 8 - 8 + 6 - 4 = 2"
+    }
+  ]
+}

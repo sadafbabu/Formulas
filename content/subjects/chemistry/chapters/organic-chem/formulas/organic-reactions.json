@@ -1,0 +1,32 @@
+{
+  "id": "organic-reactions",
+  "chapter": "organic-chem",
+  "title": "Key Organic Reactions & Mechanisms",
+  "titleBn": "গুরুত্বপূর্ণ জৈব বিক্রিয়া ও প্রক্রিয়া",
+  "summary": "মার্কনিকভের নীতি, SN1, SN2 বিক্রিয়া ও অ্যালিফেটিক বিক্রিয়া",
+  "latex": "\\text{Markovnikov: HX + alkene} \\to \\text{H adds to C with more H}, \\quad \\text{SN2: rate} = k[\\text{substrate}][\\text{nucleophile}]",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "k", "meaning": "বেগ ধ্রুবক", "unit": "mol⁻¹L·s⁻¹" },
+    { "symbol": "SN1", "meaning": "একমুখী নিউক্লিওফিলিক প্রতিস্থাপন (Unimolecular)", "unit": "rate = k[substrate]" },
+    { "symbol": "SN2", "meaning": "দ্বিমুখী নিউক্লিওফিলিক প্রতিস্থাপন (Bimolecular)", "unit": "rate = k[substrate][nucleophile]" }
+  ],
+  "derivation": {
+    "lead": "মার্কনিকভের নীতি: অসমতুল্য অ্যালকিনে HX যোগ হলে H পরমাণু বেশি H যুক্ত কার্বনে যোগ হয়।",
+    "steps": [
+      {
+        "title": "গুরুত্বপূর্ণ নামযুক্ত বিক্রিয়াসমূহ",
+        "latex": "\\text{Aldol: 2CH}_3\\text{CHO} \\xrightarrow{\\text{OH}^-} \\text{CH}_3\\text{CH(OH)CH}_2\\text{CHO}",
+        "note": "Cannizzaro, Kolbe, Reimer-Tiemann, Sandmeyer বিক্রিয়াও গুরুত্বপূর্ণ"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Board Exam",
+      "question": "প্রোপিলিনে HBr যোগ হলে মূল উৎপাদ কী হবে? (মার্কনিকভের নীতি অনুযায়ী)",
+      "answer": "CH_3-CH=CH_2 + HBr \\to CH_3-CHBr-CH_3 \\text{ (2-bromopropane)} \\text{ মার্কনিকভের নীতি অনুযায়ী Br মধ্যের C-এ যুক্ত হবে}"
+    }
+  ]
+}

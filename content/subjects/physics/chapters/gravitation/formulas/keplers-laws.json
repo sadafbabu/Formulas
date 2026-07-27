@@ -1,0 +1,33 @@
+{
+  "id": "keplers-laws",
+  "chapter": "gravitation",
+  "title": "Kepler's Laws of Planetary Motion",
+  "titleBn": "কেপলারের গ্রহগতির সূত্রসমূহ",
+  "summary": "কেপলারের তিনটি সূত্র: উপবৃত্তাকার কক্ষপথ, সমান ক্ষেত্রফল, পর্যায়কাল ও কক্ষপথ সম্পর্ক",
+  "latex": "T^2 \\propto r^3 \\implies \\frac{T_1^2}{T_2^2} = \\frac{r_1^3}{r_2^3}, \\quad T = 2\\pi\\sqrt{\\frac{r^3}{GM}}",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "T", "meaning": "পর্যায়কাল", "unit": "s" },
+    { "symbol": "r", "meaning": "কক্ষপথের ব্যাসার্ধ", "unit": "m" },
+    { "symbol": "G", "meaning": "মহাকর্ষীয় ধ্রুবক (6.674×10⁻¹¹)", "unit": "N·m²/kg²" },
+    { "symbol": "M", "meaning": "কেন্দ্রীয় বস্তুর ভর", "unit": "kg" }
+  ],
+  "derivation": {
+    "lead": "কেপলারের ৩য় সূত্র: মহাকর্ষীয় বল = কেন্দ্রমুখী বল থেকে প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "কেপলারের ৩য় সূত্র প্রমাণ",
+        "latex": "\\frac{GMm}{r^2} = \\frac{mv^2}{r}, \\quad v = \\frac{2\\pi r}{T} \\implies \\frac{GM}{r^2} = \\frac{4\\pi^2 r}{T^2} \\implies T^2 = \\frac{4\\pi^2}{GM} r^3",
+        "note": "পৃথিবীর ভূপৃষ্ঠ থেকে উচ্চতা h তে: r = R + h"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission",
+      "question": "একটি উপগ্রহের কক্ষপথের ব্যাসার্ধ পৃথিবীর ব্যাসার্ধের 4 গুণ হলে পর্যায়কাল কত গুণ বৃদ্ধি পাবে?",
+      "answer": "\\frac{T_2}{T_1} = \\left(\\frac{r_2}{r_1}\\right)^{3/2} = 4^{3/2} = 8 \\text{ গুণ}"
+    }
+  ]
+}

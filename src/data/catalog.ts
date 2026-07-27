@@ -77,6 +77,12 @@ import massEnergyPhotoelectric from '../../content/subjects/physics/chapters/mod
 import centripetalForce from '../../content/subjects/physics/chapters/dynamics/formulas/centripetal-force.json'
 import torqueAngularAcc from '../../content/subjects/physics/chapters/dynamics/formulas/torque-angular-acc.json'
 import bankedRoad from '../../content/subjects/physics/chapters/dynamics/formulas/banked-road.json'
+import newtonLaws from '../../content/subjects/physics/chapters/dynamics/formulas/newtons-laws.json'
+import friction from '../../content/subjects/physics/chapters/dynamics/formulas/friction.json'
+import workTheorem from '../../content/subjects/physics/chapters/work-energy/formulas/work-theorem.json'
+import keplersLaws from '../../content/subjects/physics/chapters/gravitation/formulas/keplers-laws.json'
+import waveEquation from '../../content/subjects/physics/chapters/periodic-motion/formulas/wave-equation.json'
+import gasLaws from '../../content/subjects/physics/chapters/ideal-gas/formulas/gas-laws.json'
 
 import kineticEnergy from '../../content/subjects/physics/chapters/work-energy/formulas/kinetic-energy.json'
 import potentialEnergySpring from '../../content/subjects/physics/chapters/work-energy/formulas/potential-energy-spring.json'
@@ -165,11 +171,11 @@ export const subjectsList: SubjectMeta[] = [
 export const allChapters: ChapterMeta[] = [
   // Physics 1st Paper
   { id: 'vector', slug: 'vector', name: 'Vector', nameBn: 'ভেক্টর', subjectId: 'physics', paperId: '1st-paper', order: 2, formulaCount: 4, isReady: true },
-  { id: 'dynamics', slug: 'dynamics', name: 'Newtonian Mechanics', nameBn: 'নিউটনীয় বলবিদ্যা', subjectId: 'physics', paperId: '1st-paper', order: 4, formulaCount: 3, isReady: true },
-  { id: 'work-energy', slug: 'work-energy', name: 'Work, Energy & Power', nameBn: 'কাজ, ক্ষমতা ও শক্তি', subjectId: 'physics', paperId: '1st-paper', order: 5, formulaCount: 2, isReady: true },
-  { id: 'gravitation', slug: 'gravitation', name: 'Gravitation & Gravity', nameBn: 'মহাকর্ষ ও অভিকর্ষ', subjectId: 'physics', paperId: '1st-paper', order: 6, formulaCount: 3, isReady: true },
-  { id: 'periodic-motion', slug: 'periodic-motion', name: 'Periodic Motion & SHM', nameBn: 'পর্যায়বৃত্ত গতি', subjectId: 'physics', paperId: '1st-paper', order: 8, formulaCount: 1, isReady: true },
-  { id: 'ideal-gas', slug: 'ideal-gas', name: 'Ideal Gas & Kinetic Theory', nameBn: 'আদর্শ গ্যাস ও গতিতত্ত্ব', subjectId: 'physics', paperId: '1st-paper', order: 10, formulaCount: 1, isReady: true },
+  { id: 'dynamics', slug: 'dynamics', name: 'Newtonian Mechanics', nameBn: 'নিউটনীয় বলবিদ্যা', subjectId: 'physics', paperId: '1st-paper', order: 4, formulaCount: 5, isReady: true },
+  { id: 'work-energy', slug: 'work-energy', name: 'Work, Energy & Power', nameBn: 'কাজ, ক্ষমতা ও শক্তি', subjectId: 'physics', paperId: '1st-paper', order: 5, formulaCount: 3, isReady: true },
+  { id: 'gravitation', slug: 'gravitation', name: 'Gravitation & Gravity', nameBn: 'মহাকর্ষ ও অভিকর্ষ', subjectId: 'physics', paperId: '1st-paper', order: 6, formulaCount: 4, isReady: true },
+  { id: 'periodic-motion', slug: 'periodic-motion', name: 'Periodic Motion & SHM', nameBn: 'পর্যায়বৃত্ত গতি', subjectId: 'physics', paperId: '1st-paper', order: 8, formulaCount: 2, isReady: true },
+  { id: 'ideal-gas', slug: 'ideal-gas', name: 'Ideal Gas & Kinetic Theory', nameBn: 'আদর্শ গ্যাস ও গতিতত্ত্ব', subjectId: 'physics', paperId: '1st-paper', order: 10, formulaCount: 2, isReady: true },
 
   // Physics 2nd Paper
   { id: 'thermodynamics', slug: 'thermodynamics', name: 'Thermodynamics', nameBn: 'তাপগতিবিদ্যা', subjectId: 'physics', paperId: '2nd-paper', order: 1, formulaCount: 5, isReady: true },
@@ -233,6 +239,12 @@ export const chapters: ChapterMeta[] = [
 export const defaultChapterId = 'magnetic-current'
 
 export const formulas: Formula[] = [
+  newtonLaws,
+  friction,
+  workTheorem,
+  keplersLaws,
+  waveEquation,
+  gasLaws,
   vectorDotAngle,
   entropyChange,
   conductanceKohlrausch,

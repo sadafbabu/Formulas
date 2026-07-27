@@ -1,0 +1,32 @@
+{
+  "id": "de-moivre",
+  "chapter": "complex-numbers",
+  "title": "De Moivre's Theorem & Complex Exponential",
+  "titleBn": "দ্য ময়ভারের উপপাদ্য ও জটিল সংখ্যার ঘাত",
+  "summary": "জটিল সংখ্যার মেরু রূপ এবং দ্য ময়ভারের উপপাদ্য প্রয়োগ",
+  "latex": "(\\cos\\theta + i\\sin\\theta)^n = \\cos(n\\theta) + i\\sin(n\\theta), \\quad e^{i\\theta} = \\cos\\theta + i\\sin\\theta",
+  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "i", "meaning": "কাল্পনিক একক, i² = -1", "unit": "মাত্রাহীন" },
+    { "symbol": "\\theta", "meaning": "আর্গুমেন্ট (কোণ)", "unit": "রেডিয়ান" },
+    { "symbol": "n", "meaning": "ঘাত (যেকোনো বাস্তব সংখ্যা)", "unit": "মাত্রাহীন" }
+  ],
+  "derivation": {
+    "lead": "z = r(cosθ + i sinθ) মেরু রূপ। এটি Euler সূত্র e^(iθ) = cosθ + i sinθ থেকে প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "n-তম মূল নির্ণয়",
+        "latex": "z^{1/n} = r^{1/n}\\left[\\cos\\frac{\\theta + 2k\\pi}{n} + i\\sin\\frac{\\theta + 2k\\pi}{n}\\right], \\quad k = 0, 1, 2, \\ldots, n-1",
+        "note": "1 এর n-তম মূল: ω = e^(2πi/n), ω^n = 1"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission",
+      "question": "(cos 30° + i sin 30°)⁶ এর মান কত?",
+      "answer": "(\\cos 30° + i\\sin 30°)^6 = \\cos(6 \\times 30°) + i\\sin(6 \\times 30°) = \\cos 180° + i\\sin 180° = -1 + 0i = -1"
+    }
+  ]
+}
