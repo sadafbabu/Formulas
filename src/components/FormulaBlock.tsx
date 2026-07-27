@@ -15,7 +15,21 @@ export function FormulaBlock({
   activeTag,
   index = 0,
 }: FormulaBlockProps) {
-  const importanceStars = formula.importance ? '★'.repeat(formula.importance) : null
+  // Determine importance asterisk tag (***, **, *)
+  const importanceTag: TagId | null =
+    formula.importance === 3
+      ? '3-star'
+      : formula.importance === 2
+      ? '2-star'
+      : formula.importance === 1
+      ? '1-star'
+      : null
+
+  // Ensure tags include importance tag if present and not already included
+  const displayTags = [...formula.tags]
+  if (importanceTag && !displayTags.includes(importanceTag)) {
+    displayTags.push(importanceTag)
+  }
 
   return (
     <article
@@ -29,14 +43,7 @@ export function FormulaBlock({
         <div className="formula-text">
           <header className="formula-head">
             <h2 className="formula-title">
-              <span className="formula-title-bn">
-                {formula.titleBn}
-                {importanceStars && (
-                  <span className="importance-badge" title={`গুরুত্বপূর্ণতা: ${formula.importance}/3 Stars`}>
-                    {importanceStars}
-                  </span>
-                )}
-              </span>
+              <span className="formula-title-bn">{formula.titleBn}</span>
               <span className="formula-title-en">{formula.title}</span>
             </h2>
             <div className="formula-actions">
@@ -46,7 +53,7 @@ export function FormulaBlock({
           </header>
           <p className="formula-summary">{formula.summary}</p>
           <div className="formula-meta">
-            {formula.tags.map((tag) => (
+            {displayTags.map((tag) => (
               <TagChip key={tag} id={tag} active={activeTag === tag} />
             ))}
           </div>

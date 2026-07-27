@@ -580,16 +580,6 @@ button {
   font-weight: 600;
   color: var(--ink-bright);
   letter-spacing: -0.01em;
-  display: flex;
-  align-items: center;
-  gap: 0.35rem;
-}
-
-.importance-badge {
-  font-size: 0.72rem;
-  color: #f59e0b;
-  letter-spacing: 0.05em;
-  font-weight: 700;
 }
 
 .formula-title-en {

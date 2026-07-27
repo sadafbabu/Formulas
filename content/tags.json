@@ -3,7 +3,8 @@
   { "id": "eng-admission", "label": "Eng", "labelBn": "ইঞ্জি ভর্তি", "category": "exam" },
   { "id": "medical", "label": "Medical", "labelBn": "মেডিকেল", "category": "exam" },
   { "id": "varsity", "label": "Varsity", "labelBn": "ভার্সিটি", "category": "exam" },
-  { "id": "3-star", "label": "⭐⭐⭐ 3-Star", "labelBn": "⭐⭐⭐ ৩-স্টার (মোস্ট ইম্পর্ট্যান্ট)", "category": "importance" },
-  { "id": "2-star", "label": "⭐⭐ 2-Star", "labelBn": "⭐⭐ ২-স্টার (হাই ইল্ড)", "category": "importance" },
+  { "id": "3-star", "label": "***", "labelBn": "*** (মোস্ট ইম্পর্ট্যান্ট)", "category": "importance" },
+  { "id": "2-star", "label": "**", "labelBn": "** (হাই ইল্ড)", "category": "importance" },
+  { "id": "1-star", "label": "*", "labelBn": "* (সাধারণ)", "category": "importance" },
   { "id": "general", "label": "General", "labelBn": "সাধারণ", "category": "exam" }
 ]
