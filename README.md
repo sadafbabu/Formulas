@@ -1,47 +1,37 @@
 # Formulas
 
-A5 formula book (dark grey, slideshow-style) for HSC / admission.
+Dark, compact A5 formula book for HSC / admission.
+
+## Live site (Cloudflare)
+
+**https://formulas-book.frill-bison.workers.dev**
+
+Temporary preview (claim within ~60 min to keep forever):  
+https://dash.cloudflare.com/claim-preview?claimToken=33uHHel8jMAY10bD_XSHjaQwb9eCyL1bs1cCwfigivw
+
+> First visit may show a short Cloudflare security check — continue in the browser.
 
 ## Current chapter
 
-**তড়িত প্রবাহের চৌম্বক ক্রিয়া** — Magnetic Effects of Current
+**তড়িত প্রবাহের চৌম্বক ক্রিয়া** — 14 formulas, one full spread.
 
-Each formula has:
-- short name + one-line note
-- tags (HSC / Eng Admission / Medical / …)
-- **Σ icon** → symbols, units, constant values
-- **ⓘ icon** → how it comes + full derivation page
+- **Σ** → symbols · units · values  
+- **ⓘ** → how it derives  
+- Click left/right edges to flip · `←` `→` keys  
 
 ## Develop
 
 ```bash
 npm install
 npm run dev
+npm run build
+npx wrangler deploy --temporary   # Cloudflare preview
 ```
 
-## Add content
+## Content
 
 ```
 content/subjects/<subject>/chapters/<chapter>/
   meta.json
   formulas/<id>.json
 ```
-
-Formula JSON fields: `title`, `titleBn`, `latex`, `summary`, `tags`, `symbols[]`, `derivation`.
-
-## Stack
-
-Vite · React · TypeScript · KaTeX · React Router
-
-## Live site (GitHub Pages)
-
-**URL:** https://sadafbabu.github.io/Formulas/
-
-If the link 404s, enable Pages once:
-
-1. Open https://github.com/sadafbabu/Formulas/settings/pages
-2. **Deploy from a branch**
-3. Branch: `gh-pages` · folder: `/ (root)`
-4. Save
-
-(Or choose **GitHub Actions** as source — workflow is already in `.github/workflows/deploy.yml`.)
