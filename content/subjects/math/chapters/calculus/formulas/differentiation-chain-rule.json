@@ -1,0 +1,31 @@
+{
+  "id": "differentiation-chain-rule",
+  "chapter": "calculus",
+  "title": "Differentiation Chain Rule & Product Rule",
+  "titleBn": "পর্যায়ক্রমিক অন্তরীকরণ ও সংযোজিত ফাংশন সূত্র",
+  "summary": "সংযোজিত ফাংশন (Chain Rule) এবং গুণফল (Product Rule) এর অন্তরীকরণ",
+  "latex": "\\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x), \\quad \\frac{d}{dx}[u \\cdot v] = u \\frac{dv}{dx} + v \\frac{du}{dx}",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "f(g(x))", "meaning": "সংযোজিত ফাংশন (Composite Function)", "unit": "ফাংশন" },
+    { "symbol": "u, v", "meaning": "x এর দুটি স্বতন্ত্র ফাংশন", "unit": "ফাংশন" }
+  ],
+  "derivation": {
+    "lead": "ক্ষুদ্র বৃদ্ধি Δx -> 0 এর জন্য সংজ্ঞার সাহায্যে অন্তরজ (First Principle) হতে প্রমানিত।",
+    "steps": [
+      {
+        "title": "ফাংশনের ফাংশন নিয়ম",
+        "latex": "\\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx}",
+        "note": "ভাগফল সূত্র: d/dx[u/v] = (v du/dx - u dv/dx) / v²"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Hard",
+      "question": "y = sin(ln(x² + 1)) হলে dy/dx এর মান কত?",
+      "answer": "\\frac{dy}{dx} = \\cos(\\ln(x^2 + 1)) \\cdot \\frac{d}{dx}[\\ln(x^2 + 1)] = \\cos(\\ln(x^2 + 1)) \\cdot \\frac{1}{x^2 + 1} \\cdot (2x) = \\frac{2x \\cos(\\ln(x^2 + 1))}{x^2 + 1}"
+    }
+  ]
+}

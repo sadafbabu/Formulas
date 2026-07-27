@@ -16,10 +16,17 @@ import straightLinesMeta from '../../content/subjects/math/chapters/straight-lin
 import calculusMeta from '../../content/subjects/math/chapters/calculus/meta.json'
 
 import bohrAtomModel from '../../content/subjects/chemistry/chapters/qualitative-chem/formulas/bohr-atom-model.json'
+import solubilityProduct from '../../content/subjects/chemistry/chapters/qualitative-chem/formulas/solubility-product.json'
+
 import faradaysElectrolysis from '../../content/subjects/chemistry/chapters/electrochemistry/formulas/faradays-electrolysis.json'
+import nernstEquation from '../../content/subjects/chemistry/chapters/electrochemistry/formulas/nernst-equation.json'
 
 import perpendicularDistance from '../../content/subjects/math/chapters/straight-lines/formulas/perpendicular-distance.json'
+import straightLineAngle from '../../content/subjects/math/chapters/straight-lines/formulas/straight-line-angle.json'
+
 import integrationByParts from '../../content/subjects/math/chapters/calculus/formulas/integration-by-parts.json'
+import differentiationChainRule from '../../content/subjects/math/chapters/calculus/formulas/differentiation-chain-rule.json'
+
 
 import newtonsGravitation from '../../content/subjects/physics/chapters/gravitation/formulas/newtons-gravitation.json'
 import escapeVelocity from '../../content/subjects/physics/chapters/gravitation/formulas/escape-velocity.json'
@@ -132,12 +139,12 @@ export const allChapters: ChapterMeta[] = [
   { id: 'gravitation', slug: 'gravitation', name: 'Gravitation & Gravity', nameBn: 'মহাকর্ষ ও অভিকর্ষ', subjectId: 'physics', paperId: '1st-paper', order: 6, formulaCount: 3, isReady: true },
   
   // Chemistry
-  { id: 'qualitative-chem', slug: 'qualitative-chem', name: 'Qualitative Chemistry', nameBn: 'গুণগত রসায়ন', subjectId: 'chemistry', paperId: '1st-paper', order: 2, formulaCount: 1, isReady: true },
-  { id: 'electrochemistry', slug: 'electrochemistry', name: 'Electrochemistry', nameBn: 'তড়িৎ রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 4, formulaCount: 1, isReady: true },
+  { id: 'qualitative-chem', slug: 'qualitative-chem', name: 'Qualitative Chemistry', nameBn: 'গুণগত রসায়ন', subjectId: 'chemistry', paperId: '1st-paper', order: 2, formulaCount: 2, isReady: true },
+  { id: 'electrochemistry', slug: 'electrochemistry', name: 'Electrochemistry', nameBn: 'তড়িৎ রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 4, formulaCount: 2, isReady: true },
 
   // Math
-  { id: 'straight-lines', slug: 'straight-lines', name: 'Straight Lines', nameBn: 'সরলরেখা', subjectId: 'math', paperId: '1st-paper', order: 3, formulaCount: 1, isReady: true },
-  { id: 'calculus', slug: 'calculus', name: 'Calculus & Integration', nameBn: 'ক্যালকুলাস ও যোগজীকরণ', subjectId: 'math', paperId: '1st-paper', order: 9, formulaCount: 1, isReady: true },
+  { id: 'straight-lines', slug: 'straight-lines', name: 'Straight Lines', nameBn: 'সরলরেখা', subjectId: 'math', paperId: '1st-paper', order: 3, formulaCount: 2, isReady: true },
+  { id: 'calculus', slug: 'calculus', name: 'Calculus & Integration', nameBn: 'ক্যালকুলাস ও যোগজীকরণ', subjectId: 'math', paperId: '1st-paper', order: 9, formulaCount: 2, isReady: true },
 ]
 
 export const chapters: ChapterMeta[] = [
@@ -159,6 +166,11 @@ export const chapters: ChapterMeta[] = [
 export const defaultChapterId = 'magnetic-current'
 
 export const formulas: Formula[] = [
+  solubilityProduct,
+  nernstEquation,
+  straightLineAngle,
+  differentiationChainRule,
+
   vectorCrossArea,
   bankedRoad,
   potentialEnergySpring,
