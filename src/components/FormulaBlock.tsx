@@ -1,5 +1,4 @@
 import type { Formula, TagId } from '../data/types'
-import { CopyLatexBtn } from './CopyLatexBtn'
 import { DeriveHint } from './DeriveHint'
 import { DiagramHint } from './DiagramHint'
 import { Katex } from './Katex'
@@ -46,7 +45,6 @@ export function FormulaBlock({
               <span className="formula-title-en">{formula.title}</span>
             </h2>
             <div className="formula-actions">
-              <CopyLatexBtn latex={formula.latex} />
               <QuestionHint formula={formula} />
               <DiagramHint formulaId={formula.id} titleBn={formula.titleBn} />
               <SymbolHint formula={formula} />
