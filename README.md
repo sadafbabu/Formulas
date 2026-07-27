@@ -4,7 +4,7 @@ Dark, compact A5 formula book for HSC / admission.
 
 ## Live site (Cloudflare)
 
-**https://formulas-book.frill-bison.workers.dev
+**https://formulas-book.frill-bison.workers.dev**
 
 Temporary preview (claim within ~60 min to keep forever):  
 https://dash.cloudflare.com/claim-preview?claimToken=33uHHel8jMAY10bD_XSHjaQwb9eCyL1bs1cCwfigivw
@@ -13,11 +13,12 @@ https://dash.cloudflare.com/claim-preview?claimToken=33uHHel8jMAY10bD_XSHjaQwb9e
 
 ## Current chapter
 
-**তড়িত প্রবাহের চৌম্বক ক্রিয়া** — 14 formulas, one full spread.
+**তড়িত প্রবাহের চৌম্বক ক্রিয়া** — 14 formulas, with top-bar tag filters (HSC / Eng / Medical / …).
 
 - **Σ** → symbols · units · values  
 - **ⓘ** → how it derives  
 - Click left/right edges to flip · `←` `→` keys  
+- Desktop = two-page spread · tablet/mobile = single page  
 
 ## Develop
 
