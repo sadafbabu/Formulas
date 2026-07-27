@@ -1,0 +1,34 @@
+{
+  "id": "banked-road",
+  "chapter": "dynamics",
+  "title": "Banking of Roads & Safe Velocity",
+  "titleBn": "রাস্তার ব্যাংকিং ও নিরাপদ বেগ",
+  "summary": "বাঁকে নিরাপদ গতির জন্য ব্যাংকিং কোণ ও ভূমির উচ্চতা বৃদ্ধি",
+  "latex": "\\tan\\theta = \\frac{v^2}{r g}, \\quad h = d \\sin\\theta \\approx d \\tan\\theta = \\frac{d v^2}{r g}",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "\\theta", "meaning": "ব্যাংকিং কোণ", "unit": "ডিগ্রী (°)" },
+    { "symbol": "v", "meaning": "গাড়ির সর্বোচ্চ নিরাপদ বেগ", "unit": "m/s" },
+    { "symbol": "r", "meaning": "বাঁকের ব্যাসার্ধ", "unit": "m" },
+    { "symbol": "h", "meaning": "বাইরের প্রান্তের উচ্চতা", "unit": "m" },
+    { "symbol": "d", "meaning": "রাস্তার প্রস্থ", "unit": "m" }
+  ],
+  "derivation": {
+    "lead": "অভিলম্ব প্রতিক্রিয়ার অণুভূমিক উপাদান R sinθ কেন্দ্রমুখী বল প্রদান করে।",
+    "steps": [
+      {
+        "title": "বল সাম্যাবস্থা",
+        "latex": "R \\sin\\theta = \\frac{m v^2}{r}, \\quad R \\cos\\theta = m g \\implies \\tan\\theta = \\frac{v^2}{r g}",
+        "note": "ক্ষুদ্র কোণের জন্য sinθ ≈ tanθ ব্যবহার করা হয়"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "CKRUET Admission",
+      "question": "100 m ব্যাসার্ধের বাঁকে 50 km/h বেগে চলা গাড়ির জন্য প্রয়োজনীয় ব্যাংকিং কোণ কত?",
+      "answer": "v = \\frac{50}{3.6} = 13.89\\text{ m/s} \\implies \\tan\\theta = \\frac{(13.89)^2}{100 \\times 9.8} = \\frac{192.9}{980} = 0.1968 \\implies \\theta = \\tan^{-1}(0.1968) \\approx 11.13^\\circ"
+    }
+  ]
+}

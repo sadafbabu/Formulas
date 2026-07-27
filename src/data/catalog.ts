@@ -23,6 +23,7 @@ import integrationByParts from '../../content/subjects/math/chapters/calculus/fo
 
 import newtonsGravitation from '../../content/subjects/physics/chapters/gravitation/formulas/newtons-gravitation.json'
 import escapeVelocity from '../../content/subjects/physics/chapters/gravitation/formulas/escape-velocity.json'
+import orbitalVelocity from '../../content/subjects/physics/chapters/gravitation/formulas/orbital-velocity.json'
 
 import faradaysLaw from '../../content/subjects/physics/chapters/induction-ac/formulas/faradays-law.json'
 import acRmsValues from '../../content/subjects/physics/chapters/induction-ac/formulas/ac-rms-values.json'
@@ -31,14 +32,17 @@ import massEnergyPhotoelectric from '../../content/subjects/physics/chapters/mod
 
 import centripetalForce from '../../content/subjects/physics/chapters/dynamics/formulas/centripetal-force.json'
 import torqueAngularAcc from '../../content/subjects/physics/chapters/dynamics/formulas/torque-angular-acc.json'
+import bankedRoad from '../../content/subjects/physics/chapters/dynamics/formulas/banked-road.json'
 
 import kineticEnergy from '../../content/subjects/physics/chapters/work-energy/formulas/kinetic-energy.json'
+import potentialEnergySpring from '../../content/subjects/physics/chapters/work-energy/formulas/potential-energy-spring.json'
 
 import ohmsLaw from '../../content/subjects/physics/chapters/current-electricity/formulas/ohms-law.json'
 import wheatstoneBridge from '../../content/subjects/physics/chapters/current-electricity/formulas/wheatstone-bridge.json'
 
 import vectorResultant from '../../content/subjects/physics/chapters/vector/formulas/vector-resultant.json'
 import vectorDotProduct from '../../content/subjects/physics/chapters/vector/formulas/vector-dot-product.json'
+import vectorCrossArea from '../../content/subjects/physics/chapters/vector/formulas/vector-cross-area.json'
 
 import firstLawThermo from '../../content/subjects/physics/chapters/thermodynamics/formulas/first-law-thermo.json'
 import isothermalWork from '../../content/subjects/physics/chapters/thermodynamics/formulas/isothermal-work.json'
@@ -122,10 +126,10 @@ export const allChapters: ChapterMeta[] = [
   { id: 'modern-physics', slug: 'modern-physics', name: 'Modern Physics', nameBn: 'আধুনিক পদার্থবিজ্ঞানের সূচনা', subjectId: 'physics', paperId: '2nd-paper', order: 8, formulaCount: 2, isReady: true },
 
   // Physics 1st Paper
-  { id: 'vector', slug: 'vector', name: 'Vector', nameBn: 'ভেক্টর', subjectId: 'physics', paperId: '1st-paper', order: 2, formulaCount: 2, isReady: true },
-  { id: 'dynamics', slug: 'dynamics', name: 'Newtonian Mechanics', nameBn: 'নিউটনীয় বলবিদ্যা', subjectId: 'physics', paperId: '1st-paper', order: 4, formulaCount: 2, isReady: true },
-  { id: 'work-energy', slug: 'work-energy', name: 'Work, Energy & Power', nameBn: 'কাজ, ক্ষমতা ও শক্তি', subjectId: 'physics', paperId: '1st-paper', order: 5, formulaCount: 1, isReady: true },
-  { id: 'gravitation', slug: 'gravitation', name: 'Gravitation & Gravity', nameBn: 'মহাকর্ষ ও অভিকর্ষ', subjectId: 'physics', paperId: '1st-paper', order: 6, formulaCount: 2, isReady: true },
+  { id: 'vector', slug: 'vector', name: 'Vector', nameBn: 'ভেক্টর', subjectId: 'physics', paperId: '1st-paper', order: 2, formulaCount: 3, isReady: true },
+  { id: 'dynamics', slug: 'dynamics', name: 'Newtonian Mechanics', nameBn: 'নিউটনীয় বলবিদ্যা', subjectId: 'physics', paperId: '1st-paper', order: 4, formulaCount: 3, isReady: true },
+  { id: 'work-energy', slug: 'work-energy', name: 'Work, Energy & Power', nameBn: 'কাজ, ক্ষমতা ও শক্তি', subjectId: 'physics', paperId: '1st-paper', order: 5, formulaCount: 2, isReady: true },
+  { id: 'gravitation', slug: 'gravitation', name: 'Gravitation & Gravity', nameBn: 'মহাকর্ষ ও অভিকর্ষ', subjectId: 'physics', paperId: '1st-paper', order: 6, formulaCount: 3, isReady: true },
   
   // Chemistry
   { id: 'qualitative-chem', slug: 'qualitative-chem', name: 'Qualitative Chemistry', nameBn: 'গুণগত রসায়ন', subjectId: 'chemistry', paperId: '1st-paper', order: 2, formulaCount: 1, isReady: true },
@@ -155,6 +159,11 @@ export const chapters: ChapterMeta[] = [
 export const defaultChapterId = 'magnetic-current'
 
 export const formulas: Formula[] = [
+  vectorCrossArea,
+  bankedRoad,
+  potentialEnergySpring,
+  orbitalVelocity,
+
   cpCvRelation,
   capacitorEnergy,
   kirchhoffsLaws,

@@ -1,0 +1,33 @@
+{
+  "id": "vector-cross-area",
+  "chapter": "vector",
+  "title": "Cross Product & Area of Parallelogram",
+  "titleBn": "ভেক্টর ক্রস গুণন ও সামান্তরিকের ক্ষেত্রফল",
+  "summary": "ভেক্টর গুণন এবং সন্নিহিত বাহু দ্বারা গঠিত সামান্তরিকের ক্ষেত্রফল",
+  "latex": "\\mathbf{A} \\times \\mathbf{B} = |\\mathbf{A}||\\mathbf{B}| \\sin\\theta \\,\\hat{n}, \\quad \\text{Area} = |\\mathbf{A} \\times \\mathbf{B}|",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "\\mathbf{A}, \\mathbf{B}", "meaning": "দুটি সামান্তরিকের সন্নিহিত বাহুর ভেক্টর", "unit": "ভেক্টর" },
+    { "symbol": "\\theta", "meaning": "ভেক্টরদ্বয়ের অন্তর্ভুক্ত কোণ", "unit": "ডিগ্রী (°)" },
+    { "symbol": "\\hat{n}", "meaning": "লম্ব একক ভেক্টর", "unit": "এককহীন" },
+    { "symbol": "\\text{Area}", "meaning": "সামান্তরিকের ক্ষেত্রফল", "unit": "বর্গ একক" }
+  ],
+  "derivation": {
+    "lead": "ক্রস গুণনের মান গুণফলের উচ্চতা নির্দেশ করে যা ক্ষেত্রফলের সমান।",
+    "steps": [
+      {
+        "title": "ক্ষেত্রফল সম্পর্ক",
+        "latex": "\\text{Base} = |\\mathbf{A}|, \\quad \\text{Height} = |\\mathbf{B}| \\sin\\theta \\implies \\text{Area} = |\\mathbf{A}| |\\mathbf{B}| \\sin\\theta = |\\mathbf{A} \\times \\mathbf{B}|",
+        "note": "কর্ণদ্বয় দেওয়া থাকলে ক্ষেত্রফল = 1/2 |d1 × d2|"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Hard",
+      "question": "A = 2i + j - k এবং B = i - j + 2k বাহু দুটি দ্বারা গঠিত সামান্তরিকের ক্ষেত্রফল কত?",
+      "answer": "\\mathbf{A} \\times \\mathbf{B} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & 1 & -1 \\\\ 1 & -1 & 2 \\end{vmatrix} = \\hat{i}(2-1) - \\hat{j}(4+1) + \\hat{k}(-2-1) = \\hat{i} - 5\\hat{j} - 3\\hat{k} \\implies \\text{Area} = \\sqrt{1^2 + (-5)^2 + (-3)^2} = \\sqrt{35} \\approx 5.916"
+    }
+  ]
+}
