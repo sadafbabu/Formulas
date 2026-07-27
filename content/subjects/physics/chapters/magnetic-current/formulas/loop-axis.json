@@ -1,59 +1,35 @@
 {
   "id": "loop-axis",
-  "title": "Loop Axis Field",
-  "titleBn": "কুণ্ডলীর অক্ষে ক্ষেত্র",
-  "latex": "B = \\dfrac{\\mu_{0} I R^{2}}{2(R^{2}+x^{2})^{3/2}}",
-  "summary": "বৃত্তাকার কুণ্ডলীর অক্ষের উপর B।",
-  "tags": [
-    "eng-admission",
-    "varsity"
-  ],
+  "title": "Magnetic Field on Loop Axis",
+  "titleBn": "বৃত্তাকার কুণ্ডলীর অক্ষে চৌম্বক ক্ষেত্র",
+  "latex": "B = \\frac{\\mu_0 N I a^2}{2(a^2 + x^2)^{3/2}}",
+  "summary": "a ব্যাসার্ধের কুণ্ডলীর কেন্দ্র থেকে অক্ষে x দূরত্বে অবস্থিত বিন্দুর চৌম্বক ক্ষেত্র।",
+  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
   "chapter": "magnetic-current",
-  "subjects": [
-    "physics"
-  ],
-  "related": [
-    "loop-center"
-  ],
+  "importance": 3,
+  "subjects": ["physics"],
+  "related": ["loop-center", "biot-savart"],
   "symbols": [
-    {
-      "symbol": "B",
-      "meaning": "চৌম্বক ক্ষেত্র",
-      "unit": "T"
-    },
-    {
-      "symbol": "I",
-      "meaning": "তড়িত প্রবাহ",
-      "unit": "A"
-    },
-    {
-      "symbol": "R",
-      "meaning": "ব্যাসার্ধ",
-      "unit": "m"
-    },
-    {
-      "symbol": "x",
-      "meaning": "কেন্দ্র থেকে অক্ষীয় দূরত্ব",
-      "unit": "m"
-    },
-    {
-      "symbol": "μ₀",
-      "meaning": "শূন্যের প্রবেশ্যতা",
-      "unit": "T·m/A",
-      "value": "4π×10⁻⁷"
-    }
+    { "symbol": "B", "meaning": "অক্ষীয় চৌম্বক ক্ষেত্র", "unit": "T" },
+    { "symbol": "a", "meaning": "কুণ্ডলীর ব্যাসার্ধ", "unit": "m" },
+    { "symbol": "x", "meaning": "কেন্দ্র থেকে অক্ষীয় দূরত্ব", "unit": "m" },
+    { "symbol": "N", "meaning": "পাকসংখ্যা", "unit": "এককহীন" },
+    { "symbol": "I", "meaning": "বিদ্যুৎপ্রবাহ", "unit": "A" }
   ],
   "derivation": {
-    "lead": "বায়ো–সাভার্টের অক্ষীয় উপাংশ ইন্টিগ্রেশন।",
+    "lead": "বায়োট-সাভার্ট সূত্রের ভেক্টর অক্ষীয় উপাংশ সমাকলন করে:",
     "steps": [
       {
-        "title": "x = 0 হলে",
-        "latex": "B = \\dfrac{\\mu_{0} I}{2R}",
-        "note": "কেন্দ্রের সূত্রে ফিরে আসে।"
+        "title": "অক্ষীয় উপাংশ সমাকলন",
+        "latex": "dB_x = dB \\sin\\phi = \\frac{\\mu_0 I dl}{4\\pi (a^2+x^2)} \\cdot \\frac{a}{\\sqrt{a^2+x^2}}",
+        "note": "অক্ষের লম্ব উপাংশসমূহ পরস্পরকে বাতিল করে।"
+      },
+      {
+        "title": "সম্পূর্ণ কুণ্ডলীর ক্ষেত্র",
+        "latex": "B = \\frac{\\mu_0 I a}{4\\pi (a^2+x^2)^{3/2}} (2\\pi a) = \\frac{\\mu_0 I a^2}{2(a^2+x^2)^{3/2}}",
+        "note": "$x = 0$ বসালে কেন্দ্রের সূত্র $B = \\frac{\\mu_0 I}{2a}$ পাওয়া যায়।"
       }
     ],
-    "assumptions": [
-      "এক পাক কুণ্ডলী"
-    ]
+    "assumptions": ["বৃত্তাকার কুণ্ডলী অক্ষীয় তলের সমকোণে অবস্থিত।"]
   }
 }

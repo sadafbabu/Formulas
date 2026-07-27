@@ -1,60 +1,34 @@
 {
   "id": "toroid",
-  "title": "Toroid Field",
-  "titleBn": "টরয়েডের ক্ষেত্র",
-  "latex": "B = \\dfrac{\\mu_{0} N I}{2\\pi r}",
-  "summary": "টরয়েডের ভিতরে গড় ব্যাসার্ধে B।",
-  "tags": [
-    "eng-admission",
-    "varsity"
-  ],
+  "title": "Magnetic Field inside Toroid",
+  "titleBn": "টরয়েডের অভ্যন্তরীণ চৌম্বক ক্ষেত্র",
+  "latex": "B = \\frac{\\mu_0 N I}{2\\pi r}",
+  "summary": "বৃত্তাকার আকারে বাঁকানো সোলেনয়েড বা টরয়েডের ভেতরের অক্ষে সৃষ্ট চৌম্বক ক্ষেত্র।",
+  "tags": ["hsc", "general", "2-star"],
   "chapter": "magnetic-current",
-  "subjects": [
-    "physics"
-  ],
-  "related": [
-    "solenoid",
-    "amperes-law"
-  ],
+  "importance": 2,
+  "subjects": ["physics"],
+  "related": ["solenoid", "amperes-law"],
   "symbols": [
-    {
-      "symbol": "B",
-      "meaning": "চৌম্বক ক্ষেত্র",
-      "unit": "T"
-    },
-    {
-      "symbol": "N",
-      "meaning": "মোট পাক সংখ্যা",
-      "unit": "—"
-    },
-    {
-      "symbol": "I",
-      "meaning": "তড়িত প্রবাহ",
-      "unit": "A"
-    },
-    {
-      "symbol": "r",
-      "meaning": "কেন্দ্র থেকে দূরত্ব",
-      "unit": "m"
-    },
-    {
-      "symbol": "μ₀",
-      "meaning": "শূন্যের প্রবেশ্যতা",
-      "unit": "T·m/A",
-      "value": "4π×10⁻⁷"
-    }
+    { "symbol": "B", "meaning": "টরয়েডের ভেতরের চৌম্বক ক্ষেত্র", "unit": "T" },
+    { "symbol": "N", "meaning": "মোট পাকসংখ্যা", "unit": "এককহীন" },
+    { "symbol": "r", "meaning": "টরয়েডের গড় ব্যাসার্ধ", "unit": "m" },
+    { "symbol": "I", "meaning": "বিদ্যুৎপ্রবাহ", "unit": "A" }
   ],
   "derivation": {
-    "lead": "অ্যাম্পিয়ারের সূত্র — বৃত্তাকার পথ।",
+    "lead": "r ব্যাসার্ধের অ্যাম্পিয়ারিয়ান লুপ বরাবর সার্কিটাল সূত্র প্রয়োগ করে:",
     "steps": [
       {
-        "title": "ফলাফল",
-        "latex": "B\\cdot 2\\pi r = \\mu_{0} NI",
-        "note": "বাইরে ও ফাঁপা অংশে B ≈ 0।"
+        "title": "সার্কিটাল সূত্র প্রয়োগ",
+        "latex": "B (2\\pi r) = \\mu_0 N I",
+        "note": "টরয়েডের ভেতরের রিং বরাবর চৌম্বক ক্ষেত্র আবদ্ধ থাকে।"
+      },
+      {
+        "title": "চৌম্বক ক্ষেত্র মান",
+        "latex": "B = \\frac{\\mu_0 N I}{2\\pi r} = \\mu_0 n I",
+        "note": "টরয়েডের বাইরে ও খালি কেন্দ্রে $B = 0$।"
       }
     ],
-    "assumptions": [
-      "ঘন পাক টরয়েড"
-    ]
+    "assumptions": ["কুণ্ডলীর পাকসমূহ ঘনীভূত ও সুষমভাবে বিস্তৃত।"]
   }
 }

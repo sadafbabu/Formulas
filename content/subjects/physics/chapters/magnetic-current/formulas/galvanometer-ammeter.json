@@ -4,9 +4,9 @@
   "titleBn": "গ্যালভানোমিটার থেকে অ্যামিটার (শাণ্ট রূপান্তর)",
   "latex": "S = \\frac{I_g \\cdot G}{I - I_g}",
   "summary": "গ্যালভানোমিটারের সাথে সমান্তরালে ক্ষুদ্র মানের রোধ (Shunt S) যুক্ত করে অ্যামিটারে রূপান্তর।",
-  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "tags": ["hsc", "eng-admission", "varsity", "5-star"],
   "chapter": "magnetic-current",
-  "importance": 3,
+  "importance": 5,
   "subjects": ["physics"],
   "related": ["galvanometer-voltmeter"],
   "symbols": [

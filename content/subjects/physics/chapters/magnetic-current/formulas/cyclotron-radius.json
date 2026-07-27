@@ -1,60 +1,35 @@
 {
   "id": "cyclotron-radius",
-  "title": "Cyclotron Radius",
-  "titleBn": "বৃত্তপথের ব্যাসার্ধ",
-  "latex": "r = \\dfrac{mv}{qB}",
-  "summary": "B-তে লম্ব বেগে চার্জের বৃত্তপথ।",
-  "tags": [
-    "eng-admission",
-    "medical"
-  ],
+  "title": "Cyclotron Path Radius",
+  "titleBn": "সাইক্লোট্রনে ঘূর্ণন পথের ব্যাসার্ধ",
+  "latex": "r = \\frac{m v}{q B}",
+  "summary": "চৌম্বক ক্ষেত্র B তে লম্বভাবে গতিশীল আধানের বৃত্তাকার ঘূর্ণন পথের ব্যাসার্ধ।",
+  "tags": ["hsc", "eng-admission", "varsity", "4-star"],
   "chapter": "magnetic-current",
-  "subjects": [
-    "physics"
-  ],
-  "related": [
-    "lorentz",
-    "cyclotron-freq"
-  ],
+  "importance": 4,
+  "subjects": ["physics"],
+  "related": ["lorentz", "cyclotron-freq"],
   "symbols": [
-    {
-      "symbol": "r",
-      "meaning": "পথের ব্যাসার্ধ",
-      "unit": "m"
-    },
-    {
-      "symbol": "m",
-      "meaning": "কণার ভর",
-      "unit": "kg"
-    },
-    {
-      "symbol": "v",
-      "meaning": "বেগ",
-      "unit": "m/s"
-    },
-    {
-      "symbol": "q",
-      "meaning": "চার্জ",
-      "unit": "C"
-    },
-    {
-      "symbol": "B",
-      "meaning": "চৌম্বক ক্ষেত্র",
-      "unit": "T"
-    }
+    { "symbol": "r", "meaning": "ঘূর্ণন পথের ব্যাসার্ধ", "unit": "m" },
+    { "symbol": "m", "meaning": "কণার ভর", "unit": "kg" },
+    { "symbol": "v", "meaning": "কণার বেগ", "unit": "m/s" },
+    { "symbol": "q", "meaning": "আধানের পরিমাণ", "unit": "C" },
+    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" }
   ],
   "derivation": {
-    "lead": "কেন্দ্রমুখী বল = লোরেন্জ বল।",
+    "lead": "চৌম্বক বলকে কেন্দ্রমুখী বলের সাথে সমতা করে:",
     "steps": [
       {
-        "title": "সাম্য",
-        "latex": "\\dfrac{mv^{2}}{r} = qvB \\Rightarrow r = \\dfrac{mv}{qB}",
-        "note": "v ∥ B হলে সরলরেখা।"
+        "title": "বল সাম্য সমীকরণ",
+        "latex": "q v B = \\frac{m v^2}{r}",
+        "note": "চৌম্বক বল কেন্দ্রমুখী বল প্রদান করে।"
+      },
+      {
+        "title": "ব্যাসার্ধ প্রকাশমালা",
+        "latex": "r = \\frac{m v}{q B} = \\frac{p}{q B}",
+        "note": "কণার ভরবেগ $p = mv$ বাড়লে ব্যাসার্ধ r বৃদ্ধি পায়।"
       }
     ],
-    "assumptions": [
-      "v ⊥ B",
-      "শুধু চৌম্বক ক্ষেত্র"
-    ]
+    "assumptions": ["বেগ v চৌম্বক ক্ষেত্র B এর সমকোণে স্থিত।"]
   }
 }

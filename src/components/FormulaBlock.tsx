@@ -28,11 +28,11 @@ export function FormulaBlock({
       ? '2-star'
       : '1-star'
 
-  // Ensure tags include importance tag if not already present
-  const displayTags = [...formula.tags]
-  if (!displayTags.some((t) => t.endsWith('-star'))) {
-    displayTags.push(importanceTag)
-  }
+  // Filter out any older star tags from formula.tags to avoid duplicates
+  const examTags = formula.tags.filter((t) => !t.endsWith('-star'))
+  
+  // Clean ordered display tags: exam tags first, followed by single grey star tag
+  const displayTags: TagId[] = [...examTags, importanceTag]
 
   return (
     <article

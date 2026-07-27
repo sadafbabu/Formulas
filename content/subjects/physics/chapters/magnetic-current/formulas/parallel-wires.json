@@ -1,28 +1,34 @@
 {
   "id": "parallel-wires",
-  "title": "Parallel Wires Force",
-  "titleBn": "সমান্তরাল তারের বল",
-  "latex": "\\dfrac{F}{\\ell} = \\dfrac{\\mu_{0} I_{1} I_{2}}{2\\pi d}",
-  "summary": "দুই সমান্তরাল তারের একক দৈর্ঘ্যে বল।",
-  "tags": ["hsc", "eng-admission", "varsity"],
+  "title": "Force Between Parallel Current Wires",
+  "titleBn": "দুই সমান্তরাল তারের পারস্পরিক প্রতিক্রিয়া বল",
+  "latex": "\\frac{F}{L} = \\frac{\\mu_0 I_1 I_2}{2\\pi d}",
+  "summary": "d ব্যবধানে অবস্থিত দুটি সমান্তরাল পরিবাহীর প্রতি একক দৈর্ঘ্যে প্রযুক্ত আকর্ষণ বা বিকর্ষণ বল।",
+  "tags": ["hsc", "eng-admission", "varsity", "4-star"],
   "chapter": "magnetic-current",
+  "importance": 4,
   "subjects": ["physics"],
-  "related": ["wire-field", "force-on-wire"],
+  "related": ["force-on-wire", "wire-field"],
   "symbols": [
-    { "symbol": "F/ℓ", "meaning": "একক দৈর্ঘ্যে বল", "unit": "N/m" },
-    { "symbol": "I₁, I₂", "meaning": "দুই তারে প্রবাহ", "unit": "A" },
-    { "symbol": "d", "meaning": "তারদ্বয়ের দূরত্ব", "unit": "m" },
-    { "symbol": "μ₀", "meaning": "শূন্যের প্রবেশ্যতা", "unit": "T·m/A", "value": "4π×10⁻⁷" }
+    { "symbol": "F/L", "meaning": "প্রতি একক দৈর্ঘ্যে ক্রিয়াশীল বল", "unit": "N/m" },
+    { "symbol": "\\mu_0", "meaning": "শূন্যস্থানের চৌম্বক প্রবেশ্যতা", "unit": "T·m/A" },
+    { "symbol": "I_1, I_2", "meaning": "পরিবাহীদ্বয়ের বিদ্যুৎপ্রবাহ", "unit": "A" },
+    { "symbol": "d", "meaning": "তার দুটির মধ্যবর্তী লম্ব দূরত্ব", "unit": "m" }
   ],
   "derivation": {
-    "lead": "এক তারের B অন্য তারে F = IlB দেয়।",
+    "lead": "প্রথম তারের চৌম্বক ক্ষেত্রে দ্বিতীয় তারের ওপর লরেঞ্জ বল প্রয়োগ করে:",
     "steps": [
       {
-        "title": "আকর্ষণ/বিকর্ষণ",
-        "latex": "I\\parallel \\Rightarrow \\text{আকর্ষণ};\\; I\\text{ বিপরীত}\\Rightarrow \\text{বিকর্ষণ}",
-        "note": "অ্যাম্পিয়ারের সংজ্ঞায় ব্যবহৃত।"
+        "title": "প্রথম তারের চৌম্বক ক্ষেত্র",
+        "latex": "B_1 = \\frac{\\mu_0 I_1}{2\\pi d}",
+        "note": "d দূরত্বে সৃষ্ট চৌম্বক ক্ষেত্র।"
+      },
+      {
+        "title": "দ্বিতীয় তারে প্রযুক্ত বল",
+        "latex": "F = I_2 L B_1 = I_2 L \\left(\\frac{\\mu_0 I_1}{2\\pi d}\\right) \\implies \\frac{F}{L} = \\frac{\\mu_0 I_1 I_2}{2\\pi d}",
+        "note": "একই দিকে প্রবাহ হলে আকর্ষণ, বিপরীত দিকে হলে বিকর্ষণ।"
       }
     ],
-    "assumptions": ["দীর্ঘ সমান্তরাল তার"]
+    "assumptions": ["তার দুটি অত্যন্ত দীর্ঘ ও সমান্তরাল।"]
   }
 }

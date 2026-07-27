@@ -1,29 +1,35 @@
 {
   "id": "force-on-wire",
-  "title": "Force on Wire",
-  "titleBn": "তারে চৌম্বক বল",
-  "latex": "F = I\\ell B\\sin\\theta",
-  "summary": "প্রবাহবাহী তারের উপর চৌম্বক বল।",
-  "tags": ["hsc", "eng-admission", "medical"],
+  "title": "Magnetic Force on Straight Wire",
+  "titleBn": "তড়িৎবাহী সোজা তারের ওপর চৌম্বক বল",
+  "latex": "F = I L B \\sin \\theta",
+  "summary": "চৌম্বক ক্ষেত্রে অবস্থিত L দৈর্ঘ্যের তড়িৎবাহী পরিবাহীর ওপর ক্রিয়াশীল বল।",
+  "tags": ["hsc", "eng-admission", "varsity", "4-star"],
   "chapter": "magnetic-current",
+  "importance": 4,
   "subjects": ["physics"],
   "related": ["lorentz", "parallel-wires"],
   "symbols": [
-    { "symbol": "F", "meaning": "চৌম্বক বল", "unit": "N" },
-    { "symbol": "I", "meaning": "তড়িত প্রবাহ", "unit": "A" },
-    { "symbol": "ℓ", "meaning": "তারের দৈর্ঘ্য", "unit": "m" },
-    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "θ", "meaning": "I ও B-এর কোণ", "unit": "—" }
+    { "symbol": "F", "meaning": "চৌম্বক বলের মান", "unit": "N" },
+    { "symbol": "I", "meaning": "বিদ্যুৎপ্রবাহ", "unit": "A" },
+    { "symbol": "L", "meaning": "পরিবাহীর দৈর্ঘ্য", "unit": "m" },
+    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্রের মান", "unit": "T" },
+    { "symbol": "\\theta", "meaning": "পরিবাহী ও B-এর অন্তর্বর্তী কোণ", "unit": "°" }
   ],
   "derivation": {
-    "lead": "চলক চার্জের লোরেন্জ বলের সমষ্টি।",
+    "lead": "পরিবাহীতে বিদ্যমান সমমানের ইলেকট্রনের ওপর লরেঞ্জ বল সমাকলন করে:",
     "steps": [
       {
-        "title": "ভেক্টর রূপ",
-        "latex": "\\vec{F} = I\\,\\vec{\\ell}\\times\\vec{B}",
-        "note": "দিক ডানহস্ত নিয়মে।"
+        "title": "একক মুক্ত ইলেকট্রনের বল",
+        "latex": "f = q (v_d \\times B)",
+        "note": "সব ইলেকট্রন $v_d$ ড্রাফট বেগে গতিশীল।"
+      },
+      {
+        "title": "মোট বল নির্ণয়",
+        "latex": "F = N f = (n A L) q v_d B = (n q A v_d) L B = I L B \\sin \\theta",
+        "note": "ফ্লেমিংয়ের বামহস্ত নিয়ম দ্বারা বলের দিক নির্ধারিত হয়।"
       }
     ],
-    "assumptions": ["সমসত্ত্ব B", "সরল তার"]
+    "assumptions": ["সুষম চৌম্বক ক্ষেত্র B তে পরিবাহী অবস্থিত।"]
   }
 }

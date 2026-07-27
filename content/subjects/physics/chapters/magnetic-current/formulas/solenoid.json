@@ -1,28 +1,35 @@
 {
   "id": "solenoid",
-  "title": "Solenoid Field",
-  "titleBn": "সলিনয়েডের ক্ষেত্র",
-  "latex": "B = \\mu_{0} n I",
-  "summary": "দীর্ঘ সলিনয়েডের ভিতরে অক্ষীয় B।",
-  "tags": ["hsc", "eng-admission", "medical"],
+  "title": "Magnetic Field inside Solenoid",
+  "titleBn": "সোলেনয়েডের অভ্যন্তরীণ চৌম্বক ক্ষেত্র",
+  "latex": "B = \\mu_0 n I = \\mu_0 \\frac{N}{L} I",
+  "summary": "অসীম দৈর্ঘ্যের সরু সোলেনয়েডের ভেতরে অক্ষ বরাবর সৃষ্ট সুষম চৌম্বক ক্ষেত্র।",
+  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
   "chapter": "magnetic-current",
+  "importance": 3,
   "subjects": ["physics"],
   "related": ["toroid", "amperes-law"],
   "symbols": [
-    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "n", "meaning": "প্রতি একক দৈর্ঘ্যে পাক", "unit": "m⁻¹" },
-    { "symbol": "I", "meaning": "তড়িত প্রবাহ", "unit": "A" },
-    { "symbol": "μ₀", "meaning": "শূন্যের প্রবেশ্যতা", "unit": "T·m/A", "value": "4π×10⁻⁷" }
+    { "symbol": "B", "meaning": "সোলেনয়েডের ভেতরের চৌম্বক ক্ষেত্র", "unit": "T" },
+    { "symbol": "n", "meaning": "প্রতি একক দৈর্ঘ্যে পাকসংখ্যা (n = N/L)", "unit": "m⁻¹" },
+    { "symbol": "N", "meaning": "মোট পাকসংখ্যা", "unit": "এককহীন" },
+    { "symbol": "L", "meaning": "সোলেনয়েডের মোট দৈর্ঘ্য", "unit": "m" },
+    { "symbol": "I", "meaning": "বিদ্যুৎপ্রবাহ", "unit": "A" }
   ],
   "derivation": {
-    "lead": "অ্যাম্পিয়ারের সূত্র থেকে দীর্ঘ সলিনয়েড।",
+    "lead": "আয়তাকার অ্যাম্পিয়ারিয়ান লুপ বরাবর অ্যাম্পিয়ারের সার্কিটাল সূত্র প্রয়োগ করে:",
     "steps": [
       {
-        "title": "N পাক, দৈর্ঘ্য ℓ",
-        "latex": "n = N/\\ell \\Rightarrow B = \\mu_{0}\\dfrac{NI}{\\ell}",
-        "note": "বাইরে B ≈ 0।"
+        "title": "অ্যাম্পিয়ারিয়ান লুপ সমাকলন",
+        "latex": "\\oint \\vec{B} \\cdot d\\vec{l} = B L_0 = \\mu_0 (n L_0 I)",
+        "note": "সোলেনয়েডের বাইরে চৌম্বক ক্ষেত্র $B \\approx 0$ ধরা হয়।"
+      },
+      {
+        "title": "চৌম্বক ক্ষেত্রের মান",
+        "latex": "B = \\mu_0 n I",
+        "note": "সোলেনয়েডের ভেতরের চৌম্বক ক্ষেত্র সুষম ও অক্ষমুখী।"
       }
     ],
-    "assumptions": ["দীর্ঘ আদর্শ সলিনয়েড", "অভ্যন্তরীণ বিন্দু"]
+    "assumptions": ["সোলেনয়েডের দৈর্ঘ্য তার ব্যাসার্ধের তুলনায় অনেক বেশি (দীর্ঘ সোলেনয়েড)।"]
   }
 }

@@ -1,30 +1,36 @@
 {
   "id": "biot-savart",
-  "title": "Biot–Savart",
-  "titleBn": "বায়ো–সাভার্ট",
-  "latex": "dB = \\dfrac{\\mu_{0}}{4\\pi}\\dfrac{I\\,dl\\sin\\theta}{r^{2}}",
-  "summary": "ক্ষুদ্র প্রবাহখণ্ডের জন্য চৌম্বক ক্ষেত্র।",
-  "tags": ["hsc", "eng-admission", "varsity"],
+  "title": "Biot–Savart Law",
+  "titleBn": "বায়োট-সাভার্ট সূত্র",
+  "latex": "dB = \\frac{\\mu_0}{4\\pi} \\frac{I dl \\sin \\theta}{r^2}",
+  "summary": "বিদ্যুৎবাহী পরিবাহীর কোনো ক্ষুদ্র অংশ (dl) থেকে r দূরত্বে যেকোনো বিন্দুতে সৃষ্ট চৌম্বক ক্ষেত্রের মান।",
+  "tags": ["hsc", "eng-admission", "varsity", "5-star"],
   "chapter": "magnetic-current",
+  "importance": 5,
   "subjects": ["physics"],
   "related": ["wire-field", "loop-center"],
   "symbols": [
-    { "symbol": "dB", "meaning": "ক্ষুদ্র চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "I", "meaning": "তড়িত প্রবাহ", "unit": "A" },
-    { "symbol": "dl", "meaning": "প্রবাহখণ্ডের দৈর্ঘ্য", "unit": "m" },
-    { "symbol": "θ", "meaning": "dl ও r-এর কোণ", "unit": "—" },
-    { "symbol": "r", "meaning": "দূরত্ব", "unit": "m" },
-    { "symbol": "μ₀", "meaning": "শূন্যের প্রবেশ্যতা", "unit": "T·m/A", "value": "4π×10⁻⁷" }
+    { "symbol": "dB", "meaning": "ক্ষুদ্র চৌম্বক ক্ষেত্র", "unit": "T (Tesla)" },
+    { "symbol": "\\mu_0", "meaning": "শূন্যস্থানের চৌম্বক প্রবেশ্যতা", "unit": "T·m/A", "value": "4π × 10⁻⁷" },
+    { "symbol": "I", "meaning": "বিদ্যুৎপ্রবাহ", "unit": "A" },
+    { "symbol": "dl", "meaning": "ক্ষুদ্র পরিবাহী অংশ", "unit": "m" },
+    { "symbol": "\\theta", "meaning": "dl ও পরিবাহী থেকে বিন্দু নির্দেশক ভেক্টরের অন্তর্বর্তী কোণ", "unit": "°" },
+    { "symbol": "r", "meaning": "পরিবাহী অংশ থেকে নির্দিষ্ট বিন্দুর দূরত্ব", "unit": "m" }
   ],
   "derivation": {
-    "lead": "পরীক্ষালব্ধ সূত্র — প্রবাহের চৌম্বক ক্ষেত্রের মৌলিক রূপ।",
+    "lead": "বায়োট-সাভার্ট সূত্রের মূল সম্পর্কসমূহ:",
     "steps": [
       {
-        "title": "মৌলিক রূপ",
-        "latex": "dB \\propto \\dfrac{I\\,dl\\sin\\theta}{r^{2}}",
-        "note": "সমানুপাতিকতা μ₀/4π ধ্রুবকে পূর্ণ।"
+        "title": "সমানুপাতিক সম্পর্ক",
+        "latex": "dB \\propto I, \\quad dB \\propto dl, \\quad dB \\propto \\sin \\theta, \\quad dB \\propto \\frac{1}{r^2}",
+        "note": "অক্ষীয় অবস্থান ও লম্ব দূরত্বের সাথে চৌম্বক বলরেখা পরিবর্তিত হয়।"
+      },
+      {
+        "title": "সমানুপাতিক ধ্রুবক",
+        "latex": "dB = k \\frac{I dl \\sin \\theta}{r^2}, \\quad k = \\frac{\\mu_0}{4\\pi}",
+        "note": "SI এককে ধ্রুবক $k = 10^{-7} \\text{ T}\\cdot\\text{m/A}$।"
       }
     ],
-    "assumptions": ["স্থির প্রবাহ", "বিন্দু পর্যবেক্ষণ"]
+    "assumptions": ["স্থির বিদ্যুৎপ্রবাহ এবং অনমনীয় সুষম পরিবাহী বিবেচ্য।"]
   }
 }
