@@ -18,7 +18,7 @@ export function OverviewHome({ onSelectChapter }: OverviewHomeProps) {
 
   return (
     <div className="overview-container">
-      {/* Hero Header - Minimalist */}
+      {/* Hero Header - Strict Monochrome Minimalist */}
       <header className="overview-hero">
         <span className="hero-subhead">FORMULA HUB — HSC & ADMISSION</span>
         <h1 className="hero-title">সকল বিষয়ের অধ্যায়ভিত্তিক সূত্রাবলী</h1>
@@ -36,7 +36,7 @@ export function OverviewHome({ onSelectChapter }: OverviewHomeProps) {
                 className={`filter-tab${selectedSubject === s.id ? ' is-active' : ''}`}
                 onClick={() => setSelectedSubject(selectedSubject === s.id ? 'all' : s.id)}
               >
-                {s.icon} {s.nameBn}
+                {s.nameBn}
               </button>
             ))}
           </div>
@@ -72,7 +72,7 @@ export function OverviewHome({ onSelectChapter }: OverviewHomeProps) {
             >
               <div className="card-top">
                 <span className="card-badge">
-                  {subj?.icon} {subj?.nameBn} · {paper?.nameBn}
+                  {subj?.nameBn} · {paper?.nameBn}
                 </span>
                 <span className={`status-pill${ch.isReady ? ' is-live' : ''}`}>
                   {ch.isReady ? `${ch.formulaCount} Formulations` : 'Coming Soon'}

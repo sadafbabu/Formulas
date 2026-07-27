@@ -57,9 +57,9 @@ export const papers: PaperMeta[] = [
 ]
 
 export const subjectsList: SubjectMeta[] = [
-  { id: 'physics', slug: 'physics', name: 'Physics', nameBn: 'পদার্থবিজ্ঞান', icon: '⚛️', color: '#38bdf8', order: 1 },
-  { id: 'chemistry', slug: 'chemistry', name: 'Chemistry', nameBn: 'রসায়ন', icon: '🧪', color: '#22c55e', order: 2 },
-  { id: 'math', slug: 'math', name: 'Higher Math', nameBn: 'উচ্চতর গণিত', icon: '📐', color: '#a855f7', order: 3 },
+  { id: 'physics', slug: 'physics', name: 'Physics', nameBn: 'পদার্থবিজ্ঞান', icon: '', color: '#ffffff', order: 1 },
+  { id: 'chemistry', slug: 'chemistry', name: 'Chemistry', nameBn: 'রসায়ন', icon: '', color: '#ffffff', order: 2 },
+  { id: 'math', slug: 'math', name: 'Higher Math', nameBn: 'উচ্চতর গণিত', icon: '', color: '#ffffff', order: 3 },
 ]
 
 export const allChapters: ChapterMeta[] = [
