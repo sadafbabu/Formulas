@@ -43,11 +43,11 @@ export function QuestionHint({ formula }: QuestionHintProps) {
           <div key={i} className="question-card">
             <span className="question-exam-tag">{q.examType}</span>
             <div className="question-problem">
-              <strong>🎯 প্রশ্ন:</strong>
+              <strong>প্রশ্ন:</strong>
               <p>{q.question}</p>
             </div>
             <div className="question-solution">
-              <strong>💡 সমাধান:</strong>
+              <strong>সমাধান:</strong>
               <div className="question-solution-text">
                 <Katex latex={q.answer} display />
               </div>
