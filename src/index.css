@@ -539,8 +539,27 @@ button {
   min-height: 0;
 }
 
+.formula-latex-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.formula-diagram {
+  width: min(130px, 90%);
+  height: auto;
+  max-height: 52px;
+  flex-shrink: 0;
+  display: block;
+  margin-top: 0.15rem;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.45));
+}
+
 .formula-latex {
-  font-size: clamp(1.1rem, 1.45vw, 1.4rem);
+  font-size: clamp(1.05rem, 1.4vw, 1.35rem);
   line-height: 1.15;
   color: var(--ink-bright);
   overflow-x: auto;

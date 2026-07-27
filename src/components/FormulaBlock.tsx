@@ -1,5 +1,6 @@
 import type { Formula, TagId } from '../data/types'
 import { DeriveHint } from './DeriveHint'
+import { FormulaDiagram } from './FormulaDiagram'
 import { Katex } from './Katex'
 import { SymbolHint } from './SymbolHint'
 import { TagChip } from './TagChip'
@@ -32,8 +33,11 @@ export function FormulaBlock({
       style={{ animationDelay: `${30 + index * 30}ms` }}
     >
       <div className="formula-main">
-        <div className="formula-latex">
-          <Katex latex={formula.latex} display />
+        <div className="formula-latex-side">
+          <div className="formula-latex">
+            <Katex latex={formula.latex} display />
+          </div>
+          <FormulaDiagram id={formula.id} />
         </div>
         <div className="formula-text">
           <header className="formula-head">
