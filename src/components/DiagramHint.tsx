@@ -32,6 +32,12 @@ export function DiagramHint({ formulaId, titleBn }: DiagramHintProps) {
     >
       <div className="diagram-popover-content">
         <FormulaDiagram id={formulaId} />
+        <div className="diagram-legend">
+          <span><i className="legend-dot red" /> প্রবাহ I / বল F</span>
+          <span><i className="legend-dot blue" /> ক্ষেত্র B</span>
+          <span><i className="legend-dot yellow" /> দূরত্ব r / a</span>
+          <span><i className="legend-dot purple" /> আধান q / M</span>
+        </div>
       </div>
     </HintPopover>
   )

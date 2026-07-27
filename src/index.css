@@ -550,19 +550,50 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 0.6rem;
   padding: 0.6rem 0.4rem;
   background: rgba(14, 14, 14, 0.95);
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 10px;
 }
 
-.diagram-popover-content .formula-diagram {
+.diagram-popover-content .formula-diagram-svg {
   width: 100%;
-  max-width: 360px;
+  max-width: 380px;
   height: auto;
-  max-height: 200px;
+  max-height: 210px;
   display: block;
+  border-radius: 8px;
 }
+
+.diagram-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem 0.8rem;
+  font-size: 0.72rem;
+  color: var(--ink-soft);
+  padding-top: 0.2rem;
+}
+
+.diagram-legend span {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.legend-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.legend-dot.red { background: #ef4444; }
+.legend-dot.blue { background: #38bdf8; }
+.legend-dot.yellow { background: #f59e0b; }
+.legend-dot.purple { background: #a855f7; }
 
 .formula-latex {
   font-size: clamp(1.05rem, 1.4vw, 1.35rem);
