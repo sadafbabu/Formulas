@@ -81,6 +81,7 @@ button {
 .top-bar-left {
   display: flex;
   align-items: center;
+  gap: 0.65rem;
   position: relative;
   z-index: 2;
 }
