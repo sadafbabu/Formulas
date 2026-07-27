@@ -1,0 +1,29 @@
+{
+  "id": "earth-magnetism",
+  "title": "Earth's Magnetic Field Components",
+  "titleBn": "ভূ-চৌম্বকত্বের উপাংশ ও বিনতি কোণ",
+  "latex": "B_H = B \\cos \\delta, \\quad B_V = B \\sin \\delta, \\quad \\tan \\delta = \\frac{B_V}{B_H}",
+  "summary": "পৃথিবীর মোট চৌম্বক ক্ষেত্র B, অনুভূমিক উপাংশ B_H, উলম্ব উপাংশ B_V এবং বিনতি কোণ δ এর মধ্যকার সম্পর্ক।",
+  "tags": ["hsc", "medical", "varsity", "2-star"],
+  "chapter": "magnetic-current",
+  "importance": 2,
+  "subjects": ["physics"],
+  "related": ["biot-savart"],
+  "symbols": [
+    { "symbol": "B", "meaning": "ভূ-চৌম্বক ক্ষেত্রের মোট তীব্রতা", "unit": "T" },
+    { "symbol": "B_H", "meaning": "ভূ-চৌম্বক ক্ষেত্রের অনুভূমিক উপাংশ", "unit": "T" },
+    { "symbol": "B_V", "meaning": "ভূ-চৌম্বক ক্ষেত্রের উলম্ব উপাংশ", "unit": "T" },
+    { "symbol": "\\delta", "meaning": "বিনতি কোণ (Angle of Dip)", "unit": "°" }
+  ],
+  "derivation": {
+    "lead": "ভেক্টর বিভাজন নীতি অনুসারে পৃথিবীর মোট চৌম্বক ক্ষেত্রকে অনুভূমিক ও উলম্ব উপাংশে ভাগ করা হয়:",
+    "steps": [
+      {
+        "title": "উপাংশ দ্বয় ও সম্পর্ক",
+        "latex": "B^2 = B_H^2 + B_V^2 \\implies B = \\sqrt{B_H^2 + B_V^2}",
+        "note": "বিষুবরেখায় $\\delta = 0^\\circ \\implies B_V = 0$, মেরু অঞ্চলে $\\delta = 90^\\circ \\implies B_H = 0$।"
+      }
+    ],
+    "assumptions": ["স্থানীয় চৌম্বক ব্যাঘাত মুক্ত স্থানে পরিমাপ প্রযোজ্য।"]
+  }
+}

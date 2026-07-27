@@ -1,7 +1,9 @@
 [
-  { "id": "hsc", "label": "HSC", "labelBn": "এইচএসসি" },
-  { "id": "eng-admission", "label": "Eng", "labelBn": "ইঞ্জি ভর্তি" },
-  { "id": "medical", "label": "Medical", "labelBn": "মেডিকেল" },
-  { "id": "varsity", "label": "Varsity", "labelBn": "ভার্সিটি" },
-  { "id": "general", "label": "General", "labelBn": "সাধারণ" }
+  { "id": "hsc", "label": "HSC", "labelBn": "এইচএসসি", "category": "exam" },
+  { "id": "eng-admission", "label": "Eng", "labelBn": "ইঞ্জি ভর্তি", "category": "exam" },
+  { "id": "medical", "label": "Medical", "labelBn": "মেডিকেল", "category": "exam" },
+  { "id": "varsity", "label": "Varsity", "labelBn": "ভার্সিটি", "category": "exam" },
+  { "id": "3-star", "label": "⭐⭐⭐ 3-Star", "labelBn": "⭐⭐⭐ ৩-স্টার (মোস্ট ইম্পর্ট্যান্ট)", "category": "importance" },
+  { "id": "2-star", "label": "⭐⭐ 2-Star", "labelBn": "⭐⭐ ২-স্টার (হাই ইল্ড)", "category": "importance" },
+  { "id": "general", "label": "General", "labelBn": "সাধারণ", "category": "exam" }
 ]

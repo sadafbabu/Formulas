@@ -16,6 +16,9 @@ import torqueLoop from '../../content/subjects/physics/chapters/magnetic-current
 import amperesLaw from '../../content/subjects/physics/chapters/magnetic-current/formulas/amperes-law.json'
 import cyclotronRadius from '../../content/subjects/physics/chapters/magnetic-current/formulas/cyclotron-radius.json'
 import cyclotronFreq from '../../content/subjects/physics/chapters/magnetic-current/formulas/cyclotron-freq.json'
+import galvanometerAmmeter from '../../content/subjects/physics/chapters/magnetic-current/formulas/galvanometer-ammeter.json'
+import galvanometerVoltmeter from '../../content/subjects/physics/chapters/magnetic-current/formulas/galvanometer-voltmeter.json'
+import earthMagnetism from '../../content/subjects/physics/chapters/magnetic-current/formulas/earth-magnetism.json'
 
 import type {
   BookPage,
@@ -49,6 +52,9 @@ export const formulas: Formula[] = [
   amperesLaw,
   cyclotronRadius,
   cyclotronFreq,
+  galvanometerAmmeter,
+  galvanometerVoltmeter,
+  earthMagnetism,
 ] as Formula[]
 
 const tagMap = new Map(tags.map((t) => [t.id, t]))

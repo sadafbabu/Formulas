@@ -1,0 +1,34 @@
+{
+  "id": "galvanometer-voltmeter",
+  "title": "Galvanometer to Voltmeter",
+  "titleBn": "গ্যালভানোমিটার থেকে ভোল্টমিটার রূপান্তর",
+  "latex": "R = \\frac{V}{I_g} - G",
+  "summary": "গ্যালভানোমিটারের সাথে শ্রেণীতে উচ্চ মানের রোধ (R) যুক্ত করে ভোল্টমিটারে রূপান্তর।",
+  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "chapter": "magnetic-current",
+  "importance": 3,
+  "subjects": ["physics"],
+  "related": ["galvanometer-ammeter"],
+  "symbols": [
+    { "symbol": "R", "meaning": "শ্রেণীতে যুক্ত উচ্চ রোধের মান", "unit": "Ω" },
+    { "symbol": "G", "meaning": "গ্যালভানোমিটারের রোধ", "unit": "Ω" },
+    { "symbol": "I_g", "meaning": "গ্যালভানোমিটারের সর্বোচ্চ প্রবাহসীমা", "unit": "A" },
+    { "symbol": "V", "meaning": "ভোল্টমিটার দ্বারা পরিমাপযোগ্য মোট বিভব পার্থক্য", "unit": "V" }
+  ],
+  "derivation": {
+    "lead": "গ্যালভানোমিটার ও উচ্চ রোধ R শ্রেণীতে যুক্ত থাকায় মোট বিভব পার্থক্য পরিমাপ করা যায়:",
+    "steps": [
+      {
+        "title": "ওহমের সূত্রানুসারে মোট বিভব",
+        "latex": "V = I_g (G + R)",
+        "note": "শ্রেণী সমবায়ে তুল্য রোধ $R_{eq} = G + R$।"
+      },
+      {
+        "title": "শ্রেণী রোধ R নির্ণয়",
+        "latex": "R = \\frac{V}{I_g} - G",
+        "note": "ভোল্টমিটারের পাল্লা n গুণ বাড়াতে $R = (n - 1)G$ ব্যবহৃত হয়।"
+      }
+    ],
+    "assumptions": ["ভোল্টমিটারের অভ্যন্তরীণ রোধ $R_v = G + R$ অত্যন্ত উচ্চ হতে হবে।"]
+  }
+}

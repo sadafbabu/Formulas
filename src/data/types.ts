@@ -5,11 +5,15 @@ export type TagId =
   | 'varsity'
   | 'general'
   | 'olympic'
+  | '3-star'
+  | '2-star'
+  | '1-star'
 
 export interface Tag {
   id: TagId
   label: string
   labelBn: string
+  category?: 'exam' | 'importance' | 'chapter'
 }
 
 export interface DerivationStep {
@@ -40,6 +44,7 @@ export interface Formula {
   summary: string
   tags: TagId[]
   chapter: string
+  importance?: 1 | 2 | 3 // 1: Standard, 2: High Yield, 3: Must Know / 3-Star
   subjects: string[]
   related: string[]
   symbols: SymbolInfo[]
