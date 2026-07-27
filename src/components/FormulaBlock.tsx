@@ -3,6 +3,7 @@ import { CopyLatexBtn } from './CopyLatexBtn'
 import { DeriveHint } from './DeriveHint'
 import { DiagramHint } from './DiagramHint'
 import { Katex } from './Katex'
+import { QuestionHint } from './QuestionHint'
 import { SymbolHint } from './SymbolHint'
 import { TagChip } from './TagChip'
 
@@ -46,6 +47,7 @@ export function FormulaBlock({
             </h2>
             <div className="formula-actions">
               <CopyLatexBtn latex={formula.latex} />
+              <QuestionHint formula={formula} />
               <DiagramHint formulaId={formula.id} titleBn={formula.titleBn} />
               <SymbolHint formula={formula} />
               <DeriveHint formula={formula} />

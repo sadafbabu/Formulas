@@ -36,6 +36,12 @@ export interface SymbolInfo {
   value?: string
 }
 
+export interface QuestionItem {
+  examType: string
+  question: string
+  answer: string
+}
+
 export interface Formula {
   id: string
   title: string
@@ -49,6 +55,7 @@ export interface Formula {
   related: string[]
   symbols: SymbolInfo[]
   derivation: Derivation
+  questions?: QuestionItem[]
 }
 
 export interface ChapterMeta {

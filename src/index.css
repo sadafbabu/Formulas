@@ -583,6 +583,65 @@ button {
   gap: 0.25rem;
 }
 
+.question-popover-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 0.4rem 0.2rem;
+}
+
+.question-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  background: rgba(18, 18, 18, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  padding: 0.85rem;
+}
+
+.question-exam-tag {
+  align-self: flex-start;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  padding: 0.18rem 0.5rem;
+  border-radius: 6px;
+}
+
+.question-problem {
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: var(--ink-bright);
+}
+
+.question-problem strong {
+  color: #f59e0b;
+  margin-right: 0.35rem;
+}
+
+.question-solution {
+  border-top: 1px dashed rgba(255, 255, 255, 0.12);
+  padding-top: 0.5rem;
+  font-size: 0.86rem;
+  color: var(--ink-soft);
+}
+
+.question-solution strong {
+  color: #22c55e;
+  margin-right: 0.35rem;
+}
+
+.question-solution-text {
+  margin-top: 0.3rem;
+  color: var(--ink-bright);
+  font-size: 0.95rem;
+}
+
 .legend-dot {
   width: 7px;
   height: 7px;
