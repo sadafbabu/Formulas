@@ -23,7 +23,8 @@ const ALIASES: Record<string, string[]> = {
   loop: ['লুপ', 'কুন্ডলী'],
   radius: ['ব্যাসার্ধ'],
   freq: ['কম্পাঙ্ক'],
-  star: ['স্টার'],
+  important: ['গুরুত্বপূর্ণ', 'মোস্ট'],
+  top: ['সর্বোচ্চ', '5-star'],
 }
 
 export function matchFormula(
@@ -31,12 +32,19 @@ export function matchFormula(
   query: string,
   activeTag?: TagId | null
 ): boolean {
+  const imp = formula.importance ?? 3
+
   // Tag filter
   if (activeTag) {
-    if (activeTag === '3-star' && formula.importance !== 3) return false
-    if (activeTag === '2-star' && formula.importance !== 2) return false
-    if (activeTag === '1-star' && formula.importance !== 1) return false
-    if (!formula.tags.includes(activeTag) && formula.importance !== (activeTag === '3-star' ? 3 : activeTag === '2-star' ? 2 : activeTag === '1-star' ? 1 : null)) {
+    if (activeTag === '5-star' && imp !== 5) return false
+    if (activeTag === '4-star' && imp !== 4) return false
+    if (activeTag === '3-star' && imp !== 3) return false
+    if (activeTag === '2-star' && imp !== 2) return false
+    if (activeTag === '1-star' && imp !== 1) return false
+    if (
+      !activeTag.endsWith('-star') &&
+      !formula.tags.includes(activeTag)
+    ) {
       return false
     }
   }
@@ -44,12 +52,32 @@ export function matchFormula(
   const q = query.trim().toLowerCase()
   if (!q) return true
 
-  // Direct term matches
+  // Direct star search (e.g. "5", "5 star", "5star", "*****")
+  if (q === '5' || q === '5 star' || q === '5star' || q === '*****') {
+    return imp === 5
+  }
+  if (q === '4' || q === '4 star' || q === '4star' || q === '****') {
+    return imp === 4
+  }
+  if (q === '3' || q === '3 star' || q === '3star' || q === '***') {
+    return imp === 3
+  }
+  if (q === '2' || q === '2 star' || q === '2star' || q === '**') {
+    return imp === 2
+  }
+  if (q === '1' || q === '1 star' || q === '1star' || q === '*') {
+    return imp === 1
+  }
+
+  // Text search in fields
   const inTitleEn = formula.title.toLowerCase().includes(q)
   const inTitleBn = formula.titleBn.toLowerCase().includes(q)
   const inSummary = formula.summary.toLowerCase().includes(q)
   const inLatex = formula.latex.toLowerCase().includes(q)
   const inId = formula.id.toLowerCase().includes(q)
+
+  // Tags match
+  const inTags = formula.tags.some((t) => t.toLowerCase().includes(q))
 
   // Symbol meanings match
   const inSymbols = formula.symbols?.some(
@@ -59,7 +87,7 @@ export function matchFormula(
       s.unit.toLowerCase().includes(q)
   )
 
-  if (inTitleEn || inTitleBn || inSummary || inLatex || inId || inSymbols) {
+  if (inTitleEn || inTitleBn || inSummary || inLatex || inId || inTags || inSymbols) {
     return true
   }
 

@@ -15,19 +15,22 @@ export function FormulaBlock({
   activeTag,
   index = 0,
 }: FormulaBlockProps) {
-  // Determine importance asterisk tag (***, **, *)
-  const importanceTag: TagId | null =
-    formula.importance === 3
+  // Determine grey star importance tag (5 to 1 stars)
+  const imp = formula.importance ?? 3
+  const importanceTag: TagId =
+    imp === 5
+      ? '5-star'
+      : imp === 4
+      ? '4-star'
+      : imp === 3
       ? '3-star'
-      : formula.importance === 2
+      : imp === 2
       ? '2-star'
-      : formula.importance === 1
-      ? '1-star'
-      : null
+      : '1-star'
 
-  // Ensure tags include importance tag if present and not already included
+  // Ensure tags include importance tag if not already present
   const displayTags = [...formula.tags]
-  if (importanceTag && !displayTags.includes(importanceTag)) {
+  if (!displayTags.some((t) => t.endsWith('-star'))) {
     displayTags.push(importanceTag)
   }
 
