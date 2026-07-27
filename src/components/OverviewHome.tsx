@@ -18,55 +18,38 @@ export function OverviewHome({ onSelectChapter }: OverviewHomeProps) {
 
   return (
     <div className="overview-container">
-      {/* Hero Header */}
+      {/* Hero Header - Minimalist */}
       <header className="overview-hero">
-        <div className="hero-badge">HSC & Admission Formula Hub</div>
-        <h1 className="hero-title">
-          পদার্থবিজ্ঞান, রসায়ন ও উচ্চতর গণিত <br />
-          <span className="hero-highlight">১ম ও ২য় পত্রের অধ্যায়ভিত্তিক অল সূত্রাবলী</span>
-        </h1>
+        <span className="hero-subhead">FORMULA HUB — HSC & ADMISSION</span>
+        <h1 className="hero-title">সকল বিষয়ের অধ্যায়ভিত্তিক সূত্রাবলী</h1>
         <p className="hero-subtitle">
-          এইচএসসি বোর্ড পরীক্ষা ও বুয়েট/মেডিকেল/ভার্সিটি ক-ইউনিট ভর্তি পরীক্ষার জন্য ১০০% সিলেবাসভিত্তিক পূর্ণাঙ্গ সূত্রের ডিজিটাল হ্যান্ডবুক।
+          এইচএসসি বোর্ড এবং বুয়েট, মেডিকেল ও ভার্সিটি ক-ইউনিট ভর্তি পরীক্ষার জন্য প্রস্তুতকৃত ডিজিটাল ফর্মুলা বুক।
         </p>
 
-        {/* Filter Controls */}
+        {/* Minimalist Filter Bar */}
         <div className="overview-filters">
           <div className="filter-group">
-            <span className="filter-label">বিষয় (Subject):</span>
-            <button
-              type="button"
-              className={`filter-tab${selectedSubject === 'all' ? ' is-active' : ''}`}
-              onClick={() => setSelectedSubject('all')}
-            >
-              সব বিষয়
-            </button>
             {subjectsList.map((s) => (
               <button
                 key={s.id}
                 type="button"
                 className={`filter-tab${selectedSubject === s.id ? ' is-active' : ''}`}
-                onClick={() => setSelectedSubject(s.id)}
+                onClick={() => setSelectedSubject(selectedSubject === s.id ? 'all' : s.id)}
               >
                 {s.icon} {s.nameBn}
               </button>
             ))}
           </div>
 
+          <div className="filter-divider" />
+
           <div className="filter-group">
-            <span className="filter-label">পত্র (Paper):</span>
-            <button
-              type="button"
-              className={`filter-tab${selectedPaper === 'all' ? ' is-active' : ''}`}
-              onClick={() => setSelectedPaper('all')}
-            >
-              উভয় পত্র
-            </button>
             {papers.map((p) => (
               <button
                 key={p.id}
                 type="button"
                 className={`filter-tab${selectedPaper === p.id ? ' is-active' : ''}`}
-                onClick={() => setSelectedPaper(p.id)}
+                onClick={() => setSelectedPaper(selectedPaper === p.id ? 'all' : p.id)}
               >
                 {p.nameBn}
               </button>
@@ -75,7 +58,7 @@ export function OverviewHome({ onSelectChapter }: OverviewHomeProps) {
         </div>
       </header>
 
-      {/* Chapters Grid */}
+      {/* Minimalist Chapters Grid */}
       <section className="overview-grid">
         {filteredChapters.map((ch) => {
           const subj = subjectsList.find((s) => s.id === ch.subjectId)
@@ -88,11 +71,11 @@ export function OverviewHome({ onSelectChapter }: OverviewHomeProps) {
               onClick={() => ch.isReady && onSelectChapter(ch.id)}
             >
               <div className="card-top">
-                <span className="card-badge" style={{ borderColor: subj?.color }}>
-                  {subj?.icon} {subj?.nameBn} — {paper?.nameBn}
+                <span className="card-badge">
+                  {subj?.icon} {subj?.nameBn} · {paper?.nameBn}
                 </span>
                 <span className={`status-pill${ch.isReady ? ' is-live' : ''}`}>
-                  {ch.isReady ? `⚡ ${ch.formulaCount}টি সূত্র Ready` : 'শীঘ্রই আসছে'}
+                  {ch.isReady ? `${ch.formulaCount} Formulations` : 'Coming Soon'}
                 </span>
               </div>
 
@@ -100,14 +83,10 @@ export function OverviewHome({ onSelectChapter }: OverviewHomeProps) {
               <p className="chapter-title-en">{ch.name}</p>
 
               <div className="card-footer">
-                <span className="chapter-order">অধ্যায় ০{ch.order}</span>
-                <button
-                  type="button"
-                  className="open-btn"
-                  disabled={!ch.isReady}
-                >
-                  {ch.isReady ? '📖 সূত্র দেখুন' : 'প্রস্তুত হচ্ছে'}
-                </button>
+                <span className="chapter-order">CHAPTER 0{ch.order}</span>
+                <span className="open-link">
+                  {ch.isReady ? 'Open Book →' : 'In Progress'}
+                </span>
               </div>
             </article>
           )
