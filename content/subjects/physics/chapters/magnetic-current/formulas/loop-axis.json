@@ -4,16 +4,44 @@
   "titleBn": "কুণ্ডলীর অক্ষে ক্ষেত্র",
   "latex": "B = \\dfrac{\\mu_{0} I R^{2}}{2(R^{2}+x^{2})^{3/2}}",
   "summary": "বৃত্তাকার কুণ্ডলীর অক্ষের উপর B।",
-  "tags": ["hsc", "eng-admission", "varsity"],
+  "tags": [
+    "eng-admission",
+    "varsity"
+  ],
   "chapter": "magnetic-current",
-  "subjects": ["physics"],
-  "related": ["loop-center"],
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "loop-center"
+  ],
   "symbols": [
-    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "I", "meaning": "তড়িত প্রবাহ", "unit": "A" },
-    { "symbol": "R", "meaning": "ব্যাসার্ধ", "unit": "m" },
-    { "symbol": "x", "meaning": "কেন্দ্র থেকে অক্ষীয় দূরত্ব", "unit": "m" },
-    { "symbol": "μ₀", "meaning": "শূন্যের প্রবেশ্যতা", "unit": "T·m/A", "value": "4π×10⁻⁷" }
+    {
+      "symbol": "B",
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "I",
+      "meaning": "তড়িত প্রবাহ",
+      "unit": "A"
+    },
+    {
+      "symbol": "R",
+      "meaning": "ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "x",
+      "meaning": "কেন্দ্র থেকে অক্ষীয় দূরত্ব",
+      "unit": "m"
+    },
+    {
+      "symbol": "μ₀",
+      "meaning": "শূন্যের প্রবেশ্যতা",
+      "unit": "T·m/A",
+      "value": "4π×10⁻⁷"
+    }
   ],
   "derivation": {
     "lead": "বায়ো–সাভার্টের অক্ষীয় উপাংশ ইন্টিগ্রেশন।",
@@ -24,6 +52,8 @@
         "note": "কেন্দ্রের সূত্রে ফিরে আসে।"
       }
     ],
-    "assumptions": ["এক পাক কুণ্ডলী"]
+    "assumptions": [
+      "এক পাক কুণ্ডলী"
+    ]
   }
 }

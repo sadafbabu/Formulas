@@ -25,6 +25,7 @@ export function FormulaDetailPage() {
     return (
       <div className="book-shell detail-shell">
         <NavMenu
+          floating
           query={query}
           onQueryChange={setQuery}
           chapterId={chapterId}
@@ -47,6 +48,7 @@ export function FormulaDetailPage() {
   return (
     <div className="book-shell detail-shell">
       <NavMenu
+        floating
         query={query}
         onQueryChange={setQuery}
         chapterId={chapterId}

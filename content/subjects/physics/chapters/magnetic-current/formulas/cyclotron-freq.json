@@ -4,15 +4,39 @@
   "titleBn": "সাইক্লোট্রন কম্পাঙ্ক",
   "latex": "f = \\dfrac{qB}{2\\pi m}",
   "summary": "বৃত্তগতির আবর্তন কম্পাঙ্ক — v নিরপেক্ষ।",
-  "tags": ["hsc", "eng-admission", "varsity"],
+  "tags": [
+    "eng-admission",
+    "varsity"
+  ],
   "chapter": "magnetic-current",
-  "subjects": ["physics"],
-  "related": ["cyclotron-radius", "lorentz"],
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "cyclotron-radius",
+    "lorentz"
+  ],
   "symbols": [
-    { "symbol": "f", "meaning": "আবর্তন কম্পাঙ্ক", "unit": "Hz" },
-    { "symbol": "q", "meaning": "চার্জ", "unit": "C" },
-    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "m", "meaning": "কণার ভর", "unit": "kg" }
+    {
+      "symbol": "f",
+      "meaning": "আবর্তন কম্পাঙ্ক",
+      "unit": "Hz"
+    },
+    {
+      "symbol": "q",
+      "meaning": "চার্জ",
+      "unit": "C"
+    },
+    {
+      "symbol": "B",
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "m",
+      "meaning": "কণার ভর",
+      "unit": "kg"
+    }
   ],
   "derivation": {
     "lead": "T = 2πr/v এবং r = mv/(qB) থেকে।",
@@ -23,6 +47,9 @@
         "note": "ω = qB/mও ব্যবহার্য।"
       }
     ],
-    "assumptions": ["অঅপেক্ষিকীয় গতি", "v ⊥ B"]
+    "assumptions": [
+      "অঅপেক্ষিকীয় গতি",
+      "v ⊥ B"
+    ]
   }
 }

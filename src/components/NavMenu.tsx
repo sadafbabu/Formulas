@@ -5,15 +5,15 @@ import {
   defaultChapterId,
   formulasForChapter,
   subject,
-  tags,
 } from '../data/catalog'
-import type { TagId } from '../data/types'
 
 interface NavMenuProps {
   query: string
   onQueryChange: (value: string) => void
   chapterId: string
   onChapterChange: (id: string) => void
+  /** When false, only render the fab+panel (menu lives inside TopBar) */
+  floating?: boolean
 }
 
 export function NavMenu({
@@ -21,10 +21,10 @@ export function NavMenu({
   onQueryChange,
   chapterId,
   onChapterChange,
+  floating = false,
 }: NavMenuProps) {
   const [open, setOpen] = useState(false)
-  const [params, setParams] = useSearchParams()
-  const activeTag = params.get('tag') as TagId | null
+  const [params] = useSearchParams()
   const panelId = useId()
   const rootRef = useRef<HTMLDivElement>(null)
   const list = formulasForChapter(chapterId || defaultChapterId)
@@ -45,8 +45,10 @@ export function NavMenu({
     }
   }, [open])
 
+  const chapter = params.get('chapter')
+
   return (
-    <div className="nav-root" ref={rootRef}>
+    <div className={`nav-root${floating ? ' is-floating' : ' is-inline'}`} ref={rootRef}>
       <button
         type="button"
         className="nav-fab"
@@ -95,38 +97,14 @@ export function NavMenu({
             </button>
           ))}
 
-          <p className="nav-section">Tags</p>
-          <div className="nav-tags">
-            <button
-              type="button"
-              className={`nav-tag${!activeTag ? ' is-active' : ''}`}
-              onClick={() => {
-                setParams({})
-                setOpen(false)
-              }}
-            >
-              All
-            </button>
-            {tags.map((tag) => (
-              <button
-                key={tag.id}
-                type="button"
-                className={`nav-tag${activeTag === tag.id ? ' is-active' : ''}`}
-                onClick={() => {
-                  setParams({ tag: tag.id })
-                  setOpen(false)
-                }}
-              >
-                {tag.label}
-              </button>
-            ))}
-          </div>
-
           <p className="nav-section">সূত্র ({list.length})</p>
           <ul className="nav-formula-list">
             {list.map((f) => (
               <li key={f.id}>
-                <Link to={`/formula/${f.id}`} onClick={() => setOpen(false)}>
+                <Link
+                  to={`/formula/${f.id}${chapter ? `?chapter=${chapter}` : ''}`}
+                  onClick={() => setOpen(false)}
+                >
                   {f.titleBn}
                 </Link>
               </li>

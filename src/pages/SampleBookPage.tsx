@@ -1,8 +1,12 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { NavMenu } from '../components/NavMenu'
 import { SpreadViewer } from '../components/SpreadViewer'
-import { defaultChapterId } from '../data/catalog'
+import { TopBar } from '../components/TopBar'
+import {
+  defaultChapterId,
+  formulasForChapter,
+} from '../data/catalog'
 import type { TagId } from '../data/types'
 
 export function SampleBookPage() {
@@ -11,19 +15,49 @@ export function SampleBookPage() {
   const chapterId = params.get('chapter') || defaultChapterId
   const [query, setQuery] = useState('')
 
+  const all = formulasForChapter(chapterId)
+  const matchCount = useMemo(() => {
+    const q = query.trim().toLowerCase()
+    return all.filter((f) => {
+      if (activeTag && !f.tags.includes(activeTag)) return false
+      if (!q) return true
+      return (
+        f.title.toLowerCase().includes(q) ||
+        f.titleBn.includes(query.trim()) ||
+        f.summary.toLowerCase().includes(q)
+      )
+    }).length
+  }, [all, activeTag, query])
+
   const setChapterId = (id: string) => {
     const next = new URLSearchParams(params)
     next.set('chapter', id)
     setParams(next, { replace: true })
   }
 
+  const setTag = (tag: TagId | null) => {
+    const next = new URLSearchParams(params)
+    if (tag) next.set('tag', tag)
+    else next.delete('tag')
+    if (!next.get('chapter')) next.set('chapter', chapterId)
+    setParams(next, { replace: true })
+  }
+
   return (
-    <div className="book-shell">
-      <NavMenu
-        query={query}
-        onQueryChange={setQuery}
-        chapterId={chapterId}
-        onChapterChange={setChapterId}
+    <div className="book-shell has-topbar">
+      <TopBar
+        activeTag={activeTag}
+        onTagChange={setTag}
+        matchCount={matchCount}
+        totalCount={all.length}
+        menuSlot={
+          <NavMenu
+            query={query}
+            onQueryChange={setQuery}
+            chapterId={chapterId}
+            onChapterChange={setChapterId}
+          />
+        }
       />
       <SpreadViewer
         activeTag={activeTag}

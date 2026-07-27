@@ -4,14 +4,36 @@
   "titleBn": "অ্যাম্পিয়ারের সূত্র",
   "latex": "\\oint \\vec{B}\\cdot d\\vec{\\ell} = \\mu_{0} I_{\\mathrm{encl}}",
   "summary": "বন্ধ পথে B-এর রৈখিক যোগফল।",
-  "tags": ["hsc", "eng-admission", "varsity"],
+  "tags": [
+    "eng-admission",
+    "varsity"
+  ],
   "chapter": "magnetic-current",
-  "subjects": ["physics"],
-  "related": ["solenoid", "toroid", "wire-field"],
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "solenoid",
+    "toroid",
+    "wire-field"
+  ],
   "symbols": [
-    { "symbol": "∮ B·dl", "meaning": "বন্ধ পথে রৈখিক যোগ", "unit": "T·m" },
-    { "symbol": "I_encl", "meaning": "পথ ঘেরা মোট প্রবাহ", "unit": "A" },
-    { "symbol": "μ₀", "meaning": "শূন্যের প্রবেশ্যতা", "unit": "T·m/A", "value": "4π×10⁻⁷" }
+    {
+      "symbol": "∮ B·dl",
+      "meaning": "বন্ধ পথে রৈখিক যোগ",
+      "unit": "T·m"
+    },
+    {
+      "symbol": "I_encl",
+      "meaning": "পথ ঘেরা মোট প্রবাহ",
+      "unit": "A"
+    },
+    {
+      "symbol": "μ₀",
+      "meaning": "শূন্যের প্রবেশ্যতা",
+      "unit": "T·m/A",
+      "value": "4π×10⁻⁷"
+    }
   ],
   "derivation": {
     "lead": "প্রতিসম ক্ষেত্র নির্ণয়ে মূল হাতিয়ার।",
@@ -22,6 +44,9 @@
         "note": "এখান থেকে B = μ₀I/(2πd)।"
       }
     ],
-    "assumptions": ["স্থির প্রবাহ", "উপযুক্ত প্রতিসাম্য"]
+    "assumptions": [
+      "স্থির প্রবাহ",
+      "উপযুক্ত প্রতিসাম্য"
+    ]
   }
 }

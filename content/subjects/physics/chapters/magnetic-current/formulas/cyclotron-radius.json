@@ -4,16 +4,44 @@
   "titleBn": "বৃত্তপথের ব্যাসার্ধ",
   "latex": "r = \\dfrac{mv}{qB}",
   "summary": "B-তে লম্ব বেগে চার্জের বৃত্তপথ।",
-  "tags": ["hsc", "eng-admission", "medical"],
+  "tags": [
+    "eng-admission",
+    "medical"
+  ],
   "chapter": "magnetic-current",
-  "subjects": ["physics"],
-  "related": ["lorentz", "cyclotron-freq"],
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "lorentz",
+    "cyclotron-freq"
+  ],
   "symbols": [
-    { "symbol": "r", "meaning": "পথের ব্যাসার্ধ", "unit": "m" },
-    { "symbol": "m", "meaning": "কণার ভর", "unit": "kg" },
-    { "symbol": "v", "meaning": "বেগ", "unit": "m/s" },
-    { "symbol": "q", "meaning": "চার্জ", "unit": "C" },
-    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" }
+    {
+      "symbol": "r",
+      "meaning": "পথের ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "m",
+      "meaning": "কণার ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "v",
+      "meaning": "বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "q",
+      "meaning": "চার্জ",
+      "unit": "C"
+    },
+    {
+      "symbol": "B",
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    }
   ],
   "derivation": {
     "lead": "কেন্দ্রমুখী বল = লোরেন্জ বল।",
@@ -24,6 +52,9 @@
         "note": "v ∥ B হলে সরলরেখা।"
       }
     ],
-    "assumptions": ["v ⊥ B", "শুধু চৌম্বক ক্ষেত্র"]
+    "assumptions": [
+      "v ⊥ B",
+      "শুধু চৌম্বক ক্ষেত্র"
+    ]
   }
 }

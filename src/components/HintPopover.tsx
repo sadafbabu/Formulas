@@ -1,10 +1,12 @@
 import {
   useEffect,
   useId,
+  useLayoutEffect,
   useRef,
   useState,
   type ReactNode,
 } from 'react'
+import { createPortal } from 'react-dom'
 
 interface HintPopoverProps {
   label: string
@@ -14,7 +16,6 @@ interface HintPopoverProps {
   wide?: boolean
 }
 
-/** Click/tap + hover popover that portals-like escapes overflow via fixed position */
 export function HintPopover({
   label,
   title,
@@ -30,53 +31,54 @@ export function HintPopover({
 
   const place = () => {
     const btn = rootRef.current
+    const panel = panelRef.current
     if (!btn) return
     const r = btn.getBoundingClientRect()
-    const width = wide ? 300 : 280
-    const left = Math.min(
+    const width = panel?.offsetWidth || (wide ? 300 : 260)
+    const height = panel?.offsetHeight || 180
+    let left = Math.min(
       Math.max(8, r.right - width),
       window.innerWidth - width - 8,
     )
-    const top = Math.min(r.bottom + 6, window.innerHeight - 12)
+    let top = r.bottom + 8
+    if (top + height > window.innerHeight - 8) {
+      top = Math.max(8, r.top - height - 8)
+    }
     setPos({ top, left })
   }
 
+  useLayoutEffect(() => {
+    if (open) place()
+  }, [open, wide, children])
+
   useEffect(() => {
     if (!open) return
-    place()
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') setOpen(false)
     }
-    const onPointer = (e: MouseEvent) => {
-      if (!rootRef.current?.contains(e.target as Node)) setOpen(false)
+    const onPointer = (e: MouseEvent | TouchEvent) => {
+      const t = e.target as Node
+      if (rootRef.current?.contains(t)) return
+      if (panelRef.current?.contains(t)) return
+      setOpen(false)
     }
     const onScroll = () => place()
     window.addEventListener('keydown', onKey)
     window.addEventListener('mousedown', onPointer)
+    window.addEventListener('touchstart', onPointer)
     window.addEventListener('resize', onScroll)
     window.addEventListener('scroll', onScroll, true)
     return () => {
       window.removeEventListener('keydown', onKey)
       window.removeEventListener('mousedown', onPointer)
+      window.removeEventListener('touchstart', onPointer)
       window.removeEventListener('resize', onScroll)
       window.removeEventListener('scroll', onScroll, true)
     }
   }, [open, wide])
 
   return (
-    <div
-      className="hint-wrap"
-      ref={rootRef}
-      onMouseEnter={() => {
-        if (window.matchMedia('(hover: hover)').matches) {
-          place()
-          setOpen(true)
-        }
-      }}
-      onMouseLeave={() => {
-        if (window.matchMedia('(hover: hover)').matches) setOpen(false)
-      }}
-    >
+    <div className="hint-wrap" ref={rootRef}>
       <button
         type="button"
         className="hint-btn"
@@ -86,27 +88,28 @@ export function HintPopover({
         title={title}
         onClick={(e) => {
           e.stopPropagation()
-          place()
           setOpen((v) => !v)
         }}
       >
         {icon}
       </button>
 
-      {open && (
-        <div
-          id={tipId}
-          ref={panelRef}
-          className={`hint-popover${wide ? ' is-wide' : ''}`}
-          role="dialog"
-          aria-label={title}
-          style={{ top: pos.top, left: pos.left }}
-          onClick={(e) => e.stopPropagation()}
-        >
-          <p className="hint-popover-title">{title}</p>
-          {children}
-        </div>
-      )}
+      {open &&
+        createPortal(
+          <div
+            id={tipId}
+            ref={panelRef}
+            className={`hint-popover${wide ? ' is-wide' : ''}`}
+            role="dialog"
+            aria-label={title}
+            style={{ top: pos.top, left: pos.left }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <p className="hint-popover-title">{title}</p>
+            {children}
+          </div>,
+          document.body,
+        )}
     </div>
   )
 }

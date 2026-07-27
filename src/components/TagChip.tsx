@@ -12,16 +12,14 @@ export function TagChip({ id, active }: TagChipProps) {
   const [params] = useSearchParams()
   if (!tag) return null
 
-  const next = new URLSearchParams()
-  const chapter = params.get('chapter')
-  if (chapter) next.set('chapter', chapter)
+  const next = new URLSearchParams(params)
   next.set('tag', tag.id)
 
   return (
     <Link
       to={`/?${next.toString()}`}
       className={`tag${active ? ' is-active' : ''}`}
-      title={tag.labelBn}
+      title={`${tag.labelBn} — শুধু এই tag`}
       onClick={(e) => e.stopPropagation()}
     >
       {tag.label}

@@ -1,6 +1,6 @@
 [
   { "id": "hsc", "label": "HSC", "labelBn": "এইচএসসি" },
-  { "id": "eng-admission", "label": "Eng Admission", "labelBn": "ইঞ্জি ভর্তি" },
+  { "id": "eng-admission", "label": "Eng", "labelBn": "ইঞ্জি ভর্তি" },
   { "id": "medical", "label": "Medical", "labelBn": "মেডিকেল" },
   { "id": "varsity", "label": "Varsity", "labelBn": "ভার্সিটি" },
   { "id": "general", "label": "General", "labelBn": "সাধারণ" }
