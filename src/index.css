@@ -790,30 +790,40 @@ button {
 }
 
 .derive-popover-link:hover {
-  color: #93c5fd;
-  border-bottom-color: #93c5fd;
+  color: #ffffff;
+  border-bottom-color: #ffffff;
 }
 
 .home-nav-btn {
   display: flex;
   align-items: center;
-  gap: 0.4rem;
-  font-size: 0.82rem;
-  font-weight: 700;
-  color: #38bdf8;
-  background: rgba(56, 189, 248, 0.12);
-  border: 1px solid rgba(56, 189, 248, 0.3);
+  gap: 0.45rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #e2e8f0;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 8px;
-  padding: 0.4rem 0.8rem;
-  transition: all 0.2s ease;
+  padding: 0.38rem 0.75rem;
+  transition: all 0.15s ease;
   white-space: nowrap;
 }
 
 .home-nav-btn:hover,
 .home-nav-btn.is-active {
-  background: rgba(56, 189, 248, 0.25);
-  border-color: #38bdf8;
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.25);
   color: #ffffff;
+}
+
+.home-icon {
+  flex-shrink: 0;
+  opacity: 0.85;
+}
+
+.home-nav-btn:hover .home-icon,
+.home-nav-btn.is-active .home-icon {
+  opacity: 1;
 }
 
 /* —— Ultra-Minimalist Overview Dashboard Styles —— */
@@ -964,7 +974,7 @@ button {
 }
 
 .status-pill.is-live {
-  color: #38bdf8;
+  color: #e2e8f0;
 }
 
 .chapter-title-bn {
@@ -1002,12 +1012,12 @@ button {
 .open-link {
   font-size: 0.78rem;
   font-weight: 600;
-  color: #38bdf8;
+  color: #cbd5e1;
   transition: color 0.15s ease;
 }
 
 .chapter-card.is-ready:hover .open-link {
-  color: #7dd3fc;
+  color: #ffffff;
 }
 
 .symbol-table th,
