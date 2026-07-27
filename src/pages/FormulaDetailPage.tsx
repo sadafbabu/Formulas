@@ -3,17 +3,25 @@ import { Link, useParams } from 'react-router-dom'
 import { Katex } from '../components/Katex'
 import { NavMenu } from '../components/NavMenu'
 import { TagChip } from '../components/TagChip'
-import { getFormula } from '../data/catalog'
+import { defaultChapterId, getFormula } from '../data/catalog'
 
 export function FormulaDetailPage() {
   const { id } = useParams()
   const formula = id ? getFormula(id) : undefined
   const [query, setQuery] = useState('')
+  const [chapterId, setChapterId] = useState(
+    formula?.chapter ?? defaultChapterId,
+  )
 
   if (!formula) {
     return (
       <div className="book-shell detail-shell">
-        <NavMenu query={query} onQueryChange={setQuery} />
+        <NavMenu
+          query={query}
+          onQueryChange={setQuery}
+          chapterId={chapterId}
+          onChapterChange={setChapterId}
+        />
         <main className="detail-scroll">
           <article className="detail">
             <Link className="detail-back" to="/">
@@ -26,19 +34,24 @@ export function FormulaDetailPage() {
     )
   }
 
-  const { derivation } = formula
+  const { derivation, symbols } = formula
 
   return (
     <div className="book-shell detail-shell">
-      <NavMenu query={query} onQueryChange={setQuery} />
+      <NavMenu
+        query={query}
+        onQueryChange={setQuery}
+        chapterId={chapterId}
+        onChapterChange={setChapterId}
+      />
       <main className="detail-scroll">
         <article className="detail">
           <Link className="detail-back" to="/">
             ← বইয়ে ফিরে যান
           </Link>
 
-          <h1>{formula.title}</h1>
-          <p className="subtitle">{formula.titleBn}</p>
+          <h1>{formula.titleBn}</h1>
+          <p className="subtitle">{formula.title}</p>
 
           <div className="formula-meta">
             {formula.tags.map((tag) => (
@@ -51,6 +64,32 @@ export function FormulaDetailPage() {
           </div>
 
           <p className="detail-lead">{derivation.lead}</p>
+
+          {symbols?.length > 0 && (
+            <aside className="assumptions symbol-box">
+              <h4>চিহ্ন · একক · মান</h4>
+              <table className="symbol-table detail-symbol-table">
+                <thead>
+                  <tr>
+                    <th>চিহ্ন</th>
+                    <th>অর্থ</th>
+                    <th>একক</th>
+                    <th>মান</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {symbols.map((s) => (
+                    <tr key={`${s.symbol}-${s.meaning}`}>
+                      <td>{s.symbol}</td>
+                      <td>{s.meaning}</td>
+                      <td>{s.unit}</td>
+                      <td>{s.value ?? '—'}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </aside>
+          )}
 
           {derivation.steps.map((step, i) => (
             <section className="step" key={step.title}>

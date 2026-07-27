@@ -1,47 +1,78 @@
 import tagsJson from '../../content/tags.json'
 import physicsMeta from '../../content/subjects/physics/meta.json'
-import newtonsSecond from '../../content/subjects/physics/formulas/newtons-second.json'
-import kineticEnergy from '../../content/subjects/physics/formulas/kinetic-energy.json'
-import momentum from '../../content/subjects/physics/formulas/momentum.json'
-import impulse from '../../content/subjects/physics/formulas/impulse.json'
-import workEnergy from '../../content/subjects/physics/formulas/work-energy.json'
-import projectileRange from '../../content/subjects/physics/formulas/projectile-range.json'
-import friction from '../../content/subjects/physics/formulas/friction.json'
-import centripetal from '../../content/subjects/physics/formulas/centripetal.json'
-import type { BookPage, Formula, SubjectMeta, Tag, TagId } from './types'
+import magneticMeta from '../../content/subjects/physics/chapters/magnetic-current/meta.json'
+
+import biotSavart from '../../content/subjects/physics/chapters/magnetic-current/formulas/biot-savart.json'
+import wireField from '../../content/subjects/physics/chapters/magnetic-current/formulas/wire-field.json'
+import loopCenter from '../../content/subjects/physics/chapters/magnetic-current/formulas/loop-center.json'
+import loopAxis from '../../content/subjects/physics/chapters/magnetic-current/formulas/loop-axis.json'
+import solenoid from '../../content/subjects/physics/chapters/magnetic-current/formulas/solenoid.json'
+import toroid from '../../content/subjects/physics/chapters/magnetic-current/formulas/toroid.json'
+import forceOnWire from '../../content/subjects/physics/chapters/magnetic-current/formulas/force-on-wire.json'
+import parallelWires from '../../content/subjects/physics/chapters/magnetic-current/formulas/parallel-wires.json'
+import lorentz from '../../content/subjects/physics/chapters/magnetic-current/formulas/lorentz.json'
+import magneticMoment from '../../content/subjects/physics/chapters/magnetic-current/formulas/magnetic-moment.json'
+import torqueLoop from '../../content/subjects/physics/chapters/magnetic-current/formulas/torque-loop.json'
+import amperesLaw from '../../content/subjects/physics/chapters/magnetic-current/formulas/amperes-law.json'
+import cyclotronRadius from '../../content/subjects/physics/chapters/magnetic-current/formulas/cyclotron-radius.json'
+import cyclotronFreq from '../../content/subjects/physics/chapters/magnetic-current/formulas/cyclotron-freq.json'
+
+import type {
+  BookPage,
+  ChapterMeta,
+  Formula,
+  SubjectMeta,
+  Tag,
+  TagId,
+} from './types'
 
 export const tags = tagsJson as Tag[]
-
 export const subject: SubjectMeta = physicsMeta as SubjectMeta
 
-/** Sample chapter formulas — average density for a typical A5 page pair */
+export const chapters: ChapterMeta[] = [magneticMeta as ChapterMeta]
+
+/** Default / primary chapter for the book view */
+export const defaultChapterId = 'magnetic-current'
+
 export const formulas: Formula[] = [
-  newtonsSecond,
-  momentum,
-  impulse,
-  kineticEnergy,
-  workEnergy,
-  projectileRange,
-  friction,
-  centripetal,
+  biotSavart,
+  wireField,
+  loopCenter,
+  loopAxis,
+  solenoid,
+  toroid,
+  forceOnWire,
+  parallelWires,
+  lorentz,
+  magneticMoment,
+  torqueLoop,
+  amperesLaw,
+  cyclotronRadius,
+  cyclotronFreq,
 ] as Formula[]
 
 const tagMap = new Map(tags.map((t) => [t.id, t]))
+const chapterMap = new Map(chapters.map((c) => [c.id, c]))
 
 export function getTag(id: TagId): Tag | undefined {
   return tagMap.get(id)
+}
+
+export function getChapter(id: string): ChapterMeta | undefined {
+  return chapterMap.get(id)
 }
 
 export function getFormula(id: string): Formula | undefined {
   return formulas.find((f) => f.id === id)
 }
 
-/**
- * Pack formulas into A5 pages.
- * Average template: ~2–3 formulas per page (title + latex + summary + tags).
- */
-export function buildPages(items: Formula[] = formulas): BookPage[] {
-  const perPage = 4
+export function formulasForChapter(chapterId: string = defaultChapterId): Formula[] {
+  return formulas.filter((f) => f.chapter === chapterId)
+}
+
+/** Compact pack: more formulas per page */
+export function buildPages(items: Formula[]): BookPage[] {
+  const perPage = 5
   const pages: BookPage[] = []
   for (let i = 0; i < items.length; i += perPage) {
     pages.push({
@@ -52,4 +83,4 @@ export function buildPages(items: Formula[] = formulas): BookPage[] {
   return pages
 }
 
-export const samplePages = buildPages()
+export const samplePages = buildPages(formulasForChapter())

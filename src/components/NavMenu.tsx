@@ -1,19 +1,33 @@
 import { useEffect, useId, useRef, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import { formulas, subject, tags } from '../data/catalog'
+import {
+  chapters,
+  defaultChapterId,
+  formulasForChapter,
+  subject,
+  tags,
+} from '../data/catalog'
 import type { TagId } from '../data/types'
 
 interface NavMenuProps {
   query: string
   onQueryChange: (value: string) => void
+  chapterId: string
+  onChapterChange: (id: string) => void
 }
 
-export function NavMenu({ query, onQueryChange }: NavMenuProps) {
+export function NavMenu({
+  query,
+  onQueryChange,
+  chapterId,
+  onChapterChange,
+}: NavMenuProps) {
   const [open, setOpen] = useState(false)
   const [params, setParams] = useSearchParams()
   const activeTag = params.get('tag') as TagId | null
   const panelId = useId()
   const rootRef = useRef<HTMLDivElement>(null)
+  const list = formulasForChapter(chapterId || defaultChapterId)
 
   useEffect(() => {
     if (!open) return
@@ -51,6 +65,9 @@ export function NavMenu({ query, onQueryChange }: NavMenuProps) {
       {open && (
         <nav id={panelId} className="nav-panel" aria-label="Book navigation">
           <div className="nav-brand">Formulas</div>
+          <p className="nav-subject-line">
+            {subject.nameBn} · {subject.name}
+          </p>
 
           <label className="nav-search">
             <span aria-hidden="true">⌕</span>
@@ -62,15 +79,21 @@ export function NavMenu({ query, onQueryChange }: NavMenuProps) {
             />
           </label>
 
-          <p className="nav-section">Subjects</p>
-          <Link
-            className="nav-link is-active"
-            to="/"
-            onClick={() => setOpen(false)}
-          >
-            {subject.nameBn}
-            <span>{subject.name}</span>
-          </Link>
+          <p className="nav-section">অধ্যায়</p>
+          {chapters.map((ch) => (
+            <button
+              key={ch.id}
+              type="button"
+              className={`nav-link${chapterId === ch.id ? ' is-active' : ''}`}
+              onClick={() => {
+                onChapterChange(ch.id)
+                setOpen(false)
+              }}
+            >
+              {ch.nameBn}
+              <span>{ch.name}</span>
+            </button>
+          ))}
 
           <p className="nav-section">Tags</p>
           <div className="nav-tags">
@@ -99,14 +122,11 @@ export function NavMenu({ query, onQueryChange }: NavMenuProps) {
             ))}
           </div>
 
-          <p className="nav-section">Formulas ({formulas.length})</p>
+          <p className="nav-section">সূত্র ({list.length})</p>
           <ul className="nav-formula-list">
-            {formulas.map((f) => (
+            {list.map((f) => (
               <li key={f.id}>
-                <Link
-                  to={`/formula/${f.id}`}
-                  onClick={() => setOpen(false)}
-                >
+                <Link to={`/formula/${f.id}`} onClick={() => setOpen(false)}>
                   {f.titleBn}
                 </Link>
               </li>

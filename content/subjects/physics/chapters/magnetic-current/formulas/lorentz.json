@@ -1,0 +1,29 @@
+{
+  "id": "lorentz",
+  "title": "Lorentz Force",
+  "titleBn": "লোরেন্জ বল",
+  "latex": "F = qvB\\sin\\theta",
+  "summary": "চৌম্বক ক্ষেত্রে চলমান চার্জের বল।",
+  "tags": ["hsc", "eng-admission", "medical", "varsity"],
+  "chapter": "magnetic-current",
+  "subjects": ["physics"],
+  "related": ["force-on-wire", "cyclotron-radius"],
+  "symbols": [
+    { "symbol": "F", "meaning": "চৌম্বক বল", "unit": "N" },
+    { "symbol": "q", "meaning": "চার্জ", "unit": "C" },
+    { "symbol": "v", "meaning": "বেগ", "unit": "m/s" },
+    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
+    { "symbol": "θ", "meaning": "v ও B-এর কোণ", "unit": "—" }
+  ],
+  "derivation": {
+    "lead": "চৌম্বক বল বেগের লম্ব — কাজ করে না।",
+    "steps": [
+      {
+        "title": "ভেক্টর রূপ",
+        "latex": "\\vec{F} = q(\\vec{v}\\times\\vec{B})",
+        "note": "θ = 0° বা 180° হলে F = 0।"
+      }
+    ],
+    "assumptions": ["শুধু চৌম্বক ক্ষেত্র", "বিন্দু চার্জ"]
+  }
+}

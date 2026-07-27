@@ -1,26 +1,39 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { buildPages, formulas, subject } from '../data/catalog'
+import {
+  buildPages,
+  defaultChapterId,
+  formulasForChapter,
+  getChapter,
+} from '../data/catalog'
 import type { TagId } from '../data/types'
 import { A5Page } from './A5Page'
 
 interface SpreadViewerProps {
   activeTag?: TagId | null
   query?: string
+  chapterId?: string
 }
 
 function isInteractive(target: EventTarget | null): boolean {
   if (!(target instanceof Element)) return false
   return Boolean(
     target.closest(
-      'a, button, input, textarea, select, label, .derive-hint, .tag, .nav-root',
+      'a, button, input, textarea, select, label, .hint-wrap, .tag, .nav-root',
     ),
   )
 }
 
-export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
+export function SpreadViewer({
+  activeTag,
+  query = '',
+  chapterId = defaultChapterId,
+}: SpreadViewerProps) {
+  const chapter = getChapter(chapterId) ?? getChapter(defaultChapterId)!
+
   const pages = useMemo(() => {
     const q = query.trim().toLowerCase()
-    const filtered = formulas.filter((f) => {
+    const source = formulasForChapter(chapterId)
+    const filtered = source.filter((f) => {
       const tagOk = !activeTag || f.tags.includes(activeTag)
       if (!tagOk) return false
       if (!q) return true
@@ -31,8 +44,8 @@ export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
         f.latex.toLowerCase().includes(q)
       )
     })
-    return buildPages(filtered.length ? filtered : formulas)
-  }, [activeTag, query])
+    return buildPages(filtered.length ? filtered : source)
+  }, [activeTag, query, chapterId])
 
   const [spreadIndex, setSpreadIndex] = useState(0)
   const [mobileIndex, setMobileIndex] = useState(0)
@@ -45,7 +58,7 @@ export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
     setMobileIndex(0)
     setDir('none')
     setAnimKey((k) => k + 1)
-  }, [activeTag, query])
+  }, [activeTag, query, chapterId])
 
   const maxSpread = Math.max(0, Math.ceil(pages.length / 2) - 1)
   const safeSpread = Math.min(spreadIndex, maxSpread)
@@ -69,7 +82,7 @@ export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
     if (canMob) setMobileIndex((i) => i - 1)
     window.setTimeout(() => {
       animLock.current = false
-    }, 400)
+    }, 380)
   }
 
   const goNext = () => {
@@ -84,7 +97,7 @@ export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
     if (canMob) setMobileIndex((i) => i + 1)
     window.setTimeout(() => {
       animLock.current = false
-    }, 400)
+    }, 380)
   }
 
   useEffect(() => {
@@ -142,10 +155,9 @@ export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
             >
               <A5Page
                 page={left}
-                subject={subject}
+                chapter={chapter}
                 side={singleWide ? 'single' : 'left'}
                 activeTag={activeTag}
-                dense={!singleWide}
               />
             </div>
           )}
@@ -156,10 +168,9 @@ export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
             >
               <A5Page
                 page={right}
-                subject={subject}
+                chapter={chapter}
                 side="right"
                 activeTag={activeTag}
-                dense
               />
             </div>
           )}
@@ -188,10 +199,9 @@ export function SpreadViewer({ activeTag, query = '' }: SpreadViewerProps) {
           >
             <A5Page
               page={mobilePage}
-              subject={subject}
+              chapter={chapter}
               side="single"
               activeTag={activeTag}
-              dense
             />
           </div>
         )}

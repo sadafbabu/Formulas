@@ -1,0 +1,28 @@
+{
+  "id": "loop-center",
+  "title": "Loop Centre Field",
+  "titleBn": "বৃত্তাকার কুণ্ডলীর কেন্দ্র",
+  "latex": "B = \\dfrac{\\mu_{0} I}{2R}",
+  "summary": "এক পাক বৃত্তাকার কুণ্ডলীর কেন্দ্রে B।",
+  "tags": ["hsc", "eng-admission", "medical"],
+  "chapter": "magnetic-current",
+  "subjects": ["physics"],
+  "related": ["loop-axis", "biot-savart"],
+  "symbols": [
+    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
+    { "symbol": "I", "meaning": "তড়িত প্রবাহ", "unit": "A" },
+    { "symbol": "R", "meaning": "কুণ্ডলীর ব্যাসার্ধ", "unit": "m" },
+    { "symbol": "μ₀", "meaning": "শূন্যের প্রবেশ্যতা", "unit": "T·m/A", "value": "4π×10⁻⁷" }
+  ],
+  "derivation": {
+    "lead": "প্রতি dl-এর dB কেন্দ্রে একই দিকে — সরল যোগ।",
+    "steps": [
+      {
+        "title": "N পাক হলে",
+        "latex": "B = \\dfrac{\\mu_{0} NI}{2R}",
+        "note": "পাক সংখ্যা N গুণ।"
+      }
+    ],
+    "assumptions": ["সমতল বৃত্তাকার কুণ্ডলী"]
+  }
+}

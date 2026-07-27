@@ -1,0 +1,28 @@
+{
+  "id": "solenoid",
+  "title": "Solenoid Field",
+  "titleBn": "সলিনয়েডের ক্ষেত্র",
+  "latex": "B = \\mu_{0} n I",
+  "summary": "দীর্ঘ সলিনয়েডের ভিতরে অক্ষীয় B।",
+  "tags": ["hsc", "eng-admission", "medical"],
+  "chapter": "magnetic-current",
+  "subjects": ["physics"],
+  "related": ["toroid", "amperes-law"],
+  "symbols": [
+    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
+    { "symbol": "n", "meaning": "প্রতি একক দৈর্ঘ্যে পাক", "unit": "m⁻¹" },
+    { "symbol": "I", "meaning": "তড়িত প্রবাহ", "unit": "A" },
+    { "symbol": "μ₀", "meaning": "শূন্যের প্রবেশ্যতা", "unit": "T·m/A", "value": "4π×10⁻⁷" }
+  ],
+  "derivation": {
+    "lead": "অ্যাম্পিয়ারের সূত্র থেকে দীর্ঘ সলিনয়েড।",
+    "steps": [
+      {
+        "title": "N পাক, দৈর্ঘ্য ℓ",
+        "latex": "n = N/\\ell \\Rightarrow B = \\mu_{0}\\dfrac{NI}{\\ell}",
+        "note": "বাইরে B ≈ 0।"
+      }
+    ],
+    "assumptions": ["দীর্ঘ আদর্শ সলিনয়েড", "অভ্যন্তরীণ বিন্দু"]
+  }
+}

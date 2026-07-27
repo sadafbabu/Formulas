@@ -1,0 +1,28 @@
+{
+  "id": "magnetic-moment",
+  "title": "Magnetic Moment",
+  "titleBn": "চৌম্বক ভ্রামক",
+  "latex": "M = NIA",
+  "summary": "প্রবাহকুণ্ডলীর চৌম্বক ভ্রামক।",
+  "tags": ["hsc", "eng-admission", "medical"],
+  "chapter": "magnetic-current",
+  "subjects": ["physics"],
+  "related": ["torque-loop", "loop-center"],
+  "symbols": [
+    { "symbol": "M", "meaning": "চৌম্বক ভ্রামক", "unit": "A·m²" },
+    { "symbol": "N", "meaning": "পাক সংখ্যা", "unit": "—" },
+    { "symbol": "I", "meaning": "তড়িত প্রবাহ", "unit": "A" },
+    { "symbol": "A", "meaning": "কুণ্ডলীর ক্ষেত্রফল", "unit": "m²" }
+  ],
+  "derivation": {
+    "lead": "এক পাকে M = IA; N পাকে N গুণ।",
+    "steps": [
+      {
+        "title": "দিক",
+        "latex": "\\vec{M}\\perp \\text{কুণ্ডলীর তল}",
+        "note": "ডানহস্ত নিয়মে।"
+      }
+    ],
+    "assumptions": ["সমতল কুণ্ডলী"]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "force-on-wire",
+  "title": "Force on Wire",
+  "titleBn": "তারে চৌম্বক বল",
+  "latex": "F = I\\ell B\\sin\\theta",
+  "summary": "প্রবাহবাহী তারের উপর চৌম্বক বল।",
+  "tags": ["hsc", "eng-admission", "medical"],
+  "chapter": "magnetic-current",
+  "subjects": ["physics"],
+  "related": ["lorentz", "parallel-wires"],
+  "symbols": [
+    { "symbol": "F", "meaning": "চৌম্বক বল", "unit": "N" },
+    { "symbol": "I", "meaning": "তড়িত প্রবাহ", "unit": "A" },
+    { "symbol": "ℓ", "meaning": "তারের দৈর্ঘ্য", "unit": "m" },
+    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
+    { "symbol": "θ", "meaning": "I ও B-এর কোণ", "unit": "—" }
+  ],
+  "derivation": {
+    "lead": "চলক চার্জের লোরেন্জ বলের সমষ্টি।",
+    "steps": [
+      {
+        "title": "ভেক্টর রূপ",
+        "latex": "\\vec{F} = I\\,\\vec{\\ell}\\times\\vec{B}",
+        "note": "দিক ডানহস্ত নিয়মে।"
+      }
+    ],
+    "assumptions": ["সমসত্ত্ব B", "সরল তার"]
+  }
+}

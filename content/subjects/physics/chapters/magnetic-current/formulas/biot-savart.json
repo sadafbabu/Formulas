@@ -1,0 +1,30 @@
+{
+  "id": "biot-savart",
+  "title": "Biot–Savart",
+  "titleBn": "বায়ো–সাভার্ট",
+  "latex": "dB = \\dfrac{\\mu_{0}}{4\\pi}\\dfrac{I\\,dl\\sin\\theta}{r^{2}}",
+  "summary": "ক্ষুদ্র প্রবাহখণ্ডের জন্য চৌম্বক ক্ষেত্র।",
+  "tags": ["hsc", "eng-admission", "varsity"],
+  "chapter": "magnetic-current",
+  "subjects": ["physics"],
+  "related": ["wire-field", "loop-center"],
+  "symbols": [
+    { "symbol": "dB", "meaning": "ক্ষুদ্র চৌম্বক ক্ষেত্র", "unit": "T" },
+    { "symbol": "I", "meaning": "তড়িত প্রবাহ", "unit": "A" },
+    { "symbol": "dl", "meaning": "প্রবাহখণ্ডের দৈর্ঘ্য", "unit": "m" },
+    { "symbol": "θ", "meaning": "dl ও r-এর কোণ", "unit": "—" },
+    { "symbol": "r", "meaning": "দূরত্ব", "unit": "m" },
+    { "symbol": "μ₀", "meaning": "শূন্যের প্রবেশ্যতা", "unit": "T·m/A", "value": "4π×10⁻⁷" }
+  ],
+  "derivation": {
+    "lead": "পরীক্ষালব্ধ সূত্র — প্রবাহের চৌম্বক ক্ষেত্রের মৌলিক রূপ।",
+    "steps": [
+      {
+        "title": "মৌলিক রূপ",
+        "latex": "dB \\propto \\dfrac{I\\,dl\\sin\\theta}{r^{2}}",
+        "note": "সমানুপাতিকতা μ₀/4π ধ্রুবকে পূর্ণ।"
+      }
+    ],
+    "assumptions": ["স্থির প্রবাহ", "বিন্দু পর্যবেক্ষণ"]
+  }
+}

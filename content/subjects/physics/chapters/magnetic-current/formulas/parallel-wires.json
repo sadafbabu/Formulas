@@ -1,0 +1,28 @@
+{
+  "id": "parallel-wires",
+  "title": "Parallel Wires Force",
+  "titleBn": "সমান্তরাল তারের বল",
+  "latex": "\\dfrac{F}{\\ell} = \\dfrac{\\mu_{0} I_{1} I_{2}}{2\\pi d}",
+  "summary": "দুই সমান্তরাল তারের একক দৈর্ঘ্যে বল।",
+  "tags": ["hsc", "eng-admission", "varsity"],
+  "chapter": "magnetic-current",
+  "subjects": ["physics"],
+  "related": ["wire-field", "force-on-wire"],
+  "symbols": [
+    { "symbol": "F/ℓ", "meaning": "একক দৈর্ঘ্যে বল", "unit": "N/m" },
+    { "symbol": "I₁, I₂", "meaning": "দুই তারে প্রবাহ", "unit": "A" },
+    { "symbol": "d", "meaning": "তারদ্বয়ের দূরত্ব", "unit": "m" },
+    { "symbol": "μ₀", "meaning": "শূন্যের প্রবেশ্যতা", "unit": "T·m/A", "value": "4π×10⁻⁷" }
+  ],
+  "derivation": {
+    "lead": "এক তারের B অন্য তারে F = IlB দেয়।",
+    "steps": [
+      {
+        "title": "আকর্ষণ/বিকর্ষণ",
+        "latex": "I\\parallel \\Rightarrow \\text{আকর্ষণ};\\; I\\text{ বিপরীত}\\Rightarrow \\text{বিকর্ষণ}",
+        "note": "অ্যাম্পিয়ারের সংজ্ঞায় ব্যবহৃত।"
+      }
+    ],
+    "assumptions": ["দীর্ঘ সমান্তরাল তার"]
+  }
+}

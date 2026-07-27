@@ -1,0 +1,28 @@
+{
+  "id": "wire-field",
+  "title": "Long Straight Wire",
+  "titleBn": "দীর্ঘ সরল তার",
+  "latex": "B = \\dfrac{\\mu_{0} I}{2\\pi d}",
+  "summary": "অসীম সরল তারের পাশে B।",
+  "tags": ["hsc", "eng-admission", "medical"],
+  "chapter": "magnetic-current",
+  "subjects": ["physics"],
+  "related": ["biot-savart", "parallel-wires"],
+  "symbols": [
+    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
+    { "symbol": "I", "meaning": "তড়িত প্রবাহ", "unit": "A" },
+    { "symbol": "d", "meaning": "তার থেকে দূরত্ব", "unit": "m" },
+    { "symbol": "μ₀", "meaning": "শূন্যের প্রবেশ্যতা", "unit": "T·m/A", "value": "4π×10⁻⁷" }
+  ],
+  "derivation": {
+    "lead": "বায়ো–সাভার্ট থেকে অসীম তারের জন্য ইন্টিগ্রেশন।",
+    "steps": [
+      {
+        "title": "ফলাফল",
+        "latex": "B = \\dfrac{\\mu_{0} I}{2\\pi d}",
+        "note": "দিক ডানহস্ত নিয়মে।"
+      }
+    ],
+    "assumptions": ["অসীম সরল তার", "শূন্য মাধ্যম"]
+  }
+}

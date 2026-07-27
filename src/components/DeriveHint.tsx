@@ -14,7 +14,7 @@ export function DeriveHint({ formula }: DeriveHintProps) {
 
   return (
     <div
-      className="derive-hint"
+      className="hint-wrap derive-hint"
       onMouseEnter={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
       onFocus={() => setOpen(true)}
@@ -22,11 +22,12 @@ export function DeriveHint({ formula }: DeriveHintProps) {
     >
       <button
         type="button"
-        className="derive-btn"
+        className="hint-btn"
         aria-label={`${formula.titleBn} — কীভাবে এলো`}
         aria-describedby={open ? tipId : undefined}
+        title="কেভাবে এলো"
       >
-        <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">
+        <svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true">
           <path
             fill="currentColor"
             d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM7.25 5a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0zM7 7.25h1.5V12H7V7.25z"
@@ -35,7 +36,8 @@ export function DeriveHint({ formula }: DeriveHintProps) {
       </button>
 
       {open && (
-        <div id={tipId} className="derive-popover" role="tooltip">
+        <div id={tipId} className="hint-popover derive-popover" role="tooltip">
+          <p className="hint-popover-title">কেভাবে এলো</p>
           <p className="derive-popover-lead">{formula.derivation.lead}</p>
           {first && (
             <div className="derive-popover-step">

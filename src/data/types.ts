@@ -24,6 +24,14 @@ export interface Derivation {
   assumptions: string[]
 }
 
+/** Symbol legend: meaning, unit, optional constant/value */
+export interface SymbolInfo {
+  symbol: string
+  meaning: string
+  unit: string
+  value?: string
+}
+
 export interface Formula {
   id: string
   title: string
@@ -31,9 +39,19 @@ export interface Formula {
   latex: string
   summary: string
   tags: TagId[]
+  chapter: string
   subjects: string[]
   related: string[]
+  symbols: SymbolInfo[]
   derivation: Derivation
+}
+
+export interface ChapterMeta {
+  id: string
+  slug: string
+  name: string
+  nameBn: string
+  order: number
 }
 
 export interface SubjectMeta {
@@ -42,7 +60,6 @@ export interface SubjectMeta {
   name: string
   nameBn: string
   order: number
-  chapter: string
 }
 
 export interface BookPage {

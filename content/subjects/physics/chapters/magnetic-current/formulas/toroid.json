@@ -1,0 +1,29 @@
+{
+  "id": "toroid",
+  "title": "Toroid Field",
+  "titleBn": "টরয়েডের ক্ষেত্র",
+  "latex": "B = \\dfrac{\\mu_{0} N I}{2\\pi r}",
+  "summary": "টরয়েডের ভিতরে গড় ব্যাসার্ধে B।",
+  "tags": ["hsc", "eng-admission", "varsity"],
+  "chapter": "magnetic-current",
+  "subjects": ["physics"],
+  "related": ["solenoid", "amperes-law"],
+  "symbols": [
+    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
+    { "symbol": "N", "meaning": "মোট পাক সংখ্যা", "unit": "—" },
+    { "symbol": "I", "meaning": "তড়িত প্রবাহ", "unit": "A" },
+    { "symbol": "r", "meaning": "কেন্দ্র থেকে দূরত্ব", "unit": "m" },
+    { "symbol": "μ₀", "meaning": "শূন্যের প্রবেশ্যতা", "unit": "T·m/A", "value": "4π×10⁻⁷" }
+  ],
+  "derivation": {
+    "lead": "অ্যাম্পিয়ারের সূত্র — বৃত্তাকার পথ।",
+    "steps": [
+      {
+        "title": "ফলাফল",
+        "latex": "B\\cdot 2\\pi r = \\mu_{0} NI",
+        "note": "বাইরে ও ফাঁপা অংশে B ≈ 0।"
+      }
+    ],
+    "assumptions": ["ঘন পাক টরয়েড"]
+  }
+}

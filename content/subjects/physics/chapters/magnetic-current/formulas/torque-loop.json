@@ -1,0 +1,28 @@
+{
+  "id": "torque-loop",
+  "title": "Torque on Loop",
+  "titleBn": "কুণ্ডলীতে টর্ক",
+  "latex": "\\tau = MB\\sin\\theta",
+  "summary": "সমসত্ত্ব B-তে কুণ্ডলীর টর্ক।",
+  "tags": ["hsc", "eng-admission", "varsity"],
+  "chapter": "magnetic-current",
+  "subjects": ["physics"],
+  "related": ["magnetic-moment"],
+  "symbols": [
+    { "symbol": "τ", "meaning": "টর্ক", "unit": "N·m" },
+    { "symbol": "M", "meaning": "চৌম্বক ভ্রামক", "unit": "A·m²" },
+    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
+    { "symbol": "θ", "meaning": "M ও B-এর কোণ", "unit": "—" }
+  ],
+  "derivation": {
+    "lead": "দুই বিপরীত বাহুর বলজোড় থেকে টর্ক।",
+    "steps": [
+      {
+        "title": "ভেক্টর রূপ",
+        "latex": "\\vec{\\tau} = \\vec{M}\\times\\vec{B}",
+        "note": "θ = 90°-এ সর্বোচ্চ টর্ক।"
+      }
+    ],
+    "assumptions": ["সমসত্ত্ব B"]
+  }
+}

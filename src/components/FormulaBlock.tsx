@@ -1,6 +1,7 @@
 import type { Formula, TagId } from '../data/types'
 import { DeriveHint } from './DeriveHint'
 import { Katex } from './Katex'
+import { SymbolHint } from './SymbolHint'
 import { TagChip } from './TagChip'
 
 interface FormulaBlockProps {
@@ -19,28 +20,31 @@ export function FormulaBlock({
   return (
     <article
       className={`formula${hero ? ' is-hero' : ''}`}
-      style={{ animationDelay: `${50 + index * 50}ms` }}
+      style={{ animationDelay: `${40 + index * 40}ms` }}
     >
-      <header className="formula-head">
-        <h2 className="formula-title">
-          <span className="formula-title-en">{formula.title}</span>
-          <span className="formula-title-bn">{formula.titleBn}</span>
-        </h2>
-        <DeriveHint formula={formula} />
-      </header>
-
-      <div className="formula-latex">
-        <Katex latex={formula.latex} display />
-      </div>
-
-      <footer className="formula-foot">
-        <p className="formula-summary">{formula.summary}</p>
-        <div className="formula-meta">
-          {formula.tags.map((tag) => (
-            <TagChip key={tag} id={tag} active={activeTag === tag} />
-          ))}
+      <div className="formula-main">
+        <div className="formula-latex">
+          <Katex latex={formula.latex} display />
         </div>
-      </footer>
+        <div className="formula-text">
+          <header className="formula-head">
+            <h2 className="formula-title">
+              <span className="formula-title-bn">{formula.titleBn}</span>
+              <span className="formula-title-en">{formula.title}</span>
+            </h2>
+            <div className="formula-actions">
+              <SymbolHint formula={formula} />
+              <DeriveHint formula={formula} />
+            </div>
+          </header>
+          <p className="formula-summary">{formula.summary}</p>
+          <div className="formula-meta">
+            {formula.tags.map((tag) => (
+              <TagChip key={tag} id={tag} active={activeTag === tag} />
+            ))}
+          </div>
+        </div>
+      </div>
     </article>
   )
 }
