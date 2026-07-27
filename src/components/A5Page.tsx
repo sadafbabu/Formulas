@@ -6,7 +6,6 @@ interface A5PageProps {
   chapter: ChapterMeta
   side?: 'left' | 'right' | 'single'
   activeTag?: TagId | null
-  dense?: boolean
 }
 
 export function A5Page({
@@ -33,14 +32,13 @@ export function A5Page({
         </span>
       </header>
 
-      <div className={`page-body count-${page.formulas.length}`}>
+      <div className="page-body">
         {page.formulas.map((formula, i) => (
           <FormulaBlock
             key={formula.id}
             formula={formula}
             activeTag={activeTag}
             index={i}
-            hero={page.formulas.length === 1}
           />
         ))}
       </div>

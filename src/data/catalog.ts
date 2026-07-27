@@ -70,9 +70,9 @@ export function formulasForChapter(chapterId: string = defaultChapterId): Formul
   return formulas.filter((f) => f.chapter === chapterId)
 }
 
-/** Compact pack: more formulas per page */
+/** Compact pack: denser pages, top-aligned (no stretch) */
 export function buildPages(items: Formula[]): BookPage[] {
-  const perPage = 5
+  const perPage = 6
   const pages: BookPage[] = []
   for (let i = 0; i < items.length; i += perPage) {
     pages.push({

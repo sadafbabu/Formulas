@@ -4,7 +4,7 @@ import { SampleBookPage } from './pages/SampleBookPage'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Formulas">
       <Routes>
         <Route path="/" element={<SampleBookPage />} />
         <Route path="/formula/:id" element={<FormulaDetailPage />} />

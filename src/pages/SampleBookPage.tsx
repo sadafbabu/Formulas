@@ -6,10 +6,16 @@ import { defaultChapterId } from '../data/catalog'
 import type { TagId } from '../data/types'
 
 export function SampleBookPage() {
-  const [params] = useSearchParams()
+  const [params, setParams] = useSearchParams()
   const activeTag = (params.get('tag') as TagId | null) ?? null
+  const chapterId = params.get('chapter') || defaultChapterId
   const [query, setQuery] = useState('')
-  const [chapterId, setChapterId] = useState(defaultChapterId)
+
+  const setChapterId = (id: string) => {
+    const next = new URLSearchParams(params)
+    next.set('chapter', id)
+    setParams(next, { replace: true })
+  }
 
   return (
     <div className="book-shell">

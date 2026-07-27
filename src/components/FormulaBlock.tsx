@@ -8,19 +8,17 @@ interface FormulaBlockProps {
   formula: Formula
   activeTag?: TagId | null
   index?: number
-  hero?: boolean
 }
 
 export function FormulaBlock({
   formula,
   activeTag,
   index = 0,
-  hero = false,
 }: FormulaBlockProps) {
   return (
     <article
-      className={`formula${hero ? ' is-hero' : ''}`}
-      style={{ animationDelay: `${40 + index * 40}ms` }}
+      className="formula"
+      style={{ animationDelay: `${30 + index * 30}ms` }}
     >
       <div className="formula-main">
         <div className="formula-latex">

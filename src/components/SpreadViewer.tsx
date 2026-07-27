@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import {
   buildPages,
   defaultChapterId,
@@ -18,7 +18,7 @@ function isInteractive(target: EventTarget | null): boolean {
   if (!(target instanceof Element)) return false
   return Boolean(
     target.closest(
-      'a, button, input, textarea, select, label, .hint-wrap, .tag, .nav-root',
+      'a, button, input, textarea, select, label, .hint-wrap, .hint-popover, .tag, .nav-root',
     ),
   )
 }
@@ -30,7 +30,7 @@ export function SpreadViewer({
 }: SpreadViewerProps) {
   const chapter = getChapter(chapterId) ?? getChapter(defaultChapterId)!
 
-  const pages = useMemo(() => {
+  const { pages, emptyFilter } = useMemo(() => {
     const q = query.trim().toLowerCase()
     const source = formulasForChapter(chapterId)
     const filtered = source.filter((f) => {
@@ -44,61 +44,76 @@ export function SpreadViewer({
         f.latex.toLowerCase().includes(q)
       )
     })
-    return buildPages(filtered.length ? filtered : source)
+    const hasFilter = Boolean(activeTag || q)
+    if (!filtered.length && hasFilter) {
+      return { pages: [], emptyFilter: true }
+    }
+    return {
+      pages: buildPages(filtered.length ? filtered : source),
+      emptyFilter: false,
+    }
   }, [activeTag, query, chapterId])
 
-  const [spreadIndex, setSpreadIndex] = useState(0)
-  const [mobileIndex, setMobileIndex] = useState(0)
+  // Unified logical page index (works for both desktop spreads & mobile)
+  const [pageIndex, setPageIndex] = useState(0)
   const [dir, setDir] = useState<'next' | 'prev' | 'none'>('none')
   const [animKey, setAnimKey] = useState(0)
   const animLock = useRef(false)
 
   useEffect(() => {
-    setSpreadIndex(0)
-    setMobileIndex(0)
+    setPageIndex(0)
     setDir('none')
     setAnimKey((k) => k + 1)
   }, [activeTag, query, chapterId])
 
+  const maxPage = Math.max(0, pages.length - 1)
+  const safePage = Math.min(pageIndex, maxPage)
   const maxSpread = Math.max(0, Math.ceil(pages.length / 2) - 1)
-  const safeSpread = Math.min(spreadIndex, maxSpread)
+  const safeSpread = Math.min(Math.floor(safePage / 2), maxSpread)
   const left = pages[safeSpread * 2]
   const right = pages[safeSpread * 2 + 1]
   const singleWide = Boolean(left && !right)
+  const mobilePage = pages[safePage]
+  const progress =
+    pages.length <= 1 ? 1 : (safeSpread + 1) / (maxSpread + 1)
 
-  const safeMobile = Math.min(mobileIndex, pages.length - 1)
-  const mobilePage = pages[safeMobile]
-  const progress = maxSpread === 0 ? 1 : (safeSpread + 1) / (maxSpread + 1)
-
-  const goPrev = () => {
+  const goPrev = useCallback(() => {
     if (animLock.current) return
-    const canDesk = spreadIndex > 0
-    const canMob = mobileIndex > 0
-    if (!canDesk && !canMob) return
-    animLock.current = true
-    setDir('prev')
-    setAnimKey((k) => k + 1)
-    if (canDesk) setSpreadIndex((i) => i - 1)
-    if (canMob) setMobileIndex((i) => i - 1)
-    window.setTimeout(() => {
-      animLock.current = false
-    }, 380)
-  }
+    setPageIndex((i) => {
+      if (i <= 0) return i
+      // desktop: jump by 2 (spread), mobile CSS hides spread — still OK to step 1
+      const step = window.matchMedia('(max-width: 820px)').matches ? 1 : 2
+      const next = Math.max(0, i - step)
+      if (next === i) return i
+      animLock.current = true
+      setDir('prev')
+      setAnimKey((k) => k + 1)
+      window.setTimeout(() => {
+        animLock.current = false
+      }, 360)
+      return next
+    })
+  }, [])
 
-  const goNext = () => {
+  const goNext = useCallback(() => {
     if (animLock.current) return
-    const canDesk = spreadIndex < maxSpread
-    const canMob = mobileIndex < pages.length - 1
-    if (!canDesk && !canMob) return
-    animLock.current = true
-    setDir('next')
-    setAnimKey((k) => k + 1)
-    if (canDesk) setSpreadIndex((i) => i + 1)
-    if (canMob) setMobileIndex((i) => i + 1)
-    window.setTimeout(() => {
-      animLock.current = false
-    }, 380)
-  }
+    setPageIndex((i) => {
+      const step = window.matchMedia('(max-width: 820px)').matches ? 1 : 2
+      const next = Math.min(maxPage, i + step)
+      // snap to even index on desktop for clean spreads
+      const desktop = !window.matchMedia('(max-width: 820px)').matches
+      const snapped = desktop ? next - (next % 2) : next
+      const target = Math.min(maxPage, snapped)
+      if (target === i) return i
+      animLock.current = true
+      setDir('next')
+      setAnimKey((k) => k + 1)
+      window.setTimeout(() => {
+        animLock.current = false
+      }, 360)
+      return target
+    })
+  }, [maxPage])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -113,30 +128,27 @@ export function SpreadViewer({
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  })
+  }, [goPrev, goNext])
 
-  const onPageClick = (
-    side: 'left' | 'right' | 'single',
-    e: {
-      target: EventTarget | null
-      currentTarget: EventTarget
-      clientX: number
-    },
-  ) => {
+  const onEdgeClick = (side: 'left' | 'right', e: { target: EventTarget | null }) => {
     if (isInteractive(e.target)) return
     if (side === 'left') goPrev()
-    else if (side === 'right') goNext()
-    else {
-      const el = e.currentTarget as HTMLElement
-      const rect = el.getBoundingClientRect()
-      const x = e.clientX - rect.left
-      if (x < rect.width / 2) goPrev()
-      else goNext()
-    }
+    else goNext()
   }
 
   const slideClass =
     dir === 'prev' ? 'is-from-left' : dir === 'next' ? 'is-from-right' : 'is-enter'
+
+  if (emptyFilter) {
+    return (
+      <div className="spread-stage">
+        <div className="empty-filter">
+          <p>কোনো সূত্র মেলেনি</p>
+          <span>আর একটা tag/search try করো</span>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div className="spread-stage">
@@ -145,14 +157,25 @@ export function SpreadViewer({
         className={`slide-deck ${slideClass}${singleWide ? ' is-single-wide' : ''}`}
         aria-label="Presentation slide"
       >
+        {/* Edge hit zones — avoids accidental flips on content */}
+        <button
+          type="button"
+          className="edge-zone is-left"
+          aria-label="Previous page"
+          disabled={safeSpread <= 0}
+          onClick={(e) => onEdgeClick('left', e)}
+        />
+        <button
+          type="button"
+          className="edge-zone is-right"
+          aria-label="Next page"
+          disabled={safeSpread >= maxSpread}
+          onClick={(e) => onEdgeClick('right', e)}
+        />
+
         <div className="spread">
           {left && (
-            <div
-              className={`page-hit is-left${singleWide ? ' is-wide' : ''}${safeSpread <= 0 ? ' is-edge' : ''}`}
-              onClick={(e) =>
-                onPageClick(singleWide ? 'single' : 'left', e)
-              }
-            >
+            <div className={`page-hit is-left${singleWide ? ' is-wide' : ''}`}>
               <A5Page
                 page={left}
                 chapter={chapter}
@@ -162,10 +185,7 @@ export function SpreadViewer({
             </div>
           )}
           {right && (
-            <div
-              className={`page-hit is-right${safeSpread >= maxSpread ? ' is-edge' : ''}`}
-              onClick={(e) => onPageClick('right', e)}
-            >
+            <div className="page-hit is-right">
               <A5Page
                 page={right}
                 chapter={chapter}
@@ -192,11 +212,22 @@ export function SpreadViewer({
       </div>
 
       <div key={`mob-${animKey}`} className={`mobile-pager ${slideClass}`}>
+        <button
+          type="button"
+          className="edge-zone is-left"
+          aria-label="Previous page"
+          disabled={safePage <= 0}
+          onClick={(e) => onEdgeClick('left', e)}
+        />
+        <button
+          type="button"
+          className="edge-zone is-right"
+          aria-label="Next page"
+          disabled={safePage >= maxPage}
+          onClick={(e) => onEdgeClick('right', e)}
+        />
         {mobilePage && (
-          <div
-            className="page-hit is-single"
-            onClick={(e) => onPageClick('single', e)}
-          >
+          <div className="page-hit is-single">
             <A5Page
               page={mobilePage}
               chapter={chapter}
@@ -210,12 +241,12 @@ export function SpreadViewer({
             <div
               className="progress-fill"
               style={{
-                width: `${((safeMobile + 1) / pages.length) * 100}%`,
+                width: `${((safePage + 1) / pages.length) * 100}%`,
               }}
             />
           </div>
           <div className="page-indicator" aria-live="polite">
-            <span>{safeMobile + 1}</span>
+            <span>{safePage + 1}</span>
             <span className="page-indicator-sep">/</span>
             <span>{pages.length}</span>
           </div>

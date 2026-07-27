@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { Katex } from '../components/Katex'
 import { NavMenu } from '../components/NavMenu'
 import { TagChip } from '../components/TagChip'
@@ -9,9 +9,17 @@ export function FormulaDetailPage() {
   const { id } = useParams()
   const formula = id ? getFormula(id) : undefined
   const [query, setQuery] = useState('')
-  const [chapterId, setChapterId] = useState(
-    formula?.chapter ?? defaultChapterId,
-  )
+  const [params, setParams] = useSearchParams()
+  const chapterId =
+    params.get('chapter') || formula?.chapter || defaultChapterId
+
+  const setChapterId = (nextId: string) => {
+    const next = new URLSearchParams(params)
+    next.set('chapter', nextId)
+    setParams(next, { replace: true })
+  }
+
+  const backTo = `/?chapter=${encodeURIComponent(chapterId)}`
 
   if (!formula) {
     return (
@@ -24,7 +32,7 @@ export function FormulaDetailPage() {
         />
         <main className="detail-scroll">
           <article className="detail">
-            <Link className="detail-back" to="/">
+            <Link className="detail-back" to={backTo}>
               ← বইয়ে ফিরে যান
             </Link>
             <h1>সূত্র পাওয়া যায়নি</h1>
@@ -46,7 +54,7 @@ export function FormulaDetailPage() {
       />
       <main className="detail-scroll">
         <article className="detail">
-          <Link className="detail-back" to="/">
+          <Link className="detail-back" to={backTo}>
             ← বইয়ে ফিরে যান
           </Link>
 
