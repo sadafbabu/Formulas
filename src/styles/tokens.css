@@ -4,26 +4,26 @@
   --bg-elevated: #1c1c1c;
   --bg-panel: #242424;
   --page-bg: #161616;
-  --page-edge: rgba(255, 255, 255, 0.1);
-  --ink: #d6d6d6;
-  --ink-bright: #f4f4f4;
-  --ink-soft: #9b9b9b;
-  --ink-faint: #5a5a5a;
+  --page-edge: rgba(255, 255, 255, 0.12);
+  --ink: #e2e8f0;
+  --ink-bright: #ffffff;
+  --ink-soft: #cbd5e1;
+  --ink-faint: #78716c;
   --accent: #ececec;
-  --accent-dim: rgba(255, 255, 255, 0.06);
+  --accent-dim: rgba(255, 255, 255, 0.08);
   --focus: #5b9cff;
-  --line: rgba(255, 255, 255, 0.08);
-  --line-strong: rgba(255, 255, 255, 0.14);
+  --line: rgba(255, 255, 255, 0.1);
+  --line-strong: rgba(255, 255, 255, 0.18);
 
   --font-display: 'Outfit', system-ui, sans-serif;
   --font-ui: 'Outfit', system-ui, sans-serif;
   --font-body: 'Outfit', system-ui, sans-serif;
 
-  --page-pad: 0.4rem 0.55rem 0.3rem;
-  --radius-sm: 6px;
+  --page-pad: 0.75rem 1rem 0.6rem;
+  --radius-sm: 8px;
   --radius-slide: 0;
   --spread-gap: 0;
-  --nav-size: 2.1rem;
+  --nav-size: 2.5rem;
   --ease-slide: cubic-bezier(0.22, 1, 0.36, 1);
   --shadow-slide: none;
 

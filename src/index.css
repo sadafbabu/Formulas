@@ -70,9 +70,9 @@ button {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center;
-  gap: 0.45rem 0.65rem;
-  min-height: 2.75rem;
-  padding: 0.35rem 0.55rem;
+  gap: 0.55rem 0.85rem;
+  min-height: 3.4rem;
+  padding: 0.5rem 1rem;
   background: rgba(14, 14, 14, 0.96);
   border-bottom: 1px solid var(--page-edge);
   backdrop-filter: blur(10px);
@@ -88,7 +88,7 @@ button {
 .top-bar-tags {
   display: flex;
   align-items: center;
-  gap: 0.3rem;
+  gap: 0.45rem;
   min-width: 0;
   overflow-x: auto;
   overflow-y: hidden;
@@ -103,13 +103,13 @@ button {
 
 .top-tag {
   flex: 0 0 auto;
-  font-size: 0.68rem;
+  font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding: 0.28rem 0.55rem;
+  padding: 0.38rem 0.75rem;
   border: 1px solid var(--page-edge);
-  border-radius: 7px;
+  border-radius: 8px;
   color: var(--ink-soft);
   background: transparent;
   white-space: nowrap;
@@ -123,13 +123,13 @@ button {
 .top-tag.is-active {
   color: var(--ink-bright);
   border-color: rgba(255, 255, 255, 0.28);
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .top-bar-count {
-  font-size: 0.68rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  color: var(--ink-faint);
+  color: var(--ink-soft);
   letter-spacing: 0.04em;
   font-variant-numeric: tabular-nums;
 }
@@ -423,21 +423,21 @@ button {
 }
 
 .page-chapter {
-  font-size: 0.68rem;
+  font-size: 0.88rem;
   font-weight: 700;
   letter-spacing: 0.02em;
   color: var(--ink-bright);
 }
 
 .page-subject {
-  font-size: 0.62rem;
-  color: var(--ink-faint);
+  font-size: 0.78rem;
+  color: var(--ink-soft);
 }
 
 .page-num-badge {
-  font-size: 0.62rem;
+  font-size: 0.78rem;
   font-weight: 600;
-  color: var(--ink-faint);
+  color: var(--ink-soft);
 }
 
 .page-body {
@@ -456,8 +456,8 @@ button {
 
 .a5-page.is-sparse .formula {
   flex: 0 0 auto;
-  min-height: 4.2rem;
-  max-height: 5.6rem;
+  min-height: 5rem;
+  max-height: 7rem;
 }
 
 .page-footer {
@@ -466,36 +466,36 @@ button {
 
 .nav-subject-line {
   margin: -0.35rem 0 0.65rem;
-  font-size: 0.72rem;
-  color: var(--ink-faint);
+  font-size: 0.82rem;
+  color: var(--ink-soft);
 }
 
 /* —— Overlay chrome inside slide —— */
 .deck-chrome {
   position: absolute;
   left: 50%;
-  bottom: 0.45rem;
+  bottom: 0.55rem;
   transform: translateX(-50%);
   z-index: 5;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.22rem;
-  width: min(14rem, 40vw);
+  gap: 0.28rem;
+  width: min(16rem, 45vw);
   pointer-events: none;
 }
 
 .progress-track {
   width: 100%;
-  height: 2px;
+  height: 3px;
   border-radius: 99px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.15);
   overflow: hidden;
 }
 
 .progress-fill {
   height: 100%;
-  background: rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.85);
   border-radius: inherit;
   transition: width 380ms var(--ease-slide);
 }
@@ -503,9 +503,9 @@ button {
 .page-indicator {
   display: flex;
   align-items: baseline;
-  gap: 0.12rem;
-  font-size: 0.65rem;
-  font-weight: 500;
+  gap: 0.18rem;
+  font-size: 0.78rem;
+  font-weight: 600;
   color: var(--ink-soft);
   letter-spacing: 0.04em;
 }
@@ -520,7 +520,7 @@ button {
   min-height: 0;
   display: flex;
   align-items: center;
-  padding: 0.22rem 0.05rem;
+  padding: 0.45rem 0.3rem;
   border-bottom: 1px solid var(--line);
   animation: formula-in 300ms var(--ease-slide) both;
   overflow: hidden;
@@ -533,15 +533,15 @@ button {
 .formula-main {
   display: grid;
   grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
-  gap: 0.25rem 0.5rem;
+  gap: 0.4rem 0.75rem;
   width: 100%;
   align-items: center;
   min-height: 0;
 }
 
 .formula-latex {
-  font-size: clamp(0.88rem, 1.2vw, 1.15rem);
-  line-height: 1.05;
+  font-size: clamp(1.1rem, 1.45vw, 1.4rem);
+  line-height: 1.15;
   color: var(--ink-bright);
   overflow-x: auto;
   overflow-y: hidden;
@@ -549,13 +549,13 @@ button {
 }
 
 .formula-latex .katex {
-  font-size: 1em;
+  font-size: 1.05em;
 }
 
 .formula-text {
   display: flex;
   flex-direction: column;
-  gap: 0.06rem;
+  gap: 0.12rem;
   min-width: 0;
 }
 
@@ -563,44 +563,44 @@ button {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 0.3rem;
+  gap: 0.4rem;
 }
 
 .formula-title {
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.02rem;
-  line-height: 1.15;
+  gap: 0.05rem;
+  line-height: 1.2;
   min-width: 0;
 }
 
 .formula-title-bn {
-  font-size: clamp(0.76rem, 1vw, 0.9rem);
+  font-size: clamp(0.9rem, 1.15vw, 1.08rem);
   font-weight: 600;
   color: var(--ink-bright);
   letter-spacing: -0.01em;
 }
 
 .formula-title-en {
-  font-size: clamp(0.6rem, 0.75vw, 0.7rem);
-  color: var(--ink-faint);
+  font-size: clamp(0.72rem, 0.88vw, 0.82rem);
+  color: var(--ink-soft);
   font-weight: 400;
 }
 
 .formula-actions {
   display: flex;
   align-items: center;
-  gap: 0.22rem;
+  gap: 0.3rem;
   flex-shrink: 0;
 }
 
 .formula-summary {
   margin: 0;
-  font-size: clamp(0.64rem, 0.8vw, 0.74rem);
-  line-height: 1.25;
+  font-size: clamp(0.78rem, 0.95vw, 0.88rem);
+  line-height: 1.3;
   color: var(--ink-soft);
-  font-weight: 300;
+  font-weight: 400;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -610,24 +610,24 @@ button {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.18rem;
+  gap: 0.25rem;
 }
 
 .tag {
-  font-size: 0.52rem;
+  font-size: 0.65rem;
   font-weight: 600;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding: 0.1rem 0.32rem;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  color: var(--ink-faint);
+  padding: 0.18rem 0.45rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: var(--ink-soft);
   border-radius: 999px;
 }
 
 .tag:hover,
 .tag.is-active {
   color: var(--ink-bright);
-  border-color: rgba(255, 255, 255, 0.24);
+  border-color: rgba(255, 255, 255, 0.3);
   background: var(--accent-dim);
 }
 
