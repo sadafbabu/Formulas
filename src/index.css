@@ -701,107 +701,114 @@ button {
 }
 
 .hint-btn {
-  width: 1.3rem;
-  height: 1.3rem;
+  width: 1.75rem;
+  height: 1.75rem;
   display: grid;
   place-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 999px;
-  color: var(--ink-faint);
-  background: rgba(0, 0, 0, 0.22);
+  color: var(--ink-soft);
+  background: rgba(0, 0, 0, 0.35);
+  transition: all 0.15s ease;
 }
 
 .hint-btn:hover,
 .hint-wrap:focus-within .hint-btn {
   color: var(--ink-bright);
-  border-color: rgba(255, 255, 255, 0.3);
-  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.12);
+  transform: scale(1.08);
 }
 
 .hint-popover {
   position: fixed;
-  width: min(17.5rem, calc(100vw - 16px));
-  max-height: min(60vh, 22rem);
+  width: min(24rem, calc(100vw - 24px));
+  max-height: min(70vh, 28rem);
   overflow: auto;
-  padding: 0.65rem 0.7rem;
-  background: rgba(30, 30, 30, 0.98);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 10px;
-  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.55);
+  padding: 1rem 1.25rem;
+  background: rgba(24, 24, 24, 0.98);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 12px;
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.7);
   z-index: 80;
   cursor: default;
   animation: panel-in 150ms var(--ease-slide) both;
 }
 
 .hint-popover.is-wide {
-  width: min(20rem, calc(100vw - 16px));
+  width: min(28rem, calc(100vw - 24px));
 }
 
 .hint-popover-title {
-  margin: 0 0 0.4rem;
-  font-size: 0.62rem;
+  margin: 0 0 0.6rem;
+  font-size: 0.85rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--ink-faint);
+  color: var(--ink-bright);
   font-weight: 700;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0.4rem;
 }
 
 .derive-popover-lead {
-  margin: 0 0 0.4rem;
-  font-size: 0.74rem;
-  line-height: 1.35;
-  color: var(--ink);
-  font-weight: 300;
+  margin: 0 0 0.6rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--ink-bright);
+  font-weight: 400;
 }
 
 .derive-popover-step {
   display: grid;
-  gap: 0.15rem;
-  padding-top: 0.35rem;
+  gap: 0.25rem;
+  padding-top: 0.5rem;
   border-top: 1px solid var(--line);
-  font-size: 0.68rem;
+  font-size: 0.88rem;
   color: var(--ink-soft);
 }
 
 .derive-popover-step .katex {
-  font-size: 0.95em;
+  font-size: 1.1em;
   color: var(--ink-bright);
 }
 
 .derive-popover-link {
   display: inline-block;
-  margin-top: 0.45rem;
-  font-size: 0.7rem;
+  margin-top: 0.75rem;
+  font-size: 0.88rem;
   font-weight: 600;
-  color: var(--ink-bright);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: #60a5fa;
+  border-bottom: 1px solid rgba(96, 165, 250, 0.4);
+  padding: 0.2rem 0;
 }
 
 .derive-popover-link:hover {
-  border-bottom-color: var(--ink-bright);
+  color: #93c5fd;
+  border-bottom-color: #93c5fd;
 }
 
 .symbol-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.68rem;
+  font-size: 0.88rem;
 }
 
 .symbol-table th,
 .symbol-table td {
   text-align: left;
-  padding: 0.22rem 0.25rem;
+  padding: 0.45rem 0.55rem;
   border-bottom: 1px solid var(--line);
   vertical-align: top;
   color: var(--ink-soft);
 }
 
 .symbol-table th {
-  color: var(--ink-faint);
-  font-weight: 600;
-  font-size: 0.58rem;
-  letter-spacing: 0.04em;
+  color: var(--ink-bright);
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .symbol-table tr:last-child td {
