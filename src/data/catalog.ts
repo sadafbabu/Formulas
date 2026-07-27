@@ -7,6 +7,17 @@ import currentMeta from '../../content/subjects/physics/chapters/current-electri
 import vectorMeta from '../../content/subjects/physics/chapters/vector/meta.json'
 import dynamicsMeta from '../../content/subjects/physics/chapters/dynamics/meta.json'
 import workEnergyMeta from '../../content/subjects/physics/chapters/work-energy/meta.json'
+import gravitationMeta from '../../content/subjects/physics/chapters/gravitation/meta.json'
+import inductionAcMeta from '../../content/subjects/physics/chapters/induction-ac/meta.json'
+import modernPhysicsMeta from '../../content/subjects/physics/chapters/modern-physics/meta.json'
+
+import newtonsGravitation from '../../content/subjects/physics/chapters/gravitation/formulas/newtons-gravitation.json'
+import escapeVelocity from '../../content/subjects/physics/chapters/gravitation/formulas/escape-velocity.json'
+
+import faradaysLaw from '../../content/subjects/physics/chapters/induction-ac/formulas/faradays-law.json'
+import acRmsValues from '../../content/subjects/physics/chapters/induction-ac/formulas/ac-rms-values.json'
+
+import massEnergyPhotoelectric from '../../content/subjects/physics/chapters/modern-physics/formulas/mass-energy-photoelectric.json'
 
 import centripetalForce from '../../content/subjects/physics/chapters/dynamics/formulas/centripetal-force.json'
 import torqueAngularAcc from '../../content/subjects/physics/chapters/dynamics/formulas/torque-angular-acc.json'
@@ -92,14 +103,14 @@ export const allChapters: ChapterMeta[] = [
   { id: 'thermodynamics', slug: 'thermodynamics', name: 'Thermodynamics', nameBn: 'তাপগতিবিদ্যা', subjectId: 'physics', paperId: '2nd-paper', order: 1, formulaCount: 3, isReady: true },
   { id: 'static-electricity', slug: 'static-electricity', name: 'Static Electricity', nameBn: 'স্থির তড়িৎ', subjectId: 'physics', paperId: '2nd-paper', order: 2, formulaCount: 2, isReady: true },
   { id: 'current-electricity', slug: 'current-electricity', name: 'Current Electricity', nameBn: 'চল তড়িৎ', subjectId: 'physics', paperId: '2nd-paper', order: 3, formulaCount: 2, isReady: true },
-  { id: 'induction-ac', slug: 'induction-ac', name: 'Electromagnetic Induction & AC', nameBn: 'তড়িচ্চৌম্বক আবেশ ও পর্যায়বৃত্ত প্রবাহ', subjectId: 'physics', paperId: '2nd-paper', order: 5, formulaCount: 16, isReady: false },
-  { id: 'modern-physics', slug: 'modern-physics', name: 'Modern Physics', nameBn: 'আধুনিক পদার্থবিজ্ঞানের সূচনা', subjectId: 'physics', paperId: '2nd-paper', order: 8, formulaCount: 20, isReady: false },
+  { id: 'induction-ac', slug: 'induction-ac', name: 'Electromagnetic Induction & AC', nameBn: 'তড়িচ্চৌম্বক আবেশ ও পর্যায়বৃত্ত প্রবাহ', subjectId: 'physics', paperId: '2nd-paper', order: 5, formulaCount: 2, isReady: true },
+  { id: 'modern-physics', slug: 'modern-physics', name: 'Modern Physics', nameBn: 'আধুনিক পদার্থবিজ্ঞানের সূচনা', subjectId: 'physics', paperId: '2nd-paper', order: 8, formulaCount: 1, isReady: true },
 
   // Physics 1st Paper
   { id: 'vector', slug: 'vector', name: 'Vector', nameBn: 'ভেক্টর', subjectId: 'physics', paperId: '1st-paper', order: 2, formulaCount: 2, isReady: true },
   { id: 'dynamics', slug: 'dynamics', name: 'Newtonian Mechanics', nameBn: 'নিউটনীয় বলবিদ্যা', subjectId: 'physics', paperId: '1st-paper', order: 4, formulaCount: 2, isReady: true },
   { id: 'work-energy', slug: 'work-energy', name: 'Work, Energy & Power', nameBn: 'কাজ, ক্ষমতা ও শক্তি', subjectId: 'physics', paperId: '1st-paper', order: 5, formulaCount: 1, isReady: true },
-  { id: 'gravitation', slug: 'gravitation', name: 'Gravitation & Gravity', nameBn: 'মহাকর্ষ ও অভিকর্ষ', subjectId: 'physics', paperId: '1st-paper', order: 6, formulaCount: 16, isReady: false },
+  { id: 'gravitation', slug: 'gravitation', name: 'Gravitation & Gravity', nameBn: 'মহাকর্ষ ও অভিকর্ষ', subjectId: 'physics', paperId: '1st-paper', order: 6, formulaCount: 2, isReady: true },
   
   // Chemistry
   { id: 'qualitative-chem', slug: 'qualitative-chem', name: 'Qualitative Chemistry', nameBn: 'গুণগত রসায়ন', subjectId: 'chemistry', paperId: '1st-paper', order: 2, formulaCount: 12, isReady: false },
@@ -118,10 +129,19 @@ export const chapters: ChapterMeta[] = [
   vectorMeta,
   dynamicsMeta,
   workEnergyMeta,
+  gravitationMeta,
+  inductionAcMeta,
+  modernPhysicsMeta,
 ] as ChapterMeta[]
 export const defaultChapterId = 'magnetic-current'
 
 export const formulas: Formula[] = [
+  newtonsGravitation,
+  escapeVelocity,
+  faradaysLaw,
+  acRmsValues,
+  massEnergyPhotoelectric,
+
   centripetalForce,
   torqueAngularAcc,
   kineticEnergy,

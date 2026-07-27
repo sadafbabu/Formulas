@@ -1,0 +1,32 @@
+{
+  "id": "ac-rms-values",
+  "chapter": "induction-ac",
+  "title": "RMS Current and Voltage",
+  "titleBn": "পর্যায়বৃত্ত প্রবাহের RMS মান",
+  "summary": "এসি কারেন্ট ও ভোল্টেজের কার্যকর মান (Root Mean Square)",
+  "latex": "I_{\\mathrm{rms}} = \\frac{I_0}{\\sqrt{2}} \\approx 0.707 I_0, \\quad V_{\\mathrm{rms}} = \\frac{V_0}{\\sqrt{2}} \\approx 0.707 V_0",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "I_{\\mathrm{rms}}", "meaning": "প্রবাহের বর্গমূলীয় গড় বর্গমান", "unit": "A" },
+    { "symbol": "I_0", "meaning": "প্রবাহের শীর্ষমান (Peak Current)", "unit": "A" },
+    { "symbol": "V_{\\mathrm{rms}}", "meaning": "ভোল্টেজের RMS মান (বাংলাদেশের 220 V)", "unit": "V" }
+  ],
+  "derivation": {
+    "lead": "এক পূর্ণ চক্রের জন্য 제곱 এর গড় নিয়ে বর্গমূল করলে RMS মান পাওয়া যায়।",
+    "steps": [
+      {
+        "title": "গড় মান সমাকলন",
+        "latex": "I_{\\mathrm{rms}}^2 = \\frac{1}{T} \\int_0^T I_0^2 \\sin^2(\\omega t) dt = \\frac{I_0^2}{2} \\implies I_{\\mathrm{rms}} = \\frac{I_0}{\\sqrt{2}}",
+        "note": "বাসাবাড়ির ২২০ V হলো RMS ভোল্টেজ, শীর্ষমান 311 V"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "CKRUET Admission",
+      "question": "বাসাবাড়ির লাইনে 220 V এসি ভোল্টেজের পিক বা শীর্ষমান কত?",
+      "answer": "V_0 = V_{\\mathrm{rms}} \\sqrt{2} = 220 \\times 1.414 = 311.1\\text{ V}"
+    }
+  ]
+}

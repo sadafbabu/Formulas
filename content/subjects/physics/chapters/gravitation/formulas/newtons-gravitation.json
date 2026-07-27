@@ -1,0 +1,33 @@
+{
+  "id": "newtons-gravitation",
+  "chapter": "gravitation",
+  "title": "Newton's Law of Universal Gravitation",
+  "titleBn": "নিউটনের মহাকর্ষ সূত্র",
+  "summary": "মহাবিশ্বের যেকোনো দুটি বস্তুকণার মধ্যবর্তী মহাকর্ষ বল",
+  "latex": "F = G \\frac{M m}{r^2}, \\quad g = \\frac{G M}{R^2}",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "symbols": [
+    { "symbol": "F", "meaning": "মহাকর্ষীয় আকর্ষণ বল", "unit": "N" },
+    { "symbol": "G", "meaning": "মহাকর্ষীয় ধ্রুবক (6.673 × 10⁻¹¹)", "unit": "N·m²/kg²" },
+    { "symbol": "g", "meaning": "অভিকর্ষজ ত্বরণ", "unit": "m/s²" },
+    { "symbol": "M, R", "meaning": "পৃথিবীর ভর ও ব্যাসার্ধ", "unit": "kg, m" }
+  ],
+  "derivation": {
+    "lead": "অভিকর্ষ বল F = mg থেকে পৃথিবীর পৃষ্ঠে অভিকর্ষজ ত্বরণ g নির্ণয় করা হয়।",
+    "steps": [
+      {
+        "title": "মহাকর্ষ বল ও অভিকর্ষ বল সমতাকরণ",
+        "latex": "m g = G \\frac{M m}{R^2} \\implies g = \\frac{G M}{R^2}",
+        "note": "পৃথিবীর পৃষ্ঠে g এর গড় মান 9.8 m/s²"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission Hard",
+      "question": "পৃথিবীর ভর দ্বিগুণ এবং ব্যাসার্ধ অর্ধেক করা হলে পৃষ্ঠে অভিকর্ষজ ত্বরণ g কত গুণ হবে?",
+      "answer": "g' = \\frac{G (2M)}{(R/2)^2} = 8 \\left(\\frac{GM}{R^2}\\right) = 8g"
+    }
+  ]
+}
