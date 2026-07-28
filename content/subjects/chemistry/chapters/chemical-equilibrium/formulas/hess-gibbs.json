@@ -1,0 +1,79 @@
+{
+  "id": "hess-gibbs",
+  "chapter": "chemical-equilibrium",
+  "title": "Hess' Law & Gibbs Spontaneity",
+  "titleBn": "হেসের সূত্র, এনথালপি ও গিবস স্বতঃস্ফূর্ততা",
+  "summary": "বিক্রিয়া এনথালপি পথ-নিরপেক্ষ; ΔG থেকে স্বতঃস্ফূর্ততা ও equilibrium নির্ণয়।",
+  "latex": "\\Delta H^\\circ_{\\mathrm{rxn}}=\\sum\\nu\\Delta H_f^\\circ(\\mathrm{prod})-\\sum\\nu\\Delta H_f^\\circ(\\mathrm{react}),\\quad \\Delta G=\\Delta H-T\\Delta S",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "vanthoff-equation",
+    "gibbs-emf-relation",
+    "born-haber-cycle"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\Delta H",
+      "meaning": "এনথালপি পরিবর্তন",
+      "unit": "kJ/mol"
+    },
+    {
+      "symbol": "\\Delta G",
+      "meaning": "গিবস মুক্ত শক্তি পরিবর্তন",
+      "unit": "kJ/mol"
+    },
+    {
+      "symbol": "\\Delta S",
+      "meaning": "এনট্রপি পরিবর্তন",
+      "unit": "J mol⁻¹ K⁻¹"
+    }
+  ],
+  "derivation": {
+    "lead": "H ও G state function; তাই প্রারম্ভিক ও শেষ অবস্থা একই হলে পথ বদলালেও পরিবর্তন একই।",
+    "steps": [
+      {
+        "title": "Hess-এর সূত্র",
+        "latex": "\\Delta H_{\\mathrm{total}}=\\sum_i\\Delta H_i",
+        "note": "সমীকরণ উল্টালে ΔH-এর চিহ্ন উল্টে যায়; সহগ দিয়ে গুণ করলে ΔH-ও গুণ হয়।"
+      },
+      {
+        "title": "স্বতঃস্ফূর্ততা",
+        "latex": "\\Delta G<0:\\ \\text{স্বতঃস্ফূর্ত},\\quad \\Delta G=0:\\ \\text{সাম্য},\\quad \\Delta G>0:\\ \\text{অস্বতঃস্ফূর্ত}",
+        "note": "তাপমাত্রার প্রভাব ΔH ও ΔS-এর চিহ্ন থেকে বোঝা যায়।"
+      },
+      {
+        "title": "সাম্যধ্রুবক",
+        "latex": "\\Delta G^\\circ=-RT\\ln K",
+        "note": "K>1 হলে lnK ধনাত্মক, তাই ΔG° ঋণাত্মক।"
+      }
+    ],
+    "assumptions": [
+      "তাপমাত্রা ও চাপ নির্দিষ্ট।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Eng Admission",
+      "question": "ΔH = +40 kJ/mol ও ΔS = +100 J mol⁻¹ K⁻¹ হলে বিক্রিয়া কোন তাপমাত্রার উপরে স্বতঃস্ফূর্ত?",
+      "answer": "\\Delta G<0\\Rightarrow T>\\frac{\\Delta H}{\\Delta S}=\\frac{40000}{100}=400\\ \\mathrm K"
+    }
+  ],
+  "memorize": {
+    "trick": "ΔG = ΔH − TΔS: G negative হলে ‘Go’। ΔH<0, ΔS>0 হলে সব তাপমাত্রায় spontaneous; ΔH>0, ΔS<0 হলে কখনোই নয়।",
+    "steps": [
+      "Hess-এ সমীকরণ উল্টালে ΔH-এর চিহ্ন উল্টান।",
+      "ΔG° = −RT lnK: K>1 ⇒ ΔG°<0।"
+    ]
+  }
+}

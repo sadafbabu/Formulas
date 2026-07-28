@@ -1,0 +1,69 @@
+{
+  "id": "hydrogen-bond",
+  "chapter": "chemical-bonding",
+  "title": "Hydrogen Bonding & Intermolecular Forces",
+  "titleBn": "হাইড্রোজেন বন্ধন ও আন্তঃআণবিক আকর্ষণ",
+  "summary": "H–F/O/N যুক্ত অণুতে hydrogen bond এবং স্ফুটনাঙ্ক, দ্রাব্যতা ও গঠনে তার প্রভাব।",
+  "latex": "\\ce{X-H\\bond{...}Y}\\quad (X,Y=\\ce{F,O,N});\\qquad F_{\\mathrm{ion-ion}}>F_{\\mathrm{H-bond}}>F_{\\mathrm{dipole}}>F_{\\mathrm{London}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "dipole-moment",
+    "bond-parameters",
+    "lewis-structure"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\ce{H\\bond{...}Y}",
+      "meaning": "হাইড্রোজেন বন্ধন",
+      "unit": "—"
+    },
+    {
+      "symbol": "T_b",
+      "meaning": "স্ফুটনাঙ্ক",
+      "unit": "K"
+    }
+  ],
+  "derivation": {
+    "lead": "খুব তড়িৎঋণাত্মক F, O বা N-এর সাথে যুক্ত H প্রবল δ+ হয় এবং পাশের lone pair-এর সাথে আকর্ষণ তৈরি করে।",
+    "steps": [
+      {
+        "title": "আন্তঃআণবিক",
+        "latex": "\\ce{H2O\\bond{...}H-O-H}",
+        "note": "স্ফুটনাঙ্ক ও সান্দ্রতা বাড়ায়; পানি তরল থাকার প্রধান কারণ।"
+      },
+      {
+        "title": "অন্তঃআণবিক",
+        "latex": "\\ce{o-HOC6H4CHO}",
+        "note": "একই অণুর ভিতরে bond হলে অন্য অণুর সাথে আকর্ষণ কমে; তাই স্ফুটনাঙ্ক/দ্রাব্যতা তুলনামূলক কম।"
+      }
+    ],
+    "assumptions": [
+      "Hydrogen অবশ্যই F, O বা N-এর সাথে সরাসরি যুক্ত।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical Admission",
+      "question": "\\ce{H2O}, \\ce{H2S}, \\ce{H2Se}, \\ce{H2Te}—কোনটির স্ফুটনাঙ্ক অস্বাভাবিক বেশি ও কেন?",
+      "answer": "\\ce{H2O};\\ \\text{প্রবল আন্তঃআণবিক hydrogen bonding-এর জন্য।}"
+    }
+  ],
+  "memorize": {
+    "trick": "Hydrogen bond-এর ‘FON rule’: H অবশ্যই F, O বা N-এ বাঁধা। এ জন্য H₂O, HF, NH₃-এর boiling point অস্বাভাবিক বেশি।",
+    "steps": [
+      "Intermolecular H-bond boiling point বাড়ায়।",
+      "Intramolecular H-bond পানিতে দ্রাব্যতা কমাতে পারে।",
+      "বরফে খোলা lattice হওয়ায় ঘনত্ব পানির চেয়ে কম।"
+    ]
+  }
+}

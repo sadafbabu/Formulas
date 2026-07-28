@@ -1,0 +1,80 @@
+{
+  "id": "electrochemical-equivalent",
+  "chapter": "electrochemistry",
+  "title": "Electrochemical Equivalent",
+  "titleBn": "তড়িৎ রাসায়নিক তুল্যাঙ্ক ও তড়িৎ বিশ্লেষণের হিসাব",
+  "summary": "প্রবাহ ও সময় থেকে electrode-এ জমা/মুক্ত পদার্থের ভর ও গ্যাসের মোল নির্ণয়।",
+  "latex": "m=ZIt=\\frac{MIt}{nF},\\quad n_{\\mathrm{mol}}=\\frac{It}{nF},\\quad F=96500\\ \\mathrm{C\\,mol^{-1}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "faradays-electrolysis",
+    "faraday-second-law",
+    "conductance-kohlrausch"
+  ],
+  "symbols": [
+    {
+      "symbol": "Z",
+      "meaning": "তড়িৎ রাসায়নিক তুল্যাঙ্ক",
+      "unit": "kg/C"
+    },
+    {
+      "symbol": "F",
+      "meaning": "ফ্যারাডে ধ্রুবক",
+      "unit": "C/mol",
+      "value": "96500"
+    },
+    {
+      "symbol": "n",
+      "meaning": "প্রতি কণায় electron সংখ্যা",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "এক মোল পদার্থ মুক্ত করতে n মোল electron লাগে; charge = It = nFN থেকে ভর পাওয়া যায়।",
+    "steps": [
+      {
+        "title": "মোল ও ভর",
+        "latex": "N_{\\mathrm{mol}}=\\frac{Q}{nF},\\quad m=M\\frac{Q}{nF}",
+        "note": "M g/mol নিলে m gram-এ আসে।"
+      },
+      {
+        "title": "তুল্যাঙ্ক",
+        "latex": "Z=\\frac{M}{nF}",
+        "note": "এক কুলম্ব charge-এ যত ভর জমে।"
+      },
+      {
+        "title": "গ্যাস",
+        "latex": "V_{\\mathrm{STP}}=\\frac{It}{nF}\\times22.4\\ \\mathrm L",
+        "note": "H₂-এর n=2, O₂-এর n=4, Cl₂-এর n=2।"
+      }
+    ],
+    "assumptions": [
+      "current efficiency 100%।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical Admission",
+      "question": "2 A প্রবাহ 965 s ধরে \\ce{CuSO4} দ্রবণে চালালে Cu কত জমবে? (M=63.5, n=2)",
+      "answer": "m=\\frac{63.5\\times2\\times965}{2\\times96500}=0.635\\ \\mathrm g"
+    }
+  ],
+  "memorize": {
+    "trick": "এক ফ্যারাডে (96500 C) এক gram-equivalent পদার্থ জমায়। সরাসরি m = MIt/(nF)—M উপরে, electron সংখ্যা n নিচে।",
+    "steps": [
+      "Cu²⁺-এ n=2, Al³⁺-এ n=3, Ag⁺-এ n=1।",
+      "Current efficiency η হলে ভরকে η/100 দিয়ে গুণ করুন।"
+    ]
+  }
+}

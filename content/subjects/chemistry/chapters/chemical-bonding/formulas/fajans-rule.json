@@ -1,0 +1,73 @@
+{
+  "id": "fajans-rule",
+  "chapter": "chemical-bonding",
+  "title": "Fajans' Rule",
+  "titleBn": "ফাজানের নীতি ও সমযোজী চরিত্র",
+  "summary": "আয়নিক যৌগে ক্যাটায়নের polarization ও অ্যানায়নের polarizability থেকে সমযোজী চরিত্র নির্ণয়।",
+  "latex": "\\text{Covalent character}\\uparrow:\\quad \\frac{z_+}{r_+}\\uparrow,\\quad r_-\\uparrow,\\quad z_-\\uparrow",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "dipole-moment",
+    "periodic-trends",
+    "bond-parameters"
+  ],
+  "symbols": [
+    {
+      "symbol": "z_+",
+      "meaning": "ক্যাটায়নের আধান",
+      "unit": "—"
+    },
+    {
+      "symbol": "r_+",
+      "meaning": "ক্যাটায়নের ব্যাসার্ধ",
+      "unit": "pm"
+    },
+    {
+      "symbol": "r_-",
+      "meaning": "অ্যানায়নের ব্যাসার্ধ",
+      "unit": "pm"
+    }
+  ],
+  "derivation": {
+    "lead": "ছোট ও বেশি আধানযুক্ত ক্যাটায়ন বড় অ্যানায়নের ইলেকট্রন মেঘ বেশি বিকৃত করে, ফলে ইলেকট্রন ভাগাভাগির মতো সমযোজী চরিত্র বাড়ে।",
+    "steps": [
+      {
+        "title": "ক্যাটায়নের polarizing power",
+        "latex": "\\text{Polarizing power}\\propto\\frac{z_+}{r_+^2}",
+        "note": "ছোট আকার ও বেশি আধান সমযোজী চরিত্র বাড়ায়।"
+      },
+      {
+        "title": "অ্যানায়নের polarizability",
+        "latex": "\\ce{F^- < Cl^- < Br^- < I^-}",
+        "note": "বড় অ্যানায়নের ইলেকট্রন মেঘ সহজে বিকৃত হয়।"
+      }
+    ],
+    "assumptions": [
+      "একই ধরনের crystal lattice তুলনা করা হচ্ছে।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Eng Admission",
+      "question": "\\ce{LiF}, \\ce{LiCl}, \\ce{LiBr}, \\ce{LiI}—কোনটির সমযোজী চরিত্র সর্বাধিক?",
+      "answer": "\\ce{LiI};\\ \\ce{I^-}\\ \\text{সবচেয়ে বড় ও সবচেয়ে polarizable।}"
+    }
+  ],
+  "memorize": {
+    "trick": "‘ছোট positive + বড় negative = বেশি covalent’। ক্যাটায়ন ছোট/আধান বেশি, অ্যানায়ন বড়/আধান বেশি হলে polarization বাড়ে।",
+    "steps": [
+      "AlCl₃ বেশি covalent, NaCl বেশি ionic।",
+      "একই ক্যাটায়নে F⁻ থেকে I⁻ গেলে covalent character বাড়ে।"
+    ]
+  }
+}

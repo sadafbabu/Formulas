@@ -1,0 +1,79 @@
+{
+  "id": "carbonyl-reactions",
+  "chapter": "organic-chem",
+  "title": "Aldehyde & Ketone Reactions",
+  "titleBn": "অ্যালডিহাইড ও কিটোনের গাঠনিক বিক্রিয়া ও শনাক্তকরণ",
+  "summary": "Carbonyl nucleophilic addition, reduction/oxidation ও Tollens/Fehling/iodoform tests।",
+  "latex": "\\ce{R-CHO ->[Tollens] R-COO- + Ag(s)};\\quad \\ce{R2C=O ->[NaBH4] R2CHOH};\\quad \\ce{CH3CO-R ->[I2/OH-] CHI3(s)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "alcohol-oxidation",
+    "grignard-reaction",
+    "functional-groups"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\ce{C=O}",
+      "meaning": "carbonyl group",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\ce{[Ag(NH3)2]+}",
+      "meaning": "Tollens reagent",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\ce{CHI3}",
+      "meaning": "হলুদ iodoform precipitate",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Carbonyl carbon δ+ হওয়ায় nucleophile সেখানে attack করে; aldehyde-এ steric/electronic বাধা কম, তাই ketone-এর চেয়ে বেশি reactive।",
+    "steps": [
+      {
+        "title": "reduction",
+        "latex": "\\ce{RCHO ->[NaBH4/LiAlH4] RCH2OH};\\quad \\ce{R2CO -> R2CHOH}",
+        "note": "Aldehyde থেকে ১° alcohol, ketone থেকে ২° alcohol।"
+      },
+      {
+        "title": "Tollens/Fehling",
+        "latex": "\\ce{RCHO -> RCOOH};\\quad \\ce{Ag+ -> Ag},\\ \\ce{Cu^{2+}->Cu2O(s)}",
+        "note": "সাধারণ aldehyde positive; ketone negative। Fehling-এ aromatic aldehyde সাধারণত negative।"
+      },
+      {
+        "title": "iodoform",
+        "latex": "\\ce{CH3CO-R,\\ CH3CH(OH)-R -> CHI3(s)}",
+        "note": "methyl ketone বা সেই alcohol যা oxidize হয়ে methyl ketone হয়—হলুদ antiseptic গন্ধ।"
+      }
+    ],
+    "assumptions": [
+      "Reagent ও medium প্রশ্ন অনুযায়ী যথাযথ।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "Acetaldehyde ও acetone আলাদা করতে কোন পরীক্ষা এবং ফল কী?",
+      "answer": "\\text{Tollens test: acetaldehyde silver mirror দেয়; acetone দেয় না।}"
+    }
+  ],
+  "memorize": {
+    "trick": "Aldehyde ‘silver mirror’ দেয়, ketone দেয় না। Reduction-এ aldehyde→১° alcohol, ketone→২° alcohol। Iodoform-এর চিহ্ন হলুদ CHI₃—methyl ketone শনাক্ত করে।",
+    "steps": [
+      "Reactivity: HCHO > aldehyde > ketone।",
+      "NaBH₄/LiAlH₄ reduction; K₂Cr₂O₇/KMnO₄ oxidation।"
+    ]
+  }
+}

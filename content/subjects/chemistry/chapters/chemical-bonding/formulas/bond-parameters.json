@@ -1,0 +1,74 @@
+{
+  "id": "bond-parameters",
+  "chapter": "chemical-bonding",
+  "title": "Bond Length, Energy & Resonance",
+  "titleBn": "বন্ধন দৈর্ঘ্য, শক্তি, ক্রম ও অনুরণন",
+  "summary": "বন্ধন ক্রমের সাথে দৈর্ঘ্য ও শক্তির সম্পর্ক এবং অনুরণন সংকর ধারণা।",
+  "latex": "\\text{Bond order}\\uparrow\\Rightarrow E_{\\mathrm{bond}}\\uparrow,\\ r_{\\mathrm{bond}}\\downarrow;\\quad E_{\\mathrm{res}}=E_{\\mathrm{hybrid}}-E_{\\mathrm{best\\ Lewis}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "bond-order-mo",
+    "lewis-structure",
+    "formal-charge"
+  ],
+  "symbols": [
+    {
+      "symbol": "E_{\\mathrm{bond}}",
+      "meaning": "বন্ধন বিয়োজন শক্তি",
+      "unit": "kJ/mol"
+    },
+    {
+      "symbol": "r_{\\mathrm{bond}}",
+      "meaning": "বন্ধন দৈর্ঘ্য",
+      "unit": "pm"
+    },
+    {
+      "symbol": "E_{\\mathrm{res}}",
+      "meaning": "অনুরণন শক্তি",
+      "unit": "kJ/mol"
+    }
+  ],
+  "derivation": {
+    "lead": "বেশি ইলেকট্রন ঘনত্ব দুই নিউক্লিয়াসকে বেশি শক্ত করে ধরে, তাই উচ্চ বন্ধন ক্রমে বন্ধন ছোট ও শক্তিশালী।",
+    "steps": [
+      {
+        "title": "ক্রম",
+        "latex": "\\ce{C-C > C=C > C#C}\\ \\text{(দৈর্ঘ্যে)},\\qquad \\ce{C-C < C=C < C#C}\\ \\text{(শক্তিতে)}",
+        "note": "দৈর্ঘ্য ও শক্তির ক্রম পরস্পর বিপরীত।"
+      },
+      {
+        "title": "অনুরণন",
+        "latex": "\\ce{O3:\\ O=O-O <-> O-O=O},\\quad BO=\\frac{3}{2}",
+        "note": "প্রকৃত গঠন কোনো একটি Lewis গঠন নয়; সবগুলোর সংকর।"
+      }
+    ],
+    "assumptions": [
+      "একই পরমাণু যুগলের বন্ধন তুলনা করা হচ্ছে।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Varsity Admission",
+      "question": "\\ce{O2}, \\ce{O2+}, \\ce{O2-} এর মধ্যে কোনটির বন্ধন দৈর্ঘ্য সবচেয়ে কম?",
+      "answer": "\\ce{O2+};\\ BO=2.5\\ \\text{সর্বোচ্চ, তাই দৈর্ঘ্য সর্বনিম্ন।}"
+    }
+  ],
+  "memorize": {
+    "trick": "বন্ধন ক্রম বাড়লে শক্তি বাড়ে, দৈর্ঘ্য কমে—‘order ও energy বন্ধু, length শত্রু’। অনুরণনে প্রকৃত বন্ধন দৈর্ঘ্য দুই সীমার মাঝামাঝি।",
+    "steps": [
+      "Single সবচেয়ে লম্ব/দুর্বল; triple সবচেয়ে ছোট/শক্ত।",
+      "সমমান resonance structure যত বেশি, স্থিতিশীলতা তত বেশি।"
+    ]
+  }
+}

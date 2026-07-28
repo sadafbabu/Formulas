@@ -1,0 +1,80 @@
+{
+  "id": "directing-effects",
+  "chapter": "organic-chem",
+  "title": "Directing Effects in Benzene",
+  "titleBn": "বেনজিনে নির্দেশক প্রভাব: ortho/para ও meta",
+  "summary": "Substituent-এর electron donation/withdrawal থেকে দ্বিতীয় substitution-এর অবস্থান ও reactivity।",
+  "latex": "\\text{o,p directors: }\\ce{-OH,-NH2,-R,-X};\\qquad \\text{meta directors: }\\ce{-NO2,-COOH,-CHO,-CN,-SO3H}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 100,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "benzene-reactions",
+    "organic-reactions",
+    "functional-groups"
+  ],
+  "symbols": [
+    {
+      "symbol": "o",
+      "meaning": "ortho (1,2)",
+      "unit": "—"
+    },
+    {
+      "symbol": "m",
+      "meaning": "meta (1,3)",
+      "unit": "—"
+    },
+    {
+      "symbol": "p",
+      "meaning": "para (1,4)",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Substituent resonance/inductive effect দিয়ে intermediate carbocation-এর স্থিতিশীলতা বদলায়।",
+    "steps": [
+      {
+        "title": "activating o,p",
+        "latex": "\\ce{-OH,-OR,-NH2,-NHR,-R}",
+        "note": "electron donate করে ring activate ও ortho/para intermediate স্থিতিশীল করে।"
+      },
+      {
+        "title": "deactivating meta",
+        "latex": "\\ce{-NO2,-CN,-SO3H,-CHO,-COR,-COOH}",
+        "note": "electron withdraw করে; ortho/para intermediate বেশি অস্থিতিশীল, তাই meta প্রধান।"
+      },
+      {
+        "title": "halogen exception",
+        "latex": "\\ce{-F,-Cl,-Br,-I}:\\ \\text{deactivating but o,p-directing}",
+        "note": "−I ring deactivate করে, কিন্তু lone-pair resonance o,p নির্দেশ করে।"
+      }
+    ],
+    "assumptions": [
+      "Steric hindrance-এর কারণে bulky group-এ para product বেশি হতে পারে।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical Admission",
+      "question": "Nitrobenzene-এর bromination-এ প্রধান product কী?",
+      "answer": "\\ce{m-bromonitrobenzene};\\ \\ce{-NO2}\\ \\text{strong meta director।}"
+    }
+  ],
+  "memorize": {
+    "trick": "সহজ ভাগ: electron donor → ortho/para; electron withdrawer → meta। একমাত্র বড় exception halogen—deactivating হলেও ortho/para director।",
+    "steps": [
+      "OH/NH₂ সবচেয়ে শক্তিশালী activator।",
+      "NO₂/COOH/CHO/CN meta director।",
+      "Steric কারণে para প্রায়ই ortho-এর চেয়ে বেশি।"
+    ]
+  }
+}
