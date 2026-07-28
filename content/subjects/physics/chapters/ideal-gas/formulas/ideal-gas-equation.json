@@ -56,5 +56,12 @@
   },
   "id": "ideal-gas-equation",
   "chapter": "ideal-gas",
-  "questions": []
+  "questions": [],
+  "memorize": {
+    "trick": "PV = nRT — 'পিভি নরত'। R = 8.314 J/(mol·K) মুখস্থ রাখুন; T সর্বদা কেলভিনে।",
+    "steps": [
+      "n = m/M বসিয়ে PV = (m/M)RT; ঘনত্ব চাইলে ρ = PM/(RT)।",
+      "অণুর সংখ্যা দিয়ে লিখলে PV = NkT, যেখানে k = R/N_A।"
+    ]
+  }
 }

@@ -47,5 +47,13 @@
   },
   "id": "drift-velocity",
   "chapter": "current-electricity",
-  "questions": []
+  "questions": [],
+  "memorize": {
+    "trick": "v_d = I/(nAe) — অপবেগ আশ্চর্যজনকভাবে খুব ছোট (~mm/s), তবু বাতি সাথে সাথে জ্বলে, কারণ তড়িৎ ক্ষেত্র আলোর বেগে ছড়ায়। J = I/A = nev_d।",
+    "steps": [
+      "I = nAev_d — এই একটাই সম্পর্ক, বাকি সব এখান থেকে।",
+      "v_d ∝ I এবং v_d ∝ 1/A — চিকন তারে অপবেগ বেশি।",
+      "প্রবাহ ঘনত্ব J = I/A = nev_d = σE।"
+    ]
+  }
 }
