@@ -5,13 +5,36 @@
   "titleBn": "ফ্যারাডে ও লেঞ্জের আবেশ সূত্র",
   "summary": "চৌম্বক ফ্লাক্সের পরিবর্তনের হারের সাথে আবিষ্ট তড়িৎচালক বলের সম্পর্ক",
   "latex": "\\mathcal{E} = -N \\frac{d\\Phi_B}{dt}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 20,
   "symbols": [
-    { "symbol": "\\mathcal{E}", "meaning": "আবিষ্ট তড়িচ্চালক বল (e.m.f.)", "unit": "V (Volt)" },
-    { "symbol": "N", "meaning": "কুন্ডলীর পাক সংখ্যা", "unit": "সংখ্যা" },
-    { "symbol": "\\Phi_B", "meaning": "চৌম্বক ফ্লাক্স (B·A)", "unit": "Wb (Weber)" },
-    { "symbol": "t", "meaning": "সময়", "unit": "s" }
+    {
+      "symbol": "\\mathcal{E}",
+      "meaning": "আবিষ্ট তড়িচ্চালক বল (e.m.f.)",
+      "unit": "V (Volt)"
+    },
+    {
+      "symbol": "N",
+      "meaning": "কুন্ডলীর পাক সংখ্যা",
+      "unit": "সংখ্যা"
+    },
+    {
+      "symbol": "\\Phi_B",
+      "meaning": "চৌম্বক ফ্লাক্স (B·A)",
+      "unit": "Wb (Weber)"
+    },
+    {
+      "symbol": "t",
+      "meaning": "সময়",
+      "unit": "s"
+    }
   ],
   "derivation": {
     "lead": "লেঞ্জের সূত্রানুসারে আবিষ্ট প্রবাহের দিক এমন হয় যা তার সৃষ্টিকে বাধা দেয় (ঋণাত্মক চিহ্ন)।",

@@ -5,13 +5,34 @@
   "titleBn": "পিথাগোরাসীয় ও যোগফল ত্রিকোণমিতিক অভেদ",
   "summary": "মৌলিক ত্রিকোণমিতিক অভেদ ও তাদের প্রয়োগ",
   "latex": "\\sin^2\\theta + \\cos^2\\theta = 1, \\quad 1 + \\tan^2\\theta = \\sec^2\\theta, \\quad 1 + \\cot^2\\theta = \\csc^2\\theta",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
-  "subjects": ["math"],
-  "related": ["compound-angle", "general-solutions-trig", "multiple-angle"],
+  "order": 40,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "compound-angle",
+    "general-solutions-trig",
+    "multiple-angle"
+  ],
   "symbols": [
-    { "symbol": "\\theta", "meaning": "যেকোনো কোণ", "unit": "রেডিয়ান/°" },
-    { "symbol": "\\sin, \\cos, \\tan", "meaning": "ত্রিকোণমিতিক অনুপাত", "unit": "মাত্রাহীন" }
+    {
+      "symbol": "\\theta",
+      "meaning": "যেকোনো কোণ",
+      "unit": "রেডিয়ান/°"
+    },
+    {
+      "symbol": "\\sin, \\cos, \\tan",
+      "meaning": "ত্রিকোণমিতিক অনুপাত",
+      "unit": "মাত্রাহীন"
+    }
   ],
   "derivation": {
     "lead": "একক বৃত্তে কোণ θ-এর সাপেক্ষে পিথাগোরাস উপপাদ্য প্রয়োগ করে।",
@@ -22,7 +43,9 @@
         "note": "ভাগ করে পাওয়া যায়: cos²θ দ্বারা → 1+tan²θ=sec²θ; sin²θ দ্বারা → 1+cot²θ=csc²θ"
       }
     ],
-    "assumptions": ["θ যেকোনো বাস্তব সংখ্যা"]
+    "assumptions": [
+      "θ যেকোনো বাস্তব সংখ্যা"
+    ]
   },
   "questions": [
     {

@@ -5,16 +5,48 @@
   "titleBn": "প্রাসের গতি সমীকরণ",
   "summary": "কোণে নিক্ষেপিত বস্তুর সর্বোচ্চ উচ্চতা, উড্ডয়নকাল ও পাল্লা নির্ণয়",
   "latex": "H = \\frac{u^2 \\sin^2\\theta}{2g}, \\quad T = \\frac{2u\\sin\\theta}{g}, \\quad R = \\frac{u^2 \\sin 2\\theta}{g}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
-  "subjects": ["physics"],
-  "related": ["newtons-laws", "centripetal-force"],
+  "order": 60,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "newtons-laws",
+    "centripetal-force"
+  ],
   "symbols": [
-    { "symbol": "u", "meaning": "প্রাথমিক বেগ", "unit": "m/s" },
-    { "symbol": "\\theta", "meaning": "নিক্ষেপ কোণ", "unit": "°" },
-    { "symbol": "H", "meaning": "সর্বোচ্চ উচ্চতা", "unit": "m" },
-    { "symbol": "T", "meaning": "উড্ডয়নকাল", "unit": "s" },
-    { "symbol": "R", "meaning": "অনুভূমিক পাল্লা", "unit": "m" }
+    {
+      "symbol": "u",
+      "meaning": "প্রাথমিক বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "নিক্ষেপ কোণ",
+      "unit": "°"
+    },
+    {
+      "symbol": "H",
+      "meaning": "সর্বোচ্চ উচ্চতা",
+      "unit": "m"
+    },
+    {
+      "symbol": "T",
+      "meaning": "উড্ডয়নকাল",
+      "unit": "s"
+    },
+    {
+      "symbol": "R",
+      "meaning": "অনুভূমিক পাল্লা",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "নিক্ষেপ বেগকে অনুভূমিক ও উল্লম্ব উপাংশে বিভাজন করে গতি সমীকরণ প্রয়োগ।",
@@ -30,7 +62,10 @@
         "note": "সর্বোচ্চ উচ্চতায় পৌঁছাতে সময় = T/2"
       }
     ],
-    "assumptions": ["বায়ুর ঘর্ষণ উপেক্ষা", "g ধ্রুব ও নিচের দিকে"]
+    "assumptions": [
+      "বায়ুর ঘর্ষণ উপেক্ষা",
+      "g ধ্রুব ও নিচের দিকে"
+    ]
   },
   "questions": [
     {

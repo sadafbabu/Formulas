@@ -4,16 +4,42 @@
   "titleBn": "সাইক্লোট্রন কম্পাঙ্ক",
   "latex": "f = \\frac{q B}{2\\pi m}",
   "summary": "চৌম্বক ক্ষেত্রে গতিশীল আধানের পর্যায়কাল ও আবর্তন কম্পাঙ্ক — যা বেগের ওপর স্বাধীন।",
-  "tags": ["eng-admission", "varsity", "2-star"],
+  "tags": [
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 2,
-  "subjects": ["physics"],
-  "related": ["cyclotron-radius", "lorentz"],
+  "order": 190,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "cyclotron-radius",
+    "lorentz"
+  ],
   "symbols": [
-    { "symbol": "f", "meaning": "সাইক্লোট্রন পর্যায় কম্পাঙ্ক", "unit": "Hz (s⁻¹)" },
-    { "symbol": "q", "meaning": "কণার আধান", "unit": "C" },
-    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "m", "meaning": "কণার ভর", "unit": "kg" }
+    {
+      "symbol": "f",
+      "meaning": "সাইক্লোট্রন পর্যায় কম্পাঙ্ক",
+      "unit": "Hz (s⁻¹)"
+    },
+    {
+      "symbol": "q",
+      "meaning": "কণার আধান",
+      "unit": "C"
+    },
+    {
+      "symbol": "B",
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "m",
+      "meaning": "কণার ভর",
+      "unit": "kg"
+    }
   ],
   "derivation": {
     "lead": "পর্যায়কাল T ও বেগ বর্জন সমীকরণ:",
@@ -24,7 +50,9 @@
         "note": "কম্পাঙ্ক কণার বেগ v এবং ঘূর্ণন ব্যাসার্ধ r-এর ওপর নির্ভর করে না।"
       }
     ],
-    "assumptions": ["আপেক্ষিকতার প্রভাব (Relativistic mass change) উপেক্ষণীয়।"]
+    "assumptions": [
+      "আপেক্ষিকতার প্রভাব (Relativistic mass change) উপেক্ষণীয়।"
+    ]
   },
   "questions": [
     {

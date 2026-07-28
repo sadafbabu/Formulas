@@ -5,14 +5,41 @@
   "titleBn": "এনট্রপির পরিবর্তন ও বিশৃঙ্খলা",
   "summary": "সমউষ্ণ ও রুদ্ধতাপীয় প্রক্রিয়ায় এনট্রপির পরিবর্তন",
   "latex": "\\Delta S = \\int \\frac{dQ}{T}, \\quad \\Delta S = m c \\ln\\left(\\frac{T_2}{T_1}\\right), \\quad \\Delta S = \\frac{m L}{T}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 10,
   "symbols": [
-    { "symbol": "\\Delta S", "meaning": "এনট্রপির পরিবর্তন", "unit": "J/K" },
-    { "symbol": "dQ", "meaning": "গৃহীত বা বর্জিত তাপ", "unit": "J" },
-    { "symbol": "T", "meaning": "পরম তাপমাত্রা", "unit": "K" },
-    { "symbol": "m", "meaning": "পদার্থের ভর", "unit": "kg" },
-    { "symbol": "L", "meaning": "সুপ্ততাপ (Latent heat)", "unit": "J/kg" }
+    {
+      "symbol": "\\Delta S",
+      "meaning": "এনট্রপির পরিবর্তন",
+      "unit": "J/K"
+    },
+    {
+      "symbol": "dQ",
+      "meaning": "গৃহীত বা বর্জিত তাপ",
+      "unit": "J"
+    },
+    {
+      "symbol": "T",
+      "meaning": "পরম তাপমাত্রা",
+      "unit": "K"
+    },
+    {
+      "symbol": "m",
+      "meaning": "পদার্থের ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "L",
+      "meaning": "সুপ্ততাপ (Latent heat)",
+      "unit": "J/kg"
+    }
   ],
   "derivation": {
     "lead": "২য় তাপগতীয় সূত্র অনুযায়ী রুদ্ধতাপীয় প্রক্রিয়ায় এনট্রপি অপরিবর্তিত থাকে (dS = 0)।",

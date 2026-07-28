@@ -5,16 +5,49 @@
   "titleBn": "জৈব কার্যকরী গোষ্ঠীসমূহ",
   "summary": "প্রধান কার্যকরী গোষ্ঠী, তাদের প্রতীক ও শ্রেণী নির্ণয়",
   "latex": "\\ce{-OH} \\ (\\text{অ্যালকোহল}), \\quad \\ce{-CHO} \\ (\\text{অ্যালডিহাইড}), \\quad \\ce{>C=O} \\ (\\text{কিটোন}), \\quad \\ce{-COOH} \\ (\\text{কার্বক্সিলিক অম্ল})",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
-  "subjects": ["chemistry"],
-  "related": ["alcohol-oxidation", "grignard-reaction", "organic-reactions"],
+  "order": 40,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "alcohol-oxidation",
+    "grignard-reaction",
+    "organic-reactions"
+  ],
   "symbols": [
-    { "symbol": "\\ce{-OH}", "meaning": "হাইড্রক্সিল গোষ্ঠী (অ্যালকোহল)", "unit": "—" },
-    { "symbol": "\\ce{-CHO}", "meaning": "অ্যালডিহাইড গোষ্ঠী", "unit": "—" },
-    { "symbol": "\\ce{>C=O}", "meaning": "কার্বোনাইল গোষ্ঠী (কিটোন)", "unit": "—" },
-    { "symbol": "\\ce{-COOH}", "meaning": "কার্বক্সিল গোষ্ঠী (কার্বক্সিলিক অম্ল)", "unit": "—" },
-    { "symbol": "\\ce{-NH2}", "meaning": "অ্যামিনো গোষ্ঠী (অ্যামিন)", "unit": "—" }
+    {
+      "symbol": "\\ce{-OH}",
+      "meaning": "হাইড্রক্সিল গোষ্ঠী (অ্যালকোহল)",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\ce{-CHO}",
+      "meaning": "অ্যালডিহাইড গোষ্ঠী",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\ce{>C=O}",
+      "meaning": "কার্বোনাইল গোষ্ঠী (কিটোন)",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\ce{-COOH}",
+      "meaning": "কার্বক্সিল গোষ্ঠী (কার্বক্সিলিক অম্ল)",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\ce{-NH2}",
+      "meaning": "অ্যামিনো গোষ্ঠী (অ্যামিন)",
+      "unit": "—"
+    }
   ],
   "derivation": {
     "lead": "কার্যকরী গোষ্ঠী অণুর রাসায়নিক ধর্ম নির্ধারণ করে — একই গোষ্ঠী থাকলে সদৃশ বিক্রিয়া।",
@@ -25,7 +58,9 @@
         "note": "IUPAC নামকরণে গোষ্ঠী অনুসারে প্রত্যয় নির্ধারিত (-ol, -al, -one, -oic acid)"
       }
     ],
-    "assumptions": ["প্রধান শৃঙ্খল নির্বাচন গোষ্ঠী ধারণকারী দীর্ঘতম শৃঙ্খল"]
+    "assumptions": [
+      "প্রধান শৃঙ্খল নির্বাচন গোষ্ঠী ধারণকারী দীর্ঘতম শৃঙ্খল"
+    ]
   },
   "questions": [
     {

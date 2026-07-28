@@ -4,16 +4,42 @@
   "titleBn": "গ্যালভানোমিটার থেকে অ্যামিটার (শাণ্ট রূপান্তর)",
   "latex": "S = \\frac{I_g \\cdot G}{I - I_g}",
   "summary": "গ্যালভানোমিটারের সাথে সমান্তরালে ক্ষুদ্র মানের রোধ (Shunt S) যুক্ত করে অ্যামিটারে রূপান্তর।",
-  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 3,
-  "subjects": ["physics"],
-  "related": ["galvanometer-voltmeter"],
+  "order": 210,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "galvanometer-voltmeter"
+  ],
   "symbols": [
-    { "symbol": "S", "meaning": "শাণ্ট রোধের মান", "unit": "Ω" },
-    { "symbol": "G", "meaning": "গ্যালভানোমিটারের অভ্যন্তরীণ রোধ", "unit": "Ω" },
-    { "symbol": "I_g", "meaning": "গ্যালভানোমিটারের সর্বোচ্চ প্রবাহ ক্ষমতা", "unit": "A" },
-    { "symbol": "I", "meaning": "অ্যামিটার দ্বারা পরিমাপযোগ্য মোট বিদ্যুৎপ্রবাহ", "unit": "A" }
+    {
+      "symbol": "S",
+      "meaning": "শাণ্ট রোধের মান",
+      "unit": "Ω"
+    },
+    {
+      "symbol": "G",
+      "meaning": "গ্যালভানোমিটারের অভ্যন্তরীণ রোধ",
+      "unit": "Ω"
+    },
+    {
+      "symbol": "I_g",
+      "meaning": "গ্যালভানোমিটারের সর্বোচ্চ প্রবাহ ক্ষমতা",
+      "unit": "A"
+    },
+    {
+      "symbol": "I",
+      "meaning": "অ্যামিটার দ্বারা পরিমাপযোগ্য মোট বিদ্যুৎপ্রবাহ",
+      "unit": "A"
+    }
   ],
   "derivation": {
     "lead": "গ্যালভানোমিটার ও শাণ্ট সমান্তরালে যুক্ত থাকায় উভয়ের বিভব পার্থক্য সমান হয়:",
@@ -29,7 +55,9 @@
         "note": "অ্যামিটারের পাল্লা n গুণ বাড়াতে $S = \\frac{G}{n - 1}$ ব্যবহৃত হয়।"
       }
     ],
-    "assumptions": ["গ্যালভানোমিটারের সর্বোচ্চ প্রবাহসীমা $I_g$ অতিক্রম করা যাবে না।"]
+    "assumptions": [
+      "গ্যালভানোমিটারের সর্বোচ্চ প্রবাহসীমা $I_g$ অতিক্রম করা যাবে না।"
+    ]
   },
   "questions": [
     {

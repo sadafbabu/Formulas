@@ -10,6 +10,7 @@
     "3-star"
   ],
   "importance": 3,
+  "order": 60,
   "symbols": [
     {
       "symbol": "\\sin^{-1}, \\cos^{-1}",

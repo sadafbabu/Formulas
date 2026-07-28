@@ -4,17 +4,48 @@
   "titleBn": "লরেঞ্জ বল",
   "latex": "\\vec{F} = q(\\vec{E} + \\vec{v} \\times \\vec{B})",
   "summary": "তড়িৎ ক্ষেত্র (E) ও চৌম্বক ক্ষেত্র (B) উভয় বিদ্যমান স্থানে গতিশীল আধানের ওপর প্রযুক্ত মোট বল।",
-  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 3,
-  "subjects": ["physics"],
-  "related": ["force-on-wire", "cyclotron-radius"],
+  "order": 110,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "force-on-wire",
+    "cyclotron-radius"
+  ],
   "symbols": [
-    { "symbol": "\\vec{F}", "meaning": "লরেঞ্জ বল ভেক্টর", "unit": "N" },
-    { "symbol": "q", "meaning": "গতিশীল কণার আধান", "unit": "C" },
-    { "symbol": "\\vec{E}", "meaning": "তড়িৎ ক্ষেত্র ভেক্টর", "unit": "V/m বা N/C" },
-    { "symbol": "\\vec{v}", "meaning": "কণার বেগ ভেক্টর", "unit": "m/s" },
-    { "symbol": "\\vec{B}", "meaning": "চৌম্বক ক্ষেত্র ভেক্টর", "unit": "T" }
+    {
+      "symbol": "\\vec{F}",
+      "meaning": "লরেঞ্জ বল ভেক্টর",
+      "unit": "N"
+    },
+    {
+      "symbol": "q",
+      "meaning": "গতিশীল কণার আধান",
+      "unit": "C"
+    },
+    {
+      "symbol": "\\vec{E}",
+      "meaning": "তড়িৎ ক্ষেত্র ভেক্টর",
+      "unit": "V/m বা N/C"
+    },
+    {
+      "symbol": "\\vec{v}",
+      "meaning": "কণার বেগ ভেক্টর",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "\\vec{B}",
+      "meaning": "চৌম্বক ক্ষেত্র ভেক্টর",
+      "unit": "T"
+    }
   ],
   "derivation": {
     "lead": "তড়িৎ বল ও চৌম্বক বলের ভেক্টর সংযোজন:",
@@ -30,7 +61,9 @@
         "note": "যখন লরেঞ্জ বল শূন্য হয় ($F = 0$), কণাটি অবিকৃত বেগে সরলরেখায় যায়।"
       }
     ],
-    "assumptions": ["কণাটির ওপর কোনো মহাকর্ষীয় বল বিবেচনা করা হয়নি।"]
+    "assumptions": [
+      "কণাটির ওপর কোনো মহাকর্ষীয় বল বিবেচনা করা হয়নি।"
+    ]
   },
   "questions": [
     {

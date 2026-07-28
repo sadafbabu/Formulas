@@ -4,16 +4,43 @@
   "titleBn": "কুণ্ডলীতে টর্ক",
   "latex": "\\tau = M B \\sin \\theta",
   "summary": "সুষম B-তে অবস্থিত প্রবাহকুণ্ডলীর ওপর প্রযুক্ত ঘূর্ণন টর্ক।",
-  "tags": ["hsc", "eng-admission", "varsity", "2-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 2,
-  "subjects": ["physics"],
-  "related": ["magnetic-moment", "lorentz"],
+  "order": 140,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "magnetic-moment",
+    "lorentz"
+  ],
   "symbols": [
-    { "symbol": "\\tau", "meaning": "প্রযুক্ত টর্ক", "unit": "N·m" },
-    { "symbol": "M", "meaning": "কুণ্ডলীর চৌম্বক ভ্রামক (NIA)", "unit": "A·m²" },
-    { "symbol": "B", "meaning": "বাইরের সুষম চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "\\theta", "meaning": "চৌম্বক ক্ষেত্র B ও কুণ্ডলীর লম্ব (মেৰু ভেক্টর M)-এর মধ্যবর্তী কোণ", "unit": "°" }
+    {
+      "symbol": "\\tau",
+      "meaning": "প্রযুক্ত টর্ক",
+      "unit": "N·m"
+    },
+    {
+      "symbol": "M",
+      "meaning": "কুণ্ডলীর চৌম্বক ভ্রামক (NIA)",
+      "unit": "A·m²"
+    },
+    {
+      "symbol": "B",
+      "meaning": "বাইরের সুষম চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "চৌম্বক ক্ষেত্র B ও কুণ্ডলীর লম্ব (মেৰু ভেক্টর M)-এর মধ্যবর্তী কোণ",
+      "unit": "°"
+    }
   ],
   "derivation": {
     "lead": "ভেক্টর ক্রস গুণন সমীকরণ:",
@@ -24,7 +51,9 @@
         "note": "কুণ্ডলী চৌম্বক ক্ষেত্রের সমান্তরালে থাকলে টর্ক সর্বোচ্চ ($\\theta = 90^\\circ$) হয়।"
       }
     ],
-    "assumptions": ["চৌম্বক ক্ষেত্রটি সুষম।"]
+    "assumptions": [
+      "চৌম্বক ক্ষেত্রটি সুষম।"
+    ]
   },
   "questions": [
     {

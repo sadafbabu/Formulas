@@ -5,13 +5,36 @@
   "titleBn": "টর্ক এবং কৌণিক ত্বরণ",
   "summary": "ঘূর্ণন গতিতে বলের ভ্রামক বা টর্কের সমীকরণ",
   "latex": "\\tau = I \\alpha = r F \\sin\\theta",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 50,
   "symbols": [
-    { "symbol": "\\tau", "meaning": "টর্ক বা বলের ভ্রামক", "unit": "N·m" },
-    { "symbol": "I", "meaning": "জড়তার ভ্রামক (Moment of Inertia)", "unit": "kg·m²" },
-    { "symbol": "\\alpha", "meaning": "কৌণিক ত্বরণ", "unit": "rad/s²" },
-    { "symbol": "r", "meaning": "ঘূর্ণন অক্ষ হতে বলের দূরত্ব", "unit": "m" }
+    {
+      "symbol": "\\tau",
+      "meaning": "টর্ক বা বলের ভ্রামক",
+      "unit": "N·m"
+    },
+    {
+      "symbol": "I",
+      "meaning": "জড়তার ভ্রামক (Moment of Inertia)",
+      "unit": "kg·m²"
+    },
+    {
+      "symbol": "\\alpha",
+      "meaning": "কৌণিক ত্বরণ",
+      "unit": "rad/s²"
+    },
+    {
+      "symbol": "r",
+      "meaning": "ঘূর্ণন অক্ষ হতে বলের দূরত্ব",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "রৈখিক টর্ক ও জড়তার ভ্রামক সম্পর্ক F = ma থেকে সংজ্ঞায়িত।",

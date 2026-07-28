@@ -5,15 +5,44 @@
   "titleBn": "বৃত্তের সমীকরণ",
   "summary": "কেন্দ্র ও ব্যাসার্ধ থেকে বৃত্তের সাধারণ ও প্রমাণ সমীকরণ",
   "latex": "(x-h)^2 + (y-k)^2 = r^2, \\quad x^2 + y^2 + 2gx + 2fy + c = 0",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
-  "subjects": ["math"],
-  "related": ["distance-formula", "equation-forms", "perpendicular-distance"],
+  "order": 60,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "distance-formula",
+    "equation-forms",
+    "perpendicular-distance"
+  ],
   "symbols": [
-    { "symbol": "(h,k)", "meaning": "বৃত্তের কেন্দ্র", "unit": "বিন্দু" },
-    { "symbol": "r", "meaning": "ব্যাসার্ধ", "unit": "একক" },
-    { "symbol": "(-g,-f)", "meaning": "সাধারণ রূপের কেন্দ্র", "unit": "বিন্দু" },
-    { "symbol": "c", "meaning": "ধ্রুবক পদ", "unit": "—" }
+    {
+      "symbol": "(h,k)",
+      "meaning": "বৃত্তের কেন্দ্র",
+      "unit": "বিন্দু"
+    },
+    {
+      "symbol": "r",
+      "meaning": "ব্যাসার্ধ",
+      "unit": "একক"
+    },
+    {
+      "symbol": "(-g,-f)",
+      "meaning": "সাধারণ রূপের কেন্দ্র",
+      "unit": "বিন্দু"
+    },
+    {
+      "symbol": "c",
+      "meaning": "ধ্রুবক পদ",
+      "unit": "—"
+    }
   ],
   "derivation": {
     "lead": "বৃত্তের কেন্দ্র থেকে যেকোনো বিন্দুর দূরত্ব = ব্যাসার্ধ (দূরত্ব সূত্র প্রয়োগ)।",
@@ -24,7 +53,9 @@
         "note": "বৃত্ত বাস্তব হতে হলে g² + f² - c > 0"
       }
     ],
-    "assumptions": ["x² ও y² এর সহগ সমান (1 ধরা হয়েছে)"]
+    "assumptions": [
+      "x² ও y² এর সহগ সমান (1 ধরা হয়েছে)"
+    ]
   },
   "questions": [
     {

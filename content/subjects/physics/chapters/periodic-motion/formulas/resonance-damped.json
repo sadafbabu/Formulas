@@ -9,6 +9,7 @@
     "1-star"
   ],
   "importance": 1,
+  "order": 50,
   "symbols": [
     {
       "symbol": "\\gamma",

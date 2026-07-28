@@ -4,17 +4,47 @@
   "titleBn": "ভর স্পেকট্রোমিটার সূত্র",
   "latex": "m = \\frac{q B^2 r^2}{2 V}",
   "summary": "বিভব পার্থক্য V দ্বারা ত্বরান্বিত এবং B চৌম্বক ক্ষেত্রে ঘুরানো আইসোটোপের ভর নির্ণয় সূত্র।",
-  "tags": ["eng-admission", "varsity", "3-star"],
+  "tags": [
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 3,
-  "subjects": ["physics"],
-  "related": ["cyclotron-radius", "moving-charge-energy"],
+  "order": 350,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "cyclotron-radius",
+    "moving-charge-energy"
+  ],
   "symbols": [
-    { "symbol": "m", "meaning": "আয়ন বা কণার ভর", "unit": "kg" },
-    { "symbol": "q", "meaning": "আয়নের আধান", "unit": "C" },
-    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "r", "meaning": "বিক্ষিপ্ত বৃত্তাকার ঘূর্ণন পথের ব্যাসার্ধ", "unit": "m" },
-    { "symbol": "V", "meaning": "ত্বরণীয় বিভব পার্থক্য", "unit": "V" }
+    {
+      "symbol": "m",
+      "meaning": "আয়ন বা কণার ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "q",
+      "meaning": "আয়নের আধান",
+      "unit": "C"
+    },
+    {
+      "symbol": "B",
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "r",
+      "meaning": "বিক্ষিপ্ত বৃত্তাকার ঘূর্ণন পথের ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "V",
+      "meaning": "ত্বরণীয় বিভব পার্থক্য",
+      "unit": "V"
+    }
   ],
   "derivation": {
     "lead": "তড়িৎ গতিশক্তি $qV = \\frac{1}{2} m v^2$ ও ব্যাসার্ধ $r = mv / qB$ সমবায়:",
@@ -25,7 +55,9 @@
         "note": "আইসোটোপসমূহের ভর পার্থক্যের কারণে ফোটোগ্রাফিক প্লেটে বিভিন্ন ব্যাসার্ধ r-এ দাগ ফেলে।"
       }
     ],
-    "assumptions": ["আয়নগুলো এককভাবে চার্জিত এবং প্রাথমিক স্থির অবস্থান থেকে ত্বরান্বিত।"]
+    "assumptions": [
+      "আয়নগুলো এককভাবে চার্জিত এবং প্রাথমিক স্থির অবস্থান থেকে ত্বরান্বিত।"
+    ]
   },
   "questions": [
     {

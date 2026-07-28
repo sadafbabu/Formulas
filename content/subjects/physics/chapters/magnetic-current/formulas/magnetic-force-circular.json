@@ -5,18 +5,59 @@
   "titleBn": "চৌম্বক ক্ষেত্রে আধানের বৃত্তাকার গতি",
   "summary": "লরেঞ্জ বলের প্রভাবে আধান বৃত্তাকার পথে গতিশীল — ব্যাসার্ধ ও পর্যায়কাল",
   "latex": "r = \\frac{mv}{qB}, \\quad T = \\frac{2\\pi m}{qB}, \\quad \\omega = \\frac{qB}{m}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
-  "subjects": ["physics"],
-  "related": ["lorentz", "cyclotron-radius", "cyclotron-freq"],
+  "order": 360,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "lorentz",
+    "cyclotron-radius",
+    "cyclotron-freq"
+  ],
   "symbols": [
-    { "symbol": "r", "meaning": "বৃত্তের ব্যাসার্ধ", "unit": "m" },
-    { "symbol": "T", "meaning": "পর্যায়কাল", "unit": "s" },
-    { "symbol": "\\omega", "meaning": "কৌণিক কম্পাঙ্ক", "unit": "rad/s" },
-    { "symbol": "m", "meaning": "আধানের ভর", "unit": "kg" },
-    { "symbol": "v", "meaning": "আধানের বেগ", "unit": "m/s" },
-    { "symbol": "q", "meaning": "আধানের মান", "unit": "C" },
-    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" }
+    {
+      "symbol": "r",
+      "meaning": "বৃত্তের ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "T",
+      "meaning": "পর্যায়কাল",
+      "unit": "s"
+    },
+    {
+      "symbol": "\\omega",
+      "meaning": "কৌণিক কম্পাঙ্ক",
+      "unit": "rad/s"
+    },
+    {
+      "symbol": "m",
+      "meaning": "আধানের ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "v",
+      "meaning": "আধানের বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "q",
+      "meaning": "আধানের মান",
+      "unit": "C"
+    },
+    {
+      "symbol": "B",
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    }
   ],
   "derivation": {
     "lead": "v ⊥ B হলে লরেঞ্জ বল অনুভূমিক বেগের লম্বদিকে ক্রিয়া করে বৃত্তাকার গতি সৃষ্টি করে।",
@@ -27,7 +68,10 @@
         "note": "পর্যায়কাল বেগের উপর নির্ভর করে না — cyclotron-এর মূল নীতি"
       }
     ],
-    "assumptions": ["v ও B পরস্পর লম্ব", "বায়ু ঘর্ষণ উপেক্ষা"]
+    "assumptions": [
+      "v ও B পরস্পর লম্ব",
+      "বায়ু ঘর্ষণ উপেক্ষা"
+    ]
   },
   "questions": [
     {

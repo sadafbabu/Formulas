@@ -5,14 +5,39 @@
   "titleBn": "pH, pOH ও পানির আয়ন গুণফল",
   "summary": "অম্ল-ক্ষার মাত্রা পরিমাপ, পানির আয়নীকরণ ধ্রুবক ও সম্পর্ক",
   "latex": "\\ce{pH = -\\log[H^+]}, \\quad \\ce{pOH = -\\log[OH^-]}, \\quad \\ce{K_w = [H^+][OH^-] = 10^{-14}}, \\quad \\ce{pH + pOH = 14}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
-  "subjects": ["chemistry"],
-  "related": ["buffer-solution", "solubility-product"],
+  "order": 50,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "buffer-solution",
+    "solubility-product"
+  ],
   "symbols": [
-    { "symbol": "\\ce{pH}", "meaning": "হাইড্রোজেন আয়ন ঘনমাত্রার ঋণাত্মক লগ", "unit": "মাত্রাহীন" },
-    { "symbol": "\\ce{pOH}", "meaning": "হাইড্রক্সিল আয়ন ঘনমাত্রার ঋণাত্মক লগ", "unit": "মাত্রাহীন" },
-    { "symbol": "K_w", "meaning": "পানির আয়ন গুণফল", "unit": "mol²/L²", "value": "10⁻¹⁴" }
+    {
+      "symbol": "\\ce{pH}",
+      "meaning": "হাইড্রোজেন আয়ন ঘনমাত্রার ঋণাত্মক লগ",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "\\ce{pOH}",
+      "meaning": "হাইড্রক্সিল আয়ন ঘনমাত্রার ঋণাত্মক লগ",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "K_w",
+      "meaning": "পানির আয়ন গুণফল",
+      "unit": "mol²/L²",
+      "value": "10⁻¹⁴"
+    }
   ],
   "derivation": {
     "lead": "পানির আয়নীকরণ: \\ce{H2O <=> H^+ + OH^-}। 25°C তে [H⁺][OH⁻] = 10⁻¹⁴।",
@@ -23,7 +48,9 @@
         "note": "বিশুদ্ধ পানি: pH = 7 (প্রশম), অম্ল: pH < 7, ক্ষার: pH > 7"
       }
     ],
-    "assumptions": ["25°C তাপমাত্রায় K_w = 10⁻¹⁴"]
+    "assumptions": [
+      "25°C তাপমাত্রায় K_w = 10⁻¹⁴"
+    ]
   },
   "questions": [
     {

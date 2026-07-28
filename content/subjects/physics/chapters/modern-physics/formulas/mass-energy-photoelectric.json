@@ -5,14 +5,41 @@
   "titleBn": "ফটোতড়িৎ ক্রিয়া ও ভর-শক্তি সমীকরণ",
   "summary": "আইনস্টাইনের ফটোইলেকট্রিক সমীকরণ ও ভর-শক্তি রূপান্তর",
   "latex": "E = h f = K_{\\max} + W_0, \\quad E = m c^2",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 20,
   "symbols": [
-    { "symbol": "E", "meaning": "ফোটনের শক্তি", "unit": "J (Joule) বা eV" },
-    { "symbol": "h", "meaning": "প্ল্যাঙ্কের ধ্রুবক (6.63 × 10⁻³⁴)", "unit": "J·s" },
-    { "symbol": "f", "meaning": "আপতিত আলোর কম্পাঙ্ক", "unit": "Hz" },
-    { "symbol": "W_0", "meaning": "ধাতুর কার্যাপেক্ষক (Work Function)", "unit": "J বা eV" },
-    { "symbol": "c", "meaning": "আলোর বেগ (3 × 10⁸)", "unit": "m/s" }
+    {
+      "symbol": "E",
+      "meaning": "ফোটনের শক্তি",
+      "unit": "J (Joule) বা eV"
+    },
+    {
+      "symbol": "h",
+      "meaning": "প্ল্যাঙ্কের ধ্রুবক (6.63 × 10⁻³⁴)",
+      "unit": "J·s"
+    },
+    {
+      "symbol": "f",
+      "meaning": "আপতিত আলোর কম্পাঙ্ক",
+      "unit": "Hz"
+    },
+    {
+      "symbol": "W_0",
+      "meaning": "ধাতুর কার্যাপেক্ষক (Work Function)",
+      "unit": "J বা eV"
+    },
+    {
+      "symbol": "c",
+      "meaning": "আলোর বেগ (3 × 10⁸)",
+      "unit": "m/s"
+    }
   ],
   "derivation": {
     "lead": "আপতিত ফোটনের শক্তিধাতু হতে ইলেকট্রন মুক্ত করতে ও গতিশক্তি যোগাতে ব্যবহৃত হয়।",

@@ -5,11 +5,26 @@
   "titleBn": "হুইটস্টোন ব্রীজ নীতি",
   "summary": "চারটি রোধ দ্বারা তৈরি ব্রীজের সাম্যাবস্থার শর্ত",
   "latex": "\\frac{P}{Q} = \\frac{R}{S}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 30,
   "symbols": [
-    { "symbol": "P, Q", "meaning": "প্রথম ও দ্বিতীয় বাহুর রোধ", "unit": "Ω" },
-    { "symbol": "R, S", "meaning": "তৃতীয় ও চতুর্থ বাহুর রোধ", "unit": "Ω" }
+    {
+      "symbol": "P, Q",
+      "meaning": "প্রথম ও দ্বিতীয় বাহুর রোধ",
+      "unit": "Ω"
+    },
+    {
+      "symbol": "R, S",
+      "meaning": "তৃতীয় ও চতুর্থ বাহুর রোধ",
+      "unit": "Ω"
+    }
   ],
   "derivation": {
     "lead": "গ্যালভানোমিটারে কোনো প্রবাহ না থাকলে ব্রীজ সাম্যাবস্থায় পৌঁছায়।",

@@ -4,16 +4,43 @@
   "titleBn": "বৃত্তাকার কুণ্ডলীর কেন্দ্রে চৌম্বক ক্ষেত্র",
   "latex": "B = \\frac{\\mu_0 N I}{2 r}",
   "summary": "N সংখ্যক পাকবিশিষ্ট r ব্যাসার্ধের বৃত্তাকার পরিবাহী কুণ্ডলীর কেন্দ্রে সৃষ্ট চৌম্বক ক্ষেত্র।",
-  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 3,
-  "subjects": ["physics"],
-  "related": ["loop-axis", "biot-savart"],
+  "order": 40,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "loop-axis",
+    "biot-savart"
+  ],
   "symbols": [
-    { "symbol": "B", "meaning": "কেন্দ্রীয় চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "N", "meaning": "কুণ্ডলীর পাকসংখ্যা", "unit": "মাত্রাচ্ছন্ন" },
-    { "symbol": "I", "meaning": "বিদ্যুৎপ্রবাহ", "unit": "A" },
-    { "symbol": "r", "meaning": "কুণ্ডলীর ব্যাসার্ধ", "unit": "m" }
+    {
+      "symbol": "B",
+      "meaning": "কেন্দ্রীয় চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "N",
+      "meaning": "কুণ্ডলীর পাকসংখ্যা",
+      "unit": "মাত্রাচ্ছন্ন"
+    },
+    {
+      "symbol": "I",
+      "meaning": "বিদ্যুৎপ্রবাহ",
+      "unit": "A"
+    },
+    {
+      "symbol": "r",
+      "meaning": "কুণ্ডলীর ব্যাসার্ধ",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "বায়োট-সাভার্ট সূত্র প্রয়োগ করে কেন্দ্রে চৌম্বক ক্ষেত্র:",
@@ -29,7 +56,9 @@
         "note": "পাকসংখ্যা বাড়লে চৌম্বক ক্ষেত্র সমানুপাতিকভাবে বৃদ্ধি পায়।"
       }
     ],
-    "assumptions": ["কুণ্ডলীটি সমতল এবং সবকটি পাক সমঅক্ষীয়।"]
+    "assumptions": [
+      "কুণ্ডলীটি সমতল এবং সবকটি পাক সমঅক্ষীয়।"
+    ]
   },
   "questions": [
     {

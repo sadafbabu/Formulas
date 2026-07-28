@@ -5,14 +5,38 @@
   "titleBn": "সীমা ও লিহপিতাল নীতি",
   "summary": "অনির্ণয় রূপ (0/0, ∞/∞) সীমা নির্ণয়ে লিহপিটাল নীতি প্রয়োগ",
   "latex": "\\lim_{x \\to a} \\frac{f(x)}{g(x)} \\Big|_{0/0} = \\lim_{x \\to a} \\frac{f'(x)}{g'(x)}",
-  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
-  "subjects": ["math"],
-  "related": ["differentiation-chain-rule", "product-quotient-rule", "fundamental-theorem"],
+  "order": 60,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "differentiation-chain-rule",
+    "product-quotient-rule",
+    "fundamental-theorem"
+  ],
   "symbols": [
-    { "symbol": "\\lim", "meaning": "সীমা পরিচালক", "unit": "—" },
-    { "symbol": "f'(x)", "meaning": "f(x) এর অবকলন", "unit": "—" },
-    { "symbol": "0/0, \\infty/\\infty", "meaning": "অনির্ণয় রূপ", "unit": "—" }
+    {
+      "symbol": "\\lim",
+      "meaning": "সীমা পরিচালক",
+      "unit": "—"
+    },
+    {
+      "symbol": "f'(x)",
+      "meaning": "f(x) এর অবকলন",
+      "unit": "—"
+    },
+    {
+      "symbol": "0/0, \\infty/\\infty",
+      "meaning": "অনির্ণয় রূপ",
+      "unit": "—"
+    }
   ],
   "derivation": {
     "lead": "সীমার মান সরাসরি বসালে 0/0 বা ∞/∞ হলে, লব ও হর পৃথকভাবে অবকলন করে আবার মান বসানো যায়।",
@@ -23,7 +47,9 @@
         "note": "একাধিকবার প্রয়োগ করা যায় যতবার না অনির্ণয় রূপ দূর হয়"
       }
     ],
-    "assumptions": ["f ও g অবকলনযোগ্য, a-এর কাছে"]
+    "assumptions": [
+      "f ও g অবকলনযোগ্য, a-এর কাছে"
+    ]
   },
   "questions": [
     {

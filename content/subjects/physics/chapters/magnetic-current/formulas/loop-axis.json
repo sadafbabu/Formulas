@@ -4,16 +4,43 @@
   "titleBn": "বৃত্তাকার কুণ্ডলীর অক্ষের উপর চৌম্বক ক্ষেত্র",
   "latex": "B = \\frac{\\mu_0 N I a^2}{2(a^2 + x^2)^{3/2}}",
   "summary": "a ব্যাসার্ধের কুণ্ডলীর কেন্দ্র থেকে অক্ষ বরাবর x দূরত্বে অবস্থিত বিন্দুর চৌম্বক ক্ষেত্র।",
-  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 3,
-  "subjects": ["physics"],
-  "related": ["loop-center", "biot-savart"],
+  "order": 50,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "loop-center",
+    "biot-savart"
+  ],
   "symbols": [
-    { "symbol": "B", "meaning": "অক্ষীয় চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "a", "meaning": "কুণ্ডলীর ব্যাসার্ধ", "unit": "m" },
-    { "symbol": "x", "meaning": "কেন্দ্র থেকে অক্ষ বরাবর বিন্দুর দূরত্ব", "unit": "m" },
-    { "symbol": "N", "meaning": "পাকসংখ্যা", "unit": "মাত্রাচ্ছন্ন" }
+    {
+      "symbol": "B",
+      "meaning": "অক্ষীয় চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "a",
+      "meaning": "কুণ্ডলীর ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "x",
+      "meaning": "কেন্দ্র থেকে অক্ষ বরাবর বিন্দুর দূরত্ব",
+      "unit": "m"
+    },
+    {
+      "symbol": "N",
+      "meaning": "পাকসংখ্যা",
+      "unit": "মাত্রাচ্ছন্ন"
+    }
   ],
   "derivation": {
     "lead": "অক্ষের ওপর লম্ব উপাংশগুলোর সমষ্টি:",
@@ -29,7 +56,9 @@
         "note": "যদি $x = 0$ হয় তবে কেন্দ্রীয় সূত্রের রূপ নেয়।"
       }
     ],
-    "assumptions": ["কুণ্ডলী সমতল এবং অক্ষের ওপর বিন্দুটি কুণ্ডলীর সমতলের লম্বালম্বি অবস্থিত।"]
+    "assumptions": [
+      "কুণ্ডলী সমতল এবং অক্ষের ওপর বিন্দুটি কুণ্ডলীর সমতলের লম্বালম্বি অবস্থিত।"
+    ]
   },
   "questions": [
     {

@@ -4,16 +4,43 @@
   "titleBn": "ট্যানজেন্ট গ্যালভানোমিটার সূত্র",
   "latex": "I = K \\tan \\theta, \\quad K = \\frac{2 r B_H}{\\mu_0 N}",
   "summary": "ট্যানজেন্ট সূত্রের ওপর ভিত্তি করে নির্মিত সূক্ষ্ম প্রবাহ পরিমাপক যন্ত্রের নীতি।",
-  "tags": ["hsc", "eng-admission", "varsity", "1-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "1-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 1,
-  "subjects": ["physics"],
-  "related": ["earth-magnetism", "loop-center"],
+  "order": 230,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "earth-magnetism",
+    "loop-center"
+  ],
   "symbols": [
-    { "symbol": "I", "meaning": "পরিমাপযোগ্য বিদ্যুৎপ্রবাহ", "unit": "A" },
-    { "symbol": "K", "meaning": "গ্যালভানোমিটার হ্রাস গুণক (Reduction Factor)", "unit": "A" },
-    { "symbol": "\\theta", "meaning": "চৌম্বক শলাকার বিক্ষেপ কোণ", "unit": "°" },
-    { "symbol": "B_H", "meaning": "ভূ-চৌম্বক ক্ষেত্রের অনুভূমিক উপাংশ", "unit": "T" }
+    {
+      "symbol": "I",
+      "meaning": "পরিমাপযোগ্য বিদ্যুৎপ্রবাহ",
+      "unit": "A"
+    },
+    {
+      "symbol": "K",
+      "meaning": "গ্যালভানোমিটার হ্রাস গুণক (Reduction Factor)",
+      "unit": "A"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "চৌম্বক শলাকার বিক্ষেপ কোণ",
+      "unit": "°"
+    },
+    {
+      "symbol": "B_H",
+      "meaning": "ভূ-চৌম্বক ক্ষেত্রের অনুভূমিক উপাংশ",
+      "unit": "T"
+    }
   ],
   "derivation": {
     "lead": "দুই লম্ব চৌম্বক ক্ষেত্র B ও B_H এর ট্যানজেন্ট সূত্র সমতা:",
@@ -24,7 +51,9 @@
         "note": "বিক্ষেপ $\\theta = 45^\\circ$ হলে পরিমাপের নির্ভুলতা সর্বোচ্চ হয়।"
       }
     ],
-    "assumptions": ["কুণ্ডলীটি চৌম্বক মধ্যতলের (Magnetic Meridian) সমান্তরালে স্থাপিত।"]
+    "assumptions": [
+      "কুণ্ডলীটি চৌম্বক মধ্যতলের (Magnetic Meridian) সমান্তরালে স্থাপিত।"
+    ]
   },
   "questions": [
     {

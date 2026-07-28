@@ -61,6 +61,8 @@ export interface Formula {
   chapter: string
   paper?: PaperId
   importance?: 1 | 2 | 3 // 1 to 3 grey stars (3 being highest / most important)
+  /** Position within its chapter; lower shows first. Unordered formulas sort last, by id. */
+  order?: number
   subjects: string[]
   related: string[]
   symbols: SymbolInfo[]

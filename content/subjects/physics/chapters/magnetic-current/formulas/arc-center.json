@@ -4,16 +4,43 @@
   "titleBn": "বৃত্তাকার চাপের কেন্দ্রে চৌম্বক ক্ষেত্র",
   "latex": "B = \\frac{\\mu_0 I \\theta}{4\\pi r}",
   "summary": "r ব্যাসার্ধের বৃত্তাকারের একটি চাপ কেন্দ্রের সাথে θ কোণ (রেডিয়ানে) উৎপন্ন করলে কেন্দ্রে সৃষ্ট চৌম্বক ক্ষেত্র।",
-  "tags": ["hsc", "eng-admission", "varsity", "2-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 2,
-  "subjects": ["physics"],
-  "related": ["loop-center", "biot-savart"],
+  "order": 60,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "loop-center",
+    "biot-savart"
+  ],
   "symbols": [
-    { "symbol": "B", "meaning": "চাপের কেন্দ্রে চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "I", "meaning": "বিদ্যুৎপ্রবাহ", "unit": "A" },
-    { "symbol": "\\theta", "meaning": "কেন্দ্রীয় কোণ", "unit": "rad (রেডিয়ান)" },
-    { "symbol": "r", "meaning": "চাপের ব্যাসার্ধ", "unit": "m" }
+    {
+      "symbol": "B",
+      "meaning": "চাপের কেন্দ্রে চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "I",
+      "meaning": "বিদ্যুৎপ্রবাহ",
+      "unit": "A"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "কেন্দ্রীয় কোণ",
+      "unit": "rad (রেডিয়ান)"
+    },
+    {
+      "symbol": "r",
+      "meaning": "চাপের ব্যাসার্ধ",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "বায়োট-সাভার্ট সূত্র প্রয়োগে চাপের ক্ষেত্রে সমাকলন:",
@@ -24,7 +51,9 @@
         "note": "সম্পূর্ণ বৃত্তের জন্য $\\theta = 2\\pi$ বসালে $B = \\frac{\\mu_0 I}{2r}$ পাওয়া যায়।"
       }
     ],
-    "assumptions": ["কোণ $\\theta$ অবশ্যই রেডিয়ানে বসাতে হবে।"]
+    "assumptions": [
+      "কোণ $\\theta$ অবশ্যই রেডিয়ানে বসাতে হবে।"
+    ]
   },
   "questions": [
     {

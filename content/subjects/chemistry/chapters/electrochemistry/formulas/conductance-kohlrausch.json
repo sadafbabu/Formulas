@@ -5,13 +5,36 @@
   "titleBn": "মোলার পরিবাহিতাও কোলরাউশের সূত্র",
   "summary": "তড়িৎ বিশ্লেষ্যের মোলার পরিবাহিতা ও অসীম লঘুতায় তুল্য পরিবাহিতা",
   "latex": "\\Lambda_m = \\frac{\\kappa \\times 1000}{M}, \\quad \\Lambda_m^\\circ = \\nu_+ \\lambda_+^\\circ + \\nu_- \\lambda_-^\\circ",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 10,
   "symbols": [
-    { "symbol": "\\Lambda_m", "meaning": "মোলার পরিবাহিতা", "unit": "S·cm²/mol" },
-    { "symbol": "\\kappa", "meaning": "আপেক্ষিক পরিবাহিতা (Koppa)", "unit": "S/cm" },
-    { "symbol": "M", "meaning": "মোলারিটি (ঘনমাত্রা)", "unit": "mol/L" },
-    { "symbol": "\\Lambda_m^\\circ", "meaning": "অসীম লঘুতায় মোলার পরিবাহিতা", "unit": "S·cm²/mol" }
+    {
+      "symbol": "\\Lambda_m",
+      "meaning": "মোলার পরিবাহিতা",
+      "unit": "S·cm²/mol"
+    },
+    {
+      "symbol": "\\kappa",
+      "meaning": "আপেক্ষিক পরিবাহিতা (Koppa)",
+      "unit": "S/cm"
+    },
+    {
+      "symbol": "M",
+      "meaning": "মোলারিটি (ঘনমাত্রা)",
+      "unit": "mol/L"
+    },
+    {
+      "symbol": "\\Lambda_m^\\circ",
+      "meaning": "অসীম লঘুতায় মোলার পরিবাহিতা",
+      "unit": "S·cm²/mol"
+    }
   ],
   "derivation": {
     "lead": "অসীম লঘুতায় প্রতিটি আয়ন স্বাধীনভাবে তড়িৎ পরিবহনে অবদান রাখে।",

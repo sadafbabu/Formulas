@@ -4,17 +4,49 @@
   "titleBn": "তড়িৎবাহী সোজা তারের ওপর চৌম্বক বল",
   "latex": "F = I L B \\sin \\theta",
   "summary": "চৌম্বক ক্ষেত্রে অবস্থিত L দৈর্ঘ্যের তড়িৎবাহী পরিবাহীর ওপর ক্রিয়াশীল বল।",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 3,
-  "subjects": ["physics"],
-  "related": ["lorentz", "parallel-wires"],
+  "order": 90,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "lorentz",
+    "parallel-wires"
+  ],
   "symbols": [
-    { "symbol": "F", "meaning": "চৌম্বক বলের মান", "unit": "N" },
-    { "symbol": "I", "meaning": "বিদ্যুৎপ্রবাহ", "unit": "A" },
-    { "symbol": "L", "meaning": "পরিবাহীর দৈর্ঘ্য", "unit": "m" },
-    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্রের মান", "unit": "T" },
-    { "symbol": "\\theta", "meaning": "পরিবাহী ও B-এর অন্তর্বর্তী কোণ", "unit": "°" }
+    {
+      "symbol": "F",
+      "meaning": "চৌম্বক বলের মান",
+      "unit": "N"
+    },
+    {
+      "symbol": "I",
+      "meaning": "বিদ্যুৎপ্রবাহ",
+      "unit": "A"
+    },
+    {
+      "symbol": "L",
+      "meaning": "পরিবাহীর দৈর্ঘ্য",
+      "unit": "m"
+    },
+    {
+      "symbol": "B",
+      "meaning": "চৌম্বক ক্ষেত্রের মান",
+      "unit": "T"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "পরিবাহী ও B-এর অন্তর্বর্তী কোণ",
+      "unit": "°"
+    }
   ],
   "derivation": {
     "lead": "পরিবাহীতে বিদ্যমান সমমানের ইলেকট্রনের ওপর লরেঞ্জ বল সমাকলন করে:",
@@ -30,6 +62,8 @@
         "note": "ফ্লেমিংয়ের বামহস্ত নিয়ম দ্বারা বলের দিক নির্ধারিত হয়।"
       }
     ],
-    "assumptions": ["সুষম চৌম্বক ক্ষেত্র B তে পরিবাহী অবস্থিত।"]
+    "assumptions": [
+      "সুষম চৌম্বক ক্ষেত্র B তে পরিবাহী অবস্থিত।"
+    ]
   }
 }

@@ -5,12 +5,31 @@
   "titleBn": "ভেক্টর ডট গুণন ও অন্তর্ভুক্ত কোণ",
   "summary": "দুইটি ভেক্টরের স্কেলার গুণন ও তাদের অন্তর্ভুক্ত কোণ নির্ণয়",
   "latex": "\\mathbf{A} \\cdot \\mathbf{B} = |\\mathbf{A}||\\mathbf{B}| \\cos\\theta = A_x B_x + A_y B_y + A_z B_z, \\quad \\cos\\theta = \\frac{A_x B_x + A_y B_y + A_z B_z}{|\\mathbf{A}||\\mathbf{B}|}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 10,
   "symbols": [
-    { "symbol": "\\mathbf{A} \\cdot \\mathbf{B}", "meaning": "স্কেলার গুণফল", "unit": "সংখ্যা" },
-    { "symbol": "\\theta", "meaning": "ভেক্টরদ্বয়ের অন্তর্ভুক্ত কোণ", "unit": "ডিগ্রী (°)" },
-    { "symbol": "|\\mathbf{A}|", "meaning": "ভেক্টর A এর মান \\(\\sqrt{A_x^2 + A_y^2 + A_z^2}\\)", "unit": "একক" }
+    {
+      "symbol": "\\mathbf{A} \\cdot \\mathbf{B}",
+      "meaning": "স্কেলার গুণফল",
+      "unit": "সংখ্যা"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "ভেক্টরদ্বয়ের অন্তর্ভুক্ত কোণ",
+      "unit": "ডিগ্রী (°)"
+    },
+    {
+      "symbol": "|\\mathbf{A}|",
+      "meaning": "ভেক্টর A এর মান \\(\\sqrt{A_x^2 + A_y^2 + A_z^2}\\)",
+      "unit": "একক"
+    }
   ],
   "derivation": {
     "lead": "স্কেলার গুণনের সংজ্ঞা হতে লম্ব অভিক্ষেপ A cosθ এর মাধ্যমে প্রাপ্ত।",

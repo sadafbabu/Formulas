@@ -5,14 +5,41 @@
   "titleBn": "কাজ-শক্তি উপপাদ্য ও ক্ষমতা",
   "summary": "কাজের সংজ্ঞা, কাজ-শক্তি উপপাদ্য এবং ক্ষমতার সূত্র",
   "latex": "W = Fs\\cos\\theta, \\quad W_{net} = \\Delta KE = \\frac{1}{2}mv_f^2 - \\frac{1}{2}mv_i^2, \\quad P = \\frac{W}{t} = Fv",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 10,
   "symbols": [
-    { "symbol": "W", "meaning": "কার্য", "unit": "J (Joule)" },
-    { "symbol": "F", "meaning": "প্রযুক্ত বল", "unit": "N" },
-    { "symbol": "s", "meaning": "সরণ", "unit": "m" },
-    { "symbol": "\\theta", "meaning": "বল ও সরণের মধ্যবর্তী কোণ", "unit": "ডিগ্রী" },
-    { "symbol": "P", "meaning": "ক্ষমতা", "unit": "W (Watt)" }
+    {
+      "symbol": "W",
+      "meaning": "কার্য",
+      "unit": "J (Joule)"
+    },
+    {
+      "symbol": "F",
+      "meaning": "প্রযুক্ত বল",
+      "unit": "N"
+    },
+    {
+      "symbol": "s",
+      "meaning": "সরণ",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "বল ও সরণের মধ্যবর্তী কোণ",
+      "unit": "ডিগ্রী"
+    },
+    {
+      "symbol": "P",
+      "meaning": "ক্ষমতা",
+      "unit": "W (Watt)"
+    }
   ],
   "derivation": {
     "lead": "বল F এবং সরণ s এর মধ্যবর্তী কোণ θ হলে W = F·s·cosθ। যখন θ = 90°, কাজ শূন্য।",

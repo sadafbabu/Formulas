@@ -4,16 +4,44 @@
   "titleBn": "ঋজু তারের চৌম্বক ক্ষেত্র",
   "latex": "B = \\frac{\\mu_0 I}{2\\pi r}",
   "summary": "অসীম দৈর্ঘ্যের সোজা তড়িৎবাহী পরিবাহী থেকে r দূরত্বের যেকোনো বিন্দুতে সৃষ্ট চৌম্বক ক্ষেত্র।",
-  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 3,
-  "subjects": ["physics"],
-  "related": ["biot-savart", "parallel-wires"],
+  "order": 20,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "biot-savart",
+    "parallel-wires"
+  ],
   "symbols": [
-    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "\\mu_0", "meaning": "শূন্যস্থানের চৌম্বক প্রবেশ্যতা", "unit": "T·m/A", "value": "4π × 10⁻⁷" },
-    { "symbol": "I", "meaning": "বিদ্যুৎপ্রবাহ", "unit": "A" },
-    { "symbol": "r", "meaning": "তার থেকে বিন্দুর লম্ব দূরত্ব", "unit": "m" }
+    {
+      "symbol": "B",
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "\\mu_0",
+      "meaning": "শূন্যস্থানের চৌম্বক প্রবেশ্যতা",
+      "unit": "T·m/A",
+      "value": "4π × 10⁻⁷"
+    },
+    {
+      "symbol": "I",
+      "meaning": "বিদ্যুৎপ্রবাহ",
+      "unit": "A"
+    },
+    {
+      "symbol": "r",
+      "meaning": "তার থেকে বিন্দুর লম্ব দূরত্ব",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "বায়োট-সাভার্ট সূত্র সমাকলন করে অসীম তারের চৌম্বক ক্ষেত্র নির্ণয়:",
@@ -29,7 +57,9 @@
         "note": "দূরত্ব r বাড়লে চৌম্বক ক্ষেত্র ব্যস্তানুপাতে হ্রাস পায়।"
       }
     ],
-    "assumptions": ["তারটি সোজা, অসীম দীর্ঘ এবং স্থির বিদ্যুৎপ্রবাহ বিবেচনা করা হয়েছে।"]
+    "assumptions": [
+      "তারটি সোজা, অসীম দীর্ঘ এবং স্থির বিদ্যুৎপ্রবাহ বিবেচনা করা হয়েছে।"
+    ]
   },
   "questions": [
     {

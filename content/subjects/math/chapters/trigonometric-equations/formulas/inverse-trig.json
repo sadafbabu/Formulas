@@ -5,12 +5,30 @@
   "titleBn": "বিপরীত ত্রিকোণমিতিক ফাংশন ও সমতা",
   "summary": "arcsin, arccos, arctan এর মান পরিসর, পারস্পরিক সম্পর্ক ও যোগ সূত্র",
   "latex": "\\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2}, \\quad \\tan^{-1}x + \\tan^{-1}y = \\tan^{-1}\\frac{x+y}{1-xy} \\text{ (xy<1)}",
-  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 70,
   "symbols": [
-    { "symbol": "\\sin^{-1}x", "meaning": "arcsin x, মান পরিসর [-π/2, π/2]", "unit": "রেডিয়ান" },
-    { "symbol": "\\cos^{-1}x", "meaning": "arccos x, মান পরিসর [0, π]", "unit": "রেডিয়ান" },
-    { "symbol": "\\tan^{-1}x", "meaning": "arctan x, মান পরিসর (-π/2, π/2)", "unit": "রেডিয়ান" }
+    {
+      "symbol": "\\sin^{-1}x",
+      "meaning": "arcsin x, মান পরিসর [-π/2, π/2]",
+      "unit": "রেডিয়ান"
+    },
+    {
+      "symbol": "\\cos^{-1}x",
+      "meaning": "arccos x, মান পরিসর [0, π]",
+      "unit": "রেডিয়ান"
+    },
+    {
+      "symbol": "\\tan^{-1}x",
+      "meaning": "arctan x, মান পরিসর (-π/2, π/2)",
+      "unit": "রেডিয়ান"
+    }
   ],
   "derivation": {
     "lead": "বিপরীত ত্রিকোণমিতিক ফাংশনের মূল সম্পর্ক: sin⁻¹x + cos⁻¹x = π/2।",

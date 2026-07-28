@@ -5,16 +5,50 @@
   "titleBn": "স্নেলের সূত্র ও প্রতিসরণ",
   "summary": "প্রতিসরাঙ্ক ও আপতন কোণ-প্রতিসরণ কোণ সম্পর্ক",
   "latex": "n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2, \\quad n = \\frac{c}{v}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
-  "subjects": ["physics"],
-  "related": ["total-internal-reflection", "refraction-spherical", "lens-makers-formula"],
+  "order": 60,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "total-internal-reflection",
+    "refraction-spherical",
+    "lens-makers-formula"
+  ],
   "symbols": [
-    { "symbol": "n_1, n_2", "meaning": "মাধ্যমের প্রতিসরাঙ্ক", "unit": "মাত্রাহীন" },
-    { "symbol": "\\theta_1", "meaning": "আপতন কোণ", "unit": "°" },
-    { "symbol": "\\theta_2", "meaning": "প্রতিসরণ কোণ", "unit": "°" },
-    { "symbol": "c", "meaning": "শূন্যে আলোর বেগ", "unit": "m/s", "value": "3×10⁸" },
-    { "symbol": "v", "meaning": "মাধ্যমে আলোর বেগ", "unit": "m/s" }
+    {
+      "symbol": "n_1, n_2",
+      "meaning": "মাধ্যমের প্রতিসরাঙ্ক",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "\\theta_1",
+      "meaning": "আপতন কোণ",
+      "unit": "°"
+    },
+    {
+      "symbol": "\\theta_2",
+      "meaning": "প্রতিসরণ কোণ",
+      "unit": "°"
+    },
+    {
+      "symbol": "c",
+      "meaning": "শূন্যে আলোর বেগ",
+      "unit": "m/s",
+      "value": "3×10⁸"
+    },
+    {
+      "symbol": "v",
+      "meaning": "মাধ্যমে আলোর বেগ",
+      "unit": "m/s"
+    }
   ],
   "derivation": {
     "lead": "আলো এক মাধ্যম থেকে অন্য মাধ্যমে গেলে দ্রুত মাধ্যমে সরলরৈখিক গতি থেকে বেঁকে যায় (ফার্মা নীতি)।",
@@ -25,7 +59,10 @@
         "note": "সমালোচন কোণ θ_c থেকে বেশি হলে আলো ফিরে আসে"
       }
     ],
-    "assumptions": ["দুই মাধ্যমের সীমানা সমতল", "আলো একবর্ণী"]
+    "assumptions": [
+      "দুই মাধ্যমের সীমানা সমতল",
+      "আলো একবর্ণী"
+    ]
   },
   "questions": [
     {

@@ -5,13 +5,36 @@
   "titleBn": "সরলরেখার সমীকরণের বিভিন্ন রূপ",
   "summary": "সরলরেখার ঢাল-ছেদ, দুই বিন্দু, অন্তর্খণ্ড, এবং লম্ব রূপ সমীকরণ",
   "latex": "y = mx + c, \\quad y - y_1 = m(x - x_1), \\quad \\frac{x}{a} + \\frac{y}{b} = 1, \\quad x\\cos\\alpha + y\\sin\\alpha = p",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 50,
   "symbols": [
-    { "symbol": "m", "meaning": "ঢাল (slope) = tan θ", "unit": "মাত্রাহীন" },
-    { "symbol": "c", "meaning": "y-অক্ষ ছেদ", "unit": "একক" },
-    { "symbol": "a, b", "meaning": "x, y অক্ষের অন্তর্খণ্ড", "unit": "একক" },
-    { "symbol": "p", "meaning": "মূলবিন্দু থেকে লম্ব দূরত্ব", "unit": "একক" }
+    {
+      "symbol": "m",
+      "meaning": "ঢাল (slope) = tan θ",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "c",
+      "meaning": "y-অক্ষ ছেদ",
+      "unit": "একক"
+    },
+    {
+      "symbol": "a, b",
+      "meaning": "x, y অক্ষের অন্তর্খণ্ড",
+      "unit": "একক"
+    },
+    {
+      "symbol": "p",
+      "meaning": "মূলবিন্দু থেকে লম্ব দূরত্ব",
+      "unit": "একক"
+    }
   ],
   "derivation": {
     "lead": "দুই বিন্দু (x₁, y₁) ও (x₂, y₂) দিয়ে রেখার ঢাল m = (y₂-y₁)/(x₂-x₁)।",

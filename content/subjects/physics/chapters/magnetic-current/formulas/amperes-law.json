@@ -4,15 +4,39 @@
   "titleBn": "অ্যাম্পিয়ারের সার্কিটাল সূত্র",
   "latex": "\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{enc}",
   "summary": "যেকোনো বদ্ধ পথ বরাবর চৌম্বক ক্ষেত্রের রৈখিক সমাকলন ওই আবদ্ধ ক্ষেত্রের মোট প্রবাহের μ₀ গুণ।",
-  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 3,
-  "subjects": ["physics"],
-  "related": ["wire-field", "solenoid", "toroid"],
+  "order": 170,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "wire-field",
+    "solenoid",
+    "toroid"
+  ],
   "symbols": [
-    { "symbol": "\\oint \\vec{B} \\cdot d\\vec{l}", "meaning": "চৌম্বক ক্ষেত্রের বদ্ধ রৈখিক সমাকলন", "unit": "T·m" },
-    { "symbol": "\\mu_0", "meaning": "শূন্যস্থানের চৌম্বক প্রবেশ্যতা", "unit": "T·m/A" },
-    { "symbol": "I_{enc}", "meaning": "অ্যাম্পিয়ারিয়ান লুপ দ্বারা আবদ্ধ মোট বীজগণিতীয় প্রবাহ", "unit": "A" }
+    {
+      "symbol": "\\oint \\vec{B} \\cdot d\\vec{l}",
+      "meaning": "চৌম্বক ক্ষেত্রের বদ্ধ রৈখিক সমাকলন",
+      "unit": "T·m"
+    },
+    {
+      "symbol": "\\mu_0",
+      "meaning": "শূন্যস্থানের চৌম্বক প্রবেশ্যতা",
+      "unit": "T·m/A"
+    },
+    {
+      "symbol": "I_{enc}",
+      "meaning": "অ্যাম্পিয়ারিয়ান লুপ দ্বারা আবদ্ধ মোট বীজগণিতীয় প্রবাহ",
+      "unit": "A"
+    }
   ],
   "derivation": {
     "lead": "সংমেতি ব্যবহার করে B নির্ণয়:",
@@ -23,7 +47,9 @@
         "note": "অ্যাম্পিয়ারের সূত্র স্থির তড়িচ্চৌম্বক বিজ্ঞানে একটি মৌলিক সমীকরণ।"
       }
     ],
-    "assumptions": ["স্থির বিদ্যুৎপ্রবাহ এবং উচ্চ সংমেতিপূর্ণ অ্যাম্পিয়ারিয়ান লুপ বিবেচনা করা হয়েছে।"]
+    "assumptions": [
+      "স্থির বিদ্যুৎপ্রবাহ এবং উচ্চ সংমেতিপূর্ণ অ্যাম্পিয়ারিয়ান লুপ বিবেচনা করা হয়েছে।"
+    ]
   },
   "questions": [
     {

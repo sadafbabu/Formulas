@@ -5,12 +5,31 @@
   "titleBn": "নির্দিষ্ট যোগজ ও বক্ররেখা দ্বারা আবদ্ধ ক্ষেত্রফল",
   "summary": "y = f(x) বক্ররেখা, x-অক্ষ এবং x = a, b রেখা দ্বারা আবদ্ধ ক্ষেত্রফল",
   "latex": "\\text{Area} = \\int_{a}^{b} f(x) \\, dx, \\quad \\text{Area} = \\int_{a}^{b} [f_1(x) - f_2(x)] \\, dx",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 10,
   "symbols": [
-    { "symbol": "\\text{Area}", "meaning": "আবদ্ধ এলাকার ক্ষেত্রফল", "unit": "বর্গ একক" },
-    { "symbol": "f(x)", "meaning": "বক্ররেখার সমীকরণ", "unit": "ফাংশন" },
-    { "symbol": "a, b", "meaning": "সীমা (Limits of integration)", "unit": "সংখ্যা" }
+    {
+      "symbol": "\\text{Area}",
+      "meaning": "আবদ্ধ এলাকার ক্ষেত্রফল",
+      "unit": "বর্গ একক"
+    },
+    {
+      "symbol": "f(x)",
+      "meaning": "বক্ররেখার সমীকরণ",
+      "unit": "ফাংশন"
+    },
+    {
+      "symbol": "a, b",
+      "meaning": "সীমা (Limits of integration)",
+      "unit": "সংখ্যা"
+    }
   ],
   "derivation": {
     "lead": "ক্ষুদ্র উল্লম্ব ফালি dx এর ক্ষেত্রফল dA = y dx সমাকলন করে পাওয়া যায়।",

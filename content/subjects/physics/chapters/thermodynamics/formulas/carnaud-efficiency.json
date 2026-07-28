@@ -5,14 +5,41 @@
   "titleBn": "কার্নো ইঞ্জিনের দক্ষতা",
   "summary": "উৎস ও গ্রাহকের তাপমাত্রার ওপর নির্ভর করে কার্নো চক্রের কর্মদক্ষতা",
   "latex": "\\eta = 1 - \\frac{T_2}{T_1} = 1 - \\frac{Q_2}{Q_1}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 50,
   "symbols": [
-    { "symbol": "\\eta", "meaning": "কার্নো ইঞ্জিনের কর্মদক্ষতা", "unit": "ভগ্নাংশ বা %" },
-    { "symbol": "T_1", "meaning": "তাপ উৎসের পরম তাপমাত্রা", "unit": "K" },
-    { "symbol": "T_2", "meaning": "তাপ গ্রাহকের পরম তাপমাত্রা", "unit": "K" },
-    { "symbol": "Q_1", "meaning": "উৎস হতে গৃহীত তাপ", "unit": "J" },
-    { "symbol": "Q_2", "meaning": "গ্রাহকে বর্জিত তাপ", "unit": "J" }
+    {
+      "symbol": "\\eta",
+      "meaning": "কার্নো ইঞ্জিনের কর্মদক্ষতা",
+      "unit": "ভগ্নাংশ বা %"
+    },
+    {
+      "symbol": "T_1",
+      "meaning": "তাপ উৎসের পরম তাপমাত্রা",
+      "unit": "K"
+    },
+    {
+      "symbol": "T_2",
+      "meaning": "তাপ গ্রাহকের পরম তাপমাত্রা",
+      "unit": "K"
+    },
+    {
+      "symbol": "Q_1",
+      "meaning": "উৎস হতে গৃহীত তাপ",
+      "unit": "J"
+    },
+    {
+      "symbol": "Q_2",
+      "meaning": "গ্রাহকে বর্জিত তাপ",
+      "unit": "J"
+    }
   ],
   "derivation": {
     "lead": "দক্ষতা = (লব্ধ কাজ / মোট গৃহীত তাপ)। লব্ধ কাজ W = Q1 - Q2।",

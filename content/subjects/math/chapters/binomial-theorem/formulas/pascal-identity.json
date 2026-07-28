@@ -10,6 +10,7 @@
     "2-star"
   ],
   "importance": 2,
+  "order": 50,
   "symbols": [
     {
       "symbol": "n, r, k",

@@ -5,11 +5,26 @@
   "titleBn": "দুইটি সরলরেখার অন্তর্ভুক্ত কোণ",
   "summary": "ঢাল m₁ ও m₂ বিশিষ্ট দুটি সরলরেখার অন্তর্ভুক্ত সূক্ষ্মকোণ ও স্থূলকোণ",
   "latex": "\\tan\\theta = \\left| \\frac{m_1 - m_2}{1 + m_1 m_2} \\right|, \\quad m_1 m_2 = -1 \\text{ (Perpendicular)}, \\quad m_1 = m_2 \\text{ (Parallel)}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 10,
   "symbols": [
-    { "symbol": "\\theta", "meaning": "রেখাদ্বয়ের অন্তর্ভুক্ত সূক্ষ্মকোণ", "unit": "ডিগ্রী (°)" },
-    { "symbol": "m_1, m_2", "meaning": "১ম ও ২য় রেখার ঢাল (Slope)", "unit": "সংখ্যা" }
+    {
+      "symbol": "\\theta",
+      "meaning": "রেখাদ্বয়ের অন্তর্ভুক্ত সূক্ষ্মকোণ",
+      "unit": "ডিগ্রী (°)"
+    },
+    {
+      "symbol": "m_1, m_2",
+      "meaning": "১ম ও ২য় রেখার ঢাল (Slope)",
+      "unit": "সংখ্যা"
+    }
   ],
   "derivation": {
     "lead": "রেখাদ্বয়ের আনতি θ1 ও θ2 হলে অন্তর্ভুক্ত কোণ θ = θ1 - θ2 থেকে প্রাপ্ত।",

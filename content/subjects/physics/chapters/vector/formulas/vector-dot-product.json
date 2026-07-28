@@ -5,12 +5,31 @@
   "titleBn": "ভেক্টরের স্কেলার (ডট) গুণন",
   "summary": "দুটি ভেক্টরের ডট গুণফল এবং মধ্যবর্তী কোণ নির্ণয়",
   "latex": "\\mathbf{A} \\cdot \\mathbf{B} = A_x B_x + A_y B_y + A_z B_z = AB \\cos\\theta",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 40,
   "symbols": [
-    { "symbol": "\\mathbf{A} \\cdot \\mathbf{B}", "meaning": "স্কেলার গুণফল", "unit": "একক" },
-    { "symbol": "A_x, B_x", "meaning": "x অক্ষ বরাবর ভেক্টর উপাংশ", "unit": "একক" },
-    { "symbol": "\\theta", "meaning": "ভেক্টরদ্বয়ের অন্তর্ভূক্ত কোণ", "unit": "degree" }
+    {
+      "symbol": "\\mathbf{A} \\cdot \\mathbf{B}",
+      "meaning": "স্কেলার গুণফল",
+      "unit": "একক"
+    },
+    {
+      "symbol": "A_x, B_x",
+      "meaning": "x অক্ষ বরাবর ভেক্টর উপাংশ",
+      "unit": "একক"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "ভেক্টরদ্বয়ের অন্তর্ভূক্ত কোণ",
+      "unit": "degree"
+    }
   ],
   "derivation": {
     "lead": "ডট গুণফল থেকে মধ্যবর্তী কোণ cos θ = (A·B) / (AB) হিসাব করা হয়।",

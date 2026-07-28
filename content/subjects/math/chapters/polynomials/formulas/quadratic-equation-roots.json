@@ -13,6 +13,7 @@
     "3-star"
   ],
   "importance": 3,
+  "order": 10,
   "symbols": [
     {
       "symbol": "\\alpha, \\beta",

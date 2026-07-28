@@ -1,284 +1,5 @@
 import tagsJson from '../../content/tags.json'
 import physicsMeta from '../../content/subjects/physics/meta.json'
-import magneticMeta from '../../content/subjects/physics/chapters/magnetic-current/meta.json'
-import thermoMeta from '../../content/subjects/physics/chapters/thermodynamics/meta.json'
-import staticMeta from '../../content/subjects/physics/chapters/static-electricity/meta.json'
-import currentMeta from '../../content/subjects/physics/chapters/current-electricity/meta.json'
-import vectorMeta from '../../content/subjects/physics/chapters/vector/meta.json'
-import dynamicsMeta from '../../content/subjects/physics/chapters/dynamics/meta.json'
-import workEnergyMeta from '../../content/subjects/physics/chapters/work-energy/meta.json'
-import gravitationMeta from '../../content/subjects/physics/chapters/gravitation/meta.json'
-import inductionAcMeta from '../../content/subjects/physics/chapters/induction-ac/meta.json'
-import modernPhysicsMeta from '../../content/subjects/physics/chapters/modern-physics/meta.json'
-import qualitativeMeta from '../../content/subjects/chemistry/chapters/qualitative-chem/meta.json'
-import electrochemMeta from '../../content/subjects/chemistry/chapters/electrochemistry/meta.json'
-import chemEquilibriumMeta from '../../content/subjects/chemistry/chapters/chemical-equilibrium/meta.json'
-
-import straightLinesMeta from '../../content/subjects/math/chapters/straight-lines/meta.json'
-import calculusMeta from '../../content/subjects/math/chapters/calculus/meta.json'
-import complexNumbersMeta from '../../content/subjects/math/chapters/complex-numbers/meta.json'
-
-import periodicMotionMeta from '../../content/subjects/physics/chapters/periodic-motion/meta.json'
-import semiconductorMeta from '../../content/subjects/physics/chapters/semiconductor/meta.json'
-import idealGasMeta from '../../content/subjects/physics/chapters/ideal-gas/meta.json'
-import waveOpticsMeta from '../../content/subjects/physics/chapters/wave-optics/meta.json'
-import geometricOpticsMeta from '../../content/subjects/physics/chapters/geometric-optics/meta.json'
-
-import chemicalBondingMeta from '../../content/subjects/chemistry/chapters/chemical-bonding/meta.json'
-import organicChemMeta from '../../content/subjects/chemistry/chapters/organic-chem/meta.json'
-
-import binomialTheoremMeta from '../../content/subjects/math/chapters/binomial-theorem/meta.json'
-import polynomialsMeta from '../../content/subjects/math/chapters/polynomials/meta.json'
-import trigEquationsMeta from '../../content/subjects/math/chapters/trigonometric-equations/meta.json'
-
-import lensMakersFormula from '../../content/subjects/physics/chapters/geometric-optics/formulas/lens-makers-formula.json'
-import hybridizationShapes from '../../content/subjects/chemistry/chapters/chemical-bonding/formulas/hybridization-shapes.json'
-import quadraticEquationRoots from '../../content/subjects/math/chapters/polynomials/formulas/quadratic-equation-roots.json'
-import generalSolutionsTrig from '../../content/subjects/math/chapters/trigonometric-equations/formulas/general-solutions-trig.json'
-
-
-import shmTimePeriod from '../../content/subjects/physics/chapters/periodic-motion/formulas/shm-time-period.json'
-import transistorAlphaBeta from '../../content/subjects/physics/chapters/semiconductor/formulas/transistor-alpha-beta.json'
-import rmsVelocity from '../../content/subjects/physics/chapters/ideal-gas/formulas/rms-velocity.json'
-import youngsDoubleSlit from '../../content/subjects/physics/chapters/wave-optics/formulas/youngs-double-slit.json'
-
-import kpKcRelation from '../../content/subjects/chemistry/chapters/chemical-equilibrium/formulas/kp-kc-relation.json'
-import grignardReaction from '../../content/subjects/chemistry/chapters/organic-chem/formulas/grignard-reaction.json'
-
-import complexModulusArgument from '../../content/subjects/math/chapters/complex-numbers/formulas/complex-modulus-argument.json'
-import binomialExpansion from '../../content/subjects/math/chapters/binomial-theorem/formulas/binomial-expansion.json'
-
-
-
-import bohrAtomModel from '../../content/subjects/chemistry/chapters/qualitative-chem/formulas/bohr-atom-model.json'
-import solubilityProduct from '../../content/subjects/chemistry/chapters/qualitative-chem/formulas/solubility-product.json'
-
-import faradaysElectrolysis from '../../content/subjects/chemistry/chapters/electrochemistry/formulas/faradays-electrolysis.json'
-import nernstEquation from '../../content/subjects/chemistry/chapters/electrochemistry/formulas/nernst-equation.json'
-import conductanceKohlrausch from '../../content/subjects/chemistry/chapters/electrochemistry/formulas/conductance-kohlrausch.json'
-
-import perpendicularDistance from '../../content/subjects/math/chapters/straight-lines/formulas/perpendicular-distance.json'
-import straightLineAngle from '../../content/subjects/math/chapters/straight-lines/formulas/straight-line-angle.json'
-
-import integrationByParts from '../../content/subjects/math/chapters/calculus/formulas/integration-by-parts.json'
-import differentiationChainRule from '../../content/subjects/math/chapters/calculus/formulas/differentiation-chain-rule.json'
-import definiteIntegralArea from '../../content/subjects/math/chapters/calculus/formulas/definite-integral-area.json'
-
-
-import newtonsGravitation from '../../content/subjects/physics/chapters/gravitation/formulas/newtons-gravitation.json'
-import escapeVelocity from '../../content/subjects/physics/chapters/gravitation/formulas/escape-velocity.json'
-import orbitalVelocity from '../../content/subjects/physics/chapters/gravitation/formulas/orbital-velocity.json'
-
-import faradaysLaw from '../../content/subjects/physics/chapters/induction-ac/formulas/faradays-law.json'
-import acRmsValues from '../../content/subjects/physics/chapters/induction-ac/formulas/ac-rms-values.json'
-
-import massEnergyPhotoelectric from '../../content/subjects/physics/chapters/modern-physics/formulas/mass-energy-photoelectric.json'
-
-import centripetalForce from '../../content/subjects/physics/chapters/dynamics/formulas/centripetal-force.json'
-import torqueAngularAcc from '../../content/subjects/physics/chapters/dynamics/formulas/torque-angular-acc.json'
-import bankedRoad from '../../content/subjects/physics/chapters/dynamics/formulas/banked-road.json'
-import newtonLaws from '../../content/subjects/physics/chapters/dynamics/formulas/newtons-laws.json'
-import friction from '../../content/subjects/physics/chapters/dynamics/formulas/friction.json'
-import workTheorem from '../../content/subjects/physics/chapters/work-energy/formulas/work-theorem.json'
-import keplersLaws from '../../content/subjects/physics/chapters/gravitation/formulas/keplers-laws.json'
-import waveEquation from '../../content/subjects/physics/chapters/periodic-motion/formulas/wave-equation.json'
-import gasLaws from '../../content/subjects/physics/chapters/ideal-gas/formulas/gas-laws.json'
-
-import kineticEnergy from '../../content/subjects/physics/chapters/work-energy/formulas/kinetic-energy.json'
-import potentialEnergySpring from '../../content/subjects/physics/chapters/work-energy/formulas/potential-energy-spring.json'
-
-import ohmsLaw from '../../content/subjects/physics/chapters/current-electricity/formulas/ohms-law.json'
-import wheatstoneBridge from '../../content/subjects/physics/chapters/current-electricity/formulas/wheatstone-bridge.json'
-
-import vectorResultant from '../../content/subjects/physics/chapters/vector/formulas/vector-resultant.json'
-import vectorDotProduct from '../../content/subjects/physics/chapters/vector/formulas/vector-dot-product.json'
-import vectorCrossArea from '../../content/subjects/physics/chapters/vector/formulas/vector-cross-area.json'
-import vectorDotAngle from '../../content/subjects/physics/chapters/vector/formulas/vector-dot-angle.json'
-
-import firstLawThermo from '../../content/subjects/physics/chapters/thermodynamics/formulas/first-law-thermo.json'
-import isothermalWork from '../../content/subjects/physics/chapters/thermodynamics/formulas/isothermal-work.json'
-import carnaudEfficiency from '../../content/subjects/physics/chapters/thermodynamics/formulas/carnaud-efficiency.json'
-import cpCvRelation from '../../content/subjects/physics/chapters/thermodynamics/formulas/cp-cv-relation.json'
-import entropyChange from '../../content/subjects/physics/chapters/thermodynamics/formulas/entropy-change.json'
-
-import coulombsLaw from '../../content/subjects/physics/chapters/static-electricity/formulas/coulombs-law.json'
-import electricPotential from '../../content/subjects/physics/chapters/static-electricity/formulas/electric-potential.json'
-import capacitorEnergy from '../../content/subjects/physics/chapters/static-electricity/formulas/capacitor-energy.json'
-
-import kirchhoffsLaws from '../../content/subjects/physics/chapters/current-electricity/formulas/kirchhoffs-laws.json'
-import transformerRatio from '../../content/subjects/physics/chapters/induction-ac/formulas/transformer-ratio.json'
-import radioactiveDecay from '../../content/subjects/physics/chapters/modern-physics/formulas/radioactive-decay.json'
-import biotSavart from '../../content/subjects/physics/chapters/magnetic-current/formulas/biot-savart.json'
-import wireField from '../../content/subjects/physics/chapters/magnetic-current/formulas/wire-field.json'
-import straightWireFinite from '../../content/subjects/physics/chapters/magnetic-current/formulas/straight-wire-finite.json'
-import loopCenter from '../../content/subjects/physics/chapters/magnetic-current/formulas/loop-center.json'
-import loopAxis from '../../content/subjects/physics/chapters/magnetic-current/formulas/loop-axis.json'
-import arcCenter from '../../content/subjects/physics/chapters/magnetic-current/formulas/arc-center.json'
-import solenoid from '../../content/subjects/physics/chapters/magnetic-current/formulas/solenoid.json'
-import toroid from '../../content/subjects/physics/chapters/magnetic-current/formulas/toroid.json'
-import forceOnWire from '../../content/subjects/physics/chapters/magnetic-current/formulas/force-on-wire.json'
-import parallelWires from '../../content/subjects/physics/chapters/magnetic-current/formulas/parallel-wires.json'
-import lorentz from '../../content/subjects/physics/chapters/magnetic-current/formulas/lorentz.json'
-import velocitySelector from '../../content/subjects/physics/chapters/magnetic-current/formulas/velocity-selector.json'
-import magneticMoment from '../../content/subjects/physics/chapters/magnetic-current/formulas/magnetic-moment.json'
-import torqueLoop from '../../content/subjects/physics/chapters/magnetic-current/formulas/torque-loop.json'
-import magneticWork from '../../content/subjects/physics/chapters/magnetic-current/formulas/magnetic-work.json'
-import magneticPotentialEnergy from '../../content/subjects/physics/chapters/magnetic-current/formulas/magnetic-potential-energy.json'
-import amperesLaw from '../../content/subjects/physics/chapters/magnetic-current/formulas/amperes-law.json'
-import cyclotronRadius from '../../content/subjects/physics/chapters/magnetic-current/formulas/cyclotron-radius.json'
-import cyclotronFreq from '../../content/subjects/physics/chapters/magnetic-current/formulas/cyclotron-freq.json'
-import movingChargeEnergy from '../../content/subjects/physics/chapters/magnetic-current/formulas/moving-charge-energy.json'
-import galvanometerAmmeter from '../../content/subjects/physics/chapters/magnetic-current/formulas/galvanometer-ammeter.json'
-import galvanometerVoltmeter from '../../content/subjects/physics/chapters/magnetic-current/formulas/galvanometer-voltmeter.json'
-import tangentGalvanometer from '../../content/subjects/physics/chapters/magnetic-current/formulas/tangent-galvanometer.json'
-import earthMagnetism from '../../content/subjects/physics/chapters/magnetic-current/formulas/earth-magnetism.json'
-import barMagnetField from '../../content/subjects/physics/chapters/magnetic-current/formulas/bar-magnet-field.json'
-import magneticFlux from '../../content/subjects/physics/chapters/magnetic-current/formulas/magnetic-flux.json'
-import hallEffect from '../../content/subjects/physics/chapters/magnetic-current/formulas/hall-effect.json'
-import magneticIntensity from '../../content/subjects/physics/chapters/magnetic-current/formulas/magnetic-intensity.json'
-import bohrMagneton from '../../content/subjects/physics/chapters/magnetic-current/formulas/bohr-magneton.json'
-import magneticForceChargeAngle from '../../content/subjects/physics/chapters/magnetic-current/formulas/magnetic-force-charge-angle.json'
-import curieLaw from '../../content/subjects/physics/chapters/magnetic-current/formulas/curie-law.json'
-import magneticHysteresisLoss from '../../content/subjects/physics/chapters/magnetic-current/formulas/magnetic-hysteresis-loss.json'
-import coaxialCableField from '../../content/subjects/physics/chapters/magnetic-current/formulas/coaxial-cable-field.json'
-import magneticDipoleVibration from '../../content/subjects/physics/chapters/magnetic-current/formulas/magnetic-dipole-vibration.json'
-import electromagneticMassSpectrometer from '../../content/subjects/physics/chapters/magnetic-current/formulas/electromagnetic-mass-spectrometer.json'
-
-import mirrorFormula from '../../content/subjects/physics/chapters/geometric-optics/formulas/mirror-formula.json'
-import refractionSpherical from '../../content/subjects/physics/chapters/geometric-optics/formulas/refraction-spherical.json'
-import lensCombinationPower from '../../content/subjects/physics/chapters/geometric-optics/formulas/lens-combination-power.json'
-import totalInternalReflection from '../../content/subjects/physics/chapters/geometric-optics/formulas/total-internal-reflection.json'
-
-import singleSlitDiffraction from '../../content/subjects/physics/chapters/wave-optics/formulas/single-slit-diffraction.json'
-import diffractionGrating from '../../content/subjects/physics/chapters/wave-optics/formulas/diffraction-grating.json'
-
-import shmEnergy from '../../content/subjects/physics/chapters/periodic-motion/formulas/shm-energy.json'
-import torsionalPendulum from '../../content/subjects/physics/chapters/periodic-motion/formulas/torsional-pendulum.json'
-import resonanceDamped from '../../content/subjects/physics/chapters/periodic-motion/formulas/resonance-damped.json'
-
-import idealGasEquation from '../../content/subjects/physics/chapters/ideal-gas/formulas/ideal-gas-equation.json'
-import kineticEnergyGas from '../../content/subjects/physics/chapters/ideal-gas/formulas/kinetic-energy-gas.json'
-
-import pnJunctionDiode from '../../content/subjects/physics/chapters/semiconductor/formulas/pn-junction-diode.json'
-import rectifierRipple from '../../content/subjects/physics/chapters/semiconductor/formulas/rectifier-ripple.json'
-
-import deBroglieWavelength from '../../content/subjects/physics/chapters/modern-physics/formulas/de-broglie-wavelength.json'
-import bohrRadiusHydrogen from '../../content/subjects/physics/chapters/modern-physics/formulas/bohr-radius-hydrogen.json'
-
-import selfInductance from '../../content/subjects/physics/chapters/induction-ac/formulas/self-inductance.json'
-import lcLcrCircuit from '../../content/subjects/physics/chapters/induction-ac/formulas/lc-lcr-circuit.json'
-
-import electricField from '../../content/subjects/physics/chapters/static-electricity/formulas/electric-field.json'
-import capacitorCombination from '../../content/subjects/physics/chapters/static-electricity/formulas/capacitor-combination.json'
-
-import resistivityTemperature from '../../content/subjects/physics/chapters/current-electricity/formulas/resistivity-temperature.json'
-import driftVelocity from '../../content/subjects/physics/chapters/current-electricity/formulas/drift-velocity.json'
-
-import bondOrderMo from '../../content/subjects/chemistry/chapters/chemical-bonding/formulas/bond-order-mo.json'
-import dipoleMoment from '../../content/subjects/chemistry/chapters/chemical-bonding/formulas/dipole-moment.json'
-
-import reactionQuotient from '../../content/subjects/chemistry/chapters/chemical-equilibrium/formulas/reaction-quotient.json'
-import vanthoffEquation from '../../content/subjects/chemistry/chapters/chemical-equilibrium/formulas/vanthoff-equation.json'
-
-import quantumNumbers from '../../content/subjects/chemistry/chapters/qualitative-chem/formulas/quantum-numbers.json'
-import electronConfiguration from '../../content/subjects/chemistry/chapters/qualitative-chem/formulas/electron-configuration.json'
-
-import markovnikovRule from '../../content/subjects/chemistry/chapters/organic-chem/formulas/markovnikov-rule.json'
-import sn1Sn2Mechanism from '../../content/subjects/chemistry/chapters/organic-chem/formulas/sn1-sn2-mechanism.json'
-
-import faradaySecondLaw from '../../content/subjects/chemistry/chapters/electrochemistry/formulas/faraday-second-law.json'
-import gibbsEmfRelation from '../../content/subjects/chemistry/chapters/electrochemistry/formulas/gibbs-emf-relation.json'
-
-import distanceFormula from '../../content/subjects/math/chapters/straight-lines/formulas/distance-formula.json'
-import sectionFormula from '../../content/subjects/math/chapters/straight-lines/formulas/section-formula.json'
-
-import productQuotientRule from '../../content/subjects/math/chapters/calculus/formulas/product-quotient-rule.json'
-import fundamentalTheorem from '../../content/subjects/math/chapters/calculus/formulas/fundamental-theorem.json'
-
-import eulerForm from '../../content/subjects/math/chapters/complex-numbers/formulas/euler-form.json'
-import rootsOfUnity from '../../content/subjects/math/chapters/complex-numbers/formulas/roots-of-unity.json'
-
-import factorTheorem from '../../content/subjects/math/chapters/polynomials/formulas/factor-theorem.json'
-import vietaFormulas from '../../content/subjects/math/chapters/polynomials/formulas/vieta-formulas.json'
-
-import generalTerm from '../../content/subjects/math/chapters/binomial-theorem/formulas/general-term.json'
-import greatestTerm from '../../content/subjects/math/chapters/binomial-theorem/formulas/greatest-term.json'
-
-import compoundAngle from '../../content/subjects/math/chapters/trigonometric-equations/formulas/compound-angle.json'
-import multipleAngle from '../../content/subjects/math/chapters/trigonometric-equations/formulas/multiple-angle.json'
-
-import halfWaveRectifier from '../../content/subjects/physics/chapters/semiconductor/formulas/half-wave-rectifier.json'
-import zenerDiode from '../../content/subjects/physics/chapters/semiconductor/formulas/zener-diode.json'
-
-import opticalPathPhase from '../../content/subjects/physics/chapters/wave-optics/formulas/optical-path-phase.json'
-import polarizationMalus from '../../content/subjects/physics/chapters/wave-optics/formulas/polarization-malus.json'
-
-import powerEfficiency from '../../content/subjects/physics/chapters/work-energy/formulas/power-efficiency.json'
-import elasticCollision from '../../content/subjects/physics/chapters/work-energy/formulas/elastic-collision.json'
-
-import gravitationalPotential from '../../content/subjects/physics/chapters/gravitation/formulas/gravitational-potential.json'
-import satelliteEnergy from '../../content/subjects/physics/chapters/gravitation/formulas/satellite-energy.json'
-
-import maxwellDistribution from '../../content/subjects/physics/chapters/ideal-gas/formulas/maxwell-distribution.json'
-import meanFreePath from '../../content/subjects/physics/chapters/ideal-gas/formulas/mean-free-path.json'
-
-import comptonEffect from '../../content/subjects/physics/chapters/modern-physics/formulas/compton-effect.json'
-import xRayCharacteristic from '../../content/subjects/physics/chapters/modern-physics/formulas/x-ray-characteristic.json'
-
-import vectorTripleProduct from '../../content/subjects/physics/chapters/vector/formulas/vector-triple-product.json'
-import directionCosines from '../../content/subjects/physics/chapters/vector/formulas/direction-cosines.json'
-
-import formalCharge from '../../content/subjects/chemistry/chapters/chemical-bonding/formulas/formal-charge.json'
-import vseprTheory from '../../content/subjects/chemistry/chapters/chemical-bonding/formulas/vsepr-theory.json'
-
-import degreeDissociation from '../../content/subjects/chemistry/chapters/chemical-equilibrium/formulas/degree-dissociation.json'
-import leChatelierQuantitative from '../../content/subjects/chemistry/chapters/chemical-equilibrium/formulas/le-chatelier-quantitative.json'
-
-import eliminationE2 from '../../content/subjects/chemistry/chapters/organic-chem/formulas/elimination-e2.json'
-import alcoholOxidation from '../../content/subjects/chemistry/chapters/organic-chem/formulas/alcohol-oxidation.json'
-
-import sumBinomialCoeff from '../../content/subjects/math/chapters/binomial-theorem/formulas/sum-binomial-coeff.json'
-import pascalIdentity from '../../content/subjects/math/chapters/binomial-theorem/formulas/pascal-identity.json'
-
-import conjugateProperties from '../../content/subjects/math/chapters/complex-numbers/formulas/conjugate-properties.json'
-import polarMultiplication from '../../content/subjects/math/chapters/complex-numbers/formulas/polar-multiplication.json'
-
-import productSumIdentities from '../../content/subjects/math/chapters/trigonometric-equations/formulas/product-sum-identities.json'
-import inverseTrigIdentities from '../../content/subjects/math/chapters/trigonometric-equations/formulas/inverse-trig-identities.json'
-
-import syntheticDivision from '../../content/subjects/math/chapters/polynomials/formulas/synthetic-division.json'
-import rootCoefficientRelation from '../../content/subjects/math/chapters/polynomials/formulas/root-coefficient-relation.json'
-import polynomialRemainder from '../../content/subjects/math/chapters/polynomials/formulas/polynomial-remainder.json'
-
-import equationForms from '../../content/subjects/math/chapters/straight-lines/formulas/equation-forms.json'
-
-import deMoivre from '../../content/subjects/math/chapters/complex-numbers/formulas/de-moivre.json'
-
-import binomialMiddleTerm from '../../content/subjects/math/chapters/binomial-theorem/formulas/binomial-middle-term.json'
-
-import inverseTrig from '../../content/subjects/math/chapters/trigonometric-equations/formulas/inverse-trig.json'
-
-import bufferSolution from '../../content/subjects/chemistry/chapters/qualitative-chem/formulas/buffer-solution.json'
-
-import leChatelier from '../../content/subjects/chemistry/chapters/chemical-equilibrium/formulas/le-chatelier.json'
-
-import organicReactions from '../../content/subjects/chemistry/chapters/organic-chem/formulas/organic-reactions.json'
-import functionalGroups from '../../content/subjects/chemistry/chapters/organic-chem/formulas/functional-groups.json'
-import lewisStructure from '../../content/subjects/chemistry/chapters/chemical-bonding/formulas/lewis-structure.json'
-import equilibriumConstantRate from '../../content/subjects/chemistry/chapters/chemical-equilibrium/formulas/equilibrium-constant-rate.json'
-import electrochemicalSeries from '../../content/subjects/chemistry/chapters/electrochemistry/formulas/electrochemical-series.json'
-import phPohWater from '../../content/subjects/chemistry/chapters/qualitative-chem/formulas/ph-poh-water.json'
-import limitEvaluation from '../../content/subjects/math/chapters/calculus/formulas/limit-evaluation.json'
-import complexCubeRootsUnity from '../../content/subjects/math/chapters/complex-numbers/formulas/complex-cube-roots-unity.json'
-import circleEquation from '../../content/subjects/math/chapters/straight-lines/formulas/circle-equation.json'
-import trigIdentityPythagorean from '../../content/subjects/math/chapters/trigonometric-equations/formulas/trig-identity-pythagorean.json'
-import projectileMotion from '../../content/subjects/physics/chapters/dynamics/formulas/projectile-motion.json'
-import snellLaw from '../../content/subjects/physics/chapters/geometric-optics/formulas/snell-law.json'
-import resonanceFrequency from '../../content/subjects/physics/chapters/induction-ac/formulas/resonance-frequency.json'
-import powerAcCircuit from '../../content/subjects/physics/chapters/induction-ac/formulas/power-ac-circuit.json'
-import magneticForceCircular from '../../content/subjects/physics/chapters/magnetic-current/formulas/magnetic-force-circular.json'
-import capacitorParallelPlate from '../../content/subjects/physics/chapters/static-electricity/formulas/capacitor-parallel-plate.json'
-import adiabaticProcess from '../../content/subjects/physics/chapters/thermodynamics/formulas/adiabatic-process.json'
 
 import type {
   BookPage,
@@ -304,313 +25,86 @@ export const subjectsList: SubjectMeta[] = [
   { id: 'math', slug: 'math', name: 'Higher Math', nameBn: 'উচ্চতর গণিত', icon: '', color: '#ffffff', order: 3 },
 ]
 
-export const allChapters: ChapterMeta[] = [
+/** Chapter metadata. `formulaCount` is derived from the content files, never hand-written. */
+const chapterList: Omit<ChapterMeta, 'formulaCount' | 'isReady'>[] = [
   // Physics 1st Paper
-  { id: 'vector', slug: 'vector', name: 'Vector', nameBn: 'ভেক্টর', subjectId: 'physics', paperId: '1st-paper', order: 2, formulaCount: 6, isReady: true },
-  { id: 'dynamics', slug: 'dynamics', name: 'Newtonian Mechanics', nameBn: 'নিউটনীয় বলবিদ্যা', subjectId: 'physics', paperId: '1st-paper', order: 4, formulaCount: 6, isReady: true },
-  { id: 'work-energy', slug: 'work-energy', name: 'Work, Energy & Power', nameBn: 'কাজ, ক্ষমতা ও শক্তি', subjectId: 'physics', paperId: '1st-paper', order: 5, formulaCount: 5, isReady: true },
-  { id: 'gravitation', slug: 'gravitation', name: 'Gravitation & Gravity', nameBn: 'মহাকর্ষ ও অভিকর্ষ', subjectId: 'physics', paperId: '1st-paper', order: 6, formulaCount: 6, isReady: true },
-  { id: 'periodic-motion', slug: 'periodic-motion', name: 'Periodic Motion & SHM', nameBn: 'পর্যায়বৃত্ত গতি', subjectId: 'physics', paperId: '1st-paper', order: 8, formulaCount: 5, isReady: true },
-  { id: 'ideal-gas', slug: 'ideal-gas', name: 'Ideal Gas & Kinetic Theory', nameBn: 'আদর্শ গ্যাস ও গতিতত্ত্ব', subjectId: 'physics', paperId: '1st-paper', order: 10, formulaCount: 6, isReady: true },
+  { id: 'vector', slug: 'vector', name: 'Vector', nameBn: 'ভেক্টর', subjectId: 'physics', paperId: '1st-paper', order: 2 },
+  { id: 'dynamics', slug: 'dynamics', name: 'Newtonian Mechanics', nameBn: 'নিউটনীয় বলবিদ্যা', subjectId: 'physics', paperId: '1st-paper', order: 4 },
+  { id: 'work-energy', slug: 'work-energy', name: 'Work, Energy & Power', nameBn: 'কাজ, ক্ষমতা ও শক্তি', subjectId: 'physics', paperId: '1st-paper', order: 5 },
+  { id: 'gravitation', slug: 'gravitation', name: 'Gravitation & Gravity', nameBn: 'মহাকর্ষ ও অভিকর্ষ', subjectId: 'physics', paperId: '1st-paper', order: 6 },
+  { id: 'periodic-motion', slug: 'periodic-motion', name: 'Periodic Motion & SHM', nameBn: 'পর্যায়বৃত্ত গতি', subjectId: 'physics', paperId: '1st-paper', order: 8 },
+  { id: 'ideal-gas', slug: 'ideal-gas', name: 'Ideal Gas & Kinetic Theory', nameBn: 'আদর্শ গ্যাস ও গতিতত্ত্ব', subjectId: 'physics', paperId: '1st-paper', order: 10 },
 
   // Physics 2nd Paper
-  { id: 'thermodynamics', slug: 'thermodynamics', name: 'Thermodynamics', nameBn: 'তাপগতিবিদ্যা', subjectId: 'physics', paperId: '2nd-paper', order: 1, formulaCount: 6, isReady: true },
-  { id: 'static-electricity', slug: 'static-electricity', name: 'Static Electricity', nameBn: 'স্থির তড়িৎ', subjectId: 'physics', paperId: '2nd-paper', order: 2, formulaCount: 6, isReady: true },
-  { id: 'current-electricity', slug: 'current-electricity', name: 'Current Electricity', nameBn: 'চল তড়িৎ', subjectId: 'physics', paperId: '2nd-paper', order: 3, formulaCount: 5, isReady: true },
-  { id: 'magnetic-current', slug: 'magnetic-current', name: 'Magnetic Effects of Current & Magnetism', nameBn: 'তড়িৎ প্রবাহের চৌম্বক ক্রিয়া ও চুম্বকত্ব', subjectId: 'physics', paperId: '2nd-paper', order: 4, formulaCount: 36, isReady: true },
-  { id: 'induction-ac', slug: 'induction-ac', name: 'Electromagnetic Induction & AC', nameBn: 'তড়িচ্চৌম্বক আবেশ ও পর্যায়বৃত্ত প্রবাহ', subjectId: 'physics', paperId: '2nd-paper', order: 5, formulaCount: 7, isReady: true },
-  { id: 'geometric-optics', slug: 'geometric-optics', name: 'Geometric Optics', nameBn: 'জ্যামিতিক আলোকবিজ্ঞান', subjectId: 'physics', paperId: '2nd-paper', order: 6, formulaCount: 6, isReady: true },
-  { id: 'wave-optics', slug: 'wave-optics', name: 'Wave Optics', nameBn: 'ভৌত আলোকবিজ্ঞান', subjectId: 'physics', paperId: '2nd-paper', order: 7, formulaCount: 5, isReady: true },
-  { id: 'modern-physics', slug: 'modern-physics', name: 'Modern Physics', nameBn: 'আধুনিক পদার্থবিজ্ঞানের সূচনা', subjectId: 'physics', paperId: '2nd-paper', order: 8, formulaCount: 6, isReady: true },
-  { id: 'semiconductor', slug: 'semiconductor', name: 'Semiconductor & Electronics', nameBn: 'সেমিকন্ডাক্টর ও ইলেকট্রনিক্স', subjectId: 'physics', paperId: '2nd-paper', order: 10, formulaCount: 5, isReady: true },
-  
+  { id: 'thermodynamics', slug: 'thermodynamics', name: 'Thermodynamics', nameBn: 'তাপগতিবিদ্যা', subjectId: 'physics', paperId: '2nd-paper', order: 1 },
+  { id: 'static-electricity', slug: 'static-electricity', name: 'Static Electricity', nameBn: 'স্থির তড়িৎ', subjectId: 'physics', paperId: '2nd-paper', order: 2 },
+  { id: 'current-electricity', slug: 'current-electricity', name: 'Current Electricity', nameBn: 'চল তড়িৎ', subjectId: 'physics', paperId: '2nd-paper', order: 3 },
+  { id: 'magnetic-current', slug: 'magnetic-current', name: 'Magnetic Effects of Current & Magnetism', nameBn: 'তড়িৎ প্রবাহের চৌম্বক ক্রিয়া ও চুম্বকত্ব', subjectId: 'physics', paperId: '2nd-paper', order: 4 },
+  { id: 'induction-ac', slug: 'induction-ac', name: 'Electromagnetic Induction & AC', nameBn: 'তড়িচ্চৌম্বক আবেশ ও পর্যায়বৃত্ত প্রবাহ', subjectId: 'physics', paperId: '2nd-paper', order: 5 },
+  { id: 'geometric-optics', slug: 'geometric-optics', name: 'Geometric Optics', nameBn: 'জ্যামিতিক আলোকবিজ্ঞান', subjectId: 'physics', paperId: '2nd-paper', order: 6 },
+  { id: 'wave-optics', slug: 'wave-optics', name: 'Wave Optics', nameBn: 'ভৌত আলোকবিজ্ঞান', subjectId: 'physics', paperId: '2nd-paper', order: 7 },
+  { id: 'modern-physics', slug: 'modern-physics', name: 'Modern Physics', nameBn: 'আধুনিক পদার্থবিজ্ঞানের সূচনা', subjectId: 'physics', paperId: '2nd-paper', order: 8 },
+  { id: 'semiconductor', slug: 'semiconductor', name: 'Semiconductor & Electronics', nameBn: 'সেমিকন্ডাক্টর ও ইলেকট্রনিক্স', subjectId: 'physics', paperId: '2nd-paper', order: 10 },
+
   // Chemistry 1st Paper
-  { id: 'qualitative-chem', slug: 'qualitative-chem', name: 'Qualitative Chemistry', nameBn: 'গুণগত রসায়ন', subjectId: 'chemistry', paperId: '1st-paper', order: 2, formulaCount: 6, isReady: true },
-  { id: 'chemical-bonding', slug: 'chemical-bonding', name: 'Chemical Bonding & Structure', nameBn: 'পর্যায়বৃত্ত ধর্ম ও রাসায়নিক বন্ধন', subjectId: 'chemistry', paperId: '1st-paper', order: 3, formulaCount: 6, isReady: true },
-  { id: 'chemical-equilibrium', slug: 'chemical-equilibrium', name: 'Chemical Equilibrium & Kinetics', nameBn: 'রাসায়নিক পরিবর্তন ও সাম্যাবস্থা', subjectId: 'chemistry', paperId: '1st-paper', order: 4, formulaCount: 7, isReady: true },
+  { id: 'qualitative-chem', slug: 'qualitative-chem', name: 'Qualitative Chemistry', nameBn: 'গুণগত রসায়ন', subjectId: 'chemistry', paperId: '1st-paper', order: 2 },
+  { id: 'chemical-bonding', slug: 'chemical-bonding', name: 'Chemical Bonding & Structure', nameBn: 'পর্যায়বৃত্ত ধর্ম ও রাসায়নিক বন্ধন', subjectId: 'chemistry', paperId: '1st-paper', order: 3 },
+  { id: 'chemical-equilibrium', slug: 'chemical-equilibrium', name: 'Chemical Equilibrium & Kinetics', nameBn: 'রাসায়নিক পরিবর্তন ও সাম্যাবস্থা', subjectId: 'chemistry', paperId: '1st-paper', order: 4 },
 
   // Chemistry 2nd Paper
-  { id: 'organic-chem', slug: 'organic-chem', name: 'Organic Chemistry', nameBn: 'জৈব রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 2, formulaCount: 7, isReady: true },
-  { id: 'electrochemistry', slug: 'electrochemistry', name: 'Electrochemistry', nameBn: 'তড়িৎ রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 4, formulaCount: 6, isReady: true },
+  { id: 'organic-chem', slug: 'organic-chem', name: 'Organic Chemistry', nameBn: 'জৈব রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 2 },
+  { id: 'electrochemistry', slug: 'electrochemistry', name: 'Electrochemistry', nameBn: 'তড়িৎ রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 4 },
 
   // Higher Math 1st Paper
-  { id: 'straight-lines', slug: 'straight-lines', name: 'Straight Lines', nameBn: 'সরলরেখা', subjectId: 'math', paperId: '1st-paper', order: 3, formulaCount: 6, isReady: true },
-  { id: 'calculus', slug: 'calculus', name: 'Calculus & Integration', nameBn: 'ক্যালকুলাস ও যোগজীকরণ', subjectId: 'math', paperId: '1st-paper', order: 9, formulaCount: 6, isReady: true },
+  { id: 'straight-lines', slug: 'straight-lines', name: 'Straight Lines', nameBn: 'সরলরেখা', subjectId: 'math', paperId: '1st-paper', order: 3 },
+  { id: 'calculus', slug: 'calculus', name: 'Calculus & Integration', nameBn: 'ক্যালকুলাস ও যোগজীকরণ', subjectId: 'math', paperId: '1st-paper', order: 9 },
 
   // Higher Math 2nd Paper
-  { id: 'complex-numbers', slug: 'complex-numbers', name: 'Complex Numbers', nameBn: 'জটিল সংখ্যা', subjectId: 'math', paperId: '2nd-paper', order: 3, formulaCount: 7, isReady: true },
-  { id: 'polynomials', slug: 'polynomials', name: 'Polynomials & Equations', nameBn: 'বহুপদী ও বহুপদী সমীকরণ', subjectId: 'math', paperId: '2nd-paper', order: 4, formulaCount: 6, isReady: true },
-  { id: 'binomial-theorem', slug: 'binomial-theorem', name: 'Binomial Theorem', nameBn: 'দ্বিপদী উপপাদ্য', subjectId: 'math', paperId: '2nd-paper', order: 5, formulaCount: 6, isReady: true },
-  { id: 'trigonometric-equations', slug: 'trigonometric-equations', name: 'Trigonometric Equations', nameBn: 'ত্রিকোণমিতিক সমীকরণ', subjectId: 'math', paperId: '2nd-paper', order: 7, formulaCount: 7, isReady: true },
+  { id: 'complex-numbers', slug: 'complex-numbers', name: 'Complex Numbers', nameBn: 'জটিল সংখ্যা', subjectId: 'math', paperId: '2nd-paper', order: 3 },
+  { id: 'polynomials', slug: 'polynomials', name: 'Polynomials & Equations', nameBn: 'বহুপদী ও বহুপদী সমীকরণ', subjectId: 'math', paperId: '2nd-paper', order: 4 },
+  { id: 'binomial-theorem', slug: 'binomial-theorem', name: 'Binomial Theorem', nameBn: 'দ্বিপদী উপপাদ্য', subjectId: 'math', paperId: '2nd-paper', order: 5 },
+  { id: 'trigonometric-equations', slug: 'trigonometric-equations', name: 'Trigonometric Equations', nameBn: 'ত্রিকোণমিতিক সমীকরণ', subjectId: 'math', paperId: '2nd-paper', order: 7 },
 ]
 
-export const chapters: ChapterMeta[] = [
-  magneticMeta,
-  thermoMeta,
-  staticMeta,
-  currentMeta,
-  vectorMeta,
-  dynamicsMeta,
-  workEnergyMeta,
-  gravitationMeta,
-  inductionAcMeta,
-  modernPhysicsMeta,
-  qualitativeMeta,
-  electrochemMeta,
-  straightLinesMeta,
-  calculusMeta,
-  periodicMotionMeta,
-  semiconductorMeta,
-  chemEquilibriumMeta,
-  complexNumbersMeta,
-  idealGasMeta,
-  waveOpticsMeta,
-  organicChemMeta,
-  binomialTheoremMeta,
-  geometricOpticsMeta,
-  chemicalBondingMeta,
-  polynomialsMeta,
-  trigEquationsMeta,
-] as ChapterMeta[]
+/**
+ * Every formula ships as a JSON file under content/subjects/<subject>/chapters/<chapter>/formulas/.
+ * Loading them by glob means a new file is live the moment it is added — it can never be
+ * silently left out of the book, and per-chapter counts can never drift out of date.
+ */
+const formulaModules = import.meta.glob<Formula>(
+  '../../content/subjects/*/chapters/*/formulas/*.json',
+  { eager: true, import: 'default' },
+)
+
+export const formulas: Formula[] = Object.values(formulaModules).sort((a, b) => {
+  const ao = a.order ?? Number.MAX_SAFE_INTEGER
+  const bo = b.order ?? Number.MAX_SAFE_INTEGER
+  if (ao !== bo) return ao - bo
+  return a.id.localeCompare(b.id)
+})
+
+const countByChapter = formulas.reduce<Record<string, number>>((acc, f) => {
+  acc[f.chapter] = (acc[f.chapter] ?? 0) + 1
+  return acc
+}, {})
+
+export const allChapters: ChapterMeta[] = chapterList.map((ch) => ({
+  ...ch,
+  formulaCount: countByChapter[ch.id] ?? 0,
+  isReady: (countByChapter[ch.id] ?? 0) > 0,
+}))
+
+const paperOrder: Record<string, number> = { '1st-paper': 0, '2nd-paper': 1 }
+const subjectOrder = new Map(subjectsList.map((s, i) => [s.id, i]))
+
+export const chapters: ChapterMeta[] = [...allChapters].sort(
+  (a, b) =>
+    (subjectOrder.get(a.subjectId) ?? 0) - (subjectOrder.get(b.subjectId) ?? 0) ||
+    paperOrder[a.paperId] - paperOrder[b.paperId] ||
+    a.order - b.order,
+)
+
 export const defaultChapterId = 'magnetic-current'
-
-export const formulas: Formula[] = [
-  newtonLaws,
-  friction,
-  workTheorem,
-  keplersLaws,
-  waveEquation,
-  gasLaws,
-  vectorDotAngle,
-  entropyChange,
-  conductanceKohlrausch,
-  definiteIntegralArea,
-
-  lensMakersFormula,
-  hybridizationShapes,
-  quadraticEquationRoots,
-  generalSolutionsTrig,
-
-  rmsVelocity,
-  youngsDoubleSlit,
-  grignardReaction,
-  binomialExpansion,
-
-  shmTimePeriod,
-  transistorAlphaBeta,
-  kpKcRelation,
-  complexModulusArgument,
-
-  solubilityProduct,
-  nernstEquation,
-  straightLineAngle,
-  differentiationChainRule,
-
-  vectorCrossArea,
-  bankedRoad,
-  potentialEnergySpring,
-  orbitalVelocity,
-
-  cpCvRelation,
-  capacitorEnergy,
-  kirchhoffsLaws,
-  transformerRatio,
-  radioactiveDecay,
-
-  bohrAtomModel,
-  faradaysElectrolysis,
-  perpendicularDistance,
-  integrationByParts,
-
-  newtonsGravitation,
-  escapeVelocity,
-  faradaysLaw,
-  acRmsValues,
-  massEnergyPhotoelectric,
-
-  centripetalForce,
-  torqueAngularAcc,
-  kineticEnergy,
-  projectileMotion,
-
-  ohmsLaw,
-  wheatstoneBridge,
-
-  vectorResultant,
-  vectorDotProduct,
-
-  coulombsLaw,
-  electricPotential,
-  capacitorParallelPlate,
-
-  firstLawThermo,
-  isothermalWork,
-  carnaudEfficiency,
-  adiabaticProcess,
-
-  biotSavart,
-  wireField,
-  straightWireFinite,
-  loopCenter,
-  loopAxis,
-  arcCenter,
-  solenoid,
-  toroid,
-  forceOnWire,
-  parallelWires,
-  lorentz,
-  velocitySelector,
-  magneticMoment,
-  torqueLoop,
-  magneticWork,
-  magneticPotentialEnergy,
-  amperesLaw,
-  cyclotronRadius,
-  cyclotronFreq,
-  movingChargeEnergy,
-  galvanometerAmmeter,
-  galvanometerVoltmeter,
-  tangentGalvanometer,
-  earthMagnetism,
-  barMagnetField,
-  magneticFlux,
-  hallEffect,
-  magneticIntensity,
-  bohrMagneton,
-  magneticForceChargeAngle,
-  curieLaw,
-  magneticHysteresisLoss,
-  coaxialCableField,
-  magneticDipoleVibration,
-  electromagneticMassSpectrometer,
-  magneticForceCircular,
-
-  mirrorFormula,
-  refractionSpherical,
-  lensCombinationPower,
-  totalInternalReflection,
-  snellLaw,
-
-  singleSlitDiffraction,
-  diffractionGrating,
-
-  shmEnergy,
-  torsionalPendulum,
-  resonanceDamped,
-
-  idealGasEquation,
-  kineticEnergyGas,
-
-  pnJunctionDiode,
-  rectifierRipple,
-
-  deBroglieWavelength,
-  bohrRadiusHydrogen,
-
-  selfInductance,
-  lcLcrCircuit,
-  resonanceFrequency,
-  powerAcCircuit,
-
-  electricField,
-  capacitorCombination,
-
-  resistivityTemperature,
-  driftVelocity,
-
-  bondOrderMo,
-  dipoleMoment,
-  lewisStructure,
-
-  reactionQuotient,
-  vanthoffEquation,
-  equilibriumConstantRate,
-
-  quantumNumbers,
-  electronConfiguration,
-  phPohWater,
-
-  markovnikovRule,
-  sn1Sn2Mechanism,
-  functionalGroups,
-
-  faradaySecondLaw,
-  gibbsEmfRelation,
-  electrochemicalSeries,
-
-  distanceFormula,
-  sectionFormula,
-  equationForms,
-  circleEquation,
-
-  productQuotientRule,
-  fundamentalTheorem,
-  limitEvaluation,
-
-  eulerForm,
-  rootsOfUnity,
-  deMoivre,
-  complexCubeRootsUnity,
-
-  factorTheorem,
-  vietaFormulas,
-  syntheticDivision,
-  rootCoefficientRelation,
-  polynomialRemainder,
-
-  generalTerm,
-  greatestTerm,
-
-  compoundAngle,
-  multipleAngle,
-  trigIdentityPythagorean,
-
-  halfWaveRectifier,
-  zenerDiode,
-
-  opticalPathPhase,
-  polarizationMalus,
-
-  powerEfficiency,
-  elasticCollision,
-
-  gravitationalPotential,
-  satelliteEnergy,
-
-  maxwellDistribution,
-  meanFreePath,
-
-  comptonEffect,
-  xRayCharacteristic,
-
-  vectorTripleProduct,
-  directionCosines,
-
-  formalCharge,
-  vseprTheory,
-
-  degreeDissociation,
-  leChatelierQuantitative,
-
-  eliminationE2,
-  alcoholOxidation,
-
-  sumBinomialCoeff,
-  pascalIdentity,
-
-  conjugateProperties,
-  polarMultiplication,
-
-  productSumIdentities,
-  inverseTrigIdentities,
-  inverseTrig,
-
-  binomialMiddleTerm,
-
-  bufferSolution,
-  leChatelier,
-  organicReactions,
-] as Formula[]
 
 const tagMap = new Map(tags.map((t) => [t.id, t]))
 const chapterMap = new Map(allChapters.map((c) => [c.id, c]))

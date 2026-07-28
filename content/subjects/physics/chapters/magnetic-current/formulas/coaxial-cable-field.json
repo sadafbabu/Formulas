@@ -4,16 +4,42 @@
   "titleBn": "কো-অ্যাক্সিয়াল ক্যাবলের চৌম্বক ক্ষেত্র",
   "latex": "B_{\\text{inner}} = \\frac{\\mu_0 I r}{2\\pi a^2}, \\quad B_{\\text{outer}} = 0",
   "summary": "কো-অ্যাক্সিয়াল তারের অভ্যন্তরীণ নিরেট পরিবাহী ও বাহ্যিক খোলসের ভিতরের ও বাইরের চৌম্বক ক্ষেত্র।",
-  "tags": ["eng-admission", "varsity", "2-star"],
+  "tags": [
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 2,
-  "subjects": ["physics"],
-  "related": ["amperes-law", "wire-field"],
+  "order": 330,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "amperes-law",
+    "wire-field"
+  ],
   "symbols": [
-    { "symbol": "B_{\\text{inner}}", "meaning": "নিরেট তারের অভ্যন্তরীণ ক্ষেত্র (r < a)", "unit": "T" },
-    { "symbol": "B_{\\text{outer}}", "meaning": "ক্যাবলের বহিস্থ ক্ষেত্র (r > b)", "unit": "T" },
-    { "symbol": "a", "meaning": "অভ্যন্তরীণ তারের ব্যাসার্ধ", "unit": "m" },
-    { "symbol": "r", "meaning": "অক্ষ থেকে দূরত্ব", "unit": "m" }
+    {
+      "symbol": "B_{\\text{inner}}",
+      "meaning": "নিরেট তারের অভ্যন্তরীণ ক্ষেত্র (r < a)",
+      "unit": "T"
+    },
+    {
+      "symbol": "B_{\\text{outer}}",
+      "meaning": "ক্যাবলের বহিস্থ ক্ষেত্র (r > b)",
+      "unit": "T"
+    },
+    {
+      "symbol": "a",
+      "meaning": "অভ্যন্তরীণ তারের ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "r",
+      "meaning": "অক্ষ থেকে দূরত্ব",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "অ্যাম্পিয়ারের সূত্র প্রয়োগে আবদ্ধ প্রবাহ সমতা:",
@@ -24,7 +50,9 @@
         "note": "বাহ্যিক পরিবাহীতে বিপরীত সমমানের প্রবাহ থাকায় ক্যাবলের বাইরে মোট ক্ষেত্র শূন্য ($B_{\\text{outer}} = 0$) হয়।"
       }
     ],
-    "assumptions": ["প্রবাহ নিরেট পরিবাহীর প্রস্থচ্ছেদে সুষমভাবে বিস্তৃত।"]
+    "assumptions": [
+      "প্রবাহ নিরেট পরিবাহীর প্রস্থচ্ছেদে সুষমভাবে বিস্তৃত।"
+    ]
   },
   "questions": [
     {

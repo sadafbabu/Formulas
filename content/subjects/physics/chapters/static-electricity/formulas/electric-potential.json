@@ -5,12 +5,31 @@
   "titleBn": "বিন্দু আধানের জন্য তড়িৎ বিভব",
   "summary": "অসীম হতে একক ধনাত্মক আধান আননে কৃতকাজ",
   "latex": "V = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q}{r}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 30,
   "symbols": [
-    { "symbol": "V", "meaning": "তড়িৎ বিভব", "unit": "V (Volt)" },
-    { "symbol": "q", "meaning": "উৎস আধান", "unit": "C" },
-    { "symbol": "r", "meaning": "নির্ধারিত বিন্দুর দূরত্ব", "unit": "m" }
+    {
+      "symbol": "V",
+      "meaning": "তড়িৎ বিভব",
+      "unit": "V (Volt)"
+    },
+    {
+      "symbol": "q",
+      "meaning": "উৎস আধান",
+      "unit": "C"
+    },
+    {
+      "symbol": "r",
+      "meaning": "নির্ধারিত বিন্দুর দূরত্ব",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "তড়িৎ ক্ষেত্রের প্রাবল্যের অসীম সমাকলন থেকে বিভব পাওয়া যায়।",

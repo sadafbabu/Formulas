@@ -5,12 +5,30 @@
   "titleBn": "অবশিষ্ট উপপাদ্য ও গুণনীয় উপপাদ্য",
   "summary": "বহুপদীকে (x-a) দিয়ে ভাগ করলে অবশিষ্ট f(a), এবং f(a)=0 হলে (x-a) একটি গুণনীয়",
   "latex": "P(x) \\div (x - a) \\Rightarrow \\text{Remainder} = P(a), \\quad P(a) = 0 \\Rightarrow (x - a) \\text{ is a factor}",
-  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 60,
   "symbols": [
-    { "symbol": "P(x)", "meaning": "বহুপদী ফাংশন", "unit": "ফাংশন" },
-    { "symbol": "a", "meaning": "শূন্য বা মূল", "unit": "সংখ্যা" },
-    { "symbol": "P(a)", "meaning": "x=a তে বহুপদীর মান", "unit": "সংখ্যা" }
+    {
+      "symbol": "P(x)",
+      "meaning": "বহুপদী ফাংশন",
+      "unit": "ফাংশন"
+    },
+    {
+      "symbol": "a",
+      "meaning": "শূন্য বা মূল",
+      "unit": "সংখ্যা"
+    },
+    {
+      "symbol": "P(a)",
+      "meaning": "x=a তে বহুপদীর মান",
+      "unit": "সংখ্যা"
+    }
   ],
   "derivation": {
     "lead": "যদি P(x) = (x-a)Q(x) + R হয়, তাহলে x=a বসিয়ে P(a) = R পাওয়া যায়।",

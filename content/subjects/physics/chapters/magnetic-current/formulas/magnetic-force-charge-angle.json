@@ -4,16 +4,42 @@
   "titleBn": "তির্যক আধানের সর্পিল (Helix) গতিপথ ও পিচ",
   "latex": "R = \\frac{m v \\sin \\theta}{q B}, \\quad P = \\frac{2\\pi m v \\cos \\theta}{q B}",
   "summary": "চৌম্বক ক্ষেত্রের সাথে তির্যক θ কোণে গতিশীল আধানের হেলিকাল বা সর্পিল গতিপথের ব্যাসার্ধ R এবং পিচ P।",
-  "tags": ["eng-admission", "varsity", "3-star"],
+  "tags": [
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 3,
-  "subjects": ["physics"],
-  "related": ["lorentz", "cyclotron-radius"],
+  "order": 300,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "lorentz",
+    "cyclotron-radius"
+  ],
   "symbols": [
-    { "symbol": "R", "meaning": "সর্পিল বৃত্তের ব্যাসার্ধ", "unit": "m" },
-    { "symbol": "P", "meaning": "পিচ (অক্ষ বরাবর এক ঘূর্ণনে অতিক্রান্ত দূরত্ব)", "unit": "m" },
-    { "symbol": "v", "meaning": "কণার মোট বেগ", "unit": "m/s" },
-    { "symbol": "\\theta", "meaning": "বেগ v ও চৌম্বক ক্ষেত্র B এর অন্তর্বর্তী কোণ", "unit": "°" }
+    {
+      "symbol": "R",
+      "meaning": "সর্পিল বৃত্তের ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "P",
+      "meaning": "পিচ (অক্ষ বরাবর এক ঘূর্ণনে অতিক্রান্ত দূরত্ব)",
+      "unit": "m"
+    },
+    {
+      "symbol": "v",
+      "meaning": "কণার মোট বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "বেগ v ও চৌম্বক ক্ষেত্র B এর অন্তর্বর্তী কোণ",
+      "unit": "°"
+    }
   ],
   "derivation": {
     "lead": "বেগ উপাংশ বিভাজন $v_{\\perp} = v \\sin\\theta$ ও $v_{\\parallel} = v \\cos\\theta$:",
@@ -24,7 +50,9 @@
         "note": "লরেঞ্জ বল কেবল $v_{\\perp}$ উপাংশের ওপর কাজ করে বৃত্তাকার গতি দেয়।"
       }
     ],
-    "assumptions": ["চৌম্বক ক্ষেত্র B সুষম ও স্থানিকভাবে অপরিবর্তনীয়।"]
+    "assumptions": [
+      "চৌম্বক ক্ষেত্র B সুষম ও স্থানিকভাবে অপরিবর্তনীয়।"
+    ]
   },
   "questions": [
     {

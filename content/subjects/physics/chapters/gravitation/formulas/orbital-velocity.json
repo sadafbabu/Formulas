@@ -5,14 +5,41 @@
   "titleBn": "কৃত্রিম উপগ্রহের আবর্তন বেগ ও পর্যায়কাল",
   "summary": "ভূ-পৃষ্ঠ হতে h উচ্চতায় আবর্তনশীল উপগ্রহের বেগ ও পর্যায়কাল",
   "latex": "v_o = \\sqrt{\\frac{G M}{R + h}}, \\quad T = \\frac{2\\pi (R+h)}{v_o} = 2\\pi \\sqrt{\\frac{(R+h)^3}{G M}}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 20,
   "symbols": [
-    { "symbol": "v_o", "meaning": "উপগ্রহের কক্ষপথীয় বেগ", "unit": "m/s" },
-    { "symbol": "T", "meaning": "উপগ্রহের পর্যায়কাল", "unit": "s" },
-    { "symbol": "M", "meaning": "পৃথিবীর ভর (5.972 × 10²⁴)", "unit": "kg" },
-    { "symbol": "R", "meaning": "পৃথিবীর ব্যাসার্ধ (6.371 × 10⁶)", "unit": "m" },
-    { "symbol": "h", "meaning": "ভূ-পৃষ্ঠ হতে উচ্চতা", "unit": "m" }
+    {
+      "symbol": "v_o",
+      "meaning": "উপগ্রহের কক্ষপথীয় বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "T",
+      "meaning": "উপগ্রহের পর্যায়কাল",
+      "unit": "s"
+    },
+    {
+      "symbol": "M",
+      "meaning": "পৃথিবীর ভর (5.972 × 10²⁴)",
+      "unit": "kg"
+    },
+    {
+      "symbol": "R",
+      "meaning": "পৃথিবীর ব্যাসার্ধ (6.371 × 10⁶)",
+      "unit": "m"
+    },
+    {
+      "symbol": "h",
+      "meaning": "ভূ-পৃষ্ঠ হতে উচ্চতা",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "মহাকর্ষ বলই কেন্দ্রমুখী বলের যোগান দেয় (GMm/(R+h)² = m vo²/(R+h))।",

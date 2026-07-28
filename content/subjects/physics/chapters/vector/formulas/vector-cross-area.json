@@ -5,13 +5,36 @@
   "titleBn": "ভেক্টর ক্রস গুণন ও সামান্তরিকের ক্ষেত্রফল",
   "summary": "ভেক্টর গুণন এবং সন্নিহিত বাহু দ্বারা গঠিত সামান্তরিকের ক্ষেত্রফল",
   "latex": "\\mathbf{A} \\times \\mathbf{B} = |\\mathbf{A}||\\mathbf{B}| \\sin\\theta \\,\\hat{n}, \\quad \\text{Area} = |\\mathbf{A} \\times \\mathbf{B}|",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 20,
   "symbols": [
-    { "symbol": "\\mathbf{A}, \\mathbf{B}", "meaning": "দুটি সামান্তরিকের সন্নিহিত বাহুর ভেক্টর", "unit": "ভেক্টর" },
-    { "symbol": "\\theta", "meaning": "ভেক্টরদ্বয়ের অন্তর্ভুক্ত কোণ", "unit": "ডিগ্রী (°)" },
-    { "symbol": "\\hat{n}", "meaning": "লম্ব একক ভেক্টর", "unit": "এককহীন" },
-    { "symbol": "\\text{Area}", "meaning": "সামান্তরিকের ক্ষেত্রফল", "unit": "বর্গ একক" }
+    {
+      "symbol": "\\mathbf{A}, \\mathbf{B}",
+      "meaning": "দুটি সামান্তরিকের সন্নিহিত বাহুর ভেক্টর",
+      "unit": "ভেক্টর"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "ভেক্টরদ্বয়ের অন্তর্ভুক্ত কোণ",
+      "unit": "ডিগ্রী (°)"
+    },
+    {
+      "symbol": "\\hat{n}",
+      "meaning": "লম্ব একক ভেক্টর",
+      "unit": "এককহীন"
+    },
+    {
+      "symbol": "\\text{Area}",
+      "meaning": "সামান্তরিকের ক্ষেত্রফল",
+      "unit": "বর্গ একক"
+    }
   ],
   "derivation": {
     "lead": "ক্রস গুণনের মান গুণফলের উচ্চতা নির্দেশ করে যা ক্ষেত্রফলের সমান।",

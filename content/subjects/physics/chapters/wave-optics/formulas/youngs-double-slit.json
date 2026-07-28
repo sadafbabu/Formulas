@@ -5,14 +5,41 @@
   "titleBn": "ইয়ং-এর দ্বি-চির পরীক্ষায় ডোরার ব্যবধান",
   "summary": "ব্যতিচার ডোরার প্রস্থ ও পর পর দুটি উজ্জ্বল/ অন্ধকার ডোরার দূরত্ব",
   "latex": "\\beta = \\frac{\\lambda D}{d}, \\quad \\Delta x = \\frac{\\lambda D}{2 d}, \\quad y_n = n \\frac{\\lambda D}{d} \\text{ (Bright)}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 10,
   "symbols": [
-    { "symbol": "\\beta", "meaning": "ডোরার ব্যবধান (Fringe width)", "unit": "m" },
-    { "symbol": "\\lambda", "meaning": "আলোর তরঙ্গদৈর্ঘ্য", "unit": "m" },
-    { "symbol": "D", "meaning": "চির হতে পর্দার দূরত্ব", "unit": "m" },
-    { "symbol": "d", "meaning": "দ্বি-চিরের মধ্যবর্তী দূরত্ব", "unit": "m" },
-    { "symbol": "\\Delta x", "meaning": "একটি ডোরার প্রস্থ", "unit": "m" }
+    {
+      "symbol": "\\beta",
+      "meaning": "ডোরার ব্যবধান (Fringe width)",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\lambda",
+      "meaning": "আলোর তরঙ্গদৈর্ঘ্য",
+      "unit": "m"
+    },
+    {
+      "symbol": "D",
+      "meaning": "চির হতে পর্দার দূরত্ব",
+      "unit": "m"
+    },
+    {
+      "symbol": "d",
+      "meaning": "দ্বি-চিরের মধ্যবর্তী দূরত্ব",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\Delta x",
+      "meaning": "একটি ডোরার প্রস্থ",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "পথ পার্থক্য ΔS = d sinθ ≈ d (y/D) = n λ গঠনমূলক ব্যতিচারের শর্ত হতে প্রাপ্ত।",

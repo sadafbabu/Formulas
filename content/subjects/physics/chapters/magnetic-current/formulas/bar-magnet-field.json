@@ -4,16 +4,43 @@
   "titleBn": "দণ্ড চুম্বকের অক্ষীয় ও বিষুবীয় ক্ষেত্র",
   "latex": "B_{\\text{axis}} = \\frac{\\mu_0}{4\\pi} \\frac{2 M r}{(r^2 - l^2)^2}, \\quad B_{\\text{eq}} = \\frac{\\mu_0}{4\\pi} \\frac{M}{(r^2 + l^2)^{3/2}}",
   "summary": "দণ্ড চুম্বকের অক্ষ (End-on) এবং লম্ব সমদ্বিখণ্ডক (Broadside-on) সমতলে চৌম্বক ক্ষেত্র।",
-  "tags": ["hsc", "eng-admission", "varsity", "2-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 2,
-  "subjects": ["physics"],
-  "related": ["magnetic-moment", "earth-magnetism"],
+  "order": 250,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "magnetic-moment",
+    "earth-magnetism"
+  ],
   "symbols": [
-    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "M", "meaning": "চৌম্বক ভ্রামক (2l × m)", "unit": "A·m²" },
-    { "symbol": "2l", "meaning": "চুম্বকের কার্যকর দৈর্ঘ্য", "unit": "m" },
-    { "symbol": "r", "meaning": "কেন্দ্র থেকে বিন্দুর দূরত্ব", "unit": "m" }
+    {
+      "symbol": "B",
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "M",
+      "meaning": "চৌম্বক ভ্রামক (2l × m)",
+      "unit": "A·m²"
+    },
+    {
+      "symbol": "2l",
+      "meaning": "চুম্বকের কার্যকর দৈর্ঘ্য",
+      "unit": "m"
+    },
+    {
+      "symbol": "r",
+      "meaning": "কেন্দ্র থেকে বিন্দুর দূরত্ব",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "উত্তর ও দক্ষিণ মেৰুর ক্ষেত্র বলের লব্ধি সংযোজন:",
@@ -24,7 +51,9 @@
         "note": "একই দূরত্বে অক্ষীয় চৌম্বক ক্ষেত্র বিষুবীয় ক্ষেত্রের দ্বিগুণ ($B_{\\text{axis}} = 2 B_{\\text{eq}}$) হয়।"
       }
     ],
-    "assumptions": ["চুম্বকটি সুষম এবং ক্ষুদ্র দৈর্ঘ্যবিশিষ্ট (r >> l)।"]
+    "assumptions": [
+      "চুম্বকটি সুষম এবং ক্ষুদ্র দৈর্ঘ্যবিশিষ্ট (r >> l)।"
+    ]
   },
   "questions": [
     {

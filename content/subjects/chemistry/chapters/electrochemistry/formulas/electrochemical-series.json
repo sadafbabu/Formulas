@@ -5,15 +5,45 @@
   "titleBn": "তড়িৎ রাসায়নিক ধারা ও আদর্শ বিভব",
   "summary": "মানক হ্রাস বিভব অনুসারে ধাতু/আয়ন সাজানো ও কোষ বিভব নির্ণয়",
   "latex": "E^\\circ_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}}, \\quad \\Delta G^\\circ = -nFE^\\circ_{\\text{cell}}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
-  "subjects": ["chemistry"],
-  "related": ["nernst-equation", "gibbs-emf-relation", "faradays-electrolysis"],
+  "order": 60,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "nernst-equation",
+    "gibbs-emf-relation",
+    "faradays-electrolysis"
+  ],
   "symbols": [
-    { "symbol": "E^\\circ", "meaning": "আদর্শ হ্রাস বিভব", "unit": "V" },
-    { "symbol": "\\Delta G^\\circ", "meaning": "আদর্শ গিবস মুক্ত শক্তি", "unit": "kJ/mol" },
-    { "symbol": "F", "meaning": "ফ্যারাডে ধ্রুবক", "unit": "C/mol", "value": "96500" },
-    { "symbol": "n", "meaning": "স্থানান্তরিত ইলেকট্রন সংখ্যা", "unit": "—" }
+    {
+      "symbol": "E^\\circ",
+      "meaning": "আদর্শ হ্রাস বিভব",
+      "unit": "V"
+    },
+    {
+      "symbol": "\\Delta G^\\circ",
+      "meaning": "আদর্শ গিবস মুক্ত শক্তি",
+      "unit": "kJ/mol"
+    },
+    {
+      "symbol": "F",
+      "meaning": "ফ্যারাডে ধ্রুবক",
+      "unit": "C/mol",
+      "value": "96500"
+    },
+    {
+      "symbol": "n",
+      "meaning": "স্থানান্তরিত ইলেকট্রন সংখ্যা",
+      "unit": "—"
+    }
   ],
   "derivation": {
     "lead": "তড়িৎ রাসায়নিক ধারায় উপরে হ্রাস বিভব বেশি ক্যাথোড, নিচে কম অ্যানোড। কোষ বিভব = ক্যাথোড − অ্যানোড।",
@@ -24,7 +54,9 @@
         "note": "ধনাত্মক E° মানে বিক্রিয়া স্বতঃস্ফূর্ত; ঋণাত্মক মানে বহিঃস্থ শক্তি লাগে"
       }
     ],
-    "assumptions": ["আদর্শ অবস্থা (1 M, 1 atm, 25°C)"]
+    "assumptions": [
+      "আদর্শ অবস্থা (1 M, 1 atm, 25°C)"
+    ]
   },
   "questions": [
     {

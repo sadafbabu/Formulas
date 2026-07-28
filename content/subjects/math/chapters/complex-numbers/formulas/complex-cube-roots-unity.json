@@ -5,13 +5,33 @@
   "titleBn": "১-এর ঘনমূল ও ধর্ম",
   "summary": "১-এর তিনটি ঘনমূল ও তাদের যোগফল শূন্য ধর্ম",
   "latex": "1, \\omega, \\omega^2; \\quad \\omega = e^{2\\pi i/3} = \\frac{-1+i\\sqrt{3}}{2}, \\quad 1 + \\omega + \\omega^2 = 0, \\quad \\omega^3 = 1",
-  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
-  "subjects": ["math"],
-  "related": ["de-moivre", "euler-form", "roots-of-unity"],
+  "order": 50,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "de-moivre",
+    "euler-form",
+    "roots-of-unity"
+  ],
   "symbols": [
-    { "symbol": "\\omega", "meaning": "১-এর কাল্পনিক ঘনমূল", "unit": "মাত্রাহীন" },
-    { "symbol": "i", "meaning": "কাল্পনিক একক, i² = -1", "unit": "—" }
+    {
+      "symbol": "\\omega",
+      "meaning": "১-এর কাল্পনিক ঘনমূল",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "i",
+      "meaning": "কাল্পনিক একক, i² = -1",
+      "unit": "—"
+    }
   ],
   "derivation": {
     "lead": "z³ = 1 সমীকরণের সমাধান দ্য ময়ভার উপপাদ্য থেকে প্রাপ্ত।",
@@ -22,7 +42,9 @@
         "note": "তিন ঘনমূল একটি নিয়ত বৃত্তের শীর্ষে অবস্থিত (120° পরস্পর থেকে)"
       }
     ],
-    "assumptions": ["z³ = 1 সমীকরণ"]
+    "assumptions": [
+      "z³ = 1 সমীকরণ"
+    ]
   },
   "questions": [
     {

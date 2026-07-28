@@ -11,6 +11,7 @@
     "3-star"
   ],
   "importance": 3,
+  "order": 40,
   "symbols": [
     {
       "symbol": "\\binom{n}{r}",

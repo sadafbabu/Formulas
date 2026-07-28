@@ -12,6 +12,7 @@
   ],
   "chapter": "magnetic-current",
   "importance": 3,
+  "order": 10,
   "subjects": [
     "physics"
   ],

@@ -4,16 +4,43 @@
   "titleBn": "চৌম্বক গ্রহীতার কিউরি সূত্র",
   "latex": "\\chi_m = \\frac{C}{T}, \\quad M = C \\frac{B}{T}",
   "summary": "প্যারাম্যাগনেটিক পদার্থের চৌম্বক গ্রহীতা পরম তাপমাত্রার (T) ব্যস্তানুপাতিক।",
-  "tags": ["hsc", "eng-admission", "varsity", "2-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 2,
-  "subjects": ["physics"],
-  "related": ["magnetic-intensity", "bar-magnet-field"],
+  "order": 310,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "magnetic-intensity",
+    "bar-magnet-field"
+  ],
   "symbols": [
-    { "symbol": "\\chi_m", "meaning": "চৌম্বক গ্রহীতা (Susceptibility)", "unit": "মাত্রাচ্ছন্ন" },
-    { "symbol": "C", "meaning": "পদার্থের কিউরি ধ্রুবক (Curie Constant)", "unit": "K" },
-    { "symbol": "T", "meaning": "পরম তাপমাত্রা (Kelvin)", "unit": "K" },
-    { "symbol": "M", "meaning": "ম্যাগনেটাইজেশন তীব্রতা", "unit": "A/m" }
+    {
+      "symbol": "\\chi_m",
+      "meaning": "চৌম্বক গ্রহীতা (Susceptibility)",
+      "unit": "মাত্রাচ্ছন্ন"
+    },
+    {
+      "symbol": "C",
+      "meaning": "পদার্থের কিউরি ধ্রুবক (Curie Constant)",
+      "unit": "K"
+    },
+    {
+      "symbol": "T",
+      "meaning": "পরম তাপমাত্রা (Kelvin)",
+      "unit": "K"
+    },
+    {
+      "symbol": "M",
+      "meaning": "ম্যাগনেটাইজেশন তীব্রতা",
+      "unit": "A/m"
+    }
   ],
   "derivation": {
     "lead": "তাপীয় বিশৃঙ্খলা ও দ্বিপোল বিন্যাস সাম্যাবস্থা:",
@@ -24,7 +51,9 @@
         "note": "তাপমাত্রা বৃদ্ধি পেলে তাপীয় স্পন্দনের কারণে দ্বিপোলগুলোর শৃঙ্খলিত বিন্যাস ভেঙে যায়।"
       }
     ],
-    "assumptions": ["কেবল প্যারাম্যাগনেটিক পদার্থ এবং অতি উচ্চ তাপমাত্রা না হওয়া পর্যন্ত প্রযোজ্য।"]
+    "assumptions": [
+      "কেবল প্যারাম্যাগনেটিক পদার্থ এবং অতি উচ্চ তাপমাত্রা না হওয়া পর্যন্ত প্রযোজ্য।"
+    ]
   },
   "questions": [
     {

@@ -4,18 +4,53 @@
   "titleBn": "হল প্রভাব ও হল বিভব",
   "latex": "V_H = \\frac{I B}{n q d}",
   "summary": "চৌম্বক ক্ষেত্রে অবস্থিত সুপরিবাহীর দুই পার্শ্বের মধ্যে সৃষ্ট হল বিভব পার্থক্য।",
-  "tags": ["hsc", "eng-admission", "varsity", "1-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "1-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 1,
-  "subjects": ["physics"],
-  "related": ["lorentz", "wire-field"],
+  "order": 270,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "lorentz",
+    "wire-field"
+  ],
   "symbols": [
-    { "symbol": "V_H", "meaning": "হল বিভব পার্থক্য", "unit": "V" },
-    { "symbol": "I", "meaning": "প্রবাহক তলের বিদ্যুৎপ্রবাহ", "unit": "A" },
-    { "symbol": "B", "meaning": "লম্ব চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "n", "meaning": "একক আয়তনে মুক্ত আধান বাহকের সংখ্যা", "unit": "m⁻³" },
-    { "symbol": "q", "meaning": "আধানের মান", "unit": "C" },
-    { "symbol": "d", "meaning": "পরিবাহীর চৌম্বক ক্ষেত্র বরাবর বেধ", "unit": "m" }
+    {
+      "symbol": "V_H",
+      "meaning": "হল বিভব পার্থক্য",
+      "unit": "V"
+    },
+    {
+      "symbol": "I",
+      "meaning": "প্রবাহক তলের বিদ্যুৎপ্রবাহ",
+      "unit": "A"
+    },
+    {
+      "symbol": "B",
+      "meaning": "লম্ব চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "n",
+      "meaning": "একক আয়তনে মুক্ত আধান বাহকের সংখ্যা",
+      "unit": "m⁻³"
+    },
+    {
+      "symbol": "q",
+      "meaning": "আধানের মান",
+      "unit": "C"
+    },
+    {
+      "symbol": "d",
+      "meaning": "পরিবাহীর চৌম্বক ক্ষেত্র বরাবর বেধ",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "হল তড়িৎ ক্ষেত্র ও চৌম্বক বলের সাম্যাবস্থা:",
@@ -26,7 +61,9 @@
         "note": "হল প্রভাবের মাধ্যমে আধান বাহকের প্রকৃতি (p-type বা n-type) নির্ণয় করা যায়।"
       }
     ],
-    "assumptions": ["আধান বাহক একজাতীয় এবং কেবল ইলেকট্রন বা হোল।"]
+    "assumptions": [
+      "আধান বাহক একজাতীয় এবং কেবল ইলেকট্রন বা হোল।"
+    ]
   },
   "questions": [
     {

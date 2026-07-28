@@ -5,12 +5,31 @@
   "titleBn": "কার্শফের তড়িৎ প্রবাহ ও বিভব সূত্র",
   "summary": "জটিল তড়িৎ বর্তনী বিশ্লেষণের কার্শফের ১ম ও ২য় সূত্র",
   "latex": "\\sum I = 0 \\quad (\\text{KCL}), \\quad \\sum E = \\sum I R \\quad (\\text{KVL})",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 10,
   "symbols": [
-    { "symbol": "\\sum I", "meaning": "সংযোগ বিন্দুতে প্রবাহের বীজগণিতীয় যোগফল", "unit": "A" },
-    { "symbol": "\\sum E", "meaning": "বন্ধ লুপে মোট তড়িচ্চালক শক্তি", "unit": "V" },
-    { "symbol": "\\sum I R", "meaning": "লুপে প্রবাহ ও রোধের গুণফলের যোগফল", "unit": "V" }
+    {
+      "symbol": "\\sum I",
+      "meaning": "সংযোগ বিন্দুতে প্রবাহের বীজগণিতীয় যোগফল",
+      "unit": "A"
+    },
+    {
+      "symbol": "\\sum E",
+      "meaning": "বন্ধ লুপে মোট তড়িচ্চালক শক্তি",
+      "unit": "V"
+    },
+    {
+      "symbol": "\\sum I R",
+      "meaning": "লুপে প্রবাহ ও রোধের গুণফলের যোগফল",
+      "unit": "V"
+    }
   ],
   "derivation": {
     "lead": "KCL আধানের সংরক্ষণশীলতা নীতি এবং KVL শক্তির সংরক্ষণশীলতা নীতির ওপর প্রতিষ্ঠিত।",

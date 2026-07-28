@@ -5,12 +5,31 @@
   "titleBn": "স্প্রিং-এর স্থিতিস্থাপক বিভব শক্তি",
   "summary": "স্প্রিং সংকুচিত বা প্রসারিত করার ফলে সঞ্চিত শক্তি",
   "latex": "U = \\frac{1}{2} k x^2",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 20,
   "symbols": [
-    { "symbol": "U", "meaning": "সঞ্চিত বিভব শক্তি", "unit": "J (Joule)" },
-    { "symbol": "k", "meaning": "স্প্রিং ধ্রুবক (Spring constant)", "unit": "N/m" },
-    { "symbol": "x", "meaning": "সরণ/সংকোচন/প্রসারণ", "unit": "m" }
+    {
+      "symbol": "U",
+      "meaning": "সঞ্চিত বিভব শক্তি",
+      "unit": "J (Joule)"
+    },
+    {
+      "symbol": "k",
+      "meaning": "স্প্রিং ধ্রুবক (Spring constant)",
+      "unit": "N/m"
+    },
+    {
+      "symbol": "x",
+      "meaning": "সরণ/সংকোচন/প্রসারণ",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "হুকের সূত্র F = -kx এবং কাজের ক্ষেত্র সমাকলন করে শক্তি উদ্ভূত।",

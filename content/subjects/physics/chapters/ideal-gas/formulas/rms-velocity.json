@@ -5,14 +5,41 @@
   "titleBn": "গ্যাসের বর্গমূল গড় বর্গ বেগ ও গড় গতিশক্তি",
   "summary": "গ্যাস অণুর RMS বেগ এবং ১ অণু ও ১ মোলের মোট গতিশক্তি",
   "latex": "v_{\\text{rms}} = \\sqrt{\\frac{3 R T}{M}} = \\sqrt{\\frac{3 P}{\\rho}}, \\quad E_k = \\frac{3}{2} n R T = \\frac{3}{2} k_B T",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 20,
   "symbols": [
-    { "symbol": "v_{\\text{rms}}", "meaning": "বর্গমূল গড় বর্গ বেগ", "unit": "m/s" },
-    { "symbol": "M", "meaning": "গ্যাসের আণবিক ভর", "unit": "kg/mol" },
-    { "symbol": "T", "meaning": "পরম তাপমাত্রা", "unit": "K" },
-    { "symbol": "k_B", "meaning": "বোল্টজমান ধ্রুবক (1.38 × 10⁻²³)", "unit": "J/K" },
-    { "symbol": "E_k", "meaning": "মোট গতিশক্তি", "unit": "J" }
+    {
+      "symbol": "v_{\\text{rms}}",
+      "meaning": "বর্গমূল গড় বর্গ বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "M",
+      "meaning": "গ্যাসের আণবিক ভর",
+      "unit": "kg/mol"
+    },
+    {
+      "symbol": "T",
+      "meaning": "পরম তাপমাত্রা",
+      "unit": "K"
+    },
+    {
+      "symbol": "k_B",
+      "meaning": "বোল্টজমান ধ্রুবক (1.38 × 10⁻²³)",
+      "unit": "J/K"
+    },
+    {
+      "symbol": "E_k",
+      "meaning": "মোট গতিশক্তি",
+      "unit": "J"
+    }
   ],
   "derivation": {
     "lead": "গ্যাসের চাপ P = (1/3) ρ v_rms² সূত্র হতে প্রাপ্ত।",

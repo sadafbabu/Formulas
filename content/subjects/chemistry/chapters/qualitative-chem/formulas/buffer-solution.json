@@ -13,6 +13,7 @@
     "3-star"
   ],
   "importance": 3,
+  "order": 60,
   "symbols": [
     {
       "symbol": "\\text{pH}",

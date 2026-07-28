@@ -4,16 +4,43 @@
   "titleBn": "কুণ্ডলী ঘুরানোর কাজ",
   "latex": "W = M B (1 - \\cos \\theta)",
   "summary": "চৌম্বক ক্ষেত্রের সমান্তরাল অবস্থান থেকে θ কোণে কুণ্ডলীকে ঘুরাতে বাহ্যিক বল দ্বারা কৃতকাজ।",
-  "tags": ["hsc", "eng-admission", "varsity", "2-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 2,
-  "subjects": ["physics"],
-  "related": ["torque-loop", "magnetic-potential-energy"],
+  "order": 150,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "torque-loop",
+    "magnetic-potential-energy"
+  ],
   "symbols": [
-    { "symbol": "W", "meaning": "কৃতকাজ", "unit": "J" },
-    { "symbol": "M", "meaning": "কুণ্ডলীর চৌম্বক ভ্রামক (NIA)", "unit": "A·m²" },
-    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "\\theta", "meaning": "ঘূর্ণন কোণ", "unit": "°" }
+    {
+      "symbol": "W",
+      "meaning": "কৃতকাজ",
+      "unit": "J"
+    },
+    {
+      "symbol": "M",
+      "meaning": "কুণ্ডলীর চৌম্বক ভ্রামক (NIA)",
+      "unit": "A·m²"
+    },
+    {
+      "symbol": "B",
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "ঘূর্ণন কোণ",
+      "unit": "°"
+    }
   ],
   "derivation": {
     "lead": "টর্ক সমাকলন করে কাজের সমীকরণ:",
@@ -24,7 +51,9 @@
         "note": "১৮০° ঘুরাতে সর্বোচ্চ কাজ $W_{\\text{max}} = 2 M B$ সম্পাদনা করতে হয়।"
       }
     ],
-    "assumptions": ["কুণ্ডলীটি স্থির অবস্থান থেকে সমকৌণিক বেগে ঘোরানো হয়েছে।"]
+    "assumptions": [
+      "কুণ্ডলীটি স্থির অবস্থান থেকে সমকৌণিক বেগে ঘোরানো হয়েছে।"
+    ]
   },
   "questions": [
     {

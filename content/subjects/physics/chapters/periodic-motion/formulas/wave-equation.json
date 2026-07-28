@@ -5,15 +5,46 @@
   "titleBn": "তরঙ্গ সমীকরণ ও তরঙ্গের বৈশিষ্ট্য",
   "summary": "তরঙ্গের গতি, কম্পাঙ্ক, তরঙ্গদৈর্ঘ্য এবং তরঙ্গ সমীকরণ",
   "latex": "v = f\\lambda, \\quad y = A\\sin(\\omega t - kx), \\quad \\omega = 2\\pi f, \\quad k = \\frac{2\\pi}{\\lambda}, \\quad v = \\sqrt{\\frac{T}{\\mu}}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 10,
   "symbols": [
-    { "symbol": "v", "meaning": "তরঙ্গের গতিবেগ", "unit": "m/s" },
-    { "symbol": "f", "meaning": "কম্পাঙ্ক", "unit": "Hz" },
-    { "symbol": "\\lambda", "meaning": "তরঙ্গদৈর্ঘ্য", "unit": "m" },
-    { "symbol": "A", "meaning": "বিস্তার", "unit": "m" },
-    { "symbol": "\\omega", "meaning": "কৌণিক কম্পাঙ্ক", "unit": "rad/s" },
-    { "symbol": "k", "meaning": "তরঙ্গ সংখ্যা", "unit": "rad/m" }
+    {
+      "symbol": "v",
+      "meaning": "তরঙ্গের গতিবেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "f",
+      "meaning": "কম্পাঙ্ক",
+      "unit": "Hz"
+    },
+    {
+      "symbol": "\\lambda",
+      "meaning": "তরঙ্গদৈর্ঘ্য",
+      "unit": "m"
+    },
+    {
+      "symbol": "A",
+      "meaning": "বিস্তার",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\omega",
+      "meaning": "কৌণিক কম্পাঙ্ক",
+      "unit": "rad/s"
+    },
+    {
+      "symbol": "k",
+      "meaning": "তরঙ্গ সংখ্যা",
+      "unit": "rad/m"
+    }
   ],
   "derivation": {
     "lead": "তরঙ্গের গতিবেগ v = fλ সকল তরঙ্গের ক্ষেত্রে প্রযোজ্য।",

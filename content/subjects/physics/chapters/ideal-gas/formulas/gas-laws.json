@@ -5,14 +5,41 @@
   "titleBn": "গ্যাসের সূত্রসমূহ: বয়েল, চার্লস ও সম্মিলিত",
   "summary": "বয়েলের সূত্র, চার্লসের সূত্র এবং সম্মিলিত গ্যাস সূত্র",
   "latex": "PV = \\text{const} \\text{ (Boyle)}, \\quad \\frac{V}{T} = \\text{const} \\text{ (Charles)}, \\quad \\frac{P_1V_1}{T_1} = \\frac{P_2V_2}{T_2}, \\quad PV = nRT",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 10,
   "symbols": [
-    { "symbol": "P", "meaning": "চাপ", "unit": "Pa (Pascal)" },
-    { "symbol": "V", "meaning": "আয়তন", "unit": "m³" },
-    { "symbol": "T", "meaning": "পরম তাপমাত্রা", "unit": "K" },
-    { "symbol": "n", "meaning": "মোল সংখ্যা", "unit": "mol" },
-    { "symbol": "R", "meaning": "সার্বজনীন গ্যাস ধ্রুবক = 8.314", "unit": "J/(mol·K)" }
+    {
+      "symbol": "P",
+      "meaning": "চাপ",
+      "unit": "Pa (Pascal)"
+    },
+    {
+      "symbol": "V",
+      "meaning": "আয়তন",
+      "unit": "m³"
+    },
+    {
+      "symbol": "T",
+      "meaning": "পরম তাপমাত্রা",
+      "unit": "K"
+    },
+    {
+      "symbol": "n",
+      "meaning": "মোল সংখ্যা",
+      "unit": "mol"
+    },
+    {
+      "symbol": "R",
+      "meaning": "সার্বজনীন গ্যাস ধ্রুবক = 8.314",
+      "unit": "J/(mol·K)"
+    }
   ],
   "derivation": {
     "lead": "আদর্শ গ্যাসের সমীকরণ PV = nRT তিনটি পৃথক সূত্রকে একত্রিত করে।",

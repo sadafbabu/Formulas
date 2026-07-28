@@ -4,16 +4,42 @@
   "titleBn": "টরয়েডের অভ্যন্তরীণ চৌম্বক ক্ষেত্র",
   "latex": "B = \\frac{\\mu_0 N I}{2\\pi r}",
   "summary": "বৃত্তাকার আকারে বাঁকানো সোলেনয়েড বা টরয়েডের ভেতরের অক্ষে সৃষ্ট চৌম্বক ক্ষেত্র।",
-  "tags": ["hsc", "general", "2-star"],
+  "tags": [
+    "hsc",
+    "general",
+    "2-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 2,
-  "subjects": ["physics"],
-  "related": ["solenoid", "amperes-law"],
+  "order": 80,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "solenoid",
+    "amperes-law"
+  ],
   "symbols": [
-    { "symbol": "B", "meaning": "টরয়েডের ভেতরের চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "N", "meaning": "মোট পাকসংখ্যা", "unit": "এককহীন" },
-    { "symbol": "r", "meaning": "টরয়েডের গড় ব্যাসার্ধ", "unit": "m" },
-    { "symbol": "I", "meaning": "বিদ্যুৎপ্রবাহ", "unit": "A" }
+    {
+      "symbol": "B",
+      "meaning": "টরয়েডের ভেতরের চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "N",
+      "meaning": "মোট পাকসংখ্যা",
+      "unit": "এককহীন"
+    },
+    {
+      "symbol": "r",
+      "meaning": "টরয়েডের গড় ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "I",
+      "meaning": "বিদ্যুৎপ্রবাহ",
+      "unit": "A"
+    }
   ],
   "derivation": {
     "lead": "r ব্যাসার্ধের অ্যাম্পিয়ারিয়ান লুপ বরাবর সার্কিটাল সূত্র প্রয়োগ করে:",
@@ -29,6 +55,8 @@
         "note": "টরয়েডের বাইরে ও খালি কেন্দ্রে $B = 0$।"
       }
     ],
-    "assumptions": ["কুণ্ডলীর পাকসমূহ ঘনীভূত ও সুষমভাবে বিস্তৃত।"]
+    "assumptions": [
+      "কুণ্ডলীর পাকসমূহ ঘনীভূত ও সুষমভাবে বিস্তৃত।"
+    ]
   }
 }

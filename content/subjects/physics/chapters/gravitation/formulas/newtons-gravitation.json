@@ -5,13 +5,36 @@
   "titleBn": "নিউটনের মহাকর্ষ সূত্র",
   "summary": "মহাবিশ্বের যেকোনো দুটি বস্তুকণার মধ্যবর্তী মহাকর্ষ বল",
   "latex": "F = G \\frac{M m}{r^2}, \\quad g = \\frac{G M}{R^2}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 30,
   "symbols": [
-    { "symbol": "F", "meaning": "মহাকর্ষীয় আকর্ষণ বল", "unit": "N" },
-    { "symbol": "G", "meaning": "মহাকর্ষীয় ধ্রুবক (6.673 × 10⁻¹¹)", "unit": "N·m²/kg²" },
-    { "symbol": "g", "meaning": "অভিকর্ষজ ত্বরণ", "unit": "m/s²" },
-    { "symbol": "M, R", "meaning": "পৃথিবীর ভর ও ব্যাসার্ধ", "unit": "kg, m" }
+    {
+      "symbol": "F",
+      "meaning": "মহাকর্ষীয় আকর্ষণ বল",
+      "unit": "N"
+    },
+    {
+      "symbol": "G",
+      "meaning": "মহাকর্ষীয় ধ্রুবক (6.673 × 10⁻¹¹)",
+      "unit": "N·m²/kg²"
+    },
+    {
+      "symbol": "g",
+      "meaning": "অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²"
+    },
+    {
+      "symbol": "M, R",
+      "meaning": "পৃথিবীর ভর ও ব্যাসার্ধ",
+      "unit": "kg, m"
+    }
   ],
   "derivation": {
     "lead": "অভিকর্ষ বল F = mg থেকে পৃথিবীর পৃষ্ঠে অভিকর্ষজ ত্বরণ g নির্ণয় করা হয়।",

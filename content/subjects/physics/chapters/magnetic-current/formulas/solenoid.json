@@ -4,16 +4,43 @@
   "titleBn": "সোলেনয়েডের অভ্যন্তরীণ চৌম্বক ক্ষেত্র",
   "latex": "B = \\mu_0 n I = \\mu_0 \\frac{N}{L} I",
   "summary": "অসীম দৈর্ঘ্যের সরু সোলেনয়েডের ভেতরের অংশ অক্ষ বরাবর সৃষ্ট সুষম চৌম্বক ক্ষেত্র।",
-  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 3,
-  "subjects": ["physics"],
-  "related": ["toroid", "amperes-law"],
+  "order": 70,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "toroid",
+    "amperes-law"
+  ],
   "symbols": [
-    { "symbol": "B", "meaning": "অভ্যন্তরীণ চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "n", "meaning": "একক দৈর্ঘ্যে পাকসংখ্যা (N/L)", "unit": "m⁻¹" },
-    { "symbol": "N", "meaning": "মোট পাকসংখ্যা", "unit": "মাত্রাচ্ছন্ন" },
-    { "symbol": "L", "meaning": "সোলেনয়েডের দৈর্ঘ্য", "unit": "m" }
+    {
+      "symbol": "B",
+      "meaning": "অভ্যন্তরীণ চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "n",
+      "meaning": "একক দৈর্ঘ্যে পাকসংখ্যা (N/L)",
+      "unit": "m⁻¹"
+    },
+    {
+      "symbol": "N",
+      "meaning": "মোট পাকসংখ্যা",
+      "unit": "মাত্রাচ্ছন্ন"
+    },
+    {
+      "symbol": "L",
+      "meaning": "সোলেনয়েডের দৈর্ঘ্য",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "অ্যাম্পিয়ারের সার্কিটাল সূত্র প্রয়োগে সোলেনয়েডের চৌম্বক ক্ষেত্র:",
@@ -29,7 +56,9 @@
         "note": "সোলেনয়েডের প্রান্তবিন্দুতে ক্ষেত্র অক্ষের ক্ষেত্রের অর্ধেক ($B_{\\text{edge}} = \\frac{1}{2} \\mu_0 n I$) হয়।"
       }
     ],
-    "assumptions": ["সোলেনয়েডের দৈর্ঘ্য তার ব্যাসের তুলনায় অনেক বড় (L >> r)।"]
+    "assumptions": [
+      "সোলেনয়েডের দৈর্ঘ্য তার ব্যাসের তুলনায় অনেক বড় (L >> r)।"
+    ]
   },
   "questions": [
     {

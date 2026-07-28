@@ -10,6 +10,7 @@
     "2-star"
   ],
   "importance": 2,
+  "order": 30,
   "symbols": [
     {
       "symbol": "T_r, T_{r+1}",

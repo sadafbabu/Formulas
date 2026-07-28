@@ -4,16 +4,43 @@
   "titleBn": "চৌম্বক বিভব শক্তি",
   "latex": "U = -\\vec{M} \\cdot \\vec{B} = -M B \\cos \\theta",
   "summary": "সুষম B চৌম্বক ক্ষেত্রে M দ্বিমেৰু ভ্রামকবিশিষ্ট চুম্বকের অবস্থানগত বিভব শক্তি।",
-  "tags": ["hsc", "eng-admission", "varsity", "2-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 2,
-  "subjects": ["physics"],
-  "related": ["magnetic-moment", "torque-loop"],
+  "order": 160,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "magnetic-moment",
+    "torque-loop"
+  ],
   "symbols": [
-    { "symbol": "U", "meaning": "চৌম্বক বিভব শক্তি", "unit": "J (Joules)" },
-    { "symbol": "M", "meaning": "চৌম্বক দ্বিমেৰু ভ্রামক", "unit": "A·m²" },
-    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "\\theta", "meaning": "M ও B এর অন্তর্বর্তী কোণ", "unit": "°" }
+    {
+      "symbol": "U",
+      "meaning": "চৌম্বক বিভব শক্তি",
+      "unit": "J (Joules)"
+    },
+    {
+      "symbol": "M",
+      "meaning": "চৌম্বক দ্বিমেৰু ভ্রামক",
+      "unit": "A·m²"
+    },
+    {
+      "symbol": "B",
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "M ও B এর অন্তর্বর্তী কোণ",
+      "unit": "°"
+    }
   ],
   "derivation": {
     "lead": "টর্কের বিরুদ্ধে কৃতকাজ থেকে বিভব শক্তি:",
@@ -24,7 +51,9 @@
         "note": "সাম্যাবস্থায় ($\\theta = 0^\\circ$) বিভব শক্তি সর্বনিম্ন ($-MB$) এবং সর্বাপেক্ষা অস্থিতিশীল অবস্থায় ($\\theta = 180^\\circ$) সর্বোচ্চ ($+MB$) হয়।"
       }
     ],
-    "assumptions": ["চৌম্বক ক্ষেত্র B সুষম ও অপরিবর্তনীয়।"]
+    "assumptions": [
+      "চৌম্বক ক্ষেত্র B সুষম ও অপরিবর্তনীয়।"
+    ]
   },
   "questions": [
     {

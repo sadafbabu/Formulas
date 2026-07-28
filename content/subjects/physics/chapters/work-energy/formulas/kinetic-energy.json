@@ -5,12 +5,31 @@
   "titleBn": "গতিশক্তি ও ভরবেগের সম্পর্ক",
   "summary": "বস্তুর গতিশক্তি এবং ভরবেগের সমীকরণ",
   "latex": "E_k = \\frac{1}{2} m v^2 = \\frac{P^2}{2m}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 30,
   "symbols": [
-    { "symbol": "E_k", "meaning": "গতিশক্তি", "unit": "J (Joule)" },
-    { "symbol": "P", "meaning": "রৈখিক ভরবেগ (P = mv)", "unit": "kg·m/s" },
-    { "symbol": "m", "meaning": "বস্তুর ভর", "unit": "kg" }
+    {
+      "symbol": "E_k",
+      "meaning": "গতিশক্তি",
+      "unit": "J (Joule)"
+    },
+    {
+      "symbol": "P",
+      "meaning": "রৈখিক ভরবেগ (P = mv)",
+      "unit": "kg·m/s"
+    },
+    {
+      "symbol": "m",
+      "meaning": "বস্তুর ভর",
+      "unit": "kg"
+    }
   ],
   "derivation": {
     "lead": "ভরবেগ P = mv গতিশক্তিতে প্রতিস্থাপন করে এই সম্পর্ক পাওয়া যায়।",

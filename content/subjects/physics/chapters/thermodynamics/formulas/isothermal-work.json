@@ -5,14 +5,40 @@
   "titleBn": "সমোষ্ণ প্রক্রিয়ায় কৃতকাজ",
   "summary": "স্থির তাপমাত্রায় গ্যাসের প্রসারণে কাজের পরিমাণ",
   "latex": "W = n R T \\ln\\left(\\frac{V_2}{V_1}\\right) = n R T \\ln\\left(\\frac{P_1}{P_2}\\right)",
-  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 40,
   "symbols": [
-    { "symbol": "W", "meaning": "সমোষ্ণ প্রক্রিয়ায় সম্পাদিত কাজ", "unit": "J" },
-    { "symbol": "n", "meaning": "গ্যাসের মোল সংখ্যা", "unit": "mol" },
-    { "symbol": "R", "meaning": "সর্বজনীন গ্যাস ধ্রুবক (8.314)", "unit": "J/(mol·K)" },
-    { "symbol": "T", "meaning": "স্থির তাপমাত্রা", "unit": "K" },
-    { "symbol": "V_1, V_2", "meaning": "আদি ও শেষ আয়তন", "unit": "m³" }
+    {
+      "symbol": "W",
+      "meaning": "সমোষ্ণ প্রক্রিয়ায় সম্পাদিত কাজ",
+      "unit": "J"
+    },
+    {
+      "symbol": "n",
+      "meaning": "গ্যাসের মোল সংখ্যা",
+      "unit": "mol"
+    },
+    {
+      "symbol": "R",
+      "meaning": "সর্বজনীন গ্যাস ধ্রুবক (8.314)",
+      "unit": "J/(mol·K)"
+    },
+    {
+      "symbol": "T",
+      "meaning": "স্থির তাপমাত্রা",
+      "unit": "K"
+    },
+    {
+      "symbol": "V_1, V_2",
+      "meaning": "আদি ও শেষ আয়তন",
+      "unit": "m³"
+    }
   ],
   "derivation": {
     "lead": "P = nRT / V বসিয়ে আয়তনের সাপেক্ষে সমাকলন করে কৃতকাজ পাওয়া যায়।",
