@@ -1,0 +1,90 @@
+{
+  "id": "motional-emf",
+  "chapter": "induction-ac",
+  "title": "Motional EMF",
+  "titleBn": "চলন তড়িৎচালক বল ও ফুকো প্রবাহ",
+  "summary": "চৌম্বক ক্ষেত্রে চলমান পরিবাহীতে আবিষ্ট emf এবং ঘূর্ণায়মান দণ্ডের ক্ষেত্রে তার রূপ।",
+  "latex": "\\varepsilon = B\\ell v\\sin\\theta, \\quad \\varepsilon_{\\text{ঘূর্ণায়মান দণ্ড}} = \\tfrac{1}{2}B\\omega \\ell^2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "faradays-law",
+    "magnetic-flux",
+    "mutual-inductance"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\varepsilon",
+      "meaning": "আবিষ্ট তড়িৎচালক বল",
+      "unit": "V"
+    },
+    {
+      "symbol": "B",
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "\\ell",
+      "meaning": "পরিবাহীর দৈর্ঘ্য",
+      "unit": "m"
+    },
+    {
+      "symbol": "v",
+      "meaning": "বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "\\omega",
+      "meaning": "কৌণিক বেগ",
+      "unit": "rad/s"
+    }
+  ],
+  "derivation": {
+    "lead": "চলমান পরিবাহীর মুক্ত আধানের উপর চৌম্বক বল কাজ করে আধান পৃথক করে, ফলে বিভব পার্থক্য সৃষ্টি হয়।",
+    "steps": [
+      {
+        "title": "সরলরেখায় চলন",
+        "latex": "\\varepsilon = B\\ell v",
+        "note": "B, ℓ ও v পরস্পর লম্ব হলে সর্বোচ্চ; সমান্তরাল হলে শূন্য।"
+      },
+      {
+        "title": "ঘূর্ণায়মান দণ্ড",
+        "latex": "\\varepsilon = \\int_0^\\ell B\\omega r\\,dr = \\tfrac{1}{2}B\\omega\\ell^2",
+        "note": "প্রতিটি অংশের বেগ ভিন্ন (v = ωr), তাই যোগজীকরণ করতে হয় — এখানেই ½ আসে।"
+      },
+      {
+        "title": "শক্তির উৎস",
+        "latex": "P = \\varepsilon I = F v",
+        "note": "আবিষ্ট প্রবাহ বাধা দেয়, তাই দণ্ড চালিয়ে রাখতে যান্ত্রিক কাজ করতে হয় — সেটাই তড়িৎ শক্তিতে রূপ নেয়।"
+      }
+    ],
+    "assumptions": [
+      "পরিবাহী ও ক্ষেত্র পরস্পর লম্ব (অন্যথায় sinθ)।",
+      "পরিবাহীর রোধ উপেক্ষিত।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical Admission",
+      "question": "০.৫ T ক্ষেত্রে ২০ cm লম্বা একটি দণ্ড ১০ m/s বেগে লম্বভাবে চললে আবিষ্ট emf কত?",
+      "answer": "\\varepsilon = B\\ell v = 0.5 \\times 0.2 \\times 10 = 1\\ \\text{V}"
+    }
+  ],
+  "memorize": {
+    "trick": "সোজা চললে ε = Bℓv, কিন্তু এক প্রান্ত ধরে ঘোরালে ε = ½Bωℓ² — \"ঘুরলে অর্ধেক ও ℓ বর্গ\", কারণ প্রতিটি অংশের বেগ আলাদা (v = ωr) হওয়ায় গড় নিতে হয়।",
+    "steps": [
+      "B, ℓ, v — তিনটিই পরস্পর লম্ব হলে emf সর্বোচ্চ।",
+      "ঘূর্ণায়মান দণ্ডে ω-এর সাথে ℓ² — দৈর্ঘ্য দ্বিগুণ করলে emf চারগুণ।",
+      "লেঞ্জের সূত্রে আবিষ্ট প্রবাহ গতিকে বাধা দেয়, তাই বাইরে থেকে কাজ করতে হয়।"
+    ]
+  }
+}

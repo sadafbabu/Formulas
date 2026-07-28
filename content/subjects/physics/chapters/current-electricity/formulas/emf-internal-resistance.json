@@ -1,0 +1,90 @@
+{
+  "id": "emf-internal-resistance",
+  "chapter": "current-electricity",
+  "title": "EMF & Internal Resistance",
+  "titleBn": "তড়িৎচালক বল, অন্তঃরোধ ও প্রান্তীয় বিভব",
+  "summary": "কোষের তড়িৎচালক বল, অন্তঃরোধ ও বাহ্যিক রোধের সম্পর্ক এবং সর্বোচ্চ ক্ষমতার শর্ত।",
+  "latex": "E = I(R + r), \\quad V = E - Ir, \\quad P_{\\max} \\text{ at } R = r",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "ohms-law",
+    "resistors-series-parallel",
+    "kirchhoffs-laws"
+  ],
+  "symbols": [
+    {
+      "symbol": "E",
+      "meaning": "তড়িৎচালক বল",
+      "unit": "V"
+    },
+    {
+      "symbol": "r",
+      "meaning": "কোষের অন্তঃরোধ",
+      "unit": "Ω"
+    },
+    {
+      "symbol": "R",
+      "meaning": "বাহ্যিক রোধ",
+      "unit": "Ω"
+    },
+    {
+      "symbol": "V",
+      "meaning": "প্রান্তীয় বিভব",
+      "unit": "V"
+    },
+    {
+      "symbol": "I",
+      "meaning": "প্রবাহ",
+      "unit": "A"
+    }
+  ],
+  "derivation": {
+    "lead": "কোষের ভিতরেও রোধ থাকে, তাই মোট রোধ (R + r) ধরে ওহমের সূত্র প্রয়োগ করতে হয়।",
+    "steps": [
+      {
+        "title": "প্রবাহ",
+        "latex": "I = \\frac{E}{R + r}",
+        "note": "বর্তনী খোলা থাকলে (R = ∞) I = 0 এবং V = E।"
+      },
+      {
+        "title": "প্রান্তীয় বিভব",
+        "latex": "V = IR = E - Ir",
+        "note": "প্রবাহ বাড়লে V কমে; শর্ট সার্কিটে (R = 0) V = 0 ও I = E/r সর্বোচ্চ।"
+      },
+      {
+        "title": "সর্বোচ্চ ক্ষমতা",
+        "latex": "P = I^2R = \\frac{E^2R}{(R+r)^2}, \\quad \\frac{dP}{dR} = 0 \\Rightarrow R = r",
+        "note": "তখন P_max = E²/(4r) এবং দক্ষতা মাত্র ৫০%।"
+      }
+    ],
+    "assumptions": [
+      "তড়িৎচালক বল ও অন্তঃরোধ ধ্রুব।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "১২ V তড়িৎচালক বল ও ১ Ω অন্তঃরোধের একটি ব্যাটারি ৫ Ω রোধের সাথে যুক্ত। প্রবাহ ও প্রান্তীয় বিভব কত?",
+      "answer": "I = \\frac{12}{5+1} = 2\\ \\text{A}, \\quad V = 12 - (2)(1) = 10\\ \\text{V}"
+    }
+  ],
+  "memorize": {
+    "trick": "V = E − Ir — \"প্রান্তীয় বিভব সর্বদা EMF-এর চেয়ে কম\" (প্রবাহ থাকলে)। প্রবাহ না থাকলে দুটো সমান। আর সর্বোচ্চ ক্ষমতা পাওয়া যায় যখন R = r, তখন দক্ষতা ঠিক ৫০%।",
+    "steps": [
+      "I = E/(R + r) — অন্তঃরোধ যোগ করতে ভুলবেন না।",
+      "ভোল্টমিটার প্রান্তীয় বিভব V মাপে, EMF নয়।",
+      "n কোষ শ্রেণীতে: E_total = nE, r_total = nr; সমান্তরালে: E একই, r/n।"
+    ]
+  }
+}

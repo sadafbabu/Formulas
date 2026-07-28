@@ -1,0 +1,86 @@
+{
+  "id": "electric-dipole",
+  "chapter": "static-electricity",
+  "title": "Electric Dipole",
+  "titleBn": "তড়িৎ দ্বিপোল: ক্ষেত্র, টর্ক ও বিভব শক্তি",
+  "summary": "দ্বিপোলের অক্ষীয় ও নিরক্ষীয় ক্ষেত্র, সমসত্ত্ব ক্ষেত্রে টর্ক ও বিভব শক্তি।",
+  "latex": "p = q(2a), \\quad E_{\\text{অক্ষ}} = \\frac{2kp}{r^3}, \\quad E_{\\text{নিরক্ষ}} = \\frac{kp}{r^3}, \\quad \\tau = pE\\sin\\theta",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "coulombs-law",
+    "electric-field",
+    "electric-potential",
+    "dipole-moment"
+  ],
+  "symbols": [
+    {
+      "symbol": "p",
+      "meaning": "তড়িৎ দ্বিপোল ভ্রামক",
+      "unit": "C·m"
+    },
+    {
+      "symbol": "2a",
+      "meaning": "দুই আধানের ব্যবধান",
+      "unit": "m"
+    },
+    {
+      "symbol": "E",
+      "meaning": "তড়িৎ ক্ষেত্র",
+      "unit": "N/C"
+    },
+    {
+      "symbol": "\\tau",
+      "meaning": "টর্ক",
+      "unit": "N·m"
+    }
+  ],
+  "derivation": {
+    "lead": "দুই আধানের ক্ষেত্র ভেক্টর যোগ করলে অক্ষীয় ও নিরক্ষীয় ক্ষেত্র পাওয়া যায়।",
+    "steps": [
+      {
+        "title": "অক্ষীয় ক্ষেত্র",
+        "latex": "E_{\\text{অক্ষ}} = \\frac{2kp}{r^3}\\ (r \\gg a)",
+        "note": "দুই আধানের ক্ষেত্র একই দিকে যোগ হয়, তাই গুণক ২।"
+      },
+      {
+        "title": "নিরক্ষীয় ক্ষেত্র",
+        "latex": "E_{\\text{নিরক্ষ}} = \\frac{kp}{r^3}",
+        "note": "লম্ব উপাংশ বাতিল হয়, শুধু সমান্তরাল উপাংশ টেকে।"
+      },
+      {
+        "title": "টর্ক ও শক্তি",
+        "latex": "\\tau = pE\\sin\\theta, \\quad U = -pE\\cos\\theta",
+        "note": "চৌম্বক দ্বিপোলের হুবহু ছাঁচ (M ↔ p, B ↔ E)।"
+      }
+    ],
+    "assumptions": [
+      "r ≫ 2a (ক্ষুদ্র দ্বিপোল সন্নিকট)।",
+      "বাহ্যিক ক্ষেত্র সমসত্ত্ব।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission",
+      "question": "২×১০⁻⁹ C·m ভ্রামকের দ্বিপোল ৫×১০⁴ N/C ক্ষেত্রে ৩০° কোণে থাকলে টর্ক কত?",
+      "answer": "\\tau = pE\\sin\\theta = 2\\times10^{-9} \\times 5\\times10^4 \\times 0.5 = 5\\times10^{-5}\\ \\text{N·m}"
+    }
+  ],
+  "memorize": {
+    "trick": "দ্বিপোলে \"অক্ষে দুই গুণ, নিরক্ষে এক গুণ\" — E_অক্ষ = 2E_নিরক্ষ। আর দুটোই 1/r³ হারে কমে (বিন্দু আধানের 1/r²-এর চেয়ে দ্রুত), কারণ দুই আধান প্রায় বাতিল করে দেয়।",
+    "steps": [
+      "p-এর দিক ঋণাত্মক থেকে ধনাত্মক আধানের দিকে।",
+      "নিরক্ষীয় বিন্দুতে বিভব V = 0 (দুই আধানের অবদান বাতিল)।",
+      "টর্ক τ = pE sinθ, শক্তি U = −pE cosθ — চৌম্বক দ্বিপোলের সাথে হুবহু মিল।"
+    ]
+  }
+}

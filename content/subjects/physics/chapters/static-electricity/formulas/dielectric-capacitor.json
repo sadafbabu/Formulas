@@ -1,0 +1,85 @@
+{
+  "id": "dielectric-capacitor",
+  "chapter": "static-electricity",
+  "title": "Dielectric in a Capacitor",
+  "titleBn": "ধারকে ডাইইলেকট্রিক ও ধারকত্বের পরিবর্তন",
+  "summary": "ডাইইলেকট্রিক ঢোকালে ধারকত্ব K গুণ বাড়ে; ব্যাটারি লাগানো ও খোলা অবস্থায় ফল আলাদা।",
+  "latex": "C = \\frac{K\\varepsilon_0 A}{d}, \\quad E_{\\text{ভিতরে}} = \\frac{E_0}{K}, \\quad C = \\frac{\\varepsilon_0 A}{d - t + t/K}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "capacitor-parallel-plate",
+    "capacitor-energy",
+    "capacitor-combination"
+  ],
+  "symbols": [
+    {
+      "symbol": "K",
+      "meaning": "ডাইইলেকট্রিক ধ্রুবক",
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "পাতের ক্ষেত্রফল",
+      "unit": "m²"
+    },
+    {
+      "symbol": "d",
+      "meaning": "পাতের ব্যবধান",
+      "unit": "m"
+    },
+    {
+      "symbol": "t",
+      "meaning": "ডাইইলেকট্রিক স্তরের পুরুত্ব",
+      "unit": "m"
+    }
+  ],
+  "derivation": {
+    "lead": "ডাইইলেকট্রিক পোলারায়িত হয়ে বিপরীত ক্ষেত্র তৈরি করে, তাই ভিতরের নিট ক্ষেত্র কমে যায়।",
+    "steps": [
+      {
+        "title": "ধারকত্ব বৃদ্ধি",
+        "latex": "C = KC_0",
+        "note": "K সর্বদা ১-এর বেশি, তাই ধারকত্ব বাড়ে।"
+      },
+      {
+        "title": "আংশিক পূরণ",
+        "latex": "C = \\frac{\\varepsilon_0 A}{d - t + t/K}",
+        "note": "t = d বসালে C = Kε₀A/d — পূর্ণ পূরণের ফল মিলে যায়।"
+      },
+      {
+        "title": "দুই পরিস্থিতি",
+        "latex": "\\text{V ধ্রুব} \\Rightarrow Q \\uparrow, U \\uparrow; \\quad Q \\text{ ধ্রুব} \\Rightarrow V \\downarrow, U \\downarrow",
+        "note": "ব্যাটারি লাগানো থাকলে V ধ্রুব; খুলে নিলে Q ধ্রুব।"
+      }
+    ],
+    "assumptions": [
+      "ডাইইলেকট্রিক সমসত্ত্ব ও রৈখিক।",
+      "প্রান্ত-প্রভাব উপেক্ষিত।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Eng Admission",
+      "question": "একটি ধারকের ধারকত্ব ১০ μF। ব্যাটারি খুলে নিয়ে K = 5 ডাইইলেকট্রিক ঢোকালে ভোল্টেজ ১০০ V থেকে কত হবে?",
+      "answer": "Q \\text{ ধ্রুব} \\Rightarrow V\\' = \\frac{V}{K} = \\frac{100}{5} = 20\\ \\text{V}"
+    }
+  ],
+  "memorize": {
+    "trick": "ডাইইলেকট্রিক ঢোকালে C সর্বদা বাড়ে (K গুণ)। কিন্তু বাকিটা নির্ভর করে ব্যাটারি লাগানো আছে কি না — \"ব্যাটারি লাগানো: V ধ্রুব, Q ও U বাড়ে; ব্যাটারি খোলা: Q ধ্রুব, V ও U কমে\"।",
+    "steps": [
+      "C = Kε₀A/d — সর্বদা K গুণ বাড়ে।",
+      "ভিতরের ক্ষেত্র E = E₀/K — কমে যায়।",
+      "ধাতু ঢোকালে K = ∞ ধরা যায়, তাই সেই পুরুত্বটুকু ব্যবধান থেকে বাদ যায়।"
+    ]
+  }
+}
