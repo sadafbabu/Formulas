@@ -4,13 +4,31 @@
   "title": "Solubility Product (Ksp) & Ion Product (Kip)",
   "titleBn": "দ্রাব্যতা গুণফল (Ksp) ও আয়নিক গুণফল (Kip)",
   "summary": "স্বল্প দ্রবণীয় লবণের সম্পৃক্ত দ্রবণে সংকেত অনুযায়ী আয়নের ঘনমাত্রার গুণফল",
-  "latex": "K_{sp} = [A^{m+}]^n [B^{n-}]^m, \\quad S = \\sqrt{K_{sp}} \\text{ (for AB type)}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "latex": "\\ce{A_xB_y <=> xA^{y+} + yB^{x-}}, \\quad K_{sp} = [A^{y+}]^x [B^{x-}]^y",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
   "symbols": [
-    { "symbol": "K_{sp}", "meaning": "দ্রাব্যতা গুণফল (ধ্রুবক)", "unit": "(mol/L)ⁿ⁺ᵐ" },
-    { "symbol": "K_{ip}", "meaning": "আয়নিক গুণফল", "unit": "(mol/L)ⁿ⁺ᵐ" },
-    { "symbol": "S", "meaning": "দ্রাব্যতা (Solubility)", "unit": "mol/L" }
+    {
+      "symbol": "K_{sp}",
+      "meaning": "দ্রাব্যতা গুণফল (ধ্রুবক)",
+      "unit": "(mol/L)ⁿ⁺ᵐ"
+    },
+    {
+      "symbol": "K_{ip}",
+      "meaning": "আয়নিক গুণফল",
+      "unit": "(mol/L)ⁿ⁺ᵐ"
+    },
+    {
+      "symbol": "S",
+      "meaning": "দ্রাব্যতা (Solubility)",
+      "unit": "mol/L"
+    }
   ],
   "derivation": {
     "lead": "অদ্রবীভূত কঠিন লবণ ও দ্রবীভূত আয়নের সাম্যাবস্থা হতে ভরক্রিয়া সূত্র প্রয়োগে প্রাপ্ত।",
@@ -28,5 +46,8 @@
       "question": "25°C এ AgCl এর Ksp = 1.8 × 10⁻¹⁰ হলে লিটার প্রতি AgCl এর দ্রাব্যতা (S) কত? [AgCl = 143.5]",
       "answer": "S = \\sqrt{1.8 \\times 10^{-10}} = 1.3416 \\times 10^{-5}\\text{ mol/L} \\implies S_{\\text{g/L}} = 1.3416 \\times 10^{-5} \\times 143.5 = 1.925 \\times 10^{-3}\\text{ g/L}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "Ksp = [ক্যাটায়ন]^x[অ্যানায়ন]^y — ঘনমাত্রা গুণফল, প্রতিটি আয়নের স্টয়শিওমেট্রি ঘাতে।"
+  }
 }

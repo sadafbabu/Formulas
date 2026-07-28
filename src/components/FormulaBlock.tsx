@@ -1,6 +1,7 @@
 import type { Formula, TagId } from '../data/types'
 import { DeriveHint } from './DeriveHint'
 import { Katex } from './Katex'
+import { MemorizeHint } from './MemorizeHint'
 import { QuestionHint } from './QuestionHint'
 import { SymbolHint } from './SymbolHint'
 import { TagChip } from './TagChip'
@@ -47,6 +48,7 @@ export function FormulaBlock({
               <QuestionHint formula={formula} />
               <SymbolHint formula={formula} />
               <DeriveHint formula={formula} />
+              <MemorizeHint formula={formula} />
             </div>
           </header>
           <p className="formula-summary">{formula.summary}</p>

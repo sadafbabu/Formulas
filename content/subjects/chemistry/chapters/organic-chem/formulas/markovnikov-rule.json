@@ -2,7 +2,7 @@
   "title": "Markovnikov's Rule & Anti-Markovnikov",
   "titleBn": "মারকভনিকভ নিয়ম ও প্রতি-মারকভনিকভ",
   "summary": "অপ্রতিসম অ্যালকিনে HX যোজনের নিয়ম",
-  "latex": "\\text{R-CH=CH}_2 + \\text{HX} \\to \\text{R-CHX-CH}_3 \\text{ (Markovnikov)}",
+  "latex": "\\ce{CH_2=CH_2 + HX -> CH_3-CH_2-X}, \\quad \\text{মার্কনিকভ: H যায় বেশি H যুক্ত C-এ}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -36,5 +36,8 @@
   },
   "id": "markovnikov-rule",
   "chapter": "organic-chem",
-  "questions": []
+  "questions": [],
+  "memorize": {
+    "trick": "অসমতুল্য অ্যালকিনে HX যোগ: H যায় বেশি H যুক্ত কার্বনে, X যায় কম H যুক্ত কার্বনে।"
+  }
 }

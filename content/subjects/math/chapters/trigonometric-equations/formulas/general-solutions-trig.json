@@ -5,12 +5,30 @@
   "titleBn": "ত্রিকোণমিতিক সমীকরণের সাধারণ সমাধান",
   "summary": "sinθ, cosθ, tanθ এর জন্য সর্বজনীন সমাধান সূত্রাবলী",
   "latex": "\\sin\\theta = \\sin\\alpha \\implies \\theta = n\\pi + (-1)^n \\alpha, \\quad \\cos\\theta = \\cos\\alpha \\implies \\theta = 2n\\pi \\pm \\alpha, \\quad \\tan\\theta = \\tan\\alpha \\implies \\theta = n\\pi + \\alpha",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
   "symbols": [
-    { "symbol": "\\theta", "meaning": "অজ্ঞাত কোণ", "unit": "রেডিয়ান" },
-    { "symbol": "\\alpha", "meaning": "মুখ্য কোণ (Principal angle)", "unit": "রেডিয়ান" },
-    { "symbol": "n", "meaning": "যেকোনো পূর্ণসংখ্যা (n ∈ ℤ)", "unit": "পূর্ণসংখ্যা" }
+    {
+      "symbol": "\\theta",
+      "meaning": "অজ্ঞাত কোণ",
+      "unit": "রেডিয়ান"
+    },
+    {
+      "symbol": "\\alpha",
+      "meaning": "মুখ্য কোণ (Principal angle)",
+      "unit": "রেডিয়ান"
+    },
+    {
+      "symbol": "n",
+      "meaning": "যেকোনো পূর্ণসংখ্যা (n ∈ ℤ)",
+      "unit": "পূর্ণসংখ্যা"
+    }
   ],
   "derivation": {
     "lead": "ত্রিকোণমিতিক ফাংশনের পর্যায়বৃত্ততা (Periodicity 2π ও π) থেকে সাধারণ সমাধান পাওয়া যায়।",
@@ -28,5 +46,13 @@
       "question": "cos 2θ = cos θ সমীকরণের সাধারণ সমাধান নির্ণয় করো।",
       "answer": "2\\theta = 2n\\pi \\pm \\theta \\implies \\text{Case 1: } \theta = 2n\\pi, \\quad \\text{Case 2: } 3\\theta = 2n\\pi \\implies \\theta = \\frac{2n\\pi}{3} \\quad (n \\in \\mathbb{Z})"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "sin θ = 0 → nπ; sin θ = 1 → (4n+1)π/2; cos θ = 0 → (2n+1)π/2; tan θ = 0 → nπ।",
+    "steps": [
+      "sin θ = sin α → θ = nπ + (-1)ⁿα",
+      "cos θ = cos α → θ = 2nπ ± α",
+      "tan θ = tan α → θ = nπ + α"
+    ]
+  }
 }

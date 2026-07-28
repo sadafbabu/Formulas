@@ -2,7 +2,7 @@
   "title": "SN1 vs SN2 Reaction Mechanism",
   "titleBn": "SN1 বনাম SN2 বিক্রিয়া ক্রিয়াবিধি",
   "summary": "নিউক্লিওফিলিক প্রতিস্থাপন বিক্রিয়ার দুই প্রক্রিয়া",
-  "latex": "SN1: \\text{rate} = k[\\text{RX}], \\quad SN2: \\text{rate} = k[\\text{RX}][\\text{Nu}^-]",
+  "latex": "\\text{SN1: rate} = k[\\text{substrate}], \\quad \\text{SN2: rate} = k[\\text{substrate}][\\text{nuc}]",
   "tags": [
     "hsc",
     "eng-admission",

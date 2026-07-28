@@ -31,5 +31,8 @@
   },
   "id": "compound-angle",
   "chapter": "trigonometric-equations",
-  "questions": []
+  "questions": [],
+  "memorize": {
+    "trick": "sin(A±B) = sinA cosB ± cosA sinB; cos(A±B) = cosA cosB ∓ sinA sinB — sin মিশ্র চিহ্ন, cos বিপরীত চিহ্ন।"
+  }
 }

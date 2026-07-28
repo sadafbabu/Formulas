@@ -5,13 +5,35 @@
   "titleBn": "সংকরায়ন, স্টেরিক নম্বর ও অণুর জ্যামিতিক গঠন",
   "summary": "কেন্দ্রীয় পরমাণুর সংকরায়ন অবস্থা (sp, sp², sp³) ও আকৃতি নির্ণয়",
   "latex": "H = \\frac{1}{2} [ V + M - C + A ], \\quad \\text{Steric Number} = \\sigma \\text{ bonds} + \\text{lone pairs}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
   "symbols": [
-    { "symbol": "H", "meaning": "সংকরায়ন সংখ্যা (Steric number)", "unit": "সংখ্যা" },
-    { "symbol": "V", "meaning": "কেন্দ্রীয় পরমাণুর যোজ্যতা ইলেকট্রন", "unit": "সংখ্যা" },
-    { "symbol": "M", "meaning": "একযোজী পরমাণুর সংখ্যা (H, F, Cl)", "unit": "সংখ্যা" },
-    { "symbol": "C, A", "meaning": "ক্যাটায়ন ও অ্যানায়নের চার্জ", "unit": "সংখ্যা" }
+    {
+      "symbol": "H",
+      "meaning": "সংকরায়ন সংখ্যা (Steric number)",
+      "unit": "সংখ্যা"
+    },
+    {
+      "symbol": "V",
+      "meaning": "কেন্দ্রীয় পরমাণুর যোজ্যতা ইলেকট্রন",
+      "unit": "সংখ্যা"
+    },
+    {
+      "symbol": "M",
+      "meaning": "একযোজী পরমাণুর সংখ্যা (H, F, Cl)",
+      "unit": "সংখ্যা"
+    },
+    {
+      "symbol": "C, A",
+      "meaning": "ক্যাটায়ন ও অ্যানায়নের চার্জ",
+      "unit": "সংখ্যা"
+    }
   ],
   "derivation": {
     "lead": "VSEPR তত্ত্ব অনুসারে নিঃসঙ্গ ইলেকট্রন জোড় (Lone Pair) এর বিকর্ষণে আকৃতি বিকৃত হয়।",
@@ -29,5 +51,14 @@
       "question": "XeF4 এবং SF4 অণুদ্বয়ের কেন্দ্রীয় পরমাণুর সংকরায়ন অবস্থা ও আকৃতি কী?",
       "answer": "XeF_4: H = \\frac{1}{2}(8 + 4) = 6 \\implies sp^3d^2 \\text{ (Square Planar, 2 Lone Pairs)}, \\quad SF_4: H = \\frac{1}{2}(6 + 4) = 5 \\implies sp^3d \\text{ (See-Saw, 1 Lone Pair)}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "H = ½(V+M-C+A) — ২=sp(রৈখিক), ৩=sp²(ত্রিভুজ), ৪=sp³(চতুস্তলকীয়), ৫=sp³d, ৬=sp³d²।",
+    "steps": [
+      "V = কেন্দ্রীয় পরমাণুর যোজ্য ইলেকট্রন",
+      "M = একযোজী পরমাণু (H, F, Cl) সংখ্যা",
+      "C = ক্যাটায়ন চার্জ, A = অ্যানায়ন চার্জ",
+      "অর্ধেক ভাগ → সংকরায়ন সংখ্যা → আকৃতি"
+    ]
+  }
 }

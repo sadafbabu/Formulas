@@ -4,18 +4,53 @@
   "titleBn": "বায়োট-সাভার্ট সূত্র",
   "latex": "dB = \\frac{\\mu_0}{4\\pi} \\frac{I dl \\sin \\theta}{r^2}",
   "summary": "বিদ্যুৎবাহী পরিবাহীর কোনো ক্ষুদ্র অংশ (dl) থেকে r দূরত্বে যেকোনো বিন্দুতে সৃষ্ট চৌম্বক ক্ষেত্রের মান।",
-  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 3,
-  "subjects": ["physics"],
-  "related": ["wire-field", "loop-center"],
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "wire-field",
+    "loop-center"
+  ],
   "symbols": [
-    { "symbol": "dB", "meaning": "ক্ষুদ্র চৌম্বক ক্ষেত্র", "unit": "T (Tesla)" },
-    { "symbol": "\\mu_0", "meaning": "শূন্যস্থানের চৌম্বক প্রবেশ্যতা", "unit": "T·m/A", "value": "4π × 10⁻⁷" },
-    { "symbol": "I", "meaning": "বিদ্যুৎপ্রবাহ", "unit": "A" },
-    { "symbol": "dl", "meaning": "ক্ষুদ্র পরিবাহী অংশ", "unit": "m" },
-    { "symbol": "\\theta", "meaning": "dl ও পরিবাহী থেকে বিন্দু নির্দেশক ভেক্টরের অন্তর্বর্তী কোণ", "unit": "°" },
-    { "symbol": "r", "meaning": "পরিবাহী অংশ থেকে নির্দিষ্ট বিন্দুর দূরত্ব", "unit": "m" }
+    {
+      "symbol": "dB",
+      "meaning": "ক্ষুদ্র চৌম্বক ক্ষেত্র",
+      "unit": "T (Tesla)"
+    },
+    {
+      "symbol": "\\mu_0",
+      "meaning": "শূন্যস্থানের চৌম্বক প্রবেশ্যতা",
+      "unit": "T·m/A",
+      "value": "4π × 10⁻⁷"
+    },
+    {
+      "symbol": "I",
+      "meaning": "বিদ্যুৎপ্রবাহ",
+      "unit": "A"
+    },
+    {
+      "symbol": "dl",
+      "meaning": "ক্ষুদ্র পরিবাহী অংশ",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "dl ও পরিবাহী থেকে বিন্দু নির্দেশক ভেক্টরের অন্তর্বর্তী কোণ",
+      "unit": "°"
+    },
+    {
+      "symbol": "r",
+      "meaning": "পরিবাহী অংশ থেকে নির্দিষ্ট বিন্দুর দূরত্ব",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "বায়োট-সাভার্ট সূত্রের মূল সম্পর্কসমূহ:",
@@ -31,7 +66,9 @@
         "note": "SI এককে ধ্রুবক $k = 10^{-7} \\text{ T}\\cdot\\text{m/A}$।"
       }
     ],
-    "assumptions": ["স্থির বিদ্যুৎপ্রবাহ এবং অনমনীয় সুষম পরিবাহী বিবেচ্য।"]
+    "assumptions": [
+      "স্থির বিদ্যুৎপ্রবাহ এবং অনমনীয় সুষম পরিবাহী বিবেচ্য।"
+    ]
   },
   "questions": [
     {
@@ -39,5 +76,8 @@
       "question": "১০ cm দৈর্ঘ্যের একটি সোজা তারের মধ্য দিয়ে ১৫ A বিদ্যুৎ প্রবাহিত হচ্ছে। তারের অক্ষ থেকে ৩০° কোণে ০.২ m দূরে অবস্থিত বিন্দুতে ১ mm ক্ষুদ্র পরিবাহী অংশের জন্য সৃষ্ট চৌম্বক ক্ষেত্র dB কত?",
       "answer": "dB = \\frac{10^{-7} \\times 15 \\times 10^{-3} \\times \\sin 30^\\circ}{(0.2)^2} = 1.875 \\times 10^{-8} \\text{ T}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "dB = μ₀I sinθ/(4πr²) — তার থেকে চৌম্বক ক্ষেত্র। লম্বা তারের সহজ রূপ: B = μ₀I/(2πr)।"
+  }
 }

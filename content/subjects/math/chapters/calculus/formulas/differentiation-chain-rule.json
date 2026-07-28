@@ -5,11 +5,25 @@
   "titleBn": "পর্যায়ক্রমিক অন্তরীকরণ ও সংযোজিত ফাংশন সূত্র",
   "summary": "সংযোজিত ফাংশন (Chain Rule) এবং গুণফল (Product Rule) এর অন্তরীকরণ",
   "latex": "\\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x), \\quad \\frac{d}{dx}[u \\cdot v] = u \\frac{dv}{dx} + v \\frac{du}{dx}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
   "symbols": [
-    { "symbol": "f(g(x))", "meaning": "সংযোজিত ফাংশন (Composite Function)", "unit": "ফাংশন" },
-    { "symbol": "u, v", "meaning": "x এর দুটি স্বতন্ত্র ফাংশন", "unit": "ফাংশন" }
+    {
+      "symbol": "f(g(x))",
+      "meaning": "সংযোজিত ফাংশন (Composite Function)",
+      "unit": "ফাংশন"
+    },
+    {
+      "symbol": "u, v",
+      "meaning": "x এর দুটি স্বতন্ত্র ফাংশন",
+      "unit": "ফাংশন"
+    }
   ],
   "derivation": {
     "lead": "ক্ষুদ্র বৃদ্ধি Δx -> 0 এর জন্য সংজ্ঞার সাহায্যে অন্তরজ (First Principle) হতে প্রমানিত।",
@@ -27,5 +41,8 @@
       "question": "y = sin(ln(x² + 1)) হলে dy/dx এর মান কত?",
       "answer": "\\frac{dy}{dx} = \\cos(\\ln(x^2 + 1)) \\cdot \\frac{d}{dx}[\\ln(x^2 + 1)] = \\cos(\\ln(x^2 + 1)) \\cdot \\frac{1}{x^2 + 1} \\cdot (2x) = \\frac{2x \\cos(\\ln(x^2 + 1))}{x^2 + 1}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "dy/dx = (dy/du)(du/dx) — যৌগিক ফাংশনে বহিঃস্থ ও অন্তঃস্থ অবকলনের গুণফল।"
+  }
 }

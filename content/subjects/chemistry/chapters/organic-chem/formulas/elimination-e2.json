@@ -2,7 +2,7 @@
   "title": "Elimination (E2) & Saytzeff Rule",
   "titleBn": "বিয়োজন (E2) ও সায়ৎজেফ নিয়ম",
   "summary": "অ্যালকাইল হ্যালাইড বিয়োজন ও সায়ৎজেফ নিয়ম",
-  "latex": "\\text{RX + Base} \\to \\text{Alkene}, \\quad \\text{major} = \\text{more substituted alkene}",
+  "latex": "\\ce{R-CH_2-CH_2-X + KOH ->[\\text{alc}] R-CH=CH_2 + KX + H_2O}",
   "tags": [
     "hsc",
     "eng-admission",

@@ -1,0 +1,50 @@
+{
+  "id": "projectile-motion",
+  "chapter": "dynamics",
+  "title": "Projectile Motion Equations",
+  "titleBn": "প্রাসের গতি সমীকরণ",
+  "summary": "কোণে নিক্ষেপিত বস্তুর সর্বোচ্চ উচ্চতা, উড্ডয়নকাল ও পাল্লা নির্ণয়",
+  "latex": "H = \\frac{u^2 \\sin^2\\theta}{2g}, \\quad T = \\frac{2u\\sin\\theta}{g}, \\quad R = \\frac{u^2 \\sin 2\\theta}{g}",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "subjects": ["physics"],
+  "related": ["newtons-laws", "centripetal-force"],
+  "symbols": [
+    { "symbol": "u", "meaning": "প্রাথমিক বেগ", "unit": "m/s" },
+    { "symbol": "\\theta", "meaning": "নিক্ষেপ কোণ", "unit": "°" },
+    { "symbol": "H", "meaning": "সর্বোচ্চ উচ্চতা", "unit": "m" },
+    { "symbol": "T", "meaning": "উড্ডয়নকাল", "unit": "s" },
+    { "symbol": "R", "meaning": "অনুভূমিক পাল্লা", "unit": "m" }
+  ],
+  "derivation": {
+    "lead": "নিক্ষেপ বেগকে অনুভূমিক ও উল্লম্ব উপাংশে বিভাজন করে গতি সমীকরণ প্রয়োগ।",
+    "steps": [
+      {
+        "title": "অনুভূমিক ও উল্লম্ব উপাংশ",
+        "latex": "u_x = u\\cos\\theta \\ (\\text{ধ্রুব}), \\quad u_y = u\\sin\\theta \\ (\\text{g এর কারণে কমে})",
+        "note": "অনুভূমিক বেগ ধ্রুব, উল্লম্ব বেগ মহাকর্ষণে কমে"
+      },
+      {
+        "title": "সর্বোচ্চ উচ্চতায় উল্লম্ব বেগ শূন্য",
+        "latex": "v_y = 0 \\implies 0 = u\\sin\\theta - gt \\implies t = \\frac{u\\sin\\theta}{g}, \\quad H = \\frac{(u\\sin\\theta)^2}{2g}",
+        "note": "সর্বোচ্চ উচ্চতায় পৌঁছাতে সময় = T/2"
+      }
+    ],
+    "assumptions": ["বায়ুর ঘর্ষণ উপেক্ষা", "g ধ্রুব ও নিচের দিকে"]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "একটি বস্তু 60° কোণে 20 m/s বেগে নিক্ষেপ করা হলো। এর পাল্লা কত? [g = 10]",
+      "answer": "R = \\frac{u^2 \\sin 2\\theta}{g} = \\frac{400 \\times \\sin 120°}{10} = \\frac{400 \\times 0.866}{10} = 34.64\\ \\text{m}"
+    }
+  ],
+  "memorize": {
+    "trick": "H ∝ sin²θ, T ∝ sinθ, R ∝ sin2θ — 45° তে পাল্লা সর্বোচ্চ, 90° তে উচ্চতা সর্বোচ্চ।",
+    "steps": [
+      "সর্বোচ্চ উচ্চতা: H = u²sin²θ/2g",
+      "উড্ডয়নকাল: T = 2u sinθ/g",
+      "পাল্লা: R = u²sin2θ/g (45° তে সর্বোচ্চ)"
+    ]
+  }
+}

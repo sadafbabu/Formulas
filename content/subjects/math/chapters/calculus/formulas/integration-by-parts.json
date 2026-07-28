@@ -5,11 +5,25 @@
   "titleBn": "অংশায়ন সূত্র ও অন্তরীকরণ লিপি",
   "summary": "দুটি ফাংশনের গুণফলের যোগজীকরণ এবং মুলিয়্যান্ট নীতি (LIATE rule)",
   "latex": "\\int u v dx = u \\int v dx - \\int \\left( \\frac{du}{dx} \\int v dx \\right) dx",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
   "symbols": [
-    { "symbol": "u, v", "meaning": "x এর দুটি পৃথক ফাংশন", "unit": "ফাংশন" },
-    { "symbol": "dx", "meaning": "x এর সাপেক্ষে সমাকলন", "unit": "অন্তরক" }
+    {
+      "symbol": "u, v",
+      "meaning": "x এর দুটি পৃথক ফাংশন",
+      "unit": "ফাংশন"
+    },
+    {
+      "symbol": "dx",
+      "meaning": "x এর সাপেক্ষে সমাকলন",
+      "unit": "অন্তরক"
+    }
   ],
   "derivation": {
     "lead": "গুনফলের অন্তরীকরণ d(uv)/dx = u dv/dx + v du/dx সমাকলন করে এই সূত্র উদ্ভূত।",
@@ -27,5 +41,8 @@
       "question": "∫ x e^x dx এর মান কত?",
       "answer": "\\int x e^x dx = x e^x - \\int (1 \\cdot e^x) dx = x e^x - e^x + c = e^x (x - 1) + c"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "∫u dv = uv - ∫v du — ILATE নিয়ম: Inverse, Log, Algebra, Trig, Exponential ক্রমে u বেছে নাও।"
+  }
 }

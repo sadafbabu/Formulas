@@ -40,5 +40,8 @@
   },
   "id": "euler-form",
   "chapter": "complex-numbers",
-  "questions": []
+  "questions": [],
+  "memorize": {
+    "trick": "e^(iθ) = cos θ + i sin θ — জটিল সংখ্যার সূচকীয় রূপ। মডুলাস r ও আর্গুমেন্ট θ।"
+  }
 }

@@ -35,5 +35,8 @@
   },
   "id": "vieta-formulas",
   "chapter": "polynomials",
-  "questions": []
+  "questions": [],
+  "memorize": {
+    "trick": "ax³+bx²+cx+d=0 → মূল যোগফল = -b/a, জোড় গুণফল = c/a, তিন মূল গুণফল = -d/a।"
+  }
 }

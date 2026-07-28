@@ -5,13 +5,35 @@
   "titleBn": "নার্নস্টের সমীকরণ ও কোশের তড়িৎচালক বল",
   "summary": "ঘনমাত্রা ও তাপমাত্রার পরিবর্তনে গ্যালভানিক কোশের EMF নির্ণয়",
   "latex": "E_{\\text{cell}} = E^\\circ_{\\text{cell}} - \\frac{2.303 R T}{n F} \\log_{10} Q = E^\\circ_{\\text{cell}} - \\frac{0.0591}{n} \\log_{10} \\frac{[\\text{Anode}]}{[\\text{Cathode}]}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
   "symbols": [
-    { "symbol": "E_{\\text{cell}}", "meaning": "অপ্রমাণ অবস্থায় কোশ বিভব (EMF)", "unit": "V (Volt)" },
-    { "symbol": "E^\\circ_{\\text{cell}}", "meaning": "প্রমাণ কোশ বিভব", "unit": "V (Volt)" },
-    { "symbol": "n", "meaning": "স্থানান্তরিত ইলেকট্রন সংখ্যা", "unit": "মোল" },
-    { "symbol": "Q", "meaning": "বিক্রিয়া অনুপাত (Anode/Cathode)", "unit": "এককহীন" }
+    {
+      "symbol": "E_{\\text{cell}}",
+      "meaning": "অপ্রমাণ অবস্থায় কোশ বিভব (EMF)",
+      "unit": "V (Volt)"
+    },
+    {
+      "symbol": "E^\\circ_{\\text{cell}}",
+      "meaning": "প্রমাণ কোশ বিভব",
+      "unit": "V (Volt)"
+    },
+    {
+      "symbol": "n",
+      "meaning": "স্থানান্তরিত ইলেকট্রন সংখ্যা",
+      "unit": "মোল"
+    },
+    {
+      "symbol": "Q",
+      "meaning": "বিক্রিয়া অনুপাত (Anode/Cathode)",
+      "unit": "এককহীন"
+    }
   ],
   "derivation": {
     "lead": "মুক্ত শক্তি পরিবর্তন ΔG = ΔG° + RT ln Q এবং ΔG = -nFE সম্পর্ক হতে প্রাপ্ত।",
@@ -29,5 +51,8 @@
       "question": "Zn | Zn²⁺(0.1 M) || Cu²⁺(1.0 M) | Cu কোশের 25°C এ EMF কত? [E°_cell = 1.10 V]",
       "answer": "E = 1.10 - \\frac{0.0591}{2} \\log_{10} \\left(\\frac{0.1}{1.0}\\right) = 1.10 - 0.02955 \\times (-1) = 1.10 + 0.02955 = 1.12955\\text{ V}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "E = E° - (0.0591/n)log Q (২৫°C তে) — n = স্থানান্তরিত ইলেকট্রন সংখ্যা।"
+  }
 }

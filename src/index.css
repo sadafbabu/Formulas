@@ -795,6 +795,42 @@ button {
   border-bottom-color: #ffffff;
 }
 
+.memorize-popover-content {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.memorize-trick {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--ink-bright);
+  font-weight: 600;
+  padding: 0.5rem 0.7rem;
+  background: rgba(255, 255, 255, 0.06);
+  border-left: 3px solid #ffd479;
+  border-radius: 6px;
+}
+
+.memorize-steps {
+  margin: 0;
+  padding-left: 1.1rem;
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+
+.memorize-steps li {
+  padding-left: 0.1rem;
+}
+
+.memorize-steps li::marker {
+  color: #ffd479;
+  font-weight: 700;
+}
+
 .home-nav-btn {
   display: flex;
   align-items: center;

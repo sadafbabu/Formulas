@@ -4,13 +4,31 @@
   "title": "Grignard Reagent Synthesis Reactions",
   "titleBn": "গ্রিগনার্ড বিকারক ও অ্যালকোহল সংস্লেষণ",
   "summary": "R-MgX এর অ্যালডিহাইড ও কিটোনের সাথে সংযোজন এবং অ্যালকোহল প্রস্তুতি",
-  "latex": "R\\text{-MgX} + HCHO \\xrightarrow{H_2O/H^+} R\\text{-CH}_2\\text{OH} \\quad (1^\\circ), \\quad R\\text{-MgX} + R'CHO \\xrightarrow{H_2O/H^+} R\\text{-CH}(OH)\\text{-}R' \\quad (2^\\circ)",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "latex": "\\ce{R-MgX + HCHO ->[H_2O/H^+] R-CH_2OH \\ (1^\\circ)}, \\quad \\ce{R-MgX + R'CHO ->[H_2O/H^+] R-CH(OH)-R' \\ (2^\\circ)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
   "symbols": [
-    { "symbol": "R\\text{-MgX}", "meaning": "অ্যালকাইল ম্যাগনেসিয়াম হ্যালয়েড (গ্রিগনার্ড বিকারক)", "unit": "যৌগ" },
-    { "symbol": "HCHO", "meaning": "ফরমালডিহাইড (মেথান্যাল)", "unit": "অ্যালডিহাইড" },
-    { "symbol": "1^\\circ, 2^\\circ, 3^\\circ", "meaning": "প্রাথমিক, মাধ্যমিক ও টারশিয়ারী অ্যালকোহল", "unit": "শ্রেণী" }
+    {
+      "symbol": "R\\text{-MgX}",
+      "meaning": "অ্যালকাইল ম্যাগনেসিয়াম হ্যালয়েড (গ্রিগনার্ড বিকারক)",
+      "unit": "যৌগ"
+    },
+    {
+      "symbol": "HCHO",
+      "meaning": "ফরমালডিহাইড (মেথান্যাল)",
+      "unit": "অ্যালডিহাইড"
+    },
+    {
+      "symbol": "1^\\circ, 2^\\circ, 3^\\circ",
+      "meaning": "প্রাথমিক, মাধ্যমিক ও টারশিয়ারী অ্যালকোহল",
+      "unit": "শ্রেণী"
+    }
   ],
   "derivation": {
     "lead": "R-MgX এর অ্যালকাইল অংশ কার্বোনাইল কার্বনে নিউক্লিওফিলিক সংযোজন ঘটায়।",

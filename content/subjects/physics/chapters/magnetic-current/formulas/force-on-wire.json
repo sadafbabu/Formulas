@@ -4,9 +4,9 @@
   "titleBn": "তড়িৎবাহী সোজা তারের ওপর চৌম্বক বল",
   "latex": "F = I L B \\sin \\theta",
   "summary": "চৌম্বক ক্ষেত্রে অবস্থিত L দৈর্ঘ্যের তড়িৎবাহী পরিবাহীর ওপর ক্রিয়াশীল বল।",
-  "tags": ["hsc", "eng-admission", "varsity", "4-star"],
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
   "chapter": "magnetic-current",
-  "importance": 4,
+  "importance": 3,
   "subjects": ["physics"],
   "related": ["lorentz", "parallel-wires"],
   "symbols": [

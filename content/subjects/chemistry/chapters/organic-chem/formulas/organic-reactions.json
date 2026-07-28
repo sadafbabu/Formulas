@@ -4,13 +4,31 @@
   "title": "Key Organic Reactions & Mechanisms",
   "titleBn": "গুরুত্বপূর্ণ জৈব বিক্রিয়া ও প্রক্রিয়া",
   "summary": "মার্কনিকভের নীতি, SN1, SN2 বিক্রিয়া ও অ্যালিফেটিক বিক্রিয়া",
-  "latex": "\\text{Markovnikov: HX + alkene} \\to \\text{H adds to C with more H}, \\quad \\text{SN2: rate} = k[\\text{substrate}][\\text{nucleophile}]",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "latex": "\\ce{CH_3CH=CH_2 + HBr -> CH_3CHBrCH_3}, \\quad \\text{SN2: rate} = k[\\text{substrate}][\\text{nucleophile}]",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
   "symbols": [
-    { "symbol": "k", "meaning": "বেগ ধ্রুবক", "unit": "mol⁻¹L·s⁻¹" },
-    { "symbol": "SN1", "meaning": "একমুখী নিউক্লিওফিলিক প্রতিস্থাপন (Unimolecular)", "unit": "rate = k[substrate]" },
-    { "symbol": "SN2", "meaning": "দ্বিমুখী নিউক্লিওফিলিক প্রতিস্থাপন (Bimolecular)", "unit": "rate = k[substrate][nucleophile]" }
+    {
+      "symbol": "k",
+      "meaning": "বেগ ধ্রুবক",
+      "unit": "mol⁻¹L·s⁻¹"
+    },
+    {
+      "symbol": "SN1",
+      "meaning": "একমুখী নিউক্লিওফিলিক প্রতিস্থাপন (Unimolecular)",
+      "unit": "rate = k[substrate]"
+    },
+    {
+      "symbol": "SN2",
+      "meaning": "দ্বিমুখী নিউক্লিওফিলিক প্রতিস্থাপন (Bimolecular)",
+      "unit": "rate = k[substrate][nucleophile]"
+    }
   ],
   "derivation": {
     "lead": "মার্কনিকভের নীতি: অসমতুল্য অ্যালকিনে HX যোগ হলে H পরমাণু বেশি H যুক্ত কার্বনে যোগ হয়।",

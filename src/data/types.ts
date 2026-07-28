@@ -42,6 +42,12 @@ export interface QuestionItem {
   answer: string
 }
 
+/** Memorization aid: a mnemonic/trick plus optional ordered steps to recall the formula */
+export interface MemorizeItem {
+  trick: string
+  steps?: string[]
+}
+
 export type PaperId = '1st-paper' | '2nd-paper'
 export type SubjectId = 'physics' | 'chemistry' | 'math'
 
@@ -60,6 +66,7 @@ export interface Formula {
   symbols: SymbolInfo[]
   derivation: Derivation
   questions?: QuestionItem[]
+  memorize?: MemorizeItem
 }
 
 export interface ChapterMeta {

@@ -1,0 +1,38 @@
+{
+  "id": "equilibrium-constant-rate",
+  "chapter": "chemical-equilibrium",
+  "title": "Equilibrium Constant & Rate Relation",
+  "titleBn": "সাম্যধ্রুবক ও বেগ সম্পর্ক",
+  "summary": "সাম্যাবস্থায় সম্মুখ ও পশ্চাৎ বিক্রিয়ার বেগ সমান, Kc ও বেগ ধ্রুবক সম্পর্ক",
+  "latex": "K_c = \\frac{k_f}{k_b} = \\frac{[C]^c[D]^d}{[A]^a[B]^b}, \\quad \\text{সাম্যে: } r_f = r_b",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "subjects": ["chemistry"],
+  "related": ["kp-kc-relation", "reaction-quotient", "le-chatelier"],
+  "symbols": [
+    { "symbol": "K_c", "meaning": "সাম্যধ্রুবক (ঘনমাত্রা)", "unit": "(mol/L)^Δn" },
+    { "symbol": "k_f, k_b", "meaning": "সম্মুখ ও পশ্চাৎ বেগ ধ্রুবক", "unit": "—" },
+    { "symbol": "[A], [B]", "meaning": "বিক্রিয়ক ঘনমাত্রা", "unit": "mol/L" }
+  ],
+  "derivation": {
+    "lead": "সাম্যাবস্থায় সম্মুখ ও পশ্চাৎ বিক্রিয়ার বেগ সমান হলে Kc = kf/kb।",
+    "steps": [
+      {
+        "title": "সাম্য প্রকাশ",
+        "latex": "aA + bB \\rightleftharpoons cC + dD \\implies K_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}",
+        "note": "শুধু গ্যাসীয় ও দ্রবীয় প্রজাতি অন্তর্ভুক্ত; কঠিন ও বিশুদ্ধ তরল বাদ"
+      }
+    ],
+    "assumptions": ["গতিশীল সাম্য", "আদর্শ আচরণ"]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "\\ce{N2 + 3H2 <=> 2NH3} বিক্রিয়ার সাম্যধ্রুবক প্রকাশ করো।",
+      "answer": "K_c = \\frac{[\\ce{NH3}]^2}{[\\ce{N2}][\\ce{H2}]^3}"
+    }
+  ],
+  "memorize": {
+    "trick": "সাম্যাবস্থায় সম্মুখ বেগ = পশ্চাৎ বেগ। Kc = উৎপাদ ঘনমাত্রা ÷ বিক্রিয়ক ঘনমাত্রা (স্টয়শিওমেট্রি ঘাতে)।"
+  }
+}

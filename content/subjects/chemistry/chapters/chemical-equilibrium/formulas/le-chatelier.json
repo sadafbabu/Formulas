@@ -4,14 +4,36 @@
   "title": "Le Chatelier's Principle & Reaction Quotient",
   "titleBn": "লা শাতেলিয়ের নীতি ও বিক্রিয়া ভাগফল",
   "summary": "সাম্যাবস্থায় পরিবর্তনের প্রভাব এবং Qc ও Kc এর তুলনা",
-  "latex": "Q_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}, \\quad Q_c < K_c \\Rightarrow \\text{সাম্য সম্মুখ দিকে}, \\quad Q_c > K_c \\Rightarrow \\text{সাম্য পশ্চাৎ দিকে}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "latex": "Q_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}, \\quad Q_c < K_c \\Rightarrow \\ce{->}, \\quad Q_c > K_c \\Rightarrow \\ce{<-}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
   "symbols": [
-    { "symbol": "Q_c", "meaning": "বিক্রিয়া ভাগফল", "unit": "মাত্রাহীন" },
-    { "symbol": "K_c", "meaning": "সাম্যধ্রুবক", "unit": "মাত্রাহীন" },
-    { "symbol": "[A], [B]", "meaning": "বিক্রিয়কের ঘনমাত্রা", "unit": "mol/L" },
-    { "symbol": "[C], [D]", "meaning": "উৎপাদের ঘনমাত্রা", "unit": "mol/L" }
+    {
+      "symbol": "Q_c",
+      "meaning": "বিক্রিয়া ভাগফল",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "K_c",
+      "meaning": "সাম্যধ্রুবক",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "[A], [B]",
+      "meaning": "বিক্রিয়কের ঘনমাত্রা",
+      "unit": "mol/L"
+    },
+    {
+      "symbol": "[C], [D]",
+      "meaning": "উৎপাদের ঘনমাত্রা",
+      "unit": "mol/L"
+    }
   ],
   "derivation": {
     "lead": "লা শাতেলিয়ের নীতি: সাম্যবস্থায় বাহ্যিক পরিবর্তন করলে সাম্য সেই দিকে সরে যায় যা পরিবর্তনকে প্রতিরোধ করে।",
@@ -29,5 +51,8 @@
       "question": "N₂ + 3H₂ ⇌ 2NH₃ বিক্রিয়ায় চাপ বৃদ্ধি করলে সাম্য কোন দিকে সরে?",
       "answer": "চাপ বৃদ্ধিতে কম মোলের দিকে সাম্য সরে। বাম দিকে মোল = 4 (1+3), ডান দিকে = 2। তাই সাম্য NH₃ উৎপাদনের দিকে (ডান দিকে) সরে যাবে।"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "চাপ বাড়লে কম মোলের দিকে, তাপ বাড়লে তাপগ্রাহী দিকে, ঘনমাত্রা বাড়লে উৎপাদ কম দিকে।"
+  }
 }

@@ -1,0 +1,44 @@
+{
+  "id": "lewis-structure",
+  "chapter": "chemical-bonding",
+  "title": "Lewis Structure & Octet Rule",
+  "titleBn": "লুইস কাঠামো ও অক্টেট নীতি",
+  "summary": "যোজ্য ইলেকট্রন বিন্যাস দ্বারা অণুর গঠন ও বন্ধন নির্ণয়",
+  "latex": "\\ce{H2O}: \\ H-\\overset{\\displaystyle..}{\\underset{\\displaystyle..}{O}}-H, \\quad \\ce{CO2}: \\ O=C=O, \\quad \\ce{N2}: \\ N\\equiv N",
+  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "importance": 3,
+  "subjects": ["chemistry"],
+  "related": ["hybridization-shapes", "formal-charge", "vsepr-theory"],
+  "symbols": [
+    { "symbol": "\\cdot", "meaning": "একক ইলেকট্রন (বিন্দু)", "unit": "—" },
+    { "symbol": "-", "meaning": "একযোজী সহযোজী বন্ধন", "unit": "—" },
+    { "symbol": "=", "meaning": "দ্বিযোজী বন্ধন", "unit": "—" },
+    { "symbol": "\\equiv", "meaning": "ত্রিযোজী বন্ধন", "unit": "—" }
+  ],
+  "derivation": {
+    "lead": "অষ্টক নীতি অনুসারে পরমাণু সর্বোচ্চ ৮টি যোজ্য ইলেকট্রন পেতে চায় (নিষ্ক্রিয় গ্যাসের মতো)।",
+    "steps": [
+      {
+        "title": "বন্ধন গঠন নীতি",
+        "latex": "\\text{বন্ধন সংখ্যা} = 8 - \\text{যোজ্য ইলেকট্রন সংখ্যা}",
+        "note": "H ও He এর জন্য দুই ইলেকট্রন (দুইলন নীতি)"
+      }
+    ],
+    "assumptions": ["দ্বিতীয় পর্যায়ের পরমাণুর জন্য অষ্টক নীতি প্রযোজ্য"]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "\\ce{CO2} অণুর লুইস কাঠামো ও আকৃতি কী?",
+      "answer": "\\ce{O=C=O} — কার্বনে কোনো নিঃসঙ্গ জোড় নেই, ৪টি বন্ধন জোড়া (২টি দ্বিবন্ধন), রৈখিক আকৃতি, বন্ধন কোণ 180°"
+    }
+  ],
+  "memorize": {
+    "trick": "অষ্টক নীতি: ৮ ইলেকট্রন পেতে চায়। বন্ধন সংখ্যা = ৮ − যোজ্য ইলেকট্রন। H/He এর জন্য দুইলন (২)।",
+    "steps": [
+      "মোট যোজ্য ইলেকট্রন গণনা করো",
+      "কেন্দ্রীয় পরমাণু নির্বাচন (সাধারণত কম ইলেকট্রন ঋণাত্মক)",
+      "একযোজী পরমাণু চারপাশে বসাও, বাকি জোড়া দিয়ে অষ্টক পূরণ করো"
+    ]
+  }
+}
