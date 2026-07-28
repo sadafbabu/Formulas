@@ -1,4 +1,5 @@
 import type { Formula } from '../data/types'
+import { toLatexSymbol } from '../utils/mathText'
 import { HintPopover } from './HintPopover'
 import { Katex } from './Katex'
 
@@ -17,7 +18,6 @@ export function SymbolHint({ formula }: SymbolHintProps) {
       wide
       icon={
         <svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true">
-          {/* clear "Σ" mark */}
           <path
             fill="currentColor"
             d="M3 3.2h10v1.35H5.7L10.2 8 5.7 11.45H13V12.8H3v-1.05L7.7 8 3 4.25V3.2z"
@@ -48,23 +48,5 @@ export function SymbolHint({ formula }: SymbolHintProps) {
         </tbody>
       </table>
     </HintPopover>
-  )
-}
-
-function toLatexSymbol(raw: string): string {
-  const map: Record<string, string> = {
-    'μ₀': '\\mu_{0}',
-    'I₁, I₂': 'I_{1}, I_{2}',
-    'F/ℓ': 'F/\\ell',
-    'I_encl': 'I_{\\mathrm{encl}}',
-    '∮ B·dl': '\\oint B\\cdot dl',
-    dB: 'dB',
-    ℓ: '\\ell',
-    θ: '\\theta',
-    τ: '\\tau',
-  }
-  return (
-    map[raw] ??
-    raw.replace(/₀/g, '_{0}').replace(/₁/g, '_{1}').replace(/₂/g, '_{2}')
   )
 }

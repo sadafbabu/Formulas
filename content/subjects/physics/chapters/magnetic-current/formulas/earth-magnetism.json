@@ -47,7 +47,7 @@
       {
         "title": "লব্ধি ক্ষেত্র সমীকরণ",
         "latex": "B = \\sqrt{B_H^2 + B_V^2}, \\quad \\tan \\delta = \\frac{B_V}{B_H}",
-        "note": "বিষুবরেখায় $\\delta = 0^\\circ$ (B_V = 0) এবং মেরুতে $\\delta = 90^\\circ$ (B_H = 0) হয়।"
+        "note": "বিষুবরেখায় \\delta = 0^\\circ (B_V = 0) এবং মেরুতে \\delta = 90^\\circ (B_H = 0) হয়।"
       }
     ],
     "assumptions": [

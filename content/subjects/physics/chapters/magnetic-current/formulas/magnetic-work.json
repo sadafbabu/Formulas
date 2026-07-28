@@ -48,7 +48,7 @@
       {
         "title": "কোণ সমাকলন",
         "latex": "W = \\int_0^{\\theta} \\tau d\\theta = \\int_0^{\\theta} M B \\sin \\theta d\\theta = M B (1 - \\cos \\theta)",
-        "note": "১৮০° ঘুরাতে সর্বোচ্চ কাজ $W_{\\text{max}} = 2 M B$ সম্পাদনা করতে হয়।"
+        "note": "১৮০° ঘুরাতে সর্বোচ্চ কাজ W_{\\text{max}} = 2 M B সম্পাদনা করতে হয়।"
       }
     ],
     "assumptions": [

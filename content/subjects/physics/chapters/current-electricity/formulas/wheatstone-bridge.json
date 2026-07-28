@@ -41,7 +41,7 @@
     {
       "examType": "CKRUET Admission",
       "question": "একটি হুইটস্টোন ব্রীজের চার বাহুর রোধ যথাক্রমে 6 Ω, 12 Ω, 18 Ω এবং S। S এর মান কত হলে ব্রীজটি সাম্যাবস্থায় থাকবে?",
-      "answer": "S = \\frac{Q \\times R}{P} = \\frac{12 \\times 18}{6} = 36\\text{ Ω}"
+      "answer": "S = \\frac{Q \\times R}{P} = \\frac{12 \\times 18}{6} = 36~\\Omega"
     }
   ],
   "memorize": {

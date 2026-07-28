@@ -4,7 +4,7 @@
   "title": "pH, pOH & Water Ion Product",
   "titleBn": "pH, pOH ও পানির আয়ন গুণফল",
   "summary": "অম্ল-ক্ষার মাত্রা পরিমাপ, পানির আয়নীকরণ ধ্রুবক ও সম্পর্ক",
-  "latex": "\\ce{pH = -\\log[H^+]}, \\quad \\ce{pOH = -\\log[OH^-]}, \\quad \\ce{K_w = [H^+][OH^-] = 10^{-14}}, \\quad \\ce{pH + pOH = 14}",
+  "latex": "\\mathrm{pH}=-\\log[H^+],\\quad \\mathrm{pOH}=-\\log[OH^-],\\quad K_w=[H^+][OH^-]=10^{-14},\\quad \\mathrm{pH}+\\mathrm{pOH}=14",
   "tags": [
     "hsc",
     "eng-admission",
@@ -23,12 +23,12 @@
   ],
   "symbols": [
     {
-      "symbol": "\\ce{pH}",
+      "symbol": "\\mathrm{pH}",
       "meaning": "হাইড্রোজেন আয়ন ঘনমাত্রার ঋণাত্মক লগ",
       "unit": "মাত্রাহীন"
     },
     {
-      "symbol": "\\ce{pOH}",
+      "symbol": "\\mathrm{pOH}",
       "meaning": "হাইড্রক্সিল আয়ন ঘনমাত্রার ঋণাত্মক লগ",
       "unit": "মাত্রাহীন"
     },
@@ -44,7 +44,7 @@
     "steps": [
       {
         "title": "pH ও pOH সংজ্ঞা",
-        "latex": "\\ce{pH = -\\log[H^+]}, \\quad \\ce{pOH = -\\log[OH^-]} \\implies \\ce{pH + pOH = -\\log K_w = 14}",
+        "latex": "\\mathrm{pH}=-\\log[H^+],\\quad \\mathrm{pOH}=-\\log[OH^-] \\implies \\mathrm{pH}+\\mathrm{pOH}=-\\log K_w=14",
         "note": "বিশুদ্ধ পানি: pH = 7 (প্রশম), অম্ল: pH < 7, ক্ষার: pH > 7"
       }
     ],
@@ -56,7 +56,7 @@
     {
       "examType": "Medical Admission",
       "question": "0.001 M HCl দ্রবণের pH কত?",
-      "answer": "\\ce{[H^+] = 10^{-3}} \\implies \\ce{pH = -\\log(10^{-3}) = 3}"
+      "answer": "[H^+]=10^{-3} \\implies \\mathrm{pH}=-\\log(10^{-3})=3"
     }
   ],
   "memorize": {

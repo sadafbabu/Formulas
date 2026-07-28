@@ -64,7 +64,7 @@
       {
         "title": "সমানুপাতিক ধ্রুবক",
         "latex": "dB = k \\frac{I dl \\sin \\theta}{r^2}, \\quad k = \\frac{\\mu_0}{4\\pi}",
-        "note": "SI এককে ধ্রুবক $k = 10^{-7} \\text{ T}\\cdot\\text{m/A}$।"
+        "note": "SI এককে ধ্রুবক k = 10^{-7} \\text{ T}\\cdot\\text{m/A}।"
       }
     ],
     "assumptions": [

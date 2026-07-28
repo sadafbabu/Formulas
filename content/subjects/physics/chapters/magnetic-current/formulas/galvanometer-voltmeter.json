@@ -47,7 +47,7 @@
       {
         "title": "ওহমের সূত্র প্রয়োগ",
         "latex": "V = I_g (G + R) \\implies G + R = \\frac{V}{I_g} \\implies R = \\frac{V}{I_g} - G",
-        "note": "ভোল্টমিটারের গুণক n ধরা হলে $R = G (n - 1)$ হয়।"
+        "note": "ভোল্টমিটারের গুণক n ধরা হলে R = G (n - 1) হয়।"
       }
     ],
     "assumptions": [

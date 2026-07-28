@@ -48,7 +48,7 @@
       {
         "title": "চাপ দৈর্ঘ্য ও কোণ সমতা",
         "latex": "s = r \\theta \\implies B = \\frac{\\mu_0}{4\\pi} \\frac{I (r\\theta)}{r^2} = \\frac{\\mu_0 I \\theta}{4\\pi r}",
-        "note": "সম্পূর্ণ বৃত্তের জন্য $\\theta = 2\\pi$ বসালে $B = \\frac{\\mu_0 I}{2r}$ পাওয়া যায়।"
+        "note": "সম্পূর্ণ বৃত্তের জন্য \\theta = 2\\pi বসালে B = \\frac{\\mu_0 I}{2r} পাওয়া যায়।"
       }
     ],
     "assumptions": [

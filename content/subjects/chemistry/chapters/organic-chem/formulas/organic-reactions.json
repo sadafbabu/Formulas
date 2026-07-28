@@ -1,10 +1,10 @@
 {
   "id": "organic-reactions",
   "chapter": "organic-chem",
-  "title": "Key Organic Reactions & Mechanisms",
-  "titleBn": "গুরুত্বপূর্ণ জৈব বিক্রিয়া ও প্রক্রিয়া",
-  "summary": "মার্কনিকভের নীতি, SN1, SN2 বিক্রিয়া ও অ্যালিফেটিক বিক্রিয়া",
-  "latex": "\\ce{CH_3CH=CH_2 + HBr -> CH_3CHBrCH_3}, \\quad \\text{SN2: rate} = k[\\text{substrate}][\\text{nucleophile}]",
+  "title": "Alkene Addition (Markovnikov)",
+  "titleBn": "অ্যালকিন যোজন (মার্কনিকভ)",
+  "summary": "অপ্রতিসম অ্যালকিনে HX যোজন — মার্কনিকভ নিয়ম",
+  "latex": "\\ce{CH3CH=CH2 + HBr -> CH3CHBrCH3} \\quad \\text{(Markovnikov)}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -35,18 +35,18 @@
     "lead": "মার্কনিকভের নীতি: অসমতুল্য অ্যালকিনে HX যোগ হলে H পরমাণু বেশি H যুক্ত কার্বনে যোগ হয়।",
     "steps": [
       {
-        "title": "গুরুত্বপূর্ণ নামযুক্ত বিক্রিয়াসমূহ",
-        "latex": "\\text{Aldol: 2CH}_3\\text{CHO} \\xrightarrow{\\text{OH}^-} \\text{CH}_3\\text{CH(OH)CH}_2\\text{CHO}",
-        "note": "Cannizzaro, Kolbe, Reimer-Tiemann, Sandmeyer বিক্রিয়াও গুরুত্বপূর্ণ"
+        "title": "মার্কনিকভ যোজন",
+        "latex": "\\ce{CH3CH=CH2 + HBr -> CH3CHBrCH3}",
+        "note": "H বেশি হাইড্রোজেনযুক্ত কার্বনে, Br কম হাইড্রোজেনযুক্ত কার্বনে যায়।"
       }
     ],
     "assumptions": []
   },
   "questions": [
     {
-      "examType": "Board Exam",
-      "question": "প্রোপিলিনে HBr যোগ হলে মূল উৎপাদ কী হবে? (মার্কনিকভের নীতি অনুযায়ী)",
-      "answer": "CH_3-CH=CH_2 + HBr \\to CH_3-CHBr-CH_3 \\text{ (2-bromopropane)} \\text{ মার্কনিকভের নীতি অনুযায়ী Br মধ্যের C-এ যুক্ত হবে}"
+      "examType": "Board / Medical",
+      "question": "\\ce{CH3CH=CH2 + HBr} বিক্রিয়ায় প্রধান উৎপাদ কোনটি?",
+      "answer": "\\ce{CH3CHBrCH3} (2-bromopropane) — মার্কনিকভ নিয়ম অনুযায়ী।"
     }
   ],
   "memorize": {

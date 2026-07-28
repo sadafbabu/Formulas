@@ -1,25 +1,29 @@
 import { useState } from 'react'
-import { Link, useParams, useSearchParams } from 'react-router-dom'
+import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { Katex } from '../components/Katex'
+import { MathOrText } from '../components/MathOrText'
 import { NavMenu } from '../components/NavMenu'
 import { TagChip } from '../components/TagChip'
 import { defaultChapterId, getFormula } from '../data/catalog'
+import { toLatexSymbol } from '../utils/mathText'
 
 export function FormulaDetailPage() {
   const { id } = useParams()
   const formula = id ? getFormula(id) : undefined
   const [query, setQuery] = useState('')
-  const [params, setParams] = useSearchParams()
+  const [params] = useSearchParams()
+  const navigate = useNavigate()
   const chapterId =
     params.get('chapter') || formula?.chapter || defaultChapterId
 
   const setChapterId = (nextId: string) => {
-    const next = new URLSearchParams(params)
-    next.set('chapter', nextId)
-    setParams(next, { replace: true })
+    navigate(
+      `/?chapter=${encodeURIComponent(nextId)}&view=book`,
+      { replace: true },
+    )
   }
 
-  const backTo = `/?chapter=${encodeURIComponent(chapterId)}`
+  const backTo = `/?chapter=${encodeURIComponent(chapterId)}&view=book`
 
   if (!formula) {
     return (
@@ -44,6 +48,10 @@ export function FormulaDetailPage() {
   }
 
   const { derivation, symbols } = formula
+  const assumptions = Array.isArray(derivation.assumptions)
+    ? derivation.assumptions
+    : []
+  const steps = Array.isArray(derivation.steps) ? derivation.steps : []
 
   return (
     <div className="book-shell detail-shell">
@@ -73,7 +81,11 @@ export function FormulaDetailPage() {
             <Katex latex={formula.latex} display />
           </div>
 
-          <p className="detail-lead">{derivation.lead}</p>
+          <MathOrText
+            text={derivation.lead}
+            as="p"
+            className="detail-lead"
+          />
 
           {symbols?.length > 0 && (
             <aside className="assumptions symbol-box">
@@ -90,7 +102,9 @@ export function FormulaDetailPage() {
                 <tbody>
                   {symbols.map((s) => (
                     <tr key={`${s.symbol}-${s.meaning}`}>
-                      <td>{s.symbol}</td>
+                      <td>
+                        <Katex latex={toLatexSymbol(s.symbol)} />
+                      </td>
                       <td>{s.meaning}</td>
                       <td>{s.unit}</td>
                       <td>{s.value ?? '—'}</td>
@@ -101,25 +115,27 @@ export function FormulaDetailPage() {
             </aside>
           )}
 
-          {derivation.steps.map((step, i) => (
-            <section className="step" key={step.title}>
+          {steps.map((step, i) => (
+            <section className="step" key={`${step.title}-${i}`}>
               <span className="step-index">Step {i + 1}</span>
               <h3>{step.title}</h3>
               <div className="formula-latex">
                 <Katex latex={step.latex} display />
               </div>
-              <p>{step.note}</p>
+              <MathOrText text={step.note} as="p" />
             </section>
           ))}
 
-          <aside className="assumptions">
-            <h4>ধরে নেওয়া</h4>
-            <ul>
-              {derivation.assumptions.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-          </aside>
+          {assumptions.length > 0 && (
+            <aside className="assumptions">
+              <h4>ধরে নেওয়া</h4>
+              <ul>
+                {assumptions.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </aside>
+          )}
         </article>
       </main>
     </div>

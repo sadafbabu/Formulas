@@ -42,12 +42,12 @@
     }
   ],
   "derivation": {
-    "lead": "বেগ উপাংশ বিভাজন $v_{\\perp} = v \\sin\\theta$ ও $v_{\\parallel} = v \\cos\\theta$:",
+    "lead": "বেগ উপাংশ বিভাজন v_{\\perp} = v \\sin\\theta ও v_{\\parallel} = v \\cos\\theta:",
     "steps": [
       {
         "title": "উপাংশ বিশ্লেষণ",
         "latex": "R = \\frac{m v_{\\perp}}{q B} = \\frac{m v \\sin \\theta}{q B}, \\quad P = v_{\\parallel} T = (v \\cos \\theta) \\frac{2\\pi m}{q B}",
-        "note": "লরেঞ্জ বল কেবল $v_{\\perp}$ উপাংশের ওপর কাজ করে বৃত্তাকার গতি দেয়।"
+        "note": "লরেঞ্জ বল কেবল v_{\\perp} উপাংশের ওপর কাজ করে বৃত্তাকার গতি দেয়।"
       }
     ],
     "assumptions": [

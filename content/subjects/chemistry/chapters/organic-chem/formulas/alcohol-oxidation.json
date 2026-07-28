@@ -2,7 +2,7 @@
   "title": "Alcohol Oxidation Levels",
   "titleBn": "অ্যালকোহল জারণ স্তর",
   "summary": "প্রাথমিক/দ্বিতীয়/তৃতীয় অ্যালকোহল জারণ পণ্য",
-  "latex": "\\ce{R-CH_2OH ->[PCC] R-CHO ->[K_2Cr_2O_7/H^+] R-COOH}",
+  "latex": "\\ce{R-CH2OH ->[PCC] R-CHO ->[K2Cr2O7/H+] R-COOH}",
   "tags": [
     "hsc",
     "eng-admission",

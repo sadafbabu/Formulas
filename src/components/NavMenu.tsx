@@ -4,7 +4,8 @@ import {
   chapters,
   defaultChapterId,
   formulasForChapter,
-  subject,
+  getChapter,
+  subjectsList,
 } from '../data/catalog'
 
 interface NavMenuProps {
@@ -46,6 +47,9 @@ export function NavMenu({
   }, [open])
 
   const chapter = params.get('chapter')
+  const activeChapter = getChapter(chapterId || defaultChapterId)
+  const activeSubject =
+    subjectsList.find((s) => s.id === activeChapter?.subjectId) ?? subjectsList[0]
 
   return (
     <div className={`nav-root${floating ? ' is-floating' : ' is-inline'}`} ref={rootRef}>
@@ -68,7 +72,7 @@ export function NavMenu({
         <nav id={panelId} className="nav-panel" aria-label="Book navigation">
           <div className="nav-brand">Formulas</div>
           <p className="nav-subject-line">
-            {subject.nameBn} · {subject.name}
+            {activeSubject.nameBn} · {activeSubject.name}
           </p>
 
           <label className="nav-search">
@@ -77,6 +81,7 @@ export function NavMenu({
               value={query}
               onChange={(e) => onQueryChange(e.target.value)}
               placeholder="সূত্র খুঁজুন…"
+              aria-label="সূত্র খুঁজুন"
               autoFocus
             />
           </label>

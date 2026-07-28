@@ -345,6 +345,7 @@ button {
   min-height: 0;
   width: 100%;
   position: relative;
+  z-index: 5;
 }
 
 .spread::before {
@@ -551,6 +552,7 @@ button {
   display: flex;
   align-items: center;
   min-width: 0;
+  overflow-x: auto;
   background: rgba(0, 0, 0, 0.4);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 8px;
@@ -663,7 +665,7 @@ button {
   top: 0;
   bottom: 1.8rem;
   width: 0.75rem;
-  z-index: 4;
+  z-index: 1;
   background: transparent;
   border: none;
   padding: 0;
@@ -707,6 +709,79 @@ button {
 .empty-filter span {
   font-size: 0.8rem;
   color: var(--ink-faint);
+}
+
+.question-popover-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  max-width: min(28rem, 86vw);
+}
+
+.question-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.question-card:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.question-exam-tag {
+  align-self: flex-start;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  padding: 0.15rem 0.45rem;
+}
+
+.question-problem,
+.question-solution {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.86rem;
+  line-height: 1.45;
+  color: var(--ink-soft);
+}
+
+.question-problem strong,
+.question-solution strong {
+  color: var(--ink-bright);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+}
+
+.question-copy,
+.question-solution-text {
+  margin: 0;
+  color: var(--ink-bright);
+  overflow-x: auto;
+}
+
+.overview-empty {
+  grid-column: 1 / -1;
+  display: grid;
+  place-items: center;
+  gap: 0.75rem;
+  min-height: 12rem;
+  color: var(--ink-soft);
+  text-align: center;
+}
+
+.overview-empty p {
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--ink-bright);
+  font-weight: 600;
 }
 
 /* Shared hint buttons — fixed popover escapes overflow */
@@ -1153,6 +1228,8 @@ button {
   padding: 0.9rem 0;
   border-bottom: 1px solid var(--line);
   margin: 0.5rem 0 1rem;
+  overflow-x: auto;
+  max-width: 100%;
   color: var(--ink-bright);
 }
 
@@ -1321,11 +1398,6 @@ button {
   padding-right: 1.25rem;
 }
 
-.spread-stage.mode-tablet .edge-zone,
-.spread-stage.mode-mobile .edge-zone {
-  width: 1.25rem;
-}
-
 .spread-stage.mode-tablet .formula-latex,
 .spread-stage.mode-mobile .formula-latex {
   font-size: clamp(0.95rem, 3.4vw, 1.15rem);
@@ -1351,7 +1423,7 @@ button {
 
 .spread-stage.mode-tablet .edge-zone,
 .spread-stage.mode-mobile .edge-zone {
-  width: min(2.4rem, 12vw);
+  width: 1.1rem;
   bottom: 2rem;
 }
 
@@ -1364,7 +1436,9 @@ button {
   }
 
   .top-bar-count {
-    display: none;
+    display: block;
+    justify-self: end;
+    font-size: 0.72rem;
   }
 
   .top-bar-tags {

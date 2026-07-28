@@ -15,8 +15,8 @@ export function SampleBookPage() {
   const [params, setParams] = useSearchParams()
   const activeTag = (params.get('tag') as TagId | null) ?? null
   const chapterId = params.get('chapter') || defaultChapterId
-  const initialView = (params.get('view') as 'home' | 'book') || 'home'
-  const [viewMode, setViewMode] = useState<'home' | 'book'>(initialView)
+  const viewMode: 'home' | 'book' =
+    params.get('view') === 'book' ? 'book' : 'home'
   const [query, setQuery] = useState('')
 
   const all = formulasForChapter(chapterId)
@@ -29,7 +29,6 @@ export function SampleBookPage() {
     next.set('chapter', id)
     next.set('view', 'book')
     setParams(next, { replace: true })
-    setViewMode('book')
   }
 
   const setTag = (tag: TagId | null) => {
@@ -39,14 +38,12 @@ export function SampleBookPage() {
     if (!next.get('chapter')) next.set('chapter', chapterId)
     next.set('view', 'book')
     setParams(next, { replace: true })
-    setViewMode('book')
   }
 
   const handleGoHome = () => {
     const next = new URLSearchParams(params)
     next.set('view', 'home')
     setParams(next, { replace: true })
-    setViewMode('home')
   }
 
   return (

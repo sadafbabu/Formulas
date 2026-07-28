@@ -42,12 +42,12 @@
     }
   ],
   "derivation": {
-    "lead": "বায়োট-সাভার্ট সূত্রে সীমা $\\phi_1$ থেকে $\\phi_2$ বসিয়ে সমাকলন:",
+    "lead": "বায়োট-সাভার্ট সূত্রে সীমা \\phi_1 থেকে \\phi_2 বসিয়ে সমাকলন:",
     "steps": [
       {
         "title": "সীমা সমাকলন",
         "latex": "B = \\frac{\\mu_0 I}{4\\pi r} \\int_{-\\phi_1}^{\\phi_2} \\cos \\phi d\\phi = \\frac{\\mu_0 I}{4\\pi r} (\\sin \\phi_1 + \\sin \\phi_2)",
-        "note": "অসীম তারের ক্ষেত্রে $\\phi_1 = \\phi_2 = 90^\\circ$ বসালে $B = \\frac{\\mu_0 I}{2\\pi r}$ হয়।"
+        "note": "অসীম তারের ক্ষেত্রে \\phi_1 = \\phi_2 = 90^\\circ বসালে B = \\frac{\\mu_0 I}{2\\pi r} হয়।"
       }
     ],
     "assumptions": [

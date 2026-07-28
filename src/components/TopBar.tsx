@@ -29,6 +29,8 @@ export function TopBar({
           className={`home-nav-btn${viewMode === 'home' ? ' is-active' : ''}`}
           onClick={onGoHome}
           title="সকল বিষয় ও অধ্যায়ের ওভারভিউ ড্যাশবোর্ড"
+          aria-label="ওভারভিউতে ফিরে যান"
+          aria-current={viewMode === 'home' ? 'page' : undefined}
         >
           <svg
             className="home-icon"
@@ -55,6 +57,7 @@ export function TopBar({
             type="button"
             className={`top-tag${!activeTag ? ' is-active' : ''}`}
             onClick={() => onTagChange(null)}
+            aria-pressed={!activeTag}
           >
             All
           </button>
@@ -65,6 +68,7 @@ export function TopBar({
               className={`top-tag${activeTag === tag.id ? ' is-active' : ''}`}
               onClick={() => onTagChange(tag.id)}
               title={tag.labelBn}
+              aria-pressed={activeTag === tag.id}
             >
               {tag.label}
             </button>

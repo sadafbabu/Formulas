@@ -104,6 +104,14 @@ export function SpreadViewer({
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement | null
+      if (
+        target?.closest(
+          'input, textarea, select, [contenteditable="true"], [role="dialog"]',
+        )
+      ) {
+        return
+      }
       if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
         e.preventDefault()
         goPrev()
@@ -124,11 +132,23 @@ export function SpreadViewer({
   const atEnd = isSpread ? safeSpread >= maxSpread : safePage >= maxPage
 
   if (emptyFilter) {
+    const hasQuery = query.trim().length > 0
+    const hasTag = Boolean(activeTag)
+    const emptyTitle = hasQuery
+      ? 'খোঁজে কোনো সূত্র মিলেনি'
+      : hasTag
+        ? 'এই tag-এ কোনো সূত্র নেই'
+        : 'এই অধ্যায়ে সূত্র নেই'
+    const emptyHint = hasQuery
+      ? 'অন্য কীওয়ার্ড দিয়ে খুঁজুন বা সার্চ খালি করুন'
+      : hasTag
+        ? 'উপর থেকে All বা অন্য tag বেছে নিন'
+        : 'মেনু থেকে অন্য অধ্যায় খুলুন'
     return (
       <div className={`spread-stage mode-${mode}`}>
         <div className="empty-filter">
-          <p>এই tag-এ কোনো সূত্র নেই</p>
-          <span>উপর থেকে All বা অন্য tag বেছে নাও</span>
+          <p>{emptyTitle}</p>
+          <span>{emptyHint}</span>
         </div>
       </div>
     )

@@ -48,7 +48,7 @@
       {
         "title": "ট্যানজেন্ট সমতা",
         "latex": "B = B_H \\tan \\theta \\implies \\frac{\\mu_0 N I}{2r} = B_H \\tan \\theta \\implies I = \\left(\\frac{2 r B_H}{\\mu_0 N}\\right) \\tan \\theta",
-        "note": "বিক্ষেপ $\\theta = 45^\\circ$ হলে পরিমাপের নির্ভুলতা সর্বোচ্চ হয়।"
+        "note": "বিক্ষেপ \\theta = 45^\\circ হলে পরিমাপের নির্ভুলতা সর্বোচ্চ হয়।"
       }
     ],
     "assumptions": [
