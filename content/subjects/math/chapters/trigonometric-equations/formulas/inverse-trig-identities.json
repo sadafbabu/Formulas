@@ -31,5 +31,13 @@
   },
   "id": "inverse-trig-identities",
   "chapter": "trigonometric-equations",
-  "questions": []
+  "questions": [],
+  "memorize": {
+    "trick": "সহ-অনুপাতের যোগফল সর্বদা π/2: sin⁻¹x + cos⁻¹x = π/2 এবং tan⁻¹x + cot⁻¹x = π/2। 'সহ (co) মানে পরিপূরক' — নামেই সূত্র।",
+    "steps": [
+      "sin⁻¹x + cos⁻¹x = π/2 (−1 ≤ x ≤ 1)।",
+      "tan⁻¹x + cot⁻¹x = π/2 (সব বাস্তব x)।",
+      "sin⁻¹(−x) = −sin⁻¹x (অযুগ্ম), কিন্তু cos⁻¹(−x) = π − cos⁻¹x — এই পার্থক্যটি মনে রাখুন।"
+    ]
+  }
 }

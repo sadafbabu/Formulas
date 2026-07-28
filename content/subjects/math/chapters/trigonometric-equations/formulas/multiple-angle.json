@@ -32,5 +32,13 @@
   },
   "id": "multiple-angle",
   "chapter": "trigonometric-equations",
-  "questions": []
+  "questions": [],
+  "memorize": {
+    "trick": "sin2A = 2sinAcosA ('দুই সাইন কস'), cos2A-এর তিন রূপ: 1 − 2sin²A, 2cos²A − 1, cos²A − sin²A — যেটা দরকার সেটা বাছুন। আর tan2A = 2tanA/(1 − tan²A)।",
+    "steps": [
+      "cos2A-এর রূপ বাছাই: sin চাইলে 1 − 2sin²A, cos চাইলে 2cos²A − 1।",
+      "অর্ধকোণ: sin(A/2) = ±√[(1 − cosA)/2], cos(A/2) = ±√[(1 + cosA)/2] — 'sin এ বিয়োগ, cos এ যোগ'।",
+      "sin3A = 3sinA − 4sin³A, cos3A = 4cos³A − 3cosA — '৩-৪ আর ৪-৩' ক্রমে মনে রাখুন।"
+    ]
+  }
 }
