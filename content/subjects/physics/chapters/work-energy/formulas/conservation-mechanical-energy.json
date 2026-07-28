@@ -1,0 +1,82 @@
+{
+  "id": "conservation-mechanical-energy",
+  "chapter": "work-energy",
+  "title": "Conservation of Mechanical Energy",
+  "titleBn": "যান্ত্রিক শক্তির নিত্যতা",
+  "summary": "কেবল সংরক্ষী বল কাজ করলে গতিশক্তি ও বিভবশক্তির যোগফল ধ্রুব থাকে।",
+  "latex": "\\tfrac{1}{2}mv_1^2 + mgh_1 = \\tfrac{1}{2}mv_2^2 + mgh_2, \\quad KE + PE = \\text{ধ্রুব}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "kinetic-energy",
+    "potential-energy-spring",
+    "work-theorem"
+  ],
+  "symbols": [
+    {
+      "symbol": "m",
+      "meaning": "বস্তুর ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "v",
+      "meaning": "বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "h",
+      "meaning": "উচ্চতা",
+      "unit": "m"
+    },
+    {
+      "symbol": "g",
+      "meaning": "অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²",
+      "value": "9.8"
+    }
+  ],
+  "derivation": {
+    "lead": "সংরক্ষী বলের কাজ = বিভবশক্তির হ্রাস, আর কাজ-শক্তি উপপাদ্য অনুসারে কাজ = গতিশক্তির বৃদ্ধি।",
+    "steps": [
+      {
+        "title": "দুই সম্পর্ক মেলানো",
+        "latex": "W = -\\Delta PE, \\quad W = \\Delta KE \\Rightarrow \\Delta KE + \\Delta PE = 0",
+        "note": "তাই KE + PE = ধ্রুব।"
+      },
+      {
+        "title": "মুক্তভাবে পড়া বস্তু",
+        "latex": "v = \\sqrt{2gh}",
+        "note": "h উচ্চতা থেকে পড়লে সব PE গতিশক্তিতে রূপ নেয় — ভর লাগে না।"
+      }
+    ],
+    "assumptions": [
+      "ঘর্ষণ ও বায়ুর বাধা উপেক্ষণীয়।",
+      "কেবল সংরক্ষী বল ক্রিয়াশীল।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "২০ m উঁচু থেকে একটি বস্তু মুক্তভাবে পড়লে ভূমি স্পর্শ করার মুহূর্তে বেগ কত? (g = 9.8)",
+      "answer": "v = \\sqrt{2gh} = \\sqrt{2 \\times 9.8 \\times 20} = \\sqrt{392} \\approx 19.8\\ \\text{m/s}"
+    }
+  ],
+  "memorize": {
+    "trick": "\"উপরে PE, নিচে KE — যোগফল একই\"। মুক্তভাবে পড়া বস্তুতে v = √(2gh) — ভর নেই, তাই ভারী-হালকা একসাথে পড়ে (বায়ুর বাধা বাদ দিলে)।",
+    "steps": [
+      "সর্বোচ্চ বিন্দুতে KE = 0, সব PE; ভূমিতে PE = 0, সব KE।",
+      "মাঝপথে অর্ধেক উচ্চতায় KE = PE।",
+      "ঘর্ষণ থাকলে নিত্যতা খাটে না — তখন হারানো শক্তি = ঘর্ষণের কাজ।"
+    ]
+  }
+}

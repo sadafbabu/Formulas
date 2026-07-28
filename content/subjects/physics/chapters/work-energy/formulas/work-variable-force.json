@@ -1,0 +1,82 @@
+{
+  "id": "work-variable-force",
+  "chapter": "work-energy",
+  "title": "Work Done by a Variable Force",
+  "titleBn": "পরিবর্তনশীল বলের কাজ ও শক্তির লেখচিত্র",
+  "summary": "বল ধ্রুব না হলে কাজ যোগজীকরণ করে বের করতে হয় — F–x লেখচিত্রের নিচের ক্ষেত্রফলই কাজ।",
+  "latex": "W = \\int_{x_1}^{x_2} F\\,dx = \\int \\vec{F}\\cdot d\\vec{r}, \\quad F = -\\frac{dU}{dx}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "work-theorem",
+    "potential-energy-spring"
+  ],
+  "symbols": [
+    {
+      "symbol": "W",
+      "meaning": "কৃতকাজ",
+      "unit": "J"
+    },
+    {
+      "symbol": "F",
+      "meaning": "প্রযুক্ত বল",
+      "unit": "N"
+    },
+    {
+      "symbol": "x",
+      "meaning": "সরণ",
+      "unit": "m"
+    },
+    {
+      "symbol": "U",
+      "meaning": "বিভব শক্তি",
+      "unit": "J"
+    }
+  ],
+  "derivation": {
+    "lead": "ক্ষুদ্র সরণে বল প্রায় ধ্রুব ধরে dW = F dx লিখে যোগজীকরণ করা হয়।",
+    "steps": [
+      {
+        "title": "যোগজ রূপ",
+        "latex": "W = \\int_{x_1}^{x_2} F\\,dx",
+        "note": "F–x লেখচিত্রের নিচের ক্ষেত্রফল = কাজ।"
+      },
+      {
+        "title": "স্প্রিং-এ প্রয়োগ",
+        "latex": "W = \\int_0^x kx\\,dx = \\tfrac{1}{2}kx^2",
+        "note": "হুকের সূত্রে বল সরণের সমানুপাতী, তাই ত্রিভুজের ক্ষেত্রফল।"
+      },
+      {
+        "title": "বল ও বিভবের সম্পর্ক",
+        "latex": "F = -\\frac{dU}{dx}",
+        "note": "বিভব শক্তির লেখচিত্রের ঢালের ঋণাত্মক মানই বল — U সর্বনিম্ন হলে F = 0 (সাম্যাবস্থা)।"
+      }
+    ],
+    "assumptions": [
+      "বল কেবল অবস্থানের ফাংশন।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission",
+      "question": "F = (3x² + 2x) N বল একটি বস্তুকে x = 0 থেকে x = 2 m পর্যন্ত সরাল। কৃতকাজ কত?",
+      "answer": "W = \\int_0^2 (3x^2 + 2x)dx = [x^3 + x^2]_0^2 = 8 + 4 = 12\\ \\text{J}"
+    }
+  ],
+  "memorize": {
+    "trick": "বল ধ্রুব হলে W = Fs, পরিবর্তনশীল হলে W = ∫F dx — অর্থাৎ লেখচিত্রের নিচের ক্ষেত্রফল। আর উল্টোভাবে F = −dU/dx: বিভব লেখের ঢালই বল।",
+    "steps": [
+      "সরলরৈখিক F–x লেখে ক্ষেত্রফল = ত্রিভুজ/ট্রাপিজিয়াম দিয়েই বের করা যায়।",
+      "U সর্বনিম্ন → স্থিতিশীল সাম্য; U সর্বোচ্চ → অস্থিতিশীল সাম্য।"
+    ]
+  }
+}

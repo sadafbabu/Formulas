@@ -1,0 +1,81 @@
+{
+  "id": "angular-momentum",
+  "chapter": "dynamics",
+  "title": "Angular Momentum & Its Conservation",
+  "titleBn": "কৌণিক ভরবেগ ও এর সংরক্ষণ",
+  "summary": "ঘূর্ণনের ভরবেগ L = Iω; বাহ্যিক টর্ক শূন্য হলে L ধ্রুব থাকে।",
+  "latex": "\\vec{L} = \\vec{r} \\times \\vec{p} = I\\vec{\\omega}, \\quad \\tau = \\frac{dL}{dt}, \\quad \\tau_{ext} = 0 \\Rightarrow I_1\\omega_1 = I_2\\omega_2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 100,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "moment-of-inertia",
+    "torque-angular-acc",
+    "momentum-impulse"
+  ],
+  "symbols": [
+    {
+      "symbol": "L",
+      "meaning": "কৌণিক ভরবেগ",
+      "unit": "kg·m²/s"
+    },
+    {
+      "symbol": "I",
+      "meaning": "জাড্য ভ্রামক",
+      "unit": "kg·m²"
+    },
+    {
+      "symbol": "\\omega",
+      "meaning": "কৌণিক বেগ",
+      "unit": "rad/s"
+    },
+    {
+      "symbol": "\\tau",
+      "meaning": "টর্ক",
+      "unit": "N·m"
+    }
+  ],
+  "derivation": {
+    "lead": "রৈখিক p = mv ↔ ঘূর্ণন L = Iω; আর F = dp/dt ↔ τ = dL/dt।",
+    "steps": [
+      {
+        "title": "সংজ্ঞা",
+        "latex": "\\vec{L} = \\vec{r} \\times \\vec{p}, \\quad |L| = rp\\sin\\theta",
+        "note": "বিন্দু কণার জন্য; দৃঢ় বস্তুতে L = Iω।"
+      },
+      {
+        "title": "সংরক্ষণ",
+        "latex": "\\tau_{ext} = 0 \\Rightarrow L = \\text{ধ্রুব} \\Rightarrow I_1\\omega_1 = I_2\\omega_2",
+        "note": "I কমলে ω বাড়ে — এটাই স্কেটারের ঘোরার রহস্য।"
+      }
+    ],
+    "assumptions": [
+      "বাহ্যিক টর্ক শূন্য।",
+      "বস্তু দৃঢ়।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Varsity Admission",
+      "question": "একজন স্কেটার হাত ছড়িয়ে ২ rad/s বেগে ঘুরছেন (I = 4 kg·m²)। হাত গুটিয়ে I = 1.6 kg·m² করলে কৌণিক বেগ কত হবে?",
+      "answer": "I_1\\omega_1 = I_2\\omega_2 \\Rightarrow \\omega_2 = \\frac{4 \\times 2}{1.6} = 5\\ \\text{rad/s}"
+    }
+  ],
+  "memorize": {
+    "trick": "L = Iω সংরক্ষিত — তাই I কমালে ω বাড়ে। স্কেটার হাত গুটিয়ে দ্রুত ঘোরেন, আর সংকুচিত হতে থাকা নক্ষত্র (নিউট্রন তারা) প্রচণ্ড দ্রুত ঘোরে — একই কারণ।",
+    "steps": [
+      "রৈখিকের সাথে মিল: p = mv ↔ L = Iω; F = dp/dt ↔ τ = dL/dt।",
+      "I₁ω₁ = I₂ω₂ — গুণফল ধ্রুব।",
+      "গতিশক্তি ধ্রুব নয়! ½Iω² = L²/(2I), তাই I কমলে KE বাড়ে (পেশির কাজ থেকে)।"
+    ]
+  }
+}

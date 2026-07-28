@@ -1,0 +1,78 @@
+{
+  "id": "vector-addition-laws",
+  "chapter": "vector",
+  "title": "Triangle & Parallelogram Law",
+  "titleBn": "ভেক্টর যোগের ত্রিভুজ ও সামান্তরিক সূত্র",
+  "summary": "ভেক্টর যোগের জ্যামিতিক নিয়ম এবং লব্ধির উপাংশ পদ্ধতি।",
+  "latex": "\\vec{R} = \\vec{P} + \\vec{Q}, \\quad R_x = \\sum P_{ix}, \\quad R_y = \\sum P_{iy}, \\quad R = \\sqrt{R_x^2 + R_y^2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "vector-resultant",
+    "unit-vector"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\vec{R}",
+      "meaning": "লব্ধি ভেক্টর",
+      "unit": "ভেক্টরের একক"
+    },
+    {
+      "symbol": "R_x, R_y",
+      "meaning": "লব্ধির উপাংশ",
+      "unit": "ভেক্টরের একক"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "লব্ধির দিক",
+      "unit": "°"
+    }
+  ],
+  "derivation": {
+    "lead": "ত্রিভুজ সূত্র: প্রথম ভেক্টরের শেষ প্রান্তে দ্বিতীয়টির শুরু বসালে তৃতীয় বাহুই লব্ধি।",
+    "steps": [
+      {
+        "title": "উপাংশ পদ্ধতি",
+        "latex": "R_x = \\sum P_i\\cos\\theta_i, \\quad R_y = \\sum P_i\\sin\\theta_i",
+        "note": "একাধিক ভেক্টর যোগে এটিই সবচেয়ে নিরাপদ পদ্ধতি।"
+      },
+      {
+        "title": "লব্ধি ও দিক",
+        "latex": "R = \\sqrt{R_x^2 + R_y^2}, \\quad \\tan\\theta = \\frac{R_y}{R_x}",
+        "note": "চতুর্ভাগ দেখে θ ঠিক করুন।"
+      },
+      {
+        "title": "বহুভুজ সূত্র",
+        "latex": "\\vec{P}_1 + \\vec{P}_2 + \\cdots + \\vec{P}_n = 0 \\Rightarrow \\text{বদ্ধ বহুভুজ}",
+        "note": "ভেক্টরগুলো বদ্ধ বহুভুজ গঠন করলে লব্ধি শূন্য — সাম্যাবস্থার শর্ত।"
+      }
+    ],
+    "assumptions": [
+      "সব ভেক্টর একই জাতীয় রাশি (একক একই)।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "পরস্পর লম্ব ৩ N ও ৪ N দুটি বলের লব্ধি কত এবং ৩ N বলের সাথে কত কোণ করে?",
+      "answer": "R = \\sqrt{9+16} = 5\\ \\text{N}, \\quad \\tan\\theta = 4/3 \\Rightarrow \\theta = 53.13^\\circ"
+    }
+  ],
+  "memorize": {
+    "trick": "একই জাতীয় রাশি ছাড়া ভেক্টর যোগ হয় না। দুয়ের বেশি ভেক্টর থাকলে সূত্র নয় — উপাংশে ভেঙে x ও y আলাদা যোগ করুন, তারপর √(Rx² + Ry²)। এটিই সবচেয়ে নির্ভুল।",
+    "steps": [
+      "ত্রিভুজ সূত্র: মাথায়-লেজে জুড়ুন, তৃতীয় বাহু লব্ধি।",
+      "সামান্তরিক সূত্র: একই বিন্দু থেকে আঁকুন, কর্ণই লব্ধি।",
+      "লব্ধি শূন্য মানে ভেক্টরগুলো বদ্ধ বহুভুজ গঠন করে — সাম্যাবস্থা।"
+    ]
+  }
+}
