@@ -25,7 +25,9 @@ export function SpreadViewer({
   const isSpread = mode === 'desktop'
   const chapter = getChapter(chapterId) ?? getChapter(defaultChapterId)!
 
-  const perPage = mode === 'desktop' ? 7 : mode === 'tablet' ? 6 : 5
+  // Keep enough vertical room for long Bengali titles, four hint controls,
+  // and multi-line scientific notation at every breakpoint.
+  const perPage = mode === 'desktop' ? 5 : mode === 'tablet' ? 4 : 3
 
   const { pages, emptyFilter } = useMemo(() => {
     const source = formulasForChapter(chapterId)

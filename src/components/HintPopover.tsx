@@ -1,4 +1,5 @@
 import {
+  useCallback,
   useEffect,
   useId,
   useLayoutEffect,
@@ -29,7 +30,7 @@ export function HintPopover({
   const panelRef = useRef<HTMLDivElement>(null)
   const [pos, setPos] = useState({ top: 0, left: 0 })
 
-  const place = () => {
+  const place = useCallback(() => {
     const btn = rootRef.current
     const panel = panelRef.current
     if (!btn) return
@@ -45,11 +46,11 @@ export function HintPopover({
       top = Math.max(8, r.top - height - 8)
     }
     setPos({ top, left })
-  }
+  }, [wide])
 
   useLayoutEffect(() => {
     if (open) place()
-  }, [open, wide, children])
+  }, [open, children, place])
 
   useEffect(() => {
     if (!open) return
@@ -75,7 +76,7 @@ export function HintPopover({
       window.removeEventListener('resize', onScroll)
       window.removeEventListener('scroll', onScroll, true)
     }
-  }, [open, wide])
+  }, [open, place])
 
   return (
     <div className="hint-wrap" ref={rootRef}>

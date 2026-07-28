@@ -74,7 +74,7 @@ export function TopBar({
 
       {viewMode === 'book' && (
         <div className="top-bar-count" aria-live="polite">
-          {activeTag ? `${matchCount}/${totalCount}` : `${totalCount}`}
+          {matchCount === totalCount ? `${totalCount}` : `${matchCount}/${totalCount}`}
         </div>
       )}
     </header>
