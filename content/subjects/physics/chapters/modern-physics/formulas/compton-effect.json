@@ -1,0 +1,45 @@
+{
+  "title": "Compton Scattering",
+  "titleBn": "কম্পটন বিক্ষেপ",
+  "summary": "ফোটন ও ইলেকট্রন সংঘর্ষে তরঙ্গদৈর্ঘ্য পরিবর্তন",
+  "latex": "\\Delta\\lambda = \\frac{h}{m_e c}(1 - \\cos\\theta), \\quad \\lambda_C = 2.43\\times 10^{-12}\\ \\text{m}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "\\Delta\\lambda",
+      "meaning": "তরঙ্গদৈর্ঘ্য পরিবর্তন",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "বিক্ষেপ কোণ",
+      "unit": "°"
+    },
+    {
+      "symbol": "\\lambda_C",
+      "meaning": "কম্পটন তরঙ্গদৈর্ঘ্য",
+      "unit": "m",
+      "value": "2.43×10⁻¹²"
+    }
+  ],
+  "derivation": {
+    "lead": "ফোটন-ইলেকট্রন সংঘর্ষে ভরবেগ ও শক্তি সংরক্ষণ।",
+    "steps": [
+      {
+        "title": "কম্পটন সূত্র",
+        "latex": "\\Delta\\lambda = \\lambda_C(1-\\cos\\theta)",
+        "note": "ফোটনের কণা প্রকৃতির প্রমাণ"
+      }
+    ],
+    "assumptions": "মুক্ত ইলেকট্রন"
+  },
+  "id": "compton-effect",
+  "chapter": "modern-physics",
+  "questions": []
+}

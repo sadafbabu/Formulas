@@ -1,0 +1,35 @@
+{
+  "title": "Alcohol Oxidation Levels",
+  "titleBn": "অ্যালকোহল জারণ স্তর",
+  "summary": "প্রাথমিক/দ্বিতীয়/তৃতীয় অ্যালকোহল জারণ পণ্য",
+  "latex": "1° \\xrightarrow{[O]} \\text{aldehyde} \\xrightarrow{[O]} \\text{acid}, \\quad 2° \\xrightarrow{[O]} \\text{ketone}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "[O]",
+      "meaning": "জারক (oxidant)",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "অ্যালকোহলের স্তর অনুযায়ী জারণ পণ্য ভিন্ন।",
+    "steps": [
+      {
+        "title": "জারণ স্তর",
+        "latex": "1° \\to \\text{RCHO} \\to \\text{RCOOH}, \\quad 2° \\to \\text{RCOR'}",
+        "note": "3° অ্যালকোহল সাধারণ অবস্থায় জারিত হয় না"
+      }
+    ],
+    "assumptions": "মৃদু জারক"
+  },
+  "id": "alcohol-oxidation",
+  "chapter": "organic-chem",
+  "questions": []
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Sum of Binomial Coefficients",
+  "titleBn": "দ্বিপদী সহগের সমষ্টি",
+  "summary": "দ্বিপদী সহগের যোগফল ও পর্যায়ভুক্ত যোগফল",
+  "latex": "\\sum_{r=0}^{n} \\binom{n}{r} = 2^n, \\quad \\sum_{r=0}^{n} (-1)^r \\binom{n}{r} = 0, \\quad \\binom{n}{r} = \\binom{n}{n-r}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "\\binom{n}{r}",
+      "meaning": "দ্বিপদী সহগ",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "(1+1)^n ও (1-1)^n এ বিশেষ মান বসালে সহগের যোগফল।",
+    "steps": [
+      {
+        "title": "সহগের সমষ্টি",
+        "latex": "\\sum \\binom{n}{r} = 2^n",
+        "note": "জোড় ও বিজোড় স্থানের সহগের যোগফল প্রত্যেকে 2^(n-1)"
+      }
+    ],
+    "assumptions": "n ধনাত্মক পূর্ণসংখ্যা"
+  },
+  "id": "sum-binomial-coeff",
+  "chapter": "binomial-theorem",
+  "questions": []
+}

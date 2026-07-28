@@ -1,0 +1,49 @@
+{
+  "title": "Optical Path & Phase Difference",
+  "titleBn": "আলোকীয় পথ ও দশা পার্থক্য",
+  "summary": "আলোকীয় পথ দৈর্ঘ্য ও দশা পার্থক্য সম্পর্ক",
+  "latex": "\\Delta = \\mu x, \\quad \\Delta\\phi = \\frac{2\\pi}{\\lambda}\\mu x",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "\\Delta",
+      "meaning": "আলোকীয় পথ",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\mu",
+      "meaning": "মাধ্যমের প্রতিসরাঙ্ক",
+      "unit": "এককহীন"
+    },
+    {
+      "symbol": "x",
+      "meaning": "জ্যামিতিক পথ",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\Delta\\phi",
+      "meaning": "দশা পার্থক্য",
+      "unit": "rad"
+    }
+  ],
+  "derivation": {
+    "lead": "আলোকীয় পথ = প্রতিসরাঙ্ক × জ্যামিতিক পথ।",
+    "steps": [
+      {
+        "title": "দশা পার্থক্য",
+        "latex": "\\Delta\\phi = \\frac{2\\pi}{\\lambda}\\mu x",
+        "note": "ব্যাতিচারে দশা পার্থক্য থেকে ডোরা তৈরি"
+      }
+    ],
+    "assumptions": "একই তরঙ্গদৈর্ঘ্য"
+  },
+  "id": "optical-path-phase",
+  "chapter": "wave-optics",
+  "questions": []
+}

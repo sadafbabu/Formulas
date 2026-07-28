@@ -1,0 +1,45 @@
+{
+  "title": "VSEPR Geometry & Lone Pairs",
+  "titleBn": "VSEPR জ্যামিতি ও একাকী জোড়",
+  "summary": "অণুর জ্যামিতিক কাঠামো ও বন্ধন জোড়/একাকী জোড়",
+  "latex": "S = N + L, \\quad \\text{hybrid} = \\frac{V + M - C + A}{2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "S",
+      "meaning": "স্টেরিক সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "N",
+      "meaning": "বন্ধন জোড় সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "L",
+      "meaning": "একাকী জোড় সংখ্যা",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "ইলেকট্রন জোড় পরস্পরকে বিকর্ষণ করে, সর্বনিম্ন বিকর্ষণ কোণ নির্ধারণ জ্যামিতি।",
+    "steps": [
+      {
+        "title": "স্টেরিক সংখ্যা",
+        "latex": "S = N + L",
+        "note": "S=2 রৈখিক, 3 ত্রিভুজাকার, 4 চতুষ্ত্রিকোণী"
+      }
+    ],
+    "assumptions": "কেন্দ্রীয় পরমাণু"
+  },
+  "id": "vsepr-theory",
+  "chapter": "chemical-bonding",
+  "questions": []
+}

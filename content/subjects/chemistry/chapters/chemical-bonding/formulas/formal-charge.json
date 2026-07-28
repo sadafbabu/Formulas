@@ -1,0 +1,50 @@
+{
+  "title": "Formal Charge Calculation",
+  "titleBn": "আনুষ্ঠানিক আধান নির্ণয়",
+  "summary": "Lewis কাঠামোতে পরমাণুর আনুষ্ঠানিক আধান",
+  "latex": "FC = V - (L + \\tfrac{S}{2}), \\quad \\sum FC = Q_{total}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "FC",
+      "meaning": "আনুষ্ঠানিক আধান",
+      "unit": "—"
+    },
+    {
+      "symbol": "V",
+      "meaning": "মুক্ত ইলেকট্রন সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "L",
+      "meaning": "অবিযুক্ত ইলেকট্রন",
+      "unit": "—"
+    },
+    {
+      "symbol": "S",
+      "meaning": "বন্ধন ইলেকট্রন",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "পরমাণুর মুক্ত ইলেকট্রন ও বন্ধন ইলেকট্রন থেকে আনুষ্ঠানিক আধান।",
+    "steps": [
+      {
+        "title": "আনুষ্ঠানিক আধান",
+        "latex": "FC = V - (L + S/2)",
+        "note": "সব পরমাণুর FC যোগফল অণুর মোট আধান"
+      }
+    ],
+    "assumptions": "Lewis কাঠামো"
+  },
+  "id": "formal-charge",
+  "chapter": "chemical-bonding",
+  "questions": []
+}

@@ -207,6 +207,63 @@ import greatestTerm from '../../content/subjects/math/chapters/binomial-theorem/
 import compoundAngle from '../../content/subjects/math/chapters/trigonometric-equations/formulas/compound-angle.json'
 import multipleAngle from '../../content/subjects/math/chapters/trigonometric-equations/formulas/multiple-angle.json'
 
+import halfWaveRectifier from '../../content/subjects/physics/chapters/semiconductor/formulas/half-wave-rectifier.json'
+import zenerDiode from '../../content/subjects/physics/chapters/semiconductor/formulas/zener-diode.json'
+
+import opticalPathPhase from '../../content/subjects/physics/chapters/wave-optics/formulas/optical-path-phase.json'
+import polarizationMalus from '../../content/subjects/physics/chapters/wave-optics/formulas/polarization-malus.json'
+
+import powerEfficiency from '../../content/subjects/physics/chapters/work-energy/formulas/power-efficiency.json'
+import elasticCollision from '../../content/subjects/physics/chapters/work-energy/formulas/elastic-collision.json'
+
+import gravitationalPotential from '../../content/subjects/physics/chapters/gravitation/formulas/gravitational-potential.json'
+import satelliteEnergy from '../../content/subjects/physics/chapters/gravitation/formulas/satellite-energy.json'
+
+import maxwellDistribution from '../../content/subjects/physics/chapters/ideal-gas/formulas/maxwell-distribution.json'
+import meanFreePath from '../../content/subjects/physics/chapters/ideal-gas/formulas/mean-free-path.json'
+
+import comptonEffect from '../../content/subjects/physics/chapters/modern-physics/formulas/compton-effect.json'
+import xRayCharacteristic from '../../content/subjects/physics/chapters/modern-physics/formulas/x-ray-characteristic.json'
+
+import vectorTripleProduct from '../../content/subjects/physics/chapters/vector/formulas/vector-triple-product.json'
+import directionCosines from '../../content/subjects/physics/chapters/vector/formulas/direction-cosines.json'
+
+import formalCharge from '../../content/subjects/chemistry/chapters/chemical-bonding/formulas/formal-charge.json'
+import vseprTheory from '../../content/subjects/chemistry/chapters/chemical-bonding/formulas/vsepr-theory.json'
+
+import degreeDissociation from '../../content/subjects/chemistry/chapters/chemical-equilibrium/formulas/degree-dissociation.json'
+import leChatelierQuantitative from '../../content/subjects/chemistry/chapters/chemical-equilibrium/formulas/le-chatelier-quantitative.json'
+
+import eliminationE2 from '../../content/subjects/chemistry/chapters/organic-chem/formulas/elimination-e2.json'
+import alcoholOxidation from '../../content/subjects/chemistry/chapters/organic-chem/formulas/alcohol-oxidation.json'
+
+import sumBinomialCoeff from '../../content/subjects/math/chapters/binomial-theorem/formulas/sum-binomial-coeff.json'
+import pascalIdentity from '../../content/subjects/math/chapters/binomial-theorem/formulas/pascal-identity.json'
+
+import conjugateProperties from '../../content/subjects/math/chapters/complex-numbers/formulas/conjugate-properties.json'
+import polarMultiplication from '../../content/subjects/math/chapters/complex-numbers/formulas/polar-multiplication.json'
+
+import productSumIdentities from '../../content/subjects/math/chapters/trigonometric-equations/formulas/product-sum-identities.json'
+import inverseTrigIdentities from '../../content/subjects/math/chapters/trigonometric-equations/formulas/inverse-trig-identities.json'
+
+import syntheticDivision from '../../content/subjects/math/chapters/polynomials/formulas/synthetic-division.json'
+import rootCoefficientRelation from '../../content/subjects/math/chapters/polynomials/formulas/root-coefficient-relation.json'
+import polynomialRemainder from '../../content/subjects/math/chapters/polynomials/formulas/polynomial-remainder.json'
+
+import equationForms from '../../content/subjects/math/chapters/straight-lines/formulas/equation-forms.json'
+
+import deMoivre from '../../content/subjects/math/chapters/complex-numbers/formulas/de-moivre.json'
+
+import binomialMiddleTerm from '../../content/subjects/math/chapters/binomial-theorem/formulas/binomial-middle-term.json'
+
+import inverseTrig from '../../content/subjects/math/chapters/trigonometric-equations/formulas/inverse-trig.json'
+
+import bufferSolution from '../../content/subjects/chemistry/chapters/qualitative-chem/formulas/buffer-solution.json'
+
+import leChatelier from '../../content/subjects/chemistry/chapters/chemical-equilibrium/formulas/le-chatelier.json'
+
+import organicReactions from '../../content/subjects/chemistry/chapters/organic-chem/formulas/organic-reactions.json'
+
 import type {
   BookPage,
   ChapterMeta,
@@ -233,12 +290,12 @@ export const subjectsList: SubjectMeta[] = [
 
 export const allChapters: ChapterMeta[] = [
   // Physics 1st Paper
-  { id: 'vector', slug: 'vector', name: 'Vector', nameBn: 'ভেক্টর', subjectId: 'physics', paperId: '1st-paper', order: 2, formulaCount: 4, isReady: true },
+  { id: 'vector', slug: 'vector', name: 'Vector', nameBn: 'ভেক্টর', subjectId: 'physics', paperId: '1st-paper', order: 2, formulaCount: 6, isReady: true },
   { id: 'dynamics', slug: 'dynamics', name: 'Newtonian Mechanics', nameBn: 'নিউটনীয় বলবিদ্যা', subjectId: 'physics', paperId: '1st-paper', order: 4, formulaCount: 5, isReady: true },
-  { id: 'work-energy', slug: 'work-energy', name: 'Work, Energy & Power', nameBn: 'কাজ, ক্ষমতা ও শক্তি', subjectId: 'physics', paperId: '1st-paper', order: 5, formulaCount: 3, isReady: true },
-  { id: 'gravitation', slug: 'gravitation', name: 'Gravitation & Gravity', nameBn: 'মহাকর্ষ ও অভিকর্ষ', subjectId: 'physics', paperId: '1st-paper', order: 6, formulaCount: 4, isReady: true },
+  { id: 'work-energy', slug: 'work-energy', name: 'Work, Energy & Power', nameBn: 'কাজ, ক্ষমতা ও শক্তি', subjectId: 'physics', paperId: '1st-paper', order: 5, formulaCount: 5, isReady: true },
+  { id: 'gravitation', slug: 'gravitation', name: 'Gravitation & Gravity', nameBn: 'মহাকর্ষ ও অভিকর্ষ', subjectId: 'physics', paperId: '1st-paper', order: 6, formulaCount: 6, isReady: true },
   { id: 'periodic-motion', slug: 'periodic-motion', name: 'Periodic Motion & SHM', nameBn: 'পর্যায়বৃত্ত গতি', subjectId: 'physics', paperId: '1st-paper', order: 8, formulaCount: 5, isReady: true },
-  { id: 'ideal-gas', slug: 'ideal-gas', name: 'Ideal Gas & Kinetic Theory', nameBn: 'আদর্শ গ্যাস ও গতিতত্ত্ব', subjectId: 'physics', paperId: '1st-paper', order: 10, formulaCount: 4, isReady: true },
+  { id: 'ideal-gas', slug: 'ideal-gas', name: 'Ideal Gas & Kinetic Theory', nameBn: 'আদর্শ গ্যাস ও গতিতত্ত্ব', subjectId: 'physics', paperId: '1st-paper', order: 10, formulaCount: 6, isReady: true },
 
   // Physics 2nd Paper
   { id: 'thermodynamics', slug: 'thermodynamics', name: 'Thermodynamics', nameBn: 'তাপগতিবিদ্যা', subjectId: 'physics', paperId: '2nd-paper', order: 1, formulaCount: 5, isReady: true },
@@ -247,17 +304,17 @@ export const allChapters: ChapterMeta[] = [
   { id: 'magnetic-current', slug: 'magnetic-current', name: 'Magnetic Effects of Current & Magnetism', nameBn: 'তড়িৎ প্রবাহের চৌম্বক ক্রিয়া ও চুম্বকত্ব', subjectId: 'physics', paperId: '2nd-paper', order: 4, formulaCount: 35, isReady: true },
   { id: 'induction-ac', slug: 'induction-ac', name: 'Electromagnetic Induction & AC', nameBn: 'তড়িচ্চৌম্বক আবেশ ও পর্যায়বৃত্ত প্রবাহ', subjectId: 'physics', paperId: '2nd-paper', order: 5, formulaCount: 5, isReady: true },
   { id: 'geometric-optics', slug: 'geometric-optics', name: 'Geometric Optics', nameBn: 'জ্যামিতিক আলোকবিজ্ঞান', subjectId: 'physics', paperId: '2nd-paper', order: 6, formulaCount: 5, isReady: true },
-  { id: 'wave-optics', slug: 'wave-optics', name: 'Wave Optics', nameBn: 'ভৌত আলোকবিজ্ঞান', subjectId: 'physics', paperId: '2nd-paper', order: 7, formulaCount: 3, isReady: true },
-  { id: 'modern-physics', slug: 'modern-physics', name: 'Modern Physics', nameBn: 'আধুনিক পদার্থবিজ্ঞানের সূচনা', subjectId: 'physics', paperId: '2nd-paper', order: 8, formulaCount: 4, isReady: true },
-  { id: 'semiconductor', slug: 'semiconductor', name: 'Semiconductor & Electronics', nameBn: 'সেমিকন্ডাক্টর ও ইলেকট্রনিক্স', subjectId: 'physics', paperId: '2nd-paper', order: 10, formulaCount: 3, isReady: true },
+  { id: 'wave-optics', slug: 'wave-optics', name: 'Wave Optics', nameBn: 'ভৌত আলোকবিজ্ঞান', subjectId: 'physics', paperId: '2nd-paper', order: 7, formulaCount: 5, isReady: true },
+  { id: 'modern-physics', slug: 'modern-physics', name: 'Modern Physics', nameBn: 'আধুনিক পদার্থবিজ্ঞানের সূচনা', subjectId: 'physics', paperId: '2nd-paper', order: 8, formulaCount: 6, isReady: true },
+  { id: 'semiconductor', slug: 'semiconductor', name: 'Semiconductor & Electronics', nameBn: 'সেমিকন্ডাক্টর ও ইলেকট্রনিক্স', subjectId: 'physics', paperId: '2nd-paper', order: 10, formulaCount: 5, isReady: true },
   
   // Chemistry 1st Paper
   { id: 'qualitative-chem', slug: 'qualitative-chem', name: 'Qualitative Chemistry', nameBn: 'গুণগত রসায়ন', subjectId: 'chemistry', paperId: '1st-paper', order: 2, formulaCount: 5, isReady: true },
-  { id: 'chemical-bonding', slug: 'chemical-bonding', name: 'Chemical Bonding & Structure', nameBn: 'পর্যায়বৃত্ত ধর্ম ও রাসায়নিক বন্ধন', subjectId: 'chemistry', paperId: '1st-paper', order: 3, formulaCount: 3, isReady: true },
-  { id: 'chemical-equilibrium', slug: 'chemical-equilibrium', name: 'Chemical Equilibrium & Kinetics', nameBn: 'রাসায়নিক পরিবর্তন ও সাম্যাবস্থা', subjectId: 'chemistry', paperId: '1st-paper', order: 4, formulaCount: 4, isReady: true },
+  { id: 'chemical-bonding', slug: 'chemical-bonding', name: 'Chemical Bonding & Structure', nameBn: 'পর্যায়বৃত্ত ধর্ম ও রাসায়নিক বন্ধন', subjectId: 'chemistry', paperId: '1st-paper', order: 3, formulaCount: 5, isReady: true },
+  { id: 'chemical-equilibrium', slug: 'chemical-equilibrium', name: 'Chemical Equilibrium & Kinetics', nameBn: 'রাসায়নিক পরিবর্তন ও সাম্যাবস্থা', subjectId: 'chemistry', paperId: '1st-paper', order: 4, formulaCount: 6, isReady: true },
 
   // Chemistry 2nd Paper
-  { id: 'organic-chem', slug: 'organic-chem', name: 'Organic Chemistry', nameBn: 'জৈব রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 2, formulaCount: 4, isReady: true },
+  { id: 'organic-chem', slug: 'organic-chem', name: 'Organic Chemistry', nameBn: 'জৈব রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 2, formulaCount: 6, isReady: true },
   { id: 'electrochemistry', slug: 'electrochemistry', name: 'Electrochemistry', nameBn: 'তড়িৎ রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 4, formulaCount: 5, isReady: true },
 
   // Higher Math 1st Paper
@@ -265,10 +322,10 @@ export const allChapters: ChapterMeta[] = [
   { id: 'calculus', slug: 'calculus', name: 'Calculus & Integration', nameBn: 'ক্যালকুলাস ও যোগজীকরণ', subjectId: 'math', paperId: '1st-paper', order: 9, formulaCount: 5, isReady: true },
 
   // Higher Math 2nd Paper
-  { id: 'complex-numbers', slug: 'complex-numbers', name: 'Complex Numbers', nameBn: 'জটিল সংখ্যা', subjectId: 'math', paperId: '2nd-paper', order: 3, formulaCount: 4, isReady: true },
-  { id: 'polynomials', slug: 'polynomials', name: 'Polynomials & Equations', nameBn: 'বহুপদী ও বহুপদী সমীকরণ', subjectId: 'math', paperId: '2nd-paper', order: 4, formulaCount: 4, isReady: true },
-  { id: 'binomial-theorem', slug: 'binomial-theorem', name: 'Binomial Theorem', nameBn: 'দ্বিপদী উপপাদ্য', subjectId: 'math', paperId: '2nd-paper', order: 5, formulaCount: 4, isReady: true },
-  { id: 'trigonometric-equations', slug: 'trigonometric-equations', name: 'Trigonometric Equations', nameBn: 'ত্রিকোণমিতিক সমীকরণ', subjectId: 'math', paperId: '2nd-paper', order: 7, formulaCount: 4, isReady: true },
+  { id: 'complex-numbers', slug: 'complex-numbers', name: 'Complex Numbers', nameBn: 'জটিল সংখ্যা', subjectId: 'math', paperId: '2nd-paper', order: 3, formulaCount: 6, isReady: true },
+  { id: 'polynomials', slug: 'polynomials', name: 'Polynomials & Equations', nameBn: 'বহুপদী ও বহুপদী সমীকরণ', subjectId: 'math', paperId: '2nd-paper', order: 4, formulaCount: 6, isReady: true },
+  { id: 'binomial-theorem', slug: 'binomial-theorem', name: 'Binomial Theorem', nameBn: 'দ্বিপদী উপপাদ্য', subjectId: 'math', paperId: '2nd-paper', order: 5, formulaCount: 6, isReady: true },
+  { id: 'trigonometric-equations', slug: 'trigonometric-equations', name: 'Trigonometric Equations', nameBn: 'ত্রিকোণমিতিক সমীকরণ', subjectId: 'math', paperId: '2nd-paper', order: 7, formulaCount: 6, isReady: true },
 ]
 
 export const chapters: ChapterMeta[] = [
@@ -455,21 +512,72 @@ export const formulas: Formula[] = [
 
   distanceFormula,
   sectionFormula,
+  equationForms,
 
   productQuotientRule,
   fundamentalTheorem,
 
   eulerForm,
   rootsOfUnity,
+  deMoivre,
 
   factorTheorem,
   vietaFormulas,
+  syntheticDivision,
+  rootCoefficientRelation,
+  polynomialRemainder,
 
   generalTerm,
   greatestTerm,
 
   compoundAngle,
   multipleAngle,
+
+  halfWaveRectifier,
+  zenerDiode,
+
+  opticalPathPhase,
+  polarizationMalus,
+
+  powerEfficiency,
+  elasticCollision,
+
+  gravitationalPotential,
+  satelliteEnergy,
+
+  maxwellDistribution,
+  meanFreePath,
+
+  comptonEffect,
+  xRayCharacteristic,
+
+  vectorTripleProduct,
+  directionCosines,
+
+  formalCharge,
+  vseprTheory,
+
+  degreeDissociation,
+  leChatelierQuantitative,
+
+  eliminationE2,
+  alcoholOxidation,
+
+  sumBinomialCoeff,
+  pascalIdentity,
+
+  conjugateProperties,
+  polarMultiplication,
+
+  productSumIdentities,
+  inverseTrigIdentities,
+  inverseTrig,
+
+  binomialMiddleTerm,
+
+  bufferSolution,
+  leChatelier,
+  organicReactions,
 ] as Formula[]
 
 const tagMap = new Map(tags.map((t) => [t.id, t]))

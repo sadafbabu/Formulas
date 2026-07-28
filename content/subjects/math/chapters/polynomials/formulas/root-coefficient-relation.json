@@ -1,0 +1,39 @@
+{
+  "title": "Cubic & Polynomial Root Relations",
+  "titleBn": "ঘন ও বহুপদী মূল-সহগ সম্পর্ক",
+  "summary": "ঘন সমীকরণের মূলের যোগফল ও গুণফল সহগের সাথে",
+  "latex": "x_1+x_2+x_3 = -\\frac{b}{a}, \\quad \\sum x_i x_j = \\frac{c}{a}, \\quad x_1 x_2 x_3 = -\\frac{d}{a}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "x_1,x_2,x_3",
+      "meaning": "ঘন সমীকরণের মূল",
+      "unit": "—"
+    },
+    {
+      "symbol": "a,b,c,d",
+      "meaning": "ঘন বহুপদীর সহগ",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "বহুপদীকে উৎপাদক আকারে লিখে সহগ তুলনা থেকে Vieta-র সাধারণ রূপ।",
+    "steps": [
+      {
+        "title": "ঘন Vieta",
+        "latex": "\\sum x_i = -b/a, \\quad \\sum x_i x_j = c/a, \\quad \\prod x_i = -d/a",
+        "note": "n-তম ক্রমের জন্য সাধারণীকরণ সম্ভব"
+      }
+    ],
+    "assumptions": "মূলগুলো গণন (পুনরাবৃত্তি সহ)"
+  },
+  "id": "root-coefficient-relation",
+  "chapter": "polynomials",
+  "questions": []
+}

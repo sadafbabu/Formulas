@@ -1,0 +1,43 @@
+{
+  "title": "Half Wave Rectifier & Efficiency",
+  "titleBn": "অর্ধ তরঙ্গ দিষ্টকারী ও দক্ষতা",
+  "summary": "অর্ধ-তরঙ্গ দিষ্টকারণের গড় প্রবাহ, বিভব ও দক্ষতা",
+  "latex": "I_{dc} = \\frac{I_0}{\\pi}, \\quad V_{dc} = \\frac{V_0}{\\pi}, \\quad \\eta = 40.6\\%",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "I_0",
+      "meaning": "সর্বোচ্চ প্রবাহ",
+      "unit": "A"
+    },
+    {
+      "symbol": "V_0",
+      "meaning": "সর্বোচ্চ বিভব",
+      "unit": "V"
+    },
+    {
+      "symbol": "\\eta",
+      "meaning": "দিষ্টকারণ দক্ষতা",
+      "unit": "%"
+    }
+  ],
+  "derivation": {
+    "lead": "অর্ধ-তরঙ্গে শুধু ধনাত্মক অর্ধেক চক্র কাজে লাগে।",
+    "steps": [
+      {
+        "title": "গড় প্রবাহ",
+        "latex": "I_{dc} = \\frac{1}{2\\pi}\\int_0^\\pi I_0\\sin\\omega t\\,d(\\omega t) = \\frac{I_0}{\\pi}",
+        "note": "দক্ষতা 40.6%, পূর্ণ-তরঙ্গে 81.2%"
+      }
+    ],
+    "assumptions": "আদর্শ ডায়োড"
+  },
+  "id": "half-wave-rectifier",
+  "chapter": "semiconductor",
+  "questions": []
+}

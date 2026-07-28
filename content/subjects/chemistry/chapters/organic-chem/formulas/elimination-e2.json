@@ -1,0 +1,34 @@
+{
+  "title": "Elimination (E2) & Saytzeff Rule",
+  "titleBn": "বিয়োজন (E2) ও সায়ৎজেফ নিয়ম",
+  "summary": "অ্যালকাইল হ্যালাইড বিয়োজন ও সায়ৎজেফ নিয়ম",
+  "latex": "\\text{RX + Base} \\to \\text{Alkene}, \\quad \\text{major} = \\text{more substituted alkene}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "RX",
+      "meaning": "অ্যালকাইল হ্যালাইড",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "E2 এক-ধাপী দ্বিঅণু বিয়োজন; সায়ৎজেফ নিয়মে বেশি প্রতিস্থাপিত অ্যালকিন প্রধান।",
+    "steps": [
+      {
+        "title": "সায়ৎজেফ নিয়ম",
+        "latex": "\\text{major} = \\text{more substituted alkene}",
+        "note": "বেস বেশি বাধাদানকারী হলে Hofmann পণ্য প্রধান"
+      }
+    ],
+    "assumptions": "দ্বিতীয় স্তরীয়/তৃতীয় স্তরীয় হ্যালাইড"
+  },
+  "id": "elimination-e2",
+  "chapter": "organic-chem",
+  "questions": []
+}

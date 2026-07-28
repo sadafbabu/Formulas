@@ -1,0 +1,35 @@
+{
+  "title": "Le Chatelier & Common Ion Effect",
+  "titleBn": "লা শাতেলিয়ে ও সাধারণ আয়ন প্রভাব",
+  "summary": "সাম্যে চাপ/তাপ/ঘনত্ব পরিবর্তন ও সাধারণ আয়ন",
+  "latex": "Q + \\text{stress} \\to \\text{shift}, \\quad K_{sp} = [A^+][B^-]",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "K_{sp}",
+      "meaning": "দ্রবতা গুণফল",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "সাম্যে বাধা দিলে সাম্য বাধা কমানো দিকে সরে যায়।",
+    "steps": [
+      {
+        "title": "সাধারণ আয়ন",
+        "latex": "\\text{common ion} \\Rightarrow \\text{less } \\alpha",
+        "note": "দ্রবতা গুণফল সাম্যে কেবল তাপের উপর নির্ভরশীল"
+      }
+    ],
+    "assumptions": "স্থির তাপমাত্রা"
+  },
+  "id": "le-chatelier-quantitative",
+  "chapter": "chemical-equilibrium",
+  "questions": []
+}

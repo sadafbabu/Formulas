@@ -1,0 +1,34 @@
+{
+  "title": "Pascal Identity & Properties",
+  "titleBn": "পাস্কাল অভেদ ও ধর্মাবলি",
+  "summary": "পাস্কাল অভেদ ও দ্বিপদী সহগের ধর্ম",
+  "latex": "\\binom{n}{r} + \\binom{n}{r+1} = \\binom{n+1}{r+1}, \\quad \\binom{n}{r}\\binom{r}{k} = \\binom{n}{k}\\binom{n-k}{r-k}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "n, r, k",
+      "meaning": "অঋণাত্মক পূর্ণসংখ্যা",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "সংমিশ্রণ সংজ্ঞা থেকে পাস্কাল অভেদ।",
+    "steps": [
+      {
+        "title": "পাস্কাল অভেদ",
+        "latex": "\\binom{n}{r}+\\binom{n}{r+1} = \\binom{n+1}{r+1}",
+        "note": "পাস্কাল ত্রিভুজ নির্মাণের ভিত্তি"
+      }
+    ],
+    "assumptions": "0 ≤ r ≤ n"
+  },
+  "id": "pascal-identity",
+  "chapter": "binomial-theorem",
+  "questions": []
+}

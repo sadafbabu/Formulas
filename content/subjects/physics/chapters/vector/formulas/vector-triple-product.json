@@ -1,0 +1,34 @@
+{
+  "title": "Vector Triple Product (BAC Rule)",
+  "titleBn": "ভেক্টর ত্রৈগুণিক গুণফল (BAC নিয়ম)",
+  "summary": "তিন ভেক্টরের ত্রৈগুণিক গুণফল ও BAC-CAB নিয়ম",
+  "latex": "\\vec{a}\\times(\\vec{b}\\times\\vec{c}) = \\vec{b}(\\vec{a}\\cdot\\vec{c}) - \\vec{c}(\\vec{a}\\cdot\\vec{b})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "\\vec{a},\\vec{b},\\vec{c}",
+      "meaning": "তিনটি ভেক্টর",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "দুই ক্রস গুণফলের সম্প্রসারণ থেকে BAC-CAB নিয়ম।",
+    "steps": [
+      {
+        "title": "BAC নিয়ম",
+        "latex": "\\vec{a}\\times(\\vec{b}\\times\\vec{c}) = \\vec{b}(\\vec{a}\\cdot\\vec{c}) - \\vec{c}(\\vec{a}\\cdot\\vec{b})",
+        "note": "লব্ধি ভেক্টর b, c সমতলে অবস্থান করে"
+      }
+    ],
+    "assumptions": "ত্রিমাত্রিক স্থান"
+  },
+  "id": "vector-triple-product",
+  "chapter": "vector",
+  "questions": []
+}

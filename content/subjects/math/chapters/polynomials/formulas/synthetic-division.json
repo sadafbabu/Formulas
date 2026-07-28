@@ -1,0 +1,40 @@
+{
+  "title": "Synthetic Division & Remainder",
+  "titleBn": "কৃত্রিম ভাগ ও শেষফল",
+  "summary": "বহুপদীকে রৈখিক উৎপাদক দিয়ে ভাগের শর্কুন পদ্ধতি",
+  "latex": "\\frac{P(x)}{x-a}: \\quad P(a) = R \\text{ (remainder)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "P(x)",
+      "meaning": "বহুপদী",
+      "unit": "—"
+    },
+    {
+      "symbol": "R",
+      "meaning": "শেষফল",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "শেষফল উপপাদ্য থেকে শর্কুন ভাগ পদ্ধতি।",
+    "steps": [
+      {
+        "title": "শর্কুন ভাগ",
+        "latex": "P(x) = (x-a)Q(x) + R",
+        "note": "a বারবার গুণ ও যোগে সহগ নির্ণয়"
+      }
+    ],
+    "assumptions": "এক-চলকীয় বহুপদী"
+  },
+  "id": "synthetic-division",
+  "chapter": "polynomials",
+  "questions": []
+}

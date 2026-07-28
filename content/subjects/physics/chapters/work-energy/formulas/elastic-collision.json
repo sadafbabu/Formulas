@@ -1,0 +1,45 @@
+{
+  "title": "Elastic & Inelastic Collision",
+  "titleBn": "স্থিতিস্থাপক ও অস্থিতিস্থাপক সংঘর্ষ",
+  "summary": "১D স্থিতিস্থাপক সংঘর্ষে ভরবেগ ও গতিশক্তি সংরক্ষণ",
+  "latex": "m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2, \\quad v_1 = \\frac{m_1-m_2}{m_1+m_2}u_1 + \\frac{2m_2}{m_1+m_2}u_2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "m_1, m_2",
+      "meaning": "দুটি বস্তুর ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "u_1, u_2",
+      "meaning": "সংঘর্ষ-পূর্ব বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "v_1, v_2",
+      "meaning": "সংঘর্ষ-পর বেগ",
+      "unit": "m/s"
+    }
+  ],
+  "derivation": {
+    "lead": "ভরবেগ ও গতিশক্তি সংরক্ষণ সমীকরণ একসাথে সমাধান।",
+    "steps": [
+      {
+        "title": "স্থিতিস্থাপক সংঘর্ষ",
+        "latex": "v_1-v_2 = -(u_1-u_2)",
+        "note": "প্রত্যাবর্তন গুণাঙ্ক e=1; সম্পূর্ণ অস্থিতিস্থাপকে e=0"
+      }
+    ],
+    "assumptions": "একমাত্রিক সংঘর্ষ"
+  },
+  "id": "elastic-collision",
+  "chapter": "work-energy",
+  "questions": []
+}

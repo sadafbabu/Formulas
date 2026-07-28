@@ -1,0 +1,44 @@
+{
+  "title": "Zener Diode Voltage Regulator",
+  "titleBn": "জেনার ডায়োড বিভব নিয়ন্ত্রক",
+  "summary": "জেনার ব্রেকডাউন বিভব ও নিয়ন্ত্রণ সার্কিট",
+  "latex": "V_{out} = V_Z, \\quad I_Z = I_{in} - I_L, \\quad R_S = \\frac{V_{in} - V_Z}{I_{in}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "V_Z",
+      "meaning": "জেনার ব্রেকডাউন বিভব",
+      "unit": "V"
+    },
+    {
+      "symbol": "R_S",
+      "meaning": "শ্রেণী রোধ",
+      "unit": "Ω"
+    },
+    {
+      "symbol": "I_L",
+      "meaning": "লোড প্রবাহ",
+      "unit": "A"
+    }
+  ],
+  "derivation": {
+    "lead": "জেনার ডায়োড বিপরীত বায়াসে নির্দিষ্ট বিভবে ব্রেকডাউন দেয়।",
+    "steps": [
+      {
+        "title": "নিয়ন্ত্রণ সার্কিট",
+        "latex": "V_{out} = V_Z \\text{ (constant)}",
+        "note": "লোড পরিবর্তনেও আউটপুট বিভব স্থির থাকে"
+      }
+    ],
+    "assumptions": "জেনার ক্ষেত্র সীমার মধ্যে"
+  },
+  "id": "zener-diode",
+  "chapter": "semiconductor",
+  "questions": []
+}

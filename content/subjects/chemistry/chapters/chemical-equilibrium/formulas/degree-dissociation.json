@@ -1,0 +1,45 @@
+{
+  "title": "Degree of Dissociation & Ostwald",
+  "titleBn": "বিয়োজন মাত্রা ও অস্টভাল্ড",
+  "summary": "দুর্বল এসিড/ক্ষারের বিয়োজন মাত্রা ও সাম্য ধ্রুবক",
+  "latex": "K_a = \\frac{c\\alpha^2}{1-\\alpha}, \\quad \\alpha \\ll 1 \\Rightarrow K_a \\approx c\\alpha^2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "\\alpha",
+      "meaning": "বিয়োজন মাত্রা",
+      "unit": "এককহীন"
+    },
+    {
+      "symbol": "c",
+      "meaning": "মোলার ঘনমাত্রা",
+      "unit": "M"
+    },
+    {
+      "symbol": "K_a",
+      "meaning": "এসিড বিয়োজন ধ্রুবক",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "দুর্বল এসিডের বিয়োজন সাম্য থেকে Ostwald লঘুকরণ সূত্র।",
+    "steps": [
+      {
+        "title": "Ostwald সূত্র",
+        "latex": "K_a = \\frac{c\\alpha^2}{1-\\alpha}",
+        "note": "α ক্ষুদ্র হলে K_a ≈ cα²"
+      }
+    ],
+    "assumptions": "এক-ধাপী বিয়োজন"
+  },
+  "id": "degree-dissociation",
+  "chapter": "chemical-equilibrium",
+  "questions": []
+}

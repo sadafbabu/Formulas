@@ -1,0 +1,39 @@
+{
+  "title": "Conjugate & Modulus Properties",
+  "titleBn": "অন্বয়ী ও মডুলাস ধর্ম",
+  "summary": "জটিল সংখ্যার অন্বয়ী ও মডুলাসের গুণ/ভাগ ধর্ম",
+  "latex": "|z_1 z_2| = |z_1||z_2|, \\quad \\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2}, \\quad |z|^2 = z\\,\\overline{z}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "z, \\overline{z}",
+      "meaning": "জটিল সংখ্যা ও তার অন্বয়ী",
+      "unit": "—"
+    },
+    {
+      "symbol": "|z|",
+      "meaning": "মডুলাস",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "জটিল সংখ্যার বীজগণিতীয় ধর্ম থেকে অন্বয়ী ও মডুলাস সম্পর্ক।",
+    "steps": [
+      {
+        "title": "মডুলাস ধর্ম",
+        "latex": "|z_1 z_2| = |z_1||z_2|",
+        "note": "ভাগফলের জন্য |z₁/z₂| = |z₁|/|z₂|"
+      }
+    ],
+    "assumptions": "z₂ ≠ 0 (ভাগের ক্ষেত্রে)"
+  },
+  "id": "conjugate-properties",
+  "chapter": "complex-numbers",
+  "questions": []
+}

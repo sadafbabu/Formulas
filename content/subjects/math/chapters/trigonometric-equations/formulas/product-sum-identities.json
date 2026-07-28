@@ -1,0 +1,34 @@
+{
+  "title": "Product to Sum & Sum to Product",
+  "titleBn": "গুণফল-যোগফল ও যোগফল-গুণফল সূত্র",
+  "summary": "ত্রিকোণমিতিক গুণফল ও যোগফল রূপান্তর",
+  "latex": "2\\sin A\\cos B = \\sin(A+B)+\\sin(A-B), \\quad \\sin C + \\sin D = 2\\sin\\tfrac{C+D}{2}\\cos\\tfrac{C-D}{2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "A, B, C, D",
+      "meaning": "কোণ",
+      "unit": "rad"
+    }
+  ],
+  "derivation": {
+    "lead": "যৌগিক কোণ সূত্র যোগ-বিয়োগ থেকে গুণফল-যোগফল সূত্র।",
+    "steps": [
+      {
+        "title": "যোগফল-গুণফল",
+        "latex": "\\sin C + \\sin D = 2\\sin\\frac{C+D}{2}\\cos\\frac{C-D}{2}",
+        "note": "যোগফল সমীকরণ সমাধানে সহায়ক"
+      }
+    ],
+    "assumptions": "কোণ রেডিয়ানে"
+  },
+  "id": "product-sum-identities",
+  "chapter": "trigonometric-equations",
+  "questions": []
+}

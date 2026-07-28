@@ -1,0 +1,43 @@
+{
+  "title": "Mean Free Path of Gas Molecules",
+  "titleBn": "গ্যাস অণুর গড় মুক্ত পথ",
+  "summary": "অণুর দুই সংঘর্ষের মধ্যবর্তী গড় দূরত্ব",
+  "latex": "\\lambda = \\frac{1}{\\sqrt{2}\\,\\pi d^2 n}, \\quad \\lambda = \\frac{kT}{\\sqrt{2}\\,\\pi d^2 P}",
+  "tags": [
+    "eng-admission",
+    "varsity",
+    "1-star"
+  ],
+  "importance": 1,
+  "symbols": [
+    {
+      "symbol": "\\lambda",
+      "meaning": "গড় মুক্ত পথ",
+      "unit": "m"
+    },
+    {
+      "symbol": "d",
+      "meaning": "অণুর ব্যাস",
+      "unit": "m"
+    },
+    {
+      "symbol": "n",
+      "meaning": "অণু সংখ্যা ঘনত্ব",
+      "unit": "/m³"
+    }
+  ],
+  "derivation": {
+    "lead": "অণুর আপেক্ষিক গতি ও সংঘর্ষ প্রস্থছেদ থেকে।",
+    "steps": [
+      {
+        "title": "গড় মুক্ত পথ",
+        "latex": "\\lambda = \\frac{kT}{\\sqrt{2}\\pi d^2 P}",
+        "note": "চাপ বাড়লে মুক্ত পথ কমে"
+      }
+    ],
+    "assumptions": "গোলীয় অণু"
+  },
+  "id": "mean-free-path",
+  "chapter": "ideal-gas",
+  "questions": []
+}
