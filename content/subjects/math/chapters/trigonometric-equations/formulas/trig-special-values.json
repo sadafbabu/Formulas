@@ -38,7 +38,7 @@
     "steps": [
       {
         "title": "special values",
-        "latex": "\\sin(0,30,45,60,90^\\circ)=\\frac{\\sqrt{0,1,2,3,4}}2",
+        "latex": "(\\sin0^\\circ,\\sin30^\\circ,\\sin45^\\circ,\\sin60^\\circ,\\sin90^\\circ)=\\left(0,\\frac12,\\frac{\\sqrt2}{2},\\frac{\\sqrt3}{2},1\\right)",
         "note": "Sin-এর জন্য √0 থেকে √4; cos একই list উল্টো।"
       },
       {

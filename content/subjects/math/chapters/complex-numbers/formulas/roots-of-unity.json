@@ -2,7 +2,7 @@
   "title": "n-th Roots of Unity",
   "titleBn": "একের n-তম মূলসমূহ",
   "summary": "একের n-তম মূল ও তাদের জ্যামিতিক অবস্থান",
-  "latex": "\\omega_k = e^{2\\pi i k/n}, \\quad k = 0,1,\\ldots,n-1; \\quad 1 + \\omega + \\omega^2 + \\cdots + \\omega^{n-1} = 0",
+  "latex": "\\omega=e^{2\\pi i/n},\\quad \\omega_k=e^{2\\pi ik/n},\\ k=0,\\ldots,n-1;\\quad 1+\\omega+\\cdots+\\omega^{n-1}=0\\ (n\\ge2)",
   "tags": [
     "hsc",
     "eng-admission",
@@ -32,7 +32,9 @@
         "note": "মূলগুলো একক বৃত্তে সমদূরবর্তী"
       }
     ],
-    "assumptions": "n ধনাত্মক পূর্ণসংখ্যা"
+    "assumptions": [
+      "n ≥ 2 এবং ω = e^{2πi/n} একটি primitive n-th root"
+    ]
   },
   "id": "roots-of-unity",
   "chapter": "complex-numbers",
@@ -44,5 +46,9 @@
       "যোগফল 1 + ω + ω² + … + ω^{n−1} = 0।",
       "ঘনমূলে: 1 + ω + ω² = 0 এবং ω³ = 1 — এই দুটোই সবচেয়ে বেশি লাগে।"
     ]
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

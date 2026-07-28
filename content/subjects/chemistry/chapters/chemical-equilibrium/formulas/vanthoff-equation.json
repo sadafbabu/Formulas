@@ -37,7 +37,9 @@
         "note": "এক্সোথার্মিক হলে T বাড়লে K কমে"
       }
     ],
-    "assumptions": "\\Delta H তাপমাত্রায় ধ্রুব"
+    "assumptions": [
+      "\\Delta H তাপমাত্রায় ধ্রুব"
+    ]
   },
   "id": "vanthoff-equation",
   "chapter": "chemical-equilibrium",
@@ -49,5 +51,9 @@
       "T বাড়লে (1/T₁ − 1/T₂) ধনাত্মক; তাই ΔH ধনাত্মক হলে K₂ > K₁।",
       "এটি ক্লসিয়াস-ক্লেপিরন সমীকরণের হুবহু ছাঁচ।"
     ]
-  }
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

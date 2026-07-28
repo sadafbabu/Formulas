@@ -58,7 +58,8 @@
     ],
     "assumptions": [
       "সংঘর্ষ কেন্দ্রমুখী (head-on)।",
-      "মেঝে অচল ও অসীম ভরের ধরা হয়।"
+      "মেঝে অচল ও অসীম ভরের ধরা হয়।",
+      "0 ≤ e ≤ 1 রূপে সাধারণ passive collision; superelastic collision-এ e > 1 হতে পারে"
     ]
   },
   "questions": [

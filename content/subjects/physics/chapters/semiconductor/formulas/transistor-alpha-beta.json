@@ -38,7 +38,7 @@
     {
       "symbol": "\\beta",
       "meaning": "প্রবাহ লাভ (Common Emitter)",
-      "unit": "এককহীন (>20)"
+      "unit": "এককহীন"
     }
   ],
   "derivation": {
@@ -49,7 +49,8 @@
         "latex": "\\frac{\\Delta I_E}{\\Delta I_C} = \\frac{\\Delta I_B}{\\Delta I_C} + 1 \\implies \\frac{1}{\\alpha} = \\frac{1}{\\beta} + 1 \\implies \\beta = \\frac{\\alpha}{1 - \\alpha}",
         "note": "α সাধারণত 0.95 থেকে 0.99 এর মধ্যে থাকে"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -65,5 +66,9 @@
       "α = 0.98 হলে β = 0.98/0.02 = 49 — এভাবেই যাচাই করুন।",
       "বেস প্রবাহ ক্ষুদ্র হওয়াই ট্রানজিস্টরের বিবর্ধনের রহস্য।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

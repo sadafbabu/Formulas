@@ -4,7 +4,7 @@
   "title": "Aldehyde & Ketone Reactions",
   "titleBn": "অ্যালডিহাইড ও কিটোনের গাঠনিক বিক্রিয়া ও শনাক্তকরণ",
   "summary": "Carbonyl nucleophilic addition, reduction/oxidation ও Tollens/Fehling/iodoform tests।",
-  "latex": "\\ce{R-CHO ->[Tollens] R-COO- + Ag(s)};\\quad \\ce{R2C=O ->[NaBH4] R2CHOH};\\quad \\ce{CH3CO-R ->[I2/OH-] CHI3(s)}",
+  "latex": "\\ce{RCHO + 2[Ag(NH3)2]+ + 3OH- -> RCOO- + 2Ag + 4NH3 + 2H2O};\\quad \\ce{RCOCH3 + 3I2 + 4OH- -> RCOO- + CHI3 + 3I- + 3H2O}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -55,7 +55,7 @@
       {
         "title": "iodoform",
         "latex": "\\ce{CH3CO-R,\\ CH3CH(OH)-R -> CHI3(s)}",
-        "note": "methyl ketone বা সেই alcohol যা oxidize হয়ে methyl ketone হয়—হলুদ antiseptic গন্ধ।"
+        "note": "Methyl ketone, ethanal, ethanol, এবং oxidation-এ methyl ketone দেয় এমন CH₃CH(OH)R group হলুদ CHI₃ দেয়।"
       }
     ],
     "assumptions": [

@@ -30,15 +30,22 @@
       {
         "title": "মারকভনিকভ",
         "latex": "H \\to \\text{more H}, \\quad X \\to \\text{less H}",
-        "note": "প্রতি-মারকভনিকভে peroxide প্রভাব (Kharasch effect)"
+        "note": "সাধারণ peroxide/Kharasch anti-Markovnikov effect HBr-এর জন্য; HCl বা HI-এর জন্য নয়।"
       }
     ],
-    "assumptions": "মুক্ত মূলক প্রক্রিয়া নয়"
+    "assumptions": [
+      "মুক্ত মূলক প্রক্রিয়া নয়",
+      "Peroxide effect-এর anti-Markovnikov exception কেবল HBr-এ"
+    ]
   },
   "id": "markovnikov-rule",
   "chapter": "organic-chem",
   "questions": [],
   "memorize": {
     "trick": "অসমতুল্য অ্যালকিনে HX যোগ: H যায় বেশি H যুক্ত কার্বনে, X যায় কম H যুক্ত কার্বনে।"
-  }
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

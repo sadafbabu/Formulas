@@ -48,6 +48,9 @@
         "latex": "W = \\int_{V_1}^{V_2} P dV = nRT \\int_{V_1}^{V_2} \\frac{dV}{V} = nRT \\ln\\left(\\frac{V_2}{V_1}\\right)",
         "note": "বয়েলের সূত্রানুসারে V₂/V₁ = P₁/P₂"
       }
+    ],
+    "assumptions": [
+      "আদর্শ গ্যাসের reversible/quasistatic isothermal process"
     ]
   },
   "questions": [
@@ -64,5 +67,9 @@
       "PV = nRT থেকে W = ∫P dV = nRT ln(V₂/V₁) = nRT ln(P₁/P₂)।",
       "প্রসারণে V₂ > V₁ তাই W ধনাত্মক; সংকোচনে ঋণাত্মক।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

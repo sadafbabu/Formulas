@@ -44,7 +44,7 @@
     "steps": [
       {
         "title": "সংরক্ষণ নিয়ম",
-        "latex": "\\sum A \\text{ ও } \\sum Z \\text{ উভয়ই সমান",
+        "latex": "\\sum A\\ (\\text{ভর সংখ্যা}) \\text{ ও } \\sum Z\\ (\\text{আধান}) \\text{ উভয় পাশে সমান}",
         "note": "সমীকরণ মেলানোর প্রথম কাজ — উপরে-নিচে যোগফল মেলাতে হবে।"
       },
       {
@@ -54,8 +54,8 @@
       },
       {
         "title": "শিকল বিক্রিয়া",
-        "latex": "k \\ge 1 \\Rightarrow \\text{স্বয়ংক্রিয় শিকল বিক্রিয়া}",
-        "note": "k = 1 হলে নিয়ন্ত্রিত (রিঅ্যাক্টর), k > 1 হলে অনিয়ন্ত্রিত (বোমা)।"
+        "latex": "k<1:\\ \\text{subcritical};\\quad k=1:\\ \\text{critical/steady};\\quad k>1:\\ \\text{supercritical}",
+        "note": "k>1 মানে neutron population বাড়ে; এটি নিজে থেকেই 'বোমা' বোঝায় না—rate, geometry ও control গুরুত্বপূর্ণ।"
       }
     ],
     "assumptions": [

@@ -57,8 +57,8 @@
   "questions": [
     {
       "examType": "BUET Admission Special (Hard)",
-      "question": "২ mm ব্যাসার্ধের সোজা তারে ৫ A প্রবাহ সুষমভাবে বিস্তৃত। তারের কেন্দ্র থেকে ১ mm এবং ৩ mm দূরে চৌম্বক ক্ষেত্র কত হবে?",
-      "answer": "B(1\\text{mm}) = \\frac{4\\pi \\times 10^{-7} \\times 5 \\times 0.001}{2\\pi \\times (0.002)^2} = 2.5 \\times 10^{-4} \\text{ T}. \\quad B(3\\text{mm}) = \\frac{4\\pi \\times 10^{-7} \\times 5}{2\\pi \\times 0.003} = 3.33 \\times 10^{-4} \\text{ T}"
+      "question": "একটি coaxial cable-এর inner conductor-এ I এবং outer conductor-এ বিপরীতমুখী −I প্রবাহ। Cable-এর বাইরের অঞ্চলে (r > b) চৌম্বক ক্ষেত্র কত?",
+      "answer": "\\oint\\vec B\\cdot d\\vec l=\\mu_0(I-I)=0\\Rightarrow B=0\\quad(r>b)"
     }
   ],
   "memorize": {

@@ -51,7 +51,8 @@
     ],
     "assumptions": [
       "প্রক্রিয়া দ্রুত, তাপ আদান-প্রদান নেই",
-      "আদর্শ গ্যাস"
+      "আদর্শ গ্যাস",
+      "Reversible/quasistatic ideal gas; γ প্রায় ধ্রুব"
     ]
   },
   "questions": [
@@ -62,6 +63,6 @@
     }
   ],
   "memorize": {
-    "trick": "রুদ্ধতাপীয়: PV^γ = ধ্রুবক। সমতাপীয়: PV = ধ্রুবক। γ = Cp/Cv (একপরমাণুক 5/3, দ্বিপরমাণুক 7/5)।"
+    "trick": "Reversible ideal-gas adiabatic-এ PV^γ, TV^{γ−1}, T^γP^{1−γ} ধ্রুব। Adiabatic মানে Q = 0—তা দ্রুতও হতে পারে, আবার ভালো insulation-এ ধীরও হতে পারে।"
   }
 }

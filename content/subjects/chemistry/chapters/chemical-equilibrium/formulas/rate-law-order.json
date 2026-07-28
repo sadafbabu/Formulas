@@ -59,7 +59,8 @@
       }
     ],
     "assumptions": [
-      "তাপমাত্রা স্থির এবং একক elementary/integrated model প্রযোজ্য।"
+      "তাপমাত্রা স্থির এবং একক elementary/integrated model প্রযোজ্য।",
+      "দেখানো second-order integrated law-এ একক reactant-এর জন্য −d[A]/dt = k[A]²"
     ]
   },
   "questions": [

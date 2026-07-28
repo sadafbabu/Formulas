@@ -4,7 +4,7 @@
   "title": "Potential Energy of a Charge System",
   "titleBn": "আধান তন্ত্রের বিভব শক্তি ও তড়িৎ ফ্লাক্স",
   "summary": "একাধিক আধান একত্র করতে কৃতকাজই তন্ত্রের বিভব শক্তি; সাথে তড়িৎ ফ্লাক্সের সংজ্ঞা।",
-  "latex": "U = \\frac{kq_1q_2}{r}, \\quad U_{\\text{মোট}} = \\sum_{i<j}\\frac{kq_iq_j}{r_{ij}}, \\quad \\Phi_E = \\vec{E}\\cdot\\vec{A} = \\frac{q_{enc}}{\\varepsilon_0}",
+  "latex": "U=\\frac{kq_1q_2}{r},\\quad U_{\\mathrm{total}}=\\sum_{i<j}\\frac{kq_iq_j}{r_{ij}},\\quad \\oint_S\\vec E\\cdot d\\vec A=\\frac{q_{\\mathrm{enc}}}{\\varepsilon_0}",
   "tags": [
     "hsc",
     "eng-admission",

@@ -4,7 +4,7 @@
   "title": "Nernst Equation for EMF of Cell",
   "titleBn": "নার্নস্টের সমীকরণ ও কোশের তড়িৎচালক বল",
   "summary": "ঘনমাত্রা ও তাপমাত্রার পরিবর্তনে গ্যালভানিক কোশের EMF নির্ণয়",
-  "latex": "E_{\\text{cell}} = E^\\circ_{\\text{cell}} - \\frac{2.303 R T}{n F} \\log_{10} Q = E^\\circ_{\\text{cell}} - \\frac{0.0591}{n} \\log_{10} \\frac{[\\text{Anode}]}{[\\text{Cathode}]}",
+  "latex": "E=E^\\circ-\\frac{RT}{nF}\\ln Q;\\quad 298\\ \\mathrm K\\text{-এ }E=E^\\circ-\\frac{0.05916}{n}\\log_{10}Q",
   "tags": [
     "hsc",
     "eng-admission",
@@ -28,11 +28,11 @@
     {
       "symbol": "n",
       "meaning": "স্থানান্তরিত ইলেকট্রন সংখ্যা",
-      "unit": "মোল"
+      "unit": "এককহীন (প্রতি reaction-এ electron সংখ্যা)"
     },
     {
       "symbol": "Q",
-      "meaning": "বিক্রিয়া অনুপাত (Anode/Cathode)",
+      "meaning": "activity-ভিত্তিক reaction quotient",
       "unit": "এককহীন"
     }
   ],
@@ -41,10 +41,11 @@
     "steps": [
       {
         "title": "নার্নস্ট সমীকরণ রূপায়ণ",
-        "latex": "-n F E = -n F E^\\circ + R T \\ln Q \\implies E = E^\\circ - \\frac{R T}{n F} \\ln Q",
-        "note": "25°C (298 K) তাপমাত্রায় 2.303 RT / F = 0.0591 V"
+        "latex": "Q=\\prod_i a_i^{\\nu_i};\\quad \\ce{Zn|Zn^{2+}||Cu^{2+}|Cu}\\text{-এর জন্য }Q=\\frac{a_{\\ce{Zn^{2+}}}}{a_{\\ce{Cu^{2+}}}}",
+        "note": "Q সাধারণভাবে product activity/reactant activity; anode/cathode concentration অনুপাত সর্বজনীন নয়।"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -55,5 +56,9 @@
   ],
   "memorize": {
     "trick": "E = E° - (0.0591/n)log Q (২৫°C তে) — n = স্থানান্তরিত ইলেকট্রন সংখ্যা।"
-  }
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

@@ -27,7 +27,10 @@
         "note": "পাস্কাল ত্রিভুজ নির্মাণের ভিত্তি"
       }
     ],
-    "assumptions": "0 ≤ r ≤ n"
+    "assumptions": [
+      "0 ≤ r ≤ n",
+      "দ্বিতীয় identity-তে 0 ≤ k ≤ r ≤ n"
+    ]
   },
   "id": "pascal-identity",
   "chapter": "binomial-theorem",
@@ -39,5 +42,9 @@
       "C(n,0) = C(n,n) = 1 — দুই প্রান্ত সর্বদা ১।",
       "n-তম সারির যোগফল = 2ⁿ।"
     ]
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

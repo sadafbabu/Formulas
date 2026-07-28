@@ -4,7 +4,7 @@
   "title": "Hess' Law & Gibbs Spontaneity",
   "titleBn": "হেসের সূত্র, এনথালপি ও গিবস স্বতঃস্ফূর্ততা",
   "summary": "বিক্রিয়া এনথালপি পথ-নিরপেক্ষ; ΔG থেকে স্বতঃস্ফূর্ততা ও equilibrium নির্ণয়।",
-  "latex": "\\Delta H^\\circ_{\\mathrm{rxn}}=\\sum\\nu\\Delta H_f^\\circ(\\mathrm{prod})-\\sum\\nu\\Delta H_f^\\circ(\\mathrm{react}),\\quad \\Delta G=\\Delta H-T\\Delta S",
+  "latex": "\\Delta H^\\circ_{\\mathrm{rxn}}=\\sum\\nu\\Delta H_f^\\circ(\\mathrm{prod})-\\sum\\nu\\Delta H_f^\\circ(\\mathrm{react}),\\quad \\Delta G(\\mathrm{kJ/mol})=\\Delta H-T\\Delta S(\\mathrm{kJ\\,mol^{-1}K^{-1}})",
   "tags": [
     "hsc",
     "eng-admission",
@@ -36,7 +36,7 @@
     {
       "symbol": "\\Delta S",
       "meaning": "এনট্রপি পরিবর্তন",
-      "unit": "J mol⁻¹ K⁻¹"
+      "unit": "kJ mol⁻¹ K⁻¹ (অথবা J হলে 1000 দিয়ে ভাগ)"
     }
   ],
   "derivation": {

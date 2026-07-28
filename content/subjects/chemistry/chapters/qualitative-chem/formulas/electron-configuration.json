@@ -33,7 +33,9 @@
         "note": "n+l সমান হলে ছোট n আগে পূর্ণ হয়"
       }
     ],
-    "assumptions": "ভিত্তি অবস্থা (ground state)"
+    "assumptions": [
+      "ভিত্তি অবস্থা (ground state)"
+    ]
   },
   "id": "electron-configuration",
   "chapter": "qualitative-chem",
@@ -45,5 +47,9 @@
       "আউফবাউ (কম শক্তি আগে) + পাউলি (দুইয়ের বেশি নয়) + হুন্ড (আগে সব ঘরে একটি করে)।",
       "ব্যতিক্রম মুখস্থ: Cr = 3d⁵4s¹, Cu = 3d¹⁰4s¹ — অর্ধপূর্ণ ও পূর্ণ d বেশি স্থিতিশীল।"
     ]
-  }
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

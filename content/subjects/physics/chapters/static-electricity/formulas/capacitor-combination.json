@@ -38,7 +38,9 @@
         "note": "মোট শক্তি u আয়তন দ্বারা গুণ"
       }
     ],
-    "assumptions": "আদর্শ ধারক"
+    "assumptions": [
+      "আদর্শ ধারক"
+    ]
   },
   "id": "capacitor-combination",
   "chapter": "static-electricity",
@@ -50,5 +52,9 @@
       "সমান্তরালে সব ধারকে V একই, আধান ভাগ হয় → C_p = ΣC_i।",
       "শক্তি ঘনত্ব u = ½ε₀E² — একক আয়তনে সঞ্চিত শক্তি।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

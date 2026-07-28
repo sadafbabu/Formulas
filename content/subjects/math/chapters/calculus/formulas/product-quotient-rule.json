@@ -32,7 +32,10 @@
         "note": "ভাগফল নিয়মে হর বর্গ হয়"
       }
     ],
-    "assumptions": "u, v অন্তরীকরণযোগ্য"
+    "assumptions": [
+      "u, v অন্তরীকরণযোগ্য",
+      "u ও v differentiable এবং quotient-এ v(x) ≠ 0"
+    ]
   },
   "id": "product-quotient-rule",
   "chapter": "calculus",
@@ -44,5 +47,9 @@
       "(u/v)' = (u'v − uv')/v² — এখানে ক্রম উল্টালে চিহ্ন ভুল হবে, লব আগে।",
       "তিনটির গুণফলে: (uvw)' = u'vw + uv'w + uvw' — একবারে একটাকে অবকলন।"
     ]
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

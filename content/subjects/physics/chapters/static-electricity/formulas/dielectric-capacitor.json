@@ -4,7 +4,7 @@
   "title": "Dielectric in a Capacitor",
   "titleBn": "ধারকে ডাইইলেকট্রিক ও ধারকত্বের পরিবর্তন",
   "summary": "ডাইইলেকট্রিক ঢোকালে ধারকত্ব K গুণ বাড়ে; ব্যাটারি লাগানো ও খোলা অবস্থায় ফল আলাদা।",
-  "latex": "C = \\frac{K\\varepsilon_0 A}{d}, \\quad E_{\\text{ভিতরে}} = \\frac{E_0}{K}, \\quad C = \\frac{\\varepsilon_0 A}{d - t + t/K}",
+  "latex": "C=\\frac{K\\varepsilon_0A}{d};\\quad Q\\ \\text{fixed হলে }E=\\frac{E_0}{K};\\quad C_{\\mathrm{slab}}=\\frac{\\varepsilon_0A}{d-t+t/K}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -64,14 +64,16 @@
     ],
     "assumptions": [
       "ডাইইলেকট্রিক সমসত্ত্ব ও রৈখিক।",
-      "প্রান্ত-প্রভাব উপেক্ষিত।"
+      "প্রান্ত-প্রভাব উপেক্ষিত।",
+      "E = E₀/K রূপে free charge Q ধ্রুব (battery disconnected)",
+      "Slab পুরো plate area ঢাকে এবং তার face plate-এর সমান্তরাল"
     ]
   },
   "questions": [
     {
       "examType": "Eng Admission",
       "question": "একটি ধারকের ধারকত্ব ১০ μF। ব্যাটারি খুলে নিয়ে K = 5 ডাইইলেকট্রিক ঢোকালে ভোল্টেজ ১০০ V থেকে কত হবে?",
-      "answer": "Q \\text{ ধ্রুব} \\Rightarrow V\\' = \\frac{V}{K} = \\frac{100}{5} = 20\\ \\text{V}"
+      "answer": "Q \\text{ ধ্রুব} \\Rightarrow V' = \\frac{V}{K} = \\frac{100}{5} = 20\\ \\text{V}"
     }
   ],
   "memorize": {

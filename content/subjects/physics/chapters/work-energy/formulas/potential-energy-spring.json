@@ -39,6 +39,9 @@
         "latex": "W = \\int_0^x k x' dx' = \\frac{1}{2} k x^2 \\implies U = \\frac{1}{2} k x^2",
         "note": "স্প্রিং বল একটি সংরক্ষণশীল বল"
       }
+    ],
+    "assumptions": [
+      "Spring Hooke-এর সূত্র মানে এবং elastic limit-এর মধ্যে; k ধ্রুব"
     ]
   },
   "questions": [
@@ -54,5 +57,9 @@
       "F = kx (হুকের সূত্র) থেকে U = ∫₀ˣ kx dx = ½kx²।",
       "লেখচিত্র: F–x লেখের নিচের ত্রিভুজের ক্ষেত্রফল = ½·x·kx = ½kx²।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

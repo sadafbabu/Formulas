@@ -4,7 +4,7 @@
   "title": "Family & Intersection of Lines",
   "titleBn": "রেখার পরিবার, ছেদবিন্দু ও angle bisector",
   "summary": "দুই রেখার ছেদবিন্দুগামী সব রেখা এবং দুই রেখার কোণদ্বিখণ্ডকের সমীকরণ।",
-  "latex": "L_1+\\lambda L_2=0,\\quad \\frac{L_1}{\\sqrt{a_1^2+b_1^2}}=\\pm\\frac{L_2}{\\sqrt{a_2^2+b_2^2}}",
+  "latex": "\\lambda L_1+\\mu L_2=0,\\quad(\\lambda,\\mu)\\ne(0,0);\\qquad \\frac{L_1}{\\sqrt{a_1^2+b_1^2}}=\\pm\\frac{L_2}{\\sqrt{a_2^2+b_2^2}}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -38,8 +38,8 @@
     "steps": [
       {
         "title": "পরিবার",
-        "latex": "L_1+\\lambda L_2=0",
-        "note": "অতিরিক্ত শর্ত (একটি বিন্দু/ঢাল) বসিয়ে λ বের করা হয়।"
+        "latex": "\\lambda L_1+\\mu L_2=0,\\quad(\\lambda,\\mu)\\ne(0,0)",
+        "note": "Homogeneous parameter pair সব রেখা অন্তর্ভুক্ত করে; L₁+λL₂ finite λ form-এ L₂=0 আলাদা case।"
       },
       {
         "title": "angle bisectors",

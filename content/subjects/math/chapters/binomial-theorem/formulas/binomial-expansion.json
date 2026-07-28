@@ -27,8 +27,8 @@
     },
     {
       "symbol": "n",
-      "meaning": "ঘাত/সূচক",
-      "unit": "পূর্ণসংখ্যা/ঋণাত্মক/ভগ্নাংশ"
+      "meaning": "অঋণাত্মক পূর্ণসংখ্যা",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -39,6 +39,9 @@
         "latex": "T_{r+1} = \\binom{n}{r} a^{n-r} x^r = \\frac{n!}{r!(n-r)!} a^{n-r} x^r",
         "note": "x বর্জিত বা স্বাধীন পদের জন্য x এর সূচক = 0 ধরা হয়"
       }
+    ],
+    "assumptions": [
+      "Finite factorial expansion-এর জন্য n অঋণাত্মক পূর্ণসংখ্যা"
     ]
   },
   "questions": [
@@ -50,5 +53,9 @@
   ],
   "memorize": {
     "trick": "(a+b)ⁿ = Σ C(n,r) a^(n-r) b^r — a-এর ঘাত কমে, b-এর ঘাত বাড়ে, সহগ nCr।"
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

@@ -25,12 +25,12 @@
     {
       "symbol": "[\\vec{a}\\,\\vec{b}\\,\\vec{c}]",
       "meaning": "স্কেলার ত্রৈগুণিক গুণফল",
-      "unit": "একক³"
+      "unit": "a, b ও c-এর এককের গুণফল"
     },
     {
       "symbol": "V",
       "meaning": "সামান্তরিক ঘনকের আয়তন",
-      "unit": "একক³"
+      "unit": "দৈর্ঘ্য³ (তিনটি displacement vector হলে)"
     }
   ],
   "derivation": {

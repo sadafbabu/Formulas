@@ -4,7 +4,7 @@
   "title": "Bond Length, Energy & Resonance",
   "titleBn": "বন্ধন দৈর্ঘ্য, শক্তি, ক্রম ও অনুরণন",
   "summary": "বন্ধন ক্রমের সাথে দৈর্ঘ্য ও শক্তির সম্পর্ক এবং অনুরণন সংকর ধারণা।",
-  "latex": "\\text{Bond order}\\uparrow\\Rightarrow E_{\\mathrm{bond}}\\uparrow,\\ r_{\\mathrm{bond}}\\downarrow;\\quad E_{\\mathrm{res}}=E_{\\mathrm{hybrid}}-E_{\\mathrm{best\\ Lewis}}",
+  "latex": "\\text{Bond order}\\uparrow\\Rightarrow E_{\\mathrm{bond}}\\uparrow,\\ r_{\\mathrm{bond}}\\downarrow;\\quad E_{\\mathrm{res}}=E_{\\mathrm{best\\ Lewis}}-E_{\\mathrm{hybrid}}>0",
   "tags": [
     "hsc",
     "eng-admission",

@@ -44,7 +44,8 @@
         "latex": "\\int_{N_0}^N \\frac{dN}{N} = -\\lambda \\int_0^t dt \\implies \\ln\\left(\\frac{N}{N_0}\\right) = -\\lambda t \\implies N = N_0 e^{-\\lambda t}",
         "note": "N = N0/2 বসিয়ে T1/2 = ln 2 / λ পাওয়া যায়"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -55,5 +56,9 @@
   ],
   "memorize": {
     "trick": "N = N₀e^(-λt); T½ = 0.693/λ — অর্ধায়ু = 0.693 ÷ ক্ষয় ধ্রুবক।"
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

@@ -18,7 +18,7 @@
     {
       "symbol": "\\mathbf{A} \\cdot \\mathbf{B}",
       "meaning": "স্কেলার গুণফল",
-      "unit": "সংখ্যা"
+      "unit": "A ও B-এর এককের গুণফল"
     },
     {
       "symbol": "\\theta",
@@ -39,7 +39,8 @@
         "latex": "\\mathbf{A} \\cdot \\mathbf{B} = 0 \\implies \\theta = 90^\\circ \\text{ (Vectors are perpendicular)}",
         "note": "A এর ওপর B এর অভিক্ষেপ = (A · B) / |A|"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -55,5 +56,9 @@
       "তারপর |A| ও |B| বের করে ভাগ করুন, শেষে cos⁻¹ নিন।",
       "ফল ধনাত্মক হলে সূক্ষ্মকোণ, ঋণাত্মক হলে স্থূলকোণ, শূন্য হলে লম্ব।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

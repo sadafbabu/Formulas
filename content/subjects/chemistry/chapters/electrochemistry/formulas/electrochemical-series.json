@@ -31,7 +31,7 @@
     {
       "symbol": "\\Delta G^\\circ",
       "meaning": "আদর্শ গিবস মুক্ত শক্তি",
-      "unit": "kJ/mol"
+      "unit": "J/mol (kJ/mol চাইলে 1000 দিয়ে ভাগ)"
     },
     {
       "symbol": "F",
@@ -55,7 +55,7 @@
       }
     ],
     "assumptions": [
-      "আদর্শ অবস্থা (1 M, 1 atm, 25°C)"
+      "আদর্শ অবস্থা (1 M, 1 bar, 25°C)"
     ]
   },
   "questions": [

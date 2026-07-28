@@ -39,13 +39,14 @@
         "latex": "\\mathbf{A} \\cdot \\mathbf{B} = 0 \\iff \\theta = 90^\\circ",
         "note": "ডট গুণফল শূন্য হলে ভেক্টরদ্বয় পরস্পর লম্ব"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
       "examType": "DU Ka-Unit Admission",
-      "question": "A = 2i + 3j - k এবং B = i - 2j + 4k ভেক্টরদ্বয় লম্ব হলে m এর মান কত?",
-      "answer": "\\mathbf{A} \\cdot \\mathbf{B} = (2)(1) + (3)(-2) + (-1)(4) = 2 - 6 - 4 = -8"
+      "question": "A = 2\\hat i-3\\hat j+4\\hat k এবং B = \\hat i+2\\hat j-\\hat k হলে A\\cdot B কত?",
+      "answer": "A\\cdot B=2(1)+(-3)(2)+4(-1)=-8"
     }
   ],
   "memorize": {
@@ -55,5 +56,9 @@
       "সমান্তরাল হলে A·B = AB (সর্বোচ্চ)।",
       "প্রয়োগ: কাজ W = F·s — কাজ স্কেলার, তাই ডট।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

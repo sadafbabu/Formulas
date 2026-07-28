@@ -4,7 +4,7 @@
   "title": "Microscope & Telescope Magnification",
   "titleBn": "অণুবীক্ষণ ও দূরবীক্ষণ যন্ত্রের বিবর্ধন",
   "summary": "যৌগিক অণুবীক্ষণ ও দূরবীক্ষণ যন্ত্রের কৌণিক বিবর্ধন ও নলের দৈর্ঘ্য।",
-  "latex": "M_{\\text{অণুবীক্ষণ}} = \\frac{v_o}{u_o}\\!\\left(1 + \\frac{D}{f_e}\\right), \\quad M_{\\text{দূরবীক্ষণ}} = \\frac{f_o}{f_e}, \\quad L = f_o + f_e",
+  "latex": "M_{\\mathrm{micro,near}}=\\frac{v_o}{u_o}\\left(1+\\frac D{f_e}\\right),\\quad M_{\\mathrm{micro},\\infty}=\\frac{v_o}{u_o}\\frac D{f_e},\\quad M_{\\mathrm{telescope}}=\\frac{f_o}{f_e}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -43,6 +43,11 @@
       "symbol": "L",
       "meaning": "নলের দৈর্ঘ্য",
       "unit": "cm"
+    },
+    {
+      "symbol": "D_{\\mathrm{ap}}",
+      "meaning": "objective aperture-এর ব্যাস",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -60,8 +65,8 @@
       },
       {
         "title": "বিভেদন ক্ষমতা",
-        "latex": "R.P. = \\frac{D}{1.22\\lambda}",
-        "note": "অ্যাপারচার বড় হলে বিভেদন ক্ষমতা বেশি — তাই বড় টেলিস্কোপ ভালো।"
+        "latex": "R.P.=\\frac{D_{\\mathrm{ap}}}{1.22\\lambda}",
+        "note": "D_ap হলো objective aperture-এর ব্যাস; এটি স্পষ্ট দৃষ্টির নিকট দূরত্ব D = 25 cm থেকে আলাদা।"
       }
     ],
     "assumptions": [

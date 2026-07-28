@@ -2,7 +2,7 @@
   "id": "curie-law",
   "title": "Curie's Law of Magnetism",
   "titleBn": "চৌম্বক গ্রহীতার কিউরি সূত্র",
-  "latex": "\\chi_m = \\frac{C}{T}, \\quad M = C \\frac{B}{T}",
+  "latex": "\\chi_m=\\frac CT,\\quad M=\\chi_mH=\\frac{CH}{T}",
   "summary": "প্যারাম্যাগনেটিক পদার্থের চৌম্বক গ্রহীতা পরম তাপমাত্রার (T) ব্যস্তানুপাতিক।",
   "tags": [
     "hsc",
@@ -24,7 +24,7 @@
     {
       "symbol": "\\chi_m",
       "meaning": "চৌম্বক গ্রহীতা (Susceptibility)",
-      "unit": "মাত্রাচ্ছন্ন"
+      "unit": "মাত্রাহীন"
     },
     {
       "symbol": "C",
@@ -52,7 +52,7 @@
       }
     ],
     "assumptions": [
-      "কেবল প্যারাম্যাগনেটিক পদার্থ এবং অতি উচ্চ তাপমাত্রা না হওয়া পর্যন্ত প্রযোজ্য।"
+      "আদর্শ paramagnet; দুর্বল ক্ষেত্র/উচ্চ-তাপমাত্রা সীমা μB ≪ kBT"
     ]
   },
   "questions": [

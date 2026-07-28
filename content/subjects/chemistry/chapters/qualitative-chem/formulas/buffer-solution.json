@@ -44,6 +44,9 @@
         "latex": "\\text{pH} = -\\log[H^+], \\quad \\text{pOH} = -\\log[OH^-], \\quad K_w = [H^+][OH^-] = 10^{-14}",
         "note": "বিশুদ্ধ পানির pH = 7, অম্লীয় দ্রবণ: pH < 7, ক্ষারীয়: pH > 7"
       }
+    ],
+    "assumptions": [
+      "pH + pOH = 14 ও neutral pH = 7 রূপে 25°C; অন্য তাপমাত্রায় pH+pOH=pKw"
     ]
   },
   "questions": [
@@ -55,5 +58,9 @@
   ],
   "memorize": {
     "trick": "pH = pKa + log([লবণ]/[অম্ল]) — সমান হলে pH = pKa। লবণ বাড়লে pH বাড়ে।"
-  }
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

@@ -39,7 +39,8 @@
         "latex": "\\frac{1}{2} m v_e^2 = \\frac{G M m}{R} \\implies v_e = \\sqrt{\\frac{2GM}{R}} = \\sqrt{2gR}",
         "note": "পৃথিবীর জন্য মুক্তিবেগ 11.2 km/s"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -54,5 +55,9 @@
       "মহাকর্ষণ বিভব = গতিশক্তি: GMm/R = ½mv²",
       "তাই v = √(2GM/R) = √(2gR)"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

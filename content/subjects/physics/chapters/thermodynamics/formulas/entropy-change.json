@@ -4,7 +4,7 @@
   "title": "Entropy Change in Thermal Processes",
   "titleBn": "এনট্রপির পরিবর্তন ও বিশৃঙ্খলা",
   "summary": "সমউষ্ণ ও রুদ্ধতাপীয় প্রক্রিয়ায় এনট্রপির পরিবর্তন",
-  "latex": "\\Delta S = \\int \\frac{dQ}{T}, \\quad \\Delta S = m c \\ln\\left(\\frac{T_2}{T_1}\\right), \\quad \\Delta S = \\frac{m L}{T}",
+  "latex": "\\Delta S=\\int\\frac{\\delta Q_{\\mathrm{rev}}}{T},\\quad \\Delta S=mc\\ln\\frac{T_2}{T_1},\\quad \\Delta S=\\frac{mL}{T}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -49,7 +49,8 @@
         "latex": "dQ = m c dT \\implies \\Delta S = \\int_{T_1}^{T_2} \\frac{m c dT}{T} = m c \\ln\\left(\\frac{T_2}{T_1}\\right)",
         "note": "অবস্থার পরিবর্তনে (গলন/বাষ্পীভবন) ΔS = mL/T"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -65,5 +66,9 @@
       "তাপমাত্রা বদলালে: ΔS = mc ln(T₂/T₁) — এখানে ln আসে।",
       "মহাবিশ্বের মোট এনট্রপি কখনো কমে না — এটাই দ্বিতীয় সূত্র।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

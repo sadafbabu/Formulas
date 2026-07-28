@@ -27,7 +27,10 @@
         "note": "মূল মান নির্ধারণে শাখা নির্বাচন জরুরি"
       }
     ],
-    "assumptions": "মূল শাখায়"
+    "assumptions": [
+      "মূল শাখায়",
+      "tan⁻¹x + cot⁻¹x = π/2 রূপে arccot-এর principal range (0,π)"
+    ]
   },
   "id": "inverse-trig-identities",
   "chapter": "trigonometric-equations",
@@ -39,5 +42,9 @@
       "tan⁻¹x + cot⁻¹x = π/2 (সব বাস্তব x)।",
       "sin⁻¹(−x) = −sin⁻¹x (অযুগ্ম), কিন্তু cos⁻¹(−x) = π − cos⁻¹x — এই পার্থক্যটি মনে রাখুন।"
     ]
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

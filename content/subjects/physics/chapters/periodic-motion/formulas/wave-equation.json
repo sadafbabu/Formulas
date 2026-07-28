@@ -54,7 +54,8 @@
         "latex": "y = 2A\\cos(kx)\\sin(\\omega t), \\quad \\text{Node: } kx = (2n+1)\\frac{\\pi}{2}, \\quad \\text{Antinode: } kx = n\\pi",
         "note": "তারে তরঙ্গ: v = √(T/μ), যেখানে T = তারের টান, μ = রৈখিক ভর ঘনত্ব"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -70,5 +71,9 @@
       "(ωt − kx) মানে +x দিকে চলা, (ωt + kx) মানে −x দিকে।",
       "টানা তারে v = √(T/μ) — টান বাড়ালে দ্রুত, মোটা তারে ধীর।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

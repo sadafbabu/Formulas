@@ -2,7 +2,7 @@
   "id": "cp-cv-relation",
   "chapter": "thermodynamics",
   "title": "Molar Specific Heats (Cp and Cv)",
-  "titleBn": "মোলায়ার আপেক্ষিক তাপ (Cp ও Cv)",
+  "titleBn": "মোলার আপেক্ষিক তাপ (Cp ও Cv)",
   "summary": "মেয়ারের সমীকরণ ও মোলার তাপধারণ ক্ষমতার সম্পর্ক",
   "latex": "C_p - C_v = R, \\quad \\gamma = \\frac{C_p}{C_v}",
   "tags": [
@@ -44,6 +44,9 @@
         "latex": "dQ_p - dQ_v = P dV = n R dT \\implies C_p - C_v = R",
         "note": "দ্বিপারমাণবিক গ্যাসের জন্য γ = 1.40"
       }
+    ],
+    "assumptions": [
+      "Mayer relation C_p − C_v = R কেবল আদর্শ গ্যাসের জন্য"
     ]
   },
   "questions": [
@@ -56,8 +59,12 @@
   "memorize": {
     "trick": "C_p − C_v = R — 'মেয়ারের সম্পর্ক'। C_p সবসময় বড়, কারণ স্থির চাপে গ্যাসকে প্রসারিত হতে বাড়তি কাজও করতে হয়। γ = C_p/C_v > 1।",
     "steps": [
-      "একপরমাণুক গ্যাসে γ = 1.67, দ্বিপরমাণুক গ্যাসে γ = 1.40, ত্রিপরমাণুক গ্যাসে γ ≈ 1.33 — এই তিনটি মুখস্থ রাখুন।",
+      "একপরমাণুক gas γ = 5/3; vibration-frozen linear molecule (H₂, N₂, CO₂) γ = 7/5; nonlinear molecule (H₂O) γ = 4/3।",
       "C_v = R/(γ − 1), C_p = γR/(γ − 1)।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

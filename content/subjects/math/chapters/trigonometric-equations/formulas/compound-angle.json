@@ -27,12 +27,18 @@
         "note": "বিয়োগফলের জন্য চিহ্ন পরিবর্তন"
       }
     ],
-    "assumptions": "কোণ রেডিয়ানে"
+    "assumptions": [
+      "কোণ রেডিয়ানে"
+    ]
   },
   "id": "compound-angle",
   "chapter": "trigonometric-equations",
   "questions": [],
   "memorize": {
     "trick": "sin(A±B) = sinA cosB ± cosA sinB; cos(A±B) = cosA cosB ∓ sinA sinB — sin মিশ্র চিহ্ন, cos বিপরীত চিহ্ন।"
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

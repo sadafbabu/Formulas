@@ -22,13 +22,13 @@
     },
     {
       "symbol": "SN1",
-      "meaning": "একমুখী নিউক্লিওফিলিক প্রতিস্থাপন (Unimolecular)",
-      "unit": "rate = k[substrate]"
+      "meaning": "এক-আণবিক নিউক্লিওফিলিক প্রতিস্থাপন",
+      "unit": "rate constant: s⁻¹"
     },
     {
       "symbol": "SN2",
-      "meaning": "দ্বিমুখী নিউক্লিওফিলিক প্রতিস্থাপন (Bimolecular)",
-      "unit": "rate = k[substrate][nucleophile]"
+      "meaning": "দ্বি-আণবিক নিউক্লিওফিলিক প্রতিস্থাপন",
+      "unit": "rate constant: L mol⁻¹ s⁻¹"
     }
   ],
   "derivation": {
@@ -39,7 +39,8 @@
         "latex": "\\text{Aldol: 2CH}_3\\text{CHO} \\xrightarrow{\\text{OH}^-} \\text{CH}_3\\text{CH(OH)CH}_2\\text{CHO}",
         "note": "Cannizzaro, Kolbe, Reimer-Tiemann, Sandmeyer বিক্রিয়াও গুরুত্বপূর্ণ"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -55,5 +56,9 @@
       "অ্যালকেন + X₂ (আলো) → মুক্ত মূলক প্রতিস্থাপন।",
       "বেনজিন → নাইট্রেশন/হ্যালোজেনেশন/সালফোনেশন/ফ্রিডেল-ক্রাফটস — সবই ইলেকট্রোফিলিক প্রতিস্থাপন।"
     ]
-  }
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

@@ -39,7 +39,8 @@
         "latex": "P_{\\text{in}} = P_{\\text{out}} \\implies V_p I_p = V_s I_s \\implies \\frac{V_p}{V_s} = \\frac{I_s}{I_p}",
         "note": "স্ট্যাপ-আপ ট্রান্সফরমারে Ns > Np এবং Vs > Vp"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -50,5 +51,9 @@
   ],
   "memorize": {
     "trick": "V_p/V_s = N_p/N_s = I_s/I_p — ভোল্টেজ ∝ কুণ্ডলী, প্রবাহ ∝ উল্টো।"
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

@@ -2,7 +2,7 @@
   "title": "Power, Efficiency & Conservative Force",
   "titleBn": "ক্ষমতা, দক্ষতা ও সংরক্ষী বল",
   "summary": "ক্ষমতা, দক্ষতা ও সংরক্ষী বলের সংজ্ঞা",
-  "latex": "P = \\frac{W}{t} = Fv, \\quad \\eta = \\frac{P_{out}}{P_{in}} \\times 100\\%, \\quad \\oint \\vec{F}\\cdot d\\vec{r} = 0",
+  "latex": "P_{\\mathrm{avg}}=\\frac Wt,\\quad P=\\vec F\\cdot\\vec v=Fv\\cos\\theta, \\quad \\eta = \\frac{P_{out}}{P_{in}} \\times 100\\%, \\quad \\oint \\vec{F}\\cdot d\\vec{r} = 0",
   "tags": [
     "hsc",
     "eng-admission",
@@ -43,7 +43,9 @@
         "note": "সংরক্ষী বলের সমবৃত্তীয় সমাকলন শূন্য"
       }
     ],
-    "assumptions": "স্থির অবস্থা"
+    "assumptions": [
+      "স্থির অবস্থা"
+    ]
   },
   "id": "power-efficiency",
   "chapter": "work-energy",
@@ -55,5 +57,9 @@
       "η কখনো ১০০% ছাড়ায় না; বাকিটা ঘর্ষণ ও তাপে যায়।",
       "অভিকর্ষ ও স্প্রিং বল সংরক্ষী, ঘর্ষণ অসংরক্ষী।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

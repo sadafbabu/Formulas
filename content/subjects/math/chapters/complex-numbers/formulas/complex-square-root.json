@@ -48,7 +48,8 @@
       }
     ],
     "assumptions": [
-      "Principal argument বেছে নিয়ে দুই বিপরীত root।"
+      "Principal argument বেছে নিয়ে দুই বিপরীত root।",
+      "Displayed sgn(b) Cartesian shortcut b ≠ 0; b=0,a≥0 হলে ±√a; b=0,a<0 হলে ±i√(−a)"
     ]
   },
   "questions": [

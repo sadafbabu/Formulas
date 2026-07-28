@@ -4,7 +4,7 @@
   "title": "SHM Displacement, Velocity & Acceleration",
   "titleBn": "সরল ছন্দিত স্পন্দনের সরণ, বেগ ও ত্বরণ",
   "summary": "SHM-এর মূল সমীকরণ ও তিন রাশির সম্পর্ক; ত্বরণ সরণের সমানুপাতী ও বিপরীতমুখী।",
-  "latex": "x = A\\sin(\\omega t + \\phi), \\quad v = \\omega\\sqrt{A^2 - x^2}, \\quad a = -\\omega^2 x",
+  "latex": "x=A\\sin(\\omega t+\\phi),\\quad v=A\\omega\\cos(\\omega t+\\phi)=\\pm\\omega\\sqrt{A^2-x^2},\\quad a=-\\omega^2x",
   "tags": [
     "hsc",
     "eng-admission",

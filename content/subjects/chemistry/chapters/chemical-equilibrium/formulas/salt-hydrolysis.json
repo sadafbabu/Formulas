@@ -65,7 +65,7 @@
     {
       "examType": "Varsity Admission",
       "question": "0.10 M \\ce{CH3COONa}-এর pH প্রকৃতি কী?",
-      "answer": "\\ce{CH3COO-}\\ \\text{hydrolysis করে OH⁻ দেয়; তাই pH > 7 (ক্ষারীয়)।}"
+      "answer": "\\ce{CH3COO-}\\ \\text{hydrolysis করে }\\ce{OH-}\\ \\text{দেয়; তাই }\\mathrm{pH}>7\\ \\text{(ক্ষারীয়)}"
     }
   ],
   "memorize": {

@@ -38,7 +38,7 @@
     {
       "symbol": "\\Delta n",
       "meaning": "গ্যাসীয় উৎপাদ ও বিক্রিয়কের মোল সংখ্যার পার্থক্য",
-      "unit": "মোল"
+      "unit": "এককহীন (stoichiometric coefficient-এর পার্থক্য)"
     }
   ],
   "derivation": {
@@ -49,6 +49,9 @@
         "latex": "P_A = [A] R T \\implies K_p = \\frac{P_C^c P_D^d}{P_A^a P_B^b} = \\frac{[C]^c [D]^d}{[A]^a [B]^b} (R T)^{(c+d)-(a+b)} = K_c (R T)^{\\Delta n}",
         "note": "Δn = 0 হলে Kp = Kc"
       }
+    ],
+    "assumptions": [
+      "গ্যাসগুলো আদর্শ; Δn কেবল gaseous species-এর coefficient থেকে"
     ]
   },
   "questions": [
@@ -60,5 +63,9 @@
   ],
   "memorize": {
     "trick": "Kp = Kc(RT)^Δn — Δn = (গ্যাসীয় উৎপাদ - গ্যাসীয় বিক্রিয়ক) মোল। Δn=0 হলে Kp=Kc।"
-  }
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

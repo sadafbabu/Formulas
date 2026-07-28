@@ -22,7 +22,7 @@
     },
     {
       "symbol": "v",
-      "meaning": "গাড়ির সর্বোচ্চ নিরাপদ বেগ",
+      "meaning": "ঘর্ষণ ছাড়া প্রয়োজনীয় নকশা বেগ",
       "unit": "m/s"
     },
     {
@@ -49,6 +49,9 @@
         "latex": "R \\sin\\theta = \\frac{m v^2}{r}, \\quad R \\cos\\theta = m g \\implies \\tan\\theta = \\frac{v^2}{r g}",
         "note": "ক্ষুদ্র কোণের জন্য sinθ ≈ tanθ ব্যবহার করা হয়"
       }
+    ],
+    "assumptions": [
+      "tanθ = v²/(rg) রূপে ঘর্ষণ উপেক্ষিত"
     ]
   },
   "questions": [
@@ -65,5 +68,9 @@
       "ভাগ করলে tanθ = v²/(rg) — ভর কেটে যায়।",
       "নিরাপদ বেগ v = √(rg tanθ); ঘর্ষণ ধরলে v = √[rg(μ + tanθ)/(1 − μ tanθ)]।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

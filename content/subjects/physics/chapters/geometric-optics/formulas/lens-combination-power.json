@@ -2,7 +2,7 @@
   "title": "Lens Combination & Power",
   "titleBn": "লেন্সের সংযোজন ও ক্ষমতা",
   "summary": "একাধিক লেন্সের সমতুল্য ফোকাস দূরত্ব ও ক্ষমতা",
-  "latex": "\\frac{1}{F} = \\frac{1}{f_1} + \\frac{1}{f_2} - \\frac{d}{f_1 f_2}, \\quad P = P_1 + P_2",
+  "latex": "\\frac1F=\\frac1{f_1}+\\frac1{f_2}-\\frac d{f_1f_2},\\quad P_{\\mathrm{eq}}=P_1+P_2-dP_1P_2;\\quad d=0\\Rightarrow P=P_1+P_2",
   "tags": [
     "hsc",
     "eng-admission",
@@ -56,5 +56,9 @@
       "চশমার ক্ষমতা এভাবেই লেখা হয় — +2D মানে f = +50 cm।",
       "d = 0 বসিয়ে যাচাই করুন: 1/F = 1/f₁ + 1/f₂ — মিলে যায়।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

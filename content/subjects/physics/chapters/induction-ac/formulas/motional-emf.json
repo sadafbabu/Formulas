@@ -2,7 +2,7 @@
   "id": "motional-emf",
   "chapter": "induction-ac",
   "title": "Motional EMF",
-  "titleBn": "চলন তড়িৎচালক বল ও ফুকো প্রবাহ",
+  "titleBn": "চলন তড়িৎচালক বল",
   "summary": "চৌম্বক ক্ষেত্রে চলমান পরিবাহীতে আবিষ্ট emf এবং ঘূর্ণায়মান দণ্ডের ক্ষেত্রে তার রূপ।",
   "latex": "\\varepsilon = B\\ell v\\sin\\theta, \\quad \\varepsilon_{\\text{ঘূর্ণায়মান দণ্ড}} = \\tfrac{1}{2}B\\omega \\ell^2",
   "tags": [

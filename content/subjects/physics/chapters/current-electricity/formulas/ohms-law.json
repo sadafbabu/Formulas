@@ -39,7 +39,8 @@
         "latex": "I \\propto V \\implies I = G V = \\frac{V}{R}",
         "note": "G = 1/R হলো পরিবাহিতাবোধ (Conductance)"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -50,5 +51,9 @@
   ],
   "memorize": {
     "trick": "V = IR — ভোল্টেজ বাড়লে প্রবাহ বাড়ে, রোধ বাড়লে প্রবাহ কমে।"
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

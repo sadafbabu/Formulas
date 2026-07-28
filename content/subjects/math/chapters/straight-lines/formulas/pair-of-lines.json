@@ -4,7 +4,7 @@
   "title": "Pair of Straight Lines",
   "titleBn": "দ্বিঘাত সমীকরণে সরলরেখা-জোড়",
   "summary": "সমজাতীয় দ্বিঘাত থেকে origin-গামী দুই রেখা, তাদের কোণ এবং সাধারণ সমীকরণে pair হওয়ার শর্ত।",
-  "latex": "ax^2+2hxy+by^2=0,\\quad \\tan\\theta=\\frac{2\\sqrt{h^2-ab}}{a+b},\\quad h^2\\ge ab",
+  "latex": "ax^2+2hxy+by^2=0,\\quad \\tan\\theta=\\frac{2\\sqrt{h^2-ab}}{|a+b|},\\quad h^2\\ge ab",
   "tags": [
     "hsc",
     "eng-admission",

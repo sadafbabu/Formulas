@@ -39,12 +39,12 @@
     {
       "symbol": "\\mu_r",
       "meaning": "আপেক্ষিক চৌম্বক প্রবেশ্যতা",
-      "unit": "মাত্রাচ্ছন্ন"
+      "unit": "মাত্রাহীন"
     },
     {
       "symbol": "\\chi_m",
       "meaning": "চৌম্বক গ্রহীতা (Susceptibility)",
-      "unit": "মাত্রাচ্ছন্ন"
+      "unit": "মাত্রাহীন"
     }
   ],
   "derivation": {

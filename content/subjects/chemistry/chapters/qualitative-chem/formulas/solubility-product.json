@@ -18,7 +18,7 @@
     {
       "symbol": "K_{sp}",
       "meaning": "দ্রাব্যতা গুণফল (ধ্রুবক)",
-      "unit": "(mol/L)ⁿ⁺ᵐ"
+      "unit": "concentration convention-এ (mol/L)^(x+y)"
     },
     {
       "symbol": "K_{ip}",
@@ -39,7 +39,8 @@
         "latex": "K_{ip} > K_{sp} \\implies \\text{Precipitate forms}, \\quad K_{ip} = K_{sp} \\implies \\text{Saturated}",
         "note": "AB₂ লবণের জন্য Ksp = 4 S³"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -50,5 +51,9 @@
   ],
   "memorize": {
     "trick": "Ksp = [ক্যাটায়ন]^x[অ্যানায়ন]^y — ঘনমাত্রা গুণফল, প্রতিটি আয়নের স্টয়শিওমেট্রি ঘাতে।"
-  }
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

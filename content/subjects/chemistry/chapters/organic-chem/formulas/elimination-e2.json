@@ -2,7 +2,7 @@
   "title": "Elimination (E2) & Saytzeff Rule",
   "titleBn": "বিয়োজন (E2) ও সায়ৎজেফ নিয়ম",
   "summary": "অ্যালকাইল হ্যালাইড বিয়োজন ও সায়ৎজেফ নিয়ম",
-  "latex": "\\ce{R-CH_2-CH_2-X + KOH ->[\\text{alc}] R-CH=CH_2 + KX + H_2O}",
+  "latex": "\\ce{R-CH2-CH2-X + KOH ->[alc.,\\ \\Delta] R-CH=CH2 + KX + H2O}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -27,7 +27,9 @@
         "note": "বেস বেশি বাধাদানকারী হলে Hofmann পণ্য প্রধান"
       }
     ],
-    "assumptions": "দ্বিতীয় স্তরীয়/তৃতীয় স্তরীয় হ্যালাইড"
+    "assumptions": [
+      "β-H ও উপযুক্ত strong base আবশ্যক; primary, secondary বা tertiary substrate-এ E2 হতে পারে, competition ভিন্ন"
+    ]
   },
   "id": "elimination-e2",
   "chapter": "organic-chem",
@@ -39,5 +41,9 @@
       "সবল ক্ষার (অ্যালকোহলীয় KOH) ও উচ্চ তাপ E2 কে সাহায্য করে; জলীয় KOH দিলে প্রতিস্থাপন হয়।",
       "ব্যতিক্রম: ভারী ক্ষার (t-BuOK) দিলে হফম্যান উৎপাদ (কম প্রতিস্থাপিত অ্যালকিন) প্রধান হয়।"
     ]
-  }
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

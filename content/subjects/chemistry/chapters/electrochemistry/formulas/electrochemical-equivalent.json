@@ -26,7 +26,7 @@
     {
       "symbol": "Z",
       "meaning": "তড়িৎ রাসায়নিক তুল্যাঙ্ক",
-      "unit": "kg/C"
+      "unit": "g/C (M g/mol ও m gram হলে)"
     },
     {
       "symbol": "F",

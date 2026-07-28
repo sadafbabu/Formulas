@@ -62,7 +62,7 @@
     "trick": "Coefficients সামনে-পেছনে এক হলে reciprocal equation। মধ্যঘাত দিয়ে ভাগ করে t=x+1/x নিন; x²+1/x²=t²−2। Degree অর্ধেক হয়ে যায়।",
     "steps": [
       "Palindromic root জোড়া α ও 1/α।",
-      "Anti-palindromic even degree-এ x=1; odd degree-এ x=±1 factor পরীক্ষা করুন।"
+      "Anti-palindromic polynomial-এ x=1 সব degree-তেই root; degree even হলে x=−1-ও root।"
     ]
   }
 }

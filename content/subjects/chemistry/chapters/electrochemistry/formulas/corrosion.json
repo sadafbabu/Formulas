@@ -4,7 +4,7 @@
   "title": "Electrochemical Corrosion",
   "titleBn": "তড়িৎ রাসায়নিক ক্ষয় ও মরিচা প্রতিরোধ",
   "summary": "লোহার electrochemical rusting অর্ধ-বিক্রিয়া ও galvanization/cathodic protection।",
-  "latex": "\\ce{Fe -> Fe^{2+}+2e-},\\quad \\ce{O2+2H2O+4e- -> 4OH-},\\quad \\ce{4Fe(OH)2+O2 -> 2Fe2O3.H2O}",
+  "latex": "\\ce{Fe -> Fe^{2+}+2e-},\\quad \\ce{O2+2H2O+4e- -> 4OH-},\\quad \\ce{4Fe(OH)2+O2+2H2O -> 4Fe(OH)3 -> Fe2O3.xH2O}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -23,8 +23,8 @@
   ],
   "symbols": [
     {
-      "symbol": "\\ce{Fe2O3.H2O}",
-      "meaning": "জলযুক্ত ফেরিক অক্সাইড (মরিচা)",
+      "symbol": "\\ce{Fe2O3.xH2O}",
+      "meaning": "পরিবর্তনশীল জলযুক্ত ferric oxide (মরিচা)",
       "unit": "—"
     },
     {

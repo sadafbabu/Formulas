@@ -48,8 +48,8 @@
     "steps": [
       {
         "title": "সংজ্ঞা",
-        "latex": "\\Phi_2 = MI_1 \\Rightarrow \\varepsilon_2 = -M\\frac{dI_1}{dt}",
-        "note": "M দুই কুণ্ডলীর জ্যামিতি ও অবস্থানের উপর নির্ভর করে।"
+        "latex": "N_2\\Phi_2=MI_1\\Rightarrow\\varepsilon_2=-M\\frac{dI_1}{dt}",
+        "note": "Φ₂ প্রতি turn-এর flux; N₂Φ₂ হলো মোট flux linkage।"
       },
       {
         "title": "সংযুক্তি",
@@ -58,8 +58,8 @@
       },
       {
         "title": "ঘূর্ণি প্রবাহ",
-        "latex": "P_{\\text{অপচয়}} \\propto f^2B^2t^2",
-        "note": "ল্যামিনেটেড কোর ব্যবহার করে এই অপচয় কমানো হয়; আবার ইন্ডাকশন চুলা ও চৌম্বক ব্রেকে একই প্রভাব কাজে লাগানো হয়।"
+        "latex": "\\frac{P_e}{V}\\propto\\frac{B_{\\max}^2f^2d^2}{\\rho}",
+        "note": "d হলো lamination thickness; পাতলা insulated lamination-এ eddy-current loss কমে।"
       }
     ],
     "assumptions": [

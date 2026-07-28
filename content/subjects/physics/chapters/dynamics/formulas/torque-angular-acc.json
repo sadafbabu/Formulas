@@ -4,7 +4,7 @@
   "title": "Torque and Angular Acceleration",
   "titleBn": "টর্ক এবং কৌণিক ত্বরণ",
   "summary": "ঘূর্ণন গতিতে বলের ভ্রামক বা টর্কের সমীকরণ",
-  "latex": "\\tau = I \\alpha = r F \\sin\\theta",
+  "latex": "\\vec\\tau=\\frac{d\\vec L}{dt};\\quad \\tau=I\\alpha\\ (\\text{স্থির principal axis});\\quad \\tau=rF\\sin\\theta",
   "tags": [
     "hsc",
     "eng-admission",
@@ -44,6 +44,9 @@
         "latex": "\\tau = r F = r (m a) = r m (r \\alpha) = (m r^2) \\alpha = I \\alpha",
         "note": "জড়তার ভ্রামক I = m r²"
       }
+    ],
+    "assumptions": [
+      "τ = Iα রূপে একটি স্থির principal axis-এর চারপাশে ঘূর্ণন"
     ]
   },
   "questions": [
@@ -59,5 +62,9 @@
       "রৈখিক F = ma ↔ ঘূর্ণন τ = Iα — পুরো অধ্যায় এই একটাই মিল।",
       "τ = rF sinθ; বল ব্যাসার্ধের বরাবর হলে (θ = 0) টর্ক শূন্য।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

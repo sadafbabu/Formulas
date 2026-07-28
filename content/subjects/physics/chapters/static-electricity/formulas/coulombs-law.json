@@ -4,7 +4,7 @@
   "title": "Coulomb's Law",
   "titleBn": "কুলম্বের সূত্র",
   "summary": "দুইটি বিন্দু আধানের মধ্যবর্তী আকর্ষণ বা বিকর্ষণ বলের পরিমাণ",
-  "latex": "F = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2}",
+  "latex": "F=k\\frac{|q_1q_2|}{r^2},\\quad \\vec F_{12}=\\frac{1}{4\\pi\\varepsilon_0}\\frac{q_1q_2}{r^2}\\hat r_{12}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -44,7 +44,8 @@
         "latex": "F = k \\frac{q_1 q_2}{r^2}, \\quad k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 9 \\times 10^9",
         "note": "শূন্যমাধ্যমে k এর মান ৯ × ১০⁹ N m²/C²"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -55,5 +56,9 @@
   ],
   "memorize": {
     "trick": "F = kq₁q₂/r² — চার্জ গুণফল উপরে, দূরত্ব বর্গ নিচে। একই চার্জ বিকর্ষণ, বিপরীত চার্জ আকর্ষণ।"
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

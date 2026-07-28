@@ -4,7 +4,7 @@
   "title": "Amplifier Gain & Feedback",
   "titleBn": "ট্রানজিস্টর বিবর্ধক, লাভ ও ফিডব্যাক",
   "summary": "কমন-ইমিটার বিবর্ধকের ভোল্টেজ ও ক্ষমতা লাভ, ডেসিবেল মান এবং দোলক হওয়ার শর্ত।",
-  "latex": "A_v = -\\beta\\frac{R_C}{R_{in}}, \\quad A_p = \\beta^2\\frac{R_C}{R_{in}}, \\quad G_{dB} = 20\\log_{10}|A_v|",
+  "latex": "A_v=-\\beta\\frac{R_C}{R_{in}},\\quad G_{v,\\mathrm{dB}}=20\\log_{10}|A_v|,\\quad G_{p,\\mathrm{dB}}=10\\log_{10}A_p",
   "tags": [
     "hsc",
     "eng-admission",
@@ -53,8 +53,8 @@
       },
       {
         "title": "ডেসিবেল",
-        "latex": "G_{dB} = 20\\log_{10}|A_v| = 10\\log_{10}A_p",
-        "note": "ভোল্টেজে ২০ গুণক, ক্ষমতায় ১০ গুণক — এটাই মনে রাখার মূল কথা।"
+        "latex": "G_{v,\\mathrm{dB}}=20\\log_{10}|A_v|,\\quad G_{p,\\mathrm{dB}}=10\\log_{10}A_p",
+        "note": "দুই dB expression সমান বলা যায় কেবল input/output reference impedance সমান হলে।"
       },
       {
         "title": "দোলকের শর্ত",

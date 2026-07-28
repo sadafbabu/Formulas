@@ -31,7 +31,7 @@
     {
       "symbol": "k_f, k_b",
       "meaning": "সম্মুখ ও পশ্চাৎ বেগ ধ্রুবক",
-      "unit": "—"
+      "unit": "reaction order-নির্ভর"
     },
     {
       "symbol": "[A], [B]",
@@ -50,7 +50,8 @@
     ],
     "assumptions": [
       "গতিশীল সাম্য",
-      "আদর্শ আচরণ"
+      "আদর্শ আচরণ",
+      "Kc = kf/kb রূপে forward ও reverse elementary/mass-action rate law-এর ঘাত stoichiometric coefficient-এর সমান"
     ]
   },
   "questions": [

@@ -44,7 +44,8 @@
         "latex": "\\text{Base} = |\\mathbf{A}|, \\quad \\text{Height} = |\\mathbf{B}| \\sin\\theta \\implies \\text{Area} = |\\mathbf{A}| |\\mathbf{B}| \\sin\\theta = |\\mathbf{A} \\times \\mathbf{B}|",
         "note": "কর্ণদ্বয় দেওয়া থাকলে ক্ষেত্রফল = 1/2 |d1 × d2|"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -60,5 +61,9 @@
       "সমান্তরাল ভেক্টরে A×B = 0 (sin0 = 0) — সমরেখতা যাচাইয়ের উপায়।",
       "প্রয়োগ: টর্ক τ = r×F, কৌণিক ভরবেগ L = r×p।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

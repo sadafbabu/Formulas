@@ -38,6 +38,9 @@
         "latex": "D > 0 \\implies \\text{বাস্তব ও অসম}, \\quad D = 0 \\implies \\text{বাস্তব ও সমান}, \\quad D < 0 \\implies \\text{জটিল/জটিল জোড়}",
         "note": "ত্রিঘাত সমীকরণের মূলের যোগফল S1 = -b/a, S2 = c/a, S3 = -d/a"
       }
+    ],
+    "assumptions": [
+      "a,b,c বাস্তব এবং a ≠ 0"
     ]
   },
   "questions": [
@@ -54,5 +57,9 @@
       "D>0 বাস্তব দুই মূল, D=0 সমান মূল, D<0 জটিল মূল",
       "মূল যোগফল = -b/a, গুণফল = c/a"
     ]
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

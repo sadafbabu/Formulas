@@ -4,7 +4,7 @@
   "title": "Faraday's & Lenz's Law of Induction",
   "titleBn": "ফ্যারাডে ও লেঞ্জের আবেশ সূত্র",
   "summary": "চৌম্বক ফ্লাক্সের পরিবর্তনের হারের সাথে আবিষ্ট তড়িৎচালক বলের সম্পর্ক",
-  "latex": "\\mathcal{E} = -N \\frac{d\\Phi_B}{dt}",
+  "latex": "\\overline{\\mathcal E}=-N\\frac{\\Delta\\Phi}{\\Delta t},\\quad \\mathcal E=-N\\frac{d\\Phi}{dt};\\quad A,\\theta\\ \\text{ধ্রুব হলে }\\mathcal E=-NA\\cos\\theta\\frac{dB}{dt}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -44,6 +44,9 @@
         "latex": "\\mathcal{E} = -N \\frac{\\Delta \\Phi_B}{\\Delta t} = -N A \\frac{dB}{dt}",
         "note": "স্থির ক্ষেত্রফলে dΦ = A dB"
       }
+    ],
+    "assumptions": [
+      "শেষ রূপে coil area A ও B–area-normal angle θ ধ্রুব"
     ]
   },
   "questions": [
@@ -60,5 +63,9 @@
       "ঋণাত্মক চিহ্ন = লেঞ্জের সূত্র = শক্তির নিত্যতা।",
       "সরল তারে চলন-emf: ε = Blv।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

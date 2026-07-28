@@ -59,7 +59,8 @@
       }
     ],
     "assumptions": [
-      "সব এনথালপি একই তাপমাত্রা ও standard state-এ।"
+      "সব এনথালপি একই তাপমাত্রা ও standard state-এ।",
+      "দেখানো equation 1:1 salt MX, M(s) ও ½X₂(g) থেকে গঠনের জন্য"
     ]
   },
   "questions": [

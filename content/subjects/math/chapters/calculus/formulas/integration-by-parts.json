@@ -33,7 +33,8 @@
         "latex": "\\int d(uv) = \\int u dv + \\int v du \\implies u v = \\int u dv + \\int v du \\implies \\int u dv = u v - \\int v du",
         "note": "ফাংশন চয়নক্রম: L (Logarithmic) -> I (Inverse Trig) -> A (Algebraic) -> T (Trig) -> E (Exponential)"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -44,5 +45,9 @@
   ],
   "memorize": {
     "trick": "∫u dv = uv - ∫v du — ILATE নিয়ম: Inverse, Log, Algebra, Trig, Exponential ক্রমে u বেছে নাও।"
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

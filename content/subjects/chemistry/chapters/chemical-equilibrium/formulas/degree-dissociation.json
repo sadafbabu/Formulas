@@ -38,7 +38,9 @@
         "note": "α ক্ষুদ্র হলে K_a ≈ cα²"
       }
     ],
-    "assumptions": "এক-ধাপী বিয়োজন"
+    "assumptions": [
+      "এক-ধাপী বিয়োজন"
+    ]
   },
   "id": "degree-dissociation",
   "chapter": "chemical-equilibrium",
@@ -50,5 +52,9 @@
       "[H⁺] = cα = √(K_a·c), তাই pH = ½(pK_a − log c)।",
       "সবল তড়িৎবিশ্লেষ্যে α ≈ 1, সূত্রটি খাটে না।"
     ]
-  }
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

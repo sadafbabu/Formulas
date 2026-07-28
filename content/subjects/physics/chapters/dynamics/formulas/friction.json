@@ -54,7 +54,8 @@
         "latex": "\\text{Incline angle } \\alpha: \\quad mg\\sin\\alpha = \\mu_s mg\\cos\\alpha \\implies \\mu_s = \\tan\\alpha",
         "note": "ঘর্ষণ কোণ θ = arctan(μ_s)"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -70,5 +71,9 @@
       "গতি: f_k = μ_k N — সবসময় সমান।",
       "আনত তলে ঠিক পিছলে যাওয়ার কোণে tanθ = μ_s (কোণটিকে বলে ঘর্ষণ কোণ)।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

@@ -34,7 +34,8 @@
         "latex": "I_1 P = I_2 R, \\quad I_1 Q = I_2 S \\implies \\frac{P}{Q} = \\frac{R}{S}",
         "note": "গ্যালভানোমিটার প্রবাহ Ig = 0"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -50,5 +51,9 @@
       "তখন P/Q = R/S, অর্থাৎ অজানা S = QR/P।",
       "মিটার ব্রীজে S = R·(100 − l)/l — এখানে l হলো সাম্য দৈর্ঘ্য।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

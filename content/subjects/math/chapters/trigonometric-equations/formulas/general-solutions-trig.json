@@ -38,7 +38,8 @@
         "latex": "\\sin\\theta = 0 \\implies \\theta = n\\pi, \\quad \\cos\\theta = 0 \\implies \\theta = (2n+1)\\frac{\\pi}{2}, \\quad \\tan\\theta = 0 \\implies \\theta = n\\pi",
         "note": "n = 0, ±1, ±2 ... বসিয়ে নির্দিষ্ট ব্যবধির মান নির্ণয় করা হয়"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -54,5 +55,9 @@
       "cos θ = cos α → θ = 2nπ ± α",
       "tan θ = tan α → θ = nπ + α"
     ]
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

@@ -28,7 +28,9 @@
         "note": "3° অ্যালকোহল সাধারণ অবস্থায় জারিত হয় না"
       }
     ],
-    "assumptions": "মৃদু জারক"
+    "assumptions": [
+      "PCC মৃদু/anhydrous oxidant; acidified K₂Cr₂O₇ বা KMnO₄ শক্তিশালী oxidant"
+    ]
   },
   "id": "alcohol-oxidation",
   "chapter": "organic-chem",
@@ -40,5 +42,9 @@
       "২° অ্যালকোহল → কিটোন (এখানেই শেষ, আর এগোয় না)।",
       "৩° অ্যালকোহলে α-কার্বনে H নেই, তাই সাধারণভাবে জারিত হয় না।"
     ]
-  }
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

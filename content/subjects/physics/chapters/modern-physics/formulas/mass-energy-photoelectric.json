@@ -4,7 +4,7 @@
   "title": "Photoelectric Effect and Mass-Energy",
   "titleBn": "ফটোতড়িৎ ক্রিয়া ও ভর-শক্তি সমীকরণ",
   "summary": "আইনস্টাইনের ফটোইলেকট্রিক সমীকরণ ও ভর-শক্তি রূপান্তর",
-  "latex": "E = h f = K_{\\max} + W_0, \\quad E = m c^2",
+  "latex": "E_\\gamma=hf=K_{\\max}+W_0,\\quad K_{\\max}=eV_0,\\quad E_0=mc^2",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,7 +16,7 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "E",
+      "symbol": "E_\\gamma",
       "meaning": "ফোটনের শক্তি",
       "unit": "J (Joule) বা eV"
     },
@@ -39,6 +39,11 @@
       "symbol": "c",
       "meaning": "আলোর বেগ (3 × 10⁸)",
       "unit": "m/s"
+    },
+    {
+      "symbol": "m",
+      "meaning": "বিশ্রাম ভর",
+      "unit": "kg"
     }
   ],
   "derivation": {
@@ -49,7 +54,8 @@
         "latex": "h f = h f_0 + \\frac{1}{2} m v_{\\max}^2 \\implies K_{\\max} = h(f - f_0)",
         "note": "f₀ হলো সূচনা কম্পাঙ্ক (Threshold frequency)"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -66,5 +72,9 @@
       "তীব্রতা বাড়লে ইলেকট্রনের সংখ্যা বাড়ে, শক্তি বাড়ে না — এটাই কোয়ান্টাম প্রমাণ।",
       "E = mc² — ভর ও শক্তির সমতা।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

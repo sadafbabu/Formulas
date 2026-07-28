@@ -4,7 +4,7 @@
   "title": "Relative Velocity",
   "titleBn": "আপেক্ষিক বেগ ও নদী-নৌকা সমস্যা",
   "summary": "দুই গতিশীল বস্তুর একটির সাপেক্ষে অন্যটির বেগ; নদী পার হওয়ার সমস্যায় সরাসরি প্রযোজ্য।",
-  "latex": "\\vec{v}_{AB} = \\vec{v}_A - \\vec{v}_B, \\quad t_{\\min} = \\frac{d}{v_b}, \\quad \\theta = \\sin^{-1}\\!\\left(\\frac{v_r}{v_b}\\right)",
+  "latex": "\\vec v_{AB}=\\vec v_A-\\vec v_B,\\quad t_{\\min}=\\frac d{v_b},\\quad \\theta_{\\text{normal}}=\\sin^{-1}\\!\\left(\\frac{v_r}{v_b}\\right)",
   "tags": [
     "hsc",
     "eng-admission",
@@ -58,7 +58,7 @@
       {
         "title": "সোজা বিপরীত পাড়ে",
         "latex": "\\sin\\theta = \\frac{v_r}{v_b}, \\quad t = \\frac{d}{\\sqrt{v_b^2 - v_r^2}}",
-        "note": "স্রোতের বিপরীতে θ কোণে চালাতে হয়; এক্ষেত্রে সময় বেশি লাগে।"
+        "note": "θ নদীর লম্ব দিক থেকে upstream-এর দিকে মাপা; তীরের দিক থেকে কোণ = 90°−θ।"
       }
     ],
     "assumptions": [
@@ -69,7 +69,7 @@
   "questions": [
     {
       "examType": "Eng Admission",
-      "question": "৪ m/s বেগে চলা নৌকা ৩ m/s স্রোতের নদী (প্রস্থ ১০০ m) সোজা বিপরীত পাড়ে পার হতে চাইলে কত কোণে চালাতে হবে এবং কত সময় লাগবে?",
+      "question": "৪ m/s বেগে চলা নৌকা ৩ m/s স্রোতের ১০০ m চওড়া নদীতে সোজা বিপরীত পাড়ে যেতে নদীর লম্ব থেকে upstream-এর দিকে কত কোণে চালাতে হবে এবং কত সময় লাগবে?",
       "answer": "\\sin\\theta = 3/4 \\Rightarrow \\theta = 48.6^\\circ, \\quad t = \\frac{100}{\\sqrt{16-9}} = \\frac{100}{2.65} \\approx 37.8\\ \\text{s}"
     }
   ],

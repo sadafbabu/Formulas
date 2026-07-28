@@ -2,7 +2,7 @@
   "title": "PN Junction Diode Equation",
   "titleBn": "PN সংযোগ ডায়োড সমীকরণ",
   "summary": "ডায়োডের বিভব-প্রবাহ সম্পর্ক ও সম্পৃক্ত বিভব",
-  "latex": "I = I_0 \\left(e^{eV/kT} - 1\\right), \\quad V_T = \\frac{kT}{e} \\approx 26\\ \\text{mV}",
+  "latex": "I=I_0\\left(e^{eV/(\\eta kT)}-1\\right),\\quad V_T=\\frac{kT}{e}\\approx26\\ \\mathrm{mV}\\ (300\\ \\mathrm K)",
   "tags": [
     "hsc",
     "eng-admission",
@@ -32,6 +32,11 @@
       "meaning": "তাপীয় বিভব",
       "unit": "V",
       "value": "26 mV (300K)"
+    },
+    {
+      "symbol": "\\eta",
+      "meaning": "diode ideality factor (সাধারণত ১–২)",
+      "unit": "এককহীন"
     }
   ],
   "derivation": {
@@ -58,5 +63,9 @@
       "বিপরীত ঝোঁকে সূচকীয় পদ ≈ 0 → I ≈ −I₀ (ক্ষুদ্র সম্পৃক্ত প্রবাহ)।",
       "কাট-ইন ভোল্টেজ: সিলিকনে ০.৭ V, জার্মেনিয়ামে ০.৩ V।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

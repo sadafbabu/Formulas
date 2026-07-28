@@ -48,7 +48,8 @@
       }
     ],
     "assumptions": [
-      "f ও g অবকলনযোগ্য, a-এর কাছে"
+      "f ও g অবকলনযোগ্য, a-এর কাছে",
+      "L'Hôpital-এ punctured neighborhood-এ differentiable, g′≠0, 0/0 বা ∞/∞ form, এবং lim f′/g′ বিদ্যমান (finite/infinite)"
     ]
   },
   "questions": [

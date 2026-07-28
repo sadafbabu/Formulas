@@ -33,7 +33,8 @@
         "latex": "\\tan\\theta = \\tan(\\theta_1 - \\theta_2) = \\frac{\\tan\\theta_1 - \\tan\\theta_2}{1 + \\tan\\theta_1 \\tan\\theta_2} = \\frac{m_1 - m_2}{1 + m_1 m_2}",
         "note": "m1 · m2 = -1 হলে রেখাদ্বয় পরস্পর লম্ব"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -49,5 +50,9 @@
       "সমান্তরাল: m₁ = m₂।",
       "একটি রেখা উল্লম্ব হলে (m অসংজ্ঞায়িত) সূত্র খাটে না — তখন কোণ সরাসরি হিসাব করুন।"
     ]
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

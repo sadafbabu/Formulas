@@ -38,7 +38,8 @@
         "latex": "\\sin^{-1}(1) = \\frac{\\pi}{2}, \\quad \\cos^{-1}(0) = \\frac{\\pi}{2}, \\quad \\tan^{-1}(1) = \\frac{\\pi}{4}, \\quad \\tan^{-1}(\\sqrt{3}) = \\frac{\\pi}{3}",
         "note": "tan⁻¹x + cot⁻¹x = π/2 এবং sec⁻¹x + csc⁻¹x = π/2"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -50,9 +51,13 @@
   "memorize": {
     "trick": "পরিপূরক জোড়: sin⁻¹x + cos⁻¹x = π/2, tan⁻¹x + cot⁻¹x = π/2, sec⁻¹x + cosec⁻¹x = π/2 — তিন জোড়ারই যোগফল π/2। আর tan⁻¹x + tan⁻¹y = tan⁻¹[(x+y)/(1−xy)], শর্ত xy < 1।",
     "steps": [
-      "যোগফল সূত্রে xy > 1 হলে π যোগ করতে হয় — এই শর্তটাই সবচেয়ে বেশি বাদ পড়ে।",
+      "tan⁻¹x + tan⁻¹y-এ xy>1 হলে: x,y>0 হলে +π branch; x,y<0 হলে −π branch।",
       "মুখ্য মান: sin⁻¹ এর পাল্লা [−π/2, π/2], cos⁻¹ এর [0, π], tan⁻¹ এর (−π/2, π/2)।",
-      "2tan⁻¹x = tan⁻¹[2x/(1−x²)] = sin⁻¹[2x/(1+x²)]।"
+      "2tan⁻¹x-এর tan⁻¹ রূপ branch correction ছাড়া |x|<1-এ; sin⁻¹ রূপ principal equality-তে |x|≤1।"
     ]
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

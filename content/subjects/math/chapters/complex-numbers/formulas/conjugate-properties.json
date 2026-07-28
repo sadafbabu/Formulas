@@ -32,7 +32,9 @@
         "note": "ভাগফলের জন্য |z₁/z₂| = |z₁|/|z₂|"
       }
     ],
-    "assumptions": "z₂ ≠ 0 (ভাগের ক্ষেত্রে)"
+    "assumptions": [
+      "z₂ ≠ 0 (ভাগের ক্ষেত্রে)"
+    ]
   },
   "id": "conjugate-properties",
   "chapter": "complex-numbers",
@@ -44,5 +46,9 @@
       "conj(z₁z₂) = conj(z₁)·conj(z₂) — অন্বয়ী গুণ ও যোগে ভেঙে যায়।",
       "z + z̄ = 2a (বাস্তব অংশের দ্বিগুণ), z − z̄ = 2ib।"
     ]
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

@@ -4,7 +4,7 @@
   "title": "Cube Roots of Unity & Properties",
   "titleBn": "১-এর ঘনমূল ও ধর্ম",
   "summary": "১-এর তিনটি ঘনমূল ও তাদের যোগফল শূন্য ধর্ম",
-  "latex": "1, \\omega, \\omega^2; \\quad \\omega = e^{2\\pi i/3} = \\frac{-1+i\\sqrt{3}}{2}, \\quad 1 + \\omega + \\omega^2 = 0, \\quad \\omega^3 = 1",
+  "latex": "z^3=1\\Rightarrow z=e^{2k\\pi i/3},\\quad k=0,1,2;\\qquad 1+\\omega+\\omega^2=0,\\quad \\omega^3=1",
   "tags": [
     "hsc",
     "eng-admission",

@@ -15,7 +15,7 @@
   "symbols": [
     {
       "symbol": "\\rho",
-      "meaning": "রোধ অপরিষ্কার সংখ্যা (resistivity)",
+      "meaning": "রোধাঙ্ক (resistivity)",
       "unit": "Ω·m"
     },
     {
@@ -48,7 +48,9 @@
         "note": "তাপমাত্রা বাড়লে ধাতুর রোধ বাড়ে"
       }
     ],
-    "assumptions": "রৈখিক তাপীয় নির্ভরতা"
+    "assumptions": [
+      "রৈখিক তাপীয় নির্ভরতা"
+    ]
   },
   "id": "resistivity-temperature",
   "chapter": "current-electricity",
@@ -60,5 +62,9 @@
       "তার টেনে লম্বা করলে আয়তন স্থির থাকে, তাই R ∝ l² — এটি পরীক্ষায় খুব আসে।",
       "রোধাঙ্ক ρ পদার্থের ধর্ম, রোধ R আকৃতির উপরও নির্ভর করে।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

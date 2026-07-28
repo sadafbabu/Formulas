@@ -43,7 +43,9 @@
         "note": "1 Faraday = 96500 C আধান"
       }
     ],
-    "assumptions": "একই সময়, একই প্রবাহ"
+    "assumptions": [
+      "একই সময়, একই প্রবাহ"
+    ]
   },
   "id": "faraday-second-law",
   "chapter": "electrochemistry",
@@ -55,5 +57,9 @@
       "শ্রেণীতে জোড়া কোষে প্রবাহ একই, তাই ভর কেবল E-এর উপর নির্ভর করে।",
       "প্রথম সূত্রের সাথে মিলিয়ে m = (E·I·t)/96500।"
     ]
-  }
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

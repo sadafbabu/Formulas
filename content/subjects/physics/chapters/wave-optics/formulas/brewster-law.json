@@ -4,7 +4,7 @@
   "title": "Brewster's Law & Resolving Power",
   "titleBn": "ব্রুস্টারের সূত্র ও বিভেদন ক্ষমতা",
   "summary": "প্রতিফলনে পূর্ণ সমবর্তনের কোণ এবং যন্ত্রের বিভেদন ক্ষমতার সীমা।",
-  "latex": "\\mu = \\tan\\theta_p, \\quad \\theta_p + \\theta_r = 90^\\circ, \\quad \\theta_{\\min} = \\frac{1.22\\lambda}{D}",
+  "latex": "\\frac{n_2}{n_1}=\\tan\\theta_B,\\quad \\theta_B+\theta_r=90^\\circ,\\quad \\theta_{\\min}=\\frac{1.22\\lambda}{D}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -64,7 +64,8 @@
     ],
     "assumptions": [
       "পৃষ্ঠ মসৃণ ও সমসত্ত্ব।",
-      "বৃত্তাকার অ্যাপারচার (১.২২ গুণক এ কারণেই)।"
+      "বৃত্তাকার অ্যাপারচার (১.২২ গুণক এ কারণেই)।",
+      "μ = tanθ_B সরল রূপে প্রথম মাধ্যম বায়ু/শূন্যস্থান (n₁ ≈ 1)"
     ]
   },
   "questions": [

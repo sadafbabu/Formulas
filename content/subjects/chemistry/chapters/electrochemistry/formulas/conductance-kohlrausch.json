@@ -3,7 +3,7 @@
   "chapter": "electrochemistry",
   "title": "Molar Conductance & Kohlrausch Law",
   "titleBn": "মোলার পরিবাহিতাও কোলরাউশের সূত্র",
-  "summary": "তড়িৎ বিশ্লেষ্যের মোলার পরিবাহিতা ও অসীম লঘুতায় তুল্য পরিবাহিতা",
+  "summary": "তড়িৎ বিশ্লেষ্যের মোলার পরিবাহিতা ও অসীম লঘুতায় মোলার পরিবাহিতা",
   "latex": "\\Lambda_m = \\frac{\\kappa \\times 1000}{M}, \\quad \\Lambda_m^\\circ = \\nu_+ \\lambda_+^\\circ + \\nu_- \\lambda_-^\\circ",
   "tags": [
     "hsc",
@@ -44,7 +44,8 @@
         "latex": "\\Lambda_m^\\circ (\\text{NaCl}) = \\lambda^\\circ (\\text{Na}^+) + \\lambda^\\circ (\\text{Cl}^-)",
         "note": "মৃদু তড়িৎ বিশ্লেষ্যের দ্রাব্যতা ও বিয়োজন মাত্রা α = Λm / Λm° নির্ণয়ে ব্যবহৃত হয়"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -60,5 +61,9 @@
       "এ কারণেই দুর্বল তড়িৎবিশ্লেষ্যের Λ_m° পরোক্ষভাবে (সবল লবণ থেকে যোগ-বিয়োগ করে) বের করা যায়।",
       "α = Λ_m/Λ_m° — বিয়োজন মাত্রা এভাবেও পাওয়া যায়।"
     ]
-  }
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

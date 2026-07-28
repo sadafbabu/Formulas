@@ -2,7 +2,7 @@
   "title": "Optical Path & Phase Difference",
   "titleBn": "আলোকীয় পথ ও দশা পার্থক্য",
   "summary": "আলোকীয় পথ দৈর্ঘ্য ও দশা পার্থক্য সম্পর্ক",
-  "latex": "\\Delta = \\mu x, \\quad \\Delta\\phi = \\frac{2\\pi}{\\lambda}\\mu x",
+  "latex": "\\mathrm{OPL}=\\mu x,\\quad \\Delta\\phi=\\frac{2\\pi}{\\lambda_0}\\Delta(\\mathrm{OPL})",
   "tags": [
     "hsc",
     "eng-admission",
@@ -14,7 +14,7 @@
   "symbols": [
     {
       "symbol": "\\Delta",
-      "meaning": "আলোকীয় পথ",
+      "meaning": "দুই optical path length-এর পার্থক্য",
       "unit": "m"
     },
     {
@@ -42,7 +42,9 @@
         "note": "ব্যাতিচারে দশা পার্থক্য থেকে ডোরা তৈরি"
       }
     ],
-    "assumptions": "একই তরঙ্গদৈর্ঘ্য"
+    "assumptions": [
+      "একই তরঙ্গদৈর্ঘ্য"
+    ]
   },
   "id": "optical-path-phase",
   "chapter": "wave-optics",
@@ -54,5 +56,9 @@
       "Δφ = (2π/λ)·Δ — পথ থেকে দশা বের করার সেতু।",
       "পথ পার্থক্য λ/2 হলে দশা পার্থক্য π, তাই ধ্বংসাত্মক ব্যতিচার।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

@@ -71,7 +71,7 @@
     {
       "examType": "BUET Admission",
       "question": "একটি LCR বর্তনীতে L = 10 mH, C = 10 μF। অনুনাদ কম্পাঙ্ক কত?",
-      "answer": "f_0 = \\frac{1}{2\\pi\\sqrt{LC}} = \\frac{1}{2\\pi\\sqrt{10\\times10^{-3} \\times 10\\times10^{-6}}} = \\frac{1}{2\\pi\\times10^{-4}} \\approx 1591.5\\ \\text{Hz}"
+      "answer": "f_0=\\frac{1}{2\\pi\\sqrt{(10\\times10^{-3})(10\\times10^{-6})}}\\approx503.3\\ \\text{Hz}"
     }
   ],
   "memorize": {

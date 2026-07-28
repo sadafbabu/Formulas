@@ -4,7 +4,7 @@
   "title": "Hydrogen Bonding & Intermolecular Forces",
   "titleBn": "হাইড্রোজেন বন্ধন ও আন্তঃআণবিক আকর্ষণ",
   "summary": "H–F/O/N যুক্ত অণুতে hydrogen bond এবং স্ফুটনাঙ্ক, দ্রাব্যতা ও গঠনে তার প্রভাব।",
-  "latex": "\\ce{X-H\\bond{...}Y}\\quad (X,Y=\\ce{F,O,N});\\qquad F_{\\mathrm{ion-ion}}>F_{\\mathrm{H-bond}}>F_{\\mathrm{dipole}}>F_{\\mathrm{London}}",
+  "latex": "\\ce{X-H\\bond{...}Y}\\quad(X,Y=\\ce{F,O,N});\\qquad \\text{comparable species-এ সাধারণত H-bond সাধারণ dipole/London force-এর চেয়ে শক্তিশালী}",
   "tags": [
     "hsc",
     "eng-admission",

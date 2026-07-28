@@ -37,12 +37,18 @@
         "note": "এখান থেকে de Moivre সূত্র প্রাপ্ত"
       }
     ],
-    "assumptions": "θ রেডিয়ানে"
+    "assumptions": [
+      "θ রেডিয়ানে"
+    ]
   },
   "id": "euler-form",
   "chapter": "complex-numbers",
   "questions": [],
   "memorize": {
     "trick": "e^(iθ) = cos θ + i sin θ — জটিল সংখ্যার সূচকীয় রূপ। মডুলাস r ও আর্গুমেন্ট θ।"
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

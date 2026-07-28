@@ -4,7 +4,7 @@
   "title": "Angular Momentum & Its Conservation",
   "titleBn": "কৌণিক ভরবেগ ও এর সংরক্ষণ",
   "summary": "ঘূর্ণনের ভরবেগ L = Iω; বাহ্যিক টর্ক শূন্য হলে L ধ্রুব থাকে।",
-  "latex": "\\vec{L} = \\vec{r} \\times \\vec{p} = I\\vec{\\omega}, \\quad \\tau = \\frac{dL}{dt}, \\quad \\tau_{ext} = 0 \\Rightarrow I_1\\omega_1 = I_2\\omega_2",
+  "latex": "\\vec L=\\vec r\\times\\vec p;\\quad \\vec L=I\\vec\\omega\\ (\\text{principal axis});\\quad \\vec\\tau=\\frac{d\\vec L}{dt}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -60,7 +60,8 @@
     ],
     "assumptions": [
       "বাহ্যিক টর্ক শূন্য।",
-      "বস্তু দৃঢ়।"
+      "বস্তু দৃঢ়।",
+      "L = Iω রূপে fixed principal/symmetry axis"
     ]
   },
   "questions": [

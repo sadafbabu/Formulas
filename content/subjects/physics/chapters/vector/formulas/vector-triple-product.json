@@ -27,7 +27,9 @@
         "note": "লব্ধি ভেক্টর b, c সমতলে অবস্থান করে"
       }
     ],
-    "assumptions": "ত্রিমাত্রিক স্থান"
+    "assumptions": [
+      "ত্রিমাত্রিক স্থান"
+    ]
   },
   "id": "vector-triple-product",
   "chapter": "vector",
@@ -38,5 +40,9 @@
       "a×(b×c) = b(a·c) − c(a·b) — ফলাফল b ও c-এর তলেই থাকে।",
       "বন্ধনী সরালে উত্তর বদলায়: a×(b×c) ≠ (a×b)×c।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

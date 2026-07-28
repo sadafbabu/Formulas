@@ -4,7 +4,7 @@
   "title": "First Law of Thermodynamics",
   "titleBn": "তাপগতিবিদ্যার ১ম সূত্র",
   "summary": "সিস্টেমে প্রদত্ত তাপ অভ্যন্তরীণ শক্তি বৃদ্ধি ও বাহ্যিক কাজে ব্যবহৃত হয়",
-  "latex": "dQ = dU + dW",
+  "latex": "\\delta Q=dU+\\delta W,\\quad \\delta W=P_{\\mathrm{ext}}dV;\\quad \\text{quasistatic হলে }P_{\\mathrm{ext}}=P",
   "tags": [
     "hsc",
     "eng-admission",
@@ -39,7 +39,8 @@
         "latex": "dQ = dU + P dV",
         "note": "স্থির চাপে dW = P dV প্রতিস্থাপন করা হয়"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -55,5 +56,9 @@
       "সমোষ্ণে dU = 0 → Q = W; রুদ্ধতাপে Q = 0 → W = −dU; সমআয়তনে W = 0 → Q = dU।",
       "চারটি প্রক্রিয়ার সব ফল এই এক সূত্রেই বের হয়।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

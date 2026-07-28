@@ -4,7 +4,7 @@
   "title": "Area Bounded by Curves & Definite Integral",
   "titleBn": "নির্দিষ্ট যোগজ ও বক্ররেখা দ্বারা আবদ্ধ ক্ষেত্রফল",
   "summary": "y = f(x) বক্ররেখা, x-অক্ষ এবং x = a, b রেখা দ্বারা আবদ্ধ ক্ষেত্রফল",
-  "latex": "\\text{Area} = \\int_{a}^{b} f(x) \\, dx, \\quad \\text{Area} = \\int_{a}^{b} [f_1(x) - f_2(x)] \\, dx",
+  "latex": "\\text{Area}=\\int_a^b|f(x)|\\,dx,\\quad \\text{Area between curves}=\\int_a^b|f_1(x)-f_2(x)|\\,dx",
   "tags": [
     "hsc",
     "eng-admission",
@@ -38,7 +38,8 @@
         "latex": "A = \\lim_{\\Delta x \\to 0} \\sum y_i \\Delta x = \\int_a^b y \\, dx",
         "note": "বৃত্ত x² + y² = r² এর ক্ষেত্রফল = 4 ∫₀ʳ √(r² - x²) dx = π r²"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -55,5 +56,9 @@
       "প্রথমে ছেদবিন্দু বের করে সীমা ঠিক করুন — এটাই আসল কাজ।",
       "y-অক্ষ বরাবর হলে dy নিয়ে A = ∫[ডান − বাম]dy।"
     ]
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

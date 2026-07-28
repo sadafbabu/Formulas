@@ -4,7 +4,7 @@
   "title": "Work-Energy Theorem & Power",
   "titleBn": "কাজ-শক্তি উপপাদ্য ও ক্ষমতা",
   "summary": "কাজের সংজ্ঞা, কাজ-শক্তি উপপাদ্য এবং ক্ষমতার সূত্র",
-  "latex": "W = Fs\\cos\\theta, \\quad W_{net} = \\Delta KE = \\frac{1}{2}mv_f^2 - \\frac{1}{2}mv_i^2, \\quad P = \\frac{W}{t} = Fv",
+  "latex": "W = Fs\\cos\\theta, \\quad W_{net} = \\Delta KE = \\frac{1}{2}mv_f^2 - \\frac{1}{2}mv_i^2, \\quad P_{\\mathrm{avg}}=\\frac Wt,\\quad P=\\vec F\\cdot\\vec v=Fv\\cos\\theta",
   "tags": [
     "hsc",
     "eng-admission",
@@ -42,14 +42,15 @@
     }
   ],
   "derivation": {
-    "lead": "বল F এবং সরণ s এর মধ্যবর্তী কোণ θ হলে W = F·s·cosθ। যখন θ = 90°, কাজ শূন্য।",
+    "lead": "সাধারণভাবে W_{net}=\\int\\vec F_{net}\\cdot d\\vec r=\\int d\\vec p\\cdot\\vec v=\\Delta K।",
     "steps": [
       {
         "title": "কাজ-শক্তি উপপাদ্য প্রমাণ",
         "latex": "v^2 = u^2 + 2as \\implies \\frac{1}{2}mv^2 - \\frac{1}{2}mu^2 = mas = Fs = W",
         "note": "মোট কার্য = গতিশক্তির পরিবর্তন"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -65,5 +66,9 @@
       "কাজ-শক্তি উপপাদ্য: W_net = ½mv_f² − ½mv_i²।",
       "ক্ষমতা P = W/t = Fv — সমবেগে চলা গাড়ির ক্ষমতা এভাবেই বের হয়।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

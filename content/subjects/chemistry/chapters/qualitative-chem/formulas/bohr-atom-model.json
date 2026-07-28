@@ -4,7 +4,7 @@
   "title": "Bohr Atom Model & Rydberg Formula",
   "titleBn": "বোর পরমাণু মডেল ও রিডবার্গ সমীকরণ",
   "summary": "ইলেকট্রনের কৌণিক ভরবেগ এবং বর্ণালীর তরঙ্গদৈর্ঘ্য নির্ণয়",
-  "latex": "r_n = n^2 a_0, \\quad E_n = -\\frac{13.6}{n^2}\\ \\text{eV}, \\quad \\ce{H} \\to \\ce{H^+} + e^-",
+  "latex": "r_n=\\frac{n^2}{Z}a_0,\\quad E_n=-13.6\\frac{Z^2}{n^2}\\ \\mathrm{eV},\\quad \\frac1\\lambda=RZ^2\\left(\\frac1{n_1^2}-\\frac1{n_2^2}\\right)",
   "tags": [
     "hsc",
     "eng-admission",
@@ -49,6 +49,9 @@
         "latex": "\\Delta E = E_2 - E_1 = h f = \\frac{h c}{\\lambda} \\implies \\frac{1}{\\lambda} = R_H \\left(\\frac{1}{n_1^2} - \\frac{1}{n_2^2}\\right)",
         "note": "লাইম্যান সিরিজের জন্য n₁ = 1, বামার সিরিজের জন্য n₁ = 2"
       }
+    ],
+    "assumptions": [
+      "এক-electron hydrogen-like species; hydrogen-এর জন্য Z = 1"
     ]
   },
   "questions": [
@@ -60,5 +63,9 @@
   ],
   "memorize": {
     "trick": "rn = n²a₀; En = -13.6/n² eV — কক্ষ n² অনুপাতিক, শক্তি 1/n² অনুপাতিক।"
-  }
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

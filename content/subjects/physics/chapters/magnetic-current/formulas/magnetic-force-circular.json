@@ -4,7 +4,7 @@
   "title": "Circular Motion of Charge in Magnetic Field",
   "titleBn": "চৌম্বক ক্ষেত্রে আধানের বৃত্তাকার গতি",
   "summary": "লরেঞ্জ বলের প্রভাবে আধান বৃত্তাকার পথে গতিশীল — ব্যাসার্ধ ও পর্যায়কাল",
-  "latex": "r = \\frac{mv}{qB}, \\quad T = \\frac{2\\pi m}{qB}, \\quad \\omega = \\frac{qB}{m}",
+  "latex": "r = \\frac{mv}{|q|B}, \\quad T = \\frac{2\\pi m}{|q|B}, \\quad \\omega = \\frac{|q|B}{m}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -70,7 +70,8 @@
     ],
     "assumptions": [
       "v ও B পরস্পর লম্ব",
-      "বায়ু ঘর্ষণ উপেক্ষা"
+      "বায়ু ঘর্ষণ উপেক্ষা",
+      "q দ্বারা charge magnitude |q| বোঝানো হয়েছে"
     ]
   },
   "questions": [

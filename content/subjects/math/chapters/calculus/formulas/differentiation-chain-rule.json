@@ -33,7 +33,8 @@
         "latex": "\\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx}",
         "note": "ভাগফল সূত্র: d/dx[u/v] = (v du/dx - u dv/dx) / v²"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -44,5 +45,9 @@
   ],
   "memorize": {
     "trick": "dy/dx = (dy/du)(du/dx) — যৌগিক ফাংশনে বহিঃস্থ ও অন্তঃস্থ অবকলনের গুণফল।"
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

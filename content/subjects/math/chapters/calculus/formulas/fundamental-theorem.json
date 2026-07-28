@@ -32,7 +32,9 @@
         "note": "F'(x) = f(x)"
       }
     ],
-    "assumptions": "f ধারাবাহিক"
+    "assumptions": [
+      "f ধারাবাহিক"
+    ]
   },
   "id": "fundamental-theorem",
   "chapter": "calculus",
@@ -44,5 +46,9 @@
       "সীমা উল্টালে চিহ্ন বদলায়: ∫ₐᵇ = −∫_bᵃ।",
       "উপরের সীমা ফাংশন হলে চেইন রুল লাগবে: d/dx∫ₐ^{g(x)}f = f(g(x))·g'(x)।"
     ]
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

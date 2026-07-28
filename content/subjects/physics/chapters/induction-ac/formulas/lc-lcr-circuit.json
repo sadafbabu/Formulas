@@ -14,7 +14,7 @@
   "symbols": [
     {
       "symbol": "L",
-      "meaning": "স্বাকর্ষণ",
+      "meaning": "স্বাবেশ",
       "unit": "H"
     },
     {
@@ -48,7 +48,7 @@
       }
     ],
     "assumptions": [
-      "ক্ষতি নেই এমন উপাদান"
+      "L ও C আদর্শ; সমস্ত dissipative loss পৃথক R-এ model করা হয়েছে"
     ]
   },
   "id": "lc-lcr-circuit",
@@ -61,5 +61,9 @@
       "X_L = X_C বসালে ω₀ = 1/√(LC) → f₀ = 1/(2π√LC)।",
       "অনুনাদে দশা কোণ শূন্য, ক্ষমতা গুণক = ১।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

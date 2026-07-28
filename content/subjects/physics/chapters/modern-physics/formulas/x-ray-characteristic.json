@@ -1,6 +1,6 @@
 {
   "title": "X-ray Characteristic & Cut-off",
-  "titleBn": "এক্স-রশ্রেণী বৈশিষ্ট্যমূলক ও সীমা",
+  "titleBn": "এক্স-রশ্মির বৈশিষ্ট্যমূলক বর্ণালি ও সীমা",
   "summary": "এক্স-র টিউবে সর্বনিম্ন তরঙ্গদৈর্ঘ্য ও বৈশিষ্ট্যমূলক রশ্মি",
   "latex": "\\lambda_{min} = \\frac{hc}{eV}, \\quad \\frac{1}{\\lambda} = R(Z-\\sigma)^2\\left(\\frac{1}{n_1^2}-\\frac{1}{n_2^2}\\right)",
   "tags": [
@@ -38,7 +38,9 @@
         "note": "Moseley সূত্র বৈশিষ্ট্যমূলক রশ্মির জন্য"
       }
     ],
-    "assumptions": "সম্পূর্ণ শক্তি স্থানান্তর"
+    "assumptions": [
+      "সম্পূর্ণ শক্তি স্থানান্তর"
+    ]
   },
   "id": "x-ray-characteristic",
   "chapter": "modern-physics",
@@ -50,5 +52,9 @@
       "মোজলি: 1/λ = R(Z − σ)²(1/n₁² − 1/n₂²) — √f ∝ (Z − σ)।",
       "অবিচ্ছিন্ন বর্ণালি = ব্রেমসস্ট্রালুং, রেখা বর্ণালি = বৈশিষ্ট্যমূলক।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

@@ -32,12 +32,18 @@
         "note": "n-তম ক্রমের জন্য সাধারণ রূপ আছে"
       }
     ],
-    "assumptions": "মূলগুলো গণন ও পুনরাবৃত্ত সহ"
+    "assumptions": [
+      "মূলগুলো গণন ও পুনরাবৃত্ত সহ"
+    ]
   },
   "id": "vieta-formulas",
   "chapter": "polynomials",
   "questions": [],
   "memorize": {
     "trick": "ax³+bx²+cx+d=0 → মূল যোগফল = -b/a, জোড় গুণফল = c/a, তিন মূল গুণফল = -d/a।"
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

@@ -27,7 +27,9 @@
         "note": "n-তম মূল নির্ণয়ে ব্যবহৃত"
       }
     ],
-    "assumptions": "n পূর্ণসংখ্যা"
+    "assumptions": [
+      "n পূর্ণসংখ্যা"
+    ]
   },
   "id": "polar-multiplication",
   "chapter": "complex-numbers",
@@ -39,5 +41,9 @@
       "(re^{iθ})ⁿ = rⁿe^{inθ} — ডিময়ভারের সূচকীয় রূপ।",
       "i দিয়ে গুণ করা মানে ৯০° ঘোরানো (কারণ i = e^{iπ/2})।"
     ]
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

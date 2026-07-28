@@ -44,17 +44,23 @@
         "note": "ঋণাত্মক চিহ্ন কারণ বল আকর্ষণীয়"
       }
     ],
-    "assumptions": "বিন্দু ভর"
+    "assumptions": [
+      "বিন্দু ভর"
+    ]
   },
   "id": "gravitational-potential",
   "chapter": "gravitation",
   "questions": [],
   "memorize": {
-    "trick": "সব মহাকর্ষীয় শক্তি ঋণাত্মক: V = −GM/r, U = −GMm/r। কারণ অসীমকে শূন্য ধরা হয় আর মহাকর্ষ সর্বদা আকর্ষী। 'বিভবে এক m, শক্তিতে দুই m'।",
+    "trick": "অসীমে শূন্য বিভব ধরলে বিন্দু-ভরের V = −GM/r এবং দুই ভরের U = −GMm/r। ঋণাত্মক চিহ্ন bound attractive system বোঝায়; kinetic বা unbound total energy অবশ্যই ঋণাত্মক নয়।",
     "steps": [
       "V = −GM/r (প্রতি একক ভরে), U = mV = −GMm/r।",
       "ক্ষেত্র g = GM/r² = −dV/dr — বিভবের ঢালই ক্ষেত্র।",
       "চিহ্ন ভুললে সব উত্তর ভুল — মনে রাখুন 'মহাকর্ষে সব ঋণাত্মক'।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

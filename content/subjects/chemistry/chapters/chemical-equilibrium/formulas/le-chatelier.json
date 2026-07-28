@@ -42,9 +42,10 @@
       {
         "title": "চাপ ও তাপমাত্রার প্রভাব",
         "latex": "\\Delta G = \\Delta G^\\circ + RT\\ln Q, \\quad \\text{সাম্যে: } \\Delta G = 0 \\implies K = e^{-\\Delta G^\\circ / RT}",
-        "note": "চাপ বৃদ্ধিতে কম মোলের দিকে, তাপমাত্রা বৃদ্ধিতে তাপগ্রাহী দিকে সাম্য সরে"
+        "note": "আয়তন কমিয়ে চাপ বাড়ালে কম মোট gaseous stoichiometric mole-এর দিকে সাম্য সরে; Δn_gas = 0 হলে চাপের প্রভাব নেই।"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -54,6 +55,10 @@
     }
   ],
   "memorize": {
-    "trick": "চাপ বাড়লে কম মোলের দিকে, তাপ বাড়লে তাপগ্রাহী দিকে, ঘনমাত্রা বাড়লে উৎপাদ কম দিকে।"
-  }
+    "trick": "যে species যোগ করা হয়, তাকে consume করে এমন দিকে সাম্য সরে; সরালে তাকে তৈরি করার দিকে। আয়তন কমিয়ে চাপ বাড়ালে কম gas mole-এর দিকে; temperature বাড়ালে endothermic দিকে। Catalyst সাম্য সরায় না।"
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

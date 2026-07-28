@@ -4,7 +4,7 @@
   "title": "Momentum & Impulse",
   "titleBn": "ভরবেগ, ঘাত ও ভরবেগের সংরক্ষণ",
   "summary": "বল ও সময়ের গুণফল ঘাত, যা ভরবেগের পরিবর্তনের সমান; বাহ্যিক বল না থাকলে মোট ভরবেগ ধ্রুব।",
-  "latex": "\\vec{p} = m\\vec{v}, \\quad \\vec{J} = \\vec{F}\\Delta t = \\Delta \\vec{p}, \\quad \\vec{F} = \\frac{d\\vec{p}}{dt}",
+  "latex": "\\vec p=m\\vec v,\\quad \\vec J=\\int\\vec F\\,dt=\\Delta\\vec p=\\vec F_{\\mathrm{avg}}\\Delta t,\\quad \\vec F=\\frac{d\\vec p}{dt}",
   "tags": [
     "hsc",
     "eng-admission",

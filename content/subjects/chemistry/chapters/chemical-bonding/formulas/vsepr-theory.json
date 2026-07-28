@@ -2,7 +2,7 @@
   "title": "VSEPR Geometry & Lone Pairs",
   "titleBn": "VSEPR জ্যামিতি ও একাকী জোড়",
   "summary": "অণুর জ্যামিতিক কাঠামো ও বন্ধন জোড়/একাকী জোড়",
-  "latex": "S = N + L, \\quad \\text{hybrid} = \\frac{V + M - C + A}{2}",
+  "latex": "S=N_{\\sigma}+N_{\\mathrm{lone}},\\quad H=\\frac{V+M-C+A}{2}\\ \\text{(সীমিত shortcut)}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -38,7 +38,10 @@
         "note": "S=2 রৈখিক, 3 ত্রিভুজাকার, 4 চতুষ্ত্রিকোণী"
       }
     ],
-    "assumptions": "কেন্দ্রীয় পরমাণু"
+    "assumptions": [
+      "কেন্দ্রীয় পরমাণু",
+      "(V+M−C+A)/2 shortcut কেবল closed-shell species, monovalent ligand ও charge magnitude convention-এ"
+    ]
   },
   "id": "vsepr-theory",
   "chapter": "chemical-bonding",
@@ -50,5 +53,9 @@
       "বিকর্ষণের ক্রম: একাকী-একাকী > একাকী-বন্ধন > বন্ধন-বন্ধন।",
       "উদাহরণে দেখুন: CH₄ = 109.5°, NH₃ = 107° (১ একাকী), H₂O = 104.5° (২ একাকী) — প্রতিটি একাকী জোড়ে প্রায় ২.৫° কমে।"
     ]
-  }
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

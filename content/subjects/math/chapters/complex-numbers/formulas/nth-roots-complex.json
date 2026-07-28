@@ -53,7 +53,8 @@
       }
     ],
     "assumptions": [
-      "n ধনাত্মক পূর্ণসংখ্যা।"
+      "n ধনাত্মক পূর্ণসংখ্যা।",
+      "Regular n-gon হিসেবে nটি distinct root পেতে z ≠ 0; z=0-এর একমাত্র root 0 (multiplicity n)"
     ]
   },
   "questions": [

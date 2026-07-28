@@ -44,7 +44,8 @@
         "latex": "m g = G \\frac{M m}{R^2} \\implies g = \\frac{G M}{R^2}",
         "note": "পৃথিবীর পৃষ্ঠে g এর গড় মান 9.8 m/s²"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -60,5 +61,9 @@
       "পৃষ্ঠে mg = GMm/R² → g = GM/R²।",
       "উচ্চতায় g' = g·R²/(R+h)², গভীরতায় g' = g(1 − d/R) — উপরে ভাগ, ভিতরে বিয়োগ।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

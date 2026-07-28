@@ -2,7 +2,7 @@
   "id": "cyclotron-radius",
   "title": "Cyclotron Path Radius",
   "titleBn": "সাইক্লোট্রনে ঘূর্ণন পথের ব্যাসার্ধ",
-  "latex": "r = \\frac{m v}{q B}",
+  "latex": "r = \\frac{m v}{|q| B}",
   "summary": "চৌম্বক ক্ষেত্রে গতিশীল আধানের বৃত্তাকার ঘূর্ণন পথের ব্যাসার্ধ।",
   "tags": [
     "hsc",
@@ -57,7 +57,8 @@
       }
     ],
     "assumptions": [
-      "কণাটি চৌম্বক ক্ষেত্রের সমকোণে ($90^\\circ$) প্রবেশ করে।"
+      "কণাটি চৌম্বক ক্ষেত্রের সমকোণে ($90^\\circ$) প্রবেশ করে।",
+      "q দ্বারা charge magnitude |q| বোঝানো হয়েছে"
     ]
   },
   "questions": [

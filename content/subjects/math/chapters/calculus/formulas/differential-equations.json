@@ -58,7 +58,8 @@
       }
     ],
     "assumptions": [
-      "P ও Q শুধু independent variable-এর function।"
+      "P ও Q শুধু independent variable-এর function।",
+      "Separation-এ g(y) ≠ 0; g(y₀)=0 হলে constant solution y ≡ y₀ আলাদাভাবে অন্তর্ভুক্ত করতে হবে"
     ]
   },
   "questions": [

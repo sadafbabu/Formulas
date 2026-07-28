@@ -2,7 +2,7 @@
   "id": "cyclotron-freq",
   "title": "Cyclotron Frequency",
   "titleBn": "সাইক্লোট্রন কম্পাঙ্ক",
-  "latex": "f = \\frac{q B}{2\\pi m}",
+  "latex": "f = \\frac{|q| B}{2\\pi m}",
   "summary": "চৌম্বক ক্ষেত্রে গতিশীল আধানের পর্যায়কাল ও আবর্তন কম্পাঙ্ক — যা বেগের ওপর স্বাধীন।",
   "tags": [
     "eng-admission",
@@ -51,7 +51,8 @@
       }
     ],
     "assumptions": [
-      "আপেক্ষিকতার প্রভাব (Relativistic mass change) উপেক্ষণীয়।"
+      "আপেক্ষিকতার প্রভাব (Relativistic mass change) উপেক্ষণীয়।",
+      "q দ্বারা charge magnitude |q| বোঝানো হয়েছে"
     ]
   },
   "questions": [

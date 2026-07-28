@@ -43,8 +43,8 @@
     "steps": [
       {
         "title": "চাপ সংশোধন",
-        "latex": "P_{\\text{প্রকৃত}} = P + \\frac{an^2}{V^2}",
-        "note": "আন্তঃআণবিক আকর্ষণে দেয়ালে ধাক্কা কমে, তাই মাপা চাপ কম — যোগ করে সংশোধন।"
+        "latex": "P_{\\mathrm{corrected}}=P_{\\mathrm{measured}}+\\frac{an^2}{V^2}",
+        "note": "আকর্ষণে দেয়ালে ধাক্কা কমে, তাই measured pressure-এ correction term যোগ করে idealized pressure পাওয়া যায়।"
       },
       {
         "title": "আয়তন সংশোধন",

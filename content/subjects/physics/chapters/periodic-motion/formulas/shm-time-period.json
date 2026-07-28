@@ -54,7 +54,8 @@
         "latex": "a = -\\frac{g}{L} x = -\\omega^2 x \\implies \\omega = \\sqrt{\\frac{g}{L}} \\implies T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{L}{g}}",
         "note": "সেকেন্ড দোলকের (Second pendulum) পর্যায়কাল T = 2 sec"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -65,5 +66,9 @@
   ],
   "memorize": {
     "trick": "T = 2π√(m/k) — ভর বাড়লে ধীর, স্প্রিং শক্ত (k বড়) হলে দ্রুত।"
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

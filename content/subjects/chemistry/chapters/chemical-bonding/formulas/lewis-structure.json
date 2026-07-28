@@ -54,7 +54,8 @@
       }
     ],
     "assumptions": [
-      "দ্বিতীয় পর্যায়ের পরমাণুর জন্য অষ্টক নীতি প্রযোজ্য"
+      "দ্বিতীয় পর্যায়ের পরমাণুর জন্য অষ্টক নীতি প্রযোজ্য",
+      "8−V shortcut কেবল simple neutral octet-obeying main-group atom-এর জন্য; Be/B electron-deficient, radical, ion ও expanded-octet ব্যতিক্রম"
     ]
   },
   "questions": [

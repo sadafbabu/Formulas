@@ -38,6 +38,9 @@
         "latex": "d = \\frac{|A x_1 + B y_1 + C|}{\\sqrt{A^2 + B^2}}",
         "note": "দুটি সমান্তরাল রেখার দূরত্ব d = |C₁ - C₂| / √(A² + B²)"
       }
+    ],
+    "assumptions": [
+      "Parallel-line formula-এ দুই equation-এর A ও B একই scale ও aligned sign-এ normalized"
     ]
   },
   "questions": [
@@ -49,5 +52,9 @@
   ],
   "memorize": {
     "trick": "ax+by+c=0 থেকে (x₁,y₁) বিন্দুর লম্ব দূরত্ব = |ax₁+by₁+c|/√(a²+b²)।"
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

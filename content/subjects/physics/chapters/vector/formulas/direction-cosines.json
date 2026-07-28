@@ -33,7 +33,9 @@
         "note": "দিক অনুপাত = l:m:n"
       }
     ],
-    "assumptions": "একক ভেক্টর"
+    "assumptions": [
+      "একক ভেক্টর"
+    ]
   },
   "id": "direction-cosines",
   "chapter": "vector",
@@ -45,5 +47,9 @@
       "যোগ করলে (a_x² + a_y² + a_z²)/|a|² = 1 — তাই সর্বদা ১।",
       "দিক অনুপাত (a_x : a_y : a_z) থেকে দিক কোসাইন পেতে |a| দিয়ে ভাগ করুন।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

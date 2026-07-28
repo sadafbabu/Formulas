@@ -37,17 +37,23 @@
         "note": "লোড পরিবর্তনেও আউটপুট বিভব স্থির থাকে"
       }
     ],
-    "assumptions": "জেনার ক্ষেত্র সীমার মধ্যে"
+    "assumptions": [
+      "জেনার ক্ষেত্র সীমার মধ্যে"
+    ]
   },
   "id": "zener-diode",
   "chapter": "semiconductor",
   "questions": [],
   "memorize": {
-    "trick": "জেনার সর্বদা বিপরীত ঝোঁকে চলে এবং V_out = V_Z ধরে রাখে — 'ভোল্টেজ নিয়ন্ত্রক'। শ্রেণী রোধ বাড়তি ভোল্টেজ শুষে নেয়: R_S = (V_in − V_Z)/I।",
+    "trick": "Voltage regulator হিসেবে Zener diode reverse-breakdown অঞ্চলে চালানো হয়; I_Z,min ≤ I_Z ≤ I_Z,max এবং power rating মানলে V_out ≈ V_Z স্থির থাকে।",
     "steps": [
       "I_in = I_Z + I_L — মোট প্রবাহ জেনার ও লোডে ভাগ হয়।",
       "লোড কমলে I_Z বাড়ে, লোড বাড়লে I_Z কমে — কিন্তু V_out স্থির থাকে।",
       "R_S = (V_in − V_Z)/I_in — এটিই সুরক্ষা রোধ।"
     ]
-  }
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

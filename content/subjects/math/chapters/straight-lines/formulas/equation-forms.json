@@ -43,7 +43,8 @@
         "latex": "ax + by + c = 0 \\implies m = -\\frac{a}{b}, \\quad y\\text{-intercept} = -\\frac{c}{b}, \\quad x\\text{-intercept} = -\\frac{c}{a}",
         "note": "দুই রেখা সমান্তরাল হলে m₁ = m₂, লম্বভাবে ছেদ করলে m₁·m₂ = -1"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -59,5 +60,9 @@
       "দুই বিন্দু জানা থাকলে আগে m = (y₂−y₁)/(x₂−x₁) বের করে এক-বিন্দু রূপ ব্যবহার করুন।",
       "ছেদ রূপে a ও b সরাসরি অক্ষের ছেদ — তাই ক্ষেত্রফল ½|ab| সহজে আসে।"
     ]
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

@@ -21,7 +21,7 @@
     },
     {
       "symbol": "a",
-      "meaning": "শূন্য বা মূল",
+      "meaning": "ভাজক (x−a)-এর সংশ্লিষ্ট scalar; P(a)=0 হলে তবেই root",
       "unit": "সংখ্যা"
     },
     {
@@ -31,14 +31,15 @@
     }
   ],
   "derivation": {
-    "lead": "যদি P(x) = (x-a)Q(x) + R হয়, তাহলে x=a বসিয়ে P(a) = R পাওয়া যায়।",
+    "lead": "Division algorithm থেকে P(x)=(x−a)Q(x)+R; x=a বসালে remainder R=P(a)।",
     "steps": [
       {
-        "title": "উচ্চতর সমীকরণের মূলের গুণ ও যোগফল",
-        "latex": "ax^3 + bx^2 + cx + d = 0 \\implies \\alpha+\\beta+\\gamma = -\\frac{b}{a}, \\quad \\alpha\\beta+\\beta\\gamma+\\gamma\\alpha = \\frac{c}{a}, \\quad \\alpha\\beta\\gamma = -\\frac{d}{a}",
-        "note": "এটি Vieta's formulas নামে পরিচিত"
+        "title": "অবশিষ্ট উপপাদ্য",
+        "latex": "P(x)=(x-a)Q(x)+R\\Rightarrow P(a)=R",
+        "note": "P(a)=0 হলে remainder শূন্য, তাই (x−a) factor।"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -54,5 +55,9 @@
       "(x + a) দিয়ে ভাগ হলে P(−a) বসান — চিহ্ন উল্টো।",
       "(ax − b) দিয়ে হলে P(b/a)।"
     ]
-  }
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }
