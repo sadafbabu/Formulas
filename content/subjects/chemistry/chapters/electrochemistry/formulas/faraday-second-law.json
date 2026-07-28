@@ -1,0 +1,50 @@
+{
+  "title": "Faraday's Second Law of Electrolysis",
+  "titleBn": "ফ্যারাডের দ্বিতীয় সূত্র",
+  "summary": "ভিন্ন আয়নের জন্য আধান ও ভরের অনুপাত",
+  "latex": "\\frac{m_1}{m_2} = \\frac{E_1}{E_2} = \\frac{M_1/n_1}{M_2/n_2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "m",
+      "meaning": "আধান আস্তরণ ভর",
+      "unit": "g"
+    },
+    {
+      "symbol": "E",
+      "meaning": "তুল্যাঙ্ক ভর (equivalent mass)",
+      "unit": "g/equiv"
+    },
+    {
+      "symbol": "M",
+      "meaning": "মোলার ভর",
+      "unit": "g/mol"
+    },
+    {
+      "symbol": "n",
+      "meaning": "আয়নের যোজ্যতা",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "একই বিদ্যুৎ পরিমাণ প্রবাহিত হলে ভর তুল্যাঙ্ক ভরের অনুপাতে।",
+    "steps": [
+      {
+        "title": "তুল্যাঙ্ক ভর",
+        "latex": "E = M/n",
+        "note": "1 Faraday = 96500 C আধান"
+      }
+    ],
+    "assumptions": "একই সময়, একই প্রবাহ"
+  },
+  "id": "faraday-second-law",
+  "chapter": "electrochemistry",
+  "questions": []
+}

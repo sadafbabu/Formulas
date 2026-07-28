@@ -1,0 +1,40 @@
+{
+  "title": "Distance Between Two Points",
+  "titleBn": "দুটি বিন্দুর মধ্যবর্তী দূরত্ব",
+  "summary": "কার্তেসীয় সমতলে দুটি বিন্দুর দূরত্ব সূত্র",
+  "latex": "d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "d",
+      "meaning": "দুটি বিন্দুর দূরত্ব",
+      "unit": "একক"
+    },
+    {
+      "symbol": "(x_1,y_1),(x_2,y_2)",
+      "meaning": "দুটি বিন্দুর স্থানাঙ্ক",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "পিথাগোরাসের সূত্র থেকে কার্তেসীয় সমতলে প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "দূরত্ব সূত্র",
+        "latex": "d = \\sqrt{(\\Delta x)^2 + (\\Delta y)^2}",
+        "note": "মূল বিন্দু থেকে দূরত্ব √(x²+y²)"
+      }
+    ],
+    "assumptions": "ইউক্লিডীয় সমতল"
+  },
+  "id": "distance-formula",
+  "chapter": "straight-lines",
+  "questions": []
+}

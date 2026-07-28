@@ -1,0 +1,45 @@
+{
+  "title": "General Term of Binomial Expansion",
+  "titleBn": "দ্বিপদী বিস্তারের সাধারণ পদ",
+  "summary": "(a+b)^n এর r+1-তম পদের সূত্র",
+  "latex": "T_{r+1} = \\binom{n}{r} a^{n-r} b^r, \\quad \\binom{n}{r} = \\frac{n!}{r!(n-r)!}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "T_{r+1}",
+      "meaning": "r+1-তম পদ",
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "বিস্তারের সূচক",
+      "unit": "—"
+    },
+    {
+      "symbol": "r",
+      "meaning": "পদ সূচক",
+      "unit": "0 থেকে n"
+    }
+  ],
+  "derivation": {
+    "lead": "সম্প্রসারণ ও সমাহার থেকে প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "সাধারণ পদ",
+        "latex": "T_{r+1} = \\binom{n}{r} a^{n-r} b^r",
+        "note": "মোট পদ সংখ্যা n+1"
+      }
+    ],
+    "assumptions": "n ধনাত্মক পূর্ণসংখ্যা"
+  },
+  "id": "general-term",
+  "chapter": "binomial-theorem",
+  "questions": []
+}

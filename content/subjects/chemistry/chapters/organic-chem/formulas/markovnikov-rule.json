@@ -1,0 +1,40 @@
+{
+  "title": "Markovnikov's Rule & Anti-Markovnikov",
+  "titleBn": "মারকভনিকভ নিয়ম ও প্রতি-মারকভনিকভ",
+  "summary": "অপ্রতিসম অ্যালকিনে HX যোজনের নিয়ম",
+  "latex": "\\text{R-CH=CH}_2 + \\text{HX} \\to \\text{R-CHX-CH}_3 \\text{ (Markovnikov)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "R",
+      "meaning": "অ্যালকাইল মূলক",
+      "unit": "—"
+    },
+    {
+      "symbol": "X",
+      "meaning": "হ্যালোজেন",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "কার্বোক্যাটায়ন স্থায়িত্বের নীতি থেকে (3° > 2° > 1°)।",
+    "steps": [
+      {
+        "title": "মারকভনিকভ",
+        "latex": "H \\to \\text{more H}, \\quad X \\to \\text{less H}",
+        "note": "প্রতি-মারকভনিকভে peroxide প্রভাব (Kharasch effect)"
+      }
+    ],
+    "assumptions": "মুক্ত মূলক প্রক্রিয়া নয়"
+  },
+  "id": "markovnikov-rule",
+  "chapter": "organic-chem",
+  "questions": []
+}

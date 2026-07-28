@@ -1,0 +1,39 @@
+{
+  "title": "Fundamental Theorem of Calculus",
+  "titleBn": "ক্যালকুলাসের মৌলিক উপপাদ্য",
+  "summary": "অন্তরীকরণ ও যোগজীকরণের সম্পর্ক",
+  "latex": "\\int_a^b f(x)\\,dx = F(b) - F(a), \\quad \\frac{d}{dx}\\int_a^x f(t)\\,dt = f(x)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "F",
+      "meaning": "f এর অন্তরকলজ",
+      "unit": "—"
+    },
+    {
+      "symbol": "a, b",
+      "meaning": "যোগজীকরণ সীমা",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "অন্তরীকরণ ও যোগজীকরণ একে অপরের বিপরীত প্রক্রিয়া।",
+    "steps": [
+      {
+        "title": "মৌলিক উপপাদ্য",
+        "latex": "\\int_a^b f(x)dx = F(b) - F(a)",
+        "note": "F'(x) = f(x)"
+      }
+    ],
+    "assumptions": "f ধারাবাহিক"
+  },
+  "id": "fundamental-theorem",
+  "chapter": "calculus",
+  "questions": []
+}

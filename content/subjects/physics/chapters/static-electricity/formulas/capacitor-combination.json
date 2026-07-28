@@ -1,0 +1,45 @@
+{
+  "title": "Capacitor Combination & Energy Density",
+  "titleBn": "ধারকের সংযোজন ও শক্তি ঘনত্ব",
+  "summary": "শ্রেণী ও সমান্তরাল সংযোজন এবং তড়িৎ ক্ষেত্রে শক্তি ঘনত্ব",
+  "latex": "\\frac{1}{C_s} = \\sum \\frac{1}{C_i}, \\quad C_p = \\sum C_i, \\quad u = \\frac{1}{2}\\varepsilon_0 E^2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "C_s, C_p",
+      "meaning": "শ্রেণী ও সমান্তরাল সমতুল্য ধারকত্ব",
+      "unit": "F"
+    },
+    {
+      "symbol": "u",
+      "meaning": "শক্তি ঘনত্ব",
+      "unit": "J/m³"
+    },
+    {
+      "symbol": "E",
+      "meaning": "তড়িৎ ক্ষেত্র",
+      "unit": "V/m"
+    }
+  ],
+  "derivation": {
+    "lead": "ধারকের বিভব সংযোজন নীতি থেকে শ্রেণী/সমান্তরাল সূত্র।",
+    "steps": [
+      {
+        "title": "শক্তি ঘনত্ব",
+        "latex": "u = \\frac{1}{2}\\varepsilon_0 E^2",
+        "note": "মোট শক্তি u আয়তন দ্বারা গুণ"
+      }
+    ],
+    "assumptions": "আদর্শ ধারক"
+  },
+  "id": "capacitor-combination",
+  "chapter": "static-electricity",
+  "questions": []
+}

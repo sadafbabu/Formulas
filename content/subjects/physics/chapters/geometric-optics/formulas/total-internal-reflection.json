@@ -1,0 +1,47 @@
+{
+  "title": "Total Internal Reflection & Critical Angle",
+  "titleBn": "সম্পূর্ণ অভ্যন্তরীণ প্রতিফলন ও ক্রান্তি কোণ",
+  "summary": "ক্রান্তি কোণ ও প্রতিসরাঙ্ক সম্পর্ক, আলো তন্তুর ভিত্তি",
+  "latex": "\\sin\\theta_c = \\frac{\\mu_2}{\\mu_1}, \\quad \\mu_1 > \\mu_2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "\\theta_c",
+      "meaning": "ক্রান্তি কোণ (Critical angle)",
+      "unit": "°"
+    },
+    {
+      "symbol": "\\mu_1",
+      "meaning": "ঘন মাধ্যমের প্রতিসরাঙ্ক",
+      "unit": "এককহীন"
+    },
+    {
+      "symbol": "\\mu_2",
+      "meaning": "হালকা মাধ্যমের প্রতিসরাঙ্ক",
+      "unit": "এককহীন"
+    }
+  ],
+  "derivation": {
+    "lead": "Snell-এর সূত্রে প্রতিসরণ কোণ 90° হলে প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "ক্রান্তি কোণ",
+        "latex": "\\mu_1 \\sin\\theta_c = \\mu_2 \\sin 90° = \\mu_2",
+        "note": "আলো তন্তুর (optical fibre) কার্যকারিতা এই নীতির উপর নির্ভরশীল"
+      }
+    ],
+    "assumptions": [
+      "মাধ্যম দুটির প্রতিসরাঙ্ক ভিন্ন"
+    ]
+  },
+  "id": "total-internal-reflection",
+  "chapter": "geometric-optics",
+  "questions": []
+}

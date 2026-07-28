@@ -1,0 +1,51 @@
+{
+  "title": "Single Slit Diffraction Minima",
+  "titleBn": "একক চিরের ব্যাতিচার প্রসরণ",
+  "summary": "একক চিরে ব্যাতিচারের অন্ধকার ও উজ্জ্বল পথ পার্থক্য শর্ত",
+  "latex": "d \\sin\\theta = n\\lambda \\text{ (dark)}, \\quad \\sin\\theta = \\frac{\\lambda}{d} \\text{ (1st min)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "d",
+      "meaning": "চিরের প্রস্থ",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "ব্যাতিচার কোণ",
+      "unit": "°"
+    },
+    {
+      "symbol": "\\lambda",
+      "meaning": "তরঙ্গদৈর্ঘ্য",
+      "unit": "m"
+    },
+    {
+      "symbol": "n",
+      "meaning": "ব্যাতিচার ক্রম (order)",
+      "unit": "পূর্ণসংখ্যা"
+    }
+  ],
+  "derivation": {
+    "lead": "চিরের দুই প্রান্তের রশ্মির পথ পার্থক্য থেকে ধ্বংসাত্মক ব্যাতিচার শর্ত প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "অন্ধকার ডোরার শর্ত",
+        "latex": "d \\sin\\theta = n\\lambda",
+        "note": "কেন্দ্রীয় উজ্জ্বল ডোরার প্রস্থ 2λD/d"
+      }
+    ],
+    "assumptions": [
+      "চির থেকে পর্দার দূরত্ব D >> d"
+    ]
+  },
+  "id": "single-slit-diffraction",
+  "chapter": "wave-optics",
+  "questions": []
+}

@@ -1,0 +1,44 @@
+{
+  "title": "SN1 vs SN2 Reaction Mechanism",
+  "titleBn": "SN1 বনাম SN2 বিক্রিয়া ক্রিয়াবিধি",
+  "summary": "নিউক্লিওফিলিক প্রতিস্থাপন বিক্রিয়ার দুই প্রক্রিয়া",
+  "latex": "SN1: \\text{rate} = k[\\text{RX}], \\quad SN2: \\text{rate} = k[\\text{RX}][\\text{Nu}^-]",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "RX",
+      "meaning": "অ্যালকাইল হ্যালাইড",
+      "unit": "—"
+    },
+    {
+      "symbol": "Nu",
+      "meaning": "নিউক্লিওফাইল",
+      "unit": "—"
+    },
+    {
+      "symbol": "k",
+      "meaning": "হার ধ্রুবক",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "SN1 দুই-ধাপী (কার্বোক্যাটায়ন মধ্যবর্তী), SN2 এক-ধাপী (পরিবর্তি অবস্থা)।",
+    "steps": [
+      {
+        "title": "হার সমীকরণ",
+        "latex": "SN1 \\propto [RX], \\quad SN2 \\propto [RX][Nu]",
+        "note": "SN1: 3° > 2°, SN2: 1° > 2°"
+      }
+    ],
+    "assumptions": "দ্রাবক প্রভাব স্থির"
+  },
+  "id": "sn1-sn2-mechanism",
+  "chapter": "organic-chem",
+  "questions": []
+}

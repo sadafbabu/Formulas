@@ -1,0 +1,39 @@
+{
+  "title": "n-th Roots of Unity",
+  "titleBn": "একের n-তম মূলসমূহ",
+  "summary": "একের n-তম মূল ও তাদের জ্যামিতিক অবস্থান",
+  "latex": "\\omega_k = e^{2\\pi i k/n}, \\quad k = 0,1,\\ldots,n-1; \\quad 1 + \\omega + \\omega^2 + \\cdots + \\omega^{n-1} = 0",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "\\omega_k",
+      "meaning": "k-তম মূল",
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "মূলের সংখ্যা",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "z^n = 1 সমীকরণ থেকে অয়লার রূপে প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "মূলের সূত্র",
+        "latex": "\\omega_k = e^{2\\pi i k/n}",
+        "note": "মূলগুলো একক বৃত্তে সমদূরবর্তী"
+      }
+    ],
+    "assumptions": "n ধনাত্মক পূর্ণসংখ্যা"
+  },
+  "id": "roots-of-unity",
+  "chapter": "complex-numbers",
+  "questions": []
+}

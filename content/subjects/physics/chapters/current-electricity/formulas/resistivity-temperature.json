@@ -1,0 +1,55 @@
+{
+  "title": "Resistivity & Temperature Dependence",
+  "titleBn": "রোধ ও তাপমাত্রা নির্ভরতা",
+  "summary": "রোধের তাপমাত্রা নির্ভরতা ও রোধের সূত্র",
+  "latex": "\\rho = \\rho_0(1 + \\alpha\\Delta T), \\quad R = \\rho\\frac{\\ell}{A}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "\\rho",
+      "meaning": "রোধ অপরিষ্কার সংখ্যা (resistivity)",
+      "unit": "Ω·m"
+    },
+    {
+      "symbol": "\\alpha",
+      "meaning": "তাপীয় রোধ গুণাঙ্ক",
+      "unit": "/K"
+    },
+    {
+      "symbol": "R",
+      "meaning": "রোধ",
+      "unit": "Ω"
+    },
+    {
+      "symbol": "\\ell",
+      "meaning": "পরিবাহকের দৈর্ঘ্য",
+      "unit": "m"
+    },
+    {
+      "symbol": "A",
+      "meaning": "প্রস্থছেদ",
+      "unit": "m²"
+    }
+  ],
+  "derivation": {
+    "lead": "পরিবাহকের জ্যামিতি ও উপাদানের উপর রোধ নির্ভরতা থেকে।",
+    "steps": [
+      {
+        "title": "রোধ সূত্র",
+        "latex": "R = \\rho\\ell/A",
+        "note": "তাপমাত্রা বাড়লে ধাতুর রোধ বাড়ে"
+      }
+    ],
+    "assumptions": "রৈখিক তাপীয় নির্ভরতা"
+  },
+  "id": "resistivity-temperature",
+  "chapter": "current-electricity",
+  "questions": []
+}

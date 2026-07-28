@@ -1,0 +1,62 @@
+{
+  "title": "SHM Total Energy",
+  "titleBn": "সরল ছন্দিত স্পন্দনের মোট শক্তি",
+  "summary": "SHM-এর গতিশক্তি, বিভবশক্তি ও মোট শক্তি",
+  "latex": "E = \\frac{1}{2}m\\omega^2 A^2, \\quad KE = \\frac{1}{2}m\\omega^2(A^2 - x^2), \\quad PE = \\frac{1}{2}m\\omega^2 x^2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "E",
+      "meaning": "মোট শক্তি",
+      "unit": "J"
+    },
+    {
+      "symbol": "KE, PE",
+      "meaning": "গতিশক্তি ও বিভবশক্তি",
+      "unit": "J"
+    },
+    {
+      "symbol": "m",
+      "meaning": "ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "\\omega",
+      "meaning": "কৌণিক কম্পাঙ্ক",
+      "unit": "rad/s"
+    },
+    {
+      "symbol": "A",
+      "meaning": "বিস্তার (amplitude)",
+      "unit": "m"
+    },
+    {
+      "symbol": "x",
+      "meaning": "সরণ",
+      "unit": "m"
+    }
+  ],
+  "derivation": {
+    "lead": "SHM-এ বল F = -kx = -mω²x, তাই বিভবশক্তি ও গতিশক্তি যোগ করে মোট শক্তি ধ্রুব।",
+    "steps": [
+      {
+        "title": "শক্তি সংরক্ষণ",
+        "latex": "E = KE + PE = \\frac{1}{2}m\\omega^2 A^2",
+        "note": "মোট শক্তি বিস্তারের বর্গের সমানুপাতিক"
+      }
+    ],
+    "assumptions": [
+      "ক্ষতি নেই (undamped)"
+    ]
+  },
+  "id": "shm-energy",
+  "chapter": "periodic-motion",
+  "questions": []
+}

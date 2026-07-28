@@ -1,0 +1,50 @@
+{
+  "title": "Full Wave Rectifier & Ripple Factor",
+  "titleBn": "পূর্ণ তরঙ্গ দিষ্টকারী ও রিপল ফ্যাক্টর",
+  "summary": "দিষ্টকারণ দক্ষতা ও রিপল ফ্যাক্টর সূত্র",
+  "latex": "\\gamma = \\sqrt{\\frac{V_{rms}^2 - V_{dc}^2}{V_{dc}^2}}, \\quad \\eta = \\frac{P_{dc}}{P_{ac}} \\times 100\\%",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "\\gamma",
+      "meaning": "রিপল ফ্যাক্টর",
+      "unit": "এককহীন"
+    },
+    {
+      "symbol": "\\eta",
+      "meaning": "দিষ্টকারণ দক্ষতা",
+      "unit": "%"
+    },
+    {
+      "symbol": "V_{rms}",
+      "meaning": "RMS বিভব",
+      "unit": "V"
+    },
+    {
+      "symbol": "V_{dc}",
+      "meaning": "DC বিভব",
+      "unit": "V"
+    }
+  ],
+  "derivation": {
+    "lead": "অর্ধ-তরঙ্গ ও পূর্ণ-তরঙ্গ দিষ্টকারণের শক্তি বিশ্লেষণ থেকে।",
+    "steps": [
+      {
+        "title": "রিপল ফ্যাক্টর",
+        "latex": "\\gamma = \\sqrt{\\left(\\frac{I_{rms}}{I_{dc}}\\right)^2 - 1}",
+        "note": "অর্ধ-তরঙ্গে γ=1.21, পূর্ণ-তরঙ্গে γ=0.48"
+      }
+    ],
+    "assumptions": [
+      "আদর্শ ডায়োড"
+    ]
+  },
+  "id": "rectifier-ripple",
+  "chapter": "semiconductor",
+  "questions": []
+}

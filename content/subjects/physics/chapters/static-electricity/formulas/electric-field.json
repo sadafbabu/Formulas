@@ -1,0 +1,51 @@
+{
+  "title": "Electric Field & Gauss's Law",
+  "titleBn": "তড়িৎ ক্ষেত্র ও গাউসের সূত্র",
+  "summary": "বিন্দু আধানের তড়িৎ ক্ষেত্র ও গাউসের সূত্র",
+  "latex": "E = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{r^2}, \\quad \\oint E \\cdot dA = \\frac{q_{encl}}{\\varepsilon_0}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "E",
+      "meaning": "তড়িৎ ক্ষেত্র",
+      "unit": "V/m"
+    },
+    {
+      "symbol": "\\varepsilon_0",
+      "meaning": "শূন্যের প্রবেশ্যতা",
+      "unit": "F/m",
+      "value": "8.85×10⁻¹²"
+    },
+    {
+      "symbol": "q",
+      "meaning": "বিন্দু আধান",
+      "unit": "C"
+    },
+    {
+      "symbol": "r",
+      "meaning": "আধান থেকে দূরত্ব",
+      "unit": "m"
+    }
+  ],
+  "derivation": {
+    "lead": "Coulomb-এর সূত্র ও ফ্লাক্স সংরক্ষণ থেকে গাউসের সূত্র প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "গাউসের সূত্র",
+        "latex": "\\oint E \\cdot dA = q/\\varepsilon_0",
+        "note": "প্রতিসাম্য থাকলে ক্ষেত্র সহজে নির্ণেয়"
+      }
+    ],
+    "assumptions": "বিন্দু আধান, সমস্ত্র মাধ্যম"
+  },
+  "id": "electric-field",
+  "chapter": "static-electricity",
+  "questions": []
+}

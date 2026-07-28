@@ -1,0 +1,50 @@
+{
+  "title": "Drift Velocity & Current Density",
+  "titleBn": "অপবেগ ও প্রবাহ ঘনত্ব",
+  "summary": "মুক্ত ইলেকট্রনের অপবেগ ও প্রবাহ ঘনত্ব সম্পর্ক",
+  "latex": "v_d = \\frac{I}{nAe}, \\quad J = \\frac{I}{A} = nev_d",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "v_d",
+      "meaning": "অপবেগ (drift velocity)",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "n",
+      "meaning": "মুক্ত ইলেকট্রন ঘনত্ব",
+      "unit": "/m³"
+    },
+    {
+      "symbol": "e",
+      "meaning": "ইলেকট্রনের আধান",
+      "unit": "C",
+      "value": "1.6×10⁻¹⁹"
+    },
+    {
+      "symbol": "J",
+      "meaning": "প্রবাহ ঘনত্ব",
+      "unit": "A/m²"
+    }
+  ],
+  "derivation": {
+    "lead": "মুক্ত ইলেকট্রনের পরিবহন বিশ্লেষণ থেকে।",
+    "steps": [
+      {
+        "title": "অপবেগ সূত্র",
+        "latex": "v_d = \\frac{eE\\tau}{m}",
+        "note": "τ হলো শিথিলকাল (relaxation time)"
+      }
+    ],
+    "assumptions": "Ohmic পরিবাহক"
+  },
+  "id": "drift-velocity",
+  "chapter": "current-electricity",
+  "questions": []
+}

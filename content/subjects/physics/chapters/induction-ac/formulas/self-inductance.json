@@ -1,0 +1,55 @@
+{
+  "title": "Self Inductance & Induced EMF",
+  "titleBn": "স্বাকর্ষণ ও আবিষ্ট তড়িৎ চালক বল",
+  "summary": "স্বাকর্ষণ গুণাঙ্ক ও পরিবর্তনশীল প্রবাহে আবিষ্ট EMF",
+  "latex": "\\varepsilon = -L\\frac{dI}{dt}, \\quad L = \\frac{\\mu_0 N^2 A}{\\ell}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "\\varepsilon",
+      "meaning": "আবিষ্ট EMF",
+      "unit": "V"
+    },
+    {
+      "symbol": "L",
+      "meaning": "স্বাকর্ষণ গুণাঙ্ক",
+      "unit": "H"
+    },
+    {
+      "symbol": "N",
+      "meaning": "পাক সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "কুণ্ডলীর ক্ষেত্রফল",
+      "unit": "m²"
+    },
+    {
+      "symbol": "\\ell",
+      "meaning": "কুণ্ডলীর দৈর্ঘ্য",
+      "unit": "m"
+    }
+  ],
+  "derivation": {
+    "lead": "Faraday-এর আবেশ সূত্র ও চুম্বকীয় ফ্লাক্স সংযোগ থেকে।",
+    "steps": [
+      {
+        "title": "স্বাকর্ষণ সূত্র",
+        "latex": "\\varepsilon = -L\\frac{dI}{dt}",
+        "note": "ঋণাত্মক চিহ্ন Lenz-এর সূত্র"
+      }
+    ],
+    "assumptions": "সলিনয়েড জাতীয় কুণ্ডলী"
+  },
+  "id": "self-inductance",
+  "chapter": "induction-ac",
+  "questions": []
+}

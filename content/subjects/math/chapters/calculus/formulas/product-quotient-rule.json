@@ -1,0 +1,39 @@
+{
+  "title": "Product & Quotient Rule",
+  "titleBn": "গুণফল ও ভাগফল নিয়ম",
+  "summary": "দুটি ফাংশনের গুণফল ও ভাগফলের অন্তরীকরণ",
+  "latex": "(uv)' = u'v + uv', \\quad \\left(\\frac{u}{v}\\right)' = \\frac{u'v - uv'}{v^2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "u, v",
+      "meaning": "দুটি ফাংশন",
+      "unit": "—"
+    },
+    {
+      "symbol": "u', v'",
+      "meaning": "অন্তরীকৃত ফাংশন",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "অন্তরীকরণের সংজ্ঞা থেকে সীমার ব্যবহারে প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "গুণফল নিয়ম",
+        "latex": "\\frac{d}{dx}(uv) = u\\frac{dv}{dx} + v\\frac{du}{dx}",
+        "note": "ভাগফল নিয়মে হর বর্গ হয়"
+      }
+    ],
+    "assumptions": "u, v অন্তরীকরণযোগ্য"
+  },
+  "id": "product-quotient-rule",
+  "chapter": "calculus",
+  "questions": []
+}
