@@ -1,0 +1,46 @@
+{
+  "title": "Torsional Pendulum Period",
+  "titleBn": "মোচনীয় দোলকের পর্যায়কাল",
+  "summary": "মোচনীয় দোলকের পর্যায়কাল ও মোচন ধ্রুবক",
+  "latex": "T = 2\\pi \\sqrt{\\frac{I}{C}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "T",
+      "meaning": "পর্যায়কাল",
+      "unit": "s"
+    },
+    {
+      "symbol": "I",
+      "meaning": "জড়তার ভ্রামক",
+      "unit": "kg·m²"
+    },
+    {
+      "symbol": "C",
+      "meaning": "মোচন ধ্রুবক (torsion constant)",
+      "unit": "N·m/rad"
+    }
+  ],
+  "derivation": {
+    "lead": "মোচনীয় বল প্রত্যায়ন τ = -Cθ থেকে কৌণিক SHM প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "পর্যায়কাল",
+        "latex": "\\omega = \\sqrt{C/I} \\implies T = 2\\pi\\sqrt{I/C}",
+        "note": "মোচন ধ্রুবক তারের উপাদান ও দৈর্ঘ্যের উপর নির্ভরশীল"
+      }
+    ],
+    "assumptions": [
+      "সাম্যাবস্থান থেকে ক্ষুদ্র মোচন"
+    ]
+  },
+  "id": "torsional-pendulum",
+  "chapter": "periodic-motion",
+  "questions": []
+}

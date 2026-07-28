@@ -1,0 +1,40 @@
+{
+  "title": "Bond Order (Molecular Orbital Theory)",
+  "titleBn": "বন্ধন ক্রম (আণবিক অরবিটাল তত্ত্ব)",
+  "summary": "আণবিক অরবিটাল তত্ত্বে বন্ধন ক্রম ও স্থায়িত্ব",
+  "latex": "\\text{Bond Order} = \\frac{N_b - N_a}{2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "N_b",
+      "meaning": "বন্ধনী অরবিটালে ইলেকট্রন সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "N_a",
+      "meaning": "প্রতিরোধী অরবিটালে ইলেকট্রন সংখ্যা",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "MO তত্ত্বে বন্ধন ক্রম বন্ধনী ও প্রতিরোধী অরবিটালের ইলেকট্রন সংখ্যার ভিত্তিতে।",
+    "steps": [
+      {
+        "title": "বন্ধন ক্রম",
+        "latex": "\\text{BO} = \\frac{N_b - N_a}{2}",
+        "note": "BO বেশি হলে বন্ধন শক্ত ও স্থিতিশীল"
+      }
+    ],
+    "assumptions": "আণবিক অরবিটাল তত্ত্ব প্রযোজ্য"
+  },
+  "id": "bond-order-mo",
+  "chapter": "chemical-bonding",
+  "questions": []
+}

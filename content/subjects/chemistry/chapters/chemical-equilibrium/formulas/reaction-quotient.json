@@ -1,0 +1,45 @@
+{
+  "title": "Reaction Quotient & Equilibrium",
+  "titleBn": "বিক্রিয়া ভাগফল ও সাম্যাবস্থা",
+  "summary": "বিক্রিয়া ভাগফল Q ও সাম্য ধ্রুবক K তুলনা",
+  "latex": "Q_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}, \\quad Q = K \\text{ (equilibrium)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "Q_c",
+      "meaning": "বিক্রিয়া ভাগফল (ঘনমাত্রা)",
+      "unit": "এককহীন"
+    },
+    {
+      "symbol": "K_c",
+      "meaning": "সাম্য ধ্রুবক",
+      "unit": "এককহীন"
+    },
+    {
+      "symbol": "[A],[B]",
+      "meaning": "বিক্রিয়কের ঘনমাত্রা",
+      "unit": "M"
+    }
+  ],
+  "derivation": {
+    "lead": "Law of Mass Action থেকে বিক্রিয়া ভাগফল প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "সাম্য নি�েশ",
+        "latex": "Q < K \\Rightarrow \\text{forward}, \\quad Q > K \\Rightarrow \\text{reverse}",
+        "note": "Q = K হলে সাম্যাবস্থা"
+      }
+    ],
+    "assumptions": "তাপমাত্রা ধ্রুব"
+  },
+  "id": "reaction-quotient",
+  "chapter": "chemical-equilibrium",
+  "questions": []
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Factor Theorem",
+  "titleBn": "উৎপাদক উপপাদ্য",
+  "summary": "বহুপদীর একটি উৎপাদক নির্ণয়ের উপপাদ্য",
+  "latex": "P(a) = 0 \\iff (x - a) \\text{ is a factor of } P(x)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "P(x)",
+      "meaning": "বহুপদী",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "বহুপদীর একটি মূল",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "শেষফল উপপাদ্য থেকে যখন শেষফল 0 হয়।",
+    "steps": [
+      {
+        "title": "উৎপাদক উপপাদ্য",
+        "latex": "P(a) = 0 \\Rightarrow (x-a) \\mid P(x)",
+        "note": "শেষফল উপপাদ্যের বিশেষ রূপ"
+      }
+    ],
+    "assumptions": "P(x) বাস্তব বা জটিল সহগবিশিষ্ট"
+  },
+  "id": "factor-theorem",
+  "chapter": "polynomials",
+  "questions": []
+}

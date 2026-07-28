@@ -1,0 +1,44 @@
+{
+  "title": "van't Hoff Equation (T Dependence of K)",
+  "titleBn": "ভান্ট হফ সমীকরণ (K এর তাপ নির্ভরতা)",
+  "summary": "সাম্য ধ্রুবকের তাপমাত্রা নির্ভরতা",
+  "latex": "\\ln\\frac{K_2}{K_1} = \\frac{\\Delta H^\\circ}{R}\\left(\\frac{1}{T_1} - \\frac{1}{T_2}\\right)",
+  "tags": [
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "K_1, K_2",
+      "meaning": "T₁ ও T₂ তাপমাত্রায় সাম্য ধ্রুবক",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\Delta H^\\circ",
+      "meaning": "প্রমাণ এনথালপি পরিবর্তন",
+      "unit": "J/mol"
+    },
+    {
+      "symbol": "R",
+      "meaning": "গ্যাস ধ্রুবক",
+      "unit": "J/(mol·K)",
+      "value": "8.314"
+    }
+  ],
+  "derivation": {
+    "lead": "Gibbs-Helmholtz সমীকরণ থেকে প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "ভান্ট হফ সমীকরণ",
+        "latex": "\\frac{d\\ln K}{dT} = \\frac{\\Delta H^\\circ}{RT^2}",
+        "note": "এক্সোথার্মিক হলে T বাড়লে K কমে"
+      }
+    ],
+    "assumptions": "\\Delta H তাপমাত্রায় ধ্রুব"
+  },
+  "id": "vanthoff-equation",
+  "chapter": "chemical-equilibrium",
+  "questions": []
+}

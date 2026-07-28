@@ -1,0 +1,34 @@
+{
+  "title": "Greatest Term in Binomial Expansion",
+  "titleBn": "দ্বিপদী বিস্তারের বৃহত্তম পদ",
+  "summary": "বৃহত্তম পদ নির্ণয়ের শর্ত",
+  "latex": "T_{r+1} > T_r \\iff \\frac{n-r+1}{r}\\cdot\\frac{b}{a} > 1",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "T_r, T_{r+1}",
+      "meaning": "পরপর দুটি পদ",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "পরপর দুটি পদের অনুপাত থেকে বৃহত্তম পদ নির্ণয়।",
+    "steps": [
+      {
+        "title": "বৃহত্তম পদ শর্ত",
+        "latex": "\\frac{T_{r+1}}{T_r} = \\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
+        "note": "পূর্ণসংখ্যা শর্ত পূরণ করতে হয়"
+      }
+    ],
+    "assumptions": "a, b ধনাত্মক"
+  },
+  "id": "greatest-term",
+  "chapter": "binomial-theorem",
+  "questions": []
+}

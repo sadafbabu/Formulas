@@ -1,0 +1,64 @@
+{
+  "title": "Spherical Mirror Formula & Magnification",
+  "titleBn": "গোলীয় দর্পণের সূত্র ও বিবর্ধন",
+  "summary": "দর্পণের ফোকাস দূরত্ব, বস্তু ও প্রতিবিম্বের দূরত্ব সম্পর্ক",
+  "latex": "\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}, \\quad m = -\\frac{v}{u} = \\frac{h'}{h}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "u",
+      "meaning": "বস্তুর দূরত্ব",
+      "unit": "m"
+    },
+    {
+      "symbol": "v",
+      "meaning": "প্রতিবিম্বের দূরত্ব",
+      "unit": "m"
+    },
+    {
+      "symbol": "f",
+      "meaning": "ফোকাস দূরত্ব",
+      "unit": "m"
+    },
+    {
+      "symbol": "m",
+      "meaning": "বিবর্ধন (Magnification)",
+      "unit": "এককহীন"
+    },
+    {
+      "symbol": "h, h'",
+      "meaning": "বস্তু ও প্রতিবিম্বের উচ্চতা",
+      "unit": "m"
+    }
+  ],
+  "derivation": {
+    "lead": "গোলীয় দর্পণে প্রতিফলনের জ্যামিতি থেকে সমবাহু ত্রিভুজ ও সদৃশ ত্রিভুজ ব্যবহার করে প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "সমীকরণ প্রতিষ্ঠা",
+        "latex": "\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}",
+        "note": "সম্মত দর্পণের জন্য f ধনাত্মক, অবতল দর্পণের জন্য f ঋণাত্মক"
+      }
+    ],
+    "assumptions": [
+      "অক্ষীয় রশ্মি (paraxial ray) ধরা হয়েছে",
+      "ছোট বিস্তারের জন্য প্রযোজ্য"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "একটি অবতল দর্পণের ফোকাস দূরত্ব 20 cm। 30 cm দূরে বস্তু রাখলে প্রতিবিম্বের অবস্থান নির্ণয় করো।",
+      "answer": "\\frac{1}{v} + \\frac{1}{-30} = \\frac{1}{-20} \\implies \\frac{1}{v} = -\\frac{1}{20} + \\frac{1}{30} = -\\frac{1}{60} \\implies v = -60\\text{ cm}"
+    }
+  ],
+  "id": "mirror-formula",
+  "chapter": "geometric-optics"
+}

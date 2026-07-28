@@ -1,0 +1,54 @@
+{
+  "title": "Bohr Radius & Hydrogen Spectrum",
+  "titleBn": "বোর ব্যাসার্ধ ও হাইড্রোজেন বর্ণালী",
+  "summary": "হাইড্রোজেন পরমাণুর বোর ব্যাসার্ধ ও রিডবার্গ সূত্র",
+  "latex": "r_n = \\frac{n^2 h^2}{4\\pi^2 m k e^2} = n^2 a_0, \\quad \\frac{1}{\\lambda} = R\\left(\\frac{1}{n_1^2} - \\frac{1}{n_2^2}\\right)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "r_n",
+      "meaning": "n-তম কক্ষপথের ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "a_0",
+      "meaning": "বোর ব্যাসার্ধ (n=1)",
+      "unit": "m",
+      "value": "0.529 Å"
+    },
+    {
+      "symbol": "R",
+      "meaning": "রিডবার্গ ধ্রুবক",
+      "unit": "/m",
+      "value": "1.097×10⁷"
+    },
+    {
+      "symbol": "n_1, n_2",
+      "meaning": "কক্ষপথ কোয়ান্টাম সংখ্যা",
+      "unit": "পূর্ণসংখ্যা"
+    }
+  ],
+  "derivation": {
+    "lead": "কৌণিক ভরবেগের কোয়ান্টায়ন ও Coulomb বলের সমন্বয় থেকে।",
+    "steps": [
+      {
+        "title": "বোর ব্যাসার্ধ",
+        "latex": "r_n = n^2 a_0",
+        "note": "Lyman, Balmer, Paschen সিরিজ নির্দিষ্ট n₁ থেকে প্রাপ্ত"
+      }
+    ],
+    "assumptions": [
+      "হাইড্রোজেন জাতীয় একক পরমাণু"
+    ]
+  },
+  "id": "bohr-radius-hydrogen",
+  "chapter": "modern-physics",
+  "questions": []
+}

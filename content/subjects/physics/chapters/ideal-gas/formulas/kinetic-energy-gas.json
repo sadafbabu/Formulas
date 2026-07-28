@@ -1,0 +1,52 @@
+{
+  "title": "Average Kinetic Energy of Gas Molecules",
+  "titleBn": "গ্যাস অণুর গড় গতিশক্তি",
+  "summary": "গ্যাস অণুর গড় গতিশক্তি ও তাপমাত্রার সম্পর্ক",
+  "latex": "\\frac{3}{2}kT = \\frac{1}{2}m\\bar{v}^2, \\quad k = 1.38\\times 10^{-23}\\ \\text{J/K}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "k",
+      "meaning": "Boltzmann ধ্রুবক",
+      "unit": "J/K",
+      "value": "1.38×10⁻²³"
+    },
+    {
+      "symbol": "T",
+      "meaning": "পরম তাপমাত্রা",
+      "unit": "K"
+    },
+    {
+      "symbol": "m",
+      "meaning": "একটি অণুর ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "\\bar{v}",
+      "meaning": "বর্গ মধ্যমা বেগ",
+      "unit": "m/s"
+    }
+  ],
+  "derivation": {
+    "lead": "গতিতত্ত্ব থেকে গ্যাসের চাপ P = (1/3)ρv̄² ও PV = (2/3)N(KE) থেকে প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "গতিশক্তি সূত্র",
+        "latex": "KE_{avg} = \\frac{3}{2}kT",
+        "note": "শুধু তাপমাত্রার উপর নির্ভরশীল"
+      }
+    ],
+    "assumptions": [
+      "একপরমাণুক আদর্শ গ্যাস"
+    ]
+  },
+  "id": "kinetic-energy-gas",
+  "chapter": "ideal-gas",
+  "questions": []
+}

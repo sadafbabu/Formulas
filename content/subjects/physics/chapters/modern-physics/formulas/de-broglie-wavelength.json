@@ -1,0 +1,58 @@
+{
+  "title": "de Broglie Wavelength",
+  "titleBn": "দ্য ব্রোগলি তরঙ্গদৈর্ঘ্য",
+  "summary": "চলমান কণার সাথে যুক্ত তরঙ্গের তরঙ্গদৈর্ঘ্য",
+  "latex": "\\lambda = \\frac{h}{p} = \\frac{h}{mv}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "\\lambda",
+      "meaning": "de Broglie তরঙ্গদৈর্ঘ্য",
+      "unit": "m"
+    },
+    {
+      "symbol": "h",
+      "meaning": "Planck ধ্রুবক",
+      "unit": "J·s",
+      "value": "6.626×10⁻³⁴"
+    },
+    {
+      "symbol": "p",
+      "meaning": "ভরবেগ",
+      "unit": "kg·m/s"
+    },
+    {
+      "symbol": "m",
+      "meaning": "ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "v",
+      "meaning": "বেগ",
+      "unit": "m/s"
+    }
+  ],
+  "derivation": {
+    "lead": "E = mc² ও E = hν সমীকরণ থেকে কণার তরঙ্গ দ্বৈত প্রকৃতি প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "তরঙ্গদৈর্ঘ্য সূত্র",
+        "latex": "\\lambda = h/p = h/(mv)",
+        "note": "ইলেকট্রনের ক্ষেত্রে পর্যবেক্ষণযোগ্য তরঙ্গদৈর্ঘ্য"
+      }
+    ],
+    "assumptions": [
+      "অতি আপেক্ষিক নয় এমন কণার জন্য"
+    ]
+  },
+  "id": "de-broglie-wavelength",
+  "chapter": "modern-physics",
+  "questions": []
+}

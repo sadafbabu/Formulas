@@ -1,0 +1,52 @@
+{
+  "title": "Diffraction Grating Equation",
+  "titleBn": "ব্যাতিচার গ্রেটিং সূত্র",
+  "summary": "গ্রেটিং ব্যাতিচারের উজ্জ্বল ডোরার শর্ত ও গ্রেটিং উপাদান",
+  "latex": "(a+b)\\sin\\theta = n\\lambda, \\quad N = \\frac{1}{a+b}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "a",
+      "meaning": "চিরের প্রস্থ",
+      "unit": "m"
+    },
+    {
+      "symbol": "b",
+      "meaning": "দুই চিরের মধ্যবর্তী দূরত্ব",
+      "unit": "m"
+    },
+    {
+      "symbol": "N",
+      "meaning": "গ্রেটিং উপাদান (grating element)",
+      "unit": "/m"
+    },
+    {
+      "symbol": "n",
+      "meaning": "ডোরার ক্রম",
+      "unit": "পূর্ণসংখ্যা"
+    }
+  ],
+  "derivation": {
+    "lead": "একাধিক সমান্তরাল চিরের থেকে নির্গত রশ্মির গঠনমূলক ব্যাতিচার শর্ত।",
+    "steps": [
+      {
+        "title": "গ্রেটিং সমীকরণ",
+        "latex": "(a+b)\\sin\\theta = n\\lambda",
+        "note": "N প্রতি একক দৈর্ঘ্যে চিরের সংখ্যা"
+      }
+    ],
+    "assumptions": [
+      "সমান্তরাল রশ্মি",
+      "একই তরঙ্গদৈর্ঘ্য"
+    ]
+  },
+  "id": "diffraction-grating",
+  "chapter": "wave-optics",
+  "questions": []
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Gibbs Free Energy & Cell EMF",
+  "titleBn": "গিবস মুক্ত শক্তি ও কোষ EMF",
+  "summary": "কোষের EMF ও গিবস মুক্ত শক্তি পরিবর্তন সম্পর্ক",
+  "latex": "\\Delta G = -nFE_{cell}, \\quad E_{cell} = E^\\circ_{cell} - \\frac{RT}{nF}\\ln Q",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "\\Delta G",
+      "meaning": "গিবস মুক্ত শক্তি পরিবর্তন",
+      "unit": "J"
+    },
+    {
+      "symbol": "n",
+      "meaning": "স্থানান্তরিত ইলেকট্রন সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "F",
+      "meaning": "ফ্যারাডে ধ্রুবক",
+      "unit": "C/mol",
+      "value": "96500"
+    },
+    {
+      "symbol": "E_{cell}",
+      "meaning": "কোষ EMF",
+      "unit": "V"
+    }
+  ],
+  "derivation": {
+    "lead": "Nernst সমীকরণ ও তাপগতিবিদ্যার সমন্বয় থেকে।",
+    "steps": [
+      {
+        "title": "Nernst সমীকরণ",
+        "latex": "E = E^\\circ - \\frac{RT}{nF}\\ln Q",
+        "note": "ΔG < 0 হলে কোষ স্বতঃস্ফূর্ত"
+      }
+    ],
+    "assumptions": "প্রমাণ অবস্থা"
+  },
+  "id": "gibbs-emf-relation",
+  "chapter": "electrochemistry",
+  "questions": []
+}

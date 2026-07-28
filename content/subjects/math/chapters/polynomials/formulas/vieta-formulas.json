@@ -1,0 +1,39 @@
+{
+  "title": "Vieta's Formulas (Roots & Coefficients)",
+  "titleBn": "ভিয়েতার সূত্র (মূল ও সহগ)",
+  "summary": "বহুপদীর মূল ও সহগের সম্পর্ক",
+  "latex": "x_1+x_2 = -\\frac{b}{a}, \\quad x_1 x_2 = \\frac{c}{a}; \\quad \\sum x_i = -\\frac{a_{n-1}}{a_n}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "x_1, x_2",
+      "meaning": "দ্বিঘাত সমীকরণের মূল",
+      "unit": "—"
+    },
+    {
+      "symbol": "a, b, c",
+      "meaning": "বহুপদীর সহগ",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "বহুপদীকে উৎপাদক আকারে লিখে সহগ তুলনা থেকে প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "দ্বিঘাত ভিয়েতা",
+        "latex": "x_1 + x_2 = -b/a, \\quad x_1 x_2 = c/a",
+        "note": "n-তম ক্রমের জন্য সাধারণ রূপ আছে"
+      }
+    ],
+    "assumptions": "মূলগুলো গণন ও পুনরাবৃত্ত সহ"
+  },
+  "id": "vieta-formulas",
+  "chapter": "polynomials",
+  "questions": []
+}

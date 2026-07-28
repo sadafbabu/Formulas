@@ -1,0 +1,35 @@
+{
+  "title": "Compound Angle Formulas",
+  "titleBn": "যৌগিক কোণের সূত্র",
+  "summary": "sin, cos, tan এর যোগফল ও বিয়োগফল কোণ সূত্র",
+  "latex": "\\sin(A\\pm B) = \\sin A\\cos B \\pm \\cos A\\sin B, \\quad \\cos(A\\pm B) = \\cos A\\cos B \\mp \\sin A\\sin B",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "A, B",
+      "meaning": "দুটি কোণ",
+      "unit": "rad"
+    }
+  ],
+  "derivation": {
+    "lead": "একক বৃত্ত ও ঘূর্ণন ম্যাট্রিক্স থেকে প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "যৌগিক কোণ",
+        "latex": "\\tan(A+B) = \\frac{\\tan A + \\tan B}{1 - \\tan A\\tan B}",
+        "note": "বিয়োগফলের জন্য চিহ্ন পরিবর্তন"
+      }
+    ],
+    "assumptions": "কোণ রেডিয়ানে"
+  },
+  "id": "compound-angle",
+  "chapter": "trigonometric-equations",
+  "questions": []
+}

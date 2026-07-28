@@ -1,0 +1,35 @@
+{
+  "title": "Multiple & Sub-multiple Angle Formulas",
+  "titleBn": "গুণিতক ও উপগুণিতক কোণ সূত্র",
+  "summary": "দ্বিগুণ, ত্রিগুণ ও অর্ধ কোণের ত্রিকোণমিতিক সূত্র",
+  "latex": "\\sin 2A = 2\\sin A\\cos A, \\quad \\cos 2A = 2\\cos^2 A - 1, \\quad \\sin\\frac{A}{2} = \\pm\\sqrt{\\frac{1-\\cos A}{2}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "A",
+      "meaning": "কোণ",
+      "unit": "rad"
+    }
+  ],
+  "derivation": {
+    "lead": "যৌগিক কোণ সূত্রে A = B বসালে দ্বিগুণ কোণ সূত্র পাওয়া যায়।",
+    "steps": [
+      {
+        "title": "দ্বিগুণ কোণ",
+        "latex": "\\sin 2A = 2\\sin A\\cos A",
+        "note": "ত্রিগুণ: sin 3A = 3 sin A - 4 sin³ A"
+      }
+    ],
+    "assumptions": "কোণ রেডিয়ানে"
+  },
+  "id": "multiple-angle",
+  "chapter": "trigonometric-equations",
+  "questions": []
+}

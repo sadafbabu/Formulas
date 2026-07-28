@@ -1,0 +1,45 @@
+{
+  "title": "Damped & Forced Oscillation",
+  "titleBn": "ক্ষতিগ্রস্ত ও প্রণোদিত দোলন",
+  "summary": "ক্ষতিগ্রস্ত দোলকের সমীকরণ ও অবনমন, প্রণোদিত দোলনে অনুনাদ",
+  "latex": "x = A e^{-\\gamma t}\\cos(\\omega_d t), \\quad \\omega_d = \\sqrt{\\omega_0^2 - \\gamma^2}",
+  "tags": [
+    "eng-admission",
+    "varsity",
+    "1-star"
+  ],
+  "importance": 1,
+  "symbols": [
+    {
+      "symbol": "\\gamma",
+      "meaning": "অবনমন ধ্রুবক (damping)",
+      "unit": "/s"
+    },
+    {
+      "symbol": "\\omega_0",
+      "meaning": "�্বাভাবিক কৌণিক কম্পাঙ্ক",
+      "unit": "rad/s"
+    },
+    {
+      "symbol": "\\omega_d",
+      "meaning": "ক্ষতিগ্রস্ত কৌণিক কম্পাঙ্ক",
+      "unit": "rad/s"
+    }
+  ],
+  "derivation": {
+    "lead": "মান বল ও প্রতিরোধী বল সহ দোলন সমীকরণ থেকে প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "ক্ষতিগ্রস্ত দোলন",
+        "latex": "m\\ddot{x} + b\\dot{x} + kx = 0",
+        "note": "অবনমন বেশি হলে দোলন শীঘ্রই থেমে যায়"
+      }
+    ],
+    "assumptions": [
+      "রৈখিক অবনমন"
+    ]
+  },
+  "id": "resonance-damped",
+  "chapter": "periodic-motion",
+  "questions": []
+}

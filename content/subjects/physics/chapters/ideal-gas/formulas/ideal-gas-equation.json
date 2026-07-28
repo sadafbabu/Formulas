@@ -1,0 +1,59 @@
+{
+  "title": "Ideal Gas Equation (Combined Gas Law)",
+  "titleBn": "আদর্শ গ্যাস সমীকরণ",
+  "summary": "চাপ, আয়তন, তাপমাত্রা ও মোলের সম্পর্ক",
+  "latex": "PV = nRT, \\quad R = 8.314\\ \\text{J/(mol·K)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "P",
+      "meaning": "চাপ",
+      "unit": "Pa"
+    },
+    {
+      "symbol": "V",
+      "meaning": "আয়তন",
+      "unit": "m³"
+    },
+    {
+      "symbol": "n",
+      "meaning": "মোল সংখ্যা",
+      "unit": "mol"
+    },
+    {
+      "symbol": "R",
+      "meaning": "সার্বজনীন গ্যাস ধ্রুবক",
+      "unit": "J/(mol·K)",
+      "value": "8.314"
+    },
+    {
+      "symbol": "T",
+      "meaning": "পরম তাপমাত্রা",
+      "unit": "K"
+    }
+  ],
+  "derivation": {
+    "lead": "Boyle, Charles ও Avogadro-এর সূত্র সমন্বয় করে প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "সম্মিলিত সূত্র",
+        "latex": "PV = nRT",
+        "note": "STP-তে 1 mol গ্যাসের আয়তন 22.4 L"
+      }
+    ],
+    "assumptions": [
+      "আদর্শ গ্যাস",
+      "অণুগুলোর আকার উপেক্ষণীয়"
+    ]
+  },
+  "id": "ideal-gas-equation",
+  "chapter": "ideal-gas",
+  "questions": []
+}

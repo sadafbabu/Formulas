@@ -1,0 +1,51 @@
+{
+  "title": "Lens Combination & Power",
+  "titleBn": "লেন্সের সংযোজন ও ক্ষমতা",
+  "summary": "একাধিক লেন্সের সমতুল্য ফোকাস দূরত্ব ও ক্ষমতা",
+  "latex": "\\frac{1}{F} = \\frac{1}{f_1} + \\frac{1}{f_2} - \\frac{d}{f_1 f_2}, \\quad P = P_1 + P_2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "2-star"
+  ],
+  "importance": 2,
+  "symbols": [
+    {
+      "symbol": "F",
+      "meaning": "সমতুল্য ফোকাস দূরত্ব",
+      "unit": "m"
+    },
+    {
+      "symbol": "f_1, f_2",
+      "meaning": "প্রতিটি লেন্সের ফোকাস দূরত্ব",
+      "unit": "m"
+    },
+    {
+      "symbol": "d",
+      "meaning": "লেন্স দুটির মধ্যবর্তী দূরত্ব",
+      "unit": "m"
+    },
+    {
+      "symbol": "P",
+      "meaning": "লেন্সের ক্ষমতা",
+      "unit": "D"
+    }
+  ],
+  "derivation": {
+    "lead": "পরপর লেন্স দুটির জন্য প্রতিবিম্ব দূরত্ব ও পরবর্তী লেন্সের বস্তু দূরত্ব সম্পর্ক থেকে প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "সংযোজন সূত্র",
+        "latex": "\\frac{1}{F} = \\frac{1}{f_1} + \\frac{1}{f_2} - \\frac{d}{f_1 f_2}",
+        "note": "স্পর্শী লেন্সের জন্য d = 0"
+      }
+    ],
+    "assumptions": [
+      "লেন্স সরু ও পাতলা"
+    ]
+  },
+  "id": "lens-combination-power",
+  "chapter": "geometric-optics",
+  "questions": []
+}

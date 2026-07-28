@@ -1,0 +1,50 @@
+{
+  "title": "Quantum Numbers & Orbitals",
+  "titleBn": "কোয়ান্টাম সংখ্যা ও অরবিটাল",
+  "summary": "চারটি কোয়ান্টাম সংখ্যা ও অরবিটালের সংখ্যা",
+  "latex": "n, \\ l, \\ m_l, \\ m_s; \\quad \\text{orbitals} = (2l+1), \\quad \\text{max e}^\\ominus = 2(2l+1)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "symbols": [
+    {
+      "symbol": "n",
+      "meaning": "মুখ্য কোয়ান্টাম সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "l",
+      "meaning": "গৌণ কোয়ান্টাম সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "m_l",
+      "meaning": "চুম্বকীয় কোয়ান্টাম সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "m_s",
+      "meaning": "স্পিন কোয়ান্টাম সংখ্যা",
+      "unit": "±1/2"
+    }
+  ],
+  "derivation": {
+    "lead": "Schrödinger সমীকরণ থেকে প্রাপ্ত কোয়ান্টাম সংখ্যাসমূহ।",
+    "steps": [
+      {
+        "title": "অরবিটাল সংখ্যা",
+        "latex": "\\text{orbitals} = 2l+1",
+        "note": "s:1, p:3, d:5, f:7"
+      }
+    ],
+    "assumptions": "এক-ইলেকট্রন জাতীয় পরমাণুর সমীকরণ"
+  },
+  "id": "quantum-numbers",
+  "chapter": "qualitative-chem",
+  "questions": []
+}
