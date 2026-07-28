@@ -1,0 +1,73 @@
+{
+  "id": "sine-cosine-laws",
+  "chapter": "trigonometric-equations",
+  "title": "Sine, Cosine & Projection Laws",
+  "titleBn": "ত্রিভুজের sine, cosine ও projection সূত্র",
+  "summary": "যেকোনো ত্রিভুজে বাহু-কোণের মূল সম্পর্ক এবং ambiguity handling।",
+  "latex": "\\frac a{\\sin A}=\\frac b{\\sin B}=\\frac c{\\sin C}=2R,\\quad a^2=b^2+c^2-2bc\\cos A,\\quad a=b\\cos C+c\\cos B",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "triangle-area-radii",
+    "compound-angle",
+    "distance-formula"
+  ],
+  "symbols": [
+    {
+      "symbol": "a,b,c",
+      "meaning": "A,B,C-এর বিপরীত বাহু",
+      "unit": "একক"
+    },
+    {
+      "symbol": "R",
+      "meaning": "পরিবৃত্তের ব্যাসার্ধ",
+      "unit": "একক"
+    }
+  ],
+  "derivation": {
+    "lead": "Altitude ফেলে right-triangle trigonometry ও area-এর দুই রূপ তুলনা করলে sine/cosine laws আসে।",
+    "steps": [
+      {
+        "title": "sine rule",
+        "latex": "\\frac a{\\sin A}=\\frac b{\\sin B}=\\frac c{\\sin C}=2R",
+        "note": "একটি side-opposite angle pair জানা থাকলে উপযোগী।"
+      },
+      {
+        "title": "cosine rule",
+        "latex": "\\cos A=\\frac{b^2+c^2-a^2}{2bc}",
+        "note": "SSS বা SAS data-তে; A=90° হলে Pythagoras।"
+      },
+      {
+        "title": "projection",
+        "latex": "a=b\\cos C+c\\cos B",
+        "note": "a-এর দিকে b,c-এর projection-এর যোগ।"
+      }
+    ],
+    "assumptions": [
+      "A+B+C=π এবং a,b,c বিপরীত বাহু।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "b=5, c=7 এবং A=60° হলে a কত?",
+      "answer": "a^2=25+49-2(5)(7)\\cos60^\\circ=74-35=39\\Rightarrow a=\\sqrt{39}"
+    }
+  ],
+  "memorize": {
+    "trick": "Sine rule-এ side/তার বিপরীত angle; cosine rule-এ target side-এর বিপরীত angle-এর cos। Cosine rule হলো generalized Pythagoras—A=90° বসালেই a²=b²+c²।",
+    "steps": [
+      "SSA data-তে sine rule ambiguous case দিতে পারে।",
+      "সবচেয়ে বড় side-এর বিপরীতে সবচেয়ে বড় angle।"
+    ]
+  }
+}

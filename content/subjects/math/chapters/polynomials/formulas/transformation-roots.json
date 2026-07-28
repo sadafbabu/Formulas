@@ -1,0 +1,79 @@
+{
+  "id": "transformation-roots",
+  "chapter": "polynomials",
+  "title": "Transformation of Roots",
+  "titleBn": "সমীকরণের মূলের রূপান্তর",
+  "summary": "মূলের সাথে ধ্রুব যোগ/গুণ, reciprocal বা polynomial transformation করে নতুন সমীকরণ।",
+  "latex": "f(x)=0;\\quad \\alpha_i+h:\\ f(y-h)=0,\\quad k\\alpha_i:\\ f(y/k)=0,\\quad 1/\\alpha_i:\\ y^nf(1/y)=0",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "root-coefficient-relation",
+    "vieta-formulas",
+    "synthetic-division"
+  ],
+  "symbols": [
+    {
+      "symbol": "h",
+      "meaning": "মূলের সাথে যোগ ধ্রুবক",
+      "unit": "—"
+    },
+    {
+      "symbol": "k",
+      "meaning": "মূলের গুণক",
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "মূল সমীকরণের degree",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "নতুন চলক y ও পুরনো root x-এর সম্পর্ক উল্টে x-এর জায়গায় বসালেই নতুন equation।",
+    "steps": [
+      {
+        "title": "মূল α+h",
+        "latex": "y=x+h\\Rightarrow x=y-h\\Rightarrow f(y-h)=0",
+        "note": "চিহ্ন উল্টো বসে—এটাই সাধারণ ভুল।"
+      },
+      {
+        "title": "মূল kα",
+        "latex": "y=kx\\Rightarrow x=y/k\\Rightarrow f(y/k)=0",
+        "note": "Fraction দূর করতে প্রয়োজনমতো kⁿ দিয়ে গুণ।"
+      },
+      {
+        "title": "reciprocal roots",
+        "latex": "y=1/x\\Rightarrow y^nf(1/y)=0",
+        "note": "Coefficient order উল্টে যায়।"
+      }
+    ],
+    "assumptions": [
+      "শূন্য root থাকলে reciprocal transformation সংজ্ঞায়িত নয়।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "x^2-5x+6=0-এর মূল থেকে 2 বেশি মূলবিশিষ্ট equation কী?",
+      "answer": "x=y-2:\\ (y-2)^2-5(y-2)+6=0\\Rightarrow y^2-9y+20=0"
+    }
+  ],
+  "memorize": {
+    "trick": "নতুন root y = পুরনো x + h হলে equation-এ x = y − h বসে—চিহ্ন উল্টো। Reciprocal roots চাইলে coefficients reverse হয়।",
+    "steps": [
+      "α+h ⇒ f(y−h)=0।",
+      "kα ⇒ f(y/k)=0।",
+      "1/α ⇒ yⁿf(1/y)=0।"
+    ]
+  }
+}

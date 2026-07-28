@@ -1,0 +1,68 @@
+{
+  "id": "reciprocal-equations",
+  "chapter": "polynomials",
+  "title": "Reciprocal Equations",
+  "titleBn": "ব্যুত্ক্রমিক সমীকরণ",
+  "summary": "Palindromic/anti-palindromic coefficient equation-এ x+1/x substitution ও reciprocal root pair।",
+  "latex": "ax^4+bx^3+cx^2+bx+a=0\\Rightarrow a\\left(x+\\frac1x\\right)^2+b\\left(x+\\frac1x\\right)+(c-2a)=0",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "transformation-roots",
+    "root-coefficient-relation",
+    "factor-theorem"
+  ],
+  "symbols": [
+    {
+      "symbol": "t=x+1/x",
+      "meaning": "reduction variable",
+      "unit": "—"
+    },
+    {
+      "symbol": "a,b,c",
+      "meaning": "palindromic coefficients",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Coefficient দুই প্রান্ত থেকে একই হলে x root-এর সাথে 1/x-ও root; x^(n/2) দিয়ে ভাগ করে symmetric powers জোড়া যায়।",
+    "steps": [
+      {
+        "title": "quartic reduction",
+        "latex": "\\frac{f(x)}{x^2}=a\\left(x^2+\\frac1{x^2}\\right)+b\\left(x+\\frac1x\\right)+c",
+        "note": "x²+1/x² = t²−2 বসালে quadratic হয়।"
+      },
+      {
+        "title": "root pairing",
+        "latex": "\\alpha\\ \\text{root}\\Rightarrow1/\\alpha\\ \\text{root}",
+        "note": "Product of reciprocal pair = 1।"
+      }
+    ],
+    "assumptions": [
+      "x≠0; reciprocal equation-এর constant term nonzero।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Eng Admission",
+      "question": "x^4+3x^3+4x^2+3x+1=0-কে t=x+1/x দিয়ে reduce করুন।",
+      "answer": "x^2+\\frac1{x^2}+3\\left(x+\\frac1x\\right)+4=0\\Rightarrow t^2+3t+2=0"
+    }
+  ],
+  "memorize": {
+    "trick": "Coefficients সামনে-পেছনে এক হলে reciprocal equation। মধ্যঘাত দিয়ে ভাগ করে t=x+1/x নিন; x²+1/x²=t²−2। Degree অর্ধেক হয়ে যায়।",
+    "steps": [
+      "Palindromic root জোড়া α ও 1/α।",
+      "Anti-palindromic even degree-এ x=1; odd degree-এ x=±1 factor পরীক্ষা করুন।"
+    ]
+  }
+}

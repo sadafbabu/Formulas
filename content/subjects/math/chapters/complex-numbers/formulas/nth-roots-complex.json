@@ -1,0 +1,73 @@
+{
+  "id": "nth-roots-complex",
+  "chapter": "complex-numbers",
+  "title": "n-th Roots of a Complex Number",
+  "titleBn": "জটিল সংখ্যার n-তম মূল",
+  "summary": "Polar form থেকে nটি সমদূরবর্তী root এবং তাদের geometric arrangement।",
+  "latex": "z_k=r^{1/n}\\left[\\cos\\frac{\\theta+2k\\pi}{n}+i\\sin\\frac{\\theta+2k\\pi}{n}\\right],\\quad k=0,\\ldots,n-1",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "de-moivre",
+    "roots-of-unity",
+    "polar-multiplication"
+  ],
+  "symbols": [
+    {
+      "symbol": "n",
+      "meaning": "মূলের ঘাত",
+      "unit": "ধনাত্মক পূর্ণসংখ্যা"
+    },
+    {
+      "symbol": "k",
+      "meaning": "root index",
+      "unit": "0,…,n−1"
+    },
+    {
+      "symbol": "r^{1/n}",
+      "meaning": "প্রতিটি root-এর modulus",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "wⁿ=z হলে modulus-এর n-th root এবং argument-এর সব 2π-equivalent মান n দিয়ে ভাগ করতে হয়।",
+    "steps": [
+      {
+        "title": "polar matching",
+        "latex": "\\rho^n=r,\\quad n\\phi=\\theta+2k\\pi",
+        "note": "তাই ρ=r^(1/n), φ=(θ+2kπ)/n।"
+      },
+      {
+        "title": "geometry",
+        "latex": "\\Delta\\phi=\\frac{2\\pi}{n}",
+        "note": "nটি root একই বৃত্তে regular n-gon-এর vertices।"
+      }
+    ],
+    "assumptions": [
+      "n ধনাত্মক পূর্ণসংখ্যা।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Eng Admission",
+      "question": "8i-এর cube roots-এর polar form লিখুন।",
+      "answer": "8i=8e^{i\\pi/2};\\ z_k=2e^{i(\\pi/6+2k\\pi/3)},\\quad k=0,1,2"
+    }
+  ],
+  "memorize": {
+    "trick": "n-th root-এ modulus-এর n-th root, angle-এর সাথে 2kπ যোগ করে n দিয়ে ভাগ; k=0 থেকে n−1—ঠিক nটি root। তারা regular n-gon বানায়।",
+    "steps": [
+      "শুধু principal argument ভাগ করলে বাকি root হারাবে।",
+      "পরপর root-এর angle gap = 2π/n।"
+    ]
+  }
+}

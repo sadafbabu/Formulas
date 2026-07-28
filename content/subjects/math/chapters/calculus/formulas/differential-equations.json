@@ -1,0 +1,78 @@
+{
+  "id": "differential-equations",
+  "chapter": "calculus",
+  "title": "First-order Differential Equations",
+  "titleBn": "প্রথম ক্রমের অন্তরক সমীকরণ",
+  "summary": "Separable ও first-order linear differential equation-এর standard solution method।",
+  "latex": "\\frac{dy}{dx}=f(x)g(y)\\Rightarrow\\int\\frac{dy}{g(y)}=\\int f(x)dx,\\quad \\frac{dy}{dx}+Py=Q,\\ IF=e^{\\int Pdx}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 110,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "standard-integrals",
+    "integration-substitution",
+    "radioactive-decay"
+  ],
+  "symbols": [
+    {
+      "symbol": "IF",
+      "meaning": "integrating factor",
+      "unit": "—"
+    },
+    {
+      "symbol": "P,Q",
+      "meaning": "x-এর function",
+      "unit": "—"
+    },
+    {
+      "symbol": "C",
+      "meaning": "integration constant",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Separable equation-এ x ও y আলাদা পাশে; linear equation-এ integrating factor দিয়ে বাম পাশ product derivative বানানো হয়।",
+    "steps": [
+      {
+        "title": "separable",
+        "latex": "\\frac{dy}{g(y)}=f(x)dx",
+        "note": "দুই পাশ integrate করে initial condition-এ C বের করুন।"
+      },
+      {
+        "title": "linear",
+        "latex": "IF=e^{\\int Pdx},\\quad y(IF)=\\int Q(IF)dx+C",
+        "note": "Equation প্রথমে dy/dx + Py = Q standard form-এ আনতে হবে।"
+      },
+      {
+        "title": "growth/decay",
+        "latex": "\\frac{dy}{dt}=ky\\Rightarrow y=y_0e^{kt}",
+        "note": "k>0 growth, k<0 decay।"
+      }
+    ],
+    "assumptions": [
+      "P ও Q শুধু independent variable-এর function।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Varsity Admission",
+      "question": "\\frac{dy}{dx}=2xy,\\ y(0)=3 সমাধান করুন।",
+      "answer": "\\frac{dy}{y}=2x\\,dx\\Rightarrow\\ln y=x^2+C;\\ y=Ce^{x^2};\\ C=3\\Rightarrow y=3e^{x^2}"
+    }
+  ],
+  "memorize": {
+    "trick": "Linear DE-এর একমাত্র mantra: standard form dy/dx + Py = Q; IF = e^{∫Pdx}; solution y·IF = ∫Q·IF dx + C।",
+    "steps": [
+      "Separable হলে x এক পাশে, y অন্য পাশে।",
+      "Initial condition দিয়ে C বের করতে ভুলবেন না।"
+    ]
+  }
+}

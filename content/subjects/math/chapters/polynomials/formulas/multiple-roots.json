@@ -1,0 +1,68 @@
+{
+  "id": "multiple-roots",
+  "chapter": "polynomials",
+  "title": "Multiple Roots & GCD with Derivative",
+  "titleBn": "পুনরাবৃত্ত মূল ও derivative-এর সাথে সাধারণ উৎপাদক",
+  "summary": "Polynomial-এর repeated root নির্ণয়ে f ও f′-এর simultaneous condition এবং multiplicity।",
+  "latex": "\\alpha\\text{ repeated root}\\iff f(\\alpha)=f'(\\alpha)=0,\\quad m\\text{-fold}\\Rightarrow f=f'=\\cdots=f^{(m-1)}=0",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 100,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "factor-theorem",
+    "synthetic-division",
+    "cubic-discriminant"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\alpha",
+      "meaning": "পুনরাবৃত্ত মূল",
+      "unit": "—"
+    },
+    {
+      "symbol": "m",
+      "meaning": "multiplicity",
+      "unit": "ধনাত্মক পূর্ণসংখ্যা"
+    }
+  ],
+  "derivation": {
+    "lead": "f(x)=(x−α)^m g(x), g(α)≠0 হলে differentiation-এ factor-এর power এক কমে; তাই f ও f′ উভয়েই α-তে শূন্য।",
+    "steps": [
+      {
+        "title": "double root",
+        "latex": "f(\\alpha)=0,\\quad f'(\\alpha)=0,\\quad f''(\\alpha)\\ne0",
+        "note": "f ও f′-এর GCD-তে (x−α) থাকে।"
+      },
+      {
+        "title": "m-fold",
+        "latex": "f^{(k)}(\\alpha)=0\\ (k=0,\\ldots,m-1),\\quad f^{(m)}(\\alpha)\\ne0",
+        "note": "প্রতিবার derivative multiplicity এক কমায়।"
+      }
+    ],
+    "assumptions": [
+      "Polynomial characteristic zero field (বাস্তব/জটিল সংখ্যা)।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission",
+      "question": "x^3+ax^2+bx+1-এ x=1 double root হলে a,b কত?",
+      "answer": "f(1)=a+b+2=0,\\ f'(1)=3+2a+b=0\\Rightarrow a=-1,\\ b=-1"
+    }
+  ],
+  "memorize": {
+    "trick": "Repeated root মানে polynomial আর তার derivative দুটোই সেই root-এ zero। Double root-এর জন্য f=0, f′=0—দুটি unknown coefficient বের করার খুব সাধারণ প্রশ্ন।",
+    "steps": [
+      "Multiplicity m হলে m−1 derivative পর্যন্ত zero।",
+      "Graph even multiplicity root-এ x-axis ছুঁয়ে ফিরে, odd multiplicity-তে পার হয়।"
+    ]
+  }
+}

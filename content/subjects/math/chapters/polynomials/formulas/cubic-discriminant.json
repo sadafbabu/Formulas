@@ -1,0 +1,68 @@
+{
+  "id": "cubic-discriminant",
+  "chapter": "polynomials",
+  "title": "Cubic Discriminant & Nature of Roots",
+  "titleBn": "ঘন সমীকরণের নিশ্চায়ক ও মূলের প্রকৃতি",
+  "summary": "Cubic equation-এর discriminant থেকে real/complex ও repeated root নির্ণয়।",
+  "latex": "\\Delta=18abcd-4b^3d+b^2c^2-4ac^3-27a^2d^2\\quad(ax^3+bx^2+cx+d=0)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "root-coefficient-relation",
+    "vieta-formulas",
+    "quadratic-equation-roots"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\Delta",
+      "meaning": "cubic discriminant",
+      "unit": "—"
+    },
+    {
+      "symbol": "a,b,c,d",
+      "meaning": "সমীকরণের সহগ",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Discriminant roots-এর pairwise differences-এর square-এর সমানুপাতী; দুই root সমান হলে Δ=0।",
+    "steps": [
+      {
+        "title": "root form",
+        "latex": "\\Delta=a^4(\\alpha-\\beta)^2(\\beta-\\gamma)^2(\\gamma-\\alpha)^2",
+        "note": "Repeated root-এ কোনো difference শূন্য, তাই Δ=0।"
+      },
+      {
+        "title": "nature",
+        "latex": "\\Delta>0:\\ 3\\ \\text{distinct real};\\quad \\Delta<0:\\ 1\\ \\text{real}+2\\ \\text{complex};\\quad\\Delta=0:\\text{repeated}",
+        "note": "Real coefficient cubic-এর জন্য।"
+      }
+    ],
+    "assumptions": [
+      "সব coefficient বাস্তব এবং a≠0।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Varsity Admission",
+      "question": "x^3-3x+2=0-এর repeated root আছে কি?",
+      "answer": "(x-1)^2(x+2)=0;\\ \\Delta=0,\\ \\text{তাই }x=1\\text{ repeated।}"
+    }
+  ],
+  "memorize": {
+    "trick": "Cubic discriminant-এর বিশাল formula-এর চেয়ে sign interpretation বেশি জরুরি: Δ>0 তিন real; Δ<0 এক real; Δ=0 repeated।",
+    "steps": [
+      "Repeated root পেতে f(a)=0 এবং f′(a)=0 একসাথে।",
+      "Integer root খুঁজতে constant term-এর divisors পরীক্ষা করুন।"
+    ]
+  }
+}
