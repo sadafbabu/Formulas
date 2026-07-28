@@ -1,0 +1,80 @@
+{
+  "id": "logic-gates",
+  "chapter": "semiconductor",
+  "title": "Logic Gates & Boolean Algebra",
+  "titleBn": "লজিক গেট ও বুলিয়ান বীজগণিত",
+  "summary": "মৌলিক ও সার্বজনীন লজিক গেট, সত্যক সারণি ও দ্য মরগ্যানের সূত্র।",
+  "latex": "Y = A \\cdot B\\ (\\text{AND}), \\quad Y = A + B\\ (\\text{OR}), \\quad \\overline{A+B} = \\bar{A}\\cdot\\bar{B}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "transistor-alpha-beta",
+    "pn-junction-diode",
+    "amplifier-gain"
+  ],
+  "symbols": [
+    {
+      "symbol": "A, B",
+      "meaning": "ইনপুট (০ বা ১)",
+      "unit": "—"
+    },
+    {
+      "symbol": "Y",
+      "meaning": "আউটপুট",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\bar{A}",
+      "meaning": "A-এর পূরক (NOT)",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "ডায়োড ও ট্রানজিস্টর দিয়ে সুইচিং ক্রিয়া তৈরি করে যুক্তিমূলক ক্রিয়া সম্পাদন করা হয়।",
+    "steps": [
+      {
+        "title": "মৌলিক গেট",
+        "latex": "\\text{AND: সব ১ হলে ১}, \\quad \\text{OR: একটি ১ হলেই ১}, \\quad \\text{NOT: উল্টে দেয়}",
+        "note": "এই তিনটি দিয়েই সব বর্তনী গড়া যায়।"
+      },
+      {
+        "title": "সার্বজনীন গেট",
+        "latex": "\\text{NAND ও NOR}",
+        "note": "কেবল NAND (বা কেবল NOR) দিয়েই যেকোনো গেট বানানো সম্ভব — তাই এগুলো সার্বজনীন।"
+      },
+      {
+        "title": "দ্য মরগ্যানের সূত্র",
+        "latex": "\\overline{A+B} = \\bar{A}\\bar{B}, \\quad \\overline{A\\cdot B} = \\bar{A}+\\bar{B}",
+        "note": "পূরক নিলে যোগ-গুণ অদলবদল হয়ে যায়।"
+      }
+    ],
+    "assumptions": [
+      "আদর্শ গেট, প্রচার বিলম্ব উপেক্ষিত।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "NAND গেটের দুই ইনপুট একসাথে যুক্ত করলে কোন গেট পাওয়া যায়?",
+      "answer": "Y = \\overline{A \\cdot A} = \\bar{A} \\Rightarrow \\text{NOT গেট}"
+    }
+  ],
+  "memorize": {
+    "trick": "AND = গুণ (সব ১ হলে ১), OR = যোগ (একটি ১ হলেই ১)। XOR = \"আলাদা হলে ১\"। আর দ্য মরগ্যান: \"বার ভাঙলে চিহ্ন বদলায়\" — যোগ হয়ে যায় গুণ, গুণ হয়ে যায় যোগ।",
+    "steps": [
+      "NAND ও NOR সার্বজনীন — একটাই গেট দিয়ে সব বানানো যায়।",
+      "XOR: ইনপুট আলাদা হলে ১, একই হলে ০ (তুলনাকারী ও যোগকারীতে ব্যবহার)।",
+      "বুলিয়ান সরলীকরণে A + A = A, A·A = A, A + Ā = 1, A·Ā = 0।"
+    ]
+  }
+}
