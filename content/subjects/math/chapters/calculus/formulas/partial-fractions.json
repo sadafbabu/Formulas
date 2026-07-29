@@ -1,0 +1,49 @@
+{
+  "id": "partial-fractions",
+  "chapter": "calculus",
+  "title": "Partial Fractions",
+  "titleBn": "আংশিক ভগ্নাংশ যোগজীকরণ",
+  "summary": "রৈখিক উৎপাদকে ভগ্নাংশ ভেঙে যোগজ",
+  "latex": "\\frac{px+q}{(x-a)(x-b)}=\\frac{A}{x-a}+\\frac{B}{x-b}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "রৈখিক উৎপাদকে ভগ্নাংশ ভেঙে যোগজ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{px+q}{(x-a)(x-b)}=\\frac{A}{x-a}+\\frac{B}{x-b}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আংশিক ভগ্নাংশ যোগজীকরণ এর মূল সূত্রটি লেখো।",
+      "answer": "\\frac{px+q}{(x-a)(x-b)}=\\frac{A}{x-a}+\\frac{B}{x-b}"
+    }
+  ],
+  "memorize": {
+    "trick": "ভেঙে A,B বসিয়ে আলাদা যোগজ করুন।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

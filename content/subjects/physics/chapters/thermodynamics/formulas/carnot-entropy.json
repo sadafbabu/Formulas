@@ -1,0 +1,53 @@
+{
+  "id": "carnot-entropy",
+  "chapter": "thermodynamics",
+  "title": "Carnot & Entropy",
+  "titleBn": "কার্নো চক্র ও এনট্রপি",
+  "summary": "এনট্রপি পরিবর্তন এবং কার্নো দক্ষতা",
+  "latex": "\\Delta S=\\int\\frac{dQ_{rev}}{T},\\quad\\eta=1-\\frac{T_2}{T_1},\\quad\\Delta S_{univ}\\ge 0",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "এনট্রপি পরিবর্তন এবং কার্নো দক্ষতা",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\Delta S=\\int\\frac{dQ_{rev}}{T},\\quad\\eta=1-\\frac{T_2}{T_1},\\quad\\Delta S_{univ}\\ge 0",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কার্নো চক্র ও এনট্রপি এর মূল সূত্রটি লেখো।",
+      "answer": "\\Delta S=\\int\\frac{dQ_{rev}}{T},\\quad\\eta=1-\\frac{T_2}{T_1},\\quad\\Delta S_{univ}\\ge 0"
+    }
+  ],
+  "memorize": {
+    "trick": "এনট্রপি = Q_rev/T; কার্নো η কেবল দুই তাপমাত্রায়।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "carnaud-efficiency",
+    "entropy-change"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "transistor-ce-relations",
+  "chapter": "semiconductor",
+  "title": "CE Transistor Currents",
+  "titleBn": "CE ট্রানজিস্টর প্রবাহ সম্পর্ক",
+  "summary": "α, β এবং প্রবাহ সংরক্ষণ",
+  "latex": "I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "α, β এবং প্রবাহ সংরক্ষণ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "CE ট্রানজিস্টর প্রবাহ সম্পর্ক এর মূল সূত্রটি লেখো।",
+      "answer": "I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}"
+    }
+  ],
+  "memorize": {
+    "trick": "IE=IB+IC; β≈α/(1−α)।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "transistor-alpha-beta",
+    "amplifier-gain"
+  ]
+}

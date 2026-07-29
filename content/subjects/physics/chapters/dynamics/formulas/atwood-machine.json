@@ -1,0 +1,52 @@
+{
+  "id": "atwood-machine",
+  "chapter": "dynamics",
+  "title": "Atwood Machine",
+  "titleBn": "অ্যাটউড যন্ত্র ও সংযুক্ত বস্তু",
+  "summary": "দুই ভরের অ্যাটউড ত্বরণ ও টান",
+  "latex": "a=\\frac{(m_1-m_2)g}{m_1+m_2},\\quad T=\\frac{2m_1m_2}{m_1+m_2}g",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 150,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "দুই ভরের অ্যাটউড ত্বরণ ও টান",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "a=\\frac{(m_1-m_2)g}{m_1+m_2},\\quad T=\\frac{2m_1m_2}{m_1+m_2}g",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অ্যাটউড যন্ত্র ও সংযুক্ত বস্তু এর মূল সূত্রটি লেখো।",
+      "answer": "a=\\frac{(m_1-m_2)g}{m_1+m_2},\\quad T=\\frac{2m_1m_2}{m_1+m_2}g"
+    }
+  ],
+  "memorize": {
+    "trick": "a = ভরপার্থক্য×g / মোটভর; T সবসময় ছোটটির চেয়ে বেশি।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "newtons-laws"
+  ]
+}

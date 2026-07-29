@@ -8,8 +8,8 @@ Dark, compact A5 formula book for HSC / admission.
 
 ## Catalog
 
-- 277 formulas across Physics, Chemistry, and Higher Math
-- 26 HSC/admission chapters
+- 368 formulas across Physics, Chemistry, and Higher Math
+- 29 HSC/admission chapters
 - Bengali memorization guidance on every formula
 - Symbols, units, derivations, assumptions, and worked questions
 - KaTeX + mhchem reaction/structural notation

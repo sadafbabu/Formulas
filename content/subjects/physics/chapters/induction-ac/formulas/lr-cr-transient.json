@@ -1,0 +1,53 @@
+{
+  "id": "lr-cr-transient",
+  "chapter": "induction-ac",
+  "title": "LR & CR Transient",
+  "titleBn": "LR ও CR বর্তনীতে প্রবাহ বৃদ্ধি-ক্ষয়",
+  "summary": "ট্রানজিয়েন্ট চার্জিং/ডিচার্জিং",
+  "latex": "I=I_0(1-e^{-Rt/L}),\\ I=I_0e^{-Rt/L},\\ \\tau=L/R;\\quad q=q_0(1-e^{-t/RC}),\\ \\tau=RC",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "ট্রানজিয়েন্ট চার্জিং/ডিচার্জিং",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "I=I_0(1-e^{-Rt/L}),\\ I=I_0e^{-Rt/L},\\ \\tau=L/R;\\quad q=q_0(1-e^{-t/RC}),\\ \\tau=RC",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "LR ও CR বর্তনীতে প্রবাহ বৃদ্ধি-ক্ষয় এর মূল সূত্রটি লেখো।",
+      "answer": "I=I_0(1-e^{-Rt/L}),\\ I=I_0e^{-Rt/L},\\ \\tau=L/R;\\quad q=q_0(1-e^{-t/RC}),\\ \\tau=RC"
+    }
+  ],
+  "memorize": {
+    "trick": "τ = L/R বা RC; 63% বৃদ্ধি/ক্ষয় এক τ-তে।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "self-inductance",
+    "ac-through-l-c-r"
+  ]
+}

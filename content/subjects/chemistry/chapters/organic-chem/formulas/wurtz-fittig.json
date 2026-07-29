@@ -1,0 +1,50 @@
+{
+  "id": "wurtz-fittig",
+  "chapter": "organic-chem",
+  "title": "Wurtz & Fittig",
+  "titleBn": "উর্টজ ও ফিটিগ বিক্রিয়া",
+  "summary": "হ্যালোঅ্যালকেন থেকে অ্যালকেন/অ্যারেন",
+  "latex": "\\ce{2RCl + 2Na -> R-R + 2NaCl}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 160,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "হ্যালোঅ্যালকেন থেকে অ্যালকেন/অ্যারেন",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\ce{2RCl + 2Na -> R-R + 2NaCl}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "উর্টজ ও ফিটিগ বিক্রিয়া এর মূল সূত্রটি লেখো।",
+      "answer": "\\ce{2RCl + 2Na -> R-R + 2NaCl}"
+    }
+  ],
+  "memorize": {
+    "trick": "2RX + 2Na → R−R — কার্বন শৃঙ্খল বাড়ে।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

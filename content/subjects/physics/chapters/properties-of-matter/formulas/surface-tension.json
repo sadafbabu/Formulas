@@ -1,0 +1,50 @@
+{
+  "id": "surface-tension",
+  "chapter": "properties-of-matter",
+  "title": "Surface Tension",
+  "titleBn": "পৃষ্ঠটান",
+  "summary": "পৃষ্ঠটান ও পৃষ্ঠশক্তি",
+  "latex": "T=\\frac{F}{l}=\\frac{W}{\\Delta A}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "পৃষ্ঠটান ও পৃষ্ঠশক্তি",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "T=\\frac{F}{l}=\\frac{W}{\\Delta A}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পৃষ্ঠটান এর মূল সূত্রটি লেখো।",
+      "answer": "T=\\frac{F}{l}=\\frac{W}{\\Delta A}"
+    }
+  ],
+  "memorize": {
+    "trick": "T = F/l; সাবান ফিল্মে দুই তল ⇒ 2A।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

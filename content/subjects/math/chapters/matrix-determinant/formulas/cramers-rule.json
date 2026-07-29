@@ -1,0 +1,49 @@
+{
+  "id": "cramers-rule",
+  "chapter": "matrix-determinant",
+  "title": "Cramer's Rule",
+  "titleBn": "ক্রেমারের নিয়ম",
+  "summary": "রৈখিক সমীকরণের সমাধান",
+  "latex": "x=\\frac{D_x}{D},\\quad y=\\frac{D_y}{D},\\quad z=\\frac{D_z}{D}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "রৈখিক সমীকরণের সমাধান",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "x=\\frac{D_x}{D},\\quad y=\\frac{D_y}{D},\\quad z=\\frac{D_z}{D}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ক্রেমারের নিয়ম এর মূল সূত্রটি লেখো।",
+      "answer": "x=\\frac{D_x}{D},\\quad y=\\frac{D_y}{D},\\quad z=\\frac{D_z}{D}"
+    }
+  ],
+  "memorize": {
+    "trick": "প্রতিটি চলক = সংশ্লিষ্ট নির্ণায়ক ÷ D।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

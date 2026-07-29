@@ -1,0 +1,53 @@
+{
+  "id": "molecular-speeds",
+  "chapter": "ideal-gas",
+  "title": "Molecular Speed Trio",
+  "titleBn": "সম্ভাব্য, গড় ও rms গতি",
+  "summary": "ম্যাক্সওয়েল বিচরণের তিন বৈশিষ্ট্যমূলক গতি",
+  "latex": "v_p=\\sqrt{\\frac{2RT}{M}},\\quad\\langle v\\rangle=\\sqrt{\\frac{8RT}{\\pi M}},\\quad v_{rms}=\\sqrt{\\frac{3RT}{M}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "ম্যাক্সওয়েল বিচরণের তিন বৈশিষ্ট্যমূলক গতি",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "v_p=\\sqrt{\\frac{2RT}{M}},\\quad\\langle v\\rangle=\\sqrt{\\frac{8RT}{\\pi M}},\\quad v_{rms}=\\sqrt{\\frac{3RT}{M}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সম্ভাব্য, গড় ও rms গতি এর মূল সূত্রটি লেখো।",
+      "answer": "v_p=\\sqrt{\\frac{2RT}{M}},\\quad\\langle v\\rangle=\\sqrt{\\frac{8RT}{\\pi M}},\\quad v_{rms}=\\sqrt{\\frac{3RT}{M}}"
+    }
+  ],
+  "memorize": {
+    "trick": "ক্রম: vp < ⟨v⟩ < vrms।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "maxwell-distribution",
+    "rms-velocity"
+  ]
+}

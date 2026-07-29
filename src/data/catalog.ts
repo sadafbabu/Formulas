@@ -32,6 +32,7 @@ const chapterList: Omit<ChapterMeta, 'formulaCount' | 'isReady'>[] = [
   { id: 'dynamics', slug: 'dynamics', name: 'Newtonian Mechanics', nameBn: 'নিউটনীয় বলবিদ্যা', subjectId: 'physics', paperId: '1st-paper', order: 4 },
   { id: 'work-energy', slug: 'work-energy', name: 'Work, Energy & Power', nameBn: 'কাজ, ক্ষমতা ও শক্তি', subjectId: 'physics', paperId: '1st-paper', order: 5 },
   { id: 'gravitation', slug: 'gravitation', name: 'Gravitation & Gravity', nameBn: 'মহাকর্ষ ও অভিকর্ষ', subjectId: 'physics', paperId: '1st-paper', order: 6 },
+  { id: 'properties-of-matter', slug: 'properties-of-matter', name: 'Properties of Matter', nameBn: 'পদার্থের গুণাবলি', subjectId: 'physics', paperId: '1st-paper', order: 7 },
   { id: 'periodic-motion', slug: 'periodic-motion', name: 'Periodic Motion & SHM', nameBn: 'পর্যায়বৃত্ত গতি', subjectId: 'physics', paperId: '1st-paper', order: 8 },
   { id: 'ideal-gas', slug: 'ideal-gas', name: 'Ideal Gas & Kinetic Theory', nameBn: 'আদর্শ গ্যাস ও গতিতত্ত্ব', subjectId: 'physics', paperId: '1st-paper', order: 10 },
 
@@ -56,6 +57,7 @@ const chapterList: Omit<ChapterMeta, 'formulaCount' | 'isReady'>[] = [
   { id: 'electrochemistry', slug: 'electrochemistry', name: 'Electrochemistry', nameBn: 'তড়িৎ রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 4 },
 
   // Higher Math 1st Paper
+  { id: 'matrix-determinant', slug: 'matrix-determinant', name: 'Matrices & Determinants', nameBn: 'ম্যাট্রিক্স ও নির্ণায়ক', subjectId: 'math', paperId: '1st-paper', order: 2 },
   { id: 'straight-lines', slug: 'straight-lines', name: 'Straight Lines', nameBn: 'সরলরেখা', subjectId: 'math', paperId: '1st-paper', order: 3 },
   { id: 'calculus', slug: 'calculus', name: 'Calculus & Integration', nameBn: 'ক্যালকুলাস ও যোগজীকরণ', subjectId: 'math', paperId: '1st-paper', order: 9 },
 
@@ -63,6 +65,7 @@ const chapterList: Omit<ChapterMeta, 'formulaCount' | 'isReady'>[] = [
   { id: 'complex-numbers', slug: 'complex-numbers', name: 'Complex Numbers', nameBn: 'জটিল সংখ্যা', subjectId: 'math', paperId: '2nd-paper', order: 3 },
   { id: 'polynomials', slug: 'polynomials', name: 'Polynomials & Equations', nameBn: 'বহুপদী ও বহুপদী সমীকরণ', subjectId: 'math', paperId: '2nd-paper', order: 4 },
   { id: 'binomial-theorem', slug: 'binomial-theorem', name: 'Binomial Theorem', nameBn: 'দ্বিপদী উপপাদ্য', subjectId: 'math', paperId: '2nd-paper', order: 5 },
+  { id: 'permutation-combination', slug: 'permutation-combination', name: 'Permutations & Combinations', nameBn: 'ক্রমবিন্যাস ও সমাবেশ', subjectId: 'math', paperId: '2nd-paper', order: 6 },
   { id: 'trigonometric-equations', slug: 'trigonometric-equations', name: 'Trigonometric Equations', nameBn: 'ত্রিকোণমিতিক সমীকরণ', subjectId: 'math', paperId: '2nd-paper', order: 7 },
 ]
 

@@ -1,0 +1,49 @@
+{
+  "id": "descartes-rule",
+  "chapter": "polynomials",
+  "title": "Descartes' Rule of Signs",
+  "titleBn": "দেকার্তের চিহ্ন নিয়ম",
+  "summary": "ধনাত্মক মূলের সম্ভাব্য সংখ্যা",
+  "latex": "\\#\\{\\text{positive roots}\\}\\le\\#\\{\\text{sign changes in }f(x)\\}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "ধনাত্মক মূলের সম্ভাব্য সংখ্যা",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\#\\{\\text{positive roots}\\}\\le\\#\\{\\text{sign changes in }f(x)\\}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "দেকার্তের চিহ্ন নিয়ম এর মূল সূত্রটি লেখো।",
+      "answer": "\\#\\{\\text{positive roots}\\}\\le\\#\\{\\text{sign changes in }f(x)\\}"
+    }
+  ],
+  "memorize": {
+    "trick": "চিহ্ন বদলের সংখ্যা = ধনাত্মক মূলের উপরের সীমা।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

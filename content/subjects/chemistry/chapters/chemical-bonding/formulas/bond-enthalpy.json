@@ -1,0 +1,50 @@
+{
+  "id": "bond-enthalpy",
+  "chapter": "chemical-bonding",
+  "title": "Bond Enthalpy",
+  "titleBn": "বন্ধন এনথালপি",
+  "summary": "বন্ধন এনথালপি থেকে ΔH",
+  "latex": "\\Delta H=\\sum E_{\\text{broken}}-\\sum E_{\\text{formed}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "বন্ধন এনথালপি থেকে ΔH",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\Delta H=\\sum E_{\\text{broken}}-\\sum E_{\\text{formed}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বন্ধন এনথালপি এর মূল সূত্রটি লেখো।",
+      "answer": "\\Delta H=\\sum E_{\\text{broken}}-\\sum E_{\\text{formed}}"
+    }
+  ],
+  "memorize": {
+    "trick": "ভাঙা − গঠন = ΔH (এন্ডো ধনাত্মক)।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

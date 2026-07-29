@@ -1,0 +1,52 @@
+{
+  "id": "aldol-cannizzaro",
+  "chapter": "organic-chem",
+  "title": "Aldol & Cannizzaro",
+  "titleBn": "অ্যালডল ও ক্যানিজারো বিক্রিয়া",
+  "summary": "কার্বনিলের দুই গুরুত্বপূর্ণ বিক্রিয়া",
+  "latex": "\\ce{2RCHO ->[OH-] RCH(OH)CH2CHO};\\quad\\ce{2HCHO -> HCOO- + CH3OH}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 140,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "কার্বনিলের দুই গুরুত্বপূর্ণ বিক্রিয়া",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\ce{2RCHO ->[OH-] RCH(OH)CH2CHO};\\quad\\ce{2HCHO -> HCOO- + CH3OH}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অ্যালডল ও ক্যানিজারো বিক্রিয়া এর মূল সূত্রটি লেখো।",
+      "answer": "\\ce{2RCHO ->[OH-] RCH(OH)CH2CHO};\\quad\\ce{2HCHO -> HCOO- + CH3OH}"
+    }
+  ],
+  "memorize": {
+    "trick": "α-H থাকলে Aldol; না থাকলে Cannizzaro।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "carbonyl-reactions"
+  ]
+}

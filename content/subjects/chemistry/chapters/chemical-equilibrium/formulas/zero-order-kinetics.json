@@ -1,0 +1,52 @@
+{
+  "id": "zero-order-kinetics",
+  "chapter": "chemical-equilibrium",
+  "title": "Zero-Order Kinetics",
+  "titleBn": "শূন্য ক্রমের গতিবিদ্যা",
+  "summary": "শূন্য ক্রমের সমাকলিত সূত্র",
+  "latex": "[A]=[A]_0-kt,\\quad t_{1/2}=\\frac{[A]_0}{2k}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 150,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "শূন্য ক্রমের সমাকলিত সূত্র",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "[A]=[A]_0-kt,\\quad t_{1/2}=\\frac{[A]_0}{2k}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "শূন্য ক্রমের গতিবিদ্যা এর মূল সূত্রটি লেখো।",
+      "answer": "[A]=[A]_0-kt,\\quad t_{1/2}=\\frac{[A]_0}{2k}"
+    }
+  ],
+  "memorize": {
+    "trick": "[A] রৈখিক কমছে; t½ ∝ [A]₀।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "rate-law-order"
+  ]
+}

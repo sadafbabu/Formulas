@@ -1,0 +1,49 @@
+{
+  "id": "parallel-lines-distance",
+  "chapter": "straight-lines",
+  "title": "Distance Between Parallel Lines",
+  "titleBn": "সমান্তরাল রেখার দূরত্ব",
+  "summary": "দুই সমান্তরাল রেখার দূরত্ব",
+  "latex": "d=\\frac{|c_1-c_2|}{\\sqrt{a^2+b^2}}\\quad(ax+by+c_i=0)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "দুই সমান্তরাল রেখার দূরত্ব",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "d=\\frac{|c_1-c_2|}{\\sqrt{a^2+b^2}}\\quad(ax+by+c_i=0)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সমান্তরাল রেখার দূরত্ব এর মূল সূত্রটি লেখো।",
+      "answer": "d=\\frac{|c_1-c_2|}{\\sqrt{a^2+b^2}}\\quad(ax+by+c_i=0)"
+    }
+  ],
+  "memorize": {
+    "trick": "d = |c₁−c₂|/√(a²+b²) — a,b একই রাখুন।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}
