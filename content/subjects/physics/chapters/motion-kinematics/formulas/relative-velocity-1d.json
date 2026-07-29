@@ -16,8 +16,8 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "vec, v, A, B",
-      "meaning": "vAB=vA−vB",
+      "symbol": "v, A, B",
+      "meaning": "আপেক্ষিক বেগ (১D)",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আপেক্ষিক বেগ (১D) এর সূত্রটি লেখো। (ইঙ্গিত: A এর সাপেক্ষে B = vA − vB।)",
+      "question": "আপেক্ষিক বেগ (১D) সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: A এর সাপেক্ষে B = vA − vB।)",
       "answer": "\\vec v_{AB}=\\vec v_A-\\vec v_B"
     }
   ],

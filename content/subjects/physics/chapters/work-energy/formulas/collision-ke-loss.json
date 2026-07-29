@@ -1,0 +1,66 @@
+{
+  "id": "collision-ke-loss",
+  "chapter": "work-energy",
+  "title": "KE Loss in Inelastic Collision",
+  "titleBn": "অস্থিতিস্থাপক সংঘর্ষে গতিশক্তি ক্ষয়",
+  "summary": "ভরবেগ সংরক্ষিত, গতিশক্তি কমে",
+  "latex": "\\Delta K=\\tfrac12\\mu v_{\\text{rel}}^2(1-e^2)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "e",
+      "meaning": "পুনরুদ্ধার গুণাঙ্ক",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\mu",
+      "meaning": "হারিত ভর = m₁m₂/(m₁+m₂)",
+      "unit": "kg"
+    }
+  ],
+  "derivation": {
+    "lead": "e < 1 হলে গতিশক্তির অংশ তাপ/বিকৃতিতে যায়।",
+    "steps": [
+      {
+        "title": "সম্পূর্ণ অস্থিতিস্থাপক",
+        "latex": "e=0,\\ v=\\dfrac{m_1u_1+m_2u_2}{m_1+m_2}",
+        "note": "একসাথে চলে।"
+      },
+      {
+        "title": "ক্ষয়",
+        "latex": "\\Delta K=K_i-K_f>0",
+        "note": "e=1 হলে ΔK = 0।"
+      }
+    ],
+    "assumptions": [
+      "বাহ্যিক বল নেই (ভরবেগ সংরক্ষণ)"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "সম্পূর্ণ অস্থিতিস্থাপক সংঘর্ষে কী সংরক্ষিত থাকে?",
+      "answer": "\\text{শুধু ভরবেগ; গতিশক্তি সংরক্ষিত নয়}"
+    }
+  ],
+  "memorize": {
+    "trick": "e=1 স্থিতিস্থাপক; e=0 সম্পূর্ণ অস্থিতিস্থাপক।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "coefficient-restitution",
+    "elastic-collision",
+    "work-theorem"
+  ]
+}

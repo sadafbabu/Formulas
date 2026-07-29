@@ -1,0 +1,65 @@
+{
+  "id": "position-vector-section-formula",
+  "chapter": "vector",
+  "title": "Section Formula (Position Vector)",
+  "titleBn": "অবস্থান ভেক্টর — বিভাজন সূত্র",
+  "summary": "m:n অনুপাতে বিভাজক বিন্দুর অবস্থান ভেক্টর",
+  "latex": "\\vec r=\\frac{n\\vec r_1+m\\vec r_2}{m+n}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "\\vec r_1,\\vec r_2",
+      "meaning": "A ও B-এর অবস্থান ভেক্টর",
+      "unit": "m"
+    },
+    {
+      "symbol": "m:n",
+      "meaning": "অভ্যন্তরীণ বিভাজন অনুপাত",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "A ও B-কে m:n অনুপাতে অভ্যন্তরে বিভাজক বিন্দুর অবস্থান ভেক্টর।",
+    "steps": [
+      {
+        "title": "অভ্যন্তরীণ বিভাজন",
+        "latex": "\\vec r=\\frac{n\\vec r_A+m\\vec r_B}{m+n}",
+        "note": "m দূরের বিন্দুর ওজন, n কাছের।"
+      },
+      {
+        "title": "মধ্যবিন্দু",
+        "latex": "m=n=1\\Rightarrow \\vec r=\\frac{\\vec r_A+\\vec r_B}{2}",
+        "note": "মধ্যবিন্দুতে গড়।"
+      }
+    ],
+    "assumptions": [
+      "অভ্যন্তরীণ বিভাজন; বাহ্যিক বিভাজনে চিহ্ন বদলায়"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "\\(\\vec r_A=\\hat i+2\\hat j\\), \\(\\vec r_B=3\\hat i+4\\hat j\\)। AB-এর মধ্যবিন্দু কী?",
+      "answer": "\\vec r=\\frac{(1+3)\\hat i+(2+4)\\hat j}{2}=2\\hat i+3\\hat j"
+    }
+  ],
+  "memorize": {
+    "trick": "মধ্যবিন্দু = দুই অবস্থান ভেক্টরের গড়।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "unit-vector",
+    "vector-addition-laws"
+  ]
+}

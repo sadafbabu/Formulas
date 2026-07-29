@@ -16,7 +16,7 @@
   "symbols": [
     {
       "symbol": "n, t, m, tfrac",
-      "meaning": "2nt=(m+½)λ",
+      "meaning": "অপাতল স্তরে ব্যতিচার",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অপাতল স্তরে ব্যতিচার এর সূত্রটি লেখো। (ইঙ্গিত: Phase reversal at one surface → half wavelength path differe)",
+      "question": "অপাতল স্তরে ব্যতিচার সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: Phase reversal at one surface → half wavelength path difference।)",
       "answer": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda"
     }
   ],

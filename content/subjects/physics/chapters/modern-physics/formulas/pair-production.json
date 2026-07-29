@@ -16,8 +16,8 @@
   "order": 170,
   "symbols": [
     {
-      "symbol": "gamma, e, E, MeV",
-      "meaning": "γ → e⁻ + e⁺",
+      "symbol": "e, E, M, V",
+      "meaning": "জোড় উৎপাদন",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জোড় উৎপাদন এর সূত্রটি লেখো। (ইঙ্গিত: ন্যূনতম ১.০২২ MeV ফোটন শক্তি।)",
+      "question": "জোড় উৎপাদন সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: ন্যূনতম ১.০২২ MeV ফোটন শক্তি।)",
       "answer": "\\gamma\\to e^-+e^+\\quad(E_\\gamma\\ge 1.022\\,\\mathrm{MeV})"
     }
   ],

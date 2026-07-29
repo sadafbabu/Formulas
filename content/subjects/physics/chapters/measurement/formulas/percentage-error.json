@@ -16,9 +16,19 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "delta, x, Delta",
-      "meaning": "Δx/x × 100%",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "\\Delta x",
+      "meaning": "পরম ত্রুটি",
+      "unit": "x-এর একক"
+    },
+    {
+      "symbol": "x",
+      "meaning": "পরিমাপিত মান",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\delta x\\%",
+      "meaning": "শতকরা ত্রুটি",
+      "unit": "%"
     }
   ],
   "derivation": {
@@ -30,13 +40,15 @@
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "শতকরা ত্রুটি এর সূত্রটি লেখো। (ইঙ্গিত: আপেক্ষিক ত্রুটি × 100 = শতকরা ত্রুটি।)",
-      "answer": "\\delta x\\%=\\frac{\\Delta x}{x}\\times 100\\%"
+      "examType": "HSC",
+      "question": "x = 50.0 ± 0.5 হলে শতকরা ত্রুটি কত?",
+      "answer": "\\delta x\\%=(0.5/50)\\times100\\%=1\\%"
     }
   ],
   "memorize": {
@@ -47,8 +59,8 @@
     "physics"
   ],
   "related": [
-    "dimensional-homogeneity",
-    "error-propagation-product",
-    "dimensional-formula"
+    "absolute-relative-error",
+    "error-propagation-sum-difference",
+    "error-propagation-product"
   ]
 }

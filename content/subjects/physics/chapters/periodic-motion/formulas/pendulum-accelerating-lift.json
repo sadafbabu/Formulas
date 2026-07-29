@@ -1,0 +1,71 @@
+{
+  "id": "pendulum-accelerating-lift",
+  "chapter": "periodic-motion",
+  "title": "Pendulum in Accelerating Lift",
+  "titleBn": "ত্বরিত লিফটে দোলক",
+  "summary": "কার্যকর g′ দিয়ে পর্যায়কাল",
+  "latex": "T=2\\pi\\sqrt{\\ell/g_{\\text{eff}}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "g_{\\text{eff}}",
+      "meaning": "কার্যকর অভিকর্ষ",
+      "unit": "m/s²"
+    },
+    {
+      "symbol": "\\ell",
+      "meaning": "দোলকের দৈর্ঘ্য",
+      "unit": "m"
+    }
+  ],
+  "derivation": {
+    "lead": "লিফটের ত্বরণ অনুসারে g_eff বদলায়।",
+    "steps": [
+      {
+        "title": "উর্ধ্ব a",
+        "latex": "g_{\\text{eff}}=g+a",
+        "note": "T কমে।"
+      },
+      {
+        "title": "নিম্ন a",
+        "latex": "g_{\\text{eff}}=g-a",
+        "note": "T বাড়ে।"
+      },
+      {
+        "title": "মুক্তপতন",
+        "latex": "g_{\\text{eff}}=0\\Rightarrow T\\to\\infty",
+        "note": "দোলন বন্ধ।"
+      }
+    ],
+    "assumptions": [
+      "ক্ষুদ্র কোণ; সরল দোলক"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "লিফট মুক্তপতনে থাকলে দোলকের পর্যায়কাল কী হয়?",
+      "answer": "T\\to\\infty\\ (\\text{দোলন হয় না})"
+    }
+  ],
+  "memorize": {
+    "trick": "উঠলে g+a; নামলে g−a; পতনে দোলন নেই।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "shm-time-period",
+    "apparent-weight-elevator",
+    "compound-pendulum"
+  ]
+}

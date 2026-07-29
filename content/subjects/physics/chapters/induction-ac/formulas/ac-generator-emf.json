@@ -1,0 +1,71 @@
+{
+  "id": "ac-generator-emf",
+  "chapter": "induction-ac",
+  "title": "AC Generator EMF",
+  "titleBn": "AC জেনারেটরের তড়িচ্চালক বল",
+  "summary": "ε = ε₀ sinωt",
+  "latex": "\\mathcal{E}=NBA\\omega\\sin\\omega t=\\mathcal{E}_0\\sin\\omega t",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 180,
+  "symbols": [
+    {
+      "symbol": "N",
+      "meaning": "কুণ্ডলীর পাক সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "ক্ষেত্রফল",
+      "unit": "m²"
+    },
+    {
+      "symbol": "\\omega",
+      "meaning": "কৌণিক কম্পাঙ্ক",
+      "unit": "rad/s"
+    }
+  ],
+  "derivation": {
+    "lead": "ঘূর্ণায়মান কুণ্ডলীতে ফ্লাক্সের পরিবর্তন → পর্যাবৃত্ত emf।",
+    "steps": [
+      {
+        "title": "ফ্লাক্স",
+        "latex": "\\Phi=BA\\cos\\omega t",
+        "note": "θ = ωt।"
+      },
+      {
+        "title": "ফ্যারাডে",
+        "latex": "\\mathcal{E}=-N d\\Phi/dt=NBA\\omega\\sin\\omega t",
+        "note": "ε₀ = NBAω।"
+      }
+    ],
+    "assumptions": [
+      "অভিন্ন B; ধ্রুব ω"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "AC জেনারেটরের চূড়া emf-এর সূত্র কী?",
+      "answer": "\\mathcal{E}_0=NBA\\omega"
+    }
+  ],
+  "memorize": {
+    "trick": "ε₀ = NBAω — ঘূর্ণন দ্রুত হলে emf বাড়ে।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "faradays-law",
+    "motional-emf",
+    "ac-rms-values"
+  ]
+}

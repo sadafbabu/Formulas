@@ -16,8 +16,8 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "v, top, sqrt, g",
-      "meaning": "top/bottom",
+      "symbol": "v, top, g, r",
+      "meaning": "উল্লম্ব বৃত্তের চরম",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উল্লম্ব বৃত্তের চরম এর সূত্রটি লেখো। (ইঙ্গিত: শীর্ষে ন্যূনতম √(gr)।)",
+      "question": "উল্লম্ব বৃত্তের চরম সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: শীর্ষে ন্যূনতম √(gr)।)",
       "answer": "v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})"
     }
   ],

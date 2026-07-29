@@ -16,8 +16,8 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "h, r, (from bottom of loop)",
-      "meaning": "height 5r/2",
+      "symbol": "h, r, f, o",
+      "meaning": "লুপ দিয়ে ঘূর্ণন",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "লুপ দিয়ে ঘূর্ণন এর সূত্রটি লেখো। (ইঙ্গিত: লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।)",
+      "question": "লুপ দিয়ে ঘূর্ণন সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।)",
       "answer": "h_{\\min}=\\frac{5r}{2}\\quad\\text{(from bottom of loop)}"
     }
   ],

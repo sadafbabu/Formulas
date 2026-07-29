@@ -17,7 +17,7 @@
   "symbols": [
     {
       "symbol": "d, Q, t, kappa",
-      "meaning": "dQ/dt = κAΔT/L",
+      "meaning": "তাপ পরিবহন হার",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "তাপ পরিবহন হার এর সূত্রটি লেখো। (ইঙ্গিত: κ বড় = ভালো পরিবাহী।)",
+      "question": "তাপ পরিবহন হার সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: κ বড় = ভালো পরিবাহী।)",
       "answer": "\\frac{dQ}{dt}=\\kappa A\\frac{\\Delta T}{L}"
     }
   ],

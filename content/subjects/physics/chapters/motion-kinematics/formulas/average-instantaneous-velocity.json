@@ -16,8 +16,8 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "v, avg, Delta, x",
-      "meaning": "Δx/Δt vs dx/dt",
+      "symbol": "v, a, g, x",
+      "meaning": "গড় ও তাৎক্ষণিক বেগ",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গড় ও তাৎক্ষণিক বেগ এর সূত্রটি লেখো। (ইঙ্গিত: গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।)",
+      "question": "গড় ও তাৎক্ষণিক বেগ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।)",
       "answer": "v_{\\text{avg}}=\\frac{\\Delta x}{\\Delta t},\\quad v=\\lim_{\\Delta t\\to0}\\frac{\\Delta x}{\\Delta t}"
     }
   ],

@@ -16,8 +16,8 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "W, P, Delta, V",
-      "meaning": "সমচাপ/সমআয়তনে কাজ ও তাপ",
+      "symbol": "W, P, V, n",
+      "meaning": "সমচাপ ও সমআয়তন প্রক্রিয়া",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -30,12 +30,14 @@
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমচাপ ও সমআয়তন প্রক্রিয়া এর সূত্রটি লেখো। (ইঙ্গিত: Isochoric: W=0; Isobaric: W=PΔV।)",
+      "question": "সমচাপ ও সমআয়তন প্রক্রিয়া সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: Isochoric: W=0; Isobaric: W=PΔV।)",
       "answer": "W_P=P\\Delta V=nR\\Delta T,\\quad W_V=0,\\quad Q_V=nC_V\\Delta T,\\quad Q_P=nC_P\\Delta T"
     }
   ],

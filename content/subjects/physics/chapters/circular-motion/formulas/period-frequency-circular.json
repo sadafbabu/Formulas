@@ -16,8 +16,8 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "T, pi, omega, f",
-      "meaning": "T=2π/ω",
+      "symbol": "T, f",
+      "meaning": "পর্যায়কাল ও কম্পাঙ্ক",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পর্যায়কাল ও কম্পাঙ্ক এর সূত্রটি লেখো। (ইঙ্গিত: ω = 2πf; T = 1/f।)",
+      "question": "পর্যায়কাল ও কম্পাঙ্ক সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: ω = 2πf; T = 1/f।)",
       "answer": "T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f"
     }
   ],

@@ -1,0 +1,65 @@
+{
+  "id": "single-slit-central-width",
+  "chapter": "wave-optics",
+  "title": "Central Maximum Width (Single Slit)",
+  "titleBn": "একক স্লিটে কেন্দ্রীয় চূড়ার প্রস্থ",
+  "summary": "β₀ = 2λD/a",
+  "latex": "\\beta_0=\\dfrac{2\\lambda D}{a}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "a",
+      "meaning": "স্লিট প্রস্থ",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\beta_0",
+      "meaning": "কেন্দ্রীয় উজ্জ্বলতার প্রস্থ",
+      "unit": "m"
+    }
+  ],
+  "derivation": {
+    "lead": "প্রথম নিম্নদ্বয়ের ব্যবধানই কেন্দ্রীয় চূড়ার প্রস্থ।",
+    "steps": [
+      {
+        "title": "প্রথম নিম্ন",
+        "latex": "a\\sin\\theta=\\lambda",
+        "note": "θ ≈ y/D।"
+      },
+      {
+        "title": "প্রস্থ",
+        "latex": "\\beta_0=2\\lambda D/a",
+        "note": "পার্শ্ব চূড়া অর্ধেক চওড়া।"
+      }
+    ],
+    "assumptions": [
+      "Fraunhofer অপবর্তন; ক্ষুদ্র কোণ"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "কেন্দ্রীয় চূড়ার প্রস্থের সূত্র কী?",
+      "answer": "\\beta_0=2\\lambda D/a"
+    }
+  ],
+  "memorize": {
+    "trick": "কেন্দ্রীয় = ২ × (λD/a)।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "single-slit-diffraction",
+    "diffraction-grating"
+  ]
+}

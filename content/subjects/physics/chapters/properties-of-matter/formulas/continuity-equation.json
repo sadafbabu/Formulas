@@ -3,52 +3,74 @@
   "chapter": "properties-of-matter",
   "title": "Equation of Continuity",
   "titleBn": "ধারাবাহিকতার সমীকরণ",
-  "summary": "অসংকোচনযোগ্য প্রবাহে Av সংরক্ষণ",
-  "latex": "A_1 v_1=A_2 v_2",
+  "summary": "অসংকোচনযোগ্য স্থির প্রবাহে A₁v₁ = A₂v₂",
+  "latex": "A_1 v_1=A_2 v_2\\quad(\\rho\\ \\text{ধ্রুব}\\Rightarrow \\rho Av=\\text{const})",
   "tags": [
     "hsc",
     "eng-admission",
     "medical",
     "varsity",
-    "2-star"
+    "3-star"
   ],
-  "importance": 2,
+  "importance": 3,
   "order": 80,
   "symbols": [
     {
-      "symbol": "A, v",
-      "meaning": "অসংকোচনযোগ্য প্রবাহে Av সংরক্ষণ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "A",
+      "meaning": "প্রস্থচ্ছেদের ক্ষেত্রফল",
+      "unit": "m²"
+    },
+    {
+      "symbol": "v",
+      "meaning": "প্রবাহ বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "\\rho",
+      "meaning": "ঘনত্ব",
+      "unit": "kg/m³"
     }
   ],
   "derivation": {
-    "lead": "অসংকোচনযোগ্য প্রবাহে Av সংরক্ষণ",
+    "lead": "একই সময়ে প্রবেশ ও নির্গমন ভর সমান — ভর সংরক্ষণ।",
     "steps": [
       {
-        "title": "মূল সূত্র",
+        "title": "ভর হার",
+        "latex": "\\dot m=\\rho A v",
+        "note": "Δt সময়ে ভর = ρA v Δt।"
+      },
+      {
+        "title": "অসংকোচনযোগ্য",
         "latex": "A_1 v_1=A_2 v_2",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "সরু স্থানে বেগ বেশি।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "স্থির প্রবাহ",
+      "অসংকোচনযোগ্য তরল",
+      "একই নলপথ"
+    ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "ধারাবাহিকতার সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: সরু জায়গায় বেগ বেশি — Av ধ্রুব।)",
-      "answer": "A_1 v_1=A_2 v_2"
+      "examType": "HSC",
+      "question": "নলের ব্যাস অর্ধেক হলে অসংকোচনযোগ্য প্রবাহে বেগ কতগুণ হয়?",
+      "answer": "A\\propto d^2\\Rightarrow A_2=A_1/4\\Rightarrow v_2=4v_1"
     }
   ],
   "memorize": {
     "trick": "সরু জায়গায় বেগ বেশি — Av ধ্রুব।",
-    "steps": []
+    "steps": [
+      "ভর হার ρAv ধ্রুব",
+      "ρ ধ্রুব হলে Av ধ্রুব"
+    ]
   },
   "subjects": [
     "physics"
   ],
   "related": [
     "bernoulli-equation",
-    "hydrostatic-pressure",
-    "capillary-rise"
+    "torricelli-theorem",
+    "continuity-fluid"
   ]
 }

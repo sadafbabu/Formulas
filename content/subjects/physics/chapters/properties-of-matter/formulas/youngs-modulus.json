@@ -16,8 +16,8 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "Y, F, A, Delta",
-      "meaning": "দৈর্ঘ্যিক স্থিতিস্থাপকতা",
+      "symbol": "Y, F, A, L",
+      "meaning": "ইয়ং-এর গুণাঙ্ক",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -30,12 +30,14 @@
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ইয়ং-এর গুণাঙ্ক এর সূত্রটি লেখো। (ইঙ্গিত: Y = (F/A)/(ΔL/L) — stress ÷ strain।)",
+      "question": "ইয়ং-এর গুণাঙ্ক সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: Y = (F/A)/(ΔL/L) — stress ÷ strain।)",
       "answer": "Y=\\frac{F/A}{\\Delta L/L}=\\frac{FL}{A\\Delta L}"
     }
   ],

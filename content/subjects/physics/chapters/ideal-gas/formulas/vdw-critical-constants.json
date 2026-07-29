@@ -1,0 +1,65 @@
+{
+  "id": "vdw-critical-constants",
+  "chapter": "ideal-gas",
+  "title": "van der Waals Critical Constants",
+  "titleBn": "ভ্যান ডার ওয়ালস সংকট ধ্রুবক",
+  "summary": "Tc, Pc, Vc এবং a, b সম্পর্ক",
+  "latex": "T_c=\\dfrac{8a}{27Rb},\\quad P_c=\\dfrac{a}{27b^2},\\quad V_c=3b",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "a",
+      "meaning": "আকর্ষণ সংশোধন",
+      "unit": "Pa·m⁶/mol²"
+    },
+    {
+      "symbol": "b",
+      "meaning": "আয়তন সংশোধন",
+      "unit": "m³/mol"
+    }
+  ],
+  "derivation": {
+    "lead": "সংকট বিন্দুতে আইসোথার্মে অনুভূমিক বিন্দু অফ ইনফ্লেকশন।",
+    "steps": [
+      {
+        "title": "Vc",
+        "latex": "V_c=3b",
+        "note": "এক মোলের জন্য।"
+      },
+      {
+        "title": "Pc, Tc",
+        "latex": "P_c=a/(27b^2),\\ T_c=8a/(27Rb)",
+        "note": "(∂P/∂V)_T = 0।"
+      }
+    ],
+    "assumptions": [
+      "এক মোল গ্যাস; ভ্যান ডার ওয়ালস সমীকরণ"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "Vc ও b-এর সম্পর্ক কী?",
+      "answer": "V_c=3b"
+    }
+  ],
+  "memorize": {
+    "trick": "Vc = 3b; Tc-তে 8a/(27Rb)।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "van-der-waals",
+    "ideal-gas-equation"
+  ]
+}

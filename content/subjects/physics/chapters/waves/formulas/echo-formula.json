@@ -17,7 +17,7 @@
   "symbols": [
     {
       "symbol": "d, v, t, Rightarrow",
-      "meaning": "2d=vt",
+      "meaning": "প্রতিধ্বনি",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্রতিধ্বনি এর সূত্রটি লেখো। (ইঙ্গিত: যাওয়া+ফেরা = 2d; d = vt/2।)",
+      "question": "প্রতিধ্বনি সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: যাওয়া+ফেরা = 2d; d = vt/2।)",
       "answer": "2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}"
     }
   ],

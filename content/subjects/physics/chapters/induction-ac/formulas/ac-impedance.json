@@ -16,8 +16,8 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "Z, sqrt, R, X",
-      "meaning": "Z=√(R²+(X_L−X_C)²)",
+      "symbol": "Z, R, X, L",
+      "meaning": "প্রতিবন্ধকতা",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -30,12 +30,14 @@
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্রতিবন্ধকতা এর সূত্রটি লেখো। (ইঙ্গিত: অনুরণনে X_L=X_C → Z=R।)",
+      "question": "প্রতিবন্ধকতা সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: অনুরণনে X_L=X_C → Z=R।)",
       "answer": "Z=\\sqrt{R^2+(X_L-X_C)^2},\\quad X_L=\\omega L,\\ X_C=1/(\\omega C)"
     }
   ],

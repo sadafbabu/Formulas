@@ -1,0 +1,71 @@
+{
+  "id": "spring-combination-shm",
+  "chapter": "periodic-motion",
+  "title": "SHM — Series & Parallel Springs",
+  "titleBn": "শ্রেণি ও সমান্তরাল স্প্রিং",
+  "summary": "কার্যকর k দিয়ে T = 2π√(m/k)",
+  "latex": "\\frac{1}{k_s}=\\frac{1}{k_1}+\\frac{1}{k_2},\\quad k_p=k_1+k_2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "k_s",
+      "meaning": "শ্রেণি সমতুল্য",
+      "unit": "N/m"
+    },
+    {
+      "symbol": "k_p",
+      "meaning": "সমান্তরাল সমতুল্য",
+      "unit": "N/m"
+    }
+  ],
+  "derivation": {
+    "lead": "রোধের মতো: শ্রেণিতে নরম, সমান্তরালে শক্ত।",
+    "steps": [
+      {
+        "title": "শ্রেণি",
+        "latex": "k_s=\\dfrac{k_1k_2}{k_1+k_2}",
+        "note": "টান সমান, প্রসারণ যোগ।"
+      },
+      {
+        "title": "সমান্তরাল",
+        "latex": "k_p=k_1+k_2",
+        "note": "প্রসারণ সমান, বল যোগ।"
+      },
+      {
+        "title": "পর্যায়কাল",
+        "latex": "T=2\\pi\\sqrt{m/k_{\\text{eq}}}",
+        "note": "k বড় হলে T ছোট।"
+      }
+    ],
+    "assumptions": [
+      "ভরহীন স্প্রিং; হুকের সূত্র"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "দুই সমান k শ্রেণিতে যুক্ত। সমতুল্য k কত?",
+      "answer": "k_s=k/2"
+    }
+  ],
+  "memorize": {
+    "trick": "শ্রেণি → k কমে; সমান্তরাল → k বাড়ে।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "shm-time-period",
+    "shm-equations",
+    "potential-energy-spring"
+  ]
+}

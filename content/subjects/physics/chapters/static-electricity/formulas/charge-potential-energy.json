@@ -3,8 +3,8 @@
   "chapter": "static-electricity",
   "title": "Potential Energy of a Charge System",
   "titleBn": "আধান তন্ত্রের বিভব শক্তি ও তড়িৎ ফ্লাক্স",
-  "summary": "একাধিক আধান একত্র করতে কৃতকাজই তন্ত্রের বিভব শক্তি; সাথে তড়িৎ ফ্লাক্সের সংজ্ঞা।",
-  "latex": "U=\\frac{kq_1q_2}{r},\\quad U_{\\mathrm{total}}=\\sum_{i<j}\\frac{kq_iq_j}{r_{ij}},\\quad \\oint_S\\vec E\\cdot d\\vec A=\\frac{q_{\\mathrm{enc}}}{\\varepsilon_0}",
+  "summary": "বিন্দু চার্জ ব্যবস্থার স্থিতিশক্তি",
+  "latex": "U=\\dfrac{1}{4\\pi\\varepsilon_0}\\sum_{i<j}\\dfrac{q_i q_j}{r_{ij}}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -19,29 +19,23 @@
   "related": [
     "coulombs-law",
     "electric-potential",
-    "electric-field"
+    "capacitor-energy"
   ],
   "symbols": [
     {
       "symbol": "U",
-      "meaning": "বিভব শক্তি",
+      "meaning": "স্থিতিশক্তি",
       "unit": "J"
     },
     {
-      "symbol": "k",
-      "meaning": "কুলম্ব ধ্রুবক",
-      "unit": "N·m²/C²",
-      "value": "9×10⁹"
-    },
-    {
-      "symbol": "\\Phi_E",
-      "meaning": "তড়িৎ ফ্লাক্স",
-      "unit": "N·m²/C"
-    },
-    {
-      "symbol": "q_{enc}",
-      "meaning": "ঘেরা আধান",
+      "symbol": "q_i,q_j",
+      "meaning": "চার্জদ্বয়",
       "unit": "C"
+    },
+    {
+      "symbol": "r_{ij}",
+      "meaning": "দূরত্ব",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -70,9 +64,9 @@
   },
   "questions": [
     {
-      "examType": "Varsity Admission",
-      "question": "একটি বদ্ধ তলের ভিতরে +৫ μC ও −২ μC আধান আছে। মোট তড়িৎ ফ্লাক্স কত?",
-      "answer": "\\Phi_E = \\frac{q_{enc}}{\\varepsilon_0} = \\frac{3\\times10^{-6}}{8.85\\times10^{-12}} \\approx 3.39\\times10^5\\ \\text{N·m}^2/\\text{C}"
+      "examType": "HSC",
+      "question": "দুই সমান q চার্জ r দূরে থাকলে U কত?",
+      "answer": "U=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{q^2}{r}"
     }
   ],
   "memorize": {

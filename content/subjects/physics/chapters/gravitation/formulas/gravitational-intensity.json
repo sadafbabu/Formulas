@@ -16,8 +16,8 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "vec, g, G, M",
-      "meaning": "মহাকর্ষ ক্ষেত্র ও বিভবের সম্পর্ক",
+      "symbol": "g, G, M, r",
+      "meaning": "মহাকর্ষ ক্ষেত্র প্রাবল্য",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মহাকর্ষ ক্ষেত্র প্রাবল্য এর সূত্রটি লেখো। (ইঙ্গিত: g = F/m; V এর ঋণাত্মক ঢাল = g।)",
+      "question": "মহাকর্ষ ক্ষেত্র প্রাবল্য সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: g = F/m; V এর ঋণাত্মক ঢাল = g।)",
       "answer": "\\vec g=-\\frac{GM}{r^2}\\hat r,\\quad\\vec F=m\\vec g,\\quad g=-\\frac{dV}{dr}"
     }
   ],

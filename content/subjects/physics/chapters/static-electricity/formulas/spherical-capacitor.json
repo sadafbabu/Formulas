@@ -16,8 +16,8 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "C, pi, varepsilon, a",
-      "meaning": "কেন্দ্রীক গোলক ও বিচ্ছিন্ন গোলকের ধারকত্ব",
+      "symbol": "C, varepsilon, a, b",
+      "meaning": "গোলীয় ধারক",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -30,12 +30,14 @@
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গোলীয় ধারক এর সূত্রটি লেখো। (ইঙ্গিত: বিচ্ছিন্ন গোলক C=4πε₀R; দুই গোলকে ab/(b−a)।)",
+      "question": "গোলীয় ধারক সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: বিচ্ছিন্ন গোলক C=4πε₀R; দুই গোলকে ab/(b−a)।)",
       "answer": "C=4\\pi\\varepsilon_0\\frac{ab}{b-a},\\quad C_{iso}=4\\pi\\varepsilon_0 R"
     }
   ],

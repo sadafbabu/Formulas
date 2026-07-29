@@ -1,9 +1,9 @@
 {
   "id": "hubble-recession-law",
   "chapter": "astronomy",
-  "title": "Hubble's Law",
-  "titleBn": "হাবলের সূত্র",
-  "summary": "v=H₀d",
+  "title": "Hubble Recession (Detail)",
+  "titleBn": "হাবল প্রত্যাগমন — বিস্তারিত",
+  "summary": "v = H₀d; H₀-এর একক ও ব্যবহার",
   "latex": "v=H_0 d",
   "tags": [
     "hsc",
@@ -17,7 +17,7 @@
   "symbols": [
     {
       "symbol": "v, H, d",
-      "meaning": "v=H₀d",
+      "meaning": "হাবল প্রত্যাগমন — বিস্তারিত",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -30,13 +30,15 @@
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "হাবলের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: মহাবিশ্ব সম্প্রসারণের প্রমাণ।)",
-      "answer": "v=H_0 d"
+      "examType": "Admission",
+      "question": "H₀-এর প্রচলিত একক কী?",
+      "answer": "\\text{km/s/Mpc}"
     }
   ],
   "memorize": {
@@ -49,6 +51,8 @@
   "related": [
     "absolute-apparent-magnitude",
     "planetary-escape-speed",
-    "stellar-parallax-pc"
+    "stellar-parallax-pc",
+    "hubble-law",
+    "cosmological-redshift"
   ]
 }

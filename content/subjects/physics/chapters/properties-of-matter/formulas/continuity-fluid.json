@@ -3,7 +3,7 @@
   "chapter": "properties-of-matter",
   "title": "Equation of Continuity",
   "titleBn": "ধারাবাহিকতার সমীকরণ",
-  "summary": "A₁v₁=A₂v₂",
+  "summary": "ধারাবাহিকতা: ভর প্রবাহ সংরক্ষণ (continuity-equation দেখুন)",
   "latex": "A_1v_1=A_2v_2",
   "tags": [
     "hsc",
@@ -17,7 +17,7 @@
   "symbols": [
     {
       "symbol": "A, v",
-      "meaning": "A₁v₁=A₂v₂",
+      "meaning": "ধারাবাহিকতার সমীকরণ",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -30,13 +30,15 @@
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "ধারাবাহিকতার সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: সরু স্থানে বেগ বেশি।)",
-      "answer": "A_1v_1=A_2v_2"
+      "examType": "Admission",
+      "question": "অসংকোচনযোগ্য প্রবাহে A₁ = 2A₂ হলে v₂/v₁ কত?",
+      "answer": "v_2/v_1=A_1/A_2=2"
     }
   ],
   "memorize": {
@@ -49,6 +51,8 @@
   "related": [
     "hookes-law-stress-strain",
     "torricelli-theorem",
-    "excess-pressure-bubble"
+    "excess-pressure-bubble",
+    "continuity-equation",
+    "bernoulli-equation"
   ]
 }

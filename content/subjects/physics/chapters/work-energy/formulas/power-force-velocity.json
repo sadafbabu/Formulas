@@ -1,0 +1,71 @@
+{
+  "id": "power-force-velocity",
+  "chapter": "work-energy",
+  "title": "Instantaneous Power",
+  "titleBn": "তাৎক্ষণিক ক্ষমতা",
+  "summary": "P = F·v",
+  "latex": "P=\\vec F\\cdot\\vec v=Fv\\cos\\theta",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "P",
+      "meaning": "ক্ষমতা",
+      "unit": "W (J/s)"
+    },
+    {
+      "symbol": "\\vec F",
+      "meaning": "বল",
+      "unit": "N"
+    },
+    {
+      "symbol": "\\vec v",
+      "meaning": "বেগ",
+      "unit": "m/s"
+    }
+  ],
+  "derivation": {
+    "lead": "কাজের হারই ক্ষমতা; তাৎক্ষণিকে P = F·v।",
+    "steps": [
+      {
+        "title": "সংজ্ঞা",
+        "latex": "P=\\dfrac{dW}{dt}",
+        "note": "গড় ক্ষমতা W/t।"
+      },
+      {
+        "title": "বল–বেগ",
+        "latex": "P=\\vec F\\cdot\\vec v",
+        "note": "θ কোণে Fv cosθ।"
+      }
+    ],
+    "assumptions": [
+      "একই মুহূর্তের F ও v"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "20 N বল বস্তুকে 4 m/s বেগে চালালে ক্ষমতা কত? (সমরেখ)",
+      "answer": "P=Fv=20\\times4=80\\ \\text{W}"
+    }
+  ],
+  "memorize": {
+    "trick": "P = Fv — একক Watt।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "work-by-constant-force",
+    "power-efficiency",
+    "kinetic-energy"
+  ]
+}

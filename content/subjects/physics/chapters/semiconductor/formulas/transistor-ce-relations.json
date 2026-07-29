@@ -17,7 +17,7 @@
   "symbols": [
     {
       "symbol": "I, E, B, C",
-      "meaning": "α, β এবং প্রবাহ সংরক্ষণ",
+      "meaning": "CE ট্রানজিস্টর প্রবাহ সম্পর্ক",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "CE ট্রানজিস্টর প্রবাহ সম্পর্ক এর সূত্রটি লেখো। (ইঙ্গিত: IE=IB+IC; β≈α/(1−α)।)",
+      "question": "CE ট্রানজিস্টর প্রবাহ সম্পর্ক সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: IE=IB+IC; β≈α/(1−α)।)",
       "answer": "I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}"
     }
   ],

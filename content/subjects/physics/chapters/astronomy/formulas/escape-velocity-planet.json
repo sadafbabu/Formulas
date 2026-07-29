@@ -16,8 +16,8 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "v, e, sqrt, G",
-      "meaning": "√(2GM/R)",
+      "symbol": "v, e, G, M",
+      "meaning": "গ্রহ থেকে মুক্তি বেগ",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্রহ থেকে মুক্তি বেগ এর সূত্রটি লেখো। (ইঙ্গিত: পৃথিবী ≈ 11.2 km/s; কৃষ্ণগহ্বরের event horizon সংজ্ঞায়।)",
+      "question": "গ্রহ থেকে মুক্তি বেগ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: পৃথিবী ≈ 11.2 km/s; কৃষ্ণগহ্বরের event horizon সংজ্ঞায়।)",
       "answer": "v_e=\\sqrt{\\frac{2GM}{R}}"
     }
   ],

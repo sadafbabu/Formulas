@@ -16,8 +16,8 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "Delta, x, meas, true",
-      "meaning": "Δx এবং Δx/x",
+      "symbol": "x, m, e, a",
+      "meaning": "পরম ও আপেক্ষিক ত্রুটি",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরম ও আপেক্ষিক ত্রুটি এর সূত্রটি লেখো। (ইঙ্গিত: পরম = পার্থক্য; আপেক্ষিক = পরম/মান।)",
+      "question": "পরম ও আপেক্ষিক ত্রুটি সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: পরম = পার্থক্য; আপেক্ষিক = পরম/মান।)",
       "answer": "\\Delta x=|x_{\\text{meas}}-x_{\\text{true}}|,\\quad \\frac{\\Delta x}{x}"
     }
   ],

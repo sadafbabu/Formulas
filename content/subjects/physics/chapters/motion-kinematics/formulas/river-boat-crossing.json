@@ -16,8 +16,8 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "t, d, sqrt, v",
-      "meaning": "shortest path / time",
+      "symbol": "t, d, v, b",
+      "meaning": "নদী পারাপার",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "নদী পারাপার এর সূত্রটি লেখো। (ইঙ্গিত: লম্ব পথ: drift কাটতে কাত; কম সময়ে সোজা তীরের দিকে।)",
+      "question": "নদী পারাপার সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: লম্ব পথ: drift কাটতে কাত; কম সময়ে সোজা তীরের দিকে।)",
       "answer": "t=\\frac{d}{\\sqrt{v_b^2-v_r^2}}\\ (\\perp),\\quad t_{\\min}=\\frac{d}{v_b}"
     }
   ],

@@ -16,8 +16,8 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "LC, pitch, circular scale divisions",
-      "meaning": "pitch/divisions",
+      "symbol": "L, C, p, i",
+      "meaning": "স্ক্রু গেজ লঘিষ্ঠ পাঠ",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্ক্রু গেজ লঘিষ্ঠ পাঠ এর সূত্রটি লেখো। (ইঙ্গিত: Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।)",
+      "question": "স্ক্রু গেজ লঘিষ্ঠ পাঠ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।)",
       "answer": "\\mathrm{LC}=\\frac{\\text{pitch}}{\\text{circular scale divisions}}"
     }
   ],

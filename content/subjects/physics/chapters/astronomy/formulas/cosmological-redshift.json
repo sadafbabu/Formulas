@@ -1,0 +1,65 @@
+{
+  "id": "cosmological-redshift",
+  "chapter": "astronomy",
+  "title": "Cosmological Redshift & Hubble Age",
+  "titleBn": "মহাজাগতিক লোহিত সরণ ও হাবল বয়স",
+  "summary": "z ≈ v/c; t_H ≈ 1/H₀",
+  "latex": "z=\\dfrac{\\Delta\\lambda}{\\lambda}\\approx\\dfrac{v}{c},\\quad t_H\\approx\\dfrac{1}{H_0}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "z",
+      "meaning": "লোহিত সরণ",
+      "unit": "—"
+    },
+    {
+      "symbol": "H_0",
+      "meaning": "হাবল ধ্রুবক",
+      "unit": "s⁻¹ বা km/s/Mpc"
+    }
+  ],
+  "derivation": {
+    "lead": "দূর ছায়াপথের আলো লাল সরে — সম্প্রসারণের প্রমাণ।",
+    "steps": [
+      {
+        "title": "লোহিত সরণ",
+        "latex": "z=\\Delta\\lambda/\\lambda\\approx v/c\\ (v\\ll c)",
+        "note": "ডপলার আভাস।"
+      },
+      {
+        "title": "হাবল বয়স",
+        "latex": "t_H=1/H_0",
+        "note": "আনুমানিক মহাবিশ্বের বয়স।"
+      }
+    ],
+    "assumptions": [
+      "নিম্ন z; হাবল প্রবাহ প্রধান"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "হাবল বয়সের সরল আনুমানিক সূত্র কী?",
+      "answer": "t_H\\approx1/H_0"
+    }
+  ],
+  "memorize": {
+    "trick": "z ≈ v/c; বয়স ≈ 1/H₀।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "hubble-law",
+    "parallax-distance"
+  ]
+}

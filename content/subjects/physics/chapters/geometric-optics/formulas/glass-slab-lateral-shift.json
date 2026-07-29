@@ -1,0 +1,71 @@
+{
+  "id": "glass-slab-lateral-shift",
+  "chapter": "geometric-optics",
+  "title": "Lateral Shift by Glass Slab",
+  "titleBn": "কাচের স্ল্যাবে পার্শ্ব সরণ",
+  "summary": "t(1 − 1/μ) sin i / cos r",
+  "latex": "d=t\\,\\dfrac{\\sin(i-r)}{\\cos r}\\approx t\\left(1-\\dfrac{1}{n}\\right)\\ (\\text{near-normal})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 170,
+  "symbols": [
+    {
+      "symbol": "t",
+      "meaning": "স্ল্যাবের পুরুত্ব",
+      "unit": "m"
+    },
+    {
+      "symbol": "n",
+      "meaning": "প্রতিসরাঙ্ক",
+      "unit": "—"
+    },
+    {
+      "symbol": "d",
+      "meaning": "পার্শ্ব সরণ",
+      "unit": "m"
+    }
+  ],
+  "derivation": {
+    "lead": "স্ল্যাব রশ্মি সমান্তরাল রাখে কিন্তু পার্শ্বে সরায়।",
+    "steps": [
+      {
+        "title": "সরণ",
+        "latex": "d=t\\,\\dfrac{\\sin(i-r)}{\\cos r}",
+        "note": "প্রায় ব্যবহার্য রূপ।"
+      },
+      {
+        "title": "ক্ষুদ্র কোণ",
+        "latex": "d\\approx t(1-1/n)",
+        "note": "লম্বের কাছাকাছি আপতনে।"
+      }
+    ],
+    "assumptions": [
+      "সমান্তরাল মুখ; বায়ু–কাচ–বায়ু"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "লম্ব আপতনের কাছাকাছি পার্শ্ব সরণের সরল সূত্র কী?",
+      "answer": "d\\approx t(1-1/n)"
+    }
+  ],
+  "memorize": {
+    "trick": "মোটা স্ল্যাব বা বড় n → বেশি সরণ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "snell-law",
+    "apparent-depth",
+    "critical-angle"
+  ]
+}

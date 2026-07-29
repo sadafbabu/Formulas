@@ -1,0 +1,71 @@
+{
+  "id": "banked-road-with-friction",
+  "chapter": "circular-motion",
+  "title": "Banked Road with Friction",
+  "titleBn": "ঘর্ষণযুক্ত বাঁকানো রাস্তা",
+  "summary": "সীমাবেগের পরিসর",
+  "latex": "v_{\\max}=\\sqrt{rg\\tan(\\theta+\\phi)},\\quad v_{\\min}=\\sqrt{rg\\tan(\\theta-\\phi)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "\\theta",
+      "meaning": "ব্যাংকিং কোণ",
+      "unit": "°"
+    },
+    {
+      "symbol": "\\phi",
+      "meaning": "ঘর্ষণ কোণ (\\(\\tan\\phi=\\mu\\))",
+      "unit": "°"
+    },
+    {
+      "symbol": "r",
+      "meaning": "বক্রতার ব্যাসার্ধ",
+      "unit": "m"
+    }
+  ],
+  "derivation": {
+    "lead": "ঘর্ষণ থাকলে নিরাপদ গতির একটি পরিসর থাকে।",
+    "steps": [
+      {
+        "title": "ঘর্ষণহীন আদর্শ",
+        "latex": "v_0=\\sqrt{rg\\tan\\theta}",
+        "note": "μ = 0 কেস।"
+      },
+      {
+        "title": "সীমা",
+        "latex": "v_{\\max}=\\sqrt{rg\\tan(\\theta+\\phi)},\\ v_{\\min}=\\sqrt{rg\\tan(\\theta-\\phi)}",
+        "note": "উপরে চড়া/নিচে নামার প্রবণতায় ঘর্ষণের দিক বদলায়।"
+      }
+    ],
+    "assumptions": [
+      "গাড়ি পিছলে না গেলে সীমান্ত; বাঁক অনুভূমিক বৃত্ত"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET",
+      "question": "ঘর্ষণহীন বাঁকানো রাস্তায় নিরাপদ বেগের সূত্র কী?",
+      "answer": "v=\\sqrt{rg\\tan\\theta}"
+    }
+  ],
+  "memorize": {
+    "trick": "μ=0 → √(rg tanθ); ঘর্ষণে ±φ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "banking-of-road",
+    "banking-of-road-ideal",
+    "centripetal-force-mv2r"
+  ]
+}

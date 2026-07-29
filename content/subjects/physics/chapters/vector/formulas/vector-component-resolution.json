@@ -1,0 +1,66 @@
+{
+  "id": "vector-component-resolution",
+  "chapter": "vector",
+  "title": "Resolution of a Vector",
+  "titleBn": "ভেক্টরের উপাংশ বিশ্লেষণ",
+  "summary": "সমতলীয় ভেক্টরের x–y উপাংশ",
+  "latex": "A_x=A\\cos\\theta,\\quad A_y=A\\sin\\theta,\\quad A=\\sqrt{A_x^2+A_y^2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "A",
+      "meaning": "ভেক্টরের মান",
+      "unit": "ভেক্টরের একক"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "x-অক্ষের সাথে কোণ",
+      "unit": "rad বা °"
+    }
+  ],
+  "derivation": {
+    "lead": "যেকোনো সমতলীয় ভেক্টরকে লম্ব উপাংশে ভাঙা যায়।",
+    "steps": [
+      {
+        "title": "উপাংশ",
+        "latex": "A_x=A\\cos\\theta,\\ A_y=A\\sin\\theta",
+        "note": "θ x-অক্ষ থেকে।"
+      },
+      {
+        "title": "মান ও দিক",
+        "latex": "A=\\sqrt{A_x^2+A_y^2},\\ \\tan\\theta=A_y/A_x",
+        "note": "কোয়াড্রেন্ট অনুসারে θ।"
+      }
+    ],
+    "assumptions": [
+      "দ্বিমাত্রিক কার্তেসীয় অক্ষ"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "10 N বল x-অক্ষের সাথে 60° কোণে থাকলে Fx ও Fy কত?",
+      "answer": "F_x=10\\cos60^\\circ=5\\ \\text{N},\\ F_y=10\\sin60^\\circ=5\\sqrt{3}\\ \\text{N}"
+    }
+  ],
+  "memorize": {
+    "trick": "কোসাইন = সংলগ্ন উপাংশ; সাইন = বিপরীত উপাংশ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "vector-dot-product",
+    "unit-vector",
+    "vector-resultant"
+  ]
+}

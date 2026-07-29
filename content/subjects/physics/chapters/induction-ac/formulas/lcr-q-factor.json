@@ -1,0 +1,66 @@
+{
+  "id": "lcr-q-factor",
+  "chapter": "induction-ac",
+  "title": "Q Factor & Bandwidth of LCR",
+  "titleBn": "LCR-এর Q গুণক ও ব্যান্ডউইডথ",
+  "summary": "Q = ω₀L/R; Δω = R/L",
+  "latex": "Q=\\dfrac{\\omega_0 L}{R}=\\dfrac{1}{R}\\sqrt{\\dfrac{L}{C}},\\quad \\Delta\\omega=\\dfrac{R}{L}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 200,
+  "symbols": [
+    {
+      "symbol": "Q",
+      "meaning": "গুণমান গুণক",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\Delta\\omega",
+      "meaning": "ব্যান্ডউইডথ",
+      "unit": "rad/s"
+    }
+  ],
+  "derivation": {
+    "lead": "Q বড় = তীক্ষ্ণ অনুরণন; ব্যান্ডউইডথ ছোট।",
+    "steps": [
+      {
+        "title": "Q",
+        "latex": "Q=\\omega_0 L/R",
+        "note": "অনুরণনে।"
+      },
+      {
+        "title": "ব্যান্ডউইডথ",
+        "latex": "\\Delta f=f_0/Q",
+        "note": "অর্ধ-ক্ষমতা বিন্দুদ্বয়ের ব্যবধান।"
+      }
+    ],
+    "assumptions": [
+      "শ্রেণি LCR; ছোট ক্ষয়"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "Q ও ব্যান্ডউইডথের সম্পর্ক কী?",
+      "answer": "\\Delta\\omega=\\omega_0/Q\\ (=R/L)"
+    }
+  ],
+  "memorize": {
+    "trick": "Q বাড়লে অনুরণন তীক্ষ্ণ, ব্যান্ড সরু।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "resonance-frequency",
+    "ac-impedance",
+    "lc-resonance-freq"
+  ]
+}

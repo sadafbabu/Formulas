@@ -2,7 +2,7 @@
   "id": "fresnel-biprism",
   "chapter": "wave-optics",
   "title": "Fresnel Biprism",
-  "titleBn": "ফ্রেanel দ্বিপ্রিজম",
+  "titleBn": "ফ্রেসনেল বাইপ্রিজম",
   "summary": "দ্বিপ্রিজমে পটি প্রস্থ",
   "latex": "\\beta=\\frac{\\lambda D}{d},\\quad d=2a(\\mu-1)\\alpha",
   "tags": [
@@ -16,8 +16,8 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "beta, lambda, D, d",
-      "meaning": "দ্বিপ্রিজমে পটি প্রস্থ",
+      "symbol": "lambda, D, d, a",
+      "meaning": "ফ্রেসনেল বাইপ্রিজম",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফ্রেanel দ্বিপ্রিজম এর সূত্রটি লেখো। (ইঙ্গিত: YDS-এর মতো β=λD/d; d প্রিজম থেকে।)",
+      "question": "ফ্রেসনেল বাইপ্রিজম সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: YDS-এর মতো β=λD/d; d প্রিজম থেকে।)",
       "answer": "\\beta=\\frac{\\lambda D}{d},\\quad d=2a(\\mu-1)\\alpha"
     }
   ],

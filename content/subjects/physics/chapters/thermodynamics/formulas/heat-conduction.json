@@ -3,8 +3,8 @@
   "chapter": "thermodynamics",
   "title": "Heat Conduction",
   "titleBn": "তাপ পরিবহন (Fourier)",
-  "summary": "পরিবাহী তাপপ্রবাহের হার",
-  "latex": "\\frac{dQ}{dt}=KA\\frac{\\Delta T}{L},\\quad R_{th}=\\frac{L}{KA}",
+  "summary": "তাপ পরিবহণ হার — ফুরিয়ার সূত্র",
+  "latex": "\\dfrac{dQ}{dt}=kA\\dfrac{\\Delta T}{L}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,27 +16,50 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "d, Q, t, K",
-      "meaning": "পরিবাহী তাপপ্রবাহের হার",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "k",
+      "meaning": "তাপ পরিবাহিতা",
+      "unit": "W/(m·K)"
+    },
+    {
+      "symbol": "A",
+      "meaning": "প্রস্থচ্ছেদ",
+      "unit": "m²"
+    },
+    {
+      "symbol": "L",
+      "meaning": "পুরুত্ব",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\Delta T",
+      "meaning": "তাপমাত্রা পার্থক্য",
+      "unit": "K"
     }
   ],
   "derivation": {
-    "lead": "হার ∝ A ও ΔT, ∝ 1/L — Ohm-এর ছাঁচ।",
+    "lead": "তাপ উষ্ণ থেকে শীতল দিকে প্রবাহিত হয় — হার ক্ষেত্রফল ও ঢালের সমানুপাতিক।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\frac{dQ}{dt}=KA\\frac{\\Delta T}{L},\\quad R_{th}=\\frac{L}{KA}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "ফুরিয়ার",
+        "latex": "H=kA\\Delta T/L",
+        "note": "H = dQ/dt।"
+      },
+      {
+        "title": "শ্রেণি স্ল্যাব",
+        "latex": "H=\\dfrac{A\\Delta T_{\\mathrm{total}}}{\\sum(L_i/k_i)}",
+        "note": "তাপ রোধ যোগ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "স্থির অবস্থা",
+      "একমাত্রিক প্রবাহ"
+    ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "তাপ পরিবহন (Fourier) এর সূত্রটি লেখো। (ইঙ্গিত: হার ∝ A ও ΔT, ∝ 1/L — Ohm-এর ছাঁচ।)",
-      "answer": "\\frac{dQ}{dt}=KA\\frac{\\Delta T}{L},\\quad R_{th}=\\frac{L}{KA}"
+      "examType": "HSC",
+      "question": "A ও ΔT দ্বিগুণ, L অপরিবর্তিত থাকলে H কতগুণ?",
+      "answer": "H\\propto A\\Delta T\\Rightarrow 4\\ \\text{গুণ}"
     }
   ],
   "memorize": {
@@ -47,6 +70,8 @@
     "physics"
   ],
   "related": [
-    "calorimetry"
+    "thermal-conduction-rate",
+    "newton-cooling",
+    "stefan-boltzmann-law"
   ]
 }
