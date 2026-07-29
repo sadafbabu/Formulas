@@ -1,5 +1,5 @@
 import { Katex } from './Katex'
-import { prepareMixedTex } from '../utils/mathText'
+import { looksLikeTex, prepareMixedTex } from '../utils/mathText'
 
 interface MathOrTextProps {
   text: string
@@ -18,7 +18,7 @@ export function MathOrText({
   const trimmed = text.trim()
   if (!trimmed) return null
 
-  if (!/\\[a-zA-Z]/.test(trimmed)) {
+  if (!looksLikeTex(trimmed)) {
     return <Tag className={className}>{trimmed}</Tag>
   }
 

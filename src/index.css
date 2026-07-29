@@ -493,6 +493,12 @@ button {
   display: none;
 }
 
+.nav-subject-line {
+  margin: -0.35rem 0 0.65rem;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+}
+
 .nav-section-en {
   font-weight: 500;
   letter-spacing: 0.02em;

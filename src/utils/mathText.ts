@@ -1,3 +1,29 @@
+/** True when a string should render via KaTeX (not as plain prose). */
+export function looksLikeTex(input: string): boolean {
+  const t = input.trim()
+  if (!t) return false
+  if (/\\[a-zA-Z]/.test(t)) return true
+  if (/[_^]/.test(t)) return true
+  // Compact ASCII equations: PV=nRT, y=mx+c, Q=mL
+  if (
+    /^[\x20-\x7E]+$/.test(t) &&
+    /=/.test(t) &&
+    /[A-Za-z]/.test(t) &&
+    t.length <= 160 &&
+    (t.match(/\s/g) ?? []).length <= 10
+  ) {
+    if (/^(The|This|When|If|For|In|A |An )\b/i.test(t)) return false
+    if (
+      /\b(is|are|was|were|the|and|with|from|that|which)\b/i.test(t) &&
+      t.split(/\s+/).length > 6
+    ) {
+      return false
+    }
+    return true
+  }
+  return false
+}
+
 /** Wrap bare Bangla prose so KaTeX does not smash it in math mode. */
 export function prepareMixedTex(input: string): string {
   if (!/[\u0980-\u09FF]/.test(input)) return input

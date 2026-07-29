@@ -160,7 +160,17 @@ export function SpreadViewer({
         e.preventDefault()
         goPrev()
       }
-      if (e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') {
+      if (e.key === 'ArrowRight' || e.key === 'PageDown') {
+        e.preventDefault()
+        goNext()
+      }
+      if (e.key === ' ' || e.key === 'Spacebar') {
+        // Don't steal Space while a page body can still scroll.
+        const bodies = document.querySelectorAll('.spread-stage .page-body')
+        for (const node of bodies) {
+          const el = node as HTMLElement
+          if (el.scrollHeight > el.clientHeight + 2) return
+        }
         e.preventDefault()
         goNext()
       }

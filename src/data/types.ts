@@ -4,7 +4,6 @@ export type TagId =
   | 'medical'
   | 'varsity'
   | 'general'
-  | 'olympic'
   | '3-star'
   | '2-star'
   | '1-star'

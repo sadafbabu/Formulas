@@ -1,9 +1,9 @@
 {
   "id": "combination-identities",
   "chapter": "permutation-combination",
-  "title": "Combination Identities",
-  "titleBn": "সমাবেশ পরিচয়",
-  "summary": "nC0+nC1+...",
+  "title": "Sum of Combinations",
+  "titleBn": "সমাবেশের সমষ্টি",
+  "summary": "Σ nCr = 2ⁿ",
   "latex": "\\binom{n}{0}+\\binom{n}{1}+\\cdots+\\binom{n}{n}=2^n",
   "tags": [
     "hsc",
