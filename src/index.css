@@ -71,15 +71,44 @@ button:focus-visible,
 }
 
 .book-shell.has-topbar {
-  display: flex;
-  flex-direction: column;
-  place-items: stretch;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr);
+  align-items: stretch;
+  justify-items: stretch;
+}
+
+.book-shell.has-topbar .spread-stage,
+.book-shell.has-topbar .overview-scroll {
+  min-width: 0;
+  min-height: 0;
+  width: 100%;
+  max-width: none;
 }
 
 .book-shell.has-topbar .spread-stage {
-  flex: 1 1 auto;
-  min-height: 0;
   height: auto;
+  overflow: hidden;
+}
+
+/* Home: scroll the full-bleed shell so the scrollbar sits on the viewport edge */
+.book-shell.has-topbar.is-home {
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  grid-template-rows: auto auto;
+}
+
+.book-shell.has-topbar.is-home .top-bar {
+  position: sticky;
+  top: 0;
+}
+
+.book-shell.has-topbar.is-home .overview-scroll {
+  overflow: visible;
+  height: auto;
+  min-height: 0;
 }
 
 .book-shell.detail-shell {
@@ -1163,18 +1192,22 @@ button:focus-visible,
 
 /* —— Ultra-Minimalist Overview Dashboard Styles —— */
 .overview-scroll {
-  flex: 1 1 auto;
-  min-height: 0;
   width: 100%;
+  max-width: none;
+  min-width: 0;
+  min-height: 0;
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
 }
 
 .overview-container {
-  width: 100%;
+  box-sizing: border-box;
+  width: min(1100px, 100%);
   max-width: 1100px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 2.5rem 1.5rem 5rem;
   padding-left: calc(1.5rem + var(--safe-left));
   padding-right: calc(1.5rem + var(--safe-right));

@@ -98,7 +98,7 @@ export function SampleBookPage() {
   const clearTag = () => setTag(null)
 
   return (
-    <div className="book-shell has-topbar">
+    <div className={`book-shell has-topbar${viewMode === 'home' ? ' is-home' : ''}`}>
       <TopBar
         activeTag={activeTag}
         onTagChange={setTag}
