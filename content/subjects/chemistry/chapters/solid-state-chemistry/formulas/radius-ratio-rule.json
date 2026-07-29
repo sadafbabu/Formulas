@@ -1,0 +1,73 @@
+{
+  "id": "radius-ratio-rule",
+  "chapter": "solid-state-chemistry",
+  "title": "Radius Ratio Rule",
+  "titleBn": "ব্যাসার্ধ অনুপাত নিয়ম",
+  "summary": "r₊/r₋ থেকে সমন্বয় সংখ্যা ও গঠন অনুমান",
+  "latex": "\\rho=\\dfrac{r_+}{r_-};\\ \\mathrm{CN}=4\\ (0.225\\text{–}0.414),\\ 6\\ (0.414\\text{–}0.732),\\ 8\\ (>0.732)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "r_+, r_-",
+      "meaning": "ক্যাটায়ন ও অ্যানায়ন ব্যাসার্ধ",
+      "unit": "pm"
+    },
+    {
+      "symbol": "\\rho",
+      "meaning": "ব্যাসার্ধ অনুপাত",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\mathrm{CN}",
+      "meaning": "সমন্বয় সংখ্যা",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "বড় অ্যানায়নের ফাঁকে ক্যাটায়ন বসার জ্যামিতি।",
+    "steps": [
+      {
+        "title": "সীমা",
+        "latex": "0.225\\text{–}0.414:\\ \\mathrm{CN}=4\\ (\\text{tetra})",
+        "note": "0.414–0.732: CN=6 (octa)।"
+      },
+      {
+        "title": "উচ্চ",
+        "latex": ">0.732:\\ \\mathrm{CN}=8\\ (\\text{CsCl type})",
+        "note": "CsCl।"
+      }
+    ],
+    "assumptions": [
+      "আয়নিক কঠিন; শক্ত গোলক মডেল"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "ρ = 0.5 হলে সম্ভাব্য CN?",
+      "answer": "6\\ (\\text{অষ্টতলকীয়})"
+    }
+  ],
+  "memorize": {
+    "trick": "ρ ছোট = কম CN; ρ বড় = বেশি CN।",
+    "steps": [
+      "ρ=r₊/r₋",
+      "0.414–0.732 → CN 6"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "packing-efficiency",
+    "bragg-law-chem"
+  ]
+}

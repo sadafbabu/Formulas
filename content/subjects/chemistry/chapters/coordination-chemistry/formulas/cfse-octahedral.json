@@ -1,0 +1,68 @@
+{
+  "id": "cfse-octahedral",
+  "chapter": "coordination-chemistry",
+  "title": "CFSE for Octahedral Complex",
+  "titleBn": "অষ্টতলকীয় জটিলের CFSE",
+  "summary": "CFSE = (−0.4 n_t2g + 0.6 n_eg) Δ_o",
+  "latex": "\\mathrm{CFSE}=(-0.4\\,n_{t_{2g}}+0.6\\,n_{e_g})\\Delta_o",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "n_{t_{2g}}, n_{e_g}",
+      "meaning": "দুই সেটে ইলেকট্রন সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\Delta_o",
+      "meaning": "অষ্টতলকীয় বিভাজন শক্তি",
+      "unit": "cm⁻¹ / kJ·mol⁻¹"
+    }
+  ],
+  "derivation": {
+    "lead": "t₂g নিচু (−0.4Δ_o), e_g উঁচু (+0.6Δ_o) প্রতি ইলেকট্রনে।",
+    "steps": [
+      {
+        "title": "সূত্র",
+        "latex": "\\mathrm{CFSE}=(-0.4n_{t_{2g}}+0.6n_{e_g})\\Delta_o",
+        "note": "জোড় শক্তি P আলাদা যোগ হয়।"
+      },
+      {
+        "title": "উদাহরণ d³",
+        "latex": "t_{2g}^3\\Rightarrow\\mathrm{CFSE}=-1.2\\Delta_o",
+        "note": "Cr³⁺।"
+      }
+    ],
+    "assumptions": [
+      "অষ্টতলকীয়; শুধু CFT"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "d⁶ low-spin (t₂g⁶)-এর CFSE?",
+      "answer": "-2.4\\Delta_o"
+    }
+  ],
+  "memorize": {
+    "trick": "t₂g −0.4, e_g +0.6 — গুণে যোগ করো Δ_o।",
+    "steps": [
+      "d³ → −1.2Δ_o",
+      "জোড় শক্তি আলাদা"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "crystal-field-splitting",
+    "efs-crystal-field-split"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "atom-economy",
+  "chapter": "quantitative-chem",
+  "title": "Atom Economy",
+  "titleBn": "পরমাণু মিতব্যয়িতা",
+  "summary": "% atom economy = (কাঙ্ক্ষিত উৎপাদনের মোলার ভর / মোট বিক্রিয়কের মোলার ভর) × 100",
+  "latex": "\\%\\ \\mathrm{AE}=\\dfrac{M_{\\mathrm{desired}}}{\\sum M_{\\mathrm{reactants}}}\\times100",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "M_{\\mathrm{desired}}",
+      "meaning": "কাঙ্ক্ষিত উৎপাদনের মোলার ভর",
+      "unit": "g/mol"
+    },
+    {
+      "symbol": "\\sum M_{\\mathrm{reactants}}",
+      "meaning": "সব বিক্রিয়কের মোট মোলার ভর",
+      "unit": "g/mol"
+    }
+  ],
+  "derivation": {
+    "lead": "সবুজ রসায়ন: কতটা পরমাণু কাজে লাগে, কতটা বর্জ্য।",
+    "steps": [
+      {
+        "title": "সূত্র",
+        "latex": "\\%\\mathrm{AE}=\\dfrac{M_{\\mathrm{product}}}{\\sum M_{\\mathrm{reactants}}}\\times100",
+        "note": "যোগ বিক্রিয়ায় AE≈100%।"
+      }
+    ],
+    "assumptions": [
+      "stoichiometric সহগ ১:১ ধরে মোলার ভর যোগ"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "যোগ বিক্রিয়ায় atom economy সাধারণত কেমন?",
+      "answer": "\\approx 100\\%"
+    }
+  ],
+  "memorize": {
+    "trick": "কাঙ্ক্ষিত / মোট বিক্রিয়ক × 100 — বর্জ্য কম = AE বেশি।",
+    "steps": [
+      "AE = desired MM / total reactant MM"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "percentage-yield",
+    "limiting-reagent-calc"
+  ]
+}

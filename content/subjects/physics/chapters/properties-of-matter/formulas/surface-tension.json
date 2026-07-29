@@ -52,8 +52,11 @@
     }
   ],
   "memorize": {
-    "trick": "S=F/l; সাবানে দুই পৃষ্ঠ।",
-    "steps": []
+    "trick": "S=F/l; সাবান ফিল্মে দুই পৃষ্ঠ → F=2Sl।",
+    "steps": [
+      "একক N/m",
+      "কাজ=S×ΔA"
+    ]
   },
   "subjects": [
     "physics"

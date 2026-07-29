@@ -1,0 +1,74 @@
+{
+  "id": "ideal-gas-chem",
+  "chapter": "chemical-equilibrium",
+  "title": "Ideal Gas Equation (Chemistry)",
+  "titleBn": "আদর্শ গ্যাস সমীকরণ",
+  "summary": "PV = nRT — রসায়নের গ্যাস গণনার ভিত্তি",
+  "latex": "PV=nRT",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 380,
+  "symbols": [
+    {
+      "symbol": "P, V",
+      "meaning": "চাপ ও আয়তন",
+      "unit": "atm, L"
+    },
+    {
+      "symbol": "n",
+      "meaning": "মোল সংখ্যা",
+      "unit": "mol"
+    },
+    {
+      "symbol": "R",
+      "meaning": "গ্যাস ধ্রুবক 0.0821",
+      "unit": "L·atm/(mol·K)"
+    },
+    {
+      "symbol": "T",
+      "meaning": "পরম তাপমাত্রা",
+      "unit": "K"
+    }
+  ],
+  "derivation": {
+    "lead": "মোল, চাপ, আয়তন, তাপমাত্রা এক সূত্রে — টাইট্রেশন/গ্যাস স্টয়কিওমেট্রিতে।",
+    "steps": [
+      {
+        "title": "সূত্র",
+        "latex": "PV=nRT",
+        "note": "STP-তে 1 mol ≈ 22.4 L।"
+      }
+    ],
+    "assumptions": [
+      "আদর্শ গ্যাস"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "n=1, P=1 atm, T=273 K। V?",
+      "answer": "V\\approx 22.4\\,\\mathrm{L}"
+    }
+  ],
+  "memorize": {
+    "trick": "PV=nRT — STP-তে ১ মোল ≈ ২২.৪ L।",
+    "steps": [
+      "R=0.0821",
+      "n=PV/RT"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "hess-law",
+    "gibbs-helmholtz",
+    "mole-concept-basic"
+  ]
+}

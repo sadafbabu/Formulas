@@ -144,12 +144,21 @@ export function getChapter(id: string): ChapterMeta | undefined {
   return chapterMap.get(id)
 }
 
+const formulaById = new Map(formulas.map((f) => [f.id, f]))
+
 export function getFormula(id: string): Formula | undefined {
-  return formulas.find((f) => f.id === id)
+  return formulaById.get(id)
 }
 
+const formulasByChapter = formulas.reduce<Map<string, Formula[]>>((map, f) => {
+  const list = map.get(f.chapter)
+  if (list) list.push(f)
+  else map.set(f.chapter, [f])
+  return map
+}, new Map())
+
 export function formulasForChapter(chapterId: string = defaultChapterId): Formula[] {
-  return formulas.filter((f) => f.chapter === chapterId)
+  return formulasByChapter.get(chapterId) ?? []
 }
 
 /** Compact pack — perPage varies by layout mode */

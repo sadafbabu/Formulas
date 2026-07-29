@@ -57,8 +57,11 @@
     }
   ],
   "memorize": {
-    "trick": "U=−GMm/r; কাছে mgh।",
-    "steps": []
+    "trick": "∞-এ শূন্য, কাছে ঋণাত্মক: U=−GMm/r; ছোট উচ্চতায় mgh।",
+    "steps": [
+      "রকেটে −GMm/r",
+      "টাওয়ারে mgh"
+    ]
   },
   "subjects": [
     "physics"

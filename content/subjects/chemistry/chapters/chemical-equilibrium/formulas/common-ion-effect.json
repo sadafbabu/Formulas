@@ -1,0 +1,69 @@
+{
+  "id": "common-ion-effect",
+  "chapter": "chemical-equilibrium",
+  "title": "Common Ion Effect",
+  "titleBn": "উভয়-আয়ন প্রভাব",
+  "summary": "উভয় আয়ন যোগে দুর্বল ইলেকট্রোলাইটের বিয়োজন কমে",
+  "latex": "HA\\rightleftharpoons H^++A^-;\\quad [A^-]_{\\mathrm{extra}}\\uparrow\\Rightarrow\\alpha\\downarrow",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 320,
+  "symbols": [
+    {
+      "symbol": "\\alpha",
+      "meaning": "বিয়োজন মাত্রা",
+      "unit": "—"
+    },
+    {
+      "symbol": "K_a",
+      "meaning": "বিয়োজন ধ্রুবক",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Le Chatelier: উভয় আয়ন বাড়লে সাম্য বামে সরে — দ্রাব্যতা/বিয়োজন কমে।",
+    "steps": [
+      {
+        "title": "দুর্বল অ্যাসিড",
+        "latex": "K_a=\\dfrac{[\\mathrm{H}^+][A^-]}{[HA]}",
+        "note": "লবণ থেকে A⁻ যোগ → [H⁺] কমে।"
+      },
+      {
+        "title": "দ্রাব্যতা",
+        "latex": "AgCl(s)\\rightleftharpoons Ag^++Cl^-",
+        "note": "NaCl যোগে Cl⁻↑ → AgCl কম দ্রবে।"
+      }
+    ],
+    "assumptions": [
+      "তাপমাত্রা ধ্রুব"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "CH₃COOH-এ CH₃COONa যোগ করলে pH কী হয়?",
+      "answer": "\\mathrm{pH}\\uparrow\\ (\\text{বাফার / উভয়-আয়ন})"
+    }
+  ],
+  "memorize": {
+    "trick": "একই আয়ন যোগ = বিয়োজন/দ্রাব্যতা কমে — বাফারের চাবিকাঠি।",
+    "steps": [
+      "Le Chatelier বামে",
+      "ধোয়ায় ব্যবহার"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "le-chatelier",
+    "henderson-hasselbalch",
+    "solubility-from-ksp"
+  ]
+}

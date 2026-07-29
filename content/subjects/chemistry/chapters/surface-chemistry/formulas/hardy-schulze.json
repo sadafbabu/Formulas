@@ -1,0 +1,63 @@
+{
+  "id": "hardy-schulze",
+  "chapter": "surface-chemistry",
+  "title": "Hardy–Schulze Rule",
+  "titleBn": "হার্ডি–শুলজে নিয়ম",
+  "summary": "কয়ালয়েড অধঃক্ষেপণ ক্ষমতা ∝ বিপরীত আয়নের চার্জের ঘাত",
+  "latex": "\\text{flocculating power}\\propto |z|^n\\ (\\text{বিপরীত আয়ন})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "z",
+      "meaning": "বিপরীত আয়নের চার্জ সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\text{flocculation}",
+      "meaning": "কয়ালয়েড জমাট/অধঃক্ষেপ",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "As₂S₃ (−) কয়ালয়েডে Al³⁺ > Ba²⁺ > Na⁺ শক্তি।",
+    "steps": [
+      {
+        "title": "নিয়ম",
+        "latex": "\\mathrm{Al}^{3+}>\\mathrm{Ba}^{2+}>\\mathrm{Na}^{+}",
+        "note": "চার্জ বাড়লে অল্প ঘনমাত্রায়ই জমাট।"
+      }
+    ],
+    "assumptions": [
+      "লাইওফোবিক সল"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "ঋণাত্মক সলে কোন আয়ন সবচেয়ে কার্যকর?",
+      "answer": "\\text{সর্বোচ্চ ধনাত্মক চার্জের আয়ন (যেমন Al}^{3+})"
+    }
+  ],
+  "memorize": {
+    "trick": "বিপরীত চার্জ↑ → জমাট ক্ষমতা↑ — Hardy–Schulze।",
+    "steps": [
+      "flocculating power ∝ charge"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "freundlich-adsorption",
+    "langmuir-adsorption",
+    "colloid-tyndall"
+  ]
+}

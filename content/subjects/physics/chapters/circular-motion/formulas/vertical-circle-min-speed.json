@@ -57,8 +57,11 @@
     }
   ],
   "memorize": {
-    "trick": "Top √(gR), Bottom √(5gR)।",
-    "steps": []
+    "trick": "উপরে √(gR), নিচে √(5gR) — ‘১ আর ৫’ মনে রাখো।",
+    "steps": [
+      "উপরে N=0 সীমা",
+      "শক্তি দিয়ে নিচ"
+    ]
   },
   "subjects": [
     "physics"

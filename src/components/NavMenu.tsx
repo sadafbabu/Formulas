@@ -35,14 +35,36 @@ export function NavMenu({
   openSignal = 0,
 }: NavMenuProps) {
   const [open, setOpen] = useState(false)
+  const [draftQuery, setDraftQuery] = useState(query)
   const [params] = useSearchParams()
   const panelId = useId()
   const rootRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const isCoarsePointer =
     typeof window !== 'undefined' &&
     window.matchMedia('(pointer: coarse)').matches
   const q = query.trim()
+
+  useEffect(() => {
+    setDraftQuery(query)
+  }, [query])
+
+  useEffect(() => {
+    return () => {
+      if (debounceRef.current) clearTimeout(debounceRef.current)
+    }
+  }, [])
+
+  const commitQuery = (value: string, immediate = false) => {
+    setDraftQuery(value)
+    if (debounceRef.current) clearTimeout(debounceRef.current)
+    if (immediate || !value.trim()) {
+      onQueryChange(value)
+      return
+    }
+    debounceRef.current = setTimeout(() => onQueryChange(value), 160)
+  }
 
   useEffect(() => {
     if (openSignal > 0) {
@@ -168,19 +190,24 @@ export function NavMenu({
             <span aria-hidden="true">⌕</span>
             <input
               ref={inputRef}
-              value={query}
-              onChange={(e) => onQueryChange(e.target.value)}
+              value={draftQuery}
+              onChange={(e) => commitQuery(e.target.value)}
+              onBlur={() => commitQuery(draftQuery, true)}
               placeholder="নাম, চিহ্ন, অধ্যায়, Banglish…"
               aria-label="সূত্র খুঁজুন"
               autoFocus={!isCoarsePointer}
+              enterKeyHint="search"
+              autoComplete="off"
+              autoCorrect="off"
+              spellCheck={false}
             />
-            {q ? (
+            {draftQuery.trim() ? (
               <button
                 type="button"
                 className="nav-search-clear"
                 aria-label="সার্চ মুছুন"
                 onClick={() => {
-                  onQueryChange('')
+                  commitQuery('', true)
                   inputRef.current?.focus()
                 }}
               >
@@ -198,7 +225,7 @@ export function NavMenu({
                     key={s}
                     type="button"
                     className="nav-suggest-chip"
-                    onClick={() => onQueryChange(s)}
+                    onClick={() => commitQuery(s, true)}
                   >
                     {s}
                   </button>

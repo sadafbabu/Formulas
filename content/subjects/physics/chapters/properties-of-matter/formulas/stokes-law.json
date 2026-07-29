@@ -57,8 +57,11 @@
     }
   ],
   "memorize": {
-    "trick": "F=6πηrv; v_t∝r²।",
-    "steps": []
+    "trick": "সান্দ্র বল 6πηrv; প্রান্তিক বেগ ∝ r² — বড় গোলক দ্রুত পড়ে।",
+    "steps": [
+      "F=6πηrv",
+      "v_t∝r²"
+    ]
   },
   "subjects": [
     "physics"

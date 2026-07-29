@@ -1,0 +1,56 @@
+{
+  "id": "chromatography-rf",
+  "chapter": "qualitative-chem",
+  "title": "Chromatography Retention Factor",
+  "titleBn": "ক্রোমাটোগ্রাফি R_f মান",
+  "summary": "R_f = স্পটের দূরত্ব / দ্রাবকের দূরত্ব",
+  "latex": "R_f=\\dfrac{\\text{distance moved by spot}}{\\text{distance moved by solvent}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 280,
+  "symbols": [
+    {
+      "symbol": "R_f",
+      "meaning": "রিটেনশন ফ্যাক্টর",
+      "unit": "— (০–১)"
+    }
+  ],
+  "derivation": {
+    "lead": "পেপার/টিএলসি-তে যৌগ শনাক্তকরণের তুলনামূলক মান।",
+    "steps": [
+      {
+        "title": "সূত্র",
+        "latex": "R_f=d_{\\mathrm{spot}}/d_{\\mathrm{solvent}}",
+        "note": "সবসময় ≤1।"
+      }
+    ],
+    "assumptions": [
+      "একই দ্রাবক ও তাপমাত্রা"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "দ্রাবক 10 cm, স্পট 4 cm। R_f?",
+      "answer": "R_f=0.4"
+    }
+  ],
+  "memorize": {
+    "trick": "R_f = স্পট/সলভেন্ট — ১-এর বেশি হয় না।",
+    "steps": [
+      "R_f = spot / solvent front"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "quantum-numbers"
+  ]
+}

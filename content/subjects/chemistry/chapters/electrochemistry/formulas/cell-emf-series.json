@@ -1,0 +1,68 @@
+{
+  "id": "cell-emf-series",
+  "chapter": "electrochemistry",
+  "title": "Standard Cell EMF from Series",
+  "titleBn": "তড়িৎ রাসায়নিক শ্রেণি থেকে কোশ EMF",
+  "summary": "E°_cell = E°_cathode − E°_anode = E°_red + E°_ox",
+  "latex": "E^\\circ_{\\mathrm{cell}}=E^\\circ_{\\mathrm{cathode}}-E^\\circ_{\\mathrm{anode}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 150,
+  "symbols": [
+    {
+      "symbol": "E^\\circ_{\\mathrm{cathode}}",
+      "meaning": "বিজারণ বিভব (ধনাত্মক তড়িদ)",
+      "unit": "V"
+    },
+    {
+      "symbol": "E^\\circ_{\\mathrm{anode}}",
+      "meaning": "অ্যানোডের বিজারণ বিভব",
+      "unit": "V"
+    }
+  ],
+  "derivation": {
+    "lead": "উচ্চতর বিজারণ বিভব = ক্যাথোড; নিম্নতর = অ্যানোড।",
+    "steps": [
+      {
+        "title": "সূত্র",
+        "latex": "E^\\circ_{\\mathrm{cell}}=E^\\circ_R-E^\\circ_L",
+        "note": "ডান–বাম তড়িদের বিজারণ বিভব।"
+      },
+      {
+        "title": "চিহ্ন",
+        "latex": "E^\\circ>0\\Rightarrow\\text{গ্যালভানিক স্বতঃস্ফূর্ত}",
+        "note": "ΔG°=−nFE°।"
+      }
+    ],
+    "assumptions": [
+      "প্রমাণ অবস্থা; জলীয় আয়ন"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "Zn (−0.76 V) ও Cu (+0.34 V)। E°_cell?",
+      "answer": "E^\\circ=0.34-(-0.76)=1.10\\,\\mathrm{V}"
+    }
+  ],
+  "memorize": {
+    "trick": "E°_cell = E°_ক্যাথোড − E°_অ্যানোড — বড় বিজারণ বিভব = ক্যাথোড।",
+    "steps": [
+      "Zn–Cu = 1.10 V",
+      "E°>0 গ্যালভানিক"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "nernst-equation",
+    "galvanic-cell"
+  ]
+}

@@ -62,8 +62,11 @@
     }
   ],
   "memorize": {
-    "trick": "NUM: observer towards +; DEN: source towards −।",
-    "steps": []
+    "trick": "কাছে এলে কম্পাঙ্ক বাড়ে: লবে পর্যবেক্ষক +, হরে উৎস −।",
+    "steps": [
+      "NUM: observer towards +",
+      "DEN: source towards −"
+    ]
   },
   "subjects": [
     "physics"

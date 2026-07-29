@@ -1,0 +1,79 @@
+{
+  "id": "faraday-first-law",
+  "chapter": "electrochemistry",
+  "title": "Faraday's First Law of Electrolysis",
+  "titleBn": "ফ্যারাডের প্রথম সূত্র",
+  "summary": "মুক্ত পদার্থের ভর m = ZIt = (E/F)It",
+  "latex": "m=ZIt=\\dfrac{E}{F}It=\\dfrac{M}{nF}It",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 160,
+  "symbols": [
+    {
+      "symbol": "m",
+      "meaning": "জমা/মুক্ত ভর",
+      "unit": "g"
+    },
+    {
+      "symbol": "I, t",
+      "meaning": "প্রবাহ ও সময়",
+      "unit": "A, s"
+    },
+    {
+      "symbol": "E",
+      "meaning": "রাসায়নিক তুল্যাঙ্ক",
+      "unit": "g/eq"
+    },
+    {
+      "symbol": "F",
+      "meaning": "ফ্যারাডে ধ্রুবক ≈96500",
+      "unit": "C/mol"
+    }
+  ],
+  "derivation": {
+    "lead": "প্রবাহিত চার্জের সমানুপাতে তড়িদদ্রব্য মুক্ত হয়।",
+    "steps": [
+      {
+        "title": "সূত্র",
+        "latex": "m=ZIt,\\quad Z=E/F",
+        "note": "Q=It।"
+      },
+      {
+        "title": "মোল রূপ",
+        "latex": "m=\\dfrac{MIt}{nF}",
+        "note": "n = ইলেকট্রন সংখ্যা।"
+      }
+    ],
+    "assumptions": [
+      "১০০% কারেন্ট দক্ষতা"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "I দ্বিগুণ, t একই হলে m কী হয়?",
+      "answer": "m\\ \\text{দ্বিগুণ}"
+    }
+  ],
+  "memorize": {
+    "trick": "m=ZIt — চার্জ যত, জমা তত; Z=E/F।",
+    "steps": [
+      "Q=It",
+      "m=MIt/(nF)"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "nernst-equation",
+    "galvanic-cell",
+    "faraday-second-law"
+  ]
+}

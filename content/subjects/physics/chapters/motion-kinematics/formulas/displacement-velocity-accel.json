@@ -52,8 +52,11 @@
     }
   ],
   "memorize": {
-    "trick": "v=ds/dt, a=dv/dt।",
-    "steps": []
+    "trick": "সরণ→বেগ→ত্বরণ = একবার করে অবকলন: v=ds/dt, a=dv/dt।",
+    "steps": [
+      "ঢাল = নিচের রাশি",
+      "লেখচিত্রে পড়ো"
+    ]
   },
   "subjects": [
     "physics"

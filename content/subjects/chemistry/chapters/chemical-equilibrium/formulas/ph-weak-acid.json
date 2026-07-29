@@ -1,0 +1,74 @@
+{
+  "id": "ph-weak-acid",
+  "chapter": "chemical-equilibrium",
+  "title": "pH of Weak Acid",
+  "titleBn": "দুর্বল অ্যাসিডের pH",
+  "summary": "[H⁺]≈√(K_a c); pH = −½ log(K_a c)",
+  "latex": "[\\mathrm{H}^+]=\\sqrt{K_a c},\\quad\\mathrm{pH}=-\\tfrac12\\log(K_a c)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 290,
+  "symbols": [
+    {
+      "symbol": "K_a",
+      "meaning": "অ্যাসিড বিয়োজন ধ্রুবক",
+      "unit": "—"
+    },
+    {
+      "symbol": "c",
+      "meaning": "আদি ঘনমাত্রা",
+      "unit": "mol/L"
+    },
+    {
+      "symbol": "[\\mathrm{H}^+]",
+      "meaning": "হাইড্রোজেন আয়ন ঘনমাত্রা",
+      "unit": "mol/L"
+    }
+  ],
+  "derivation": {
+    "lead": "HA ⇌ H⁺ + A⁻; α≪1 হলে K_a ≈ cα² → [H⁺]=√(K_a c)।",
+    "steps": [
+      {
+        "title": "আসন্নতা",
+        "latex": "K_a=\\dfrac{c\\alpha^2}{1-\\alpha}\\approx c\\alpha^2",
+        "note": "α≪1।"
+      },
+      {
+        "title": "pH",
+        "latex": "[\\mathrm{H}^+]=\\sqrt{K_a c},\\ \\mathrm{pH}=-\\log[\\mathrm{H}^+]",
+        "note": "শক্তিশালী অ্যাসিডে [H⁺]=c।"
+      }
+    ],
+    "assumptions": [
+      "α≪1; একপ্রোটিক অ্যাসিড; ২৫°C"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "K_a=10⁻⁵, c=0.1 M। pH?",
+      "answer": "[\\mathrm{H}^+]=\\sqrt{10^{-6}}=10^{-3};\\ \\mathrm{pH}=3"
+    }
+  ],
+  "memorize": {
+    "trick": "দুর্বল অ্যাসিড: [H⁺]=√(K_a c) — শক্তিশালীতে সোজা c।",
+    "steps": [
+      "α≪1",
+      "pH=−log[H⁺]"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "henderson-hasselbalch",
+    "ka-kb-relation",
+    "common-ion-effect"
+  ]
+}

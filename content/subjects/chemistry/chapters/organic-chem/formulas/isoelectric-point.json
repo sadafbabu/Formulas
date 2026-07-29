@@ -1,0 +1,63 @@
+{
+  "id": "isoelectric-point",
+  "chapter": "organic-chem",
+  "title": "Isoelectric Point (pI)",
+  "titleBn": "আইসোইলেকট্রিক বিন্দু",
+  "summary": "pI = (pKa₁ + pKa₂)/2 — অ্যামিনো অ্যাসিডের নেট চার্জ শূন্য",
+  "latex": "\\mathrm{pI}=\\dfrac{\\mathrm{p}K_{a1}+\\mathrm{p}K_{a2}}{2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 310,
+  "symbols": [
+    {
+      "symbol": "\\mathrm{pI}",
+      "meaning": "আইসোইলেকট্রিক pH",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\mathrm{p}K_{a1}, \\mathrm{p}K_{a2}",
+      "meaning": "দ্বিমেরু আয়নের সংশ্লিষ্ট pKa",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "pH = pI হলে অ্যামিনো অ্যাসিড জুইটারআয়ন, নেট চার্জ ০ — তড়িৎপ্রবাহে স্থির।",
+    "steps": [
+      {
+        "title": "নিস্তারক অ্যামিনো অ্যাসিড",
+        "latex": "\\mathrm{pI}=(\\mathrm{p}K_a(\\mathrm{COOH})+\\mathrm{p}K_a(\\mathrm{NH}_3^+))/2",
+        "note": "অম্লীয়/ক্ষারীয় পাশে ভিন্ন জোড়া।"
+      }
+    ],
+    "assumptions": [
+      "একক α-অ্যামিনো অ্যাসিড"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical",
+      "question": "pH = pI হলে নেট চার্জ কত?",
+      "answer": "0"
+    }
+  ],
+  "memorize": {
+    "trick": "pI = দুই প্রাসঙ্গিক pKa-এর গড় — এখানে নেট চার্জ শূন্য।",
+    "steps": [
+      "pI=(pKa1+pKa2)/2",
+      "pH=pI → চার্জ ০"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "henderson-hasselbalch",
+    "ph-weak-acid"
+  ]
+}

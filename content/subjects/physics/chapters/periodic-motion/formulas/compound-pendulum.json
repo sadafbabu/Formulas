@@ -52,8 +52,11 @@
     }
   ],
   "memorize": {
-    "trick": "T=2π√(I/mgd)।",
-    "steps": []
+    "trick": "T=2π√(I/mgd) — সরল দোলকের L_eq=I/(md)।",
+    "steps": [
+      "ক্ষুদ্র কোণ",
+      "I=m(k²+d²)"
+    ]
   },
   "subjects": [
     "physics"

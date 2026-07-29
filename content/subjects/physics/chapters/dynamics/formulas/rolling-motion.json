@@ -57,8 +57,11 @@
     }
   ],
   "memorize": {
-    "trick": "v=ωR; মোট KE = স্থানান্তর + ঘূর্ণন।",
-    "steps": []
+    "trick": "শুদ্ধ গড়ানো: v=ωR; মোট KE = ½mv²(1+I/mR²)।",
+    "steps": [
+      "স্লিপ নেই",
+      "হুপে I=mR² → K=mv²"
+    ]
   },
   "subjects": [
     "physics"

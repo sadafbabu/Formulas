@@ -57,8 +57,11 @@
     }
   ],
   "memorize": {
-    "trick": "f₀=1/(2π√LC)।",
-    "steps": []
+    "trick": "অনুরণন: f₀ = 1/(2π√LC) — L·C গুণের বর্গমূল ভাগ।",
+    "steps": [
+      "X_L=X_C",
+      "Z_min=R"
+    ]
   },
   "subjects": [
     "physics"

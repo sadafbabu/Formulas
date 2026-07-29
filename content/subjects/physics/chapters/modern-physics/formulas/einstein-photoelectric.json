@@ -67,8 +67,11 @@
     }
   ],
   "memorize": {
-    "trick": "hf = φ + K_max; f₀=φ/h; K_max=eV₀।",
-    "steps": []
+    "trick": "hf = φ + K_max — ফোটনের বাড়তি শক্তিই গতিশক্তি; V₀ দিয়ে মাপো।",
+    "steps": [
+      "f₀=φ/h",
+      "K_max=eV₀"
+    ]
   },
   "subjects": [
     "physics"

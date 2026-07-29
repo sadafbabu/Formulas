@@ -1,5 +1,5 @@
 import type { Formula, TagId } from '../data/types'
-import { getChapter } from '../data/catalog'
+import { formulas, getChapter } from '../data/catalog'
 
 /** Banglish / English / Bangla aliases for better recall. */
 const ALIASES: Record<string, string[]> = {
@@ -68,15 +68,42 @@ const ALIASES: Record<string, string[]> = {
   work: ['কাজ'],
   energy: ['শক্তি'],
   power: ['ক্ষমতা'],
-  // Chemistry
-  mole: ['মোল', 'অ্যাভোগাড্রো'],
-  ph: ['পিএইচ', 'হাইড্রোজেন'],
-  buffer: ['বাফার'],
+  // Chemistry (expanded)
+  mole: ['মোল', 'অ্যাভোগাড্রো', 'avogadro'],
+  ph: ['পিএইচ', 'হাইড্রোজেন', 'পিএইচ মান'],
+  buffer: ['বাফার', 'henderson', 'হেন্ডারসন'],
+  henderson: ['বাফার', 'হেন্ডারসন', 'hasselbalch'],
   organic: ['জৈব', 'অর্গানিক'],
   nernst: ['নার্নস্ট'],
-  faraday: ['ফ্যারাডে'],
-  colligative: ['সম্মিল', 'অসমোটিক'],
+  faraday: ['ফ্যারাডে', 'ফ্যারাডের'],
+  colligative: ['সম্মিল', 'অসমোটিক', 'রাউল'],
   haber: ['হ্যাবার', 'অ্যামোনিয়া'],
+  lechatelier: ['লা শাতেলিয়ে', 'le chatelier', 'লেশাটেলিয়ে', 'chatelier'],
+  arrhenius: ['আরেনিয়াস', 'সক্রিয়ন'],
+  hess: ['হেস', 'hess law'],
+  ksp: ['দ্রাব্যতা', 'solubility', 'কেএসপি'],
+  raoult: ['রাউল', 'রাউল্ট'],
+  henry: ['হেনরি', 'henry'],
+  sn1: ['এসএন১', 'sn1', 'নিউক্লিওফিলিক'],
+  sn2: ['এসএন২', 'sn2'],
+  vsepr: ['ভেস্পর', 'vsepr', 'আণবিক আকৃতি'],
+  hybridization: ['হাইব্রিডাইজেশন', 'সংকরণ'],
+  kohlrausch: ['কোলরাউশ', 'কোলরাউস'],
+  markovnikov: ['মার্কোভনিকভ', 'মার্কফনিকভ'],
+  grignard: ['গ্রিনইয়ার্ড', 'grignard'],
+  ostwald: ['অস্টওয়াল্ড'],
+  solvay: ['সলভে'],
+  contact: ['কন্টাক্ট', 'সালফিউরিক'],
+  titration: ['টাইট্রেশন', 'আয়তনমিতি'],
+  normality: ['নরম্যালিটি', 'নরমাল'],
+  molarity: ['মোলারিটি', 'মোলালিটি'],
+  gibbs: ['গিবস', 'মুক্ত শক্তি'],
+  nernstcell: ['কোশ বিভব'],
+  cfse: ['সিএফএসই', 'ক্রিস্টাল ফিল্ড'],
+  huckel: ['হুকেল', 'অ্যারোমেটিক', 'aromatic'],
+  saponification: ['সাবান', 'স্যপোনিফিকেশন'],
+  beer: ['বিয়ার', 'ল্যামবার্ট', 'absorbance'],
+  chromatography: ['ক্রোমাটোগ্রাফি', 'rf'],
   // Math
   matrix: ['ম্যাট্রিক্স', 'নির্ণায়ক'],
   determinant: ['নির্ণায়ক', 'ডিটারমিন্যান্ট'],
@@ -128,7 +155,16 @@ function expandToken(token: string): string[] {
   return [...out]
 }
 
-function haystack(formula: Formula): string {
+interface SearchDoc {
+  formula: Formula
+  id: string
+  title: string
+  summary: string
+  latex: string
+  full: string
+}
+
+function buildDoc(formula: Formula): SearchDoc {
   const chapter = getChapter(formula.chapter)
   const parts = [
     formula.id,
@@ -146,8 +182,19 @@ function haystack(formula: Formula): string {
     ...(formula.memorize?.steps ?? []),
     ...(formula.questions ?? []).flatMap((q) => [q.question, q.examType]),
   ]
-  return normalize(parts.filter(Boolean).join(' · '))
+  return {
+    formula,
+    id: normalize(formula.id),
+    title: normalize(`${formula.title} ${formula.titleBn}`),
+    summary: normalize(formula.summary),
+    latex: normalize(formula.latex),
+    full: normalize(parts.filter(Boolean).join(' · ')),
+  }
 }
+
+/** Precomputed once — avoids rebuilding haystacks on every keystroke. */
+const SEARCH_INDEX: SearchDoc[] = formulas.map(buildDoc)
+const DOC_BY_ID = new Map(SEARCH_INDEX.map((d) => [d.formula.id, d]))
 
 function passesTag(formula: Formula, activeTag?: TagId | null): boolean {
   if (!activeTag) return true
@@ -158,13 +205,15 @@ function passesTag(formula: Formula, activeTag?: TagId | null): boolean {
   return formula.tags.includes(activeTag)
 }
 
-function scoreFormula(formula: Formula, tokens: string[]): number {
+function starMatch(q: string, imp: number): boolean | null {
+  if (q === '3' || q === '3 star' || q === '3star' || q === '***') return imp === 3
+  if (q === '2' || q === '2 star' || q === '2star' || q === '**') return imp === 2
+  if (q === '1' || q === '1 star' || q === '1star' || q === '*') return imp === 1
+  return null
+}
+
+function scoreDoc(doc: SearchDoc, tokens: string[]): number {
   if (!tokens.length) return 1
-  const title = normalize(`${formula.title} ${formula.titleBn}`)
-  const id = normalize(formula.id)
-  const summary = normalize(formula.summary)
-  const latex = normalize(formula.latex)
-  const full = haystack(formula)
   let score = 0
 
   for (const token of tokens) {
@@ -172,21 +221,20 @@ function scoreFormula(formula: Formula, tokens: string[]): number {
     let best = 0
     for (const v of variants) {
       if (!v) continue
-      if (id === v || title === v) best = Math.max(best, 120)
-      else if (id.includes(v)) best = Math.max(best, 95)
-      else if (title.startsWith(v) || title.includes(` ${v}`)) best = Math.max(best, 88)
-      else if (title.includes(v)) best = Math.max(best, 72)
-      else if (summary.includes(v)) best = Math.max(best, 48)
-      else if (latex.includes(v)) best = Math.max(best, 40)
-      else if (full.includes(v)) best = Math.max(best, 28)
+      if (doc.id === v || doc.title === v) best = Math.max(best, 120)
+      else if (doc.id.includes(v)) best = Math.max(best, 95)
+      else if (doc.title.startsWith(v) || doc.title.includes(` ${v}`)) best = Math.max(best, 88)
+      else if (doc.title.includes(v)) best = Math.max(best, 72)
+      else if (doc.summary.includes(v)) best = Math.max(best, 48)
+      else if (doc.latex.includes(v)) best = Math.max(best, 40)
+      else if (doc.full.includes(v)) best = Math.max(best, 28)
     }
     if (best === 0) return 0
     score += best
   }
 
-  // Prefer shorter exact-ish titles and higher importance slightly.
-  score += (formula.importance ?? 2) * 2
-  score += Math.max(0, 24 - formula.title.length / 4)
+  score += (doc.formula.importance ?? 2) * 2
+  score += Math.max(0, 24 - doc.formula.title.length / 4)
   return score
 }
 
@@ -200,14 +248,13 @@ export function matchFormula(
   const tokens = tokenize(query)
   if (!tokens.length) return true
 
-  // Direct star shortcuts
   const q = normalize(query)
   const imp = formula.importance ?? 2
-  if (q === '3' || q === '3 star' || q === '3star' || q === '***') return imp === 3
-  if (q === '2' || q === '2 star' || q === '2star' || q === '**') return imp === 2
-  if (q === '1' || q === '1 star' || q === '1star' || q === '*') return imp === 1
+  const star = starMatch(q, imp)
+  if (star !== null) return star
 
-  return scoreFormula(formula, tokens) > 0
+  const doc = DOC_BY_ID.get(formula.id) ?? buildDoc(formula)
+  return scoreDoc(doc, tokens) > 0
 }
 
 export interface RankedFormula {
@@ -224,40 +271,37 @@ export function searchFormulas(
 ): RankedFormula[] {
   const tokens = tokenize(query)
   const q = normalize(query)
+  const allow = new Set(list.map((f) => f.id))
 
-  const filtered = list.filter((f) => {
-    if (!passesTag(f, activeTag)) return false
+  const docs = SEARCH_INDEX.filter((d) => {
+    if (!allow.has(d.formula.id)) return false
+    if (!passesTag(d.formula, activeTag)) return false
     if (!tokens.length) return true
-    if (q === '3' || q === '3 star' || q === '3star' || q === '***') {
-      return (f.importance ?? 2) === 3
-    }
-    if (q === '2' || q === '2 star' || q === '2star' || q === '**') {
-      return (f.importance ?? 2) === 2
-    }
-    if (q === '1' || q === '1 star' || q === '1star' || q === '*') {
-      return (f.importance ?? 2) === 1
-    }
-    return scoreFormula(f, tokens) > 0
+    const star = starMatch(q, d.formula.importance ?? 2)
+    if (star !== null) return star
+    return scoreDoc(d, tokens) > 0
   })
 
   if (!tokens.length) {
-    return filtered.slice(0, limit).map((formula) => ({ formula, score: 1 }))
+    return docs.slice(0, limit).map((d) => ({ formula: d.formula, score: 1 }))
   }
 
-  return filtered
-    .map((formula) => ({ formula, score: scoreFormula(formula, tokens) }))
+  return docs
+    .map((d) => ({ formula: d.formula, score: scoreDoc(d, tokens) }))
     .sort((a, b) => b.score - a.score || a.formula.title.localeCompare(b.formula.title))
     .slice(0, limit)
 }
 
-/** Quick suggestion chips shown when search is empty. */
+/** Quick suggestion chips — balanced across subjects. */
 export const SEARCH_SUGGESTIONS = [
   'lorentz',
-  'কার্নো',
-  'YDSE',
-  'লিফট',
-  'Rydberg',
-  'Bernoulli',
+  'Nernst',
+  'Ksp',
   'matrix',
+  'কার্নো',
+  'SN1',
+  'Bernoulli',
   'pH',
+  'হুকেল',
+  'Hess',
 ] as const

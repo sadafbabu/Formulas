@@ -1,0 +1,68 @@
+{
+  "id": "clausius-clapeyron",
+  "chapter": "chemical-equilibrium",
+  "title": "Clausius–Clapeyron Equation",
+  "titleBn": "ক্লসিয়াস–ক্ল্যাপেইরন সমীকরণ",
+  "summary": "বাষ্পচাপ–তাপমাত্রা: ln(P₂/P₁)=−(ΔH_v/R)(1/T₂−1/T₁)",
+  "latex": "\\ln\\dfrac{P_2}{P_1}=-\\dfrac{\\Delta H_v}{R}\\left(\\dfrac{1}{T_2}-\\dfrac{1}{T_1}\\right)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 330,
+  "symbols": [
+    {
+      "symbol": "P_1, P_2",
+      "meaning": "দুই তাপমাত্রায় বাষ্পচাপ",
+      "unit": "Pa"
+    },
+    {
+      "symbol": "\\Delta H_v",
+      "meaning": "বাষ্পীভবন এনথ্যালপি",
+      "unit": "J/mol"
+    },
+    {
+      "symbol": "T",
+      "meaning": "পরম তাপমাত্রা",
+      "unit": "K"
+    }
+  ],
+  "derivation": {
+    "lead": "তরল–বাষ্প সাম্যে চাপের তাপমাত্রা নির্ভরতা।",
+    "steps": [
+      {
+        "title": "দ্বি-বিন্দু রূপ",
+        "latex": "\\ln(P_2/P_1)=-\\dfrac{\\Delta H_v}{R}(1/T_2-1/T_1)",
+        "note": "T↑ → P↑।"
+      }
+    ],
+    "assumptions": [
+      "ΔH_v তাপমাত্রায় প্রায় ধ্রুব; আদর্শ বাষ্প"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "তাপমাত্রা বাড়লে তরলের বাষ্পচাপ কী হয়?",
+      "answer": "P\\uparrow"
+    }
+  ],
+  "memorize": {
+    "trick": "গরম করলে বাষ্পচাপ বাড়ে — ln P বনাম 1/T সরলরেখা, ঢাল −ΔH/R।",
+    "steps": [
+      "ln(P₂/P₁) = −(ΔH/R)(1/T₂−1/T₁)"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "vanthoff-equation",
+    "hess-law",
+    "gibbs-helmholtz"
+  ]
+}

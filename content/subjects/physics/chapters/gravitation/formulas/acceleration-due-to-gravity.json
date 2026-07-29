@@ -62,8 +62,11 @@
     }
   ],
   "memorize": {
-    "trick": "g=GM/R²; উচ্চতায় (R/(R+h))² গুণ।",
-    "steps": []
+    "trick": "g=GM/R²; উচ্চতায় g′=g[R/(R+h)]² — উপরে গেলে হালকা।",
+    "steps": [
+      "পৃষ্ঠে GM/R²",
+      "h=R হলে g/4"
+    ]
   },
   "subjects": [
     "physics"

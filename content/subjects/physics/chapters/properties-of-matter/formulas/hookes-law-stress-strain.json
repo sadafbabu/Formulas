@@ -52,8 +52,11 @@
     }
   ],
   "memorize": {
-    "trick": "Y = (F/A)/(ΔL/L)।",
-    "steps": []
+    "trick": "স্থিতিস্থাপক সীমায় stress∝strain; Y=stress/strain।",
+    "steps": [
+      "রৈখিক অংশ হুক",
+      "সীমার বাইরে ভাঙে"
+    ]
   },
   "subjects": [
     "physics"

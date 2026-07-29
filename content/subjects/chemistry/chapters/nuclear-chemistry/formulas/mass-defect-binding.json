@@ -1,0 +1,73 @@
+{
+  "id": "mass-defect-binding",
+  "chapter": "nuclear-chemistry",
+  "title": "Mass Defect & Binding Energy",
+  "titleBn": "ভর ত্রুটি ও বন্ধন শক্তি",
+  "summary": "Δm = Z m_p + (A−Z) m_n − M; BE = Δm c²",
+  "latex": "\\Delta m=Zm_p+(A-Z)m_n-M,\\quad BE=\\Delta m\\,c^2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "\\Delta m",
+      "meaning": "ভর ত্রুটি",
+      "unit": "u বা kg"
+    },
+    {
+      "symbol": "BE",
+      "meaning": "বন্ধন শক্তি",
+      "unit": "MeV"
+    },
+    {
+      "symbol": "M",
+      "meaning": "নিউক্লিয়াসের প্রকৃত ভর",
+      "unit": "u"
+    }
+  ],
+  "derivation": {
+    "lead": "নিউক্লিয়াসের ভর আলাদা নিউক্লিয়নের যোগফলের চেয়ে কম — শক্তি বন্ধনে।",
+    "steps": [
+      {
+        "title": "ভর ত্রুটি",
+        "latex": "\\Delta m=Zm_p+(A-Z)m_n-M",
+        "note": "1 u ≈ 931 MeV।"
+      },
+      {
+        "title": "বন্ধন শক্তি",
+        "latex": "BE=\\Delta m\\times931\\ \\mathrm{MeV/u}",
+        "note": "প্রতি নিউক্লিয়ন BE স্থিতিশীলতা মাপে।"
+      }
+    ],
+    "assumptions": [
+      "পারমাণবিক ভর এককে হিসাব"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "1 u ভর ত্রুটির শক্তি সমতুল্য?",
+      "answer": "931\\ \\mathrm{MeV}"
+    }
+  ],
+  "memorize": {
+    "trick": "ভর কম = শক্তি বেরিয়েছে: BE = Δm × 931 MeV।",
+    "steps": [
+      "Δm=যোগফল−প্রকৃত",
+      "প্রতি নিউক্লিয়ন BE"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "half-life-chem",
+    "radioactive-decay-law-chem"
+  ]
+}

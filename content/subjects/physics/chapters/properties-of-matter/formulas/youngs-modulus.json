@@ -57,8 +57,11 @@
     }
   ],
   "memorize": {
-    "trick": "Y=FL/(AΔL)।",
-    "steps": []
+    "trick": "Y = FL/(AΔL) — ‘বল×দৈর্ঘ্য / ক্ষেত্র×প্রসারণ’; ইস্পাত শক্ত = Y বড়।",
+    "steps": [
+      "stress/strain",
+      "একক Pa"
+    ]
   },
   "subjects": [
     "physics"

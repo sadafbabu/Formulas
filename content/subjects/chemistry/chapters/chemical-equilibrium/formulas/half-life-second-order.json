@@ -1,0 +1,68 @@
+{
+  "id": "half-life-second-order",
+  "chapter": "chemical-equilibrium",
+  "title": "Half-Life of Second-Order Reaction",
+  "titleBn": "দ্বিতীয় ক্রমের অর্ধায়ু",
+  "summary": "t₁/₂ = 1/(k[A]₀) — আদি ঘনমাত্রার উপর নির্ভর করে",
+  "latex": "t_{1/2}=\\dfrac{1}{k[A]_0}\\quad(2\\text{nd order, }2A\\to\\text{prod})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 360,
+  "symbols": [
+    {
+      "symbol": "k",
+      "meaning": "হার ধ্রুবক",
+      "unit": "L/(mol·s)"
+    },
+    {
+      "symbol": "[A]_0",
+      "meaning": "আদি ঘনমাত্রা",
+      "unit": "mol/L"
+    },
+    {
+      "symbol": "t_{1/2}",
+      "meaning": "অর্ধায়ু",
+      "unit": "s"
+    }
+  ],
+  "derivation": {
+    "lead": "প্রথম ক্রমে t½ ধ্রুব; দ্বিতীয় ক্রমে [A]₀ বাড়লে t½ কমে।",
+    "steps": [
+      {
+        "title": "সূত্র",
+        "latex": "t_{1/2}=1/(k[A]_0)",
+        "note": "শূন্য ক্রমে t½∝[A]₀।"
+      }
+    ],
+    "assumptions": [
+      "একক বিক্রিয়ক দ্বিতীয় ক্রম"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "[A]₀ দ্বিগুণ হলে দ্বিতীয় ক্রমের t½?",
+      "answer": "t_{1/2}\\ \\text{অর্ধেক}"
+    }
+  ],
+  "memorize": {
+    "trick": "2nd order: t½ = 1/(k[A]₀) — ঘনমাত্রা↑ অর্ধায়ু↓।",
+    "steps": [
+      "1st: t½=ln2/k",
+      "2nd: t½=1/(k[A]₀)"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "first-order-half-life",
+    "activation-energy-arrhenius-plot"
+  ]
+}

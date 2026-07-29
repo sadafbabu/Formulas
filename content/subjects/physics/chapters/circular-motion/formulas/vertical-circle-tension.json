@@ -57,8 +57,11 @@
     }
   ],
   "memorize": {
-    "trick": "নিচে T=mv²/r+mg; উপরে mv²/r−mg।",
-    "steps": []
+    "trick": "নিচে টান বেশি (mv²/r+mg), উপরে কম (mv²/r−mg)।",
+    "steps": [
+      "নিচে যোগ",
+      "উপরে বিয়োগ"
+    ]
   },
   "subjects": [
     "physics"

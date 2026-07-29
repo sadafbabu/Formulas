@@ -52,8 +52,11 @@
     }
   ],
   "memorize": {
-    "trick": "a_c=v²/r=ω²r।",
-    "steps": []
+    "trick": "কেন্দ্রে টানে: a_c = v²/r = ω²r — বড় বেগ/ছোট r = বেশি টান।",
+    "steps": [
+      "দিক কেন্দ্রে",
+      "F=ma_c"
+    ]
   },
   "subjects": [
     "physics"

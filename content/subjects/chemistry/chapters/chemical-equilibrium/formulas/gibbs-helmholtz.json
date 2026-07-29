@@ -1,0 +1,73 @@
+{
+  "id": "gibbs-helmholtz",
+  "chapter": "chemical-equilibrium",
+  "title": "Gibbs Free Energy Relation",
+  "titleBn": "গিবসের মুক্ত শক্তি",
+  "summary": "ΔG = ΔH − TΔS; ΔG° = −RT ln K",
+  "latex": "\\Delta G=\\Delta H-T\\Delta S,\\quad \\Delta G^\\circ=-RT\\ln K",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 350,
+  "symbols": [
+    {
+      "symbol": "\\Delta G",
+      "meaning": "গিবস মুক্ত শক্তি পরিবর্তন",
+      "unit": "J/mol"
+    },
+    {
+      "symbol": "\\Delta H, \\Delta S",
+      "meaning": "এনথ্যালপি ও এনট্রপি পরিবর্তন",
+      "unit": "J/mol, J/(mol·K)"
+    },
+    {
+      "symbol": "K",
+      "meaning": "সাম্য ধ্রুবক",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "স্বতঃস্ফূর্ততা: ΔG<0। সাম্যে ΔG=0 এবং K-এর সাথে যুক্ত।",
+    "steps": [
+      {
+        "title": "স্বতঃস্ফূর্ততা",
+        "latex": "\\Delta G<0\\Rightarrow\\text{স্বতঃস্ফূর্ত}",
+        "note": "ΔG>0 অস্বতঃস্ফূর্ত।"
+      },
+      {
+        "title": "K সম্পর্ক",
+        "latex": "\\Delta G^\\circ=-RT\\ln K",
+        "note": "বড় K → ঋণাত্মক ΔG°।"
+      }
+    ],
+    "assumptions": [
+      "ধ্রুব T,P"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "ΔG° ঋণাত্মক হলে K কেমন?",
+      "answer": "K>1"
+    }
+  ],
+  "memorize": {
+    "trick": "ΔG=ΔH−TΔS; ΔG°=−RT ln K — ঋণাত্মক ΔG মানে চলে।",
+    "steps": [
+      "ΔG<0 স্বতঃস্ফূর্ত",
+      "বড় K→ঋণাত্মক ΔG°"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "vanthoff-equation",
+    "hess-law"
+  ]
+}

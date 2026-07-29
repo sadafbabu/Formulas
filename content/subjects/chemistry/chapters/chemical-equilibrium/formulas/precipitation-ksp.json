@@ -1,0 +1,68 @@
+{
+  "id": "precipitation-ksp",
+  "chapter": "chemical-equilibrium",
+  "title": "Precipitation Condition (Ksp)",
+  "titleBn": "অধঃক্ষেপণের শর্ত (Ksp)",
+  "summary": "Q > Ksp হলে অধঃক্ষেপ; Q < Ksp দ্রবণ অসম্পৃক্ত",
+  "latex": "Q>K_{sp}\\Rightarrow\\text{অধঃক্ষেপ};\\quad Q<K_{sp}\\Rightarrow\\text{দ্রবীভূত}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 310,
+  "symbols": [
+    {
+      "symbol": "Q",
+      "meaning": "আয়নিক গুণফল (reaction quotient)",
+      "unit": "—"
+    },
+    {
+      "symbol": "K_{sp}",
+      "meaning": "দ্রাব্যতা গুণফল",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "মিশ্রণের পর তাত্ক্ষণিক আয়ন গুণফল Q তুলনা করো Ksp-এর সাথে।",
+    "steps": [
+      {
+        "title": "শর্ত",
+        "latex": "Q=\\prod[\\mathrm{ion}]^{n}",
+        "note": "Q>Ksp → অধঃক্ষেপ শুরু।"
+      },
+      {
+        "title": "সাম্য",
+        "latex": "Q=K_{sp}",
+        "note": "সম্পৃক্ত দ্রবণ।"
+      }
+    ],
+    "assumptions": [
+      "২৫°C; আয়নিক শক্তি নগণ্য"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "Q < Ksp হলে কী হবে?",
+      "answer": "\\text{অধঃক্ষেপ হবে না (অসম্পৃক্ত)}"
+    }
+  ],
+  "memorize": {
+    "trick": "Q বড় = অধঃক্ষেপ; Q ছোট = এখনও দ্রবীভূত।",
+    "steps": [
+      "Q>Ksp → precipitate",
+      "Q<Ksp → dissolve"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "solubility-from-ksp",
+    "common-ion-effect"
+  ]
+}

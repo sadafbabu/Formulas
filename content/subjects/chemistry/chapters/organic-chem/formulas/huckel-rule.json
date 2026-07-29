@@ -1,0 +1,68 @@
+{
+  "id": "huckel-rule",
+  "chapter": "organic-chem",
+  "title": "Hückel's Rule of Aromaticity",
+  "titleBn": "হুকেলের সূত্র (অ্যারোমেটিসিটি)",
+  "summary": "সমতল চক্রাকার সম্পৃক্ত π ব্যবস্থায় 4n+2 ইলেকট্রন = অ্যারোমেটিক",
+  "latex": "(4n+2)\\ \\pi\\ \\text{electrons},\\ n=0,1,2,\\ldots",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 290,
+  "symbols": [
+    {
+      "symbol": "n",
+      "meaning": "পূর্ণ সংখ্যা ০,১,২…",
+      "unit": "—"
+    },
+    {
+      "symbol": "4n+2",
+      "meaning": "অ্যারোমেটিক π ইলেকট্রন সংখ্যা",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "বেনজিন (৬=4·1+2), সাইক্লোপেন্টাডাইয়েনাইল অ্যানায়ন (৬) অ্যারোমেটিক।",
+    "steps": [
+      {
+        "title": "শর্ত",
+        "latex": "4n+2\\ \\pi\\ e^-",
+        "note": "চক্রাকার, সমতল, সম্পৃক্ত p অরবিটাল।"
+      },
+      {
+        "title": "অ্যান্টিঅ্যারোমেটিক",
+        "latex": "4n\\ \\pi\\ e^-",
+        "note": "অস্থিতিশীল (যেমন সাইক্লোবিউটাডাইইন)।"
+      }
+    ],
+    "assumptions": [
+      "সমতল conjugated ring"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "বেনজিনে π ইলেকট্রন সংখ্যা হুকেল মেনে?",
+      "answer": "6=4(1)+2"
+    }
+  ],
+  "memorize": {
+    "trick": "অ্যারোমেটিক = 4n+2 π ইলেকট্রন (২,৬,১০…) — বেনজিন ৬।",
+    "steps": [
+      "সমতল চক্র",
+      "4n = অ্যান্টি"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "sn1-sn2-mechanism",
+    "grignard-reaction"
+  ]
+}

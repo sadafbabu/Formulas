@@ -1,0 +1,78 @@
+{
+  "id": "henrys-law",
+  "chapter": "colligative-properties",
+  "title": "Henry's Law",
+  "titleBn": "হেনরির সূত্র",
+  "summary": "গ্যাসের দ্রাব্যতা চাপের সমানুপাতিক: P = K_H · x",
+  "latex": "P=K_H\\,x\\quad(\\text{বা }C=K_H P)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "P",
+      "meaning": "গ্যাসের আংশিক চাপ",
+      "unit": "atm / Pa"
+    },
+    {
+      "symbol": "x",
+      "meaning": "দ্রাবণে মোল ভগ্নাংশ",
+      "unit": "—"
+    },
+    {
+      "symbol": "K_H",
+      "meaning": "হেনরি ধ্রুবক",
+      "unit": "atm"
+    },
+    {
+      "symbol": "C",
+      "meaning": "ঘনমাত্রা রূপ",
+      "unit": "mol/L"
+    }
+  ],
+  "derivation": {
+    "lead": "ধ্রুব তাপমাত্রায় দ্রবীভূত গ্যাসের মোল ভগ্নাংশ আংশিক চাপের সমানুপাতিক।",
+    "steps": [
+      {
+        "title": "সূত্র",
+        "latex": "P=K_H x",
+        "note": "চাপ বাড়লে দ্রাব্যতা বাড়ে (সোডা)।"
+      },
+      {
+        "title": "তাপমাত্রা",
+        "latex": "T\\uparrow\\Rightarrow K_H\\uparrow\\Rightarrow\\text{দ্রাব্যতা}\\downarrow",
+        "note": "গরম পানিতে কম অক্সিজেন।"
+      }
+    ],
+    "assumptions": [
+      "আদর্শ তরল–গ্যাস দ্রবণ; নিম্ন চাপ"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "হেনরির সূত্র অনুযায়ী চাপ দ্বিগুণ হলে দ্রাব্যতা কী হয়?",
+      "answer": "\\text{দ্রাব্যতা দ্বিগুণ}"
+    }
+  ],
+  "memorize": {
+    "trick": "সোডা বোতল: চাপ↑ → গ্যাস বেশি দ্রবে; খুললে বুদবুদ। P=K_H x।",
+    "steps": [
+      "চাপ∝দ্রাব্যতা",
+      "গরমে কমে"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "raoult-law",
+    "osmotic-pressure"
+  ]
+}

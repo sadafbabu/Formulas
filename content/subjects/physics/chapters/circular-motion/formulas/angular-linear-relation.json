@@ -62,8 +62,11 @@
     }
   ],
   "memorize": {
-    "trick": "v=ωr, a_t=αr, a_c=ω²r।",
-    "steps": []
+    "trick": "v=ωr — চাকা বড় হলে একই ω-তে প্রান্ত দ্রুত।",
+    "steps": [
+      "a_t=αr",
+      "a_c=ω²r"
+    ]
   },
   "subjects": [
     "physics"

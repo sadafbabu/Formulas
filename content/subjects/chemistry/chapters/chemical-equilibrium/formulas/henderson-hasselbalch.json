@@ -40,8 +40,11 @@
     }
   ],
   "memorize": {
-    "trick": "লবণ/অ্যাসিড অনুপাতের log যোগ করো pKa-তে।",
-    "steps": []
+    "trick": "pH = pKa + log([salt]/[acid]) — বাফারে লবণ/অ্যাসিড অনুপাত।",
+    "steps": [
+      "সমান হলে pH=pKa",
+      "ক্ষার বাফারে pOH রূপ"
+    ]
   },
   "subjects": [
     "chemistry"

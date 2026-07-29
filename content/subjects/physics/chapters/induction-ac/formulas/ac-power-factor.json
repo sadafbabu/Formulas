@@ -57,8 +57,11 @@
     }
   ],
   "memorize": {
-    "trick": "cosφ=R/Z; P=VI cosφ।",
-    "steps": []
+    "trick": "cosφ = R/Z — শুধু রোধ কাজ করে; P=VI cosφ।",
+    "steps": [
+      "φ=0 হলে PF=1",
+      "শুধু L/C তে PF=0"
+    ]
   },
   "subjects": [
     "physics"

@@ -1,0 +1,68 @@
+{
+  "id": "collision-frequency-theory",
+  "chapter": "chemical-equilibrium",
+  "title": "Collision Theory Rate Constant",
+  "titleBn": "সংঘর্ষ তত্ত্ব ও হার ধ্রুবক",
+  "summary": "k = P Z e^(−E_a/RT)",
+  "latex": "k=PZ\\,e^{-E_a/RT}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 370,
+  "symbols": [
+    {
+      "symbol": "P",
+      "meaning": "স্টিয়ারিক গুণাঙ্ক",
+      "unit": "—"
+    },
+    {
+      "symbol": "Z",
+      "meaning": "সংঘর্ষ কম্পাঙ্ক",
+      "unit": "s⁻¹ বা L/(mol·s)"
+    },
+    {
+      "symbol": "E_a",
+      "meaning": "সক্রিয়ন শক্তি",
+      "unit": "J/mol"
+    }
+  ],
+  "derivation": {
+    "lead": "কার্যকর সংঘর্ষ = সঠিক দিক (P) × যথেষ্ট শক্তি (e^(−Ea/RT))।",
+    "steps": [
+      {
+        "title": "সূত্র",
+        "latex": "k=PZe^{-E_a/RT}",
+        "note": "Arrhenius-এর সাথে মিল: A≈PZ।"
+      }
+    ],
+    "assumptions": [
+      "গ্যাস দশা; দ্বিআণবিক"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "E_a বাড়লে k কী হয়?",
+      "answer": "k\\downarrow"
+    }
+  ],
+  "memorize": {
+    "trick": "হার = সংঘর্ষ × দিক × e^(−Ea/RT)।",
+    "steps": [
+      "k=PZ e^(−Ea/RT)",
+      "A≈PZ"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "activation-energy-arrhenius-plot",
+    "half-life-second-order"
+  ]
+}

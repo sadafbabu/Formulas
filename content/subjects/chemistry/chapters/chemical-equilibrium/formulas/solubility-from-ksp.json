@@ -1,0 +1,68 @@
+{
+  "id": "solubility-from-ksp",
+  "chapter": "chemical-equilibrium",
+  "title": "Solubility from Ksp",
+  "titleBn": "Ksp থেকে দ্রাব্যতা",
+  "summary": "AB: s=√Ksp; AB₂: s=∛(Ksp/4)",
+  "latex": "AB:\\ s=\\sqrt{K_{sp}};\\quad AB_2:\\ s=\\sqrt[3]{K_{sp}/4}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 300,
+  "symbols": [
+    {
+      "symbol": "K_{sp}",
+      "meaning": "দ্রাব্যতা গুণফল",
+      "unit": "—"
+    },
+    {
+      "symbol": "s",
+      "meaning": "মোলার দ্রাব্যতা",
+      "unit": "mol/L"
+    }
+  ],
+  "derivation": {
+    "lead": "সম্পৃক্ত দ্রবণে আয়ন ঘনমাত্রা থেকে Ksp; s বের করা ভর্তির ফেভারিট।",
+    "steps": [
+      {
+        "title": "AB প্রকার",
+        "latex": "K_{sp}=s\\cdot s=s^2\\Rightarrow s=\\sqrt{K_{sp}}",
+        "note": "AgCl, BaSO₄।"
+      },
+      {
+        "title": "AB₂ প্রকার",
+        "latex": "K_{sp}=(s)(2s)^2=4s^3\\Rightarrow s=\\sqrt[3]{K_{sp}/4}",
+        "note": "CaF₂, Mg(OH)₂।"
+      }
+    ],
+    "assumptions": [
+      "শুধুমাত্র পানিতে; কোনো জটিল আয়ন নেই"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "AgCl-এর Ksp=10⁻¹⁰। s কত?",
+      "answer": "s=10^{-5}\\,\\mathrm{mol/L}"
+    }
+  ],
+  "memorize": {
+    "trick": "AB→√Ksp; AB₂→∛(Ksp/4) — চার্জ গুণে ভুলো না।",
+    "steps": [
+      "AgCl: s²",
+      "CaF₂: 4s³"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "precipitation-ksp",
+    "common-ion-effect"
+  ]
+}

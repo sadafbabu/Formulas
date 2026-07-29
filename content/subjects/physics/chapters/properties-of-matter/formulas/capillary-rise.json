@@ -57,8 +57,11 @@
     }
   ],
   "memorize": {
-    "trick": "h=2S cosθ/(ρgr)।",
-    "steps": []
+    "trick": "সরু নল = বেশি উঠে: h = 2S cosθ/(ρgr) — r ছোট h বড়।",
+    "steps": [
+      "পারদে পতন (θ>90°)",
+      "পানিতে উত্থান"
+    ]
   },
   "subjects": [
     "physics"

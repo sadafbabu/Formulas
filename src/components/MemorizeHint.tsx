@@ -34,6 +34,7 @@ export function MemorizeHint({ formula }: MemorizeHintProps) {
       wide
     >
       <div className="memorize-popover-content">
+        <p className="memorize-kicker">মনে রাখার কৌশল</p>
         <p className="memorize-trick">{memo.trick}</p>
         {memo.steps && memo.steps.length > 0 && (
           <ol className="memorize-steps">

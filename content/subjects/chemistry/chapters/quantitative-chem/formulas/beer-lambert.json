@@ -1,0 +1,73 @@
+{
+  "id": "beer-lambert",
+  "chapter": "quantitative-chem",
+  "title": "Beer–Lambert Law",
+  "titleBn": "বিয়ার–ল্যামবার্ট সূত্র",
+  "summary": "A = ε c l — শোষণ ঘনমাত্রার সমানুপাতিক",
+  "latex": "A=\\varepsilon\\,c\\,l=\\log_{10}(I_0/I)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "A",
+      "meaning": "শোষণ (absorbance)",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\varepsilon",
+      "meaning": "মোলার শোষণ গুণাঙ্ক",
+      "unit": "L/(mol·cm)"
+    },
+    {
+      "symbol": "c",
+      "meaning": "ঘনমাত্রা",
+      "unit": "mol/L"
+    },
+    {
+      "symbol": "l",
+      "meaning": "পথ দৈর্ঘ্য",
+      "unit": "cm"
+    }
+  ],
+  "derivation": {
+    "lead": "রঙিন দ্রবণের ঘনমাত্রা বর্ণালীমাপক দিয়ে মাপা যায়।",
+    "steps": [
+      {
+        "title": "সূত্র",
+        "latex": "A=\\varepsilon c l",
+        "note": "A বনাম c সরলরেখা (পাতলা দ্রবণ)।"
+      }
+    ],
+    "assumptions": [
+      "একবর্ণী আলো; পাতলা দ্রবণ; কোনো স্ক্যাটারিং নেই"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "c দ্বিগুণ হলে A কী হয় (ল্যামবার্ট–বিয়ার)?",
+      "answer": "A\\ \\text{দ্বিগুণ}"
+    }
+  ],
+  "memorize": {
+    "trick": "A=εcl — ঘনমাত্রা মাপার সূত্র।",
+    "steps": [
+      "A=εcl",
+      "A=log(I₀/I)"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "percentage-yield",
+    "molarity-molality"
+  ]
+}

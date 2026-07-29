@@ -57,8 +57,11 @@
     }
   ],
   "memorize": {
-    "trick": "Q=mcΔT।",
-    "steps": []
+    "trick": "Q = mcΔT — ‘মোল নয়, ভর×c×তাপমাত্রা’। পানি c≈4200।",
+    "steps": [
+      "m×c×ΔT",
+      "দশাবদলে আলাদা L/H"
+    ]
   },
   "subjects": [
     "physics"

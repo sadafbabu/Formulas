@@ -52,8 +52,11 @@
     }
   ],
   "memorize": {
-    "trick": "v²=u²+2as — t নেই।",
-    "steps": []
+    "trick": "সময় নেই? v² = u² + 2as — ‘দুই অ্যাস’ মনে রাখো।",
+    "steps": [
+      "t বাদ",
+      "2as যোগ"
+    ]
   },
   "subjects": [
     "physics"

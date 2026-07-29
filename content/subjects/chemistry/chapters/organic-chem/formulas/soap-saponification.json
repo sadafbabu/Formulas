@@ -1,0 +1,62 @@
+{
+  "id": "soap-saponification",
+  "chapter": "organic-chem",
+  "title": "Saponification (Soap Formation)",
+  "titleBn": "সাবান তৈরি (স্যপোনিফিকেশন)",
+  "summary": "ফ্যাট/অয়েল + NaOH → সাবান (RCOONa) + গ্লিসারল",
+  "latex": "\\mathrm{Fat}+3\\mathrm{NaOH}\\rightarrow 3\\mathrm{RCOONa}+\\mathrm{glycerol}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 300,
+  "symbols": [
+    {
+      "symbol": "RCOONa",
+      "meaning": "সাবান (সোডিয়াম কার্বক্সিলেট)",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\mathrm{NaOH}",
+      "meaning": "ক্ষার (সাধারণত)",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "এস্টারের ক্ষারীয় জলবিশ্লেষণ — শিল্প ও HSC জৈব।",
+    "steps": [
+      {
+        "title": "বিক্রিয়া",
+        "latex": "\\mathrm{RCOOR}'+\\mathrm{NaOH}\\rightarrow\\mathrm{RCOONa}+\\mathrm{R}'OH",
+        "note": "ট্রাইগ্লিসারাইডে তিন এস্টার।"
+      }
+    ],
+    "assumptions": [
+      "উত্তপ্ত ক্ষারীয় মাধ্যম"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "স্যaponification-এর উপজাত কী?",
+      "answer": "\\text{গ্লিসারল}"
+    }
+  ],
+  "memorize": {
+    "trick": "ফ্যাট + ক্ষার = সাবান + গ্লিসারল।",
+    "steps": [
+      "ক্ষারীয় hydrolysis = saponification"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "grignard-reaction",
+    "sn1-sn2-mechanism"
+  ]
+}

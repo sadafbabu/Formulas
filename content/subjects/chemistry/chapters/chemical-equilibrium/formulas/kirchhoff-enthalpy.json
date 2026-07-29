@@ -1,0 +1,62 @@
+{
+  "id": "kirchhoff-enthalpy",
+  "chapter": "chemical-equilibrium",
+  "title": "Kirchhoff's Law (Enthalpy)",
+  "titleBn": "কির্চফের সূত্র (এনথ্যালপি)",
+  "summary": "ΔH(T₂)=ΔH(T₁)+ΔC_p (T₂−T₁)",
+  "latex": "\\Delta H(T_2)=\\Delta H(T_1)+\\Delta C_p(T_2-T_1)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 340,
+  "symbols": [
+    {
+      "symbol": "\\Delta H",
+      "meaning": "বিক্রিয়ার এনথ্যালপি পরিবর্তন",
+      "unit": "J/mol"
+    },
+    {
+      "symbol": "\\Delta C_p",
+      "meaning": "উৎপাদ − বিক্রিয়াকের তাপধারণক্ষমতা",
+      "unit": "J/(mol·K)"
+    }
+  ],
+  "derivation": {
+    "lead": "তাপমাত্রা বদলালে ΔH-এর সংশোধন — ΔC_p দিয়ে।",
+    "steps": [
+      {
+        "title": "সূত্র",
+        "latex": "\\Delta H_2=\\Delta H_1+\\Delta C_p\\Delta T",
+        "note": "ΔC_p=ΣC_p(prod)−ΣC_p(react)।"
+      }
+    ],
+    "assumptions": [
+      "ΔC_p ধ্রুব; কোনো দশা পরিবর্তন নেই"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "ΔC_p=0 হলে ΔH-এর তাপমাত্রা নির্ভরতা?",
+      "answer": "\\Delta H\\ \\text{তাপমাত্রায় স্বাধীন}"
+    }
+  ],
+  "memorize": {
+    "trick": "ΔH বদলাতে চাইলে ΔC_p×ΔT যোগ করো।",
+    "steps": [
+      "ΔH₂ = ΔH₁ + ΔC_p ΔT"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "hess-law",
+    "gibbs-helmholtz"
+  ]
+}

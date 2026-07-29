@@ -1,0 +1,63 @@
+{
+  "id": "percentage-yield",
+  "chapter": "quantitative-chem",
+  "title": "Percentage Yield",
+  "titleBn": "শতকরা উৎপাদন",
+  "summary": "% yield = (actual / theoretical) × 100",
+  "latex": "\\%\\ \\mathrm{yield}=\\dfrac{\\text{actual mass}}{\\text{theoretical mass}}\\times 100",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "\\text{actual}",
+      "meaning": "পরীক্ষায় পাওয়া ভর",
+      "unit": "g"
+    },
+    {
+      "symbol": "\\text{theoretical}",
+      "meaning": "সীমায়ক থেকে হিসাবকৃত ভর",
+      "unit": "g"
+    }
+  ],
+  "derivation": {
+    "lead": "সীমায়ক বিক্রিয়ক দিয়ে তাত্ত্বিক উৎপাদন বের করে তুলনা।",
+    "steps": [
+      {
+        "title": "সূত্র",
+        "latex": "\\%\\mathrm{yield}=\\dfrac{m_{\\mathrm{act}}}{m_{\\mathrm{theo}}}\\times100",
+        "note": "সবসময় ≤100% (আদর্শ)।"
+      }
+    ],
+    "assumptions": [
+      "সঠিক সীমায়ক শনাক্ত"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "তাত্ত্বিক 10 g, পাওয়া 8 g। % yield?",
+      "answer": "80\\%"
+    }
+  ],
+  "memorize": {
+    "trick": "% yield = যা পেয়েছ / যা পাওয়ার কথা × 100।",
+    "steps": [
+      "সীমায়ক → theo",
+      "actual/theo"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "limiting-reagent-calc",
+    "atom-economy"
+  ]
+}

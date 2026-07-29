@@ -1,4 +1,4 @@
-import { useEffect, useRef, type ReactNode } from 'react'
+import { useEffect, useRef, useState, type ReactNode } from 'react'
 import { tags } from '../data/catalog'
 import type { TagId } from '../data/types'
 
@@ -29,9 +29,32 @@ export function TopBar({
 }: TopBarProps) {
   const tagsRef = useRef<HTMLDivElement>(null)
   const searchRef = useRef<HTMLInputElement>(null)
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const [draftQuery, setDraftQuery] = useState(query)
 
   const examTags = tags.filter((t) => t.category !== 'importance')
   const starTags = tags.filter((t) => t.category === 'importance')
+
+  useEffect(() => {
+    setDraftQuery(query)
+  }, [query])
+
+  useEffect(() => {
+    return () => {
+      if (debounceRef.current) clearTimeout(debounceRef.current)
+    }
+  }, [])
+
+  const commitQuery = (value: string, immediate = false) => {
+    setDraftQuery(value)
+    if (!onQueryChange) return
+    if (debounceRef.current) clearTimeout(debounceRef.current)
+    if (immediate || !value.trim()) {
+      onQueryChange(value)
+      return
+    }
+    debounceRef.current = setTimeout(() => onQueryChange(value), 160)
+  }
 
   useEffect(() => {
     if (viewMode !== 'book' || !tagsRef.current) return
@@ -98,19 +121,24 @@ export function TopBar({
           </span>
           <input
             ref={searchRef}
-            value={query}
-            onChange={(e) => onQueryChange(e.target.value)}
+            value={draftQuery}
+            onChange={(e) => commitQuery(e.target.value)}
+            onBlur={() => commitQuery(draftQuery, true)}
             placeholder={
               viewMode === 'home' ? 'সূত্র বা অধ্যায় খুঁজুন…' : 'এই বইয়ে সূত্র খুঁজুন…'
             }
             aria-label="সূত্র খুঁজুন"
+            enterKeyHint="search"
+            autoComplete="off"
+            autoCorrect="off"
+            spellCheck={false}
           />
-          {query.trim() ? (
+          {draftQuery.trim() ? (
             <button
               type="button"
               className="top-bar-search-clear"
               aria-label="সার্চ মুছুন"
-              onClick={() => onQueryChange('')}
+              onClick={() => commitQuery('', true)}
             >
               ×
             </button>
