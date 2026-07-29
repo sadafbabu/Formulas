@@ -7,13 +7,8 @@ interface QuestionHintProps {
 }
 
 export function QuestionHint({ formula }: QuestionHintProps) {
-  const qList = formula.questions ?? [
-    {
-      examType: 'BUET / Eng Admission Hard',
-      question: `${formula.titleBn} সংক্রান্ত গাণিতিক প্রশ্ন: একটি ৫ A প্রবাহের তারের ক্ষেত্রে মূল সূত্রের প্রয়োগ নিরূপণ করো।`,
-      answer: `সূত্র: ${formula.latex} এ মান বসিয়ে মান নির্ণয় করা যায়।`,
-    },
-  ]
+  const qList = formula.questions ?? []
+  if (!qList.length) return null
 
   return (
     <HintPopover

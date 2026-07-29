@@ -122,11 +122,22 @@ export function SpreadViewer({
   const atEnd = isSpread ? safeSpread >= maxSpread : safePage >= maxPage
 
   if (emptyFilter) {
+    const hasQuery = query.trim().length > 0
+    const message = hasQuery
+      ? 'এই খোঁজায় কোনো সূত্র মেলেনি'
+      : activeTag
+        ? 'এই tag-এ কোনো সূত্র নেই'
+        : 'এই অধ্যায়ে কোনো সূত্র নেই'
+    const hint = hasQuery
+      ? 'অন্য শব্দ দিয়ে খুঁজে দেখো'
+      : activeTag
+        ? 'উপর থেকে All বা অন্য tag বেছে নাও'
+        : 'অন্য অধ্যায় বেছে নাও'
     return (
       <div className={`spread-stage mode-${mode}`}>
         <div className="empty-filter">
-          <p>এই tag-এ কোনো সূত্র নেই</p>
-          <span>উপর থেকে All বা অন্য tag বেছে নাও</span>
+          <p>{message}</p>
+          <span>{hint}</span>
         </div>
       </div>
     )

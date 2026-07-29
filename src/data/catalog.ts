@@ -207,6 +207,15 @@ import greatestTerm from '../../content/subjects/math/chapters/binomial-theorem/
 import compoundAngle from '../../content/subjects/math/chapters/trigonometric-equations/formulas/compound-angle.json'
 import multipleAngle from '../../content/subjects/math/chapters/trigonometric-equations/formulas/multiple-angle.json'
 
+import leChatelier from '../../content/subjects/chemistry/chapters/chemical-equilibrium/formulas/le-chatelier.json'
+import organicReactions from '../../content/subjects/chemistry/chapters/organic-chem/formulas/organic-reactions.json'
+import bufferSolution from '../../content/subjects/chemistry/chapters/qualitative-chem/formulas/buffer-solution.json'
+import binomialMiddleTerm from '../../content/subjects/math/chapters/binomial-theorem/formulas/binomial-middle-term.json'
+import deMoivre from '../../content/subjects/math/chapters/complex-numbers/formulas/de-moivre.json'
+import polynomialRemainder from '../../content/subjects/math/chapters/polynomials/formulas/polynomial-remainder.json'
+import equationForms from '../../content/subjects/math/chapters/straight-lines/formulas/equation-forms.json'
+import inverseTrig from '../../content/subjects/math/chapters/trigonometric-equations/formulas/inverse-trig.json'
+
 import type {
   BookPage,
   ChapterMeta,
@@ -470,6 +479,15 @@ export const formulas: Formula[] = [
 
   compoundAngle,
   multipleAngle,
+
+  leChatelier,
+  organicReactions,
+  bufferSolution,
+  binomialMiddleTerm,
+  deMoivre,
+  polynomialRemainder,
+  equationForms,
+  inverseTrig,
 ] as Formula[]
 
 const tagMap = new Map(tags.map((t) => [t.id, t]))

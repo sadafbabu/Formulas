@@ -1,10 +1,11 @@
 import { useEffect, useId, useRef, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import {
-  chapters,
+  allChapters,
   defaultChapterId,
   formulasForChapter,
-  subject,
+  getChapter,
+  subjectsList,
 } from '../data/catalog'
 
 interface NavMenuProps {
@@ -27,7 +28,12 @@ export function NavMenu({
   const [params] = useSearchParams()
   const panelId = useId()
   const rootRef = useRef<HTMLDivElement>(null)
-  const list = formulasForChapter(chapterId || defaultChapterId)
+  const activeChapterId = chapterId || defaultChapterId
+  const list = formulasForChapter(activeChapterId)
+  const activeChapter = getChapter(activeChapterId)
+  const activeSubject = subjectsList.find(
+    (s) => s.id === activeChapter?.subjectId,
+  )
 
   useEffect(() => {
     if (!open) return
@@ -67,9 +73,11 @@ export function NavMenu({
       {open && (
         <nav id={panelId} className="nav-panel" aria-label="Book navigation">
           <div className="nav-brand">Formulas</div>
-          <p className="nav-subject-line">
-            {subject.nameBn} · {subject.name}
-          </p>
+          {activeSubject && (
+            <p className="nav-subject-line">
+              {activeSubject.nameBn} · {activeSubject.name}
+            </p>
+          )}
 
           <label className="nav-search">
             <span aria-hidden="true">⌕</span>
@@ -82,7 +90,7 @@ export function NavMenu({
           </label>
 
           <p className="nav-section">অধ্যায়</p>
-          {chapters.map((ch) => (
+          {allChapters.map((ch) => (
             <button
               key={ch.id}
               type="button"

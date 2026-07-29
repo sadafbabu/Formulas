@@ -549,6 +549,7 @@ button {
   display: flex;
   align-items: center;
   min-width: 0;
+  max-width: 100%;
   background: rgba(0, 0, 0, 0.4);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 8px;
@@ -564,10 +565,26 @@ button {
   overflow-y: hidden;
   min-width: 0;
   width: 100%;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
 }
 
 .formula-latex .katex {
   font-size: 1.05em;
+}
+
+/* Long single-line equations scroll horizontally within their box
+   instead of being clipped by the page. Left-align so the formula
+   reads from the start; drop KaTeX's default vertical margins to stay compact. */
+.formula-latex .katex-display {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.formula-latex .katex-display > .katex {
+  text-align: left;
+  white-space: nowrap;
 }
 
 .formula-text-col {
@@ -1110,6 +1127,14 @@ button {
   border-bottom: 1px solid var(--line);
   margin: 0.5rem 0 1rem;
   color: var(--ink-bright);
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.detail-hero-latex .katex-display {
+  margin: 0;
+  text-align: left;
 }
 
 .detail-lead {
@@ -1172,6 +1197,58 @@ button {
   color: var(--ink-soft);
   font-size: 0.84rem;
   line-height: 1.45;
+}
+
+.related-box {
+  margin-top: 1rem;
+}
+
+.related-box h4 {
+  margin: 0 0 0.5rem;
+  font-size: 0.64rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.related-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.related-list a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--page-edge);
+  border-radius: 8px;
+  background: var(--bg-elevated);
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.related-list a:hover {
+  border-color: var(--line-strong);
+  background: var(--bg-panel);
+}
+
+.related-title {
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--ink-bright);
+  min-width: 0;
+}
+
+.related-latex {
+  color: var(--ink-soft);
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 55%;
+  -webkit-overflow-scrolling: touch;
 }
 
 .mobile-pager {
@@ -1281,6 +1358,20 @@ button {
 .spread-stage.mode-mobile .formula-latex {
   font-size: clamp(0.95rem, 3.4vw, 1.15rem);
   line-height: 1.1;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.28) transparent;
+}
+
+/* Thin swipe affordance — only shows when the equation actually overflows */
+.spread-stage.mode-tablet .formula-latex::-webkit-scrollbar,
+.spread-stage.mode-mobile .formula-latex::-webkit-scrollbar {
+  height: 3px;
+}
+
+.spread-stage.mode-tablet .formula-latex::-webkit-scrollbar-thumb,
+.spread-stage.mode-mobile .formula-latex::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.28);
+  border-radius: 99px;
 }
 
 .spread-stage.mode-tablet .formula-summary,
