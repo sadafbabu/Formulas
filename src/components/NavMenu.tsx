@@ -30,6 +30,9 @@ export function NavMenu({
   const [params] = useSearchParams()
   const panelId = useId()
   const rootRef = useRef<HTMLDivElement>(null)
+  const isCoarsePointer =
+    typeof window !== 'undefined' &&
+    window.matchMedia('(pointer: coarse)').matches
   const q = query.trim()
 
   const chapterList = useMemo(() => {
@@ -51,14 +54,16 @@ export function NavMenu({
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') setOpen(false)
     }
-    const onPointer = (e: MouseEvent) => {
+    const onPointer = (e: Event) => {
       if (!rootRef.current?.contains(e.target as Node)) setOpen(false)
     }
     window.addEventListener('keydown', onKey)
     window.addEventListener('mousedown', onPointer)
+    window.addEventListener('touchstart', onPointer)
     return () => {
       window.removeEventListener('keydown', onKey)
       window.removeEventListener('mousedown', onPointer)
+      window.removeEventListener('touchstart', onPointer)
     }
   }, [open])
 
@@ -98,7 +103,7 @@ export function NavMenu({
               onChange={(e) => onQueryChange(e.target.value)}
               placeholder="সূত্র খুঁজুন…"
               aria-label="সূত্র খুঁজুন"
-              autoFocus
+              autoFocus={!isCoarsePointer}
             />
           </label>
 

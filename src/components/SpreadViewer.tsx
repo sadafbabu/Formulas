@@ -42,6 +42,8 @@ export function SpreadViewer({
   const [dir, setDir] = useState<'next' | 'prev' | 'none'>('none')
   const [animKey, setAnimKey] = useState(0)
   const animLock = useRef(false)
+  const pagerRef = useRef<HTMLDivElement>(null)
+  const touchStart = useRef<{ x: number; y: number } | null>(null)
 
   useEffect(() => {
     setPageIndex(0)
@@ -101,6 +103,48 @@ export function SpreadViewer({
       return next
     })
   }, [isSpread, maxPage])
+
+  useEffect(() => {
+    if (isSpread) return
+    const el = pagerRef.current
+    if (!el) return
+
+    const skipSwipe = (target: EventTarget | null) => {
+      const node = target as HTMLElement | null
+      return Boolean(
+        node?.closest(
+          '.formula-latex-col, .formula-latex, .nav-panel, .hint-popover, input, textarea',
+        ),
+      )
+    }
+
+    const onTouchStart = (e: TouchEvent) => {
+      if (skipSwipe(e.target)) {
+        touchStart.current = null
+        return
+      }
+      const t = e.touches[0]
+      touchStart.current = { x: t.clientX, y: t.clientY }
+    }
+
+    const onTouchEnd = (e: TouchEvent) => {
+      if (!touchStart.current) return
+      const t = e.changedTouches[0]
+      const dx = t.clientX - touchStart.current.x
+      const dy = t.clientY - touchStart.current.y
+      touchStart.current = null
+      if (Math.abs(dx) < 56 || Math.abs(dx) < Math.abs(dy) * 1.35) return
+      if (dx < 0) goNext()
+      else goPrev()
+    }
+
+    el.addEventListener('touchstart', onTouchStart, { passive: true })
+    el.addEventListener('touchend', onTouchEnd, { passive: true })
+    return () => {
+      el.removeEventListener('touchstart', onTouchStart)
+      el.removeEventListener('touchend', onTouchEnd)
+    }
+  }, [isSpread, goNext, goPrev])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -240,6 +284,7 @@ export function SpreadViewer({
       ) : (
         <div
           key={`single-${animKey}`}
+          ref={pagerRef}
           className={`mobile-pager ${slideClass}`}
           aria-label="Book page"
         >

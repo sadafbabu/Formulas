@@ -98,28 +98,30 @@ export function FormulaDetailPage() {
           {symbols?.length > 0 && (
             <aside className="assumptions symbol-box">
               <h4>চিহ্ন · একক · মান</h4>
-              <table className="symbol-table detail-symbol-table">
-                <thead>
-                  <tr>
-                    <th>চিহ্ন</th>
-                    <th>অর্থ</th>
-                    <th>একক</th>
-                    <th>মান</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {symbols.map((s) => (
-                    <tr key={`${s.symbol}-${s.meaning}`}>
-                      <td>
-                        <Katex latex={toLatexSymbol(s.symbol)} />
-                      </td>
-                      <td>{s.meaning}</td>
-                      <td>{s.unit}</td>
-                      <td>{s.value ?? '—'}</td>
+              <div className="symbol-table-wrap">
+                <table className="symbol-table detail-symbol-table">
+                  <thead>
+                    <tr>
+                      <th>চিহ্ন</th>
+                      <th>অর্থ</th>
+                      <th>একক</th>
+                      <th>মান</th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    {symbols.map((s) => (
+                      <tr key={`${s.symbol}-${s.meaning}`}>
+                        <td>
+                          <Katex latex={toLatexSymbol(s.symbol)} />
+                        </td>
+                        <td>{s.meaning}</td>
+                        <td>{s.unit}</td>
+                        <td>{s.value ?? '—'}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </aside>
           )}
 
