@@ -3,7 +3,7 @@
   "chapter": "chemical-equilibrium",
   "title": "Henderson–Hasselbalch Equation",
   "titleBn": "হেন্ডারসন–হাসেলবাল্ক সমীকরণ",
-  "summary": "বাফার pH: \\(\\mathrm{pH}=\\mathrm{p}K_a+\\log([\\mathrm{salt}]/[\\mathrm{acid}])\\)।",
+  "summary": "বাফার pH: pH = pKa + log([salt]/[acid])।",
   "latex": "\\mathrm{pH}=\\mathrm{p}K_a+\\log_{10}\\dfrac{[\\mathrm{A^-}]}{[\\mathrm{HA}]}",
   "tags": [
     "hsc",

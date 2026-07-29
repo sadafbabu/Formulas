@@ -3,7 +3,7 @@
   "chapter": "chemical-equilibrium",
   "title": "Hess's Law",
   "titleBn": "হেসের সূত্র",
-  "summary": "হেসের সূত্র: মোট এনথ্যালপি পরিবর্তন পথ-স্বাধীন—ধাপগুলোর \\(\\Delta H\\) যোগফল।",
+  "summary": "হেসের সূত্র: মোট এনথ্যালপি পরিবর্তন পথ-স্বাধীন—ধাপগুলোর ΔH যোগফল।",
   "latex": "\\Delta H_{\\mathrm{rxn}}=\\sum \\Delta H_{\\mathrm{steps}}",
   "tags": [
     "hsc",

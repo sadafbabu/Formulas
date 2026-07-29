@@ -3,7 +3,7 @@
   "chapter": "chemical-equilibrium",
   "title": "pH of Strong Acid",
   "titleBn": "সবল অম্লের pH",
-  "summary": "সবল অ্যাসিডে \\([\\mathrm{H^+}]\\approx C\\); \\(\\mathrm{pH}=-\\log C\\) (তনু, সম্পূর্ণ আয়নিত)।",
+  "summary": "সবল অ্যাসিডে [H⁺] ≈ C; pH = −log C (তনু, সম্পূর্ণ আয়নিত)।",
   "latex": "\\mathrm{pH}=-\\log_{10}[\\mathrm{H^+}]",
   "tags": [
     "hsc",

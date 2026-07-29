@@ -3,7 +3,7 @@
   "chapter": "quantitative-chem",
   "title": "Mole Concept",
   "titleBn": "মোল ধারণা",
-  "summary": "মোল সংখ্যা = ভর/মোলার ভর = কণা সংখ্যা/\\(N_A\\)।",
+  "summary": "মোল সংখ্যা = ভর/মোলার ভর = কণা সংখ্যা/N_A।",
   "latex": "n = \\dfrac{m}{M} = \\dfrac{N}{N_A}",
   "tags": [
     "hsc",

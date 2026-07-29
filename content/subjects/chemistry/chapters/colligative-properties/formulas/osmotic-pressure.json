@@ -3,7 +3,7 @@
   "chapter": "colligative-properties",
   "title": "Osmotic Pressure",
   "titleBn": "প্রস্বেদ চাপ",
-  "summary": "অসমোটিক চাপ \\(\\Pi=cRT\\); তনু দ্রবণের মোলার গণনায় ব্যবহৃত।",
+  "summary": "অসমোটিক চাপ Π = cRT; তনু দ্রবণের মোলার গণনায় ব্যবহৃত।",
   "latex": "\\Pi = cRT = \\dfrac{n}{V}RT",
   "tags": [
     "hsc",
