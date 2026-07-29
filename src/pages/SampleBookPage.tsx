@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { NavMenu } from '../components/NavMenu'
 import { OverviewHome } from '../components/OverviewHome'
@@ -17,6 +17,7 @@ const validTagIds = new Set(tags.map((t) => t.id))
 
 export function SampleBookPage() {
   const [params, setParams] = useSearchParams()
+  const [menuOpenSignal, setMenuOpenSignal] = useState(0)
   const rawTag = params.get('tag')
   const activeTag =
     rawTag && validTagIds.has(rawTag as TagId) ? (rawTag as TagId) : null
@@ -88,7 +89,6 @@ export function SampleBookPage() {
   const handleGoHome = () => {
     const next = new URLSearchParams(params)
     next.set('view', 'home')
-    // Tag filters are book-only; clear so home → chapter isn't unexpectedly empty.
     next.delete('tag')
     next.delete('page')
     setParams(next)
@@ -106,12 +106,16 @@ export function SampleBookPage() {
         totalCount={all.length}
         viewMode={viewMode}
         onGoHome={handleGoHome}
+        query={query}
+        onQueryChange={setQuery}
+        onOpenMenuSearch={() => setMenuOpenSignal((n) => n + 1)}
         menuSlot={
           <NavMenu
             query={query}
             onQueryChange={setQuery}
             chapterId={chapterId}
             onChapterChange={(id) => setChapterId(id)}
+            openSignal={menuOpenSignal}
           />
         }
       />

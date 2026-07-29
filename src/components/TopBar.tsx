@@ -10,6 +10,9 @@ interface TopBarProps {
   menuSlot: ReactNode
   viewMode: 'home' | 'book'
   onGoHome: () => void
+  query?: string
+  onQueryChange?: (value: string) => void
+  onOpenMenuSearch?: () => void
 }
 
 export function TopBar({
@@ -20,8 +23,15 @@ export function TopBar({
   menuSlot,
   viewMode,
   onGoHome,
+  query = '',
+  onQueryChange,
+  onOpenMenuSearch,
 }: TopBarProps) {
   const tagsRef = useRef<HTMLDivElement>(null)
+  const searchRef = useRef<HTMLInputElement>(null)
+
+  const examTags = tags.filter((t) => t.category !== 'importance')
+  const starTags = tags.filter((t) => t.category === 'importance')
 
   useEffect(() => {
     if (viewMode !== 'book' || !tagsRef.current) return
@@ -32,6 +42,24 @@ export function TopBar({
       behavior: 'smooth',
     })
   }, [activeTag, viewMode])
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement | null
+      if (target?.closest('input, textarea, select, [contenteditable="true"]')) return
+      if ((e.key === 'k' || e.key === 'K') && (e.metaKey || e.ctrlKey)) {
+        e.preventDefault()
+        searchRef.current?.focus()
+        onOpenMenuSearch?.()
+      }
+      if (e.key === '/' && !e.metaKey && !e.ctrlKey && !e.altKey) {
+        e.preventDefault()
+        searchRef.current?.focus()
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [onOpenMenuSearch])
 
   return (
     <header className="top-bar">
@@ -63,6 +91,37 @@ export function TopBar({
         {menuSlot}
       </div>
 
+      {onQueryChange ? (
+        <label className="top-bar-search">
+          <span className="top-bar-search-icon" aria-hidden="true">
+            ⌕
+          </span>
+          <input
+            ref={searchRef}
+            value={query}
+            onChange={(e) => onQueryChange(e.target.value)}
+            placeholder={
+              viewMode === 'home' ? 'সূত্র বা অধ্যায় খুঁজুন…' : 'এই বইয়ে সূত্র খুঁজুন…'
+            }
+            aria-label="সূত্র খুঁজুন"
+          />
+          {query.trim() ? (
+            <button
+              type="button"
+              className="top-bar-search-clear"
+              aria-label="সার্চ মুছুন"
+              onClick={() => onQueryChange('')}
+            >
+              ×
+            </button>
+          ) : (
+            <kbd className="top-bar-search-kbd" title="Keyboard shortcut">
+              /
+            </kbd>
+          )}
+        </label>
+      ) : null}
+
       {viewMode === 'book' && (
         <div
           ref={tagsRef}
@@ -78,11 +137,24 @@ export function TopBar({
           >
             All
           </button>
-          {tags.map((tag) => (
+          {examTags.map((tag) => (
             <button
               key={tag.id}
               type="button"
               className={`top-tag${activeTag === tag.id ? ' is-active' : ''}`}
+              onClick={() => onTagChange(tag.id)}
+              title={tag.labelBn}
+              aria-pressed={activeTag === tag.id}
+            >
+              {tag.label}
+            </button>
+          ))}
+          <span className="top-tag-sep" aria-hidden="true" />
+          {starTags.map((tag) => (
+            <button
+              key={tag.id}
+              type="button"
+              className={`top-tag is-star${activeTag === tag.id ? ' is-active' : ''}`}
               onClick={() => onTagChange(tag.id)}
               title={tag.labelBn}
               aria-pressed={activeTag === tag.id}
@@ -95,9 +167,11 @@ export function TopBar({
 
       {viewMode === 'book' && (
         <div className="top-bar-count" aria-live="polite">
-          {matchCount === totalCount
-            ? `${totalCount}`
-            : `${matchCount}/${totalCount}`}
+          <span className="top-bar-count-pill">
+            {matchCount === totalCount
+              ? `${totalCount}`
+              : `${matchCount}/${totalCount}`}
+          </span>
         </div>
       )}
     </header>

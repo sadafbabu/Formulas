@@ -1,8 +1,9 @@
 import type { Formula, TagId } from '../data/types'
+import { getChapter } from '../data/catalog'
 
-/** Common Banglish to English/Bangla search term aliases */
+/** Banglish / English / Bangla aliases for better recall. */
 const ALIASES: Record<string, string[]> = {
-  lorentz: ['লরেঞ্জ', 'লরেঞ্জ বল'],
+  lorentz: ['লরেঞ্জ', 'লরেঞ্জ বল', 'lorentz force'],
   biot: ['বায়োট', 'সাভার্ট', 'biot-savart'],
   savart: ['বায়োট', 'সাভার্ট'],
   solenoid: ['সোলেনয়েড'],
@@ -13,18 +14,60 @@ const ALIASES: Record<string, string[]> = {
   flux: ['ফ্লাক্স'],
   hall: ['হল', 'হল বিভব'],
   cyclotron: ['সাইক্লোট্রন'],
-  force: ['বল', 'force'],
-  field: ['ক্ষেত্র', 'চৌম্বক ক্ষেত্র'],
+  force: ['বল'],
+  field: ['ক্ষেত্র', 'চৌম্বক ক্ষেত্র', 'তড়িৎক্ষেত্র'],
   earth: ['ভূ-চৌম্বক', 'বিনতি'],
-  dip: ['বিনতি', 'কোণ'],
-  torque: ['টর্ক'],
-  moment: ['ভ্রামক', 'মোমেন্ট'],
+  dip: ['বিনতি'],
+  torque: ['টর্ক', 'ভ্রামক'],
+  moment: ['ভ্রামক', 'মোমেন্ট', 'ডাইপোল'],
   wire: ['তার', 'পরিবাহী'],
-  loop: ['লুপ', 'কুন্ডলী'],
+  loop: ['লুপ', 'কুণ্ডলী', 'কুন্ডলী'],
   radius: ['ব্যাসার্ধ'],
-  freq: ['কম্পাঙ্ক'],
+  freq: ['কম্পাঙ্ক', 'frequency'],
+  frequency: ['কম্পাঙ্ক'],
   important: ['গুরুত্বপূর্ণ', 'সর্বোচ্চ'],
   top: ['সর্বোচ্চ', '3-star'],
+  ohm: ['ওহম', 'ওমের'],
+  kirchhoff: ['কির্চফ', 'kirchoff'],
+  wheatstone: ['হুইটস্টোন', 'হুইটস্টোন ব্রিজ'],
+  potentiometer: ['পটেনশিওমিটার'],
+  capacitor: ['ধারক', 'ক্যাপাসিটর'],
+  dielectric: ['পরাবৈদ্যুতিক'],
+  gauss: ['গাউস'],
+  coulomb: ['কুলাম'],
+  snell: ['স্নেল'],
+  lens: ['লেন্স'],
+  mirror: ['দর্পণ', 'আয়না'],
+  prism: ['প্রিজম'],
+  young: ['ইয়ং', 'ইয়ংস', 'ydse'],
+  ydse: ['ইয়ং', 'দ্বি-স্লিট', 'young'],
+  diffraction: ['অপবর্তন'],
+  interference: ['ব্যতিচার'],
+  photoelectric: ['ফটোইলেকট্রিক', 'আলোকতড়িৎ'],
+  debroglie: ['ডি-ব্রগলি', 'দি ব্রগলি', 'de broglie'],
+  bohr: ['বোর'],
+  rydberg: ['রিডবার্গ'],
+  radioactivity: ['তেজস্ক্রিয়', 'অর্ধায়ু', 'half life'],
+  half: ['অর্ধায়ু', 'half-life', 't1/2'],
+  carnot: ['কার্নো'],
+  entropy: ['এনট্রপি'],
+  bernoulli: ['বার্নোলি'],
+  stokes: ['স্টোকস'],
+  youngmodulus: ['ইয়ং গুণাঙ্ক'],
+  shm: ['সরল ছন্দিত', 'শম', 'simple harmonic'],
+  pendulum: ['দোলক'],
+  doppler: ['ডপলার'],
+  kepler: ['কেপলার'],
+  escape: ['পালানোর বেগ', 'মুক্তিবেগ'],
+  satellite: ['উপগ্রহ'],
+  elevator: ['লিফট', 'লিফ্ট'],
+  friction: ['ঘর্ষণ'],
+  projectile: ['প্রক্ষিপ্ত', 'প্রজেক্টাইল'],
+  momentum: ['ভরবেগ'],
+  impulse: ['আবেগ'],
+  work: ['কাজ'],
+  energy: ['শক্তি'],
+  power: ['ক্ষমতা'],
   // Chemistry
   mole: ['মোল', 'অ্যাভোগাড্রো'],
   ph: ['পিএইচ', 'হাইড্রোজেন'],
@@ -46,78 +89,175 @@ const ALIASES: Record<string, string[]> = {
   derivative: ['অন্তরক', 'ডিফারেনশিয়াল'],
   sequence: ['অনুক্রম', 'ধারা', 'সমান্তর'],
   permutation: ['ক্রমবিন্যাস', 'সমাবেশ'],
+  physics: ['পদার্থ', 'পদার্থবিজ্ঞান'],
+  chemistry: ['রসায়ন'],
+  math: ['গণিত', 'উচ্চতর গণিত'],
 }
 
-export function matchFormula(
-  formula: Formula,
-  query: string,
-  activeTag?: TagId | null
-): boolean {
-  const imp = formula.importance ?? 2
+function normalize(input: string): string {
+  return input
+    .toLowerCase()
+    .normalize('NFKC')
+    .replace(/[।.!?,;:()[\]{}'"`]/g, ' ')
+    .replace(/[-_/]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
 
-  // Tag filter
-  if (activeTag) {
-    if (activeTag === '3-star' && imp !== 3) return false
-    if (activeTag === '2-star' && imp !== 2) return false
-    if (activeTag === '1-star' && imp !== 1) return false
-    if (
-      !activeTag.endsWith('-star') &&
-      !formula.tags.includes(activeTag)
-    ) {
-      return false
+function tokenize(query: string): string[] {
+  const q = normalize(query)
+  if (!q) return []
+  return q.split(' ').filter((t) => t.length > 0)
+}
+
+function expandToken(token: string): string[] {
+  const out = new Set<string>([token])
+  for (const [key, aliases] of Object.entries(ALIASES)) {
+    if (token === key || token.includes(key) || key.includes(token)) {
+      out.add(key)
+      for (const a of aliases) out.add(normalize(a))
     }
-  }
-
-  const q = query.trim().toLowerCase()
-  if (!q) return true
-
-  // Direct star search (e.g. "3", "3 star", "3star", "***")
-  if (q === '3' || q === '3 star' || q === '3star' || q === '***') {
-    return imp === 3
-  }
-  if (q === '2' || q === '2 star' || q === '2star' || q === '**') {
-    return imp === 2
-  }
-  if (q === '1' || q === '1 star' || q === '1star' || q === '*') {
-    return imp === 1
-  }
-
-  // Text search in fields
-  const inTitleEn = formula.title.toLowerCase().includes(q)
-  const inTitleBn = formula.titleBn.toLowerCase().includes(q)
-  const inSummary = formula.summary.toLowerCase().includes(q)
-  const inLatex = formula.latex.toLowerCase().includes(q)
-  const inId = formula.id.toLowerCase().includes(q)
-
-  // Tags match
-  const inTags = formula.tags.some((t) => t.toLowerCase().includes(q))
-
-  // Symbol meanings match
-  const inSymbols = formula.symbols?.some(
-    (s) =>
-      s.meaning.toLowerCase().includes(q) ||
-      s.symbol.toLowerCase().includes(q) ||
-      s.unit.toLowerCase().includes(q)
-  )
-
-  if (inTitleEn || inTitleBn || inSummary || inLatex || inId || inTags || inSymbols) {
-    return true
-  }
-
-  // Alias expansion for Banglish terms
-  for (const [key, aliasList] of Object.entries(ALIASES)) {
-    if (q.includes(key)) {
-      for (const alias of aliasList) {
-        if (
-          formula.titleBn.toLowerCase().includes(alias) ||
-          formula.summary.toLowerCase().includes(alias) ||
-          formula.title.toLowerCase().includes(alias)
-        ) {
-          return true
-        }
+    for (const a of aliases) {
+      const na = normalize(a)
+      if (token === na || token.includes(na) || na.includes(token)) {
+        out.add(key)
+        out.add(na)
       }
     }
   }
-
-  return false
+  return [...out]
 }
+
+function haystack(formula: Formula): string {
+  const chapter = getChapter(formula.chapter)
+  const parts = [
+    formula.id,
+    formula.title,
+    formula.titleBn,
+    formula.summary,
+    formula.latex,
+    formula.chapter,
+    chapter?.name,
+    chapter?.nameBn,
+    ...(formula.tags ?? []),
+    ...(formula.symbols ?? []).flatMap((s) => [s.symbol, s.meaning, s.unit]),
+    formula.derivation?.lead,
+    formula.memorize?.trick,
+    ...(formula.memorize?.steps ?? []),
+    ...(formula.questions ?? []).flatMap((q) => [q.question, q.examType]),
+  ]
+  return normalize(parts.filter(Boolean).join(' · '))
+}
+
+function passesTag(formula: Formula, activeTag?: TagId | null): boolean {
+  if (!activeTag) return true
+  const imp = formula.importance ?? 2
+  if (activeTag === '3-star') return imp === 3
+  if (activeTag === '2-star') return imp === 2
+  if (activeTag === '1-star') return imp === 1
+  return formula.tags.includes(activeTag)
+}
+
+function scoreFormula(formula: Formula, tokens: string[]): number {
+  if (!tokens.length) return 1
+  const title = normalize(`${formula.title} ${formula.titleBn}`)
+  const id = normalize(formula.id)
+  const summary = normalize(formula.summary)
+  const latex = normalize(formula.latex)
+  const full = haystack(formula)
+  let score = 0
+
+  for (const token of tokens) {
+    const variants = expandToken(token)
+    let best = 0
+    for (const v of variants) {
+      if (!v) continue
+      if (id === v || title === v) best = Math.max(best, 120)
+      else if (id.includes(v)) best = Math.max(best, 95)
+      else if (title.startsWith(v) || title.includes(` ${v}`)) best = Math.max(best, 88)
+      else if (title.includes(v)) best = Math.max(best, 72)
+      else if (summary.includes(v)) best = Math.max(best, 48)
+      else if (latex.includes(v)) best = Math.max(best, 40)
+      else if (full.includes(v)) best = Math.max(best, 28)
+    }
+    if (best === 0) return 0
+    score += best
+  }
+
+  // Prefer shorter exact-ish titles and higher importance slightly.
+  score += (formula.importance ?? 2) * 2
+  score += Math.max(0, 24 - formula.title.length / 4)
+  return score
+}
+
+/** Compatibility helper used across the app. */
+export function matchFormula(
+  formula: Formula,
+  query: string,
+  activeTag?: TagId | null,
+): boolean {
+  if (!passesTag(formula, activeTag)) return false
+  const tokens = tokenize(query)
+  if (!tokens.length) return true
+
+  // Direct star shortcuts
+  const q = normalize(query)
+  const imp = formula.importance ?? 2
+  if (q === '3' || q === '3 star' || q === '3star' || q === '***') return imp === 3
+  if (q === '2' || q === '2 star' || q === '2star' || q === '**') return imp === 2
+  if (q === '1' || q === '1 star' || q === '1star' || q === '*') return imp === 1
+
+  return scoreFormula(formula, tokens) > 0
+}
+
+export interface RankedFormula {
+  formula: Formula
+  score: number
+}
+
+/** Ranked search — use for menus and home hits. */
+export function searchFormulas(
+  list: Formula[],
+  query: string,
+  activeTag?: TagId | null,
+  limit = 40,
+): RankedFormula[] {
+  const tokens = tokenize(query)
+  const q = normalize(query)
+
+  const filtered = list.filter((f) => {
+    if (!passesTag(f, activeTag)) return false
+    if (!tokens.length) return true
+    if (q === '3' || q === '3 star' || q === '3star' || q === '***') {
+      return (f.importance ?? 2) === 3
+    }
+    if (q === '2' || q === '2 star' || q === '2star' || q === '**') {
+      return (f.importance ?? 2) === 2
+    }
+    if (q === '1' || q === '1 star' || q === '1star' || q === '*') {
+      return (f.importance ?? 2) === 1
+    }
+    return scoreFormula(f, tokens) > 0
+  })
+
+  if (!tokens.length) {
+    return filtered.slice(0, limit).map((formula) => ({ formula, score: 1 }))
+  }
+
+  return filtered
+    .map((formula) => ({ formula, score: scoreFormula(formula, tokens) }))
+    .sort((a, b) => b.score - a.score || a.formula.title.localeCompare(b.formula.title))
+    .slice(0, limit)
+}
+
+/** Quick suggestion chips shown when search is empty. */
+export const SEARCH_SUGGESTIONS = [
+  'lorentz',
+  'কার্নো',
+  'YDSE',
+  'লিফট',
+  'Rydberg',
+  'Bernoulli',
+  'matrix',
+  'pH',
+] as const
