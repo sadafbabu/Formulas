@@ -1,0 +1,50 @@
+{
+  "id": "stoichiometry-mass",
+  "chapter": "quantitative-chem",
+  "title": "Stoichiometric Mass Relation",
+  "titleBn": "stoichiometry ভর সম্পর্ক",
+  "summary": "mole ratio",
+  "latex": "\\frac{m_A}{aM_A}=\\frac{m_B}{bM_B}\\quad(aA\\to bB)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "mole ratio",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{m_A}{aM_A}=\\frac{m_B}{bM_B}\\quad(aA\\to bB)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "stoichiometry ভর সম্পর্ক এর মূল সূত্রটি লেখো।",
+      "answer": "\\frac{m_A}{aM_A}=\\frac{m_B}{bM_B}\\quad(aA\\to bB)"
+    }
+  ],
+  "memorize": {
+    "trick": "সমীকরণের মোল অনুপাত দিয়ে ভর বের করো।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

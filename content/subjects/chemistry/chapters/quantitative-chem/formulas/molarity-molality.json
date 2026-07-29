@@ -1,0 +1,50 @@
+{
+  "id": "molarity-molality",
+  "chapter": "quantitative-chem",
+  "title": "Molarity & Molality",
+  "titleBn": "মোলারিটি ও মোলালিটি",
+  "summary": "M vs m",
+  "latex": "M=\\frac{n_{\\text{solute}}}{V_{\\text{L}}},\\quad m=\\frac{n_{\\text{solute}}}{w_{\\text{kg solvent}}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "M vs m",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "M=\\frac{n_{\\text{solute}}}{V_{\\text{L}}},\\quad m=\\frac{n_{\\text{solute}}}{w_{\\text{kg solvent}}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "মোলারিটি ও মোলালিটি এর মূল সূত্রটি লেখো।",
+      "answer": "M=\\frac{n_{\\text{solute}}}{V_{\\text{L}}},\\quad m=\\frac{n_{\\text{solute}}}{w_{\\text{kg solvent}}}"
+    }
+  ],
+  "memorize": {
+    "trick": "M = মোল/লিটার দ্রবণ; m = মোল/কেজি দ্রাবক (তাপমাত্রা-নির্ভর নয়)।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

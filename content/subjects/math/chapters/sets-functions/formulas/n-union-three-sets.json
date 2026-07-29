@@ -1,0 +1,49 @@
+{
+  "id": "n-union-three-sets",
+  "chapter": "sets-functions",
+  "title": "Inclusion–Exclusion (3 sets)",
+  "titleBn": "তিন সেটের অন্তর্ভুক্তি–বর্জন",
+  "summary": "|A∪B∪C|",
+  "latex": "|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "|A∪B∪C|",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "তিন সেটের অন্তর্ভুক্তি–বর্জন এর মূল সূত্রটি লেখো।",
+      "answer": "|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|"
+    }
+  ],
+  "memorize": {
+    "trick": "যোগ − জোড় ছেদ + তিনের ছেদ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

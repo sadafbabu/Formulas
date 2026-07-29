@@ -1,0 +1,50 @@
+{
+  "id": "displacement-velocity-accel",
+  "chapter": "motion-kinematics",
+  "title": "v and a Definitions",
+  "titleBn": "বেগ ও ত্বরণের সংজ্ঞা",
+  "summary": "v=dx/dt, a=dv/dt",
+  "latex": "\\vec v=\\frac{d\\vec r}{dt},\\quad \\vec a=\\frac{d\\vec v}{dt}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "v=dx/dt, a=dv/dt",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\vec v=\\frac{d\\vec r}{dt},\\quad \\vec a=\\frac{d\\vec v}{dt}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বেগ ও ত্বরণের সংজ্ঞা এর মূল সূত্রটি লেখো।",
+      "answer": "\\vec v=\\frac{d\\vec r}{dt},\\quad \\vec a=\\frac{d\\vec v}{dt}"
+    }
+  ],
+  "memorize": {
+    "trick": "সরণের অন্তরক = বেগ; বেগের অন্তরক = ত্বরণ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

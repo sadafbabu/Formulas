@@ -1,0 +1,49 @@
+{
+  "id": "chord-of-contact",
+  "chapter": "circle-geometry",
+  "title": "Chord of Contact",
+  "titleBn": "স্পর্শকদ্বয়ের জ্যা",
+  "summary": "xx1+yy1=r²",
+  "latex": "xx_1+yy_1=r^2\\quad\\text{(from }(x_1,y_1)\\text{)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "xx1+yy1=r²",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "xx_1+yy_1=r^2\\quad\\text{(from }(x_1,y_1)\\text{)}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "স্পর্শকদ্বয়ের জ্যা এর মূল সূত্রটি লেখো।",
+      "answer": "xx_1+yy_1=r^2\\quad\\text{(from }(x_1,y_1)\\text{)}"
+    }
+  ],
+  "memorize": {
+    "trick": "বহিঃস্থ বিন্দু থেকে দুই স্পর্শকের সংযোগ জ্যা = chord of contact।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

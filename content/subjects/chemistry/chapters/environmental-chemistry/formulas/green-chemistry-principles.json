@@ -1,0 +1,50 @@
+{
+  "id": "green-chemistry-principles",
+  "chapter": "environmental-chemistry",
+  "title": "Green Chemistry Idea",
+  "titleBn": "সবুজ রসায়ন",
+  "summary": "atom economy",
+  "latex": "\\text{Atom economy}=\\frac{\\text{mass of desired product}}{\\text{mass of all reactants}}\\times100\\%",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "atom economy",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{Atom economy}=\\frac{\\text{mass of desired product}}{\\text{mass of all reactants}}\\times100\\%",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সবুজ রসায়ন এর মূল সূত্রটি লেখো।",
+      "answer": "\\text{Atom economy}=\\frac{\\text{mass of desired product}}{\\text{mass of all reactants}}\\times100\\%"
+    }
+  ],
+  "memorize": {
+    "trick": "কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

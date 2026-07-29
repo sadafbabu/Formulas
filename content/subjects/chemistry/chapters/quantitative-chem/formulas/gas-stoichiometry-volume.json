@@ -1,0 +1,50 @@
+{
+  "id": "gas-stoichiometry-volume",
+  "chapter": "quantitative-chem",
+  "title": "Gas Volume Stoichiometry",
+  "titleBn": "গ্যাস আয়তন stoichiometry",
+  "summary": "Avogadro volume ratio",
+  "latex": "\\frac{V_A}{V_B}=\\frac{a}{b}\\quad(\\text{same }T,P)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Avogadro volume ratio",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{V_A}{V_B}=\\frac{a}{b}\\quad(\\text{same }T,P)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "গ্যাস আয়তন stoichiometry এর মূল সূত্রটি লেখো।",
+      "answer": "\\frac{V_A}{V_B}=\\frac{a}{b}\\quad(\\text{same }T,P)"
+    }
+  ],
+  "memorize": {
+    "trick": "একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

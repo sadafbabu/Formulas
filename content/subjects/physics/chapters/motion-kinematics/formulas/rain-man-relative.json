@@ -1,0 +1,50 @@
+{
+  "id": "rain-man-relative",
+  "chapter": "motion-kinematics",
+  "title": "Rain–Man Relative Velocity",
+  "titleBn": "বৃষ্টি–মানুষ আপেক্ষিক বেগ",
+  "summary": "umbrella tilt",
+  "latex": "\\tan\\theta=\\frac{v_m}{v_r}\\quad(\\vec v_{rm}=\\vec v_r-\\vec v_m)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "umbrella tilt",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\tan\\theta=\\frac{v_m}{v_r}\\quad(\\vec v_{rm}=\\vec v_r-\\vec v_m)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বৃষ্টি–মানুষ আপেক্ষিক বেগ এর মূল সূত্রটি লেখো।",
+      "answer": "\\tan\\theta=\\frac{v_m}{v_r}\\quad(\\vec v_{rm}=\\vec v_r-\\vec v_m)"
+    }
+  ],
+  "memorize": {
+    "trick": "ছাতা কাত = আপেক্ষিক বৃষ্টির দিক।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

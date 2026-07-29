@@ -1,0 +1,50 @@
+{
+  "id": "field-infinite-sheet",
+  "chapter": "static-electricity",
+  "title": "Field of Infinite Sheet",
+  "titleBn": "অসীম পাতের ক্ষেত্র",
+  "summary": "E=σ/2ε₀",
+  "latex": "E=\\frac{\\sigma}{2\\varepsilon_0}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 140,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "E=σ/2ε₀",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "E=\\frac{\\sigma}{2\\varepsilon_0}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অসীম পাতের ক্ষেত্র এর মূল সূত্রটি লেখো।",
+      "answer": "E=\\frac{\\sigma}{2\\varepsilon_0}"
+    }
+  ],
+  "memorize": {
+    "trick": "অসীম চার্জিত পাত; দূরত্ব-নির্ভর নয়।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

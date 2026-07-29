@@ -1,0 +1,50 @@
+{
+  "id": "hookes-law-stress-strain",
+  "chapter": "properties-of-matter",
+  "title": "Hooke's Law",
+  "titleBn": "হুকের সূত্র",
+  "summary": "stress∝strain",
+  "latex": "\\frac{F}{A}=Y\\frac{\\Delta L}{L}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "stress∝strain",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{F}{A}=Y\\frac{\\Delta L}{L}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "হুকের সূত্র এর মূল সূত্রটি লেখো।",
+      "answer": "\\frac{F}{A}=Y\\frac{\\Delta L}{L}"
+    }
+  ],
+  "memorize": {
+    "trick": "স্থিতিস্থাপক সীমায় stress = Y × strain।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

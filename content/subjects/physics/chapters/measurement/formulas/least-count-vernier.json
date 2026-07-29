@@ -1,0 +1,50 @@
+{
+  "id": "least-count-vernier",
+  "chapter": "measurement",
+  "title": "Vernier Least Count",
+  "titleBn": "ভার্নিয়ার লঘিষ্ঠ পাঠ",
+  "summary": "LC = 1 MSD − 1 VSD",
+  "latex": "\\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "LC = 1 MSD − 1 VSD",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ভার্নিয়ার লঘিষ্ঠ পাঠ এর মূল সূত্রটি লেখো।",
+      "answer": "\\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}"
+    }
+  ],
+  "memorize": {
+    "trick": "n ভাগে ভাগ করলে LC = MSD/n।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

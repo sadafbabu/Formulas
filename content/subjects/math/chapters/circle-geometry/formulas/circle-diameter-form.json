@@ -1,0 +1,49 @@
+{
+  "id": "circle-diameter-form",
+  "chapter": "circle-geometry",
+  "title": "Equation with Diameter",
+  "titleBn": "ব্যাস দিয়ে বৃত্ত",
+  "summary": "endpoints form",
+  "latex": "(x-x_1)(x-x_2)+(y-y_1)(y-y_2)=0",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "endpoints form",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "(x-x_1)(x-x_2)+(y-y_1)(y-y_2)=0",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ব্যাস দিয়ে বৃত্ত এর মূল সূত্রটি লেখো।",
+      "answer": "(x-x_1)(x-x_2)+(y-y_1)(y-y_2)=0"
+    }
+  ],
+  "memorize": {
+    "trick": "ব্যাসের দুই প্রান্ত জানা থাকলেই সমীকরণ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

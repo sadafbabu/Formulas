@@ -1,0 +1,49 @@
+{
+  "id": "tangent-from-external",
+  "chapter": "circle-geometry",
+  "title": "Tangent from External Point",
+  "titleBn": "বহিঃস্থ বিন্দু থেকে স্পর্শক",
+  "summary": "length √(S1)",
+  "latex": "L=\\sqrt{S_1}=\\sqrt{x_1^2+y_1^2-r^2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "length √(S1)",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "L=\\sqrt{S_1}=\\sqrt{x_1^2+y_1^2-r^2}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বহিঃস্থ বিন্দু থেকে স্পর্শক এর মূল সূত্রটি লেখো।",
+      "answer": "L=\\sqrt{S_1}=\\sqrt{x_1^2+y_1^2-r^2}"
+    }
+  ],
+  "memorize": {
+    "trick": "স্পর্শকের দৈর্ঘ্য = √(power of point)।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

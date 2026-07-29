@@ -1,0 +1,50 @@
+{
+  "id": "work-by-constant-force",
+  "chapter": "work-energy",
+  "title": "Work by Constant Force",
+  "titleBn": "ধ্রুব বলের কাজ",
+  "summary": "W=F·s",
+  "latex": "W=\\vec F\\cdot\\vec s=Fs\\cos\\theta",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "W=F·s",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "W=\\vec F\\cdot\\vec s=Fs\\cos\\theta",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ধ্রুব বলের কাজ এর মূল সূত্রটি লেখো।",
+      "answer": "W=\\vec F\\cdot\\vec s=Fs\\cos\\theta"
+    }
+  ],
+  "memorize": {
+    "trick": "θ=৯০° হলে কাজ শূন্য; বিপরীত হলে ঋণাত্মক।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "gp-sum-infinite",
+  "chapter": "sequences-series",
+  "title": "Infinite GP Sum",
+  "titleBn": "অসীম গুণোত্তর যোগফল",
+  "summary": "a/(1−r)",
+  "latex": "S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "a/(1−r)",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অসীম গুণোত্তর যোগফল এর মূল সূত্রটি লেখো।",
+      "answer": "S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)"
+    }
+  ],
+  "memorize": {
+    "trick": "|r|<1 হলেই অসীম যোগফল আছে।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

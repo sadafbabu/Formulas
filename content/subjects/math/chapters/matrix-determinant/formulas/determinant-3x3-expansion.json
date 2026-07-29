@@ -1,0 +1,49 @@
+{
+  "id": "determinant-3x3-expansion",
+  "chapter": "matrix-determinant",
+  "title": "3×3 Determinant Expansion",
+  "titleBn": "৩×৩ নির্ণায়ক প্রসারণ",
+  "summary": "cofactor expansion",
+  "latex": "|A|=a_{11}C_{11}+a_{12}C_{12}+a_{13}C_{13}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "cofactor expansion",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "|A|=a_{11}C_{11}+a_{12}C_{12}+a_{13}C_{13}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "৩×৩ নির্ণায়ক প্রসারণ এর মূল সূত্রটি লেখো।",
+      "answer": "|A|=a_{11}C_{11}+a_{12}C_{12}+a_{13}C_{13}"
+    }
+  ],
+  "memorize": {
+    "trick": "এক সারি বরাবর সহগুণক দিয়ে প্রসারণ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

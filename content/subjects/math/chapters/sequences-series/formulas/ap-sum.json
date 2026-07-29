@@ -1,0 +1,49 @@
+{
+  "id": "ap-sum",
+  "chapter": "sequences-series",
+  "title": "Sum of AP",
+  "titleBn": "সমান্তর ধারার যোগফল",
+  "summary": "n/2[2a+(n−1)d]",
+  "latex": "S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "n/2[2a+(n−1)d]",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সমান্তর ধারার যোগফল এর মূল সূত্রটি লেখো।",
+      "answer": "S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)"
+    }
+  ],
+  "memorize": {
+    "trick": "S = n/2 × (প্রথম+শেষ)।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

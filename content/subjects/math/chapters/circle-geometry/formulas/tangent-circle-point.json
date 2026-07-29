@@ -1,0 +1,49 @@
+{
+  "id": "tangent-circle-point",
+  "chapter": "circle-geometry",
+  "title": "Tangent at Point on Circle",
+  "titleBn": "বৃত্তের বিন্দুতে স্পর্শক",
+  "summary": "xx1+yy1=r²",
+  "latex": "xx_1+yy_1=r^2\\quad(x^2+y^2=r^2)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "xx1+yy1=r²",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "xx_1+yy_1=r^2\\quad(x^2+y^2=r^2)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বৃত্তের বিন্দুতে স্পর্শক এর মূল সূত্রটি লেখো।",
+      "answer": "xx_1+yy_1=r^2\\quad(x^2+y^2=r^2)"
+    }
+  ],
+  "memorize": {
+    "trick": "T=0 পদ্ধতি; কেন্দ্রে xx₁+yy₁=r²।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

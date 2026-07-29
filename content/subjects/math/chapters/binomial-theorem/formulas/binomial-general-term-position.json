@@ -1,0 +1,49 @@
+{
+  "id": "binomial-general-term-position",
+  "chapter": "binomial-theorem",
+  "title": "General Term Position",
+  "titleBn": "সাধারণ পদের অবস্থান",
+  "summary": "T_{r+1}",
+  "latex": "T_{r+1}=\\binom{n}{r}a^{n-r}b^r",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 140,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "T_{r+1}",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "T_{r+1}=\\binom{n}{r}a^{n-r}b^r",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সাধারণ পদের অবস্থান এর মূল সূত্রটি লেখো।",
+      "answer": "T_{r+1}=\\binom{n}{r}a^{n-r}b^r"
+    }
+  ],
+  "memorize": {
+    "trick": "(r+1)-তম পদ; r=0 থেকে শুরু।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

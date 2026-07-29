@@ -1,0 +1,49 @@
+{
+  "id": "derivative-trig",
+  "chapter": "differentiation",
+  "title": "Trig Derivatives",
+  "titleBn": "ত্রিকোণমিতিক অন্তরক",
+  "summary": "sin, cos, tan",
+  "latex": "(\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "sin, cos, tan",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "(\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ত্রিকোণমিতিক অন্তরক এর মূল সূত্রটি লেখো।",
+      "answer": "(\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x"
+    }
+  ],
+  "memorize": {
+    "trick": "sin→cos; cos→−sin; tan→sec²।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

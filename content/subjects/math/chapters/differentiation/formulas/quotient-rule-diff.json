@@ -1,0 +1,49 @@
+{
+  "id": "quotient-rule-diff",
+  "chapter": "differentiation",
+  "title": "Quotient Rule",
+  "titleBn": "ভাগ নিয়ম",
+  "summary": "(vu'−uv')/v²",
+  "latex": "\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "(vu'−uv')/v²",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ভাগ নিয়ম এর মূল সূত্রটি লেখো।",
+      "answer": "\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}"
+    }
+  ],
+  "memorize": {
+    "trick": "নিচের বর্গ ভাজক; উপরে vu′−uv′।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

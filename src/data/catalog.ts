@@ -27,14 +27,18 @@ export const subjectsList: SubjectMeta[] = [
 
 /** Chapter metadata. `formulaCount` is derived from the content files, never hand-written. */
 const chapterList: Omit<ChapterMeta, 'formulaCount' | 'isReady'>[] = [
-  // Physics 1st Paper
+  // Physics 1st Paper (NCTB order)
+  { id: 'measurement', slug: 'measurement', name: 'Physical World & Measurement', nameBn: 'ভৌত জগত ও পরিমাপ', subjectId: 'physics', paperId: '1st-paper', order: 1 },
   { id: 'vector', slug: 'vector', name: 'Vector', nameBn: 'ভেক্টর', subjectId: 'physics', paperId: '1st-paper', order: 2 },
+  { id: 'motion-kinematics', slug: 'motion-kinematics', name: 'Motion & Kinematics', nameBn: 'গতিবিদ্যা', subjectId: 'physics', paperId: '1st-paper', order: 3 },
   { id: 'dynamics', slug: 'dynamics', name: 'Newtonian Mechanics', nameBn: 'নিউটনীয় বলবিদ্যা', subjectId: 'physics', paperId: '1st-paper', order: 4 },
   { id: 'work-energy', slug: 'work-energy', name: 'Work, Energy & Power', nameBn: 'কাজ, ক্ষমতা ও শক্তি', subjectId: 'physics', paperId: '1st-paper', order: 5 },
-  { id: 'gravitation', slug: 'gravitation', name: 'Gravitation & Gravity', nameBn: 'মহাকর্ষ ও অভিকর্ষ', subjectId: 'physics', paperId: '1st-paper', order: 6 },
-  { id: 'properties-of-matter', slug: 'properties-of-matter', name: 'Properties of Matter', nameBn: 'পদার্থের গুণাবলি', subjectId: 'physics', paperId: '1st-paper', order: 7 },
-  { id: 'periodic-motion', slug: 'periodic-motion', name: 'Periodic Motion & SHM', nameBn: 'পর্যায়বৃত্ত গতি', subjectId: 'physics', paperId: '1st-paper', order: 8 },
-  { id: 'ideal-gas', slug: 'ideal-gas', name: 'Ideal Gas & Kinetic Theory', nameBn: 'আদর্শ গ্যাস ও গতিতত্ত্ব', subjectId: 'physics', paperId: '1st-paper', order: 10 },
+  { id: 'circular-motion', slug: 'circular-motion', name: 'Circular Motion', nameBn: 'বৃত্তাকার গতি', subjectId: 'physics', paperId: '1st-paper', order: 6 },
+  { id: 'gravitation', slug: 'gravitation', name: 'Gravitation & Gravity', nameBn: 'মহাকর্ষ ও অভিকর্ষ', subjectId: 'physics', paperId: '1st-paper', order: 7 },
+  { id: 'properties-of-matter', slug: 'properties-of-matter', name: 'Properties of Matter', nameBn: 'পদার্থের গুণাবলি', subjectId: 'physics', paperId: '1st-paper', order: 8 },
+  { id: 'periodic-motion', slug: 'periodic-motion', name: 'Periodic Motion & SHM', nameBn: 'পর্যায়বৃত্ত গতি', subjectId: 'physics', paperId: '1st-paper', order: 9 },
+  { id: 'waves', slug: 'waves', name: 'Waves', nameBn: 'তরঙ্গ', subjectId: 'physics', paperId: '1st-paper', order: 10 },
+  { id: 'ideal-gas', slug: 'ideal-gas', name: 'Ideal Gas & Kinetic Theory', nameBn: 'আদর্শ গ্যাস ও গতিতত্ত্ব', subjectId: 'physics', paperId: '1st-paper', order: 11 },
 
   // Physics 2nd Paper
   { id: 'thermodynamics', slug: 'thermodynamics', name: 'Thermodynamics', nameBn: 'তাপগতিবিদ্যা', subjectId: 'physics', paperId: '2nd-paper', order: 1 },
@@ -46,6 +50,7 @@ const chapterList: Omit<ChapterMeta, 'formulaCount' | 'isReady'>[] = [
   { id: 'wave-optics', slug: 'wave-optics', name: 'Wave Optics', nameBn: 'ভৌত আলোকবিজ্ঞান', subjectId: 'physics', paperId: '2nd-paper', order: 7 },
   { id: 'modern-physics', slug: 'modern-physics', name: 'Modern Physics', nameBn: 'আধুনিক পদার্থবিজ্ঞানের সূচনা', subjectId: 'physics', paperId: '2nd-paper', order: 8 },
   { id: 'semiconductor', slug: 'semiconductor', name: 'Semiconductor & Electronics', nameBn: 'সেমিকন্ডাক্টর ও ইলেকট্রনিক্স', subjectId: 'physics', paperId: '2nd-paper', order: 10 },
+  { id: 'astronomy', slug: 'astronomy', name: 'Astronomy & Astrophysics', nameBn: 'জ্যোতির্বিজ্ঞান', subjectId: 'physics', paperId: '2nd-paper', order: 11 },
 
   // Chemistry 1st Paper
   { id: 'qualitative-chem', slug: 'qualitative-chem', name: 'Qualitative Chemistry', nameBn: 'গুণগত রসায়ন', subjectId: 'chemistry', paperId: '1st-paper', order: 2 },
@@ -54,19 +59,24 @@ const chapterList: Omit<ChapterMeta, 'formulaCount' | 'isReady'>[] = [
   { id: 'solid-state-chemistry', slug: 'solid-state-chemistry', name: 'Solid State Chemistry', nameBn: 'কঠিন অবস্থা', subjectId: 'chemistry', paperId: '1st-paper', order: 5 },
 
   // Chemistry 2nd Paper
+  { id: 'environmental-chemistry', slug: 'environmental-chemistry', name: 'Environmental Chemistry', nameBn: 'পরিবেশ রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 1 },
   { id: 'organic-chem', slug: 'organic-chem', name: 'Organic Chemistry', nameBn: 'জৈব রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 2 },
-  { id: 'colligative-properties', slug: 'colligative-properties', name: 'Colligative Properties', nameBn: 'সম্মিল গুণ', subjectId: 'chemistry', paperId: '2nd-paper', order: 3 },
-  { id: 'electrochemistry', slug: 'electrochemistry', name: 'Electrochemistry', nameBn: 'তড়িৎ রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 4 },
-  { id: 'coordination-chemistry', slug: 'coordination-chemistry', name: 'Coordination Chemistry', nameBn: 'সমন্বয় রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 5 },
-  { id: 'industrial-chemistry', slug: 'industrial-chemistry', name: 'Industrial Chemistry', nameBn: 'শিল্প রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 6 },
+  { id: 'quantitative-chem', slug: 'quantitative-chem', name: 'Quantitative Chemistry', nameBn: 'পরিমাণগত রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 3 },
+  { id: 'colligative-properties', slug: 'colligative-properties', name: 'Colligative Properties', nameBn: 'সম্মিল গুণ', subjectId: 'chemistry', paperId: '2nd-paper', order: 4 },
+  { id: 'electrochemistry', slug: 'electrochemistry', name: 'Electrochemistry', nameBn: 'তড়িৎ রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 5 },
+  { id: 'coordination-chemistry', slug: 'coordination-chemistry', name: 'Coordination Chemistry', nameBn: 'সমন্বয় রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 6 },
+  { id: 'industrial-chemistry', slug: 'industrial-chemistry', name: 'Industrial Chemistry', nameBn: 'শিল্প রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 7 },
 
   // Higher Math 1st Paper
   { id: 'sets-functions', slug: 'sets-functions', name: 'Sets & Functions', nameBn: 'সেট ও ফাংশন', subjectId: 'math', paperId: '1st-paper', order: 1 },
   { id: 'matrix-determinant', slug: 'matrix-determinant', name: 'Matrices & Determinants', nameBn: 'ম্যাট্রিক্স ও নির্ণায়ক', subjectId: 'math', paperId: '1st-paper', order: 2 },
   { id: 'straight-lines', slug: 'straight-lines', name: 'Straight Lines', nameBn: 'সরলরেখা', subjectId: 'math', paperId: '1st-paper', order: 3 },
+  { id: 'circle-geometry', slug: 'circle-geometry', name: 'Circle', nameBn: 'বৃত্ত', subjectId: 'math', paperId: '1st-paper', order: 4 },
+  { id: 'sequences-series', slug: 'sequences-series', name: 'Sequences & Series', nameBn: 'অনুক্রম ও ধারা', subjectId: 'math', paperId: '1st-paper', order: 5 },
+  { id: 'differentiation', slug: 'differentiation', name: 'Differentiation', nameBn: 'অন্তরীকরণ', subjectId: 'math', paperId: '1st-paper', order: 8 },
+  { id: 'calculus', slug: 'calculus', name: 'Calculus & Integration', nameBn: 'ক্যালকুলাস ও যোগজীকরণ', subjectId: 'math', paperId: '1st-paper', order: 9 },
   { id: 'math-statics', slug: 'math-statics', name: 'Statics (Math)', nameBn: 'স্থিতিবিদ্যা (গণিত)', subjectId: 'math', paperId: '1st-paper', order: 10 },
   { id: 'math-dynamics', slug: 'math-dynamics', name: 'Dynamics (Math)', nameBn: 'গতিবিদ্যা (গণিত)', subjectId: 'math', paperId: '1st-paper', order: 11 },
-  { id: 'calculus', slug: 'calculus', name: 'Calculus & Integration', nameBn: 'ক্যালকুলাস ও যোগজীকরণ', subjectId: 'math', paperId: '1st-paper', order: 9 },
 
   // Higher Math 2nd Paper
   { id: 'complex-numbers', slug: 'complex-numbers', name: 'Complex Numbers', nameBn: 'জটিল সংখ্যা', subjectId: 'math', paperId: '2nd-paper', order: 3 },

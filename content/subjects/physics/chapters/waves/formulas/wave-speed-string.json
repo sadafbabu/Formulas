@@ -1,0 +1,50 @@
+{
+  "id": "wave-speed-string",
+  "chapter": "waves",
+  "title": "Wave Speed on String",
+  "titleBn": "তারের তরঙ্গ বেগ",
+  "summary": "v=√(T/μ)",
+  "latex": "v=\\sqrt{\\frac{T}{\\mu}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "v=√(T/μ)",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "v=\\sqrt{\\frac{T}{\\mu}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "তারের তরঙ্গ বেগ এর মূল সূত্রটি লেখো।",
+      "answer": "v=\\sqrt{\\frac{T}{\\mu}}"
+    }
+  ],
+  "memorize": {
+    "trick": "টান বাড়লে বেগ বাড়ে; μ = ভর/দৈর্ঘ্য।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

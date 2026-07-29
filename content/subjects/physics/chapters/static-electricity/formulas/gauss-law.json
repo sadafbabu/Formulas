@@ -1,0 +1,50 @@
+{
+  "id": "gauss-law",
+  "chapter": "static-electricity",
+  "title": "Gauss's Law",
+  "titleBn": "গসের সূত্র",
+  "summary": "∮E·dA=Q/ε₀",
+  "latex": "\\oint\\vec E\\cdot d\\vec A=\\frac{Q_{\\text{encl}}}{\\varepsilon_0}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "∮E·dA=Q/ε₀",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\oint\\vec E\\cdot d\\vec A=\\frac{Q_{\\text{encl}}}{\\varepsilon_0}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "গসের সূত্র এর মূল সূত্রটি লেখো।",
+      "answer": "\\oint\\vec E\\cdot d\\vec A=\\frac{Q_{\\text{encl}}}{\\varepsilon_0}"
+    }
+  ],
+  "memorize": {
+    "trick": "বদ্ধ তলে মোট ফ্লাক্স = ভিতরের চার্জ/ε₀।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

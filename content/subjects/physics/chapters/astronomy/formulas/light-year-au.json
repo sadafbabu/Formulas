@@ -1,0 +1,50 @@
+{
+  "id": "light-year-au",
+  "chapter": "astronomy",
+  "title": "Light Year & AU",
+  "titleBn": "আলোকবর্ষ ও AU",
+  "summary": "1 ly, 1 AU",
+  "latex": "1\\,\\mathrm{ly}=9.46\\times10^{15}\\,\\mathrm{m},\\quad 1\\,\\mathrm{AU}=1.496\\times10^{11}\\,\\mathrm{m}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "1 ly, 1 AU",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "1\\,\\mathrm{ly}=9.46\\times10^{15}\\,\\mathrm{m},\\quad 1\\,\\mathrm{AU}=1.496\\times10^{11}\\,\\mathrm{m}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আলোকবর্ষ ও AU এর মূল সূত্রটি লেখো।",
+      "answer": "1\\,\\mathrm{ly}=9.46\\times10^{15}\\,\\mathrm{m},\\quad 1\\,\\mathrm{AU}=1.496\\times10^{11}\\,\\mathrm{m}"
+    }
+  ],
+  "memorize": {
+    "trick": "AU = পৃথিবী–সূর্য গড় দূরত্ব; ly = আলোর ১ বছরের পথ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

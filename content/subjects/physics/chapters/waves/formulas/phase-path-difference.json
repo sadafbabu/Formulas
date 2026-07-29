@@ -1,0 +1,50 @@
+{
+  "id": "phase-path-difference",
+  "chapter": "waves",
+  "title": "Phase & Path Difference",
+  "titleBn": "কলারূপ ও পথ পার্থক্য",
+  "summary": "Δφ=2π/λ · Δx",
+  "latex": "\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Δφ=2π/λ · Δx",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কলারূপ ও পথ পার্থক্য এর মূল সূত্রটি লেখো।",
+      "answer": "\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x"
+    }
+  ],
+  "memorize": {
+    "trick": "এক λ = 2π কলা; Δx দিয়ে Δφ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

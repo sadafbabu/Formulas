@@ -1,0 +1,50 @@
+{
+  "id": "angular-linear-relation",
+  "chapter": "circular-motion",
+  "title": "v = ωr",
+  "titleBn": "রৈখিক–কৌণিক সম্পর্ক",
+  "summary": "v=ωr",
+  "latex": "v=\\omega r,\\quad a_t=\\alpha r",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "v=ωr",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "v=\\omega r,\\quad a_t=\\alpha r",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "রৈখিক–কৌণিক সম্পর্ক এর মূল সূত্রটি লেখো।",
+      "answer": "v=\\omega r,\\quad a_t=\\alpha r"
+    }
+  ],
+  "memorize": {
+    "trick": "রৈখিক বেগ = ω×r; স্পর্শক ত্বরণ = αr।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

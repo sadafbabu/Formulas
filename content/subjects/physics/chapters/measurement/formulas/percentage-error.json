@@ -1,0 +1,50 @@
+{
+  "id": "percentage-error",
+  "chapter": "measurement",
+  "title": "Percentage Error",
+  "titleBn": "শতকরা ত্রুটি",
+  "summary": "Δx/x × 100%",
+  "latex": "\\delta x\\%=\\frac{\\Delta x}{x}\\times 100\\%",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Δx/x × 100%",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\delta x\\%=\\frac{\\Delta x}{x}\\times 100\\%",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "শতকরা ত্রুটি এর মূল সূত্রটি লেখো।",
+      "answer": "\\delta x\\%=\\frac{\\Delta x}{x}\\times 100\\%"
+    }
+  ],
+  "memorize": {
+    "trick": "আপেক্ষিক ত্রুটি × 100 = শতকরা ত্রুটি।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

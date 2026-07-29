@@ -1,0 +1,49 @@
+{
+  "id": "ap-nth-term",
+  "chapter": "sequences-series",
+  "title": "AP nth Term",
+  "titleBn": "সমান্তর ধারার n-তম পদ",
+  "summary": "a+(n−1)d",
+  "latex": "a_n=a+(n-1)d",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "a+(n−1)d",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "a_n=a+(n-1)d",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সমান্তর ধারার n-তম পদ এর মূল সূত্রটি লেখো।",
+      "answer": "a_n=a+(n-1)d"
+    }
+  ],
+  "memorize": {
+    "trick": "প্রথম পদ a, সাধারণ অন্তর d।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

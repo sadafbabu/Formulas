@@ -1,0 +1,49 @@
+{
+  "id": "sum-natural-squares-cubes",
+  "chapter": "sequences-series",
+  "title": "Σn, Σn², Σn³",
+  "titleBn": "প্রাকৃতিক সংখ্যার ঘাতের যোগ",
+  "summary": "n(n+1)/2 ইত্যাদি",
+  "latex": "\\sum n=\\frac{n(n+1)}{2},\\ \\sum n^2=\\frac{n(n+1)(2n+1)}{6},\\ \\sum n^3=\\left(\\frac{n(n+1)}{2}\\right)^2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "n(n+1)/2 ইত্যাদি",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\sum n=\\frac{n(n+1)}{2},\\ \\sum n^2=\\frac{n(n+1)(2n+1)}{6},\\ \\sum n^3=\\left(\\frac{n(n+1)}{2}\\right)^2",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "প্রাকৃতিক সংখ্যার ঘাতের যোগ এর মূল সূত্রটি লেখো।",
+      "answer": "\\sum n=\\frac{n(n+1)}{2},\\ \\sum n^2=\\frac{n(n+1)(2n+1)}{6},\\ \\sum n^3=\\left(\\frac{n(n+1)}{2}\\right)^2"
+    }
+  ],
+  "memorize": {
+    "trick": "Σn³ = (Σn)² — মনে রাখার সহজ সম্পর্ক।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

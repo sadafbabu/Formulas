@@ -1,0 +1,50 @@
+{
+  "id": "parallax-distance",
+  "chapter": "astronomy",
+  "title": "Parallax Distance",
+  "titleBn": "লম্বন দূরত্ব",
+  "summary": "d=b/θ",
+  "latex": "d=\\frac{b}{\\theta}\\quad(\\theta\\text{ in rad})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "d=b/θ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "d=\\frac{b}{\\theta}\\quad(\\theta\\text{ in rad})",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "লম্বন দূরত্ব এর মূল সূত্রটি লেখো।",
+      "answer": "d=\\frac{b}{\\theta}\\quad(\\theta\\text{ in rad})"
+    }
+  ],
+  "memorize": {
+    "trick": "ছোট কোণে চাপ ≈ জ্যা; নক্ষত্র দূরত্ব মাপার ভিত্তি।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

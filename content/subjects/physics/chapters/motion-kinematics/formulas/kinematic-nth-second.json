@@ -1,0 +1,50 @@
+{
+  "id": "kinematic-nth-second",
+  "chapter": "motion-kinematics",
+  "title": "Distance in nth Second",
+  "titleBn": "n-তম সেকেন্ডে সরণ",
+  "summary": "s_n",
+  "latex": "s_n=u+\\tfrac12 a(2n-1)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "s_n",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "s_n=u+\\tfrac12 a(2n-1)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "n-তম সেকেন্ডে সরণ এর মূল সূত্রটি লেখো।",
+      "answer": "s_n=u+\\tfrac12 a(2n-1)"
+    }
+  ],
+  "memorize": {
+    "trick": "n-তম সেকেন্ড = u + a(2n−1)/2।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

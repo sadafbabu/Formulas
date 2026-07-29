@@ -1,0 +1,50 @@
+{
+  "id": "doppler-effect-general",
+  "chapter": "waves",
+  "title": "Doppler Effect",
+  "titleBn": "ডপলার প্রভাব",
+  "summary": "f'=f(v±vo)/(v±vs)",
+  "latex": "f'=f\\,\\frac{v\\pm v_o}{v\\pm v_s}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "f'=f(v±vo)/(v±vs)",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "f'=f\\,\\frac{v\\pm v_o}{v\\pm v_s}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ডপলার প্রভাব এর মূল সূত্রটি লেখো।",
+      "answer": "f'=f\\,\\frac{v\\pm v_o}{v\\pm v_s}"
+    }
+  ],
+  "memorize": {
+    "trick": "পর্যবেক্ষক কাছে +; উৎস কাছে হলে ভাজকে − (কম্পন বাড়ে)।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

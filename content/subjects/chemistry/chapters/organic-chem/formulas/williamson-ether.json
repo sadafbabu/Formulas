@@ -1,0 +1,50 @@
+{
+  "id": "williamson-ether",
+  "chapter": "organic-chem",
+  "title": "Williamson Ether Synthesis",
+  "titleBn": "উইলিয়ামসন ইথার সংশ্লেষণ",
+  "summary": "RONa + R'X",
+  "latex": "\\ce{RONa + R'X -> ROR' + NaX}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 220,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "RONa + R'X",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\ce{RONa + R'X -> ROR' + NaX}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "উইলিয়ামসন ইথার সংশ্লেষণ এর মূল সূত্রটি লেখো।",
+      "answer": "\\ce{RONa + R'X -> ROR' + NaX}"
+    }
+  ],
+  "memorize": {
+    "trick": "অ্যালকক্সাইড + অ্যালকাইল হ্যালাইড → ইথার।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

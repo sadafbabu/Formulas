@@ -1,0 +1,50 @@
+{
+  "id": "centripetal-acceleration",
+  "chapter": "circular-motion",
+  "title": "Centripetal Acceleration",
+  "titleBn": "কেন্দ্রমুখী ত্বরণ",
+  "summary": "a=v²/r",
+  "latex": "a_c=\\frac{v^2}{r}=\\omega^2 r",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "a=v²/r",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "a_c=\\frac{v^2}{r}=\\omega^2 r",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কেন্দ্রমুখী ত্বরণ এর মূল সূত্রটি লেখো।",
+      "answer": "a_c=\\frac{v^2}{r}=\\omega^2 r"
+    }
+  ],
+  "memorize": {
+    "trick": "দিক কেন্দ্রের দিকে; মান v²/r বা ω²r।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

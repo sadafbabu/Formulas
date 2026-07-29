@@ -1,0 +1,49 @@
+{
+  "id": "common-chord-circles",
+  "chapter": "circle-geometry",
+  "title": "Common Chord",
+  "titleBn": "সাধারণ জ্যা",
+  "summary": "S1−S2=0",
+  "latex": "S_1-S_2=0\\quad(\\text{intersecting circles})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "S1−S2=0",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "S_1-S_2=0\\quad(\\text{intersecting circles})",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সাধারণ জ্যা এর মূল সূত্রটি লেখো।",
+      "answer": "S_1-S_2=0\\quad(\\text{intersecting circles})"
+    }
+  ],
+  "memorize": {
+    "trick": "ছেদকারী বৃত্তে radical axis = সাধারণ জ্যা।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "gp-sum-finite",
+  "chapter": "sequences-series",
+  "title": "Sum of Finite GP",
+  "titleBn": "সসীম গুণোত্তর যোগফল",
+  "summary": "a(rⁿ−1)/(r−1)",
+  "latex": "S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "a(rⁿ−1)/(r−1)",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সসীম গুণোত্তর যোগফল এর মূল সূত্রটি লেখো।",
+      "answer": "S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)"
+    }
+  ],
+  "memorize": {
+    "trick": "r≠1; r=1 হলে S=na।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ozone-depletion",
+  "chapter": "environmental-chemistry",
+  "title": "Ozone Depletion",
+  "titleBn": "ওজোন ক্ষয়",
+  "summary": "CFC + O₃",
+  "latex": "\\ce{CF2Cl2 ->[h\\nu] Cl*}\\ ;\\ \\ce{Cl* + O3 -> ClO* + O2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "CFC + O₃",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\ce{CF2Cl2 ->[h\\nu] Cl*}\\ ;\\ \\ce{Cl* + O3 -> ClO* + O2}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ওজোন ক্ষয় এর মূল সূত্রটি লেখো।",
+      "answer": "\\ce{CF2Cl2 ->[h\\nu] Cl*}\\ ;\\ \\ce{Cl* + O3 -> ClO* + O2}"
+    }
+  ],
+  "memorize": {
+    "trick": "Cl· মুক্ত মূলক ওজোন ভাঙে; এক Cl হাজার ওজোন নষ্ট করতে পারে।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "parabola-reflection-property",
+  "chapter": "conic-sections",
+  "title": "Parabola Reflection Property",
+  "titleBn": "পরাবৃত্তের প্রতিফলন ধর্ম",
+  "summary": "focus-directrix path",
+  "latex": "\\text{ray }\\parallel\\text{ axis reflects through focus}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "1-star"
+  ],
+  "importance": 1,
+  "order": 190,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "focus-directrix path",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{ray }\\parallel\\text{ axis reflects through focus}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পরাবৃত্তের প্রতিফলন ধর্ম এর মূল সূত্রটি লেখো।",
+      "answer": "\\text{ray }\\parallel\\text{ axis reflects through focus}"
+    }
+  ],
+  "memorize": {
+    "trick": "অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায় — স্যাটেলাইট ডিশ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

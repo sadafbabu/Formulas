@@ -1,0 +1,50 @@
+{
+  "id": "conical-pendulum",
+  "chapter": "circular-motion",
+  "title": "Conical Pendulum",
+  "titleBn": "শঙ্কু দোলক",
+  "summary": "T=2π√(L cosθ/g)",
+  "latex": "T=2\\pi\\sqrt{\\frac{L\\cos\\theta}{g}},\\quad \\tan\\theta=\\frac{v^2}{rg}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "T=2π√(L cosθ/g)",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "T=2\\pi\\sqrt{\\frac{L\\cos\\theta}{g}},\\quad \\tan\\theta=\\frac{v^2}{rg}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "শঙ্কু দোলক এর মূল সূত্রটি লেখো।",
+      "answer": "T=2\\pi\\sqrt{\\frac{L\\cos\\theta}{g}},\\quad \\tan\\theta=\\frac{v^2}{rg}"
+    }
+  ],
+  "memorize": {
+    "trick": "উল্লম্ব উপাংশ ভারসাম্য; অনুভূমিক = কেন্দ্রমুখী।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

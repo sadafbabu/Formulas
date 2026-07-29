@@ -1,0 +1,50 @@
+{
+  "id": "ppm-ppb",
+  "chapter": "quantitative-chem",
+  "title": "ppm & ppb",
+  "titleBn": "ppm ও ppb",
+  "summary": "parts per million",
+  "latex": "\\mathrm{ppm}=\\frac{\\text{mass solute}}{\\text{mass solution}}\\times10^6",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "parts per million",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{ppm}=\\frac{\\text{mass solute}}{\\text{mass solution}}\\times10^6",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ppm ও ppb এর মূল সূত্রটি লেখো।",
+      "answer": "\\mathrm{ppm}=\\frac{\\text{mass solute}}{\\text{mass solution}}\\times10^6"
+    }
+  ],
+  "memorize": {
+    "trick": "জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

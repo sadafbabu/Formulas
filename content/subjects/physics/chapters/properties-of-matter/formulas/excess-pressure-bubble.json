@@ -1,0 +1,50 @@
+{
+  "id": "excess-pressure-bubble",
+  "chapter": "properties-of-matter",
+  "title": "Excess Pressure in Bubble",
+  "titleBn": "বুদবুদে অতিরিক্ত চাপ",
+  "summary": "4T/r soap, 2T/r air",
+  "latex": "\\Delta P_{\\text{soap}}=\\frac{4T}{r},\\quad \\Delta P_{\\text{air bubble}}=\\frac{2T}{r}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "4T/r soap, 2T/r air",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\Delta P_{\\text{soap}}=\\frac{4T}{r},\\quad \\Delta P_{\\text{air bubble}}=\\frac{2T}{r}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বুদবুদে অতিরিক্ত চাপ এর মূল সূত্রটি লেখো।",
+      "answer": "\\Delta P_{\\text{soap}}=\\frac{4T}{r},\\quad \\Delta P_{\\text{air bubble}}=\\frac{2T}{r}"
+    }
+  ],
+  "memorize": {
+    "trick": "সাবান বুদবুদ দুই তল → 4T/r; বায়ু বুদবুদ এক তল → 2T/r।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

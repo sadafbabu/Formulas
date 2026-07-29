@@ -1,0 +1,49 @@
+{
+  "id": "derivative-definition",
+  "chapter": "differentiation",
+  "title": "Derivative Definition",
+  "titleBn": "অন্তরকের সংজ্ঞা",
+  "summary": "lim h→0",
+  "latex": "f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "lim h→0",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অন্তরকের সংজ্ঞা এর মূল সূত্রটি লেখো।",
+      "answer": "f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}"
+    }
+  ],
+  "memorize": {
+    "trick": "ঢালের সীমা = অন্তরক।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

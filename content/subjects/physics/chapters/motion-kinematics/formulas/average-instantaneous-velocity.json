@@ -1,0 +1,50 @@
+{
+  "id": "average-instantaneous-velocity",
+  "chapter": "motion-kinematics",
+  "title": "Average & Instantaneous Velocity",
+  "titleBn": "গড় ও তাৎক্ষণিক বেগ",
+  "summary": "Δx/Δt vs dx/dt",
+  "latex": "v_{\\text{avg}}=\\frac{\\Delta x}{\\Delta t},\\quad v=\\lim_{\\Delta t\\to0}\\frac{\\Delta x}{\\Delta t}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Δx/Δt vs dx/dt",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "v_{\\text{avg}}=\\frac{\\Delta x}{\\Delta t},\\quad v=\\lim_{\\Delta t\\to0}\\frac{\\Delta x}{\\Delta t}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "গড় ও তাৎক্ষণিক বেগ এর মূল সূত্রটি লেখো।",
+      "answer": "v_{\\text{avg}}=\\frac{\\Delta x}{\\Delta t},\\quad v=\\lim_{\\Delta t\\to0}\\frac{\\Delta x}{\\Delta t}"
+    }
+  ],
+  "memorize": {
+    "trick": "গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

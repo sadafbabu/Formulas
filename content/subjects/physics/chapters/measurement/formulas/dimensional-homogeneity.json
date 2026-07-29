@@ -1,0 +1,50 @@
+{
+  "id": "dimensional-homogeneity",
+  "chapter": "measurement",
+  "title": "Principle of Homogeneity",
+  "titleBn": "মাত্রিক সমসত্ত্বতার নীতি",
+  "summary": "প্রতিটি পদ একই মাত্রা",
+  "latex": "[\\text{LHS}]=[\\text{RHS}]\\quad\\text{(each term)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "প্রতিটি পদ একই মাত্রা",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "[\\text{LHS}]=[\\text{RHS}]\\quad\\text{(each term)}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "মাত্রিক সমসত্ত্বতার নীতি এর মূল সূত্রটি লেখো।",
+      "answer": "[\\text{LHS}]=[\\text{RHS}]\\quad\\text{(each term)}"
+    }
+  ],
+  "memorize": {
+    "trick": "যোগ/বিয়োগ শুধু একই মাত্রার রাশিতে; সমীকরণ যাচাইয়ে ব্যবহার।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}
