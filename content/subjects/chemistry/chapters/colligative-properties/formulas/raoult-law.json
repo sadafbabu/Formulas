@@ -53,7 +53,7 @@
   "questions": [
     {
       "examType": "HSC",
-      "question": "\\(x_A=0.4\\), \\(p_A^\\circ=2\\,\\mathrm{kPa}\\) হলে \\(p_A\\)?",
+      "question": "x_A=0.4, p_A^\\circ=2\\,\\mathrm{kPa} হলে p_A?",
       "answer": "0.8\\,\\mathrm{kPa}"
     },
     {

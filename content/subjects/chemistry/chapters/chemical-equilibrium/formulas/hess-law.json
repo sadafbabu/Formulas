@@ -42,7 +42,7 @@
   "questions": [
     {
       "examType": "HSC",
-      "question": "A→B এর \\(\\Delta H=10\\), B→C এর \\(\\Delta H=5\\) হলে A→C?",
+      "question": "A→B এর \\Delta H=10, B→C এর \\Delta H=5 হলে A→C?",
       "answer": "15\\ \\text{(একই একক)}"
     }
   ],

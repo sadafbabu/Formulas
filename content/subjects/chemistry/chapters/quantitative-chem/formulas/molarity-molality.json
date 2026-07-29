@@ -50,12 +50,12 @@
   "questions": [
     {
       "examType": "HSC",
-      "question": "\\(0.5\\,\\mathrm{mol}\\) দ্রব \\(2\\,\\mathrm{L}\\) দ্রবণে—মোলারিটি?",
+      "question": "0.5\\,\\mathrm{mol} দ্রব 2\\,\\mathrm{L} দ্রবণে—মোলারিটি?",
       "answer": "0.25\\,\\mathrm{M}"
     },
     {
       "examType": "Admission",
-      "question": "\\(0.2\\,\\mathrm{mol}\\) দ্রব \\(500\\,\\mathrm{g}\\) দ্রবকে—মোলালিটি?",
+      "question": "0.2\\,\\mathrm{mol} দ্রব 500\\,\\mathrm{g} দ্রবকে—মোলালিটি?",
       "answer": "0.4\\,\\mathrm{mol\\,kg^{-1}}"
     }
   ],

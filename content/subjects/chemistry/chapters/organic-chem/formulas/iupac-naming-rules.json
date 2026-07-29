@@ -61,7 +61,7 @@
     },
     {
       "examType": "Admission",
-      "question": "\\(\\mathrm{CH_3CH_2CH_3}\\) এর IUPAC নাম?",
+      "question": "\\mathrm{CH_3CH_2CH_3} এর IUPAC নাম?",
       "answer": "\\text{propane / প্রোপেন}"
     }
   ],

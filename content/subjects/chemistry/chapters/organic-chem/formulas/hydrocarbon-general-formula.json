@@ -56,7 +56,7 @@
     },
     {
       "examType": "Admission",
-      "question": "\\(\\mathrm{C_5H_{10}}\\) কোন শ্রেণি?",
+      "question": "\\mathrm{C_5H_{10}} কোন শ্রেণি?",
       "answer": "\\text{অ্যালকিন }(\\mathrm{C_nH_{2n}})"
     }
   ],

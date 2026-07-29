@@ -61,7 +61,7 @@
     },
     {
       "examType": "Admission",
-      "question": "কেন \\(\\mathrm{C_2H_6O}\\) দিয়ে যৌগের নাম নিশ্চিত করা যায় না?",
+      "question": "কেন \\mathrm{C_2H_6O} দিয়ে যৌগের নাম নিশ্চিত করা যায় না?",
       "answer": "\\text{আইসোমার: ইথানল }\\mathrm{CH_3CH_2OH}\\text{ ও ডাইমিথাইল ইথার }\\mathrm{CH_3OCH_3}"
     }
   ],

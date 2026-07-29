@@ -60,12 +60,12 @@
   "questions": [
     {
       "examType": "HSC",
-      "question": "\\(18\\,\\mathrm{g}\\) পানিতে কত মোল? (\\(M=18\\))",
+      "question": "18\\,\\mathrm{g} পানিতে কত মোল? (M=18)",
       "answer": "1\\,\\mathrm{mol}"
     },
     {
       "examType": "Admission",
-      "question": "\\(0.5\\,\\mathrm{mol}\\)-এ অণু সংখ্যা?",
+      "question": "0.5\\,\\mathrm{mol}-এ অণু সংখ্যা?",
       "answer": "3.011\\times10^{23}"
     }
   ],
