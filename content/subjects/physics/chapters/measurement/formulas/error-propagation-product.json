@@ -16,8 +16,8 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "Delta, z, x, y",
-      "meaning": "যোগ আপেক্ষিক ত্রুটি",
+      "symbol": "z, x, y",
+      "meaning": "গুণ/ভাগে ত্রুটি",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গুণ/ভাগে ত্রুটি এর সূত্রটি লেখো। (ইঙ্গিত: গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।)",
+      "question": "গুণ/ভাগে ত্রুটি সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।)",
       "answer": "\\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y)"
     }
   ],

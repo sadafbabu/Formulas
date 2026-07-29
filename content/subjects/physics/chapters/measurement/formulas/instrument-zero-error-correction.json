@@ -1,0 +1,60 @@
+{
+  "id": "instrument-zero-error-correction",
+  "chapter": "measurement",
+  "title": "Zero Error Correction",
+  "titleBn": "শূন্য ত্রুটি সংশোধন",
+  "summary": "সংশোধিত পাঠ = পরিমাপিত পাঠ − শূন্য ত্রুটি",
+  "latex": "\\text{corrected reading}=\\text{observed}-(\\pm e_0)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "e_0",
+      "meaning": "শূন্য ত্রুটি",
+      "unit": "যন্ত্রের একক"
+    }
+  ],
+  "derivation": {
+    "lead": "যন্ত্রের শূন্য মিল না থাকলে সব পাঠে শূন্য ত্রুটি সংশোধন করতে হয়।",
+    "steps": [
+      {
+        "title": "ধনাত্মক শূন্য ত্রুটি",
+        "latex": "e_0>0\\Rightarrow \\text{corrected}=\\text{observed}-e_0",
+        "note": "শূন্যের ডানে মিল → ধনাত্মক শূন্য ত্রুটি।"
+      },
+      {
+        "title": "ঋণাত্মক শূন্য ত্রুটি",
+        "latex": "e_0<0\\Rightarrow \\text{corrected}=\\text{observed}+|e_0|",
+        "note": "শূন্যের বামে মিল → ঋণাত্মক শূন্য ত্রুটি।"
+      }
+    ],
+    "assumptions": [
+      "ভার্নিয়ার/স্ক্রু গেজে শূন্য সংশোধন প্রযোজ্য"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "স্ক্রু গেজের পাঠ 5.28 mm ও ধনাত্মক শূন্য ত্রুটি 0.02 mm হলে প্রকৃত মান কত?",
+      "answer": "5.28-0.02=5.26\\ \\text{mm}"
+    }
+  ],
+  "memorize": {
+    "trick": "ধনাত্মক শূন্য ত্রুটি বিয়োগ; ঋণাত্মক হলে যোগ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "least-count-vernier",
+    "screw-gauge-least-count"
+  ]
+}

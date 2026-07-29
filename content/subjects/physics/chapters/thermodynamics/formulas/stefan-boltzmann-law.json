@@ -15,8 +15,8 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "P, sigma, A, T",
-      "meaning": "P=σAT⁴",
+      "symbol": "P, A, T",
+      "meaning": "স্টিফান-বোল্টজম্যান সূত্র",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্টিফান-বোল্টজম্যান সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: Radiated power ∝ T⁴; σ=5.67×10⁻⁸ W/m²K⁴।)",
+      "question": "স্টিফান-বোল্টজম্যান সূত্র সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: Radiated power ∝ T⁴; σ=5.67×10⁻⁸ W/m²K⁴।)",
       "answer": "P=\\sigma A T^4"
     }
   ],

@@ -1,0 +1,66 @@
+{
+  "id": "satellite-weightlessness",
+  "chapter": "gravitation",
+  "title": "Weightlessness in Satellite",
+  "titleBn": "উপগ্রহে ওজনহীনতা",
+  "summary": "অভিকর্ষই কেন্দ্রমুখী বল — আপাত ওজন শূন্য",
+  "latex": "N=0\\quad(\\text{orbital free fall})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "N",
+      "meaning": "আপাত ওজন / নর্মাল বল",
+      "unit": "N"
+    },
+    {
+      "symbol": "g'",
+      "meaning": "কক্ষপথে কার্যকরী g",
+      "unit": "m/s²"
+    }
+  ],
+  "derivation": {
+    "lead": "উপগ্রহ ও নভোচারী একই ত্বরণে মুক্তপতনে — পরস্পরের ওপর নর্মাল বল শূন্য।",
+    "steps": [
+      {
+        "title": "কেন্দ্রমুখী",
+        "latex": "\\frac{GMm}{r^2}=\\frac{mv^2}{r}",
+        "note": "অভিকর্ষই প্রয়োজনীয় বল।"
+      },
+      {
+        "title": "আপাত ওজন",
+        "latex": "W'=m(g-a)=0",
+        "note": "a = g (মুক্তপতন)।"
+      }
+    ],
+    "assumptions": [
+      "বৃত্তাকার কক্ষ; বায়ুঘর্ষণ নেই"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "উপগ্রহে ওজনহীনতা মানে কি অভিকর্ষ শূন্য?",
+      "answer": "\\text{না — অভিকর্ষ আছে; আপাত ওজন শূন্য}"
+    }
+  ],
+  "memorize": {
+    "trick": "ওজনহীনতা ≠ অভিকর্ষহীনতা; মুক্তপতন।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "orbital-velocity",
+    "satellite-energy",
+    "escape-velocity"
+  ]
+}

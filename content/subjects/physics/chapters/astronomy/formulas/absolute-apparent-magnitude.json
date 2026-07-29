@@ -16,8 +16,8 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "m, M, d, in pc",
-      "meaning": "m−M=5log(d/10)",
+      "symbol": "m, M, d, i",
+      "meaning": "দূরত্ব মডুলাস",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দূরত্ব মডুলাস এর সূত্রটি লেখো। (ইঙ্গিত: m=আপাত, M=পরম মান।)",
+      "question": "দূরত্ব মডুলাস সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: m=আপাত, M=পরম মান।)",
       "answer": "m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})"
     }
   ],

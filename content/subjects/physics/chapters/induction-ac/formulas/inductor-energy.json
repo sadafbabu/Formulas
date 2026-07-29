@@ -1,0 +1,66 @@
+{
+  "id": "inductor-energy",
+  "chapter": "induction-ac",
+  "title": "Energy Stored in Inductor",
+  "titleBn": "আবেশকে সঞ্চিত শক্তি",
+  "summary": "U = ½ LI²",
+  "latex": "U=\\tfrac12 L I^2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 190,
+  "symbols": [
+    {
+      "symbol": "L",
+      "meaning": "স্বয়ং আবেশ গুণাঙ্ক",
+      "unit": "H"
+    },
+    {
+      "symbol": "I",
+      "meaning": "প্রবাহ",
+      "unit": "A"
+    },
+    {
+      "symbol": "U",
+      "meaning": "চৌম্বক শক্তি",
+      "unit": "J"
+    }
+  ],
+  "derivation": {
+    "lead": "ধারকের ½CV²-এর চৌম্বক প্রতিরূপ।",
+    "steps": [
+      {
+        "title": "শক্তি",
+        "latex": "U=\\int\\mathcal{E}I\\,dt=\\tfrac12 LI^2",
+        "note": "ε = L dI/dt।"
+      }
+    ],
+    "assumptions": [
+      "রৈখিক আবেশক; কেবল L"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "L = 2 H, I = 3 A হলে সঞ্চিত শক্তি কত?",
+      "answer": "U=\\tfrac12\\times2\\times9=9\\ \\text{J}"
+    }
+  ],
+  "memorize": {
+    "trick": "ধারক ½CV²; আবেশক ½LI²।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "self-inductance",
+    "capacitor-energy",
+    "lr-cr-transient"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "sphere-shell-gravity",
+  "chapter": "gravitation",
+  "title": "Gravity of Sphere & Shell",
+  "titleBn": "গোলক ও খোলকের মহাকর্ষ",
+  "summary": "খোলকের বাইরে বিন্দু ভরের মতো; ভিতরে ক্ষেত্র শূন্য",
+  "latex": "g(r)=\\begin{cases}GM/r^2 & r\\ge R\\\\ 0 & \\text{shell }r<R\\\\ GMr/R^3 & \\text{solid }r\\le R\\end{cases}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "R",
+      "meaning": "ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "r",
+      "meaning": "কেন্দ্র থেকে দূরত্ব",
+      "unit": "m"
+    },
+    {
+      "symbol": "M",
+      "meaning": "মোট ভর",
+      "unit": "kg"
+    }
+  ],
+  "derivation": {
+    "lead": "গাউসের মহাকর্ষীয় রূপ: খোলকের ভিতরে ক্ষেত্র শূন্য; কঠিন গোলকের ভিতরে r অনুপাতে।",
+    "steps": [
+      {
+        "title": "খোলক বাইরে",
+        "latex": "g=GM/r^2",
+        "note": "বিন্দু ভরের মতো।"
+      },
+      {
+        "title": "খোলক ভিতরে",
+        "latex": "g=0",
+        "note": "নেট ক্ষেত্র বাতিল।"
+      },
+      {
+        "title": "কঠিন গোলক ভিতরে",
+        "latex": "g=GMr/R^3",
+        "note": "আবদ্ধ ভর ∝ r³।"
+      }
+    ],
+    "assumptions": [
+      "সমঘনত্ব; গোলীয় প্রতিসাম্য"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "পাতলা গোলীয় খোলকের কেন্দ্রে মহাকর্ষীয় ক্ষেত্রের মান কত?",
+      "answer": "0"
+    }
+  ],
+  "memorize": {
+    "trick": "খোলকের ভিতর g = 0; কঠিনে কেন্দ্রেও 0, পৃষ্ঠে সর্বোচ্চ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "newtons-gravitation",
+    "gravitational-intensity",
+    "acceleration-due-to-gravity"
+  ]
+}

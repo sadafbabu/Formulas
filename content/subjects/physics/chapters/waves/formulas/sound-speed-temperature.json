@@ -1,0 +1,65 @@
+{
+  "id": "sound-speed-temperature",
+  "chapter": "waves",
+  "title": "Sound Speed vs Temperature",
+  "titleBn": "তাপমাত্রায় শব্দের বেগ",
+  "summary": "v ∝ √T",
+  "latex": "\\dfrac{v_2}{v_1}=\\sqrt{\\dfrac{T_2}{T_1}},\\quad v_t=v_0\\sqrt{1+\\dfrac{t}{273}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "T",
+      "meaning": "পরম তাপমাত্রা",
+      "unit": "K"
+    },
+    {
+      "symbol": "t",
+      "meaning": "সেলসিয়াস তাপমাত্রা",
+      "unit": "°C"
+    }
+  ],
+  "derivation": {
+    "lead": "চাপ বাড়লে ρও বাড়ে — প্রধান প্রভাব তাপমাত্রা।",
+    "steps": [
+      {
+        "title": "অনুপাত",
+        "latex": "v\\propto\\sqrt{T}",
+        "note": "T কেলভিনে।"
+      },
+      {
+        "title": "০°C থেকে",
+        "latex": "v_t\\approx 331\\sqrt{1+t/273}\\ \\text{m/s}",
+        "note": "প্রায় 0.6 m/s প্রতি °C বৃদ্ধি।"
+      }
+    ],
+    "assumptions": [
+      "শুষ্ক বায়ু; আদর্শ গ্যাস আচরণ"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "0°C-এ 330 m/s হলে 27°C-এ আনুমানিক বেগ কত?",
+      "answer": "v=330\\sqrt{300/273}\\approx346\\ \\text{m/s}"
+    }
+  ],
+  "memorize": {
+    "trick": "তাপমাত্রা দ্বিগুণ (K) → বেগ √2 গুণ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "newton-laplace-sound",
+    "doppler-effect-general"
+  ]
+}

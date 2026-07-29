@@ -1,0 +1,70 @@
+{
+  "id": "time-dilation-length-contraction",
+  "chapter": "modern-physics",
+  "title": "Time Dilation & Length Contraction",
+  "titleBn": "কাল দীর্ঘায়ন ও দৈর্ঘ্য সংকোচন",
+  "summary": "Δt = γ Δt₀; L = L₀/γ",
+  "latex": "\\Delta t=\\gamma\\Delta t_0,\\quad L=L_0\\sqrt{1-v^2/c^2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 200,
+  "symbols": [
+    {
+      "symbol": "\\Delta t_0",
+      "meaning": "প্রকৃত সময়",
+      "unit": "s"
+    },
+    {
+      "symbol": "L_0",
+      "meaning": "প্রকৃত দৈর্ঘ্য",
+      "unit": "m"
+    },
+    {
+      "symbol": "v",
+      "meaning": "আপেক্ষিক বেগ",
+      "unit": "m/s"
+    }
+  ],
+  "derivation": {
+    "lead": "চলমান ঘড়ি ধীর; চলমান দণ্ড গতির দিকে ছোট।",
+    "steps": [
+      {
+        "title": "কাল",
+        "latex": "\\Delta t=\\gamma\\Delta t_0",
+        "note": "প্রকৃত সময় স্থির ঘড়িতে।"
+      },
+      {
+        "title": "দৈর্ঘ্য",
+        "latex": "L=L_0/\\gamma",
+        "note": "শুধু গতির সমান্তরালে।"
+      }
+    ],
+    "assumptions": [
+      "জড় কাঠামো; বিশেষ আপেক্ষিকতা"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "গতির লম্ব দিকে দৈর্ঘ্য সংকোচন হয় কি?",
+      "answer": "\\text{না — শুধু সমান্তরালে}"
+    }
+  ],
+  "memorize": {
+    "trick": "চলমান ঘড়ি ধীর; চলমান দণ্ড ছোট।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "relativistic-energy-momentum",
+    "mass-energy-photoelectric"
+  ]
+}

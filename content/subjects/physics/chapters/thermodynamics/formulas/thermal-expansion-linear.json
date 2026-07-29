@@ -16,8 +16,8 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "Delta, L, alpha, T",
-      "meaning": "ΔL=αLΔT",
+      "symbol": "L, T",
+      "meaning": "রৈখিক প্রসারণ",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রৈখিক প্রসারণ এর সূত্রটি লেখো। (ইঙ্গিত: γ = 3α; আয়তন প্রসারণ তিনগুণ রৈখিক।)",
+      "question": "রৈখিক প্রসারণ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: γ = 3α; আয়তন প্রসারণ তিনগুণ রৈখিক।)",
       "answer": "\\Delta L=\\alpha L\\Delta T,\\quad \\gamma=3\\alpha"
     }
   ],

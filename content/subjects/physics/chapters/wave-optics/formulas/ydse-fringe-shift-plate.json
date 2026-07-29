@@ -1,0 +1,76 @@
+{
+  "id": "ydse-fringe-shift-plate",
+  "chapter": "wave-optics",
+  "title": "YDSE Fringe Shift by Thin Plate",
+  "titleBn": "পাতলা পাতের YDSE ডোরা সরণ",
+  "summary": "সরণ = (μ − 1)t D/d",
+  "latex": "\\Delta y=\\dfrac{(\\mu-1)t\\,D}{d}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "t",
+      "meaning": "পাতের পুরুত্ব",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\mu",
+      "meaning": "পাতের প্রতিসরাঙ্ক",
+      "unit": "—"
+    },
+    {
+      "symbol": "D",
+      "meaning": "স্লিট থেকে পর্দা",
+      "unit": "m"
+    },
+    {
+      "symbol": "d",
+      "meaning": "স্লিট ব্যবধান",
+      "unit": "m"
+    }
+  ],
+  "derivation": {
+    "lead": "এক পথে অপটিক্যাল পথ বাড়লে পুরো প্যাটার্ন সরে।",
+    "steps": [
+      {
+        "title": "পথ বৃদ্ধি",
+        "latex": "(\\mu-1)t",
+        "note": "বায়ুর বদলে কাচ।"
+      },
+      {
+        "title": "সরণ",
+        "latex": "\\Delta y=(\\mu-1)t\\cdot D/d",
+        "note": "যে পথে পাত, সেদিকে কেন্দ্র সরে।"
+      }
+    ],
+    "assumptions": [
+      "পাতলা পাত; এক স্লিটের সামনে"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET",
+      "question": "YDSE-এ পাতলা পাত বসালে কেন্দ্রীয় উজ্জ্বল ডোরা কোন দিকে সরে?",
+      "answer": "\\text{যে স্লিটের সামনে পাত সেদিকে}"
+    }
+  ],
+  "memorize": {
+    "trick": "সরণ = (μ−1)t · (D/d)।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "youngs-double-slit",
+    "interference-conditions",
+    "optical-path-phase"
+  ]
+}

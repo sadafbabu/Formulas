@@ -16,8 +16,8 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "Delta, P, soap, T",
-      "meaning": "4T/r soap, 2T/r air",
+      "symbol": "P, s, o, a",
+      "meaning": "বুদবুদে অতিরিক্ত চাপ",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -30,12 +30,14 @@
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বুদবুদে অতিরিক্ত চাপ এর সূত্রটি লেখো। (ইঙ্গিত: সাবান বুদবুদ দুই তল → 4T/r; বায়ু বুদবুদ এক তল → 2T/r।)",
+      "question": "বুদবুদে অতিরিক্ত চাপ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: সাবান বুদবুদ দুই তল → 4T/r; বায়ু বুদবুদ এক তল → 2T/r।)",
       "answer": "\\Delta P_{\\text{soap}}=\\frac{4T}{r},\\quad \\Delta P_{\\text{air bubble}}=\\frac{2T}{r}"
     }
   ],

@@ -1,0 +1,71 @@
+{
+  "id": "rydberg-formula",
+  "chapter": "modern-physics",
+  "title": "Rydberg Formula",
+  "titleBn": "রিডবার্গ সূত্র",
+  "summary": "হাইড্রোজেন বর্ণালির তরঙ্গ সংখ্যা",
+  "latex": "\\dfrac{1}{\\lambda}=R\\left(\\dfrac{1}{n_1^2}-\\dfrac{1}{n_2^2}\\right)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 180,
+  "symbols": [
+    {
+      "symbol": "R",
+      "meaning": "রিডবার্গ ধ্রুবক",
+      "unit": "m⁻¹"
+    },
+    {
+      "symbol": "n_1,n_2",
+      "meaning": "স্তর সংখ্যা (n₂ > n₁)",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "n₂ → n₁ অবক্ষয়ে নির্দিষ্ট তরঙ্গদৈর্ঘ্য।",
+    "steps": [
+      {
+        "title": "লাইম্যান",
+        "latex": "n_1=1\\ (\\text{UV})",
+        "note": "গ্রাউন্ড স্টেটে।"
+      },
+      {
+        "title": "বালমার",
+        "latex": "n_1=2\\ (\\text{দৃশ্য})",
+        "note": "Hα, Hβ…"
+      },
+      {
+        "title": "পাসচেন",
+        "latex": "n_1=3\\ (\\text{IR})",
+        "note": "অবলোহিত।"
+      }
+    ],
+    "assumptions": [
+      "হাইড্রোজেনসদৃশ; নিশ্চল নিউক্লিয়াস"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "বালমার সিরিজে n₁ কত?",
+      "answer": "n_1=2"
+    }
+  ],
+  "memorize": {
+    "trick": "লাইম্যান 1, বালমার 2, পাসচেন 3।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "bohr-energy-levels",
+    "bohr-frequency-condition",
+    "bohr-radius-hydrogen"
+  ]
+}

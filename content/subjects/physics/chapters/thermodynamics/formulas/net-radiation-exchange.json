@@ -1,0 +1,65 @@
+{
+  "id": "net-radiation-exchange",
+  "chapter": "thermodynamics",
+  "title": "Net Radiation Exchange",
+  "titleBn": "নিট তাপীয় বিকিরণ",
+  "summary": "P_net = εσA(T⁴ − T₀⁴)",
+  "latex": "P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 200,
+  "symbols": [
+    {
+      "symbol": "T",
+      "meaning": "বস্তুর তাপমাত্রা",
+      "unit": "K"
+    },
+    {
+      "symbol": "T_0",
+      "meaning": "পারিপার্শ্বিক তাপমাত্রা",
+      "unit": "K"
+    },
+    {
+      "symbol": "e",
+      "meaning": "উৎসরতা",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "বিকিরণ ও শোষণ দুটোই চলে — নিট = পার্থক্য।",
+    "steps": [
+      {
+        "title": "নিট ক্ষমতা",
+        "latex": "P=e\\sigma A(T^4-T_0^4)",
+        "note": "T > T₀ হলে শীতল হয়।"
+      }
+    ],
+    "assumptions": [
+      "কৃষ্ণবস্তুর কাছাকাছি; ε = absorptivity"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "পারিপার্শ্বিকের সমান তাপমাত্রায় নিট বিকিরণ কত?",
+      "answer": "0\\ (T=T_0)"
+    }
+  ],
+  "memorize": {
+    "trick": "T⁴ − T₀⁴ — শুধু T⁴ নয়।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "stefan-boltzmann-law",
+    "wiens-displacement-law"
+  ]
+}

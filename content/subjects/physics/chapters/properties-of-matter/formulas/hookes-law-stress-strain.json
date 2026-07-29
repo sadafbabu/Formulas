@@ -16,8 +16,8 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "F, A, Y, Delta",
-      "meaning": "stress∝strain",
+      "symbol": "F, A, Y, L",
+      "meaning": "হুকের সূত্র",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -30,12 +30,14 @@
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "হুকের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: স্থিতিস্থাপক সীমায় stress = Y × strain।)",
+      "question": "হুকের সূত্র সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: স্থিতিস্থাপক সীমায় stress = Y × strain।)",
       "answer": "\\frac{F}{A}=Y\\frac{\\Delta L}{L}"
     }
   ],

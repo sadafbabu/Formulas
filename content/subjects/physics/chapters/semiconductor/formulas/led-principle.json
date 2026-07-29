@@ -17,7 +17,7 @@
   "symbols": [
     {
       "symbol": "E, g, h, c",
-      "meaning": "recombination photon",
+      "meaning": "LED নীতি",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "LED নীতি এর সূত্রটি লেখো। (ইঙ্গিত: ব্যান্ড গ্যাপ = ফোটন শক্তি; রঙ Eg দিয়ে নির্ধারিত।)",
+      "question": "LED নীতি সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: ব্যান্ড গ্যাপ = ফোটন শক্তি; রঙ Eg দিয়ে নির্ধারিত।)",
       "answer": "E_g=\\frac{hc}{\\lambda}"
     }
   ],

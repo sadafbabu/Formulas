@@ -16,8 +16,8 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "v, omega, R, a",
-      "meaning": "বিশুদ্ধ গড়ানে রৈখিক ও কৌণিক সম্পর্ক এবং মোট KE",
+      "symbol": "v, R, a, K",
+      "meaning": "বিশুদ্ধ গড়ান",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -30,12 +30,14 @@
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিশুদ্ধ গড়ান এর সূত্রটি লেখো। (ইঙ্গিত: বিশুদ্ধ গড়ান: v=ωR; KE = অনুবাদ + ঘূর্ণন।)",
+      "question": "বিশুদ্ধ গড়ান সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: বিশুদ্ধ গড়ান: v=ωR; KE = অনুবাদ + ঘূর্ণন।)",
       "answer": "v=\\omega R,\\quad a=\\alpha R,\\quad K=\\tfrac12 mv^2+\\tfrac12 I\\omega^2=\\tfrac12 mv^2\\big(1+\\tfrac{k^2}{R^2}\\big)"
     }
   ],

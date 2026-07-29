@@ -1,0 +1,70 @@
+{
+  "id": "apparent-weight-elevator",
+  "chapter": "dynamics",
+  "title": "Apparent Weight in an Elevator",
+  "titleBn": "লিফটে আপাত ওজন",
+  "summary": "উঠতে W′ = m(g+a), নামতে W′ = m(g−a)",
+  "latex": "W'=m(g\\pm a)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 170,
+  "symbols": [
+    {
+      "symbol": "W'",
+      "meaning": "আপাত ওজন / নর্মাল বল",
+      "unit": "N"
+    },
+    {
+      "symbol": "a",
+      "meaning": "লিফটের ত্বরণ",
+      "unit": "m/s²"
+    }
+  ],
+  "derivation": {
+    "lead": "লিফটের ত্বরণের দিক অনুসারে আপাত ওজন বাড়ে বা কমে।",
+    "steps": [
+      {
+        "title": "উর্ধ্ব ত্বরণ",
+        "latex": "N-mg=ma\\Rightarrow N=m(g+a)",
+        "note": "উঠতে ভারী লাগে।"
+      },
+      {
+        "title": "নিম্ন ত্বরণ",
+        "latex": "mg-N=ma\\Rightarrow N=m(g-a)",
+        "note": "নামতে হালকা লাগে।"
+      },
+      {
+        "title": "মুক্তপতন",
+        "latex": "a=g\\Rightarrow N=0",
+        "note": "ওজনহীনতা।"
+      }
+    ],
+    "assumptions": [
+      "লিফটের মেঝেতে দাঁড়ানো; বায়ু বাধা নেই"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET",
+      "question": "60 kg ব্যক্তি 2 m/s² ত্বরণে উঠছে। আপাত ওজন কত? (g = 10)",
+      "answer": "N=60(10+2)=720\\ \\text{N}"
+    }
+  ],
+  "memorize": {
+    "trick": "উঠলে +a, নামলে −a; মুক্তপতনে N = 0।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "newtons-laws",
+    "friction"
+  ]
+}

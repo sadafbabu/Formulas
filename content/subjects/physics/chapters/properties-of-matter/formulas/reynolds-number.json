@@ -1,0 +1,71 @@
+{
+  "id": "reynolds-number",
+  "chapter": "properties-of-matter",
+  "title": "Reynolds Number",
+  "titleBn": "রেনল্ডস সংখ্যা",
+  "summary": "প্রবাহ স্তরিত না বিশৃঙ্খল নির্দেশক",
+  "latex": "R_e=\\dfrac{\\rho vd}{\\eta}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 170,
+  "symbols": [
+    {
+      "symbol": "R_e",
+      "meaning": "রেনল্ডস সংখ্যা",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "\\eta",
+      "meaning": "সান্দ্রতা গুণাঙ্ক",
+      "unit": "Pa·s"
+    },
+    {
+      "symbol": "d",
+      "meaning": "বৈশিষ্ট্য দৈর্ঘ্য/ব্যাস",
+      "unit": "m"
+    }
+  ],
+  "derivation": {
+    "lead": "Re ছোট → স্তরিত; বড় → টার্বুলেন্ট।",
+    "steps": [
+      {
+        "title": "সংজ্ঞা",
+        "latex": "R_e=\\rho vd/\\eta",
+        "note": "জড় বল / সান্দ্র বল।"
+      },
+      {
+        "title": "সীমা (নলে)",
+        "latex": "R_e<2000\\ \\text{স্তরিত};\\ >4000\\ \\text{বিশৃঙ্খল}",
+        "note": "মাঝে পরিবর্তনশীল।"
+      }
+    ],
+    "assumptions": [
+      "নল/প্রবাহের বৈশিষ্ট্য দৈর্ঘ্য d"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "রেনল্ডস সংখ্যার সূত্র কী?",
+      "answer": "R_e=\\rho v d/\\eta"
+    }
+  ],
+  "memorize": {
+    "trick": "Re = ρvd/η — সান্দ্রতা বাড়লে Re কমে।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "stokes-law",
+    "poiseuille-law",
+    "bernoulli-equation"
+  ]
+}

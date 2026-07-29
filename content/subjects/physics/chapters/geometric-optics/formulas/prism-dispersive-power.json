@@ -1,0 +1,65 @@
+{
+  "id": "prism-dispersive-power",
+  "chapter": "geometric-optics",
+  "title": "Dispersive Power of Prism",
+  "titleBn": "প্রিজমের বিচ্ছুরণ ক্ষমতা",
+  "summary": "ω = (μv − μr)/(μy − 1)",
+  "latex": "\\omega=\\dfrac{\\mu_v-\\mu_r}{\\mu-1}=\\dfrac{\\delta_v-\\delta_r}{\\delta}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 180,
+  "symbols": [
+    {
+      "symbol": "\\mu_v,\\mu_r",
+      "meaning": "বেগুনি ও লালের প্রতিসরাঙ্ক",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\omega",
+      "meaning": "বিচ্ছুরণ ক্ষমতা",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "কৌণিক বিচ্ছুরণ / গড় বিচ্যুতি = বিচ্ছুরণ ক্ষমতা।",
+    "steps": [
+      {
+        "title": "বিচ্যুতি",
+        "latex": "\\delta=(\\mu-1)A",
+        "note": "পাতলা প্রিজম।"
+      },
+      {
+        "title": "বিচ্ছুরণ",
+        "latex": "\\delta_v-\\delta_r=(\\mu_v-\\mu_r)A",
+        "note": "ω = (δv−δr)/δ।"
+      }
+    ],
+    "assumptions": [
+      "পাতলা প্রিজম; ক্ষুদ্র কোণ"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "বিচ্ছুরণ ক্ষমতার সূত্র কী?",
+      "answer": "\\omega=(\\mu_v-\\mu_r)/(\\mu-1)"
+    }
+  ],
+  "memorize": {
+    "trick": "(μv−μr) ÷ (μ−1) — উপাদানের ধর্ম।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "prism-deviation",
+    "snell-law"
+  ]
+}

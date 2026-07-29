@@ -1,0 +1,71 @@
+{
+  "id": "vertical-motion-gravity",
+  "chapter": "motion-kinematics",
+  "title": "Vertical Motion under Gravity",
+  "titleBn": "অভিকর্ষে উল্লম্ব গতি",
+  "summary": "উল্লম্ব নিক্ষেপ ও মুক্তপতনের সূত্র",
+  "latex": "v=u-gt,\\quad h=ut-\\tfrac12 gt^2,\\quad v^2=u^2-2gh",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "u",
+      "meaning": "প্রাথমিক বেগ (উর্ধ্বমুখী +)",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "g",
+      "meaning": "অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²"
+    },
+    {
+      "symbol": "h",
+      "meaning": "উচ্চতা/সরণ",
+      "unit": "m"
+    }
+  ],
+  "derivation": {
+    "lead": "উর্ধ্বমুখী ধনাত্মক নিলে অভিকর্ষ −g; সর্বোচ্চ উচ্চতায় v = 0।",
+    "steps": [
+      {
+        "title": "সর্বোচ্চ উচ্চতা",
+        "latex": "H=\\frac{u^2}{2g}",
+        "note": "v=0 বসিয়ে।"
+      },
+      {
+        "title": "মোট সময় (উঠা–নামা)",
+        "latex": "T=\\frac{2u}{g}",
+        "note": "একই বিন্দুতে ফিরতে।"
+      }
+    ],
+    "assumptions": [
+      "বায়ু বাধা নেই; g ধ্রুব"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "20 m/s বেগে উল্লম্বে নিক্ষেপ করলে সর্বোচ্চ উচ্চতা কত? (g = 10 m/s²)",
+      "answer": "H=\\frac{20^2}{2\\times10}=20\\ \\text{m}"
+    }
+  ],
+  "memorize": {
+    "trick": "H = u²/(2g); মোট সময় = 2u/g।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "kinematic-equation-v2",
+    "kinematic-equation-s",
+    "projectile-motion"
+  ]
+}

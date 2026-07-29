@@ -1,0 +1,71 @@
+{
+  "id": "helical-path-magnetic",
+  "chapter": "magnetic-current",
+  "title": "Helical Path in Magnetic Field",
+  "titleBn": "চৌম্বক ক্ষেত্রে হেলিক্স পথ",
+  "summary": "সমান্তরাল উপাংশ অপরিবর্তিত; লম্ব উপাংশে বৃত্ত",
+  "latex": "r=\\dfrac{mv_\\perp}{qB},\\quad T=\\dfrac{2\\pi m}{qB},\\quad p=v_\\parallel T",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 370,
+  "symbols": [
+    {
+      "symbol": "v_\\perp",
+      "meaning": "B-এর লম্ব বেগ উপাংশ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "v_\\parallel",
+      "meaning": "B-এর সমান্তরাল উপাংশ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "p",
+      "meaning": "পিচ",
+      "unit": "m"
+    }
+  ],
+  "derivation": {
+    "lead": "θ কোণে প্রবেশ করলে পথ হেলিক্স — বৃত্ত + অক্ষীয় গতি।",
+    "steps": [
+      {
+        "title": "ব্যাসার্ধ",
+        "latex": "r=mv\\sin\\theta/(qB)",
+        "note": "v_⊥ = v sinθ।"
+      },
+      {
+        "title": "পিচ",
+        "latex": "p=v\\cos\\theta\\cdot T",
+        "note": "এক পাক্কে অক্ষীয় অগ্রগতি।"
+      }
+    ],
+    "assumptions": [
+      "অভিন্ন B; শুধু চৌম্বক বল"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "B-এর সমান্তরালে চার্জ ছাড়লে পথ কী?",
+      "answer": "\\text{সরলরেখা (F=0)}"
+    }
+  ],
+  "memorize": {
+    "trick": "সমান্তরাল → সরল; লম্ব → বৃত্ত; কোণ → হেলিক্স।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "lorentz",
+    "cyclotron-radius",
+    "cyclotron-freq"
+  ]
+}

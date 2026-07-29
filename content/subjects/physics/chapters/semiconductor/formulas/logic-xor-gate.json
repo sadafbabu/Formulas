@@ -17,7 +17,7 @@
   "symbols": [
     {
       "symbol": "A, oplus, B, overline",
-      "meaning": "A⊕B",
+      "meaning": "XOR গেট",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "XOR গেট এর সূত্রটি লেখো। (ইঙ্গিত: একই হলে ০; ভিন্ন হলে ১।)",
+      "question": "XOR গেট সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: একই হলে ০; ভিন্ন হলে ১।)",
       "answer": "A\\oplus B=A\\overline{B}+\\overline{A}B"
     }
   ],

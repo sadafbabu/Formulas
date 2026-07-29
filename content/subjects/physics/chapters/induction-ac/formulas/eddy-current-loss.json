@@ -16,8 +16,8 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "P, eddy, B, f",
-      "meaning": "laminated core",
+      "symbol": "P, e, d, y",
+      "meaning": "এডি কারেন্ট",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "এডি কারেন্ট এর সূত্রটি লেখো। (ইঙ্গিত: পাতলা স্তরে কোর কাটো → এডি লস কমে।)",
+      "question": "এডি কারেন্ট সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: পাতলা স্তরে কোর কাটো → এডি লস কমে।)",
       "answer": "P_{\\text{eddy}}\\propto B^2f^2t^2"
     }
   ],

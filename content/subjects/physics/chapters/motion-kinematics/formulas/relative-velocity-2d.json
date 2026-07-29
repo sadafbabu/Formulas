@@ -1,0 +1,66 @@
+{
+  "id": "relative-velocity-2d",
+  "chapter": "motion-kinematics",
+  "title": "Two-Dimensional Relative Velocity",
+  "titleBn": "দ্বিমাত্রিক আপেক্ষিক বেগ",
+  "summary": "\\(\\vec v_{AB}=\\vec v_A-\\vec v_B\\)",
+  "latex": "\\vec v_{AB}=\\vec v_A-\\vec v_B",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "\\vec v_A",
+      "meaning": "A-এর বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "\\vec v_{AB}",
+      "meaning": "B-এর সাপেক্ষে A-এর বেগ",
+      "unit": "m/s"
+    }
+  ],
+  "derivation": {
+    "lead": "B-এর সাপেক্ষে A দেখতে B-এর বেগ বিয়োগ করো।",
+    "steps": [
+      {
+        "title": "ভেক্টর বিয়োগ",
+        "latex": "\\vec v_{AB}=\\vec v_A-\\vec v_B",
+        "note": "উপাংশে ভাঙে হিসাব সহজ।"
+      },
+      {
+        "title": "মান",
+        "latex": "|\\vec v_{AB}|=\\sqrt{(v_{Ax}-v_{Bx})^2+(v_{Ay}-v_{By})^2}",
+        "note": "দিক tan⁻¹ দিয়ে।"
+      }
+    ],
+    "assumptions": [
+      "জড় কাঠামো; একই সময়ে পরিমাপ"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "A পূর্বে 3 m/s, B উত্তরে 4 m/s। B-এর সাপেক্ষে A-এর বেগের মান কত?",
+      "answer": "|\\vec v_{AB}|=\\sqrt{3^2+(-4)^2}=5\\ \\text{m/s}"
+    }
+  ],
+  "memorize": {
+    "trick": "আপেক্ষিক বেগ = নিজের − অন্যের।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "relative-velocity-1d",
+    "river-boat-crossing",
+    "rain-man-relative"
+  ]
+}

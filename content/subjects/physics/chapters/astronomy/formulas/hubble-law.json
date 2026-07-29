@@ -3,52 +3,73 @@
   "chapter": "astronomy",
   "title": "Hubble's Law",
   "titleBn": "হাবলের সূত্র",
-  "summary": "v=H₀d",
+  "summary": "ছায়াপথের দূরত্বের সাথে প্রত্যাগমন বেগ সমানুপাতিক",
   "latex": "v=H_0 d",
   "tags": [
     "hsc",
     "eng-admission",
     "medical",
     "varsity",
-    "2-star"
+    "3-star"
   ],
-  "importance": 2,
+  "importance": 3,
   "order": 30,
   "symbols": [
     {
-      "symbol": "v, H, d",
-      "meaning": "v=H₀d",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "v",
+      "meaning": "প্রত্যাগমন বেগ",
+      "unit": "km/s"
+    },
+    {
+      "symbol": "H_0",
+      "meaning": "হাবল ধ্রুবক",
+      "unit": "km/s/Mpc"
+    },
+    {
+      "symbol": "d",
+      "meaning": "দূরত্ব",
+      "unit": "Mpc"
     }
   ],
   "derivation": {
-    "lead": "দূরত্ব বাড়লে মহাবিশ্ব সম্প্রসারণ বেগ বাড়ে।",
+    "lead": "মহাবিশ্ব সম্প্রসারণে দূর ছায়াপথ দ্রুত সরে — হাবলের সূত্র।",
     "steps": [
       {
-        "title": "মূল সূত্র",
+        "title": "সূত্র",
         "latex": "v=H_0 d",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "নিম্ন লোহিত সরণে প্রযোজ্য।"
+      },
+      {
+        "title": "বয়স আভাস",
+        "latex": "t_H\\approx1/H_0",
+        "note": "হাবল সময় ≈ মহাবিশ্বের বয়স।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "হাবল প্রবাহ প্রধান",
+      "নিম্ন z"
+    ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "হাবলের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: দূরত্ব বাড়লে মহাবিশ্ব সম্প্রসারণ বেগ বাড়ে।)",
-      "answer": "v=H_0 d"
+      "examType": "HSC",
+      "question": "H₀ = 70 km/s/Mpc ও d = 10 Mpc হলে v কত?",
+      "answer": "v=70\\times10=700\\ \\text{km/s}"
     }
   ],
   "memorize": {
-    "trick": "দূরত্ব বাড়লে মহাবিশ্ব সম্প্রসারণ বেগ বাড়ে।",
-    "steps": []
+    "trick": "দূরত্ব বাড়লে প্রত্যাগমন বেগ বাড়ে — v = H₀d।",
+    "steps": [
+      "v সমানুপাতিক d",
+      "H₀ ≈ 70 km/s/Mpc"
+    ]
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "light-year-au",
-    "solar-luminosity-flux",
-    "parallax-distance"
+    "cosmological-redshift",
+    "parallax-distance",
+    "hubble-recession-law"
   ]
 }

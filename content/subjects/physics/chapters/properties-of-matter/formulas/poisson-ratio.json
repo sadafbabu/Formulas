@@ -1,0 +1,66 @@
+{
+  "id": "poisson-ratio",
+  "chapter": "properties-of-matter",
+  "title": "Poisson's Ratio",
+  "titleBn": "পয়সনের অনুপাত",
+  "summary": "পার্শ্বীয় বিকৃতি / দৈর্ঘ্যিক বিকৃতি",
+  "latex": "\\sigma=-\\dfrac{\\text{lateral strain}}{\\text{longitudinal strain}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 160,
+  "symbols": [
+    {
+      "symbol": "\\sigma",
+      "meaning": "পয়সন অনুপাত",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "\\Delta D/D",
+      "meaning": "পার্শ্বীয় বিকৃতি",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "টান দিলে লম্বা হয় ও চিকন হয় — অনুপাতই পয়সন।",
+    "steps": [
+      {
+        "title": "সংজ্ঞা",
+        "latex": "\\sigma=\\dfrac{\\Delta D/D}{\\Delta L/L}",
+        "note": "ঋণ চিহ্ন প্রায়ই বাদ দিয়ে মান নেওয়া হয়।"
+      },
+      {
+        "title": "সীমা",
+        "latex": "0<\\sigma<0.5",
+        "note": "আদর্শ অসংকোচনযোগ্যে σ → 0.5।"
+      }
+    ],
+    "assumptions": [
+      "ইলাস্টিক সীমা; সমসত্ব পদার্থ"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "দৈর্ঘ্যিক বিকৃতি 0.02 ও ব্যাসের বিকৃতি 0.005 হলে σ কত?",
+      "answer": "\\sigma=0.005/0.02=0.25"
+    }
+  ],
+  "memorize": {
+    "trick": "পার্শ্ব ÷ দৈর্ঘ্য — সাধারণত 0.2–0.4।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "youngs-modulus",
+    "bulk-shear-modulus",
+    "hookes-law-stress-strain"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "transistor-current-gains",
+  "chapter": "semiconductor",
+  "title": "Transistor α and β Relation",
+  "titleBn": "ট্রানজিস্টর α–β সম্পর্ক",
+  "summary": "β = α/(1−α)",
+  "latex": "\\beta=\\dfrac{\\alpha}{1-\\alpha},\\quad \\alpha=\\dfrac{\\beta}{1+\\beta},\\quad I_E=I_B+I_C",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 150,
+  "symbols": [
+    {
+      "symbol": "\\alpha",
+      "meaning": "I_C/I_E",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\beta",
+      "meaning": "I_C/I_B",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "α ≈ 0.98–0.99; β সাধারণত 50–200।",
+    "steps": [
+      {
+        "title": "সংজ্ঞা",
+        "latex": "\\alpha=I_C/I_E,\\ \\beta=I_C/I_B",
+        "note": "CE-তে β।"
+      },
+      {
+        "title": "সম্পর্ক",
+        "latex": "\\beta=\\alpha/(1-\\alpha)",
+        "note": "I_E = I_B + I_C থেকে।"
+      }
+    ],
+    "assumptions": [
+      "সক্রিয় অঞ্চল; npn/pnp"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "α = 0.98 হলে β কত?",
+      "answer": "\\beta=0.98/0.02=49"
+    }
+  ],
+  "memorize": {
+    "trick": "β = α/(1−α) — α 1-এর কাছে হলে β বড়।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "transistor-alpha-beta",
+    "transistor-ce-relations",
+    "amplifier-gain"
+  ]
+}

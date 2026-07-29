@@ -16,8 +16,8 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "E, sigma, varepsilon",
-      "meaning": "E=σ/2ε₀",
+      "symbol": "E, varepsilon",
+      "meaning": "অসীম পাতের ক্ষেত্র",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অসীম পাতের ক্ষেত্র এর সূত্রটি লেখো। (ইঙ্গিত: অসীম চার্জিত পাত; দূরত্ব-নির্ভর নয়।)",
+      "question": "অসীম পাতের ক্ষেত্র সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: অসীম চার্জিত পাত; দূরত্ব-নির্ভর নয়।)",
       "answer": "E=\\frac{\\sigma}{2\\varepsilon_0}"
     }
   ],

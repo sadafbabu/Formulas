@@ -1,0 +1,65 @@
+{
+  "id": "wiens-displacement-law",
+  "chapter": "thermodynamics",
+  "title": "Wien's Displacement Law",
+  "titleBn": "ভিয়েনের স্থানচ্যুতি সূত্র",
+  "summary": "λ_max T = b",
+  "latex": "\\lambda_{\\max} T=b\\approx2.90\\times10^{-3}\\ \\text{m·K}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 190,
+  "symbols": [
+    {
+      "symbol": "\\lambda_{\\max}",
+      "meaning": "সর্বোচ্চ তীব্রতার তরঙ্গদৈর্ঘ্য",
+      "unit": "m"
+    },
+    {
+      "symbol": "T",
+      "meaning": "পরম তাপমাত্রা",
+      "unit": "K"
+    },
+    {
+      "symbol": "b",
+      "meaning": "ভিয়েন ধ্রুবক",
+      "unit": "m·K"
+    }
+  ],
+  "derivation": {
+    "lead": "গরম হলে বিকিরণের চূড়া ছোট তরঙ্গদৈর্ঘ্যে সরে।",
+    "steps": [
+      {
+        "title": "সূত্র",
+        "latex": "\\lambda_{\\max}=b/T",
+        "note": "T বাড়লে λ_max কমে।"
+      }
+    ],
+    "assumptions": [
+      "কৃষ্ণবস্তু বিকিরণ"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "সূর্যের পৃষ্ঠ ~5800 K। λ_max আনুমানিক কত?",
+      "answer": "\\lambda_{\\max}\\approx2.9\\times10^{-3}/5800\\approx500\\ \\text{nm}"
+    }
+  ],
+  "memorize": {
+    "trick": "গরম → নীলচে; ঠান্ডা → লালচে।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "stefan-boltzmann-law",
+    "newton-cooling"
+  ]
+}

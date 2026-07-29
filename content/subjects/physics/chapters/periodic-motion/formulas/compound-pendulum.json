@@ -16,8 +16,8 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "T, pi, sqrt, I",
-      "meaning": "ভৌত দোলকের পর্যায়কাল",
+      "symbol": "T, I, m, g",
+      "meaning": "যৌগিক দোলক",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -30,12 +30,14 @@
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "যৌগিক দোলক এর সূত্রটি লেখো। (ইঙ্গিত: I = mk²; সমতুল্য দৈর্ঘ্য L_eq=(k²+d²)/d।)",
+      "question": "যৌগিক দোলক সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: I = mk²; সমতুল্য দৈর্ঘ্য L_eq=(k²+d²)/d।)",
       "answer": "T=2\\pi\\sqrt{\\frac{I}{mgd}}=2\\pi\\sqrt{\\frac{k^2+d^2}{gd}}"
     }
   ],

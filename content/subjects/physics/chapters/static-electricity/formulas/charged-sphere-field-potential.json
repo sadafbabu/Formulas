@@ -1,0 +1,76 @@
+{
+  "id": "charged-sphere-field-potential",
+  "chapter": "static-electricity",
+  "title": "Field & Potential of Charged Sphere",
+  "titleBn": "আহিত গোলকের ক্ষেত্র ও বিভব",
+  "summary": "বাইরে বিন্দু চার্জের মতো; পরিবাহীর ভিতরে E = 0",
+  "latex": "E=\\dfrac{kq}{r^2}\\ (r\\ge R);\\quad E=0\\ (r<R\\ \\text{conductor})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 150,
+  "symbols": [
+    {
+      "symbol": "R",
+      "meaning": "গোলকের ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "q",
+      "meaning": "মোট চার্জ",
+      "unit": "C"
+    },
+    {
+      "symbol": "V",
+      "meaning": "বিভব",
+      "unit": "V"
+    }
+  ],
+  "derivation": {
+    "lead": "গাউস সূত্র: পরিবাহী গোলকের ভিতরে ক্ষেত্র শূন্য; বাইরে বিন্দু চার্জ।",
+    "steps": [
+      {
+        "title": "ক্ষেত্র বাইরে",
+        "latex": "E=kq/r^2",
+        "note": "r ≥ R।"
+      },
+      {
+        "title": "বিভব বাইরে",
+        "latex": "V=kq/r",
+        "note": "অসীমে V = 0।"
+      },
+      {
+        "title": "পৃষ্ঠ ও ভিতর",
+        "latex": "V_{\\text{surface}}=kq/R=\\text{const inside}",
+        "note": "পরিবাহীতে সমবিভব।"
+      }
+    ],
+    "assumptions": [
+      "গোলীয় প্রতিসাম্য; স্থির চার্জ"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "আহিত পরিবাহী গোলকের কেন্দ্রে E কত?",
+      "answer": "E=0"
+    }
+  ],
+  "memorize": {
+    "trick": "ভিতরে E = 0, V = ধ্রুব (পরিবাহী)।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "gauss-law",
+    "electric-field",
+    "electric-potential"
+  ]
+}

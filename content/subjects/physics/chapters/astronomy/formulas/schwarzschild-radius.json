@@ -1,0 +1,61 @@
+{
+  "id": "schwarzschild-radius",
+  "chapter": "astronomy",
+  "title": "Schwarzschild Radius",
+  "titleBn": "শোয়ার্জশিল্ড ব্যাসার্ধ",
+  "summary": "কৃষ্ণগহ্বরের ঘটনা দিগন্ত",
+  "latex": "R_s=\\dfrac{2GM}{c^2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "R_s",
+      "meaning": "শোয়ার্জশিল্ড ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "M",
+      "meaning": "ভর",
+      "unit": "kg"
+    }
+  ],
+  "derivation": {
+    "lead": "পালানোর বেগ = c হলে যে ব্যাসার্ধ — ঘটনা দিগন্ত।",
+    "steps": [
+      {
+        "title": "escape = c",
+        "latex": "\\sqrt{2GM/R}=c\\Rightarrow R=2GM/c^2",
+        "note": "নিউটনীয় আভাস; আপেক্ষিকতায় একই রূপ।"
+      }
+    ],
+    "assumptions": [
+      "স্থির, ঘূর্ণনহীন কৃষ্ণগহ্বর"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "শোয়ার্জশিল্ড ব্যাসার্ধের সূত্র কী?",
+      "answer": "R_s=2GM/c^2"
+    }
+  ],
+  "memorize": {
+    "trick": "R_s = 2GM/c² — সূর্যের ≈ 3 km।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "escape-velocity-planet",
+    "hubble-law",
+    "planetary-escape-speed"
+  ]
+}

@@ -16,7 +16,7 @@
   "symbols": [
     {
       "symbol": "F, A",
-      "meaning": "pressure transmitted",
+      "meaning": "প্যাসকেলের সূত্র",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্যাসকেলের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: Hydraulic lift: small force × large distance = large force ×)",
+      "question": "প্যাসকেলের সূত্র সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: Hydraulic lift: small force × large distance = large force × small distance।)",
       "answer": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}"
     }
   ],

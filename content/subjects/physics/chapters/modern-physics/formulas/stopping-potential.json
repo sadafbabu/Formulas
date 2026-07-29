@@ -17,7 +17,7 @@
   "symbols": [
     {
       "symbol": "e, V, K, h",
-      "meaning": "eV₀=K_max",
+      "meaning": "রোধ বিভব",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রোধ বিভব এর সূত্রটি লেখো। (ইঙ্গিত: V₀ দিয়ে K_max মাপা যায়।)",
+      "question": "রোধ বিভব সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: V₀ দিয়ে K_max মাপা যায়।)",
       "answer": "eV_0=K_{\\max}=hf-\\phi"
     }
   ],

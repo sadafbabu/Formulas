@@ -16,8 +16,8 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "theta, v, r, g",
-      "meaning": "tanθ=v²/(rg)",
+      "symbol": "v, r, g, n",
+      "meaning": "রাস্তার ঢালকরণ",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -30,12 +30,14 @@
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রাস্তার ঢালকরণ এর সূত্রটি লেখো। (ইঙ্গিত: বেশি গতি = বেশি ঢাল।)",
+      "question": "রাস্তার ঢালকরণ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: বেশি গতি = বেশি ঢাল।)",
       "answer": "\\tan\\theta=\\frac{v^2}{rg}\\quad(\\text{no friction})"
     }
   ],

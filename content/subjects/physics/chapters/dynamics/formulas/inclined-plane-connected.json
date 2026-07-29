@@ -1,0 +1,71 @@
+{
+  "id": "inclined-plane-connected",
+  "chapter": "dynamics",
+  "title": "Connected Bodies on Incline",
+  "titleBn": "আনত তলে সংযুক্ত বস্তু",
+  "summary": "দুই ভরের ত্বরণ ও টান",
+  "latex": "a=\\frac{(m_1\\sin\\theta_1-m_2\\sin\\theta_2)g}{m_1+m_2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 190,
+  "symbols": [
+    {
+      "symbol": "m_1,m_2",
+      "meaning": "দুই বস্তুর ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "আনতির কোণ",
+      "unit": "°"
+    },
+    {
+      "symbol": "T",
+      "meaning": "দড়ির টান",
+      "unit": "N"
+    }
+  ],
+  "derivation": {
+    "lead": "ঘর্ষণহীন আনত তলে সংযুক্ত বস্তুর নেট চালক বল / মোট ভর = ত্বরণ।",
+    "steps": [
+      {
+        "title": "ত্বরণ",
+        "latex": "a=\\dfrac{(m_1\\sin\\theta_1-m_2\\sin\\theta_2)g}{m_1+m_2}",
+        "note": "যে দিকে বড় উপাংশ সেদিকে গতি।"
+      },
+      {
+        "title": "টান",
+        "latex": "T=\\dfrac{m_1 m_2 g(\\sin\\theta_1+\\sin\\theta_2)}{m_1+m_2}",
+        "note": "এক তলে হলে θ₂ = 0 বা আলাদা কেস।"
+      }
+    ],
+    "assumptions": [
+      "ঘর্ষণহীন; দড়ি হালকা ও অপ্রসারণযোগ্য"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "একই আনতি 30°-এর দুই তলে m ও 2m সংযুক্ত। ত্বরণের দিক কোনটির দিকে?",
+      "answer": "2m\\sin30>m\\sin30\\Rightarrow 2m\\ \\text{এর দিকে}"
+    }
+  ],
+  "memorize": {
+    "trick": "Atwood-এর মতো: নেট (mg sinθ) / মোট m।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "atwood-machine",
+    "friction",
+    "newtons-laws"
+  ]
+}

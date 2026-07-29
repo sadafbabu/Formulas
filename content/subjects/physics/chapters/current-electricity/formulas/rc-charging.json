@@ -16,7 +16,7 @@
   "symbols": [
     {
       "symbol": "q, Q, e, t",
-      "meaning": "q=Q(1−e^(−t/RC))",
+      "meaning": "RC চarging",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "RC চarging এর সূত্রটি লেখো। (ইঙ্গিত: τ=RC time constant; 63% charge at t=τ।)",
+      "question": "RC চarging সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: τ=RC time constant; 63% charge at t=τ।)",
       "answer": "q=Q(1-e^{-t/RC}),\\quad Q=CV"
     }
   ],

@@ -1,0 +1,71 @@
+{
+  "id": "maximum-power-transfer",
+  "chapter": "current-electricity",
+  "title": "Maximum Power Transfer",
+  "titleBn": "সর্বাধিক ক্ষমতা স্থানান্তর",
+  "summary": "R_L = r হলে P_max",
+  "latex": "P_{\\max}=\\dfrac{\\mathcal{E}^2}{4r}\\quad(R_L=r)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 150,
+  "symbols": [
+    {
+      "symbol": "R_L",
+      "meaning": "লোড রোধ",
+      "unit": "Ω"
+    },
+    {
+      "symbol": "r",
+      "meaning": "অভ্যন্তরীণ রোধ",
+      "unit": "Ω"
+    },
+    {
+      "symbol": "\\mathcal{E}",
+      "meaning": "তড়িচ্চালক বল",
+      "unit": "V"
+    }
+  ],
+  "derivation": {
+    "lead": "লোড = অভ্যন্তরীণ রোধে লোডে সর্বোচ্চ ক্ষমতা।",
+    "steps": [
+      {
+        "title": "ক্ষমতা",
+        "latex": "P=I^2 R_L=\\dfrac{\\mathcal{E}^2 R_L}{(R_L+r)^2}",
+        "note": "I = ε/(R_L+r)।"
+      },
+      {
+        "title": "শর্ত",
+        "latex": "dP/dR_L=0\\Rightarrow R_L=r",
+        "note": "তখন P_max = ε²/(4r)।"
+      }
+    ],
+    "assumptions": [
+      "ধ্রুব ε ও r; DC সার্কিট"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "ε = 12 V, r = 2 Ω। সর্বোচ্চ ক্ষমতা কত?",
+      "answer": "P_{\\max}=12^2/(4\\times2)=18\\ \\text{W}"
+    }
+  ],
+  "memorize": {
+    "trick": "R_L = r → P_max = ε²/4r।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "emf-internal-resistance",
+    "joule-heating",
+    "cells-series-parallel"
+  ]
+}

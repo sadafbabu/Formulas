@@ -1,0 +1,65 @@
+{
+  "id": "elastic-energy-density",
+  "chapter": "properties-of-matter",
+  "title": "Elastic Energy Density",
+  "titleBn": "স্থিতিস্থাপক শক্তি ঘনত্ব",
+  "summary": "u = ½ × stress × strain",
+  "latex": "u=\\tfrac12\\times\\text{stress}\\times\\text{strain}=\\frac{Y(\\Delta L)^2}{2L^2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 150,
+  "symbols": [
+    {
+      "symbol": "u",
+      "meaning": "একক আয়তনে শক্তি",
+      "unit": "J/m³"
+    },
+    {
+      "symbol": "Y",
+      "meaning": "ইয়ং গুণাঙ্ক",
+      "unit": "N/m²"
+    }
+  ],
+  "derivation": {
+    "lead": "স্থিতিস্থাপক বিকৃতিতে সঞ্চিত শক্তি = বক্রের নিচের ক্ষেত্রফল।",
+    "steps": [
+      {
+        "title": "ঘনত্ব",
+        "latex": "u=\\tfrac12\\sigma\\varepsilon",
+        "note": "σ = stress, ε = strain।"
+      },
+      {
+        "title": "মোট শক্তি",
+        "latex": "U=\\tfrac12\\times\\text{stress}\\times\\text{strain}\\times V",
+        "note": "V = আয়তন।"
+      }
+    ],
+    "assumptions": [
+      "হুকের সূত্রের সীমার মধ্যে; স্থিতিস্থাপক"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "Stress 2×10⁸ N/m² ও strain 10⁻³ হলে শক্তি ঘনত্ব কত?",
+      "answer": "u=\\tfrac12\\times2\\times10^8\\times10^{-3}=10^5\\ \\text{J/m}^3"
+    }
+  ],
+  "memorize": {
+    "trick": "u = ½ × stress × strain — ত্রিভুজের ক্ষেত্রফল।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "hookes-law-stress-strain",
+    "youngs-modulus"
+  ]
+}

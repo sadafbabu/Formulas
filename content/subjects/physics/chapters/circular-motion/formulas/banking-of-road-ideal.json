@@ -16,8 +16,8 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "theta, v, r, g",
-      "meaning": "tanθ=v²/rg",
+      "symbol": "v, r, g",
+      "meaning": "আদর্শ ব্যাংকিং কোণ",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -30,12 +30,14 @@
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আদর্শ ব্যাংকিং কোণ এর সূত্রটি লেখো। (ইঙ্গিত: ঘর্ষণ ছাড়া; v² = rg tanθ।)",
+      "question": "আদর্শ ব্যাংকিং কোণ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: ঘর্ষণ ছাড়া; v² = rg tanθ।)",
       "answer": "\\tan\\theta=\\frac{v^2}{rg}"
     }
   ],

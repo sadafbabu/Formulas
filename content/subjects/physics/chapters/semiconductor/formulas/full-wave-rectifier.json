@@ -1,0 +1,66 @@
+{
+  "id": "full-wave-rectifier",
+  "chapter": "semiconductor",
+  "title": "Full-Wave Rectifier",
+  "titleBn": "পূর্ণতরঙ্গ দিষ্টকারক",
+  "summary": "DC গড় ও দক্ষতা",
+  "latex": "I_{\\mathrm{dc}}=\\dfrac{2I_0}{\\pi},\\quad \\eta\\approx81.2\\%",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 140,
+  "symbols": [
+    {
+      "symbol": "I_0",
+      "meaning": "চূড়া প্রবাহ",
+      "unit": "A"
+    },
+    {
+      "symbol": "\\eta",
+      "meaning": "দিষ্টকরণ দক্ষতা",
+      "unit": "%"
+    }
+  ],
+  "derivation": {
+    "lead": "উভয় অর্ধচক্রই ব্যবহার — অর্ধতরঙ্গের দ্বিগুণ গড়।",
+    "steps": [
+      {
+        "title": "গড়",
+        "latex": "I_{\\mathrm{dc}}=2I_0/\\pi",
+        "note": "অর্ধতরঙ্গে I₀/π।"
+      },
+      {
+        "title": "দক্ষতা",
+        "latex": "\\eta=P_{\\mathrm{dc}}/P_{\\mathrm{ac}}\\approx81.2\\%",
+        "note": "অর্ধে ~40.6%।"
+      }
+    ],
+    "assumptions": [
+      "আদর্শ ডায়োড; রোধক লোড"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "পূর্ণতরঙ্গ দিষ্টকারকের আদর্শ দক্ষতা আনুমানিক কত?",
+      "answer": "81.2\\%"
+    }
+  ],
+  "memorize": {
+    "trick": "পূর্ণ ≈ ৮১%; অর্ধ ≈ ৪১%।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "half-wave-rectifier",
+    "pn-junction-diode",
+    "rectifier-ripple"
+  ]
+}

@@ -16,8 +16,8 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "d, theta, n, lambda",
-      "meaning": "স্ফটিক থেকে এক্স-রে অপবর্তন",
+      "symbol": "d, n, lambda",
+      "meaning": "ব্র্যাগের সূত্র",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ব্র্যাগের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: 2d sinθ = nλ — পথপার্থক্য দুই স্তরে।)",
+      "question": "ব্র্যাগের সূত্র সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: 2d sinθ = nλ — পথপার্থক্য দুই স্তরে।)",
       "answer": "2d\\sin\\theta=n\\lambda"
     }
   ],

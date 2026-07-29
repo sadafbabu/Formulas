@@ -16,8 +16,8 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "theta, v, m, r",
-      "meaning": "umbrella tilt",
+      "symbol": "v, m, r",
+      "meaning": "বৃষ্টি–মানুষ আপেক্ষিক বেগ",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃষ্টি–মানুষ আপেক্ষিক বেগ এর সূত্রটি লেখো। (ইঙ্গিত: ছাতা কাত = আপেক্ষিক বৃষ্টির দিক।)",
+      "question": "বৃষ্টি–মানুষ আপেক্ষিক বেগ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: ছাতা কাত = আপেক্ষিক বৃষ্টির দিক।)",
       "answer": "\\tan\\theta=\\frac{v_m}{v_r}\\quad(\\vec v_{rm}=\\vec v_r-\\vec v_m)"
     }
   ],

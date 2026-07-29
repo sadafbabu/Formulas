@@ -1,0 +1,71 @@
+{
+  "id": "capacitor-plate-force",
+  "chapter": "static-electricity",
+  "title": "Force between Capacitor Plates",
+  "titleBn": "ধারকের পাতদ্বয়ের আকর্ষণ বল",
+  "summary": "F = Q²/(2ε₀A)",
+  "latex": "F=\\dfrac{Q^2}{2\\varepsilon_0 A}=\\tfrac12 QE",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 160,
+  "symbols": [
+    {
+      "symbol": "Q",
+      "meaning": "পাতের চার্জ",
+      "unit": "C"
+    },
+    {
+      "symbol": "A",
+      "meaning": "পাতের ক্ষেত্রফল",
+      "unit": "m²"
+    },
+    {
+      "symbol": "F",
+      "meaning": "আকর্ষণ বল",
+      "unit": "N"
+    }
+  ],
+  "derivation": {
+    "lead": "বিপরীত চার্জে পাতদ্বয় একে অপরকে আকর্ষণ করে।",
+    "steps": [
+      {
+        "title": "চাপ",
+        "latex": "P=\\tfrac12\\varepsilon_0 E^2",
+        "note": "তড়িৎচাপ।"
+      },
+      {
+        "title": "বল",
+        "latex": "F=PA=Q^2/(2\\varepsilon_0 A)",
+        "note": "Q = σA।"
+      }
+    ],
+    "assumptions": [
+      "সমান্তরাল পাত; প্রান্ত প্রভাব উপেক্ষিত"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "ধারকের পাতদ্বয়ের বলের সূত্র কী?",
+      "answer": "F=Q^2/(2\\varepsilon_0 A)"
+    }
+  ],
+  "memorize": {
+    "trick": "F = Q²/(2ε₀A) — চার্জ বাড়লে বল বাড়ে।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "capacitor-parallel-plate",
+    "capacitor-energy",
+    "dielectric-capacitor"
+  ]
+}

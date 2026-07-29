@@ -50,7 +50,9 @@
         "note": "ভূ-স্থির উপগ্রহের (Geo-stationary satellite) পর্যায়কাল T = 24 hours"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {

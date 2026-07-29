@@ -16,8 +16,8 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "Delta, z, n, x",
-      "meaning": "n× relative error",
+      "symbol": "z, n, x",
+      "meaning": "ঘাতে ত্রুটি",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ঘাতে ত্রুটি এর সূত্রটি লেখো। (ইঙ্গিত: ঘাত n হলে আপেক্ষিক ত্রুটি n গুণ।)",
+      "question": "ঘাতে ত্রুটি সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: ঘাত n হলে আপেক্ষিক ত্রুটি n গুণ।)",
       "answer": "\\frac{\\Delta z}{z}=|n|\\frac{\\Delta x}{x}\\quad(z=x^n)"
     }
   ],

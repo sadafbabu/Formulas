@@ -16,8 +16,8 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "T, bottom, m, g",
-      "meaning": "শীর্ষে/নিচে টান",
+      "symbol": "T, b, o, t",
+      "meaning": "উল্লম্ব বৃত্ত",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -30,12 +30,14 @@
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উল্লম্ব বৃত্ত এর সূত্রটি লেখো। (ইঙ্গিত: নিচে T−mg; উপরে T+mg; ন্যূনতম শীর্ষ বেগ √(gr)।)",
+      "question": "উল্লম্ব বৃত্ত সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: নিচে T−mg; উপরে T+mg; ন্যূনতম শীর্ষ বেগ √(gr)।)",
       "answer": "T_{\\text{bottom}}-mg=\\frac{mv^2}{r},\\quad T_{\\text{top}}+mg=\\frac{mv^2}{r}"
     }
   ],

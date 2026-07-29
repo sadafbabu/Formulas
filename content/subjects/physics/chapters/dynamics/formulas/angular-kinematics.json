@@ -16,8 +16,8 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "omega, alpha, t, theta",
-      "meaning": "সমকৌণিক ত্বরণে কৌণিক গতির তিন সমীকরণ",
+      "symbol": "t, tfrac",
+      "meaning": "কৌণিক গতির সমীকরণ",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -30,12 +30,14 @@
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কৌণিক গতির সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: রৈখিকের ছাঁচ: v→ω, a→α, s→θ।)",
+      "question": "কৌণিক গতির সমীকরণ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: রৈখিকের ছাঁচ: v→ω, a→α, s→θ।)",
       "answer": "\\omega=\\omega_0+\\alpha t,\\quad\\theta=\\omega_0 t+\\tfrac12\\alpha t^2,\\quad\\omega^2=\\omega_0^2+2\\alpha\\theta"
     }
   ],

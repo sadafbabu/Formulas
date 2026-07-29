@@ -1,0 +1,71 @@
+{
+  "id": "relativistic-energy-momentum",
+  "chapter": "modern-physics",
+  "title": "Relativistic Energy–Momentum",
+  "titleBn": "আপেক্ষিকতাবাদী শক্তি–ভরবেগ",
+  "summary": "E² = p²c² + m²c⁴",
+  "latex": "E^2=p^2 c^2+m^2 c^4,\\quad E=\\gamma mc^2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 190,
+  "symbols": [
+    {
+      "symbol": "E",
+      "meaning": "মোট শক্তি",
+      "unit": "J"
+    },
+    {
+      "symbol": "p",
+      "meaning": "ভরবেগ",
+      "unit": "kg·m/s"
+    },
+    {
+      "symbol": "\\gamma",
+      "meaning": "1/√(1−v²/c²)",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "বিশ্রাম শক্তি mc²; ফোটনে m = 0 → E = pc।",
+    "steps": [
+      {
+        "title": "লরেন্টজ",
+        "latex": "\\gamma=1/\\sqrt{1-v^2/c^2}",
+        "note": "v → c এ γ → ∞।"
+      },
+      {
+        "title": "সম্পর্ক",
+        "latex": "E^2=p^2c^2+m^2c^4",
+        "note": "KE = E − mc²।"
+      }
+    ],
+    "assumptions": [
+      "বিশেষ আপেক্ষিকতা"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Admission",
+      "question": "ফোটনের শক্তি–ভরবেগ সম্পর্ক কী?",
+      "answer": "E=pc\\ (m=0)"
+    }
+  ],
+  "memorize": {
+    "trick": "E² = p²c² + (mc²)² — পিথাগোরাস।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "mass-energy-photoelectric",
+    "de-broglie-wavelength",
+    "compton-effect"
+  ]
+}

@@ -16,8 +16,8 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "s.f. = all certain digits + first uncertain digit",
-      "meaning": "নির্ভুল অঙ্ক গণনা",
+      "symbol": "s, f, a, l",
+      "meaning": "সার্থক অঙ্ক",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সার্থক অঙ্ক এর সূত্রটি লেখো। (ইঙ্গিত: গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।)",
+      "question": "সার্থক অঙ্ক সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।)",
       "answer": "\\text{s.f. = all certain digits + first uncertain digit}"
     }
   ],

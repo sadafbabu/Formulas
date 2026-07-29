@@ -16,8 +16,8 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "LC, MSD, VSD, n",
-      "meaning": "LC = 1 MSD − 1 VSD",
+      "symbol": "L, C, M, S",
+      "meaning": "ভার্নিয়ার লঘিষ্ঠ পাঠ",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভার্নিয়ার লঘিষ্ঠ পাঠ এর সূত্রটি লেখো। (ইঙ্গিত: n ভাগে ভাগ করলে LC = MSD/n।)",
+      "question": "ভার্নিয়ার লঘিষ্ঠ পাঠ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: n ভাগে ভাগ করলে LC = MSD/n।)",
       "answer": "\\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}"
     }
   ],

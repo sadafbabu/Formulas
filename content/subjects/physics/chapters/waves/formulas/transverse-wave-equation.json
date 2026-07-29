@@ -16,8 +16,8 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "y, A, omega, t",
-      "meaning": "y=A sin(ωt−kx)",
+      "symbol": "y, A, t, k",
+      "meaning": "অগ্রগামী তরঙ্গ সমীকরণ",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -30,12 +30,14 @@
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অগ্রগামী তরঙ্গ সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: ωt−kx ডানদিকে; ωt+kx বামদিকে।)",
+      "question": "অগ্রগামী তরঙ্গ সমীকরণ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: ωt−kx ডানদিকে; ωt+kx বামদিকে।)",
       "answer": "y=A\\sin(\\omega t-kx),\\quad k=\\frac{2\\pi}{\\lambda}"
     }
   ],

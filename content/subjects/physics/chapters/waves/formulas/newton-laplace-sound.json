@@ -1,0 +1,71 @@
+{
+  "id": "newton-laplace-sound",
+  "chapter": "waves",
+  "title": "Newton–Laplace Speed of Sound",
+  "titleBn": "নিউটন–ল্যাপ্লাস শব্দের বেগ",
+  "summary": "v = √(γP/ρ)",
+  "latex": "v=\\sqrt{\\dfrac{\\gamma P}{\\rho}}=\\sqrt{\\dfrac{\\gamma RT}{M}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "\\gamma",
+      "meaning": "Cp/Cv",
+      "unit": "—"
+    },
+    {
+      "symbol": "P",
+      "meaning": "চাপ",
+      "unit": "Pa"
+    },
+    {
+      "symbol": "\\rho",
+      "meaning": "ঘনত্ব",
+      "unit": "kg/m³"
+    }
+  ],
+  "derivation": {
+    "lead": "নিউটন ধরেছিলেন সমতাপ; ল্যাপ্লাস সমতাপ নয় — অ্যাডিয়াবেটিক সংশোধন γ।",
+    "steps": [
+      {
+        "title": "নিউটন",
+        "latex": "v=\\sqrt{P/\\rho}",
+        "note": "পরীক্ষার চেয়ে কম।"
+      },
+      {
+        "title": "ল্যাপ্লাস",
+        "latex": "v=\\sqrt{\\gamma P/\\rho}",
+        "note": "γ > 1 বলে বেগ বাড়ে।"
+      }
+    ],
+    "assumptions": [
+      "আদর্শ গ্যাস; অ্যাডিয়াবেটিক সংকোচন–প্রসারণ"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "বায়ুতে শব্দের বেগের ল্যাপ্লাস সূত্র কী?",
+      "answer": "v=\\sqrt{\\gamma P/\\rho}"
+    }
+  ],
+  "memorize": {
+    "trick": "γ যোগ করো — নিউটন থেকে ল্যাপ্লাস।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "wave-v-f-lambda",
+    "ideal-gas-equation",
+    "cp-cv-relation"
+  ]
+}

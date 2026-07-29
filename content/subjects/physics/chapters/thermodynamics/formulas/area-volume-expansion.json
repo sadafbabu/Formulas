@@ -1,0 +1,70 @@
+{
+  "id": "area-volume-expansion",
+  "chapter": "thermodynamics",
+  "title": "Area & Volume Expansion",
+  "titleBn": "ক্ষেত্র ও আয়তন প্রসারণ",
+  "summary": "β ≈ 2α, γ ≈ 3α",
+  "latex": "\\Delta A=\\beta A\\Delta T,\\quad \\Delta V=\\gamma V\\Delta T;\\ \\beta\\approx2\\alpha,\\ \\gamma\\approx3\\alpha",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 180,
+  "symbols": [
+    {
+      "symbol": "\\alpha",
+      "meaning": "রৈখিক প্রসারণ গুণাঙ্ক",
+      "unit": "/°C"
+    },
+    {
+      "symbol": "\\beta",
+      "meaning": "ক্ষেত্র প্রসারণ গুণাঙ্ক",
+      "unit": "/°C"
+    },
+    {
+      "symbol": "\\gamma",
+      "meaning": "আয়তন প্রসারণ গুণাঙ্ক",
+      "unit": "/°C"
+    }
+  ],
+  "derivation": {
+    "lead": "প্রতি মাত্রায় α — ক্ষেত্রে ২, আয়তনে ৩।",
+    "steps": [
+      {
+        "title": "রৈখিক",
+        "latex": "\\Delta L=\\alpha L\\Delta T",
+        "note": "এক দিক।"
+      },
+      {
+        "title": "সম্পর্ক",
+        "latex": "\\beta=2\\alpha,\\ \\gamma=3\\alpha",
+        "note": "আইসোট্রপিক কঠিন।"
+      }
+    ],
+    "assumptions": [
+      "ক্ষুদ্র ΔT; সমসত্ব প্রসারণ"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "α = 1.2×10⁻⁵ /°C হলে γ কত?",
+      "answer": "\\gamma=3\\alpha=3.6\\times10^{-5}/^\\circ\\text{C}"
+    }
+  ],
+  "memorize": {
+    "trick": "α → 2α → 3α (লাইন–এরিয়া–ভলিউম)।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "thermal-expansion-linear",
+    "calorimetry"
+  ]
+}

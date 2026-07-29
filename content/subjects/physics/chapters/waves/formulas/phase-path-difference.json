@@ -16,8 +16,8 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "Delta, phi, pi, lambda",
-      "meaning": "Δφ=2π/λ · Δx",
+      "symbol": "lambda, x",
+      "meaning": "কলারূপ ও পথ পার্থক্য",
       "unit": "সূত্রানুযায়ী"
     }
   ],
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কলারূপ ও পথ পার্থক্য এর সূত্রটি লেখো। (ইঙ্গিত: এক λ = 2π কলা; Δx দিয়ে Δφ।)",
+      "question": "কলারূপ ও পথ পার্থক্য সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: এক λ = 2π কলা; Δx দিয়ে Δφ।)",
       "answer": "\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x"
     }
   ],
