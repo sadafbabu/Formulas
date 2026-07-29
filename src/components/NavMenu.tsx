@@ -71,10 +71,12 @@ export function NavMenu({
     if (!btn) return
     const r = btn.getBoundingClientRect()
     const width = Math.min(320, window.innerWidth - 16)
+    const panelH = panelRef.current?.offsetHeight || 320
     let left = Math.min(Math.max(8, r.left), window.innerWidth - width - 8)
     let top = r.bottom + 8
-    const maxTop = window.innerHeight - 24
-    if (top > maxTop - 120) top = Math.max(8, r.top - 8)
+    if (top + panelH > window.innerHeight - 8) {
+      top = Math.max(8, window.innerHeight - panelH - 8)
+    }
     setPos({ top, left })
   }
 
