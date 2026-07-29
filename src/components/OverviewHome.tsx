@@ -48,7 +48,8 @@ export function OverviewHome({
   }, [q, query])
 
   return (
-    <div className="overview-container">
+    <div className="overview-scroll">
+      <div className="overview-container">
       <header className="overview-hero">
         <span className="hero-subhead">FORMULA HUB — HSC & ADMISSION</span>
         <h1 className="hero-title">সকল বিষয়ের অধ্যায়ভিত্তিক সূত্রাবলী</h1>
@@ -226,6 +227,7 @@ export function OverviewHome({
           })
         )}
       </section>
+      </div>
     </div>
   )
 }
