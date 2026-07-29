@@ -3,7 +3,7 @@
   "chapter": "induction-ac",
   "title": "Power Factor",
   "titleBn": "ক্ষমতা গুণাঙ্ক",
-  "summary": "cosφ = R/Z",
+  "summary": "cosφ = R/Z; গড় ক্ষমতা V_rms I_rms cosφ",
   "latex": "\\cos\\phi=\\frac{R}{Z},\\quad P_{\\mathrm{avg}}=V_{\\mathrm{rms}}I_{\\mathrm{rms}}\\cos\\phi",
   "tags": [
     "hsc",
@@ -16,33 +16,48 @@
   "order": 150,
   "symbols": [
     {
-      "symbol": "R, Z, P, a",
-      "meaning": "ক্ষমতা গুণাঙ্ক",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "\\cos\\phi",
+      "meaning": "পাওয়ার ফ্যাক্টর",
+      "unit": "—"
+    },
+    {
+      "symbol": "P_{\\mathrm{avg}}",
+      "meaning": "গড় ক্ষমতা",
+      "unit": "W"
+    },
+    {
+      "symbol": "V_{\\mathrm{rms}}, I_{\\mathrm{rms}}",
+      "meaning": "rms ভোল্টেজ ও প্রবাহ",
+      "unit": "V, A"
     }
   ],
   "derivation": {
-    "lead": "cosφ = R/Z — খাঁটি রোধে cosφ=১।",
+    "lead": "তাৎক্ষণিক ক্ষমতার গড় শুধু in-phase উপাংশ রাখে।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\cos\\phi=\\frac{R}{Z},\\quad P_{\\mathrm{avg}}=V_{\\mathrm{rms}}I_{\\mathrm{rms}}\\cos\\phi",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "PF",
+        "latex": "\\cos\\phi=R/Z",
+        "note": "শুধু রোধক বর্তনীতে cosφ=1।"
+      },
+      {
+        "title": "ক্ষমতা",
+        "latex": "P_{\\mathrm{avg}}=V_{\\mathrm{rms}}I_{\\mathrm{rms}}\\cos\\phi",
+        "note": "reactive ক্ষমতা Q=VI sinφ।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "সাইনুসয়েডাল"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "ক্ষমতা গুণাঙ্ক সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: খাঁটি রোধে cosφ=১।)",
-      "answer": "\\cos\\phi=\\frac{R}{Z},\\quad P_{\\mathrm{avg}}=V_{\\mathrm{rms}}I_{\\mathrm{rms}}\\cos\\phi"
+      "examType": "HSC",
+      "question": "R=Z হলে পাওয়ার ফ্যাক্টর কত?",
+      "answer": "\\cos\\phi=1"
     }
   ],
   "memorize": {
-    "trick": "খাঁটি রোধে cosφ=১।",
+    "trick": "cosφ=R/Z; P=VI cosφ।",
     "steps": []
   },
   "subjects": [

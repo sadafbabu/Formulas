@@ -3,8 +3,8 @@
   "chapter": "properties-of-matter",
   "title": "Young's Modulus",
   "titleBn": "ইয়ং-এর গুণাঙ্ক",
-  "summary": "দৈর্ঘ্যিক স্থিতিস্থাপকতা",
-  "latex": "Y=\\frac{F/A}{\\Delta L/L}=\\frac{FL}{A\\Delta L}",
+  "summary": "Y = (F/A)/(ΔL/L) — দৈর্ঘ্যীয় স্থিতিস্থাপকতা",
+  "latex": "Y=\\dfrac{F/A}{\\Delta L/L}=\\dfrac{FL}{A\\Delta L}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,40 +16,55 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "Y, F, A, L",
-      "meaning": "ইয়ং-এর গুণাঙ্ক",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "Y",
+      "meaning": "ইয়ংয়ের গুণাঙ্ক",
+      "unit": "N/m²"
+    },
+    {
+      "symbol": "F",
+      "meaning": "প্রযুক্ত বল",
+      "unit": "N"
+    },
+    {
+      "symbol": "A",
+      "meaning": "প্রস্থচ্ছেদের ক্ষেত্রফল",
+      "unit": "m²"
+    },
+    {
+      "symbol": "L, \\Delta L",
+      "meaning": "আদি দৈর্ঘ্য ও বৃদ্ধি",
+      "unit": "m"
     }
   ],
   "derivation": {
-    "lead": "দৈর্ঘ্যিক স্থিতিস্থাপকতা",
+    "lead": "stress/strain অনুপাতই Y।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "Y=\\frac{F/A}{\\Delta L/L}=\\frac{FL}{A\\Delta L}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সূত্র",
+        "latex": "Y=FL/(A\\Delta L)",
+        "note": "ইস্পাতের Y ≈ 2×10¹¹ Pa।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "রৈখিক স্থিতিস্থাপক"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "ইয়ং-এর গুণাঙ্ক সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: Y = (F/A)/(ΔL/L) — stress ÷ strain।)",
-      "answer": "Y=\\frac{F/A}{\\Delta L/L}=\\frac{FL}{A\\Delta L}"
+      "examType": "Admission",
+      "question": "F=100 N, A=1 mm², L=1 m, ΔL=0.5 mm। Y?",
+      "answer": "Y=\\dfrac{100\\cdot1}{10^{-6}\\cdot5\\times10^{-4}}=2\\times10^{11}\\,\\mathrm{Pa}"
     }
   ],
   "memorize": {
-    "trick": "Y = (F/A)/(ΔL/L) — stress ÷ strain।",
+    "trick": "Y=FL/(AΔL)।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "bulk-shear-modulus",
-    "stokes-law"
+    "hookes-law-stress-strain",
+    "bulk-shear-modulus"
   ]
 }

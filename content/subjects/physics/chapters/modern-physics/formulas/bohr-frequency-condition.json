@@ -3,8 +3,8 @@
   "chapter": "modern-physics",
   "title": "Bohr Frequency Condition",
   "titleBn": "বোরের কম্পাঙ্ক শর্ত",
-  "summary": "hf=E₂−E₁",
-  "latex": "hf=E_2-E_1",
+  "summary": "hf = E_i − E_f (বোর)",
+  "latex": "hf=E_i-E_f=\\Delta E",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,40 +16,50 @@
   "order": 160,
   "symbols": [
     {
-      "symbol": "h, f, E",
-      "meaning": "বোরের কম্পাঙ্ক শর্ত",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "h",
+      "meaning": "প্ল্যাঙ্ক ধ্রুবক",
+      "unit": "J·s"
+    },
+    {
+      "symbol": "f",
+      "meaning": "ফোটন কম্পাঙ্ক",
+      "unit": "Hz"
+    },
+    {
+      "symbol": "E_i, E_f",
+      "meaning": "আদি ও শেষ শক্তি স্তর",
+      "unit": "eV"
     }
   ],
   "derivation": {
-    "lead": "শক্তি পার্থক্য = ফোটন শক্তি।",
+    "lead": "স্তরান্তরে শক্তি পার্থক্যই ফোটন।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "hf=E_2-E_1",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "শর্ত",
+        "latex": "hf=|E_i-E_f|",
+        "note": "শোষণে E বাড়ে, নির্গমনে কমে।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "বোর পরমাণু"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "বোরের কম্পাঙ্ক শর্ত সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: শক্তি পার্থক্য = ফোটন শক্তি।)",
-      "answer": "hf=E_2-E_1"
+      "examType": "HSC",
+      "question": "ΔE=10.2 eV হলে λ? (hc=1240 eV·nm)",
+      "answer": "\\lambda=1240/10.2\\approx121.6\\,\\mathrm{nm}"
     }
   ],
   "memorize": {
-    "trick": "শক্তি পার্থক্য = ফোটন শক্তি।",
+    "trick": "hf=ΔE।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "stopping-potential",
+    "bohr-energy-levels",
     "einstein-photoelectric"
   ]
 }

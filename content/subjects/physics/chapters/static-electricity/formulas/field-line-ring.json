@@ -3,8 +3,8 @@
   "chapter": "static-electricity",
   "title": "E-field of Line & Ring",
   "titleBn": "অসীম রেখা ও বলয়ের তড়িৎক্ষেত্র",
-  "summary": "রৈখিক চার্জ ও চার্জড রিং-এর E",
-  "latex": "E_{line}=\\frac{\\lambda}{2\\pi\\varepsilon_0 r},\\quad E_{ring}=\\frac{1}{4\\pi\\varepsilon_0}\\frac{Qx}{(R^2+x^2)^{3/2}}",
+  "summary": "অক্ষে বলয়: E = kQx/(x²+R²)^{3/2}",
+  "latex": "E_{\\mathrm{ring}}=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{Qx}{(x^2+R^2)^{3/2}}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,33 +16,43 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "E, l, i, n",
-      "meaning": "অসীম রেখা ও বলয়ের তড়িৎক্ষেত্র",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "Q, R",
+      "meaning": "বলয়ের চার্জ ও ব্যাসার্ধ",
+      "unit": "C, m"
+    },
+    {
+      "symbol": "x",
+      "meaning": "কেন্দ্র থেকে অক্ষীয় দূরত্ব",
+      "unit": "m"
+    },
+    {
+      "symbol": "E",
+      "meaning": "তড়িৎ ক্ষেত্র",
+      "unit": "N/C"
     }
   ],
   "derivation": {
-    "lead": "রৈখিক চার্জ ও চার্জড রিং-এর E",
+    "lead": "প্রতিসম লম্ব উপাংশ বাতিল; অক্ষীয় উপাংশ যোগ।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "E_{line}=\\frac{\\lambda}{2\\pi\\varepsilon_0 r},\\quad E_{ring}=\\frac{1}{4\\pi\\varepsilon_0}\\frac{Qx}{(R^2+x^2)^{3/2}}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "অক্ষীয় ক্ষেত্র",
+        "latex": "E=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{Qx}{(x^2+R^2)^{3/2}}",
+        "note": "x=0-এ E=0; x≫R এ বিন্দু চার্জের মতো।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "সমচার্জিত পাতলা বলয়"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "অসীম রেখা ও বলয়ের তড়িৎক্ষেত্র সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: রেখা: 1/r; রিং অক্ষ: x/(R²+x²)^{3/2}।)",
-      "answer": "E_{line}=\\frac{\\lambda}{2\\pi\\varepsilon_0 r},\\quad E_{ring}=\\frac{1}{4\\pi\\varepsilon_0}\\frac{Qx}{(R^2+x^2)^{3/2}}"
+      "examType": "Admission",
+      "question": "বলয়ের কেন্দ্রে E?",
+      "answer": "E=0"
     }
   ],
   "memorize": {
-    "trick": "রেখা: 1/r; রিং অক্ষ: x/(R²+x²)^{3/2}।",
+    "trick": "কেন্দ্রে E=0; অক্ষে উপরের সূত্র।",
     "steps": []
   },
   "subjects": [
@@ -50,6 +60,6 @@
   ],
   "related": [
     "electric-field",
-    "coulombs-law"
+    "gauss-law"
   ]
 }

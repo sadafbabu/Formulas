@@ -3,8 +3,8 @@
   "chapter": "geometric-optics",
   "title": "Critical Angle",
   "titleBn": "ক্রান্তি কোণ",
-  "summary": "sin c = 1/μ",
-  "latex": "\\sin c=\\frac{1}{\\mu}=\\frac{\\mu_r}{\\mu_d}",
+  "summary": "sin c = n₂/n₁ (n₁>n₂); বায়ুতে sin c = 1/μ",
+  "latex": "\\sin c=\\dfrac{n_2}{n_1}=\\dfrac{1}{\\mu}\\ (\\text{কাচ→বায়ু})",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,41 +16,51 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "c, r, d",
-      "meaning": "ক্রান্তি কোণ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "c",
+      "meaning": "সমালোচক কোণ",
+      "unit": "°"
+    },
+    {
+      "symbol": "n_1, n_2",
+      "meaning": "ঘন ও হালকা মাধ্যমের প্রতিসরাঙ্ক",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\mu",
+      "meaning": "ঘন মাধ্যমের আপেক্ষিক প্রতিসরাঙ্ক",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "ঘন→হালকা; c-এর বেশি = সম্পূর্ণ অভ্যন্তরীণ প্রতিফলন।",
+    "lead": "i=c হলে r=90° → Snell: n₁ sin c = n₂ · 1।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\sin c=\\frac{1}{\\mu}=\\frac{\\mu_r}{\\mu_d}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "স্নেল",
+        "latex": "n_1\\sin c=n_2\\sin90^\\circ\\Rightarrow\\sin c=\\dfrac{n_2}{n_1}",
+        "note": "i>c হলে পূর্ণ অভ্যন্তরীণ প্রতিফলন।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "ঘন → হালকা; সমতল সীমানা"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "ক্রান্তি কোণ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: ঘন→হালকা; c-এর বেশি = সম্পূর্ণ অভ্যন্তরীণ প্রতিফলন।)",
-      "answer": "\\sin c=\\frac{1}{\\mu}=\\frac{\\mu_r}{\\mu_d}"
+      "examType": "HSC",
+      "question": "μ=√2 হলে কাচ→বায়ুতে c?",
+      "answer": "\\sin c=1/\\sqrt{2}\\Rightarrow c=45^\\circ"
     }
   ],
   "memorize": {
-    "trick": "ঘন→হালকা; c-এর বেশি = সম্পূর্ণ অভ্যন্তরীণ প্রতিফলন।",
+    "trick": "sin c = 1/μ (বায়ুতে); i>c → TIR।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "optical-fiber",
-    "lens-formula",
-    "apparent-depth"
+    "total-internal-reflection",
+    "snell-law",
+    "optical-fiber"
   ]
 }

@@ -3,8 +3,8 @@
   "chapter": "dynamics",
   "title": "Pure Rolling",
   "titleBn": "বিশুদ্ধ গড়ান",
-  "summary": "বিশুদ্ধ গড়ানে রৈখিক ও কৌণিক সম্পর্ক এবং মোট KE",
-  "latex": "v=\\omega R,\\quad a=\\alpha R,\\quad K=\\tfrac12 mv^2+\\tfrac12 I\\omega^2=\\tfrac12 mv^2\\big(1+\\tfrac{k^2}{R^2}\\big)",
+  "summary": "শুদ্ধ গড়ানো: v = ωR; a = αR; K = ½mv² + ½Iω²",
+  "latex": "v=\\omega R,\\quad K=\\tfrac12 mv^2+\\tfrac12 I\\omega^2=\\tfrac12 mv^2\\left(1+\\dfrac{k^2}{R^2}\\right)",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,33 +16,48 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "v, R, a, K",
-      "meaning": "বিশুদ্ধ গড়ান",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "v, \\omega",
+      "meaning": "কেন্দ্রের বেগ ও কৌণিক বেগ",
+      "unit": "m/s, rad/s"
+    },
+    {
+      "symbol": "R, k",
+      "meaning": "ব্যাসার্ধ ও জাইরেশন ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "I",
+      "meaning": "জড়তার ভ্রামক",
+      "unit": "kg·m²"
     }
   ],
   "derivation": {
-    "lead": "বিশুদ্ধ গড়ানে রৈখিক ও কৌণিক সম্পর্ক এবং মোট KE",
+    "lead": "স্লিপহীন স্পর্শে স্পর্শবিন্দু তাৎক্ষণিক বিশ্রাম।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "v=\\omega R,\\quad a=\\alpha R,\\quad K=\\tfrac12 mv^2+\\tfrac12 I\\omega^2=\\tfrac12 mv^2\\big(1+\\tfrac{k^2}{R^2}\\big)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "শর্ত",
+        "latex": "v=\\omega R",
+        "note": "শুদ্ধ গড়ানো।"
+      },
+      {
+        "title": "শক্তি",
+        "latex": "K=\\tfrac12 mv^2(1+I/(mR^2))",
+        "note": "ঢালে a=g sinθ/(1+I/mR²)।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "স্লিপ নেই; অনমনীয়"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "বিশুদ্ধ গড়ান সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: বিশুদ্ধ গড়ান: v=ωR; KE = অনুবাদ + ঘূর্ণন।)",
-      "answer": "v=\\omega R,\\quad a=\\alpha R,\\quad K=\\tfrac12 mv^2+\\tfrac12 I\\omega^2=\\tfrac12 mv^2\\big(1+\\tfrac{k^2}{R^2}\\big)"
+      "examType": "Admission",
+      "question": "হুপ I=mR² হলে মোট K?",
+      "answer": "K=mv^2"
     }
   ],
   "memorize": {
-    "trick": "বিশুদ্ধ গড়ান: v=ωR; KE = অনুবাদ + ঘূর্ণন।",
+    "trick": "v=ωR; মোট KE = স্থানান্তর + ঘূর্ণন।",
     "steps": []
   },
   "subjects": [

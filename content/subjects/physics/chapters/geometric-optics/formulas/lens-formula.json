@@ -3,8 +3,8 @@
   "chapter": "geometric-optics",
   "title": "Thin Lens Formula",
   "titleBn": "পাতলা লেন্স সূত্র",
-  "summary": "1/v−1/u=1/f",
-  "latex": "\\frac{1}{v}-\\frac{1}{u}=\\frac{1}{f}",
+  "summary": "পাতলা লেন্স: 1/v − 1/u = 1/f (কার্টেসিয়ান)",
+  "latex": "\\dfrac{1}{v}-\\dfrac{1}{u}=\\dfrac{1}{f}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,41 +16,51 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "v, u, f",
-      "meaning": "পাতলা লেন্স সূত্র",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "u",
+      "meaning": "বস্তুর দূরত্ব (চিহ্নসহ)",
+      "unit": "m"
+    },
+    {
+      "symbol": "v",
+      "meaning": "প্রতিবিম্বের দূরত্ব",
+      "unit": "m"
+    },
+    {
+      "symbol": "f",
+      "meaning": "ফোকাস দূরত্ব (+ উত্তল)",
+      "unit": "m"
     }
   ],
   "derivation": {
-    "lead": "দর্পণে +; লেন্সে − চিহ্ন প্রথা মেনে চলো।",
+    "lead": "দর্পণের 1/v+1/u=1/f থেকে আলাদা — লেন্সে বিয়োগ।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\frac{1}{v}-\\frac{1}{u}=\\frac{1}{f}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সূত্র",
+        "latex": "\\dfrac{1}{v}-\\dfrac{1}{u}=\\dfrac{1}{f}",
+        "note": "উত্তল f>0; অবতল f<0 (কার্টেসিয়ান)।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "পাতলা লেন্স; প্যারাক্সিয়াল"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "পাতলা লেন্স সূত্র সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: দর্পণে +; লেন্সে − চিহ্ন প্রথা মেনে চলো।)",
-      "answer": "\\frac{1}{v}-\\frac{1}{u}=\\frac{1}{f}"
+      "examType": "HSC",
+      "question": "f=20 cm, u=−30 cm। v?",
+      "answer": "1/v=1/f+1/u=1/20-1/30=1/60\\Rightarrow v=60\\mathrm{cm}"
     }
   ],
   "memorize": {
-    "trick": "দর্পণে +; লেন্সে − চিহ্ন প্রথা মেনে চলো।",
+    "trick": "লেন্স: 1/v − 1/u = 1/f। দর্পণে যোগ।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "critical-angle",
-    "mirror-magnification",
-    "optical-fiber"
+    "lens-makers-formula",
+    "magnification-mirror-lens",
+    "mirror-formula"
   ]
 }

@@ -3,8 +3,8 @@
   "chapter": "properties-of-matter",
   "title": "Stokes' Law",
   "titleBn": "স্টোকসের সূত্র",
-  "summary": "সান্দ্র মাধ্যমে গোলকের প্রতিকর্ষ",
-  "latex": "F=6\\pi\\eta rv,\\quad v_t=\\frac{2r^2(\\rho-\\sigma)g}{9\\eta}",
+  "summary": "সান্দ্র বল F = 6πηrv; প্রান্তিক বেগ v_t = 2r²(ρ−σ)g/(9η)",
+  "latex": "F=6\\pi\\eta r v,\\quad v_t=\\dfrac{2r^2(\\rho-\\sigma)g}{9\\eta}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,41 +16,54 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "F, eta, r, v",
-      "meaning": "স্টোকসের সূত্র",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "\\eta",
+      "meaning": "সান্দ্রতা গুণাঙ্ক",
+      "unit": "Pa·s"
+    },
+    {
+      "symbol": "r, v",
+      "meaning": "ব্যাসার্ধ ও বেগ",
+      "unit": "m, m/s"
+    },
+    {
+      "symbol": "\\rho, \\sigma",
+      "meaning": "গোলক ও তরলের ঘনত্ব",
+      "unit": "kg/m³"
     }
   ],
   "derivation": {
-    "lead": "সান্দ্র মাধ্যমে গোলকের প্রতিকর্ষ",
+    "lead": "ওজন − উদ্বায় = সান্দ্র বল → প্রান্তিক বেগ।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "F=6\\pi\\eta rv,\\quad v_t=\\frac{2r^2(\\rho-\\sigma)g}{9\\eta}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "স্টোকস",
+        "latex": "F=6\\pi\\eta rv",
+        "note": "লমিনার, ক্ষুদ্র Re।"
+      },
+      {
+        "title": "প্রান্তিক",
+        "latex": "v_t=2r^2(\\rho-\\sigma)g/(9\\eta)",
+        "note": "r² অনুপাতে।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "গোলক; লমিনার প্রবাহ"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "স্টোকসের সূত্র সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: F=6πηrv; টার্মিনাল v_t ∝ r²।)",
-      "answer": "F=6\\pi\\eta rv,\\quad v_t=\\frac{2r^2(\\rho-\\sigma)g}{9\\eta}"
+      "examType": "Admission",
+      "question": "r দ্বিগুণ হলে v_t কতগুণ?",
+      "answer": "4\\ \\text{গুণ}"
     }
   ],
   "memorize": {
-    "trick": "F=6πηrv; টার্মিনাল v_t ∝ r²।",
+    "trick": "F=6πηrv; v_t∝r²।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "bulk-shear-modulus",
-    "poiseuille-law",
-    "youngs-modulus"
+    "poiseuille-law"
   ]
 }

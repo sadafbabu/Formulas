@@ -3,8 +3,8 @@
   "chapter": "circular-motion",
   "title": "Banking of Road",
   "titleBn": "রাস্তার ঢালকরণ",
-  "summary": "tanθ=v²/(rg)",
-  "latex": "\\tan\\theta=\\frac{v^2}{rg}\\quad(\\text{no friction})",
+  "summary": "ঘর্ষণসহ ব্যাংকিং: tan θ = (v²±μrg)/(rg∓μv²)",
+  "latex": "\\tan\\theta=\\dfrac{v^2\\pm\\mu r g}{rg\\mp\\mu v^2}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,41 +16,60 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "v, r, g, n",
-      "meaning": "রাস্তার ঢালকরণ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "\\theta",
+      "meaning": "ব্যাংকিং কোণ",
+      "unit": "°"
+    },
+    {
+      "symbol": "v",
+      "meaning": "গাড়ির বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "r",
+      "meaning": "বাঁকের ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\mu",
+      "meaning": "ঘর্ষণ গুণাঙ্ক",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "tanθ=v²/(rg) — বেশি গতি = বেশি ঢাল।",
+    "lead": "N ও ঘর্ষণের উপাংশ কেন্দ্রমুখী বল জোগায়।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\tan\\theta=\\frac{v^2}{rg}\\quad(\\text{no friction})",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "ঘর্ষণহীন (আদর্শ)",
+        "latex": "\\tan\\theta=\\dfrac{v^2}{rg}",
+        "note": "নির্দিষ্ট ডিজাইন স্পিড।"
+      },
+      {
+        "title": "ঘর্ষণসহ সীমা",
+        "latex": "v_{\\max}^2=rg\\dfrac{\\tan\\theta+\\mu}{1-\\mu\\tan\\theta}",
+        "note": "উপরের চিহ্ন: উঁচু দিকে স্লিপ রোধ।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "বৃত্তাকার বাঁক; অভিন্ন বেগ"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "রাস্তার ঢালকরণ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: বেশি গতি = বেশি ঢাল।)",
-      "answer": "\\tan\\theta=\\frac{v^2}{rg}\\quad(\\text{no friction})"
+      "examType": "Admission",
+      "question": "μ=0, r=100 m, v=20 m/s। θ?",
+      "answer": "\\tan\\theta=v^2/rg=400/(100\\cdot10)=0.4"
     }
   ],
   "memorize": {
-    "trick": "বেশি গতি = বেশি ঢাল।",
+    "trick": "আদর্শ: tanθ=v²/rg। ঘর্ষণ থাকলে গতির সীমা বাড়ে।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "centripetal-force-mv2r",
-    "vertical-circle-limits",
-    "v-omega-r"
+    "banking-of-road-ideal",
+    "centripetal-force"
   ]
 }

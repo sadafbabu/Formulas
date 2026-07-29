@@ -3,8 +3,8 @@
   "chapter": "thermodynamics",
   "title": "Specific Heat Capacity",
   "titleBn": "আপেক্ষিক তাপ",
-  "summary": "Q=mcΔT",
-  "latex": "Q=mc\\Delta T,\\quad c=\\frac{Q}{m\\Delta T}",
+  "summary": "Q = mcΔT; s = c (আপেক্ষিক তাপ)",
+  "latex": "Q=mc\\Delta T,\\quad c=\\dfrac{Q}{m\\Delta T}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,33 +16,48 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "Q, m, c, T",
+      "symbol": "Q",
+      "meaning": "তাপ",
+      "unit": "J"
+    },
+    {
+      "symbol": "m",
+      "meaning": "ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "c",
       "meaning": "আপেক্ষিক তাপ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "J/(kg·K)"
+    },
+    {
+      "symbol": "\\Delta T",
+      "meaning": "তাপমাত্রা বৃদ্ধি",
+      "unit": "K"
     }
   ],
   "derivation": {
-    "lead": "c = একক ভরে ১° তাপমাত্রা বাড়াতে প্রয়োজনীয় তাপ।",
+    "lead": "একক ভরে ১K বাড়াতে প্রয়োজনীয় তাপই c।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "Q=mc\\Delta T,\\quad c=\\frac{Q}{m\\Delta T}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সূত্র",
+        "latex": "Q=mc\\Delta T",
+        "note": "পানির c≈4200 J/(kg·K)।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "কোনো দশা পরিবর্তন নেই"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "আপেক্ষিক তাপ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: c = একক ভরে ১° তাপমাত্রা বাড়াতে প্রয়োজনীয় তাপ।)",
-      "answer": "Q=mc\\Delta T,\\quad c=\\frac{Q}{m\\Delta T}"
+      "examType": "HSC",
+      "question": "m=1 kg, c=4200, ΔT=10। Q?",
+      "answer": "Q=4.2\\times10^4\\,\\mathrm{J}"
     }
   ],
   "memorize": {
-    "trick": "c = একক ভরে ১° তাপমাত্রা বাড়াতে প্রয়োজনীয় তাপ।",
+    "trick": "Q=mcΔT।",
     "steps": []
   },
   "subjects": [

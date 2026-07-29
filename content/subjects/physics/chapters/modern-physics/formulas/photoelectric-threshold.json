@@ -3,8 +3,8 @@
   "chapter": "modern-physics",
   "title": "Photoelectric Threshold",
   "titleBn": "সীমা কম্পাঙ্ক ও তরঙ্গদৈর্ঘ্য",
-  "summary": "কাজের ফাংশন থেকে সীমা মান",
-  "latex": "hf_0=\\phi,\\quad\\lambda_0=\\frac{hc}{\\phi},\\quad K_{max}=hc\\big(\\frac{1}{\\lambda}-\\frac{1}{\\lambda_0}\\big)",
+  "summary": "f₀ = φ/h; λ₀ = hc/φ — এর নিচে কোনো নির্গমন নেই",
+  "latex": "f_0=\\dfrac{\\phi}{h},\\quad \\lambda_0=\\dfrac{hc}{\\phi}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,39 +16,50 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "h, f, lambda, c",
-      "meaning": "সীমা কম্পাঙ্ক ও তরঙ্গদৈর্ঘ্য",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "f_0, \\lambda_0",
+      "meaning": "থ্রেশহোল্ড কম্পাঙ্ক ও তরঙ্গদৈর্ঘ্য",
+      "unit": "Hz, m"
+    },
+    {
+      "symbol": "\\phi",
+      "meaning": "কাজফল",
+      "unit": "J বা eV"
+    },
+    {
+      "symbol": "h, c",
+      "meaning": "প্ল্যাঙ্ক ধ্রুবক ও আলোর বেগ",
+      "unit": "J·s, m/s"
     }
   ],
   "derivation": {
-    "lead": "কাজের ফাংশন থেকে সীমা মান",
+    "lead": "K_max=0 সীমায় hf₀=φ।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "hf_0=\\phi,\\quad\\lambda_0=\\frac{hc}{\\phi},\\quad K_{max}=hc\\big(\\frac{1}{\\lambda}-\\frac{1}{\\lambda_0}\\big)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "থ্রেশহোল্ড",
+        "latex": "hf_0=\\phi\\Rightarrow f_0=\\phi/h,\\ \\lambda_0=hc/\\phi",
+        "note": "তিব্রতা যতই বাড়ুক, f<f₀ হলে ইলেকট্রন বেরোয় না।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "ধাতুর পৃষ্ঠ পরিষ্কার; একক ফোটন শোষণ"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "সীমা কম্পাঙ্ক ও তরঙ্গদৈর্ঘ্য সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: φ = hf₀ = hc/λ₀; λ<λ₀ না হলে ইলেকট্রন বেরোয় না।)",
-      "answer": "hf_0=\\phi,\\quad\\lambda_0=\\frac{hc}{\\phi},\\quad K_{max}=hc\\big(\\frac{1}{\\lambda}-\\frac{1}{\\lambda_0}\\big)"
+      "examType": "HSC",
+      "question": "φ=3.1 eV। λ₀? (hc=1240 eV·nm)",
+      "answer": "\\lambda_0=1240/3.1=400\\mathrm{nm}"
     }
   ],
   "memorize": {
-    "trick": "φ = hf₀ = hc/λ₀; λ<λ₀ না হলে ইলেকট্রন বেরোয় না।",
+    "trick": "কাট-অফ: f₀=φ/h, λ₀=hc/φ।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "mass-energy-photoelectric"
+    "einstein-photoelectric",
+    "stopping-potential"
   ]
 }

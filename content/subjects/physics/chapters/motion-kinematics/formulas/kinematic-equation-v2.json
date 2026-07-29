@@ -3,7 +3,7 @@
   "chapter": "motion-kinematics",
   "title": "v² = u² + 2as",
   "titleBn": "তৃতীয় গতি সমীকরণ",
-  "summary": "v²=u²+2as",
+  "summary": "সমত্বরণে v² = u² + 2as",
   "latex": "v^2=u^2+2as",
   "tags": [
     "hsc",
@@ -16,41 +16,50 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "v, u, a, s",
-      "meaning": "তৃতীয় গতি সমীকরণ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "u, v",
+      "meaning": "আদি ও শেষ বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "a",
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
+    },
+    {
+      "symbol": "s",
+      "meaning": "সরণ",
+      "unit": "m"
     }
   ],
   "derivation": {
-    "lead": "সময় ছাড়া সমীকরণ; v²−u²=2as।",
+    "lead": "সময় বাদ দিয়ে প্রথম দুই সমীকরণ থেকে।",
     "steps": [
       {
-        "title": "মূল সূত্র",
+        "title": "সূত্র",
         "latex": "v^2=u^2+2as",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "তৃতীয় গতিসমীকরণ।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "ধ্রুব a"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "তৃতীয় গতি সমীকরণ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: সময় ছাড়া সমীকরণ; v²−u²=2as।)",
-      "answer": "v^2=u^2+2as"
+      "examType": "HSC",
+      "question": "u=0, a=5, s=10। v?",
+      "answer": "v=\\sqrt{100}=10\\,\\mathrm{m/s}"
     }
   ],
   "memorize": {
-    "trick": "সময় ছাড়া সমীকরণ; v²−u²=2as।",
+    "trick": "v²=u²+2as — t নেই।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "kinematic-equation-s",
-    "kinematic-nth-second",
-    "kinematic-equation-v"
+    "kinematic-equation-v",
+    "kinematic-equation-s"
   ]
 }

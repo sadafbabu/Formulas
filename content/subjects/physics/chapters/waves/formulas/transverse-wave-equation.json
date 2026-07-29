@@ -3,8 +3,8 @@
   "chapter": "waves",
   "title": "Progressive Wave Equation",
   "titleBn": "অগ্রগামী তরঙ্গ সমীকরণ",
-  "summary": "y=A sin(ωt−kx)",
-  "latex": "y=A\\sin(\\omega t-kx),\\quad k=\\frac{2\\pi}{\\lambda}",
+  "summary": "y = A sin(ωt − kx) বা A sin(kx − ωt)",
+  "latex": "y=A\\sin(\\omega t-kx),\\quad v=\\omega/k",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,33 +16,48 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "y, A, t, k",
-      "meaning": "অগ্রগামী তরঙ্গ সমীকরণ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "A",
+      "meaning": "প্রশস্ততা",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\omega, k",
+      "meaning": "কৌণিক কম্পাঙ্ক ও তরঙ্গসংখ্যা",
+      "unit": "rad/s, rad/m"
+    },
+    {
+      "symbol": "v",
+      "meaning": "দশা বেগ",
+      "unit": "m/s"
     }
   ],
   "derivation": {
-    "lead": "ωt−kx ডানদিকে; ωt+kx বামদিকে।",
+    "lead": "ধনাত্মক x দিকে গেলে (ωt−kx) রূপ।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "y=A\\sin(\\omega t-kx),\\quad k=\\frac{2\\pi}{\\lambda}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সমীকরণ",
+        "latex": "y=A\\sin(\\omega t-kx)",
+        "note": "+x দিকে অগ্রসর।"
+      },
+      {
+        "title": "বেগ",
+        "latex": "v=\\omega/k=f\\lambda",
+        "note": "দশা বেগ।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "একমাত্রিক প্রগতিশীল তরঙ্গ"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "অগ্রগামী তরঙ্গ সমীকরণ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: ωt−kx ডানদিকে; ωt+kx বামদিকে।)",
-      "answer": "y=A\\sin(\\omega t-kx),\\quad k=\\frac{2\\pi}{\\lambda}"
+      "examType": "HSC",
+      "question": "ω=10, k=2। v?",
+      "answer": "v=5\\,\\mathrm{m/s}"
     }
   ],
   "memorize": {
-    "trick": "ωt−kx ডানদিকে; ωt+kx বামদিকে।",
+    "trick": "y=A sin(ωt−kx); v=ω/k।",
     "steps": []
   },
   "subjects": [
@@ -50,7 +65,6 @@
   ],
   "related": [
     "wave-v-f-lambda",
-    "superposition-principle-wave",
     "wave-speed-string"
   ]
 }

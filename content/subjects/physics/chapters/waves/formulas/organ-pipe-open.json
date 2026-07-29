@@ -3,7 +3,7 @@
   "chapter": "waves",
   "title": "Open Organ Pipe",
   "titleBn": "মুক্ত অর্গান পাইপ",
-  "summary": "λ/2, λ…",
+  "summary": "মুক্ত পাইপ: f_n = n v/(2L); সব গুণিতক",
   "latex": "f_n=n\\frac{v}{2L},\\quad n=1,2,3,\\ldots",
   "tags": [
     "hsc",
@@ -16,33 +16,53 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "f, n, v, L",
-      "meaning": "মুক্ত অর্গান পাইপ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "L",
+      "meaning": "পাইপের দৈর্ঘ্য",
+      "unit": "m"
+    },
+    {
+      "symbol": "v",
+      "meaning": "শব্দের বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "n",
+      "meaning": "হারমোনিক ক্রম (১,২,৩…)",
+      "unit": "—"
+    },
+    {
+      "symbol": "f_1",
+      "meaning": "মূল সুর = v/(2L)",
+      "unit": "Hz"
     }
   ],
   "derivation": {
-    "lead": "সব গুণিতক; মূল সুর v/2L।",
+    "lead": "দুই প্রান্তে প্রসারণ-প্রকোষ্ঠ → L = n λ/2।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "f_n=n\\frac{v}{2L},\\quad n=1,2,3,\\ldots",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "তরঙ্গদৈর্ঘ্য",
+        "latex": "L=n\\dfrac{\\lambda}{2}\\Rightarrow \\lambda=\\dfrac{2L}{n}",
+        "note": "n=1,2,3,…"
+      },
+      {
+        "title": "কম্পাঙ্ক",
+        "latex": "f_n=n\\dfrac{v}{2L}",
+        "note": "সব পূর্ণ গুণিতক উপস্থিত।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "প্রান্ত সংশোধন নগণ্য; অনুরণন"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "মুক্ত অর্গান পাইপ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: সব গুণিতক; মূল সুর v/2L।)",
-      "answer": "f_n=n\\frac{v}{2L},\\quad n=1,2,3,\\ldots"
+      "examType": "HSC",
+      "question": "L=0.5 m, v=340 m/s। মূল সুর?",
+      "answer": "f_1=v/(2L)=340\\mathrm{Hz}"
     }
   ],
   "memorize": {
-    "trick": "সব গুণিতক; মূল সুর v/2L।",
+    "trick": "Open = সব হারমোনিক; f₁=v/2L।",
     "steps": []
   },
   "subjects": [
@@ -50,6 +70,7 @@
   ],
   "related": [
     "organ-pipe-closed",
-    "beats-frequency"
+    "beats-frequency",
+    "wave-v-f-lambda"
   ]
 }

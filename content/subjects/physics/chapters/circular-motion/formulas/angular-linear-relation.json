@@ -3,7 +3,7 @@
   "chapter": "circular-motion",
   "title": "v = ωr",
   "titleBn": "রৈখিক–কৌণিক সম্পর্ক",
-  "summary": "v=ωr",
+  "summary": "v=ωr; স্পর্শক ত্বরণ a_t=αr",
   "latex": "v=\\omega r,\\quad a_t=\\alpha r",
   "tags": [
     "hsc",
@@ -16,33 +16,53 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "v, r, a, t",
-      "meaning": "রৈখিক–কৌণিক সম্পর্ক",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "v",
+      "meaning": "রৈখিক (স্পর্শক) বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "\\omega",
+      "meaning": "কৌণিক বেগ",
+      "unit": "rad/s"
+    },
+    {
+      "symbol": "r",
+      "meaning": "ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "a_t, \\alpha",
+      "meaning": "স্পর্শক ও কৌণিক ত্বরণ",
+      "unit": "m/s², rad/s²"
     }
   ],
   "derivation": {
-    "lead": "রৈখিক বেগ = ω×r; স্পর্শক ত্বরণ = αr।",
+    "lead": "চাপ dθ হলে চাপ দৈর্ঘ্য r dθ → v=r ω।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "v=\\omega r,\\quad a_t=\\alpha r",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "বেগ",
+        "latex": "v=\\omega r",
+        "note": "ω রেডিয়ানে।"
+      },
+      {
+        "title": "ত্বরণ",
+        "latex": "a_t=\\alpha r,\\quad a_c=\\omega^2 r",
+        "note": "মোট a=√(a_t²+a_c²)।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "অনমনীয় ঘূর্ণন; r ধ্রুব"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "রৈখিক–কৌণিক সম্পর্ক সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: রৈখিক বেগ = ω×r; স্পর্শক ত্বরণ = αr।)",
-      "answer": "v=\\omega r,\\quad a_t=\\alpha r"
+      "examType": "HSC",
+      "question": "ω=10 rad/s, r=0.5 m। v?",
+      "answer": "v=5\\,\\mathrm{m/s}"
     }
   ],
   "memorize": {
-    "trick": "রৈখিক বেগ = ω×r; স্পর্শক ত্বরণ = αr।",
+    "trick": "v=ωr, a_t=αr, a_c=ω²r।",
     "steps": []
   },
   "subjects": [

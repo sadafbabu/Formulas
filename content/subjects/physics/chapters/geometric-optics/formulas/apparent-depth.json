@@ -3,8 +3,8 @@
   "chapter": "geometric-optics",
   "title": "Apparent Depth",
   "titleBn": "আপাত গভীরতা",
-  "summary": "ঘন মাধ্যমে আপাত গভীরতা",
-  "latex": "d_{app}=\\frac{d_{real}}{\\mu},\\quad\\mu=\\frac{\\text{real depth}}{\\text{apparent depth}}",
+  "summary": "আপাত গভীরতা = বাস্তব / μ; সরণ = t(1−1/μ)",
+  "latex": "d_{\\mathrm{app}}=\\dfrac{d}{\\mu},\\quad \\text{shift}=t\\left(1-\\dfrac{1}{\\mu}\\right)",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,39 +16,61 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "d, a, p, r",
+      "symbol": "d",
+      "meaning": "বাস্তব গভীরতা",
+      "unit": "m"
+    },
+    {
+      "symbol": "d_{\\mathrm{app}}",
       "meaning": "আপাত গভীরতা",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "m"
+    },
+    {
+      "symbol": "\\mu",
+      "meaning": "প্রতিসরাঙ্ক",
+      "unit": "—"
+    },
+    {
+      "symbol": "t",
+      "meaning": "পুরুত্ব / গভীরতা",
+      "unit": "m"
     }
   ],
   "derivation": {
-    "lead": "আপাত = প্রকৃত/μ — পানি থেকে কম গভীর দেখায়।",
+    "lead": "লম্বের কাছাকাছি রশ্মিতে প্রতিসরণে গভীরতা কমে দেখায়।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "d_{app}=\\frac{d_{real}}{\\mu},\\quad\\mu=\\frac{\\text{real depth}}{\\text{apparent depth}}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "আপাত গভীরতা",
+        "latex": "d_{\\mathrm{app}}=\\dfrac{d}{\\mu}",
+        "note": "পানি μ≈4/3 → আপাত ≈ ¾ বাস্তব।"
+      },
+      {
+        "title": "উল্লম্ব সরণ",
+        "latex": "\\Delta=t-t/\\mu=t(1-1/\\mu)",
+        "note": "এটি ল্যাটেরাল শিফট নয় — উল্লম্ব অপটিক্যাল শিফট।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "প্রায় লম্ব দৃষ্টি; সমতল পৃষ্ঠ"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "আপাত গভীরতা সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: আপাত = প্রকৃত/μ — পানি থেকে কম গভীর দেখায়।)",
-      "answer": "d_{app}=\\frac{d_{real}}{\\mu},\\quad\\mu=\\frac{\\text{real depth}}{\\text{apparent depth}}"
+      "examType": "HSC",
+      "question": "৪ m গভীর পুল (μ=4/3) আপাতে কত?",
+      "answer": "d_{\\mathrm{app}}=4/(4/3)=3\\mathrm{m}"
     }
   ],
   "memorize": {
-    "trick": "আপাত = প্রকৃত/μ — পানি থেকে কম গভীর দেখায়।",
+    "trick": "আপাত = বাস্তব/μ; সরণ = t(1−1/μ)।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "snell-law"
+    "snell-law",
+    "glass-slab-lateral-shift",
+    "critical-angle"
   ]
 }

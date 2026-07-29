@@ -1,10 +1,10 @@
 {
   "id": "relative-velocity-1d",
   "chapter": "motion-kinematics",
-  "title": "Relative Velocity 1D",
-  "titleBn": "আপেক্ষিক বেগ (১D)",
-  "summary": "vAB=vA−vB",
-  "latex": "\\vec v_{AB}=\\vec v_A-\\vec v_B",
+  "title": "Relative Velocity (1D)",
+  "titleBn": "আপেক্ষিক বেগ (একমাত্রিক)",
+  "summary": "একই রেখায়: v_AB = v_A − v_B (চিহ্নসহ)",
+  "latex": "v_{AB}=v_A-v_B\\quad(\\text{1D, চিহ্নসহ})",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,39 +16,50 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "v, A, B",
-      "meaning": "আপেক্ষিক বেগ (১D)",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "v_A, v_B",
+      "meaning": "ভূমি সাপেক্ষে বেগ (চিহ্নসহ)",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "v_{AB}",
+      "meaning": "B সাপেক্ষে A-এর বেগ",
+      "unit": "m/s"
     }
   ],
   "derivation": {
-    "lead": "A এর সাপেক্ষে B = vA − vB।",
+    "lead": "একই সরলরেখায় চিহ্ন ঠিক রাখলে বিয়োগই যথেষ্ট।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\vec v_{AB}=\\vec v_A-\\vec v_B",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সংজ্ঞা",
+        "latex": "v_{AB}=v_A-v_B",
+        "note": "ধনাত্মক দিক আগে ঠিক করো।"
+      },
+      {
+        "title": "বিপরীত",
+        "latex": "v_{BA}=-v_{AB}",
+        "note": "আপেক্ষিক বেগের দিক উল্টো হয়।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "একমাত্রিক গতি; ধ্রুব বেগ বা তাৎক্ষণিক বেগ"
+    ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "আপেক্ষিক বেগ (১D) সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: A এর সাপেক্ষে B = vA − vB।)",
-      "answer": "\\vec v_{AB}=\\vec v_A-\\vec v_B"
+      "examType": "HSC",
+      "question": "A: +20 m/s, B: +5 m/s। B সাপেক্ষে A-এর বেগ?",
+      "answer": "v_{AB}=20-5=15\\mathrm{m/s}"
     }
   ],
   "memorize": {
-    "trick": "A এর সাপেক্ষে B = vA − vB।",
+    "trick": "আপেক্ষিক = নিজের − অন্যের (একই চিহ্ন নিয়মে)।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "kinematic-nth-second",
-    "rain-man-relative",
-    "kinematic-equation-v2"
+    "relative-velocity-2d",
+    "rain-man-relative"
   ]
 }

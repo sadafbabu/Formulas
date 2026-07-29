@@ -3,8 +3,8 @@
   "chapter": "thermodynamics",
   "title": "Isobaric & Isochoric Processes",
   "titleBn": "সমচাপ ও সমআয়তন প্রক্রিয়া",
-  "summary": "সমচাপ/সমআয়তনে কাজ ও তাপ",
-  "latex": "W_P=P\\Delta V=nR\\Delta T,\\quad W_V=0,\\quad Q_V=nC_V\\Delta T,\\quad Q_P=nC_P\\Delta T",
+  "summary": "স্থির চাপে W=PΔV; স্থির আয়তনে W=0, ΔU=nC_vΔT",
+  "latex": "W_{\\mathrm{isobar}}=P\\Delta V,\\quad W_{\\mathrm{isochor}}=0,\\ \\Delta U=nC_V\\Delta T",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,33 +16,48 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "W, P, V, n",
-      "meaning": "সমচাপ ও সমআয়তন প্রক্রিয়া",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "W",
+      "meaning": "কাজ",
+      "unit": "J"
+    },
+    {
+      "symbol": "P, \\Delta V",
+      "meaning": "চাপ ও আয়তন পরিবর্তন",
+      "unit": "Pa, m³"
+    },
+    {
+      "symbol": "C_V",
+      "meaning": "স্থির আয়তনে মোলার তাপধারণক্ষমতা",
+      "unit": "J/(mol·K)"
     }
   ],
   "derivation": {
-    "lead": "সমচাপ/সমআয়তনে কাজ ও তাপ",
+    "lead": "প্রথম সূত্র ΔU=Q−W (চিহ্ন নিয়ম অনুযায়ী)।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "W_P=P\\Delta V=nR\\Delta T,\\quad W_V=0,\\quad Q_V=nC_V\\Delta T,\\quad Q_P=nC_P\\Delta T",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "আইসোবারিক",
+        "latex": "W=P\\Delta V=nR\\Delta T",
+        "note": "আদর্শ গ্যাস।"
+      },
+      {
+        "title": "আইসোকোরিক",
+        "latex": "W=0,\\ Q=\\Delta U=nC_V\\Delta T",
+        "note": "সব তাপ অভ্যন্তরীণ শক্তিতে।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "আদর্শ গ্যাস; প্রতবর্তনযোগ্য আদর্শায়ন"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "সমচাপ ও সমআয়তন প্রক্রিয়া সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: Isochoric: W=0; Isobaric: W=PΔV।)",
-      "answer": "W_P=P\\Delta V=nR\\Delta T,\\quad W_V=0,\\quad Q_V=nC_V\\Delta T,\\quad Q_P=nC_P\\Delta T"
+      "examType": "HSC",
+      "question": "স্থির আয়তনে কাজ কত?",
+      "answer": "W=0"
     }
   ],
   "memorize": {
-    "trick": "Isochoric: W=0; Isobaric: W=PΔV।",
+    "trick": "Isochor W=0; Isobar W=PΔV।",
     "steps": []
   },
   "subjects": [

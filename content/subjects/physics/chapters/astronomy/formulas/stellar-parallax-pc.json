@@ -3,8 +3,8 @@
   "chapter": "astronomy",
   "title": "Stellar Parallax Distance",
   "titleBn": "প্যারালাক্স দূরত্ব",
-  "summary": "d=1/p",
-  "latex": "d(\\mathrm{pc})=\\frac{1}{p('')} ",
+  "summary": "d(pc) = 1/p″ — পার্সেক সংজ্ঞা",
+  "latex": "d(\\mathrm{pc})=\\dfrac{1}{p^{\\prime\\prime}},\\quad 1\\,\\mathrm{pc}\\approx 3.26\\,\\mathrm{ly}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,41 +16,45 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "d, p, c",
-      "meaning": "প্যারালাক্স দূরত্ব",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "p^{\\prime\\prime}",
+      "meaning": "প্যারাল্যাক্স কোণ (আর্কসেকেন্ড)",
+      "unit": "arcsec"
+    },
+    {
+      "symbol": "d",
+      "meaning": "দূরত্ব",
+      "unit": "pc"
     }
   ],
   "derivation": {
-    "lead": "প্যারালাক্স সেকেন্ডে → পারসেক দূরত্ব।",
+    "lead": "পৃথিবীর কক্ষ ব্যাসার্ধ দেখার ভিত্তিতে ত্রিকোণমিতি।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "d(\\mathrm{pc})=\\frac{1}{p('')} ",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সূত্র",
+        "latex": "d=1/p",
+        "note": "p=1″ → d=1 pc।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "ক্ষুদ্র কোণ; বার্ষিক প্যারাল্যাক্স"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "প্যারালাক্স দূরত্ব সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: প্যারালাক্স সেকেন্ডে → পারসেক দূরত্ব।)",
-      "answer": "d(\\mathrm{pc})=\\frac{1}{p('')} "
+      "examType": "HSC",
+      "question": "p=0.1″ হলে d?",
+      "answer": "d=10\\,\\mathrm{pc}"
     }
   ],
   "memorize": {
-    "trick": "প্যারালাক্স সেকেন্ডে → পারসেক দূরত্ব।",
+    "trick": "d(pc)=1/p″।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "escape-velocity-planet",
-    "absolute-apparent-magnitude",
-    "magnitude-scale"
+    "hubble-law",
+    "absolute-apparent-magnitude"
   ]
 }

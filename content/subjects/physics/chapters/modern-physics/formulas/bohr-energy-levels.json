@@ -3,8 +3,8 @@
   "chapter": "modern-physics",
   "title": "Bohr Energy Levels",
   "titleBn": "বোর শক্তিস্তর",
-  "summary": "হাইড্রোজেনের শক্তিস্তর ও ফোটন শক্তি",
-  "latex": "E_n=-\\frac{13.6}{n^2}\\,\\mathrm{eV},\\quad\\Delta E=hf=E_i-E_f",
+  "summary": "E_n = −13.6/n² eV (হাইড্রোজেন); ΔE = hf",
+  "latex": "E_n=-\\dfrac{13.6}{n^2}\\,\\mathrm{eV},\\quad hf=E_i-E_f",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,40 +16,55 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "E, n, e, V",
-      "meaning": "বোর শক্তিস্তর",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "n",
+      "meaning": "প্রধান কোয়ান্টাম সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "E_n",
+      "meaning": "n-তম কক্ষের শক্তি",
+      "unit": "eV"
+    },
+    {
+      "symbol": "h f",
+      "meaning": "নির্গত/শোষিত ফোটন শক্তি",
+      "unit": "eV"
     }
   ],
   "derivation": {
-    "lead": "হাইড্রোজেনের শক্তিস্তর ও ফোটন শক্তি",
+    "lead": "কোয়ান্টাইজড কক্ষে মোট শক্তি ঋণাত্মক; n→∞ এ E→0 (আয়নীকরণ)।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "E_n=-\\frac{13.6}{n^2}\\,\\mathrm{eV},\\quad\\Delta E=hf=E_i-E_f",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "শক্তি স্তর",
+        "latex": "E_n=-\\dfrac{13.6\\,Z^2}{n^2}\\,\\mathrm{eV}",
+        "note": "হাইড্রোজেনে Z=1।"
+      },
+      {
+        "title": "বর্ণালি",
+        "latex": "\\dfrac{1}{\\lambda}=R\\left(\\dfrac{1}{n_f^2}-\\dfrac{1}{n_i^2}\\right)",
+        "note": "রিডবার্গ সূত্রের সাথে মিল।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "এক-ইলেকট্রন পরমাণু; বোর মডেল"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "বোর শক্তিস্তর সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: E_n = −13.6/n² eV; ফোটন = স্তরপার্থক্য।)",
-      "answer": "E_n=-\\frac{13.6}{n^2}\\,\\mathrm{eV},\\quad\\Delta E=hf=E_i-E_f"
+      "examType": "HSC",
+      "question": "n=2 → n=1 এ নির্গত শক্তি?",
+      "answer": "\\Delta E=13.6(1-1/4)=10.2\\mathrm{eV}"
     }
   ],
   "memorize": {
-    "trick": "E_n = −13.6/n² eV; ফোটন = স্তরপার্থক্য।",
+    "trick": "E_n=−13.6/n² eV; আয়নীকরণ = 13.6 eV।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "bohr-radius-hydrogen",
-    "mass-energy-photoelectric"
+    "bohr-frequency-condition",
+    "bohr-radius-hydrogen"
   ]
 }

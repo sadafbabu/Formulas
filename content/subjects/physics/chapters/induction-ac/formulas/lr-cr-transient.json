@@ -3,8 +3,8 @@
   "chapter": "induction-ac",
   "title": "LR & CR Transient",
   "titleBn": "LR ও CR বর্তনীতে প্রবাহ বৃদ্ধি-ক্ষয়",
-  "summary": "ট্রানজিয়েন্ট চার্জিং/ডিচার্জিং",
-  "latex": "I=I_0(1-e^{-Rt/L}),\\ I=I_0e^{-Rt/L},\\ \\tau=L/R;\\quad q=q_0(1-e^{-t/RC}),\\ \\tau=RC",
+  "summary": "LR: τ=L/R; CR: τ=RC — সূচকীয় বৃদ্ধি/ক্ষয়",
+  "latex": "i=I(1-e^{-tR/L})\\ (\\mathrm{LR}),\\quad q=Qe^{-t/RC}\\ (\\mathrm{CR\\ discharge})",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,40 +16,55 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "I, e, R, t",
-      "meaning": "LR ও CR বর্তনীতে প্রবাহ বৃদ্ধি-ক্ষয়",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "\\tau_{L}",
+      "meaning": "L/R সময় ধ্রুবক",
+      "unit": "s"
+    },
+    {
+      "symbol": "\\tau_{C}",
+      "meaning": "RC সময় ধ্রুবক",
+      "unit": "s"
+    },
+    {
+      "symbol": "i, q",
+      "meaning": "প্রবাহ ও চার্জ",
+      "unit": "A, C"
     }
   ],
   "derivation": {
-    "lead": "ট্রানজিয়েন্ট চার্জিং/ডিচার্জিং",
+    "lead": "আবেশক প্রবাহ বৃদ্ধি রোধ করে; ধারক চার্জ ক্ষয় সূচকীয়।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "I=I_0(1-e^{-Rt/L}),\\ I=I_0e^{-Rt/L},\\ \\tau=L/R;\\quad q=q_0(1-e^{-t/RC}),\\ \\tau=RC",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "LR চার্জিং",
+        "latex": "i=I(1-e^{-t/\\tau}),\\ \\tau=L/R",
+        "note": "I=V/R।"
+      },
+      {
+        "title": "CR ডিসচার্জ",
+        "latex": "q=Qe^{-t/RC}",
+        "note": "একই τ ধারণা।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "ধ্রুব L,R,C"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "LR ও CR বর্তনীতে প্রবাহ বৃদ্ধি-ক্ষয় সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: τ = L/R বা RC; 63% বৃদ্ধি/ক্ষয় এক τ-তে।)",
-      "answer": "I=I_0(1-e^{-Rt/L}),\\ I=I_0e^{-Rt/L},\\ \\tau=L/R;\\quad q=q_0(1-e^{-t/RC}),\\ \\tau=RC"
+      "examType": "HSC",
+      "question": "L=2 H, R=10 Ω। τ?",
+      "answer": "\\tau=0.2\\,\\mathrm{s}"
     }
   ],
   "memorize": {
-    "trick": "τ = L/R বা RC; 63% বৃদ্ধি/ক্ষয় এক τ-তে।",
+    "trick": "τ_L=L/R, τ_C=RC।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "self-inductance",
-    "ac-through-l-c-r"
+    "rc-charging",
+    "ac-impedance"
   ]
 }

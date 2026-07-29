@@ -3,8 +3,8 @@
   "chapter": "waves",
   "title": "v = fλ",
   "titleBn": "তরঙ্গ বেগ সূত্র",
-  "summary": "v=fλ",
-  "latex": "v=f\\lambda",
+  "summary": "তরঙ্গের মৌলিক সম্পর্ক: v = fλ = ω/k",
+  "latex": "v=f\\lambda=\\dfrac{\\omega}{k}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,33 +16,53 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "v, f, lambda",
-      "meaning": "তরঙ্গ বেগ সূত্র",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "v",
+      "meaning": "তরঙ্গ বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "f",
+      "meaning": "কম্পাঙ্ক",
+      "unit": "Hz"
+    },
+    {
+      "symbol": "\\lambda",
+      "meaning": "তরঙ্গদৈর্ঘ্য",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\omega, k",
+      "meaning": "কৌণিক কম্পাঙ্ক ও তরঙ্গ সংখ্যা",
+      "unit": "rad/s, rad/m"
     }
   ],
   "derivation": {
-    "lead": "বেগ = কম্পাঙ্ক × তরঙ্গদৈর্ঘ্য — সব তরঙ্গে।",
+    "lead": "এক সেকেন্ডে fটি তরঙ্গদৈর্ঘ্য অতিক্রম → দূরত্ব fλ।",
     "steps": [
       {
-        "title": "মূল সূত্র",
+        "title": "মৌলিক",
         "latex": "v=f\\lambda",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "সব প্রগতিশীল তরঙ্গে প্রযোজ্য।"
+      },
+      {
+        "title": "কোণীয় রূপ",
+        "latex": "\\omega=2\\pi f,\\ k=2\\pi/\\lambda\\Rightarrow v=\\omega/k",
+        "note": "দশা বেগ।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "অবিচ্ছिন্ন মাধ্যম; একবর্ণী তরঙ্গ"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "তরঙ্গ বেগ সূত্র সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: বেগ = কম্পাঙ্ক × তরঙ্গদৈর্ঘ্য — সব তরঙ্গে।)",
-      "answer": "v=f\\lambda"
+      "examType": "HSC",
+      "question": "f=500 Hz, λ=0.68 m। v?",
+      "answer": "v=500\\times0.68=340\\mathrm{m/s}"
     }
   ],
   "memorize": {
-    "trick": "বেগ = কম্পাঙ্ক × তরঙ্গদৈর্ঘ্য — সব তরঙ্গে।",
+    "trick": "v=fλ — সব তরঙ্গের বেসিক।",
     "steps": []
   },
   "subjects": [
@@ -50,7 +70,6 @@
   ],
   "related": [
     "wave-speed-string",
-    "transverse-wave-equation",
-    "superposition-principle-wave"
+    "transverse-wave-equation"
   ]
 }

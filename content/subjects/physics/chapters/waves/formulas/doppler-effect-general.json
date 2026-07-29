@@ -3,7 +3,7 @@
   "chapter": "waves",
   "title": "Doppler Effect",
   "titleBn": "ডপলার প্রভাব",
-  "summary": "f'=f(v±vo)/(v±vs)",
+  "summary": "f′ = f(v±v_o)/(v±v_s); কাছে এলে কম্পাঙ্ক বাড়ে",
   "latex": "f'=f\\,\\frac{v\\pm v_o}{v\\pm v_s}",
   "tags": [
     "hsc",
@@ -16,33 +16,53 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "f, v, o, s",
-      "meaning": "ডপলার প্রভাব",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "f, f'",
+      "meaning": "প্রকৃত ও শ্রুত কম্পাঙ্ক",
+      "unit": "Hz"
+    },
+    {
+      "symbol": "v",
+      "meaning": "শব্দের বেগ মাধ্যমে",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "v_o",
+      "meaning": "পর্যবেক্ষকের বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "v_s",
+      "meaning": "উৎসের বেগ",
+      "unit": "m/s"
     }
   ],
   "derivation": {
-    "lead": "পর্যবেক্ষক কাছে +; উৎস কাছে হলে ভাজকে − (কম্পন বাড়ে)।",
+    "lead": "পর্যবেক্ষক কাছে → লবতে +; উৎস কাছে → হরে − (তরঙ্গদৈর্ঘ্য কমে)।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "f'=f\\,\\frac{v\\pm v_o}{v\\pm v_s}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সাধারণ সূত্র",
+        "latex": "f'=f\\,\\dfrac{v\\pm v_o}{v\\pm v_s}",
+        "note": "চিহ্ন: কাছে আসা = কম্পাঙ্ক বাড়ে।"
+      },
+      {
+        "title": "উদাহরণ — উৎস কাছে",
+        "latex": "f'=f\\dfrac{v}{v-v_s}",
+        "note": "পর্যবেক্ষক স্থির।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "নিশ্চল মাধ্যম; v_s < v; শব্দ/যান্ত্রিক তরঙ্গ"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "ডপলার প্রভাব সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: পর্যবেক্ষক কাছে +; উৎস কাছে হলে ভাজকে − (কম্পন বাড়ে)।)",
-      "answer": "f'=f\\,\\frac{v\\pm v_o}{v\\pm v_s}"
+      "examType": "HSC",
+      "question": "উৎস 340 Hz, v=340 m/s, v_s=20 m/s কাছে আসছে। f′?",
+      "answer": "f'=340\\cdot\\dfrac{340}{340-20}=340\\cdot\\dfrac{340}{320}=361.25\\mathrm{Hz}"
     }
   ],
   "memorize": {
-    "trick": "পর্যবেক্ষক কাছে +; উৎস কাছে হলে ভাজকে − (কম্পন বাড়ে)।",
+    "trick": "NUM: observer towards +; DEN: source towards −।",
     "steps": []
   },
   "subjects": [
@@ -51,6 +71,6 @@
   "related": [
     "echo-formula",
     "beats-frequency",
-    "intensity-amplitude-wave"
+    "wave-v-f-lambda"
   ]
 }

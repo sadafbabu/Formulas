@@ -3,8 +3,8 @@
   "chapter": "properties-of-matter",
   "title": "Capillary Rise",
   "titleBn": "কৈশিক উত্থান",
-  "summary": "নলে তরলের উত্থান/পতন",
-  "latex": "h=\\frac{2T\\cos\\theta}{r\\rho g}",
+  "summary": "h = 2S cosθ / (ρgr)",
+  "latex": "h=\\dfrac{2S\\cos\\theta}{\\rho g r}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,33 +16,48 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "h, T, r, g",
-      "meaning": "কৈশিক উত্থান",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "h",
+      "meaning": "উত্থান/পতন",
+      "unit": "m"
+    },
+    {
+      "symbol": "S",
+      "meaning": "পৃষ্ঠটান",
+      "unit": "N/m"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "সংস্পর্শ কোণ",
+      "unit": "°"
+    },
+    {
+      "symbol": "r",
+      "meaning": "নলের ব্যাসার্ধ",
+      "unit": "m"
     }
   ],
   "derivation": {
-    "lead": "h ∝ T, ∝ 1/r — সরু নলে বেশি উঠে।",
+    "lead": "উর্ধ্ব বল 2πr S cosθ = ওজন πr²hρg।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "h=\\frac{2T\\cos\\theta}{r\\rho g}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সূত্র",
+        "latex": "h=2S\\cos\\theta/(\\rho g r)",
+        "note": "পারদে θ>90° → পতন।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "সরু নল; অভিকর্ষ স্থির"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "কৈশিক উত্থান সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: h ∝ T, ∝ 1/r — সরু নলে বেশি উঠে।)",
-      "answer": "h=\\frac{2T\\cos\\theta}{r\\rho g}"
+      "examType": "HSC",
+      "question": "r কমাতে h কী হয়?",
+      "answer": "h\\propto 1/r\\Rightarrow h\\uparrow"
     }
   ],
   "memorize": {
-    "trick": "h ∝ T, ∝ 1/r — সরু নলে বেশি উঠে।",
+    "trick": "h=2S cosθ/(ρgr)।",
     "steps": []
   },
   "subjects": [
@@ -50,7 +65,6 @@
   ],
   "related": [
     "surface-tension",
-    "bernoulli-equation",
-    "poiseuille-law"
+    "excess-pressure-bubble"
   ]
 }

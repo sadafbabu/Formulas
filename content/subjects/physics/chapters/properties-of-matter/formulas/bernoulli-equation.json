@@ -3,7 +3,7 @@
   "chapter": "properties-of-matter",
   "title": "Bernoulli's Equation",
   "titleBn": "বার্নোলির সমীকরণ",
-  "summary": "অসংকোচনযোগ্য প্রবাহে শক্তি সংরক্ষণ",
+  "summary": "P + ½ρv² + ρgh = ধ্রুব (আদর্শ প্রবাহ)",
   "latex": "P+\\tfrac12\\rho v^2+\\rho g h=\\text{constant}",
   "tags": [
     "hsc",
@@ -16,41 +16,60 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "P, tfrac, v, g",
-      "meaning": "বার্নোলির সমীকরণ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "P",
+      "meaning": "চাপ",
+      "unit": "Pa"
+    },
+    {
+      "symbol": "\\rho",
+      "meaning": "ঘনত্ব",
+      "unit": "kg/m³"
+    },
+    {
+      "symbol": "v",
+      "meaning": "প্রবাহ বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "h",
+      "meaning": "উচ্চতা",
+      "unit": "m"
     }
   ],
   "derivation": {
-    "lead": "অসংকোচনযোগ্য প্রবাহে শক্তি সংরক্ষণ",
+    "lead": "শক্তি সংরক্ষণ: চাপ-শক্তি + গতি + বিভব।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "P+\\tfrac12\\rho v^2+\\rho g h=\\text{constant}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সূত্র",
+        "latex": "P+\\tfrac12\\rho v^2+\\rho g h=\\mathrm{constant}",
+        "note": "একই স্ট্রিমলাইনে।"
+      },
+      {
+        "title": "ভেঞ্চুরি",
+        "latex": "P_1+\\tfrac12\\rho v_1^2=P_2+\\tfrac12\\rho v_2^2",
+        "note": "একই উচ্চতায়।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "অসংনম্য, অসান্দ্র, স্থিতিশীল প্রবাহ"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "বার্নোলির সমীকরণ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: P + ½ρv² + ρgh = ধ্রুব — গতি বাড়লে চাপ কমে।)",
-      "answer": "P+\\tfrac12\\rho v^2+\\rho g h=\\text{constant}"
+      "examType": "Admission",
+      "question": "পাইপ সরু হলে চাপ কী হয়?",
+      "answer": "v\\uparrow\\Rightarrow P\\downarrow\\ (\\text{Bernoulli})"
     }
   ],
   "memorize": {
-    "trick": "P + ½ρv² + ρgh = ধ্রুব — গতি বাড়লে চাপ কমে।",
+    "trick": "বেগ বাড়লে চাপ কমে।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "capillary-rise",
     "continuity-equation",
-    "surface-tension"
+    "continuity-fluid"
   ]
 }

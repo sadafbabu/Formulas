@@ -3,7 +3,7 @@
   "chapter": "induction-ac",
   "title": "AC Impedance",
   "titleBn": "প্রতিবন্ধকতা",
-  "summary": "Z=√(R²+(X_L−X_C)²)",
+  "summary": "AC প্রতিবন্ধকতা Z=√(R²+(X_L−X_C)²)",
   "latex": "Z=\\sqrt{R^2+(X_L-X_C)^2},\\quad X_L=\\omega L,\\ X_C=1/(\\omega C)",
   "tags": [
     "hsc",
@@ -16,33 +16,53 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "Z, R, X, L",
+      "symbol": "Z",
       "meaning": "প্রতিবন্ধকতা",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "Ω"
+    },
+    {
+      "symbol": "R",
+      "meaning": "রোধ",
+      "unit": "Ω"
+    },
+    {
+      "symbol": "X_L=\\omega L",
+      "meaning": "আবেশিক প্রতিঘাত",
+      "unit": "Ω"
+    },
+    {
+      "symbol": "X_C=1/(\\omega C)",
+      "meaning": "ধারকীয় প্রতিঘাত",
+      "unit": "Ω"
     }
   ],
   "derivation": {
-    "lead": "Z=√(R²+(X_L−X_C)²) — অনুরণনে X_L=X_C → Z=R।",
+    "lead": "R ও নেট reactance লম্ব — ফ্যাজর যোগ।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "Z=\\sqrt{R^2+(X_L-X_C)^2},\\quad X_L=\\omega L,\\ X_C=1/(\\omega C)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "Reactance",
+        "latex": "X_L=\\omega L,\\quad X_C=\\dfrac{1}{\\omega C}",
+        "note": "অনুরণনে X_L=X_C।"
+      },
+      {
+        "title": "Z",
+        "latex": "Z=\\sqrt{R^2+(X_L-X_C)^2}",
+        "note": "I_rms=V_rms/Z।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "সাইনুসয়েডাল steady-state"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "প্রতিবন্ধকতা সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: অনুরণনে X_L=X_C → Z=R।)",
-      "answer": "Z=\\sqrt{R^2+(X_L-X_C)^2},\\quad X_L=\\omega L,\\ X_C=1/(\\omega C)"
+      "examType": "HSC",
+      "question": "R=30 Ω, X_L=40 Ω, X_C=0। Z কত?",
+      "answer": "Z=\\sqrt{30^2+40^2}=50\\,\\Omega"
     }
   ],
   "memorize": {
-    "trick": "অনুরণনে X_L=X_C → Z=R।",
+    "trick": "Z=√(R²+X²); X=X_L−X_C।",
     "steps": []
   },
   "subjects": [

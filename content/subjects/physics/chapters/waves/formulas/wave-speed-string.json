@@ -3,8 +3,8 @@
   "chapter": "waves",
   "title": "Wave Speed on String",
   "titleBn": "তারের তরঙ্গ বেগ",
-  "summary": "v=√(T/μ)",
-  "latex": "v=\\sqrt{\\frac{T}{\\mu}}",
+  "summary": "দড়িতে তরঙ্গবেগ v = √(T/μ)",
+  "latex": "v=\\sqrt{\\dfrac{T}{\\mu}},\\quad \\mu=\\dfrac{m}{L}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,33 +16,43 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "v, T",
-      "meaning": "তারের তরঙ্গ বেগ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "T",
+      "meaning": "দড়ির টান",
+      "unit": "N"
+    },
+    {
+      "symbol": "\\mu",
+      "meaning": "একক দৈর্ঘ্যের ভর",
+      "unit": "kg/m"
+    },
+    {
+      "symbol": "v",
+      "meaning": "তরঙ্গবেগ",
+      "unit": "m/s"
     }
   ],
   "derivation": {
-    "lead": "টান বাড়লে বেগ বাড়ে; μ = ভর/দৈর্ঘ্য।",
+    "lead": "ছোট উপাদানের নেট বল থেকে তরঙ্গ সমীকরণ → v² = T/μ।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "v=\\sqrt{\\frac{T}{\\mu}}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সূত্র",
+        "latex": "v=\\sqrt{T/\\mu}",
+        "note": "টান বাড়লে দ্রুত; ভারী দড়ি ধীর।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "আদর্শ নমনীয় দড়ি; ক্ষুদ্র প্রশস্ততা"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "তারের তরঙ্গ বেগ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: টান বাড়লে বেগ বাড়ে; μ = ভর/দৈর্ঘ্য।)",
-      "answer": "v=\\sqrt{\\frac{T}{\\mu}}"
+      "examType": "HSC",
+      "question": "T=100 N, μ=0.01 kg/m। v?",
+      "answer": "v=\\sqrt{100/0.01}=100\\mathrm{m/s}"
     }
   ],
   "memorize": {
-    "trick": "টান বাড়লে বেগ বাড়ে; μ = ভর/দৈর্ঘ্য।",
+    "trick": "v=√(T/μ) — টান↑ বেগ↑, μ↑ বেগ↓।",
     "steps": []
   },
   "subjects": [

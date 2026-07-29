@@ -3,8 +3,8 @@
   "chapter": "measurement",
   "title": "Dimensional Formula",
   "titleBn": "মাত্রিক সূত্র",
-  "summary": "[M^a L^b T^c]",
-  "latex": "[Q]=\\mathrm{M}^{a}\\mathrm{L}^{b}\\mathrm{T}^{c}",
+  "summary": "রাশির মাত্রা [M^a L^b T^c …]",
+  "latex": "[F]=[MLT^{-2}],\\ [E]=[ML^2T^{-2}],\\ [P]=[ML^{-1}T^{-2}]",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,40 +16,44 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "Q, M, a, L",
-      "meaning": "মাত্রিক সূত্র",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "M,L,T",
+      "meaning": "ভর, দৈর্ঘ্য, সময় মাত্রা",
+      "unit": "—"
+    },
+    {
+      "symbol": "[Q]",
+      "meaning": "রাশি Q-এর মাত্রা",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "প্রতিটি ভৌত রাশিকে M, L, T-এর ঘাত দিয়ে লেখো।",
+    "lead": "মৌলিক মাত্রা দিয়ে রাশি প্রকাশ।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "[Q]=\\mathrm{M}^{a}\\mathrm{L}^{b}\\mathrm{T}^{c}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "উদাহরণ",
+        "latex": "[F]=[ma]=[MLT^{-2}]",
+        "note": "চাপ [F]/A]=[ML^{-1}T^{-2}]।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "SI মৌলিক মাত্রা"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "মাত্রিক সূত্র সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: প্রতিটি ভৌত রাশিকে M, L, T-এর ঘাত দিয়ে লেখো।)",
-      "answer": "[Q]=\\mathrm{M}^{a}\\mathrm{L}^{b}\\mathrm{T}^{c}"
+      "examType": "HSC",
+      "question": "শক্তির মাত্রা?",
+      "answer": "[ML^2T^{-2}]"
     }
   ],
   "memorize": {
-    "trick": "প্রতিটি ভৌত রাশিকে M, L, T-এর ঘাত দিয়ে লেখো।",
+    "trick": "F: MLT⁻²; E: ML²T⁻²; P: ML⁻¹T⁻²।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "dimensional-homogeneity",
-    "percentage-error"
+    "dimensional-homogeneity"
   ]
 }

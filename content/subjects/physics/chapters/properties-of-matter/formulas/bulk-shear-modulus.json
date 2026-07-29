@@ -3,8 +3,8 @@
   "chapter": "properties-of-matter",
   "title": "Bulk & Shear Modulus",
   "titleBn": "আয়তন ও পার্শ্ব গুণাঙ্ক",
-  "summary": "বাল্ক ও শিয়ার মডুলাস",
-  "latex": "B=-\\frac{\\Delta P}{\\Delta V/V},\\quad\\eta=\\frac{F/A}{\\Delta x/L}",
+  "summary": "B = −ΔP/(ΔV/V); η = shear stress / shear strain",
+  "latex": "B=-\\dfrac{\\Delta P}{\\Delta V/V},\\quad \\eta=\\dfrac{F/A}{\\tan\\theta}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,33 +16,48 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "B, P, V, eta",
-      "meaning": "আয়তন ও পার্শ্ব গুণাঙ্ক",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "B",
+      "meaning": "বাল্ক মডুলাস",
+      "unit": "Pa"
+    },
+    {
+      "symbol": "\\eta",
+      "meaning": "শিয়ার মডুলাস",
+      "unit": "Pa"
+    },
+    {
+      "symbol": "\\Delta P, \\Delta V",
+      "meaning": "চাপ ও আয়তন পরিবর্তন",
+      "unit": "Pa, m³"
     }
   ],
   "derivation": {
-    "lead": "B চাপে আয়তন; η পার্শ্ব সরণে।",
+    "lead": "আয়তনীয় ও পার্শ্বীয় স্থিতিস্থাপকতা।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "B=-\\frac{\\Delta P}{\\Delta V/V},\\quad\\eta=\\frac{F/A}{\\Delta x/L}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "Bulk",
+        "latex": "B=-\\Delta P/(\\Delta V/V)",
+        "note": "ঋণাত্মক চিহ্ন: চাপ↑ আয়তন↓।"
+      },
+      {
+        "title": "Shear",
+        "latex": "\\eta=(F/A)/\\tan\\theta",
+        "note": "আকৃতি পরিবর্তন।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "ক্ষুদ্র বিকृति; স্থিতিস্থাপক"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "আয়তন ও পার্শ্ব গুণাঙ্ক সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: B চাপে আয়তন; η পার্শ্ব সরণে।)",
-      "answer": "B=-\\frac{\\Delta P}{\\Delta V/V},\\quad\\eta=\\frac{F/A}{\\Delta x/L}"
+      "examType": "HSC",
+      "question": "তরলে শিয়ার মডুলাস কেন ≈০?",
+      "answer": "\\text{স্থির শিয়ার সহ্য করে না}"
     }
   ],
   "memorize": {
-    "trick": "B চাপে আয়তন; η পার্শ্ব সরণে।",
+    "trick": "B=−ΔP/(ΔV/V); শিয়ার = stress/tanθ।",
     "steps": []
   },
   "subjects": [
@@ -50,7 +65,6 @@
   ],
   "related": [
     "youngs-modulus",
-    "stokes-law",
-    "poiseuille-law"
+    "hookes-law-stress-strain"
   ]
 }

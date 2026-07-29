@@ -3,8 +3,8 @@
   "chapter": "gravitation",
   "title": "g = GM/R²",
   "titleBn": "অভিকর্ষজ ত্বরণ",
-  "summary": "g=GM/R²",
-  "latex": "g=\\frac{GM}{R^2}",
+  "summary": "পৃষ্ঠে g=GM/R²; উচ্চতায় g′=g(R/(R+h))²",
+  "latex": "g=\\dfrac{GM}{R^2},\\quad g^{\\prime}=g\\left(\\dfrac{R}{R+h}\\right)^2",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,33 +16,53 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "g, G, M, R",
-      "meaning": "অভিকর্ষজ ত্বরণ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "G",
+      "meaning": "মহাকর্ষ ধ্রুবক",
+      "unit": "N·m²/kg²"
+    },
+    {
+      "symbol": "M, R",
+      "meaning": "গ্রহের ভর ও ব্যাসার্ধ",
+      "unit": "kg, m"
+    },
+    {
+      "symbol": "g",
+      "meaning": "পৃষ্ঠের অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²"
+    },
+    {
+      "symbol": "h",
+      "meaning": "পৃষ্ঠ থেকে উচ্চতা",
+      "unit": "m"
     }
   ],
   "derivation": {
-    "lead": "পৃথিবী পৃষ্ঠে g; উচ্চতায় g' = g(1−2h/R)।",
+    "lead": "mg = GMm/R² থেকে g।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "g=\\frac{GM}{R^2}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "পৃষ্ঠ",
+        "latex": "g=GM/R^2",
+        "note": "পৃথিবীতে ≈9.8 m/s²।"
+      },
+      {
+        "title": "উচ্চতা",
+        "latex": "g^{\\prime}=GM/(R+h)^2=g[R/(R+h)]^2",
+        "note": "h≪R হলে g′≈g(1−2h/R)।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "গোলীয় সমসত্ত্ব ভর বণ্টন"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "অভিকর্ষজ ত্বরণ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: পৃথিবী পৃষ্ঠে g; উচ্চতায় g' = g(1−2h/R)।)",
-      "answer": "g=\\frac{GM}{R^2}"
+      "examType": "HSC",
+      "question": "h=R উচ্চতায় g′/g কত?",
+      "answer": "g^{\\prime}/g=(R/2R)^2=1/4"
     }
   ],
   "memorize": {
-    "trick": "পৃথিবী পৃষ্ঠে g; উচ্চতায় g' = g(1−2h/R)।",
+    "trick": "g=GM/R²; উচ্চতায় (R/(R+h))² গুণ।",
     "steps": []
   },
   "subjects": [

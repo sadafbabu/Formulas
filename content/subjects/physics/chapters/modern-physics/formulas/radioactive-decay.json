@@ -63,9 +63,10 @@
     "physics"
   ],
   "related": [
-    "half-life-chem",
-    "radioactive-decay-law-chem",
+    "activity-mean-life",
     "mass-energy-photoelectric",
-    "de-broglie-wavelength"
+    "de-broglie-wavelength",
+    "half-life-chem",
+    "radioactive-decay-law-chem"
   ]
 }

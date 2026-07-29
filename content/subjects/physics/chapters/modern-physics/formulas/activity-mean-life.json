@@ -3,8 +3,8 @@
   "chapter": "modern-physics",
   "title": "Activity & Mean Life",
   "titleBn": "সক্রিয়তা ও গড় আয়ু",
-  "summary": "তেজস্ক্রিয় সক্রিয়তা এবং গড় আয়ু",
-  "latex": "A=\\lambda N=-\\frac{dN}{dt},\\quad\\tau=\\frac{1}{\\lambda}=\\frac{T_{1/2}}{\\ln 2}",
+  "summary": "A = λN = A₀ e^(−λt); τ = 1/λ = T½/ln2",
+  "latex": "A=\\lambda N=A_0e^{-\\lambda t},\\quad \\tau=\\dfrac{1}{\\lambda}=\\dfrac{T_{1/2}}{\\ln 2}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,39 +16,60 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "A, lambda, N, d",
-      "meaning": "সক্রিয়তা ও গড় আয়ু",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "A",
+      "meaning": "সক্রিয়তা (ক্ষয়/সেকেন্ড)",
+      "unit": "Bq"
+    },
+    {
+      "symbol": "\\lambda",
+      "meaning": "ক্ষয় ধ্রুবক",
+      "unit": "s⁻¹"
+    },
+    {
+      "symbol": "\\tau",
+      "meaning": "গড় আয়ু",
+      "unit": "s"
+    },
+    {
+      "symbol": "T_{1/2}",
+      "meaning": "অর্ধায়ু",
+      "unit": "s"
     }
   ],
   "derivation": {
-    "lead": "তেজস্ক্রিয় সক্রিয়তা এবং গড় আয়ু",
+    "lead": "A = −dN/dt = λN; গড় আয়ু τ = 1/λ > T½।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "A=\\lambda N=-\\frac{dN}{dt},\\quad\\tau=\\frac{1}{\\lambda}=\\frac{T_{1/2}}{\\ln 2}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সক্রিয়তা",
+        "latex": "A=\\lambda N=A_0e^{-\\lambda t}",
+        "note": "N ও A একই হারে ক্ষয় হয়।"
+      },
+      {
+        "title": "গড় আয়ু",
+        "latex": "\\tau=1/\\lambda=T_{1/2}/\\ln2\\approx1.44\\,T_{1/2}",
+        "note": "τ > T½।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "একক ক্ষয় মোড; বৃহৎ N"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "সক্রিয়তা ও গড় আয়ু সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: A=λN; τ = T½/0.693।)",
-      "answer": "A=\\lambda N=-\\frac{dN}{dt},\\quad\\tau=\\frac{1}{\\lambda}=\\frac{T_{1/2}}{\\ln 2}"
+      "examType": "Admission",
+      "question": "T½=5 দিন। τ কত?",
+      "answer": "\\tau=5/\\ln2\\approx7.21\\\\ \\mathrm{day}"
     }
   ],
   "memorize": {
-    "trick": "A=λN; τ = T½/0.693।",
+    "trick": "A=λN; τ=1/λ≈1.44 T½।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "radioactive-decay"
+    "radioactive-decay",
+    "half-life-chem"
   ]
 }

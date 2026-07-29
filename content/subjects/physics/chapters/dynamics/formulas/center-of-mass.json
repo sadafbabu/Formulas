@@ -3,8 +3,8 @@
   "chapter": "dynamics",
   "title": "Center of Mass",
   "titleBn": "ভরকেন্দ্র",
-  "summary": "কণাতন্ত্রের ভরকেন্দ্র ও বহিঃবল",
-  "latex": "\\vec r_{cm}=\\frac{\\sum m_i\\vec r_i}{\\sum m_i},\\quad M\\vec a_{cm}=\\vec F_{ext}",
+  "summary": "x_cm = Σm_i x_i / Σm_i",
+  "latex": "\\vec r_{\\mathrm{cm}}=\\dfrac{\\sum m_i\\vec r_i}{\\sum m_i}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,33 +16,43 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "r, c, m, i",
+      "symbol": "m_i",
+      "meaning": "i-তম কণার ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "\\vec r_i",
+      "meaning": "অবস্থান ভেক্টর",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\vec r_{\\mathrm{cm}}",
       "meaning": "ভরকেন্দ্র",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "m"
     }
   ],
   "derivation": {
-    "lead": "কণাতন্ত্রের ভরকেন্দ্র ও বহিঃবল",
+    "lead": "ভর-ওজনকৃত গড় অবস্থান।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\vec r_{cm}=\\frac{\\sum m_i\\vec r_i}{\\sum m_i},\\quad M\\vec a_{cm}=\\vec F_{ext}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "১D",
+        "latex": "x_{\\mathrm{cm}}=\\sum m_ix_i/\\sum m_i",
+        "note": "বাহ্যিক বলহীন সিস্টেমে v_cm ধ্রুব।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "বিচ্ছিন্ন কণা বা অবিচ্ছেদ্য ভর"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "ভরকেন্দ্র সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: ভরকেন্দ্র = ভর-ওজনকৃত গড় অবস্থান; বহিঃবলই cm ত্বরণ দেয়।)",
-      "answer": "\\vec r_{cm}=\\frac{\\sum m_i\\vec r_i}{\\sum m_i},\\quad M\\vec a_{cm}=\\vec F_{ext}"
+      "examType": "HSC",
+      "question": "m ও 2m যথাক্রমে x=0 ও x=3। x_cm?",
+      "answer": "x_{\\mathrm{cm}}=2\\,\\mathrm{m}"
     }
   ],
   "memorize": {
-    "trick": "ভরকেন্দ্র = ভর-ওজনকৃত গড় অবস্থান; বহিঃবলই cm ত্বরণ দেয়।",
+    "trick": "CM = ভর-ওজনকৃত গড়।",
     "steps": []
   },
   "subjects": [

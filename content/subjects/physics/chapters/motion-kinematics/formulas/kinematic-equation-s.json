@@ -3,7 +3,7 @@
   "chapter": "motion-kinematics",
   "title": "s = ut + ½at²",
   "titleBn": "দ্বিতীয় গতি সমীকরণ",
-  "summary": "s=ut+½at²",
+  "summary": "সমত্বরণে s = ut + ½at²",
   "latex": "s=ut+\\tfrac12 at^2",
   "tags": [
     "hsc",
@@ -16,33 +16,43 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "s, u, t, tfrac",
-      "meaning": "দ্বিতীয় গতি সমীকরণ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "s",
+      "meaning": "সরণ",
+      "unit": "m"
+    },
+    {
+      "symbol": "u",
+      "meaning": "আদি বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "a, t",
+      "meaning": "ত্বরণ ও সময়",
+      "unit": "m/s², s"
     }
   ],
   "derivation": {
-    "lead": "সরণ = ut + ½at²; a=0 হলে s=ut।",
+    "lead": "গড় বেগ (u+v)/2 × t, v=u+at বসিয়ে।",
     "steps": [
       {
-        "title": "মূল সূত্র",
+        "title": "সূত্র",
         "latex": "s=ut+\\tfrac12 at^2",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "দ্বিতীয় গতিসমীকরণ।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "ধ্রুব a"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "দ্বিতীয় গতি সমীকরণ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: সরণ = ut + ½at²; a=0 হলে s=ut।)",
-      "answer": "s=ut+\\tfrac12 at^2"
+      "examType": "HSC",
+      "question": "u=0, a=10, t=2। s?",
+      "answer": "s=20\\,\\mathrm{m}"
     }
   ],
   "memorize": {
-    "trick": "সরণ = ut + ½at²; a=0 হলে s=ut।",
+    "trick": "s=ut+½at²।",
     "steps": []
   },
   "subjects": [
@@ -50,7 +60,6 @@
   ],
   "related": [
     "kinematic-equation-v",
-    "kinematic-equation-v2",
-    "average-instantaneous-velocity"
+    "kinematic-equation-v2"
   ]
 }

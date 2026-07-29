@@ -3,8 +3,8 @@
   "chapter": "properties-of-matter",
   "title": "Hydrostatic Pressure",
   "titleBn": "স্থিতিস্থাপক চাপ",
-  "summary": "P=hρg",
-  "latex": "P=h\\rho g",
+  "summary": "তরলে গভীরতায় চাপ P = ρgh",
+  "latex": "P=P_0+\\rho g h",
   "tags": [
     "hsc",
     "eng-admission",
@@ -15,33 +15,48 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "P, h, g",
-      "meaning": "স্থিতিস্থাপক চাপ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "P",
+      "meaning": "চাপ",
+      "unit": "Pa"
+    },
+    {
+      "symbol": "P_0",
+      "meaning": "পৃষ্ঠের চাপ (প্রায় বায়ুমণ্ডলীয়)",
+      "unit": "Pa"
+    },
+    {
+      "symbol": "\\rho",
+      "meaning": "ঘনত্ব",
+      "unit": "kg/m³"
+    },
+    {
+      "symbol": "h",
+      "meaning": "গভীরতা",
+      "unit": "m"
     }
   ],
   "derivation": {
-    "lead": "P = hρg; depth increases → pressure increases।",
+    "lead": "উচ্চতা h স্তম্ভের ওজন / ক্ষেত্রফল।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "P=h\\rho g",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "গেজ চাপ",
+        "latex": "P_{\\mathrm{gauge}}=\\rho g h",
+        "note": "পরম চাপ = P₀+ρgh।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "অসংনম্য স্থির তরল"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "স্থিতিস্থাপক চাপ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: P = hρg; depth increases → pressure increases।)",
-      "answer": "P=h\\rho g"
+      "examType": "HSC",
+      "question": "পানিতে h=10 m, ρ=10³, g=10। গেজ চাপ?",
+      "answer": "P=10^5\\,\\mathrm{Pa}=1\\,\\mathrm{atm}"
     }
   ],
   "memorize": {
-    "trick": "P = hρg; depth increases → pressure increases।",
+    "trick": "P=ρgh — গভীরতা বাড়লে চাপ বাড়ে।",
     "steps": []
   },
   "subjects": [

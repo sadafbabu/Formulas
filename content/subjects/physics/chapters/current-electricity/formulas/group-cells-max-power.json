@@ -1,10 +1,10 @@
 {
   "id": "group-cells-max-power",
   "chapter": "current-electricity",
-  "title": "Grouping of Cells",
-  "titleBn": "কোষ বিন্যাস ও সর্বোচ্চ প্রবাহ",
-  "summary": "বাহ্যিক রোধের সাথে মিলিয়ে কোষ বিন্যাস",
-  "latex": "I=\\frac{nE}{nr+R}\\ \\text{(series)},\\quad I=\\frac{mE}{r+mR}\\ \\text{(parallel)}",
+  "title": "Grouping of Cells for Max Power",
+  "titleBn": "কোষ বিন্যাস ও সর্বোচ্চ ক্ষমতা",
+  "summary": "সর্বোচ্চ পাওয়ার যখন R = r_eq; m×n কোষে r_eq = nr/m",
+  "latex": "P_{\\max}\\ \\text{when}\\ R=r_{\\mathrm{eq}}=\\dfrac{nr}{m}\\ (N=mn),\\quad I=\\dfrac{nE}{nr+mR}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,37 +16,65 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "I, n, E, r",
-      "meaning": "কোষ বিন্যাস ও সর্বোচ্চ প্রবাহ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "n",
+      "meaning": "প্রতি সারিতে সিরিজ কোষ",
+      "unit": "—"
+    },
+    {
+      "symbol": "m",
+      "meaning": "সমান্তরাল সারির সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "N=mn",
+      "meaning": "মোট কোষ",
+      "unit": "—"
+    },
+    {
+      "symbol": "E, r",
+      "meaning": "প্রতি কোষের emf ও অভ্যন্তরীণ রোধ",
+      "unit": "V, Ω"
+    },
+    {
+      "symbol": "R",
+      "meaning": "বাহ্যিক রোধ",
+      "unit": "Ω"
     }
   ],
   "derivation": {
-    "lead": "বাহ্যিক রোধের সাথে মিলিয়ে কোষ বিন্যাস",
+    "lead": "মিশ্র বিন্যাসে সমতুল্য emf = nE, সমতুল্য অভ্যন্তরীণ রোধ = nr/m।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "I=\\frac{nE}{nr+R}\\ \\text{(series)},\\quad I=\\frac{mE}{r+mR}\\ \\text{(parallel)}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সমতুল্য বর্তনী",
+        "latex": "E_{\\mathrm{eq}}=nE,\\quad r_{\\mathrm{eq}}=\\dfrac{nr}{m},\\quad I=\\dfrac{nE}{nr/m+R}",
+        "note": "I = nE / (nr + mR) রূপেও লেখা যায়।"
+      },
+      {
+        "title": "সর্বোচ্চ ক্ষমতা",
+        "latex": "R=r_{\\mathrm{eq}}=\\dfrac{nr}{m}",
+        "note": "ম্যাচিং কন্ডিশন: বাহ্যিক রোধ = সমতুল্য অভ্যন্তরীণ রোধ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "অভিন্ন কোষ; কোনো লিকেজ নেই"
+    ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "কোষ বিন্যাস ও সর্বোচ্চ প্রবাহ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: R ≈ r_eq হলে সর্বোচ্চ পাওয়ার ট্রান্সফার।)",
-      "answer": "I=\\frac{nE}{nr+R}\\ \\text{(series)},\\quad I=\\frac{mE}{r+mR}\\ \\text{(parallel)}"
+      "examType": "HSC",
+      "question": "R = r_eq হলে বাহ্যিক রোধে ক্ষমতা কেন সর্বোচ্চ?",
+      "answer": "P=I^2R;\\ I=\\dfrac{E_{\\mathrm{eq}}}{r_{\\mathrm{eq}}+R}\\Rightarrow P\\ \\max\\ \\text{at}\\ R=r_{\\mathrm{eq}}"
     }
   ],
   "memorize": {
-    "trick": "R ≈ r_eq হলে সর্বোচ্চ পাওয়ার ট্রান্সফার।",
+    "trick": "ম্যাচ করো: R = nr/m। সিরিজ বেশি → r_eq বাড়ে।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "cells-series-parallel"
+    "cells-series-parallel",
+    "ohms-law"
   ]
 }

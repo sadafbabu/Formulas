@@ -3,8 +3,8 @@
   "chapter": "current-electricity",
   "title": "Cells in Series & Parallel",
   "titleBn": "কোষের শ্রেণী ও সমান্তরাল সংযোগ",
-  "summary": "n কোষ শ্রেণী/সমান্তরালে সমতুল্য emf ও r",
-  "latex": "\\text{series: }E_{eq}=nE,\\ r_{eq}=nr;\\quad\\text{parallel: }E_{eq}=E,\\ r_{eq}=r/m",
+  "summary": "সিরিজ: E_eq=nE, r_eq=nr; সমান্তরাল: E_eq=E, r_eq=r/m",
+  "latex": "\\text{series: }E_{\\mathrm{eq}}=nE,\\ r_{\\mathrm{eq}}=nr;\\quad\\text{parallel: }E_{\\mathrm{eq}}=E,\\ r_{\\mathrm{eq}}=r/m",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,39 +16,55 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "s, e, r, i",
-      "meaning": "কোষের শ্রেণী ও সমান্তরাল সংযোগ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "n",
+      "meaning": "সিরিজ কোষ সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "m",
+      "meaning": "সমান্তরাল শাখা",
+      "unit": "—"
+    },
+    {
+      "symbol": "E, r",
+      "meaning": "এক কোষের emf ও অভ্যন্তরীণ রোধ",
+      "unit": "V, Ω"
     }
   ],
   "derivation": {
-    "lead": "n কোষ শ্রেণী/সমান্তরালে সমতুল্য emf ও r",
+    "lead": "সিরিজে emf ও r যোগ; সমান্তরালে emf একই, r ভাগ।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\text{series: }E_{eq}=nE,\\ r_{eq}=nr;\\quad\\text{parallel: }E_{eq}=E,\\ r_{eq}=r/m",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সিরিজ",
+        "latex": "E_{\\mathrm{eq}}=nE,\\quad r_{\\mathrm{eq}}=nr",
+        "note": "বড় ভোল্টেজ চাইলে সিরিজ।"
+      },
+      {
+        "title": "সমান্তরাল",
+        "latex": "E_{\\mathrm{eq}}=E,\\quad r_{\\mathrm{eq}}=r/m",
+        "note": "বড় প্রবাহ / কম অভ্যন্তরীণ রোধ।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "অভিন্ন কোষ"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "কোষের শ্রেণী ও সমান্তরাল সংযোগ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: শ্রেণীতে E যোগ; সমান্তরালে E এক, r ভাগ।)",
-      "answer": "\\text{series: }E_{eq}=nE,\\ r_{eq}=nr;\\quad\\text{parallel: }E_{eq}=E,\\ r_{eq}=r/m"
+      "examType": "HSC",
+      "question": "৪টি কোষ সিরিজে, প্রতিটি E=1.5 V, r=0.5 Ω। E_eq, r_eq?",
+      "answer": "E_{\\mathrm{eq}}=6\\mathrm{V},\\ r_{\\mathrm{eq}}=2\\Omega"
     }
   ],
   "memorize": {
-    "trick": "শ্রেণীতে E যোগ; সমান্তরালে E এক, r ভাগ।",
+    "trick": "Series: যোগ; Parallel: E এক, r ভাগ।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "emf-internal-resistance"
+    "group-cells-max-power",
+    "ohms-law"
   ]
 }

@@ -2,9 +2,9 @@
   "id": "rc-charging",
   "chapter": "current-electricity",
   "title": "RC Charging",
-  "titleBn": "RC চarging",
-  "summary": "q=Q(1−e^(−t/RC))",
-  "latex": "q=Q(1-e^{-t/RC}),\\quad Q=CV",
+  "titleBn": "RC চার্জিং",
+  "summary": "q = Q(1−e^(−t/τ)), τ = RC; t=τ-এ ~৬৩% চার্জ",
+  "latex": "q=Q(1-e^{-t/\\tau}),\\quad \\tau=RC,\\quad Q=CV",
   "tags": [
     "hsc",
     "eng-admission",
@@ -15,39 +15,60 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "q, Q, e, t",
-      "meaning": "RC চarging",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "q(t)",
+      "meaning": "t সময়ে ধারকের চার্জ",
+      "unit": "C"
+    },
+    {
+      "symbol": "Q=CV",
+      "meaning": "চূড়ান্ত চার্জ",
+      "unit": "C"
+    },
+    {
+      "symbol": "\\tau=RC",
+      "meaning": "সময় ধ্রুবক",
+      "unit": "s"
+    },
+    {
+      "symbol": "V",
+      "meaning": "ব্যাটারির emf",
+      "unit": "V"
     }
   ],
   "derivation": {
-    "lead": "τ=RC time constant; 63% charge at t=τ।",
+    "lead": "KVL: V = q/C + IR → ডিফারেনশিয়াল সমীকরণ সমাধান।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "q=Q(1-e^{-t/RC}),\\quad Q=CV",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "চার্জিং",
+        "latex": "q=Q(1-e^{-t/RC}),\\quad i=\\dfrac{V}{R}e^{-t/RC}",
+        "note": "t=0-এ i সর্বোচ্চ; t→∞-এ q→Q, i→0।"
+      },
+      {
+        "title": "ডিসচার্জিং",
+        "latex": "q=Qe^{-t/RC}",
+        "note": "একই τ; প্রতি τ-এ অবশিষ্ট ≈ ৩৭%।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "ধ্রুব R,C; আদর্শ ব্যাটারি; t=0-এ খালি ধারক"
+    ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "RC চarging সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: τ=RC time constant; 63% charge at t=τ।)",
-      "answer": "q=Q(1-e^{-t/RC}),\\quad Q=CV"
+      "examType": "HSC",
+      "question": "R=1 MΩ, C=1 μF। τ কত? t=τ-এ চার্জের অংশ?",
+      "answer": "\\tau=RC=1\\mathrm{s};\\ q/Q=1-e^{-1}\\approx0.63"
     }
   ],
   "memorize": {
-    "trick": "τ=RC time constant; 63% charge at t=τ।",
+    "trick": "τ=RC; এক τ-এ ৬৩% চার্জ, পাঁচ τ-এ প্রায় পূর্ণ।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "group-cells-max-power",
-    "shunt-multiplier",
-    "cells-series-parallel"
+    "cells-series-parallel",
+    "ohms-law"
   ]
 }

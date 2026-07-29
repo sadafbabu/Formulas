@@ -3,8 +3,8 @@
   "chapter": "dynamics",
   "title": "Oblique Collision",
   "titleBn": "তির্যক সংঘর্ষ",
-  "summary": "মসৃণ তল বরাবর তির্যক সংঘর্ষ",
-  "latex": "u_{1\\parallel}=v_{1\\parallel},\\quad m_1u_{1\\perp}+m_2u_{2\\perp}=m_1v_{1\\perp}+m_2v_{2\\perp}",
+  "summary": "স্পর্শক উপাংশ অপরিবর্তিত; অভিলম্ব বরাবর 1D সংঘর্ষ",
+  "latex": "v_{1t}=u_{1t},\\ v_{2t}=u_{2t};\\quad m_1u_{1n}+m_2u_{2n}=m_1v_{1n}+m_2v_{2n}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,37 +16,65 @@
   "order": 160,
   "symbols": [
     {
-      "symbol": "u, v, m",
-      "meaning": "তির্যক সংঘর্ষ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "u_{it}, v_{it}",
+      "meaning": "i-তম বস্তুর স্পর্শক বেগ উপাংশ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "u_{in}, v_{in}",
+      "meaning": "অভিলম্ব (line of impact) উপাংশ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "m_1, m_2",
+      "meaning": "দুই বস্তুর ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "e",
+      "meaning": "পুনরুদ্ধার গুণাঙ্ক (প্রয়োজনে)",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "মসৃণ তল বরাবর তির্যক সংঘর্ষ",
+    "lead": "মসৃণ গোলকের সংঘর্ষে আবেগ শুধু সাধারণ অভিলম্ব বরাবর — স্পর্শকে বল নেই।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "u_{1\\parallel}=v_{1\\parallel},\\quad m_1u_{1\\perp}+m_2u_{2\\perp}=m_1v_{1\\perp}+m_2v_{2\\perp}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "স্পর্শক",
+        "latex": "v_{1t}=u_{1t},\\quad v_{2t}=u_{2t}",
+        "note": "প্রতিটি কণার স্পর্শক উপাংশ আলাদাভাবে অপরিবর্তিত।"
+      },
+      {
+        "title": "অভিলম্ব — ভরবেগ",
+        "latex": "m_1u_{1n}+m_2u_{2n}=m_1v_{1n}+m_2v_{2n}",
+        "note": "অভিলম্বে একমাত্রিক সংঘর্ষের মতো।"
+      },
+      {
+        "title": "পুনরুদ্ধার গুণাঙ্ক",
+        "latex": "e=\\dfrac{v_{2n}-v_{1n}}{u_{1n}-u_{2n}}",
+        "note": "স্থিতিস্থাপক: e=1; সম্পূর্ণ অস্থিতিস্থাপক: e=0।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "মসৃণ তল / ঘর্ষণহীন স্পর্শ; আবেগ অভিলম্ব বরাবর"
+    ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "তির্যক সংঘর্ষ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: স্পর্শক বরাবর বেগ অপরিবর্তিত; অভিলম্ব বরাবর 1D সংঘর্ষ।)",
-      "answer": "u_{1\\parallel}=v_{1\\parallel},\\quad m_1u_{1\\perp}+m_2u_{2\\perp}=m_1v_{1\\perp}+m_2v_{2\\perp}"
+      "examType": "Admission",
+      "question": "তির্যক সংঘর্ষে কোন উপাংশ অপরিবর্তিত থাকে?",
+      "answer": "\\text{স্পর্শক (tangential) উপাংশ}"
     }
   ],
   "memorize": {
-    "trick": "স্পর্শক বরাবর বেগ অপরিবর্তিত; অভিলম্ব বরাবর 1D সংঘর্ষ।",
+    "trick": "Tangent একই থাকে; Normal-এ 1D collision + e।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "elastic-collision"
+    "elastic-collision",
+    "momentum-impulse"
   ]
 }

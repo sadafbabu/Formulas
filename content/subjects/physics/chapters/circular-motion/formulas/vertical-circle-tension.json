@@ -3,8 +3,8 @@
   "chapter": "circular-motion",
   "title": "Vertical Circle",
   "titleBn": "উল্লম্ব বৃত্ত",
-  "summary": "শীর্ষে/নিচে টান",
-  "latex": "T_{\\text{bottom}}-mg=\\frac{mv^2}{r},\\quad T_{\\text{top}}+mg=\\frac{mv^2}{r}",
+  "summary": "নিচে T=mv²/r+mg; উপরে T=mv²/r−mg",
+  "latex": "T_{\\mathrm{bottom}}=\\dfrac{mv^2}{r}+mg,\\quad T_{\\mathrm{top}}=\\dfrac{mv^2}{r}-mg",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,41 +16,55 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "T, b, o, t",
-      "meaning": "উল্লম্ব বৃত্ত",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "T",
+      "meaning": "দড়ির টান",
+      "unit": "N"
+    },
+    {
+      "symbol": "v",
+      "meaning": "ঐ বিন্দুর বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "r",
+      "meaning": "ব্যাসার্ধ",
+      "unit": "m"
     }
   ],
   "derivation": {
-    "lead": "নিচে T−mg; উপরে T+mg; ন্যূনতম শীর্ষ বেগ √(gr)।",
+    "lead": "নেট কেন্দ্রমুখী = mv²/r; ওজনের দিক অনুযায়ী টান।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "T_{\\text{bottom}}-mg=\\frac{mv^2}{r},\\quad T_{\\text{top}}+mg=\\frac{mv^2}{r}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "নিচ",
+        "latex": "T-mg=mv^2/r",
+        "note": "টান ওজনের সাথে যোগ।"
+      },
+      {
+        "title": "উপর",
+        "latex": "T+mg=mv^2/r",
+        "note": "ন্যূনতমে T=0 → v=√(gr)।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "দড়ি; ঘর্ষণহীন"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "উল্লম্ব বৃত্ত সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: নিচে T−mg; উপরে T+mg; ন্যূনতম শীর্ষ বেগ √(gr)।)",
-      "answer": "T_{\\text{bottom}}-mg=\\frac{mv^2}{r},\\quad T_{\\text{top}}+mg=\\frac{mv^2}{r}"
+      "examType": "Admission",
+      "question": "উপরে T=0 হলে v?",
+      "answer": "v=\\sqrt{gr}"
     }
   ],
   "memorize": {
-    "trick": "নিচে T−mg; উপরে T+mg; ন্যূনতম শীর্ষ বেগ √(gr)।",
+    "trick": "নিচে T=mv²/r+mg; উপরে mv²/r−mg।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "banking-of-road-ideal",
     "vertical-circle-min-speed",
-    "period-frequency-circular"
+    "centripetal-force"
   ]
 }

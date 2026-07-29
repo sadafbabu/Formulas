@@ -3,8 +3,8 @@
   "chapter": "wave-optics",
   "title": "Resolving Power",
   "titleBn": "বিভেদন ক্ষমতা",
-  "summary": "দূরবীক্ষণ, অণুবীক্ষণ ও গ্রেটিং-এর RP",
-  "latex": "\\mathrm{RP}_{tel}=\\frac{D}{1.22\\lambda},\\quad\\mathrm{RP}_{micro}=\\frac{2\\mu\\sin\\theta}{\\lambda},\\quad\\mathrm{RP}_{gr}=nN",
+  "summary": "অণুবীক্ষণ RP ≈ 2μ sinθ / λ; দূরবীক্ষণ 1.22λ/D",
+  "latex": "\\mathrm{RP}_{\\mathrm{mic}}\\approx\\dfrac{2\\mu\\sin\\theta}{\\lambda},\\quad \\theta_{\\min}\\approx\\dfrac{1.22\\lambda}{D}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,33 +16,53 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "R, P, t, e",
-      "meaning": "বিভেদন ক্ষমতা",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "\\mu",
+      "meaning": "বস্তু মাধ্যমের প্রতিসরাঙ্ক",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "অর্ধ-কোণ / কোণীয় রেজোলিউশন",
+      "unit": "rad"
+    },
+    {
+      "symbol": "D",
+      "meaning": "অ্যাপারচার ব্যাস",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\lambda",
+      "meaning": "তরঙ্গদৈর্ঘ্য",
+      "unit": "m"
     }
   ],
   "derivation": {
-    "lead": "দূরবীক্ষণ, অণুবীক্ষণ ও গ্রেটিং-এর RP",
+    "lead": "বিচ্ছুরণ সীমা — ছোট λ বা বড় D → ভালো রেজোলিউশন।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\mathrm{RP}_{tel}=\\frac{D}{1.22\\lambda},\\quad\\mathrm{RP}_{micro}=\\frac{2\\mu\\sin\\theta}{\\lambda},\\quad\\mathrm{RP}_{gr}=nN",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "অণুবীক্ষণ",
+        "latex": "d_{\\min}=\\lambda/(2\\mu\\sin\\theta)",
+        "note": "RP=1/d_min।"
+      },
+      {
+        "title": "দূরবীক্ষণ",
+        "latex": "\\theta_{\\min}=1.22\\lambda/D",
+        "note": "রেলি মানদণ্ড।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "বিচ্ছুরণ-সীমিত"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "বিভেদন ক্ষমতা সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: বড় D বা N ⇒ বেশি RP; ছোট λ ভালো।)",
-      "answer": "\\mathrm{RP}_{tel}=\\frac{D}{1.22\\lambda},\\quad\\mathrm{RP}_{micro}=\\frac{2\\mu\\sin\\theta}{\\lambda},\\quad\\mathrm{RP}_{gr}=nN"
+      "examType": "Admission",
+      "question": "λ কমাতে RP কী হয়?",
+      "answer": "\\mathrm{RP}\\uparrow"
     }
   ],
   "memorize": {
-    "trick": "বড় D বা N ⇒ বেশি RP; ছোট λ ভালো।",
+    "trick": "ছোট λ, বড় অ্যাপারচার → বেশি RP।",
     "steps": []
   },
   "subjects": [

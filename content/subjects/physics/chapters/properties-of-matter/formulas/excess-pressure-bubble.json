@@ -3,8 +3,8 @@
   "chapter": "properties-of-matter",
   "title": "Excess Pressure in Bubble",
   "titleBn": "বুদবুদে অতিরিক্ত চাপ",
-  "summary": "4T/r soap, 2T/r air",
-  "latex": "\\Delta P_{\\text{soap}}=\\frac{4T}{r},\\quad \\Delta P_{\\text{air bubble}}=\\frac{2T}{r}",
+  "summary": "সাবান বুদবুদ ΔP=4S/r; তরল বুদবুদ 2S/r",
+  "latex": "\\Delta P_{\\mathrm{soap}}=\\dfrac{4S}{r},\\quad \\Delta P_{\\mathrm{drop}}=\\dfrac{2S}{r}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,41 +16,55 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "P, s, o, a",
-      "meaning": "বুদবুদে অতিরিক্ত চাপ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "\\Delta P",
+      "meaning": "অতিরিক্ত চাপ",
+      "unit": "Pa"
+    },
+    {
+      "symbol": "S",
+      "meaning": "পৃষ্ঠটান",
+      "unit": "N/m"
+    },
+    {
+      "symbol": "r",
+      "meaning": "ব্যাসার্ধ",
+      "unit": "m"
     }
   ],
   "derivation": {
-    "lead": "সাবান বুদবুদ দুই তল → 4T/r; বায়ু বুদবুদ এক তল → 2T/r।",
+    "lead": "সাবানে দুই পৃষ্ঠ → ৪; ফোঁটায় এক পৃষ্ঠ → ২।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\Delta P_{\\text{soap}}=\\frac{4T}{r},\\quad \\Delta P_{\\text{air bubble}}=\\frac{2T}{r}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "ফোঁটা/বায়ু বুদবুদ পানিতে",
+        "latex": "\\Delta P=2S/r",
+        "note": "এক পৃষ্ঠ।"
+      },
+      {
+        "title": "সাবান বুদবুদ",
+        "latex": "\\Delta P=4S/r",
+        "note": "দুই পৃষ্ঠ।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "গোলাকার; স্থির"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "বুদবুদে অতিরিক্ত চাপ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: সাবান বুদবুদ দুই তল → 4T/r; বায়ু বুদবুদ এক তল → 2T/r।)",
-      "answer": "\\Delta P_{\\text{soap}}=\\frac{4T}{r},\\quad \\Delta P_{\\text{air bubble}}=\\frac{2T}{r}"
+      "examType": "HSC",
+      "question": "সাবান বুদবুদে অতিরিক্ত চাপ ফোঁটার কতগুণ (একই r,S)?",
+      "answer": "2\\ \\text{গুণ}"
     }
   ],
   "memorize": {
-    "trick": "সাবান বুদবুদ দুই তল → 4T/r; বায়ু বুদবুদ এক তল → 2T/r।",
+    "trick": "সাবান 4S/r, ফোঁটা 2S/r।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "pascals-law",
-    "hookes-law-stress-strain",
-    "hydrostatic-pressure"
+    "surface-tension",
+    "capillary-rise"
   ]
 }

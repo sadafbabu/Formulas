@@ -3,8 +3,8 @@
   "chapter": "properties-of-matter",
   "title": "Surface Tension",
   "titleBn": "পৃষ্ঠটান",
-  "summary": "পৃষ্ঠটান ও পৃষ্ঠশক্তি",
-  "latex": "T=\\frac{F}{l}=\\frac{W}{\\Delta A}",
+  "summary": "S = F/l = W/ΔA — পৃষ্ঠ টান",
+  "latex": "S=\\dfrac{F}{l}=\\dfrac{W}{\\Delta A}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,41 +16,50 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "T, F, l, W",
+      "symbol": "S",
       "meaning": "পৃষ্ঠটান",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "N/m"
+    },
+    {
+      "symbol": "F, l",
+      "meaning": "বল ও দৈর্ঘ্য",
+      "unit": "N, m"
+    },
+    {
+      "symbol": "W, \\Delta A",
+      "meaning": "কাজ ও পৃষ্ঠ বৃদ্ধি",
+      "unit": "J, m²"
     }
   ],
   "derivation": {
-    "lead": "T = F/l; সাবান ফিল্মে দুই তল ⇒ 2A।",
+    "lead": "পৃষ্ঠ সংকুচিত হতে চায় — একক দৈর্ঘ্যে বল S।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "T=\\frac{F}{l}=\\frac{W}{\\Delta A}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সংজ্ঞা",
+        "latex": "S=F/l",
+        "note": "সাবান ফিল্মে ২ পৃষ্ঠ → F=2Sl।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "উষ্ণতা ধ্রুব; বিশুদ্ধ তরল"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "পৃষ্ঠটান সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: T = F/l; সাবান ফিল্মে দুই তল ⇒ 2A।)",
-      "answer": "T=\\frac{F}{l}=\\frac{W}{\\Delta A}"
+      "examType": "HSC",
+      "question": "সাবান ফিল্মের দৈর্ঘ্য l-এ বল?",
+      "answer": "F=2Sl"
     }
   ],
   "memorize": {
-    "trick": "T = F/l; সাবান ফিল্মে দুই তল ⇒ 2A।",
+    "trick": "S=F/l; সাবানে দুই পৃষ্ঠ।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "poiseuille-law",
-    "capillary-rise",
-    "stokes-law"
+    "excess-pressure-bubble",
+    "capillary-rise"
   ]
 }

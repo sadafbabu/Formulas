@@ -3,8 +3,8 @@
   "chapter": "semiconductor",
   "title": "NAND & NOR Gates",
   "titleBn": "NAND ও NOR গেট",
-  "summary": "universal gates",
-  "latex": "\\mathrm{NAND}=\\overline{A\\cdot B},\\quad \\mathrm{NOR}=\\overline{A+B}",
+  "summary": "NAND/NOR সার্বজনীন গেট — যেকোনো লজিক বানানো যায়",
+  "latex": "Y_{\\mathrm{NAND}}=\\overline{A\\cdot B},\\quad Y_{\\mathrm{NOR}}=\\overline{A+B}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,41 +16,49 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "N, A, D, overline",
-      "meaning": "NAND ও NOR গেট",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "A, B",
+      "meaning": "ইনপুট",
+      "unit": "0/1"
+    },
+    {
+      "symbol": "Y",
+      "meaning": "আউটপুট",
+      "unit": "0/1"
     }
   ],
   "derivation": {
-    "lead": "NAND/NOR দিয়ে সব গেট বানানো যায়।",
+    "lead": "NOT/AND/OR সব NAND বা NOR দিয়ে তৈরি সম্ভব।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\mathrm{NAND}=\\overline{A\\cdot B},\\quad \\mathrm{NOR}=\\overline{A+B}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "NAND",
+        "latex": "Y=\\overline{AB}",
+        "note": "A=B=1 ছাড়া Y=1।"
+      },
+      {
+        "title": "NOR",
+        "latex": "Y=\\overline{A+B}",
+        "note": "A=B=0 হলেই Y=1।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "আদর্শ ডিজিটাল লজিক"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "NAND ও NOR গেট সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: NAND/NOR দিয়ে সব গেট বানানো যায়।)",
-      "answer": "\\mathrm{NAND}=\\overline{A\\cdot B},\\quad \\mathrm{NOR}=\\overline{A+B}"
+      "examType": "HSC",
+      "question": "কেন NAND সার্বজনীন?",
+      "answer": "\\text{NOT, AND, OR সব NAND দিয়ে তৈরি যায়}"
     }
   ],
   "memorize": {
-    "trick": "NAND/NOR দিয়ে সব গেট বানানো যায়।",
+    "trick": "NAND ও NOR = universal gates।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "led-principle",
-    "logic-xor-gate",
     "de-morgan-boolean"
   ]
 }

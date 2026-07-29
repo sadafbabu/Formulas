@@ -8,17 +8,19 @@
     "hsc",
     "eng-admission",
     "varsity",
-    "1-star"
+    "medical",
+    "3-star"
   ],
   "chapter": "magnetic-current",
-  "importance": 1,
+  "importance": 3,
   "order": 100,
   "subjects": [
     "physics"
   ],
   "related": [
     "force-on-wire",
-    "wire-field"
+    "wire-field",
+    "lorentz"
   ],
   "symbols": [
     {

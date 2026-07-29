@@ -3,8 +3,8 @@
   "chapter": "induction-ac",
   "title": "LC Resonance Frequency",
   "titleBn": "LC অনুরণন কম্পাঙ্ক",
-  "summary": "f₀=1/(2π√LC)",
-  "latex": "f_0=\\frac{1}{2\\pi\\sqrt{LC}}",
+  "summary": "LC অনুরণন: f₀ = 1/(2π√(LC))",
+  "latex": "f_0=\\dfrac{1}{2\\pi\\sqrt{LC}},\\quad \\omega_0=\\dfrac{1}{\\sqrt{LC}}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,41 +16,54 @@
   "order": 160,
   "symbols": [
     {
-      "symbol": "f, L, C",
-      "meaning": "LC অনুরণন কম্পাঙ্ক",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "L",
+      "meaning": "আবেশ",
+      "unit": "H"
+    },
+    {
+      "symbol": "C",
+      "meaning": "ধারকত্ব",
+      "unit": "F"
+    },
+    {
+      "symbol": "f_0",
+      "meaning": "অনুরণন কম্পাঙ্ক",
+      "unit": "Hz"
     }
   ],
   "derivation": {
-    "lead": "f₀=1/(2π√LC) — রেডিও টিউনিং-এর সূত্র।",
+    "lead": "X_L=X_C → ωL=1/(ωC) → ω=1/√(LC)।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "f_0=\\frac{1}{2\\pi\\sqrt{LC}}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "শর্ত",
+        "latex": "\\omega_0 L=1/(\\omega_0 C)",
+        "note": "নেট reactance শূন্য।"
+      },
+      {
+        "title": "কম্পাঙ্ক",
+        "latex": "f_0=1/(2\\pi\\sqrt{LC})",
+        "note": "Z_min=R (শ্রেণি)।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "আদর্শ L,C; ধারাবাহিক RLC"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "LC অনুরণন কম্পাঙ্ক সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: রেডিও টিউনিং-এর সূত্র।)",
-      "answer": "f_0=\\frac{1}{2\\pi\\sqrt{LC}}"
+      "examType": "HSC",
+      "question": "L=1 H, C=1 μF। প্রায় f₀?",
+      "answer": "f_0\\approx 159\\,\\mathrm{Hz}"
     }
   ],
   "memorize": {
-    "trick": "রেডিও টিউনিং-এর সূত্র।",
+    "trick": "f₀=1/(2π√LC)।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "ac-power-factor",
-    "ideal-transformer-ratio",
     "ac-impedance"
   ]
 }

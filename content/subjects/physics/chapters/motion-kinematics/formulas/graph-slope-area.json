@@ -3,8 +3,8 @@
   "chapter": "motion-kinematics",
   "title": "Motion Graphs",
   "titleBn": "গতি লেখচিত্র",
-  "summary": "slope & area",
-  "latex": "v=\\text{slope of }x\\text{–}t;\\quad a=\\text{slope of }v\\text{–}t;\\quad s=\\text{area under }v\\text{–}t",
+  "summary": "s–t ঢাল = v; v–t ঢাল = a; v–t ক্ষেত্রফল = সরণ",
+  "latex": "v=\\dfrac{ds}{dt},\\ a=\\dfrac{dv}{dt},\\ s=\\int v\\,dt",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,40 +16,44 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "v, s, l, o",
-      "meaning": "গতি লেখচিত্র",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "s,t",
+      "meaning": "সরণ–সময় লেখচিত্র",
+      "unit": "—"
+    },
+    {
+      "symbol": "v,t",
+      "meaning": "বেগ–সময় লেখচিত্র",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "x–t ঢাল=v; v–t ঢাল=a; v–t ক্ষেত্রফল=s।",
+    "lead": "লেখচিত্র পড়ে গতি বিশ্লেষণ।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "v=\\text{slope of }x\\text{–}t;\\quad a=\\text{slope of }v\\text{–}t;\\quad s=\\text{area under }v\\text{–}t",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "ঢাল ও ক্ষেত্রফল",
+        "latex": "v=\\mathrm{slope}(s\\text{–}t),\\ s=\\mathrm{area}(v\\text{–}t)",
+        "note": "a = slope(v–t)।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "একমাত্রিক গতি"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "গতি লেখচিত্র সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: x–t ঢাল=v; v–t ঢাল=a; v–t ক্ষেত্রফল=s।)",
-      "answer": "v=\\text{slope of }x\\text{–}t;\\quad a=\\text{slope of }v\\text{–}t;\\quad s=\\text{area under }v\\text{–}t"
+      "examType": "HSC",
+      "question": "v–t তে আয়তক্ষেত্রের ক্ষেত্রফল কী দেয়?",
+      "answer": "\\text{সরণ }s"
     }
   ],
   "memorize": {
-    "trick": "x–t ঢাল=v; v–t ঢাল=a; v–t ক্ষেত্রফল=s।",
+    "trick": "ঢাল→নিচের রাশি; ক্ষেত্রফল→সরণ।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "river-boat-crossing",
-    "rain-man-relative"
+    "displacement-velocity-accel"
   ]
 }

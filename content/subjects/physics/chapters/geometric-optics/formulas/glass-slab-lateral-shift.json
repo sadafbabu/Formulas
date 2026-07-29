@@ -3,8 +3,8 @@
   "chapter": "geometric-optics",
   "title": "Lateral Shift by Glass Slab",
   "titleBn": "কাচের স্ল্যাবে পার্শ্ব সরণ",
-  "summary": "t(1 − 1/μ) sin i / cos r",
-  "latex": "d=t\\,\\dfrac{\\sin(i-r)}{\\cos r}\\approx t\\left(1-\\dfrac{1}{n}\\right)\\ (\\text{near-normal})",
+  "summary": "d = t sin(i−r)/cos r; ক্ষুদ্র কোণে d ≈ t(1−1/n) sin i",
+  "latex": "d=t\\,\\dfrac{\\sin(i-r)}{\\cos r}\\approx t\\left(1-\\dfrac{1}{n}\\right)\\sin i",
   "tags": [
     "hsc",
     "eng-admission",
@@ -21,8 +21,13 @@
       "unit": "m"
     },
     {
+      "symbol": "i, r",
+      "meaning": "আপতন ও প্রতিসরণ কোণ",
+      "unit": "rad বা °"
+    },
+    {
       "symbol": "n",
-      "meaning": "প্রতিসরাঙ্ক",
+      "meaning": "স্ল্যাবের প্রতিসরাঙ্ক",
       "unit": "—"
     },
     {
@@ -32,32 +37,32 @@
     }
   ],
   "derivation": {
-    "lead": "স্ল্যাব রশ্মি সমান্তরাল রাখে কিন্তু পার্শ্বে সরায়।",
+    "lead": "স্ল্যাব রশ্মি সমান্তরাল রাখে কিন্তু পার্শ্বে সরায়। লম্ব আপতনে (i=0) সরণ শূন্য।",
     "steps": [
       {
-        "title": "সরণ",
+        "title": "জ্যামিতিক সরণ",
         "latex": "d=t\\,\\dfrac{\\sin(i-r)}{\\cos r}",
-        "note": "প্রায় ব্যবহার্য রূপ।"
+        "note": "প্রতিসরণ: n = sin i / sin r।"
       },
       {
-        "title": "ক্ষুদ্র কোণ",
-        "latex": "d\\approx t(1-1/n)",
-        "note": "লম্বের কাছাকাছি আপতনে।"
+        "title": "ক্ষুদ্র কোণ / near-normal",
+        "latex": "d\\approx t\\left(1-\\dfrac{1}{n}\\right)\\sin i",
+        "note": "শুধু t(1−1/n) লেখা ভুল — sin i বাদ গেলে লম্ব আপতনেও সরণ থাকার মতো মনে হয়।"
       }
     ],
     "assumptions": [
-      "সমান্তরাল মুখ; বায়ু–কাচ–বায়ু"
+      "সমান্তরাল মুখ; বায়ু–কাচ–বায়ু; একবর্ণী আলো"
     ]
   },
   "questions": [
     {
-      "examType": "HSC",
-      "question": "লম্ব আপতনের কাছাকাছি পার্শ্ব সরণের সরল সূত্র কী?",
-      "answer": "d\\approx t(1-1/n)"
+      "examType": "Admission",
+      "question": "n=1.5, t=6 cm, i=30° হলে পার্শ্ব সরণের আসন্ন মান কত? (sin 30°=1/2)",
+      "answer": "d\\approx 6(1-1/1.5)(1/2)=6\\cdot\\tfrac13\\cdot\\tfrac12=1\\,\\mathrm{cm}"
     }
   ],
   "memorize": {
-    "trick": "মোটা স্ল্যাব বা বড় n → বেশি সরণ।",
+    "trick": "লম্বে সরণ ০; আনুমানিক d ≈ t(1−1/n)sin i — sin i ভুলো না।",
     "steps": []
   },
   "subjects": [

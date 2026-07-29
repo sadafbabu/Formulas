@@ -3,8 +3,8 @@
   "chapter": "static-electricity",
   "title": "Spherical Capacitor",
   "titleBn": "গোলীয় ধারক",
-  "summary": "কেন্দ্রীক গোলক ও বিচ্ছিন্ন গোলকের ধারকত্ব",
-  "latex": "C=4\\pi\\varepsilon_0\\frac{ab}{b-a},\\quad C_{iso}=4\\pi\\varepsilon_0 R",
+  "summary": "C = 4πε₀ ab/(b−a)",
+  "latex": "C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,33 +16,38 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "C, varepsilon, a, b",
-      "meaning": "গোলীয় ধারক",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "a, b",
+      "meaning": "অভ্যন্তর ও বহিঃ ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "C",
+      "meaning": "ধারকত্ব",
+      "unit": "F"
     }
   ],
   "derivation": {
-    "lead": "কেন্দ্রীক গোলক ও বিচ্ছিন্ন গোলকের ধারকত্ব",
+    "lead": "V=∫_a^b E dr, E=kq/r² → C=q/V।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "C=4\\pi\\varepsilon_0\\frac{ab}{b-a},\\quad C_{iso}=4\\pi\\varepsilon_0 R",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সূত্র",
+        "latex": "C=4\\pi\\varepsilon_0 ab/(b-a)",
+        "note": "b→∞ হলে বিচ্ছিন্ন গোলক C=4πε₀a।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "সমকেন্দ্রিক গোলক; শূন্য/বায়ু"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "গোলীয় ধারক সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: বিচ্ছিন্ন গোলক C=4πε₀R; দুই গোলকে ab/(b−a)।)",
-      "answer": "C=4\\pi\\varepsilon_0\\frac{ab}{b-a},\\quad C_{iso}=4\\pi\\varepsilon_0 R"
+      "examType": "Admission",
+      "question": "b→∞ হলে C?",
+      "answer": "C=4\\pi\\varepsilon_0 a"
     }
   ],
   "memorize": {
-    "trick": "বিচ্ছিন্ন গোলক C=4πε₀R; দুই গোলকে ab/(b−a)।",
+    "trick": "C=4πε₀ ab/(b−a)।",
     "steps": []
   },
   "subjects": [

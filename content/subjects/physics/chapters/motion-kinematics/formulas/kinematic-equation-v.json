@@ -3,7 +3,7 @@
   "chapter": "motion-kinematics",
   "title": "v = u + at",
   "titleBn": "প্রথম গতি সমীকরণ",
-  "summary": "v=u+at",
+  "summary": "সমত্বরণে v = u + at",
   "latex": "v=u+at",
   "tags": [
     "hsc",
@@ -16,41 +16,50 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "v, u, a, t",
-      "meaning": "প্রথম গতি সমীকরণ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "u, v",
+      "meaning": "আদি ও শেষ বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "a",
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
+    },
+    {
+      "symbol": "t",
+      "meaning": "সময়",
+      "unit": "s"
     }
   ],
   "derivation": {
-    "lead": "সমান ত্বরণে চূড়ান্ত বেগ = প্রাথমিক + at।",
+    "lead": "a=dv/dt ধ্রুব → সমাকলন।",
     "steps": [
       {
-        "title": "মূল সূত্র",
+        "title": "সূত্র",
         "latex": "v=u+at",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "প্রথম গতিসমীকরণ।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "ধ্রুব a; সরলরেখা"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "প্রথম গতি সমীকরণ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: সমান ত্বরণে চূড়ান্ত বেগ = প্রাথমিক + at।)",
-      "answer": "v=u+at"
+      "examType": "HSC",
+      "question": "u=5, a=2, t=4। v?",
+      "answer": "v=5+8=13\\,\\mathrm{m/s}"
     }
   ],
   "memorize": {
-    "trick": "সমান ত্বরণে চূড়ান্ত বেগ = প্রাথমিক + at।",
+    "trick": "v=u+at।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "average-instantaneous-velocity",
     "kinematic-equation-s",
-    "displacement-velocity-accel"
+    "kinematic-equation-v2"
   ]
 }

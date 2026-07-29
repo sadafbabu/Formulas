@@ -3,8 +3,8 @@
   "chapter": "properties-of-matter",
   "title": "Hooke's Law",
   "titleBn": "হুকের সূত্র",
-  "summary": "stress∝strain",
-  "latex": "\\frac{F}{A}=Y\\frac{\\Delta L}{L}",
+  "summary": "stress ∝ strain; Y = stress/strain (স্থিতিস্থাপক সীমায়)",
+  "latex": "Y=\\dfrac{\\mathrm{stress}}{\\mathrm{strain}}=\\dfrac{F/A}{\\Delta L/L}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,40 +16,50 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "F, A, Y, L",
-      "meaning": "হুকের সূত্র",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "Y",
+      "meaning": "ইয়ংয়ের গুণাঙ্ক",
+      "unit": "Pa"
+    },
+    {
+      "symbol": "F, A",
+      "meaning": "বল ও প্রস্থচ্ছেদ",
+      "unit": "N, m²"
+    },
+    {
+      "symbol": "\\Delta L, L",
+      "meaning": "প্রসারণ ও আদি দৈর্ঘ্য",
+      "unit": "m"
     }
   ],
   "derivation": {
-    "lead": "স্থিতিস্থাপক সীমায় stress = Y × strain।",
+    "lead": "হুকের সূত্র: F = −kx; কঠিনে stress–strain রৈখিক।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\frac{F}{A}=Y\\frac{\\Delta L}{L}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "ইয়ং",
+        "latex": "Y=\\dfrac{F L}{A\\Delta L}",
+        "note": "বড় Y = কম প্রসার্য।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "স্থিতিস্থাপক সীমার মধ্যে"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "হুকের সূত্র সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: স্থিতিস্থাপক সীমায় stress = Y × strain।)",
-      "answer": "\\frac{F}{A}=Y\\frac{\\Delta L}{L}"
+      "examType": "HSC",
+      "question": "stress=strain হলে Y কত?",
+      "answer": "Y=1"
     }
   ],
   "memorize": {
-    "trick": "স্থিতিস্থাপক সীমায় stress = Y × strain।",
+    "trick": "Y = (F/A)/(ΔL/L)।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "excess-pressure-bubble",
-    "pascals-law"
+    "youngs-modulus",
+    "bulk-shear-modulus"
   ]
 }

@@ -3,8 +3,8 @@
   "chapter": "periodic-motion",
   "title": "Compound Pendulum",
   "titleBn": "যৌগিক দোলক",
-  "summary": "ভৌত দোলকের পর্যায়কাল",
-  "latex": "T=2\\pi\\sqrt{\\frac{I}{mgd}}=2\\pi\\sqrt{\\frac{k^2+d^2}{gd}}",
+  "summary": "T = 2π√(I/(mgd)); সমতুল্য সরল L_eq = I/(md)",
+  "latex": "T=2\\pi\\sqrt{\\dfrac{I}{mgd}}=2\\pi\\sqrt{\\dfrac{k^2+d^2}{gd}}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,33 +16,43 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "T, I, m, g",
-      "meaning": "যৌগিক দোলক",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "I",
+      "meaning": "দোলন অক্ষে জড়তার ভ্রামক",
+      "unit": "kg·m²"
+    },
+    {
+      "symbol": "d",
+      "meaning": "CM থেকে অক্ষের দূরত্ব",
+      "unit": "m"
+    },
+    {
+      "symbol": "k",
+      "meaning": "জাইরেশন ব্যাসার্ধ",
+      "unit": "m"
     }
   ],
   "derivation": {
-    "lead": "I = mk²; সমতুল্য দৈর্ঘ্য L_eq=(k²+d²)/d।",
+    "lead": "টর্ক = −mgd sinθ ≈ −mgd θ → SHM।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "T=2\\pi\\sqrt{\\frac{I}{mgd}}=2\\pi\\sqrt{\\frac{k^2+d^2}{gd}}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "পর্যায়কাল",
+        "latex": "T=2\\pi\\sqrt{I/(mgd)}",
+        "note": "I=m(k²+d²)।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "ক্ষুদ্র কোণ; অনমনীয়"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "যৌগিক দোলক সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: I = mk²; সমতুল্য দৈর্ঘ্য L_eq=(k²+d²)/d।)",
-      "answer": "T=2\\pi\\sqrt{\\frac{I}{mgd}}=2\\pi\\sqrt{\\frac{k^2+d^2}{gd}}"
+      "examType": "Admission",
+      "question": "d=k হলে T?",
+      "answer": "T=2\\pi\\sqrt{2k/g}"
     }
   ],
   "memorize": {
-    "trick": "I = mk²; সমতুল্য দৈর্ঘ্য L_eq=(k²+d²)/d।",
+    "trick": "T=2π√(I/mgd)।",
     "steps": []
   },
   "subjects": [

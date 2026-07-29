@@ -3,8 +3,8 @@
   "chapter": "circular-motion",
   "title": "Centripetal Acceleration",
   "titleBn": "কেন্দ্রমুখী ত্বরণ",
-  "summary": "a=v²/r",
-  "latex": "a_c=\\frac{v^2}{r}=\\omega^2 r",
+  "summary": "a_c = v²/r = ω²r — কেন্দ্রের দিকে",
+  "latex": "a_c=\\dfrac{v^2}{r}=\\omega^2 r",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,41 +16,50 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "a, c, v, r",
+      "symbol": "a_c",
       "meaning": "কেন্দ্রমুখী ত্বরণ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "m/s²"
+    },
+    {
+      "symbol": "v, \\omega",
+      "meaning": "রৈখিক ও কৌণিক বেগ",
+      "unit": "m/s, rad/s"
+    },
+    {
+      "symbol": "r",
+      "meaning": "ব্যাসার্ধ",
+      "unit": "m"
     }
   ],
   "derivation": {
-    "lead": "দিক কেন্দ্রের দিকে; মান v²/r বা ω²r।",
+    "lead": "দিক পরিবর্তনের ত্বরণ; মান v²/r।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "a_c=\\frac{v^2}{r}=\\omega^2 r",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সূত্র",
+        "latex": "a_c=v^2/r=\\omega^2 r",
+        "note": "দিক সবসময় কেন্দ্রের দিকে।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "বৃত্তাকার পথ"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "কেন্দ্রমুখী ত্বরণ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: দিক কেন্দ্রের দিকে; মান v²/r বা ω²r।)",
-      "answer": "a_c=\\frac{v^2}{r}=\\omega^2 r"
+      "examType": "HSC",
+      "question": "v=10 m/s, r=5 m। a_c?",
+      "answer": "a_c=20\\,\\mathrm{m/s^2}"
     }
   ],
   "memorize": {
-    "trick": "দিক কেন্দ্রের দিকে; মান v²/r বা ω²r।",
+    "trick": "a_c=v²/r=ω²r।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "angular-linear-relation",
-    "period-frequency-circular",
-    "banking-of-road-ideal"
+    "centripetal-force",
+    "angular-linear-relation"
   ]
 }

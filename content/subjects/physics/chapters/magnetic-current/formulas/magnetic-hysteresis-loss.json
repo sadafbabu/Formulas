@@ -1,9 +1,9 @@
 {
   "id": "magnetic-hysteresis-loss",
-  "title": "Hysteresis Energy Loss",
+  "title": "Hysteresis Power Loss",
   "titleBn": "হিস্টেরেসিস শক্তি অপচয়",
-  "latex": "P_{\\mathrm{loss}}=Vf\\times(\\text{B–H loop area})",
-  "summary": "ফেরোম্যাগনেটিক পদার্থের চৌম্বক চক্রে ঘূর্ণনের সময় প্রতি চক্রে তাপ হিসেবে অপচয় হওয়া শক্তি।",
+  "latex": "U_{\\mathrm{cycle}}=V\\oint H\\,dB,\\quad P_{\\mathrm{hys}}=f\\,V\\times(\\text{B–H loop area})",
+  "summary": "প্রতি চক্রে শক্তি = V×(B–H loop area); ক্ষমতা = f গুণ",
   "tags": [
     "hsc",
     "eng-admission",
@@ -22,56 +22,58 @@
   ],
   "symbols": [
     {
-      "symbol": "P_{\\text{loss}}",
-      "meaning": "মোট অপচয়কৃত শক্তি",
-      "unit": "J (Joules)"
+      "symbol": "U_{\\mathrm{cycle}}",
+      "meaning": "এক চক্রে মোট শক্তি অপচয়",
+      "unit": "J"
+    },
+    {
+      "symbol": "P_{\\mathrm{hys}}",
+      "meaning": "গড় হিস্টেরেসিস ক্ষমতা",
+      "unit": "W"
     },
     {
       "symbol": "V",
-      "meaning": "পদার্থের আয়তন",
+      "meaning": "কোরের আয়তন",
       "unit": "m³"
     },
     {
       "symbol": "f",
-      "meaning": "প্লাবিত তরঙ্গের কম্পাঙ্ক",
+      "meaning": "চক্র কম্পাঙ্ক",
       "unit": "Hz"
     },
     {
-      "symbol": "\\text{Loop Area}",
-      "meaning": "B-H লুপের ক্ষেত্রফল",
+      "symbol": "\\oint H\\,dB",
+      "meaning": "B–H লুপের ক্ষেত্রফল",
       "unit": "J/m³"
-    },
-    {
-      "symbol": "t",
-      "meaning": "সময়",
-      "unit": "s"
     }
   ],
   "derivation": {
-    "lead": "প্রতি cycle-এ একক আয়তনে শক্তি ক্ষয় B–H loop-এর area; power পেতে volume ও frequency দিয়ে গুণ।",
+    "lead": "একক আয়তনে প্রতি চক্রে কাজ = লুপের ক্ষেত্রফল; ক্ষমতা পেতে f ও V দিয়ে গুণ।",
     "steps": [
       {
-        "title": "চক্রীয় কাজের সমীকরণ",
-        "latex": "W_{\\text{cycle}} = V \\oint H dB",
-        "note": "নরম লোহার লুপের ক্ষেত্রফল কাঁচা ইস্পাতের চেয়ে কম হওয়ায় রূপান্তরকে কাঁচা লোহা ব্যবহৃত হয়।"
+        "title": "চক্রীয় কাজ",
+        "latex": "u=\\oint H\\,dB,\\quad U_{\\mathrm{cycle}}=V u",
+        "note": "নরম লোহার লুপ চিকন → কম অপচয়।"
+      },
+      {
+        "title": "গড় ক্ষমতা",
+        "latex": "P_{\\mathrm{hys}}=f U_{\\mathrm{cycle}}=f V\\times(\\text{loop area})",
+        "note": "P একক ওয়াট (W), শক্তি জুল (J) নয়।"
       }
     ],
     "assumptions": [
-      "চৌম্বক ক্ষেত্রটি দিক-পরিবর্তী (AC) আবর্তনযুক্ত।"
+      "পর্যাবৃত্ত AC চৌম্বক চক্র; সমসত্ত্ব কোর"
     ]
   },
   "questions": [
     {
-      "examType": "BUET Admission Special (Hard)",
-      "question": "০.০০২ m³ আয়তনের একটি লোহার কোরের B-H লুপের ক্ষেত্রফল ২৫০ J/m³। ৫০ Hz কম্পাঙ্কের পরিবর্তনশীল প্রবাহে ১ ঘণ্টায় মোট কত কিলোজুল হিস্টেরেসিস শক্তি অপচয় হবে?",
-      "answer": "P_{\\text{loss}} = 0.002 \\times 50 \\times 250 \\times 3600 = 90000 \\text{ J} = 90 \\text{ kJ}"
+      "examType": "Admission",
+      "question": "V=0.002 m³, loop area=250 J/m³, f=50 Hz। ১ ঘণ্টায় মোট অপচয় কত?",
+      "answer": "P=0.002\\times50\\times250=25\\mathrm{W};\\ E=25\\times3600=90\\mathrm{kJ}"
     }
   ],
   "memorize": {
-    "trick": "অপচয় = লুপের ক্ষেত্রফল × কম্পাঙ্ক × আয়তন। 'লুপ চিকন হলে অপচয় কম' — তাই ট্রান্সফরমারে নরম লোহা (চিকন লুপ), স্থায়ী চুম্বকে ইস্পাত (মোটা লুপ)।",
-    "steps": [
-      "প্রতি চক্রে একক আয়তনে অপচয় = B–H লুপের ক্ষেত্রফল।",
-      "ট্রান্সফরমারে নরম লোহা/সিলিকন স্টিলের পাতলা lamination ব্যবহৃত হয়—চিকন loop ও কম eddy loss-এর জন্য।"
-    ]
+    "trick": "অপচয় শক্তি/চক্র = V×লুপ; ক্ষমতা = f×তা। চিকন লুপ = কম অপচয়।",
+    "steps": []
   }
 }

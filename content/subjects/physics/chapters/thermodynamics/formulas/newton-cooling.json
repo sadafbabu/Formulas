@@ -48,7 +48,7 @@
   ],
   "related": [
     "latent-heat",
-    "thermal-conduction-rate",
+    "heat-conduction",
     "heat-capacity-specific"
   ]
 }

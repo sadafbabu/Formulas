@@ -1,9 +1,9 @@
 {
   "id": "coaxial-cable-field",
-  "title": "Coaxial Cable Field",
+  "title": "Coaxial Cable Magnetic Field",
   "titleBn": "কো-অ্যাক্সিয়াল ক্যাবলের চৌম্বক ক্ষেত্র",
-  "latex": "B_{\\text{inner}} = \\frac{\\mu_0 I r}{2\\pi a^2}, \\quad B_{\\text{outer}} = 0",
-  "summary": "কো-অ্যাক্সিয়াল তারের অভ্যন্তরীণ নিরেট পরিবাহী ও বাহ্যিক খোলসের ভিতরের ও বাইরের চৌম্বক ক্ষেত্র।",
+  "latex": "B=\\dfrac{\\mu_0 I r}{2\\pi a^2}\\ (r<a),\\quad \\dfrac{\\mu_0 I}{2\\pi r}\\ (a<r<b),\\quad 0\\ (r>b)",
+  "summary": "ভিতরে ∝ r; ফাঁকে ∝ 1/r; বাইরে B=0 (রিটার্ন কারেন্ট)",
   "tags": [
     "hsc",
     "eng-admission",
@@ -22,51 +22,65 @@
   ],
   "symbols": [
     {
-      "symbol": "B_{\\text{inner}}",
-      "meaning": "নিরেট তারের অভ্যন্তরীণ ক্ষেত্র (r < a)",
-      "unit": "T"
-    },
-    {
-      "symbol": "B_{\\text{outer}}",
-      "meaning": "ক্যাবলের বহিস্থ ক্ষেত্র (r > b)",
-      "unit": "T"
-    },
-    {
       "symbol": "a",
-      "meaning": "অভ্যন্তরীণ তারের ব্যাসার্ধ",
+      "meaning": "অভ্যন্তরীণ পরিবাহীর ব্যাসার্ধ",
       "unit": "m"
+    },
+    {
+      "symbol": "b",
+      "meaning": "বাহ্যিক শিল্ডের ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "I",
+      "meaning": "অভ্যন্তরে +I, শিল্ডে −I",
+      "unit": "A"
     },
     {
       "symbol": "r",
       "meaning": "অক্ষ থেকে দূরত্ব",
       "unit": "m"
+    },
+    {
+      "symbol": "B",
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     }
   ],
   "derivation": {
-    "lead": "অ্যাম্পিয়ারের সূত্র প্রয়োগে আবদ্ধ প্রবাহ সমতা:",
+    "lead": "অ্যাম্পিয়ারের সূত্র ∮B·dl = μ₀ I_enc — তিন অঞ্চলে আলাদা I_enc।",
     "steps": [
       {
-        "title": "অভ্যন্তরীণ প্রবাহ সমাকলন",
-        "latex": "I_{\\text{enc}} = I \\left(\\frac{\\pi r^2}{\\pi a^2}\\right) \\implies B (2\\pi r) = \\mu_0 I \\frac{r^2}{a^2} \\implies B = \\frac{\\mu_0 I r}{2\\pi a^2}",
-        "note": "বাহ্যিক পরিবাহীতে বিপরীত সমমানের প্রবাহ থাকায় ক্যাবলের বাইরে মোট ক্ষেত্র শূন্য (B_{\\text{outer}} = 0) হয়।"
+        "title": "r < a (নিরেট তারের ভিতর)",
+        "latex": "I_{\\mathrm{enc}}=I\\frac{r^2}{a^2}\\Rightarrow B=\\dfrac{\\mu_0 I r}{2\\pi a^2}",
+        "note": "প্রবাহ সমানভাবে বিস্তৃত ধরে।"
+      },
+      {
+        "title": "a < r < b (দুই পরিবাহীর মাঝে)",
+        "latex": "I_{\\mathrm{enc}}=I\\Rightarrow B=\\dfrac{\\mu_0 I}{2\\pi r}",
+        "note": "দীর্ঘ সরল তারের মতো।"
+      },
+      {
+        "title": "r > b (ক্যাবলের বাইরে)",
+        "latex": "I_{\\mathrm{enc}}=I+(-I)=0\\Rightarrow B=0",
+        "note": "এজন্যই কো-অ্যাক্সিয়াল শিল্ডিং দেয়।"
       }
     ],
     "assumptions": [
-      "প্রবাহ নিরেট পরিবাহীর প্রস্থচ্ছেদে সুষমভাবে বিস্তৃত।"
+      "অসীম দীর্ঘ; স্থির প্রবাহ; শিল্ডে সমান বিপরীত প্রবাহ"
     ]
   },
   "questions": [
     {
-      "examType": "BUET Admission Special (Hard)",
-      "question": "একটি coaxial cable-এর inner conductor-এ I এবং outer conductor-এ বিপরীতমুখী −I প্রবাহ। Cable-এর বাইরের অঞ্চলে (r > b) চৌম্বক ক্ষেত্র কত?",
-      "answer": "\\oint\\vec B\\cdot d\\vec l=\\mu_0(I-I)=0\\Rightarrow B=0\\quad(r>b)"
+      "examType": "BUET Admission",
+      "question": "কো-অ্যাক্সিয়াল ক্যাবলের বাইরে (r>b) B কত? কেন?",
+      "answer": "B=0;\\ I_{\\mathrm{enc}}=I-I=0"
     }
   ],
   "memorize": {
-    "trick": "ভিতরে r-এর সমানুপাতী (বাড়ে), বাইরে শূন্য। কারণ বাইরে ঘেরা মোট প্রবাহ I − I = 0।",
+    "trick": "ভিতরে ∝r, মাঝে ∝1/r, বাইরে ০।",
     "steps": [
-      "ভিতরের পরিবাহীর ভিতরে ঘেরা প্রবাহ ∝ r², তাই B ∝ r।",
-      "সম্পূর্ণ ক্যাবলের বাইরে দুই দিকের সমান প্রবাহ বাতিল হয় → B = 0। এজন্যই কো-অ্যাক্সিয়াল ক্যাবল শিল্ডিং দেয়।"
+      "বাইরে মোট ঘেরা প্রবাহ শূন্য → B=0"
     ]
   }
 }

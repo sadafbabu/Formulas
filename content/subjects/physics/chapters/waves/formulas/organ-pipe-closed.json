@@ -3,7 +3,7 @@
   "chapter": "waves",
   "title": "Closed Organ Pipe",
   "titleBn": "বন্ধ অর্গান পাইপ",
-  "summary": "λ/4, 3λ/4…",
+  "summary": "বন্ধ পাইপ: f_n = (2n−1)v/(4L); শুধু বিজোড়",
   "latex": "f_n=(2n-1)\\frac{v}{4L},\\quad n=1,2,3,\\ldots",
   "tags": [
     "hsc",
@@ -16,41 +16,61 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "f, n, v, L",
-      "meaning": "বন্ধ অর্গান পাইপ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "L",
+      "meaning": "পাইপের দৈর্ঘ্য",
+      "unit": "m"
+    },
+    {
+      "symbol": "v",
+      "meaning": "শব্দের বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "n",
+      "meaning": "ক্রম ১,২,৩… → ১ম,৩ম,৫ম…",
+      "unit": "—"
+    },
+    {
+      "symbol": "f_1",
+      "meaning": "মূল সুর = v/(4L)",
+      "unit": "Hz"
     }
   ],
   "derivation": {
-    "lead": "শুধু বিজোড় গুণিতক; মূল সুর v/4L।",
+    "lead": "এক প্রান্ত বদ্ধ (নিস্পন্দ) → L = (2n−1)λ/4।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "f_n=(2n-1)\\frac{v}{4L},\\quad n=1,2,3,\\ldots",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "তরঙ্গদৈর্ঘ্য",
+        "latex": "L=(2n-1)\\dfrac{\\lambda}{4}",
+        "note": "শুধু বিজোড় গুণিতক।"
+      },
+      {
+        "title": "কম্পাঙ্ক",
+        "latex": "f_n=(2n-1)\\dfrac{v}{4L}",
+        "note": "মূল সুর খোলা পাইপের অর্ধেক (একই L)।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "প্রান্ত সংশোধন নগণ্য"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "বন্ধ অর্গান পাইপ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: শুধু বিজোড় গুণিতক; মূল সুর v/4L।)",
-      "answer": "f_n=(2n-1)\\frac{v}{4L},\\quad n=1,2,3,\\ldots"
+      "examType": "HSC",
+      "question": "একই L ও v-তে বন্ধ পাইপের f₁ খোলা পাইপের f₁-এর কতগুণ?",
+      "answer": "f_{1,\\mathrm{closed}}=v/4L=\\tfrac12 f_{1,\\mathrm{open}}"
     }
   ],
   "memorize": {
-    "trick": "শুধু বিজোড় গুণিতক; মূল সুর v/4L।",
+    "trick": "Closed = শুধু বিজোড়; f₁=v/4L।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "beats-frequency",
     "organ-pipe-open",
+    "beats-frequency",
     "doppler-effect-general"
   ]
 }

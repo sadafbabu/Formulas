@@ -3,8 +3,8 @@
   "chapter": "modern-physics",
   "title": "Pair Production",
   "titleBn": "জোড় উৎপাদন",
-  "summary": "γ → e⁻ + e⁺",
-  "latex": "\\gamma\\to e^-+e^+\\quad(E_\\gamma\\ge 1.022\\,\\mathrm{MeV})",
+  "summary": "γ → e⁻ + e⁺; ন্যূনতম Eγ = 2m_e c² = 1.022 MeV (নিউক্লিয়াসের কাছে)",
+  "latex": "\\gamma\\to e^-+e^+,\\quad E_\\gamma\\ge 2m_ec^2=1.022\\,\\mathrm{MeV}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,38 +16,56 @@
   "order": 170,
   "symbols": [
     {
-      "symbol": "e, E, M, V",
-      "meaning": "জোড় উৎপাদন",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "E_\\gamma",
+      "meaning": "ফোটনের শক্তি",
+      "unit": "MeV"
+    },
+    {
+      "symbol": "m_e c^2",
+      "meaning": "ইলেকট্রনের বিশ্রাম শক্তি",
+      "unit": "0.511 MeV"
+    },
+    {
+      "symbol": "e^-, e^+",
+      "meaning": "ইলেকট্রন–পজিট্রন জোড়",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "ন্যূনতম ১.০২২ MeV ফোটন শক্তি।",
+    "lead": "শক্তি ও ভরবেগ সংরক্ষণে নিউক্লিয়াস প্রয়োজন; থ্রেশহোল্ড ২×০.৫১১ MeV।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\gamma\\to e^-+e^+\\quad(E_\\gamma\\ge 1.022\\,\\mathrm{MeV})",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "ভর–শক্তি",
+        "latex": "E_{\\min}=2m_ec^2=1.022\\,\\mathrm{MeV}",
+        "note": "অতিরিক্ত শক্তি KE হিসেবে জোড়ে যায়।"
+      },
+      {
+        "title": "বিপরীত প্রক্রিয়া",
+        "latex": "e^-+e^+\\to 2\\gamma\\ (\\text{annihilation})",
+        "note": "ধ্বংসে সাধারণত দুইটি ০.৫১১ MeV ফোটন।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "নিউক্লিয়াসের কাছে ঘটে; শূন্যে অসম্ভব (ভরবেগ)"
+    ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "জোড় উৎপাদন সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: ন্যূনতম ১.০২২ MeV ফোটন শক্তি।)",
-      "answer": "\\gamma\\to e^-+e^+\\quad(E_\\gamma\\ge 1.022\\,\\mathrm{MeV})"
+      "examType": "HSC",
+      "question": "জোড় উৎপাদনের ন্যূনতম ফোটন শক্তি কত?",
+      "answer": "1.022\\,\\mathrm{MeV}=2m_ec^2"
     }
   ],
   "memorize": {
-    "trick": "ন্যূনতম ১.০২২ MeV ফোটন শক্তি।",
+    "trick": "১.০২২ MeV = দুই ইলেকট্রনের বিশ্রাম শক্তি; পরে annihilation → ২γ।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "bohr-frequency-condition",
+    "mass-energy-photoelectric",
+    "de-broglie-wavelength",
     "stopping-potential"
   ]
 }

@@ -3,7 +3,7 @@
   "chapter": "current-electricity",
   "title": "Meter Bridge",
   "titleBn": "মিটার ব্রিজ",
-  "summary": "হুইটস্টোন নীতিতে অজানা রোধ",
+  "summary": "হুইটস্টোন: X = R·l/(100−l); l = জকির অবস্থান (cm)",
   "latex": "\\frac{P}{Q}=\\frac{l}{100-l},\\quad X=\\frac{R\\,l}{100-l}",
   "tags": [
     "hsc",
@@ -16,39 +16,60 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "P, Q, l, X",
-      "meaning": "মিটার ব্রিজ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "X",
+      "meaning": "অজানা রোধ",
+      "unit": "Ω"
+    },
+    {
+      "symbol": "R",
+      "meaning": "জানা রোধ বাক্স",
+      "unit": "Ω"
+    },
+    {
+      "symbol": "l",
+      "meaning": "বাম অংশের দৈর্ঘ্য (জকি)",
+      "unit": "cm"
+    },
+    {
+      "symbol": "100-l",
+      "meaning": "ডান অংশের দৈর্ঘ্য",
+      "unit": "cm"
     }
   ],
   "derivation": {
-    "lead": "হুইটস্টোন নীতিতে অজানা রোধ",
+    "lead": "মিটার তারের রোধ দৈর্ঘ্যের সমানুপাতিক → হুইটস্টোন অনুপাত।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\frac{P}{Q}=\\frac{l}{100-l},\\quad X=\\frac{R\\,l}{100-l}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "অনুপাত",
+        "latex": "\\dfrac{P}{Q}=\\dfrac{l}{100-l}",
+        "note": "P,Q তারের দুই অংশের রোধ।"
+      },
+      {
+        "title": "অজানা রোধ",
+        "latex": "X=R\\dfrac{l}{100-l}",
+        "note": "X যে বাহুতে, l সেই দিকের দৈর্ঘ্য।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "একসমান তার; সংযোগ রোধ নগণ্য; নাল বিন্দুতে গ্যালভানোমিটার"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "মিটার ব্রিজ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: X = R·l/(100−l) — l সেন্টিমিটারে jockey অবস্থান।)",
-      "answer": "\\frac{P}{Q}=\\frac{l}{100-l},\\quad X=\\frac{R\\,l}{100-l}"
+      "examType": "HSC",
+      "question": "R=2 Ω, l=40 cm হলে X কত?",
+      "answer": "X=2\\cdot\\dfrac{40}{60}=\\dfrac{4}{3}\\Omega"
     }
   ],
   "memorize": {
-    "trick": "X = R·l/(100−l) — l সেন্টিমিটারে jockey অবস্থান।",
+    "trick": "X/R = l/(100−l) — l সেন্টিমিটারে।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "wheatstone-bridge"
+    "wheatstone-bridge",
+    "ohms-law"
   ]
 }

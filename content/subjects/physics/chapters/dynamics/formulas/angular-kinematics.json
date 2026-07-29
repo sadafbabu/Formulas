@@ -3,7 +3,7 @@
   "chapter": "dynamics",
   "title": "Angular Kinematics",
   "titleBn": "কৌণিক গতির সমীকরণ",
-  "summary": "সমকৌণিক ত্বরণে কৌণিক গতির তিন সমীকরণ",
+  "summary": "রৈখিক গতির ছাঁচে কৌণিক: ω=ω₀+αt ইত্যাদি",
   "latex": "\\omega=\\omega_0+\\alpha t,\\quad\\theta=\\omega_0 t+\\tfrac12\\alpha t^2,\\quad\\omega^2=\\omega_0^2+2\\alpha\\theta",
   "tags": [
     "hsc",
@@ -16,33 +16,48 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "t, tfrac",
-      "meaning": "কৌণিক গতির সমীকরণ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "\\omega, \\omega_0",
+      "meaning": "কৌণিক বেগ",
+      "unit": "rad/s"
+    },
+    {
+      "symbol": "\\alpha",
+      "meaning": "কৌণিক ত্বরণ",
+      "unit": "rad/s²"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "কৌণিক সরণ",
+      "unit": "rad"
     }
   ],
   "derivation": {
-    "lead": "সমকৌণিক ত্বরণে কৌণিক গতির তিন সমীকরণ",
+    "lead": "v→ω, a→α, s→θ ম্যাপিং।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\omega=\\omega_0+\\alpha t,\\quad\\theta=\\omega_0 t+\\tfrac12\\alpha t^2,\\quad\\omega^2=\\omega_0^2+2\\alpha\\theta",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সমত্বরণ",
+        "latex": "\\omega=\\omega_0+\\alpha t,\\quad\\theta=\\omega_0 t+\\tfrac12\\alpha t^2",
+        "note": "α ধ্রুব।"
+      },
+      {
+        "title": "বেগ–সরণ",
+        "latex": "\\omega^2=\\omega_0^2+2\\alpha\\theta",
+        "note": "v²=u²+2as এর অনুরূপ।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "ধ্রুব α"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "কৌণিক গতির সমীকরণ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: রৈখিকের ছাঁচ: v→ω, a→α, s→θ।)",
-      "answer": "\\omega=\\omega_0+\\alpha t,\\quad\\theta=\\omega_0 t+\\tfrac12\\alpha t^2,\\quad\\omega^2=\\omega_0^2+2\\alpha\\theta"
+      "examType": "HSC",
+      "question": "ω₀=0, α=2 rad/s², t=3 s। θ?",
+      "answer": "\\theta=\\tfrac12\\cdot2\\cdot9=9\\,\\mathrm{rad}"
     }
   ],
   "memorize": {
-    "trick": "রৈখিকের ছাঁচ: v→ω, a→α, s→θ।",
+    "trick": "রৈখিক সূত্রে v,a,s কে ω,α,θ দিয়ে বদলাও।",
     "steps": []
   },
   "subjects": [

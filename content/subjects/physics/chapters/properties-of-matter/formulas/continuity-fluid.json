@@ -3,8 +3,8 @@
   "chapter": "properties-of-matter",
   "title": "Equation of Continuity",
   "titleBn": "ধারাবাহিকতার সমীকরণ",
-  "summary": "ধারাবাহিকতা: ভর প্রবাহ সংরক্ষণ (continuity-equation দেখুন)",
-  "latex": "A_1v_1=A_2v_2",
+  "summary": "অসংনম্য: A₁v₁ = A₂v₂",
+  "latex": "A_1 v_1=A_2 v_2",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,43 +16,45 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "A, v",
-      "meaning": "ধারাবাহিকতার সমীকরণ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "A",
+      "meaning": "প্রস্থচ্ছেদ",
+      "unit": "m²"
+    },
+    {
+      "symbol": "v",
+      "meaning": "প্রবাহ বেগ",
+      "unit": "m/s"
     }
   ],
   "derivation": {
-    "lead": "A₁v₁=A₂v₂ — সরু স্থানে বেগ বেশি।",
+    "lead": "ভর সংরক্ষণ: ρAv ধ্রুব; ρ ধ্রুব হলে Av ধ্রুব।",
     "steps": [
       {
-        "title": "মূল সূত্র",
+        "title": "সূত্র",
         "latex": "A_1v_1=A_2v_2",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "সরু অংশে বেগ বেশি।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "অসংনম্য; স্থিতিশীল"
     ]
   },
   "questions": [
     {
-      "examType": "Admission",
-      "question": "অসংকোচনযোগ্য প্রবাহে A₁ = 2A₂ হলে v₂/v₁ কত?",
-      "answer": "v_2/v_1=A_1/A_2=2"
+      "examType": "HSC",
+      "question": "A₂=A₁/2 হলে v₂?",
+      "answer": "v_2=2v_1"
     }
   ],
   "memorize": {
-    "trick": "সরু স্থানে বেগ বেশি।",
+    "trick": "Av = ধ্রুব।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "hookes-law-stress-strain",
-    "torricelli-theorem",
-    "excess-pressure-bubble",
-    "continuity-equation",
-    "bernoulli-equation"
+    "bernoulli-equation",
+    "continuity-equation"
   ]
 }

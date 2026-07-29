@@ -3,8 +3,8 @@
   "chapter": "modern-physics",
   "title": "Einstein Photoelectric Equation",
   "titleBn": "আইনস্টাইনের ফটোইলেকট্রিক সমীকরণ",
-  "summary": "K_max=hf−φ",
-  "latex": "K_{\\max}=hf-\\phi=h(f-f_0)",
+  "summary": "K_max = hf − φ = eV₀; কাট-অফ f₀ = φ/h",
+  "latex": "K_{\\max}=hf-\\phi=h(f-f_0)=eV_0",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,41 +16,66 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "K, h, f",
-      "meaning": "আইনস্টাইনের ফটোইলেকট্রিক সমীকরণ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "h",
+      "meaning": "প্ল্যাঙ্ক ধ্রুবক",
+      "unit": "J·s"
+    },
+    {
+      "symbol": "f, f_0",
+      "meaning": "আলোর কম্পাঙ্ক ও থ্রেশহোল্ড",
+      "unit": "Hz"
+    },
+    {
+      "symbol": "\\phi",
+      "meaning": "কাজফল (work function)",
+      "unit": "J বা eV"
+    },
+    {
+      "symbol": "V_0",
+      "meaning": "স্টপিং বিভব",
+      "unit": "V"
+    },
+    {
+      "symbol": "K_{\\max}",
+      "meaning": "সর্বোচ্চ গতিশক্তি",
+      "unit": "J"
     }
   ],
   "derivation": {
-    "lead": "K_max=hf−φ — কাট-অফ f₀=φ/h।",
+    "lead": "এক ফোটন এক ইলেকট্রনকে φ শক্তি দিয়ে মুক্ত করে; বাদবাকি KE।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "K_{\\max}=hf-\\phi=h(f-f_0)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "আইনস্টাইন সমীকরণ",
+        "latex": "hf=\\phi+K_{\\max}",
+        "note": "তিব্রতা বাড়লে ইলেকট্রন সংখ্যা বাড়ে, K_max নয়।"
+      },
+      {
+        "title": "স্টপিং পটেনশিয়াল",
+        "latex": "K_{\\max}=eV_0=h(f-f_0)",
+        "note": "V₀–f রেখার ঢাল = h/e।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "এক ফোটন–এক ইলেকট্রন; তাপীয় নির্গমন নগণ্য"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "আইনস্টাইনের ফটোইলেকট্রিক সমীকরণ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: কাট-অফ f₀=φ/h।)",
-      "answer": "K_{\\max}=hf-\\phi=h(f-f_0)"
+      "examType": "Admission",
+      "question": "φ=2 eV, λ=400 nm। K_max? (hc≈1240 eV·nm)",
+      "answer": "hf=1240/400=3.1\\mathrm{eV};\\ K_{\\max}=3.1-2=1.1\\mathrm{eV}"
     }
   ],
   "memorize": {
-    "trick": "কাট-অফ f₀=φ/h।",
+    "trick": "hf = φ + K_max; f₀=φ/h; K_max=eV₀।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "bragg-law",
     "stopping-potential",
-    "photoelectric-threshold"
+    "photoelectric-threshold",
+    "de-broglie-wavelength"
   ]
 }

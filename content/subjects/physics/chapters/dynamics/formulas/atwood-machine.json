@@ -3,7 +3,7 @@
   "chapter": "dynamics",
   "title": "Atwood Machine",
   "titleBn": "অ্যাটউড যন্ত্র ও সংযুক্ত বস্তু",
-  "summary": "দুই ভরের অ্যাটউড ত্বরণ ও টান",
+  "summary": "m₁>m₂ হলে a=(m₁−m₂)g/(m₁+m₂); T=2m₁m₂g/(m₁+m₂)",
   "latex": "a=\\frac{(m_1-m_2)g}{m_1+m_2},\\quad T=\\frac{2m_1m_2}{m_1+m_2}g",
   "tags": [
     "hsc",
@@ -16,39 +16,60 @@
   "order": 150,
   "symbols": [
     {
-      "symbol": "a, m, g, T",
-      "meaning": "অ্যাটউড যন্ত্র ও সংযুক্ত বস্তু",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "m_1, m_2",
+      "meaning": "দুই ভর (m₁>m₂ ধরা)",
+      "unit": "kg"
+    },
+    {
+      "symbol": "a",
+      "meaning": "সিস্টেমের ত্বরণ",
+      "unit": "m/s²"
+    },
+    {
+      "symbol": "T",
+      "meaning": "দড়ির টান",
+      "unit": "N"
+    },
+    {
+      "symbol": "g",
+      "meaning": "অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²"
     }
   ],
   "derivation": {
-    "lead": "দুই ভরের অ্যাটউড ত্বরণ ও টান",
+    "lead": "নিউটনের সূত্র: m₁g−T=m₁a, T−m₂g=m₂a — যোগ/বিয়োগে a ও T।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "a=\\frac{(m_1-m_2)g}{m_1+m_2},\\quad T=\\frac{2m_1m_2}{m_1+m_2}g",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "ত্বরণ",
+        "latex": "a=\\dfrac{(m_1-m_2)g}{m_1+m_2}",
+        "note": "ভরপার্থক্য/মোটভর × g।"
+      },
+      {
+        "title": "টান",
+        "latex": "T=\\dfrac{2m_1m_2}{m_1+m_2}g",
+        "note": "T সবসময় ছোট ভরের ওজনের চেয়ে বেশি, বড়টির চেয়ে কম।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "ভরহীন ঘর্ষণহীন কপিকল; অটুট দড়ি; g অভিন্ন"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "অ্যাটউড যন্ত্র ও সংযুক্ত বস্তু সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: a = ভরপার্থক্য×g / মোটভর; T সবসময় ছোটটির চেয়ে বেশি।)",
-      "answer": "a=\\frac{(m_1-m_2)g}{m_1+m_2},\\quad T=\\frac{2m_1m_2}{m_1+m_2}g"
+      "examType": "Admission",
+      "question": "m₁=5 kg, m₂=3 kg। a ও T কত? (g=10)",
+      "answer": "a=\\dfrac{2}{8}\\cdot10=2.5\\mathrm{m/s^2},\\ T=\\dfrac{2\\cdot5\\cdot3}{8}\\cdot10=37.5\\mathrm{N}"
     }
   ],
   "memorize": {
-    "trick": "a = ভরপার্থক্য×g / মোটভর; T সবসময় ছোটটির চেয়ে বেশি।",
+    "trick": "a = Δm·g / Σm; T = 2μg যেখানে μ = সমতুল্য ভর m₁m₂/(m₁+m₂)।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "newtons-laws"
+    "momentum-impulse",
+    "inclined-plane-connected"
   ]
 }

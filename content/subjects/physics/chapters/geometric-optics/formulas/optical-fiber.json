@@ -1,10 +1,10 @@
 {
   "id": "optical-fiber",
   "chapter": "geometric-optics",
-  "title": "Optical Fibre NA",
+  "title": "Optical Fibre Numerical Aperture",
   "titleBn": "অপটিক্যাল ফাইবার ও NA",
-  "summary": "সংগ্রহ কোণ ও সাংখ্যিক অ্যাপারচার",
-  "latex": "\\mathrm{NA}=\\sqrt{n_1^2-n_2^2}=\\sin i_a",
+  "summary": "NA = √(n₁²−n₂²) = n₀ sin i_a (বায়ুতে n₀=1 → NA=sin i_a)",
+  "latex": "\\mathrm{NA}=\\sqrt{n_1^2-n_2^2}=n_0\\sin i_a",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,37 +16,65 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "N, A, n, i",
-      "meaning": "অপটিক্যাল ফাইবার ও NA",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "n_1",
+      "meaning": "কোরের প্রতিসরাঙ্ক",
+      "unit": "—"
+    },
+    {
+      "symbol": "n_2",
+      "meaning": "ক্ল্যাডিংয়ের প্রতিসরাঙ্ক",
+      "unit": "—"
+    },
+    {
+      "symbol": "n_0",
+      "meaning": "বাহ্যিক মাধ্যম (সাধারণত বায়ু=1)",
+      "unit": "—"
+    },
+    {
+      "symbol": "i_a",
+      "meaning": "গ্রহণ কোণ (acceptance angle)",
+      "unit": "°"
+    },
+    {
+      "symbol": "\\mathrm{NA}",
+      "meaning": "সাংখ্যিক অ্যাপারচার",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "সংগ্রহ কোণ ও সাংখ্যিক অ্যাপারচার",
+    "lead": "কোর–ক্ল্যাডিং সীমায় TIR; বাইরের মাধ্যম থেকে সর্বোচ্চ গ্রহণ কোণ i_a।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\mathrm{NA}=\\sqrt{n_1^2-n_2^2}=\\sin i_a",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সমালোচক কোণ",
+        "latex": "\\sin c=\\dfrac{n_2}{n_1}",
+        "note": "ক্ল্যাডিংয়ে TIR-এর শর্ত।"
+      },
+      {
+        "title": "NA",
+        "latex": "n_0\\sin i_a=\\sqrt{n_1^2-n_2^2}=\\mathrm{NA}",
+        "note": "বায়ুতে n₀=1 হলে NA=sin i_a।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "ধাপ-সূচক ফাইবার; একবর্ণী; প্যারাক্সিয়াল"
+    ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "অপটিক্যাল ফাইবার ও NA সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: NA = √(n₁²−n₂²); বড় NA = বেশি আলো ধরে।)",
-      "answer": "\\mathrm{NA}=\\sqrt{n_1^2-n_2^2}=\\sin i_a"
+      "examType": "Admission",
+      "question": "n₁=1.50, n₂=1.40, বায়ু থেকে আলো। NA ও i_a কত?",
+      "answer": "\\mathrm{NA}=\\sqrt{1.5^2-1.4^2}=\\sqrt{0.29}\\approx0.54;\\ i_a=\\arcsin(0.54)"
     }
   ],
   "memorize": {
-    "trick": "NA = √(n₁²−n₂²); বড় NA = বেশি আলো ধরে।",
+    "trick": "বড় NA = বেশি আলো ধরে; বায়ুতে NA=sin i_a।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "total-internal-reflection"
+    "total-internal-reflection",
+    "critical-angle"
   ]
 }

@@ -3,8 +3,8 @@
   "chapter": "periodic-motion",
   "title": "Sound Intensity & Loudness",
   "titleBn": "শব্দের তীব্রতা ও প্রাবল্য",
-  "summary": "তীব্রতা এবং ডেসিবেল প্রাবল্য",
-  "latex": "I=\\frac{P}{4\\pi r^2},\\quad\\beta=10\\log_{10}\\frac{I}{I_0},\\quad I_0=10^{-12}\\,\\mathrm{W/m^2}",
+  "summary": "I = P/A; β = 10 log₁₀(I/I₀) dB",
+  "latex": "I=\\dfrac{P}{A},\\quad \\beta=10\\log_{10}\\dfrac{I}{I_0}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,33 +16,53 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "I, P, r, W",
-      "meaning": "শব্দের তীব্রতা ও প্রাবল্য",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "I",
+      "meaning": "তীব্রতা",
+      "unit": "W/m²"
+    },
+    {
+      "symbol": "P",
+      "meaning": "ক্ষমতা",
+      "unit": "W"
+    },
+    {
+      "symbol": "\\beta",
+      "meaning": "শব্দের মাত্রা",
+      "unit": "dB"
+    },
+    {
+      "symbol": "I_0",
+      "meaning": "প্রমাণ তীব্রতা 10⁻¹²",
+      "unit": "W/m²"
     }
   ],
   "derivation": {
-    "lead": "তীব্রতা এবং ডেসিবেল প্রাবল্য",
+    "lead": "তীব্রতা∝1/r² (বিন্দু উৎস); dB লগ স্কেল।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "I=\\frac{P}{4\\pi r^2},\\quad\\beta=10\\log_{10}\\frac{I}{I_0},\\quad I_0=10^{-12}\\,\\mathrm{W/m^2}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "তীব্রতা",
+        "latex": "I=P/(4\\pi r^2)",
+        "note": "গোলীয় তরঙ্গ।"
+      },
+      {
+        "title": "ডেসিবেল",
+        "latex": "\\beta=10\\log_{10}(I/I_0)",
+        "note": "I×10 → +10 dB।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "সমসত্ত্ব মাধ্যম"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "শব্দের তীব্রতা ও প্রাবল্য সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: I ∝ 1/r²; প্রতি 10 dB ≈ 10× তীব্রতা।)",
-      "answer": "I=\\frac{P}{4\\pi r^2},\\quad\\beta=10\\log_{10}\\frac{I}{I_0},\\quad I_0=10^{-12}\\,\\mathrm{W/m^2}"
+      "examType": "HSC",
+      "question": "I দশগুণ হলে β কত বাড়ে?",
+      "answer": "+10\\,\\mathrm{dB}"
     }
   ],
   "memorize": {
-    "trick": "I ∝ 1/r²; প্রতি 10 dB ≈ 10× তীব্রতা।",
+    "trick": "β=10 log(I/I₀); ×10 তীব্রতা = +10 dB।",
     "steps": []
   },
   "subjects": [

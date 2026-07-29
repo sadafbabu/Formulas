@@ -3,8 +3,8 @@
   "chapter": "measurement",
   "title": "Principle of Homogeneity",
   "titleBn": "মাত্রিক সমসত্ত্বতার নীতি",
-  "summary": "প্রতিটি পদ একই মাত্রা",
-  "latex": "[\\text{LHS}]=[\\text{RHS}]\\quad\\text{(each term)}",
+  "summary": "সমীকরণের দুই পাশের মাত্রা সমান হতে হবে",
+  "latex": "[\\mathrm{LHS}]=[\\mathrm{RHS}]\\ \\text{(মাত্রিক সমতা)}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,41 +16,39 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "L, H, S, R",
-      "meaning": "মাত্রিক সমসত্ত্বতার নীতি",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "[\\mathrm{LHS}], [\\mathrm{RHS}]",
+      "meaning": "বাম ও ডান পাশের মাত্রা",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "যোগ/বিয়োগ শুধু একই মাত্রার রাশিতে; সমীকরণ যাচাইয়ে ব্যবহার।",
+    "lead": "শুধু সমমাত্রিক রাশি যোগ/সমান হয়।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "[\\text{LHS}]=[\\text{RHS}]\\quad\\text{(each term)}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "নীতি",
+        "latex": "[\\mathrm{LHS}]=[\\mathrm{RHS}]",
+        "note": "মাত্রা দিয়ে সূত্র যাচাই ও অজানা সূচক বের করা যায়।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "বিশুদ্ধ সংখ্যা মাত্রাহীন"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "মাত্রিক সমসত্ত্বতার নীতি সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: যোগ/বিয়োগ শুধু একই মাত্রার রাশিতে; সমীকরণ যাচাইয়ে ব্যবহার।)",
-      "answer": "[\\text{LHS}]=[\\text{RHS}]\\quad\\text{(each term)}"
+      "examType": "HSC",
+      "question": "v=u+at মাত্রিকভাবে সঠিক কেন?",
+      "answer": "[v]=[u]=[at]=[LT^{-1}]"
     }
   ],
   "memorize": {
-    "trick": "যোগ/বিয়োগ শুধু একই মাত্রার রাশিতে; সমীকরণ যাচাইয়ে ব্যবহার।",
+    "trick": "দুই পাশের মাত্রা মেলাতে হবে।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
   "related": [
-    "dimensional-formula",
-    "percentage-error",
-    "error-propagation-product"
+    "dimensional-formula"
   ]
 }

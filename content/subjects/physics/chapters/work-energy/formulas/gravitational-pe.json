@@ -3,8 +3,8 @@
   "chapter": "work-energy",
   "title": "Gravitational Potential Energy",
   "titleBn": "অভিকর্ষজ বিভব শক্তি",
-  "summary": "পৃষ্ঠের কাছে mgh এবং অভিকর্ষের কাজ",
-  "latex": "U=mgh,\\quad W_{g}=-\\Delta U=mg(h_i-h_f)",
+  "summary": "U = −GMm/r; পৃষ্ঠের কাছে mgh",
+  "latex": "U=-\\dfrac{GMm}{r},\\quad \\Delta U\\approx mgh\\ (h\\ll R)",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,33 +16,48 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "U, m, g, h",
-      "meaning": "অভিকর্ষজ বিভব শক্তি",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "U",
+      "meaning": "মহাকর্ষ বিভব শক্তি",
+      "unit": "J"
+    },
+    {
+      "symbol": "M, m",
+      "meaning": "দুই ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "r",
+      "meaning": "কেন্দ্রগুলোর দূরত্ব",
+      "unit": "m"
     }
   ],
   "derivation": {
-    "lead": "পৃষ্ঠের কাছে mgh এবং অভিকর্ষের কাজ",
+    "lead": "∞-এ U=0; আকর্ষণে U ঋণাত্মক।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "U=mgh,\\quad W_{g}=-\\Delta U=mg(h_i-h_f)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সাধারণ",
+        "latex": "U=-GMm/r",
+        "note": "রকেট/কক্ষপথে।"
+      },
+      {
+        "title": "স্থানীয়",
+        "latex": "\\Delta U=mgh",
+        "note": "h≪R।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "বিন্দু/গোলীয় ভর"
     ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "অভিকর্ষজ বিভব শক্তি সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: উপরে উঠলে U বাড়ে; অভিকর্ষের কাজ = −ΔU।)",
-      "answer": "U=mgh,\\quad W_{g}=-\\Delta U=mg(h_i-h_f)"
+      "examType": "HSC",
+      "question": "r→∞ হলে U?",
+      "answer": "U\\to 0"
     }
   ],
   "memorize": {
-    "trick": "উপরে উঠলে U বাড়ে; অভিকর্ষের কাজ = −ΔU।",
+    "trick": "U=−GMm/r; কাছে mgh।",
     "steps": []
   },
   "subjects": [

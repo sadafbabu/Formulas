@@ -3,8 +3,8 @@
   "chapter": "magnetic-current",
   "title": "Helical Path in Magnetic Field",
   "titleBn": "চৌম্বক ক্ষেত্রে হেলিক্স পথ",
-  "summary": "সমান্তরাল উপাংশ অপরিবর্তিত; লম্ব উপাংশে বৃত্ত",
-  "latex": "r=\\dfrac{mv_\\perp}{qB},\\quad T=\\dfrac{2\\pi m}{qB},\\quad p=v_\\parallel T",
+  "summary": "r = mv_⊥/(|q|B); T = 2πm/(|q|B); pitch = v_∥ T",
+  "latex": "r=\\dfrac{mv_\\perp}{|q|B},\\quad T=\\dfrac{2\\pi m}{|q|B},\\quad p=v_\\parallel T",
   "tags": [
     "hsc",
     "eng-admission",
@@ -26,38 +26,48 @@
       "unit": "m/s"
     },
     {
+      "symbol": "|q|",
+      "meaning": "চার্জের মান",
+      "unit": "C"
+    },
+    {
       "symbol": "p",
-      "meaning": "পিচ",
+      "meaning": "হেলিক্সের পিচ",
       "unit": "m"
+    },
+    {
+      "symbol": "T",
+      "meaning": "সাইক্লোট্রন পর্যায়কাল",
+      "unit": "s"
     }
   ],
   "derivation": {
-    "lead": "θ কোণে প্রবেশ করলে পথ হেলিক্স — বৃত্ত + অক্ষীয় গতি।",
+    "lead": "θ কোণে প্রবেশ → পথ হেলিক্স। |q| ব্যবহার করো যাতে চিহ্ন ব্যাসার্ধে না ঢোকে।",
     "steps": [
       {
         "title": "ব্যাসার্ধ",
-        "latex": "r=mv\\sin\\theta/(qB)",
+        "latex": "r=\\dfrac{mv\\sin\\theta}{|q|B}",
         "note": "v_⊥ = v sinθ।"
       },
       {
         "title": "পিচ",
-        "latex": "p=v\\cos\\theta\\cdot T",
-        "note": "এক পাক্কে অক্ষীয় অগ্রগতি।"
+        "latex": "p=v\\cos\\theta\\cdot T=\\dfrac{2\\pi m v_\\parallel}{|q|B}",
+        "note": "এক পাকে অক্ষীয় অগ্রগতি।"
       }
     ],
     "assumptions": [
-      "অভিন্ন B; শুধু চৌম্বক বল"
+      "অভিন্ন B; শুধু চৌম্বক বল; অ-আপেক্ষিক"
     ]
   },
   "questions": [
     {
       "examType": "Admission",
       "question": "B-এর সমান্তরালে চার্জ ছাড়লে পথ কী?",
-      "answer": "\\text{সরলরেখা (F=0)}"
+      "answer": "\\text{সরলরেখা}\\ (F=0)"
     }
   ],
   "memorize": {
-    "trick": "সমান্তরাল → সরল; লম্ব → বৃত্ত; কোণ → হেলিক্স।",
+    "trick": "সমান্তরাল → সরল; লম্ব → বৃত্ত; কোণ → হেলিক্স। r,T-এ |q|।",
     "steps": []
   },
   "subjects": [
