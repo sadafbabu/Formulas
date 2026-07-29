@@ -8,6 +8,7 @@ import {
   type ReactNode,
 } from 'react'
 import { createPortal } from 'react-dom'
+import { useFocusTrap } from '../hooks/useFocusTrap'
 import { readSafeInsets, viewportBox } from '../utils/safeArea'
 
 interface HintPopoverProps {
@@ -28,6 +29,7 @@ export function HintPopover({
   const [open, setOpen] = useState(false)
   const tipId = useId()
   const rootRef = useRef<HTMLDivElement>(null)
+  const btnRef = useRef<HTMLButtonElement>(null)
   const panelRef = useRef<HTMLDivElement>(null)
   const [pos, setPos] = useState({ top: 0, left: 0 })
 
@@ -113,11 +115,14 @@ export function HintPopover({
     }
   }, [open, place])
 
+  useFocusTrap(open, panelRef, btnRef)
+
   const close = () => setOpen(false)
 
   return (
     <div className="hint-wrap" ref={rootRef}>
       <button
+        ref={btnRef}
         type="button"
         className="hint-btn"
         aria-label={label}
@@ -139,6 +144,7 @@ export function HintPopover({
               type="button"
               className="overlay-backdrop"
               aria-label="Close hint"
+              tabIndex={-1}
               onClick={close}
             />
             <div
@@ -146,7 +152,9 @@ export function HintPopover({
               ref={panelRef}
               className={`hint-popover${wide ? ' is-wide' : ''}`}
               role="dialog"
+              aria-modal="true"
               aria-label={title}
+              tabIndex={-1}
               style={{ top: pos.top, left: pos.left }}
               onClick={(e) => e.stopPropagation()}
             >

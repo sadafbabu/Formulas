@@ -96,6 +96,8 @@ export function SampleBookPage() {
           activeTag={activeTag}
           query={query}
           chapterId={chapterId}
+          onClearQuery={() => setQuery('')}
+          onClearTag={() => setTag(null)}
         />
       )}
     </div>

@@ -14,12 +14,16 @@ interface SpreadViewerProps {
   activeTag?: TagId | null
   query?: string
   chapterId?: string
+  onClearQuery?: () => void
+  onClearTag?: () => void
 }
 
 export function SpreadViewer({
   activeTag,
   query = '',
   chapterId = defaultChapterId,
+  onClearQuery,
+  onClearTag,
 }: SpreadViewerProps) {
   const mode = useLayoutMode()
   const isSpread = mode === 'desktop'
@@ -205,6 +209,16 @@ export function SpreadViewer({
         <div className="empty-filter">
           <p>{emptyTitle}</p>
           <span>{emptyHint}</span>
+          {hasQuery && onClearQuery ? (
+            <button type="button" className="filter-tab is-active" onClick={onClearQuery}>
+              সার্চ মুছুন
+            </button>
+          ) : null}
+          {hasTag && !hasQuery && onClearTag ? (
+            <button type="button" className="filter-tab is-active" onClick={onClearTag}>
+              সব tag দেখুন
+            </button>
+          ) : null}
         </div>
       </div>
     )

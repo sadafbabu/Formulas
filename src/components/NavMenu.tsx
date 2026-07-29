@@ -16,6 +16,7 @@ import {
   getChapter,
   subjectsList,
 } from '../data/catalog'
+import { useFocusTrap } from '../hooks/useFocusTrap'
 import { matchFormula } from '../utils/search'
 import { readSafeInsets, viewportBox } from '../utils/safeArea'
 
@@ -39,6 +40,7 @@ export function NavMenu({
   const [params] = useSearchParams()
   const panelId = useId()
   const rootRef = useRef<HTMLDivElement>(null)
+  const fabRef = useRef<HTMLButtonElement>(null)
   const panelRef = useRef<HTMLElement>(null)
   const [pos, setPos] = useState({ top: 56, left: 8 })
   const isCoarsePointer =
@@ -120,6 +122,8 @@ export function NavMenu({
     }
   }, [open])
 
+  useFocusTrap(open, panelRef, fabRef)
+
   const chapter = params.get('chapter') || chapterId
   const activeChapter = getChapter(chapterId || defaultChapterId)
   const activeSubject =
@@ -133,12 +137,15 @@ export function NavMenu({
         type="button"
         className="overlay-backdrop"
         aria-label="Close navigation"
+        tabIndex={-1}
         onClick={close}
       />
       <nav
         id={panelId}
         ref={panelRef}
         className="nav-panel"
+        role="dialog"
+        aria-modal="true"
         aria-label="Book navigation"
         style={{ top: pos.top, left: pos.left }}
       >
@@ -224,6 +231,7 @@ export function NavMenu({
   return (
     <div className={`nav-root${floating ? ' is-floating' : ' is-inline'}`} ref={rootRef}>
       <button
+        ref={fabRef}
         type="button"
         className="nav-fab"
         aria-label="Open navigation"
