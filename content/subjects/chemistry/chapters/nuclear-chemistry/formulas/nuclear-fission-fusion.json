@@ -1,0 +1,50 @@
+{
+  "id": "nuclear-fission-fusion",
+  "chapter": "nuclear-chemistry",
+  "title": "Fission & Fusion",
+  "titleBn": "বিভাজন ও সংযোজন",
+  "summary": "heavy split / light join",
+  "latex": "\\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\text{heavier}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "heavy split / light join",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\text{heavier}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বিভাজন ও সংযোজন এর মূল সূত্রটি লেখো।",
+      "answer": "\\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\text{heavier}"
+    }
+  ],
+  "memorize": {
+    "trick": "বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

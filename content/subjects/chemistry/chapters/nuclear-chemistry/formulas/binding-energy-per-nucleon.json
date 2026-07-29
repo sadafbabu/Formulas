@@ -1,0 +1,50 @@
+{
+  "id": "binding-energy-per-nucleon",
+  "chapter": "nuclear-chemistry",
+  "title": "Binding Energy per Nucleon",
+  "titleBn": "প্রতি নিউক্লিয়নে বন্ধন শক্তি",
+  "summary": "BE/A",
+  "latex": "\\text{BE/nucleon}=\\frac{[Zm_H+(A-Z)m_n-M]c^2}{A}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "BE/A",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{BE/nucleon}=\\frac{[Zm_H+(A-Z)m_n-M]c^2}{A}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "প্রতি নিউক্লিয়নে বন্ধন শক্তি এর মূল সূত্রটি লেখো।",
+      "answer": "\\text{BE/nucleon}=\\frac{[Zm_H+(A-Z)m_n-M]c^2}{A}"
+    }
+  ],
+  "memorize": {
+    "trick": "BE/A বেশি = স্থিতিশীল নিউক্লিয়াস; Fe কাছাকাছি সর্বোচ্চ।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

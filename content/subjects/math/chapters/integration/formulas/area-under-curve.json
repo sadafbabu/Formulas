@@ -1,0 +1,49 @@
+{
+  "id": "area-under-curve",
+  "chapter": "integration",
+  "title": "Area Under Curve",
+  "titleBn": "বক্ররেখার নিচের ক্ষেত্রফল",
+  "summary": "A=∫y dx",
+  "latex": "A=\\int_a^b y\\,dx=\\int_a^b f(x)\\,dx",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "A=∫y dx",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "A=\\int_a^b y\\,dx=\\int_a^b f(x)\\,dx",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বক্ররেখার নিচের ক্ষেত্রফল এর মূল সূত্রটি লেখো।",
+      "answer": "A=\\int_a^b y\\,dx=\\int_a^b f(x)\\,dx"
+    }
+  ],
+  "memorize": {
+    "trick": "x-অক্ষের উপরের ক্ষেত্র ধনাত্মক।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

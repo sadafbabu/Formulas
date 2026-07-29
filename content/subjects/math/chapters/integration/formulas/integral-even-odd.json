@@ -1,0 +1,49 @@
+{
+  "id": "integral-even-odd",
+  "chapter": "integration",
+  "title": "Even–Odd Integrals",
+  "titleBn": "জোড়–বিজোড় যোগজ",
+  "summary": "symmetric limits",
+  "latex": "\\int_{-a}^{a}f_{\\text{even}}=2\\int_0^a f,\\quad \\int_{-a}^{a}f_{\\text{odd}}=0",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "symmetric limits",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\int_{-a}^{a}f_{\\text{even}}=2\\int_0^a f,\\quad \\int_{-a}^{a}f_{\\text{odd}}=0",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "জোড়–বিজোড় যোগজ এর মূল সূত্রটি লেখো।",
+      "answer": "\\int_{-a}^{a}f_{\\text{even}}=2\\int_0^a f,\\quad \\int_{-a}^{a}f_{\\text{odd}}=0"
+    }
+  ],
+  "memorize": {
+    "trick": "বিজোড় ফাংশন সমমিত সীমায় শূন্য।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

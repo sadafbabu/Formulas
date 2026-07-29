@@ -1,0 +1,49 @@
+{
+  "id": "integral-by-parts-ilate",
+  "chapter": "integration",
+  "title": "Integration by Parts",
+  "titleBn": "অংশীয় যোগজীকরণ",
+  "summary": "∫u dv",
+  "latex": "\\int u\\,dv=uv-\\int v\\,du",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "∫u dv",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\int u\\,dv=uv-\\int v\\,du",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অংশীয় যোগজীকরণ এর মূল সূত্রটি লেখো।",
+      "answer": "\\int u\\,dv=uv-\\int v\\,du"
+    }
+  ],
+  "memorize": {
+    "trick": "LIATE: Log → Inverse → Algebraic → Trig → Exp।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

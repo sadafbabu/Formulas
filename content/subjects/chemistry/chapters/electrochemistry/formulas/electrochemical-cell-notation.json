@@ -1,0 +1,50 @@
+{
+  "id": "electrochemical-cell-notation",
+  "chapter": "electrochemistry",
+  "title": "Cell Notation",
+  "titleBn": "কোষ প্রতীক",
+  "summary": "anode|anode||cathode|cathode",
+  "latex": "\\text{Zn}|\\text{Zn}^{2+}\\|\\text{Cu}^{2+}|\\text{Cu}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 140,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "anode|anode||cathode|cathode",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{Zn}|\\text{Zn}^{2+}\\|\\text{Cu}^{2+}|\\text{Cu}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কোষ প্রতীক এর মূল সূত্রটি লেখো।",
+      "answer": "\\text{Zn}|\\text{Zn}^{2+}\\|\\text{Cu}^{2+}|\\text{Cu}"
+    }
+  ],
+  "memorize": {
+    "trick": "বামে জারণ (অ্যানোড); ডানে বিজারণ (ক্যাথোড)।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ka-kb-relation",
+  "chapter": "chemical-equilibrium",
+  "title": "Ka × Kb = Kw",
+  "titleBn": "Ka·Kb=Kw",
+  "summary": "conjugate pair",
+  "latex": "K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 190,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "conjugate pair",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "Ka·Kb=Kw এর মূল সূত্রটি লেখো।",
+      "answer": "K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})"
+    }
+  ],
+  "memorize": {
+    "trick": "কনজুগেট জোড়ায় Ka×Kb=Kw।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": "alpha-beta-gamma-decay",
+  "chapter": "nuclear-chemistry",
+  "title": "α β γ Decay",
+  "titleBn": "α β γ ক্ষয়",
+  "summary": "emission changes",
+  "latex": "\\alpha:\\,A\\!-\\!4,Z\\!-\\!2;\\quad \\beta^-:\\,Z\\!+\\!1;\\quad \\gamma:\\ \\text{no }A,Z\\text{ change}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "emission changes",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\alpha:\\,A\\!-\\!4,Z\\!-\\!2;\\quad \\beta^-:\\,Z\\!+\\!1;\\quad \\gamma:\\ \\text{no }A,Z\\text{ change}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "α β γ ক্ষয় এর মূল সূত্রটি লেখো।",
+      "answer": "\\alpha:\\,A\\!-\\!4,Z\\!-\\!2;\\quad \\beta^-:\\,Z\\!+\\!1;\\quad \\gamma:\\ \\text{no }A,Z\\text{ change}"
+    }
+  ],
+  "memorize": {
+    "trick": "α = He নিউক্লিয়াস; β⁻ = নিউট্রন→প্রোটন; γ = শুধু শক্তি।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

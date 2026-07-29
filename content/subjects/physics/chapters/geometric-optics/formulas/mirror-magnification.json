@@ -1,0 +1,50 @@
+{
+  "id": "mirror-magnification",
+  "chapter": "geometric-optics",
+  "title": "Magnification",
+  "titleBn": "বিবর্ধন",
+  "summary": "m=h'/h=−v/u",
+  "latex": "m=\\frac{h'}{h}=-\\frac{v}{u}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 150,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "m=h'/h=−v/u",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "m=\\frac{h'}{h}=-\\frac{v}{u}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বিবর্ধন এর মূল সূত্রটি লেখো।",
+      "answer": "m=\\frac{h'}{h}=-\\frac{v}{u}"
+    }
+  ],
+  "memorize": {
+    "trick": "ঋণাত্মক m = উল্টো প্রতিবিম্ব।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

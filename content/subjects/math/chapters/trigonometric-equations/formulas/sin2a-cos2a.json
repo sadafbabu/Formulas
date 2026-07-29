@@ -1,0 +1,49 @@
+{
+  "id": "sin2a-cos2a",
+  "chapter": "trigonometric-equations",
+  "title": "Double Angle Formulas",
+  "titleBn": "দ্বিগুণ কোণ সূত্র",
+  "summary": "sin2A, cos2A",
+  "latex": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 180,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "sin2A, cos2A",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "দ্বিগুণ কোণ সূত্র এর মূল সূত্রটি লেখো।",
+      "answer": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A"
+    }
+  ],
+  "memorize": {
+    "trick": "cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

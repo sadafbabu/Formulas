@@ -1,0 +1,50 @@
+{
+  "id": "half-life-chem",
+  "chapter": "nuclear-chemistry",
+  "title": "Half-Life",
+  "titleBn": "অর্ধায়ু",
+  "summary": "t½=ln2/λ",
+  "latex": "t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "t½=ln2/λ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অর্ধায়ু এর মূল সূত্রটি লেখো।",
+      "answer": "t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}"
+    }
+  ],
+  "memorize": {
+    "trick": "অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

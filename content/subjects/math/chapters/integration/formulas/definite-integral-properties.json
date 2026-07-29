@@ -1,0 +1,49 @@
+{
+  "id": "definite-integral-properties",
+  "chapter": "integration",
+  "title": "Definite Integral Properties",
+  "titleBn": "নির্দিষ্ট যোগজের ধর্ম",
+  "summary": "bounds swap",
+  "latex": "\\int_a^b f=-\\int_b^a f,\\quad \\int_a^a f=0,\\quad \\int_a^b f=\\int_a^c f+\\int_c^b f",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "bounds swap",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\int_a^b f=-\\int_b^a f,\\quad \\int_a^a f=0,\\quad \\int_a^b f=\\int_a^c f+\\int_c^b f",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "নির্দিষ্ট যোগজের ধর্ম এর মূল সূত্রটি লেখো।",
+      "answer": "\\int_a^b f=-\\int_b^a f,\\quad \\int_a^a f=0,\\quad \\int_a^b f=\\int_a^c f+\\int_c^b f"
+    }
+  ],
+  "memorize": {
+    "trick": "সীমা উল্টালে ঋণাত্মক; মাঝের বিন্দু ভাঙা যায়।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

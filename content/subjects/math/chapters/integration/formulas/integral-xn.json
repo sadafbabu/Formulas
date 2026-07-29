@@ -1,0 +1,49 @@
+{
+  "id": "integral-xn",
+  "chapter": "integration",
+  "title": "Power Integral",
+  "titleBn": "ঘাতের যোগজ",
+  "summary": "∫xⁿ dx",
+  "latex": "\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C\\quad(n\\ne-1)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "∫xⁿ dx",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C\\quad(n\\ne-1)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ঘাতের যোগজ এর মূল সূত্রটি লেখো।",
+      "answer": "\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C\\quad(n\\ne-1)"
+    }
+  ],
+  "memorize": {
+    "trick": "ঘাত এক বাড়াও, নতুন ঘাত দিয়ে ভাগ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

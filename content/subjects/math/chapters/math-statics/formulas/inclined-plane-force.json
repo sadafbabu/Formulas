@@ -1,0 +1,49 @@
+{
+  "id": "inclined-plane-force",
+  "chapter": "math-statics",
+  "title": "Force on Inclined Plane",
+  "titleBn": "ঢালু তলে বল",
+  "summary": "mg sinθ, mg cosθ",
+  "latex": "F_{\\parallel}=mg\\sin\\theta,\\quad N=mg\\cos\\theta",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "mg sinθ, mg cosθ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "F_{\\parallel}=mg\\sin\\theta,\\quad N=mg\\cos\\theta",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ঢালু তলে বল এর মূল সূত্রটি লেখো।",
+      "answer": "F_{\\parallel}=mg\\sin\\theta,\\quad N=mg\\cos\\theta"
+    }
+  ],
+  "memorize": {
+    "trick": "সমান্তরাল = mg sinθ; লম্ব = mg cosθ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

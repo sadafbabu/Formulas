@@ -66,6 +66,7 @@ const chapterList: Omit<ChapterMeta, 'formulaCount' | 'isReady'>[] = [
   { id: 'electrochemistry', slug: 'electrochemistry', name: 'Electrochemistry', nameBn: 'তড়িৎ রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 5 },
   { id: 'coordination-chemistry', slug: 'coordination-chemistry', name: 'Coordination Chemistry', nameBn: 'সমন্বয় রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 6 },
   { id: 'industrial-chemistry', slug: 'industrial-chemistry', name: 'Industrial Chemistry', nameBn: 'শিল্প রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 7 },
+  { id: 'nuclear-chemistry', slug: 'nuclear-chemistry', name: 'Nuclear Chemistry', nameBn: 'নিউক্লীয় রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 8 },
 
   // Higher Math 1st Paper
   { id: 'sets-functions', slug: 'sets-functions', name: 'Sets & Functions', nameBn: 'সেট ও ফাংশন', subjectId: 'math', paperId: '1st-paper', order: 1 },
@@ -74,9 +75,10 @@ const chapterList: Omit<ChapterMeta, 'formulaCount' | 'isReady'>[] = [
   { id: 'circle-geometry', slug: 'circle-geometry', name: 'Circle', nameBn: 'বৃত্ত', subjectId: 'math', paperId: '1st-paper', order: 4 },
   { id: 'sequences-series', slug: 'sequences-series', name: 'Sequences & Series', nameBn: 'অনুক্রম ও ধারা', subjectId: 'math', paperId: '1st-paper', order: 5 },
   { id: 'differentiation', slug: 'differentiation', name: 'Differentiation', nameBn: 'অন্তরীকরণ', subjectId: 'math', paperId: '1st-paper', order: 8 },
-  { id: 'calculus', slug: 'calculus', name: 'Calculus & Integration', nameBn: 'ক্যালকুলাস ও যোগজীকরণ', subjectId: 'math', paperId: '1st-paper', order: 9 },
-  { id: 'math-statics', slug: 'math-statics', name: 'Statics (Math)', nameBn: 'স্থিতিবিদ্যা (গণিত)', subjectId: 'math', paperId: '1st-paper', order: 10 },
-  { id: 'math-dynamics', slug: 'math-dynamics', name: 'Dynamics (Math)', nameBn: 'গতিবিদ্যা (গণিত)', subjectId: 'math', paperId: '1st-paper', order: 11 },
+  { id: 'integration', slug: 'integration', name: 'Integration', nameBn: 'যোগজীকরণ', subjectId: 'math', paperId: '1st-paper', order: 9 },
+  { id: 'calculus', slug: 'calculus', name: 'Calculus Applications', nameBn: 'ক্যালকুলাস প্রয়োগ', subjectId: 'math', paperId: '1st-paper', order: 10 },
+  { id: 'math-statics', slug: 'math-statics', name: 'Statics (Math)', nameBn: 'স্থিতিবিদ্যা (গণিত)', subjectId: 'math', paperId: '1st-paper', order: 11 },
+  { id: 'math-dynamics', slug: 'math-dynamics', name: 'Dynamics (Math)', nameBn: 'গতিবিদ্যা (গণিত)', subjectId: 'math', paperId: '1st-paper', order: 12 },
 
   // Higher Math 2nd Paper
   { id: 'complex-numbers', slug: 'complex-numbers', name: 'Complex Numbers', nameBn: 'জটিল সংখ্যা', subjectId: 'math', paperId: '2nd-paper', order: 3 },
