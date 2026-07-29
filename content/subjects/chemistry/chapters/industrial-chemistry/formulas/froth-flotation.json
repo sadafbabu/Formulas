@@ -1,0 +1,54 @@
+{
+  "id": "froth-flotation",
+  "chapter": "industrial-chemistry",
+  "title": "Froth Flotation",
+  "titleBn": "ফেন ভাসান পদ্ধতি",
+  "summary": "sulphide ore concentration",
+  "latex": "\\text{sulphide ore particles attach to froth; gangue sinks}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "sulphide ore particles attach to froth; gangue sinks",
+      "meaning": "sulphide ore concentration",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সালফাইড আকরিক নির্বাচনী ভাসান।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{sulphide ore particles attach to froth; gangue sinks}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ফেন ভাসান পদ্ধতি এর সূত্রটি লেখো। (ইঙ্গিত: সালফাইড আকরিক নির্বাচনী ভাসান।)",
+      "answer": "\\text{sulphide ore particles attach to froth; gangue sinks}"
+    }
+  ],
+  "memorize": {
+    "trick": "সালফাইড আকরিক নির্বাচনী ভাসান।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "cement-composition",
+    "zone-refining",
+    "glass-composition"
+  ]
+}

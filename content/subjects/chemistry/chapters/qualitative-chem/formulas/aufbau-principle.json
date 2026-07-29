@@ -1,0 +1,54 @@
+{
+  "id": "aufbau-principle",
+  "chapter": "qualitative-chem",
+  "title": "Aufbau Principle",
+  "titleBn": "আউফবাউ নীতি",
+  "summary": "fill lowest energy first",
+  "latex": "\\text{electrons fill orbitals in order of increasing energy (}n+\\ell\\text{ rule)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 210,
+  "symbols": [
+    {
+      "symbol": "electrons fill orbitals in order of increasing energy (, n, ell, rule)",
+      "meaning": "fill lowest energy first",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "n+ℓ ছোট আগে; সমান হলে ছোট n আগে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{electrons fill orbitals in order of increasing energy (}n+\\ell\\text{ rule)}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আউফবাউ নীতি এর সূত্রটি লেখো। (ইঙ্গিত: n+ℓ ছোট আগে; সমান হলে ছোট n আগে।)",
+      "answer": "\\text{electrons fill orbitals in order of increasing energy (}n+\\ell\\text{ rule)}"
+    }
+  ],
+  "memorize": {
+    "trick": "n+ℓ ছোট আগে; সমান হলে ছোট n আগে।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "iodoform-test",
+    "hund-rule",
+    "gas-density-formula"
+  ]
+}

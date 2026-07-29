@@ -1,0 +1,53 @@
+{
+  "id": "peptide-bond",
+  "chapter": "organic-chem",
+  "title": "Peptide Bond",
+  "titleBn": "পেপটাইড বন্ধন",
+  "summary": "amide link",
+  "latex": "\\mathrm{{-CO{-}NH{-}}}\\ \\text{(peptide/amide bond)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 280,
+  "symbols": [
+    {
+      "symbol": "{-CO{-, N, H, (peptide/amide bond)",
+      "meaning": "amide link",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "অ্যামিনো অ্যাসিড জোড়ায় –CONH–।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{{-CO{-}NH{-}}}\\ \\text{(peptide/amide bond)}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পেপটাইড বন্ধন এর সূত্রটি লেখো। (ইঙ্গিত: অ্যামিনো অ্যাসিড জোড়ায় –CONH–।)",
+      "answer": "\\mathrm{{-CO{-}NH{-}}}\\ \\text{(peptide/amide bond)}"
+    }
+  ],
+  "memorize": {
+    "trick": "অ্যামিনো অ্যাসিড জোড়ায় –CONH–।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "glucose-open-cyclic",
+    "amino-acid-zwitterion"
+  ]
+}

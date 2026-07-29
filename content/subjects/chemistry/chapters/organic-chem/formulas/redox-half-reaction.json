@@ -1,0 +1,54 @@
+{
+  "id": "redox-half-reaction",
+  "chapter": "organic-chem",
+  "title": "Organic Redox Idea",
+  "titleBn": "জৈব জারণ–বিজারণ ধারণা",
+  "summary": "gain/loss of H/O",
+  "latex": "\\text{oxidation: gain O / lose H};\\quad \\text{reduction: gain H / lose O}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 250,
+  "symbols": [
+    {
+      "symbol": "oxidation: gain O / lose H, reduction: gain H / lose O",
+      "meaning": "gain/loss of H/O",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "অ্যালকোহল→অ্যালডিহাইড→অ্যাসিড = জারণ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{oxidation: gain O / lose H};\\quad \\text{reduction: gain H / lose O}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "জৈব জারণ–বিজারণ ধারণা এর সূত্রটি লেখো। (ইঙ্গিত: অ্যালকোহল→অ্যালডিহাইড→অ্যাসিড = জারণ।)",
+      "answer": "\\text{oxidation: gain O / lose H};\\quad \\text{reduction: gain H / lose O}"
+    }
+  ],
+  "memorize": {
+    "trick": "অ্যালকোহল→অ্যালডিহাইড→অ্যাসিড = জারণ।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "elimination-e1",
+    "amino-acid-zwitterion",
+    "anti-markovnikov-rule"
+  ]
+}

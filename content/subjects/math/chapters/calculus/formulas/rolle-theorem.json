@@ -1,0 +1,53 @@
+{
+  "id": "rolle-theorem",
+  "chapter": "calculus",
+  "title": "Rolle's Theorem",
+  "titleBn": "রোলের উপপাদ্য",
+  "summary": "f(a)=f(b) ⇒ f'(c)=0",
+  "latex": "f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 180,
+  "symbols": [
+    {
+      "symbol": "f, a, b, Rightarrow",
+      "meaning": "f(a)=f(b) ⇒ f'(c)=0",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "মধ্যমান উপপাদ্যের বিশেষ রূপ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "রোলের উপপাদ্য এর সূত্রটি লেখো। (ইঙ্গিত: মধ্যমান উপপাদ্যের বিশেষ রূপ।)",
+      "answer": "f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0"
+    }
+  ],
+  "memorize": {
+    "trick": "মধ্যমান উপপাদ্যের বিশেষ রূপ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "mean-value-theorem",
+    "trapezoidal-rule",
+    "partial-fractions"
+  ]
+}

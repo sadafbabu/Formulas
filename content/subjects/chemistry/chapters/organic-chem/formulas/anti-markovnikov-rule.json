@@ -1,0 +1,54 @@
+{
+  "id": "anti-markovnikov-rule",
+  "chapter": "organic-chem",
+  "title": "Anti-Markovnikov Addition",
+  "titleBn": "অ্যান্টি-মার্কোভনিকভ যোজন",
+  "summary": "HBr + peroxide",
+  "latex": "\\mathrm{RCH=CH_2}+\\mathrm{HBr}\\xrightarrow{\\mathrm{ROOR}}\\mathrm{RCH_2CH_2Br}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 230,
+  "symbols": [
+    {
+      "symbol": "RCH=CH_2, HBr, xrightarrow, ROOR",
+      "meaning": "HBr + peroxide",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{RCH=CH_2}+\\mathrm{HBr}\\xrightarrow{\\mathrm{ROOR}}\\mathrm{RCH_2CH_2Br}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অ্যান্টি-মার্কোভনিকভ যোজন এর সূত্রটি লেখো। (ইঙ্গিত: পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।)",
+      "answer": "\\mathrm{RCH=CH_2}+\\mathrm{HBr}\\xrightarrow{\\mathrm{ROOR}}\\mathrm{RCH_2CH_2Br}"
+    }
+  ],
+  "memorize": {
+    "trick": "পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "williamson-ether",
+    "elimination-e1",
+    "hoffmann-bromamide"
+  ]
+}

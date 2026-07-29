@@ -1,0 +1,52 @@
+{
+  "id": "cauchy-schwarz",
+  "chapter": "sequences-series",
+  "title": "Cauchy–Schwarz Inequality",
+  "titleBn": "কোশি–শ্বারজ অসমতা",
+  "summary": "(Σa²)(Σb²)≥(Σab)²",
+  "latex": "\\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "Big, sum, a, i",
+      "meaning": "(Σa²)(Σb²)≥(Σab)²",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সমানতা যখন a ও b সমানুপাতিক।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কোশি–শ্বারজ অসমতা এর সূত্রটি লেখো। (ইঙ্গিত: সমানতা যখন a ও b সমানুপাতিক।)",
+      "answer": "\\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2"
+    }
+  ],
+  "memorize": {
+    "trick": "সমানতা যখন a ও b সমানুপাতিক।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "mathematical-induction",
+    "arithmetic-mean-insert"
+  ]
+}

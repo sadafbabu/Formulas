@@ -1,0 +1,52 @@
+{
+  "id": "separable-differential-eq",
+  "chapter": "calculus",
+  "title": "Separable Differential Equation",
+  "titleBn": "বিভাজ্য অন্তরক সমীকরণ",
+  "summary": "dy/dx = g(x)h(y)",
+  "latex": "\\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 190,
+  "symbols": [
+    {
+      "symbol": "d, y, x, g",
+      "meaning": "dy/dx = g(x)h(y)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "x ও y আলাদা করে যোগজ নাও।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বিভাজ্য অন্তরক সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: x ও y আলাদা করে যোগজ নাও।)",
+      "answer": "\\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx"
+    }
+  ],
+  "memorize": {
+    "trick": "x ও y আলাদা করে যোগজ নাও।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "trapezoidal-rule",
+    "rolle-theorem"
+  ]
+}

@@ -4,6 +4,7 @@
   "summary": "অণুর দুই সংঘর্ষের মধ্যবর্তী গড় দূরত্ব",
   "latex": "\\lambda = \\frac{1}{\\sqrt{2}\\,\\pi d^2 n}, \\quad \\lambda = \\frac{kT}{\\sqrt{2}\\,\\pi d^2 P}",
   "tags": [
+    "hsc",
     "eng-admission",
     "varsity",
     "1-star"

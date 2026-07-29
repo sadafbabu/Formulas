@@ -1,0 +1,53 @@
+{
+  "id": "logic-xor-gate",
+  "chapter": "semiconductor",
+  "title": "XOR Gate",
+  "titleBn": "XOR গেট",
+  "summary": "A⊕B",
+  "latex": "A\\oplus B=A\\overline{B}+\\overline{A}B",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "A, oplus, B, overline",
+      "meaning": "A⊕B",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "A⊕B — একই হলে ০; ভিন্ন হলে ১।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "A\\oplus B=A\\overline{B}+\\overline{A}B",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "XOR গেট এর সূত্রটি লেখো। (ইঙ্গিত: একই হলে ০; ভিন্ন হলে ১।)",
+      "answer": "A\\oplus B=A\\overline{B}+\\overline{A}B"
+    }
+  ],
+  "memorize": {
+    "trick": "একই হলে ০; ভিন্ন হলে ১।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "logic-nand-nor",
+    "led-principle"
+  ]
+}

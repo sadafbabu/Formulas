@@ -1,0 +1,54 @@
+{
+  "id": "glucose-open-cyclic",
+  "chapter": "organic-chem",
+  "title": "Glucose Open ↔ Cyclic",
+  "titleBn": "গ্লুকোজ মুক্ত ও চক্রাকার রূপ",
+  "summary": "pyranose/furanose",
+  "latex": "\\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 270,
+  "symbols": [
+    {
+      "symbol": "open-chain aldehyde, rightleftharpoons, cyclic hemiacetal (pyranose)",
+      "meaning": "pyranose/furanose",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "D-গ্লুকোজ মূলত পাইরানোজ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "গ্লুকোজ মুক্ত ও চক্রাকার রূপ এর সূত্রটি লেখো। (ইঙ্গিত: D-গ্লুকোজ মূলত পাইরানোজ।)",
+      "answer": "\\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}"
+    }
+  ],
+  "memorize": {
+    "trick": "D-গ্লুকোজ মূলত পাইরানোজ।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "amino-acid-zwitterion",
+    "peptide-bond",
+    "redox-half-reaction"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "amino-acid-zwitterion",
+  "chapter": "organic-chem",
+  "title": "Amino Acid Zwitterion",
+  "titleBn": "অ্যামিনো অ্যাসিড জুইটারআয়ন",
+  "summary": "⁺H₃N–CHR–COO⁻",
+  "latex": "\\mathrm{H_2N{-}CHR{-}COOH}\\rightleftharpoons \\mathrm{^{+}H_3N{-}CHR{-}COO^{-}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 260,
+  "symbols": [
+    {
+      "symbol": "H_2N{-, C, H, R",
+      "meaning": "⁺H₃N–CHR–COO⁻",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "আইসোইলেকট্রিক বিন্দুতে জুইটারআয়ন।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{H_2N{-}CHR{-}COOH}\\rightleftharpoons \\mathrm{^{+}H_3N{-}CHR{-}COO^{-}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অ্যামিনো অ্যাসিড জুইটারআয়ন এর সূত্রটি লেখো। (ইঙ্গিত: আইসোইলেকট্রিক বিন্দুতে জুইটারআয়ন।)",
+      "answer": "\\mathrm{H_2N{-}CHR{-}COOH}\\rightleftharpoons \\mathrm{^{+}H_3N{-}CHR{-}COO^{-}}"
+    }
+  ],
+  "memorize": {
+    "trick": "আইসোইলেকট্রিক বিন্দুতে জুইটারআয়ন।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "redox-half-reaction",
+    "glucose-open-cyclic",
+    "elimination-e1"
+  ]
+}

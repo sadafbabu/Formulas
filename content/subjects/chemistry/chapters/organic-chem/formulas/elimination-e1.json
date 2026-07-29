@@ -1,0 +1,54 @@
+{
+  "id": "elimination-e1",
+  "chapter": "organic-chem",
+  "title": "E1 Elimination",
+  "titleBn": "E1 বিলোপন",
+  "summary": "unimolecular elimination",
+  "latex": "\\text{E1: two-step, carbocation intermediate, rate}=k[\\mathrm{RX}]",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 240,
+  "symbols": [
+    {
+      "symbol": "E1: two-step, carbocation intermediate, rate, k, RX",
+      "meaning": "unimolecular elimination",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{E1: two-step, carbocation intermediate, rate}=k[\\mathrm{RX}]",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "E1 বিলোপন এর সূত্রটি লেখো। (ইঙ্গিত: E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।)",
+      "answer": "\\text{E1: two-step, carbocation intermediate, rate}=k[\\mathrm{RX}]"
+    }
+  ],
+  "memorize": {
+    "trick": "E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "anti-markovnikov-rule",
+    "redox-half-reaction",
+    "williamson-ether"
+  ]
+}

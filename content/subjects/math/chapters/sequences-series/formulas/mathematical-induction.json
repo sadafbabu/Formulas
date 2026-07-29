@@ -1,0 +1,53 @@
+{
+  "id": "mathematical-induction",
+  "chapter": "sequences-series",
+  "title": "Mathematical Induction",
+  "titleBn": "গাণিতিক আরোহ পদ্ধতি",
+  "summary": "base + inductive step",
+  "latex": "P(1)\\text{ true and }P(k)\\Rightarrow P(k+1)\\Rightarrow P(n)\\ \\forall n\\in\\mathbb{N}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "P, true and, k, Rightarrow",
+      "meaning": "base + inductive step",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P(1)\\text{ true and }P(k)\\Rightarrow P(k+1)\\Rightarrow P(n)\\ \\forall n\\in\\mathbb{N}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "গাণিতিক আরোহ পদ্ধতি এর সূত্রটি লেখো। (ইঙ্গিত: ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।)",
+      "answer": "P(1)\\text{ true and }P(k)\\Rightarrow P(k+1)\\Rightarrow P(n)\\ \\forall n\\in\\mathbb{N}"
+    }
+  ],
+  "memorize": {
+    "trick": "ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "arithmetic-mean-insert",
+    "cauchy-schwarz",
+    "sum-natural-squares-cubes"
+  ]
+}

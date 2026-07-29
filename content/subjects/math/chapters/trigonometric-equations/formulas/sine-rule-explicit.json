@@ -1,0 +1,53 @@
+{
+  "id": "sine-rule-explicit",
+  "chapter": "trigonometric-equations",
+  "title": "Law of Sines",
+  "titleBn": "সাইন সূত্র",
+  "summary": "a/sinA = 2R",
+  "latex": "\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 220,
+  "symbols": [
+    {
+      "symbol": "a, A, b, B",
+      "meaning": "a/sinA = 2R",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "a/sinA = 2R — ২R = পরিবৃত্ত ব্যাস।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সাইন সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: ২R = পরিবৃত্ত ব্যাস।)",
+      "answer": "\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R"
+    }
+  ],
+  "memorize": {
+    "trick": "২R = পরিবৃত্ত ব্যাস।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "height-distance-trig",
+    "cosine-rule-explicit",
+    "sin3a-cos3a"
+  ]
+}

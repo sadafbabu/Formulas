@@ -1,0 +1,52 @@
+{
+  "id": "cosine-rule-explicit",
+  "chapter": "trigonometric-equations",
+  "title": "Law of Cosines",
+  "titleBn": "কসাইন সূত্র",
+  "summary": "c²=a²+b²−2ab cosC",
+  "latex": "c^2=a^2+b^2-2ab\\cos C",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 230,
+  "symbols": [
+    {
+      "symbol": "c, a, b, C",
+      "meaning": "c²=a²+b²−2ab cosC",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "কোণ জানা থাকলে তৃতীয় বাহু।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "c^2=a^2+b^2-2ab\\cos C",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কসাইন সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: কোণ জানা থাকলে তৃতীয় বাহু।)",
+      "answer": "c^2=a^2+b^2-2ab\\cos C"
+    }
+  ],
+  "memorize": {
+    "trick": "কোণ জানা থাকলে তৃতীয় বাহু।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "sine-rule-explicit",
+    "height-distance-trig"
+  ]
+}

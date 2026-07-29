@@ -1,0 +1,54 @@
+{
+  "id": "hund-rule",
+  "chapter": "qualitative-chem",
+  "title": "Hund's Rule",
+  "titleBn": "হান্ডের নিয়ম",
+  "summary": "maximize unpaired spins",
+  "latex": "\\text{degenerate orbitals: maximize unpaired electrons with parallel spin}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 220,
+  "symbols": [
+    {
+      "symbol": "degenerate orbitals: maximize unpaired electrons with parallel spin",
+      "meaning": "maximize unpaired spins",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "একই শক্তির অরবিটালে আগে একক ইলেকট্রন।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{degenerate orbitals: maximize unpaired electrons with parallel spin}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "হান্ডের নিয়ম এর সূত্রটি লেখো। (ইঙ্গিত: একই শক্তির অরবিটালে আগে একক ইলেকট্রন।)",
+      "answer": "\\text{degenerate orbitals: maximize unpaired electrons with parallel spin}"
+    }
+  ],
+  "memorize": {
+    "trick": "একই শক্তির অরবিটালে আগে একক ইলেকট্রন।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "aufbau-principle",
+    "pauli-exclusion",
+    "iodoform-test"
+  ]
+}

@@ -4,6 +4,7 @@
   "summary": "গ্যাস অণুর বেগ বিন্যাস ও সর্বোচ্চ সম্ভাব্য বেগ",
   "latex": "f(v) = 4\\pi\\left(\\frac{m}{2\\pi kT}\\right)^{3/2} v^2 e^{-mv^2/2kT}, \\quad v_p = \\sqrt{\\frac{2kT}{m}}",
   "tags": [
+    "hsc",
     "eng-admission",
     "varsity",
     "2-star"

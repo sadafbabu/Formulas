@@ -1,0 +1,53 @@
+{
+  "id": "electrolytic-refining",
+  "chapter": "industrial-chemistry",
+  "title": "Electrolytic Refining",
+  "titleBn": "তড়িৎ পরিশোধন",
+  "summary": "anode mud",
+  "latex": "\\text{impure metal anode}\\\\rightarrow\\text{pure metal cathode}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "impure metal anode, rightarrow, pure metal cathode",
+      "meaning": "anode mud",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Cu পরিশোধনে অ্যানোড মাডে Au/Ag।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{impure metal anode}\\\\rightarrow\\text{pure metal cathode}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "তড়িৎ পরিশোধন এর সূত্রটি লেখো। (ইঙ্গিত: Cu পরিশোধনে অ্যানোড মাডে Au/Ag।)",
+      "answer": "\\text{impure metal anode}\\\\rightarrow\\text{pure metal cathode}"
+    }
+  ],
+  "memorize": {
+    "trick": "Cu পরিশোধনে অ্যানোড মাডে Au/Ag।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "zone-refining",
+    "froth-flotation"
+  ]
+}

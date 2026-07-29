@@ -1,0 +1,54 @@
+{
+  "id": "pauli-exclusion",
+  "chapter": "qualitative-chem",
+  "title": "Pauli Exclusion Principle",
+  "titleBn": "পাউলির বর্জন নীতি",
+  "summary": "unique quantum set",
+  "latex": "\\text{no two electrons in an atom share all four quantum numbers}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 230,
+  "symbols": [
+    {
+      "symbol": "no two electrons in an atom share all four quantum numbers",
+      "meaning": "unique quantum set",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{no two electrons in an atom share all four quantum numbers}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পাউলির বর্জন নীতি এর সূত্রটি লেখো। (ইঙ্গিত: এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।)",
+      "answer": "\\text{no two electrons in an atom share all four quantum numbers}"
+    }
+  ],
+  "memorize": {
+    "trick": "এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "hund-rule",
+    "ionization-energy-trend",
+    "aufbau-principle"
+  ]
+}

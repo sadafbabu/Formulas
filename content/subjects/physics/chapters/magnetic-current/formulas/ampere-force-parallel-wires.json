@@ -1,0 +1,54 @@
+{
+  "id": "ampere-force-parallel-wires",
+  "chapter": "magnetic-current",
+  "title": "Force Between Parallel Currents",
+  "titleBn": "সমান্তরাল তারের বল",
+  "summary": "F/L = μ₀ I₁I₂/(2πd)",
+  "latex": "\\frac{F}{L}=\\frac{\\mu_0 I_1 I_2}{2\\pi d}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 200,
+  "symbols": [
+    {
+      "symbol": "F, L, mu, I",
+      "meaning": "F/L = μ₀ I₁I₂/(2πd)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সমদিক = আকর্ষণ; বিপরীত = বিকর্ষণ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{F}{L}=\\frac{\\mu_0 I_1 I_2}{2\\pi d}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সমান্তরাল তারের বল এর সূত্রটি লেখো। (ইঙ্গিত: সমদিক = আকর্ষণ; বিপরীত = বিকর্ষণ।)",
+      "answer": "\\frac{F}{L}=\\frac{\\mu_0 I_1 I_2}{2\\pi d}"
+    }
+  ],
+  "memorize": {
+    "trick": "সমদিক = আকর্ষণ; বিপরীত = বিকর্ষণ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "cyclotron-freq",
+    "moving-charge-energy",
+    "cyclotron-radius"
+  ]
+}

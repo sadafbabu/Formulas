@@ -1,0 +1,54 @@
+{
+  "id": "electron-affinity-trend",
+  "chapter": "qualitative-chem",
+  "title": "Electron Affinity Trend",
+  "titleBn": "ইলেকট্রন আসক্তির প্রবণতা",
+  "summary": "EA trends",
+  "latex": "\\mathrm{EA}\\text{ generally increases across a period (more negative)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 250,
+  "symbols": [
+    {
+      "symbol": "EA, generally increases across a period (more negative)",
+      "meaning": "EA trends",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{EA}\\text{ generally increases across a period (more negative)}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ইলেকট্রন আসক্তির প্রবণতা এর সূত্রটি লেখো। (ইঙ্গিত: হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।)",
+      "answer": "\\mathrm{EA}\\text{ generally increases across a period (more negative)}"
+    }
+  ],
+  "memorize": {
+    "trick": "হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "ionization-energy-trend",
+    "electronegativity-pauling",
+    "pauli-exclusion"
+  ]
+}

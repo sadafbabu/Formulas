@@ -1,0 +1,54 @@
+{
+  "id": "electronegativity-pauling",
+  "chapter": "qualitative-chem",
+  "title": "Pauling Electronegativity",
+  "titleBn": "পলিং তড়িৎঋণাত্মকতা",
+  "summary": "χ trends",
+  "latex": "\\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 260,
+  "symbols": [
+    {
+      "symbol": "chi, uparrow, across period, downarrow",
+      "meaning": "χ trends",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "F > O > N/Cl — মুখস্থ ক্রম।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পলিং তড়িৎঋণাত্মকতা এর সূত্রটি লেখো। (ইঙ্গিত: F > O > N/Cl — মুখস্থ ক্রম।)",
+      "answer": "\\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}"
+    }
+  ],
+  "memorize": {
+    "trick": "F > O > N/Cl — মুখস্থ ক্রম।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "electron-affinity-trend",
+    "atomic-radius-trend",
+    "ionization-energy-trend"
+  ]
+}

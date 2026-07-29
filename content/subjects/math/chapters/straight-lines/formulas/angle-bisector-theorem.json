@@ -1,0 +1,52 @@
+{
+  "id": "angle-bisector-theorem",
+  "chapter": "straight-lines",
+  "title": "Angle Bisector Theorem",
+  "titleBn": "কোণ সমদ্বিখণ্ডক উপপাদ্য",
+  "summary": "divides opposite side",
+  "latex": "\\frac{BD}{DC}=\\frac{AB}{AC}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 170,
+  "symbols": [
+    {
+      "symbol": "B, D, C, A",
+      "meaning": "divides opposite side",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সমদ্বিখণ্ডক বিপরীত বাহুকে বাহুর অনুপাতে ভাগ করে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{BD}{DC}=\\frac{AB}{AC}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কোণ সমদ্বিখণ্ডক উপপাদ্য এর সূত্রটি লেখো। (ইঙ্গিত: সমদ্বিখণ্ডক বিপরীত বাহুকে বাহুর অনুপাতে ভাগ করে।)",
+      "answer": "\\frac{BD}{DC}=\\frac{AB}{AC}"
+    }
+  ],
+  "memorize": {
+    "trick": "সমদ্বিখণ্ডক বিপরীত বাহুকে বাহুর অনুপাতে ভাগ করে।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "normal-form-line",
+    "point-slope-form"
+  ]
+}

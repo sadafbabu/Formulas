@@ -1,0 +1,53 @@
+{
+  "id": "height-distance-trig",
+  "chapter": "trigonometric-equations",
+  "title": "Heights & Distances",
+  "titleBn": "উচ্চতা ও দূরত্ব",
+  "summary": "tanθ = h/d",
+  "latex": "\\tan\\theta=\\frac{h}{d},\\quad \\sin\\theta=\\frac{h}{l}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 210,
+  "symbols": [
+    {
+      "symbol": "theta, h, d, l",
+      "meaning": "tanθ = h/d",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "উন্নয়ন/অবনমন কোণে tan ব্যবহার করো।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\tan\\theta=\\frac{h}{d},\\quad \\sin\\theta=\\frac{h}{l}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "উচ্চতা ও দূরত্ব এর সূত্রটি লেখো। (ইঙ্গিত: উন্নয়ন/অবনমন কোণে tan ব্যবহার করো।)",
+      "answer": "\\tan\\theta=\\frac{h}{d},\\quad \\sin\\theta=\\frac{h}{l}"
+    }
+  ],
+  "memorize": {
+    "trick": "উন্নয়ন/অবনমন কোণে tan ব্যবহার করো।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "sin3a-cos3a",
+    "sine-rule-explicit",
+    "tan2a-formula"
+  ]
+}

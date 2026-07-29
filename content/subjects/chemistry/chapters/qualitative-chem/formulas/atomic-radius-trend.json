@@ -1,0 +1,53 @@
+{
+  "id": "atomic-radius-trend",
+  "chapter": "qualitative-chem",
+  "title": "Atomic Radius Trend",
+  "titleBn": "পারমাণবিক ব্যাসার্ধের প্রবণতা",
+  "summary": "radius across/down",
+  "latex": "r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 270,
+  "symbols": [
+    {
+      "symbol": "r, downarrow, across period, uparrow",
+      "meaning": "radius across/down",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "বামে→ডানে ছোট; উপরে→নিচে বড়।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পারমাণবিক ব্যাসার্ধের প্রবণতা এর সূত্রটি লেখো। (ইঙ্গিত: বামে→ডানে ছোট; উপরে→নিচে বড়।)",
+      "answer": "r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}"
+    }
+  ],
+  "memorize": {
+    "trick": "বামে→ডানে ছোট; উপরে→নিচে বড়।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "electronegativity-pauling",
+    "electron-affinity-trend"
+  ]
+}

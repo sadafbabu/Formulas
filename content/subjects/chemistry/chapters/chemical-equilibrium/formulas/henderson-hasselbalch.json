@@ -1,0 +1,53 @@
+{
+  "id": "henderson-hasselbalch",
+  "chapter": "chemical-equilibrium",
+  "title": "Henderson–Hasselbalch Equation",
+  "titleBn": "হেন্ডারসন–হাসেলবাল্ক সমীকরণ",
+  "summary": "pH = pKa + log([A⁻]/[HA])",
+  "latex": "\\mathrm{pH}=\\mathrm{p}K_a+\\log\\frac{[\\mathrm{A}^-]}{[\\mathrm{HA}]}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 280,
+  "symbols": [
+    {
+      "symbol": "pH, pKa, [A⁻], [HA]",
+      "meaning": "বাফার pH",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "দুর্বল অ্যাসিড বাফারের pH।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{pH}=\\mathrm{p}K_a+\\log\\frac{[\\mathrm{A}^-]}{[\\mathrm{HA}]}",
+        "note": "মেডিকেল ও HSC বাফার প্রশ্নের মূল সূত্র।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "হেন্ডারসন–হাসেলবাল্ক সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: লবণ/অ্যাসিড অনুপাতের log যোগ করো pKa-তে।)",
+      "answer": "\\mathrm{pH}=\\mathrm{p}K_a+\\log\\frac{[\\mathrm{A}^-]}{[\\mathrm{HA}]}"
+    }
+  ],
+  "memorize": {
+    "trick": "লবণ/অ্যাসিড অনুপাতের log যোগ করো pKa-তে।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "activation-energy-arrhenius-plot",
+    "integrated-first-order"
+  ]
+}

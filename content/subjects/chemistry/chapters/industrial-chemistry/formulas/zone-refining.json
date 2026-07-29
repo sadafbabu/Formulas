@@ -1,0 +1,54 @@
+{
+  "id": "zone-refining",
+  "chapter": "industrial-chemistry",
+  "title": "Zone Refining",
+  "titleBn": "জোন পরিশোধন",
+  "summary": "ultrapure semiconductors",
+  "latex": "\\text{impurities concentrate in molten zone and are swept away}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "impurities concentrate in molten zone and are swept away",
+      "meaning": "ultrapure semiconductors",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{impurities concentrate in molten zone and are swept away}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "জোন পরিশোধন এর সূত্রটি লেখো। (ইঙ্গিত: Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।)",
+      "answer": "\\text{impurities concentrate in molten zone and are swept away}"
+    }
+  ],
+  "memorize": {
+    "trick": "Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "froth-flotation",
+    "electrolytic-refining",
+    "cement-composition"
+  ]
+}

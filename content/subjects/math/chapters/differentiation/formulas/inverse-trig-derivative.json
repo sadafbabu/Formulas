@@ -1,0 +1,52 @@
+{
+  "id": "inverse-trig-derivative",
+  "chapter": "differentiation",
+  "title": "Derivative of arcsin/arctan",
+  "titleBn": "arcsin/arctan এর অন্তরক",
+  "summary": "1/√(1−x²), 1/(1+x²)",
+  "latex": "\\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "d, x, arcsin, sqrt",
+      "meaning": "1/√(1−x²), 1/(1+x²)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "√(1−x²) ও (1+x²) মুখস্থ রাখো।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "arcsin/arctan এর অন্তরক এর সূত্রটি লেখো। (ইঙ্গিত: √(1−x²) ও (1+x²) মুখস্থ রাখো।)",
+      "answer": "\\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}"
+    }
+  ],
+  "memorize": {
+    "trick": "√(1−x²) ও (1+x²) মুখস্থ রাখো।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "lhopital-rule",
+    "limit-standard-sinx"
+  ]
+}

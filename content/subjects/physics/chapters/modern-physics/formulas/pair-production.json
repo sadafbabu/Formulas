@@ -1,0 +1,53 @@
+{
+  "id": "pair-production",
+  "chapter": "modern-physics",
+  "title": "Pair Production",
+  "titleBn": "জোড় উৎপাদন",
+  "summary": "γ → e⁻ + e⁺",
+  "latex": "\\gamma\\to e^-+e^+\\quad(E_\\gamma\\ge 1.022\\,\\mathrm{MeV})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 170,
+  "symbols": [
+    {
+      "symbol": "gamma, e, E, MeV",
+      "meaning": "γ → e⁻ + e⁺",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ন্যূনতম ১.০২২ MeV ফোটন শক্তি।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\gamma\\to e^-+e^+\\quad(E_\\gamma\\ge 1.022\\,\\mathrm{MeV})",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "জোড় উৎপাদন এর সূত্রটি লেখো। (ইঙ্গিত: ন্যূনতম ১.০২২ MeV ফোটন শক্তি।)",
+      "answer": "\\gamma\\to e^-+e^+\\quad(E_\\gamma\\ge 1.022\\,\\mathrm{MeV})"
+    }
+  ],
+  "memorize": {
+    "trick": "ন্যূনতম ১.০২২ MeV ফোটন শক্তি।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "bohr-frequency-condition",
+    "stopping-potential"
+  ]
+}

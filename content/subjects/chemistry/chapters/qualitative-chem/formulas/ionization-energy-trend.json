@@ -1,0 +1,54 @@
+{
+  "id": "ionization-energy-trend",
+  "chapter": "qualitative-chem",
+  "title": "Ionization Energy Trend",
+  "titleBn": "আয়নন শক্তির প্রবণতা",
+  "summary": "IE across/down",
+  "latex": "\\mathrm{IE}\\uparrow\\text{ across period};\\quad \\mathrm{IE}\\downarrow\\text{ down group}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 240,
+  "symbols": [
+    {
+      "symbol": "IE, uparrow, across period, downarrow",
+      "meaning": "IE across/down",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{IE}\\uparrow\\text{ across period};\\quad \\mathrm{IE}\\downarrow\\text{ down group}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আয়নন শক্তির প্রবণতা এর সূত্রটি লেখো। (ইঙ্গিত: নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।)",
+      "answer": "\\mathrm{IE}\\uparrow\\text{ across period};\\quad \\mathrm{IE}\\downarrow\\text{ down group}"
+    }
+  ],
+  "memorize": {
+    "trick": "নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "pauli-exclusion",
+    "electron-affinity-trend",
+    "hund-rule"
+  ]
+}
