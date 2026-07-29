@@ -179,7 +179,7 @@ LP = [
 ]
 
 PERM = [
-    make(id="permutation-npr", chapter="permutation-combination", title="ⁿPᵣ", title_bn="ক্রমবিন্যাস ⁿPᵣ", summary="n!/(n−r)!", latex="{}^{n}P_{r}=\\frac{n!}{(n-r)!}", subject="math", order=80, trick="ক্রম গুরুত্বপূর্ণ।", importance=3),
+    make(id="permutation-npr", chapter="permutation-combination", title="ⁿPᵣ", title_bn="ক্রমবিন্যাস ⁿPᵣ", summary="n!/(n−r)!", latex="{}^{n}P_{r}=\\frac{n!}{(n-r)!}", subject="math", order=75, trick="ক্রম গুরুত্বপূর্ণ।", importance=3),
     make(id="combination-ncr", chapter="permutation-combination", title="ⁿCᵣ", title_bn="সমাবেশ ⁿCᵣ", summary="n!/(r!(n−r)!)", latex="{}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!", subject="math", order=90, trick="ক্রম গুরুত্বহীন; ⁿCᵣ=ⁿCₙ₋ᵣ।", importance=3),
     make(id="circular-arrangement", chapter="permutation-combination", title="Circular Permutation", title_bn="বৃত্তাকার ক্রমবিন্যাস", summary="(n−1)!", latex="P_{\\circ}=(n-1)!", subject="math", order=100, trick="ঘূর্ণন একই ধরলে (n−1)!।", importance=2),
     make(id="permutation-with-repetition", chapter="permutation-combination", title="Permutations with Repetition", title_bn="পুনরাবৃত্তিসহ ক্রমবিন্যাস", summary="n!/(n₁!n₂!…)", latex="\\frac{n!}{n_1!n_2!\\cdots n_k!}", subject="math", order=110, trick="একই অক্ষরের পুনরাবৃত্তি ভাজকে যায়।", importance=2),
@@ -187,7 +187,7 @@ PERM = [
 ]
 
 MATRIX = [
-    make(id="matrix-multiplication-cond", chapter="matrix-determinant", title="Matrix Multiplication Condition", title_bn="ম্যাট্রিক্স গুণের শর্ত", summary="(m×n)(n×p)", latex="A_{m\\times n}B_{n\\times p}=C_{m\\times p}", subject="math", order=90, trick="মধ্যের দুই মাত্রা সমান হতে হবে।", importance=3),
+    make(id="matrix-multiplication-cond", chapter="matrix-determinant", title="Matrix Multiplication Condition", title_bn="ম্যাট্রিক্স গুণের শর্ত", summary="(m×n)(n×p)", latex="A_{m\\times n}B_{n\\times p}=C_{m\\times p}", subject="math", order=85, trick="মধ্যের দুই মাত্রা সমান হতে হবে।", importance=3),
     make(id="det-2x2-formula", chapter="matrix-determinant", title="2×2 Determinant", title_bn="২×২ নির্ণায়ক", summary="ad−bc", latex="\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc", subject="math", order=100, trick="২×২: প্রধান−অপ্রধান কর্ণ।", importance=3),
     make(id="inverse-matrix-adj", chapter="matrix-determinant", title="Inverse via Adjoint", title_bn="সহযোগী দিয়ে বিপরীত", summary="A⁻¹ = (1/|A|) adj A", latex="A^{-1}=\\frac{1}{|A|}\\mathrm{adj}\\,A\\quad(|A|\\ne0)", subject="math", order=110, trick="|A|=০ হলে বিপরীত নেই।", importance=3),
     make(id="cramer-rule-system", chapter="matrix-determinant", title="Cramer's Rule", title_bn="ক্রেমারের সূত্র", summary="x=Δx/Δ", latex="x_i=\\frac{\\Delta_i}{\\Delta}\\quad(\\Delta\\ne0)", subject="math", order=120, trick="প্রতি চলকের জন্য স্তম্ভ বদলাও।", importance=2),
@@ -229,7 +229,7 @@ KINETICS_EXTRA = [
 MATH_EXTRA = [
     make(id="limit-standard-sinx", chapter="differentiation", title="Standard Limit sin x / x", title_bn="প্রমিত সীমা sinx/x", summary="→1 as x→0", latex="\\lim_{x\\to0}\\frac{\\sin x}{x}=1", subject="math", order=110, trick="রেডিয়ানে সত্য; ডিগ্রিতে নয়।", importance=3),
     make(id="lhopital-rule", chapter="differentiation", title="L'Hôpital's Rule", title_bn="ল'হোপিটালের নিয়ম", summary="0/0 or ∞/∞", latex="\\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})", subject="math", order=120, trick="অনির্ণেয় আকারে অন্তরক নাও।", importance=2),
-    make(id="mean-value-theorem", chapter="calculus", title="Mean Value Theorem", title_bn="মধ্যমান উপপাদ্য", summary="f'(c)=(f(b)−f(a))/(b−a)", latex="f'(c)=\\frac{f(b)-f(a)}{b-a}", subject="math", order=170, trick="কোনো c-তে স্পর্শক জ্যা-এর সমান্তরাল।", importance=2),
+    make(id="mean-value-theorem", chapter="calculus", title="Mean Value Theorem", title_bn="মধ্যমান উপপাদ্য", summary="f'(c)=(f(b)−f(a))/(b−a)", latex="f'(c)=\\frac{f(b)-f(a)}{b-a}", subject="math", order=175, trick="কোনো c-তে স্পর্শক জ্যা-এর সমান্তরাল।", importance=2),
     make(id="fundamental-theorem-calculus", chapter="integration", title="Fundamental Theorem of Calculus", title_bn="ক্যালকুলাসের মৌলিক উপপাদ্য", summary="d/dx ∫_a^x f = f(x)", latex="\\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)", subject="math", order=110, trick="যোগজের অন্তরক = মূল ফাংশন।", importance=3),
 ]
 
