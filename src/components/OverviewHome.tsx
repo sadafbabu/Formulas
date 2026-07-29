@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { allChapters, papers, subjectsList } from '../data/catalog'
+import { allChapters, formulasForChapter, papers, subjectsList } from '../data/catalog'
 import type { PaperId, SubjectId } from '../data/types'
 
 interface OverviewHomeProps {
@@ -63,19 +63,23 @@ export function OverviewHome({ onSelectChapter }: OverviewHomeProps) {
         {filteredChapters.map((ch) => {
           const subj = subjectsList.find((s) => s.id === ch.subjectId)
           const paper = papers.find((p) => p.id === ch.paperId)
+          const count = formulasForChapter(ch.id).length
+          const ready = count > 0
 
           return (
             <article
               key={ch.id}
-              className={`chapter-card${ch.isReady ? ' is-ready' : ' is-locked'}`}
-              onClick={() => ch.isReady && onSelectChapter(ch.id)}
+              className={`chapter-card${ready ? ' is-ready' : ' is-locked'}`}
+              onClick={() => ready && onSelectChapter(ch.id)}
             >
               <div className="card-top">
                 <span className="card-badge">
                   {subj?.nameBn} · {paper?.nameBn}
                 </span>
-                <span className={`status-pill${ch.isReady ? ' is-live' : ''}`}>
-                  {ch.isReady ? `${ch.formulaCount} Formulations` : 'Coming Soon'}
+                <span className={`status-pill${ready ? ' is-live' : ''}`}>
+                  {ready
+                    ? `${count} ${count === 1 ? 'Formula' : 'Formulas'}`
+                    : 'Coming Soon'}
                 </span>
               </div>
 
@@ -83,9 +87,11 @@ export function OverviewHome({ onSelectChapter }: OverviewHomeProps) {
               <p className="chapter-title-en">{ch.name}</p>
 
               <div className="card-footer">
-                <span className="chapter-order">CHAPTER 0{ch.order}</span>
+                <span className="chapter-order">
+                  CHAPTER {String(ch.order).padStart(2, '0')}
+                </span>
                 <span className="open-link">
-                  {ch.isReady ? 'Open Book →' : 'In Progress'}
+                  {ready ? 'Open Book →' : 'In Progress'}
                 </span>
               </div>
             </article>
