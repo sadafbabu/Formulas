@@ -650,27 +650,24 @@ button:focus-visible,
 
 .a5-page {
   width: 100%;
+  max-width: none;
   height: 100%;
-  background: linear-gradient(180deg, #1a1a1a 0%, var(--page-bg) 100%);
+  background: linear-gradient(180deg, #171717 0%, var(--page-bg) 100%);
   display: flex;
   flex-direction: column;
   padding: var(--page-pad);
   padding-bottom: 3.6rem;
+  padding-left: calc(var(--safe-left) + clamp(0.85rem, 2.5vw, 2.75rem));
+  padding-right: calc(var(--safe-right) + clamp(0.85rem, 2.5vw, 2.75rem));
   overflow: hidden;
   position: relative;
 }
 
-.a5-page.is-left {
-  padding-right: 0.65rem;
-}
-
-.a5-page.is-right {
-  padding-left: 0.65rem;
-}
-
+.a5-page.is-left,
+.a5-page.is-right,
 .a5-page.is-single {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+  padding-left: calc(var(--safe-left) + clamp(0.85rem, 2.5vw, 2.75rem));
+  padding-right: calc(var(--safe-right) + clamp(0.85rem, 2.5vw, 2.75rem));
 }
 
 .page-header {
@@ -715,7 +712,7 @@ button:focus-visible,
   display: flex;
   flex-direction: column;
   justify-content: stretch;
-  gap: 0;
+  gap: 0.15rem;
   min-height: 0;
   overflow-x: hidden;
   overflow-y: auto;
@@ -727,7 +724,7 @@ button:focus-visible,
 
 .a5-page.is-sparse .formula {
   flex: 0 0 auto;
-  min-height: 5rem;
+  min-height: 7.5rem;
   max-height: none;
 }
 
@@ -849,116 +846,70 @@ button:focus-visible,
   border-color: rgba(255, 255, 255, 0.35);
 }
 
-/* —— Compact formula rows fill page height evenly —— */
+/* —— Wide single-page formula rows: title → full-bleed latex → summary —— */
 .formula {
   flex: 1 1 0;
   min-height: 0;
   position: relative;
   z-index: 5;
-  display: flex;
-  align-items: center;
-  padding: 0.55rem 0.65rem;
-  margin-bottom: 0.3rem;
-  background: rgba(255, 255, 255, 0.018);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 8px;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  gap: 0.45rem;
+  align-content: stretch;
+  padding: 0.7rem clamp(0.75rem, 1.4vw, 1.15rem);
+  margin-bottom: 0.45rem;
+  background: rgba(255, 255, 255, 0.022);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
   animation: formula-in 300ms var(--ease-slide) both;
-  overflow: visible;
+  overflow: hidden;
   transition: border-color 0.2s ease, background 0.2s ease;
 }
 
 .formula:hover {
-  background: rgba(255, 255, 255, 0.035);
-  border-color: rgba(255, 255, 255, 0.2);
-}
-
-.formula-main {
-  display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
-  gap: 0.5rem 0.95rem;
-  width: 100%;
-  align-items: center;
-  min-height: 0;
-}
-
-.formula-latex-col {
-  display: flex;
-  align-items: center;
-  min-width: 0;
-  overflow-x: auto;
-  background: rgba(0, 0, 0, 0.4);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 8px;
-  padding: 0.5rem 0.75rem;
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.4);
-}
-
-.formula-latex {
-  font-size: clamp(1.05rem, 1.4vw, 1.35rem);
-  line-height: 1.15;
-  color: var(--ink-bright);
-  overflow-x: auto;
-  overflow-y: visible;
-  min-width: 0;
-  width: 100%;
-}
-
-.formula-latex-link,
-.formula-title-link {
-  color: inherit;
-  text-decoration: none;
-  display: block;
-  min-width: 0;
-}
-
-.formula-latex-link:hover .katex,
-.formula-title-link:hover .formula-title-bn {
-  color: #fff;
-}
-
-.formula-title-link {
-  display: flex;
-  flex-direction: column;
-  gap: 0.05rem;
-  min-width: 0;
-}
-
-.formula-latex .katex {
-  font-size: 1.05em;
-}
-
-.formula-text-col {
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
-  min-width: 0;
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.18);
 }
 
 .formula-head {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 0.4rem;
+  gap: 0.65rem;
+  min-width: 0;
 }
 
 .formula-title {
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.05rem;
-  line-height: 1.2;
+  gap: 0.08rem;
+  line-height: 1.25;
   min-width: 0;
 }
 
+.formula-title-link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.08rem;
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.formula-title-link:hover .formula-title-bn {
+  color: #fff;
+}
+
 .formula-title-bn {
-  font-size: clamp(0.92rem, 1.18vw, 1.1rem);
+  font-size: clamp(1rem, 1.25vw, 1.2rem);
   font-weight: 700;
   color: #f8fafc;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
 }
 
 .formula-title-en {
-  font-size: clamp(0.74rem, 0.85vw, 0.82rem);
+  font-size: clamp(0.76rem, 0.9vw, 0.86rem);
   font-weight: 500;
   color: #94a3b8;
 }
@@ -966,14 +917,14 @@ button:focus-visible,
 .formula-actions {
   display: flex;
   align-items: center;
-  gap: 0.3rem;
+  gap: 0.28rem;
   flex-shrink: 0;
 }
 
 .spread-stage.mode-desktop .formula-actions {
-  display: grid;
-  grid-template-columns: repeat(2, var(--touch-min));
-  gap: 0.2rem;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.28rem;
 }
 
 .spread-stage.mode-tablet .formula-actions,
@@ -983,15 +934,79 @@ button:focus-visible,
   gap: 0.22rem;
 }
 
+.formula-latex-link {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  min-width: 0;
+  min-height: 0;
+  width: 100%;
+}
+
+.formula-latex-col {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+  min-height: 3.4rem;
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-x: contain;
+  scrollbar-width: thin;
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 0.7rem clamp(0.85rem, 1.8vw, 1.35rem);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.35);
+}
+
+.formula-latex-link:hover .formula-latex-col {
+  border-color: rgba(255, 255, 255, 0.16);
+}
+
+.formula-latex {
+  font-size: clamp(1.12rem, 1.55vw, 1.55rem);
+  line-height: 1.2;
+  color: var(--ink-bright);
+  overflow: visible;
+  min-width: 0;
+  width: max-content;
+  max-width: 100%;
+}
+
+.formula-latex .katex {
+  font-size: 1.08em;
+}
+
+.formula-latex .katex-display {
+  margin: 0;
+  overflow-x: visible;
+  overflow-y: visible;
+}
+
+.formula-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.35rem 0.75rem;
+  min-width: 0;
+}
+
 .formula-summary {
   margin: 0;
-  font-size: clamp(0.78rem, 0.95vw, 0.88rem);
-  line-height: 1.3;
+  flex: 1 1 12rem;
+  font-size: clamp(0.8rem, 0.95vw, 0.92rem);
+  line-height: 1.35;
   color: var(--ink-soft);
   font-weight: 400;
-  white-space: nowrap;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .formula-meta {
@@ -999,6 +1014,7 @@ button:focus-visible,
   flex-wrap: wrap;
   align-items: center;
   gap: 0.25rem;
+  flex-shrink: 0;
 }
 
 .tag {
@@ -1987,31 +2003,18 @@ button:focus-visible,
   touch-action: pan-y;
 }
 
-/* Full-width single page: give latex room so side-scroll is rare */
-.spread-stage.mode-desktop .a5-page.is-single {
-  max-width: min(72rem, 100%);
-  margin-inline: auto;
-  padding-left: clamp(1.25rem, 3vw, 2.5rem);
-  padding-right: clamp(1.25rem, 3vw, 2.5rem);
-}
-
-.spread-stage.mode-desktop .formula-main {
-  grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
-  gap: 0.55rem 1.15rem;
+/* Wide single page fills the stage; latex already sits on its own full row */
+.spread-stage.mode-desktop .edge-zone {
+  width: 1.65rem;
 }
 
 .spread-stage.mode-desktop .formula-latex {
-  font-size: clamp(1.08rem, 1.15vw, 1.32rem);
-  overflow-x: auto;
+  font-size: clamp(1.2rem, 1.7vw, 1.65rem);
 }
 
 .spread-stage.mode-desktop .formula-latex-col {
-  overflow-x: auto;
-  scrollbar-width: thin;
-}
-
-.spread-stage.mode-desktop .edge-zone {
-  width: 1.5rem;
+  min-height: 4rem;
+  padding: 0.85rem clamp(1rem, 2.2vw, 1.75rem);
 }
 
 @keyframes slide-enter {
@@ -2070,35 +2073,25 @@ button:focus-visible,
 }
 
 /* Single-page layout on every viewport — full width for readable latex. */
-.spread-stage.mode-tablet .formula-main,
-.spread-stage.mode-mobile .formula-main {
-  grid-template-columns: 1fr;
-  gap: 0.14rem 0.35rem;
-}
-
 .spread-stage.mode-tablet .a5-page.is-left,
 .spread-stage.mode-tablet .a5-page.is-right,
 .spread-stage.mode-tablet .a5-page.is-single,
 .spread-stage.mode-mobile .a5-page.is-left,
 .spread-stage.mode-mobile .a5-page.is-right,
 .spread-stage.mode-mobile .a5-page.is-single {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+  padding-left: calc(var(--safe-left) + 1rem);
+  padding-right: calc(var(--safe-right) + 1rem);
 }
 
 .spread-stage.mode-tablet .formula-latex,
 .spread-stage.mode-mobile .formula-latex {
-  font-size: clamp(0.95rem, 3.4vw, 1.15rem);
-  line-height: 1.1;
+  font-size: clamp(1.02rem, 3.3vw, 1.28rem);
+  line-height: 1.15;
 }
 
 .spread-stage.mode-tablet .formula-summary,
 .spread-stage.mode-mobile .formula-summary {
-  white-space: normal;
-  display: -webkit-box;
   -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 .spread-stage.mode-mobile .formula-title-en {
@@ -2237,20 +2230,22 @@ button:focus-visible,
   }
 
   .formula {
-    padding: 0.6rem 0.55rem;
+    padding: 0.6rem 0.65rem;
+    gap: 0.35rem;
+    border-radius: 10px;
+  }
+
+  .formula-latex-col {
+    min-height: 3rem;
+    padding: 0.55rem 0.7rem;
   }
 
   .formula-latex {
-    font-size: clamp(0.9rem, 3.2vw, 1.08rem);
+    font-size: clamp(0.98rem, 3.4vw, 1.18rem);
   }
 
   .formula-summary {
-    white-space: normal;
-    display: -webkit-box;
     -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    line-height: 1.35;
   }
 
   .page-body {
@@ -2261,7 +2256,8 @@ button:focus-visible,
     width: 1.5rem;
   }
 
-  .mobile-pager {
+  .mobile-pager,
+  .single-pager {
     touch-action: pan-y;
   }
 

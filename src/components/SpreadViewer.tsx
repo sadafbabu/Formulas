@@ -33,8 +33,8 @@ export function SpreadViewer({
   const mode = useLayoutMode()
   const chapter = getChapter(chapterId) ?? getChapter(defaultChapterId)!
 
-  // One page at a time on every viewport — full width so latex stays readable.
-  const perPage = mode === 'desktop' ? 5 : mode === 'tablet' ? 4 : 3
+  // One wide page at a time — fewer cards so each formula stays readable.
+  const perPage = mode === 'desktop' ? 4 : mode === 'tablet' ? 3 : 3
 
   const { pages, emptyFilter } = useMemo(() => {
     const source = formulasForChapter(chapterId)

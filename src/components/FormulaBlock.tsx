@@ -40,36 +40,35 @@ export function FormulaBlock({
       className="formula"
       style={{ animationDelay: `${30 + index * 30}ms` }}
     >
-      <div className="formula-main">
-        <div className="formula-latex-col">
-          <Link to={detailTo} className="formula-latex-link" title="বিস্তারিত দেখুন">
-            <div className="formula-latex">
-              <Katex latex={formula.latex} display />
-            </div>
+      <header className="formula-head">
+        <h2 className="formula-title">
+          <Link to={detailTo} className="formula-title-link">
+            <span className="formula-title-bn">{formula.titleBn}</span>
+            <span className="formula-title-en">{formula.title}</span>
           </Link>
+        </h2>
+        <div className="formula-actions">
+          <QuestionHint formula={formula} />
+          <SymbolHint formula={formula} />
+          <DeriveHint formula={formula} />
+          <MemorizeHint formula={formula} />
         </div>
+      </header>
 
-        <div className="formula-text-col">
-          <header className="formula-head">
-            <h2 className="formula-title">
-              <Link to={detailTo} className="formula-title-link">
-                <span className="formula-title-bn">{formula.titleBn}</span>
-                <span className="formula-title-en">{formula.title}</span>
-              </Link>
-            </h2>
-            <div className="formula-actions">
-              <QuestionHint formula={formula} />
-              <SymbolHint formula={formula} />
-              <DeriveHint formula={formula} />
-              <MemorizeHint formula={formula} />
-            </div>
-          </header>
-          <p className="formula-summary">{formula.summary}</p>
-          <div className="formula-meta">
-            {displayTags.map((tag) => (
-              <TagChip key={tag} id={tag} active={activeTag === tag} chapterId={formula.chapter} />
-            ))}
+      <Link to={detailTo} className="formula-latex-link" title="বিস্তারিত দেখুন">
+        <div className="formula-latex-col">
+          <div className="formula-latex">
+            <Katex latex={formula.latex} display />
           </div>
+        </div>
+      </Link>
+
+      <div className="formula-foot">
+        <p className="formula-summary">{formula.summary}</p>
+        <div className="formula-meta">
+          {displayTags.map((tag) => (
+            <TagChip key={tag} id={tag} active={activeTag === tag} chapterId={formula.chapter} />
+          ))}
         </div>
       </div>
     </article>

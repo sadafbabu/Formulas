@@ -19,7 +19,7 @@
   --font-ui: 'Outfit', system-ui, sans-serif;
   --font-body: 'Outfit', system-ui, sans-serif;
 
-  --page-pad: 0.75rem 1rem 0.6rem;
+  --page-pad: 0.85rem clamp(1rem, 2.8vw, 2.75rem) 0.7rem;
   --radius-sm: 8px;
   --radius-slide: 0;
   --spread-gap: 0;
