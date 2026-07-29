@@ -25,8 +25,8 @@ export function SpreadViewer({
   const isSpread = mode === 'desktop'
   const chapter = getChapter(chapterId) ?? getChapter(defaultChapterId)!
 
-  // Keep mobile pages readable — fewer cards, scroll inside page if needed.
-  const perPage = mode === 'desktop' ? 5 : mode === 'tablet' ? 3 : 2
+  // Compact on phones — 3 dense cards; tablet 4; desktop spread 5.
+  const perPage = mode === 'desktop' ? 5 : mode === 'tablet' ? 4 : 3
 
   const { pages, emptyFilter } = useMemo(() => {
     const source = formulasForChapter(chapterId)

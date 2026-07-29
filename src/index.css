@@ -736,8 +736,8 @@ button {
 .spread-stage.mode-tablet .formula-actions,
 .spread-stage.mode-mobile .formula-actions {
   display: grid;
-  grid-template-columns: repeat(4, var(--hint-size, 2.1rem));
-  gap: 0.2rem;
+  grid-template-columns: repeat(4, var(--hint-size, 1.7rem));
+  gap: 0.14rem;
 }
 
 .formula-summary {
@@ -1587,12 +1587,11 @@ button {
   }
 }
 
-/* Layout mode comes from JS (desktop spread / tablet+mobile single).
-   Keep formula density readable without stacking overlaps. */
+/* Layout mode — compact phone/tablet formula book. */
 .spread-stage.mode-tablet .formula-main,
 .spread-stage.mode-mobile .formula-main {
   grid-template-columns: 1fr;
-  gap: 0.28rem;
+  gap: 0.18rem;
 }
 
 .spread-stage.mode-tablet .a5-page.is-left,
@@ -1601,45 +1600,80 @@ button {
 .spread-stage.mode-mobile .a5-page.is-left,
 .spread-stage.mode-mobile .a5-page.is-right,
 .spread-stage.mode-mobile .a5-page.is-single {
-  padding-left: 0.85rem;
-  padding-right: 0.85rem;
-  padding-bottom: calc(2.8rem + var(--safe-bottom));
+  padding: 0.45rem 0.65rem calc(2.55rem + var(--safe-bottom));
+}
+
+.spread-stage.mode-tablet .page-header,
+.spread-stage.mode-mobile .page-header {
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.05rem;
+}
+
+.spread-stage.mode-tablet .page-chapter,
+.spread-stage.mode-mobile .page-chapter {
+  font-size: 0.78rem;
+}
+
+.spread-stage.mode-tablet .page-subject,
+.spread-stage.mode-mobile .page-subject {
+  font-size: 0.68rem;
+}
+
+.spread-stage.mode-tablet .page-num-badge,
+.spread-stage.mode-mobile .page-num-badge {
+  font-size: 0.7rem;
 }
 
 .spread-stage.mode-tablet .formula-latex,
 .spread-stage.mode-mobile .formula-latex {
-  font-size: clamp(0.92rem, 3.2vw, 1.12rem);
-  line-height: 1.2;
+  font-size: clamp(0.86rem, 2.9vw, 1.05rem);
+  line-height: 1.15;
+}
+
+.spread-stage.mode-tablet .formula-latex .katex-display,
+.spread-stage.mode-mobile .formula-latex .katex-display {
+  margin: 0.12em 0;
+}
+
+.spread-stage.mode-tablet .formula-latex .katex,
+.spread-stage.mode-mobile .formula-latex .katex {
+  font-size: 1.02em;
 }
 
 .spread-stage.mode-tablet .formula-summary,
 .spread-stage.mode-mobile .formula-summary {
   white-space: normal;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  font-size: 0.72rem;
+  line-height: 1.25;
 }
 
-.spread-stage.mode-mobile .formula-title-en {
+.spread-stage.mode-mobile .formula-title-en,
+.spread-stage.mode-tablet .formula-title-en {
   display: none;
 }
 
+.spread-stage.mode-tablet .formula-meta,
 .spread-stage.mode-mobile .formula-meta {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.2rem;
+  flex-wrap: nowrap;
+  gap: 0.18rem;
+  overflow: hidden;
+  max-width: 100%;
 }
 
-/* Don't crush cards into equal flex slices on phones — scroll the page body. */
 .spread-stage.mode-tablet .formula,
 .spread-stage.mode-mobile .formula {
   flex: 0 0 auto;
   min-height: 0;
   max-height: none;
   align-items: stretch;
-  padding: 0.55rem 0.6rem;
-  margin-bottom: 0.45rem;
+  padding: 0.4rem 0.48rem;
+  margin-bottom: 0.28rem;
+  border-radius: 6px;
   overflow: hidden;
 }
 
@@ -1649,14 +1683,25 @@ button {
   gap: 0;
   -webkit-overflow-scrolling: touch;
   overscroll-behavior: contain;
-  padding-bottom: 0.35rem;
+  padding-bottom: 0.2rem;
+}
+
+.spread-stage.mode-tablet .formula-latex-col,
+.spread-stage.mode-mobile .formula-latex-col {
+  padding: 0.32rem 0.42rem;
+  border-radius: 6px;
+}
+
+.spread-stage.mode-tablet .formula-text-col,
+.spread-stage.mode-mobile .formula-text-col {
+  gap: 0.12rem;
 }
 
 .spread-stage.mode-tablet .formula-head,
 .spread-stage.mode-mobile .formula-head {
   flex-wrap: nowrap;
-  align-items: flex-start;
-  gap: 0.35rem;
+  align-items: center;
+  gap: 0.28rem;
 }
 
 .spread-stage.mode-tablet .formula-title,
@@ -1667,92 +1712,128 @@ button {
 
 .spread-stage.mode-tablet .formula-title-bn,
 .spread-stage.mode-mobile .formula-title-bn {
-  font-size: clamp(0.88rem, 3.6vw, 1.02rem);
-  line-height: 1.25;
+  font-size: clamp(0.8rem, 3.2vw, 0.92rem);
+  line-height: 1.2;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.spread-stage.mode-tablet .hint-btn,
+.spread-stage.mode-mobile .hint-btn {
+  width: var(--hint-size, 1.7rem);
+  height: var(--hint-size, 1.7rem);
+}
+
+.spread-stage.mode-tablet .hint-btn svg,
+.spread-stage.mode-mobile .hint-btn svg {
+  width: 11px;
+  height: 11px;
+}
+
+.spread-stage.mode-tablet .tag,
+.spread-stage.mode-mobile .tag {
+  font-size: 0.56rem;
+  padding: 0.1rem 0.32rem;
+  letter-spacing: 0.02em;
+}
+
+.spread-stage.mode-mobile .formula-meta .tag:nth-child(2):not(:last-child) {
+  display: none;
 }
 
 .spread-stage.mode-tablet .edge-zone,
 .spread-stage.mode-mobile .edge-zone {
-  width: 1.15rem;
-  bottom: calc(2.4rem + var(--safe-bottom));
+  width: 0.7rem;
+  bottom: calc(2.15rem + var(--safe-bottom));
   z-index: 7;
 }
 
 .spread-stage.mode-tablet .deck-chrome,
 .spread-stage.mode-mobile .deck-chrome {
-  bottom: calc(0.4rem + var(--safe-bottom));
-  width: min(16rem, 84vw);
+  bottom: calc(0.28rem + var(--safe-bottom));
+  width: min(13.5rem, 78vw);
+  gap: 0.18rem;
 }
 
 .spread-stage.mode-tablet .page-turn,
 .spread-stage.mode-mobile .page-turn {
-  width: 2.45rem;
-  height: 2.45rem;
+  width: 2.15rem;
+  height: 2.15rem;
+  font-size: 0.95rem;
 }
 
-.spread-stage.mode-tablet .hint-btn,
-.spread-stage.mode-mobile .hint-btn {
-  width: var(--hint-size, 2.1rem);
-  height: var(--hint-size, 2.1rem);
+.spread-stage.mode-tablet .page-indicator,
+.spread-stage.mode-mobile .page-indicator {
+  font-size: 0.7rem;
 }
 
-.spread-stage.mode-tablet .tag,
-.spread-stage.mode-mobile .tag {
-  font-size: 0.6rem;
-  padding: 0.14rem 0.38rem;
+.spread-stage.mode-tablet .progress-track,
+.spread-stage.mode-mobile .progress-track {
+  height: 2px;
 }
 
 @media (max-width: 699px) {
   :root {
-    --nav-size: 2.45rem;
-    --touch-min: 2.45rem;
-    --hint-size: 2.05rem;
-    --page-pad: 0.55rem 0.7rem 0.45rem;
+    --nav-size: 2.2rem;
+    --touch-min: 2.2rem;
+    --hint-size: 1.7rem;
+    --page-pad: 0.4rem 0.55rem 0.35rem;
   }
 
   .book-shell {
-    /* Avoid double-counting notch padding into the stage height. */
     padding-top: 0;
     padding-left: 0;
     padding-right: 0;
   }
 
   .top-bar {
-    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-columns: auto minmax(0, 1fr) auto;
     grid-template-rows: auto auto;
-    gap: 0.28rem 0.4rem;
+    gap: 0.22rem 0.35rem;
     min-height: 0;
-    padding: calc(0.32rem + var(--safe-top)) calc(0.45rem + var(--safe-right))
-      0.35rem calc(0.45rem + var(--safe-left));
+    padding: calc(0.28rem + var(--safe-top)) calc(0.4rem + var(--safe-right))
+      0.28rem calc(0.4rem + var(--safe-left));
   }
 
   .top-bar-left {
-    gap: 0.4rem;
+    gap: 0.32rem;
   }
 
   .home-nav-btn {
-    padding: 0.35rem 0.55rem;
-    font-size: 0.78rem;
+    padding: 0.28rem 0.45rem;
+    font-size: 0.72rem;
+    gap: 0.25rem;
+  }
+
+  .home-nav-btn .home-icon {
+    width: 13px;
+    height: 13px;
   }
 
   .top-bar-count {
     display: block;
     justify-self: end;
-    font-size: 0.7rem;
+    font-size: 0.66rem;
     align-self: center;
+    grid-column: 3;
+    grid-row: 1;
   }
 
   .top-bar-tags {
     grid-column: 1 / -1;
+    grid-row: 2;
     mask-image: none;
-    padding-bottom: 0.05rem;
-    gap: 0.32rem;
+    padding-bottom: 0;
+    gap: 0.25rem;
   }
 
   .top-tag {
-    font-size: 0.64rem;
-    padding: 0.32rem 0.55rem;
-    min-height: 1.9rem;
+    font-size: 0.6rem;
+    padding: 0.26rem 0.45rem;
+    min-height: 1.7rem;
+    border-radius: 6px;
     touch-action: manipulation;
   }
 
@@ -1760,17 +1841,13 @@ button {
     padding-left: 0;
   }
 
-  .page-chapter {
-    font-size: 0.8rem;
-  }
-
-  .page-subject {
-    font-size: 0.7rem;
-  }
-
   .nav-root.is-floating {
-    top: calc(0.45rem + var(--safe-top));
-    left: calc(0.45rem + var(--safe-left));
+    top: calc(0.4rem + var(--safe-top));
+    left: calc(0.4rem + var(--safe-left));
+  }
+
+  .nav-fab {
+    border-radius: 7px;
   }
 
   .nav-search input {
@@ -1778,26 +1855,60 @@ button {
   }
 
   .nav-panel {
-    width: min(20rem, calc(100vw - 16px));
-    max-height: min(70dvh, calc(100dvh - 1.25rem - var(--safe-bottom)));
+    width: min(18.5rem, calc(100vw - 14px));
+    max-height: min(68dvh, calc(100dvh - 1rem - var(--safe-bottom)));
+    padding: 0.7rem;
+  }
+
+  .nav-brand {
+    font-size: 0.92rem;
+    margin-bottom: 0.45rem;
+  }
+
+  .nav-subject-line {
+    margin: -0.2rem 0 0.45rem;
+    font-size: 0.74rem;
+  }
+
+  .nav-link {
+    min-height: 2.1rem;
+    padding: 0.35rem 0.4rem;
+    font-size: 0.8rem;
+  }
+
+  .nav-formula-list a {
+    min-height: 2rem;
+    padding: 0.35rem 0.4rem;
   }
 
   .overview-container {
-    padding: 1.25rem 0.9rem calc(3.5rem + var(--safe-bottom));
+    padding: 1.1rem 0.85rem calc(3rem + var(--safe-bottom));
   }
 
   .overview-hero {
-    margin-bottom: 1.75rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .hero-subhead {
+    font-size: 0.64rem;
+    margin-bottom: 0.55rem;
   }
 
   .hero-title {
-    font-size: clamp(1.45rem, 7vw, 2rem);
+    font-size: clamp(1.35rem, 6.5vw, 1.85rem);
+    margin-bottom: 0.55rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.84rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.45;
   }
 
   .overview-filters {
-    border-radius: 14px;
-    padding: 0.5rem 0.55rem;
-    gap: 0.45rem;
+    border-radius: 12px;
+    padding: 0.4rem 0.45rem;
+    gap: 0.35rem;
     width: 100%;
     justify-content: stretch;
   }
@@ -1806,6 +1917,7 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    gap: 0.25rem;
   }
 
   .filter-divider {
@@ -1813,47 +1925,87 @@ button {
   }
 
   .filter-tab {
-    min-height: 2.2rem;
-    padding: 0.4rem 0.7rem;
+    min-height: 2rem;
+    padding: 0.32rem 0.58rem;
+    font-size: 0.74rem;
     touch-action: manipulation;
   }
 
   .overview-grid {
     grid-template-columns: 1fr;
-    gap: 0.75rem;
+    gap: 0.65rem;
   }
 
   .chapter-card {
     min-height: 0;
-    padding: 0.95rem 1rem;
+    padding: 0.8rem 0.85rem;
+    gap: 0.35rem;
     touch-action: manipulation;
   }
 
-  .formula-latex-col {
-    padding: 0.45rem 0.55rem;
+  .chapter-title-bn {
+    font-size: 1.02rem;
+  }
+
+  .chapter-title-en {
+    font-size: 0.78rem;
   }
 
   .mobile-pager .a5-page {
-    padding-bottom: calc(3rem + var(--safe-bottom));
+    padding-bottom: calc(2.55rem + var(--safe-bottom));
   }
 
   .mobile-pager {
     touch-action: manipulation;
   }
 
+  /* Phone-only: denser formula book rows */
+  .spread-stage.mode-mobile .formula {
+    padding: 0.32rem 0.4rem;
+    margin-bottom: 0.22rem;
+  }
+
+  .spread-stage.mode-mobile .formula-latex-col {
+    padding: 0.26rem 0.36rem;
+  }
+
+  .spread-stage.mode-mobile .formula-latex {
+    font-size: clamp(0.82rem, 3.4vw, 0.98rem);
+  }
+
+  .spread-stage.mode-mobile .formula-title-bn {
+    font-size: clamp(0.76rem, 3.1vw, 0.88rem);
+  }
+
+  .spread-stage.mode-mobile .page-header {
+    padding-bottom: 0.12rem;
+  }
+
   .hint-popover,
   .hint-popover.is-wide {
-    width: min(24rem, calc(100vw - 16px));
-    max-height: min(68dvh, 28rem);
+    width: min(22rem, calc(100vw - 14px));
+    max-height: min(62dvh, 24rem);
+    padding: 0.85rem 0.95rem;
   }
 
   .detail-scroll {
-    padding: calc(3.6rem + var(--safe-top)) calc(0.9rem + var(--safe-right))
-      calc(1.6rem + var(--safe-bottom)) calc(0.9rem + var(--safe-left));
+    padding: calc(3.2rem + var(--safe-top)) calc(0.8rem + var(--safe-right))
+      calc(1.35rem + var(--safe-bottom)) calc(0.8rem + var(--safe-left));
+  }
+
+  .detail h1 {
+    font-size: clamp(1.25rem, 6vw, 1.65rem);
   }
 
   .detail-hero-latex {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
+    padding: 0.65rem 0;
+  }
+
+  .detail-back {
+    min-height: 2.1rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.7rem;
   }
 }
 

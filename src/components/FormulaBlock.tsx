@@ -30,13 +30,13 @@ export function FormulaBlock({
   // Filter out any older star tags from formula.tags to avoid duplicates
   const examTags = formula.tags.filter((t) => !t.endsWith('-star'))
 
-  // Clean ordered display tags: exam tags first, followed by single grey star tag
-  const displayTags: TagId[] = [...examTags, importanceTag]
+  // Exam tags first (cap at 2 for compact rows), then grey star importance.
+  const displayTags: TagId[] = [...examTags.slice(0, 2), importanceTag]
 
   return (
     <article
       className="formula"
-      style={{ animationDelay: `${30 + index * 30}ms` }}
+      style={{ animationDelay: `${20 + index * 20}ms` }}
     >
       <div className="formula-main">
         <div className="formula-latex-col">
@@ -65,7 +65,12 @@ export function FormulaBlock({
           <p className="formula-summary">{formula.summary}</p>
           <div className="formula-meta">
             {displayTags.map((tag) => (
-              <TagChip key={tag} id={tag} active={activeTag === tag} chapterId={formula.chapter} />
+              <TagChip
+                key={tag}
+                id={tag}
+                active={activeTag === tag}
+                chapterId={formula.chapter}
+              />
             ))}
           </div>
         </div>
