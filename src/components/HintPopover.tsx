@@ -35,19 +35,32 @@ export function HintPopover({
     const panel = panelRef.current
     if (!btn) return
     const r = btn.getBoundingClientRect()
-    const width =
-      panel?.offsetWidth ||
-      (wide ? Math.min(448, window.innerWidth - 16) : 260)
+    const mobile = window.innerWidth < 700
+    const width = mobile
+      ? Math.min(window.innerWidth - 16, wide ? 420 : 320)
+      : panel?.offsetWidth || (wide ? Math.min(448, window.innerWidth - 16) : 260)
     const height = panel?.offsetHeight || 180
-    let left = Math.min(
-      Math.max(8, r.right - width),
-      window.innerWidth - width - 8,
-    )
-    let top = r.bottom + 8
-    if (top + height > window.innerHeight - 8) {
-      top = Math.max(8, r.top - height - 8)
+    let left: number
+    let top: number
+
+    if (mobile) {
+      // Centered sheet — reliable on small screens / notches.
+      left = Math.max(8, (window.innerWidth - width) / 2)
+      top = Math.max(8, Math.min(r.bottom + 8, window.innerHeight - height - 12))
+      if (top + height > window.innerHeight - 8) {
+        top = Math.max(8, window.innerHeight - height - 12)
+      }
+    } else {
+      left = Math.min(
+        Math.max(8, r.right - width),
+        window.innerWidth - width - 8,
+      )
+      top = r.bottom + 8
+      if (top + height > window.innerHeight - 8) {
+        top = Math.max(8, r.top - height - 8)
+      }
     }
-    // If still taller than viewport, pin to top and let panel scroll.
+
     if (height > window.innerHeight - 16) {
       top = 8
     }

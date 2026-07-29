@@ -23,8 +23,9 @@
   --radius-sm: 8px;
   --radius-slide: 0;
   --spread-gap: 0;
-  --nav-size: 2.75rem;
-  --touch-min: 2.75rem;
+  --nav-size: 2.5rem;
+  --touch-min: 2.4rem;
+  --hint-size: 2rem;
   --safe-top: env(safe-area-inset-top, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
   --safe-left: env(safe-area-inset-left, 0px);

@@ -25,9 +25,8 @@ export function SpreadViewer({
   const isSpread = mode === 'desktop'
   const chapter = getChapter(chapterId) ?? getChapter(defaultChapterId)!
 
-  // Keep enough vertical room for long Bengali titles, four hint controls,
-  // and multi-line scientific notation at every breakpoint.
-  const perPage = mode === 'desktop' ? 5 : mode === 'tablet' ? 4 : 3
+  // Keep mobile pages readable — fewer cards, scroll inside page if needed.
+  const perPage = mode === 'desktop' ? 5 : mode === 'tablet' ? 3 : 2
 
   const { pages, emptyFilter } = useMemo(() => {
     const source = formulasForChapter(chapterId)
@@ -113,7 +112,7 @@ export function SpreadViewer({
       const node = target as HTMLElement | null
       return Boolean(
         node?.closest(
-          '.formula-latex-col, .formula-latex, .nav-panel, .hint-popover, input, textarea',
+          '.formula-latex-col, .formula-latex, .formula-actions, .hint-wrap, .hint-popover, .nav-panel, .deck-chrome, input, textarea, button',
         ),
       )
     }
@@ -133,7 +132,9 @@ export function SpreadViewer({
       const dx = t.clientX - touchStart.current.x
       const dy = t.clientY - touchStart.current.y
       touchStart.current = null
-      if (Math.abs(dx) < 56 || Math.abs(dx) < Math.abs(dy) * 1.35) return
+      // Strong horizontal intent only — never fight vertical scroll.
+      if (Math.abs(dx) < 72) return
+      if (Math.abs(dx) < Math.abs(dy) * 1.8) return
       if (dx < 0) goNext()
       else goPrev()
     }
