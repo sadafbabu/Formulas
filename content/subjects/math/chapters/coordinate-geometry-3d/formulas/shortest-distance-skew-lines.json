@@ -1,0 +1,49 @@
+{
+  "id": "shortest-distance-skew-lines",
+  "chapter": "coordinate-geometry-3d",
+  "title": "Skew Lines Distance",
+  "titleBn": "অসন্মিল রেখার লম্ব দূরত্ব",
+  "summary": "দুই অসন্মিল রেখা",
+  "latex": "d=\\frac{|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|}{|\\vec b_1\\times\\vec b_2|}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "দুই অসন্মিল রেখা",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "d=\\frac{|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|}{|\\vec b_1\\times\\vec b_2|}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অসন্মিল রেখার লম্ব দূরত্ব এর মূল সূত্রটি লেখো।",
+      "answer": "d=\\frac{|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|}{|\\vec b_1\\times\\vec b_2|}"
+    }
+  ],
+  "memorize": {
+    "trick": "cross × dot; পরস্পর ছেদ করে না → skew。",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

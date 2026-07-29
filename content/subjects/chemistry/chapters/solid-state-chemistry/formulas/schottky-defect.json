@@ -1,17 +1,17 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "schottky-defect",
+  "chapter": "solid-state-chemistry",
+  "title": "Schottky Defect",
+  "titleBn": "শটকি ত্রুটি",
+  "summary": "cation+anion vacancy",
+  "latex": "\\text{Schottky: equal cation and anion vacancies}",
   "tags": [
     "hsc",
     "eng-admission",
     "varsity",
-    "2-star"
+    "1-star"
   ],
-  "importance": 2,
+  "importance": 1,
   "order": 50,
   "symbols": [
     {
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "cation+anion vacancy",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "\\text{Schottky: equal cation and anion vacancies}",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,16 +34,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "শটকি ত্রুটি এর মূল সূত্রটি লেখো।",
+      "answer": "\\text{Schottky: equal cation and anion vacancies}"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "Ionic solid-এ দুই vacancy; density decreases。",
     "steps": []
   },
   "subjects": [
-    "math"
+    "chemistry"
   ],
   "related": []
 }

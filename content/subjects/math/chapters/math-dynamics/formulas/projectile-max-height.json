@@ -1,18 +1,18 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "projectile-max-height",
+  "chapter": "math-dynamics",
+  "title": "Maximum Height",
+  "titleBn": "সর্বোচ্চ উচ্চতা",
+  "summary": "H=u²sin²θ/2g",
+  "latex": "H=\\frac{u^2\\sin^2\\theta}{2g}",
   "tags": [
     "hsc",
     "eng-admission",
     "varsity",
-    "2-star"
+    "3-star"
   ],
-  "importance": 2,
-  "order": 50,
+  "importance": 3,
+  "order": 20,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "H=u²sin²θ/2g",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "H=\\frac{u^2\\sin^2\\theta}{2g}",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "সর্বোচ্চ উচ্চতা এর মূল সূত্রটি লেখো।",
+      "answer": "H=\\frac{u^2\\sin^2\\theta}{2g}"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "শুধু vertical component u sinθ; H=v²/2g。",
     "steps": []
   },
   "subjects": [

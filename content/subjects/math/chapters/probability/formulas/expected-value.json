@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "expected-value",
+  "chapter": "probability",
+  "title": "Expected Value",
+  "titleBn": "প্রত্যাশিত মান",
+  "summary": "E(X)=ΣxP(x)",
+  "latex": "E(X)=\\sum x\\,P(x)",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 140,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "E(X)=ΣxP(x)",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "E(X)=\\sum x\\,P(x)",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "প্রত্যাশিত মান এর মূল সূত্রটি লেখো।",
+      "answer": "E(X)=\\sum x\\,P(x)"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "গড় = Σ(মান × সম্ভাব্যতা); MCQ-তে দ্রুত।",
     "steps": []
   },
   "subjects": [

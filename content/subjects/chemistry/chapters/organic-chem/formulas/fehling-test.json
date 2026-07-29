@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "fehling-test",
+  "chapter": "organic-chem",
+  "title": "Fehling's Test",
+  "titleBn": "ফেলিং পরীক্ষা",
+  "summary": "aldehyde detection",
+  "latex": "\\ce{RCHO + 2Cu(OH)2 -> RCOOH + Cu2O + 2H2O}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 190,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "aldehyde detection",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "\\ce{RCHO + 2Cu(OH)2 -> RCOOH + Cu2O + 2H2O}",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,16 +34,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "ফেলিং পরীক্ষা এর মূল সূত্রটি লেখো।",
+      "answer": "\\ce{RCHO + 2Cu(OH)2 -> RCOOH + Cu2O + 2H2O}"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "Aldehyde → red Cu₂O precipitate; ketone negative。",
     "steps": []
   },
   "subjects": [
-    "math"
+    "chemistry"
   ],
   "related": []
 }

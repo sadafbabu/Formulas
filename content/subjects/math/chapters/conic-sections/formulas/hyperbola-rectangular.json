@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "hyperbola-rectangular",
+  "chapter": "conic-sections",
+  "title": "Rectangular Hyperbola",
+  "titleBn": "সমকোণী অধিবৃত্ত",
+  "summary": "xy=c²",
+  "latex": "xy=c^2,\\quad e=\\sqrt{2}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 150,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "xy=c²",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "xy=c^2,\\quad e=\\sqrt{2}",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "সমকোণী অধিবৃত্ত এর মূল সূত্রটি লেখো।",
+      "answer": "xy=c^2,\\quad e=\\sqrt{2}"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "xy=c²-এ লঘুগামী y=±x; e=√2 স্থির।",
     "steps": []
   },
   "subjects": [

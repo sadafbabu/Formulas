@@ -1,18 +1,18 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "hyperbola-standard",
+  "chapter": "conic-sections",
+  "title": "Standard Hyperbola",
+  "titleBn": "মানক অধিবৃত্ত",
+  "summary": "x²/a²−y²/b²=1",
+  "latex": "\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1",
   "tags": [
     "hsc",
     "eng-admission",
     "varsity",
-    "2-star"
+    "3-star"
   ],
-  "importance": 2,
-  "order": 50,
+  "importance": 3,
+  "order": 110,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "x²/a²−y²/b²=1",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "মানক অধিবৃত্ত এর মূল সূত্রটি লেখো।",
+      "answer": "\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "c²=a²+b² (উপবৃত্তের উল্টো); e>1; শাখা x=±(b/a)y।",
     "steps": []
   },
   "subjects": [

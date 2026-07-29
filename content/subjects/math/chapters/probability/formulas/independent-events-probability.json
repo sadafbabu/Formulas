@@ -1,18 +1,18 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "independent-events-probability",
+  "chapter": "probability",
+  "title": "Independent Events",
+  "titleBn": "স্বাধীন ঘটনা",
+  "summary": "P(A∩B)=P(A)P(B)",
+  "latex": "P(A\\cap B)=P(A)P(B)",
   "tags": [
     "hsc",
     "eng-admission",
     "varsity",
-    "2-star"
+    "3-star"
   ],
-  "importance": 2,
-  "order": 50,
+  "importance": 3,
+  "order": 70,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "P(A∩B)=P(A)P(B)",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "P(A\\cap B)=P(A)P(B)",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "স্বাধীন ঘটনা এর মূল সূত্রটি লেখো।",
+      "answer": "P(A\\cap B)=P(A)P(B)"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "একটির ঘটনা অন্যটিকে প্রভাবিত করে না → গুণ।",
     "steps": []
   },
   "subjects": [

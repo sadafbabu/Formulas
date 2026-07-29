@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "parabola-parametric",
+  "chapter": "conic-sections",
+  "title": "Parametric Parabola",
+  "titleBn": "পরামিতিক পরাবৃত্ত",
+  "summary": "x=at², y=2at",
+  "latex": "x=at^2,\\quad y=2at",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 40,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "x=at², y=2at",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "x=at^2,\\quad y=2at",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "পরামিতিক পরাবৃত্ত এর মূল সূত্রটি লেখো।",
+      "answer": "x=at^2,\\quad y=2at"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "t = tan(θ/2) ধরে স্পর্শরেখা সহজ।",
     "steps": []
   },
   "subjects": [

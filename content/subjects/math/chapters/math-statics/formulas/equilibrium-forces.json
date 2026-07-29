@@ -1,18 +1,18 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "equilibrium-forces",
+  "chapter": "math-statics",
+  "title": "Equilibrium of Forces",
+  "titleBn": "বলের সাম্যাবস্থা",
+  "summary": "ΣF=0",
+  "latex": "\\sum F_x=0,\\quad \\sum F_y=0",
   "tags": [
     "hsc",
     "eng-admission",
     "varsity",
-    "2-star"
+    "3-star"
   ],
-  "importance": 2,
-  "order": 50,
+  "importance": 3,
+  "order": 10,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "ΣF=0",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "\\sum F_x=0,\\quad \\sum F_y=0",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "বলের সাম্যাবস্থা এর মূল সূত্রটি লেখো।",
+      "answer": "\\sum F_x=0,\\quad \\sum F_y=0"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "সাম্য = x ও y-তে বলের যোগফল শূন্য。",
     "steps": []
   },
   "subjects": [

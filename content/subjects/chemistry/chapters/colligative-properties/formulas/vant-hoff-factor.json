@@ -1,0 +1,49 @@
+{
+  "id": "vant-hoff-factor",
+  "chapter": "colligative-properties",
+  "title": "van't Hoff Factor",
+  "titleBn": "ভ্যান't হফ গুণক",
+  "summary": "i=observed/calculated",
+  "latex": "i=\\frac{\\text{observed colligative property}}{\\text{calculated (no dissociation)}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "i=observed/calculated",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "i=\\frac{\\text{observed colligative property}}{\\text{calculated (no dissociation)}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ভ্যান't হফ গুণক এর মূল সূত্রটি লেখো।",
+      "answer": "i=\\frac{\\text{observed colligative property}}{\\text{calculated (no dissociation)}}"
+    }
+  ],
+  "memorize": {
+    "trick": "Electrolyte-এ i>1; association-এ i<1。",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

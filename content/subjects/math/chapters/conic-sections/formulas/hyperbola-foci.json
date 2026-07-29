@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "hyperbola-foci",
+  "chapter": "conic-sections",
+  "title": "Hyperbola Foci",
+  "titleBn": "অধিবৃত্তের ফোকাস",
+  "summary": "ফোকাস (±c,0)",
+  "latex": "c^2=a^2+b^2,\\ \\text{Foci }(\\pm c,0)",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 120,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "ফোকাস (±c,0)",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "c^2=a^2+b^2,\\ \\text{Foci }(\\pm c,0)",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "অধিবৃত্তের ফোকাস এর মূল সূত্রটি লেখো।",
+      "answer": "c^2=a^2+b^2,\\ \\text{Foci }(\\pm c,0)"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "|PF₁−PF₂|=2a — অধিবৃত্ত সংজ্ঞা।",
     "steps": []
   },
   "subjects": [

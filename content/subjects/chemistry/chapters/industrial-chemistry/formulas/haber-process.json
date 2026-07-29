@@ -1,10 +1,10 @@
 {
-  "id": "integration-by-parts",
-  "chapter": "calculus",
-  "title": "Integration by Parts",
-  "titleBn": "অংশীয় যোগজীকরণ",
-  "summary": "∫u dv",
-  "latex": "\\int u\\,dv=uv-\\int v\\,du",
+  "id": "haber-process",
+  "chapter": "industrial-chemistry",
+  "title": "Haber Process",
+  "titleBn": "হ্যাবার পদ্ধতি",
+  "summary": "N₂+3H₂⇌2NH₃",
+  "latex": "\\ce{N2 + 3H2 <=> 2NH3};\\quad \\Delta H=-92\\ \\text{kJ/mol}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "3-star"
   ],
   "importance": 3,
-  "order": 160,
+  "order": 10,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "∫u dv",
+    "lead": "N₂+3H₂⇌2NH₃",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "\\int u\\,dv=uv-\\int v\\,du",
+        "latex": "\\ce{N2 + 3H2 <=> 2NH3};\\quad \\Delta H=-92\\ \\text{kJ/mol}",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,16 +34,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অংশীয় যোগজীকরণ এর মূল সূত্রটি লেখো।",
-      "answer": "\\int u\\,dv=uv-\\int v\\,du"
+      "question": "হ্যাবার পদ্ধতি এর মূল সূত্রটি লেখো।",
+      "answer": "\\ce{N2 + 3H2 <=> 2NH3};\\quad \\Delta H=-92\\ \\text{kJ/mol}"
     }
   ],
   "memorize": {
-    "trick": "LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u。",
+    "trick": "450°C, 200 atm, Fe catalyst; exothermic → low T favors product。",
     "steps": []
   },
   "subjects": [
-    "math"
+    "chemistry"
   ],
   "related": []
 }

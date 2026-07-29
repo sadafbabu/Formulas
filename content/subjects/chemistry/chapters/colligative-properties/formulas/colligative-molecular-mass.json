@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "colligative-molecular-mass",
+  "chapter": "colligative-properties",
+  "title": "Molar Mass from Colligative",
+  "titleBn": "সম্মিল গুণ থেকে mol ভর",
+  "summary": "M from ΔTb or π",
+  "latex": "M=\\frac{K_b w_B}{\\Delta T_b w_A}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 70,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "M from ΔTb or π",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "M=\\frac{K_b w_B}{\\Delta T_b w_A}",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,16 +34,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "সম্মিল গুণ থেকে mol ভর এর মূল সূত্রটি লেখো।",
+      "answer": "M=\\frac{K_b w_B}{\\Delta T_b w_A}"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "ΔTb বা π দিয়ে molar mass — HSC numerical favorite。",
     "steps": []
   },
   "subjects": [
-    "math"
+    "chemistry"
   ],
   "related": []
 }

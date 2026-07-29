@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "line-equation-3d-vector",
+  "chapter": "coordinate-geometry-3d",
+  "title": "Line Vector Form",
+  "titleBn": "রেখার ভেক্টর রূপ",
+  "summary": "r=a+λb",
+  "latex": "\\vec r=\\vec a+\\lambda\\vec b",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 60,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "r=a+λb",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "\\vec r=\\vec a+\\lambda\\vec b",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "রেখার ভেক্টর রূপ এর মূল সূত্রটি লেখো।",
+      "answer": "\\vec r=\\vec a+\\lambda\\vec b"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "a = বিন্দু, b = দিক্‌ভেক্টর; λ = প্যারামিটার。",
     "steps": []
   },
   "subjects": [

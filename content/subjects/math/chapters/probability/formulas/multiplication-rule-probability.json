@@ -1,18 +1,18 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "multiplication-rule-probability",
+  "chapter": "probability",
+  "title": "Multiplication Rule",
+  "titleBn": "গুণ নিয়ম",
+  "summary": "P(A∩B)",
+  "latex": "P(A\\cap B)=P(A)\\,P(B|A)=P(B)\\,P(A|B)",
   "tags": [
     "hsc",
     "eng-admission",
     "varsity",
-    "2-star"
+    "3-star"
   ],
-  "importance": 2,
-  "order": 50,
+  "importance": 3,
+  "order": 60,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "P(A∩B)",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "P(A\\cap B)=P(A)\\,P(B|A)=P(B)\\,P(A|B)",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "গুণ নিয়ম এর মূল সূত্রটি লেখো।",
+      "answer": "P(A\\cap B)=P(A)\\,P(B|A)=P(B)\\,P(A|B)"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "ক্রমিক ঘটনায় গুণ; স্বাধীন হলে P(B|A)=P(B)。",
     "steps": []
   },
   "subjects": [

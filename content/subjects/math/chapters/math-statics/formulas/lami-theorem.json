@@ -1,0 +1,49 @@
+{
+  "id": "lami-theorem",
+  "chapter": "math-statics",
+  "title": "Lami's Theorem",
+  "titleBn": "লামির উপপাদ্য",
+  "summary": "তিন বল সাম্য",
+  "latex": "\\frac{P}{\\sin\\alpha}=\\frac{Q}{\\sin\\beta}=\\frac{R}{\\sin\\gamma}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "তিন বল সাম্য",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{P}{\\sin\\alpha}=\\frac{Q}{\\sin\\beta}=\\frac{R}{\\sin\\gamma}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "লামির উপপাদ্য এর মূল সূত্রটি লেখো।",
+      "answer": "\\frac{P}{\\sin\\alpha}=\\frac{Q}{\\sin\\beta}=\\frac{R}{\\sin\\gamma}"
+    }
+  ],
+  "memorize": {
+    "trick": "প্রতিটি বল বিপরীত কোণের sin-এ ভাগ。",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

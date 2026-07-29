@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "inverse-function",
+  "chapter": "sets-functions",
+  "title": "Inverse Function",
+  "titleBn": "বিপরীত ফাংশন",
+  "summary": "f⁻¹",
+  "latex": "f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 90,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "f⁻¹",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": " বিপরীত ফাংশন এর মূল সূত্রটি লেখো।",
+      "answer": "f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "f⁻¹ exists iff f one-to-one; graph = mirror y=x。",
     "steps": []
   },
   "subjects": [

@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "mutually-exclusive-probability",
+  "chapter": "probability",
+  "title": "Mutually Exclusive Events",
+  "titleBn": "পরস্পর বর্জন ঘটনা",
+  "summary": "P(A∩B)=0",
+  "latex": "P(A\\cap B)=0\\Rightarrow P(A\\cup B)=P(A)+P(B)",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 40,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "P(A∩B)=0",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "P(A\\cap B)=0\\Rightarrow P(A\\cup B)=P(A)+P(B)",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "পরস্পর বর্জন ঘটনা এর মূল সূত্রটি লেখো।",
+      "answer": "P(A\\cap B)=0\\Rightarrow P(A\\cup B)=P(A)+P(B)"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "একসাথে ঘটতে পারে না → সরাসরি যোগ।",
     "steps": []
   },
   "subjects": [

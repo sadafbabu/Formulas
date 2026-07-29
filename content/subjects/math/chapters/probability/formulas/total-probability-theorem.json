@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "total-probability-theorem",
+  "chapter": "probability",
+  "title": "Total Probability",
+  "titleBn": "মোট সম্ভাব্যতা উপপাদ্য",
+  "summary": "P(B)=ΣP(Aᵢ)P(B|Aᵢ)",
+  "latex": "P(B)=\\sum_i P(A_i)P(B|A_i)",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 90,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "P(B)=ΣP(Aᵢ)P(B|Aᵢ)",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "P(B)=\\sum_i P(A_i)P(B|A_i)",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "মোট সম্ভাব্যতা উপপাদ্য এর মূল সূত্রটি লেখো।",
+      "answer": "P(B)=\\sum_i P(A_i)P(B|A_i)"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "বিভাজিত নমুনা ক্ষেত্র; Bayes-এর সাথে জোড়া।",
     "steps": []
   },
   "subjects": [

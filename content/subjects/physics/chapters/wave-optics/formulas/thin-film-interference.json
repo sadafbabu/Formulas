@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "thin-film-interference",
+  "chapter": "wave-optics",
+  "title": "Thin Film Interference",
+  "titleBn": "অপাতল স্তরে ব্যতিচার",
+  "summary": "2nt=(m+½)λ",
+  "latex": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 110,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "2nt=(m+½)λ",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,16 +34,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "অপাতল স্তরে ব্যতিচার এর মূল সূত্রটি লেখো।",
+      "answer": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "Phase reversal at one surface → half wavelength path difference。",
     "steps": []
   },
   "subjects": [
-    "math"
+    "physics"
   ],
   "related": []
 }

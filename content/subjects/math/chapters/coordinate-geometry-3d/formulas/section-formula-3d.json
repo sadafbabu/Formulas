@@ -1,0 +1,49 @@
+{
+  "id": "section-formula-3d",
+  "chapter": "coordinate-geometry-3d",
+  "title": "Section Formula 3D",
+  "titleBn": "অংশন সূত্র (৩D)",
+  "summary": "m:n অনুপাতে",
+  "latex": "\\left(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n},\\frac{mz_2+nz_1}{m+n}\\right)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "m:n অনুপাতে",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\left(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n},\\frac{mz_2+nz_1}{m+n}\\right)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অংশন সূত্র (৩D) এর মূল সূত্রটি লেখো।",
+      "answer": "\\left(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n},\\frac{mz_2+nz_1}{m+n}\\right)"
+    }
+  ],
+  "memorize": {
+    "trick": "2D section formula-এ z যোগ করলেই হয়。",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

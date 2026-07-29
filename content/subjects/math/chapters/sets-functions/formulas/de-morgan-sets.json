@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "de-morgan-sets",
+  "chapter": "sets-functions",
+  "title": "De Morgan's Laws (Sets)",
+  "titleBn": "ডি মরগানের সূত্র (সেট)",
+  "summary": "(A∪B)'=(A'∩B')",
+  "latex": "(A\\cup B)'=A'\\cap B'\\quad;(A\\cap B)'=A'\\cup B'",
   "tags": [
     "hsc",
     "eng-admission",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "(A∪B)'=(A'∩B')",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "(A\\cup B)'=A'\\cap B'\\quad;(A\\cap B)'=A'\\cup B'",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "ডি মরগানের সূত্র (সেট) এর মূল সূত্রটি লেখো।",
+      "answer": "(A\\cup B)'=A'\\cap B'\\quad;(A\\cap B)'=A'\\cup B'"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "Union↔Intersection উল্টো; complement বাইরে।",
     "steps": []
   },
   "subjects": [

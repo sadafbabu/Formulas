@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "projectile-equation-path",
+  "chapter": "math-dynamics",
+  "title": "Projectile Path",
+  "titleBn": "ক্ষিপ্ত পথের সমীকরণ",
+  "summary": "y=x tanθ−...",
+  "latex": "y=x\\tan\\theta-\\frac{gx^2}{2u^2\\cos^2\\theta}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 40,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "y=x tanθ−...",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "y=x\\tan\\theta-\\frac{gx^2}{2u^2\\cos^2\\theta}",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "ক্ষিপ্ত পথের সমীকরণ এর মূল সূত্রটি লেখো।",
+      "answer": "y=x\\tan\\theta-\\frac{gx^2}{2u^2\\cos^2\\theta}"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "x elim করে parabolic path; g/2u²cos²θ coefficient。",
     "steps": []
   },
   "subjects": [

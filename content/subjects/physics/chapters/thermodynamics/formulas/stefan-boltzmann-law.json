@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "stefan-boltzmann-law",
+  "chapter": "thermodynamics",
+  "title": "Stefan-Boltzmann Law",
+  "titleBn": "স্টিফান-বোল্টজম্যান সূত্র",
+  "summary": "P=σAT⁴",
+  "latex": "P=\\sigma A T^4",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 120,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "P=σAT⁴",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "P=\\sigma A T^4",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,16 +34,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "স্টিফান-বোল্টজম্যান সূত্র এর মূল সূত্রটি লেখো।",
+      "answer": "P=\\sigma A T^4"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "Radiated power ∝ T⁴; σ=5.67×10⁻⁸ W/m²K⁴。",
     "steps": []
   },
   "subjects": [
-    "math"
+    "physics"
   ],
   "related": []
 }

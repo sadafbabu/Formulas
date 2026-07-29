@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "projectile-range-max-angle",
+  "chapter": "math-dynamics",
+  "title": "Max Range Angle",
+  "titleBn": "সর্বোচ্চ পালার কোণ",
+  "summary": "θ=45°",
+  "latex": "R_{\\max}=\\frac{u^2}{g}\\quad\\text{at }\\theta=45^\\circ",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 60,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "θ=45°",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "R_{\\max}=\\frac{u^2}{g}\\quad\\text{at }\\theta=45^\\circ",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "সর্বোচ্চ পালার কোণ এর মূল সূত্রটি লেখো।",
+      "answer": "R_{\\max}=\\frac{u^2}{g}\\quad\\text{at }\\theta=45^\\circ"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "sin2θ max at 45°; same level থেকে ছোড়লে。",
     "steps": []
   },
   "subjects": [

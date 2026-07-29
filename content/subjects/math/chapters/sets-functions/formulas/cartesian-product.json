@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "cartesian-product",
+  "chapter": "sets-functions",
+  "title": "Cartesian Product",
+  "titleBn": "কার্তesian গুণফল",
+  "summary": "A×B",
+  "latex": "A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 60,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "A×B",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "কার্তesian গুণফল এর মূল সূত্রটি লেখো।",
+      "answer": "A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "|A×B|=|A|·|B|; ordered pair。",
     "steps": []
   },
   "subjects": [

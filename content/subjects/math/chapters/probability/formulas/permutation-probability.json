@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "permutation-probability",
+  "chapter": "probability",
+  "title": "Permutation in Probability",
+  "titleBn": "ক্রমবিন্যাসে সম্ভাব্যতা",
+  "summary": "n!/(n−r)!",
+  "latex": "P=\\frac{\\text{favourable permutations}}{n!}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 130,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "n!/(n−r)!",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "P=\\frac{\\text{favourable permutations}}{n!}",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "ক্রমবিন্যাসে সম্ভাব্যতা এর মূল সূত্রটি লেখো।",
+      "answer": "P=\\frac{\\text{favourable permutations}}{n!}"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr。",
     "steps": []
   },
   "subjects": [

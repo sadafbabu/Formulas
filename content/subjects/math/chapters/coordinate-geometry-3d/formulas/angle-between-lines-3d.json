@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "angle-between-lines-3d",
+  "chapter": "coordinate-geometry-3d",
+  "title": "Angle Between Lines 3D",
+  "titleBn": "৩D-এ রেখার মধ্যবর্তী কোণ",
+  "summary": "cosθ=|l₁l₂+m₁m₂+n₁n₂|",
+  "latex": "\\cos\\theta=|l_1l_2+m_1m_2+n_1n_2|",
   "tags": [
     "hsc",
     "eng-admission",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "cosθ=|l₁l₂+m₁m₂+n₁n₂|",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "\\cos\\theta=|l_1l_2+m_1m_2+n_1n_2|",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "৩D-এ রেখার মধ্যবর্তী কোণ এর মূল সূত্রটি লেখো।",
+      "answer": "\\cos\\theta=|l_1l_2+m_1m_2+n_1n_2|"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "DC-এর dot product; DR দিয়ে সহজ।",
     "steps": []
   },
   "subjects": [

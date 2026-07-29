@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "conic-general-second-degree",
+  "chapter": "conic-sections",
+  "title": "General Second Degree",
+  "titleBn": "সাধারণ দ্বিঘাত সমীকরণ",
+  "summary": "Ax²+Bxy+Cy²+...=0",
+  "latex": "Ax^2+Bxy+Cy^2+Dx+Ey+F=0",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 170,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "Ax²+Bxy+Cy²+...=0",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "Ax^2+Bxy+Cy^2+Dx+Ey+F=0",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "সাধারণ দ্বিঘাত সমীকরণ এর মূল সূত্রটি লেখো।",
+      "answer": "Ax^2+Bxy+Cy^2+Dx+Ey+F=0"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "B²−4AC দিয়ে কোনিক চেনা: <0 উপবৃত্ত, =0 পরাবৃত্ত, >0 অধিবৃত্ত।",
     "steps": []
   },
   "subjects": [

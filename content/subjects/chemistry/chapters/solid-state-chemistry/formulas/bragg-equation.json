@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "bragg-equation",
+  "chapter": "solid-state-chemistry",
+  "title": "Bragg's Equation",
+  "titleBn": "ব্র্যাগের সমীকরণ",
+  "summary": "nλ=2d sinθ",
+  "latex": "n\\lambda=2d\\sin\\theta",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 40,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "nλ=2d sinθ",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "n\\lambda=2d\\sin\\theta",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,16 +34,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "ব্র্যাগের সমীকরণ এর মূল সূত্রটি লেখো।",
+      "answer": "n\\lambda=2d\\sin\\theta"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "X-ray diffraction; n=order, d=interplanar spacing。",
     "steps": []
   },
   "subjects": [
-    "math"
+    "chemistry"
   ],
   "related": []
 }

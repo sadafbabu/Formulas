@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "set-union",
+  "chapter": "sets-functions",
+  "title": "Set Union",
+  "titleBn": "সেটের যোগ",
+  "summary": "A∪B",
+  "latex": "A\\cup B=\\{x:x\\in A\\text{ or }x\\in B\\}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 10,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "A∪B",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "A\\cup B=\\{x:x\\in A\\text{ or }x\\in B\\}",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "সেটের যোগ এর মূল সূত্রটি লেখো।",
+      "answer": "A\\cup B=\\{x:x\\in A\\text{ or }x\\in B\\}"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।",
     "steps": []
   },
   "subjects": [

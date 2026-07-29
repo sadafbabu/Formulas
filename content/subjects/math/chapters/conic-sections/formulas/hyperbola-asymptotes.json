@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "hyperbola-asymptotes",
+  "chapter": "conic-sections",
+  "title": "Hyperbola Asymptotes",
+  "titleBn": "অধিবৃত্তের লঘুগামী",
+  "summary": "y=±(b/a)x",
+  "latex": "y=\\pm\\frac{b}{a}x",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 130,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "y=±(b/a)x",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "y=\\pm\\frac{b}{a}x",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "অধিবৃত্তের লঘুগামী এর মূল সূত্রটি লেখো।",
+      "answer": "y=\\pm\\frac{b}{a}x"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "লঘুগামী x²/a²−y²/b²=0; কেন্দ্রে মিলে।",
     "steps": []
   },
   "subjects": [

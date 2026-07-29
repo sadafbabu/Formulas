@@ -1,10 +1,10 @@
 {
-  "id": "integration-by-parts",
-  "chapter": "calculus",
-  "title": "Integration by Parts",
-  "titleBn": "অংশীয় যোগজীকরণ",
-  "summary": "∫u dv",
-  "latex": "\\int u\\,dv=uv-\\int v\\,du",
+  "id": "triangle-of-forces",
+  "chapter": "math-statics",
+  "title": "Triangle of Forces",
+  "titleBn": "বলের ত্রিভুজ",
+  "summary": "Lami's theorem",
+  "latex": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "3-star"
   ],
   "importance": 3,
-  "order": 160,
+  "order": 20,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "∫u dv",
+    "lead": "Lami's theorem",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "\\int u\\,dv=uv-\\int v\\,du",
+        "latex": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অংশীয় যোগজীকরণ এর মূল সূত্রটি লেখো।",
-      "answer": "\\int u\\,dv=uv-\\int v\\,du"
+      "question": "বলের ত্রিভুজ এর মূল সূত্রটি লেখো।",
+      "answer": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}"
     }
   ],
   "memorize": {
-    "trick": "LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u。",
+    "trick": "তিন বল সাম্য → Lami: F/sin( opposite angle )。",
     "steps": []
   },
   "subjects": [

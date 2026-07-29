@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "even-odd-function",
+  "chapter": "sets-functions",
+  "title": "Even & Odd Functions",
+  "titleBn": "জোড় ও বিজোড় ফাংশন",
+  "summary": "f(−x)",
+  "latex": "f(-x)=f(x)\\text{ (even)};\\quad f(-x)=-f(x)\\text{ (odd)}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 100,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "f(−x)",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "f(-x)=f(x)\\text{ (even)};\\quad f(-x)=-f(x)\\text{ (odd)}",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "জোড় ও বিজোড় ফাংশন এর মূল সূত্রটি লেখো।",
+      "answer": "f(-x)=f(x)\\text{ (even)};\\quad f(-x)=-f(x)\\text{ (odd)}"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "Even → y-axis symmetry; Odd → origin symmetry。",
     "steps": []
   },
   "subjects": [

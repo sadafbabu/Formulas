@@ -1,18 +1,18 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "sphere-equation",
+  "chapter": "coordinate-geometry-3d",
+  "title": "Sphere Equation",
+  "titleBn": "গোলকের সমীকরণ",
+  "summary": "(x−a)²+...",
+  "latex": "(x-a)^2+(y-b)^2+(z-c)^2=r^2",
   "tags": [
     "hsc",
     "eng-admission",
     "varsity",
-    "2-star"
+    "3-star"
   ],
-  "importance": 2,
-  "order": 50,
+  "importance": 3,
+  "order": 120,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "(x−a)²+...",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "(x-a)^2+(y-b)^2+(z-c)^2=r^2",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "গোলকের সমীকরণ এর মূল সূত্রটি লেখো।",
+      "answer": "(x-a)^2+(y-b)^2+(z-c)^2=r^2"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "কেন্দ্র (a,b,c), ব্যাসার্ধ r; 2D বৃত্তের 3D সংস্করণ。",
     "steps": []
   },
   "subjects": [

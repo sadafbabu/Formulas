@@ -1,0 +1,49 @@
+{
+  "id": "conic-discriminant-type",
+  "chapter": "conic-sections",
+  "title": "Conic Discriminant",
+  "titleBn": "কোনিক পৃথককারী",
+  "summary": "B²−4AC",
+  "latex": "\\Delta=B^2-4AC\\begin{cases}<0 & \\text{ellipse}\\\\=0 & \\text{parabola}\\\\>0 & \\text{hyperbola}\\end{cases}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 180,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "B²−4AC",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\Delta=B^2-4AC\\begin{cases}<0 & \\text{ellipse}\\\\=0 & \\text{parabola}\\\\>0 & \\text{hyperbola}\\end{cases}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কোনিক পৃথককারী এর মূল সূত্রটি লেখো।",
+      "answer": "\\Delta=B^2-4AC\\begin{cases}<0 & \\text{ellipse}\\\\=0 & \\text{parabola}\\\\>0 & \\text{hyperbola}\\end{cases}"
+    }
+  ],
+  "memorize": {
+    "trick": "Δ=B²−4AC — HSC-তে কোনিক শনাক্তকরণের মূল চাবি।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

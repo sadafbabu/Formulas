@@ -51,14 +51,21 @@ const chapterList: Omit<ChapterMeta, 'formulaCount' | 'isReady'>[] = [
   { id: 'qualitative-chem', slug: 'qualitative-chem', name: 'Qualitative Chemistry', nameBn: 'গুণগত রসায়ন', subjectId: 'chemistry', paperId: '1st-paper', order: 2 },
   { id: 'chemical-bonding', slug: 'chemical-bonding', name: 'Chemical Bonding & Structure', nameBn: 'পর্যায়বৃত্ত ধর্ম ও রাসায়নিক বন্ধন', subjectId: 'chemistry', paperId: '1st-paper', order: 3 },
   { id: 'chemical-equilibrium', slug: 'chemical-equilibrium', name: 'Chemical Equilibrium & Kinetics', nameBn: 'রাসায়নিক পরিবর্তন ও সাম্যাবস্থা', subjectId: 'chemistry', paperId: '1st-paper', order: 4 },
+  { id: 'solid-state-chemistry', slug: 'solid-state-chemistry', name: 'Solid State Chemistry', nameBn: 'কঠিন অবস্থা', subjectId: 'chemistry', paperId: '1st-paper', order: 5 },
 
   // Chemistry 2nd Paper
   { id: 'organic-chem', slug: 'organic-chem', name: 'Organic Chemistry', nameBn: 'জৈব রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 2 },
+  { id: 'colligative-properties', slug: 'colligative-properties', name: 'Colligative Properties', nameBn: 'সম্মিল গুণ', subjectId: 'chemistry', paperId: '2nd-paper', order: 3 },
   { id: 'electrochemistry', slug: 'electrochemistry', name: 'Electrochemistry', nameBn: 'তড়িৎ রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 4 },
+  { id: 'coordination-chemistry', slug: 'coordination-chemistry', name: 'Coordination Chemistry', nameBn: 'সমন্বয় রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 5 },
+  { id: 'industrial-chemistry', slug: 'industrial-chemistry', name: 'Industrial Chemistry', nameBn: 'শিল্প রসায়ন', subjectId: 'chemistry', paperId: '2nd-paper', order: 6 },
 
   // Higher Math 1st Paper
+  { id: 'sets-functions', slug: 'sets-functions', name: 'Sets & Functions', nameBn: 'সেট ও ফাংশন', subjectId: 'math', paperId: '1st-paper', order: 1 },
   { id: 'matrix-determinant', slug: 'matrix-determinant', name: 'Matrices & Determinants', nameBn: 'ম্যাট্রিক্স ও নির্ণায়ক', subjectId: 'math', paperId: '1st-paper', order: 2 },
   { id: 'straight-lines', slug: 'straight-lines', name: 'Straight Lines', nameBn: 'সরলরেখা', subjectId: 'math', paperId: '1st-paper', order: 3 },
+  { id: 'math-statics', slug: 'math-statics', name: 'Statics (Math)', nameBn: 'স্থিতিবিদ্যা (গণিত)', subjectId: 'math', paperId: '1st-paper', order: 10 },
+  { id: 'math-dynamics', slug: 'math-dynamics', name: 'Dynamics (Math)', nameBn: 'গতিবিদ্যা (গণিত)', subjectId: 'math', paperId: '1st-paper', order: 11 },
   { id: 'calculus', slug: 'calculus', name: 'Calculus & Integration', nameBn: 'ক্যালকুলাস ও যোগজীকরণ', subjectId: 'math', paperId: '1st-paper', order: 9 },
 
   // Higher Math 2nd Paper
@@ -67,6 +74,10 @@ const chapterList: Omit<ChapterMeta, 'formulaCount' | 'isReady'>[] = [
   { id: 'binomial-theorem', slug: 'binomial-theorem', name: 'Binomial Theorem', nameBn: 'দ্বিপদী উপপাদ্য', subjectId: 'math', paperId: '2nd-paper', order: 5 },
   { id: 'permutation-combination', slug: 'permutation-combination', name: 'Permutations & Combinations', nameBn: 'ক্রমবিন্যাস ও সমাবেশ', subjectId: 'math', paperId: '2nd-paper', order: 6 },
   { id: 'trigonometric-equations', slug: 'trigonometric-equations', name: 'Trigonometric Equations', nameBn: 'ত্রিকোণমিতিক সমীকরণ', subjectId: 'math', paperId: '2nd-paper', order: 7 },
+  { id: 'conic-sections', slug: 'conic-sections', name: 'Conic Sections', nameBn: 'কোনিক অংশ', subjectId: 'math', paperId: '2nd-paper', order: 8 },
+  { id: 'probability', slug: 'probability', name: 'Probability', nameBn: 'সম্ভাব্যতা', subjectId: 'math', paperId: '2nd-paper', order: 9 },
+  { id: 'coordinate-geometry-3d', slug: 'coordinate-geometry-3d', name: '3D Coordinate Geometry', nameBn: 'ত্রিমাত্রিক স্থানাঙ্ক জ্যামিতি', subjectId: 'math', paperId: '2nd-paper', order: 10 },
+  { id: 'linear-programming', slug: 'linear-programming', name: 'Linear Programming', nameBn: 'রৈখিক প্রোগ্রামিং', subjectId: 'math', paperId: '2nd-paper', order: 11 },
 ]
 
 /**

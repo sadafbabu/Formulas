@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "couple-moment",
+  "chapter": "math-statics",
+  "title": "Couple Moment",
+  "titleBn": "দম্পতি বলের ভ্রাম",
+  "summary": "M=Fd",
+  "latex": "M=F\\,d",
   "tags": [
     "hsc",
     "eng-admission",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "M=Fd",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "M=F\\,d",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "দম্পতি বলের ভ্রাম এর মূল সূত্রটি লেখো।",
+      "answer": "M=F\\,d"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "দুই সমান বিপরীত বল; moment = F×distance between。",
     "steps": []
   },
   "subjects": [

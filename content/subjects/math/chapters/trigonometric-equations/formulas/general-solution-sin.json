@@ -1,10 +1,10 @@
 {
-  "id": "integration-by-parts",
-  "chapter": "calculus",
-  "title": "Integration by Parts",
-  "titleBn": "অংশীয় যোগজীকরণ",
-  "summary": "∫u dv",
-  "latex": "\\int u\\,dv=uv-\\int v\\,du",
+  "id": "general-solution-sin",
+  "chapter": "trigonometric-equations",
+  "title": "General Solution sinθ=k",
+  "titleBn": "sinθ=k-এর সাধারণ সমাধান",
+  "summary": "θ=nπ+(−1)ⁿα",
+  "latex": "\\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "3-star"
   ],
   "importance": 3,
-  "order": 160,
+  "order": 150,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "∫u dv",
+    "lead": "θ=nπ+(−1)ⁿα",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "\\int u\\,dv=uv-\\int v\\,du",
+        "latex": "\\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অংশীয় যোগজীকরণ এর মূল সূত্রটি লেখো।",
-      "answer": "\\int u\\,dv=uv-\\int v\\,du"
+      "question": "sinθ=k-এর সাধারণ সমাধান এর মূল সূত্রটি লেখো।",
+      "answer": "\\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k"
     }
   ],
   "memorize": {
-    "trick": "LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u。",
+    "trick": "Principal α first; then nπ+(−1)ⁿα pattern。",
     "steps": []
   },
   "subjects": [

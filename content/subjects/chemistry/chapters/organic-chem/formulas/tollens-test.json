@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "tollens-test",
+  "chapter": "organic-chem",
+  "title": "Tollens' Test",
+  "titleBn": "টollen's পরীক্ষা",
+  "summary": "silver mirror",
+  "latex": "\\ce{RCHO + 2Ag(NH3)2+ + 3OH- -> RCOO- + 2Ag + 4NH3 + 2H2O}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 200,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "silver mirror",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "\\ce{RCHO + 2Ag(NH3)2+ + 3OH- -> RCOO- + 2Ag + 4NH3 + 2H2O}",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,16 +34,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "টollen's পরীক্ষা এর মূল সূত্রটি লেখো।",
+      "answer": "\\ce{RCHO + 2Ag(NH3)2+ + 3OH- -> RCOO- + 2Ag + 4NH3 + 2H2O}"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "Aldehyde → silver mirror; distinguishes from ketone。",
     "steps": []
   },
   "subjects": [
-    "math"
+    "chemistry"
   ],
   "related": []
 }

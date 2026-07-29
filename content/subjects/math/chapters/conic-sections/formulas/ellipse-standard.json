@@ -1,17 +1,17 @@
 {
-  "id": "cramers-rule",
-  "chapter": "matrix-determinant",
-  "title": "Cramer's Rule",
-  "titleBn": "ক্রেমারের নিয়ম",
-  "summary": "x=Δx/Δ",
-  "latex": "x=\\frac{\\Delta_x}{\\Delta},\\quad y=\\frac{\\Delta_y}{\\Delta}",
+  "id": "ellipse-standard",
+  "chapter": "conic-sections",
+  "title": "Standard Ellipse",
+  "titleBn": "মানক উপবৃত্ত",
+  "summary": "x²/a²+y²/b²=1",
+  "latex": "\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1\\quad(a>b)",
   "tags": [
     "hsc",
     "eng-admission",
     "varsity",
-    "2-star"
+    "3-star"
   ],
-  "importance": 2,
+  "importance": 3,
   "order": 60,
   "symbols": [
     {
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "x=Δx/Δ",
+    "lead": "x²/a²+y²/b²=1",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "x=\\frac{\\Delta_x}{\\Delta},\\quad y=\\frac{\\Delta_y}{\\Delta}",
+        "latex": "\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1\\quad(a>b)",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,12 +34,12 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্রেমারের নিয়ম এর মূল সূত্রটি লেখো।",
-      "answer": "x=\\frac{\\Delta_x}{\\Delta},\\quad y=\\frac{\\Delta_y}{\\Delta}"
+      "question": "মানক উপবৃত্ত এর মূল সূত্রটি লেখো।",
+      "answer": "\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1\\quad(a>b)"
     }
   ],
   "memorize": {
-    "trick": "Δ=main determinant; Δx = x-column replace。",
+    "trick": "a = বৃহত্তর অর্ধ-অক্ষ; c²=a²−b²; ইকসেন্ট্রিসিটি e=c/a<1।",
     "steps": []
   },
   "subjects": [

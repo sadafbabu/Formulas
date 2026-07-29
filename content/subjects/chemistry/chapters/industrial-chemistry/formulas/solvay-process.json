@@ -1,10 +1,10 @@
 {
-  "id": "circular-permutation",
-  "chapter": "permutation-combination",
-  "title": "Circular Permutation",
-  "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "(n−1)!",
-  "latex": "P_{\\text{circular}}=(n-1)!",
+  "id": "solvay-process",
+  "chapter": "industrial-chemistry",
+  "title": "Solvay Process",
+  "titleBn": "সলভে পদ্ধতি",
+  "summary": "Na₂CO₃ production",
+  "latex": "\\ce{2NaCl + CaCO3 -> Na2CO3 + CaCl2}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -12,7 +12,7 @@
     "2-star"
   ],
   "importance": 2,
-  "order": 50,
+  "order": 40,
   "symbols": [
     {
       "symbol": "—",
@@ -21,11 +21,11 @@
     }
   ],
   "derivation": {
-    "lead": "(n−1)!",
+    "lead": "Na₂CO₃ production",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "latex": "\\ce{2NaCl + CaCO3 -> Na2CO3 + CaCl2}",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,16 +34,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "সলভে পদ্ধতি এর মূল সূত্রটি লেখো।",
+      "answer": "\\ce{2NaCl + CaCO3 -> Na2CO3 + CaCl2}"
     }
   ],
   "memorize": {
-    "trick": "Linear n! → Circular (n−1)!; one fixed point。",
+    "trick": "NH₃ + CO₂ + brine → NaHCO₃ → Na₂CO₃; byproduct CaCl₂。",
     "steps": []
   },
   "subjects": [
-    "math"
+    "chemistry"
   ],
   "related": []
 }

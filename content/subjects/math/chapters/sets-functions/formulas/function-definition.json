@@ -1,0 +1,49 @@
+{
+  "id": "function-definition",
+  "chapter": "sets-functions",
+  "title": "Function Definition",
+  "titleBn": "ফাংশনের সংজ্ঞা",
+  "summary": "f:A→B",
+  "latex": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "f:A→B",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ফাংশনের সংজ্ঞা এর মূল সূত্রটি লেখো।",
+      "answer": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b"
+    }
+  ],
+  "memorize": {
+    "trick": "প্রতিটি input-এ exactly এক output — MCQ-তে function test。",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}
