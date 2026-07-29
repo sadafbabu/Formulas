@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import {
   buildPages,
   defaultChapterId,
+  formulas,
   formulasForChapter,
   getChapter,
 } from '../data/catalog'
@@ -14,19 +15,25 @@ interface SpreadViewerProps {
   activeTag?: TagId | null
   query?: string
   chapterId?: string
+  page?: number
+  onPageChange?: (page: number) => void
+  onClearQuery?: () => void
+  onClearTag?: () => void
 }
 
 export function SpreadViewer({
   activeTag,
   query = '',
   chapterId = defaultChapterId,
+  page = 1,
+  onPageChange,
+  onClearQuery,
+  onClearTag,
 }: SpreadViewerProps) {
   const mode = useLayoutMode()
   const isSpread = mode === 'desktop'
   const chapter = getChapter(chapterId) ?? getChapter(defaultChapterId)!
 
-  // Keep enough vertical room for long Bengali titles, four hint controls,
-  // and multi-line scientific notation at every breakpoint.
   const perPage = mode === 'desktop' ? 5 : mode === 'tablet' ? 4 : 3
 
   const { pages, emptyFilter } = useMemo(() => {
@@ -37,6 +44,11 @@ export function SpreadViewer({
     }
     return { pages: buildPages(filtered, perPage), emptyFilter: false }
   }, [activeTag, query, chapterId, perPage])
+
+  const globalMatchCount = useMemo(() => {
+    if (!query.trim()) return 0
+    return formulas.filter((f) => matchFormula(f, query, null)).length
+  }, [query])
 
   const [pageIndex, setPageIndex] = useState(0)
   const [dir, setDir] = useState<'next' | 'prev' | 'none'>('none')
@@ -51,6 +63,13 @@ export function SpreadViewer({
     setAnimKey((k) => k + 1)
   }, [activeTag, query, chapterId, mode])
 
+  useEffect(() => {
+    if (emptyFilter || !pages.length) return
+    const desired = Math.min(Math.max(0, page - 1), pages.length - 1)
+    const aligned = isSpread ? desired - (desired % 2) : desired
+    setPageIndex((current) => (current === aligned ? current : aligned))
+  }, [page, pages.length, emptyFilter, isSpread])
+
   const maxPage = Math.max(0, pages.length - 1)
   const safePage = Math.min(pageIndex, maxPage)
   const maxSpread = Math.max(0, Math.ceil(pages.length / 2) - 1)
@@ -59,6 +78,13 @@ export function SpreadViewer({
   const right = pages[safeSpread * 2 + 1]
   const singleWide = Boolean(left && !right)
   const mobilePage = pages[safePage]
+
+  useEffect(() => {
+    if (!onPageChange || emptyFilter) return
+    const oneBased = safePage + 1
+    if (oneBased === page) return
+    onPageChange(oneBased)
+  }, [safePage, page, onPageChange, emptyFilter])
 
   const progress = isSpread
     ? pages.length <= 1
@@ -113,7 +139,7 @@ export function SpreadViewer({
       const node = target as HTMLElement | null
       return Boolean(
         node?.closest(
-          '.formula-latex-col, .formula-latex, .nav-panel, .hint-popover, input, textarea',
+          'a, button, .formula-latex-col, .formula-latex, .nav-panel, .hint-popover, input, textarea, [role="dialog"], [role="button"]',
         ),
       )
     }
@@ -138,19 +164,23 @@ export function SpreadViewer({
       else goPrev()
     }
 
+    const onTouchCancel = () => {
+      touchStart.current = null
+    }
+
     el.addEventListener('touchstart', onTouchStart, { passive: true })
     el.addEventListener('touchend', onTouchEnd, { passive: true })
+    el.addEventListener('touchcancel', onTouchCancel, { passive: true })
     return () => {
       el.removeEventListener('touchstart', onTouchStart)
       el.removeEventListener('touchend', onTouchEnd)
+      el.removeEventListener('touchcancel', onTouchCancel)
     }
   }, [isSpread, goNext, goPrev])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const target = e.target as HTMLElement | null
-      // Don't steal Space/arrows from typing or from focused controls
-      // (Space on a button would otherwise both activate it and flip the page).
       if (
         target?.closest(
           'input, textarea, select, button, a, [contenteditable="true"], [role="dialog"], [role="button"], [role="menuitem"]',
@@ -167,11 +197,15 @@ export function SpreadViewer({
         goNext()
       }
       if (e.key === ' ' || e.key === 'Spacebar') {
-        // Don't steal Space while a page body can still scroll.
         const bodies = document.querySelectorAll('.spread-stage .page-body')
         for (const node of bodies) {
           const el = node as HTMLElement
-          if (el.scrollHeight > el.clientHeight + 2) return
+          // Only skip page-turn while this page can still scroll down.
+          if (el.scrollHeight > el.clientHeight + 2) {
+            const remaining =
+              el.scrollHeight - el.scrollTop - el.clientHeight
+            if (remaining > 4) return
+          }
         }
         e.preventDefault()
         goNext()
@@ -191,12 +225,14 @@ export function SpreadViewer({
     const hasQuery = query.trim().length > 0
     const hasTag = Boolean(activeTag)
     const emptyTitle = hasQuery
-      ? 'খোঁজে কোনো সূত্র মিলেনি'
+      ? 'এই অধ্যায়ে খোঁজে কোনো সূত্র মিলেনি'
       : hasTag
         ? 'এই tag-এ কোনো সূত্র নেই'
         : 'এই অধ্যায়ে সূত্র নেই'
     const emptyHint = hasQuery
-      ? 'অন্য কীওয়ার্ড দিয়ে খুঁজুন বা সার্চ খালি করুন'
+      ? globalMatchCount > 0
+        ? `অন্য অধ্যায়ে ${globalMatchCount} মিল আছে — মেনু থেকে খুলুন, বা সার্চ মুছুন`
+        : 'অন্য কীওয়ার্ড দিয়ে খুঁজুন বা সার্চ খালি করুন'
       : hasTag
         ? 'উপর থেকে All বা অন্য tag বেছে নিন'
         : 'মেনু থেকে অন্য অধ্যায় খুলুন'
@@ -205,10 +241,69 @@ export function SpreadViewer({
         <div className="empty-filter">
           <p>{emptyTitle}</p>
           <span>{emptyHint}</span>
+          <div className="empty-filter-actions">
+            {hasQuery && onClearQuery ? (
+              <button type="button" className="empty-action" onClick={onClearQuery}>
+                সার্চ মুছুন
+              </button>
+            ) : null}
+            {hasTag && onClearTag ? (
+              <button type="button" className="empty-action" onClick={onClearTag}>
+                Tag মুছুন
+              </button>
+            ) : null}
+          </div>
         </div>
       </div>
     )
   }
+
+  const chrome = (
+    <div className="deck-chrome">
+      <div className="progress-track" aria-hidden="true">
+        <div className="progress-fill" style={{ width: `${progress * 100}%` }} />
+      </div>
+      <div className="page-nav-row">
+        <button
+          type="button"
+          className="page-turn"
+          aria-label="Previous page"
+          disabled={atStart}
+          onClick={goPrev}
+        >
+          ‹
+        </button>
+        <div className="page-indicator" aria-live="polite">
+          {isSpread ? (
+            <>
+              <span>
+                {right
+                  ? `${String(left.pageNumber).padStart(2, '0')}–${String(right.pageNumber).padStart(2, '0')}`
+                  : `${String(left.pageNumber).padStart(2, '0')}`}
+              </span>
+              <span className="page-indicator-sep">/</span>
+              <span>{String(pages.length).padStart(2, '0')}</span>
+            </>
+          ) : (
+            <>
+              <span>{String(safePage + 1).padStart(2, '0')}</span>
+              <span className="page-indicator-sep">/</span>
+              <span>{String(pages.length).padStart(2, '0')}</span>
+            </>
+          )}
+        </div>
+        <button
+          type="button"
+          className="page-turn"
+          aria-label="Next page"
+          disabled={atEnd}
+          onClick={goNext}
+        >
+          ›
+        </button>
+      </div>
+    </div>
+  )
 
   return (
     <div className={`spread-stage mode-${mode}`}>
@@ -258,40 +353,7 @@ export function SpreadViewer({
             )}
           </div>
 
-          <div className="deck-chrome">
-            <div className="progress-track" aria-hidden="true">
-              <div className="progress-fill" style={{ width: `${progress * 100}%` }} />
-            </div>
-            <div className="page-nav-row">
-              <button
-                type="button"
-                className="page-turn"
-                aria-label="Previous page"
-                disabled={atStart}
-                onClick={goPrev}
-              >
-                ‹
-              </button>
-              <div className="page-indicator" aria-live="polite">
-                <span>
-                  {right
-                    ? `${String(left.pageNumber).padStart(2, '0')}–${String(right.pageNumber).padStart(2, '0')}`
-                    : `${String(left.pageNumber).padStart(2, '0')}`}
-                </span>
-                <span className="page-indicator-sep">/</span>
-                <span>{String(pages.length).padStart(2, '0')}</span>
-              </div>
-              <button
-                type="button"
-                className="page-turn"
-                aria-label="Next page"
-                disabled={atEnd}
-                onClick={goNext}
-              >
-                ›
-              </button>
-            </div>
-          </div>
+          {chrome}
         </div>
       ) : (
         <div
@@ -325,36 +387,7 @@ export function SpreadViewer({
               />
             </div>
           )}
-          <div className="deck-chrome">
-            <div className="progress-track" aria-hidden="true">
-              <div className="progress-fill" style={{ width: `${progress * 100}%` }} />
-            </div>
-            <div className="page-nav-row">
-              <button
-                type="button"
-                className="page-turn"
-                aria-label="Previous page"
-                disabled={atStart}
-                onClick={goPrev}
-              >
-                ‹
-              </button>
-              <div className="page-indicator" aria-live="polite">
-                <span>{String(safePage + 1).padStart(2, '0')}</span>
-                <span className="page-indicator-sep">/</span>
-                <span>{String(pages.length).padStart(2, '0')}</span>
-              </div>
-              <button
-                type="button"
-                className="page-turn"
-                aria-label="Next page"
-                disabled={atEnd}
-                onClick={goNext}
-              >
-                ›
-              </button>
-            </div>
-          </div>
+          {chrome}
         </div>
       )}
     </div>

@@ -134,6 +134,17 @@ for (const { file, data } of formulas) {
   }
 }
 
+const catalogPath = path.join(process.cwd(), 'src', 'data', 'catalog.ts')
+const catalogSource = fs.readFileSync(catalogPath, 'utf8')
+const catalogChapterIds = new Set(
+  [...catalogSource.matchAll(/\{\s*id:\s*'([^']+)'/g)].map((m) => m[1]),
+)
+for (const { file, data } of formulas) {
+  if (!catalogChapterIds.has(data.chapter)) {
+    fail(file, `chapter "${data.chapter}" is missing from src/data/catalog.ts chapterList`)
+  }
+}
+
 for (const [chapter, orderMap] of ordersByChapter) {
   for (const [order, ids] of orderMap) {
     if (ids.length > 1) {

@@ -1,5 +1,6 @@
 import { Link, useSearchParams } from 'react-router-dom'
 import type { Formula, TagId } from '../data/types'
+import { formulaDetailPath } from '../utils/bookLinks'
 import { DeriveHint } from './DeriveHint'
 import { Katex } from './Katex'
 import { MemorizeHint } from './MemorizeHint'
@@ -20,17 +21,18 @@ export function FormulaBlock({
 }: FormulaBlockProps) {
   const [params] = useSearchParams()
   const chapter = params.get('chapter') || formula.chapter
-  const detailTo = `/formula/${formula.id}?chapter=${encodeURIComponent(chapter)}`
+  const detailTo = formulaDetailPath(formula.id, {
+    chapter,
+    tag: params.get('tag'),
+    query: params.get('q'),
+    page: params.get('page'),
+  })
 
-  // Determine grey star importance tag (3-star highest, 2-star, 1-star)
   const imp = formula.importance ?? 2
   const importanceTag: TagId =
     imp === 3 ? '3-star' : imp === 2 ? '2-star' : '1-star'
 
-  // Filter out any older star tags from formula.tags to avoid duplicates
   const examTags = formula.tags.filter((t) => !t.endsWith('-star'))
-
-  // Clean ordered display tags: exam tags first, followed by single grey star tag
   const displayTags: TagId[] = [...examTags, importanceTag]
 
   return (
