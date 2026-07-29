@@ -43,7 +43,13 @@
   },
   "id": "zener-diode",
   "chapter": "semiconductor",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC / Eng",
+      "question": "জেনার ডায়োড মূলত কী কাজে ব্যবহার হয়?",
+      "answer": "\\text{voltage regulation}"
+    }
+  ],
   "memorize": {
     "trick": "Voltage regulator হিসেবে Zener diode reverse-breakdown অঞ্চলে চালানো হয়; I_Z,min ≤ I_Z ≤ I_Z,max এবং power rating মানলে V_out ≈ V_Z স্থির থাকে।",
     "steps": [

@@ -55,7 +55,13 @@
   },
   "id": "pn-junction-diode",
   "chapter": "semiconductor",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "ফরওয়ার্ড বায়াসে PN জাংশনের আচরণ কী?",
+      "answer": "\\text{কম রোধ, কারেন্ট প্রবাহিত}"
+    }
+  ],
   "memorize": {
     "trick": "I = I₀(e^{eV/kT} − 1) — সম্মুখ ঝোঁকে সূচকীয়ভাবে বাড়ে, বিপরীত ঝোঁকে প্রায় −I₀ তে থেমে যায়। কক্ষ তাপমাত্রায় তাপীয় ভোল্টেজ V_T = kT/e ≈ 26 mV।",
     "steps": [

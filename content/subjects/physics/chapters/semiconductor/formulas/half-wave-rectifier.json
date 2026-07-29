@@ -42,7 +42,13 @@
   },
   "id": "half-wave-rectifier",
   "chapter": "semiconductor",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC / Eng",
+      "question": "হাফ-ওয়েভ রেকটিফায়ারের দক্ষতা ≈?",
+      "answer": "\\eta\\approx 40.6\\%"
+    }
+  ],
   "memorize": {
     "trick": "অর্ধতরঙ্গে '১ পাই', পূর্ণতরঙ্গে '২ পাই': I_dc = I₀/π বনাম 2I₀/π। দক্ষতাও ঠিক দ্বিগুণ: ৪০.৬% বনাম ৮১.২% — এই দুই সংখ্যা মুখস্থ রাখুন।",
     "steps": [

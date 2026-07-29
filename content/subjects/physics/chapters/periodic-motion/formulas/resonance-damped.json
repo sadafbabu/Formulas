@@ -43,7 +43,13 @@
   },
   "id": "resonance-damped",
   "chapter": "periodic-motion",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "Eng / HSC",
+      "question": "ড্যাম্পড অসিলেটরের রেজোন্যান্স কৌণিক কম্পাঙ্ক ≈?",
+      "answer": "\\omega\\approx\\sqrt{\\omega_0^2-2\\gamma^2}"
+    }
+  ],
   "memorize": {
     "trick": "ক্ষতিগ্রস্ত দোলনে বিস্তার e^(−γt) হারে কমে, আর কম্পাঙ্ক একটু কমে যায়: ω_d = √(ω₀² − γ²)। 'বাধা যত বেশি, কম্পাঙ্ক তত কম'।",
     "steps": [

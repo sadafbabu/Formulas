@@ -33,7 +33,13 @@
   },
   "id": "greatest-term",
   "chapter": "binomial-theorem",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "(a+b)^n এ বৃহত্তম পদ নির্ণয়ের শর্ত কী?",
+      "answer": "T_{r+1}/T_r \\ge 1 \\Rightarrow r \\le \\frac{(n+1)b}{a+b}"
+    }
+  ],
   "memorize": {
     "trick": "বৃহত্তম পদ পেতে অনুপাত T_{r+1}/T_r = [(n−r+1)/r]·(b/a) নিন; যতক্ষণ এই অনুপাত ১-এর বেশি, পদ বাড়ছে। যেখানে ১-এর নিচে নামে, ঠিক তার আগের পদই বৃহত্তম।",
     "steps": [

@@ -95,7 +95,8 @@ button {
   overflow-y: hidden;
   scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
-  mask-image: linear-gradient(90deg, #000 92%, transparent);
+  mask-image: none;
+  padding-right: 0.25rem;
 }
 
 .top-bar-tags::-webkit-scrollbar {
@@ -312,6 +313,13 @@ button {
   list-style: none;
 }
 
+.nav-formula-chapter {
+  display: block;
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  font-weight: 500;
+}
+
 /* —— Full-bleed stage —— */
 .spread-stage {
   width: 100%;
@@ -486,12 +494,12 @@ button {
   left: 50%;
   bottom: 0.55rem;
   transform: translateX(-50%);
-  z-index: 5;
+  z-index: 9;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.28rem;
-  width: min(16rem, 45vw);
+  width: min(18rem, 70vw);
   pointer-events: none;
 }
 
@@ -510,6 +518,14 @@ button {
   transition: width 380ms var(--ease-slide);
 }
 
+.page-nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  pointer-events: auto;
+}
+
 .page-indicator {
   display: flex;
   align-items: baseline;
@@ -522,6 +538,29 @@ button {
 
 .page-indicator-sep {
   color: var(--ink-faint);
+}
+
+.page-turn {
+  width: 1.7rem;
+  height: 1.7rem;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  color: var(--ink-soft);
+  background: rgba(0, 0, 0, 0.35);
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+.page-turn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.page-turn:not(:disabled):hover {
+  color: var(--ink-bright);
+  border-color: rgba(255, 255, 255, 0.35);
 }
 
 /* —— Compact formula rows fill page height evenly —— */
@@ -687,13 +726,13 @@ button {
   background: var(--accent-dim);
 }
 
-/* Edge flip zones (thin strips — content stays clickable) */
+/* Edge flip zones — above pages but only in the gutter */
 .edge-zone {
   position: absolute;
   top: 0;
   bottom: 1.8rem;
   width: 0.75rem;
-  z-index: 1;
+  z-index: 8;
   background: transparent;
   border: none;
   padding: 0;
@@ -1269,6 +1308,65 @@ button {
   font-weight: 300;
 }
 
+.detail-questions,
+.detail-related {
+  margin: 1.4rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.detail-questions h4,
+.detail-related h4 {
+  margin: 0 0 0.75rem;
+  font-size: 0.92rem;
+  color: var(--ink-bright);
+}
+
+.detail-question-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.detail-question-card:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.detail-related ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.detail-related a {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: var(--ink-bright);
+  text-decoration: none;
+}
+
+.detail-related a span {
+  font-size: 0.75rem;
+  color: var(--ink-faint);
+}
+
+.detail-related a:hover {
+  border-color: rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.03);
+}
+
 .step {
   display: grid;
   gap: 0.28rem;
@@ -1446,7 +1544,9 @@ button {
 }
 
 .spread-stage.mode-mobile .formula-meta {
-  display: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
 }
 
 .spread-stage.mode-tablet .edge-zone,
@@ -1471,7 +1571,7 @@ button {
 
   .top-bar-tags {
     grid-column: 1 / -1;
-    mask-image: linear-gradient(90deg, #000 78%, transparent);
+    mask-image: none;
   }
 
   .top-tag {

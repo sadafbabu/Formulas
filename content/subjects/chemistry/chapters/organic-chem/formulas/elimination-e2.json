@@ -33,7 +33,13 @@
   },
   "id": "elimination-e2",
   "chapter": "organic-chem",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "E2 বিক্রিয়ার rate law কী?",
+      "answer": "\\text{rate}=k[\\text{substrate}][\\text{base}]"
+    }
+  ],
   "memorize": {
     "trick": "সায়ৎজেফ নিয়ম: বিয়োজনে বেশি প্রতিস্থাপিত (বেশি স্থিতিশীল) অ্যালকিনই প্রধান উৎপাদ। আর 'কম হাইড্রোজেনযুক্ত কার্বন থেকে H বেরোয়' — মার্কনিকভের ঠিক উল্টো ভাবনা।",
     "steps": [

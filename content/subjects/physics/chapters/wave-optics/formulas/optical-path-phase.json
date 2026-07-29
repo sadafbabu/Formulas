@@ -48,7 +48,13 @@
   },
   "id": "optical-path-phase",
   "chapter": "wave-optics",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC / Eng",
+      "question": "অাপটিক্যাল পাথ ও দশা পার্থক্যের সম্পর্ক কী?",
+      "answer": "\\delta=\\frac{2\\pi}{\\lambda}\\Delta"
+    }
+  ],
   "memorize": {
     "trick": "আলোকীয় পথ = μ × প্রকৃত পথ। আর দশা পার্থক্য = (2π/λ) × পথ পার্থক্য — 'এক তরঙ্গদৈর্ঘ্য পথ = ২π দশা'।",
     "steps": [

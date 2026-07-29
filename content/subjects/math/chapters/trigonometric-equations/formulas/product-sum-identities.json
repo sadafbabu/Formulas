@@ -33,7 +33,13 @@
   },
   "id": "product-sum-identities",
   "chapter": "trigonometric-equations",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "2\\sin A\\cos B = ?",
+      "answer": "\\sin(A+B)+\\sin(A-B)"
+    }
+  ],
   "memorize": {
     "trick": "গুণফল→যোগফলে '2' সামনে বসে: 2sinAcosB = sin(A+B) + sin(A−B)। যোগফল→গুণফলে অর্ধেক কোণ আসে: sinC + sinD = 2 sin[(C+D)/2] cos[(C−D)/2] — 'যোগফলের অর্ধেক, বিয়োগফলের অর্ধেক'।",
     "steps": [

@@ -3,6 +3,7 @@ import { Link, useSearchParams } from 'react-router-dom'
 import {
   chapters,
   defaultChapterId,
+  formulas,
   formulasForChapter,
   getChapter,
   subjectsList,
@@ -29,11 +30,21 @@ export function NavMenu({
   const [params] = useSearchParams()
   const panelId = useId()
   const rootRef = useRef<HTMLDivElement>(null)
-  const list = useMemo(() => {
+  const q = query.trim()
+
+  const chapterList = useMemo(() => {
     return formulasForChapter(chapterId || defaultChapterId).filter((f) =>
       matchFormula(f, query, null),
     )
   }, [chapterId, query])
+
+  const globalList = useMemo(() => {
+    if (!q) return []
+    return formulas.filter((f) => matchFormula(f, query, null)).slice(0, 40)
+  }, [q, query])
+
+  const list = q && chapterList.length === 0 ? globalList : chapterList
+  const searchingAll = Boolean(q && chapterList.length === 0 && globalList.length > 0)
 
   useEffect(() => {
     if (!open) return
@@ -108,23 +119,29 @@ export function NavMenu({
           ))}
 
           <p className="nav-section">
-            সূত্র ({list.length}
-            {query.trim() ? ' মিল' : ''})
+            {searchingAll ? 'সব অধ্যায়ে মিল' : 'সূত্র'} ({list.length}
+            {q ? ' মিল' : ''})
           </p>
           <ul className="nav-formula-list">
             {list.length === 0 ? (
               <li className="nav-empty">কোনো সূত্র মিলেনি</li>
             ) : (
-              list.map((f) => (
-                <li key={f.id}>
-                  <Link
-                    to={`/formula/${f.id}?chapter=${encodeURIComponent(chapter)}`}
-                    onClick={() => setOpen(false)}
-                  >
-                    {f.titleBn}
-                  </Link>
-                </li>
-              ))
+              list.map((f) => {
+                const chMeta = getChapter(f.chapter)
+                return (
+                  <li key={f.id}>
+                    <Link
+                      to={`/formula/${f.id}?chapter=${encodeURIComponent(f.chapter || chapter)}`}
+                      onClick={() => setOpen(false)}
+                    >
+                      {f.titleBn}
+                      {searchingAll && chMeta ? (
+                        <span className="nav-formula-chapter">{chMeta.nameBn}</span>
+                      ) : null}
+                    </Link>
+                  </li>
+                )
+              })
             )}
           </ul>
         </nav>

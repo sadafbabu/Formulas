@@ -47,7 +47,13 @@
   },
   "id": "rectifier-ripple",
   "chapter": "semiconductor",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "Eng / HSC",
+      "question": "রিপল ফ্যাক্টরের সংজ্ঞা কী?",
+      "answer": "r=\\frac{V_{ac}}{V_{dc}}"
+    }
+  ],
   "memorize": {
     "trick": "রিপল ফ্যাক্টর = AC অংশ ÷ DC অংশ — যত ছোট, তত ভালো DC। মুখস্থ: অর্ধতরঙ্গে ১.২১, পূর্ণতরঙ্গে ০.৪৮।",
     "steps": [

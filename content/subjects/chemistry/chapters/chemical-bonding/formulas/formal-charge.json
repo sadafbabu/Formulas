@@ -49,7 +49,13 @@
   },
   "id": "formal-charge",
   "chapter": "chemical-bonding",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "Formal charge এর সূত্র কী?",
+      "answer": "FC = V - N - \\frac{B}{2}"
+    }
+  ],
   "memorize": {
     "trick": "FC = V − (L + S/2): 'নিজের ইলেকট্রন − (একাকী জোড় + শেয়ারের অর্ধেক)'। সব পরমাণুর FC যোগ করলে অণুর মোট আধান পাওয়া যায় — এটাই যাচাইয়ের উপায়।",
     "steps": [

@@ -42,7 +42,13 @@
   },
   "id": "mean-free-path",
   "chapter": "ideal-gas",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "Eng / HSC",
+      "question": "গড় মুক্ত পথ λ এর সূত্র কী?",
+      "answer": "\\lambda=\\frac{1}{\\sqrt{2}\\pi d^2 n}"
+    }
+  ],
   "memorize": {
     "trick": "λ = kT/(√2 πd²P) — 'চাপ বাড়লে পথ কমে, তাপ বাড়লে পথ বাড়ে'। হরে √2 ও d² (ব্যাসের বর্গ) — মোটা অণুর পথ ছোট।",
     "steps": [

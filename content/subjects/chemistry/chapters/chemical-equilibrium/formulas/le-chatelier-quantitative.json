@@ -34,7 +34,13 @@
   },
   "id": "le-chatelier-quantitative",
   "chapter": "chemical-equilibrium",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "Qc ও Kc তুলনায় বিক্রিয়ার দিক কীভাবে বোঝা যায়?",
+      "answer": "Q_c < K_c \\Rightarrow \\text{ডান দিকে}; Q_c > K_c \\Rightarrow \\text{বাম দিকে}"
+    }
+  ],
   "memorize": {
     "trick": "সাম্যাবস্থা চাপ দিলে উল্টো দিকে সরে — 'যেদিকে চাপ, সেদিকের বিপরীতে যাবে'। সাধারণ আয়ন যোগ করলে দ্রাব্যতা কমে (K_sp ধ্রুবই থাকে, শুধু ভাগ বদলায়)।",
     "steps": [

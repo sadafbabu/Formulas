@@ -43,7 +43,13 @@
   },
   "id": "torsional-pendulum",
   "chapter": "periodic-motion",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "টর্শন পেন্ডুলামের পর্যায়কাল কী?",
+      "answer": "T=2\\pi\\sqrt{I/\\kappa}"
+    }
+  ],
   "memorize": {
     "trick": "T = 2π√(I/C) — দোলকের সেই একই ছাঁচ: 'জাড্য ভাগ ফেরানো ধ্রুবক, মূলে ২π'। এখানে I জাড্য ভ্রামক, C মোচন ধ্রুবক।",
     "steps": [

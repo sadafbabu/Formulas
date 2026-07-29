@@ -165,14 +165,14 @@ export function SpreadViewer({
           <button
             type="button"
             className="edge-zone is-left"
-            aria-label="Previous"
+            aria-label="Previous edge"
             disabled={atStart}
             onClick={goPrev}
           />
           <button
             type="button"
             className="edge-zone is-right"
-            aria-label="Next"
+            aria-label="Next edge"
             disabled={atEnd}
             onClick={goNext}
           />
@@ -206,14 +206,34 @@ export function SpreadViewer({
             <div className="progress-track" aria-hidden="true">
               <div className="progress-fill" style={{ width: `${progress * 100}%` }} />
             </div>
-            <div className="page-indicator" aria-live="polite">
-              <span>
-                {right
-                  ? `${String(left.pageNumber).padStart(2, '0')}–${String(right.pageNumber).padStart(2, '0')}`
-                  : `${String(left.pageNumber).padStart(2, '0')}`}
-              </span>
-              <span className="page-indicator-sep">/</span>
-              <span>{String(pages.length).padStart(2, '0')}</span>
+            <div className="page-nav-row">
+              <button
+                type="button"
+                className="page-turn"
+                aria-label="Previous page"
+                disabled={atStart}
+                onClick={goPrev}
+              >
+                ‹
+              </button>
+              <div className="page-indicator" aria-live="polite">
+                <span>
+                  {right
+                    ? `${String(left.pageNumber).padStart(2, '0')}–${String(right.pageNumber).padStart(2, '0')}`
+                    : `${String(left.pageNumber).padStart(2, '0')}`}
+                </span>
+                <span className="page-indicator-sep">/</span>
+                <span>{String(pages.length).padStart(2, '0')}</span>
+              </div>
+              <button
+                type="button"
+                className="page-turn"
+                aria-label="Next page"
+                disabled={atEnd}
+                onClick={goNext}
+              >
+                ›
+              </button>
             </div>
           </div>
         </div>
@@ -226,14 +246,14 @@ export function SpreadViewer({
           <button
             type="button"
             className="edge-zone is-left"
-            aria-label="Previous"
+            aria-label="Previous edge"
             disabled={atStart}
             onClick={goPrev}
           />
           <button
             type="button"
             className="edge-zone is-right"
-            aria-label="Next"
+            aria-label="Next edge"
             disabled={atEnd}
             onClick={goNext}
           />
@@ -252,10 +272,30 @@ export function SpreadViewer({
             <div className="progress-track" aria-hidden="true">
               <div className="progress-fill" style={{ width: `${progress * 100}%` }} />
             </div>
-            <div className="page-indicator" aria-live="polite">
-              <span>{String(safePage + 1).padStart(2, '0')}</span>
-              <span className="page-indicator-sep">/</span>
-              <span>{String(pages.length).padStart(2, '0')}</span>
+            <div className="page-nav-row">
+              <button
+                type="button"
+                className="page-turn"
+                aria-label="Previous page"
+                disabled={atStart}
+                onClick={goPrev}
+              >
+                ‹
+              </button>
+              <div className="page-indicator" aria-live="polite">
+                <span>{String(safePage + 1).padStart(2, '0')}</span>
+                <span className="page-indicator-sep">/</span>
+                <span>{String(pages.length).padStart(2, '0')}</span>
+              </div>
+              <button
+                type="button"
+                className="page-turn"
+                aria-label="Next page"
+                disabled={atEnd}
+                onClick={goNext}
+              >
+                ›
+              </button>
             </div>
           </div>
         </div>

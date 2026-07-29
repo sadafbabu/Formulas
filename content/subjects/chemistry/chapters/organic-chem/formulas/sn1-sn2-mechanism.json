@@ -43,7 +43,13 @@
   },
   "id": "sn1-sn2-mechanism",
   "chapter": "organic-chem",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "SN1 ও SN2 এর মৌলিক পার্থক্য কী?",
+      "answer": "\\text{SN1: 2-step, carbocation; SN2: 1-step, backside attack}"
+    }
+  ],
   "memorize": {
     "trick": "SN1 = এক অণু নির্ভর (১ম ক্রম), ৩° সাবস্ট্রেটে দ্রুত, রেসিমিক মিশ্রণ দেয়। SN2 = দুই অণু নির্ভর (২য় ক্রম), ১° সাবস্ট্রেটে দ্রুত, কনফিগারেশন উল্টে যায় (Walden inversion)। 'সংখ্যাটাই ক্রম, আর ১-এ ৩°, ২-এ ১°' — উল্টো।",
     "steps": [

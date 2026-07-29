@@ -38,7 +38,13 @@
   },
   "id": "synthetic-division",
   "chapter": "polynomials",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "সিন্থেটিক ডিভিশনে ভাজক কেমন হতে হয়?",
+      "answer": "x-a \\text{ আকারের রৈখিক ভাজক}"
+    }
+  ],
   "memorize": {
     "trick": "কৃত্রিম ভাগ = কেবল সহগ নিয়ে কাজ, x লেখার দরকার নেই। 'নামাও, গুণ করো, যোগ করো' — এই তিন ধাপ পুনরাবৃত্তি; শেষ সংখ্যাটাই ভাগশেষ = P(a)।",
     "steps": [

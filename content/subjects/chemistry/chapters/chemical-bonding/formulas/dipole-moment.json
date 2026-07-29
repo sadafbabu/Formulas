@@ -43,7 +43,13 @@
   },
   "id": "dipole-moment",
   "chapter": "chemical-bonding",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "দ্বিমেরু ভ্রামক μ এর সূত্র কী?",
+      "answer": "\\mu = q \\times d"
+    }
+  ],
   "memorize": {
     "trick": "μ = q × d — একক ডিবাই (D)। মূল কথা: বন্ধন পোলার হলেও অণু অপোলার হতে পারে, যদি জ্যামিতি প্রতিসম হয় (CO₂, CCl₄ — ভ্রামক বাতিল হয়ে যায়)।",
     "steps": [

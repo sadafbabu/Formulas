@@ -44,7 +44,13 @@
   },
   "id": "compton-effect",
   "chapter": "modern-physics",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "Eng / Medical",
+      "question": "কম্পটন শিফটের সূত্র কী?",
+      "answer": "\\Delta\\lambda=\\frac{h}{m_e c}(1-\\cos\\theta)"
+    }
+  ],
   "memorize": {
     "trick": "Δλ = (h/m_ec)(1 − cosθ) — বিক্ষিপ্ত ফোটনের তরঙ্গদৈর্ঘ্য সর্বদা বাড়ে (শক্তি হারায়)। θ = 180° এ সর্বোচ্চ বৃদ্ধি = 2λ_C।",
     "steps": [

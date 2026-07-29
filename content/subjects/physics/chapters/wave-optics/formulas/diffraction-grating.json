@@ -49,7 +49,13 @@
   },
   "id": "diffraction-grating",
   "chapter": "wave-optics",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "ডিফ্র্যাকশন গ্রেটিং এর মূল সমীকরণ কী?",
+      "answer": "d\\sin\\theta=m\\lambda"
+    }
+  ],
   "memorize": {
     "trick": "(a+b)sinθ = nλ — এখানে (a+b) হলো গ্রেটিং ধ্রুবক, আর N = 1/(a+b) হলো প্রতি একক দৈর্ঘ্যে দাগের সংখ্যা।",
     "steps": [

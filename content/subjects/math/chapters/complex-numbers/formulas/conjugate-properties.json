@@ -38,7 +38,13 @@
   },
   "id": "conjugate-properties",
   "chapter": "complex-numbers",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "জটিল সংখ্যার conjugate এর মূল ধর্ম কী?",
+      "answer": "z\\cdot\\bar z = |z|^2"
+    }
+  ],
   "memorize": {
     "trick": "অন্বয়ী মানে i-এর চিহ্ন উল্টানো। মূল ধর্ম: z·z̄ = |z|² (সর্বদা বাস্তব) — এজন্যই ভাগ করার সময় হরের অন্বয়ী দিয়ে গুণ করা হয়।",
     "steps": [

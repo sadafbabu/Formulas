@@ -34,7 +34,13 @@
   },
   "id": "alcohol-oxidation",
   "chapter": "organic-chem",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "1° অ্যালকোহলকে জোরালো জারকে জারিত করলে কী হয়?",
+      "answer": "\\ce{R-CH2OH -> R-COOH}"
+    }
+  ],
   "memorize": {
     "trick": "জারণ সিঁড়ি: ১° অ্যালকোহল → অ্যালডিহাইড → কার্বক্সিলিক অ্যাসিড। PCC দিলে মাঝপথে (অ্যালডিহাইডে) থামে, K₂Cr₂O₇/KMnO₄ দিলে শেষ পর্যন্ত যায়। ২° → কিটোন, ৩° → জারিত হয় না।",
     "steps": [

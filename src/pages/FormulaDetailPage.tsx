@@ -4,7 +4,7 @@ import { Katex } from '../components/Katex'
 import { MathOrText } from '../components/MathOrText'
 import { NavMenu } from '../components/NavMenu'
 import { TagChip } from '../components/TagChip'
-import { defaultChapterId, getFormula } from '../data/catalog'
+import { defaultChapterId, getChapter, getFormula } from '../data/catalog'
 import { stripDollarMath, toLatexSymbol } from '../utils/mathText'
 
 export function FormulaDetailPage() {
@@ -54,6 +54,12 @@ export function FormulaDetailPage() {
     .map((item) => stripDollarMath(item).trim())
     .filter(Boolean)
   const steps = Array.isArray(derivation.steps) ? derivation.steps : []
+  const questions = (formula.questions ?? []).filter(
+    (q) => q.question?.trim() && q.answer?.trim(),
+  )
+  const related = (formula.related ?? [])
+    .map((rid) => getFormula(rid))
+    .filter(Boolean)
 
   return (
     <div className="book-shell detail-shell">
@@ -137,6 +143,52 @@ export function FormulaDetailPage() {
                     <MathOrText text={item} />
                   </li>
                 ))}
+              </ul>
+            </aside>
+          )}
+
+          {questions.length > 0 && (
+            <section className="detail-questions">
+              <h4>নমুনা প্রশ্ন ও সমাধান</h4>
+              {questions.map((q, i) => (
+                <div className="detail-question-card" key={`${q.examType}-${i}`}>
+                  <span className="question-exam-tag">{q.examType}</span>
+                  <div className="question-problem">
+                    <strong>প্রশ্ন:</strong>
+                    <MathOrText text={q.question} as="p" className="question-copy" />
+                  </div>
+                  <div className="question-solution">
+                    <strong>সমাধান:</strong>
+                    <MathOrText
+                      text={q.answer}
+                      display
+                      as="div"
+                      className="question-solution-text"
+                    />
+                  </div>
+                </div>
+              ))}
+            </section>
+          )}
+
+          {related.length > 0 && (
+            <aside className="detail-related">
+              <h4>সম্পর্কিত সূত্র</h4>
+              <ul>
+                {related.map((f) => {
+                  if (!f) return null
+                  const ch = getChapter(f.chapter)
+                  return (
+                    <li key={f.id}>
+                      <Link
+                        to={`/formula/${f.id}?chapter=${encodeURIComponent(f.chapter)}`}
+                      >
+                        {f.titleBn}
+                        {ch ? <span>{ch.nameBn}</span> : null}
+                      </Link>
+                    </li>
+                  )
+                })}
               </ul>
             </aside>
           )}

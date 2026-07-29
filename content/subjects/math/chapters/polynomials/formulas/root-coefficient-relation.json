@@ -38,7 +38,13 @@
   },
   "id": "root-coefficient-relation",
   "chapter": "polynomials",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "ax^2+bx+c=0 এ মূলের সমষ্টি কত?",
+      "answer": "\\alpha+\\beta=-\\frac{b}{a}"
+    }
+  ],
   "memorize": {
     "trick": "ভিয়েতার চিহ্ন পাল্টাপাল্টি: যোগফল = −b/a, জোড়ায় গুণফলের যোগ = +c/a, তিনের গুণফল = −d/a। 'বিজোড়ে ঋণাত্মক, জোড়ে ধনাত্মক' — এই নিয়মটাই মনে রাখুন।",
     "steps": [

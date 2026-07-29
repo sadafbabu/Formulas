@@ -42,7 +42,13 @@
   },
   "id": "maxwell-distribution",
   "chapter": "ideal-gas",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "Eng / HSC",
+      "question": "rms গতির সূত্র কী?",
+      "answer": "v_{rms}=\\sqrt{\\frac{3RT}{M}}"
+    }
+  ],
   "memorize": {
     "trick": "বিন্যাস লেখচিত্র মনে রাখুন: তাপমাত্রা বাড়লে চূড়া ডানে সরে ও চ্যাপ্টা হয়। সর্বাধিক সম্ভাব্য বেগ v_p = √(2kT/m) — এখানে '২', v_rms-এ '৩'।",
     "steps": [

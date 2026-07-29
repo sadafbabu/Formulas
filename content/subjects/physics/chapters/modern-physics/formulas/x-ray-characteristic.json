@@ -44,7 +44,13 @@
   },
   "id": "x-ray-characteristic",
   "chapter": "modern-physics",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "Medical / HSC",
+      "question": "মোসলির সূত্রের রূপ কী?",
+      "answer": "\\sqrt{f}=a(Z-b)"
+    }
+  ],
   "memorize": {
     "trick": "λ_min = hc/(eV) ≈ 12400/V Å — সর্বনিম্ন তরঙ্গদৈর্ঘ্য কেবল ভোল্টেজের উপর নির্ভর করে, টার্গেট পদার্থে নয়। বৈশিষ্ট্যমূলক রেখা টার্গেটের উপর নির্ভর করে (মোজলির সূত্র)।",
     "steps": [

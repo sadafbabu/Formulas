@@ -38,7 +38,13 @@
   },
   "id": "vieta-formulas",
   "chapter": "polynomials",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "ঘন সমীকরণে মূলের সমষ্টির সূত্র কী?",
+      "answer": "\\alpha+\\beta+\\gamma=-\\frac{b}{a}"
+    }
+  ],
   "memorize": {
     "trick": "ax³+bx²+cx+d=0 → মূল যোগফল = -b/a, জোড় গুণফল = c/a, তিন মূল গুণফল = -d/a।"
   },

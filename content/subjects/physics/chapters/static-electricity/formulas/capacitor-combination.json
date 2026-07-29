@@ -44,7 +44,13 @@
   },
   "id": "capacitor-combination",
   "chapter": "static-electricity",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "শ্রেণী ধারকের মোট C কীভাবে আসে?",
+      "answer": "\\frac{1}{C}=\\frac{1}{C_1}+\\frac{1}{C_2}"
+    }
+  ],
   "memorize": {
     "trick": "ধারকের সংযোজন রোধের উল্টো! শ্রেণীতে বিপরীতের যোগ (1/C_s = Σ1/C), সমান্তরালে সরল যোগ (C_p = ΣC)। 'রোধে যা শ্রেণী, ধারকে তা সমান্তরাল'।",
     "steps": [

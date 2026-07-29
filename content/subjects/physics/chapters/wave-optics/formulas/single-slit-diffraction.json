@@ -48,7 +48,13 @@
   },
   "id": "single-slit-diffraction",
   "chapter": "wave-optics",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "একক স্লিট অপবর্তনের প্রথম মিনিমার শর্ত কী?",
+      "answer": "a\\sin\\theta=m\\lambda"
+    }
+  ],
   "memorize": {
     "trick": "একক চিরে d sinθ = nλ দেয় অন্ধকার ডোরা (দ্বি-চিরে ঠিক উল্টো — ওখানে nλ মানে উজ্জ্বল)। এই উল্টোটাই সবচেয়ে বেশি ভুল হয়।",
     "steps": [

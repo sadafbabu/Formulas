@@ -44,7 +44,13 @@
   },
   "id": "total-internal-reflection",
   "chapter": "geometric-optics",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "সম্পূর্ণ অভ্যন্তরীণ প্রতিফলনের শর্ত কী?",
+      "answer": "i > i_c,\\quad \\sin i_c=\\frac{n_2}{n_1}"
+    }
+  ],
   "memorize": {
     "trick": "sinθ_c = μ₂/μ₁ — শর্ত: ঘন থেকে হালকা মাধ্যমে যেতে হবে (μ₁ > μ₂) এবং কোণ ক্রান্তি কোণের চেয়ে বড় হতে হবে। কাচ-বায়ুতে θ_c ≈ ৪২°।",
     "steps": [

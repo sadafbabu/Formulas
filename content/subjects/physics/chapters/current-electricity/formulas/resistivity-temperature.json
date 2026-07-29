@@ -54,7 +54,13 @@
   },
   "id": "resistivity-temperature",
   "chapter": "current-electricity",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "তাপমাত্রায় রোধের পরিবর্তন সূত্র কী?",
+      "answer": "R=R_0(1+\\alpha\\Delta T)"
+    }
+  ],
   "memorize": {
     "trick": "ρ = ρ₀(1 + αΔT) — ধাতুতে α ধনাত্মক (গরমে রোধ বাড়ে), অর্ধপরিবাহীতে ঋণাত্মক (গরমে রোধ কমে)। আর R = ρl/A — 'লম্বা ও চিকন তারের রোধ বেশি'।",
     "steps": [
