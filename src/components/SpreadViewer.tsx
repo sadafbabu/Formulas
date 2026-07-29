@@ -25,7 +25,8 @@ export function SpreadViewer({
   const isSpread = mode === 'desktop'
   const chapter = getChapter(chapterId) ?? getChapter(defaultChapterId)!
 
-  const perPage = mode === 'desktop' ? 7 : mode === 'tablet' ? 6 : 5
+  // Leave room for Bengali titles, hint buttons, and long equations
+  const perPage = mode === 'desktop' ? 6 : mode === 'tablet' ? 4 : 3
 
   const { pages, emptyFilter } = useMemo(() => {
     const source = formulasForChapter(chapterId)
@@ -40,6 +41,8 @@ export function SpreadViewer({
   const [dir, setDir] = useState<'next' | 'prev' | 'none'>('none')
   const [animKey, setAnimKey] = useState(0)
   const animLock = useRef(false)
+  const pagerRef = useRef<HTMLDivElement>(null)
+  const touchStart = useRef<{ x: number; y: number } | null>(null)
 
   useEffect(() => {
     setPageIndex(0)
@@ -101,7 +104,57 @@ export function SpreadViewer({
   }, [isSpread, maxPage])
 
   useEffect(() => {
+    if (isSpread) return
+    const el = pagerRef.current
+    if (!el) return
+
+    const skipSwipe = (target: EventTarget | null) => {
+      const node = target as HTMLElement | null
+      return Boolean(
+        node?.closest(
+          '.formula-latex-col, .formula-latex, .nav-panel, .hint-popover, input, textarea, .page-turn',
+        ),
+      )
+    }
+
+    const onTouchStart = (e: TouchEvent) => {
+      if (skipSwipe(e.target)) {
+        touchStart.current = null
+        return
+      }
+      const t = e.touches[0]
+      touchStart.current = { x: t.clientX, y: t.clientY }
+    }
+
+    const onTouchEnd = (e: TouchEvent) => {
+      if (!touchStart.current) return
+      const t = e.changedTouches[0]
+      const dx = t.clientX - touchStart.current.x
+      const dy = t.clientY - touchStart.current.y
+      touchStart.current = null
+      if (Math.abs(dx) < 56 || Math.abs(dx) < Math.abs(dy) * 1.35) return
+      if (dx < 0) goNext()
+      else goPrev()
+    }
+
+    el.addEventListener('touchstart', onTouchStart, { passive: true })
+    el.addEventListener('touchend', onTouchEnd, { passive: true })
+    return () => {
+      el.removeEventListener('touchstart', onTouchStart)
+      el.removeEventListener('touchend', onTouchEnd)
+    }
+  }, [isSpread, goNext, goPrev, animKey])
+
+  useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement | null
+      if (
+        target?.closest(
+          'input, textarea, select, [contenteditable="true"], [role="dialog"]',
+        )
+      ) {
+        return
+      }
       if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
         e.preventDefault()
         goPrev()
@@ -122,15 +175,73 @@ export function SpreadViewer({
   const atEnd = isSpread ? safeSpread >= maxSpread : safePage >= maxPage
 
   if (emptyFilter) {
+    const hasQuery = query.trim().length > 0
+    const message = hasQuery
+      ? 'এই খোঁজায় কোনো সূত্র মেলেনি'
+      : activeTag
+        ? 'এই tag-এ কোনো সূত্র নেই'
+        : 'এই অধ্যায়ে কোনো সূত্র নেই'
+    const hint = hasQuery
+      ? 'অন্য শব্দ দিয়ে খুঁজে দেখো'
+      : activeTag
+        ? 'উপর থেকে All বা অন্য tag বেছে নাও'
+        : 'অন্য অধ্যায় বেছে নাও'
     return (
       <div className={`spread-stage mode-${mode}`}>
         <div className="empty-filter">
-          <p>এই tag-এ কোনো সূত্র নেই</p>
-          <span>উপর থেকে All বা অন্য tag বেছে নাও</span>
+          <p>{message}</p>
+          <span>{hint}</span>
         </div>
       </div>
     )
   }
+
+  const pageChrome = (
+    <div className="deck-chrome">
+      <div className="progress-track" aria-hidden="true">
+        <div className="progress-fill" style={{ width: `${progress * 100}%` }} />
+      </div>
+      <div className="page-nav-row">
+        <button
+          type="button"
+          className="page-turn"
+          aria-label="Previous page"
+          disabled={atStart}
+          onClick={goPrev}
+        >
+          ‹
+        </button>
+        <div className="page-indicator" aria-live="polite">
+          {isSpread ? (
+            <>
+              <span>
+                {right
+                  ? `${String(left.pageNumber).padStart(2, '0')}–${String(right.pageNumber).padStart(2, '0')}`
+                  : `${String(left.pageNumber).padStart(2, '0')}`}
+              </span>
+              <span className="page-indicator-sep">/</span>
+              <span>{String(pages.length).padStart(2, '0')}</span>
+            </>
+          ) : (
+            <>
+              <span>{String(safePage + 1).padStart(2, '0')}</span>
+              <span className="page-indicator-sep">/</span>
+              <span>{String(pages.length).padStart(2, '0')}</span>
+            </>
+          )}
+        </div>
+        <button
+          type="button"
+          className="page-turn"
+          aria-label="Next page"
+          disabled={atEnd}
+          onClick={goNext}
+        >
+          ›
+        </button>
+      </div>
+    </div>
+  )
 
   return (
     <div className={`spread-stage mode-${mode}`}>
@@ -143,14 +254,14 @@ export function SpreadViewer({
           <button
             type="button"
             className="edge-zone is-left"
-            aria-label="Previous"
+            aria-label="Previous edge"
             disabled={atStart}
             onClick={goPrev}
           />
           <button
             type="button"
             className="edge-zone is-right"
-            aria-label="Next"
+            aria-label="Next edge"
             disabled={atEnd}
             onClick={goNext}
           />
@@ -180,38 +291,26 @@ export function SpreadViewer({
             )}
           </div>
 
-          <div className="deck-chrome">
-            <div className="progress-track" aria-hidden="true">
-              <div className="progress-fill" style={{ width: `${progress * 100}%` }} />
-            </div>
-            <div className="page-indicator" aria-live="polite">
-              <span>
-                {right
-                  ? `${String(left.pageNumber).padStart(2, '0')}–${String(right.pageNumber).padStart(2, '0')}`
-                  : `${String(left.pageNumber).padStart(2, '0')}`}
-              </span>
-              <span className="page-indicator-sep">/</span>
-              <span>{String(pages.length).padStart(2, '0')}</span>
-            </div>
-          </div>
+          {pageChrome}
         </div>
       ) : (
         <div
           key={`single-${animKey}`}
+          ref={pagerRef}
           className={`mobile-pager ${slideClass}`}
           aria-label="Book page"
         >
           <button
             type="button"
             className="edge-zone is-left"
-            aria-label="Previous"
+            aria-label="Previous edge"
             disabled={atStart}
             onClick={goPrev}
           />
           <button
             type="button"
             className="edge-zone is-right"
-            aria-label="Next"
+            aria-label="Next edge"
             disabled={atEnd}
             onClick={goNext}
           />
@@ -226,16 +325,7 @@ export function SpreadViewer({
               />
             </div>
           )}
-          <div className="deck-chrome">
-            <div className="progress-track" aria-hidden="true">
-              <div className="progress-fill" style={{ width: `${progress * 100}%` }} />
-            </div>
-            <div className="page-indicator" aria-live="polite">
-              <span>{String(safePage + 1).padStart(2, '0')}</span>
-              <span className="page-indicator-sep">/</span>
-              <span>{String(pages.length).padStart(2, '0')}</span>
-            </div>
-          </div>
+          {pageChrome}
         </div>
       )}
     </div>

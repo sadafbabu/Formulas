@@ -2,23 +2,27 @@
 
 Dark, compact A5 formula book for HSC / admission.
 
-## Live site (Cloudflare)
+## Live site
 
-**https://formulas-book.frill-bison.workers.dev**
+**GitHub Pages:** https://sadafbabu.github.io/Formulas/
 
-Temporary preview (claim within ~60 min to keep forever):  
-https://dash.cloudflare.com/claim-preview?claimToken=33uHHel8jMAY10bD_XSHjaQwb9eCyL1bs1cCwfigivw
+**Cloudflare preview** (temporary Workers deploy):
 
-> First visit may show a short Cloudflare security check — continue in the browser.
+```bash
+npm run build
+npx wrangler deploy --temporary
+```
+
+> First visit on Cloudflare may show a short security check — continue in the browser.
 
 ## Current chapter
 
-**তড়িত প্রবাহের চৌম্বক ক্রিয়া** — 14 formulas, with top-bar tag filters (HSC / Eng / Medical / …).
+**তড়িত প্রবাহের চৌম্বক ক্রিয়া** — formulas with top-bar tag filters (HSC / Eng / Medical / …).
 
-- **Σ** → symbols · units · values  
-- **ⓘ** → how it derives  
-- Click left/right edges to flip · `←` `→` keys  
-- Desktop = two-page spread · tablet/mobile = single page  
+- **Σ** → symbols · units · values
+- **ⓘ** → how it derives
+- Click left/right edges, swipe (mobile), or `←` `→` keys to flip
+- Desktop = two-page spread · tablet/mobile = single page
 
 ## Develop
 
@@ -26,7 +30,16 @@ https://dash.cloudflare.com/claim-preview?claimToken=33uHHel8jMAY10bD_XSHjaQwb9e
 npm install
 npm run dev
 npm run build
-npx wrangler deploy --temporary   # Cloudflare preview
+```
+
+### Deploy
+
+- **GitHub Pages** — push to `main` runs `.github/workflows/deploy.yml` (builds with `VITE_BASE=/Formulas/` and publishes the `gh-pages` branch).
+- **Cloudflare Workers** — `npx wrangler deploy` (or `--temporary` for a preview URL).
+
+```bash
+# Local Pages-style build (correct asset base)
+VITE_BASE=/Formulas/ npm run build
 ```
 
 ## Content
