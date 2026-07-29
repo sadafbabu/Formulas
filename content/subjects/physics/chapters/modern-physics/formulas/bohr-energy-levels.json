@@ -16,9 +16,9 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "E, n, eV, Delta",
+      "meaning": "হাইড্রোজেনের শক্তিস্তর ও ফোটন শক্তি",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বোর শক্তিস্তর এর মূল সূত্রটি লেখো।",
+      "question": "বোর শক্তিস্তর এর সূত্রটি লেখো। (ইঙ্গিত: E_n = −13.6/n² eV; ফোটন = স্তরপার্থক্য।)",
       "answer": "E_n=-\\frac{13.6}{n^2}\\,\\mathrm{eV},\\quad\\Delta E=hf=E_i-E_f"
     }
   ],

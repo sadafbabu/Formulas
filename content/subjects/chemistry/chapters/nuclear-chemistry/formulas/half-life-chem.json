@@ -16,13 +16,13 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "t, lambda",
+      "meaning": "t½=ln2/λ",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "t½=ln2/λ",
+    "lead": "অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অর্ধায়ু এর মূল সূত্রটি লেখো।",
+      "question": "অর্ধায়ু এর সূত্রটি লেখো। (ইঙ্গিত: অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ।)",
       "answer": "t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}"
     }
   ],
@@ -46,5 +46,10 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "radioactive-decay",
+    "radioactive-decay-law-chem",
+    "carbon-dating",
+    "binding-energy-per-nucleon"
+  ]
 }

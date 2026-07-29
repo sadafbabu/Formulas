@@ -49,5 +49,10 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "chain-rule-diff",
+    "definite-integral-area",
+    "product-quotient-rule",
+    "fundamental-theorem"
+  ]
 }

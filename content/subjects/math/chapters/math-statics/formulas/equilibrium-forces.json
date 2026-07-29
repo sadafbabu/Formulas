@@ -15,13 +15,13 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "sum, F, x, y",
+      "meaning": "ΣF=0",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "ΣF=0",
+    "lead": "সাম্য = x ও y-তে বলের যোগফল শূন্য।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,19 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বলের সাম্যাবস্থা এর মূল সূত্রটি লেখো।",
+      "question": "বলের সাম্যাবস্থা এর সূত্রটি লেখো। (ইঙ্গিত: সাম্য = x ও y-তে বলের যোগফল শূন্য।)",
       "answer": "\\sum F_x=0,\\quad \\sum F_y=0"
     }
   ],
   "memorize": {
-    "trick": "সাম্য = x ও y-তে বলের যোগফল শূন্য。",
+    "trick": "সাম্য = x ও y-তে বলের যোগফল শূন্য।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "triangle-of-forces",
+    "lami-theorem"
+  ]
 }

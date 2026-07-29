@@ -64,5 +64,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "section-formula",
+    "circle-equation",
+    "distance-formula"
+  ]
 }

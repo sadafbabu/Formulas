@@ -15,9 +15,9 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "a, theta, b, in",
+      "meaning": "a cosθ + b sinθ এর রেঞ্জ",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ত্রিকোণমিতিক রাশির সীমা এর মূল সূত্রটি লেখো।",
+      "question": "ত্রিকোণমিতিক রাশির সীমা এর সূত্রটি লেখো। (ইঙ্গিত: রেঞ্জ = [−R, R], R=√(a²+b²)।)",
       "answer": "a\\cos\\theta+b\\sin\\theta\\in\\big[-\\sqrt{a^2+b^2},\\sqrt{a^2+b^2}\\big]"
     }
   ],

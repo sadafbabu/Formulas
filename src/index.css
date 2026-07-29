@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
 @import 'katex/dist/katex.min.css';
 @import './styles/tokens.css';
 
@@ -494,10 +493,30 @@ button {
   display: none;
 }
 
-.nav-subject-line {
-  margin: -0.35rem 0 0.65rem;
-  font-size: 0.82rem;
+.nav-section-en {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: var(--ink-faint);
+}
+
+.nav-subject-group {
+  margin-bottom: 0.35rem;
+}
+
+.detail-memorize .memorize-trick {
+  margin: 0;
+  color: var(--ink-bright);
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.detail-memorize .memorize-steps {
+  margin: 0.55rem 0 0;
+  padding-left: 1.1rem;
   color: var(--ink-soft);
+  font-size: 0.88rem;
+  line-height: 1.45;
 }
 
 /* —— Overlay chrome inside slide —— */

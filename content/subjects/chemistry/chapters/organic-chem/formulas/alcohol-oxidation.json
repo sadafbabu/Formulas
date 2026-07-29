@@ -52,5 +52,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "elimination-e2",
+    "organic-reactions",
+    "functional-groups"
+  ]
 }

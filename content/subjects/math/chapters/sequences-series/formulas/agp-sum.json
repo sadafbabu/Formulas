@@ -15,13 +15,13 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "S, a, d, r",
+      "meaning": "Σ n rⁿ",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "Σ n rⁿ",
+    "lead": "Σ n rⁿ — S − rS করে GP বের করো।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমান্তর-গুণোত্তর ধারা এর মূল সূত্রটি লেখো।",
+      "question": "সমান্তর-গুণোত্তর ধারা এর সূত্রটি লেখো। (ইঙ্গিত: S − rS করে GP বের করো।)",
       "answer": "S=a+(a+d)r+(a+2d)r^2+\\cdots"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "am-gm-hm",
+    "sum-natural-squares-cubes",
+    "hp-relation"
+  ]
 }

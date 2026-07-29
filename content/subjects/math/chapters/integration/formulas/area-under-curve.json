@@ -15,13 +15,13 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "A, int, a, b",
+      "meaning": "A=∫y dx",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "A=∫y dx",
+    "lead": "x-অক্ষের উপরের ক্ষেত্র ধনাত্মক।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বক্ররেখার নিচের ক্ষেত্রফল এর মূল সূত্রটি লেখো।",
+      "question": "বক্ররেখার নিচের ক্ষেত্রফল এর সূত্রটি লেখো। (ইঙ্গিত: x-অক্ষের উপরের ক্ষেত্র ধনাত্মক।)",
       "answer": "A=\\int_a^b y\\,dx=\\int_a^b f(x)\\,dx"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "integral-even-odd",
+    "volume-disk-method",
+    "definite-integral-properties"
+  ]
 }

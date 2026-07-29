@@ -15,13 +15,13 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "P, favourable permutations, n",
+      "meaning": "n!/(n−r)!",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "n!/(n−r)!",
+    "lead": "ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্রমবিন্যাসে সম্ভাব্যতা এর মূল সূত্রটি লেখো।",
+      "question": "ক্রমবিন্যাসে সম্ভাব্যতা এর সূত্রটি লেখো। (ইঙ্গিত: ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।)",
       "answer": "P=\\frac{\\text{favourable permutations}}{n!}"
     }
   ],
   "memorize": {
-    "trick": "ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr。",
+    "trick": "ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "geometric-probability",
+    "expected-value",
+    "binomial-mean-variance"
+  ]
 }

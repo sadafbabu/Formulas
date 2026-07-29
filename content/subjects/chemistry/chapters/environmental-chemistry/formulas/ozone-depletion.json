@@ -16,13 +16,13 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "ce, C, F, l",
+      "meaning": "CFC + O₃",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "CFC + O₃",
+    "lead": "Cl· মুক্ত মূলক ওজোন ভাঙে; এক Cl হাজার ওজোন নষ্ট করতে পারে।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ওজোন ক্ষয় এর মূল সূত্রটি লেখো।",
+      "question": "ওজোন ক্ষয় এর সূত্রটি লেখো। (ইঙ্গিত: Cl· মুক্ত মূলক ওজোন ভাঙে; এক Cl হাজার ওজোন নষ্ট করতে পারে।)",
       "answer": "\\ce{CF2Cl2 ->[h\\nu] Cl*}\\ ;\\ \\ce{Cl* + O3 -> ClO* + O2}"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "greenhouse-gases",
+    "acid-rain",
+    "bod-cod"
+  ]
 }

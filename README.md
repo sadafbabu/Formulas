@@ -11,9 +11,12 @@ Dark, compact A5 formula book for HSC / admission.
 - 620 formulas across Physics, Chemistry, and Higher Math
 - 52 HSC/admission chapters
 - Bengali memorization guidance on every formula
-- Symbols, units, derivations, assumptions, and worked questions
+- Symbols, units, derivations, assumptions, related links, and worked questions
 - KaTeX + mhchem reaction/structural notation
 - HSC, engineering, medical, varsity, general, and importance filters
+- Mobile-friendly: swipe pages, large touch targets, safe-area support
+
+Canonical live site: **Cloudflare Pages** (`allformulas.pages.dev`).
 
 - `?` → worked question and solution
 - `Σ` → symbols, units, and values

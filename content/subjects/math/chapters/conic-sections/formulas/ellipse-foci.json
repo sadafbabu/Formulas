@@ -15,13 +15,13 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "c, a, b, Foci",
+      "meaning": "ফোকাস (±c,0)",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "ফোকাস (±c,0)",
+    "lead": "PF₁+PF₂=2a — উপবৃত্তের সংজ্ঞা; e=c/a।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উপবৃত্তের ফোকাস এর মূল সূত্রটি লেখো।",
+      "question": "উপবৃত্তের ফোকাস এর সূত্রটি লেখো। (ইঙ্গিত: PF₁+PF₂=2a — উপবৃত্তের সংজ্ঞা; e=c/a।)",
       "answer": "c^2=a^2-b^2,\\ \\text{Foci }(\\pm c,0)"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "ellipse-standard",
+    "ellipse-eccentricity",
+    "parabola-tangent"
+  ]
 }

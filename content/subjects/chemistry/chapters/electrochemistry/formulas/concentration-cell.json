@@ -16,9 +16,9 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "E, n, C, circ",
+      "meaning": "একই ইলেকট্রোডে ঘনমাত্রা পার্থক্য থেকে emf",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ঘনমাত্রা কোষ এর মূল সূত্রটি লেখো।",
+      "question": "ঘনমাত্রা কোষ এর সূত্রটি লেখো। (ইঙ্গিত: E = (0.059/n) log(C₂/C₁) — বেশি ঘন দিকে বিজারিত।)",
       "answer": "E=\\frac{0.059}{n}\\log\\frac{C_2}{C_1}\\ (25^\\circ\\mathrm{C})"
     }
   ],

@@ -16,13 +16,13 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "h, r, (from bottom of loop)",
+      "meaning": "height 5r/2",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "height 5r/2",
+    "lead": "লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "লুপ দিয়ে ঘূর্ণন এর মূল সূত্রটি লেখো।",
+      "question": "লুপ দিয়ে ঘূর্ণন এর সূত্রটি লেখো। (ইঙ্গিত: লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।)",
       "answer": "h_{\\min}=\\frac{5r}{2}\\quad\\text{(from bottom of loop)}"
     }
   ],
@@ -46,5 +46,8 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "conical-pendulum",
+    "vertical-circle-min-speed"
+  ]
 }

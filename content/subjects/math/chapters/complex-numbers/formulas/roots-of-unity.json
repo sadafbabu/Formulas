@@ -56,5 +56,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "euler-form",
+    "de-moivre",
+    "complex-modulus-argument"
+  ]
 }

@@ -16,13 +16,13 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "m, A, a, M",
+      "meaning": "mole ratio",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "mole ratio",
+    "lead": "সমীকরণের মোল অনুপাত দিয়ে ভর বের করো।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "stoichiometry ভর সম্পর্ক এর মূল সূত্রটি লেখো।",
+      "question": "stoichiometry ভর সম্পর্ক এর সূত্রটি লেখো। (ইঙ্গিত: সমীকরণের মোল অনুপাত দিয়ে ভর বের করো।)",
       "answer": "\\frac{m_A}{aM_A}=\\frac{m_B}{bM_B}\\quad(aA\\to bB)"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "percentage-composition",
+    "limiting-reagent-calc",
+    "normality-relation"
+  ]
 }

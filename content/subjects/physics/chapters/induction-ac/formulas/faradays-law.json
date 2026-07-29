@@ -67,5 +67,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "transformer-ratio",
+    "ac-rms-values",
+    "self-inductance"
+  ]
 }

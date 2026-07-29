@@ -16,13 +16,13 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "MF, EF, n, M",
+      "meaning": "EF থেকে MF নির্ণয়",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "EF থেকে MF নির্ণয়",
+    "lead": "n = আণবিক ভর ÷ আনুভবিক ভর।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আনুভবিক ও আণবিক সংকেত এর মূল সূত্রটি লেখো।",
+      "question": "আনুভবিক ও আণবিক সংকেত এর সূত্রটি লেখো। (ইঙ্গিত: n = আণবিক ভর ÷ আনুভবিক ভর।)",
       "answer": "\\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "mole-avogadro",
+    "equivalent-normality",
+    "qualitative-ion-tests"
+  ]
 }

@@ -56,5 +56,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "complex-modulus-argument",
+    "roots-of-unity",
+    "de-moivre"
+  ]
 }

@@ -15,13 +15,13 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "f, circ, g, x",
+      "meaning": "(f∘g)(x)",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "(f∘g)(x)",
+    "lead": "g আগে, f পরে; fog ≠ gof সাধারণত।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফাংশনের সংযোজন এর মূল সূত্রটি লেখো।",
+      "question": "ফাংশনের সংযোজন এর সূত্রটি লেখো। (ইঙ্গিত: g আগে, f পরে; fog ≠ gof সাধারণত।)",
       "answer": "(f\\circ g)(x)=f(g(x))"
     }
   ],
   "memorize": {
-    "trick": "g আগে, f পরে; fog ≠ gof সাধারণত。",
+    "trick": "g আগে, f পরে; fog ≠ gof সাধারণত।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "function-definition",
+    "inverse-function",
+    "cartesian-product"
+  ]
 }

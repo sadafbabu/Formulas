@@ -16,13 +16,13 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "T, pi, sqrt, I",
+      "meaning": "ভৌত দোলকের পর্যায়কাল",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "ভৌত দোলকের পর্যায়কাল",
+    "lead": "I = mk²; সমতুল্য দৈর্ঘ্য L_eq=(k²+d²)/d।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "যৌগিক দোলক এর মূল সূত্রটি লেখো।",
+      "question": "যৌগিক দোলক এর সূত্রটি লেখো। (ইঙ্গিত: I = mk²; সমতুল্য দৈর্ঘ্য L_eq=(k²+d²)/d।)",
       "answer": "T=2\\pi\\sqrt{\\frac{I}{mgd}}=2\\pi\\sqrt{\\frac{k^2+d^2}{gd}}"
     }
   ],

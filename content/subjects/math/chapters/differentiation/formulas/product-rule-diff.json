@@ -15,13 +15,13 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "u, v",
+      "meaning": "uv'+vu'",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "uv'+vu'",
+    "lead": "প্রথম×দ্বিতীয়′ + দ্বিতীয়×প্রথম′।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গুণ নিয়ম এর মূল সূত্রটি লেখো।",
+      "question": "গুণ নিয়ম এর সূত্রটি লেখো। (ইঙ্গিত: প্রথম×দ্বিতীয়′ + দ্বিতীয়×প্রথম′।)",
       "answer": "(uv)'=u'v+uv'"
     }
   ],
@@ -45,5 +45,10 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "product-quotient-rule",
+    "chain-rule-diff",
+    "quotient-rule-diff",
+    "derivative-exp-log"
+  ]
 }

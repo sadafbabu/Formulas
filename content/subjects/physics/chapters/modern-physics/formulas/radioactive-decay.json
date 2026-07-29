@@ -60,5 +60,10 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "half-life-chem",
+    "radioactive-decay-law-chem",
+    "mass-energy-photoelectric",
+    "de-broglie-wavelength"
+  ]
 }

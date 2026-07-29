@@ -61,5 +61,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "gravitational-potential",
+    "variation-of-g",
+    "escape-velocity"
+  ]
 }

@@ -16,13 +16,13 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "v, top,min, sqrt, g",
+      "meaning": "v=√(gr)",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "v=√(gr)",
+    "lead": "শীর্ষ √(gr); নিচে √(5gr) — শক্তি সংরক্ষণ।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শীর্ষে ন্যূনতম বেগ এর মূল সূত্রটি লেখো।",
+      "question": "শীর্ষে ন্যূনতম বেগ এর সূত্রটি লেখো। (ইঙ্গিত: শীর্ষ √(gr); নিচে √(5gr) — শক্তি সংরক্ষণ।)",
       "answer": "v_{\\text{top,min}}=\\sqrt{gr},\\quad v_{\\text{bottom,min}}=\\sqrt{5gr}"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "vertical-circle-tension",
+    "conical-pendulum",
+    "banking-of-road-ideal"
+  ]
 }

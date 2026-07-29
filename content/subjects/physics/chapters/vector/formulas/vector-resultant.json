@@ -65,5 +65,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "vector-cross-area",
+    "vector-dot-product",
+    "vector-dot-angle"
+  ]
 }

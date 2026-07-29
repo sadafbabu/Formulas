@@ -16,13 +16,13 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "ly, m, AU",
+      "meaning": "1 ly, 1 AU",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "1 ly, 1 AU",
+    "lead": "AU = পৃথিবী–সূর্য গড় দূরত্ব; ly = আলোর ১ বছরের পথ।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আলোকবর্ষ ও AU এর মূল সূত্রটি লেখো।",
+      "question": "আলোকবর্ষ ও AU এর সূত্রটি লেখো। (ইঙ্গিত: AU = পৃথিবী–সূর্য গড় দূরত্ব; ly = আলোর ১ বছরের পথ।)",
       "answer": "1\\,\\mathrm{ly}=9.46\\times10^{15}\\,\\mathrm{m},\\quad 1\\,\\mathrm{AU}=1.496\\times10^{11}\\,\\mathrm{m}"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "parallax-distance",
+    "hubble-law",
+    "solar-luminosity-flux"
+  ]
 }

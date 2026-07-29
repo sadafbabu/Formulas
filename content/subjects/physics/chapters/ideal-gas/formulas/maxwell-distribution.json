@@ -60,5 +60,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "kinetic-energy-gas",
+    "mean-free-path",
+    "ideal-gas-equation"
+  ]
 }

@@ -16,9 +16,9 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "F, pi, eta, r",
+      "meaning": "সান্দ্র মাধ্যমে গোলকের প্রতিকর্ষ",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্টোকসের সূত্র এর মূল সূত্রটি লেখো।",
+      "question": "স্টোকসের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: F=6πηrv; টার্মিনাল v_t ∝ r²।)",
       "answer": "F=6\\pi\\eta rv,\\quad v_t=\\frac{2r^2(\\rho-\\sigma)g}{9\\eta}"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "bulk-shear-modulus",
+    "poiseuille-law",
+    "youngs-modulus"
+  ]
 }

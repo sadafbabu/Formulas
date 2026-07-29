@@ -61,5 +61,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "binomial-expansion",
+    "greatest-term",
+    "sum-binomial-coeff"
+  ]
 }

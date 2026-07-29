@@ -66,5 +66,8 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "euler-form",
+    "roots-of-unity"
+  ]
 }

@@ -15,13 +15,13 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "x, y, r",
+      "meaning": "xx1+yy1=r²",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "xx1+yy1=r²",
+    "lead": "T=0 পদ্ধতি; কেন্দ্রে xx₁+yy₁=r²।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তের বিন্দুতে স্পর্শক এর মূল সূত্রটি লেখো।",
+      "question": "বৃত্তের বিন্দুতে স্পর্শক এর সূত্রটি লেখো। (ইঙ্গিত: T=0 পদ্ধতি; কেন্দ্রে xx₁+yy₁=r²।)",
       "answer": "xx_1+yy_1=r^2\\quad(x^2+y^2=r^2)"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "circle-diameter-form",
+    "tangent-from-external",
+    "circle-center-radius"
+  ]
 }

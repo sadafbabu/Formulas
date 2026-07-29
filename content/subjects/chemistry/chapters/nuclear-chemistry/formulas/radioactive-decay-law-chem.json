@@ -16,13 +16,13 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "N, e, lambda, t",
+      "meaning": "N=N₀e^(−λt)",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "N=N₀e^(−λt)",
+    "lead": "A = λN; সক্রিয়তা ক্ষয়ের হার।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "তেজস্ক্রিয় ক্ষয় সূত্র এর মূল সূত্রটি লেখো।",
+      "question": "তেজস্ক্রিয় ক্ষয় সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: A = λN; সক্রিয়তা ক্ষয়ের হার।)",
       "answer": "N=N_0 e^{-\\lambda t},\\quad A=\\lambda N"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "radioactive-decay",
+    "half-life-chem",
+    "carbon-dating"
+  ]
 }

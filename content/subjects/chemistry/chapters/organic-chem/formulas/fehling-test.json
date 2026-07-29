@@ -15,13 +15,13 @@
   "order": 190,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "ce, R, C, H",
+      "meaning": "aldehyde detection",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "aldehyde detection",
+    "lead": "Aldehyde → red Cu₂O precipitate; ketone negative।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফেলিং পরীক্ষা এর মূল সূত্রটি লেখো।",
+      "question": "ফেলিং পরীক্ষা এর সূত্রটি লেখো। (ইঙ্গিত: Aldehyde → red Cu₂O precipitate; ketone negative।)",
       "answer": "\\ce{RCHO + 2Cu(OH)2 -> RCOOH + Cu2O + 2H2O}"
     }
   ],
   "memorize": {
-    "trick": "Aldehyde → red Cu₂O precipitate; ketone negative。",
+    "trick": "Aldehyde → red Cu₂O precipitate; ketone negative।",
     "steps": []
   },
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "specific-rotation",
+    "tollens-test",
+    "polymerization"
+  ]
 }

@@ -15,13 +15,13 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "x, a, y, b",
+      "meaning": "x²/a²−y²/b²=1",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "x²/a²−y²/b²=1",
+    "lead": "c²=a²+b² (উপবৃত্তের উল্টো); e>1; শাখা x=±(b/a)y।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মানক অধিবৃত্ত এর মূল সূত্রটি লেখো।",
+      "question": "মানক অধিবৃত্ত এর সূত্রটি লেখো। (ইঙ্গিত: c²=a²+b² (উপবৃত্তের উল্টো); e>1; শাখা x=±(b/a)y।)",
       "answer": "\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "ellipse-tangent",
+    "hyperbola-foci",
+    "ellipse-latus-rectum"
+  ]
 }

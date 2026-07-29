@@ -77,5 +77,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "shm-time-period",
+    "torsional-pendulum",
+    "wave-equation"
+  ]
 }

@@ -15,13 +15,13 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "x, a, y, b",
+      "meaning": "(x−a)²+...",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "(x−a)²+...",
+    "lead": "কেন্দ্র (a,b,c), ব্যাসার্ধ r; 2D বৃত্তের 3D সংস্করণ।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,19 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গোলকের সমীকরণ এর মূল সূত্রটি লেখো।",
+      "question": "গোলকের সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: কেন্দ্র (a,b,c), ব্যাসার্ধ r; 2D বৃত্তের 3D সংস্করণ।)",
       "answer": "(x-a)^2+(y-b)^2+(z-c)^2=r^2"
     }
   ],
   "memorize": {
-    "trick": "কেন্দ্র (a,b,c), ব্যাসার্ধ r; 2D বৃত্তের 3D সংস্করণ。",
+    "trick": "কেন্দ্র (a,b,c), ব্যাসার্ধ r; 2D বৃত্তের 3D সংস্করণ।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "angle-between-planes",
+    "plane-general-form"
+  ]
 }

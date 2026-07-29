@@ -50,5 +50,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "vector-dot-product",
+    "direction-cosines",
+    "vector-resultant"
+  ]
 }

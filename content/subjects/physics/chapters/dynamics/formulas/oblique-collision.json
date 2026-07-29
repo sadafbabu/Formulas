@@ -16,9 +16,9 @@
   "order": 160,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "u, parallel, v, m",
+      "meaning": "মসৃণ তল বরাবর তির্যক সংঘর্ষ",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "তির্যক সংঘর্ষ এর মূল সূত্রটি লেখো।",
+      "question": "তির্যক সংঘর্ষ এর সূত্রটি লেখো। (ইঙ্গিত: স্পর্শক বরাবর বেগ অপরিবর্তিত; অভিলম্ব বরাবর 1D সংঘর্ষ।)",
       "answer": "u_{1\\parallel}=v_{1\\parallel},\\quad m_1u_{1\\perp}+m_2u_{2\\perp}=m_1v_{1\\perp}+m_2v_{2\\perp}"
     }
   ],

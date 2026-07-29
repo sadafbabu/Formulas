@@ -59,5 +59,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "potential-energy-spring",
+    "power-efficiency",
+    "work-theorem"
+  ]
 }

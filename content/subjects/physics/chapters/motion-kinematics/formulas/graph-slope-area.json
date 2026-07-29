@@ -16,13 +16,13 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "v, slope of, x, –",
+      "meaning": "slope & area",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "slope & area",
+    "lead": "x–t ঢাল=v; v–t ঢাল=a; v–t ক্ষেত্রফল=s।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গতি লেখচিত্র এর মূল সূত্রটি লেখো।",
+      "question": "গতি লেখচিত্র এর সূত্রটি লেখো। (ইঙ্গিত: x–t ঢাল=v; v–t ঢাল=a; v–t ক্ষেত্রফল=s।)",
       "answer": "v=\\text{slope of }x\\text{–}t;\\quad a=\\text{slope of }v\\text{–}t;\\quad s=\\text{area under }v\\text{–}t"
     }
   ],
@@ -46,5 +46,8 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "river-boat-crossing",
+    "rain-man-relative"
+  ]
 }

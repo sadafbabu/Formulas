@@ -65,7 +65,7 @@ export function FormulaBlock({
           <p className="formula-summary">{formula.summary}</p>
           <div className="formula-meta">
             {displayTags.map((tag) => (
-              <TagChip key={tag} id={tag} active={activeTag === tag} />
+              <TagChip key={tag} id={tag} active={activeTag === tag} chapterId={formula.chapter} />
             ))}
           </div>
         </div>

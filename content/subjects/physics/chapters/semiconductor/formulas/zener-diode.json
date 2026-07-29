@@ -61,5 +61,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "half-wave-rectifier",
+    "intrinsic-extrinsic",
+    "rectifier-ripple"
+  ]
 }

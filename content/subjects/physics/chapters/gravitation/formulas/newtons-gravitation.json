@@ -65,5 +65,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "orbital-velocity",
+    "escape-velocity",
+    "keplers-laws"
+  ]
 }

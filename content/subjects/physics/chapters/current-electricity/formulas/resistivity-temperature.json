@@ -72,5 +72,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "wheatstone-bridge",
+    "drift-velocity",
+    "ohms-law"
+  ]
 }

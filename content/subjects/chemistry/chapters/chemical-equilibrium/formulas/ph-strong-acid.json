@@ -16,13 +16,13 @@
   "order": 170,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "pH, H, pOH, OH",
+      "meaning": "pH=−log[H+]",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "pH=−log[H+]",
+    "lead": "সবল অম্লে [H⁺]=molarity; pH+pOH=14 (২৫°C)।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সবল অম্লের pH এর মূল সূত্রটি লেখো।",
+      "question": "সবল অম্লের pH এর সূত্রটি লেখো। (ইঙ্গিত: সবল অম্লে [H⁺]=molarity; pH+pOH=14 (২৫°C)।)",
       "answer": "\\mathrm{pH}=-\\log_{10}[\\mathrm{H}^+],\\quad \\mathrm{pOH}=-\\log_{10}[\\mathrm{OH}^-]"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "buffer-capacity",
+    "hess-law",
+    "zero-order-kinetics"
+  ]
 }

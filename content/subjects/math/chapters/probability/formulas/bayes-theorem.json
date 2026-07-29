@@ -15,13 +15,13 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "P, A, B",
+      "meaning": "পosterior সম্ভাব্যতা",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "পosterior সম্ভাব্যতা",
+    "lead": "P(B|A)P(A)/P(B) — উল্টো শর্তাধীন সম্ভাব্যতা।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বেইজের উপপাদ্য এর মূল সূত্রটি লেখো।",
+      "question": "বেইজের উপপাদ্য এর সূত্রটি লেখো। (ইঙ্গিত: P(B|A)P(A)/P(B) — উল্টো শর্তাধীন সম্ভাব্যতা।)",
       "answer": "P(A|B)=\\frac{P(B|A)P(A)}{P(B)}"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "independent-events-probability",
+    "total-probability-theorem",
+    "multiplication-rule-probability"
+  ]
 }

@@ -16,9 +16,9 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "C, pi, varepsilon, a",
+      "meaning": "কেন্দ্রীক গোলক ও বিচ্ছিন্ন গোলকের ধারকত্ব",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গোলীয় ধারক এর মূল সূত্রটি লেখো।",
+      "question": "গোলীয় ধারক এর সূত্রটি লেখো। (ইঙ্গিত: বিচ্ছিন্ন গোলক C=4πε₀R; দুই গোলকে ab/(b−a)।)",
       "answer": "C=4\\pi\\varepsilon_0\\frac{ab}{b-a},\\quad C_{iso}=4\\pi\\varepsilon_0 R"
     }
   ],

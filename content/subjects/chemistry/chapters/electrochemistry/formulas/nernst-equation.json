@@ -60,5 +60,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "conductance-kohlrausch",
+    "faradays-electrolysis",
+    "faraday-second-law"
+  ]
 }

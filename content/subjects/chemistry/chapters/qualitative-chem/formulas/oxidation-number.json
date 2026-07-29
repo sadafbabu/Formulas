@@ -16,9 +16,9 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "sum, ox. no., molecule, charge",
+      "meaning": "জারণ সংখ্যা নিয়ম ও যোগফল",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জারণ সংখ্যা এর মূল সূত্রটি লেখো।",
+      "question": "জারণ সংখ্যা এর সূত্রটি লেখো। (ইঙ্গিত: অণুতে যোগফল ০; আয়নে = চার্জ।)",
       "answer": "\\sum(\\text{ox. no.})=0\\ (\\text{molecule}),\\quad=\\text{charge}\\ (\\text{ion})"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "equivalent-normality",
+    "limiting-reagent",
+    "empirical-molecular-formula"
+  ]
 }

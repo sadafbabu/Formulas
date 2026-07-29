@@ -15,13 +15,13 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "Z, contribution from all corner/face/edge atoms",
+      "meaning": "Z=?",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "Z=?",
+    "lead": "Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,19 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "একক কোষে পরমাণু এর মূল সূত্রটি লেখো।",
+      "question": "একক কোষে পরমাণু এর সূত্রটি লেখো। (ইঙ্গিত: Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।)",
       "answer": "Z=\\text{contribution from all corner/face/edge atoms}"
     }
   ],
   "memorize": {
-    "trick": "Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up。",
+    "trick": "Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।",
     "steps": []
   },
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "packing-efficiency",
+    "density-unit-cell"
+  ]
 }

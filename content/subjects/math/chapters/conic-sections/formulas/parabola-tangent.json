@@ -15,13 +15,13 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "y, a, x",
+      "meaning": "y²=4ax-এ স্পর্শরেখা",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "y²=4ax-এ স্পর্শরেখা",
+    "lead": "'yy₁ = 2a(x+x₁)' — y²=4ax-এর স্পর্শ সূত্র; T≡0 পদ্ধতি মনে রাখো।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরাবৃত্তের স্পর্শরেখা এর মূল সূত্রটি লেখো।",
+      "question": "পরাবৃত্তের স্পর্শরেখা এর সূত্রটি লেখো। (ইঙ্গিত: 'yy₁ = 2a(x+x₁)' — y²=4ax-এর স্পর্শ সূত্র; T≡0 পদ্ধতি মনে রা)",
       "answer": "yy_1=2a(x+x_1)"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "parabola-parametric",
+    "ellipse-standard",
+    "parabola-latus-rectum"
+  ]
 }

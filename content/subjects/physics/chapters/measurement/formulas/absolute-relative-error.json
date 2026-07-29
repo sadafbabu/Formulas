@@ -16,13 +16,13 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "Delta, x, meas, true",
+      "meaning": "Δx এবং Δx/x",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "Δx এবং Δx/x",
+    "lead": "পরম = পার্থক্য; আপেক্ষিক = পরম/মান।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরম ও আপেক্ষিক ত্রুটি এর মূল সূত্রটি লেখো।",
+      "question": "পরম ও আপেক্ষিক ত্রুটি এর সূত্রটি লেখো। (ইঙ্গিত: পরম = পার্থক্য; আপেক্ষিক = পরম/মান।)",
       "answer": "\\Delta x=|x_{\\text{meas}}-x_{\\text{true}}|,\\quad \\frac{\\Delta x}{x}"
     }
   ],
@@ -46,5 +46,8 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "si-base-units",
+    "screw-gauge-least-count"
+  ]
 }

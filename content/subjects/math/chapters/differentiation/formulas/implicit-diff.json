@@ -15,13 +15,13 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "d, y, x, F",
+      "meaning": "F(x,y)=0",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "F(x,y)=0",
+    "lead": "দুই পাশে d/dx; y′ আলাদা করো।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অন্তর্নিহিত অন্তরীকরণ এর মূল সূত্রটি লেখো।",
+      "question": "অন্তর্নিহিত অন্তরীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: দুই পাশে d/dx; y′ আলাদা করো।)",
       "answer": "\\frac{dy}{dx}=-\\frac{F_x}{F_y}"
     }
   ],
@@ -45,5 +45,10 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "implicit-differentiation",
+    "quotient-rule-diff",
+    "parametric-diff",
+    "product-rule-diff"
+  ]
 }

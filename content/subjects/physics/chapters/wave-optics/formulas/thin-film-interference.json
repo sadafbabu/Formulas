@@ -15,13 +15,13 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "n, t, m, tfrac",
+      "meaning": "2nt=(m+½)λ",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "2nt=(m+½)λ",
+    "lead": "Phase reversal at one surface → half wavelength path difference।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,19 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অপাতল স্তরে ব্যতিচার এর মূল সূত্রটি লেখো।",
+      "question": "অপাতল স্তরে ব্যতিচার এর সূত্রটি লেখো। (ইঙ্গিত: Phase reversal at one surface → half wavelength path differe)",
       "answer": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda"
     }
   ],
   "memorize": {
-    "trick": "Phase reversal at one surface → half wavelength path difference。",
+    "trick": "Phase reversal at one surface → half wavelength path difference।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "fresnel-biprism",
+    "resolving-power"
+  ]
 }

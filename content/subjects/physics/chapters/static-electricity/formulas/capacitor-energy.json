@@ -65,5 +65,8 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "coulombs-law",
+    "electric-potential"
+  ]
 }

@@ -16,13 +16,13 @@
   "order": 150,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "Q, m, L",
+      "meaning": "Q=mL",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "Q=mL",
+    "lead": "তাপমাত্রা না বাড়িয়ে দশা পরিবর্তনের তাপ।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সুপ্ত তাপ এর মূল সূত্রটি লেখো।",
+      "question": "সুপ্ত তাপ এর সূত্রটি লেখো। (ইঙ্গিত: তাপমাত্রা না বাড়িয়ে দশা পরিবর্তনের তাপ।)",
       "answer": "Q=mL"
     }
   ],
@@ -46,5 +46,8 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "heat-capacity-specific",
+    "thermal-expansion-linear"
+  ]
 }

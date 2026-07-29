@@ -15,13 +15,13 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "q, Q, e, t",
+      "meaning": "q=Q(1−e^(−t/RC))",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "q=Q(1−e^(−t/RC))",
+    "lead": "τ=RC time constant; 63% charge at t=τ।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "RC চarging এর মূল সূত্রটি লেখো।",
+      "question": "RC চarging এর সূত্রটি লেখো। (ইঙ্গিত: τ=RC time constant; 63% charge at t=τ।)",
       "answer": "q=Q(1-e^{-t/RC}),\\quad Q=CV"
     }
   ],
   "memorize": {
-    "trick": "τ=RC time constant; 63% charge at t=τ。",
+    "trick": "τ=RC time constant; 63% charge at t=τ।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "group-cells-max-power",
+    "shunt-multiplier",
+    "cells-series-parallel"
+  ]
 }

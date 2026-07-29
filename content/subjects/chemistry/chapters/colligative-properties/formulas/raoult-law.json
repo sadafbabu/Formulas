@@ -15,13 +15,13 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "P, A, circ, x",
+      "meaning": "P=PA°xA",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "P=PA°xA",
+    "lead": "Ideal solution: P = Σ Pi° xi; vapor pressure lowering।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রাউলের সূত্র এর মূল সূত্রটি লেখো।",
+      "question": "রাউলের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: Ideal solution: P = Σ Pi° xi; vapor pressure lowering।)",
       "answer": "P=P_A^\\circ x_A+P_B^\\circ x_B"
     }
   ],
   "memorize": {
-    "trick": "Ideal solution: P = Σ Pi° xi; vapor pressure lowering。",
+    "trick": "Ideal solution: P = Σ Pi° xi; vapor pressure lowering।",
     "steps": []
   },
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "vant-hoff-factor",
+    "colligative-molecular-mass",
+    "osmotic-pressure"
+  ]
 }

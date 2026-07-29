@@ -16,13 +16,13 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "Delta, H, sum, E",
+      "meaning": "বন্ধন এনথালপি থেকে ΔH",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "বন্ধন এনথালপি থেকে ΔH",
+    "lead": "ভাঙা − গঠন = ΔH (এন্ডো ধনাত্মক)।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বন্ধন এনথালপি এর মূল সূত্রটি লেখো।",
+      "question": "বন্ধন এনথালপি এর সূত্রটি লেখো। (ইঙ্গিত: ভাঙা − গঠন = ΔH (এন্ডো ধনাত্মক)।)",
       "answer": "\\Delta H=\\sum E_{\\text{broken}}-\\sum E_{\\text{formed}}"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "percent-ionic-character",
+    "mo-energy-order",
+    "hydrogen-bond"
+  ]
 }

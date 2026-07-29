@@ -63,5 +63,8 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "markovnikov-rule",
+    "sn1-sn2-mechanism"
+  ]
 }

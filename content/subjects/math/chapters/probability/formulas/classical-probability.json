@@ -15,13 +15,13 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "P, E, n, S",
+      "meaning": "P(E)=favourable/total",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "P(E)=favourable/total",
+    "lead": "সমান সম্ভাব্য নমুনা বিন্দু ধরে; 0≤P(E)≤1।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ধ্রুবক সম্ভাব্যতা এর মূল সূত্রটি লেখো।",
+      "question": "ধ্রুবক সম্ভাব্যতা এর সূত্রটি লেখো। (ইঙ্গিত: সমান সম্ভাব্য নমুনা বিন্দু ধরে; 0≤P(E)≤1।)",
       "answer": "P(E)=\\frac{n(E)}{n(S)}"
     }
   ],
@@ -45,5 +45,8 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "complement-probability",
+    "addition-rule-probability"
+  ]
 }

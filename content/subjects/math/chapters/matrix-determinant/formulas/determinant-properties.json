@@ -15,13 +15,13 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "A, T, B",
+      "meaning": "row interchange",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "row interchange",
+    "lead": "Row swap → sign change; two equal rows → det=0।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "নির্ণায়কের ধর্ম এর মূল সূত্রটি লেখো।",
+      "question": "নির্ণায়কের ধর্ম এর সূত্রটি লেখো। (ইঙ্গিত: Row swap → sign change; two equal rows → det=0।)",
       "answer": "|A^T|=|A|;\\quad |AB|=|A||B|"
     }
   ],
   "memorize": {
-    "trick": "Row swap → sign change; two equal rows → det=0。",
+    "trick": "Row swap → sign change; two equal rows → det=0।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "cramers-rule",
+    "matrix-transpose-properties",
+    "adjoint-properties"
+  ]
 }

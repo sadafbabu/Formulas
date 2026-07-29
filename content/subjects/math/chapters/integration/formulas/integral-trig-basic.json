@@ -15,13 +15,13 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "int, x",
+      "meaning": "sin, cos, sec²",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "sin, cos, sec²",
+    "lead": "অন্তরকের উল্টো দিক মনে রাখো।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মৌলিক ত্রিকোণমিতিক যোগজ এর মূল সূত্রটি লেখো।",
+      "question": "মৌলিক ত্রিকোণমিতিক যোগজ এর সূত্রটি লেখো। (ইঙ্গিত: অন্তরকের উল্টো দিক মনে রাখো।)",
       "answer": "\\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "integral-ex",
+    "integral-substitution-basic",
+    "integral-1x"
+  ]
 }

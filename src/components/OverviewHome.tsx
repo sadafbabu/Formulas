@@ -104,7 +104,7 @@ export function OverviewHome({ onSelectChapter }: OverviewHomeProps) {
                     {subj?.nameBn} · {paper?.nameBn}
                   </span>
                   <span className={`status-pill${ch.isReady ? ' is-live' : ''}`}>
-                    {ch.isReady ? `${ch.formulaCount} Formulations` : 'Coming Soon'}
+                    {ch.isReady ? `${ch.formulaCount} সূত্র` : 'শীঘ্রই আসছে'}
                   </span>
                 </div>
 
@@ -116,7 +116,7 @@ export function OverviewHome({ onSelectChapter }: OverviewHomeProps) {
                     CHAPTER {String(ch.order).padStart(2, '0')}
                   </span>
                   <span className="open-link">
-                    {ch.isReady ? 'Open Book →' : 'In Progress'}
+                    {ch.isReady ? 'বই খুলুন →' : 'প্রস্তুত হচ্ছে'}
                   </span>
                 </div>
               </article>

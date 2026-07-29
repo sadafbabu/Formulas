@@ -52,5 +52,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "sum-binomial-coeff",
+    "binomial-middle-term",
+    "greatest-term"
+  ]
 }

@@ -46,8 +46,15 @@ export function NavMenu({
     return formulas.filter((f) => matchFormula(f, query, null)).slice(0, 40)
   }, [q, query])
 
-  const list = q && chapterList.length === 0 ? globalList : chapterList
-  const searchingAll = Boolean(q && chapterList.length === 0 && globalList.length > 0)
+  const chaptersBySubject = useMemo(() => {
+    return subjectsList.map((subject) => ({
+      subject,
+      chapters: chapters.filter((ch) => ch.subjectId === subject.id),
+    }))
+  }, [])
+
+  const list = q ? (globalList.length ? globalList : chapterList) : chapterList
+  const searchingAll = Boolean(q && globalList.length > 0)
 
   useEffect(() => {
     if (!open) return
@@ -107,20 +114,27 @@ export function NavMenu({
             />
           </label>
 
-          <p className="nav-section">অধ্যায়</p>
-          {chapters.map((ch) => (
-            <button
-              key={ch.id}
-              type="button"
-              className={`nav-link${chapterId === ch.id ? ' is-active' : ''}`}
-              onClick={() => {
-                onChapterChange(ch.id)
-                setOpen(false)
-              }}
-            >
-              {ch.nameBn}
-              <span>{ch.name}</span>
-            </button>
+          {chaptersBySubject.map(({ subject, chapters: subjectChapters }) => (
+            <div key={subject.id} className="nav-subject-group">
+              <p className="nav-section">
+                {subject.nameBn}
+                <span className="nav-section-en"> · {subject.name}</span>
+              </p>
+              {subjectChapters.map((ch) => (
+                <button
+                  key={ch.id}
+                  type="button"
+                  className={`nav-link${chapterId === ch.id ? ' is-active' : ''}`}
+                  onClick={() => {
+                    onChapterChange(ch.id)
+                    setOpen(false)
+                  }}
+                >
+                  {ch.nameBn}
+                  <span>{ch.formulaCount}</span>
+                </button>
+              ))}
+            </div>
           ))}
 
           <p className="nav-section">

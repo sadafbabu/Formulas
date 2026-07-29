@@ -16,13 +16,13 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "E, sigma, varepsilon",
+      "meaning": "E=σ/2ε₀",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "E=σ/2ε₀",
+    "lead": "অসীম চার্জিত পাত; দূরত্ব-নির্ভর নয়।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অসীম পাতের ক্ষেত্র এর মূল সূত্রটি লেখো।",
+      "question": "অসীম পাতের ক্ষেত্র এর সূত্রটি লেখো। (ইঙ্গিত: অসীম চার্জিত পাত; দূরত্ব-নির্ভর নয়।)",
       "answer": "E=\\frac{\\sigma}{2\\varepsilon_0}"
     }
   ],
@@ -46,5 +46,8 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "gauss-law",
+    "equipotential-work"
+  ]
 }

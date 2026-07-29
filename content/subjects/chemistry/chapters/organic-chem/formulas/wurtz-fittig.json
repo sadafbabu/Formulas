@@ -16,9 +16,9 @@
   "order": 160,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "ce, R, C, l",
+      "meaning": "হ্যালোঅ্যালকেন থেকে অ্যালকেন/অ্যারেন",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উর্টজ ও ফিটিগ বিক্রিয়া এর মূল সূত্রটি লেখো।",
+      "question": "উর্টজ ও ফিটিগ বিক্রিয়া এর সূত্রটি লেখো। (ইঙ্গিত: 2RX + 2Na → R−R — কার্বন শৃঙ্খল বাড়ে।)",
       "answer": "\\ce{2RCl + 2Na -> R-R + 2NaCl}"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "ozonolysis",
+    "polymerization",
+    "aldol-cannizzaro"
+  ]
 }

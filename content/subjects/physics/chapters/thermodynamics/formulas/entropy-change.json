@@ -70,5 +70,8 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "cp-cv-relation",
+    "first-law-thermo"
+  ]
 }

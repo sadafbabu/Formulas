@@ -15,13 +15,13 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "f, A, B, forall",
+      "meaning": "f:A→B",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "f:A→B",
+    "lead": "প্রতিটি input-এ exactly এক output — MCQ-তে function test।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফাংশনের সংজ্ঞা এর মূল সূত্রটি লেখো।",
+      "question": "ফাংশনের সংজ্ঞা এর সূত্রটি লেখো। (ইঙ্গিত: প্রতিটি input-এ exactly এক output — MCQ-তে function test।)",
       "answer": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b"
     }
   ],
   "memorize": {
-    "trick": "প্রতিটি input-এ exactly এক output — MCQ-তে function test。",
+    "trick": "প্রতিটি input-এ exactly এক output — MCQ-তে function test।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "cartesian-product",
+    "function-composition",
+    "de-morgan-sets"
+  ]
 }

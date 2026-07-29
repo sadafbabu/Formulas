@@ -61,5 +61,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "optical-path-phase",
+    "interference-conditions",
+    "diffraction-grating"
+  ]
 }

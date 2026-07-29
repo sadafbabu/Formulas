@@ -52,5 +52,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "product-sum-identities",
+    "inverse-trig",
+    "trig-identity-pythagorean"
+  ]
 }

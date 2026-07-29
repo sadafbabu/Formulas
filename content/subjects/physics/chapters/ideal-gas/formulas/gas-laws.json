@@ -69,5 +69,8 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "rms-velocity",
+    "ideal-gas-equation"
+  ]
 }

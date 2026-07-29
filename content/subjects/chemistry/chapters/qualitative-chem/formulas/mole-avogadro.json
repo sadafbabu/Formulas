@@ -16,9 +16,9 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "n, m, M, N",
+      "meaning": "মোল, কণা সংখ্যা ও মোলার ভর",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মোল ধারণা ও অ্যাভোগাড্রো সংখ্যা এর মূল সূত্রটি লেখো।",
+      "question": "মোল ধারণা ও অ্যাভোগাড্রো সংখ্যা এর সূত্রটি লেখো। (ইঙ্গিত: n = m/M = N/N_A — তিন রাস্তায় মোল।)",
       "answer": "n=\\frac{m}{M}=\\frac{N}{N_A},\\quad N_A=6.022\\times10^{23}\\,\\mathrm{mol^{-1}}"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "qualitative-ion-tests",
+    "empirical-molecular-formula",
+    "concentration-units"
+  ]
 }

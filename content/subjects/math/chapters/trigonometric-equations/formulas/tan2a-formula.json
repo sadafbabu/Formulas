@@ -15,13 +15,13 @@
   "order": 190,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "A",
+      "meaning": "2tanA/(1−tan²A)",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "2tanA/(1−tan²A)",
+    "lead": "ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "tan ২A এর মূল সূত্রটি লেখো।",
+      "question": "tan ২A এর সূত্রটি লেখো। (ইঙ্গিত: ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।)",
       "answer": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "sin2a-cos2a",
+    "sin3a-cos3a",
+    "general-solution-tan"
+  ]
 }

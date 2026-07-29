@@ -60,5 +60,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "coulombs-law",
+    "capacitor-parallel-plate",
+    "capacitor-energy"
+  ]
 }

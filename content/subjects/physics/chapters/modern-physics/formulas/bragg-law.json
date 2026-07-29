@@ -16,9 +16,9 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "d, theta, n, lambda",
+      "meaning": "স্ফটিক থেকে এক্স-রে অপবর্তন",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ব্র্যাগের সূত্র এর মূল সূত্রটি লেখো।",
+      "question": "ব্র্যাগের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: 2d sinθ = nλ — পথপার্থক্য দুই স্তরে।)",
       "answer": "2d\\sin\\theta=n\\lambda"
     }
   ],

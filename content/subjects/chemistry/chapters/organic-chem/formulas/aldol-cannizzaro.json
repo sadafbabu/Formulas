@@ -16,9 +16,9 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "ce, R, C, H",
+      "meaning": "কার্বনিলের দুই গুরুত্বপূর্ণ বিক্রিয়া",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অ্যালডল ও ক্যানিজারো বিক্রিয়া এর মূল সূত্রটি লেখো।",
+      "question": "অ্যালডল ও ক্যানিজারো বিক্রিয়া এর সূত্রটি লেখো। (ইঙ্গিত: α-H থাকলে Aldol; না থাকলে Cannizzaro।)",
       "answer": "\\ce{2RCHO ->[OH-] RCH(OH)CH2CHO};\\quad\\ce{2HCHO -> HCOO- + CH3OH}"
     }
   ],

@@ -15,13 +15,13 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "x, a, y, b",
+      "meaning": "(x−x₁)/a=...",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "(x−x₁)/a=...",
+    "lead": "DR (a,b,c) এবং বিন্দু (x₁,y₁,z₁)।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রেখার কার্টেসীয় রূপ এর মূল সূত্রটি লেখো।",
+      "question": "রেখার কার্টেসীয় রূপ এর সূত্রটি লেখো। (ইঙ্গিত: DR (a,b,c) এবং বিন্দু (x₁,y₁,z₁)।)",
       "answer": "\\frac{x-x_1}{a}=\\frac{y-y_1}{b}=\\frac{z-z_1}{c}"
     }
   ],
   "memorize": {
-    "trick": "DR (a,b,c) এবং বিন্দু (x₁,y₁,z₁)。",
+    "trick": "DR (a,b,c) এবং বিন্দু (x₁,y₁,z₁)।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "line-equation-3d-vector",
+    "shortest-distance-skew-lines",
+    "angle-between-lines-3d"
+  ]
 }

@@ -15,13 +15,13 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "int, a, b, f",
+      "meaning": "bounds swap",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "bounds swap",
+    "lead": "সীমা উল্টালে ঋণাত্মক; মাঝের বিন্দু ভাঙা যায়।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "নির্দিষ্ট যোগজের ধর্ম এর মূল সূত্রটি লেখো।",
+      "question": "নির্দিষ্ট যোগজের ধর্ম এর সূত্রটি লেখো। (ইঙ্গিত: সীমা উল্টালে ঋণাত্মক; মাঝের বিন্দু ভাঙা যায়।)",
       "answer": "\\int_a^b f=-\\int_b^a f,\\quad \\int_a^a f=0,\\quad \\int_a^b f=\\int_a^c f+\\int_c^b f"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "integral-by-parts-ilate",
+    "integral-even-odd",
+    "integral-substitution-basic"
+  ]
 }

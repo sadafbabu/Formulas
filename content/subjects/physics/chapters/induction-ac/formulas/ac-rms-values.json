@@ -62,5 +62,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "faradays-law",
+    "self-inductance",
+    "transformer-ratio"
+  ]
 }

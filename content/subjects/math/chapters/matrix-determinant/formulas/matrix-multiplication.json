@@ -15,13 +15,13 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "A, B, i, j",
+      "meaning": "সারি×কলাম গুণফল",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "সারি×কলাম গুণফল",
+    "lead": "সারি·কলাম; সাধারণত AB≠BA।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ম্যাট্রিক্স গুণ এর মূল সূত্রটি লেখো।",
+      "question": "ম্যাট্রিক্স গুণ এর সূত্রটি লেখো। (ইঙ্গিত: সারি·কলাম; সাধারণত AB≠BA।)",
       "answer": "(AB)_{ij}=\\sum_k a_{ik}b_{kj}"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "matrix-inverse",
+    "adjoint-properties",
+    "determinant-2x2-3x3"
+  ]
 }

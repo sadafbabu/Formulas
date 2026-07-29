@@ -15,13 +15,13 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "n, P, r, C",
+      "meaning": "ⁿPᵣ ও ⁿCᵣ",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "ⁿPᵣ ও ⁿCᵣ",
+    "lead": "P = সাজাও; C = বেছে নাও = P/r!।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্রমবিন্যাস ও সমাবেশ এর মূল সূত্রটি লেখো।",
+      "question": "ক্রমবিন্যাস ও সমাবেশ এর সূত্রটি লেখো। (ইঙ্গিত: P = সাজাও; C = বেছে নাও = P/r!।)",
       "answer": "{}^nP_r=\\frac{n!}{(n-r)!},\\quad{}^nC_r=\\frac{n!}{r!(n-r)!}=\\frac{{}^nP_r}{r!}"
     }
   ],
@@ -45,5 +45,8 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "combination-identity",
+    "division-into-groups"
+  ]
 }

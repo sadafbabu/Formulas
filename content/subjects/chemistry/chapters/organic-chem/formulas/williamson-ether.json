@@ -16,13 +16,13 @@
   "order": 220,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "ce, R, O, N",
+      "meaning": "RONa + R'X",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "RONa + R'X",
+    "lead": "অ্যালকক্সাইড + অ্যালকাইল হ্যালাইড → ইথার।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উইলিয়ামসন ইথার সংশ্লেষণ এর মূল সূত্রটি লেখো।",
+      "question": "উইলিয়ামসন ইথার সংশ্লেষণ এর সূত্রটি লেখো। (ইঙ্গিত: অ্যালকক্সাইড + অ্যালকাইল হ্যালাইড → ইথার।)",
       "answer": "\\ce{RONa + R'X -> ROR' + NaX}"
     }
   ],
@@ -46,5 +46,8 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "hoffmann-bromamide",
+    "tollens-test"
+  ]
 }

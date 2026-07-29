@@ -68,5 +68,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "bohr-atom-model",
+    "electron-configuration",
+    "solubility-product"
+  ]
 }

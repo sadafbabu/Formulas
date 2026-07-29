@@ -15,9 +15,9 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "T, r, binom, n",
+      "meaning": "বিস্তৃতিতে x^0 পদ নির্ণয়",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্বাধীন বা ধ্রুবক পদ এর মূল সূত্রটি লেখো।",
+      "question": "স্বাধীন বা ধ্রুবক পদ এর সূত্রটি লেখো। (ইঙ্গিত: T_{r+1}-এর x-এর ঘাত = ০ করে r বের করুন।)",
       "answer": "T_{r+1}=\\binom{n}{r}a^{n-r}b^r;\\quad\\text{set power of }x=0"
     }
   ],

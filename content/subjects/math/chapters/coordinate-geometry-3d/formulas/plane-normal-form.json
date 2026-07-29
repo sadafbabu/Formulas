@@ -15,17 +15,17 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "l, x, m, y",
+      "meaning": "lx+my+nz=p",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "lx+my+nz=p",
+    "lead": "স্বাভাবিক ভেক্টর (l,m,n); মূল থেকে দূর p।",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "lx+my+nPz=p",
+        "latex": "lx+my+nz=p",
         "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
       }
     ],
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমতলের লম্ব রূপ এর মূল সূত্রটি লেখো।",
-      "answer": "lx+my+nPz=p"
+      "question": "সমতলের লম্ব রূপ এর সূত্রটি লেখো। (ইঙ্গিত: স্বাভাবিক ভেক্টর (l,m,n); মূল থেকে দূর p।)",
+      "answer": "lx+my+nz=p"
     }
   ],
   "memorize": {
-    "trick": "স্বাভাবিক ভেক্টর (l,m,n); মূল থেকে দূর p。",
+    "trick": "স্বাভাবিক ভেক্টর (l,m,n); মূল থেকে দূর p।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "shortest-distance-skew-lines",
+    "plane-general-form",
+    "line-equation-3d-cartesian"
+  ]
 }

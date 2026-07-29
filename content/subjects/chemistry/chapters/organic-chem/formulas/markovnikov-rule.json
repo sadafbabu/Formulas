@@ -53,5 +53,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "grignard-reaction",
+    "sn1-sn2-mechanism",
+    "functional-groups"
+  ]
 }

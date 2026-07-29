@@ -15,13 +15,13 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "P, A, cap, B",
+      "meaning": "P(A∩B)=P(A)P(B)",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "P(A∩B)=P(A)P(B)",
+    "lead": "একটির ঘটনা অন্যটিকে প্রভাবিত করে না → গুণ।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্বাধীন ঘটনা এর মূল সূত্রটি লেখো।",
+      "question": "স্বাধীন ঘটনা এর সূত্রটি লেখো। (ইঙ্গিত: একটির ঘটনা অন্যটিকে প্রভাবিত করে না → গুণ।)",
       "answer": "P(A\\cap B)=P(A)P(B)"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "multiplication-rule-probability",
+    "bayes-theorem",
+    "conditional-probability"
+  ]
 }

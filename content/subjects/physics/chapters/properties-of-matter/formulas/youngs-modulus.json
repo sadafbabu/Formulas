@@ -16,9 +16,9 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "Y, F, A, Delta",
+      "meaning": "দৈর্ঘ্যিক স্থিতিস্থাপকতা",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ইয়ং-এর গুণাঙ্ক এর মূল সূত্রটি লেখো।",
+      "question": "ইয়ং-এর গুণাঙ্ক এর সূত্রটি লেখো। (ইঙ্গিত: Y = (F/A)/(ΔL/L) — stress ÷ strain।)",
       "answer": "Y=\\frac{F/A}{\\Delta L/L}=\\frac{FL}{A\\Delta L}"
     }
   ],
@@ -46,5 +46,8 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "bulk-shear-modulus",
+    "stokes-law"
+  ]
 }

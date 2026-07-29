@@ -15,13 +15,13 @@
   "order": 150,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "x, y, c, e",
+      "meaning": "xy=c²",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "xy=c²",
+    "lead": "xy=c²-এ লঘুগামী y=±x; e=√2 স্থির।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমকোণী অধিবৃত্ত এর মূল সূত্রটি লেখো।",
+      "question": "সমকোণী অধিবৃত্ত এর সূত্রটি লেখো। (ইঙ্গিত: xy=c²-এ লঘুগামী y=±x; e=√2 স্থির।)",
       "answer": "xy=c^2,\\quad e=\\sqrt{2}"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "hyperbola-eccentricity",
+    "hyperbola-tangent",
+    "hyperbola-asymptotes"
+  ]
 }

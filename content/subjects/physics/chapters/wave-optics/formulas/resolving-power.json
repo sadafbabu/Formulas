@@ -16,9 +16,9 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "RP, t, e, l",
+      "meaning": "দূরবীক্ষণ, অণুবীক্ষণ ও গ্রেটিং-এর RP",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিভেদন ক্ষমতা এর মূল সূত্রটি লেখো।",
+      "question": "বিভেদন ক্ষমতা এর সূত্রটি লেখো। (ইঙ্গিত: বড় D বা N ⇒ বেশি RP; ছোট λ ভালো।)",
       "answer": "\\mathrm{RP}_{tel}=\\frac{D}{1.22\\lambda},\\quad\\mathrm{RP}_{micro}=\\frac{2\\mu\\sin\\theta}{\\lambda},\\quad\\mathrm{RP}_{gr}=nN"
     }
   ],

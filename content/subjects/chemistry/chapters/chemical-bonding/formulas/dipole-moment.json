@@ -61,5 +61,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "bond-order-mo",
+    "lewis-structure",
+    "hybridization-shapes"
+  ]
 }

@@ -67,5 +67,8 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "reaction-quotient",
+    "vanthoff-equation"
+  ]
 }

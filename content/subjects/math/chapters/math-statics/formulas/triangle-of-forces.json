@@ -15,13 +15,13 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "F, alpha, beta, gamma",
+      "meaning": "Lami's theorem",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "Lami's theorem",
+    "lead": "তিন বল সাম্য → Lami: F/sin( opposite angle )।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বলের ত্রিভুজ এর মূল সূত্রটি লেখো।",
+      "question": "বলের ত্রিভুজ এর সূত্রটি লেখো। (ইঙ্গিত: তিন বল সাম্য → Lami: F/sin( opposite angle )।)",
       "answer": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}"
     }
   ],
   "memorize": {
-    "trick": "তিন বল সাম্য → Lami: F/sin( opposite angle )。",
+    "trick": "তিন বল সাম্য → Lami: F/sin( opposite angle )।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "equilibrium-forces",
+    "lami-theorem",
+    "moment-of-force"
+  ]
 }

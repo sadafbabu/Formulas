@@ -60,5 +60,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "cp-cv-relation",
+    "isothermal-work",
+    "entropy-change"
+  ]
 }

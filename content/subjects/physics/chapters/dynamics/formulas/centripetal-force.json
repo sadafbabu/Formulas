@@ -65,5 +65,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "banked-road",
+    "torque-angular-acc",
+    "friction"
+  ]
 }

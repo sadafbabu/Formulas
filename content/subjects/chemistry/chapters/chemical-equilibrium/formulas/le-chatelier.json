@@ -60,5 +60,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "le-chatelier-quantitative",
+    "rate-law-order",
+    "degree-dissociation"
+  ]
 }

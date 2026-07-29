@@ -15,13 +15,13 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "arg, z",
+      "meaning": "arg-এর যোগ-বিয়োগ নিয়ম",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "arg-এর যোগ-বিয়োগ নিয়ম",
+    "lead": "গুণে arg যোগ; ভাগে arg বিয়োগ।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গুণফল-ভাগফলের আরগুমেন্ট এর মূল সূত্রটি লেখো।",
+      "question": "গুণফল-ভাগফলের আরগুমেন্ট এর সূত্রটি লেখো। (ইঙ্গিত: গুণে arg যোগ; ভাগে arg বিয়োগ।)",
       "answer": "\\arg(z_1z_2)=\\arg z_1+\\arg z_2,\\quad\\arg(z_1/z_2)=\\arg z_1-\\arg z_2"
     }
   ],

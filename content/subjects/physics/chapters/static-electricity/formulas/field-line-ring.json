@@ -16,9 +16,9 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "E, l, i, n",
+      "meaning": "রৈখিক চার্জ ও চার্জড রিং-এর E",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অসীম রেখা ও বলয়ের তড়িৎক্ষেত্র এর মূল সূত্রটি লেখো।",
+      "question": "অসীম রেখা ও বলয়ের তড়িৎক্ষেত্র এর সূত্রটি লেখো। (ইঙ্গিত: রেখা: 1/r; রিং অক্ষ: x/(R²+x²)^{3/2}।)",
       "answer": "E_{line}=\\frac{\\lambda}{2\\pi\\varepsilon_0 r},\\quad E_{ring}=\\frac{1}{4\\pi\\varepsilon_0}\\frac{Qx}{(R^2+x^2)^{3/2}}"
     }
   ],

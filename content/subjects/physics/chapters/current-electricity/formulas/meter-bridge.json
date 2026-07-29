@@ -16,9 +16,9 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "P, Q, l, X",
+      "meaning": "হুইটস্টোন নীতিতে অজানা রোধ",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মিটার ব্রিজ এর মূল সূত্রটি লেখো।",
+      "question": "মিটার ব্রিজ এর সূত্রটি লেখো। (ইঙ্গিত: X = R·l/(100−l) — l সেন্টিমিটারে jockey অবস্থান।)",
       "answer": "\\frac{P}{Q}=\\frac{l}{100-l},\\quad X=\\frac{R\\,l}{100-l}"
     }
   ],

@@ -54,5 +54,8 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "perpendicular-distance",
+    "distance-formula"
+  ]
 }

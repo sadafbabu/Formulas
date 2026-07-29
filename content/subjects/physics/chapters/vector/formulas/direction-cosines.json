@@ -57,5 +57,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "vector-triple-product",
+    "unit-vector",
+    "vector-dot-product"
+  ]
 }

@@ -15,13 +15,13 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "f, x, and, y",
+      "meaning": "f⁻¹",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "f⁻¹",
+    "lead": "f⁻¹ exists iff f one-to-one; graph = mirror y=x।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": " বিপরীত ফাংশন এর মূল সূত্রটি লেখো।",
+      "question": "বিপরীত ফাংশন এর সূত্রটি লেখো। (ইঙ্গিত: f⁻¹ exists iff f one-to-one; graph = mirror y=x।)",
       "answer": "f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y"
     }
   ],
   "memorize": {
-    "trick": "f⁻¹ exists iff f one-to-one; graph = mirror y=x。",
+    "trick": "f⁻¹ exists iff f one-to-one; graph = mirror y=x।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "function-composition",
+    "even-odd-function",
+    "function-definition"
+  ]
 }

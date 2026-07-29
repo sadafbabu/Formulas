@@ -16,9 +16,9 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "A, lambda, N, d",
+      "meaning": "তেজস্ক্রিয় সক্রিয়তা এবং গড় আয়ু",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সক্রিয়তা ও গড় আয়ু এর মূল সূত্রটি লেখো।",
+      "question": "সক্রিয়তা ও গড় আয়ু এর সূত্রটি লেখো। (ইঙ্গিত: A=λN; τ = T½/0.693।)",
       "answer": "A=\\lambda N=-\\frac{dN}{dt},\\quad\\tau=\\frac{1}{\\lambda}=\\frac{T_{1/2}}{\\ln 2}"
     }
   ],

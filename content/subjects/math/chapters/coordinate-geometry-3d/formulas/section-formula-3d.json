@@ -15,13 +15,13 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "m, x, n, y",
+      "meaning": "m:n অনুপাতে",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "m:n অনুপাতে",
+    "lead": "2D section formula-এ z যোগ করলেই হয়।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অংশন সূত্র (৩D) এর মূল সূত্রটি লেখো।",
+      "question": "অংশন সূত্র (৩D) এর সূত্রটি লেখো। (ইঙ্গিত: 2D section formula-এ z যোগ করলেই হয়।)",
       "answer": "\\left(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n},\\frac{mz_2+nz_1}{m+n}\\right)"
     }
   ],
   "memorize": {
-    "trick": "2D section formula-এ z যোগ করলেই হয়。",
+    "trick": "2D section formula-এ z যোগ করলেই হয়।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "distance-3d",
+    "direction-cosines-3d",
+    "direction-ratios"
+  ]
 }

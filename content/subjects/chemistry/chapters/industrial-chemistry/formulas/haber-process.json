@@ -15,13 +15,13 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "ce, N, H, Delta",
+      "meaning": "N₂+3H₂⇌2NH₃",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "N₂+3H₂⇌2NH₃",
+    "lead": "450°C, 200 atm, Fe catalyst; exothermic → low T favors product।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,19 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "হ্যাবার পদ্ধতি এর মূল সূত্রটি লেখো।",
+      "question": "হ্যাবার পদ্ধতি এর সূত্রটি লেখো। (ইঙ্গিত: 450°C, 200 atm, Fe catalyst; exothermic → low T favors produ)",
       "answer": "\\ce{N2 + 3H2 <=> 2NH3};\\quad \\Delta H=-92\\ \\text{kJ/mol}"
     }
   ],
   "memorize": {
-    "trick": "450°C, 200 atm, Fe catalyst; exothermic → low T favors product。",
+    "trick": "450°C, 200 atm, Fe catalyst; exothermic → low T favors product।",
     "steps": []
   },
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "contact-process",
+    "ostwald-process"
+  ]
 }

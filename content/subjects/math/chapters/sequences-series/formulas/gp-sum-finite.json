@@ -15,13 +15,13 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "S, n, a, r",
+      "meaning": "a(rⁿ−1)/(r−1)",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "a(rⁿ−1)/(r−1)",
+    "lead": "a(rⁿ−1)/(r−1) — r≠1; r=1 হলে S=na।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সসীম গুণোত্তর যোগফল এর মূল সূত্রটি লেখো।",
+      "question": "সসীম গুণোত্তর যোগফল এর সূত্রটি লেখো। (ইঙ্গিত: r≠1; r=1 হলে S=na।)",
       "answer": "S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "gp-nth-term",
+    "gp-sum-infinite",
+    "ap-sum"
+  ]
 }

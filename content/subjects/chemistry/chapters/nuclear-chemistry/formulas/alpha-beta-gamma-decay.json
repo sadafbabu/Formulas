@@ -16,13 +16,13 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "alpha, A, Z, beta",
+      "meaning": "emission changes",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "emission changes",
+    "lead": "α = He নিউক্লিয়াস; β⁻ = নিউট্রন→প্রোটন; γ = শুধু শক্তি।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "α β γ ক্ষয় এর মূল সূত্রটি লেখো।",
+      "question": "α β γ ক্ষয় এর সূত্রটি লেখো। (ইঙ্গিত: α = He নিউক্লিয়াস; β⁻ = নিউট্রন→প্রোটন; γ = শুধু শক্তি।)",
       "answer": "\\alpha:\\,A\\!-\\!4,Z\\!-\\!2;\\quad \\beta^-:\\,Z\\!+\\!1;\\quad \\gamma:\\ \\text{no }A,Z\\text{ change}"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "binding-energy-per-nucleon",
+    "nuclear-fission-fusion",
+    "carbon-dating"
+  ]
 }

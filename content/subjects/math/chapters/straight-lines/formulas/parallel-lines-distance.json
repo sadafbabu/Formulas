@@ -15,9 +15,9 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "d, c, sqrt, a",
+      "meaning": "দুই সমান্তরাল রেখার দূরত্ব",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমান্তরাল রেখার দূরত্ব এর মূল সূত্রটি লেখো।",
+      "question": "সমান্তরাল রেখার দূরত্ব এর সূত্রটি লেখো। (ইঙ্গিত: d = |c₁−c₂|/√(a²+b²) — a,b একই রাখুন।)",
       "answer": "d=\\frac{|c_1-c_2|}{\\sqrt{a^2+b^2}}\\quad(ax+by+c_i=0)"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "circle-tangent-chord",
+    "concurrent-lines",
+    "pair-of-lines"
+  ]
 }

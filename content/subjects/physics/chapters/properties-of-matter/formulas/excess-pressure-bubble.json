@@ -16,13 +16,13 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "Delta, P, soap, T",
+      "meaning": "4T/r soap, 2T/r air",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "4T/r soap, 2T/r air",
+    "lead": "সাবান বুদবুদ দুই তল → 4T/r; বায়ু বুদবুদ এক তল → 2T/r।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বুদবুদে অতিরিক্ত চাপ এর মূল সূত্রটি লেখো।",
+      "question": "বুদবুদে অতিরিক্ত চাপ এর সূত্রটি লেখো। (ইঙ্গিত: সাবান বুদবুদ দুই তল → 4T/r; বায়ু বুদবুদ এক তল → 2T/r।)",
       "answer": "\\Delta P_{\\text{soap}}=\\frac{4T}{r},\\quad \\Delta P_{\\text{air bubble}}=\\frac{2T}{r}"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "pascals-law",
+    "hookes-law-stress-strain",
+    "hydrostatic-pressure"
+  ]
 }

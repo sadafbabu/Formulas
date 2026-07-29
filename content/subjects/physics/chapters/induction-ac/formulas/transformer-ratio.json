@@ -55,5 +55,8 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "faradays-law",
+    "ac-rms-values"
+  ]
 }

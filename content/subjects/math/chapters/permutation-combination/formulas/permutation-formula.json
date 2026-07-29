@@ -15,13 +15,13 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "P, n, r",
+      "meaning": "nPr",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "nPr",
+    "lead": "Order matters → nPr; n!/(n−r)!।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্রমবিন্যাস সূত্র এর মূল সূত্রটি লেখো।",
+      "question": "ক্রমবিন্যাস সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: Order matters → nPr; n!/(n−r)!।)",
       "answer": "P(n,r)=\\frac{n!}{(n-r)!}"
     }
   ],
   "memorize": {
-    "trick": "Order matters → nPr; n!/(n−r)!。",
+    "trick": "Order matters → nPr; n!/(n−r)!।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "combination-formula",
+    "combination-identities",
+    "circular-permutation"
+  ]
 }

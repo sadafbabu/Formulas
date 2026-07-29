@@ -15,13 +15,13 @@
   "order": 160,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "x, alpha, y, p",
+      "meaning": "x cosα+y sinα=p",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "x cosα+y sinα=p",
+    "lead": "p = perpendicular from origin; α = angle with x-axis।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,19 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রেখার লম্ব রূপ এর মূল সূত্রটি লেখো।",
+      "question": "রেখার লম্ব রূপ এর সূত্রটি লেখো। (ইঙ্গিত: p = perpendicular from origin; α = angle with x-axis।)",
       "answer": "x\\cos\\alpha+y\\sin\\alpha=p"
     }
   ],
   "memorize": {
-    "trick": "p = perpendicular from origin; α = angle with x-axis。",
+    "trick": "p = perpendicular from origin; α = angle with x-axis।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "point-slope-form",
+    "slope-intercept-form"
+  ]
 }

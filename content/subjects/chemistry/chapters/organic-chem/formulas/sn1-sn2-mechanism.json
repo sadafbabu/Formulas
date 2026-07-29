@@ -61,5 +61,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "markovnikov-rule",
+    "functional-groups",
+    "grignard-reaction"
+  ]
 }

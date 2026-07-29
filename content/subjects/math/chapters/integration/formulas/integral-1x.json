@@ -15,13 +15,13 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "int, x, d, C",
+      "meaning": "ln|x|",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "ln|x|",
+    "lead": "ln|x| — n=−1 ব্যতিক্রম → ln|x|।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "১/x এর যোগজ এর মূল সূত্রটি লেখো।",
+      "question": "১/x এর যোগজ এর সূত্রটি লেখো। (ইঙ্গিত: n=−1 ব্যতিক্রম → ln|x|।)",
       "answer": "\\int\\frac{1}{x}\\,dx=\\ln|x|+C"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "integral-xn",
+    "integral-ex",
+    "integral-trig-basic"
+  ]
 }

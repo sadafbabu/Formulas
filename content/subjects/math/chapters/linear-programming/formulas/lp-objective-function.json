@@ -15,13 +15,13 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "Z, a, x, b",
+      "meaning": "Z=ax+by",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "Z=ax+by",
+    "lead": "Maximize বা Minimize করতে হবে Z = ax+by।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,19 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উদ্দেশ্য ফাংশন এর মূল সূত্রটি লেখো।",
+      "question": "উদ্দেশ্য ফাংশন এর সূত্রটি লেখো। (ইঙ্গিত: Maximize বা Minimize করতে হবে Z = ax+by।)",
       "answer": "Z=ax+by"
     }
   ],
   "memorize": {
-    "trick": "Maximize বা Minimize করতে হবে Z = ax+by。",
+    "trick": "Maximize বা Minimize করতে হবে Z = ax+by।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "lp-feasible-region",
+    "lp-corner-point"
+  ]
 }

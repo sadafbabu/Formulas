@@ -59,5 +59,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "newtons-gravitation",
+    "gravitational-potential",
+    "orbital-velocity"
+  ]
 }

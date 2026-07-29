@@ -16,9 +16,9 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "E, M, n, -factor",
+      "meaning": "তুল্যাঙ্ক ভর এবং নরমালিটি",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "তুল্যাঙ্ক ও নরমালিটি এর মূল সূত্রটি লেখো।",
+      "question": "তুল্যাঙ্ক ও নরমালিটি এর সূত্রটি লেখো। (ইঙ্গিত: E = M/n-factor; টাইট্রেশনে N₁V₁=N₂V₂।)",
       "answer": "E=\\frac{M}{n\\text{-factor}},\\quad N=\\frac{\\text{gram-equivalent}}{V_L},\\quad N_1V_1=N_2V_2"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "empirical-molecular-formula",
+    "oxidation-number",
+    "mole-avogadro"
+  ]
 }

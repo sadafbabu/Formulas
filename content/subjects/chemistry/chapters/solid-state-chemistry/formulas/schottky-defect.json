@@ -15,13 +15,13 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "Schottky: equal cation and anion vacancies",
+      "meaning": "cation+anion vacancy",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "cation+anion vacancy",
+    "lead": "Ionic solid-এ দুই vacancy; density decreases।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,19 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শটকি ত্রুটি এর মূল সূত্রটি লেখো।",
+      "question": "শটকি ত্রুটি এর সূত্রটি লেখো। (ইঙ্গিত: Ionic solid-এ দুই vacancy; density decreases।)",
       "answer": "\\text{Schottky: equal cation and anion vacancies}"
     }
   ],
   "memorize": {
-    "trick": "Ionic solid-এ দুই vacancy; density decreases。",
+    "trick": "Ionic solid-এ দুই vacancy; density decreases।",
     "steps": []
   },
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "bragg-equation",
+    "density-unit-cell"
+  ]
 }

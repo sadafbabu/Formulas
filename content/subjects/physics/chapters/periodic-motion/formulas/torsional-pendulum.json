@@ -60,5 +60,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "shm-energy",
+    "resonance-damped",
+    "shm-time-period"
+  ]
 }

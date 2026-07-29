@@ -16,13 +16,13 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "f, v, o, s",
+      "meaning": "f'=f(v±vo)/(v±vs)",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "f'=f(v±vo)/(v±vs)",
+    "lead": "পর্যবেক্ষক কাছে +; উৎস কাছে হলে ভাজকে − (কম্পন বাড়ে)।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ডপলার প্রভাব এর মূল সূত্রটি লেখো।",
+      "question": "ডপলার প্রভাব এর সূত্রটি লেখো। (ইঙ্গিত: পর্যবেক্ষক কাছে +; উৎস কাছে হলে ভাজকে − (কম্পন বাড়ে)।)",
       "answer": "f'=f\\,\\frac{v\\pm v_o}{v\\pm v_s}"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "echo-formula",
+    "beats-frequency",
+    "intensity-amplitude-wave"
+  ]
 }

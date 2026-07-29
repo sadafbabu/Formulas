@@ -55,5 +55,8 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "bohr-atom-model",
+    "quantum-numbers"
+  ]
 }

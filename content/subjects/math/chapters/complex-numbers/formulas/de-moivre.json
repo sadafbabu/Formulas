@@ -54,5 +54,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "roots-of-unity",
+    "complex-cube-roots-unity",
+    "euler-form"
+  ]
 }

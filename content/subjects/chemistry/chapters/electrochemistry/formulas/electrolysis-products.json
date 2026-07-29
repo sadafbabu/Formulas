@@ -16,9 +16,9 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "cathode: higher, E, circ, first",
+      "meaning": "ইলেকট্রোলাইসিসে কোন আয়ন নিঃসৃত হয়",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অগ্রাধিকার নিঃসরণ এর মূল সূত্রটি লেখো।",
+      "question": "অগ্রাধিকার নিঃসরণ এর সূত্রটি লেখো। (ইঙ্গিত: ক্যাথোডে সহজে বিজারিত (উচ্চ E°) আগে।)",
       "answer": "\\text{cathode: higher }E^\\circ\\text{ first};\\quad\\text{anode: dilute }OH^-/\\text{halide rules}"
     }
   ],

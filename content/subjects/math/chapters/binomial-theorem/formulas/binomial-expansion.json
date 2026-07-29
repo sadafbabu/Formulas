@@ -57,5 +57,8 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "general-term",
+    "greatest-term"
+  ]
 }

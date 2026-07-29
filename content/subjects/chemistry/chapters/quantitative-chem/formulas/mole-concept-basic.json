@@ -16,13 +16,13 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "n, N, A, m",
+      "meaning": "n=N/NA=m/M",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "n=N/NA=m/M",
+    "lead": "১ মোল = ৬.০২২×১০²³ কণা = M গ্রাম = STP-তে ২২.৪ L গ্যাস।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মোল ধারণা এর মূল সূত্রটি লেখো।",
+      "question": "মোল ধারণা এর সূত্রটি লেখো। (ইঙ্গিত: ১ মোল = ৬.০২২×১০²³ কণা = M গ্রাম = STP-তে ২২.৪ L গ্যাস।)",
       "answer": "n=\\frac{N}{N_A}=\\frac{m}{M}=\\frac{V}{22.4\\,\\mathrm{L}}\\ (\\text{STP gas})"
     }
   ],
@@ -46,5 +46,8 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "molarity-molality",
+    "normality-relation"
+  ]
 }

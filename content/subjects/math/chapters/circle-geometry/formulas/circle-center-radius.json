@@ -15,13 +15,13 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "x, h, y, k",
+      "meaning": "(x−h)²+(y−k)²=r²",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "(x−h)²+(y−k)²=r²",
+    "lead": "কেন্দ্র (h,k), ব্যাসার্ধ r — সবচেয়ে সোজা রূপ।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কেন্দ্র–ব্যাসার্ধ রূপ এর মূল সূত্রটি লেখো।",
+      "question": "কেন্দ্র–ব্যাসার্ধ রূপ এর সূত্রটি লেখো। (ইঙ্গিত: কেন্দ্র (h,k), ব্যাসার্ধ r — সবচেয়ে সোজা রূপ।)",
       "answer": "(x-h)^2+(y-k)^2=r^2"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "circle-general-equation",
+    "circle-diameter-form",
+    "tangent-circle-point"
+  ]
 }

@@ -71,5 +71,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "self-inductance",
+    "resonance-frequency",
+    "ac-rms-values"
+  ]
 }

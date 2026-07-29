@@ -15,13 +15,13 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "P, circ, x, B",
+      "meaning": "(P°−P)/P°",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "(P°−P)/P°",
+    "lead": "ΔP/P° = mole fraction of solute; Raoult's law base।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,19 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বাষ্পচাপের আপেক্ষিক হ্রাস এর মূল সূত্রটি লেখো।",
+      "question": "বাষ্পচাপের আপেক্ষিক হ্রাস এর সূত্রটি লেখো। (ইঙ্গিত: ΔP/P° = mole fraction of solute; Raoult's law base।)",
       "answer": "\\frac{P^\\circ-P}{P^\\circ}=x_B=\\frac{n_B}{n_A+n_B}"
     }
   ],
   "memorize": {
-    "trick": "ΔP/P° = mole fraction of solute; Raoult's law base。",
+    "trick": "ΔP/P° = mole fraction of solute; Raoult's law base।",
     "steps": []
   },
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "elevation-boiling-point",
+    "depression-freezing-point"
+  ]
 }

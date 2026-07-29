@@ -16,13 +16,13 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "ce, S, O, H",
+      "meaning": "pH < 5.6",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "pH < 5.6",
+    "lead": "SO₂/NO₂ → অম্ল; pH ৫.৬-এর নিচে = অম্ল বৃষ্টি।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অম্ল বৃষ্টি এর মূল সূত্রটি লেখো।",
+      "question": "অম্ল বৃষ্টি এর সূত্রটি লেখো। (ইঙ্গিত: SO₂/NO₂ → অম্ল; pH ৫.৬-এর নিচে = অম্ল বৃষ্টি।)",
       "answer": "\\ce{SO2 + H2O -> H2SO3};\\quad \\ce{NO2 + H2O -> HNO3}"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "ozone-depletion",
+    "bod-cod",
+    "greenhouse-gases"
+  ]
 }

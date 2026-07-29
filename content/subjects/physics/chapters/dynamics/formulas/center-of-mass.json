@@ -16,9 +16,9 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "vec, r, c, m",
+      "meaning": "কণাতন্ত্রের ভরকেন্দ্র ও বহিঃবল",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভরকেন্দ্র এর মূল সূত্রটি লেখো।",
+      "question": "ভরকেন্দ্র এর সূত্রটি লেখো। (ইঙ্গিত: ভরকেন্দ্র = ভর-ওজনকৃত গড় অবস্থান; বহিঃবলই cm ত্বরণ দেয়।)",
       "answer": "\\vec r_{cm}=\\frac{\\sum m_i\\vec r_i}{\\sum m_i},\\quad M\\vec a_{cm}=\\vec F_{ext}"
     }
   ],

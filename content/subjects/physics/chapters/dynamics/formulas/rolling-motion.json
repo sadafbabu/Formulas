@@ -16,9 +16,9 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "v, omega, R, a",
+      "meaning": "বিশুদ্ধ গড়ানে রৈখিক ও কৌণিক সম্পর্ক এবং মোট KE",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিশুদ্ধ গড়ান এর মূল সূত্রটি লেখো।",
+      "question": "বিশুদ্ধ গড়ান এর সূত্রটি লেখো। (ইঙ্গিত: বিশুদ্ধ গড়ান: v=ωR; KE = অনুবাদ + ঘূর্ণন।)",
       "answer": "v=\\omega R,\\quad a=\\alpha R,\\quad K=\\tfrac12 mv^2+\\tfrac12 I\\omega^2=\\tfrac12 mv^2\\big(1+\\tfrac{k^2}{R^2}\\big)"
     }
   ],

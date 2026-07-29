@@ -16,13 +16,13 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "Delta, L, alpha, T",
+      "meaning": "ΔL=αLΔT",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "ΔL=αLΔT",
+    "lead": "γ = 3α; আয়তন প্রসারণ তিনগুণ রৈখিক।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রৈখিক প্রসারণ এর মূল সূত্রটি লেখো।",
+      "question": "রৈখিক প্রসারণ এর সূত্রটি লেখো। (ইঙ্গিত: γ = 3α; আয়তন প্রসারণ তিনগুণ রৈখিক।)",
       "answer": "\\Delta L=\\alpha L\\Delta T,\\quad \\gamma=3\\alpha"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "stefan-boltzmann-law",
+    "heat-capacity-specific",
+    "carnot-entropy"
+  ]
 }

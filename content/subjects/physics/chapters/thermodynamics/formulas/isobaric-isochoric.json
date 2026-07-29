@@ -16,9 +16,9 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "W, P, Delta, V",
+      "meaning": "সমচাপ/সমআয়তনে কাজ ও তাপ",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমচাপ ও সমআয়তন প্রক্রিয়া এর মূল সূত্রটি লেখো।",
+      "question": "সমচাপ ও সমআয়তন প্রক্রিয়া এর সূত্রটি লেখো। (ইঙ্গিত: Isochoric: W=0; Isobaric: W=PΔV।)",
       "answer": "W_P=P\\Delta V=nR\\Delta T,\\quad W_V=0,\\quad Q_V=nC_V\\Delta T,\\quad Q_P=nC_P\\Delta T"
     }
   ],

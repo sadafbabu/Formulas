@@ -70,5 +70,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "nernst-equation",
+    "faraday-second-law",
+    "conductance-kohlrausch"
+  ]
 }

@@ -15,13 +15,13 @@
   "order": 160,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "int, u, d, v",
+      "meaning": "∫u dv",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "∫u dv",
+    "lead": "LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অংশীয় যোগজীকরণ এর মূল সূত্রটি লেখো।",
+      "question": "অংশীয় যোগজীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u।)",
       "answer": "\\int u\\,dv=uv-\\int v\\,du"
     }
   ],
   "memorize": {
-    "trick": "LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u。",
+    "trick": "LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "integral-by-parts-ilate",
+    "taylor-maclaurin",
+    "partial-fractions",
+    "implicit-differentiation"
+  ]
 }

@@ -15,13 +15,13 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "i, observed colligative property, calculated (no dissociation)",
+      "meaning": "i=observed/calculated",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "i=observed/calculated",
+    "lead": "Electrolyte-এ i>1; association-এ i<1।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভ্যান't হফ গুণক এর মূল সূত্রটি লেখো।",
+      "question": "ভ্যান't হফ গুণক এর সূত্রটি লেখো। (ইঙ্গিত: Electrolyte-এ i>1; association-এ i<1।)",
       "answer": "i=\\frac{\\text{observed colligative property}}{\\text{calculated (no dissociation)}}"
     }
   ],
   "memorize": {
-    "trick": "Electrolyte-এ i>1; association-এ i<1。",
+    "trick": "Electrolyte-এ i>1; association-এ i<1।",
     "steps": []
   },
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "osmotic-pressure",
+    "raoult-law",
+    "depression-freezing-point"
+  ]
 }

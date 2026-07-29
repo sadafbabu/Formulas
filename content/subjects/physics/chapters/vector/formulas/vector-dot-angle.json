@@ -60,5 +60,8 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "vector-cross-area",
+    "vector-resultant"
+  ]
 }

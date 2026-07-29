@@ -17,7 +17,7 @@ export function DeriveHint({ formula }: DeriveHintProps) {
   return (
     <HintPopover
       label={`${formula.titleBn} — কীভাবে এলো`}
-      title="কেভাবে এলো"
+      title="কীভাবে এলো"
       icon={
         <svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true">
           <path

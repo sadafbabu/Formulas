@@ -15,13 +15,13 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "v, m, a, t",
+      "meaning": "নির্ণায়কের মান",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "নির্ণায়কের মান",
+    "lead": "2×2: ad−bc; 3×3: কোফ্যাক্টর বিস্তার।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "২×২ ও ৩×৩ নির্ণায়ক এর মূল সূত্রটি লেখো।",
+      "question": "২×২ ও ৩×৩ নির্ণায়ক এর সূত্রটি লেখো। (ইঙ্গিত: 2×2: ad−bc; 3×3: কোফ্যাক্টর বিস্তার।)",
       "answer": "\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc"
     }
   ],
@@ -45,5 +45,8 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "matrix-inverse",
+    "matrix-multiplication"
+  ]
 }

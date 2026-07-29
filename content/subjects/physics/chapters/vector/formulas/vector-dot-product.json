@@ -60,5 +60,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "vector-resultant",
+    "vector-triple-product",
+    "vector-cross-area"
+  ]
 }

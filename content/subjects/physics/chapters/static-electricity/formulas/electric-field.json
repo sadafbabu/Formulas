@@ -68,5 +68,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "capacitor-parallel-plate",
+    "capacitor-combination",
+    "electric-potential"
+  ]
 }

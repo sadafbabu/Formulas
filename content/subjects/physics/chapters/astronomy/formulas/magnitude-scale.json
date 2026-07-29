@@ -16,13 +16,13 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "m, I",
+      "meaning": "m1−m2",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "m1−m2",
+    "lead": "৫ মান পার্থক্য = ১০০ গুণ তীব্রতা।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আপাত মান এর মূল সূত্রটি লেখো।",
+      "question": "আপাত মান এর সূত্রটি লেখো। (ইঙ্গিত: ৫ মান পার্থক্য = ১০০ গুণ তীব্রতা।)",
       "answer": "m_1-m_2=-2.5\\log_{10}\\frac{I_1}{I_2}"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "solar-luminosity-flux",
+    "escape-velocity-planet",
+    "hubble-law"
+  ]
 }

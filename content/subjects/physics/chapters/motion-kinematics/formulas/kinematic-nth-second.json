@@ -16,13 +16,13 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "s, n, u, tfrac",
+      "meaning": "s_n",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "s_n",
+    "lead": "n-তম সেকেন্ড = u + a(2n−1)/2।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "n-তম সেকেন্ডে সরণ এর মূল সূত্রটি লেখো।",
+      "question": "n-তম সেকেন্ডে সরণ এর সূত্রটি লেখো। (ইঙ্গিত: n-তম সেকেন্ড = u + a(2n−1)/2।)",
       "answer": "s_n=u+\\tfrac12 a(2n-1)"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "kinematic-equation-v2",
+    "relative-velocity-1d",
+    "kinematic-equation-s"
+  ]
 }

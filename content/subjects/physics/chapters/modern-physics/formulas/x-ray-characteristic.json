@@ -62,5 +62,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "compton-effect",
+    "mass-defect-binding-energy",
+    "bohr-radius-hydrogen"
+  ]
 }

@@ -70,5 +70,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "gas-laws",
+    "ideal-gas-equation",
+    "kinetic-energy-gas"
+  ]
 }

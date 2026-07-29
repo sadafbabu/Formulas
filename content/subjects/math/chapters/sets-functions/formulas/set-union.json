@@ -15,13 +15,13 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "A, cup, B, x",
+      "meaning": "A∪B",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "A∪B",
+    "lead": "∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সেটের যোগ এর মূল সূত্রটি লেখো।",
+      "question": "সেটের যোগ এর সূত্রটি লেখো। (ইঙ্গিত: ∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।)",
       "answer": "A\\cup B=\\{x:x\\in A\\text{ or }x\\in B\\}"
     }
   ],
@@ -45,5 +45,8 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "set-intersection",
+    "set-complement"
+  ]
 }

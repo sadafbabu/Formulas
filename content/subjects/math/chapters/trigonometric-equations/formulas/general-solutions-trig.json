@@ -59,5 +59,8 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "compound-angle",
+    "multiple-angle"
+  ]
 }

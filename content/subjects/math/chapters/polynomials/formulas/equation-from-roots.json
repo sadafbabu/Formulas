@@ -15,13 +15,13 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "x, alpha, beta, Rightarrow",
+      "meaning": "দেওয়া মূল থেকে সমীকরণ",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "দেওয়া মূল থেকে সমীকরণ",
+    "lead": "x² − (সমষ্টি)x + (গুণফল) = ০।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মূল হতে সমীকরণ গঠন এর মূল সূত্রটি লেখো।",
+      "question": "মূল হতে সমীকরণ গঠন এর সূত্রটি লেখো। (ইঙ্গিত: x² − (সমষ্টি)x + (গুণফল) = ০।)",
       "answer": "(x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0"
     }
   ],

@@ -15,13 +15,13 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "a, b, c, in HP",
+      "meaning": "1/a_n is AP",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "1/a_n is AP",
+    "lead": "HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "হারমোনিক ধারা এর মূল সূত্রটি লেখো।",
+      "question": "হারমোনিক ধারা এর সূত্রটি লেখো। (ইঙ্গিত: HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।)",
       "answer": "a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "gp-sum-infinite",
+    "am-gm-hm",
+    "gp-sum-finite"
+  ]
 }

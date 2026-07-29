@@ -70,5 +70,8 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "pn-junction-diode",
+    "rectifier-ripple"
+  ]
 }

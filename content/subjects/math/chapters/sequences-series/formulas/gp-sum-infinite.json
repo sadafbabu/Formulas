@@ -15,13 +15,13 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "S, a, r",
+      "meaning": "a/(1−r)",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "a/(1−r)",
+    "lead": "|r|<1 হলেই অসীম যোগফল আছে।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অসীম গুণোত্তর যোগফল এর মূল সূত্রটি লেখো।",
+      "question": "অসীম গুণোত্তর যোগফল এর সূত্রটি লেখো। (ইঙ্গিত: |r|<1 হলেই অসীম যোগফল আছে।)",
       "answer": "S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "gp-sum-finite",
+    "hp-relation",
+    "gp-nth-term"
+  ]
 }

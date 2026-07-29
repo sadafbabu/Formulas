@@ -57,5 +57,10 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "product-rule-diff",
+    "differentiation-chain-rule",
+    "fundamental-theorem",
+    "definite-integral-area"
+  ]
 }

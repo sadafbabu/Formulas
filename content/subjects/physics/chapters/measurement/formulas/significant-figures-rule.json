@@ -16,13 +16,13 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "s.f. = all certain digits + first uncertain digit",
+      "meaning": "নির্ভুল অঙ্ক গণনা",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "নির্ভুল অঙ্ক গণনা",
+    "lead": "গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সার্থক অঙ্ক এর মূল সূত্রটি লেখো।",
+      "question": "সার্থক অঙ্ক এর সূত্রটি লেখো। (ইঙ্গিত: গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।)",
       "answer": "\\text{s.f. = all certain digits + first uncertain digit}"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "error-propagation-power",
+    "least-count-vernier",
+    "error-propagation-product"
+  ]
 }

@@ -15,13 +15,13 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "A, adj, det, I",
+      "meaning": "adj ও det সম্পর্ক",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "adj ও det সম্পর্ক",
+    "lead": "adj ও det সম্পর্ক — A·adjA = (detA)I।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অ্যাডজয়েন্টের ধর্ম এর মূল সূত্রটি লেখো।",
+      "question": "অ্যাডজয়েন্টের ধর্ম এর সূত্রটি লেখো। (ইঙ্গিত: A·adjA = (detA)I।)",
       "answer": "A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "matrix-multiplication",
+    "cramers-rule",
+    "matrix-inverse"
+  ]
 }

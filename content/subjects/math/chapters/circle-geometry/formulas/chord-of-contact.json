@@ -15,13 +15,13 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "x, y, r, (from",
+      "meaning": "xx1+yy1=r²",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "xx1+yy1=r²",
+    "lead": "বহিঃস্থ বিন্দু থেকে দুই স্পর্শকের সংযোগ জ্যা = chord of contact।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্পর্শকদ্বয়ের জ্যা এর মূল সূত্রটি লেখো।",
+      "question": "স্পর্শকদ্বয়ের জ্যা এর সূত্রটি লেখো। (ইঙ্গিত: বহিঃস্থ বিন্দু থেকে দুই স্পর্শকের সংযোগ জ্যা = chord of cont)",
       "answer": "xx_1+yy_1=r^2\\quad\\text{(from }(x_1,y_1)\\text{)}"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "tangent-from-external",
+    "power-of-point",
+    "tangent-circle-point"
+  ]
 }

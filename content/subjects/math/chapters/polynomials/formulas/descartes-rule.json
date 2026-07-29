@@ -15,9 +15,9 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "positive roots, sign changes in, f, x",
+      "meaning": "ধনাত্মক মূলের সম্ভাব্য সংখ্যা",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দেকার্তের চিহ্ন নিয়ম এর মূল সূত্রটি লেখো।",
+      "question": "দেকার্তের চিহ্ন নিয়ম এর সূত্রটি লেখো। (ইঙ্গিত: চিহ্ন বদলের সংখ্যা = ধনাত্মক মূলের উপরের সীমা।)",
       "answer": "\\#\\{\\text{positive roots}\\}\\le\\#\\{\\text{sign changes in }f(x)\\}"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "equation-from-roots",
+    "sum-powers-roots",
+    "multiple-roots"
+  ]
 }

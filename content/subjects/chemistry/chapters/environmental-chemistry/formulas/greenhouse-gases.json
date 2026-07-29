@@ -16,13 +16,13 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "ce, C, O, H",
+      "meaning": "CO₂, CH₄, N₂O, CFC",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "CO₂, CH₄, N₂O, CFC",
+    "lead": "IR শোষণ করে পৃথিবী গরম রাখে — CO₂ প্রধান।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্রিনহাউস গ্যাস এর মূল সূত্রটি লেখো।",
+      "question": "গ্রিনহাউস গ্যাস এর সূত্রটি লেখো। (ইঙ্গিত: IR শোষণ করে পৃথিবী গরম রাখে — CO₂ প্রধান।)",
       "answer": "\\ce{CO2},\\ \\ce{CH4},\\ \\ce{N2O},\\ \\ce{O3},\\ \\text{CFCs}"
     }
   ],
@@ -46,5 +46,8 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "ozone-depletion",
+    "acid-rain"
+  ]
 }

@@ -15,13 +15,13 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "theta, l, m, n",
+      "meaning": "cosθ=|l₁l₂+m₁m₂+n₁n₂|",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "cosθ=|l₁l₂+m₁m₂+n₁n₂|",
+    "lead": "DC-এর dot product; DR দিয়ে সহজ।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "৩D-এ রেখার মধ্যবর্তী কোণ এর মূল সূত্রটি লেখো।",
+      "question": "৩D-এ রেখার মধ্যবর্তী কোণ এর সূত্রটি লেখো। (ইঙ্গিত: DC-এর dot product; DR দিয়ে সহজ।)",
       "answer": "\\cos\\theta=|l_1l_2+m_1m_2+n_1n_2|"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "direction-ratios",
+    "line-equation-3d-vector",
+    "direction-cosines-3d"
+  ]
 }

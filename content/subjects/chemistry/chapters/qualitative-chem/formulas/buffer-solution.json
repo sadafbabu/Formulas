@@ -62,5 +62,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "ph-poh-water",
+    "periodic-trends",
+    "electron-configuration"
+  ]
 }

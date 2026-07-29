@@ -16,9 +16,9 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "ionic, mu, o, b",
+      "meaning": "দ্বিমেরু ভ্রামক থেকে আয়নিক শতাংশ",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শতকরা আয়নিক চরিত্র এর মূল সূত্রটি লেখো।",
+      "question": "শতকরা আয়নিক চরিত্র এর সূত্রটি লেখো। (ইঙ্গিত: %ionic = μ_obs/μ_ionic × 100।)",
       "answer": "\\%\\text{ionic}=\\frac{\\mu_{obs}}{\\mu_{ionic}}\\times 100,\\quad\\mu_{ionic}=e\\cdot d"
     }
   ],

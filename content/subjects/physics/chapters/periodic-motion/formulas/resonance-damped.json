@@ -61,5 +61,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "torsional-pendulum",
+    "shm-equations",
+    "shm-energy"
+  ]
 }

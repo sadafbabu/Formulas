@@ -60,5 +60,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "alcohol-oxidation",
+    "isomerism",
+    "elimination-e2"
+  ]
 }

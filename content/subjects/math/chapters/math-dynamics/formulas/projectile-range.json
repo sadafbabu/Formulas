@@ -15,13 +15,13 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "R, u, theta, g",
+      "meaning": "R=u²sin2θ/g",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "R=u²sin2θ/g",
+    "lead": "45°-এ max range; R=u²sin2θ/g — HSC favorite।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,19 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্ষিপ্ত বস্তুর পালা এর মূল সূত্রটি লেখো।",
+      "question": "ক্ষিপ্ত বস্তুর পালা এর সূত্রটি লেখো। (ইঙ্গিত: 45°-এ max range; R=u²sin2θ/g — HSC favorite।)",
       "answer": "R=\\frac{u^2\\sin 2\\theta}{g}"
     }
   ],
   "memorize": {
-    "trick": "45°-এ max range; R=u²sin2θ/g — HSC favorite。",
+    "trick": "45°-এ max range; R=u²sin2θ/g — HSC favorite।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "projectile-max-height",
+    "projectile-time-of-flight"
+  ]
 }

@@ -60,5 +60,8 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "differentiation-chain-rule",
+    "product-quotient-rule"
+  ]
 }

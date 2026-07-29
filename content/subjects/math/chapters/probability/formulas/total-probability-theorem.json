@@ -15,13 +15,13 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "P, B, sum, i",
+      "meaning": "P(B)=ΣP(Aᵢ)P(B|Aᵢ)",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "P(B)=ΣP(Aᵢ)P(B|Aᵢ)",
+    "lead": "বিভাজিত নমুনা ক্ষেত্র; Bayes-এর সাথে জোড়া।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মোট সম্ভাব্যতা উপপাদ্য এর মূল সূত্রটি লেখো।",
+      "question": "মোট সম্ভাব্যতা উপপাদ্য এর সূত্রটি লেখো। (ইঙ্গিত: বিভাজিত নমুনা ক্ষেত্র; Bayes-এর সাথে জোড়া।)",
       "answer": "P(B)=\\sum_i P(A_i)P(B|A_i)"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "bayes-theorem",
+    "binomial-probability",
+    "independent-events-probability"
+  ]
 }

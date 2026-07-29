@@ -16,13 +16,13 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "T, bottom, m, g",
+      "meaning": "শীর্ষে/নিচে টান",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "শীর্ষে/নিচে টান",
+    "lead": "নিচে T−mg; উপরে T+mg; ন্যূনতম শীর্ষ বেগ √(gr)।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উল্লম্ব বৃত্ত এর মূল সূত্রটি লেখো।",
+      "question": "উল্লম্ব বৃত্ত এর সূত্রটি লেখো। (ইঙ্গিত: নিচে T−mg; উপরে T+mg; ন্যূনতম শীর্ষ বেগ √(gr)।)",
       "answer": "T_{\\text{bottom}}-mg=\\frac{mv^2}{r},\\quad T_{\\text{top}}+mg=\\frac{mv^2}{r}"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "banking-of-road-ideal",
+    "vertical-circle-min-speed",
+    "period-frequency-circular"
+  ]
 }

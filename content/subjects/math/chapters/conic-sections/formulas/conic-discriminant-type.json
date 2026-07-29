@@ -15,13 +15,13 @@
   "order": 180,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "Delta, B, A, C",
+      "meaning": "B²−4AC",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "B²−4AC",
+    "lead": "Δ=B²−4AC — HSC-তে কোনিক শনাক্তকরণের মূল চাবি।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কোনিক পৃথককারী এর মূল সূত্রটি লেখো।",
+      "question": "কোনিক পৃথককারী এর সূত্রটি লেখো। (ইঙ্গিত: Δ=B²−4AC — HSC-তে কোনিক শনাক্তকরণের মূল চাবি।)",
       "answer": "\\Delta=B^2-4AC\\begin{cases}<0 & \\text{ellipse}\\\\=0 & \\text{parabola}\\\\>0 & \\text{hyperbola}\\end{cases}"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "conic-general-second-degree",
+    "parabola-reflection-property",
+    "hyperbola-tangent"
+  ]
 }

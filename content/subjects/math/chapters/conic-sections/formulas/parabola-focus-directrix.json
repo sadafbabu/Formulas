@@ -15,13 +15,13 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "Focus, a, Directrix, x",
+      "meaning": "ফোকাস ও ডাইরেক্ট্রিক্স",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "ফোকাস ও ডাইরেক্ট্রিক্স",
+    "lead": "4a = ল্যাটাস রেক্টামের দৈর্ঘ্য; ফোকাস থেকে যেকোনো বিন্দু = ডাইরেক্ট্রিক্সের দূরত্ব।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরাবৃত্তের ফোকাস ও ডাইরেক্ট্রিক্স এর মূল সূত্রটি লেখো।",
+      "question": "পরাবৃত্তের ফোকাস ও ডাইরেক্ট্রিক্স এর সূত্রটি লেখো। (ইঙ্গিত: 4a = ল্যাটাস রেক্টামের দৈর্ঘ্য; ফোকাস থেকে যেকোনো বিন্দু = ড)",
       "answer": "\\text{Focus }(a,0),\\ \\text{Directrix }x=-a\\ \\text{for }y^2=4ax"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "parabola-standard",
+    "parabola-latus-rectum",
+    "parabola-parametric"
+  ]
 }

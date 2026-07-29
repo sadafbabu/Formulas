@@ -66,5 +66,8 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "bond-order-mo",
+    "dipole-moment"
+  ]
 }

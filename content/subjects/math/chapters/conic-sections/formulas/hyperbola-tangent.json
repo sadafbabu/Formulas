@@ -15,13 +15,13 @@
   "order": 160,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "x, a, y, b",
+      "meaning": "স্পর্শ সূত্র",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "স্পর্শ সূত্র",
+    "lead": "উপবৃত্তে +, অধিবৃত্তে − — মাঝের চিহ্নই পার্থক্য।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অধিবৃত্তের স্পর্শরেখা এর মূল সূত্রটি লেখো।",
+      "question": "অধিবৃত্তের স্পর্শরেখা এর সূত্রটি লেখো। (ইঙ্গিত: উপবৃত্তে +, অধিবৃত্তে − — মাঝের চিহ্নই পার্থক্য।)",
       "answer": "\\frac{xx_1}{a^2}-\\frac{yy_1}{b^2}=1"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "hyperbola-rectangular",
+    "conic-general-second-degree",
+    "hyperbola-eccentricity"
+  ]
 }

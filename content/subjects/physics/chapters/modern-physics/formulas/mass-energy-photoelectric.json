@@ -76,5 +76,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "radioactive-decay",
+    "de-broglie-wavelength",
+    "bohr-radius-hydrogen"
+  ]
 }

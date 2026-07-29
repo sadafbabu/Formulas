@@ -15,13 +15,13 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "A, det, adj, I",
+      "meaning": "ব্যস্তক ম্যাট্রিক্স",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "ব্যস্তক ম্যাট্রিক্স",
+    "lead": "A⁻¹ = (1/detA) adj A; det≠0 চাই।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ম্যাট্রিক্সের ব্যস্তক এর মূল সূত্রটি লেখো।",
+      "question": "ম্যাট্রিক্সের ব্যস্তক এর সূত্রটি লেখো। (ইঙ্গিত: A⁻¹ = (1/detA) adj A; det≠0 চাই।)",
       "answer": "A^{-1}=\\frac{1}{\\det A}\\mathrm{adj}\\,A,\\quad AA^{-1}=I"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "determinant-2x2-3x3",
+    "matrix-multiplication",
+    "adjoint-properties"
+  ]
 }

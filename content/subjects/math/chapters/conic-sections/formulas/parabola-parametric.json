@@ -15,13 +15,13 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "x, a, t, y",
+      "meaning": "x=at², y=2at",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "x=at², y=2at",
+    "lead": "t = tan(θ/2) ধরে স্পর্শরেখা সহজ।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরামিতিক পরাবৃত্ত এর মূল সূত্রটি লেখো।",
+      "question": "পরামিতিক পরাবৃত্ত এর সূত্রটি লেখো। (ইঙ্গিত: t = tan(θ/2) ধরে স্পর্শরেখা সহজ।)",
       "answer": "x=at^2,\\quad y=2at"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "parabola-latus-rectum",
+    "parabola-tangent",
+    "parabola-focus-directrix"
+  ]
 }

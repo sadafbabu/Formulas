@@ -16,9 +16,9 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "overline, A, B, bar",
+      "meaning": "বুলিয়ান বীজগণিতের ডি মরগান",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ডি মরগানের সূত্র এর মূল সূত্রটি লেখো।",
+      "question": "ডি মরগানের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: বার ভাঙলে OR↔AND বদলায়।)",
       "answer": "\\overline{A+B}=\\bar A\\cdot\\bar B,\\quad\\overline{A\\cdot B}=\\bar A+\\bar B"
     }
   ],

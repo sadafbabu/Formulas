@@ -15,13 +15,13 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "F, m, a, d",
+      "meaning": "F=ma",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "F=ma",
+    "lead": "গণিতের গতিবিদ্যায় F=ma দিয়ে সমীকরণ গঠন।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "নিউটনের দ্বিতীয় সূত্র এর মূল সূত্রটি লেখো।",
+      "question": "নিউটনের দ্বিতীয় সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: গণিতের গতিবিদ্যায় F=ma দিয়ে সমীকরণ গঠন।)",
       "answer": "F=ma=\\frac{dp}{dt}"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "projectile-range-max-angle",
+    "work-energy-math",
+    "projectile-velocity-components"
+  ]
 }

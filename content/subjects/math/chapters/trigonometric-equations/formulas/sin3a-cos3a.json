@@ -15,13 +15,13 @@
   "order": 200,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "A",
+      "meaning": "sin3A, cos3A",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "sin3A, cos3A",
+    "lead": "sin3A: 3s−4s³; cos3A: 4c³−3c।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ত্রিগুণ কোণ এর মূল সূত্রটি লেখো।",
+      "question": "ত্রিগুণ কোণ এর সূত্রটি লেখো। (ইঙ্গিত: sin3A: 3s−4s³; cos3A: 4c³−3c।)",
       "answer": "\\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A"
     }
   ],
@@ -45,5 +45,8 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "tan2a-formula",
+    "sin2a-cos2a"
+  ]
 }

@@ -16,13 +16,13 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "v, u, f",
+      "meaning": "1/v−1/u=1/f",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "1/v−1/u=1/f",
+    "lead": "দর্পণে +; লেন্সে − চিহ্ন প্রথা মেনে চলো।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পাতলা লেন্স সূত্র এর মূল সূত্রটি লেখো।",
+      "question": "পাতলা লেন্স সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: দর্পণে +; লেন্সে − চিহ্ন প্রথা মেনে চলো।)",
       "answer": "\\frac{1}{v}-\\frac{1}{u}=\\frac{1}{f}"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "critical-angle",
+    "mirror-magnification",
+    "optical-fiber"
+  ]
 }

@@ -15,13 +15,13 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "d, vec, b, a",
+      "meaning": "দুই অসন্মিল রেখা",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "দুই অসন্মিল রেখা",
+    "lead": "cross × dot; পরস্পর ছেদ করে না → skew।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অসন্মিল রেখার লম্ব দূরত্ব এর মূল সূত্রটি লেখো।",
+      "question": "অসন্মিল রেখার লম্ব দূরত্ব এর সূত্রটি লেখো। (ইঙ্গিত: cross × dot; পরস্পর ছেদ করে না → skew।)",
       "answer": "d=\\frac{|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|}{|\\vec b_1\\times\\vec b_2|}"
     }
   ],
   "memorize": {
-    "trick": "cross × dot; পরস্পর ছেদ করে না → skew。",
+    "trick": "cross × dot; পরস্পর ছেদ করে না → skew।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "line-equation-3d-cartesian",
+    "plane-normal-form",
+    "line-equation-3d-vector"
+  ]
 }

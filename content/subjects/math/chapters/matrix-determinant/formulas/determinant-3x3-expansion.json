@@ -15,13 +15,13 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "A, a, C",
+      "meaning": "cofactor expansion",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "cofactor expansion",
+    "lead": "এক সারি বরাবর সহগুণক দিয়ে প্রসারণ।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "৩×৩ নির্ণায়ক প্রসারণ এর মূল সূত্রটি লেখো।",
+      "question": "৩×৩ নির্ণায়ক প্রসারণ এর সূত্রটি লেখো। (ইঙ্গিত: এক সারি বরাবর সহগুণক দিয়ে প্রসারণ।)",
       "answer": "|A|=a_{11}C_{11}+a_{12}C_{12}+a_{13}C_{13}"
     }
   ],
@@ -45,5 +45,8 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "matrix-transpose-properties",
+    "determinant-properties"
+  ]
 }

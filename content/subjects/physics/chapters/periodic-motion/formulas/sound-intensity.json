@@ -16,9 +16,9 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "I, P, pi, r",
+      "meaning": "তীব্রতা এবং ডেসিবেল প্রাবল্য",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শব্দের তীব্রতা ও প্রাবল্য এর মূল সূত্রটি লেখো।",
+      "question": "শব্দের তীব্রতা ও প্রাবল্য এর সূত্রটি লেখো। (ইঙ্গিত: I ∝ 1/r²; প্রতি 10 dB ≈ 10× তীব্রতা।)",
       "answer": "I=\\frac{P}{4\\pi r^2},\\quad\\beta=10\\log_{10}\\frac{I}{I_0},\\quad I_0=10^{-12}\\,\\mathrm{W/m^2}"
     }
   ],

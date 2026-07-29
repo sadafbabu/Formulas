@@ -16,13 +16,13 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "I, A, r, point source",
+      "meaning": "I∝A²",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "I∝A²",
+    "lead": "প্রশস্ততা দ্বিগুণ → তীব্রতা চারগুণ; বিন্দু উৎসে 1/r²।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "তীব্রতা ও প্রশস্ততা এর মূল সূত্রটি লেখো।",
+      "question": "তীব্রতা ও প্রশস্ততা এর সূত্রটি লেখো। (ইঙ্গিত: প্রশস্ততা দ্বিগুণ → তীব্রতা চারগুণ; বিন্দু উৎসে 1/r²।)",
       "answer": "I\\propto A^2,\\quad I\\propto \\frac{1}{r^2}\\ (\\text{point source})"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "phase-path-difference",
+    "echo-formula",
+    "superposition-principle-wave"
+  ]
 }

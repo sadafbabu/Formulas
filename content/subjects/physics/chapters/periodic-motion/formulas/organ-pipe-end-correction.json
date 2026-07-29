@@ -16,9 +16,9 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "e, d, f, o",
+      "meaning": "খোলা প্রান্তে end correction",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বায়ুস্তম্ভে প্রান্ত সংশোধন এর মূল সূত্রটি লেখো।",
+      "question": "বায়ুস্তম্ভে প্রান্ত সংশোধন এর সূত্রটি লেখো। (ইঙ্গিত: প্রতি খোলা প্রান্তে +0.3d; বদ্ধে এক প্রান্ত।)",
       "answer": "e=0.3d,\\quad f_o=\\frac{v}{2(L+2e)},\\quad f_c=\\frac{v}{4(L+e)}"
     }
   ],

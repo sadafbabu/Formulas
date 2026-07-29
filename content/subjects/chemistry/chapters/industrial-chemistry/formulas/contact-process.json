@@ -15,13 +15,13 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "ce, S, O, H",
+      "meaning": "SO₂→SO₃→H₂SO₄",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "SO₂→SO₃→H₂SO₄",
+    "lead": "V₂O₅ catalyst; oleum intermediate H₂S₂O₇।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কন্টাক্ট পদ্ধতি এর মূল সূত্রটি লেখো।",
+      "question": "কন্টাক্ট পদ্ধতি এর সূত্রটি লেখো। (ইঙ্গিত: V₂O₅ catalyst; oleum intermediate H₂S₂O₇।)",
       "answer": "\\ce{2SO2 + O2 <=> 2SO3};\\quad \\ce{SO3 + H2SO4 -> H2S2O7 -> 2H2SO4}"
     }
   ],
   "memorize": {
-    "trick": "V₂O₅ catalyst; oleum intermediate H₂S₂O₇。",
+    "trick": "V₂O₅ catalyst; oleum intermediate H₂S₂O₇।",
     "steps": []
   },
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "haber-process",
+    "ostwald-process",
+    "solvay-process"
+  ]
 }

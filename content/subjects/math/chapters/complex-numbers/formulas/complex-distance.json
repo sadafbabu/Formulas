@@ -15,13 +15,13 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "z, sqrt, x, y",
+      "meaning": "দুই জটিল সংখ্যার দূরত্ব",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "দুই জটিল সংখ্যার দূরত্ব",
+    "lead": "|z₁−z₂| = সমতলের সাধারণ দূরত্ব।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আর্গান্ড সমতলে দূরত্ব এর মূল সূত্রটি লেখো।",
+      "question": "আর্গান্ড সমতলে দূরত্ব এর সূত্রটি লেখো। (ইঙ্গিত: |z₁−z₂| = সমতলের সাধারণ দূরত্ব।)",
       "answer": "|z_1-z_2|=\\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "arg-quotient-product",
+    "complex-conjugate-modulus",
+    "complex-inequalities"
+  ]
 }

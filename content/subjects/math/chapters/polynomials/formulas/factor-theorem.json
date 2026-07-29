@@ -56,5 +56,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "quadratic-equation-roots",
+    "vieta-formulas",
+    "synthetic-division"
+  ]
 }

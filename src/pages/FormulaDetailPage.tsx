@@ -81,7 +81,7 @@ export function FormulaDetailPage() {
 
           <div className="formula-meta">
             {formula.tags.map((tag) => (
-              <TagChip key={tag} id={tag} />
+              <TagChip key={tag} id={tag} chapterId={formula.chapter} />
             ))}
           </div>
 
@@ -148,6 +148,20 @@ export function FormulaDetailPage() {
               </ul>
             </aside>
           )}
+
+          {formula.memorize?.trick ? (
+            <aside className="assumptions detail-memorize">
+              <h4>মুখস্থ · মনে রাখার কৌশল</h4>
+              <p className="memorize-trick">{formula.memorize.trick}</p>
+              {formula.memorize.steps && formula.memorize.steps.length > 0 ? (
+                <ol className="memorize-steps">
+                  {formula.memorize.steps.map((s, i) => (
+                    <li key={`${s}-${i}`}>{s}</li>
+                  ))}
+                </ol>
+              ) : null}
+            </aside>
+          ) : null}
 
           {questions.length > 0 && (
             <section className="detail-questions">

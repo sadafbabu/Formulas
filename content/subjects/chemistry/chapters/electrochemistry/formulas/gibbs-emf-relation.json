@@ -67,5 +67,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "faraday-second-law",
+    "electrochemical-series",
+    "faradays-electrolysis"
+  ]
 }

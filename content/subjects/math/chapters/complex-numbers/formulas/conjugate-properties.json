@@ -56,5 +56,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "complex-cube-roots-unity",
+    "polar-multiplication",
+    "de-moivre"
+  ]
 }

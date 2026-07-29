@@ -51,5 +51,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "functional-groups",
+    "alcohol-oxidation",
+    "sn1-sn2-mechanism"
+  ]
 }

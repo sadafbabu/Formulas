@@ -15,13 +15,13 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "E, X, sum, x",
+      "meaning": "E(X)=ΣxP(x)",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "E(X)=ΣxP(x)",
+    "lead": "গড় = Σ(মান × সম্ভাব্যতা); MCQ-তে দ্রুত।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্রত্যাশিত মান এর মূল সূত্রটি লেখো।",
+      "question": "প্রত্যাশিত মান এর সূত্রটি লেখো। (ইঙ্গিত: গড় = Σ(মান × সম্ভাব্যতা); MCQ-তে দ্রুত।)",
       "answer": "E(X)=\\sum x\\,P(x)"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "permutation-probability",
+    "poisson-approx-hint",
+    "geometric-probability"
+  ]
 }

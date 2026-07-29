@@ -15,9 +15,9 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "Primary valence = ionizable; Secondary = non-ionizable",
+      "meaning": "primary+secondary valence",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভার্নারের তত্ত্ব এর মূল সূত্রটি লেখো।",
+      "question": "ভার্নারের তত্ত্ব এর সূত্রটি লেখো। (ইঙ্গিত: Primary = oxidation state; Secondary = coordination।)",
       "answer": "\\text{Primary valence = ionizable; Secondary = non-ionizable}"
     }
   ],
   "memorize": {
-    "trick": "Primary = oxidation state; Secondary = coordination。",
+    "trick": "Primary = oxidation state; Secondary = coordination।",
     "steps": []
   },
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "effective-atomic-number",
+    "crystal-field-splitting",
+    "coordination-number"
+  ]
 }

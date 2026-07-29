@@ -59,5 +59,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "inverse-trig-identities",
+    "sine-cosine-laws",
+    "product-sum-identities"
+  ]
 }

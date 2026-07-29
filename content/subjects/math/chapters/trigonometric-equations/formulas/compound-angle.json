@@ -46,5 +46,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "general-solutions-trig",
+    "multiple-angle",
+    "trig-identity-pythagorean"
+  ]
 }

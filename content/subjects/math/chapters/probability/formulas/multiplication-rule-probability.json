@@ -15,13 +15,13 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "P, A, cap, B",
+      "meaning": "P(A∩B)",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "P(A∩B)",
+    "lead": "ক্রমিক ঘটনায় গুণ; স্বাধীন হলে P(B|A)=P(B)।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গুণ নিয়ম এর মূল সূত্রটি লেখো।",
+      "question": "গুণ নিয়ম এর সূত্রটি লেখো। (ইঙ্গিত: ক্রমিক ঘটনায় গুণ; স্বাধীন হলে P(B|A)=P(B)।)",
       "answer": "P(A\\cap B)=P(A)\\,P(B|A)=P(B)\\,P(A|B)"
     }
   ],
   "memorize": {
-    "trick": "ক্রমিক ঘটনায় গুণ; স্বাধীন হলে P(B|A)=P(B)。",
+    "trick": "ক্রমিক ঘটনায় গুণ; স্বাধীন হলে P(B|A)=P(B)।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "conditional-probability",
+    "independent-events-probability",
+    "mutually-exclusive-probability"
+  ]
 }

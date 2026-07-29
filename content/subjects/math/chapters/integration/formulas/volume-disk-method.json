@@ -15,13 +15,13 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "V, pi, int, a",
+      "meaning": "π∫y² dx",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "π∫y² dx",
+    "lead": "x-অক্ষ ঘুরিয়ে চাকতি; πr² এর যোগজ।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "চাকতি পদ্ধতিতে আয়তন এর মূল সূত্রটি লেখো।",
+      "question": "চাকতি পদ্ধতিতে আয়তন এর সূত্রটি লেখো। (ইঙ্গিত: x-অক্ষ ঘুরিয়ে চাকতি; πr² এর যোগজ।)",
       "answer": "V=\\pi\\int_a^b [f(x)]^2\\,dx"
     }
   ],
@@ -45,5 +45,8 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "area-under-curve",
+    "integral-even-odd"
+  ]
 }

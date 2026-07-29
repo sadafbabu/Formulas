@@ -15,13 +15,13 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "S",
+      "meaning": "S1−S2=0",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "S1−S2=0",
+    "lead": "দুই বৃত্তের সমীকরণ বিয়োগ = radical axis (সরলরেখা)।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মূলদ অক্ষ এর মূল সূত্রটি লেখো।",
+      "question": "মূলদ অক্ষ এর সূত্রটি লেখো। (ইঙ্গিত: দুই বৃত্তের সমীকরণ বিয়োগ = radical axis (সরলরেখা)।)",
       "answer": "S_1-S_2=0"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "power-of-point",
+    "common-chord-circles",
+    "chord-of-contact"
+  ]
 }

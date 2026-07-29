@@ -16,9 +16,9 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "NA, sqrt, n, i",
+      "meaning": "সংগ্রহ কোণ ও সাংখ্যিক অ্যাপারচার",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অপটিক্যাল ফাইবার ও NA এর মূল সূত্রটি লেখো।",
+      "question": "অপটিক্যাল ফাইবার ও NA এর সূত্রটি লেখো। (ইঙ্গিত: NA = √(n₁²−n₂²); বড় NA = বেশি আলো ধরে।)",
       "answer": "\\mathrm{NA}=\\sqrt{n_1^2-n_2^2}=\\sin i_a"
     }
   ],

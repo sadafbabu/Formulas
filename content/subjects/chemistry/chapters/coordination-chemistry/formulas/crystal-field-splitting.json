@@ -15,13 +15,13 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "Delta, energy gap between, e, g",
+      "meaning": "Δ₀",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "Δ₀",
+    "lead": "Octahedral: eg vs t2g; color from d-d transition।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্রিস্টাল ক্ষেত্র বিভাজন এর মূল সূত্রটি লেখো।",
+      "question": "ক্রিস্টাল ক্ষেত্র বিভাজন এর সূত্রটি লেখো। (ইঙ্গিত: Octahedral: eg vs t2g; color from d-d transition।)",
       "answer": "\\Delta_0=\\text{energy gap between }e_g\\text{ and }t_{2g}"
     }
   ],
   "memorize": {
-    "trick": "Octahedral: eg vs t2g; color from d-d transition。",
+    "trick": "Octahedral: eg vs t2g; color from d-d transition।",
     "steps": []
   },
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "werner-primary-secondary",
+    "magnetic-moment-spin-only",
+    "effective-atomic-number"
+  ]
 }

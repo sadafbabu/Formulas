@@ -16,9 +16,9 @@
   "order": 150,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "n, prod, i, Big",
+      "meaning": "প্রোডাক্ট নির্ণয়ে সীমিত বিকারক",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সীমিত বিকারক এর মূল সূত্রটি লেখো।",
+      "question": "সীমিত বিকারক এর সূত্রটি লেখো। (ইঙ্গিত: যে বিকারকের n/ν সবচেয়ে ছোট সেটা limiting।)",
       "answer": "n_{\\text{prod}}=\\min_i\\Big(\\frac{n_i}{\\nu_i}\\Big)\\times\\nu_{\\text{prod}}"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "oxidation-number",
+    "volumetric-titration",
+    "equivalent-normality"
+  ]
 }

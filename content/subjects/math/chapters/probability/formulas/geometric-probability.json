@@ -15,13 +15,13 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "P, favourable length/area, total length/area",
+      "meaning": "অঞ্চলের অনুপাত",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "অঞ্চলের অনুপাত",
+    "lead": "এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জ্যামিতিক সম্ভাব্যতা এর মূল সূত্রটি লেখো।",
+      "question": "জ্যামিতিক সম্ভাব্যতা এর সূত্রটি লেখো। (ইঙ্গিত: এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।)",
       "answer": "P=\\frac{\\text{favourable length/area}}{\\text{total length/area}}"
     }
   ],
   "memorize": {
-    "trick": "এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত。",
+    "trick": "এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "binomial-mean-variance",
+    "permutation-probability",
+    "binomial-probability"
+  ]
 }

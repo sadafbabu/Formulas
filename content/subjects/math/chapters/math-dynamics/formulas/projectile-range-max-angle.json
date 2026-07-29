@@ -15,13 +15,13 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "R, u, g, at",
+      "meaning": "θ=45°",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "θ=45°",
+    "lead": "sin2θ max at 45°; same level থেকে ছোড়লে।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সর্বোচ্চ পালার কোণ এর মূল সূত্রটি লেখো।",
+      "question": "সর্বোচ্চ পালার কোণ এর সূত্রটি লেখো। (ইঙ্গিত: sin2θ max at 45°; same level থেকে ছোড়লে।)",
       "answer": "R_{\\max}=\\frac{u^2}{g}\\quad\\text{at }\\theta=45^\\circ"
     }
   ],
   "memorize": {
-    "trick": "sin2θ max at 45°; same level থেকে ছোড়লে。",
+    "trick": "sin2θ max at 45°; same level থেকে ছোড়লে।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "projectile-velocity-components",
+    "newton-second-math",
+    "projectile-equation-path"
+  ]
 }

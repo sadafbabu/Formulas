@@ -15,13 +15,13 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "y, b, a, x",
+      "meaning": "y=±(b/a)x",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "y=±(b/a)x",
+    "lead": "লঘুগামী x²/a²−y²/b²=0; কেন্দ্রে মিলে।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অধিবৃত্তের লঘুগামী এর মূল সূত্রটি লেখো।",
+      "question": "অধিবৃত্তের লঘুগামী এর সূত্রটি লেখো। (ইঙ্গিত: লঘুগামী x²/a²−y²/b²=0; কেন্দ্রে মিলে।)",
       "answer": "y=\\pm\\frac{b}{a}x"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "hyperbola-foci",
+    "hyperbola-eccentricity",
+    "hyperbola-standard"
+  ]
 }

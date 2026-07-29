@@ -15,13 +15,13 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "theta, A, B, C",
+      "meaning": "cosθ",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "cosθ",
+    "lead": "স্বাভাবিক ভেক্টরের dot product।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমতলের মধ্যবর্তী কোণ এর মূল সূত্রটি লেখো।",
+      "question": "সমতলের মধ্যবর্তী কোণ এর সূত্রটি লেখো। (ইঙ্গিত: স্বাভাবিক ভেক্টরের dot product।)",
       "answer": "\\cos\\theta=\\frac{|A_1A_2+B_1B_2+C_1C_2|}{\\sqrt{A_1^2+B_1^2+C_1^2}\\sqrt{A_2^2+B_2^2+C_2^2}}"
     }
   ],
   "memorize": {
-    "trick": "স্বাভাবিক ভেক্টরের dot product。",
+    "trick": "স্বাভাবিক ভেক্টরের dot product।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "plane-general-form",
+    "sphere-equation",
+    "plane-normal-form"
+  ]
 }

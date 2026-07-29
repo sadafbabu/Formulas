@@ -55,5 +55,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "kirchhoffs-laws",
+    "wheatstone-bridge",
+    "resistivity-temperature"
+  ]
 }

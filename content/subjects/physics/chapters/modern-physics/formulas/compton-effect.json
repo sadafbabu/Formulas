@@ -62,5 +62,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "bohr-radius-hydrogen",
+    "x-ray-characteristic",
+    "de-broglie-wavelength"
+  ]
 }

@@ -130,7 +130,7 @@ export const chapters: ChapterMeta[] = [...allChapters].sort(
     a.order - b.order,
 )
 
-export const defaultChapterId = 'magnetic-current'
+export const defaultChapterId = 'measurement'
 
 const tagMap = new Map(tags.map((t) => [t.id, t]))
 const chapterMap = new Map(allChapters.map((c) => [c.id, c]))

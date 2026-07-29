@@ -65,5 +65,8 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "nernst-equation",
+    "faradays-electrolysis"
+  ]
 }

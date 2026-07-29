@@ -16,13 +16,13 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "N, M, n, factor",
+      "meaning": "N=M×n-factor",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "N=M×n-factor",
+    "lead": "অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "নরমালিটি এর মূল সূত্রটি লেখো।",
+      "question": "নরমালিটি এর সূত্রটি লেখো। (ইঙ্গিত: অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।)",
       "answer": "N=M\\times n_{\\text{factor}},\\quad N_1V_1=N_2V_2"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "molarity-molality",
+    "percentage-composition",
+    "mole-concept-basic"
+  ]
 }

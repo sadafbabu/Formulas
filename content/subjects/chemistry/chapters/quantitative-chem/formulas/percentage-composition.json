@@ -16,13 +16,13 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "mass of element in formula, molar mass",
+      "meaning": "% element",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "% element",
+    "lead": "যৌগে মৌলের ভর অনুপাত × ১০০।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শতকরা সংযুক্তি এর মূল সূত্রটি লেখো।",
+      "question": "শতকরা সংযুক্তি এর সূত্রটি লেখো। (ইঙ্গিত: যৌগে মৌলের ভর অনুপাত × ১০০।)",
       "answer": "\\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "normality-relation",
+    "stoichiometry-mass",
+    "molarity-molality"
+  ]
 }

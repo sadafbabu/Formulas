@@ -15,13 +15,13 @@
   "order": 180,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "int, a, b, f",
+      "meaning": "numerical integration",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "numerical integration",
+    "lead": "h=(b−a)/n; end points once, middle twice।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,19 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "টrapezoidal নিয়ম এর মূল সূত্রটি লেখো।",
+      "question": "টrapezoidal নিয়ম এর সূত্রটি লেখো। (ইঙ্গিত: h=(b−a)/n; end points once, middle twice।)",
       "answer": "\\int_a^b f(x)\\,dx\\approx\\frac{h}{2}[y_0+2(y_1+\\cdots+y_{n-1})+y_n]"
     }
   ],
   "memorize": {
-    "trick": "h=(b−a)/n; end points once, middle twice。",
+    "trick": "h=(b−a)/n; end points once, middle twice।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "partial-fractions",
+    "integration-by-parts"
+  ]
 }

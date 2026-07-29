@@ -52,5 +52,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "degree-dissociation",
+    "le-chatelier",
+    "equilibrium-constant-rate"
+  ]
 }

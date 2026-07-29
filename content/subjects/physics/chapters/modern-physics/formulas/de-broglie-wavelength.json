@@ -73,5 +73,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "mass-energy-photoelectric",
+    "bohr-radius-hydrogen",
+    "radioactive-decay"
+  ]
 }

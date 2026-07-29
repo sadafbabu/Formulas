@@ -15,9 +15,9 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "x, a, y, b",
+      "meaning": "বিন্দুর দর্পণ প্রতিবিম্ব",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রেখার সাপেক্ষে বিন্দুর প্রতিবিম্ব এর মূল সূত্রটি লেখো।",
+      "question": "রেখার সাপেক্ষে বিন্দুর প্রতিবিম্ব এর সূত্রটি লেখো। (ইঙ্গিত: মধ্যবিন্দু রেখায়; যোগদণ্ড রেখার লম্ব।)",
       "answer": "\\frac{x-x_1}{a}=\\frac{y-y_1}{b}=-\\frac{2(ax_1+by_1+c)}{a^2+b^2}"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "concurrent-lines",
+    "slope-intercept-form",
+    "parallel-lines-distance"
+  ]
 }

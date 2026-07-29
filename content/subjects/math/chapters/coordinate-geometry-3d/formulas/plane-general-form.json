@@ -15,13 +15,13 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "A, x, B, y",
+      "meaning": "Ax+By+Cz+D=0",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "Ax+By+Cz+D=0",
+    "lead": "স্বাভাবিক (A,B,C); D দিয়ে অবস্থান নির্ধারণ।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমতলের সাধারণ রূপ এর মূল সূত্রটি লেখো।",
+      "question": "সমতলের সাধারণ রূপ এর সূত্রটি লেখো। (ইঙ্গিত: স্বাভাবিক (A,B,C); D দিয়ে অবস্থান নির্ধারণ।)",
       "answer": "Ax+By+Cz+D=0"
     }
   ],
   "memorize": {
-    "trick": "স্বাভাবিক (A,B,C); D দিয়ে অবস্থান নির্ধারণ。",
+    "trick": "স্বাভাবিক (A,B,C); D দিয়ে অবস্থান নির্ধারণ।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "plane-normal-form",
+    "angle-between-planes",
+    "shortest-distance-skew-lines"
+  ]
 }

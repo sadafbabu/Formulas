@@ -15,13 +15,13 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "int, a, f, even",
+      "meaning": "symmetric limits",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "symmetric limits",
+    "lead": "বিজোড় ফাংশন সমমিত সীমায় শূন্য।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জোড়–বিজোড় যোগজ এর মূল সূত্রটি লেখো।",
+      "question": "জোড়–বিজোড় যোগজ এর সূত্রটি লেখো। (ইঙ্গিত: বিজোড় ফাংশন সমমিত সীমায় শূন্য।)",
       "answer": "\\int_{-a}^{a}f_{\\text{even}}=2\\int_0^a f,\\quad \\int_{-a}^{a}f_{\\text{odd}}=0"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "definite-integral-properties",
+    "area-under-curve",
+    "integral-by-parts-ilate"
+  ]
 }

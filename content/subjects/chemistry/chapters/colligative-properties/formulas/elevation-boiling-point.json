@@ -15,13 +15,13 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "Delta, T, b, K",
+      "meaning": "ΔTb=Kbm",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "ΔTb=Kbm",
+    "lead": "ΔTb = Kb × molality; Ebullioscopic constant।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্ফুটনাঙ্কের উচ্চায়ন এর মূল সূত্রটি লেখো।",
+      "question": "স্ফুটনাঙ্কের উচ্চায়ন এর সূত্রটি লেখো। (ইঙ্গিত: ΔTb = Kb × molality; Ebullioscopic constant।)",
       "answer": "\\Delta T_b=K_b m"
     }
   ],
   "memorize": {
-    "trick": "ΔTb = Kb × molality; Ebullioscopic constant。",
+    "trick": "ΔTb = Kb × molality; Ebullioscopic constant।",
     "steps": []
   },
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "relative-lowering-vapour-pressure",
+    "depression-freezing-point",
+    "osmotic-pressure"
+  ]
 }

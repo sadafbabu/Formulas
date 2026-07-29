@@ -15,13 +15,13 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "T, r, binom, n",
+      "meaning": "T_{r+1}",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "T_{r+1}",
+    "lead": "(r+1)-তম পদ; r=0 থেকে শুরু।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সাধারণ পদের অবস্থান এর মূল সূত্রটি লেখো।",
+      "question": "সাধারণ পদের অবস্থান এর সূত্রটি লেখো। (ইঙ্গিত: (r+1)-তম পদ; r=0 থেকে শুরু।)",
       "answer": "T_{r+1}=\\binom{n}{r}a^{n-r}b^r"
     }
   ],
@@ -45,5 +45,8 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "binomial-ratio-term",
+    "independent-term"
+  ]
 }

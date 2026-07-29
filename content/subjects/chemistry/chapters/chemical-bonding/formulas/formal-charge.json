@@ -67,5 +67,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "lewis-structure",
+    "vsepr-theory",
+    "dipole-moment"
+  ]
 }

@@ -15,13 +15,13 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "d, y, x, t",
+      "meaning": "dy/dx=(dy/dt)/(dx/dt)",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "dy/dx=(dy/dt)/(dx/dt)",
+    "lead": "dy/dx=(dy/dt)/(dx/dt) — t বাদ না দিয়েই ঢাল।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্যারামিতিক অন্তরীকরণ এর মূল সূত্রটি লেখো।",
+      "question": "প্যারামিতিক অন্তরীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: t বাদ না দিয়েই ঢাল।)",
       "answer": "\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "implicit-diff",
+    "second-derivative",
+    "quotient-rule-diff"
+  ]
 }

@@ -15,13 +15,13 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "LR, b, a",
+      "meaning": "LR=2b²/a",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "LR=2b²/a",
+    "lead": "উপবৃত্তে LR = 2b²/a; পরাবৃত্তে 4a — মিশে যাবে না!",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উপবৃত্তের ল্যাটাস রেক্টাম এর মূল সূত্রটি লেখো।",
+      "question": "উপবৃত্তের ল্যাটাস রেক্টাম এর সূত্রটি লেখো। (ইঙ্গিত: উপবৃত্তে LR = 2b²/a; পরাবৃত্তে 4a — মিশে যাবে না!)",
       "answer": "\\text{LR}=\\frac{2b^2}{a}"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "ellipse-eccentricity",
+    "ellipse-tangent",
+    "ellipse-foci"
+  ]
 }

@@ -15,13 +15,13 @@
   "order": 150,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "theta, n, pi, alpha",
+      "meaning": "θ=nπ+(−1)ⁿα",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "θ=nπ+(−1)ⁿα",
+    "lead": "Principal α first; then nπ+(−1)ⁿα pattern।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "sinθ=k-এর সাধারণ সমাধান এর মূল সূত্রটি লেখো।",
+      "question": "sinθ=k-এর সাধারণ সমাধান এর সূত্রটি লেখো। (ইঙ্গিত: Principal α first; then nπ+(−1)ⁿα pattern।)",
       "answer": "\\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k"
     }
   ],
   "memorize": {
-    "trick": "Principal α first; then nπ+(−1)ⁿα pattern。",
+    "trick": "Principal α first; then nπ+(−1)ⁿα pattern।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "conditional-identity",
+    "general-solution-cos",
+    "trig-range"
+  ]
 }

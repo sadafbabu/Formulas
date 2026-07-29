@@ -48,7 +48,7 @@ export function TopBar({
           </svg>
           <span>ওভারভিউ</span>
         </button>
-        {viewMode === 'book' && menuSlot}
+        {menuSlot}
       </div>
 
       {viewMode === 'book' && (

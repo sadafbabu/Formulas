@@ -15,13 +15,13 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "d, sqrt, x, y",
+      "meaning": "দুই বিন্দুর দূরত্ব",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "দুই বিন্দুর দূরত্ব",
+    "lead": "2D-এর √(Δx²+Δy²)-এ z যোগ — একই ধরন।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ত্রিমাত্রিক দূরত্ব এর মূল সূত্রটি লেখো।",
+      "question": "ত্রিমাত্রিক দূরত্ব এর সূত্রটি লেখো। (ইঙ্গিত: 2D-এর √(Δx²+Δy²)-এ z যোগ — একই ধরন।)",
       "answer": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}"
     }
   ],
@@ -45,5 +45,8 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "section-formula-3d",
+    "direction-cosines-3d"
+  ]
 }

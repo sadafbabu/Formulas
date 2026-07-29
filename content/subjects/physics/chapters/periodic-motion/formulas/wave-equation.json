@@ -75,5 +75,8 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "shm-time-period",
+    "shm-energy"
+  ]
 }

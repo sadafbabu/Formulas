@@ -15,13 +15,13 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "vec, r, a, lambda",
+      "meaning": "r=a+λb",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "r=a+λb",
+    "lead": "a = বিন্দু, b = দিক্‌ভেক্টর; λ = প্যারামিটার।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রেখার ভেক্টর রূপ এর মূল সূত্রটি লেখো।",
+      "question": "রেখার ভেক্টর রূপ এর সূত্রটি লেখো। (ইঙ্গিত: a = বিন্দু, b = দিক্‌ভেক্টর; λ = প্যারামিটার।)",
       "answer": "\\vec r=\\vec a+\\lambda\\vec b"
     }
   ],
   "memorize": {
-    "trick": "a = বিন্দু, b = দিক্‌ভেক্টর; λ = প্যারামিটার。",
+    "trick": "a = বিন্দু, b = দিক্‌ভেক্টর; λ = প্যারামিটার।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "angle-between-lines-3d",
+    "line-equation-3d-cartesian",
+    "direction-ratios"
+  ]
 }

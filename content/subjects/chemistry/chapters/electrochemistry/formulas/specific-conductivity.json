@@ -16,13 +16,13 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "kappa, rho, Lambda, m",
+      "meaning": "κ এবং Λ_m",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "κ এবং Λ_m",
+    "lead": "Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আপেক্ষিক ও মোলার পরিবাহিতা এর মূল সূত্রটি লেখো।",
+      "question": "আপেক্ষিক ও মোলার পরিবাহিতা এর সূত্রটি লেখো। (ইঙ্গিত: Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।)",
       "answer": "\\kappa=\\frac{1}{\\rho},\\quad\\Lambda_m=\\frac{\\kappa\\times1000}{C},\\quad G=\\kappa\\frac{A}{l}"
     }
   ],

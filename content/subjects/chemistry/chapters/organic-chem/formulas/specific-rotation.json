@@ -16,9 +16,9 @@
   "order": 180,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "alpha, l, c, ee",
+      "meaning": "অপটিক্যাল অ্যাকটিভিটির পরিমাপ",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আপেক্ষিক ঘূর্ণন এর মূল সূত্রটি লেখো।",
+      "question": "আপেক্ষিক ঘূর্ণন এর সূত্রটি লেখো। (ইঙ্গিত: [α]=α/(l·c); ee অনুপাতে বিশুদ্ধতা।)",
       "answer": "[\\alpha]=\\frac{\\alpha}{l\\cdot c},\\quad\\mathrm{ee}=\\frac{[\\alpha]_{obs}}{[\\alpha]_{pure}}\\times100\\%"
     }
   ],

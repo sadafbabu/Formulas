@@ -57,5 +57,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "quantum-numbers",
+    "ph-poh-water",
+    "bohr-atom-model"
+  ]
 }

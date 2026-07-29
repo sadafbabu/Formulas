@@ -16,9 +16,9 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "W, a, b, q",
+      "meaning": "সমবিভবে কাজ শূন্য এবং E=-∇V",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমবিভব তল ও কাজ এর মূল সূত্রটি লেখো।",
+      "question": "সমবিভব তল ও কাজ এর সূত্রটি লেখো। (ইঙ্গিত: সমবিভব তলে চললে কাজ শূন্য; E অভিলম্ব।)",
       "answer": "W_{a\\to b}=q(V_a-V_b),\\quad\\vec E=-\\nabla V,\\quad W_{eq}=0"
     }
   ],

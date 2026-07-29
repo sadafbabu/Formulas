@@ -16,13 +16,13 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "limiting, n, i, nu",
+      "meaning": "smallest mole/coeff",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "smallest mole/coeff",
+    "lead": "প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সীমিত বিকারক গণনা এর মূল সূত্রটি লেখো।",
+      "question": "সীমিত বিকারক গণনা এর সূত্রটি লেখো। (ইঙ্গিত: প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।)",
       "answer": "\\text{limiting}=\\min\\left(\\frac{n_i}{\\nu_i}\\right)"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "stoichiometry-mass",
+    "ppm-ppb",
+    "percentage-composition"
+  ]
 }

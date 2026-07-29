@@ -16,9 +16,9 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "h, f, phi, lambda",
+      "meaning": "কাজের ফাংশন থেকে সীমা মান",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সীমা কম্পাঙ্ক ও তরঙ্গদৈর্ঘ্য এর মূল সূত্রটি লেখো।",
+      "question": "সীমা কম্পাঙ্ক ও তরঙ্গদৈর্ঘ্য এর সূত্রটি লেখো। (ইঙ্গিত: φ = hf₀ = hc/λ₀; λ<λ₀ না হলে ইলেকট্রন বেরোয় না।)",
       "answer": "hf_0=\\phi,\\quad\\lambda_0=\\frac{hc}{\\phi},\\quad K_{max}=hc\\big(\\frac{1}{\\lambda}-\\frac{1}{\\lambda_0}\\big)"
     }
   ],

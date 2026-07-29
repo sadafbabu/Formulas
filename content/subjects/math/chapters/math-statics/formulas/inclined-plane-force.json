@@ -15,13 +15,13 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "F, parallel, m, g",
+      "meaning": "mg sinθ, mg cosθ",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "mg sinθ, mg cosθ",
+    "lead": "সমান্তরাল = mg sinθ; লম্ব = mg cosθ।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ঢালু তলে বল এর মূল সূত্রটি লেখো।",
+      "question": "ঢালু তলে বল এর সূত্রটি লেখো। (ইঙ্গিত: সমান্তরাল = mg sinθ; লম্ব = mg cosθ।)",
       "answer": "F_{\\parallel}=mg\\sin\\theta,\\quad N=mg\\cos\\theta"
     }
   ],
@@ -45,5 +45,8 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "friction-limiting",
+    "parallel-forces-resultant"
+  ]
 }

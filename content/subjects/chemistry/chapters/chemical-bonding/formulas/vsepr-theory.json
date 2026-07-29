@@ -63,5 +63,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "formal-charge",
+    "bond-parameters",
+    "lewis-structure"
+  ]
 }

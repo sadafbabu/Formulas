@@ -73,5 +73,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "rms-velocity",
+    "kinetic-energy-gas",
+    "gas-laws"
+  ]
 }

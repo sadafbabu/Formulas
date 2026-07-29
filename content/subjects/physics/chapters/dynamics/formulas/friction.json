@@ -75,5 +75,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "newtons-laws",
+    "banked-road",
+    "centripetal-force"
+  ]
 }

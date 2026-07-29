@@ -15,13 +15,13 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "F, mu, R, lambda",
+      "meaning": "F=μR",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "F=μR",
+    "lead": "λ = ঘর্ষণ কোণ; ঢালে μ = tan α।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সীমিত ঘর্ষণ এর মূল সূত্রটি লেখো।",
+      "question": "সীমিত ঘর্ষণ এর সূত্রটি লেখো। (ইঙ্গিত: λ = ঘর্ষণ কোণ; ঢালে μ = tan α।)",
       "answer": "F=\\mu R,\\quad \\tan\\lambda=\\mu"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "parallel-forces-resultant",
+    "inclined-plane-force",
+    "couple-moment"
+  ]
 }

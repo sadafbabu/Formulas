@@ -16,13 +16,13 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "beta, lambda, D, d",
+      "meaning": "দ্বিপ্রিজমে পটি প্রস্থ",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "দ্বিপ্রিজমে পটি প্রস্থ",
+    "lead": "YDS-এর মতো β=λD/d; d প্রিজম থেকে।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফ্রেanel দ্বিপ্রিজম এর মূল সূত্রটি লেখো।",
+      "question": "ফ্রেanel দ্বিপ্রিজম এর সূত্রটি লেখো। (ইঙ্গিত: YDS-এর মতো β=λD/d; d প্রিজম থেকে।)",
       "answer": "\\beta=\\frac{\\lambda D}{d},\\quad d=2a(\\mu-1)\\alpha"
     }
   ],

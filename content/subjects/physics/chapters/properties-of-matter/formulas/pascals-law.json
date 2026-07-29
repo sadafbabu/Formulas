@@ -15,13 +15,13 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "F, A",
+      "meaning": "pressure transmitted",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "pressure transmitted",
+    "lead": "Hydraulic lift: small force × large distance = large force × small distance।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্যাসকেলের সূত্র এর মূল সূত্রটি লেখো।",
+      "question": "প্যাসকেলের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: Hydraulic lift: small force × large distance = large force ×)",
       "answer": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}"
     }
   ],
   "memorize": {
-    "trick": "Hydraulic lift: small force × large distance = large force × small distance。",
+    "trick": "Hydraulic lift: small force × large distance = large force × small distance।",
     "steps": []
   },
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "hydrostatic-pressure",
+    "excess-pressure-bubble",
+    "continuity-equation"
+  ]
 }

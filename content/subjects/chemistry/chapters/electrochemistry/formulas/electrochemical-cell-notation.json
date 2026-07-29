@@ -16,9 +16,9 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "Zn, Cu",
+      "meaning": "anode|anode||cathode|cathode",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কোষ প্রতীক এর মূল সূত্রটি লেখো।",
+      "question": "কোষ প্রতীক এর সূত্রটি লেখো। (ইঙ্গিত: বামে জারণ (অ্যানোড); ডানে বিজারণ (ক্যাথোড)।)",
       "answer": "\\text{Zn}|\\text{Zn}^{2+}\\|\\text{Cu}^{2+}|\\text{Cu}"
     }
   ],
@@ -46,5 +46,8 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "electrolysis-products",
+    "specific-conductivity"
+  ]
 }

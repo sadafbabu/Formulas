@@ -15,13 +15,13 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "A, cap, B, x",
+      "meaning": "A∩B",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "A∩B",
+    "lead": "∩ = intersection = ছেদ; common elements।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,16 +34,20 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সেটের ছেদ এর মূল সূত্রটি লেখো।",
+      "question": "সেটের ছেদ এর সূত্রটি লেখো। (ইঙ্গিত: ∩ = intersection = ছেদ; common elements।)",
       "answer": "A\\cap B=\\{x:x\\in A\\text{ and }x\\in B\\}"
     }
   ],
   "memorize": {
-    "trick": "∩ = intersection = ছেদ; common elements。",
+    "trick": "∩ = intersection = ছেদ; common elements।",
     "steps": []
   },
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "set-union",
+    "set-complement",
+    "set-difference"
+  ]
 }

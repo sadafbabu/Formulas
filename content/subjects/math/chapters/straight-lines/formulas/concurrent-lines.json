@@ -15,9 +15,9 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "v, m, a, t",
+      "meaning": "তিন রেখা এক বিন্দুগামী হওয়ার শর্ত",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "তিন রেখার একবিন্দুগামিতা এর মূল সূত্রটি লেখো।",
+      "question": "তিন রেখার একবিন্দুগামিতা এর সূত্রটি লেখো। (ইঙ্গিত: নির্ণায়ক = ০ ⇒ একবিন্দুগামী।)",
       "answer": "\\begin{vmatrix}a_1&b_1&c_1\\\\a_2&b_2&c_2\\\\a_3&b_3&c_3\\end{vmatrix}=0"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "parallel-lines-distance",
+    "image-of-point",
+    "circle-tangent-chord"
+  ]
 }

@@ -15,13 +15,13 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "d, b, a, n",
+      "meaning": "n AMs between a,b",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "n AMs between a,b",
+    "lead": "a ও b-এর মাঝে nটি AM → অন্তর (b−a)/(n+1)।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমান্তর মধ্যক নিবেশ এর মূল সূত্রটি লেখো।",
+      "question": "সমান্তর মধ্যক নিবেশ এর সূত্রটি লেখো। (ইঙ্গিত: a ও b-এর মাঝে nটি AM → অন্তর (b−a)/(n+1)।)",
       "answer": "d=\\frac{b-a}{n+1}"
     }
   ],
@@ -45,5 +45,8 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "sum-natural-squares-cubes",
+    "agp-sum"
+  ]
 }

@@ -72,5 +72,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "friction",
+    "centripetal-force",
+    "newtons-laws"
+  ]
 }

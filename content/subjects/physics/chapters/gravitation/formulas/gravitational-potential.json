@@ -68,5 +68,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "escape-velocity",
+    "satellite-energy",
+    "newtons-gravitation"
+  ]
 }

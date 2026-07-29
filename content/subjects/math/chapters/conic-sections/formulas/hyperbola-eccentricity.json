@@ -15,13 +15,13 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "e, c, a, sqrt",
+      "meaning": "e=c/a>1",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "e=c/a>1",
+    "lead": "e>1 অধিবৃত্ত; e=1 পরাবৃত্ত; e<1 উপবৃত্ত।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অধিবৃত্তের উপকেন্দ্রতা এর মূল সূত্রটি লেখো।",
+      "question": "অধিবৃত্তের উপকেন্দ্রতা এর সূত্রটি লেখো। (ইঙ্গিত: e>1 অধিবৃত্ত; e=1 পরাবৃত্ত; e<1 উপবৃত্ত।)",
       "answer": "e=\\frac{c}{a}=\\sqrt{1+\\frac{b^2}{a^2}}>1"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "hyperbola-asymptotes",
+    "hyperbola-rectangular",
+    "hyperbola-foci"
+  ]
 }

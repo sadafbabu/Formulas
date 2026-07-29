@@ -15,13 +15,13 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "sum, n",
+      "meaning": "n(n+1)/2 ইত্যাদি",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "n(n+1)/2 ইত্যাদি",
+    "lead": "Σn³ = (Σn)² — মনে রাখার সহজ সম্পর্ক।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্রাকৃতিক সংখ্যার ঘাতের যোগ এর মূল সূত্রটি লেখো।",
+      "question": "প্রাকৃতিক সংখ্যার ঘাতের যোগ এর সূত্রটি লেখো। (ইঙ্গিত: Σn³ = (Σn)² — মনে রাখার সহজ সম্পর্ক।)",
       "answer": "\\sum n=\\frac{n(n+1)}{2},\\ \\sum n^2=\\frac{n(n+1)(2n+1)}{6},\\ \\sum n^3=\\left(\\frac{n(n+1)}{2}\\right)^2"
     }
   ],
@@ -45,5 +45,9 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "agp-sum",
+    "arithmetic-mean-insert",
+    "am-gm-hm"
+  ]
 }

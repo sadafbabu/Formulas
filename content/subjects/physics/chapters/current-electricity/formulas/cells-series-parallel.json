@@ -16,9 +16,9 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "series:, E, e, q",
+      "meaning": "n কোষ শ্রেণী/সমান্তরালে সমতুল্য emf ও r",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কোষের শ্রেণী ও সমান্তরাল সংযোগ এর মূল সূত্রটি লেখো।",
+      "question": "কোষের শ্রেণী ও সমান্তরাল সংযোগ এর সূত্রটি লেখো। (ইঙ্গিত: শ্রেণীতে E যোগ; সমান্তরালে E এক, r ভাগ।)",
       "answer": "\\text{series: }E_{eq}=nE,\\ r_{eq}=nr;\\quad\\text{parallel: }E_{eq}=E,\\ r_{eq}=r/m"
     }
   ],

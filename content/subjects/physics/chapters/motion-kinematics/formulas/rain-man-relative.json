@@ -16,13 +16,13 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "theta, v, m, r",
+      "meaning": "umbrella tilt",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "umbrella tilt",
+    "lead": "ছাতা কাত = আপেক্ষিক বৃষ্টির দিক।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃষ্টি–মানুষ আপেক্ষিক বেগ এর মূল সূত্রটি লেখো।",
+      "question": "বৃষ্টি–মানুষ আপেক্ষিক বেগ এর সূত্রটি লেখো। (ইঙ্গিত: ছাতা কাত = আপেক্ষিক বৃষ্টির দিক।)",
       "answer": "\\tan\\theta=\\frac{v_m}{v_r}\\quad(\\vec v_{rm}=\\vec v_r-\\vec v_m)"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "relative-velocity-1d",
+    "river-boat-crossing",
+    "kinematic-nth-second"
+  ]
 }

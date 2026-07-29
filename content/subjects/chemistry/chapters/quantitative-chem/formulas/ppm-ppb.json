@@ -16,13 +16,13 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "ppm, mass solute, mass solution",
+      "meaning": "parts per million",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "parts per million",
+    "lead": "জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,7 +35,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ppm ও ppb এর মূল সূত্রটি লেখো।",
+      "question": "ppm ও ppb এর সূত্রটি লেখো। (ইঙ্গিত: জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।)",
       "answer": "\\mathrm{ppm}=\\frac{\\text{mass solute}}{\\text{mass solution}}\\times10^6"
     }
   ],
@@ -46,5 +46,9 @@
   "subjects": [
     "chemistry"
   ],
-  "related": []
+  "related": [
+    "limiting-reagent-calc",
+    "gas-stoichiometry-volume",
+    "stoichiometry-mass"
+  ]
 }

@@ -67,5 +67,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "single-slit-diffraction",
+    "optical-path-phase",
+    "youngs-double-slit"
+  ]
 }

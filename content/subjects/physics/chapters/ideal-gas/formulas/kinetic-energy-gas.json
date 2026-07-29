@@ -66,5 +66,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "ideal-gas-equation",
+    "maxwell-distribution",
+    "rms-velocity"
+  ]
 }

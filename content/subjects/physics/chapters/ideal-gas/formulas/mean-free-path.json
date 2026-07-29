@@ -59,5 +59,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "maxwell-distribution",
+    "dalton-graham-law",
+    "kinetic-energy-gas"
+  ]
 }

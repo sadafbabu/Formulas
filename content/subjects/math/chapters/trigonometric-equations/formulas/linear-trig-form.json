@@ -15,9 +15,9 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "a, theta, b, R",
+      "meaning": "R cos(θ−α) রূপে রূপান্তর",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রৈখিক ত্রিকোণমিতিক রূপ এর মূল সূত্রটি লেখো।",
+      "question": "রৈখিক ত্রিকোণমিতিক রূপ এর সূত্রটি লেখো। (ইঙ্গিত: R=√(a²+b²); tanα=b/a।)",
       "answer": "a\\cos\\theta+b\\sin\\theta=R\\cos(\\theta-\\alpha),\\ R=\\sqrt{a^2+b^2},\\ \\tan\\alpha=b/a"
     }
   ],

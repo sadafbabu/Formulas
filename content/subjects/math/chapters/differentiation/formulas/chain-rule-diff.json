@@ -15,13 +15,13 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "—",
-      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
-      "unit": "—"
+      "symbol": "d, y, x, u",
+      "meaning": "dy/dx=(dy/du)(du/dx)",
+      "unit": "সূত্রানুযায়ী"
     }
   ],
   "derivation": {
-    "lead": "dy/dx=(dy/du)(du/dx)",
+    "lead": "বাইরের অন্তরক × ভিতরের অন্তরক।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শৃঙ্খল নিয়ম এর মূল সূত্রটি লেখো।",
+      "question": "শৃঙ্খল নিয়ম এর সূত্রটি লেখো। (ইঙ্গিত: বাইরের অন্তরক × ভিতরের অন্তরক।)",
       "answer": "\\frac{dy}{dx}=\\frac{dy}{du}\\cdot\\frac{du}{dx}"
     }
   ],
@@ -45,5 +45,10 @@
   "subjects": [
     "math"
   ],
-  "related": []
+  "related": [
+    "differentiation-chain-rule",
+    "derivative-exp-log",
+    "product-rule-diff",
+    "derivative-trig"
+  ]
 }

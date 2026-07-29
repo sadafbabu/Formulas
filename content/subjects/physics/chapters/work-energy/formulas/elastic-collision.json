@@ -62,5 +62,9 @@
   "subjects": [
     "physics"
   ],
-  "related": []
+  "related": [
+    "power-efficiency",
+    "conservation-mechanical-energy",
+    "kinetic-energy"
+  ]
 }
