@@ -1,24 +1,55 @@
-import { useState } from 'react'
-import { allChapters, papers, subjectsList } from '../data/catalog'
+import { useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
+import {
+  allChapters,
+  formulas,
+  getChapter,
+  papers,
+  subjectsList,
+} from '../data/catalog'
 import type { PaperId, SubjectId } from '../data/types'
+import { formulaDetailPath } from '../utils/bookLinks'
+import { matchFormula } from '../utils/search'
 
 interface OverviewHomeProps {
   onSelectChapter: (chapterId: string) => void
+  query?: string
+  onQueryChange?: (value: string) => void
 }
 
-export function OverviewHome({ onSelectChapter }: OverviewHomeProps) {
+export function OverviewHome({
+  onSelectChapter,
+  query = '',
+  onQueryChange,
+}: OverviewHomeProps) {
   const [selectedSubject, setSelectedSubject] = useState<SubjectId | 'all'>('all')
   const [selectedPaper, setSelectedPaper] = useState<PaperId | 'all'>('all')
+  const q = query.trim()
 
   const filteredChapters = allChapters.filter((ch) => {
     if (selectedSubject !== 'all' && ch.subjectId !== selectedSubject) return false
     if (selectedPaper !== 'all' && ch.paperId !== selectedPaper) return false
-    return true
+    if (!q) return true
+    const hay = `${ch.name} ${ch.nameBn} ${ch.id}`.toLowerCase()
+    if (hay.includes(q.toLowerCase())) return true
+    return formulas.some(
+      (f) => f.chapter === ch.id && matchFormula(f, query, null),
+    )
   })
 
+  const formulaHits = useMemo(() => {
+    if (!q) return []
+    return formulas.filter((f) => matchFormula(f, query, null)).slice(0, 24)
+  }, [q, query])
+
+  const formulaHitTotal = useMemo(() => {
+    if (!q) return 0
+    return formulas.filter((f) => matchFormula(f, query, null)).length
+  }, [q, query])
+
   return (
-    <div className="overview-container">
-      {/* Hero Header - Strict Monochrome Minimalist */}
+    <div className="overview-scroll">
+      <div className="overview-container">
       <header className="overview-hero">
         <span className="hero-subhead">FORMULA HUB — HSC & ADMISSION</span>
         <h1 className="hero-title">সকল বিষয়ের অধ্যায়ভিত্তিক সূত্রাবলী</h1>
@@ -26,15 +57,45 @@ export function OverviewHome({ onSelectChapter }: OverviewHomeProps) {
           এইচএসসি বোর্ড এবং বুয়েট, মেডিকেল ও ভার্সিটি ক-ইউনিট ভর্তি পরীক্ষার জন্য প্রস্তুতকৃত ডিজিটাল ফর্মুলা বুক।
         </p>
 
-        {/* Minimalist Filter Bar */}
+        {onQueryChange ? (
+          <label className="overview-search">
+            <span aria-hidden="true">⌕</span>
+            <input
+              value={query}
+              onChange={(e) => onQueryChange(e.target.value)}
+              placeholder="সূত্র বা অধ্যায় খুঁজুন…"
+              aria-label="সূত্র বা অধ্যায় খুঁজুন"
+            />
+            {q ? (
+              <button
+                type="button"
+                className="overview-search-clear"
+                aria-label="সার্চ মুছুন"
+                onClick={() => onQueryChange('')}
+              >
+                ×
+              </button>
+            ) : null}
+          </label>
+        ) : null}
+
         <div className="overview-filters">
-          <div className="filter-group">
+          <div className="filter-group" role="group" aria-label="বিষয়">
+            <button
+              type="button"
+              className={`filter-tab${selectedSubject === 'all' ? ' is-active' : ''}`}
+              aria-pressed={selectedSubject === 'all'}
+              onClick={() => setSelectedSubject('all')}
+            >
+              সব বিষয়
+            </button>
             {subjectsList.map((s) => (
               <button
                 key={s.id}
                 type="button"
                 className={`filter-tab${selectedSubject === s.id ? ' is-active' : ''}`}
-                onClick={() => setSelectedSubject(selectedSubject === s.id ? 'all' : s.id)}
+                aria-pressed={selectedSubject === s.id}
+                onClick={() => setSelectedSubject(s.id)}
               >
                 {s.nameBn}
               </button>
@@ -43,13 +104,22 @@ export function OverviewHome({ onSelectChapter }: OverviewHomeProps) {
 
           <div className="filter-divider" />
 
-          <div className="filter-group">
+          <div className="filter-group" role="group" aria-label="পত্র">
+            <button
+              type="button"
+              className={`filter-tab${selectedPaper === 'all' ? ' is-active' : ''}`}
+              aria-pressed={selectedPaper === 'all'}
+              onClick={() => setSelectedPaper('all')}
+            >
+              সব পত্র
+            </button>
             {papers.map((p) => (
               <button
                 key={p.id}
                 type="button"
                 className={`filter-tab${selectedPaper === p.id ? ' is-active' : ''}`}
-                onClick={() => setSelectedPaper(selectedPaper === p.id ? 'all' : p.id)}
+                aria-pressed={selectedPaper === p.id}
+                onClick={() => setSelectedPaper(p.id)}
               >
                 {p.nameBn}
               </button>
@@ -58,17 +128,50 @@ export function OverviewHome({ onSelectChapter }: OverviewHomeProps) {
         </div>
       </header>
 
-      {/* Minimalist Chapters Grid */}
+      {q && formulaHits.length > 0 ? (
+        <section className="overview-hits" aria-label="সূত্র মিল">
+          <h2 className="overview-hits-title">
+            সূত্র মিল
+            <span>
+              {formulaHitTotal > formulaHits.length
+                ? ` · প্রথম ${formulaHits.length} / ${formulaHitTotal}`
+                : ` · ${formulaHitTotal}`}
+            </span>
+          </h2>
+          <ul className="overview-hits-list">
+            {formulaHits.map((f) => {
+              const ch = getChapter(f.chapter)
+              return (
+                <li key={f.id}>
+                  <Link
+                    to={formulaDetailPath(f.id, {
+                      chapter: f.chapter,
+                      query: q,
+                    })}
+                  >
+                    <span className="overview-hit-title">{f.titleBn}</span>
+                    {ch ? (
+                      <span className="overview-hit-chapter">{ch.nameBn}</span>
+                    ) : null}
+                  </Link>
+                </li>
+              )
+            })}
+          </ul>
+        </section>
+      ) : null}
+
       <section className="overview-grid">
         {filteredChapters.length === 0 ? (
           <div className="overview-empty">
-            <p>এই ফিল্টারে কোনো অধ্যায় নেই</p>
+            <p>{q ? 'এই খোঁজে কোনো অধ্যায় মিলেনি' : 'এই ফিল্টারে কোনো অধ্যায় নেই'}</p>
             <button
               type="button"
               className="filter-tab is-active"
               onClick={() => {
                 setSelectedSubject('all')
                 setSelectedPaper('all')
+                onQueryChange?.('')
               }}
             >
               সব ফিল্টার মুছুন
@@ -124,6 +227,7 @@ export function OverviewHome({ onSelectChapter }: OverviewHomeProps) {
           })
         )}
       </section>
+      </div>
     </div>
   )
 }

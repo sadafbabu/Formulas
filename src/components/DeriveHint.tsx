@@ -1,5 +1,6 @@
 import { Link, useSearchParams } from 'react-router-dom'
 import type { Formula } from '../data/types'
+import { formulaDetailPath } from '../utils/bookLinks'
 import { HintPopover } from './HintPopover'
 import { Katex } from './Katex'
 import { MathOrText } from './MathOrText'
@@ -12,7 +13,12 @@ export function DeriveHint({ formula }: DeriveHintProps) {
   const first = formula.derivation.steps[0]
   const [params] = useSearchParams()
   const chapter = params.get('chapter') || formula.chapter
-  const detailTo = `/formula/${formula.id}?chapter=${encodeURIComponent(chapter)}`
+  const detailTo = formulaDetailPath(formula.id, {
+    chapter,
+    tag: params.get('tag'),
+    query: params.get('q'),
+    page: params.get('page'),
+  })
 
   return (
     <HintPopover

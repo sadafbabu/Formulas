@@ -24,9 +24,44 @@ export function looksLikeTex(input: string): boolean {
   return false
 }
 
-/** Wrap bare Bangla prose so KaTeX does not smash it in math mode. */
+/** Escape TeX specials that break math mode when left bare (skip real commands). */
+function escapeBareTexSpecials(input: string): string {
+  let out = ''
+  let i = 0
+  while (i < input.length) {
+    if (input[i] === '\\') {
+      const end = consumeTexCommand(input, i)
+      out += input.slice(i, end)
+      i = end
+      continue
+    }
+    const ch = input[i]
+    if (ch === '%' || ch === '#' || ch === '$' || ch === '&') {
+      out += `\\${ch}`
+    } else {
+      out += ch
+    }
+    i++
+  }
+  return out
+}
+
+function escapeTextMode(input: string): string {
+  return input
+    .replace(/\\/g, '\\textbackslash{}')
+    .replace(/([%#$&_^])/g, '\\$1')
+    .replace(/~/g, '\\textasciitilde{}')
+}
+
+/**
+ * Wrap bare Bangla prose so KaTeX does not smash it in math mode.
+ * Only Bangla runs go into \\text{...}; ASCII/math tokens stay in math mode
+ * so subscripts like E_a / K_c keep working.
+ */
 export function prepareMixedTex(input: string): string {
-  if (!/[\u0980-\u09FF]/.test(input)) return input
+  if (!/[\u0980-\u09FF]/.test(input)) {
+    return /[%#$&]/.test(input) ? escapeBareTexSpecials(input) : input
+  }
   if (!hasBareBangla(input)) return input
 
   let out = ''
@@ -41,15 +76,21 @@ export function prepareMixedTex(input: string): string {
 
     let j = i
     while (j < input.length && input[j] !== '\\') j++
-    const prose = input.slice(i, j)
-    if (/[\u0980-\u09FF]/.test(prose)) {
-      out += `\\text{${prose}}`
-    } else {
-      out += prose
-    }
+    out += wrapBanglaRuns(input.slice(i, j))
     i = j
   }
-  return out
+  return escapeBareTexSpecials(out)
+}
+
+/** Wrap contiguous Bangla (+ intervening Bangla punctuation/spaces) runs. */
+function wrapBanglaRuns(segment: string): string {
+  if (!/[\u0980-\u09FF]/.test(segment)) return segment
+
+  // Bangla letters/digits/marks, plus spaces & punctuation that sit inside prose.
+  return segment.replace(
+    /[\u0980-\u09FF](?:[\u0980-\u09FF\u09BC-\u09C4\u09C7\u09C8\u09CB\u09CC\u09CD\u09D7\u09E6-\u09EF\u200C\u200D]|[\s,।.!?:;—–\-()'"]+(?=[\u0980-\u09FF]))*[।.!?:;]?/g,
+    (run) => `\\text{${escapeTextMode(run)}}`,
+  )
 }
 
 /** Consume a TeX command starting at `\\`, including following `{...}` groups. */

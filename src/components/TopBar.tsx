@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react'
+import { useEffect, useRef, type ReactNode } from 'react'
 import { tags } from '../data/catalog'
 import type { TagId } from '../data/types'
 
@@ -21,6 +21,18 @@ export function TopBar({
   viewMode,
   onGoHome,
 }: TopBarProps) {
+  const tagsRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    if (viewMode !== 'book' || !tagsRef.current) return
+    const active = tagsRef.current.querySelector<HTMLElement>('.top-tag.is-active')
+    active?.scrollIntoView({
+      inline: 'center',
+      block: 'nearest',
+      behavior: 'smooth',
+    })
+  }, [activeTag, viewMode])
+
   return (
     <header className="top-bar">
       <div className="top-bar-left">
@@ -52,7 +64,12 @@ export function TopBar({
       </div>
 
       {viewMode === 'book' && (
-        <div className="top-bar-tags" role="toolbar" aria-label="Filter by exam tag">
+        <div
+          ref={tagsRef}
+          className="top-bar-tags"
+          role="toolbar"
+          aria-label="Filter by exam tag"
+        >
           <button
             type="button"
             className={`top-tag${!activeTag ? ' is-active' : ''}`}
@@ -78,7 +95,9 @@ export function TopBar({
 
       {viewMode === 'book' && (
         <div className="top-bar-count" aria-live="polite">
-          {matchCount === totalCount ? `${totalCount}` : `${matchCount}/${totalCount}`}
+          {matchCount === totalCount
+            ? `${totalCount}`
+            : `${matchCount}/${totalCount}`}
         </div>
       )}
     </header>

@@ -17,6 +17,9 @@ interface HintPopoverProps {
   wide?: boolean
 }
 
+const FOCUSABLE =
+  'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])'
+
 export function HintPopover({
   label,
   title,
@@ -26,8 +29,11 @@ export function HintPopover({
 }: HintPopoverProps) {
   const [open, setOpen] = useState(false)
   const tipId = useId()
+  const titleId = useId()
   const rootRef = useRef<HTMLDivElement>(null)
+  const triggerRef = useRef<HTMLButtonElement>(null)
   const panelRef = useRef<HTMLDivElement>(null)
+  const closeRef = useRef<HTMLButtonElement>(null)
   const [pos, setPos] = useState({ top: 0, left: 0 })
 
   const place = useCallback(() => {
@@ -47,7 +53,6 @@ export function HintPopover({
     if (top + height > window.innerHeight - 8) {
       top = Math.max(8, r.top - height - 8)
     }
-    // If still taller than viewport, pin to top and let panel scroll.
     if (height > window.innerHeight - 16) {
       top = 8
     }
@@ -66,9 +71,35 @@ export function HintPopover({
 
   useEffect(() => {
     if (!open) return
+    const previouslyFocused = document.activeElement as HTMLElement | null
+    closeRef.current?.focus()
+
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') setOpen(false)
+      if (e.key === 'Escape') {
+        e.preventDefault()
+        setOpen(false)
+        return
+      }
+      if (e.key !== 'Tab' || !panelRef.current) return
+      const nodes = [
+        ...panelRef.current.querySelectorAll<HTMLElement>(FOCUSABLE),
+      ].filter((el) => !el.hasAttribute('disabled') && el.tabIndex !== -1)
+      if (!nodes.length) {
+        e.preventDefault()
+        return
+      }
+      const first = nodes[0]
+      const last = nodes[nodes.length - 1]
+      const active = document.activeElement as HTMLElement | null
+      if (e.shiftKey && active === first) {
+        e.preventDefault()
+        last.focus()
+      } else if (!e.shiftKey && active === last) {
+        e.preventDefault()
+        first.focus()
+      }
     }
+
     const onPointer = (e: MouseEvent | TouchEvent) => {
       const t = e.target as Node
       if (rootRef.current?.contains(t)) return
@@ -87,17 +118,20 @@ export function HintPopover({
       window.removeEventListener('touchstart', onPointer)
       window.removeEventListener('resize', onScroll)
       window.removeEventListener('scroll', onScroll, true)
+      previouslyFocused?.focus?.()
     }
   }, [open, place])
 
   return (
     <div className="hint-wrap" ref={rootRef}>
       <button
+        ref={triggerRef}
         type="button"
         className="hint-btn"
         aria-label={label}
         aria-expanded={open}
         aria-controls={tipId}
+        aria-haspopup="dialog"
         title={title}
         onClick={(e) => {
           e.stopPropagation()
@@ -115,11 +149,24 @@ export function HintPopover({
             className={`hint-popover${wide ? ' is-wide' : ''}`}
             role="dialog"
             aria-modal="true"
-            aria-label={title}
+            aria-labelledby={titleId}
             style={{ top: pos.top, left: pos.left }}
             onClick={(e) => e.stopPropagation()}
           >
-            <p className="hint-popover-title">{title}</p>
+            <div className="hint-popover-head">
+              <p id={titleId} className="hint-popover-title">
+                {title}
+              </p>
+              <button
+                ref={closeRef}
+                type="button"
+                className="hint-popover-close"
+                aria-label="বন্ধ করুন"
+                onClick={() => setOpen(false)}
+              >
+                ×
+              </button>
+            </div>
             {children}
           </div>,
           document.body,

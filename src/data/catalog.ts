@@ -1,5 +1,4 @@
 import tagsJson from '../../content/tags.json'
-import physicsMeta from '../../content/subjects/physics/meta.json'
 
 import type {
   BookPage,
@@ -12,7 +11,6 @@ import type {
 } from './types'
 
 export const tags = tagsJson as Tag[]
-export const subject: SubjectMeta = physicsMeta as SubjectMeta
 
 export const papers: PaperMeta[] = [
   { id: '1st-paper', name: '1st Paper', nameBn: '১ম পত্র' },
@@ -165,5 +163,3 @@ export function buildPages(items: Formula[], perPage = 7): BookPage[] {
   }
   return pages
 }
-
-export const samplePages = buildPages(formulasForChapter())

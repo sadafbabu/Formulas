@@ -5,6 +5,7 @@ import { MathOrText } from '../components/MathOrText'
 import { NavMenu } from '../components/NavMenu'
 import { TagChip } from '../components/TagChip'
 import { defaultChapterId, getChapter, getFormula } from '../data/catalog'
+import { bookReturnPath, formulaDetailPath } from '../utils/bookLinks'
 import { stripDollarMath, toLatexSymbol } from '../utils/mathText'
 
 export function FormulaDetailPage() {
@@ -17,13 +18,15 @@ export function FormulaDetailPage() {
     params.get('chapter') || formula?.chapter || defaultChapterId
 
   const setChapterId = (nextId: string) => {
-    navigate(
-      `/?chapter=${encodeURIComponent(nextId)}&view=book`,
-      { replace: true },
-    )
+    navigate(`/?chapter=${encodeURIComponent(nextId)}&view=book`)
   }
 
-  const backTo = `/?chapter=${encodeURIComponent(chapterId)}&view=book`
+  const backTo = bookReturnPath({
+    chapter: chapterId,
+    tag: params.get('tag'),
+    query: params.get('q'),
+    page: params.get('page'),
+  })
 
   if (!formula) {
     return (
@@ -197,7 +200,11 @@ export function FormulaDetailPage() {
                   return (
                     <li key={f.id}>
                       <Link
-                        to={`/formula/${f.id}?chapter=${encodeURIComponent(f.chapter)}`}
+                        to={formulaDetailPath(f.id, {
+                          chapter: f.chapter,
+                          tag: params.get('tag'),
+                          query: params.get('q'),
+                        })}
                       >
                         {f.titleBn}
                         {ch ? <span>{ch.nameBn}</span> : null}

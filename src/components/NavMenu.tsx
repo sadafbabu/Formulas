@@ -8,6 +8,7 @@ import {
   getChapter,
   subjectsList,
 } from '../data/catalog'
+import { formulaDetailPath } from '../utils/bookLinks'
 import { matchFormula } from '../utils/search'
 
 interface NavMenuProps {
@@ -18,6 +19,8 @@ interface NavMenuProps {
   /** When false, only render the fab+panel (menu lives inside TopBar) */
   floating?: boolean
 }
+
+const RESULT_LIMIT = 40
 
 export function NavMenu({
   query,
@@ -41,10 +44,13 @@ export function NavMenu({
     )
   }, [chapterId, query])
 
-  const globalList = useMemo(() => {
+  const globalMatches = useMemo(() => {
     if (!q) return []
-    return formulas.filter((f) => matchFormula(f, query, null)).slice(0, 40)
+    return formulas.filter((f) => matchFormula(f, query, null))
   }, [q, query])
+
+  const globalList = globalMatches.slice(0, RESULT_LIMIT)
+  const globalMatchTotal = globalMatches.length
 
   const chaptersBySubject = useMemo(() => {
     return subjectsList.map((subject) => ({
@@ -55,6 +61,16 @@ export function NavMenu({
 
   const list = q ? (globalList.length ? globalList : chapterList) : chapterList
   const searchingAll = Boolean(q && globalList.length > 0)
+  const resultLabel = (() => {
+    if (!q) return `সূত্র (${list.length})`
+    if (searchingAll) {
+      if (globalMatchTotal > RESULT_LIMIT) {
+        return `সব অধ্যায়ে মিল (প্রথম ${RESULT_LIMIT} / ${globalMatchTotal})`
+      }
+      return `সব অধ্যায়ে মিল (${globalMatchTotal})`
+    }
+    return `সূত্র (${list.length} মিল)`
+  })()
 
   useEffect(() => {
     if (!open) return
@@ -74,7 +90,6 @@ export function NavMenu({
     }
   }, [open])
 
-  const chapter = params.get('chapter') || chapterId
   const activeChapter = getChapter(chapterId || defaultChapterId)
   const activeSubject =
     subjectsList.find((s) => s.id === activeChapter?.subjectId) ?? subjectsList[0]
@@ -137,10 +152,7 @@ export function NavMenu({
             </div>
           ))}
 
-          <p className="nav-section">
-            {searchingAll ? 'সব অধ্যায়ে মিল' : 'সূত্র'} ({list.length}
-            {q ? ' মিল' : ''})
-          </p>
+          <p className="nav-section">{resultLabel}</p>
           <ul className="nav-formula-list">
             {list.length === 0 ? (
               <li className="nav-empty">কোনো সূত্র মিলেনি</li>
@@ -150,7 +162,12 @@ export function NavMenu({
                 return (
                   <li key={f.id}>
                     <Link
-                      to={`/formula/${f.id}?chapter=${encodeURIComponent(f.chapter || chapter)}`}
+                      to={formulaDetailPath(f.id, {
+                        chapter: f.chapter || chapterId,
+                        tag: params.get('tag'),
+                        query: q || null,
+                        page: params.get('page'),
+                      })}
                       onClick={() => setOpen(false)}
                     >
                       {f.titleBn}

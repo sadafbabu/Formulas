@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { NavMenu } from '../components/NavMenu'
 import { OverviewHome } from '../components/OverviewHome'
@@ -25,7 +25,8 @@ export function SampleBookPage() {
     rawChapter && getChapter(rawChapter) ? rawChapter : defaultChapterId
   const viewMode: 'home' | 'book' =
     params.get('view') === 'book' ? 'book' : 'home'
-  const [query, setQuery] = useState('')
+  const query = params.get('q') ?? ''
+  const pageParam = Math.max(1, Number(params.get('page') || '1') || 1)
 
   useEffect(() => {
     const next = new URLSearchParams(params)
@@ -46,11 +47,25 @@ export function SampleBookPage() {
     return all.filter((f) => matchFormula(f, query, activeTag)).length
   }, [all, activeTag, query])
 
-  const setChapterId = (id: string) => {
+  const setQuery = (value: string, replace = true) => {
+    const next = new URLSearchParams(params)
+    const trimmed = value.trimStart()
+    if (trimmed) next.set('q', trimmed)
+    else next.delete('q')
+    next.delete('page')
+    setParams(next, { replace })
+  }
+
+  const setChapterId = (id: string, options?: { clearFilters?: boolean }) => {
     const next = new URLSearchParams(params)
     next.set('chapter', id)
     next.set('view', 'book')
-    setParams(next, { replace: true })
+    next.delete('page')
+    if (options?.clearFilters) {
+      next.delete('tag')
+      next.delete('q')
+    }
+    setParams(next)
   }
 
   const setTag = (tag: TagId | null) => {
@@ -59,17 +74,31 @@ export function SampleBookPage() {
     else next.delete('tag')
     if (!next.get('chapter')) next.set('chapter', chapterId)
     next.set('view', 'book')
+    next.delete('page')
+    setParams(next)
+  }
+
+  const setPage = (page: number) => {
+    const next = new URLSearchParams(params)
+    if (page <= 1) next.delete('page')
+    else next.set('page', String(page))
     setParams(next, { replace: true })
   }
 
   const handleGoHome = () => {
     const next = new URLSearchParams(params)
     next.set('view', 'home')
-    setParams(next, { replace: true })
+    // Tag filters are book-only; clear so home → chapter isn't unexpectedly empty.
+    next.delete('tag')
+    next.delete('page')
+    setParams(next)
   }
 
+  const clearQuery = () => setQuery('', false)
+  const clearTag = () => setTag(null)
+
   return (
-    <div className="book-shell has-topbar">
+    <div className={`book-shell has-topbar${viewMode === 'home' ? ' is-home' : ''}`}>
       <TopBar
         activeTag={activeTag}
         onTagChange={setTag}
@@ -82,18 +111,26 @@ export function SampleBookPage() {
             query={query}
             onQueryChange={setQuery}
             chapterId={chapterId}
-            onChapterChange={setChapterId}
+            onChapterChange={(id) => setChapterId(id)}
           />
         }
       />
 
       {viewMode === 'home' ? (
-        <OverviewHome onSelectChapter={setChapterId} />
+        <OverviewHome
+          query={query}
+          onQueryChange={setQuery}
+          onSelectChapter={(id) => setChapterId(id, { clearFilters: true })}
+        />
       ) : (
         <SpreadViewer
           activeTag={activeTag}
           query={query}
           chapterId={chapterId}
+          page={pageParam}
+          onPageChange={setPage}
+          onClearQuery={clearQuery}
+          onClearTag={clearTag}
         />
       )}
     </div>
