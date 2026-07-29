@@ -34,7 +34,9 @@ export function FormulaBlock({
     >
       <div className="formula-main">
         <div className="formula-latex-col">
-          <Katex latex={formula.latex} display />
+          <div className="formula-latex">
+            <Katex latex={formula.latex} display />
+          </div>
         </div>
 
         <div className="formula-text-col">

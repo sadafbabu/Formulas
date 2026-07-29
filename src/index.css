@@ -1127,6 +1127,14 @@ button {
   border-bottom: 1px solid var(--line);
   margin: 0.5rem 0 1rem;
   color: var(--ink-bright);
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.detail-hero-latex .katex-display {
+  margin: 0;
+  text-align: left;
 }
 
 .detail-lead {
