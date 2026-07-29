@@ -31,9 +31,9 @@ export function SpreadViewer({
   onClearTag,
 }: SpreadViewerProps) {
   const mode = useLayoutMode()
-  const isSpread = mode === 'desktop'
   const chapter = getChapter(chapterId) ?? getChapter(defaultChapterId)!
 
+  // One page at a time on every viewport — full width so latex stays readable.
   const perPage = mode === 'desktop' ? 5 : mode === 'tablet' ? 4 : 3
 
   const { pages, emptyFilter } = useMemo(() => {
@@ -66,18 +66,12 @@ export function SpreadViewer({
   useEffect(() => {
     if (emptyFilter || !pages.length) return
     const desired = Math.min(Math.max(0, page - 1), pages.length - 1)
-    const aligned = isSpread ? desired - (desired % 2) : desired
-    setPageIndex((current) => (current === aligned ? current : aligned))
-  }, [page, pages.length, emptyFilter, isSpread])
+    setPageIndex((current) => (current === desired ? current : desired))
+  }, [page, pages.length, emptyFilter])
 
   const maxPage = Math.max(0, pages.length - 1)
   const safePage = Math.min(pageIndex, maxPage)
-  const maxSpread = Math.max(0, Math.ceil(pages.length / 2) - 1)
-  const safeSpread = Math.min(Math.floor(safePage / 2), maxSpread)
-  const left = pages[safeSpread * 2]
-  const right = pages[safeSpread * 2 + 1]
-  const singleWide = Boolean(left && !right)
-  const mobilePage = pages[safePage]
+  const currentPage = pages[safePage]
 
   useEffect(() => {
     if (!onPageChange || emptyFilter) return
@@ -86,22 +80,13 @@ export function SpreadViewer({
     onPageChange(oneBased)
   }, [safePage, page, onPageChange, emptyFilter])
 
-  const progress = isSpread
-    ? pages.length <= 1
-      ? 1
-      : (safeSpread + 1) / (maxSpread + 1)
-    : pages.length <= 1
-      ? 1
-      : (safePage + 1) / pages.length
+  const progress = pages.length <= 1 ? 1 : (safePage + 1) / pages.length
 
   const goPrev = useCallback(() => {
     if (animLock.current) return
     setPageIndex((i) => {
       if (i <= 0) return i
-      const step = isSpread ? 2 : 1
-      let next = Math.max(0, i - step)
-      if (isSpread) next = next - (next % 2)
-      if (next === i) return i
+      const next = i - 1
       animLock.current = true
       setDir('prev')
       setAnimKey((k) => k + 1)
@@ -110,16 +95,13 @@ export function SpreadViewer({
       }, 320)
       return next
     })
-  }, [isSpread])
+  }, [])
 
   const goNext = useCallback(() => {
     if (animLock.current) return
     setPageIndex((i) => {
-      const step = isSpread ? 2 : 1
-      let next = Math.min(maxPage, i + step)
-      if (isSpread) next = next - (next % 2)
-      next = Math.min(maxPage, next)
-      if (next === i) return i
+      if (i >= maxPage) return i
+      const next = i + 1
       animLock.current = true
       setDir('next')
       setAnimKey((k) => k + 1)
@@ -128,10 +110,9 @@ export function SpreadViewer({
       }, 320)
       return next
     })
-  }, [isSpread, maxPage])
+  }, [maxPage])
 
   useEffect(() => {
-    if (isSpread) return
     const el = pagerRef.current
     if (!el) return
 
@@ -176,7 +157,7 @@ export function SpreadViewer({
       el.removeEventListener('touchend', onTouchEnd)
       el.removeEventListener('touchcancel', onTouchCancel)
     }
-  }, [isSpread, goNext, goPrev])
+  }, [goNext, goPrev])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -200,10 +181,8 @@ export function SpreadViewer({
         const bodies = document.querySelectorAll('.spread-stage .page-body')
         for (const node of bodies) {
           const el = node as HTMLElement
-          // Only skip page-turn while this page can still scroll down.
           if (el.scrollHeight > el.clientHeight + 2) {
-            const remaining =
-              el.scrollHeight - el.scrollTop - el.clientHeight
+            const remaining = el.scrollHeight - el.scrollTop - el.clientHeight
             if (remaining > 4) return
           }
         }
@@ -218,8 +197,8 @@ export function SpreadViewer({
   const slideClass =
     dir === 'prev' ? 'is-from-left' : dir === 'next' ? 'is-from-right' : 'is-enter'
 
-  const atStart = isSpread ? safeSpread <= 0 : safePage <= 0
-  const atEnd = isSpread ? safeSpread >= maxSpread : safePage >= maxPage
+  const atStart = safePage <= 0
+  const atEnd = safePage >= maxPage
 
   if (emptyFilter) {
     const hasQuery = query.trim().length > 0
@@ -258,138 +237,72 @@ export function SpreadViewer({
     )
   }
 
-  const chrome = (
-    <div className="deck-chrome">
-      <div className="progress-track" aria-hidden="true">
-        <div className="progress-fill" style={{ width: `${progress * 100}%` }} />
-      </div>
-      <div className="page-nav-row">
+  return (
+    <div className={`spread-stage mode-${mode}`}>
+      <div
+        key={`page-${animKey}`}
+        ref={pagerRef}
+        className={`single-pager ${slideClass}`}
+        aria-label="Book page"
+      >
         <button
           type="button"
-          className="page-turn"
-          aria-label="Previous page"
+          className="edge-zone is-left"
+          aria-label="Previous edge"
           disabled={atStart}
           onClick={goPrev}
-        >
-          ‹
-        </button>
-        <div className="page-indicator" aria-live="polite">
-          {isSpread ? (
-            <>
-              <span>
-                {right
-                  ? `${String(left.pageNumber).padStart(2, '0')}–${String(right.pageNumber).padStart(2, '0')}`
-                  : `${String(left.pageNumber).padStart(2, '0')}`}
-              </span>
-              <span className="page-indicator-sep">/</span>
-              <span>{String(pages.length).padStart(2, '0')}</span>
-            </>
-          ) : (
-            <>
+        />
+        <button
+          type="button"
+          className="edge-zone is-right"
+          aria-label="Next edge"
+          disabled={atEnd}
+          onClick={goNext}
+        />
+
+        {currentPage && (
+          <div className="page-hit is-single">
+            <A5Page
+              page={currentPage}
+              chapter={chapter}
+              side="single"
+              activeTag={activeTag}
+              perPage={perPage}
+            />
+          </div>
+        )}
+
+        <div className="deck-chrome">
+          <div className="progress-track" aria-hidden="true">
+            <div className="progress-fill" style={{ width: `${progress * 100}%` }} />
+          </div>
+          <div className="page-nav-row">
+            <button
+              type="button"
+              className="page-turn"
+              aria-label="Previous page"
+              disabled={atStart}
+              onClick={goPrev}
+            >
+              ‹
+            </button>
+            <div className="page-indicator" aria-live="polite">
               <span>{String(safePage + 1).padStart(2, '0')}</span>
               <span className="page-indicator-sep">/</span>
               <span>{String(pages.length).padStart(2, '0')}</span>
-            </>
-          )}
-        </div>
-        <button
-          type="button"
-          className="page-turn"
-          aria-label="Next page"
-          disabled={atEnd}
-          onClick={goNext}
-        >
-          ›
-        </button>
-      </div>
-    </div>
-  )
-
-  return (
-    <div className={`spread-stage mode-${mode}`}>
-      {isSpread ? (
-        <div
-          key={`desk-${animKey}`}
-          className={`slide-deck ${slideClass}${singleWide ? ' is-single-wide' : ''}`}
-          aria-label="Book spread"
-        >
-          <button
-            type="button"
-            className="edge-zone is-left"
-            aria-label="Previous edge"
-            disabled={atStart}
-            onClick={goPrev}
-          />
-          <button
-            type="button"
-            className="edge-zone is-right"
-            aria-label="Next edge"
-            disabled={atEnd}
-            onClick={goNext}
-          />
-
-          <div className="spread">
-            {left && (
-              <div className={`page-hit is-left${singleWide ? ' is-wide' : ''}`}>
-                <A5Page
-                  page={left}
-                  chapter={chapter}
-                  side={singleWide ? 'single' : 'left'}
-                  activeTag={activeTag}
-                  perPage={perPage}
-                />
-              </div>
-            )}
-            {right && (
-              <div className="page-hit is-right">
-                <A5Page
-                  page={right}
-                  chapter={chapter}
-                  side="right"
-                  activeTag={activeTag}
-                  perPage={perPage}
-                />
-              </div>
-            )}
-          </div>
-
-          {chrome}
-        </div>
-      ) : (
-        <div
-          key={`single-${animKey}`}
-          ref={pagerRef}
-          className={`mobile-pager ${slideClass}`}
-          aria-label="Book page"
-        >
-          <button
-            type="button"
-            className="edge-zone is-left"
-            aria-label="Previous edge"
-            disabled={atStart}
-            onClick={goPrev}
-          />
-          <button
-            type="button"
-            className="edge-zone is-right"
-            aria-label="Next edge"
-            disabled={atEnd}
-            onClick={goNext}
-          />
-          {mobilePage && (
-            <div className="page-hit is-single">
-              <A5Page
-                page={mobilePage}
-                chapter={chapter}
-                side="single"
-                activeTag={activeTag}
-                perPage={perPage}
-              />
             </div>
-          )}
-          {chrome}
+            <button
+              type="button"
+              className="page-turn"
+              aria-label="Next page"
+              disabled={atEnd}
+              onClick={goNext}
+            >
+              ›
+            </button>
+          </div>
         </div>
-      )}
+      </div>
     </div>
   )
 }

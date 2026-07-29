@@ -1947,28 +1947,71 @@ button:focus-visible,
   overflow: hidden;
 }
 
-.mobile-pager.is-enter {
+.single-pager {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  background: #101010;
+  overflow: hidden;
+  touch-action: pan-y;
+}
+
+.mobile-pager.is-enter,
+.single-pager.is-enter {
   animation: slide-enter 480ms var(--ease-slide) both;
 }
 
-.mobile-pager.is-from-right {
+.mobile-pager.is-from-right,
+.single-pager.is-from-right {
   animation: slide-from-right 420ms var(--ease-slide) both;
 }
 
-.mobile-pager.is-from-left {
+.mobile-pager.is-from-left,
+.single-pager.is-from-left {
   animation: slide-from-left 420ms var(--ease-slide) both;
 }
 
-.mobile-pager .page-hit {
+.mobile-pager .page-hit,
+.single-pager .page-hit {
   height: calc(100% - 0px);
 }
 
-.mobile-pager .a5-page {
+.mobile-pager .a5-page,
+.single-pager .a5-page {
   padding-bottom: calc(2.4rem + var(--safe-bottom));
 }
 
 .mobile-pager {
   touch-action: pan-y;
+}
+
+/* Full-width single page: give latex room so side-scroll is rare */
+.spread-stage.mode-desktop .a5-page.is-single {
+  max-width: min(72rem, 100%);
+  margin-inline: auto;
+  padding-left: clamp(1.25rem, 3vw, 2.5rem);
+  padding-right: clamp(1.25rem, 3vw, 2.5rem);
+}
+
+.spread-stage.mode-desktop .formula-main {
+  grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
+  gap: 0.55rem 1.15rem;
+}
+
+.spread-stage.mode-desktop .formula-latex {
+  font-size: clamp(1.08rem, 1.15vw, 1.32rem);
+  overflow-x: auto;
+}
+
+.spread-stage.mode-desktop .formula-latex-col {
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.spread-stage.mode-desktop .edge-zone {
+  width: 1.5rem;
 }
 
 @keyframes slide-enter {
@@ -2026,8 +2069,7 @@ button:focus-visible,
   }
 }
 
-/* Layout mode comes from JS (desktop spread / tablet+mobile single).
-   Keep formula density readable without stacking overlaps. */
+/* Single-page layout on every viewport — full width for readable latex. */
 .spread-stage.mode-tablet .formula-main,
 .spread-stage.mode-mobile .formula-main {
   grid-template-columns: 1fr;
