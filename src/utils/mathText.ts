@@ -113,3 +113,30 @@ export function toLatexSymbol(raw: string): string {
 export function stripDollarMath(input: string): string {
   return input.replace(/\$([^$]*)\$/g, '$1').replace(/\$/g, '')
 }
+
+export type ProseMathPart = { type: 'text' | 'math'; value: string }
+
+/**
+ * Split mixed Bangla/English prose that embeds TeX via \\(...\\), \\[...\\],
+ * or $...$ into ordered text/math segments for separate rendering.
+ */
+export function splitProseAndMath(input: string): ProseMathPart[] {
+  const parts: ProseMathPart[] = []
+  const re =
+    /\\\(([\s\S]*?)\\\)|\\\[([\s\S]*?)\\\]|\$\$([\s\S]*?)\$\$|\$([^$\n]+)\$/g
+  let last = 0
+  let match: RegExpExecArray | null
+  while ((match = re.exec(input))) {
+    if (match.index > last) {
+      parts.push({ type: 'text', value: input.slice(last, match.index) })
+    }
+    const math = match[1] ?? match[2] ?? match[3] ?? match[4] ?? ''
+    if (math.trim()) parts.push({ type: 'math', value: math.trim() })
+    last = match.index + match[0].length
+  }
+  if (last < input.length) {
+    parts.push({ type: 'text', value: input.slice(last) })
+  }
+  return parts.length ? parts : [{ type: 'text', value: input }]
+}
+

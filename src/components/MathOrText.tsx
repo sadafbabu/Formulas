@@ -1,5 +1,5 @@
 import { Katex } from './Katex'
-import { prepareMixedTex } from '../utils/mathText'
+import { prepareMixedTex, splitProseAndMath } from '../utils/mathText'
 
 interface MathOrTextProps {
   text: string
@@ -8,7 +8,7 @@ interface MathOrTextProps {
   as?: 'span' | 'p' | 'div'
 }
 
-/** Render plain prose as text; mixed/TeX strings via KaTeX with Bangla wrapped in \\text{}. */
+/** Render plain prose as text; delimited or bare TeX via KaTeX. */
 export function MathOrText({
   text,
   display = false,
@@ -17,6 +17,23 @@ export function MathOrText({
 }: MathOrTextProps) {
   const trimmed = text.trim()
   if (!trimmed) return null
+
+  const parts = splitProseAndMath(trimmed)
+  const hasMathPart = parts.some((p) => p.type === 'math')
+
+  if (hasMathPart) {
+    return (
+      <Tag className={className}>
+        {parts.map((part, i) =>
+          part.type === 'text' ? (
+            <span key={i}>{part.value}</span>
+          ) : (
+            <Katex key={i} latex={prepareMixedTex(part.value)} />
+          ),
+        )}
+      </Tag>
+    )
+  }
 
   if (!/\\[a-zA-Z]/.test(trimmed)) {
     return <Tag className={className}>{trimmed}</Tag>
