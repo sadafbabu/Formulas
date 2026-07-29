@@ -11,12 +11,14 @@ interface FormulaBlockProps {
   formula: Formula
   activeTag?: TagId | null
   index?: number
+  animate?: boolean
 }
 
 export function FormulaBlock({
   formula,
   activeTag,
   index = 0,
+  animate = true,
 }: FormulaBlockProps) {
   const [params] = useSearchParams()
   const chapter = params.get('chapter') || formula.chapter
@@ -35,8 +37,8 @@ export function FormulaBlock({
 
   return (
     <article
-      className="formula"
-      style={{ animationDelay: `${20 + index * 20}ms` }}
+      className={`formula${animate ? ' is-animated' : ''}`}
+      style={animate ? { animationDelay: `${20 + index * 20}ms` } : undefined}
     >
       <div className="formula-main">
         <div className="formula-latex-col">

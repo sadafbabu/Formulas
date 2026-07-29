@@ -106,7 +106,11 @@ export function NavMenu({
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') setOpen(false)
     }
-    const onReposition = () => placePanel()
+    const onReposition = (e?: Event) => {
+      const target = e?.target as Node | null
+      if (target && panelRef.current?.contains(target)) return
+      placePanel()
+    }
     const vv = window.visualViewport
     window.addEventListener('keydown', onKey)
     window.addEventListener('resize', onReposition)
@@ -122,7 +126,7 @@ export function NavMenu({
     }
   }, [open])
 
-  useFocusTrap(open, panelRef, fabRef)
+  useFocusTrap(open, panelRef, fabRef, { focusInput: !isCoarsePointer })
 
   const chapter = params.get('chapter') || chapterId
   const activeChapter = getChapter(chapterId || defaultChapterId)
@@ -148,6 +152,7 @@ export function NavMenu({
         aria-modal="true"
         aria-label="Book navigation"
         style={{ top: pos.top, left: pos.left }}
+        tabIndex={-1}
       >
         <div className="nav-brand">Formulas</div>
         <p className="nav-subject-line">

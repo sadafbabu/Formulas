@@ -96,7 +96,7 @@ export function TopBar({
               <span aria-hidden="true">×</span>
             </button>
           ) : null}
-          <span>
+          <span className={q ? 'top-bar-count-num is-muted' : 'top-bar-count-num'}>
             {matchCount === totalCount
               ? `${totalCount}`
               : `${matchCount}/${totalCount}`}

@@ -18,6 +18,8 @@ interface SpreadViewerProps {
   onClearTag?: () => void
 }
 
+const PAGE_ANIM_MS = 450
+
 export function SpreadViewer({
   activeTag,
   query = '',
@@ -45,14 +47,28 @@ export function SpreadViewer({
   const [dir, setDir] = useState<'next' | 'prev' | 'none'>('none')
   const [animKey, setAnimKey] = useState(0)
   const animLock = useRef(false)
-  const pagerRef = useRef<HTMLDivElement>(null)
+  const pagerHostRef = useRef<HTMLDivElement>(null)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
+  const prevPerPage = useRef(perPage)
 
+  // Reset only when filters/chapter change — not on rotate/breakpoint.
   useEffect(() => {
     setPageIndex(0)
     setDir('none')
     setAnimKey((k) => k + 1)
-  }, [activeTag, query, chapterId, mode])
+  }, [activeTag, query, chapterId])
+
+  // When density changes (mobile↔tablet↔desktop), keep approximate place in the book.
+  useEffect(() => {
+    if (prevPerPage.current === perPage) return
+    const oldPer = prevPerPage.current
+    prevPerPage.current = perPage
+    setPageIndex((i) => {
+      const formulaOffset = i * oldPer
+      return Math.floor(formulaOffset / perPage)
+    })
+    setDir('none')
+  }, [perPage])
 
   const maxPage = Math.max(0, pages.length - 1)
   const safePage = Math.min(pageIndex, maxPage)
@@ -62,6 +78,10 @@ export function SpreadViewer({
   const right = pages[safeSpread * 2 + 1]
   const singleWide = Boolean(left && !right)
   const mobilePage = pages[safePage]
+
+  useEffect(() => {
+    if (pageIndex > maxPage) setPageIndex(maxPage)
+  }, [pageIndex, maxPage])
 
   const progress = isSpread
     ? pages.length <= 1
@@ -84,7 +104,7 @@ export function SpreadViewer({
       setAnimKey((k) => k + 1)
       window.setTimeout(() => {
         animLock.current = false
-      }, 320)
+      }, PAGE_ANIM_MS)
       return next
     })
   }, [isSpread])
@@ -102,14 +122,15 @@ export function SpreadViewer({
       setAnimKey((k) => k + 1)
       window.setTimeout(() => {
         animLock.current = false
-      }, 320)
+      }, PAGE_ANIM_MS)
       return next
     })
   }, [isSpread, maxPage])
 
+  // Listeners on a stable host so remounting the slide does not kill swipe.
   useEffect(() => {
     if (isSpread) return
-    const el = pagerRef.current
+    const el = pagerHostRef.current
     if (!el) return
 
     const skipSwipe = (target: EventTarget | null) => {
@@ -136,7 +157,6 @@ export function SpreadViewer({
       const dx = t.clientX - touchStart.current.x
       const dy = t.clientY - touchStart.current.y
       touchStart.current = null
-      // Strong horizontal intent only — never fight vertical scroll.
       if (Math.abs(dx) < 80) return
       if (Math.abs(dy) > 28 && Math.abs(dx) < Math.abs(dy) * 2.2) return
       if (Math.abs(dx) < Math.abs(dy) * 2) return
@@ -171,11 +191,10 @@ export function SpreadViewer({
         goNext()
       }
       if (e.key === ' ' || e.key === 'Spacebar') {
-        // Don't steal Space while a page body can still scroll.
         const bodies = document.querySelectorAll('.spread-stage .page-body')
         for (const node of bodies) {
-          const el = node as HTMLElement
-          if (el.scrollHeight > el.clientHeight + 2) return
+          const body = node as HTMLElement
+          if (body.scrollHeight > body.clientHeight + 2) return
         }
         e.preventDefault()
         goNext()
@@ -210,12 +229,20 @@ export function SpreadViewer({
           <p>{emptyTitle}</p>
           <span>{emptyHint}</span>
           {hasQuery && onClearQuery ? (
-            <button type="button" className="filter-tab is-active" onClick={onClearQuery}>
+            <button
+              type="button"
+              className="empty-filter-action"
+              onClick={onClearQuery}
+            >
               সার্চ মুছুন
             </button>
           ) : null}
           {hasTag && !hasQuery && onClearTag ? (
-            <button type="button" className="filter-tab is-active" onClick={onClearTag}>
+            <button
+              type="button"
+              className="empty-filter-action"
+              onClick={onClearTag}
+            >
               সব tag দেখুন
             </button>
           ) : null}
@@ -309,22 +336,24 @@ export function SpreadViewer({
         </div>
       ) : (
         <div
-          key={`single-${animKey}`}
-          ref={pagerRef}
-          className={`mobile-pager ${slideClass}`}
+          ref={pagerHostRef}
+          className="mobile-pager"
           aria-label="Book page"
         >
-          {mobilePage && (
-            <div className="page-hit is-single">
-              <A5Page
-                page={mobilePage}
-                chapter={chapter}
-                side="single"
-                activeTag={activeTag}
-                perPage={perPage}
-              />
-            </div>
-          )}
+          <div key={animKey} className={`mobile-pager-slide ${slideClass}`}>
+            {mobilePage && (
+              <div className="page-hit is-single">
+                <A5Page
+                  page={mobilePage}
+                  chapter={chapter}
+                  side="single"
+                  activeTag={activeTag}
+                  perPage={perPage}
+                  animateFormulas={dir === 'none'}
+                />
+              </div>
+            )}
+          </div>
           <div className="deck-chrome">
             <div className="progress-track" aria-hidden="true">
               <div className="progress-fill" style={{ width: `${progress * 100}%` }} />

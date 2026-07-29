@@ -99,23 +99,31 @@ export function HintPopover({
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') setOpen(false)
     }
-    const onScroll = () => place()
+    const onScroll = (e: Event) => {
+      const target = e.target as Node | null
+      if (target && panelRef.current?.contains(target)) return
+      place()
+    }
+    const onResize = () => place()
     const vv = window.visualViewport
     window.addEventListener('keydown', onKey)
-    window.addEventListener('resize', onScroll)
+    window.addEventListener('resize', onResize)
     window.addEventListener('scroll', onScroll, true)
-    vv?.addEventListener('resize', onScroll)
-    vv?.addEventListener('scroll', onScroll)
+    vv?.addEventListener('resize', onResize)
+    vv?.addEventListener('scroll', onResize)
     return () => {
       window.removeEventListener('keydown', onKey)
-      window.removeEventListener('resize', onScroll)
+      window.removeEventListener('resize', onResize)
       window.removeEventListener('scroll', onScroll, true)
-      vv?.removeEventListener('resize', onScroll)
-      vv?.removeEventListener('scroll', onScroll)
+      vv?.removeEventListener('resize', onResize)
+      vv?.removeEventListener('scroll', onResize)
     }
   }, [open, place])
 
-  useFocusTrap(open, panelRef, btnRef)
+  const isCoarse =
+    typeof window !== 'undefined' &&
+    window.matchMedia('(pointer: coarse)').matches
+  useFocusTrap(open, panelRef, btnRef, { focusInput: !isCoarse })
 
   const close = () => setOpen(false)
 
