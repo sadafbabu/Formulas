@@ -149,9 +149,11 @@ export function SpreadViewer({
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const target = e.target as HTMLElement | null
+      // Don't steal Space/arrows from typing or from focused controls
+      // (Space on a button would otherwise both activate it and flip the page).
       if (
         target?.closest(
-          'input, textarea, select, [contenteditable="true"], [role="dialog"]',
+          'input, textarea, select, button, a, [contenteditable="true"], [role="dialog"], [role="button"], [role="menuitem"]',
         )
       ) {
         return
