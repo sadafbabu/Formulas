@@ -1,0 +1,81 @@
+{
+  "id": "homologous-series",
+  "title": "Homologous Series",
+  "titleBn": "সমগোত্রীয় শ্রেণি",
+  "latex": "\\mathrm{C_nH_{2n+2}}\\ (\\text{alkane}),\\quad \\Delta=\\mathrm{CH_2}",
+  "summary": "সমগোত্রীয় শ্রেণিতে পরপর সদস্যদের মধ্যে \\(\\mathrm{CH_2}\\) পার্থক্য; একই ফাংশনাল গোষ্ঠী ও সাধারণ সূত্র।",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 16,
+  "symbols": [
+    {
+      "symbol": "n",
+      "meaning": "কার্বন সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\mathrm{CH_2}",
+      "meaning": "মিথিলিন গোষ্ঠী (শ্রেণি ব্যবধান)",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "একই ফাংশনাল গোষ্ঠী ও সাধারণ সূত্রের যৌগসমূহ সমগোত্রীয় শ্রেণি গঠন করে।",
+    "steps": [
+      {
+        "title": "Alkane / Alkene / Alkyne",
+        "latex": "\\mathrm{C_nH_{2n+2}},\\ \\mathrm{C_nH_{2n}},\\ \\mathrm{C_nH_{2n-2}}",
+        "note": "পরপর সদস্যে ব্যবধান সবসময় \\(\\mathrm{CH_2}\\)।"
+      },
+      {
+        "title": "Alcohol",
+        "latex": "\\mathrm{C_nH_{2n+1}OH}",
+        "note": "\\(\\mathrm{CH_3OH},\\ \\mathrm{C_2H_5OH},\\ \\mathrm{C_3H_7OH},\\ldots\\)"
+      },
+      {
+        "title": "ধর্ম",
+        "latex": "\\text{chem. similar};\\ \\text{bp/mp rise with }n",
+        "note": "রাসায়নিক ধর্ম সাদৃশ্য; ভৌত ধর্ম \\(\\mathrm{CH_2}\\) যোগে ধীরে বাড়ে।"
+      }
+    ],
+    "assumptions": [
+      "খোলা শিকল হাইড্রোকার্বন/অ্যালকোহল শ্রেণি"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "অ্যালকেনের সাধারণ সূত্র কী?",
+      "answer": "\\mathrm{C_nH_{2n+2}}"
+    },
+    {
+      "examType": "Admission",
+      "question": "\\(\\mathrm{C_3H_7OH}\\) এর পরবর্তী সমগোত্র কোনটি?",
+      "answer": "\\mathrm{C_4H_9OH}\\ (\\mathrm{CH_2}\\ \\text{যোগ})"
+    }
+  ],
+  "memorize": {
+    "trick": "Alkane 2n+2, Alkene 2n, Alkyne 2n−2; ব্যবধান সবসময় CH₂।",
+    "steps": [
+      "সাধারণ সূত্র মনে রাখো",
+      "পরের সদস্য = +CH₂",
+      "একই ফাংশনাল গোষ্ঠী"
+    ]
+  },
+  "related": [
+    "structural-condensed-formula",
+    "functional-groups",
+    "hydrocarbon-general-formula",
+    "iupac-naming-rules"
+  ],
+  "chapter": "organic-chem",
+  "subjects": [
+    "chemistry"
+  ]
+}

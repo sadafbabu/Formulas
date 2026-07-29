@@ -3,8 +3,8 @@
   "chapter": "colligative-properties",
   "title": "Raoult's Law",
   "titleBn": "রাউলের সূত্র",
-  "summary": "P=PA°xA",
-  "latex": "P=P_A^\\circ x_A+P_B^\\circ x_B",
+  "summary": "রাউল্টের সূত্র: দ্রবণে উদ্বায়ী উপাদানের আংশিক চাপ = মোল ভগ্নাংশ × বিশুদ্ধ বাষ্পচাপ।",
+  "latex": "p_A = x_A\\,p_A^\\circ",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,39 +16,66 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "P, A, circ, x",
-      "meaning": "P=PA°xA",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "p_A",
+      "meaning": "A-এর আংশিক বাষ্পচাপ",
+      "unit": "Pa"
+    },
+    {
+      "symbol": "x_A",
+      "meaning": "দ্রবণে A-এর মোল ভগ্নাংশ",
+      "unit": "1"
+    },
+    {
+      "symbol": "p_A^\\circ",
+      "meaning": "বিশুদ্ধ A-এর বাষ্পচাপ",
+      "unit": "Pa"
     }
   ],
   "derivation": {
-    "lead": "Ideal solution: P = Σ Pi° xi; vapor pressure lowering।",
+    "lead": "আদর্শ দ্রবণে প্রতিটি উদ্বায়ী উপাদানের বাষ্পচাপ তার মোল ভগ্নাংশের সমানুপাতিক।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "P=P_A^\\circ x_A+P_B^\\circ x_B",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "আংশিক চাপ",
+        "latex": "p_A = x_A p_A^\\circ",
+        "note": "বিশুদ্ধ তরলের বাষ্পচাপ \\(p^\\circ\\); দ্রবণে কমে যায়।"
+      },
+      {
+        "title": "মোট চাপ (দ্বৈত)",
+        "latex": "p_{\\mathrm{total}} = x_A p_A^\\circ + x_B p_B^\\circ",
+        "note": "অস্থায়ী দ্রবে \\(p = x_{\\mathrm{solvent}} p^\\circ\\) (বাষ্পচাপ হ্রাস)।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "আদর্শ দ্রবণ",
+      "ধ্রুব তাপমাত্রা"
+    ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "রাউলের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: Ideal solution: P = Σ Pi° xi; vapor pressure lowering।)",
-      "answer": "P=P_A^\\circ x_A+P_B^\\circ x_B"
+      "examType": "HSC",
+      "question": "\\(x_A=0.4\\), \\(p_A^\\circ=2\\,\\mathrm{kPa}\\) হলে \\(p_A\\)?",
+      "answer": "0.8\\,\\mathrm{kPa}"
+    },
+    {
+      "examType": "Admission",
+      "question": "আদর্শ দ্বৈত মিশ্রণে মোট বাষ্পচাপের সূত্র?",
+      "answer": "p_{\\mathrm{total}}=x_A p_A^\\circ+x_B p_B^\\circ"
     }
   ],
   "memorize": {
-    "trick": "Ideal solution: P = Σ Pi° xi; vapor pressure lowering।",
-    "steps": []
+    "trick": "আংশিক চাপ = মোল ভাগ × বিশুদ্ধ চাপ (p = x · p°)।",
+    "steps": [
+      "x বের করো",
+      "বিশুদ্ধ p° দিয়ে গুণ",
+      "সব উদ্বায়ীর যোগফল = মোট p"
+    ]
   },
   "subjects": [
     "chemistry"
   ],
   "related": [
-    "vant-hoff-factor",
-    "colligative-molecular-mass",
-    "osmotic-pressure"
+    "osmotic-pressure",
+    "henrys-law",
+    "vant-hoff-factor"
   ]
 }

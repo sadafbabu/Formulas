@@ -3,8 +3,8 @@
   "chapter": "chemical-bonding",
   "title": "Lewis Structure & Octet Rule",
   "titleBn": "লুইস কাঠামো ও অক্টেট নীতি",
-  "summary": "যোজ্য ইলেকট্রন বিন্যাস দ্বারা অণুর গঠন ও বন্ধন নির্ণয়",
-  "latex": "\\ce{H2O}: \\ H-\\overset{\\displaystyle..}{\\underset{\\displaystyle..}{O}}-H, \\quad \\ce{CO2}: \\ O=C=O, \\quad \\ce{N2}: \\ N\\equiv N",
+  "summary": "লুইস কাঠামোতে যোজ্যতা ইলেকট্রন জোড় ও অষ্টক নিয়ম দিয়ে বন্ধন আঁকা হয়।",
+  "latex": "\\text{valence }e^- =\\text{ group number (main group)};\\ \\text{octet}=8",
   "tags": [
     "hsc",
     "eng-admission",
@@ -20,7 +20,8 @@
   "related": [
     "hybridization-shapes",
     "formal-charge",
-    "vsepr-theory"
+    "vsepr-theory",
+    "structural-condensed-formula"
   ],
   "symbols": [
     {
@@ -62,7 +63,7 @@
     {
       "examType": "HSC Board",
       "question": "\\ce{CO2} অণুর লুইস কাঠামো ও আকৃতি কী?",
-      "answer": "\\ce{O=C=O} — \\text{কা}\\text{র্}\\text{বন}\\text{ে ক}\\text{োন}\\text{ো ন}\\text{িঃ}\\text{সঙ}\\text{্গ} \\text{জো}\\text{ড়} \\text{নে}\\text{ই, ৪}\\text{টি} \\text{বন}\\text{্ধ}\\text{ন জ}\\text{োড}\\text{়া} (\\text{২ট}\\text{ি দ}\\text{্ব}\\text{িব}\\text{ন্}\\text{ধন}), \\text{রৈ}\\text{খি}\\text{ক আ}\\text{কৃ}\\text{তি}, \\text{বন}\\text{্ধ}\\text{ন ক}\\text{োণ} 180°"
+      "answer": "\\ce{O=C=O}\\text{ — কার্বনে নিঃসঙ্গ জোড় নেই, ২টি দ্বিবন্ধন (৪টি বন্ধন জোড়া), রৈখিক আকৃতি, বন্ধন কোণ }180^\\circ"
     }
   ],
   "memorize": {

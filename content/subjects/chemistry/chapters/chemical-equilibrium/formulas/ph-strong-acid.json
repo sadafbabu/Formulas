@@ -3,8 +3,8 @@
   "chapter": "chemical-equilibrium",
   "title": "pH of Strong Acid",
   "titleBn": "সবল অম্লের pH",
-  "summary": "pH=−log[H+]",
-  "latex": "\\mathrm{pH}=-\\log_{10}[\\mathrm{H}^+],\\quad \\mathrm{pOH}=-\\log_{10}[\\mathrm{OH}^-]",
+  "summary": "সবল অ্যাসিডে \\([\\mathrm{H^+}]\\approx C\\); \\(\\mathrm{pH}=-\\log C\\) (তনু, সম্পূর্ণ আয়নিত)।",
+  "latex": "\\mathrm{pH}=-\\log_{10}[\\mathrm{H^+}]",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,39 +16,55 @@
   "order": 170,
   "symbols": [
     {
-      "symbol": "pH, H, pOH, OH",
-      "meaning": "pH=−log[H+]",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "\\mathrm{pH}",
+      "meaning": "হাইড্রোজেন আয়ন সূচক",
+      "unit": "1"
+    },
+    {
+      "symbol": "[\\mathrm{H^+}]",
+      "meaning": "হাইড্রোজেন আয়ন ঘনমাত্রা",
+      "unit": "mol/L"
     }
   ],
   "derivation": {
-    "lead": "সবল অম্লে [H⁺]=molarity; pH+pOH=14 (২৫°C)।",
+    "lead": "pH স্কেল অম্লত্ব পরিমাপ করে; সবল অ্যাসিড সম্পূর্ণ আয়নিত।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\mathrm{pH}=-\\log_{10}[\\mathrm{H}^+],\\quad \\mathrm{pOH}=-\\log_{10}[\\mathrm{OH}^-]",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "সংজ্ঞা",
+        "latex": "\\mathrm{pH}=-\\log_{10}[\\mathrm{H^+}]",
+        "note": "\\(25^\\circ\\mathrm{C}\\)-এ \\(\\mathrm{pH}+\\mathrm{pOH}=14\\)।"
+      },
+      {
+        "title": "সবল অ্যাসিড",
+        "latex": "[\\mathrm{H^+}]\\approx C\\quad\\Rightarrow\\quad\\mathrm{pH}=-\\log C",
+        "note": "\\(\\mathrm{HA}\\to\\mathrm{H^+}+\\mathrm{A^-}\\) সম্পূর্ণ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "তনু দ্রবণ; জলের স্ব-আয়নন উপেক্ষিত"
+    ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "সবল অম্লের pH এর সূত্রটি লেখো। (ইঙ্গিত: সবল অম্লে [H⁺]=molarity; pH+pOH=14 (২৫°C)।)",
-      "answer": "\\mathrm{pH}=-\\log_{10}[\\mathrm{H}^+],\\quad \\mathrm{pOH}=-\\log_{10}[\\mathrm{OH}^-]"
+      "examType": "HSC",
+      "question": "\\(0.01\\,\\mathrm{M}\\) \\(\\mathrm{HCl}\\)-এর pH?",
+      "answer": "2"
     }
   ],
   "memorize": {
-    "trick": "সবল অম্লে [H⁺]=molarity; pH+pOH=14 (২৫°C)।",
-    "steps": []
+    "trick": "সবল অ্যাসিড: pH = −log C।",
+    "steps": [
+      "[H⁺] ≈ C",
+      "pH = −log C",
+      "pH + pOH = 14"
+    ]
   },
   "subjects": [
     "chemistry"
   ],
   "related": [
-    "buffer-capacity",
-    "hess-law",
-    "zero-order-kinetics"
+    "ph-weak-acid",
+    "henderson-hasselbalch",
+    "common-ion-effect"
   ]
 }

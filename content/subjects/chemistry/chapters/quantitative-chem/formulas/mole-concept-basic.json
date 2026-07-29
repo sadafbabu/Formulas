@@ -3,8 +3,8 @@
   "chapter": "quantitative-chem",
   "title": "Mole Concept",
   "titleBn": "মোল ধারণা",
-  "summary": "n=N/NA=m/M",
-  "latex": "n=\\frac{N}{N_A}=\\frac{m}{M}=\\frac{V}{22.4\\,\\mathrm{L}}\\ (\\text{STP gas})",
+  "summary": "মোল সংখ্যা = ভর/মোলার ভর = কণা সংখ্যা/\\(N_A\\)।",
+  "latex": "n = \\dfrac{m}{M} = \\dfrac{N}{N_A}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,38 +16,74 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "n, N, A, m",
-      "meaning": "n=N/NA=m/M",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "n",
+      "meaning": "মোল সংখ্যা",
+      "unit": "mol"
+    },
+    {
+      "symbol": "m",
+      "meaning": "ভর",
+      "unit": "g"
+    },
+    {
+      "symbol": "M",
+      "meaning": "মোলার ভর",
+      "unit": "g/mol"
+    },
+    {
+      "symbol": "N",
+      "meaning": "কণা সংখ্যা",
+      "unit": "1"
+    },
+    {
+      "symbol": "N_A",
+      "meaning": "অ্যাভোগাড্রো সংখ্যা \\(6.022\\times10^{23}\\,\\mathrm{mol^{-1}}\\)",
+      "unit": "mol⁻¹"
     }
   ],
   "derivation": {
-    "lead": "১ মোল = ৬.০২২×১০²³ কণা = M গ্রাম = STP-তে ২২.৪ L গ্যাস।",
+    "lead": "১ মোল = \\(N_A\\)টি কণা; ভরের সাথে যোগসূত্র মোলার ভর।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "n=\\frac{N}{N_A}=\\frac{m}{M}=\\frac{V}{22.4\\,\\mathrm{L}}\\ (\\text{STP gas})",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "ভর থেকে মোল",
+        "latex": "n = m/M",
+        "note": "গ্রাম ÷ গ্রাম/মোল।"
+      },
+      {
+        "title": "কণা থেকে মোল",
+        "latex": "n = N/N_A",
+        "note": "STP আনুমানিক: \\(n=V/22.4\\,\\mathrm{L}\\) (পুরনো STP)।"
       }
     ],
     "assumptions": []
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "মোল ধারণা এর সূত্রটি লেখো। (ইঙ্গিত: ১ মোল = ৬.০২২×১০²³ কণা = M গ্রাম = STP-তে ২২.৪ L গ্যাস।)",
-      "answer": "n=\\frac{N}{N_A}=\\frac{m}{M}=\\frac{V}{22.4\\,\\mathrm{L}}\\ (\\text{STP gas})"
+      "examType": "HSC",
+      "question": "\\(18\\,\\mathrm{g}\\) পানিতে কত মোল? (\\(M=18\\))",
+      "answer": "1\\,\\mathrm{mol}"
+    },
+    {
+      "examType": "Admission",
+      "question": "\\(0.5\\,\\mathrm{mol}\\)-এ অণু সংখ্যা?",
+      "answer": "3.011\\times10^{23}"
     }
   ],
   "memorize": {
-    "trick": "১ মোল = ৬.০২২×১০²³ কণা = M গ্রাম = STP-তে ২২.৪ L গ্যাস।",
-    "steps": []
+    "trick": "মোল সেতু: ভর ↔ মোল ↔ কণা (m/M = N/N_A = n)।",
+    "steps": [
+      "ভর÷M",
+      "কণা÷N_A",
+      "দুটোই মোল"
+    ]
   },
   "subjects": [
     "chemistry"
   ],
   "related": [
     "molarity-molality",
-    "normality-relation"
+    "mole-avogadro",
+    "empirical-molecular-formula",
+    "percentage-composition"
   ]
 }

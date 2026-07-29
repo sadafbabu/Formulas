@@ -3,8 +3,8 @@
   "chapter": "quantitative-chem",
   "title": "Molarity & Molality",
   "titleBn": "মোলারিটি ও মোলালিটি",
-  "summary": "M vs m",
-  "latex": "M=\\frac{n_{\\text{solute}}}{V_{\\text{L}}},\\quad m=\\frac{n_{\\text{solute}}}{w_{\\text{kg solvent}}}",
+  "summary": "মোলারিটি = মোল/লিটার দ্রবণ (T-নির্ভর); মোলালিটি = মোল/কেজি দ্রবক (T-স্বাধীন)।",
+  "latex": "M=\\dfrac{n}{V_{\\mathrm{L}}},\\quad m=\\dfrac{n}{w_{\\mathrm{kg}}}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,39 +16,63 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "M, n, solute, V",
-      "meaning": "M vs m",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "M",
+      "meaning": "মোলারিটি",
+      "unit": "mol/L"
+    },
+    {
+      "symbol": "m",
+      "meaning": "মোলালিটি",
+      "unit": "mol/kg"
+    },
+    {
+      "symbol": "n",
+      "meaning": "দ্রবের মোল",
+      "unit": "mol"
     }
   ],
   "derivation": {
-    "lead": "M = মোল/লিটার দ্রবণ; m = মোল/কেজি দ্রাবক (তাপমাত্রা-নির্ভর নয়)।",
+    "lead": "ঘনমাত্রার দুই প্রধান একক—আয়তনভিত্তিক (M) ও ভরভিত্তিক (m)।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "M=\\frac{n_{\\text{solute}}}{V_{\\text{L}}},\\quad m=\\frac{n_{\\text{solute}}}{w_{\\text{kg solvent}}}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "Molarity",
+        "latex": "M = n_{\\mathrm{solute}}/V_{\\mathrm{solution}}(\\mathrm{L})",
+        "note": "পাতলাকরণ: \\(M_1V_1=M_2V_2\\)।"
+      },
+      {
+        "title": "Molality",
+        "latex": "m = n_{\\mathrm{solute}}/w_{\\mathrm{solvent}}(\\mathrm{kg})",
+        "note": "কলেগেটিভ ধর্মে সুবিধাজনক—ভর তাপমাত্রায় বদলায় না।"
       }
     ],
     "assumptions": []
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "মোলারিটি ও মোলালিটি এর সূত্রটি লেখো। (ইঙ্গিত: M = মোল/লিটার দ্রবণ; m = মোল/কেজি দ্রাবক (তাপমাত্রা-নির্ভর ন)",
-      "answer": "M=\\frac{n_{\\text{solute}}}{V_{\\text{L}}},\\quad m=\\frac{n_{\\text{solute}}}{w_{\\text{kg solvent}}}"
+      "examType": "HSC",
+      "question": "\\(0.5\\,\\mathrm{mol}\\) দ্রব \\(2\\,\\mathrm{L}\\) দ্রবণে—মোলারিটি?",
+      "answer": "0.25\\,\\mathrm{M}"
+    },
+    {
+      "examType": "Admission",
+      "question": "\\(0.2\\,\\mathrm{mol}\\) দ্রব \\(500\\,\\mathrm{g}\\) দ্রবকে—মোলালিটি?",
+      "answer": "0.4\\,\\mathrm{mol\\,kg^{-1}}"
     }
   ],
   "memorize": {
-    "trick": "M = মোল/লিটার দ্রবণ; m = মোল/কেজি দ্রাবক (তাপমাত্রা-নির্ভর নয়)।",
-    "steps": []
+    "trick": "M → Litre of Solution; m → mass (kg) of solvent।",
+    "steps": [
+      "M = moles/L solution",
+      "m = moles/kg solvent",
+      "m তাপমাত্রা-স্বাধীন"
+    ]
   },
   "subjects": [
     "chemistry"
   ],
   "related": [
     "mole-concept-basic",
-    "normality-relation",
-    "percentage-composition"
+    "raoult-law",
+    "osmotic-pressure"
   ]
 }

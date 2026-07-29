@@ -1,0 +1,87 @@
+{
+  "id": "structural-condensed-formula",
+  "title": "Structural & Condensed Formula",
+  "titleBn": "গঠনিক ও সংক্ষিপ্ত সংকেত",
+  "latex": "\\mathrm{CH_3CH_2OH}\\ \\equiv\\ \\mathrm{C_2H_5OH}\\ \\equiv\\ \\text{ethanol}",
+  "summary": "গঠনিক সংকেত পরমাণুর সংযোগ দেখায়; condensed formula শিকল সংক্ষেপে লেখে—আইসোমার আলাদা করতে অপরিহার্য।",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 15,
+  "symbols": [
+    {
+      "symbol": "\\mathrm{CH_3-}",
+      "meaning": "মিথাইল গোষ্ঠী",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\mathrm{-OH}",
+      "meaning": "হাইড্রক্সিল গোষ্ঠী",
+      "unit": "—"
+    },
+    {
+      "symbol": "MF",
+      "meaning": "আণবিক সংকেত (শুধু পরমাণু সংখ্যা)",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "অর্গানিক রসায়নে একই যৌগ তিনভাবে লেখা যায়—molecular, structural, condensed।",
+    "steps": [
+      {
+        "title": "Molecular formula",
+        "latex": "\\mathrm{C_2H_6O}",
+        "note": "শুধু পরমাণুর সংখ্যা—ইথানল ও ডাইমিথাইল ইথার একই MF!"
+      },
+      {
+        "title": "Structural formula",
+        "latex": "\\mathrm{CH_3{-}CH_2{-}OH}",
+        "note": "প্রতিটি বন্ধন দেখায়; connectivity স্পষ্ট।"
+      },
+      {
+        "title": "Condensed formula",
+        "latex": "\\mathrm{CH_3CH_2OH}\\ \\text{or}\\ \\mathrm{C_2H_5OH}",
+        "note": "শিকল গোষ্ঠী একত্রে লেখা—দ্রুত ও পরীক্ষায় সুবিধাজনক।"
+      }
+    ],
+    "assumptions": [
+      "আইসোমার আলাদা করতে MF যথেষ্ট নয়"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "ইথানলের condensed সংকেত কী?",
+      "answer": "\\mathrm{CH_3CH_2OH}\\ \\text{বা}\\ \\mathrm{C_2H_5OH}"
+    },
+    {
+      "examType": "Admission",
+      "question": "কেন \\(\\mathrm{C_2H_6O}\\) দিয়ে যৌগের নাম নিশ্চিত করা যায় না?",
+      "answer": "\\text{আইসোমার: ইথানল }\\mathrm{CH_3CH_2OH}\\text{ ও ডাইমিথাইল ইথার }\\mathrm{CH_3OCH_3}"
+    }
+  ],
+  "memorize": {
+    "trick": "Molecular = কী আছে; Structural = কীভাবে জোড়া; Condensed = ছোট করে লেখা।",
+    "steps": [
+      "MF শুধু সংখ্যা দেয়",
+      "Structural connectivity দেখায়",
+      "Condensed = পরীক্ষার ছোট লেখা"
+    ]
+  },
+  "related": [
+    "functional-groups",
+    "isomerism",
+    "homologous-series",
+    "bond-line-formula",
+    "iupac-naming-rules"
+  ],
+  "chapter": "organic-chem",
+  "subjects": [
+    "chemistry"
+  ]
+}

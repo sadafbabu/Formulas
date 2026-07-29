@@ -3,8 +3,8 @@
   "chapter": "organic-chem",
   "title": "Structural & Stereoisomerism",
   "titleBn": "গাঠনিক ও স্থানিক সমাণুতা",
-  "summary": "Chain, position, functional, geometrical ও optical isomer চেনার নিয়ম।",
-  "latex": "\\ce{C4H10:\\ CH3-CH2-CH2-CH3\\ \\text{and}\\ (CH3)3CH};\\quad N_{\\mathrm{stereo,max}}=2^n",
+  "summary": "একই আণবিক সংকেত, ভিন্ন গঠন বা বিন্যাস—চেইন, অবস্থান, ফাংশনাল, জ্যামিতিক, আলোকীয়।",
+  "latex": "\\text{same MF, different structure/arrangement}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -19,7 +19,9 @@
   ],
   "related": [
     "functional-groups",
-    "organic-reactions",
+    "structural-condensed-formula",
+    "homologous-series",
+    "hydrocarbon-general-formula",
     "sn1-sn2-mechanism"
   ],
   "symbols": [

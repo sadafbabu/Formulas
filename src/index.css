@@ -1781,15 +1781,15 @@ button:focus-visible,
 .detail-scroll {
   height: 100dvh;
   overflow: auto;
-  padding: calc(3.8rem + var(--safe-top)) calc(1.1rem + var(--safe-right))
-    calc(2rem + var(--safe-bottom)) calc(1.1rem + var(--safe-left));
+  padding: calc(3.8rem + var(--safe-top)) calc(1.25rem + var(--safe-right))
+    calc(2rem + var(--safe-bottom)) calc(1.25rem + var(--safe-left));
   display: flex;
   justify-content: center;
   -webkit-overflow-scrolling: touch;
 }
 
 .detail {
-  width: min(40rem, 100%);
+  width: min(52rem, 100%);
   animation: slide-enter 400ms var(--ease-slide) both;
 }
 
@@ -1823,13 +1823,22 @@ button:focus-visible,
 }
 
 .detail-hero-latex {
-  font-size: 1.55rem;
-  padding: 0.9rem 0;
+  font-size: clamp(1.35rem, 2.4vw, 1.85rem);
+  padding: 1rem 0 1.1rem;
   border-bottom: 1px solid var(--line);
-  margin: 0.5rem 0 1rem;
+  margin: 0.35rem 0 1rem;
   overflow-x: auto;
   max-width: 100%;
   color: var(--ink-bright);
+  line-height: 1.45;
+}
+
+.detail-summary {
+  font-size: 1.02rem;
+  line-height: 1.55;
+  color: var(--ink-bright);
+  margin: 0 0 0.65rem;
+  font-weight: 400;
 }
 
 .detail-lead {
@@ -1838,6 +1847,21 @@ button:focus-visible,
   color: var(--ink);
   margin: 0 0 1rem;
   font-weight: 300;
+}
+
+@media (max-width: 640px) {
+  .detail-scroll {
+    padding-left: calc(0.85rem + var(--safe-left));
+    padding-right: calc(0.85rem + var(--safe-right));
+  }
+
+  .detail-hero-latex {
+    font-size: 1.25rem;
+  }
+
+  .detail-symbol-table {
+    font-size: 0.74rem;
+  }
 }
 
 .detail-questions,

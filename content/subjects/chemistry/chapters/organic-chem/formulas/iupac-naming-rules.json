@@ -1,0 +1,86 @@
+{
+  "id": "iupac-naming-rules",
+  "title": "IUPAC Naming (Basics)",
+  "titleBn": "IUPAC নামকরণ (মৌলিক)",
+  "latex": "\\text{prefix}+\\text{root}+\\text{suffix}\\ (\\text{e.g. 2-methylbutane})",
+  "summary": "দীর্ঘতম শিকল = root; ফাংশনাল গোষ্ঠী = suffix; সাবস্টিটুয়েন্ট = prefix; সর্বনিম্ন সংখ্যা।",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 19,
+  "symbols": [
+    {
+      "symbol": "root",
+      "meaning": "প্রধান শিকল (meth, eth, prop…)",
+      "unit": "—"
+    },
+    {
+      "symbol": "suffix",
+      "meaning": "-ane / -ene / -ol / -oic acid…",
+      "unit": "—"
+    },
+    {
+      "symbol": "prefix",
+      "meaning": "alkyl, halo ইত্যাদি",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "IUPAC নাম তিন অংশে: prefix (শাখা) + root (শিকল) + suffix (মূল গোষ্ঠী)।",
+    "steps": [
+      {
+        "title": "দীর্ঘতম শিকল",
+        "latex": "\\text{longest chain with functional group}",
+        "note": "ফাংশনাল গোষ্ঠীসহ সবচেয়ে বড় C-শিকল বেছে নাও।"
+      },
+      {
+        "title": "সংখ্যায়ন",
+        "latex": "\\text{lowest set of locants}",
+        "note": "ফাংশনাল গোষ্ঠী/দ্বিবন্ধন সর্বনিম্ন নম্বর পায়।"
+      },
+      {
+        "title": "উদাহরণ",
+        "latex": "\\mathrm{CH_3CH(CH_3)CH_2CH_3}\\ \\rightarrow\\ \\text{2-methylbutane}",
+        "note": "prefix alphabetical; di/tri গণনায় উপেক্ষা।"
+      }
+    ],
+    "assumptions": [
+      "মৌলিক খোলা-শিকল যৌগ"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "অ্যালকোহলের IUPAC suffix কী?",
+      "answer": "\\text{-ol}"
+    },
+    {
+      "examType": "Admission",
+      "question": "\\(\\mathrm{CH_3CH_2CH_3}\\) এর IUPAC নাম?",
+      "answer": "\\text{propane / প্রোপেন}"
+    }
+  ],
+  "memorize": {
+    "trick": "Longest chain → number low → prefixes ABC → suffix for main group।",
+    "steps": [
+      "Find chain",
+      "Number low",
+      "Name the rest"
+    ]
+  },
+  "related": [
+    "functional-groups",
+    "homologous-series",
+    "structural-condensed-formula",
+    "isomerism"
+  ],
+  "chapter": "organic-chem",
+  "subjects": [
+    "chemistry"
+  ]
+}

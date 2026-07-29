@@ -1,0 +1,80 @@
+{
+  "id": "hydrocarbon-general-formula",
+  "title": "Hydrocarbon General Formulas",
+  "titleBn": "হাইড্রোকার্বনের সাধারণ সূত্র",
+  "latex": "\\text{alkane }\\mathrm{C_nH_{2n+2}},\\ \\text{alkene }\\mathrm{C_nH_{2n}},\\ \\text{alkyne }\\mathrm{C_nH_{2n-2}}",
+  "summary": "অ্যালকেন/অ্যালকিন/অ্যালকাইনের সাধারণ সূত্র—অসম্পৃক্ততা ও H-সংখ্যা নির্ণয়ে।",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 17,
+  "symbols": [
+    {
+      "symbol": "n",
+      "meaning": "কার্বন সংখ্যা (≥1 alkane; ≥2 alkene/alkyne)",
+      "unit": "—"
+    },
+    {
+      "symbol": "DU",
+      "meaning": "degree of unsaturation (আনুমানিক)",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "খোলা শিকল হাইড্রোকার্বনের H-সংখ্যা দ্বিবন্ধন/ত্রিবন্ধন অনুযায়ী কমে।",
+    "steps": [
+      {
+        "title": "Alkane (সম্পৃক্ত)",
+        "latex": "\\mathrm{C_nH_{2n+2}}",
+        "note": "শুধু একক বন্ধন—সর্বোচ্চ H।"
+      },
+      {
+        "title": "Alkene / Alkyne",
+        "latex": "\\mathrm{C_nH_{2n}}\\ /\\ \\mathrm{C_nH_{2n-2}}",
+        "note": "এক দ্বিবন্ধনে ২ H কম; এক ত্রিবন্ধনে ৪ H কম।"
+      },
+      {
+        "title": "Degree of unsaturation",
+        "latex": "\\mathrm{DU}=\\dfrac{2n+2-H}{2}",
+        "note": "heteroatom থাকলে আলাদা হিসাব লাগে।"
+      }
+    ],
+    "assumptions": [
+      "খোলা শিকল; এক দ্বি/ত্রিবন্ধন"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "৪ কার্বন অ্যালকাইনের সূত্র?",
+      "answer": "\\mathrm{C_4H_6}"
+    },
+    {
+      "examType": "Admission",
+      "question": "\\(\\mathrm{C_5H_{10}}\\) কোন শ্রেণি?",
+      "answer": "\\text{অ্যালকিন }(\\mathrm{C_nH_{2n}})"
+    }
+  ],
+  "memorize": {
+    "trick": "+2 saturated; 2n এক দ্বিবন্ধন; 2n−2 এক ত্রিবন্ধন।",
+    "steps": [
+      "2n+2 = alkane",
+      "2n = alkene",
+      "2n−2 = alkyne"
+    ]
+  },
+  "related": [
+    "homologous-series",
+    "structural-condensed-formula",
+    "isomerism"
+  ],
+  "chapter": "organic-chem",
+  "subjects": [
+    "chemistry"
+  ]
+}

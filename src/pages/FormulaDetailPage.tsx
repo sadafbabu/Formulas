@@ -92,11 +92,21 @@ export function FormulaDetailPage() {
             <Katex latex={formula.latex} display />
           </div>
 
-          <MathOrText
-            text={derivation.lead}
-            as="p"
-            className="detail-lead"
-          />
+          {formula.summary?.trim() ? (
+            <MathOrText
+              text={formula.summary}
+              as="p"
+              className="detail-summary"
+            />
+          ) : null}
+
+          {derivation?.lead?.trim() ? (
+            <MathOrText
+              text={derivation.lead}
+              as="p"
+              className="detail-lead"
+            />
+          ) : null}
 
           {symbols?.length > 0 && (
             <aside className="assumptions symbol-box">
@@ -132,10 +142,12 @@ export function FormulaDetailPage() {
             <section className="step" key={`${step.title}-${i}`}>
               <span className="step-index">Step {i + 1}</span>
               <h3>{step.title}</h3>
-              <div className="formula-latex">
-                <Katex latex={step.latex} display />
-              </div>
-              <MathOrText text={step.note} as="p" />
+              {step.latex?.trim() ? (
+                <div className="formula-latex">
+                  <Katex latex={step.latex} display />
+                </div>
+              ) : null}
+              {step.note?.trim() ? <MathOrText text={step.note} as="p" /> : null}
             </section>
           ))}
 

@@ -3,8 +3,8 @@
   "chapter": "colligative-properties",
   "title": "Osmotic Pressure",
   "titleBn": "প্রস্বেদ চাপ",
-  "summary": "π=CRT",
-  "latex": "\\pi=CRT=MRT",
+  "summary": "অসমোটিক চাপ \\(\\Pi=cRT\\); তনু দ্রবণের মোলার গণনায় ব্যবহৃত।",
+  "latex": "\\Pi = cRT = \\dfrac{n}{V}RT",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,39 +16,66 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "pi, C, R, T",
-      "meaning": "π=CRT",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "\\Pi",
+      "meaning": "অসমোটিক চাপ",
+      "unit": "Pa"
+    },
+    {
+      "symbol": "c",
+      "meaning": "মোলার ঘনমাত্রা",
+      "unit": "mol m⁻³ বা mol L⁻¹"
+    },
+    {
+      "symbol": "R",
+      "meaning": "গ্যাস ধ্রুবক",
+      "unit": "J/(mol·K) বা L·atm/(mol·K)"
+    },
+    {
+      "symbol": "T",
+      "meaning": "পরম তাপমাত্রা",
+      "unit": "K"
     }
   ],
   "derivation": {
-    "lead": "π = CRT — dilute solution; van't Hoff factor i multiply।",
+    "lead": "অর্ধভেদ্য পর্দার দুই পাশে দ্রবণ–দ্রবকের চাপ পার্থক্যই অসমোটিক চাপ—van 't Hoff সূত্র।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\pi=CRT=MRT",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "van 't Hoff",
+        "latex": "\\Pi V = nRT",
+        "note": "তনু দ্রবণে আদর্শ গ্যাসের মতো আচরণ।"
+      },
+      {
+        "title": "ঘনমাত্রা রূপ",
+        "latex": "\\Pi = cRT,\\quad c=n/V",
+        "note": "মোলার ভর: \\(M=\\dfrac{wRT}{\\Pi V}\\)।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "তনু দ্রবণ",
+      "অর্ধভেদ্য পর্দা আদর্শ"
+    ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "প্রস্বেদ চাপ এর সূত্রটি লেখো। (ইঙ্গিত: π = CRT — dilute solution; van't Hoff factor i multiply।)",
-      "answer": "\\pi=CRT=MRT"
+      "examType": "HSC",
+      "question": "\\(c=0.1\\,\\mathrm{mol\\,L^{-1}}\\), \\(T=300\\,\\mathrm{K}\\), \\(R=0.082\\,\\mathrm{L\\,atm\\,K^{-1}\\,mol^{-1}}\\) হলে \\(\\Pi\\)?",
+      "answer": "2.46\\,\\mathrm{atm}"
     }
   ],
   "memorize": {
-    "trick": "π = CRT — dilute solution; van't Hoff factor i multiply।",
-    "steps": []
+    "trick": "অসমোসিস ≈ আদর্শ গ্যাস: ΠV = nRT → Π = cRT।",
+    "steps": [
+      "c বা n/V নাও",
+      "T কেলভিনে",
+      "Π = cRT"
+    ]
   },
   "subjects": [
     "chemistry"
   ],
   "related": [
-    "depression-freezing-point",
-    "vant-hoff-factor",
-    "elevation-boiling-point"
+    "raoult-law",
+    "molarity-molality",
+    "vant-hoff-factor"
   ]
 }

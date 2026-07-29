@@ -3,8 +3,8 @@
   "chapter": "chemical-bonding",
   "title": "Hybridization, Steric Number & Molecular Geometry",
   "titleBn": "সংকরায়ন, স্টেরিক নম্বর ও অণুর জ্যামিতিক গঠন",
-  "summary": "কেন্দ্রীয় পরমাণুর সংকরায়ন অবস্থা (sp, sp², sp³) ও আকৃতি নির্ণয়",
-  "latex": "H = \\frac{1}{2} [ V + M - C + A ], \\quad \\text{Steric Number} = \\sigma \\text{ bonds} + \\text{lone pairs}",
+  "summary": "হাইব্রিডাইজেশন থেকে আকৃতি: sp³ টেট্রাহেড্রাল, sp² ত্রিভুজাকার সমতল, sp সরলরেখিক।",
+  "latex": "sp^3\\ \\text{tetrahedral},\\ sp^2\\ \\text{trigonal planar},\\ sp\\ \\text{linear}",
   "tags": [
     "hsc",
     "eng-admission",

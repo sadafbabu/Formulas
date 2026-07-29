@@ -1,0 +1,80 @@
+{
+  "id": "bond-line-formula",
+  "title": "Bond-line (Skeletal) Formula",
+  "titleBn": "বন্ধন-রেখা / কঙ্কাল সংকেত",
+  "latex": "\\text{zigzag line}\\ \\equiv\\ \\mathrm{C{-}C}\\ \\text{chain (H hidden)}",
+  "summary": "কোণ = কার্বন; রেখা = বন্ধন; H সাধারণত দেখানো হয় না—দ্রুত অর্গানিক অঙ্কন।",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 18,
+  "symbols": [
+    {
+      "symbol": "vertex",
+      "meaning": "কার্বন পরমাণু",
+      "unit": "—"
+    },
+    {
+      "symbol": "line end",
+      "meaning": "মিথাইল \\(\\mathrm{CH_3}\\)",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Bond-line formula-তে শুধু C–C কঙ্কাল আঁকা হয়; H অনুমান করা হয়।",
+    "steps": [
+      {
+        "title": "নিয়ম",
+        "latex": "\\text{each bend/end}=C;\\ \\text{H fills valence to }4",
+        "note": "প্রতিটি কোণ ও রেখার প্রান্তে একটি C।"
+      },
+      {
+        "title": "উদাহরণ",
+        "latex": "\\text{pentane zigzag}\\ \\Rightarrow\\ \\mathrm{C_5H_{12}}",
+        "note": "৫টি কোণ/প্রান্ত = ৫ কার্বন।"
+      },
+      {
+        "title": "ফাংশনাল গোষ্ঠী",
+        "latex": "\\mathrm{O},\\,\\mathrm{N},\\,\\mathrm{Cl}\\ \\text{shown};\\ \\text{double/triple drawn}",
+        "note": "heteroatom ও বহুবন্ধন স্পষ্ট লিখতে হয়।"
+      }
+    ],
+    "assumptions": [
+      "কার্বনের যোজ্যতা ৪"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "Bond-line-এ প্রতিটি বাঁক কী নির্দেশ করে?",
+      "answer": "\\text{একটি কার্বন পরমাণু}"
+    },
+    {
+      "examType": "Admission",
+      "question": "হেক্সেনের skeletal শিকলে কয়টি C?",
+      "answer": "6"
+    }
+  ],
+  "memorize": {
+    "trick": "কোণ = C, প্রান্ত = C, H লুকানো; heteroatom দেখাও।",
+    "steps": [
+      "Bend = carbon",
+      "H is silent",
+      "Show O/N/X"
+    ]
+  },
+  "related": [
+    "structural-condensed-formula",
+    "functional-groups",
+    "hybridization-shapes"
+  ],
+  "chapter": "organic-chem",
+  "subjects": [
+    "chemistry"
+  ]
+}

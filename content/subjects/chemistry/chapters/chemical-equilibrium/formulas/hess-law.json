@@ -3,8 +3,8 @@
   "chapter": "chemical-equilibrium",
   "title": "Hess's Law",
   "titleBn": "হেসের সূত্র",
-  "summary": "ΔH path independent",
-  "latex": "\\Delta H=\\sum \\Delta H_{\\text{steps}}",
+  "summary": "হেসের সূত্র: মোট এনথ্যালপি পরিবর্তন পথ-স্বাধীন—ধাপগুলোর \\(\\Delta H\\) যোগফল।",
+  "latex": "\\Delta H_{\\mathrm{rxn}}=\\sum \\Delta H_{\\mathrm{steps}}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,39 +16,50 @@
   "order": 180,
   "symbols": [
     {
-      "symbol": "Delta, H, sum, steps",
-      "meaning": "ΔH path independent",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "\\Delta H",
+      "meaning": "এনথ্যালপি পরিবর্তন",
+      "unit": "kJ/mol"
     }
   ],
   "derivation": {
-    "lead": "মোট এনথ্যালপি পরিবর্তন পথ-নির্ভর নয়।",
+    "lead": "এনথ্যালপি অবস্থা ফাংশন; সরাসরি বিক্রিয়া না মিললে চক্র দিয়ে হিসাব।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\Delta H=\\sum \\Delta H_{\\text{steps}}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "title": "পথ স্বাধীনতা",
+        "latex": "\\Delta H_{\\mathrm{direct}}=\\Delta H_1+\\Delta H_2+\\cdots",
+        "note": "ধাপগুলোর এনথ্যালপি যোগ করো।"
+      },
+      {
+        "title": "গঠন এনথ্যালপি",
+        "latex": "\\Delta H_{\\mathrm{rxn}}=\\sum\\Delta H_f^\\circ(\\mathrm{prod})-\\sum\\Delta H_f^\\circ(\\mathrm{react})",
+        "note": "Hess-এর ব্যবহারিক রূপ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "ধ্রুব চাপ; একই প্রাথমিক ও চূড়ান্ত অবস্থা"
+    ]
   },
   "questions": [
     {
-      "examType": "HSC / Admission",
-      "question": "হেসের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: মোট এনথ্যালপি পরিবর্তন পথ-নির্ভর নয়।)",
-      "answer": "\\Delta H=\\sum \\Delta H_{\\text{steps}}"
+      "examType": "HSC",
+      "question": "A→B এর \\(\\Delta H=10\\), B→C এর \\(\\Delta H=5\\) হলে A→C?",
+      "answer": "15\\ \\text{(একই একক)}"
     }
   ],
   "memorize": {
-    "trick": "মোট এনথ্যালপি পরিবর্তন পথ-নির্ভর নয়।",
-    "steps": []
+    "trick": "Hess: যোগ করো ধাপের ΔH — পথ আলাদা হলেও মোট একই।",
+    "steps": [
+      "চক্র আঁকো",
+      "ধাপের ΔH যোগ",
+      "উল্টো ধাপে চিহ্ন বদলাও"
+    ]
   },
   "subjects": [
     "chemistry"
   ],
   "related": [
-    "ph-strong-acid",
-    "ka-kb-relation",
-    "buffer-capacity"
+    "bond-enthalpy",
+    "hess-gibbs",
+    "kirchhoff-enthalpy"
   ]
 }
