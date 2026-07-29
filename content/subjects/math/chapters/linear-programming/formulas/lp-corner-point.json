@@ -1,0 +1,49 @@
+{
+  "id": "lp-corner-point",
+  "chapter": "linear-programming",
+  "title": "Corner Point Method",
+  "titleBn": "কোণ বিন্দু পদ্ধতি",
+  "summary": "vertices-এ Z মান",
+  "latex": "Z_{\\max/\\min}\\text{ at a corner point of feasible region}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "vertices-এ Z মান",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "Z_{\\max/\\min}\\text{ at a corner point of feasible region}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কোণ বিন্দু পদ্ধতি এর মূল সূত্রটি লেখো।",
+      "answer": "Z_{\\max/\\min}\\text{ at a corner point of feasible region}"
+    }
+  ],
+  "memorize": {
+    "trick": "Optimum ALWAYS at corner — graph-এ vertex-গুলোতে Z বসাও。",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

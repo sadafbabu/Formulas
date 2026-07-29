@@ -9,6 +9,7 @@
     "2-star"
   ],
   "importance": 2,
+  "order": 30,
   "symbols": [
     {
       "symbol": "\\gamma",
@@ -46,5 +47,23 @@
   },
   "id": "rectifier-ripple",
   "chapter": "semiconductor",
-  "questions": []
+  "questions": [
+    {
+      "examType": "Eng / HSC",
+      "question": "রিপল ফ্যাক্টরের সংজ্ঞা কী?",
+      "answer": "r=\\frac{V_{ac}}{V_{dc}}"
+    }
+  ],
+  "memorize": {
+    "trick": "রিপল ফ্যাক্টর = AC অংশ ÷ DC অংশ — যত ছোট, তত ভালো DC। মুখস্থ: অর্ধতরঙ্গে ১.২১, পূর্ণতরঙ্গে ০.৪৮।",
+    "steps": [
+      "γ = √[(V_rms/V_dc)² − 1] — সূত্রের ভিতরের গঠনটাই মনে রাখুন।",
+      "ফিল্টার (ধারক) লাগালে রিপল অনেক কমে।",
+      "দক্ষতা η = P_dc/P_ac × 100%।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

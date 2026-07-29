@@ -1,0 +1,52 @@
+{
+  "id": "optical-fiber",
+  "chapter": "geometric-optics",
+  "title": "Optical Fibre NA",
+  "titleBn": "অপটিক্যাল ফাইবার ও NA",
+  "summary": "সংগ্রহ কোণ ও সাংখ্যিক অ্যাপারচার",
+  "latex": "\\mathrm{NA}=\\sqrt{n_1^2-n_2^2}=\\sin i_a",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "সংগ্রহ কোণ ও সাংখ্যিক অ্যাপারচার",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{NA}=\\sqrt{n_1^2-n_2^2}=\\sin i_a",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অপটিক্যাল ফাইবার ও NA এর মূল সূত্রটি লেখো।",
+      "answer": "\\mathrm{NA}=\\sqrt{n_1^2-n_2^2}=\\sin i_a"
+    }
+  ],
+  "memorize": {
+    "trick": "NA = √(n₁²−n₂²); বড় NA = বেশি আলো ধরে।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "total-internal-reflection"
+  ]
+}

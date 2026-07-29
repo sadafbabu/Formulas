@@ -1,0 +1,56 @@
+{
+  "title": "Alcohol Oxidation Levels",
+  "titleBn": "অ্যালকোহল জারণ স্তর",
+  "summary": "প্রাথমিক/দ্বিতীয়/তৃতীয় অ্যালকোহল জারণ পণ্য",
+  "latex": "\\ce{R-CH2OH ->[PCC] R-CHO ->[K2Cr2O7/H+] R-COOH}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "[O]",
+      "meaning": "জারক (oxidant)",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "অ্যালকোহলের স্তর অনুযায়ী জারণ পণ্য ভিন্ন।",
+    "steps": [
+      {
+        "title": "জারণ স্তর",
+        "latex": "1° \\to \\text{RCHO} \\to \\text{RCOOH}, \\quad 2° \\to \\text{RCOR'}",
+        "note": "3° অ্যালকোহল সাধারণ অবস্থায় জারিত হয় না"
+      }
+    ],
+    "assumptions": [
+      "PCC মৃদু/anhydrous oxidant; acidified K₂Cr₂O₇ বা KMnO₄ শক্তিশালী oxidant"
+    ]
+  },
+  "id": "alcohol-oxidation",
+  "chapter": "organic-chem",
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "1° অ্যালকোহলকে জোরালো জারকে জারিত করলে কী হয়?",
+      "answer": "\\ce{R-CH2OH -> R-COOH}"
+    }
+  ],
+  "memorize": {
+    "trick": "জারণ সিঁড়ি: ১° অ্যালকোহল → অ্যালডিহাইড → কার্বক্সিলিক অ্যাসিড। PCC দিলে মাঝপথে (অ্যালডিহাইডে) থামে, K₂Cr₂O₇/KMnO₄ দিলে শেষ পর্যন্ত যায়। ২° → কিটোন, ৩° → জারিত হয় না।",
+    "steps": [
+      "১° অ্যালকোহল: PCC → অ্যালডিহাইড; সবল জারক → কার্বক্সিলিক অ্যাসিড।",
+      "২° অ্যালকোহল → কিটোন (এখানেই শেষ, আর এগোয় না)।",
+      "৩° অ্যালকোহলে α-কার্বনে H নেই, তাই সাধারণভাবে জারিত হয় না।"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

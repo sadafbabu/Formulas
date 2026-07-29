@@ -4,16 +4,42 @@
   "titleBn": "ভূ-চৌম্বক উপাংশ ও বিনতি কোণ",
   "latex": "B_H = B \\cos \\delta, \\quad B_V = B \\sin \\delta, \\quad \\tan \\delta = \\frac{B_V}{B_H}",
   "summary": "ভূ-চৌম্বক ক্ষেত্রের অনুভূমিক (B_H) ও উল্লম্ব (B_V) উপাংশ এবং বিনতি কোণ (δ)।",
-  "tags": ["hsc", "eng-admission", "varsity", "2-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 2,
-  "subjects": ["physics"],
-  "related": ["magnetic-intensity"],
+  "order": 240,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "magnetic-intensity"
+  ],
   "symbols": [
-    { "symbol": "B_H", "meaning": "ভূ-চৌম্বক ক্ষেত্রের অনুভূমিক উপাংশ", "unit": "T" },
-    { "symbol": "B_V", "meaning": "ভূ-চৌম্বক ক্ষেত্রের উল্লম্ব উপাংশ", "unit": "T" },
-    { "symbol": "B", "meaning": "মোট ভূ-চৌম্বক লব্ধি ক্ষেত্র", "unit": "T" },
-    { "symbol": "\\delta", "meaning": "বিনতি কোণ (Dip angle)", "unit": "°" }
+    {
+      "symbol": "B_H",
+      "meaning": "ভূ-চৌম্বক ক্ষেত্রের অনুভূমিক উপাংশ",
+      "unit": "T"
+    },
+    {
+      "symbol": "B_V",
+      "meaning": "ভূ-চৌম্বক ক্ষেত্রের উল্লম্ব উপাংশ",
+      "unit": "T"
+    },
+    {
+      "symbol": "B",
+      "meaning": "মোট ভূ-চৌম্বক লব্ধি ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "\\delta",
+      "meaning": "বিনতি কোণ (Dip angle)",
+      "unit": "°"
+    }
   ],
   "derivation": {
     "lead": "ভেক্টর বিভাজন ও পিথাগোরাস প্রয়োগ:",
@@ -21,10 +47,12 @@
       {
         "title": "লব্ধি ক্ষেত্র সমীকরণ",
         "latex": "B = \\sqrt{B_H^2 + B_V^2}, \\quad \\tan \\delta = \\frac{B_V}{B_H}",
-        "note": "বিষুবরেখায় $\\delta = 0^\\circ$ (B_V = 0) এবং মেরুতে $\\delta = 90^\\circ$ (B_H = 0) হয়।"
+        "note": "বিষুবরেখায় \\delta = 0^\\circ (B_V = 0) এবং মেরুতে \\delta = 90^\\circ (B_H = 0) হয়।"
       }
     ],
-    "assumptions": ["স্থানীয় চৌম্বক ব্যাঘাত (Magnetic local anomalies) অনুপস্থিত।"]
+    "assumptions": [
+      "স্থানীয় চৌম্বক ব্যাঘাত (Magnetic local anomalies) অনুপস্থিত।"
+    ]
   },
   "questions": [
     {
@@ -32,5 +60,12 @@
       "question": "কোনো স্থানে ভূ-চৌম্বক ক্ষেত্রের অনুভূমিক উপাংশ 3.1 × 10⁻⁵ T এবং বিনতি কোণ ৬০° হলে ওই স্থানের মোট ভূ-চৌম্বক ক্ষেত্র B এবং উল্লম্ব উপাংশ B_V নির্ণয় করো।",
       "answer": "B = \\frac{B_H}{\\cos 60^\\circ} = \\frac{3.1 \\times 10^{-5}}{0.5} = 6.2 \\times 10^{-5} \\text{ T}, \\quad B_V = B_H \\tan 60^\\circ = 3.1 \\times 10^{-5} \\times \\sqrt{3} = 5.37 \\times 10^{-5} \\text{ T}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "B-এর দুই উপাংশ: অনুভূমিক B_H = B cosδ, উল্লম্ব B_V = B sinδ। 'কোসাইন শোয়া (অনুভূমিক), সাইন খাড়া (উল্লম্ব)'।",
+    "steps": [
+      "tanδ = B_V/B_H, আর B = √(B_H² + B_V²)।",
+      "বিষুবরেখায় δ = 0 (B_V = 0), মেরুতে δ = 90° (B_H = 0)।"
+    ]
+  }
 }

@@ -1,8 +1,8 @@
 {
   "title": "Self Inductance & Induced EMF",
-  "titleBn": "স্বাকর্ষণ ও আবিষ্ট তড়িৎ চালক বল",
-  "summary": "স্বাকর্ষণ গুণাঙ্ক ও পরিবর্তনশীল প্রবাহে আবিষ্ট EMF",
-  "latex": "\\varepsilon = -L\\frac{dI}{dt}, \\quad L = \\frac{\\mu_0 N^2 A}{\\ell}",
+  "titleBn": "স্বাবেশ ও আবিষ্ট তড়িৎ চালক বল",
+  "summary": "স্বাবেশ গুণাঙ্ক ও পরিবর্তনশীল প্রবাহে আবিষ্ট EMF",
+  "latex": "\\varepsilon=-L\\frac{dI}{dt},\\quad L=\\frac{\\mu N^2A}{\\ell}\\ (\\text{দীর্ঘ solenoid})",
   "tags": [
     "hsc",
     "eng-admission",
@@ -11,6 +11,7 @@
     "3-star"
   ],
   "importance": 3,
+  "order": 40,
   "symbols": [
     {
       "symbol": "\\varepsilon",
@@ -19,7 +20,7 @@
     },
     {
       "symbol": "L",
-      "meaning": "স্বাকর্ষণ গুণাঙ্ক",
+      "meaning": "স্বাবেশ গুণাঙ্ক",
       "unit": "H"
     },
     {
@@ -42,14 +43,35 @@
     "lead": "Faraday-এর আবেশ সূত্র ও চুম্বকীয় ফ্লাক্স সংযোগ থেকে।",
     "steps": [
       {
-        "title": "স্বাকর্ষণ সূত্র",
+        "title": "স্বাবেশ সূত্র",
         "latex": "\\varepsilon = -L\\frac{dI}{dt}",
         "note": "ঋণাত্মক চিহ্ন Lenz-এর সূত্র"
       }
     ],
-    "assumptions": "সলিনয়েড জাতীয় কুণ্ডলী"
+    "assumptions": [
+      "সলিনয়েড জাতীয় কুণ্ডলী",
+      "বায়ু-কোর হলে μ = μ₀; অন্যথায় core permeability μ"
+    ]
   },
   "id": "self-inductance",
   "chapter": "induction-ac",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC / Eng",
+      "question": "স্বআবেশ L এর সংজ্ঞা সূত্র কী?",
+      "answer": "\\mathcal{E}=-L\\dfrac{dI}{dt}"
+    }
+  ],
+  "memorize": {
+    "trick": "ε = −L dI/dt — 'ইন্ডাক্টর প্রবাহের পরিবর্তনকে ঘৃণা করে' (আর ধারক ভোল্টেজের পরিবর্তনকে)। সোলেনয়েডে L = μ₀N²A/l — N বর্গ, এটাই মনে রাখার চাবি।",
+    "steps": [
+      "L = μ₀N²A/l — পাক সংখ্যা দ্বিগুণ করলে L চারগুণ।",
+      "সঞ্চিত শক্তি U = ½LI² — ধারকের ½CV²-এর হুবহু ছাঁচ।",
+      "ইন্ডাক্টরে প্রবাহ হঠাৎ বদলাতে পারে না — এজন্যই স্যুইচ খোলার সময় স্পার্ক হয়।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

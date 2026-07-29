@@ -1,0 +1,49 @@
+{
+  "id": "direction-ratios",
+  "chapter": "coordinate-geometry-3d",
+  "title": "Direction Ratios",
+  "titleBn": "দিক্‌অনুপাত",
+  "summary": "a,b,c",
+  "latex": "\\frac{l}{a}=\\frac{m}{b}=\\frac{n}{c}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "a,b,c",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{l}{a}=\\frac{m}{b}=\\frac{n}{c}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "দিক্‌অনুপাত এর মূল সূত্রটি লেখো।",
+      "answer": "\\frac{l}{a}=\\frac{m}{b}=\\frac{n}{c}"
+    }
+  ],
+  "memorize": {
+    "trick": "DR (a,b,c) → DC l=a/√(a²+b²+c²)।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

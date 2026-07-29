@@ -1,0 +1,49 @@
+{
+  "id": "plane-normal-form",
+  "chapter": "coordinate-geometry-3d",
+  "title": "Plane Normal Form",
+  "titleBn": "সমতলের লম্ব রূপ",
+  "summary": "lx+my+nz=p",
+  "latex": "lx+my+nz=p",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "lx+my+nz=p",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "lx+my+nPz=p",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সমতলের লম্ব রূপ এর মূল সূত্রটি লেখো।",
+      "answer": "lx+my+nPz=p"
+    }
+  ],
+  "memorize": {
+    "trick": "স্বাভাবিক ভেক্টর (l,m,n); মূল থেকে দূর p。",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

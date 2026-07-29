@@ -1,0 +1,49 @@
+{
+  "id": "ellipse-tangent",
+  "chapter": "conic-sections",
+  "title": "Tangent to Ellipse",
+  "titleBn": "উপবৃত্তের স্পর্শরেখা",
+  "summary": "স্পর্শ সূত্র",
+  "latex": "\\frac{xx_1}{a^2}+\\frac{yy_1}{b^2}=1",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "স্পর্শ সূত্র",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{xx_1}{a^2}+\\frac{yy_1}{b^2}=1",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "উপবৃত্তের স্পর্শরেখা এর মূল সূত্রটি লেখো।",
+      "answer": "\\frac{xx_1}{a^2}+\\frac{yy_1}{b^2}=1"
+    }
+  ],
+  "memorize": {
+    "trick": "x²/a²+y²/b²=1-এ T≡0 দিয়ে স্পর্শ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

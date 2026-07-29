@@ -1,0 +1,79 @@
+{
+  "id": "carboxylic-acid-derivatives",
+  "chapter": "organic-chem",
+  "title": "Carboxylic Acids & Derivatives",
+  "titleBn": "কার্বক্সিলিক অ্যাসিড, esterification ও অম্লজাতক",
+  "summary": "Carboxylic acid-এর acidity, esterification, decarboxylation ও acid derivative reactivity।",
+  "latex": "\\ce{RCOOH + R'OH <=>[H+] RCOOR' + H2O};\\quad \\ce{RCOONa + NaOH ->[CaO,\\Delta] RH + Na2CO3}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "functional-groups",
+    "organic-reactions",
+    "grignard-reaction"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\ce{-COOH}",
+      "meaning": "carboxyl group",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\ce{-COOR}",
+      "meaning": "ester group",
+      "unit": "—"
+    },
+    {
+      "symbol": "pK_a",
+      "meaning": "acid strength index",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Carboxylate ion resonance-stabilized হওয়ায় carboxylic acid alcohol-এর চেয়ে বেশি acidic।",
+    "steps": [
+      {
+        "title": "esterification",
+        "latex": "\\ce{RCOOH + R'OH <=>[conc. H2SO4] RCOOR' + H2O}",
+        "note": "Reversible; acid catalyst ও পানি অপসারণ product বাড়ায়।"
+      },
+      {
+        "title": "decarboxylation",
+        "latex": "\\ce{RCOONa + NaOH ->[CaO,\\Delta] RH + Na2CO3}",
+        "note": "Soda lime-এ এক carbon কম alkane তৈরি হয়।"
+      },
+      {
+        "title": "derivative reactivity",
+        "latex": "\\ce{RCOCl > (RCO)2O > RCOOR' > RCONH2}",
+        "note": "Leaving group যত ভালো, nucleophilic acyl substitution তত দ্রুত।"
+      }
+    ],
+    "assumptions": [
+      "Esterification equilibrium reaction।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Varsity Admission",
+      "question": "\\ce{CH3CH2COONa} soda lime-এর সাথে গরম করলে কী hydrocarbon হবে?",
+      "answer": "\\ce{CH3CH3};\\ \\text{decarboxylation-এ এক carbon কমে।}"
+    }
+  ],
+  "memorize": {
+    "trick": "Soda-lime decarboxylation-এ carbon এক কমে। Esterification: acid + alcohol ⇌ ester + water। Derivative reactivity: acid chloride > anhydride > ester > amide।",
+    "steps": [
+      "Electron-withdrawing group acidity বাড়ায়; electron-donating কমায়।",
+      "Ester-এর ফলের গন্ধ; base hydrolysis-কে saponification বলে।"
+    ]
+  }
+}

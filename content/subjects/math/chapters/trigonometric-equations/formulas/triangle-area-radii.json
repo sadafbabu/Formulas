@@ -1,0 +1,83 @@
+{
+  "id": "triangle-area-radii",
+  "chapter": "trigonometric-equations",
+  "title": "Triangle Area & Radii",
+  "titleBn": "ত্রিভুজের ক্ষেত্রফল, অন্তর্বৃত্ত ও পরিবৃত্তের ব্যাসার্ধ",
+  "summary": "Heron, trigonometric area এবং inradius/circumradius-এর compact relation।",
+  "latex": "\\Delta=\\frac12bc\\sin A=\\sqrt{s(s-a)(s-b)(s-c)}=rs=\\frac{abc}{4R}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "sine-cosine-laws",
+    "area-collinearity",
+    "compound-angle"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\Delta",
+      "meaning": "ত্রিভুজের ক্ষেত্রফল",
+      "unit": "বর্গ একক"
+    },
+    {
+      "symbol": "s",
+      "meaning": "অর্ধপরিসীমা (a+b+c)/2",
+      "unit": "একক"
+    },
+    {
+      "symbol": "r",
+      "meaning": "অন্তর্বৃত্তের ব্যাসার্ধ",
+      "unit": "একক"
+    },
+    {
+      "symbol": "R",
+      "meaning": "পরিবৃত্তের ব্যাসার্ধ",
+      "unit": "একক"
+    }
+  ],
+  "derivation": {
+    "lead": "Area-কে base-height, তিনটি ক্ষুদ্র triangle, এবং sine rule দিয়ে তিনভাবে লিখলে compact identities পাওয়া যায়।",
+    "steps": [
+      {
+        "title": "inradius",
+        "latex": "\\Delta=\\frac12r(a+b+c)=rs",
+        "note": "Incenter থেকে তিন side-এ perpendicular height r।"
+      },
+      {
+        "title": "circumradius",
+        "latex": "a=2R\\sin A\\Rightarrow\\Delta=\\frac{abc}{4R}",
+        "note": "Sine rule area formula-এ বসানো।"
+      },
+      {
+        "title": "Heron",
+        "latex": "\\Delta=\\sqrt{s(s-a)(s-b)(s-c)}",
+        "note": "শুধু তিন side জানা থাকলে।"
+      }
+    ],
+    "assumptions": [
+      "Nondegenerate triangle।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Eng Admission",
+      "question": "3-4-5 ত্রিভুজের r ও R কত?",
+      "answer": "\\Delta=6,\\ s=6;\\ r=\\Delta/s=1,\\quad R=abc/(4\\Delta)=60/24=2.5"
+    }
+  ],
+  "memorize": {
+    "trick": "এক লাইনের master formula: Δ = ½bc sinA = √[s(s−a)(s−b)(s−c)] = rs = abc/(4R)। Data অনুযায়ী অংশটি বেছে নিন।",
+    "steps": [
+      "Right triangle-এ R = hypotenuse/2।",
+      "3-4-5 triangle: area 6, r=1, R=2.5—reference হিসেবে রাখুন।"
+    ]
+  }
+}

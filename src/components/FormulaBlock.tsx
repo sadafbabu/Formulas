@@ -1,6 +1,8 @@
+import { Link, useSearchParams } from 'react-router-dom'
 import type { Formula, TagId } from '../data/types'
 import { DeriveHint } from './DeriveHint'
 import { Katex } from './Katex'
+import { MemorizeHint } from './MemorizeHint'
 import { QuestionHint } from './QuestionHint'
 import { SymbolHint } from './SymbolHint'
 import { TagChip } from './TagChip'
@@ -16,6 +18,10 @@ export function FormulaBlock({
   activeTag,
   index = 0,
 }: FormulaBlockProps) {
+  const [params] = useSearchParams()
+  const chapter = params.get('chapter') || formula.chapter
+  const detailTo = `/formula/${formula.id}?chapter=${encodeURIComponent(chapter)}`
+
   // Determine grey star importance tag (3-star highest, 2-star, 1-star)
   const imp = formula.importance ?? 2
   const importanceTag: TagId =
@@ -34,19 +40,26 @@ export function FormulaBlock({
     >
       <div className="formula-main">
         <div className="formula-latex-col">
-          <Katex latex={formula.latex} display />
+          <Link to={detailTo} className="formula-latex-link" title="বিস্তারিত দেখুন">
+            <div className="formula-latex">
+              <Katex latex={formula.latex} display />
+            </div>
+          </Link>
         </div>
 
         <div className="formula-text-col">
           <header className="formula-head">
             <h2 className="formula-title">
-              <span className="formula-title-bn">{formula.titleBn}</span>
-              <span className="formula-title-en">{formula.title}</span>
+              <Link to={detailTo} className="formula-title-link">
+                <span className="formula-title-bn">{formula.titleBn}</span>
+                <span className="formula-title-en">{formula.title}</span>
+              </Link>
             </h2>
             <div className="formula-actions">
               <QuestionHint formula={formula} />
               <SymbolHint formula={formula} />
               <DeriveHint formula={formula} />
+              <MemorizeHint formula={formula} />
             </div>
           </header>
           <p className="formula-summary">{formula.summary}</p>

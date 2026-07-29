@@ -4,34 +4,79 @@
   "titleBn": "বোর ম্যাগনেটন ও অর্বিটাল চৌম্বক ভ্রামক",
   "latex": "\\mu_B = \\frac{e h}{4\\pi m_e}, \\quad M = \\frac{e v r}{2} = n \\mu_B",
   "summary": "পরমাণুতে নিউক্লিয়াসের চারপাশে গতিশীল ইলেকট্রনের অর্বিটাল চৌম্বক ভ্রামক ও এর সর্বনিম্ন একক বোর ম্যাগনেটন।",
-  "tags": ["hsc", "eng-admission", "varsity", "2-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 2,
-  "subjects": ["physics"],
-  "related": ["magnetic-moment", "cyclotron-radius"],
+  "order": 290,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "magnetic-moment",
+    "cyclotron-radius"
+  ],
   "symbols": [
-    { "symbol": "\\mu_B", "meaning": "বোর ম্যাগনেটন ধ্রুবক", "unit": "A·m² বা J/T", "value": "9.274 × 10⁻²⁴" },
-    { "symbol": "e", "meaning": "ইলেকট্রনের আধান", "unit": "C", "value": "1.6 × 10⁻¹⁹" },
-    { "symbol": "h", "meaning": "প্ল্যাঙ্কের ধ্রুবক", "unit": "J·s", "value": "6.626 × 10⁻³⁴" },
-    { "symbol": "m_e", "meaning": "ইলেকট্রনের ভর", "unit": "kg", "value": "9.1 × 10⁻³¹" },
-    { "symbol": "n", "meaning": "প্রধান কোয়ান্টাম সংখ্যা", "unit": "১, ২, ৩..." }
+    {
+      "symbol": "\\mu_B",
+      "meaning": "বোর ম্যাগনেটন ধ্রুবক",
+      "unit": "A·m² বা J/T",
+      "value": "9.274 × 10⁻²⁴"
+    },
+    {
+      "symbol": "e",
+      "meaning": "ইলেকট্রনের আধান",
+      "unit": "C",
+      "value": "1.6 × 10⁻¹⁹"
+    },
+    {
+      "symbol": "h",
+      "meaning": "প্ল্যাঙ্কের ধ্রুবক",
+      "unit": "J·s",
+      "value": "6.626 × 10⁻³⁴"
+    },
+    {
+      "symbol": "m_e",
+      "meaning": "ইলেকট্রনের ভর",
+      "unit": "kg",
+      "value": "9.1 × 10⁻³¹"
+    },
+    {
+      "symbol": "n",
+      "meaning": "প্রধান কোয়ান্টাম সংখ্যা",
+      "unit": "১, ২, ৩..."
+    }
   ],
   "derivation": {
-    "lead": "ইলেকট্রনের ঘূর্ণন প্রবাহ $I = e/T$ বসিয়ে ভ্রামক নির্ণয়:",
+    "lead": "ইলেকট্রনের ঘূর্ণন প্রবাহ I = e/T বসিয়ে ভ্রামক নির্ণয়:",
     "steps": [
       {
         "title": "কৌণিক ভরবেগ সমতা",
         "latex": "M = I A = \\left(\\frac{e v}{2\\pi r}\\right) (\\pi r^2) = \\frac{e v r}{2} = \\frac{e}{2m_e} L = n \\left(\\frac{e h}{4\\pi m_e}\\right)",
-        "note": "বোর কণিক ভরবেগ $L = n h / 2\\pi$ প্রতিস্থাপন করা হয়।"
+        "note": "বোর কণিক ভরবেগ L = n h / 2\\pi প্রতিস্থাপন করা হয়।"
       }
     ],
-    "assumptions": ["ইলেকট্রনটি বৃত্তাকার কক্ষে আবর্তনশীল।"]
+    "assumptions": [
+      "ইলেকট্রনটি বৃত্তাকার কক্ষে আবর্তনশীল।"
+    ]
   },
   "questions": [
     {
       "examType": "BUET Admission Special (Hard)",
-      "question": "হাইড্রোজেন পরমাণুর ১ম কক্ষপথে (r = 5.3 × 10⁻¹¹ m) ২.১৮ × ১০⁶ m/s বেগে ঘূর্ণনশীল ইলেকট্রনের চৌম্বক দ্বিমেৰু ভ্রামক কত A·m²?",
+      "question": "হাইড্রোজেন পরমাণুর ১ম কক্ষপথে (r = 5.3 × 10⁻¹¹ m) ২.১৮ × ১০⁶ m/s বেগে ঘূর্ণনশীল ইলেকট্রনের চৌম্বক দ্বিমেরু ভ্রামক কত A·m²?",
       "answer": "M = \\frac{e v r}{2} = \\frac{1.6 \\times 10^{-19} \\times 2.18 \\times 10^6 \\times 5.3 \\times 10^{-11}}{2} = 9.243 \\times 10^{-24} \\text{ A}\\cdot\\text{m}^2"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "μ_B = eh/(4πm_e) — চৌম্বক ভ্রামকের ক্ষুদ্রতম একক (৯.২৭×১০⁻²⁴ A·m²)। মনে রাখুন: '৪ পাই ভাগে ইলেকট্রন'।",
+    "steps": [
+      "কক্ষপথে ঘুরন্ত ইলেকট্রনের M = evr/2।",
+      "বোরের শর্ত mvr = nh/(2π) বসালে M = n·eh/(4πm_e) = nμ_B।",
+      "অর্থাৎ চৌম্বক ভ্রামক কেবল μ_B-এর পূর্ণসংখ্যা গুণিতকেই হয় — এটাই কোয়ান্টায়ন।"
+    ]
+  }
 }

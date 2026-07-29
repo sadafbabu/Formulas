@@ -1,0 +1,65 @@
+{
+  "title": "Satellite Orbital & Escape Energy",
+  "titleBn": "উপগ্রহের কক্ষীয় ও মুক্তি শক্তি",
+  "summary": "কক্ষীয় বেগ, মুক্তি বেগ ও মোট শক্তি সম্পর্ক",
+  "latex": "v_o = \\sqrt{\\frac{GM}{r}}, \\quad v_e = \\sqrt{2}\\,v_o, \\quad E = -\\frac{GMm}{2r}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "v_o",
+      "meaning": "কক্ষীয় বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "v_e",
+      "meaning": "মুক্তি বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "E",
+      "meaning": "কক্ষীয় মোট শক্তি",
+      "unit": "J"
+    }
+  ],
+  "derivation": {
+    "lead": "কেন্দ্রমুখী বল = মহাকর্ষ বল থেকে কক্ষীয় বেগ।",
+    "steps": [
+      {
+        "title": "মুক্তি বেগ",
+        "latex": "v_e = \\sqrt{\\frac{2GM}{r}} = \\sqrt{2}\\,v_o",
+        "note": "মোট শক্তি ঋণাত্মক, বাঁধা কক্ষের প্রমাণ"
+      }
+    ],
+    "assumptions": [
+      "বৃত্তাকার কক্ষপথ"
+    ]
+  },
+  "id": "satellite-energy",
+  "chapter": "gravitation",
+  "questions": [
+    {
+      "examType": "Eng / HSC",
+      "question": "বৃত্তাকার কক্ষে উপগ্রহের মোট শক্তি E কী?",
+      "answer": "E=-\\dfrac{GMm}{2r}"
+    }
+  ],
+  "memorize": {
+    "trick": "v_e = √2·v₀ — মুক্তিবেগ কক্ষীয় বেগের ঠিক √2 (≈১.৪১) গুণ। আর মোট শক্তি E = −GMm/(2r) — ঋণাত্মক মানেই বদ্ধ কক্ষপথ।",
+    "steps": [
+      "KE = +GMm/(2r), PE = −GMm/r, তাই E = KE + PE = −GMm/(2r)।",
+      "লক্ষ্য করুন E = −KE = PE/2 — এটাই ভিরিয়াল সম্পর্ক।",
+      "E ≥ 0 হলে কণা পালিয়ে যায়; তাই মুক্তির শর্তে √2 গুণ বেগ লাগে।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

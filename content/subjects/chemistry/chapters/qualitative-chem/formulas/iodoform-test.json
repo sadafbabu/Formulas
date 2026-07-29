@@ -1,0 +1,49 @@
+{
+  "id": "iodoform-test",
+  "chapter": "qualitative-chem",
+  "title": "Iodoform Test",
+  "titleBn": "আয়োডোফর্ম পরীক্ষা",
+  "summary": "CH₃CO− group",
+  "latex": "\\ce{CH3CO-R + 3I2 + 4NaOH -> CHI3 + RCOONa + 3NaI + 2H2O}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 180,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "CH₃CO− group",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\ce{CH3CO-R + 3I2 + 4NaOH -> CHI3 + RCOONa + 3NaI + 2H2O}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আয়োডোফর্ম পরীক্ষা এর মূল সূত্রটি লেখো।",
+      "answer": "\\ce{CH3CO-R + 3I2 + 4NaOH -> CHI3 + RCOONa + 3NaI + 2H2O}"
+    }
+  ],
+  "memorize": {
+    "trick": "Methyl ketone or CH₃CH(OH)− → yellow CHI₃ precipitate。",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

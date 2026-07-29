@@ -1,0 +1,49 @@
+{
+  "id": "triangle-of-forces",
+  "chapter": "math-statics",
+  "title": "Triangle of Forces",
+  "titleBn": "বলের ত্রিভুজ",
+  "summary": "Lami's theorem",
+  "latex": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Lami's theorem",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বলের ত্রিভুজ এর মূল সূত্রটি লেখো।",
+      "answer": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}"
+    }
+  ],
+  "memorize": {
+    "trick": "তিন বল সাম্য → Lami: F/sin( opposite angle )。",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

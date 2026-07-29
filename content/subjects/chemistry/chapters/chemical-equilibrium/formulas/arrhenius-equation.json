@@ -1,0 +1,75 @@
+{
+  "id": "arrhenius-equation",
+  "chapter": "chemical-equilibrium",
+  "title": "Arrhenius Equation",
+  "titleBn": "আরহেনিয়াস সমীকরণ ও সক্রিয়ণ শক্তি",
+  "summary": "তাপমাত্রার সাথে rate constant-এর সূচকীয় পরিবর্তন এবং activation energy নির্ণয়।",
+  "latex": "k=Ae^{-E_a/RT},\\quad \\ln\\frac{k_2}{k_1}=\\frac{E_a}{R}\\left(\\frac1{T_1}-\\frac1{T_2}\\right)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "rate-law-order",
+    "vanthoff-equation",
+    "equilibrium-constant-rate"
+  ],
+  "symbols": [
+    {
+      "symbol": "A",
+      "meaning": "frequency/pre-exponential factor",
+      "unit": "rate-constant একক"
+    },
+    {
+      "symbol": "E_a",
+      "meaning": "সক্রিয়ণ শক্তি",
+      "unit": "J/mol"
+    },
+    {
+      "symbol": "R",
+      "meaning": "গ্যাস ধ্রুবক",
+      "unit": "J mol⁻¹ K⁻¹",
+      "value": "8.314"
+    }
+  ],
+  "derivation": {
+    "lead": "সফল সংঘর্ষের জন্য অণুকে activation barrier অতিক্রম করতে হয়; Boltzmann factor সেই ভগ্নাংশ দেয়।",
+    "steps": [
+      {
+        "title": "রৈখিক রূপ",
+        "latex": "\\ln k=\\ln A-\\frac{E_a}{R}\\frac1T",
+        "note": "ln k বনাম 1/T লেখের ঢাল = −Eₐ/R।"
+      },
+      {
+        "title": "প্রভাবকের কাজ",
+        "latex": "E_{a,\\mathrm{cat}}<E_{a,\\mathrm{uncat}}",
+        "note": "প্রভাবক alternative pathway দিয়ে Eₐ কমায়; ΔH বা K বদলায় না।"
+      }
+    ],
+    "assumptions": [
+      "একটি প্রধান reaction pathway এবং A প্রায় তাপমাত্রা-নিরপেক্ষ।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission",
+      "question": "ln k বনাম 1/T লেখের ঢাল −6000 K হলে activation energy কত?",
+      "answer": "E_a=-R(\\text{slope})=8.314\\times6000=49.9\\ \\mathrm{kJ/mol}"
+    }
+  ],
+  "memorize": {
+    "trick": "Arrhenius plot: ln k বনাম 1/T—ঢাল ঋণাত্মক = −Eₐ/R। তাপ বাড়লে 1/T কমে কিন্তু k বাড়ে। Catalyst Eₐ কমায়, equilibrium সরায় না।",
+    "steps": [
+      "দুই তাপমাত্রার সূত্রটি van't Hoff-এর মতোই, তবে ΔH-এর জায়গায় Eₐ।",
+      "Eₐ যত বেশি, rate তাপমাত্রায় তত সংবেদনশীল।"
+    ]
+  }
+}

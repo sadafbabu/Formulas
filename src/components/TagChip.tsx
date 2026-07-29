@@ -14,6 +14,10 @@ export function TagChip({ id, active }: TagChipProps) {
 
   const next = new URLSearchParams(params)
   next.set('tag', tag.id)
+  next.set('view', 'book')
+  if (!next.get('chapter')) {
+    // keep existing chapter if any; book view still needs one from SampleBookPage default
+  }
 
   return (
     <Link

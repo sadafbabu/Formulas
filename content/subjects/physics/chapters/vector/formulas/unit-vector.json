@@ -1,0 +1,76 @@
+{
+  "id": "unit-vector",
+  "chapter": "vector",
+  "title": "Unit Vector & Components",
+  "titleBn": "একক ভেক্টর ও উপাংশে বিভাজন",
+  "summary": "যেকোনো ভেক্টরকে তার মান দিয়ে ভাগ করলে একক ভেক্টর মেলে; উপাংশে ভাঙলে ভেক্টর যোগ সহজ হয়।",
+  "latex": "\\hat{a} = \\frac{\\vec{a}}{|\\vec{a}|}, \\quad \\vec{a} = a_x\\hat{i} + a_y\\hat{j} + a_z\\hat{k}, \\quad |\\vec{a}| = \\sqrt{a_x^2 + a_y^2 + a_z^2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "vector-resultant",
+    "direction-cosines",
+    "vector-dot-product"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\hat{a}",
+      "meaning": "একক ভেক্টর",
+      "unit": "—"
+    },
+    {
+      "symbol": "|\\vec{a}|",
+      "meaning": "ভেক্টরের মান",
+      "unit": "ভেক্টরের একক"
+    },
+    {
+      "symbol": "a_x, a_y, a_z",
+      "meaning": "আয়ত উপাংশ",
+      "unit": "ভেক্টরের একক"
+    }
+  ],
+  "derivation": {
+    "lead": "একক ভেক্টরের মান ১, তাই দিক নির্দেশ করাই এর কাজ।",
+    "steps": [
+      {
+        "title": "একক ভেক্টর",
+        "latex": "\\hat{a} = \\frac{\\vec{a}}{|\\vec{a}|}, \\quad |\\hat{a}| = 1",
+        "note": "কেবল দিক বোঝায়, মান নয়।"
+      },
+      {
+        "title": "উপাংশ",
+        "latex": "a_x = a\\cos\\theta, \\quad a_y = a\\sin\\theta",
+        "note": "অনুভূমিকে cos, উল্লম্বে sin।"
+      }
+    ],
+    "assumptions": [
+      "আয়তাকার (কার্তেসীয়) স্থানাঙ্ক ব্যবস্থা ধরা হয়েছে।",
+      "|a| ≠ 0; শূন্য ভেক্টরের একক ভেক্টর সংজ্ঞায়িত নয়"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "\\vec{a} = 3\\hat{i} + 4\\hat{j} ভেক্টরের একক ভেক্টর নির্ণয় করুন।",
+      "answer": "|\\vec{a}| = \\sqrt{9+16} = 5, \\quad \\hat{a} = \\tfrac{3}{5}\\hat{i} + \\tfrac{4}{5}\\hat{j}"
+    }
+  ],
+  "memorize": {
+    "trick": "একক ভেক্টর = ভেক্টর ÷ তার মান — \"দিক রাখো, মান ফেলে দাও\"। মান সর্বদা ১ হবে, তাই উত্তর যাচাই করতে উপাংশের বর্গের যোগফল ১ হয় কি না দেখুন।",
+    "steps": [
+      "î, ĵ, k̂ তিনটি পরস্পর লম্ব একক ভেক্টর।",
+      "î·î = 1 কিন্তু î·ĵ = 0; î×ĵ = k̂ (চক্রক্রমে î→ĵ→k̂→î)।",
+      "অনুভূমিক উপাংশে cos, উল্লম্বে sin — কোণ কোন অক্ষ থেকে মাপা তা খেয়াল রাখুন।"
+    ]
+  }
+}

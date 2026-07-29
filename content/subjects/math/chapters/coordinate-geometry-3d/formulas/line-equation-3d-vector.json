@@ -1,0 +1,49 @@
+{
+  "id": "line-equation-3d-vector",
+  "chapter": "coordinate-geometry-3d",
+  "title": "Line Vector Form",
+  "titleBn": "রেখার ভেক্টর রূপ",
+  "summary": "r=a+λb",
+  "latex": "\\vec r=\\vec a+\\lambda\\vec b",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "r=a+λb",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\vec r=\\vec a+\\lambda\\vec b",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "রেখার ভেক্টর রূপ এর মূল সূত্রটি লেখো।",
+      "answer": "\\vec r=\\vec a+\\lambda\\vec b"
+    }
+  ],
+  "memorize": {
+    "trick": "a = বিন্দু, b = দিক্‌ভেক্টর; λ = প্যারামিটার。",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

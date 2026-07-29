@@ -1,0 +1,79 @@
+{
+  "id": "van-der-waals",
+  "chapter": "ideal-gas",
+  "title": "Van der Waals Equation",
+  "titleBn": "ভ্যান ডার ওয়ালস সমীকরণ ও বাস্তব গ্যাস",
+  "summary": "আদর্শ গ্যাস সমীকরণে আন্তঃআণবিক আকর্ষণ ও অণুর আয়তনের সংশোধন।",
+  "latex": "\\left(P + \\frac{an^2}{V^2}\\right)(V - nb) = nRT, \\quad Z = \\frac{PV}{nRT}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "ideal-gas-equation",
+    "gas-laws",
+    "mean-free-path"
+  ],
+  "symbols": [
+    {
+      "symbol": "a",
+      "meaning": "আকর্ষণ সংশোধন ধ্রুবক",
+      "unit": "Pa·m⁶/mol²"
+    },
+    {
+      "symbol": "b",
+      "meaning": "আয়তন সংশোধন ধ্রুবক",
+      "unit": "m³/mol"
+    },
+    {
+      "symbol": "Z",
+      "meaning": "সংনম্যতা গুণক",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "আদর্শ গ্যাসে দুটি অনুমান ভুল: অণুর আয়তন নেই এবং আকর্ষণ নেই — দুটোই সংশোধন করা হয়।",
+    "steps": [
+      {
+        "title": "চাপ সংশোধন",
+        "latex": "P_{\\mathrm{corrected}}=P_{\\mathrm{measured}}+\\frac{an^2}{V^2}",
+        "note": "আকর্ষণে দেয়ালে ধাক্কা কমে, তাই measured pressure-এ correction term যোগ করে idealized pressure পাওয়া যায়।"
+      },
+      {
+        "title": "আয়তন সংশোধন",
+        "latex": "V_{\\text{মুক্ত}} = V - nb",
+        "note": "অণুরা নিজেই কিছু জায়গা দখল করে, তাই মুক্ত আয়তন কম — বিয়োগ করে সংশোধন।"
+      },
+      {
+        "title": "আদর্শ আচরণের শর্ত",
+        "latex": "Z = 1 \\text{ হলে আদর্শ}",
+        "note": "উচ্চ তাপমাত্রা ও নিম্ন চাপে বাস্তব গ্যাস আদর্শের কাছাকাছি আচরণ করে।"
+      }
+    ],
+    "assumptions": [
+      "a ও b গ্যাসের নিজস্ব ধ্রুবক, তাপমাত্রা-নিরপেক্ষ ধরা হয়েছে।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Varsity Admission",
+      "question": "ভ্যান ডার ওয়ালস সমীকরণে a ও b ধ্রুবক দুটি কী সংশোধন করে?",
+      "answer": "a \\to \\text{আন্তঃআণবিক আকর্ষণ (চাপ সংশোধন)}, \\quad b \\to \\text{অণুর নিজস্ব আয়তন}"
+    }
+  ],
+  "memorize": {
+    "trick": "মনে রাখুন \"চাপে যোগ, আয়তনে বিয়োগ\": (P + a n²/V²)(V − nb) = nRT। কারণ আকর্ষণে মাপা চাপ কম আসে (তাই যোগ), আর অণুরা জায়গা দখল করে বলে মুক্ত আয়তন কম (তাই বিয়োগ)।",
+    "steps": [
+      "a বড় মানে আকর্ষণ বেশি, তাই গ্যাস সহজে তরল হয়।",
+      "b বড় মানে অণু বড়।",
+      "উচ্চ তাপ ও নিম্ন চাপে Z → 1, গ্যাস আদর্শের মতো আচরণ করে।"
+    ]
+  }
+}

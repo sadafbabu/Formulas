@@ -1,0 +1,49 @@
+{
+  "id": "npr-ncr",
+  "chapter": "permutation-combination",
+  "title": "Permutations & Combinations",
+  "titleBn": "ক্রমবিন্যাস ও সমাবেশ",
+  "summary": "ⁿPᵣ ও ⁿCᵣ",
+  "latex": "{}^nP_r=\\frac{n!}{(n-r)!},\\quad{}^nC_r=\\frac{n!}{r!(n-r)!}=\\frac{{}^nP_r}{r!}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "ⁿPᵣ ও ⁿCᵣ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "{}^nP_r=\\frac{n!}{(n-r)!},\\quad{}^nC_r=\\frac{n!}{r!(n-r)!}=\\frac{{}^nP_r}{r!}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ক্রমবিন্যাস ও সমাবেশ এর মূল সূত্রটি লেখো।",
+      "answer": "{}^nP_r=\\frac{n!}{(n-r)!},\\quad{}^nC_r=\\frac{n!}{r!(n-r)!}=\\frac{{}^nP_r}{r!}"
+    }
+  ],
+  "memorize": {
+    "trick": "P = সাজাও; C = বেছে নাও = P/r!।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

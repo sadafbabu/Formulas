@@ -1,0 +1,49 @@
+{
+  "id": "concurrent-lines",
+  "chapter": "straight-lines",
+  "title": "Concurrency of Lines",
+  "titleBn": "তিন রেখার একবিন্দুগামিতা",
+  "summary": "তিন রেখা এক বিন্দুগামী হওয়ার শর্ত",
+  "latex": "\\begin{vmatrix}a_1&b_1&c_1\\\\a_2&b_2&c_2\\\\a_3&b_3&c_3\\end{vmatrix}=0",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "তিন রেখা এক বিন্দুগামী হওয়ার শর্ত",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\begin{vmatrix}a_1&b_1&c_1\\\\a_2&b_2&c_2\\\\a_3&b_3&c_3\\end{vmatrix}=0",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "তিন রেখার একবিন্দুগামিতা এর মূল সূত্রটি লেখো।",
+      "answer": "\\begin{vmatrix}a_1&b_1&c_1\\\\a_2&b_2&c_2\\\\a_3&b_3&c_3\\end{vmatrix}=0"
+    }
+  ],
+  "memorize": {
+    "trick": "নির্ণায়ক = ০ ⇒ একবিন্দুগামী।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

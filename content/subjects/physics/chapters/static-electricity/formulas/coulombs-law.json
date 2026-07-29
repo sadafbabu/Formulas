@@ -4,14 +4,37 @@
   "title": "Coulomb's Law",
   "titleBn": "কুলম্বের সূত্র",
   "summary": "দুইটি বিন্দু আধানের মধ্যবর্তী আকর্ষণ বা বিকর্ষণ বলের পরিমাণ",
-  "latex": "F = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "latex": "F=k\\frac{|q_1q_2|}{r^2},\\quad \\vec F_{12}=\\frac{1}{4\\pi\\varepsilon_0}\\frac{q_1q_2}{r^2}\\hat r_{12}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 20,
   "symbols": [
-    { "symbol": "F", "meaning": "তড়িৎ আকর্ষণ বা বিকর্ষণ বল", "unit": "N (Newton)" },
-    { "symbol": "\\varepsilon_0", "meaning": "শূন্যস্থানের ভেদনযোগ্যতা (8.854 × 10⁻¹²)", "unit": "C²/(N·m²)" },
-    { "symbol": "q_1, q_2", "meaning": "বিন্দু আধানদ্বয়ের পরিমাণ", "unit": "C (Coulomb)" },
-    { "symbol": "r", "meaning": "আধানদ্বয়ের মধ্যবর্তী দূরত্ব", "unit": "m" }
+    {
+      "symbol": "F",
+      "meaning": "তড়িৎ আকর্ষণ বা বিকর্ষণ বল",
+      "unit": "N (Newton)"
+    },
+    {
+      "symbol": "\\varepsilon_0",
+      "meaning": "শূন্যস্থানের ভেদনযোগ্যতা (8.854 × 10⁻¹²)",
+      "unit": "C²/(N·m²)"
+    },
+    {
+      "symbol": "q_1, q_2",
+      "meaning": "বিন্দু আধানদ্বয়ের পরিমাণ",
+      "unit": "C (Coulomb)"
+    },
+    {
+      "symbol": "r",
+      "meaning": "আধানদ্বয়ের মধ্যবর্তী দূরত্ব",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "বল আধানের গুণফলের সমানুপাতিক ও দূরত্বের বর্গের ব্যস্তানুপাতিক।",
@@ -21,7 +44,8 @@
         "latex": "F = k \\frac{q_1 q_2}{r^2}, \\quad k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 9 \\times 10^9",
         "note": "শূন্যমাধ্যমে k এর মান ৯ × ১০⁹ N m²/C²"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -29,5 +53,12 @@
       "question": "বায়ুতে দুটি 2 C আধান 1 m দূরত্বে থাকলে মধ্যবর্তী বিকর্ষণ বল কত?",
       "answer": "F = (9 \\times 10^9) \\frac{2 \\times 2}{1^2} = 3.6 \\times 10^{10}\\text{ N}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "F = kq₁q₂/r² — চার্জ গুণফল উপরে, দূরত্ব বর্গ নিচে। একই চার্জ বিকর্ষণ, বিপরীত চার্জ আকর্ষণ।"
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

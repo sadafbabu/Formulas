@@ -1,0 +1,77 @@
+{
+  "id": "snell-law",
+  "chapter": "geometric-optics",
+  "title": "Snell's Law & Refraction",
+  "titleBn": "স্নেলের সূত্র ও প্রতিসরণ",
+  "summary": "প্রতিসরাঙ্ক ও আপতন কোণ-প্রতিসরণ কোণ সম্পর্ক",
+  "latex": "n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2, \\quad n = \\frac{c}{v}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "total-internal-reflection",
+    "refraction-spherical",
+    "lens-makers-formula"
+  ],
+  "symbols": [
+    {
+      "symbol": "n_1, n_2",
+      "meaning": "মাধ্যমের প্রতিসরাঙ্ক",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "\\theta_1",
+      "meaning": "আপতন কোণ",
+      "unit": "°"
+    },
+    {
+      "symbol": "\\theta_2",
+      "meaning": "প্রতিসরণ কোণ",
+      "unit": "°"
+    },
+    {
+      "symbol": "c",
+      "meaning": "শূন্যে আলোর বেগ",
+      "unit": "m/s",
+      "value": "3×10⁸"
+    },
+    {
+      "symbol": "v",
+      "meaning": "মাধ্যমে আলোর বেগ",
+      "unit": "m/s"
+    }
+  ],
+  "derivation": {
+    "lead": "আলো এক মাধ্যম থেকে দ্রুততর/লঘু মাধ্যমে প্রবেশ করলে অভিলম্ব থেকে দূরে, এবং ধীরতর/ঘন মাধ্যমে গেলে অভিলম্বের দিকে বাঁকে।",
+    "steps": [
+      {
+        "title": "সম্পূর্ণ অভ্যন্তরীণ প্রতিফলন শর্ত",
+        "latex": "\\sin\\theta_c = \\frac{n_2}{n_1} \\quad (n_1 > n_2)",
+        "note": "সমালোচন কোণ θ_c থেকে বেশি হলে আলো ফিরে আসে"
+      }
+    ],
+    "assumptions": [
+      "দুই মাধ্যমের সীমানা সমতল",
+      "আলো একবর্ণী"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical Admission",
+      "question": "বায়ু থেকে কাঁচে (n = 1.5) 30° কোণে আলো আপতিত হলে প্রতিসরণ কোণ কত?",
+      "answer": "n_1 \\sin 30° = n_2 \\sin\\theta_2 \\implies 1 \\times 0.5 = 1.5 \\sin\\theta_2 \\implies \\sin\\theta_2 = 0.333 \\implies \\theta_2 \\approx 19.47°"
+    }
+  ],
+  "memorize": {
+    "trick": "n₁ sin θ₁ = n₂ sin θ₂। দ্রুত মাধ্যমে আলো সরলরৈখিক থেকে দূরে বাঁকে। ক্রান্তি কোণ: sin θc = n₂/n₁।"
+  }
+}

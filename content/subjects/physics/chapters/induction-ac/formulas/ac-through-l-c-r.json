@@ -1,0 +1,87 @@
+{
+  "id": "ac-through-l-c-r",
+  "chapter": "induction-ac",
+  "title": "AC through L, C and R",
+  "titleBn": "পৃথক L, C ও R বর্তনীতে AC এবং দশা সম্পর্ক",
+  "summary": "রোধ, ইন্ডাক্টর ও ধারকে আলাদাভাবে AC-এর আচরণ ও বিক্রিয়ার মান।",
+  "latex": "X_L = 2\\pi fL, \\quad X_C = \\frac{1}{2\\pi fC}, \\quad \\tan\\phi = \\frac{X_L - X_C}{R}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "lc-lcr-circuit",
+    "power-ac-circuit",
+    "ac-rms-values",
+    "resonance-frequency"
+  ],
+  "symbols": [
+    {
+      "symbol": "X_L",
+      "meaning": "আবেশীয় বিক্রিয়া",
+      "unit": "Ω"
+    },
+    {
+      "symbol": "X_C",
+      "meaning": "ধারকীয় বিক্রিয়া",
+      "unit": "Ω"
+    },
+    {
+      "symbol": "f",
+      "meaning": "কম্পাঙ্ক",
+      "unit": "Hz"
+    },
+    {
+      "symbol": "\\phi",
+      "meaning": "দশা কোণ",
+      "unit": "°"
+    }
+  ],
+  "derivation": {
+    "lead": "প্রতিটি উপাদানে বিভব ও প্রবাহের দশা সম্পর্ক আলাদা, তাই মিলিত বর্তনীতে ভেক্টর যোগ (ফেজর) লাগে।",
+    "steps": [
+      {
+        "title": "শুধু R",
+        "latex": "\\phi = 0",
+        "note": "বিভব ও প্রবাহ একই দশায়; ক্ষমতা অপচয় হয়।"
+      },
+      {
+        "title": "শুধু L",
+        "latex": "X_L = \\omega L, \\quad \\phi = +90^\\circ",
+        "note": "প্রবাহ বিভবের ৯০° পিছনে; কম্পাঙ্ক বাড়লে X_L বাড়ে (উচ্চ কম্পাঙ্ক আটকায়)।"
+      },
+      {
+        "title": "শুধু C",
+        "latex": "X_C = \\frac{1}{\\omega C}, \\quad \\phi = -90^\\circ",
+        "note": "প্রবাহ বিভবের ৯০° আগে; কম্পাঙ্ক বাড়লে X_C কমে (DC আটকায়, AC ছাড়ে)।"
+      }
+    ],
+    "assumptions": [
+      "সাইন আকৃতির AC উৎস।",
+      "উপাদানগুলো আদর্শ (আনুষঙ্গিক রোধ নেই)।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission",
+      "question": "৫০ Hz-এ ০.১ H ইন্ডাক্টর ও ১০০ μF ধারকের বিক্রিয়া কত?",
+      "answer": "X_L = 2\\pi(50)(0.1) = 31.4\\ \\Omega, \\quad X_C = \\frac{1}{2\\pi(50)(100\\times10^{-6})} = 31.8\\ \\Omega"
+    }
+  ],
+  "memorize": {
+    "trick": "মনে রাখার ছড়া \"ELI the ICE man\": ইন্ডাক্টরে (L) E এগিয়ে I পিছিয়ে, ধারকে (C) I এগিয়ে E পিছিয়ে। আর X_L ∝ f (কম্পাঙ্ক বাড়লে বাড়ে), X_C ∝ 1/f (কম্পাঙ্ক বাড়লে কমে) — ঠিক উল্টো।",
+    "steps": [
+      "শুধু R: দশা কোণ ০, ক্ষমতা গুণক ১।",
+      "শুধু L বা C: দশা কোণ ৯০°, গড় ক্ষমতা শূন্য (ওয়াটলেস প্রবাহ)।",
+      "ধারক DC আটকায় (f = 0 তে X_C = ∞), ইন্ডাক্টর DC ছাড়ে (X_L = 0)।"
+    ]
+  }
+}

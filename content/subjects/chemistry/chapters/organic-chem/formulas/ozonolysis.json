@@ -1,0 +1,52 @@
+{
+  "id": "ozonolysis",
+  "chapter": "organic-chem",
+  "title": "Ozonolysis of Alkenes",
+  "titleBn": "অ্যালকিনের ওজোন বিয়োজন",
+  "summary": "দ্বিবন্ধন ছেদ করে কার্বনিল",
+  "latex": "\\ce{R2C=CR2 ->[1. O3][2. Zn/H2O] 2 R2C=O}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 150,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "দ্বিবন্ধন ছেদ করে কার্বনিল",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\ce{R2C=CR2 ->[1. O3][2. Zn/H2O] 2 R2C=O}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অ্যালকিনের ওজোন বিয়োজন এর মূল সূত্রটি লেখো।",
+      "answer": "\\ce{R2C=CR2 ->[1. O3][2. Zn/H2O] 2 R2C=O}"
+    }
+  ],
+  "memorize": {
+    "trick": "C=C কেটে দুই পাশে C=O — গঠন নির্ণয়ে কাজে লাগে।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "markovnikov-rule"
+  ]
+}

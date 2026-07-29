@@ -1,0 +1,78 @@
+{
+  "id": "batteries-fuel-cell",
+  "chapter": "electrochemistry",
+  "title": "Batteries & Hydrogen Fuel Cell",
+  "titleBn": "প্রাথমিক, গৌণ ব্যাটারি ও হাইড্রোজেন ফুয়েল সেল",
+  "summary": "Dry cell, lead-acid battery, lithium-ion ও H₂–O₂ fuel cell-এর প্রধান বিক্রিয়া।",
+  "latex": "\\ce{Pb + PbO2 + 2H2SO4 <=> 2PbSO4 + 2H2O},\\quad \\ce{2H2 + O2 -> 2H2O}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "galvanic-cell",
+    "gibbs-emf-relation",
+    "electrochemical-series"
+  ],
+  "symbols": [
+    {
+      "symbol": "E",
+      "meaning": "কোষ বিভব",
+      "unit": "V"
+    },
+    {
+      "symbol": "Wh",
+      "meaning": "ব্যাটারির শক্তি ধারণক্ষমতা",
+      "unit": "watt-hour"
+    },
+    {
+      "symbol": "Ah",
+      "meaning": "চার্জ ধারণক্ষমতা",
+      "unit": "ampere-hour"
+    }
+  ],
+  "derivation": {
+    "lead": "রাসায়নিক redox শক্তিকে সরাসরি তড়িৎ শক্তিতে রূপান্তর করা হয়; secondary cell-এ বিক্রিয়া reversible।",
+    "steps": [
+      {
+        "title": "lead-acid discharge",
+        "latex": "\\ce{Pb + PbO2 + 2H2SO4 -> 2PbSO4 + 2H2O}",
+        "note": "প্রতি cell প্রায় 2 V; 12 V car battery-তে 6টি cell।"
+      },
+      {
+        "title": "fuel cell",
+        "latex": "\\ce{2H2+O2 -> 2H2O},\\quad E^\\circ=1.23\\ \\mathrm V",
+        "note": "fuel continuously সরবরাহ হয়; উৎপাদ পানি, তাই local emission কম।"
+      },
+      {
+        "title": "capacity",
+        "latex": "Q=It,\\quad E_{\\mathrm{stored}}\\approx VIt",
+        "note": "Ah হলো charge, Wh হলো energy—এক জিনিস নয়।"
+      }
+    ],
+    "assumptions": [
+      "আদর্শ current efficiency; বাস্তবে overpotential ও resistance থাকে।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "১২ V, ৫০ Ah battery-এর আদর্শ শক্তি ধারণক্ষমতা কত?",
+      "answer": "E=VQ=12\\times50=600\\ \\mathrm{Wh}=0.60\\ \\mathrm{kWh}"
+    }
+  ],
+  "memorize": {
+    "trick": "Primary cell recharge হয় না; secondary recharge হয়; fuel cell-এ reactant বাইরে থেকে চলতেই থাকে। Lead battery: ২ V প্রতি cell, তাই ১২ V-তে ৬ cell।",
+    "steps": [
+      "Ah charge-এর একক, Wh energy-এর।",
+      "Discharge-এ lead battery-র দুই electrode-ই PbSO₄ হয়।"
+    ]
+  }
+}

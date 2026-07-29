@@ -1,0 +1,55 @@
+{
+  "title": "Sum of Binomial Coefficients",
+  "titleBn": "দ্বিপদী সহগের সমষ্টি",
+  "summary": "দ্বিপদী সহগের যোগফল ও পর্যায়ভুক্ত যোগফল",
+  "latex": "\\sum_{r=0}^{n} \\binom{n}{r} = 2^n, \\quad \\sum_{r=0}^{n} (-1)^r \\binom{n}{r} = 0, \\quad \\binom{n}{r} = \\binom{n}{n-r}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "\\binom{n}{r}",
+      "meaning": "দ্বিপদী সহগ",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "(1+1)^n ও (1-1)^n এ বিশেষ মান বসালে সহগের যোগফল।",
+    "steps": [
+      {
+        "title": "সহগের সমষ্টি",
+        "latex": "\\sum \\binom{n}{r} = 2^n",
+        "note": "জোড় ও বিজোড় স্থানের সহগের যোগফল প্রত্যেকে 2^(n-1)"
+      }
+    ],
+    "assumptions": [
+      "n ধনাত্মক পূর্ণসংখ্যা"
+    ]
+  },
+  "id": "sum-binomial-coeff",
+  "chapter": "binomial-theorem",
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "\\sum_{r=0}^{n}\\binom{n}{r} = ?",
+      "answer": "2^n"
+    }
+  ],
+  "memorize": {
+    "trick": "সব সহগের যোগফল = 2ⁿ (x = 1 বসান), পর্যায়ক্রমে চিহ্ন দিলে যোগফল = 0 (x = −1 বসান)। আর C(n,r) = C(n,n−r) — সহগ প্রতিসম, তাই দুই প্রান্ত থেকে সমান।",
+    "steps": [
+      "(1+x)ⁿ এ x = 1 → ΣC(n,r) = 2ⁿ।",
+      "x = −1 → Σ(−1)ʳC(n,r) = 0, অর্থাৎ জোড় ও বিজোড় পদের যোগফল সমান = 2^{n−1}।",
+      "প্রতিসাম্য C(n,r) = C(n,n−r) — যেমন C(10,3) = C(10,7)।"
+    ]
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

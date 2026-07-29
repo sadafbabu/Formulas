@@ -5,12 +5,31 @@
   "titleBn": "মুক্তিবেগ",
   "summary": "যে ন্যূনতম বেগে কোনো বস্তুকে মারলে তা পৃথিবীর মহাকর্ষ পার হয়ে চলে যায়",
   "latex": "v_e = \\sqrt{\\frac{2GM}{R}} = \\sqrt{2gR}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 40,
   "symbols": [
-    { "symbol": "v_e", "meaning": "মুক্তিবেগ", "unit": "m/s (বা km/s)" },
-    { "symbol": "g", "meaning": "ভূ-পৃষ্ঠে অভিকর্ষজ ত্বরণ (9.8)", "unit": "m/s²" },
-    { "symbol": "R", "meaning": "পৃথিবীর ব্যাসার্ধ (6.4 × 10⁶)", "unit": "m" }
+    {
+      "symbol": "v_e",
+      "meaning": "মুক্তিবেগ",
+      "unit": "m/s (বা km/s)"
+    },
+    {
+      "symbol": "g",
+      "meaning": "ভূ-পৃষ্ঠে অভিকর্ষজ ত্বরণ (9.8)",
+      "unit": "m/s²"
+    },
+    {
+      "symbol": "R",
+      "meaning": "পৃথিবীর ব্যাসার্ধ (6.4 × 10⁶)",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "অসীমে নিয়ে যেতে প্রয়োজনীয় বিভব শক্তি প্রদান করে মুক্তিবেগ পাওয়া যায়।",
@@ -20,7 +39,8 @@
         "latex": "\\frac{1}{2} m v_e^2 = \\frac{G M m}{R} \\implies v_e = \\sqrt{\\frac{2GM}{R}} = \\sqrt{2gR}",
         "note": "পৃথিবীর জন্য মুক্তিবেগ 11.2 km/s"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -28,5 +48,16 @@
       "question": "পৃথিবীর পৃষ্ঠে মুক্তিবেগের মান কত?",
       "answer": "v_e = \\sqrt{2 \\times 9.8 \\times 6.4 \\times 10^6} \\approx 11.2\\text{ km/s}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "v = √(2gR) — পৃথিবী থেকে পালাতে 11.2 km/s। মহাকর্ষণের √2 গুণ।",
+    "steps": [
+      "মহাকর্ষণ বিভব = গতিশক্তি: GMm/R = ½mv²",
+      "তাই v = √(2GM/R) = √(2gR)"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

@@ -4,14 +4,37 @@
   "title": "Newton's Laws of Motion",
   "titleBn": "নিউটনের গতিসূত্র",
   "summary": "নিউটনের তিনটি গতিসূত্র ও তাদের গাণিতিক রূপ",
-  "latex": "F = ma, \\quad p = mv, \\quad F = \\frac{\\Delta p}{\\Delta t}, \\quad F_{12} = -F_{21}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "latex": "\\sum \\vec F = \\frac{d\\vec p}{dt};\\quad \\sum \\vec F=m\\vec a\\ (m\\ \\text{ধ্রুব});\\quad \\vec F_{12}=-\\vec F_{21}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 10,
   "symbols": [
-    { "symbol": "F", "meaning": "বল", "unit": "N (Newton)" },
-    { "symbol": "m", "meaning": "ভর", "unit": "kg" },
-    { "symbol": "a", "meaning": "ত্বরণ", "unit": "m/s²" },
-    { "symbol": "p", "meaning": "ভরবেগ", "unit": "kg·m/s" }
+    {
+      "symbol": "F",
+      "meaning": "বল",
+      "unit": "N (Newton)"
+    },
+    {
+      "symbol": "m",
+      "meaning": "ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "a",
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
+    },
+    {
+      "symbol": "p",
+      "meaning": "ভরবেগ",
+      "unit": "kg·m/s"
+    }
   ],
   "derivation": {
     "lead": "নিউটনের ১ম সূত্র (জড়তার সূত্র): বাহ্যিক বল না থাকলে বস্তু স্থির থাকবে বা সমবেগে চলবে। ২য় সূত্র: F = ma। ৩য় সূত্র: ক্রিয়া-প্রতিক্রিয়া।",
@@ -26,6 +49,9 @@
         "latex": "J = F \\cdot \\Delta t = \\Delta p = m(v_f - v_i)",
         "note": "আবেগ = ভরবেগের পরিবর্তন"
       }
+    ],
+    "assumptions": [
+      "জড় প্রসঙ্গ কাঠামো; F = ma রূপে ভর ধ্রুব"
     ]
   },
   "questions": [
@@ -34,5 +60,17 @@
       "question": "একটি 5 kg ভরের বস্তুর উপর 20 N বল প্রয়োগ করলে ত্বরণ কত?",
       "answer": "a = \\frac{F}{m} = \\frac{20}{5} = 4 \\text{ m/s}^2"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "F = ma — বল বাড়লে ত্বরণ বাড়ে, ভর বাড়লে ত্বরণ কমে। নিউটনের দ্বিতীয় সূত্রের হৃদয়।",
+    "steps": [
+      "প্রথম সূত্র: বল না থাকলে বস্তু স্থির বা সমবেগে থাকে (জড়তার গুণ)",
+      "দ্বিতীয় সূত্র: F = ma (বল = ভর × ত্বরণ)",
+      "তৃতীয় সূত্র: প্রতিটি ক্রিয়ার সম ও বিপরীত প্রতিক্রিয়া"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

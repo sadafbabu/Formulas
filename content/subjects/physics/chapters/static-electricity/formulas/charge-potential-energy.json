@@ -1,0 +1,86 @@
+{
+  "id": "charge-potential-energy",
+  "chapter": "static-electricity",
+  "title": "Potential Energy of a Charge System",
+  "titleBn": "আধান তন্ত্রের বিভব শক্তি ও তড়িৎ ফ্লাক্স",
+  "summary": "একাধিক আধান একত্র করতে কৃতকাজই তন্ত্রের বিভব শক্তি; সাথে তড়িৎ ফ্লাক্সের সংজ্ঞা।",
+  "latex": "U=\\frac{kq_1q_2}{r},\\quad U_{\\mathrm{total}}=\\sum_{i<j}\\frac{kq_iq_j}{r_{ij}},\\quad \\oint_S\\vec E\\cdot d\\vec A=\\frac{q_{\\mathrm{enc}}}{\\varepsilon_0}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "coulombs-law",
+    "electric-potential",
+    "electric-field"
+  ],
+  "symbols": [
+    {
+      "symbol": "U",
+      "meaning": "বিভব শক্তি",
+      "unit": "J"
+    },
+    {
+      "symbol": "k",
+      "meaning": "কুলম্ব ধ্রুবক",
+      "unit": "N·m²/C²",
+      "value": "9×10⁹"
+    },
+    {
+      "symbol": "\\Phi_E",
+      "meaning": "তড়িৎ ফ্লাক্স",
+      "unit": "N·m²/C"
+    },
+    {
+      "symbol": "q_{enc}",
+      "meaning": "ঘেরা আধান",
+      "unit": "C"
+    }
+  ],
+  "derivation": {
+    "lead": "অসীম থেকে আধান এনে বসাতে যে কাজ লাগে, তাই বিভব শক্তি।",
+    "steps": [
+      {
+        "title": "দুই আধান",
+        "latex": "U = qV = \\frac{kq_1q_2}{r}",
+        "note": "সমচিহ্ন আধানে U ধনাত্মক (বিকর্ষণ), বিপরীত চিহ্নে ঋণাত্মক (আকর্ষণ)।"
+      },
+      {
+        "title": "তিন আধান",
+        "latex": "U = k\\left(\\frac{q_1q_2}{r_{12}} + \\frac{q_2q_3}{r_{23}} + \\frac{q_1q_3}{r_{13}}\\right)",
+        "note": "প্রতিটি জোড়া একবারই গণনা করতে হয় — n আধানে n(n−1)/2 জোড়া।"
+      },
+      {
+        "title": "গাউসের সূত্র",
+        "latex": "\\Phi_E = \\frac{q_{enc}}{\\varepsilon_0}",
+        "note": "বদ্ধ তলের ভিতরের আধানই ফ্লাক্স নির্ধারণ করে, আকৃতি নয়।"
+      }
+    ],
+    "assumptions": [
+      "আধান বিন্দু আধান ধরা হয়েছে।",
+      "শূন্য মাধ্যমে হিসাব।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Varsity Admission",
+      "question": "একটি বদ্ধ তলের ভিতরে +৫ μC ও −২ μC আধান আছে। মোট তড়িৎ ফ্লাক্স কত?",
+      "answer": "\\Phi_E = \\frac{q_{enc}}{\\varepsilon_0} = \\frac{3\\times10^{-6}}{8.85\\times10^{-12}} \\approx 3.39\\times10^5\\ \\text{N·m}^2/\\text{C}"
+    }
+  ],
+  "memorize": {
+    "trick": "বিভবে 1/r, ক্ষেত্রে 1/r², বিভব শক্তিতেও 1/r — \"শক্তি ও বিভবে এক r, ক্ষেত্রে র বর্গ\"। আর গাউসের সূত্রে কেবল ঘেরা আধানই গণ্য; তলের আকৃতি বা আধানের অবস্থান কিছুই লাগে না।",
+    "steps": [
+      "n আধানে জোড়ার সংখ্যা n(n−1)/2 — তিন আধানে ৩টি পদ, চার আধানে ৬টি।",
+      "সমচিহ্নে U ধনাত্মক, বিপরীত চিহ্নে ঋণাত্মক।",
+      "বদ্ধ তলের বাইরের আধানের মোট ফ্লাক্স অবদান শূন্য (যত ঢোকে, তত বেরোয়)।"
+    ]
+  }
+}

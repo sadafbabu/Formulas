@@ -10,6 +10,7 @@
     "2-star"
   ],
   "importance": 2,
+  "order": 50,
   "symbols": [
     {
       "symbol": "v_d",
@@ -42,9 +43,29 @@
         "note": "τ হলো শিথিলকাল (relaxation time)"
       }
     ],
-    "assumptions": "Ohmic পরিবাহক"
+    "assumptions": [
+      "Ohmic পরিবাহক"
+    ]
   },
   "id": "drift-velocity",
   "chapter": "current-electricity",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC / Eng",
+      "question": "ড্রিফট বেগ v_d এর সূত্র কী?",
+      "answer": "v_d=\\frac{I}{neA}"
+    }
+  ],
+  "memorize": {
+    "trick": "v_d = I/(nAe) — অপবেগ খুব ছোট হলেও বৈদ্যুতিক সংকেত পরিবাহীর তড়িৎচৌম্বক পরিবেশে সাধারণত আলোর বেগের একটি উল্লেখযোগ্য ভগ্নাংশে ছড়ায়। J = I/A = nev_d।",
+    "steps": [
+      "I = nAev_d — এই একটাই সম্পর্ক, বাকি সব এখান থেকে।",
+      "v_d ∝ I এবং v_d ∝ 1/A — চিকন তারে অপবেগ বেশি।",
+      "প্রবাহ ঘনত্ব J = I/A = nev_d = σE।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

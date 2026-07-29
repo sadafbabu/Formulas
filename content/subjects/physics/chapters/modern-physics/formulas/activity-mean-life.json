@@ -1,0 +1,52 @@
+{
+  "id": "activity-mean-life",
+  "chapter": "modern-physics",
+  "title": "Activity & Mean Life",
+  "titleBn": "সক্রিয়তা ও গড় আয়ু",
+  "summary": "তেজস্ক্রিয় সক্রিয়তা এবং গড় আয়ু",
+  "latex": "A=\\lambda N=-\\frac{dN}{dt},\\quad\\tau=\\frac{1}{\\lambda}=\\frac{T_{1/2}}{\\ln 2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "তেজস্ক্রিয় সক্রিয়তা এবং গড় আয়ু",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "A=\\lambda N=-\\frac{dN}{dt},\\quad\\tau=\\frac{1}{\\lambda}=\\frac{T_{1/2}}{\\ln 2}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সক্রিয়তা ও গড় আয়ু এর মূল সূত্রটি লেখো।",
+      "answer": "A=\\lambda N=-\\frac{dN}{dt},\\quad\\tau=\\frac{1}{\\lambda}=\\frac{T_{1/2}}{\\ln 2}"
+    }
+  ],
+  "memorize": {
+    "trick": "A=λN; τ = T½/0.693।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "radioactive-decay"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "raoult-law",
+  "chapter": "colligative-properties",
+  "title": "Raoult's Law",
+  "titleBn": "রাউলের সূত্র",
+  "summary": "P=PA°xA",
+  "latex": "P=P_A^\\circ x_A+P_B^\\circ x_B",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "P=PA°xA",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P=P_A^\\circ x_A+P_B^\\circ x_B",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "রাউলের সূত্র এর মূল সূত্রটি লেখো।",
+      "answer": "P=P_A^\\circ x_A+P_B^\\circ x_B"
+    }
+  ],
+  "memorize": {
+    "trick": "Ideal solution: P = Σ Pi° xi; vapor pressure lowering。",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

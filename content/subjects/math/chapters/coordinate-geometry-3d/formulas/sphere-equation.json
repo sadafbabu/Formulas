@@ -1,0 +1,49 @@
+{
+  "id": "sphere-equation",
+  "chapter": "coordinate-geometry-3d",
+  "title": "Sphere Equation",
+  "titleBn": "গোলকের সমীকরণ",
+  "summary": "(x−a)²+...",
+  "latex": "(x-a)^2+(y-b)^2+(z-c)^2=r^2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "(x−a)²+...",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "(x-a)^2+(y-b)^2+(z-c)^2=r^2",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "গোলকের সমীকরণ এর মূল সূত্রটি লেখো।",
+      "answer": "(x-a)^2+(y-b)^2+(z-c)^2=r^2"
+    }
+  ],
+  "memorize": {
+    "trick": "কেন্দ্র (a,b,c), ব্যাসার্ধ r; 2D বৃত্তের 3D সংস্করণ。",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

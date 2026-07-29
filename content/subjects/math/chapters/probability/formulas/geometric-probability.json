@@ -1,0 +1,49 @@
+{
+  "id": "geometric-probability",
+  "chapter": "probability",
+  "title": "Geometric Probability",
+  "titleBn": "জ্যামিতিক সম্ভাব্যতা",
+  "summary": "অঞ্চলের অনুপাত",
+  "latex": "P=\\frac{\\text{favourable length/area}}{\\text{total length/area}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "1-star"
+  ],
+  "importance": 1,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "অঞ্চলের অনুপাত",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P=\\frac{\\text{favourable length/area}}{\\text{total length/area}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "জ্যামিতিক সম্ভাব্যতা এর মূল সূত্রটি লেখো।",
+      "answer": "P=\\frac{\\text{favourable length/area}}{\\text{total length/area}}"
+    }
+  ],
+  "memorize": {
+    "trick": "এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত。",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

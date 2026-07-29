@@ -1,0 +1,80 @@
+{
+  "id": "rate-law-order",
+  "chapter": "chemical-equilibrium",
+  "title": "Rate Law, Order & Half-life",
+  "titleBn": "বিক্রিয়ার বেগ সূত্র, ক্রম ও অর্ধায়ু",
+  "summary": "শূন্য, প্রথম ও দ্বিতীয় ক্রম বিক্রিয়ার integrated rate law ও অর্ধায়ু।",
+  "latex": "r=k[A]^m[B]^n,\\quad t_{1/2}^{(1)}=\\frac{0.693}{k},\\quad [A]_t=[A]_0e^{-kt}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "equilibrium-constant-rate",
+    "arrhenius-equation",
+    "radioactive-decay"
+  ],
+  "symbols": [
+    {
+      "symbol": "r",
+      "meaning": "বিক্রিয়ার তাৎক্ষণিক বেগ",
+      "unit": "mol L⁻¹ s⁻¹"
+    },
+    {
+      "symbol": "k",
+      "meaning": "বেগ ধ্রুবক",
+      "unit": "ক্রম-নির্ভর"
+    },
+    {
+      "symbol": "m+n",
+      "meaning": "মোট বিক্রিয়া ক্রম",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "পরীক্ষালব্ধ rate law যোগজীকরণ করে concentration-time সম্পর্ক পাওয়া যায়।",
+    "steps": [
+      {
+        "title": "শূন্য ক্রম",
+        "latex": "[A]_t=[A]_0-kt,\\quad t_{1/2}=\\frac{[A]_0}{2k}",
+        "note": "k-এর একক mol L⁻¹ s⁻¹; half-life initial concentration-এর উপর নির্ভরশীল।"
+      },
+      {
+        "title": "প্রথম ক্রম",
+        "latex": "\\ln\\frac{[A]_0}{[A]_t}=kt,\\quad t_{1/2}=\\frac{0.693}{k}",
+        "note": "half-life initial concentration-নিরপেক্ষ; radioactive decay-ও প্রথম ক্রম।"
+      },
+      {
+        "title": "দ্বিতীয় ক্রম",
+        "latex": "\\frac1{[A]_t}-\\frac1{[A]_0}=kt,\\quad t_{1/2}=\\frac1{k[A]_0}",
+        "note": "k-এর একক L mol⁻¹ s⁻¹।"
+      }
+    ],
+    "assumptions": [
+      "তাপমাত্রা স্থির এবং একক elementary/integrated model প্রযোজ্য।",
+      "দেখানো second-order integrated law-এ একক reactant-এর জন্য −d[A]/dt = k[A]²"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical Admission",
+      "question": "প্রথম ক্রম বিক্রিয়ার k = 0.231 min⁻¹ হলে অর্ধায়ু কত?",
+      "answer": "t_{1/2}=\\frac{0.693}{0.231}=3.00\\ \\mathrm{min}"
+    }
+  ],
+  "memorize": {
+    "trick": "প্রথম ক্রমের signature: t₁/₂ = 0.693/k—initial concentration লাগে না। Order বের করতে k-এর একক দেখুন: zero=M s⁻¹, first=s⁻¹, second=M⁻¹s⁻¹।",
+    "steps": [
+      "Rate law-এর ঘাত stoichiometric coefficient দেখে নয়, পরীক্ষা করে বের হয়।",
+      "Molecularity কখনো শূন্য/ভগ্নাংশ নয়; order হতে পারে।"
+    ]
+  }
+}

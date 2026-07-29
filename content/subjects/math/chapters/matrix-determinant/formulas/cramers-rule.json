@@ -1,0 +1,49 @@
+{
+  "id": "cramers-rule",
+  "chapter": "matrix-determinant",
+  "title": "Cramer's Rule",
+  "titleBn": "ক্রেমারের নিয়ম",
+  "summary": "x=Δx/Δ",
+  "latex": "x=\\frac{\\Delta_x}{\\Delta},\\quad y=\\frac{\\Delta_y}{\\Delta}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "x=Δx/Δ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "x=\\frac{\\Delta_x}{\\Delta},\\quad y=\\frac{\\Delta_y}{\\Delta}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ক্রেমারের নিয়ম এর মূল সূত্রটি লেখো।",
+      "answer": "x=\\frac{\\Delta_x}{\\Delta},\\quad y=\\frac{\\Delta_y}{\\Delta}"
+    }
+  ],
+  "memorize": {
+    "trick": "Δ=main determinant; Δx = x-column replace。",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

@@ -11,6 +11,7 @@
     "2-star"
   ],
   "importance": 2,
+  "order": 60,
   "symbols": [
     {
       "symbol": "C_s, C_p",
@@ -37,9 +38,29 @@
         "note": "মোট শক্তি u আয়তন দ্বারা গুণ"
       }
     ],
-    "assumptions": "আদর্শ ধারক"
+    "assumptions": [
+      "আদর্শ ধারক"
+    ]
   },
   "id": "capacitor-combination",
   "chapter": "static-electricity",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "শ্রেণী ধারকের মোট C কীভাবে আসে?",
+      "answer": "\\frac{1}{C}=\\frac{1}{C_1}+\\frac{1}{C_2}"
+    }
+  ],
+  "memorize": {
+    "trick": "ধারকের সংযোজন রোধের উল্টো! শ্রেণীতে বিপরীতের যোগ (1/C_s = Σ1/C), সমান্তরালে সরল যোগ (C_p = ΣC)। 'রোধে যা শ্রেণী, ধারকে তা সমান্তরাল'।",
+    "steps": [
+      "শ্রেণীতে সব ধারকে আধান Q একই, বিভব ভাগ হয় → 1/C_s = Σ1/C_i।",
+      "সমান্তরালে সব ধারকে V একই, আধান ভাগ হয় → C_p = ΣC_i।",
+      "শক্তি ঘনত্ব u = ½ε₀E² — একক আয়তনে সঞ্চিত শক্তি।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

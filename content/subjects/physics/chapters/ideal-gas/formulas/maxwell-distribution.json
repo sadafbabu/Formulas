@@ -1,0 +1,64 @@
+{
+  "title": "Maxwell Speed Distribution",
+  "titleBn": "ম্যাক্সওয়েল বেগ বিন্যাস",
+  "summary": "গ্যাস অণুর বেগ বিন্যাস ও সর্বোচ্চ সম্ভাব্য বেগ",
+  "latex": "f(v) = 4\\pi\\left(\\frac{m}{2\\pi kT}\\right)^{3/2} v^2 e^{-mv^2/2kT}, \\quad v_p = \\sqrt{\\frac{2kT}{m}}",
+  "tags": [
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "f(v)",
+      "meaning": "বেগ বিন্যাস ফাংশন",
+      "unit": "s/m = (m/s)^{-1}"
+    },
+    {
+      "symbol": "v_p",
+      "meaning": "সর্বোচ্চ সম্ভাব্য বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "v_{rms}",
+      "meaning": "বর্গ মধ্যমা বেগ",
+      "unit": "m/s"
+    }
+  ],
+  "derivation": {
+    "lead": "গ্যাস অণুর বেগ পরিসংখ্যান থেকে Maxwell-Boltzmann বিন্যাস।",
+    "steps": [
+      {
+        "title": "বেগ সম্পর্ক",
+        "latex": "v_{rms} : \\bar{v} : v_p = \\sqrt{3} : \\sqrt{8/\\pi} : \\sqrt{2}",
+        "note": "সবগুলো √(kT/m) এর গুণিতক"
+      }
+    ],
+    "assumptions": [
+      "আদর্শ গ্যাস, সাম্যাবস্থা"
+    ]
+  },
+  "id": "maxwell-distribution",
+  "chapter": "ideal-gas",
+  "questions": [
+    {
+      "examType": "Eng / HSC",
+      "question": "rms গতির সূত্র কী?",
+      "answer": "v_{rms}=\\sqrt{\\frac{3RT}{M}}"
+    }
+  ],
+  "memorize": {
+    "trick": "বিন্যাস লেখচিত্র মনে রাখুন: তাপমাত্রা বাড়লে চূড়া ডানে সরে ও চ্যাপ্টা হয়। সর্বাধিক সম্ভাব্য বেগ v_p = √(2kT/m) — এখানে '২', v_rms-এ '৩'।",
+    "steps": [
+      "চূড়ার অবস্থান = v_p = √(2kT/m) = √(2RT/M)।",
+      "লেখের নিচের মোট ক্ষেত্রফল সর্বদা ১ (মোট অণুর ভগ্নাংশ)।",
+      "সংখ্যা মনে রাখার সহজ উপায়: v_p এ ২, v_avg এ 8/π, v_rms এ ৩।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

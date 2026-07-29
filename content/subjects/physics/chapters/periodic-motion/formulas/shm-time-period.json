@@ -5,15 +5,46 @@
   "titleBn": "সরল ছন্দিত স্পন্দনের পর্যায়কাল ও দোলক সূত্র",
   "summary": "সরল দোলক ও স্প্রিং-এর পর্যায়কাল এবং দোলন সমীকরণ",
   "latex": "T = 2\\pi \\sqrt{\\frac{L}{g}}, \\quad T = 2\\pi \\sqrt{\\frac{m}{k}}, \\quad x(t) = A \\sin(\\omega t + \\delta)",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 20,
   "symbols": [
-    { "symbol": "T", "meaning": "পর্যায়কাল (Time period)", "unit": "s" },
-    { "symbol": "L", "meaning": "সরল দোলকের কার্যকরী দৈর্ঘ্য", "unit": "m" },
-    { "symbol": "g", "meaning": "অভিকর্ষজ ত্বরণ", "unit": "m/s²" },
-    { "symbol": "m", "meaning": "ভর", "unit": "kg" },
-    { "symbol": "k", "meaning": "স্প্রিং ধ্রুবক", "unit": "N/m" },
-    { "symbol": "\\omega", "meaning": "কৌণিক কম্পাঙ্ক", "unit": "rad/s" }
+    {
+      "symbol": "T",
+      "meaning": "পর্যায়কাল (Time period)",
+      "unit": "s"
+    },
+    {
+      "symbol": "L",
+      "meaning": "সরল দোলকের কার্যকরী দৈর্ঘ্য",
+      "unit": "m"
+    },
+    {
+      "symbol": "g",
+      "meaning": "অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²"
+    },
+    {
+      "symbol": "m",
+      "meaning": "ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "k",
+      "meaning": "স্প্রিং ধ্রুবক",
+      "unit": "N/m"
+    },
+    {
+      "symbol": "\\omega",
+      "meaning": "কৌণিক কম্পাঙ্ক",
+      "unit": "rad/s"
+    }
   ],
   "derivation": {
     "lead": "ক্ষুদ্র বিস্তার θ < 4° এর জন্য restoring force F = -mg sinθ ≈ -mg (x/L) হতে প্রাপ্ত।",
@@ -23,7 +54,8 @@
         "latex": "a = -\\frac{g}{L} x = -\\omega^2 x \\implies \\omega = \\sqrt{\\frac{g}{L}} \\implies T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{L}{g}}",
         "note": "সেকেন্ড দোলকের (Second pendulum) পর্যায়কাল T = 2 sec"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -31,5 +63,12 @@
       "question": "একটি সেকেন্ড দোলকের দৈর্ঘ্য কত শতাংশ বৃদ্ধি করলে এটি দৈনিক 10 সেকেন্ড ধীরে চলবে?",
       "answer": "\\frac{T'}{T} = \\sqrt{\\frac{L'}{L}} \\implies \\frac{86400}{86400 - 10} = \\sqrt{1 + \\frac{\\Delta L}{L}} \\implies 1 + \\frac{\\Delta L}{L} = (1.0001157)^2 \\approx 1.00023 \\implies \\frac{\\Delta L}{L} = 0.023\\%"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "T = 2π√(m/k) — ভর বাড়লে ধীর, স্প্রিং শক্ত (k বড়) হলে দ্রুত।"
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

@@ -1,0 +1,49 @@
+{
+  "id": "angle-between-lines-3d",
+  "chapter": "coordinate-geometry-3d",
+  "title": "Angle Between Lines 3D",
+  "titleBn": "৩D-এ রেখার মধ্যবর্তী কোণ",
+  "summary": "cosθ=|l₁l₂+m₁m₂+n₁n₂|",
+  "latex": "\\cos\\theta=|l_1l_2+m_1m_2+n_1n_2|",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "cosθ=|l₁l₂+m₁m₂+n₁n₂|",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\cos\\theta=|l_1l_2+m_1m_2+n_1n_2|",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "৩D-এ রেখার মধ্যবর্তী কোণ এর মূল সূত্রটি লেখো।",
+      "answer": "\\cos\\theta=|l_1l_2+m_1m_2+n_1n_2|"
+    }
+  ],
+  "memorize": {
+    "trick": "DC-এর dot product; DR দিয়ে সহজ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

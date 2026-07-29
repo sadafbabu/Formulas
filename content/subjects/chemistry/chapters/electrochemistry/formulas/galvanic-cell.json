@@ -1,0 +1,75 @@
+{
+  "id": "galvanic-cell",
+  "chapter": "electrochemistry",
+  "title": "Galvanic Cell & Cell Notation",
+  "titleBn": "গ্যালভানিক কোষ, কোষ সংকেত ও তড়িৎদ্বার",
+  "summary": "অ্যানোড-ক্যাথোড বিক্রিয়া, electron flow, salt bridge ও standard cell potential।",
+  "latex": "\\ce{Zn|Zn^{2+}||Cu^{2+}|Cu},\\quad E^\\circ_{\\mathrm{cell}}=E^\\circ_{\\mathrm{cathode}}-E^\\circ_{\\mathrm{anode}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "nernst-equation",
+    "electrochemical-series",
+    "gibbs-emf-relation"
+  ],
+  "symbols": [
+    {
+      "symbol": "E^\\circ_{\\mathrm{cell}}",
+      "meaning": "আদর্শ কোষ বিভব",
+      "unit": "V"
+    },
+    {
+      "symbol": "E^\\circ_{\\mathrm{cathode}}",
+      "meaning": "ক্যাথোডের reduction potential",
+      "unit": "V"
+    }
+  ],
+  "derivation": {
+    "lead": "স্বতঃস্ফূর্ত redox বিক্রিয়ার oxidation ও reduction আলাদা অর্ধকোষে ঘটিয়ে electron flow থেকে বিদ্যুৎ পাওয়া যায়।",
+    "steps": [
+      {
+        "title": "Daniell cell",
+        "latex": "\\ce{Zn -> Zn^{2+}+2e-}\\ (\\text{anode});\\quad \\ce{Cu^{2+}+2e- -> Cu}\\ (\\text{cathode})",
+        "note": "Electron বাহ্যিক বর্তনীতে Zn থেকে Cu-তে যায়।"
+      },
+      {
+        "title": "EMF",
+        "latex": "E^\\circ_{\\mathrm{cell}}=E^\\circ_R-E^\\circ_L",
+        "note": "cell notation-এ ডান − বাম; positive হলে reaction spontaneous।"
+      },
+      {
+        "title": "salt bridge",
+        "latex": "\\text{anion}\\to\\text{anode},\\quad \\text{cation}\\to\\text{cathode}",
+        "note": "বৈদ্যুতিক নিরপেক্ষতা বজায় রাখে ও liquid junction potential কমায়।"
+      }
+    ],
+    "assumptions": [
+      "সব solution 1 M, gas 1 bar ও 298 K standard condition-এ।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "\\ce{Cu^{2+}/Cu}=+0.34 V এবং \\ce{Zn^{2+}/Zn}=-0.76 V হলে Daniell cell-এর E° কত?",
+      "answer": "E^\\circ=0.34-(-0.76)=1.10\\ \\mathrm V"
+    }
+  ],
+  "memorize": {
+    "trick": "দুই ধরনের কোষেই AnOx, RedCat: anode-এ oxidation, cathode-এ reduction। Galvanic-এ anode negative, cathode positive; electrolytic-এ চিহ্ন উল্টো।",
+    "steps": [
+      "Cell notation: anode | anode ion || cathode ion | cathode।",
+      "E°cell = right − left = cathode − anode।",
+      "Electron anode থেকে cathode-এ যায়।"
+    ]
+  }
+}

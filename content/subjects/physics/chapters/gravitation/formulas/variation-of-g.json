@@ -1,0 +1,97 @@
+{
+  "id": "variation-of-g",
+  "chapter": "gravitation",
+  "title": "Variation of g",
+  "titleBn": "অভিকর্ষজ ত্বরণের পরিবর্তন (উচ্চতা, গভীরতা ও অক্ষাংশ)",
+  "summary": "উচ্চতায়, গভীরতায়, অক্ষাংশে ও পৃথিবীর ঘূর্ণনের কারণে g কীভাবে বদলায়।",
+  "latex": "g_h = g\\frac{R^2}{(R+h)^2}, \\quad g_d = g\\!\\left(1 - \\frac{d}{R}\\right), \\quad g_\\lambda = g - \\omega^2 R\\cos^2\\lambda",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "newtons-gravitation",
+    "gravitational-potential",
+    "escape-velocity"
+  ],
+  "symbols": [
+    {
+      "symbol": "g",
+      "meaning": "ভূপৃষ্ঠে অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²",
+      "value": "9.8"
+    },
+    {
+      "symbol": "h",
+      "meaning": "ভূপৃষ্ঠ থেকে উচ্চতা",
+      "unit": "m"
+    },
+    {
+      "symbol": "d",
+      "meaning": "ভূপৃষ্ঠ থেকে গভীরতা",
+      "unit": "m"
+    },
+    {
+      "symbol": "R",
+      "meaning": "পৃথিবীর ব্যাসার্ধ",
+      "unit": "m",
+      "value": "6.4×10⁶"
+    },
+    {
+      "symbol": "\\lambda",
+      "meaning": "অক্ষাংশ",
+      "unit": "°"
+    },
+    {
+      "symbol": "\\omega",
+      "meaning": "পৃথিবীর কৌণিক বেগ",
+      "unit": "rad/s"
+    }
+  ],
+  "derivation": {
+    "lead": "g = GM/r² সম্পর্ক ব্যবহার করে r বা ঘেরা ভর বদলালে g-ও বদলায়।",
+    "steps": [
+      {
+        "title": "উচ্চতায়",
+        "latex": "g_h = \\frac{GM}{(R+h)^2} = g\\frac{R^2}{(R+h)^2} \\approx g\\!\\left(1 - \\frac{2h}{R}\\right)",
+        "note": "h ≪ R হলে সন্নিকট রূপে 2h/R — লক্ষ্য করুন গুণক ২।"
+      },
+      {
+        "title": "গভীরতায়",
+        "latex": "g_d = g\\!\\left(1 - \\frac{d}{R}\\right)",
+        "note": "ভিতরে কেবল ভিতরের গোলকের ভরই টানে; কেন্দ্রে (d = R) g = 0।"
+      },
+      {
+        "title": "অক্ষাংশে",
+        "latex": "g_\\lambda = g - \\omega^2R\\cos^2\\lambda",
+        "note": "বিষুবরেখায় (λ = 0) হ্রাস সর্বোচ্চ, মেরুতে (λ = 90°) শূন্য।"
+      }
+    ],
+    "assumptions": [
+      "পৃথিবী সুষম ঘনত্বের গোলক ধরা হয়েছে।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical Admission",
+      "question": "ভূপৃষ্ঠ থেকে কত উচ্চতায় g-এর মান অর্ধেক হবে? (R = 6400 km)",
+      "answer": "\\frac{g}{2} = g\\frac{R^2}{(R+h)^2} \\Rightarrow (R+h)^2 = 2R^2 \\Rightarrow h = R(\\sqrt{2}-1) \\approx 2651\\ \\text{km}"
+    }
+  ],
+  "memorize": {
+    "trick": "উচ্চতায় ভাগ, গভীরতায় বিয়োগ: g_h = gR²/(R+h)² কিন্তু g_d = g(1 − d/R)। সন্নিকটে উচ্চতায় গুণক ২ (1 − 2h/R), গভীরতায় গুণক ১ (1 − d/R) — এই ২ আর ১-ই আসল পার্থক্য।",
+    "steps": [
+      "কেন্দ্রে g = 0, ভূপৃষ্ঠে সর্বোচ্চ, উপরে গেলে আবার কমে।",
+      "মেরুতে g সর্বোচ্চ, বিষুবরেখায় সর্বনিম্ন — দুই কারণে: ঘূর্ণন ও পৃথিবীর চ্যাপ্টা আকৃতি।",
+      "ভরশূন্যতা: লিফট g ত্বরণে নিচে পড়লে আপাত ওজন শূন্য।"
+    ]
+  }
+}

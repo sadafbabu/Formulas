@@ -4,16 +4,43 @@
   "titleBn": "ট্যানজেন্ট গ্যালভানোমিটার সূত্র",
   "latex": "I = K \\tan \\theta, \\quad K = \\frac{2 r B_H}{\\mu_0 N}",
   "summary": "ট্যানজেন্ট সূত্রের ওপর ভিত্তি করে নির্মিত সূক্ষ্ম প্রবাহ পরিমাপক যন্ত্রের নীতি।",
-  "tags": ["hsc", "eng-admission", "varsity", "1-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "1-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 1,
-  "subjects": ["physics"],
-  "related": ["earth-magnetism", "loop-center"],
+  "order": 230,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "earth-magnetism",
+    "loop-center"
+  ],
   "symbols": [
-    { "symbol": "I", "meaning": "পরিমাপযোগ্য বিদ্যুৎপ্রবাহ", "unit": "A" },
-    { "symbol": "K", "meaning": "গ্যালভানোমিটার হ্রাস গুণক (Reduction Factor)", "unit": "A" },
-    { "symbol": "\\theta", "meaning": "চৌম্বক শলাকার বিক্ষেপ কোণ", "unit": "°" },
-    { "symbol": "B_H", "meaning": "ভূ-চৌম্বক ক্ষেত্রের অনুভূমিক উপাংশ", "unit": "T" }
+    {
+      "symbol": "I",
+      "meaning": "পরিমাপযোগ্য বিদ্যুৎপ্রবাহ",
+      "unit": "A"
+    },
+    {
+      "symbol": "K",
+      "meaning": "গ্যালভানোমিটার হ্রাস গুণক (Reduction Factor)",
+      "unit": "A"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "চৌম্বক শলাকার বিক্ষেপ কোণ",
+      "unit": "°"
+    },
+    {
+      "symbol": "B_H",
+      "meaning": "ভূ-চৌম্বক ক্ষেত্রের অনুভূমিক উপাংশ",
+      "unit": "T"
+    }
   ],
   "derivation": {
     "lead": "দুই লম্ব চৌম্বক ক্ষেত্র B ও B_H এর ট্যানজেন্ট সূত্র সমতা:",
@@ -21,10 +48,12 @@
       {
         "title": "ট্যানজেন্ট সমতা",
         "latex": "B = B_H \\tan \\theta \\implies \\frac{\\mu_0 N I}{2r} = B_H \\tan \\theta \\implies I = \\left(\\frac{2 r B_H}{\\mu_0 N}\\right) \\tan \\theta",
-        "note": "বিক্ষেপ $\\theta = 45^\\circ$ হলে পরিমাপের নির্ভুলতা সর্বোচ্চ হয়।"
+        "note": "বিক্ষেপ \\theta = 45^\\circ হলে পরিমাপের নির্ভুলতা সর্বোচ্চ হয়।"
       }
     ],
-    "assumptions": ["কুণ্ডলীটি চৌম্বক মধ্যতলের (Magnetic Meridian) সমান্তরালে স্থাপিত।"]
+    "assumptions": [
+      "কুণ্ডলীটি চৌম্বক মধ্যতলের (Magnetic Meridian) সমান্তরালে স্থাপিত।"
+    ]
   },
   "questions": [
     {
@@ -32,5 +61,13 @@
       "question": "৫০ পাকের ও ১০ cm ব্যাসার্ধের একটি ট্যানজেন্ট গ্যালভানোমিটারে কত প্রবাহ দিলে ৪৫° বিক্ষেপ হবে? (B_H = 3.14 × 10⁻⁵ T)",
       "answer": "K = \\frac{2 \\times 0.1 \\times 3.14 \\times 10^{-5}}{4\\pi \\times 10^{-7} \\times 50} = 0.0999 \\text{ A}. \\quad I = K \\tan 45^\\circ = 0.0999 \\text{ A} = 99.9 \\text{ mA}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "I = K tanθ — 'ট্যানজেন্ট' নামেই সূত্র। প্রবাহের ক্ষেত্র ও ভূ-চৌম্বকের অনুভূমিক উপাংশের লব্ধি বরাবর কাঁটা দাঁড়ায়।",
+    "steps": [
+      "tanθ = B_কুণ্ডলী/B_H, আর B_কুণ্ডলী = μ₀NI/(2r)।",
+      "তাই I = (2rB_H/μ₀N)·tanθ = K tanθ, যেখানে K হলো হ্রাসাঙ্ক।",
+      "সবচেয়ে সংবেদনশীল θ = 45° এ।"
+    ]
+  }
 }

@@ -1,0 +1,49 @@
+{
+  "id": "coordination-number",
+  "chapter": "coordination-chemistry",
+  "title": "Coordination Number",
+  "titleBn": "সমন্বয় সংখ্যা",
+  "summary": "CN=?",
+  "latex": "\\text{CN}=\\text{number of donor atoms bonded to central metal}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "CN=?",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{CN}=\\text{number of donor atoms bonded to central metal}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সমন্বয় সংখ্যা এর মূল সূত্রটি লেখো।",
+      "answer": "\\text{CN}=\\text{number of donor atoms bonded to central metal}"
+    }
+  ],
+  "memorize": {
+    "trick": "Ligand donor atoms count; common CN=4,6。",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

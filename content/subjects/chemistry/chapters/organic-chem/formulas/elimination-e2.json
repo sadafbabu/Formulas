@@ -1,0 +1,55 @@
+{
+  "title": "Elimination (E2) & Saytzeff Rule",
+  "titleBn": "বিয়োজন (E2) ও সায়ৎজেফ নিয়ম",
+  "summary": "অ্যালকাইল হ্যালাইড বিয়োজন ও সায়ৎজেফ নিয়ম",
+  "latex": "\\ce{R-CH2-CH2-X + KOH ->[alc.,\\ \\Delta] R-CH=CH2 + KX + H2O}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "RX",
+      "meaning": "অ্যালকাইল হ্যালাইড",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "E2 এক-ধাপী দ্বিঅণু বিয়োজন; সায়ৎজেফ নিয়মে বেশি প্রতিস্থাপিত অ্যালকিন প্রধান।",
+    "steps": [
+      {
+        "title": "সায়ৎজেফ নিয়ম",
+        "latex": "\\text{major} = \\text{more substituted alkene}",
+        "note": "বেস বেশি বাধাদানকারী হলে Hofmann পণ্য প্রধান"
+      }
+    ],
+    "assumptions": [
+      "β-H ও উপযুক্ত strong base আবশ্যক; primary, secondary বা tertiary substrate-এ E2 হতে পারে, competition ভিন্ন"
+    ]
+  },
+  "id": "elimination-e2",
+  "chapter": "organic-chem",
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "E2 বিক্রিয়ার rate law কী?",
+      "answer": "\\text{rate}=k[\\text{substrate}][\\text{base}]"
+    }
+  ],
+  "memorize": {
+    "trick": "সায়ৎজেফ নিয়ম: বিয়োজনে বেশি প্রতিস্থাপিত (বেশি স্থিতিশীল) অ্যালকিনই প্রধান উৎপাদ। আর 'কম হাইড্রোজেনযুক্ত কার্বন থেকে H বেরোয়' — মার্কনিকভের ঠিক উল্টো ভাবনা।",
+    "steps": [
+      "E2 এক ধাপে ঘটে; H ও X বিপরীত পাশ থেকে (anti-periplanar) বেরোয়।",
+      "সবল ক্ষার (অ্যালকোহলীয় KOH) ও উচ্চ তাপ E2 কে সাহায্য করে; জলীয় KOH দিলে প্রতিস্থাপন হয়।",
+      "ব্যতিক্রম: ভারী ক্ষার (t-BuOK) দিলে হফম্যান উৎপাদ (কম প্রতিস্থাপিত অ্যালকিন) প্রধান হয়।"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

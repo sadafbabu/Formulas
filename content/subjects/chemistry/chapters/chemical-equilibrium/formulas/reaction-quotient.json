@@ -11,6 +11,7 @@
     "3-star"
   ],
   "importance": 3,
+  "order": 20,
   "symbols": [
     {
       "symbol": "Q_c",
@@ -32,14 +33,34 @@
     "lead": "Law of Mass Action থেকে বিক্রিয়া ভাগফল প্রাপ্ত।",
     "steps": [
       {
-        "title": "সাম্য নি�েশ",
+        "title": "সাম্যের দিকনির্দেশ",
         "latex": "Q < K \\Rightarrow \\text{forward}, \\quad Q > K \\Rightarrow \\text{reverse}",
         "note": "Q = K হলে সাম্যাবস্থা"
       }
     ],
-    "assumptions": "তাপমাত্রা ধ্রুব"
+    "assumptions": [
+      "তাপমাত্রা ধ্রুব"
+    ]
   },
   "id": "reaction-quotient",
   "chapter": "chemical-equilibrium",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "Q_c < K_c হলে বিক্রিয়া কোন দিকে?",
+      "answer": "\\text{ডান দিকে (উৎপাদনের দিকে) এগোবে}"
+    }
+  ],
+  "memorize": {
+    "trick": "Q আর K-এর গঠন এক, তফাত কেবল সময়ে: Q যেকোনো মুহূর্তে, K কেবল সাম্যাবস্থায়। Q < K হলে সামনে এগোবে, Q > K হলে পিছনে, Q = K হলে সাম্যাবস্থা।",
+    "steps": [
+      "Q = [উৎপাদ]/[বিক্রিয়ক], ঘাত হিসেবে সহগ।",
+      "Q < K → ডানে (উৎপাদের দিকে); Q > K → বামে।",
+      "কঠিন ও শুদ্ধ তরল লেখায় বসে না — শুধু গ্যাস ও দ্রবণ।"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

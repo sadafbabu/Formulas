@@ -1,0 +1,78 @@
+{
+  "id": "circle-tangent-chord",
+  "chapter": "straight-lines",
+  "title": "Tangent & Chord of a Circle",
+  "titleBn": "বৃত্তের স্পর্শক, chord of contact ও radical axis",
+  "summary": "S=0 বৃত্তে point-form tangent, chord of contact এবং দুই বৃত্তের radical axis।",
+  "latex": "S=x^2+y^2+2gx+2fy+c=0,\\quad T=xx_1+yy_1+g(x+x_1)+f(y+y_1)+c=0",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 100,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "circle-equation",
+    "perpendicular-distance",
+    "family-intersection-lines"
+  ],
+  "symbols": [
+    {
+      "symbol": "S",
+      "meaning": "বৃত্তের equation expression",
+      "unit": "—"
+    },
+    {
+      "symbol": "T",
+      "meaning": "bilinear tangent expression",
+      "unit": "—"
+    },
+    {
+      "symbol": "(x_1,y_1)",
+      "meaning": "স্পর্শবিন্দু/বহিঃস্থ বিন্দু",
+      "unit": "বিন্দু"
+    }
+  ],
+  "derivation": {
+    "lead": "বৃত্তের gradient স্পর্শবিন্দুতে normal দেয়; quadratic terms-এ x²→xx₁, y²→yy₁ substitution-এ tangent form আসে।",
+    "steps": [
+      {
+        "title": "point tangent",
+        "latex": "T=0",
+        "note": "(x₁,y₁) বৃত্তের উপর হলে tangent; বাইরে হলে দুই tangent-এর chord of contact।"
+      },
+      {
+        "title": "tangent length",
+        "latex": "\\ell=\\sqrt{S_1},\\quad S_1=x_1^2+y_1^2+2gx_1+2fy_1+c",
+        "note": "বিন্দু বাইরে হলে S₁>0; উপর হলে 0; ভিতরে হলে negative।"
+      },
+      {
+        "title": "radical axis",
+        "latex": "S_1-S_2=0",
+        "note": "দুই বৃত্তের সমশক্তি বিন্দুগুলোর রেখা; quadratic terms কেটে linear equation হয়।"
+      }
+    ],
+    "assumptions": [
+      "দুই বৃত্তের x² ও y²-এর সহগ normalize করে ১ ধরা হয়েছে।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission",
+      "question": "x^2+y^2=25 বৃত্তের (3,4) বিন্দুতে tangent কী?",
+      "answer": "3x+4y=25"
+    }
+  ],
+  "memorize": {
+    "trick": "Circle tangent-এর magic substitution: x²→xx₁, y²→yy₁, 2gx→g(x+x₁), 2fy→f(y+y₁)—ফল T=0। Tangent length = √S₁।",
+    "steps": [
+      "দুই বৃত্তের radical axis সরাসরি S₁−S₂=0।",
+      "স্পর্শবিন্দুতে radius ⟂ tangent।"
+    ]
+  }
+}

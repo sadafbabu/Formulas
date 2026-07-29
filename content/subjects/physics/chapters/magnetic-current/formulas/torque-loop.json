@@ -4,27 +4,56 @@
   "titleBn": "কুণ্ডলীতে টর্ক",
   "latex": "\\tau = M B \\sin \\theta",
   "summary": "সুষম B-তে অবস্থিত প্রবাহকুণ্ডলীর ওপর প্রযুক্ত ঘূর্ণন টর্ক।",
-  "tags": ["hsc", "eng-admission", "varsity", "2-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 2,
-  "subjects": ["physics"],
-  "related": ["magnetic-moment", "lorentz"],
+  "order": 140,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "magnetic-moment",
+    "lorentz"
+  ],
   "symbols": [
-    { "symbol": "\\tau", "meaning": "প্রযুক্ত টর্ক", "unit": "N·m" },
-    { "symbol": "M", "meaning": "কুণ্ডলীর চৌম্বক ভ্রামক (NIA)", "unit": "A·m²" },
-    { "symbol": "B", "meaning": "বাইরের সুষম চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "\\theta", "meaning": "চৌম্বক ক্ষেত্র B ও কুণ্ডলীর লম্ব (মেৰু ভেক্টর M)-এর মধ্যবর্তী কোণ", "unit": "°" }
+    {
+      "symbol": "\\tau",
+      "meaning": "প্রযুক্ত টর্ক",
+      "unit": "N·m"
+    },
+    {
+      "symbol": "M",
+      "meaning": "কুণ্ডলীর চৌম্বক ভ্রামক (NIA)",
+      "unit": "A·m²"
+    },
+    {
+      "symbol": "B",
+      "meaning": "বাইরের সুষম চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "চৌম্বক ক্ষেত্র B ও কুণ্ডলীর লম্ব (মেরু ভেক্টর M)-এর মধ্যবর্তী কোণ",
+      "unit": "°"
+    }
   ],
   "derivation": {
-    "lead": "ভেক্টর ক্রস গুণন সমীকরণ:",
+    "lead": "কুণ্ডলীর তল B-এর সমান্তরাল হলে area normal তথা M ⟂ B, তাই টর্ক সর্বোচ্চ; M ∥ B হলে টর্ক শূন্য।",
     "steps": [
       {
         "title": "টর্ক ভেক্টর সংজ্ঞায়ন",
         "latex": "\\vec{\\tau} = \\vec{M} \\times \\vec{B}",
-        "note": "কুণ্ডলী চৌম্বক ক্ষেত্রের সমান্তরালে থাকলে টর্ক সর্বোচ্চ ($\\theta = 90^\\circ$) হয়।"
+        "note": "কুণ্ডলী চৌম্বক ক্ষেত্রের সমান্তরালে থাকলে টর্ক সর্বোচ্চ (\\theta = 90^\\circ) হয়।"
       }
     ],
-    "assumptions": ["চৌম্বক ক্ষেত্রটি সুষম।"]
+    "assumptions": [
+      "চৌম্বক ক্ষেত্রটি সুষম।"
+    ]
   },
   "questions": [
     {
@@ -32,5 +61,12 @@
       "question": "১০ cm × ১৫ cm আয়তাকার ১০০ পাকের কুণ্ডলীতে ২ A প্রবাহ হচ্ছে। কুণ্ডলীটি ০.৪ T সুষম চৌম্বক ক্ষেত্রে তার সমতলের সাথে ৩০° কোণে থাকলে প্রযুক্ত টর্ক কত?",
       "answer": "M = 100 \\times 2 \\times (0.1 \\times 0.15) = 3 \\text{ A}\\cdot\\text{m}^2. \\quad \\theta_{\\text{normal}} = 90^\\circ - 30^\\circ = 60^\\circ. \\quad \\tau = 3 \\times 0.4 \\times \\sin 60^\\circ = 1.039 \\text{ N}\\cdot\\text{m}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "τ = MB sinθ — তলের সমতলে B থাকলে (θ = 90°) টর্ক সর্বোচ্চ, তলের লম্বে থাকলে (θ = 0) টর্ক শূন্য।",
+    "steps": [
+      "M = NIA বসিয়ে τ = NIAB sinθ।",
+      "টর্ক সর্বোচ্চ যখন θ = 90°, সাম্যাবস্থা যখন θ = 0।"
+    ]
+  }
 }

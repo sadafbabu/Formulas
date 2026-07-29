@@ -1,0 +1,73 @@
+{
+  "id": "maxima-minima",
+  "chapter": "calculus",
+  "title": "Maxima, Minima & Tangent",
+  "titleBn": "সর্বোচ্চ-সর্বনিম্ন, স্পর্শক ও normal",
+  "summary": "Stationary point, second derivative test এবং curve-এর tangent/normal-এর equation।",
+  "latex": "f'(a)=0,\\quad f''(a)>0\\Rightarrow\\min,\\quad f''(a)<0\\Rightarrow\\max,\\quad m_{\\mathrm{tan}}=f'(a)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 100,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "standard-derivatives",
+    "differentiation-chain-rule",
+    "definite-integral-area"
+  ],
+  "symbols": [
+    {
+      "symbol": "f'(a)",
+      "meaning": "a-তে tangent-এর slope",
+      "unit": "—"
+    },
+    {
+      "symbol": "f''(a)",
+      "meaning": "concavity test",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Local extremum-এ smooth curve-এর tangent horizontal, তাই f′=0; f″ slope-এর পরিবর্তন দেখে concavity বলে।",
+    "steps": [
+      {
+        "title": "second derivative test",
+        "latex": "f'(a)=0;\\quad f''(a)>0:\\min,\\quad f''(a)<0:\\max",
+        "note": "f″=0 হলে test inconclusive—sign change বা higher derivative দেখুন।"
+      },
+      {
+        "title": "tangent",
+        "latex": "y-f(a)=f'(a)(x-a)",
+        "note": "Point-slope form।"
+      },
+      {
+        "title": "normal",
+        "latex": "y-f(a)=-\\frac1{f'(a)}(x-a)",
+        "note": "Tangent ও normal-এর slope product −1; f′=0 হলে normal vertical।"
+      }
+    ],
+    "assumptions": [
+      "Function extremum-এর আশেপাশে differentiable।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "f(x)=x^3-3x^2+2-এর local extrema নির্ণয় করুন।",
+      "answer": "f'=3x(x-2)=0\\Rightarrow x=0,2;\\ f''=6x-6;\\ x=0:\\max f=2,\\ x=2:\\min f=-2"
+    }
+  ],
+  "memorize": {
+    "trick": "প্রথম derivative শূন্যে candidate; দ্বিতীয় derivative positive মানে cup (minimum), negative মানে cap (maximum)—‘+ cup, − cap’।",
+    "steps": [
+      "Endpoint-সহ absolute max/min তুলনা করতে হবে।",
+      "Normal slope = −1/(tangent slope)।"
+    ]
+  }
+}

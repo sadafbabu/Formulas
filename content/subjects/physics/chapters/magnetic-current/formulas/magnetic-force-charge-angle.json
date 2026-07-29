@@ -2,35 +2,72 @@
   "id": "magnetic-force-charge-angle",
   "title": "Helical Path of Charged Particle",
   "titleBn": "তির্যক আধানের সর্পিল (Helix) গতিপথ ও পিচ",
-  "latex": "R = \\frac{m v \\sin \\theta}{q B}, \\quad P = \\frac{2\\pi m v \\cos \\theta}{q B}",
+  "latex": "R = \\frac{m v \\sin \\theta}{|q| B}, \\quad P = \\frac{2\\pi m v \\cos \\theta}{|q| B}",
   "summary": "চৌম্বক ক্ষেত্রের সাথে তির্যক θ কোণে গতিশীল আধানের হেলিকাল বা সর্পিল গতিপথের ব্যাসার্ধ R এবং পিচ P।",
-  "tags": ["eng-admission", "varsity", "3-star"],
+  "tags": [
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 3,
-  "subjects": ["physics"],
-  "related": ["lorentz", "cyclotron-radius"],
+  "order": 300,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "lorentz",
+    "cyclotron-radius"
+  ],
   "symbols": [
-    { "symbol": "R", "meaning": "সর্পিল বৃত্তের ব্যাসার্ধ", "unit": "m" },
-    { "symbol": "P", "meaning": "পিচ (অক্ষ বরাবর এক ঘূর্ণনে অতিক্রান্ত দূরত্ব)", "unit": "m" },
-    { "symbol": "v", "meaning": "কণার মোট বেগ", "unit": "m/s" },
-    { "symbol": "\\theta", "meaning": "বেগ v ও চৌম্বক ক্ষেত্র B এর অন্তর্বর্তী কোণ", "unit": "°" }
+    {
+      "symbol": "R",
+      "meaning": "সর্পিল বৃত্তের ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "P",
+      "meaning": "পিচ (অক্ষ বরাবর এক ঘূর্ণনে অতিক্রান্ত দূরত্ব)",
+      "unit": "m"
+    },
+    {
+      "symbol": "v",
+      "meaning": "কণার মোট বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "বেগ v ও চৌম্বক ক্ষেত্র B এর অন্তর্বর্তী কোণ",
+      "unit": "°"
+    }
   ],
   "derivation": {
-    "lead": "বেগ উপাংশ বিভাজন $v_{\\perp} = v \\sin\\theta$ ও $v_{\\parallel} = v \\cos\\theta$:",
+    "lead": "বেগ উপাংশ বিভাজন v_{\\perp} = v \\sin\\theta ও v_{\\parallel} = v \\cos\\theta:",
     "steps": [
       {
         "title": "উপাংশ বিশ্লেষণ",
         "latex": "R = \\frac{m v_{\\perp}}{q B} = \\frac{m v \\sin \\theta}{q B}, \\quad P = v_{\\parallel} T = (v \\cos \\theta) \\frac{2\\pi m}{q B}",
-        "note": "লরেঞ্জ বল কেবল $v_{\\perp}$ উপাংশের ওপর কাজ করে বৃত্তাকার গতি দেয়।"
+        "note": "লরেঞ্জ বল কেবল v_{\\perp} উপাংশের ওপর কাজ করে বৃত্তাকার গতি দেয়।"
       }
     ],
-    "assumptions": ["চৌম্বক ক্ষেত্র B সুষম ও স্থানিকভাবে অপরিবর্তনীয়।"]
+    "assumptions": [
+      "চৌম্বক ক্ষেত্র B সুষম ও স্থানিকভাবে অপরিবর্তনীয়।",
+      "q দ্বারা charge magnitude |q| বোঝানো হয়েছে"
+    ]
   },
   "questions": [
     {
       "examType": "BUET Admission Special (Hard)",
       "question": "একটি প্রোটন (m = 1.67 × 10⁻²⁷ kg) 0.5 T সুষম চৌম্বক ক্ষেত্রের সাথে ৩০° কোণে 4 × 10⁶ m/s বেগে প্রবেশ করলে সর্পিল ঘূর্ণনের ব্যাসার্ধ R এবং পিচ P কত?",
-      "answer": "R = \\frac{1.67 \\times 10^{-27} \\times 4 \\times 10^6 \\times \\sin 30^\\circ}{1.6 \\times 10^{-19} \\times 0.5} = 0.04175 \\text{ m} = 4.175 \\text{ cm}. \\quad P = \\frac{2\\pi \\times 1.67 \\times 10^{-27} \\times 4 \\times 10^6 \\times \\cos 30^\\circ}{1.6 \\times 10^{-19} \\times 0.5} = 0.2273 \\text{ m} = 22.73 \\text{ cm}"
+      "answer": "R=\\frac{(1.67\\times10^{-27})(4\\times10^6)\\sin30^\\circ}{(1.6\\times10^{-19})(0.5)}\\approx0.0418\\ \\text{m};\\quad P=\\frac{2\\pi(1.67\\times10^{-27})(4\\times10^6)\\cos30^\\circ}{(1.6\\times10^{-19})(0.5)}\\approx0.454\\ \\text{m}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "তির্যক প্রবেশ = সর্পিল পথ। লম্ব উপাংশ (v sinθ) বৃত্ত বানায় → R, সমান্তরাল উপাংশ (v cosθ) সামনে ঠেলে → পিচ।",
+    "steps": [
+      "R = mv sinθ/(qB) — শুধু লম্ব উপাংশ দিয়ে বৃত্ত।",
+      "পিচ P = v cosθ × T = 2πmv cosθ/(qB) — এক পাকে যতটুকু এগোয়।",
+      "θ = 90° হলে পিচ = 0 (নিখাদ বৃত্ত), θ = 0 হলে R = 0 (সরলরেখা)।"
+    ]
+  }
 }

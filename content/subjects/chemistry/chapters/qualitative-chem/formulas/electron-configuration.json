@@ -11,6 +11,7 @@
     "2-star"
   ],
   "importance": 2,
+  "order": 40,
   "symbols": [
     {
       "symbol": "n+l",
@@ -32,9 +33,29 @@
         "note": "n+l সমান হলে ছোট n আগে পূর্ণ হয়"
       }
     ],
-    "assumptions": "ভিত্তি অবস্থা (ground state)"
+    "assumptions": [
+      "ভিত্তি অবস্থা (ground state)"
+    ]
   },
   "id": "electron-configuration",
   "chapter": "qualitative-chem",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "Aufbau নীতি অনুযায়ী কক্ষপূরণের ক্রম কীভাবে লেখা হয়?",
+      "answer": "1s\\,2s\\,2p\\,3s\\,3p\\,4s\\,3d\\,\\ldots"
+    }
+  ],
+  "memorize": {
+    "trick": "(n+l) নিয়ম: যার (n+l) কম, সে আগে ভরে; সমান হলে ছোট n আগে। এজন্যই 4s (4+0=4) ভরে 3d (3+2=5)-এর আগে — এটাই সবচেয়ে বড় ধাঁধা।",
+    "steps": [
+      "ক্রম: 1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p 6s 4f 5d 6p 7s।",
+      "আউফবাউ (কম শক্তি আগে) + পাউলি (দুইয়ের বেশি নয়) + হুন্ড (আগে সব ঘরে একটি করে)।",
+      "ব্যতিক্রম মুখস্থ: Cr = 3d⁵4s¹, Cu = 3d¹⁰4s¹ — অর্ধপূর্ণ ও পূর্ণ d বেশি স্থিতিশীল।"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

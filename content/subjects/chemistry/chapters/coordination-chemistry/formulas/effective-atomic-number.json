@@ -1,0 +1,49 @@
+{
+  "id": "effective-atomic-number",
+  "chapter": "coordination-chemistry",
+  "title": "Effective Atomic Number",
+  "titleBn": "কার্যকর পরমাণু সংখ্যা",
+  "summary": "EAN rule",
+  "latex": "\\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "EAN rule",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কার্যকর পরমাণু সংখ্যা এর মূল সূত্রটি লেখো।",
+      "answer": "\\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}"
+    }
+  ],
+  "memorize": {
+    "trick": "EAN ≈ next noble gas (18 or 36) → stable complex。",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

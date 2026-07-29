@@ -1,0 +1,49 @@
+{
+  "id": "trapezoidal-rule",
+  "chapter": "calculus",
+  "title": "Trapezoidal Rule",
+  "titleBn": "টrapezoidal নিয়ম",
+  "summary": "numerical integration",
+  "latex": "\\int_a^b f(x)\\,dx\\approx\\frac{h}{2}[y_0+2(y_1+\\cdots+y_{n-1})+y_n]",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "1-star"
+  ],
+  "importance": 1,
+  "order": 180,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "numerical integration",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\int_a^b f(x)\\,dx\\approx\\frac{h}{2}[y_0+2(y_1+\\cdots+y_{n-1})+y_n]",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "টrapezoidal নিয়ম এর মূল সূত্রটি লেখো।",
+      "answer": "\\int_a^b f(x)\\,dx\\approx\\frac{h}{2}[y_0+2(y_1+\\cdots+y_{n-1})+y_n]"
+    }
+  ],
+  "memorize": {
+    "trick": "h=(b−a)/n; end points once, middle twice。",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

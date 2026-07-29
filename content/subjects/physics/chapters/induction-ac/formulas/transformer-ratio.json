@@ -5,12 +5,31 @@
   "titleBn": "ট্রান্সফরমারের রূপান্তর অনুপাত",
   "summary": "মুখ্য ও গৌণ কুন্ডলীর ভোল্টেজ, পাকসংখ্যা ও প্রবাহের সম্পর্ক",
   "latex": "\\frac{V_p}{V_s} = \\frac{N_p}{N_s} = \\frac{I_s}{I_p}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 10,
   "symbols": [
-    { "symbol": "V_p, V_s", "meaning": "মুখ্য ও গৌণ কুন্ডলীর বিভব", "unit": "V" },
-    { "symbol": "N_p, N_s", "meaning": "মুখ্য ও গৌণ কুন্ডলীর পাক সংখ্যা", "unit": "সংখ্যা" },
-    { "symbol": "I_p, I_s", "meaning": "মুখ্য ও গৌণ কুন্ডলীর তড়িৎ প্রবাহ", "unit": "A" }
+    {
+      "symbol": "V_p, V_s",
+      "meaning": "মুখ্য ও গৌণ কুন্ডলীর বিভব",
+      "unit": "V"
+    },
+    {
+      "symbol": "N_p, N_s",
+      "meaning": "মুখ্য ও গৌণ কুন্ডলীর পাক সংখ্যা",
+      "unit": "সংখ্যা"
+    },
+    {
+      "symbol": "I_p, I_s",
+      "meaning": "মুখ্য ও গৌণ কুন্ডলীর তড়িৎ প্রবাহ",
+      "unit": "A"
+    }
   ],
   "derivation": {
     "lead": "আদর্শ ট্রান্সফরমারে ক্ষমতা অক্ষুণ্ণ থাকে (Pp = Ps => Vp Ip = Vs Is)।",
@@ -20,7 +39,8 @@
         "latex": "P_{\\text{in}} = P_{\\text{out}} \\implies V_p I_p = V_s I_s \\implies \\frac{V_p}{V_s} = \\frac{I_s}{I_p}",
         "note": "স্ট্যাপ-আপ ট্রান্সফরমারে Ns > Np এবং Vs > Vp"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -28,5 +48,12 @@
       "question": "একটি ট্রান্সফরমারের Np = 100, Ns = 500 এবং Vp = 220 V হলে Vs এর মান কত?",
       "answer": "V_s = V_p \\left(\\frac{N_s}{N_p}\\right) = 220 \\times \\left(\\frac{500}{100}\\right) = 1100\\text{ V}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "V_p/V_s = N_p/N_s = I_s/I_p — ভোল্টেজ ∝ কুণ্ডলী, প্রবাহ ∝ উল্টো।"
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

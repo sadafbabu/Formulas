@@ -1,0 +1,73 @@
+{
+  "id": "binomial-approximation",
+  "chapter": "binomial-theorem",
+  "title": "Binomial Approximation",
+  "titleBn": "দ্বিপদী সন্নিকটীকরণ ও শতকরা ত্রুটি",
+  "summary": "|x| খুব ছোট হলে (1+x)^n-এর প্রথম এক/দুই পদে দ্রুত numerical approximation।",
+  "latex": "(1+x)^n\\approx1+nx+\\frac{n(n-1)}2x^2,\\quad |x|\\ll1",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "generalized-binomial",
+    "binomial-expansion",
+    "limit-evaluation"
+  ],
+  "symbols": [
+    {
+      "symbol": "x",
+      "meaning": "ক্ষুদ্র পরিবর্তন",
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "ঘাত",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\epsilon",
+      "meaning": "relative error",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Generalized binomial series-এ x-এর উচ্চ ঘাতগুলো খুব ছোট হওয়ায় প্রথম কয়েকটি পদ রাখলেই ভালো approximation।",
+    "steps": [
+      {
+        "title": "first order",
+        "latex": "(1+x)^n\\approx1+nx",
+        "note": "Neglected leading error ≈ n(n−1)x²/2।"
+      },
+      {
+        "title": "common forms",
+        "latex": "\\sqrt{1+x}\\approx1+\\frac x2,\\quad \\frac1{1+x}\\approx1-x,\\quad \\frac1{\\sqrt{1+x}}\\approx1-\\frac x2",
+        "note": "Engineering/physics estimation-এ খুব ব্যবহৃত।"
+      }
+    ],
+    "assumptions": [
+      "|x|≪1; চাওয়া accuracy অনুযায়ী যথেষ্ট পদ রাখা।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Eng Admission",
+      "question": "√1.04-কে x² পর্যন্ত (তিন পদে) আনুমানিক নির্ণয় করুন।",
+      "answer": "(1+0.04)^{1/2}\\approx1+\\frac12(0.04)-\\frac18(0.04)^2=1.0198"
+    }
+  ],
+  "memorize": {
+    "trick": "Small x হলে (1+x)^n ≈ 1+nx। Common তিনটি: √(1+x)≈1+x/2; 1/(1+x)≈1−x; 1/√(1+x)≈1−x/2।",
+    "steps": [
+      "x percent হলে decimal-এ বদলান।",
+      "আরও accuracy চাইলে n(n−1)x²/2 যোগ করুন।"
+    ]
+  }
+}

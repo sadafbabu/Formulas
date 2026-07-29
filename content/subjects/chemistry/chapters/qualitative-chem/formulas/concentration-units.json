@@ -1,0 +1,85 @@
+{
+  "id": "concentration-units",
+  "chapter": "qualitative-chem",
+  "title": "Concentration Units",
+  "titleBn": "দ্রবণের ঘনমাত্রা: মোলারিটি, মোলালিটি ও মোল ভগ্নাংশ",
+  "summary": "দ্রবণের সব গুরুত্বপূর্ণ ঘনমাত্রা এককে প্রকাশ ও dilution সম্পর্ক।",
+  "latex": "M=\\frac{n}{V_{\\mathrm{L}}},\\quad m=\\frac{n}{W_{\\mathrm{solvent,kg}}},\\quad x_i=\\frac{n_i}{\\sum n},\\quad M_1V_1=M_2V_2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "ph-poh-water",
+    "buffer-solution",
+    "solubility-product"
+  ],
+  "symbols": [
+    {
+      "symbol": "M",
+      "meaning": "মোলারিটি",
+      "unit": "mol/L"
+    },
+    {
+      "symbol": "m",
+      "meaning": "মোলালিটি",
+      "unit": "mol/kg"
+    },
+    {
+      "symbol": "x_i",
+      "meaning": "মোল ভগ্নাংশ",
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "দ্রবের মোল সংখ্যা",
+      "unit": "mol"
+    }
+  ],
+  "derivation": {
+    "lead": "ঘনমাত্রার এককগুলো ভিন্ন হর ব্যবহার করে; dilution-এ দ্রবের মোল অপরিবর্তিত থাকে।",
+    "steps": [
+      {
+        "title": "মোলারিটি",
+        "latex": "M=\\frac{w/M_r}{V_{\\mathrm L}}",
+        "note": "দ্রবণের আয়তন ব্যবহার হয়; তাপমাত্রায় আয়তন বদলায় বলে M তাপমাত্রা-নির্ভর।"
+      },
+      {
+        "title": "মোলালিটি",
+        "latex": "m=\\frac{w/M_r}{W_{\\mathrm{solvent,kg}}}",
+        "note": "দ্রাবকের ভর ব্যবহার হয়; তাই তাপমাত্রা-নিরপেক্ষ।"
+      },
+      {
+        "title": "লঘুকরণ",
+        "latex": "n_1=n_2\\Rightarrow M_1V_1=M_2V_2",
+        "note": "শুধু দ্রাবক যোগ করলে দ্রবের মোল বদলায় না।"
+      }
+    ],
+    "assumptions": [
+      "দ্রব ও দ্রাবকের মধ্যে বিক্রিয়া নেই।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "২ M দ্রবণের ২৫ mL-কে ১০০ mL করলে নতুন মোলারিটি কত?",
+      "answer": "M_2=\\frac{M_1V_1}{V_2}=\\frac{2\\times25}{100}=0.50\\ \\mathrm M"
+    }
+  ],
+  "memorize": {
+    "trick": "মোলারিটিতে লিটার দ্রবণ, মোলালিটিতে কেজি দ্রাবক—‘M = solution, m = solvent’। শুধু M তাপমাত্রায় বদলায়; m ও mole fraction বদলায় না।",
+    "steps": [
+      "Dilution: M₁V₁ = M₂V₂।",
+      "সব মোল ভগ্নাংশের যোগফল ১।",
+      "ppm = দ্রব/দ্রবণ × 10⁶।"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "total-probability-theorem",
+  "chapter": "probability",
+  "title": "Total Probability",
+  "titleBn": "মোট সম্ভাব্যতা উপপাদ্য",
+  "summary": "P(B)=ΣP(Aᵢ)P(B|Aᵢ)",
+  "latex": "P(B)=\\sum_i P(A_i)P(B|A_i)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "P(B)=ΣP(Aᵢ)P(B|Aᵢ)",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P(B)=\\sum_i P(A_i)P(B|A_i)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "মোট সম্ভাব্যতা উপপাদ্য এর মূল সূত্রটি লেখো।",
+      "answer": "P(B)=\\sum_i P(A_i)P(B|A_i)"
+    }
+  ],
+  "memorize": {
+    "trick": "বিভাজিত নমুনা ক্ষেত্র; Bayes-এর সাথে জোড়া।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

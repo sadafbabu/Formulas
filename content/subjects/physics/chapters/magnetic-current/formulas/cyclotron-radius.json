@@ -2,19 +2,50 @@
   "id": "cyclotron-radius",
   "title": "Cyclotron Path Radius",
   "titleBn": "সাইক্লোট্রনে ঘূর্ণন পথের ব্যাসার্ধ",
-  "latex": "r = \\frac{m v}{q B}",
+  "latex": "r = \\frac{m v}{|q| B}",
   "summary": "চৌম্বক ক্ষেত্রে গতিশীল আধানের বৃত্তাকার ঘূর্ণন পথের ব্যাসার্ধ।",
-  "tags": ["hsc", "eng-admission", "varsity", "1-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "1-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 1,
-  "subjects": ["physics"],
-  "related": ["cyclotron-freq", "lorentz"],
+  "order": 180,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "cyclotron-freq",
+    "lorentz"
+  ],
   "symbols": [
-    { "symbol": "r", "meaning": "ঘূর্ণন পথের ব্যাসার্ধ", "unit": "m" },
-    { "symbol": "m", "meaning": "গতিশীল কণার ভর", "unit": "kg" },
-    { "symbol": "v", "meaning": "কণার লম্ব বেগ", "unit": "m/s" },
-    { "symbol": "q", "meaning": "কণার আধান", "unit": "C" },
-    { "symbol": "B", "meaning": "সুষম চৌম্বক ক্ষেত্র", "unit": "T" }
+    {
+      "symbol": "r",
+      "meaning": "ঘূর্ণন পথের ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "m",
+      "meaning": "গতিশীল কণার ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "v",
+      "meaning": "কণার লম্ব বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "q",
+      "meaning": "কণার আধান",
+      "unit": "C"
+    },
+    {
+      "symbol": "B",
+      "meaning": "সুষম চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    }
   ],
   "derivation": {
     "lead": "কেন্দ্রমুখী বল ও লরেঞ্জ চৌম্বক বলের সমতা:",
@@ -25,7 +56,10 @@
         "note": "ভরবেগ p বাড়লে ঘূর্ণন ব্যাসার্ধ r সমানুপাতিকভাবে বাড়ে।"
       }
     ],
-    "assumptions": ["কণাটি চৌম্বক ক্ষেত্রের সমকোণে ($90^\\circ$) প্রবেশ করে।"]
+    "assumptions": [
+      "কণাটি চৌম্বক ক্ষেত্রের সমকোণে (90^\\circ) প্রবেশ করে।",
+      "q দ্বারা charge magnitude |q| বোঝানো হয়েছে"
+    ]
   },
   "questions": [
     {
@@ -33,5 +67,12 @@
       "question": "একটি আলফা কণা (m = 6.64 × 10⁻²⁷ kg, q = 3.2 × 10⁻¹⁹ C) 0.8 T চৌম্বক ক্ষেত্রে ২ × ১০⁶ m/s বেগে সমকোণে ঘুরলে ব্যাসার্ধ কত?",
       "answer": "r = \\frac{6.64 \\times 10^{-27} \\times 2 \\times 10^6}{3.2 \\times 10^{-19} \\times 0.8} = 0.051875 \\text{ m} = 5.1875 \\text{ cm}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "r = mv/(qB) — 'ভরবেগ ভাগ আধান-ক্ষেত্র'। ভারী বা দ্রুত কণা বড় বৃত্ত আঁকে, শক্তিশালী ক্ষেত্র বৃত্ত ছোট করে।",
+    "steps": [
+      "চৌম্বক বল = কেন্দ্রমুখী বল: qvB = mv²/r।",
+      "v কাটলে r = mv/(qB) = p/(qB)।"
+    ]
+  }
 }

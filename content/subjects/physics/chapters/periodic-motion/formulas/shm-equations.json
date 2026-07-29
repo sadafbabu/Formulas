@@ -1,0 +1,96 @@
+{
+  "id": "shm-equations",
+  "chapter": "periodic-motion",
+  "title": "SHM Displacement, Velocity & Acceleration",
+  "titleBn": "সরল ছন্দিত স্পন্দনের সরণ, বেগ ও ত্বরণ",
+  "summary": "SHM-এর মূল সমীকরণ ও তিন রাশির সম্পর্ক; ত্বরণ সরণের সমানুপাতী ও বিপরীতমুখী।",
+  "latex": "x=A\\sin(\\omega t+\\phi),\\quad v=A\\omega\\cos(\\omega t+\\phi)=\\pm\\omega\\sqrt{A^2-x^2},\\quad a=-\\omega^2x",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "shm-time-period",
+    "shm-energy",
+    "wave-equation"
+  ],
+  "symbols": [
+    {
+      "symbol": "x",
+      "meaning": "সরণ",
+      "unit": "m"
+    },
+    {
+      "symbol": "A",
+      "meaning": "বিস্তার",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\omega",
+      "meaning": "কোণীয় কম্পাঙ্ক",
+      "unit": "rad/s"
+    },
+    {
+      "symbol": "\\phi",
+      "meaning": "আদি দশা",
+      "unit": "rad"
+    },
+    {
+      "symbol": "v",
+      "meaning": "বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "a",
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
+    }
+  ],
+  "derivation": {
+    "lead": "SHM-এর সংজ্ঞা: a ∝ −x। এই অবকল সমীকরণের সমাধানই সাইন ফাংশন।",
+    "steps": [
+      {
+        "title": "মূল শর্ত",
+        "latex": "\\frac{d^2x}{dt^2} = -\\omega^2 x",
+        "note": "ঋণাত্মক চিহ্ন মানে ত্বরণ সর্বদা সাম্য অবস্থানের দিকে।"
+      },
+      {
+        "title": "বেগ",
+        "latex": "v = \\frac{dx}{dt} = A\\omega\\cos(\\omega t + \\phi) = \\omega\\sqrt{A^2 - x^2}",
+        "note": "x = 0 এ v সর্বোচ্চ = Aω; x = ±A এ v = 0।"
+      },
+      {
+        "title": "ত্বরণ",
+        "latex": "a = \\frac{dv}{dt} = -A\\omega^2\\sin(\\omega t+\\phi) = -\\omega^2 x",
+        "note": "x = ±A এ |a| সর্বোচ্চ = Aω²; x = 0 এ a = 0।"
+      }
+    ],
+    "assumptions": [
+      "ফেরানো বল সরণের সমানুপাতী (হুকের সূত্র মেনে চলে)।",
+      "বাধা উপেক্ষণীয়।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "৫ cm বিস্তার ও ২ s পর্যায়কালের SHM-এ সাম্য অবস্থান থেকে ৩ cm দূরে বেগ কত?",
+      "answer": "\\omega = \\frac{2\\pi}{2} = \\pi, \\quad v = \\pi\\sqrt{25-9} = 4\\pi \\approx 12.57\\ \\text{cm/s}"
+    }
+  ],
+  "memorize": {
+    "trick": "মনে রাখুন উল্টো সম্পর্ক: কেন্দ্রে বেগ সর্বোচ্চ কিন্তু ত্বরণ শূন্য; প্রান্তে ত্বরণ সর্বোচ্চ কিন্তু বেগ শূন্য। v_max = Aω, a_max = Aω²।",
+    "steps": [
+      "x = A sin(ωt) — সাম্য অবস্থান থেকে শুরু হলে সাইন, প্রান্ত থেকে শুরু হলে কোসাইন।",
+      "v = ω√(A² − x²) — সরণ থেকে সরাসরি বেগ।",
+      "a = −ω²x — ঋণাত্মক চিহ্ন বাদ দিলে SHM-এর সংজ্ঞাই থাকে না।"
+    ]
+  }
+}

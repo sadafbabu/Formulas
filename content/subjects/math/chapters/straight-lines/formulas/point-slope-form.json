@@ -1,0 +1,49 @@
+{
+  "id": "point-slope-form",
+  "chapter": "straight-lines",
+  "title": "Point-Slope Form",
+  "titleBn": "বিন্দু-ঢাল রূপ",
+  "summary": "y−y₁=m(x−x₁)",
+  "latex": "y-y_1=m(x-x_1)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 150,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "y−y₁=m(x−x₁)",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "y-y_1=m(x-x_1)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বিন্দু-ঢাল রূপ এর মূল সূত্রটি লেখো।",
+      "answer": "y-y_1=m(x-x_1)"
+    }
+  ],
+  "memorize": {
+    "trick": "One point + slope → line equation。",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

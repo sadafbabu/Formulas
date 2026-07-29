@@ -1,0 +1,49 @@
+{
+  "id": "bragg-equation",
+  "chapter": "solid-state-chemistry",
+  "title": "Bragg's Equation",
+  "titleBn": "ব্র্যাগের সমীকরণ",
+  "summary": "nλ=2d sinθ",
+  "latex": "n\\lambda=2d\\sin\\theta",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "nλ=2d sinθ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "n\\lambda=2d\\sin\\theta",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ব্র্যাগের সমীকরণ এর মূল সূত্রটি লেখো।",
+      "answer": "n\\lambda=2d\\sin\\theta"
+    }
+  ],
+  "memorize": {
+    "trick": "X-ray diffraction; n=order, d=interplanar spacing。",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

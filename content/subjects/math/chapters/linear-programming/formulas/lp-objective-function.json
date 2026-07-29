@@ -1,0 +1,49 @@
+{
+  "id": "lp-objective-function",
+  "chapter": "linear-programming",
+  "title": "Objective Function",
+  "titleBn": "উদ্দেশ্য ফাংশন",
+  "summary": "Z=ax+by",
+  "latex": "Z=ax+by",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Z=ax+by",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "Z=ax+by",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "উদ্দেশ্য ফাংশন এর মূল সূত্রটি লেখো।",
+      "answer": "Z=ax+by"
+    }
+  ],
+  "memorize": {
+    "trick": "Maximize বা Minimize করতে হবে Z = ax+by。",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

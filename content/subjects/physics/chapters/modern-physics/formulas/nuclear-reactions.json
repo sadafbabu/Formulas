@@ -1,0 +1,81 @@
+{
+  "id": "nuclear-reactions",
+  "chapter": "modern-physics",
+  "title": "Nuclear Reactions: Fission & Fusion",
+  "titleBn": "নিউক্লিয়ার বিভাজন, সংযোজন ও Q-মান",
+  "summary": "ভারী নিউক্লিয়াসের বিভাজন ও হালকা নিউক্লিয়াসের সংযোজন এবং শক্তি নির্গমনের হিসাব।",
+  "latex": "\\ce{^{235}_{92}U + ^1_0n -> ^{141}_{56}Ba + ^{92}_{36}Kr + 3^1_0n} + Q, \\quad Q = (\\Delta m)c^2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "mass-defect-binding-energy",
+    "radioactive-decay",
+    "mass-energy-photoelectric"
+  ],
+  "symbols": [
+    {
+      "symbol": "Q",
+      "meaning": "বিক্রিয়ার শক্তি",
+      "unit": "MeV"
+    },
+    {
+      "symbol": "\\Delta m",
+      "meaning": "বিক্রিয়ক ও উৎপাদের ভর পার্থক্য",
+      "unit": "u"
+    },
+    {
+      "symbol": "k",
+      "meaning": "গুণন গুণক (শিকল বিক্রিয়ায়)",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "বিক্রিয়ায় ভর সংখ্যা ও আধান সংরক্ষিত থাকে; ভরের ঘাটতিই শক্তি হয়ে বেরোয়।",
+    "steps": [
+      {
+        "title": "সংরক্ষণ নিয়ম",
+        "latex": "\\sum A\\ (\\text{ভর সংখ্যা}) \\text{ ও } \\sum Z\\ (\\text{আধান}) \\text{ উভয় পাশে সমান}",
+        "note": "সমীকরণ মেলানোর প্রথম কাজ — উপরে-নিচে যোগফল মেলাতে হবে।"
+      },
+      {
+        "title": "Q-মান",
+        "latex": "Q = (m_{\\text{বিক্রিয়ক}} - m_{\\text{উৎপাদ}}) \\times 931.5\\ \\text{MeV}",
+        "note": "Q > 0 হলে শক্তি নির্গত (exoergic), Q < 0 হলে শক্তি শোষিত।"
+      },
+      {
+        "title": "শিকল বিক্রিয়া",
+        "latex": "k<1:\\ \\text{subcritical};\\quad k=1:\\ \\text{critical/steady};\\quad k>1:\\ \\text{supercritical}",
+        "note": "k>1 মানে neutron population বাড়ে; এটি নিজে থেকেই 'বোমা' বোঝায় না—rate, geometry ও control গুরুত্বপূর্ণ।"
+      }
+    ],
+    "assumptions": [
+      "বিক্রিয়ার আগে-পরে ভর সংখ্যা ও আধান সংরক্ষিত।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical Admission",
+      "question": "\\ce{^{235}U} বিভাজনে প্রতি বিভাজনে ২০০ MeV শক্তি পাওয়া গেলে ১ g ইউরেনিয়াম থেকে কত শক্তি মিলবে?",
+      "answer": "N = \\frac{1}{235} \\times 6.02\\times10^{23} = 2.56\\times10^{21}, \\quad E = 2.56\\times10^{21} \\times 200\\ \\text{MeV} \\approx 8.2\\times10^{10}\\ \\text{J}"
+    }
+  ],
+  "memorize": {
+    "trick": "বিভাজন = ভারী ভাঙে (ইউরেনিয়াম, রিঅ্যাক্টর), সংযোজন = হালকা জোড়া লাগে (হাইড্রোজেন, সূর্য)। দুটোতেই শক্তি বেরোয় কারণ দুটোতেই প্রতি নিউক্লিয়নে বন্ধন শক্তি বাড়ে।",
+    "steps": [
+      "সমীকরণ মেলাতে প্রথমে ΣA ও ΣZ মেলান।",
+      "Q = Δm × 931.5 MeV; ধনাত্মক হলে শক্তি নির্গত।",
+      "সংযোজনে প্রতি একক ভরে শক্তি বেশি, কিন্তু বিপুল তাপমাত্রা লাগে (কুলম্ব বাধা)।",
+      "রিঅ্যাক্টরে মডারেটর (ভারী পানি/গ্রাফাইট) নিউট্রন ধীর করে, নিয়ন্ত্রণ দণ্ড (ক্যাডমিয়াম) শুষে নেয়।"
+    ]
+  }
+}

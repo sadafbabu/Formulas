@@ -10,10 +10,11 @@
     "3-star"
   ],
   "importance": 3,
+  "order": 50,
   "symbols": [
     {
       "symbol": "L",
-      "meaning": "স্বাকর্ষণ",
+      "meaning": "স্বাবেশ",
       "unit": "H"
     },
     {
@@ -47,10 +48,28 @@
       }
     ],
     "assumptions": [
-      "ক্ষতি নেই এমন উপাদান"
+      "L ও C আদর্শ; সমস্ত dissipative loss পৃথক R-এ model করা হয়েছে"
     ]
   },
   "id": "lc-lcr-circuit",
   "chapter": "induction-ac",
-  "questions": []
+  "questions": [
+    {
+      "examType": "Eng / HSC",
+      "question": "LC বর্তনীর resonant angular frequency কী?",
+      "answer": "\\omega_0 = \\frac{1}{\\sqrt{LC}}"
+    }
+  ],
+  "memorize": {
+    "trick": "f₀ = 1/(2π√LC) — অনুনাদে X_L = X_C, তাই Z সর্বনিম্ন = R এবং প্রবাহ সর্বোচ্চ। 'অনুনাদে সার্কিট শুধু রোধের মতো আচরণ করে'।",
+    "steps": [
+      "Z = √[R² + (X_L − X_C)²], যেখানে X_L = ωL ও X_C = 1/(ωC)।",
+      "X_L = X_C বসালে ω₀ = 1/√(LC) → f₀ = 1/(2π√LC)।",
+      "অনুনাদে দশা কোণ শূন্য, ক্ষমতা গুণক = ১।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

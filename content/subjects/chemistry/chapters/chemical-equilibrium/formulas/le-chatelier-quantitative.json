@@ -1,0 +1,56 @@
+{
+  "title": "Le Chatelier & Common Ion Effect",
+  "titleBn": "লা শাতেলিয়ে ও সাধারণ আয়ন প্রভাব",
+  "summary": "সাম্যে চাপ/তাপ/ঘনত্ব পরিবর্তন ও সাধারণ আয়ন",
+  "latex": "Q + \\text{stress} \\to \\text{shift}, \\quad K_{sp} = [A^+][B^-]",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "K_{sp}",
+      "meaning": "দ্রবতা গুণফল",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "সাম্যে বাধা দিলে সাম্য বাধা কমানো দিকে সরে যায়।",
+    "steps": [
+      {
+        "title": "সাধারণ আয়ন",
+        "latex": "\\text{common ion} \\Rightarrow \\text{less } \\alpha",
+        "note": "দ্রবতা গুণফল সাম্যে কেবল তাপের উপর নির্ভরশীল"
+      }
+    ],
+    "assumptions": [
+      "স্থির তাপমাত্রা"
+    ]
+  },
+  "id": "le-chatelier-quantitative",
+  "chapter": "chemical-equilibrium",
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "Qc ও Kc তুলনায় বিক্রিয়ার দিক কীভাবে বোঝা যায়?",
+      "answer": "Q_c < K_c \\Rightarrow \\text{ডান দিকে}; Q_c > K_c \\Rightarrow \\text{বাম দিকে}"
+    }
+  ],
+  "memorize": {
+    "trick": "সাম্যাবস্থা চাপ দিলে উল্টো দিকে সরে — 'যেদিকে চাপ, সেদিকের বিপরীতে যাবে'। সাধারণ আয়ন যোগ করলে দ্রাব্যতা কমে (K_sp ধ্রুবই থাকে, শুধু ভাগ বদলায়)।",
+    "steps": [
+      "ঘনমাত্রা বাড়ালে সেই দিক থেকে সরে; চাপ বাড়ালে কম মোল গ্যাসের দিকে যায়।",
+      "তাপ বাড়ালে তাপহারী দিকে যায়; প্রভাবক সাম্যাবস্থা সরায় না, শুধু দ্রুত পৌঁছায়।",
+      "সাধারণ আয়ন প্রভাব: K_sp = [A⁺][B⁻] ধ্রুব, তাই এক আয়ন বাড়ালে অন্যটি কমতে বাধ্য।"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

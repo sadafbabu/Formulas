@@ -1,0 +1,53 @@
+{
+  "id": "delta-g-equilibrium",
+  "chapter": "chemical-equilibrium",
+  "title": "Gibbs Energy & Equilibrium",
+  "titleBn": "গিবস মুক্তশক্তি ও সাম্যাবস্থা",
+  "summary": "ΔG° ও K এর সম্পর্ক",
+  "latex": "\\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "ΔG° ও K এর সম্পর্ক",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "গিবস মুক্তশক্তি ও সাম্যাবস্থা এর মূল সূত্রটি লেখো।",
+      "answer": "\\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q"
+    }
+  ],
+  "memorize": {
+    "trick": "ΔG° = −RT ln K; Q=K হলে ΔG=0।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "hess-gibbs",
+    "reaction-quotient"
+  ]
+}

@@ -1,4 +1,5 @@
 import katex from 'katex'
+import 'katex/dist/contrib/mhchem.mjs'
 
 interface KatexProps {
   latex: string

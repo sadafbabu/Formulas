@@ -1,0 +1,74 @@
+{
+  "id": "standard-integrals",
+  "chapter": "calculus",
+  "title": "Standard Integrals",
+  "titleBn": "প্রমাণ যোগজীকরণ সূত্রসমূহ",
+  "summary": "Power, exponential, logarithmic, trigonometric ও inverse-trigonometric standard integrals।",
+  "latex": "\\int x^n dx=\\frac{x^{n+1}}{n+1}+C,\\quad\\int\\frac{dx}{x}=\\ln|x|+C,\\quad\\int e^x dx=e^x+C",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "integration-by-parts",
+    "integration-substitution",
+    "fundamental-theorem"
+  ],
+  "symbols": [
+    {
+      "symbol": "C",
+      "meaning": "arbitrary constant",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "ধনাত্মক ধ্রুবক",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Integration differentiation-এর inverse; প্রতিটি formula derivative করে যাচাই করা যায়।",
+    "steps": [
+      {
+        "title": "trigonometric",
+        "latex": "\\int\\sin x\\,dx=-\\cos x+C,\\quad\\int\\cos x\\,dx=\\sin x+C,\\quad\\int\\sec^2x\\,dx=\\tan x+C",
+        "note": "Derivative table উল্টো পড়ুন।"
+      },
+      {
+        "title": "inverse forms",
+        "latex": "\\int\\frac{dx}{a^2+x^2}=\\frac1a\\tan^{-1}\\frac xa+C,\\quad\\int\\frac{dx}{\\sqrt{a^2-x^2}}=\\sin^{-1}\\frac xa+C",
+        "note": "plus x² ⇒ tan inverse; root-এ a²−x² ⇒ sin inverse।"
+      },
+      {
+        "title": "log forms",
+        "latex": "\\int\\tan x\\,dx=\\ln|\\sec x|+C,\\quad\\int\\sec x\\,dx=\\ln|\\sec x+\\tan x|+C",
+        "note": "Absolute value domain রক্ষা করে।"
+      }
+    ],
+    "assumptions": [
+      "Indefinite integral-এ constant C অবশ্যই।",
+      "n≠−1 power rule-এ।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Varsity Admission",
+      "question": "\\int\\left(3x^2+\\frac2x+e^x\\right)dx",
+      "answer": "x^3+2\\ln|x|+e^x+C"
+    }
+  ],
+  "memorize": {
+    "trick": "Power integration-এ ঘাত এক বাড়িয়ে নতুন ঘাত দিয়ে ভাগ; শুধু n=−1 ব্যতিক্রম—সেখানে ln|x|। Plus x² denominator → tan⁻¹; √(a²−x²) → sin⁻¹।",
+    "steps": [
+      "Indefinite integral-এ +C বাদ দেবেন না।",
+      "উত্তর derivative করে original integrand ফিরছে কি না দেখুন।"
+    ]
+  }
+}

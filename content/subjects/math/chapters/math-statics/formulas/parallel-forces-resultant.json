@@ -1,0 +1,49 @@
+{
+  "id": "parallel-forces-resultant",
+  "chapter": "math-statics",
+  "title": "Resultant of Parallel Forces",
+  "titleBn": "সমান্তরাল বলের লব্ধি",
+  "summary": "R=ΣF",
+  "latex": "R=\\sum F_i,\\quad \\bar{x}=\\frac{\\sum F_i x_i}{\\sum F_i}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "R=ΣF",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "R=\\sum F_i,\\quad \\bar{x}=\\frac{\\sum F_i x_i}{\\sum F_i}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সমান্তরাল বলের লব্ধি এর মূল সূত্রটি লেখো।",
+      "answer": "R=\\sum F_i,\\quad \\bar{x}=\\frac{\\sum F_i x_i}{\\sum F_i}"
+    }
+  ],
+  "memorize": {
+    "trick": "লব্ধি = যোগ; moment arm দিয়ে অবস্থান。",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

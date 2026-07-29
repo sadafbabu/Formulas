@@ -6,11 +6,11 @@
   "tags": [
     "hsc",
     "eng-admission",
-    "medical",
     "varsity",
     "3-star"
   ],
   "importance": 3,
+  "order": 20,
   "symbols": [
     {
       "symbol": "T_{r+1}",
@@ -37,9 +37,29 @@
         "note": "মোট পদ সংখ্যা n+1"
       }
     ],
-    "assumptions": "n ধনাত্মক পূর্ণসংখ্যা"
+    "assumptions": [
+      "n ধনাত্মক পূর্ণসংখ্যা"
+    ]
   },
   "id": "general-term",
   "chapter": "binomial-theorem",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "(a+b)^n এর সাধারণ পদ T_{r+1} কী?",
+      "answer": "T_{r+1}=\\binom{n}{r}a^{n-r}b^r"
+    }
+  ],
+  "memorize": {
+    "trick": "T_{r+1} = C(n,r)·a^{n−r}·b^r — 'r+1 তম পদে r ঘাত b-তে'। এক ধাপ পিছিয়ে থাকা সূচকটাই সবচেয়ে বড় ভুলের জায়গা: ৫ম পদ চাইলে r = 4।",
+    "steps": [
+      "T_{r+1} = C(n,r)a^{n−r}b^r — দুই ঘাতের যোগফল সর্বদা n।",
+      "নির্দিষ্ট ঘাতের পদ চাইলে ঘাত মিলিয়ে r বের করুন, তারপর বসান।",
+      "x-মুক্ত পদ (ধ্রুব পদ) চাইলে x-এর মোট ঘাত শূন্য ধরে r বের করুন।"
+    ]
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
 }

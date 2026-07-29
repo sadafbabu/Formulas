@@ -1,0 +1,79 @@
+{
+  "id": "momentum-impulse",
+  "chapter": "dynamics",
+  "title": "Momentum & Impulse",
+  "titleBn": "ভরবেগ, ঘাত ও ভরবেগের সংরক্ষণ",
+  "summary": "বল ও সময়ের গুণফল ঘাত, যা ভরবেগের পরিবর্তনের সমান; বাহ্যিক বল না থাকলে মোট ভরবেগ ধ্রুব।",
+  "latex": "\\vec p=m\\vec v,\\quad \\vec J=\\int\\vec F\\,dt=\\Delta\\vec p=\\vec F_{\\mathrm{avg}}\\Delta t,\\quad \\vec F=\\frac{d\\vec p}{dt}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "newtons-laws",
+    "elastic-collision"
+  ],
+  "symbols": [
+    {
+      "symbol": "p",
+      "meaning": "রৈখিক ভরবেগ",
+      "unit": "kg·m/s"
+    },
+    {
+      "symbol": "J",
+      "meaning": "ঘাত (impulse)",
+      "unit": "N·s"
+    },
+    {
+      "symbol": "F",
+      "meaning": "প্রযুক্ত বল",
+      "unit": "N"
+    },
+    {
+      "symbol": "\\Delta t",
+      "meaning": "বল ক্রিয়ার সময়",
+      "unit": "s"
+    }
+  ],
+  "derivation": {
+    "lead": "নিউটনের ২য় সূত্রের প্রকৃত রূপ F = dp/dt — এখান থেকেই ঘাত ও সংরক্ষণ সূত্র আসে।",
+    "steps": [
+      {
+        "title": "ঘাত-ভরবেগ উপপাদ্য",
+        "latex": "\\int F\\,dt = \\int \\frac{dp}{dt}dt = \\Delta p",
+        "note": "F–t লেখচিত্রের নিচের ক্ষেত্রফলই ঘাত।"
+      },
+      {
+        "title": "সংরক্ষণ সূত্র",
+        "latex": "F_{ext} = 0 \\Rightarrow \\frac{dp}{dt} = 0 \\Rightarrow p = \\text{ধ্রুব}",
+        "note": "সংঘর্ষ ও বিস্ফোরণে এই সূত্রই মূল হাতিয়ার।"
+      }
+    ],
+    "assumptions": [
+      "বিবেচ্য বস্তুতন্ত্রে বাহ্যিক বল শূন্য।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical Admission",
+      "question": "০.১৫ kg ভরের একটি বল ২০ m/s বেগে দেয়ালে লেগে একই বেগে ফিরে আসল। ভরবেগের পরিবর্তন কত?",
+      "answer": "\\Delta p = m(v_f - v_i) = 0.15(-20 - 20) = -6\\ \\text{kg·m/s}, \\quad |\\Delta p| = 6\\ \\text{N·s}"
+    }
+  ],
+  "memorize": {
+    "trick": "ঘাত = বল × সময় = ভরবেগের পরিবর্তন। এজন্যই ক্রিকেটে ক্যাচ ধরার সময় হাত পিছিয়ে নেওয়া হয় — Δt বাড়লে একই Δp-এর জন্য বল F কমে যায়। এয়ারব্যাগ ও হেলমেটের নীতিও একই।",
+    "steps": [
+      "J = FΔt = Δp — তিনটি একই জিনিস।",
+      "ফিরে আসা বস্তুতে চিহ্ন বদলায়, তাই Δp = m(v + u) — এখানেই সবচেয়ে বেশি ভুল হয়।",
+      "বাহ্যিক বল শূন্য হলে Σp আগে = Σp পরে।"
+    ]
+  }
+}

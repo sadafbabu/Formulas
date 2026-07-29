@@ -1,0 +1,50 @@
+{
+  "id": "mole-avogadro",
+  "chapter": "qualitative-chem",
+  "title": "Mole & Avogadro Number",
+  "titleBn": "মোল ধারণা ও অ্যাভোগাড্রো সংখ্যা",
+  "summary": "মোল, কণা সংখ্যা ও মোলার ভর",
+  "latex": "n=\\frac{m}{M}=\\frac{N}{N_A},\\quad N_A=6.022\\times10^{23}\\,\\mathrm{mol^{-1}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "মোল, কণা সংখ্যা ও মোলার ভর",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "n=\\frac{m}{M}=\\frac{N}{N_A},\\quad N_A=6.022\\times10^{23}\\,\\mathrm{mol^{-1}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "মোল ধারণা ও অ্যাভোগাড্রো সংখ্যা এর মূল সূত্রটি লেখো।",
+      "answer": "n=\\frac{m}{M}=\\frac{N}{N_A},\\quad N_A=6.022\\times10^{23}\\,\\mathrm{mol^{-1}}"
+    }
+  ],
+  "memorize": {
+    "trick": "n = m/M = N/N_A — তিন রাস্তায় মোল।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

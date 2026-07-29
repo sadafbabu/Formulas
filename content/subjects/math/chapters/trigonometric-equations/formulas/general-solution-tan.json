@@ -1,0 +1,49 @@
+{
+  "id": "general-solution-tan",
+  "chapter": "trigonometric-equations",
+  "title": "General Solution tanθ=k",
+  "titleBn": "tanθ=k-এর সাধারণ সমাধান",
+  "summary": "θ=nπ+α",
+  "latex": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 170,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "θ=nπ+α",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "tanθ=k-এর সাধারণ সমাধান এর মূল সূত্রটি লেখো।",
+      "answer": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k"
+    }
+  ],
+  "memorize": {
+    "trick": "Period π (not 2π) for tan; simpler than sin/cos。",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

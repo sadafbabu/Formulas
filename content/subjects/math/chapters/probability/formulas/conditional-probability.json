@@ -1,0 +1,49 @@
+{
+  "id": "conditional-probability",
+  "chapter": "probability",
+  "title": "Conditional Probability",
+  "titleBn": "শর্তাধীন সম্ভাব্যতা",
+  "summary": "P(A|B)",
+  "latex": "P(A|B)=\\frac{P(A\\cap B)}{P(B)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "P(A|B)",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P(A|B)=\\frac{P(A\\cap B)}{P(B)}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "শর্তাধীন সম্ভাব্যতা এর মূল সূত্রটি লেখো।",
+      "answer": "P(A|B)=\\frac{P(A\\cap B)}{P(B)}"
+    }
+  ],
+  "memorize": {
+    "trick": "B ঘটেছে ধরে A-এর সম্ভাব্যতা; ভajra = P(A∩B)/P(B)。",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

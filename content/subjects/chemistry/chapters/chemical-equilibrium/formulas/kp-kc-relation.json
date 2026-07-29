@@ -4,15 +4,42 @@
   "title": "Equilibrium Constants Kp and Kc Relation",
   "titleBn": "সাম্যধ্রুবক Kp ও Kc এর সম্পর্ক",
   "summary": "আংশিক চাপ ও মোলার ঘনমাত্রার সাহায্যে রাসায়নিক সাম্যধ্রুবক",
-  "latex": "K_p = K_c (R T)^{\\Delta n}, \\quad \\Delta n = n_{\\text{products}} - n_{\\text{reactants}}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "latex": "K_p = K_c (RT)^{\\Delta n}, \\quad \\Delta n = (\\text{gas prod} - \\text{gas reactant})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 10,
   "symbols": [
-    { "symbol": "K_p", "meaning": "আংশিক চাপে সাম্যধ্রুবক", "unit": "(atm)Δⁿ" },
-    { "symbol": "K_c", "meaning": "মোলার ঘনমাত্রায় সাম্যধ্রুবক", "unit": "(mol/L)Δⁿ" },
-    { "symbol": "R", "meaning": "গ্যাস ধ্রুবক (0.0821 L·atm/mol·K)", "unit": "L·atm/(mol·K)" },
-    { "symbol": "T", "meaning": "পরম তাপমাত্রা", "unit": "K" },
-    { "symbol": "\\Delta n", "meaning": "গ্যাসীয় উৎপাদ ও বিক্রিয়কের মোল সংখ্যার পার্থক্য", "unit": "মোল" }
+    {
+      "symbol": "K_p",
+      "meaning": "আংশিক চাপে সাম্যধ্রুবক",
+      "unit": "(atm)Δⁿ"
+    },
+    {
+      "symbol": "K_c",
+      "meaning": "মোলার ঘনমাত্রায় সাম্যধ্রুবক",
+      "unit": "(mol/L)Δⁿ"
+    },
+    {
+      "symbol": "R",
+      "meaning": "গ্যাস ধ্রুবক (0.0821 L·atm/mol·K)",
+      "unit": "L·atm/(mol·K)"
+    },
+    {
+      "symbol": "T",
+      "meaning": "পরম তাপমাত্রা",
+      "unit": "K"
+    },
+    {
+      "symbol": "\\Delta n",
+      "meaning": "গ্যাসীয় উৎপাদ ও বিক্রিয়কের মোল সংখ্যার পার্থক্য",
+      "unit": "এককহীন (stoichiometric coefficient-এর পার্থক্য)"
+    }
   ],
   "derivation": {
     "lead": "আদর্শ গ্যাস সমীকরণ P = (n/V)RT = C RT আংশিক চাপের সূত্রে প্রতিস্থাপন করে প্রাপ্ত।",
@@ -22,6 +49,9 @@
         "latex": "P_A = [A] R T \\implies K_p = \\frac{P_C^c P_D^d}{P_A^a P_B^b} = \\frac{[C]^c [D]^d}{[A]^a [B]^b} (R T)^{(c+d)-(a+b)} = K_c (R T)^{\\Delta n}",
         "note": "Δn = 0 হলে Kp = Kc"
       }
+    ],
+    "assumptions": [
+      "গ্যাসগুলো আদর্শ; Δn কেবল gaseous species-এর coefficient থেকে"
     ]
   },
   "questions": [
@@ -30,5 +60,12 @@
       "question": "N2(g) + 3H2(g) ⇌ 2NH3(g) বিক্রিয়ার জন্য 500 K তাপমাত্রায় Kc = 0.5 M⁻² হলে Kp এর মান কত?",
       "answer": "\\Delta n = 2 - (1 + 3) = -2 \\implies K_p = 0.5 \\times (0.0821 \\times 500)^{-2} = 0.5 \\times (41.05)^{-2} = \\frac{0.5}{1685.1} \\approx 2.967 \\times 10^{-4}\\text{ atm}^{-2}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "Kp = Kc(RT)^Δn — Δn = (গ্যাসীয় উৎপাদ - গ্যাসীয় বিক্রিয়ক) মোল। Δn=0 হলে Kp=Kc।"
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

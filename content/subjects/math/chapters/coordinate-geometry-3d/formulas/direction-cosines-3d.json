@@ -1,0 +1,49 @@
+{
+  "id": "direction-cosines-3d",
+  "chapter": "coordinate-geometry-3d",
+  "title": "Direction Cosines",
+  "titleBn": "দিক্‌কোসাইন",
+  "summary": "l²+m²+n²=1",
+  "latex": "l^2+m^2+n^2=1",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "l²+m²+n²=1",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "l^2+m^2+n^2=1",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "দিক্‌কোসাইন এর মূল সূত্রটি লেখো।",
+      "answer": "l^2+m^2+n^2=1"
+    }
+  ],
+  "memorize": {
+    "trick": "দিক্‌কোসাইনের বর্গের যোগফল = 1 — সবসময়।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

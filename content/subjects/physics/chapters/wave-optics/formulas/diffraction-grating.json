@@ -1,7 +1,7 @@
 {
   "title": "Diffraction Grating Equation",
-  "titleBn": "ব্যাতিচার গ্রেটিং সূত্র",
-  "summary": "গ্রেটিং ব্যাতিচারের উজ্জ্বল ডোরার শর্ত ও গ্রেটিং উপাদান",
+  "titleBn": "অপবর্তন গ্রেটিং সূত্র",
+  "summary": "গ্রেটিং অপবর্তনের উজ্জ্বল ডোরার শর্ত ও গ্রেটিং উপাদান",
   "latex": "(a+b)\\sin\\theta = n\\lambda, \\quad N = \\frac{1}{a+b}",
   "tags": [
     "hsc",
@@ -10,6 +10,7 @@
     "2-star"
   ],
   "importance": 2,
+  "order": 30,
   "symbols": [
     {
       "symbol": "a",
@@ -18,12 +19,12 @@
     },
     {
       "symbol": "b",
-      "meaning": "দুই চিরের মধ্যবর্তী দূরত্ব",
+      "meaning": "দুই স্বচ্ছ চিরের মাঝের অস্বচ্ছ interval-এর প্রস্থ",
       "unit": "m"
     },
     {
       "symbol": "N",
-      "meaning": "গ্রেটিং উপাদান (grating element)",
+      "meaning": "প্রতি একক দৈর্ঘ্যে grating line/slit সংখ্যা",
       "unit": "/m"
     },
     {
@@ -33,7 +34,7 @@
     }
   ],
   "derivation": {
-    "lead": "একাধিক সমান্তরাল চিরের থেকে নির্গত রশ্মির গঠনমূলক ব্যাতিচার শর্ত।",
+    "lead": "একাধিক সমান্তরাল চিরের থেকে নির্গত রশ্মির গঠনমূলক অপবর্তন শর্ত।",
     "steps": [
       {
         "title": "গ্রেটিং সমীকরণ",
@@ -48,5 +49,23 @@
   },
   "id": "diffraction-grating",
   "chapter": "wave-optics",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "ডিফ্র্যাকশন গ্রেটিং এর মূল সমীকরণ কী?",
+      "answer": "d\\sin\\theta=m\\lambda"
+    }
+  ],
+  "memorize": {
+    "trick": "(a+b)sinθ = nλ — এখানে (a+b) হলো গ্রেটিং ধ্রুবক, আর N = 1/(a+b) হলো প্রতি একক দৈর্ঘ্যে দাগের সংখ্যা।",
+    "steps": [
+      "d sinθ = nλ, যেখানে d = a + b = 1/N।",
+      "n = 0 হলো কেন্দ্রীয় ও সব রঙ একসাথে; n বাড়লে বর্ণালি ছড়ায়।",
+      "সর্বোচ্চ ক্রম n ≤ d/λ — এর বেশি ক্রম দেখা যায় না।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

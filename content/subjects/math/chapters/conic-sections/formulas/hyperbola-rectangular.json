@@ -1,0 +1,49 @@
+{
+  "id": "hyperbola-rectangular",
+  "chapter": "conic-sections",
+  "title": "Rectangular Hyperbola",
+  "titleBn": "সমকোণী অধিবৃত্ত",
+  "summary": "xy=c²",
+  "latex": "xy=c^2,\\quad e=\\sqrt{2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 150,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "xy=c²",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "xy=c^2,\\quad e=\\sqrt{2}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সমকোণী অধিবৃত্ত এর মূল সূত্রটি লেখো।",
+      "answer": "xy=c^2,\\quad e=\\sqrt{2}"
+    }
+  ],
+  "memorize": {
+    "trick": "xy=c²-এ লঘুগামী y=±x; e=√2 স্থির।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

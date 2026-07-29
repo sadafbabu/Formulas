@@ -1,0 +1,50 @@
+{
+  "id": "oxidation-number",
+  "chapter": "qualitative-chem",
+  "title": "Oxidation Number",
+  "titleBn": "জারণ সংখ্যা",
+  "summary": "জারণ সংখ্যা নিয়ম ও যোগফল",
+  "latex": "\\sum(\\text{ox. no.})=0\\ (\\text{molecule}),\\quad=\\text{charge}\\ (\\text{ion})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 140,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "জারণ সংখ্যা নিয়ম ও যোগফল",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\sum(\\text{ox. no.})=0\\ (\\text{molecule}),\\quad=\\text{charge}\\ (\\text{ion})",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "জারণ সংখ্যা এর মূল সূত্রটি লেখো।",
+      "answer": "\\sum(\\text{ox. no.})=0\\ (\\text{molecule}),\\quad=\\text{charge}\\ (\\text{ion})"
+    }
+  ],
+  "memorize": {
+    "trick": "অণুতে যোগফল ০; আয়নে = চার্জ।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

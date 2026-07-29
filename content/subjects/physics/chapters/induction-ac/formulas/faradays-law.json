@@ -4,14 +4,37 @@
   "title": "Faraday's & Lenz's Law of Induction",
   "titleBn": "ফ্যারাডে ও লেঞ্জের আবেশ সূত্র",
   "summary": "চৌম্বক ফ্লাক্সের পরিবর্তনের হারের সাথে আবিষ্ট তড়িৎচালক বলের সম্পর্ক",
-  "latex": "\\mathcal{E} = -N \\frac{d\\Phi_B}{dt}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "latex": "\\overline{\\mathcal E}=-N\\frac{\\Delta\\Phi}{\\Delta t},\\quad \\mathcal E=-N\\frac{d\\Phi}{dt};\\quad A,\\theta\\ \\text{ধ্রুব হলে }\\mathcal E=-NA\\cos\\theta\\frac{dB}{dt}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 20,
   "symbols": [
-    { "symbol": "\\mathcal{E}", "meaning": "আবিষ্ট তড়িচ্চালক বল (e.m.f.)", "unit": "V (Volt)" },
-    { "symbol": "N", "meaning": "কুন্ডলীর পাক সংখ্যা", "unit": "সংখ্যা" },
-    { "symbol": "\\Phi_B", "meaning": "চৌম্বক ফ্লাক্স (B·A)", "unit": "Wb (Weber)" },
-    { "symbol": "t", "meaning": "সময়", "unit": "s" }
+    {
+      "symbol": "\\mathcal{E}",
+      "meaning": "আবিষ্ট তড়িচ্চালক বল (e.m.f.)",
+      "unit": "V (Volt)"
+    },
+    {
+      "symbol": "N",
+      "meaning": "কুন্ডলীর পাক সংখ্যা",
+      "unit": "সংখ্যা"
+    },
+    {
+      "symbol": "\\Phi_B",
+      "meaning": "চৌম্বক ফ্লাক্স (B·A)",
+      "unit": "Wb (Weber)"
+    },
+    {
+      "symbol": "t",
+      "meaning": "সময়",
+      "unit": "s"
+    }
   ],
   "derivation": {
     "lead": "লেঞ্জের সূত্রানুসারে আবিষ্ট প্রবাহের দিক এমন হয় যা তার সৃষ্টিকে বাধা দেয় (ঋণাত্মক চিহ্ন)।",
@@ -21,6 +44,9 @@
         "latex": "\\mathcal{E} = -N \\frac{\\Delta \\Phi_B}{\\Delta t} = -N A \\frac{dB}{dt}",
         "note": "স্থির ক্ষেত্রফলে dΦ = A dB"
       }
+    ],
+    "assumptions": [
+      "শেষ রূপে coil area A ও B–area-normal angle θ ধ্রুব"
     ]
   },
   "questions": [
@@ -29,5 +55,17 @@
       "question": "100 পাকের কুন্ডলীতে 0.02 s এ ফ্লাক্স 0.05 Wb হতে কমে 0.01 Wb হলে আবিষ্ট e.m.f. কত?",
       "answer": "\\mathcal{E} = -100 \\frac{0.01 - 0.05}{0.02} = 100 \\times \\frac{0.04}{0.02} = 200\\text{ V}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "ε = −N dΦ/dt — ঋণাত্মক চিহ্নই লেঞ্জের সূত্র: 'আবিষ্ট প্রবাহ পরিবর্তনকে বাধা দেয়'। ফ্লাক্স স্থির থাকলে যত বড়ই হোক, emf শূন্য — পরিবর্তনই আসল।",
+    "steps": [
+      "Φ = BA cosθ; তাই B, A বা θ — যেকোনোটির পরিবর্তনে emf হয়।",
+      "ঋণাত্মক চিহ্ন = লেঞ্জের সূত্র = শক্তির নিত্যতা।",
+      "সরল তারে চলন-emf: ε = Blv।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

@@ -1,0 +1,71 @@
+{
+  "title": "Power, Efficiency & Conservative Force",
+  "titleBn": "ক্ষমতা, দক্ষতা ও সংরক্ষী বল",
+  "summary": "ক্ষমতা, দক্ষতা ও সংরক্ষী বলের সংজ্ঞা",
+  "latex": "P_{\\mathrm{avg}}=\\frac Wt,\\quad P=\\vec F\\cdot\\vec v=Fv\\cos\\theta, \\quad \\eta = \\frac{P_{out}}{P_{in}} \\times 100\\%, \\quad \\oint \\vec{F}\\cdot d\\vec{r} = 0",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "P",
+      "meaning": "ক্ষমতা",
+      "unit": "W"
+    },
+    {
+      "symbol": "F",
+      "meaning": "বল",
+      "unit": "N"
+    },
+    {
+      "symbol": "v",
+      "meaning": "বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "\\eta",
+      "meaning": "দক্ষতা",
+      "unit": "%"
+    }
+  ],
+  "derivation": {
+    "lead": "ক্ষমতা হলো কাজের হার; সংরক্ষী বলের ক্ষেত্রে বিভবশক্তি শুধু অবস্থানের উপর নির্ভরশীল।",
+    "steps": [
+      {
+        "title": "ক্ষমতা সূত্র",
+        "latex": "P = Fv \\cos\\theta",
+        "note": "সংরক্ষী বলের সমবৃত্তীয় সমাকলন শূন্য"
+      }
+    ],
+    "assumptions": [
+      "স্থির অবস্থা"
+    ]
+  },
+  "id": "power-efficiency",
+  "chapter": "work-energy",
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "দক্ষতা \\eta এর সংজ্ঞা কী?",
+      "answer": "\\eta = \\dfrac{P_{\\text{out}}}{P_{\\text{in}}}\\times 100\\%"
+    }
+  ],
+  "memorize": {
+    "trick": "P = W/t = Fv, আর দক্ষতা η = আউটপুট/ইনপুট × ১০০%। সংরক্ষী বলের চিহ্ন: বদ্ধ পথে মোট কাজ শূন্য (∮F·dr = 0)।",
+    "steps": [
+      "সমবেগে চলা গাড়ি/লিফটে P = Fv সরাসরি খাটে।",
+      "η কখনো ১০০% ছাড়ায় না; বাকিটা ঘর্ষণ ও তাপে যায়।",
+      "অভিকর্ষ ও স্প্রিং বল সংরক্ষী, ঘর্ষণ অসংরক্ষী।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

@@ -1,0 +1,82 @@
+{
+  "id": "geostationary-satellite",
+  "chapter": "gravitation",
+  "title": "Geostationary Satellite",
+  "titleBn": "ভূস্থির উপগ্রহ ও কক্ষপথের উচ্চতা",
+  "summary": "পৃথিবীর সাথে তাল মিলিয়ে ঘোরা উপগ্রহের পর্যায়কাল ২৪ ঘণ্টা; সেখান থেকেই কক্ষপথের উচ্চতা বের হয়।",
+  "latex": "T=2\\pi\\sqrt{\\frac{(R+h)^3}{GM}}\\approx86164\\ \\mathrm s,\\quad R+h\\approx42164\\ \\mathrm{km},\\quad h\\approx35786\\ \\mathrm{km}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "orbital-velocity",
+    "satellite-energy",
+    "keplers-laws"
+  ],
+  "symbols": [
+    {
+      "symbol": "T",
+      "meaning": "পর্যায়কাল",
+      "unit": "s",
+      "value": "≈86164 s (23 h 56 min 4 s)"
+    },
+    {
+      "symbol": "h",
+      "meaning": "কক্ষপথের উচ্চতা",
+      "unit": "m",
+      "value": "≈3.5786×10⁷ m"
+    },
+    {
+      "symbol": "R",
+      "meaning": "পৃথিবীর ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "M",
+      "meaning": "পৃথিবীর ভর",
+      "unit": "kg"
+    }
+  ],
+  "derivation": {
+    "lead": "উপগ্রহের পর্যায়কাল পৃথিবীর আবর্তনকালের সমান হলে তা আকাশে স্থির দেখায়।",
+    "steps": [
+      {
+        "title": "কক্ষপথের ব্যাসার্ধ",
+        "latex": "(R+h)^3=\\frac{GMT^2}{4\\pi^2},\\quad T\\approx86164\\ \\mathrm s",
+        "note": "Sidereal day বসিয়ে R+h ≈ 42164 km পাওয়া যায়; 24 h ব্যবহার করলে কাছাকাছি আনুমানিক মান আসে।"
+      },
+      {
+        "title": "উচ্চতা",
+        "latex": "h\\approx42164-6378\\approx35786\\ \\mathrm{km}",
+        "note": "এই কক্ষপথকে বলা হয় জিওসিনক্রোনাস কক্ষপথ।"
+      }
+    ],
+    "assumptions": [
+      "কক্ষপথ বিষুবরেখার তলে ও বৃত্তাকার।",
+      "ঘূর্ণনের দিক পৃথিবীর সাথে একই।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Eng Admission",
+      "question": "ভূস্থির উপগ্রহের কক্ষীয় বেগ কত? (R + h = 42400 km, T = 24 h)",
+      "answer": "v = \\frac{2\\pi(R+h)}{T} = \\frac{2\\pi \\times 4.24\\times10^7}{86400} \\approx 3.08\\ \\text{km/s}"
+    }
+  ],
+  "memorize": {
+    "trick": "ভূস্থির উপগ্রহের period এক sidereal day ≈ ২৩ h ৫৬ min, orbital radius ≈ ৪২১৬৪ km, উচ্চতা ≈ ৩৫৭৮৬ km; স্কুলের হিসাবে প্রায় ২৪ h ও ৩৬০০০ km। কক্ষপথ বিষুবরেখার তলে ও একই দিকে।",
+    "steps": [
+      "T² ∝ r³ (কেপলার) থেকেই উচ্চতা বের হয়।",
+      "কক্ষীয় বেগ ≈ 3.1 km/s — নিচু কক্ষের (≈7.9 km/s) চেয়ে অনেক কম।",
+      "মেরু কক্ষপথের উপগ্রহ ভূস্থির নয়; সেগুলো জরিপ ও আবহাওয়ার কাজে লাগে।"
+    ]
+  }
+}

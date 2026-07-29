@@ -1,0 +1,51 @@
+{
+  "id": "conditional-identity",
+  "chapter": "trigonometric-equations",
+  "title": "Conditional Triangle Identities",
+  "titleBn": "ত্রিভুজে শর্তাধীন অভেদ",
+  "summary": "A+B+C=π হলে tan অভেদ",
+  "latex": "A+B+C=\\pi\\Rightarrow\\tan A+\\tan B+\\tan C=\\tan A\\tan B\\tan C",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 140,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "A+B+C=π হলে tan অভেদ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "A+B+C=\\pi\\Rightarrow\\tan A+\\tan B+\\tan C=\\tan A\\tan B\\tan C",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ত্রিভুজে শর্তাধীন অভেদ এর মূল সূত্রটি লেখো।",
+      "answer": "A+B+C=\\pi\\Rightarrow\\tan A+\\tan B+\\tan C=\\tan A\\tan B\\tan C"
+    }
+  ],
+  "memorize": {
+    "trick": "কোণের যোগ π হলে tan সমষ্টি = tan গুণফল।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "sine-cosine-laws"
+  ]
+}

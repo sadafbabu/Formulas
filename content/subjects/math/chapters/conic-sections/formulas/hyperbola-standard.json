@@ -1,0 +1,49 @@
+{
+  "id": "hyperbola-standard",
+  "chapter": "conic-sections",
+  "title": "Standard Hyperbola",
+  "titleBn": "মানক অধিবৃত্ত",
+  "summary": "x²/a²−y²/b²=1",
+  "latex": "\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "x²/a²−y²/b²=1",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "মানক অধিবৃত্ত এর মূল সূত্রটি লেখো।",
+      "answer": "\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1"
+    }
+  ],
+  "memorize": {
+    "trick": "c²=a²+b² (উপবৃত্তের উল্টো); e>1; শাখা x=±(b/a)y।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

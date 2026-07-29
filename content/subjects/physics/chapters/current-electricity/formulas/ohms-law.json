@@ -5,12 +5,31 @@
   "titleBn": "ওহমের সূত্র",
   "summary": "স্থির তাপমাত্রায় পরিবাহীর তড়িৎ প্রবাহ বিভব পার্থক্যের সমানুপাতিক",
   "latex": "I = \\frac{V}{R}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 20,
   "symbols": [
-    { "symbol": "I", "meaning": "তড়িৎ প্রবাহ", "unit": "A (Ampere)" },
-    { "symbol": "V", "meaning": "পরিবাহীর দুই প্রান্তের বিভব পার্থক্য", "unit": "V (Volt)" },
-    { "symbol": "R", "meaning": "পরিবাহীর রোধ", "unit": "Ω (Ohm)" }
+    {
+      "symbol": "I",
+      "meaning": "তড়িৎ প্রবাহ",
+      "unit": "A (Ampere)"
+    },
+    {
+      "symbol": "V",
+      "meaning": "পরিবাহীর দুই প্রান্তের বিভব পার্থক্য",
+      "unit": "V (Volt)"
+    },
+    {
+      "symbol": "R",
+      "meaning": "পরিবাহীর রোধ",
+      "unit": "Ω (Ohm)"
+    }
   ],
   "derivation": {
     "lead": "পরিবাহীর বিভব পার্থক্য বৃদ্ধির সাথে সাথে ইলেকট্রন প্রবাহের হার বা প্রবাহমাত্রা বৃদ্ধি পায়।",
@@ -20,7 +39,8 @@
         "latex": "I \\propto V \\implies I = G V = \\frac{V}{R}",
         "note": "G = 1/R হলো পরিবাহিতাবোধ (Conductance)"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -28,5 +48,12 @@
       "question": "220 V বিভবে একটি 10 Ω রোধ বিশিষ্ট ডিভাইসে তড়িৎ প্রবাহ কত?",
       "answer": "I = \\frac{220}{10} = 22\\text{ A}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "V = IR — ভোল্টেজ বাড়লে প্রবাহ বাড়ে, রোধ বাড়লে প্রবাহ কমে।"
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

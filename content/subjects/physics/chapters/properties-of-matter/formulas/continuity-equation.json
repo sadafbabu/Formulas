@@ -1,0 +1,50 @@
+{
+  "id": "continuity-equation",
+  "chapter": "properties-of-matter",
+  "title": "Equation of Continuity",
+  "titleBn": "ধারাবাহিকতার সমীকরণ",
+  "summary": "অসংকোচনযোগ্য প্রবাহে Av সংরক্ষণ",
+  "latex": "A_1 v_1=A_2 v_2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "অসংকোচনযোগ্য প্রবাহে Av সংরক্ষণ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "A_1 v_1=A_2 v_2",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ধারাবাহিকতার সমীকরণ এর মূল সূত্রটি লেখো।",
+      "answer": "A_1 v_1=A_2 v_2"
+    }
+  ],
+  "memorize": {
+    "trick": "সরু জায়গায় বেগ বেশি — Av ধ্রুব।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

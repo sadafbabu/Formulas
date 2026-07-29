@@ -1,0 +1,49 @@
+{
+  "id": "pascals-law",
+  "chapter": "properties-of-matter",
+  "title": "Pascal's Law",
+  "titleBn": "প্যাসকেলের সূত্র",
+  "summary": "pressure transmitted",
+  "latex": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "pressure transmitted",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "প্যাসকেলের সূত্র এর মূল সূত্রটি লেখো।",
+      "answer": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}"
+    }
+  ],
+  "memorize": {
+    "trick": "Hydraulic lift: small force × large distance = large force × small distance。",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

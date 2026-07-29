@@ -1,0 +1,74 @@
+{
+  "id": "generalized-binomial",
+  "chapter": "binomial-theorem",
+  "title": "Generalized Binomial Series",
+  "titleBn": "ঋণাত্মক ও ভগ্নাংশ ঘাতের দ্বিপদী বিস্তৃতি",
+  "summary": "যেকোনো বাস্তব index-এ (1+x)^n-এর অসীম series এবং convergence condition।",
+  "latex": "(1+x)^n=1+nx+\\frac{n(n-1)}{2!}x^2+\\frac{n(n-1)(n-2)}{3!}x^3+\\cdots,\\quad |x|<1",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "binomial-expansion",
+    "binomial-approximation",
+    "general-term"
+  ],
+  "symbols": [
+    {
+      "symbol": "n",
+      "meaning": "যেকোনো বাস্তব index",
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "series variable",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Taylor series-এ f(x)=(1+x)^n বসালে successive derivative থেকে coefficient আসে।",
+    "steps": [
+      {
+        "title": "general coefficient",
+        "latex": "T_{r+1}=\\frac{n(n-1)\\cdots(n-r+1)}{r!}x^r",
+        "note": "n nonnegative integer না হলে series অসীম।"
+      },
+      {
+        "title": "negative index",
+        "latex": "(1+x)^{-1}=1-x+x^2-x^3+\\cdots",
+        "note": "Geometric series-এর সাথে মিলে; |x|<1 আবশ্যক।"
+      },
+      {
+        "title": "half index",
+        "latex": "\\sqrt{1+x}=1+\\frac x2-\\frac{x^2}{8}+\\frac{x^3}{16}-\\cdots",
+        "note": "ছোট x-এ approximation-এ ব্যবহৃত।"
+      }
+    ],
+    "assumptions": [
+      "n noninteger/negative হলে interior convergence |x|<1; x=±1 আলাদা endpoint test",
+      "n অঋণাত্মক পূর্ণসংখ্যা হলে series terminate করে এবং সব x-এ valid"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Varsity Admission",
+      "question": "(1+x)^{-2}-এর প্রথম চারটি পদ লিখুন।",
+      "answer": "1-2x+3x^2-4x^3+\\cdots"
+    }
+  ],
+  "memorize": {
+    "trick": "n অঋণাত্মক পূর্ণসংখ্যা হলে finite এবং সব x-এ valid; negative/fractional n হলে infinite, |x|<1-এ নিশ্চিত convergence, endpoints আলাদা test করতে হয়।",
+    "steps": [
+      "(1+x)⁻¹ = 1−x+x²−x³… pattern base হিসেবে মনে রাখুন।",
+      "Convergence condition না লিখলে উত্তর অসম্পূর্ণ।"
+    ]
+  }
+}

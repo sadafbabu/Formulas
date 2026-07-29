@@ -1,0 +1,50 @@
+{
+  "id": "poiseuille-law",
+  "chapter": "properties-of-matter",
+  "title": "Poiseuille's Law",
+  "titleBn": "পয়সেইয়ের সূত্র",
+  "summary": "নলে সান্দ্র প্রবাহের হার",
+  "latex": "Q=\\frac{\\pi P r^4}{8\\eta L}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "নলে সান্দ্র প্রবাহের হার",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "Q=\\frac{\\pi P r^4}{8\\eta L}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পয়সেইয়ের সূত্র এর মূল সূত্রটি লেখো।",
+      "answer": "Q=\\frac{\\pi P r^4}{8\\eta L}"
+    }
+  ],
+  "memorize": {
+    "trick": "Q ∝ r⁴ — ব্যাসার্ধ একটু বাড়লে প্রবাহ অনেক বাড়ে।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

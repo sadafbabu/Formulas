@@ -1,0 +1,49 @@
+{
+  "id": "expected-value",
+  "chapter": "probability",
+  "title": "Expected Value",
+  "titleBn": "প্রত্যাশিত মান",
+  "summary": "E(X)=ΣxP(x)",
+  "latex": "E(X)=\\sum x\\,P(x)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 140,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "E(X)=ΣxP(x)",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "E(X)=\\sum x\\,P(x)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "প্রত্যাশিত মান এর মূল সূত্রটি লেখো।",
+      "answer": "E(X)=\\sum x\\,P(x)"
+    }
+  ],
+  "memorize": {
+    "trick": "গড় = Σ(মান × সম্ভাব্যতা); MCQ-তে দ্রুত।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

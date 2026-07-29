@@ -4,16 +4,43 @@
   "titleBn": "কুণ্ডলী ঘুরানোর কাজ",
   "latex": "W = M B (1 - \\cos \\theta)",
   "summary": "চৌম্বক ক্ষেত্রের সমান্তরাল অবস্থান থেকে θ কোণে কুণ্ডলীকে ঘুরাতে বাহ্যিক বল দ্বারা কৃতকাজ।",
-  "tags": ["hsc", "eng-admission", "varsity", "2-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 2,
-  "subjects": ["physics"],
-  "related": ["torque-loop", "magnetic-potential-energy"],
+  "order": 150,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "torque-loop",
+    "magnetic-potential-energy"
+  ],
   "symbols": [
-    { "symbol": "W", "meaning": "কৃতকাজ", "unit": "J" },
-    { "symbol": "M", "meaning": "কুণ্ডলীর চৌম্বক ভ্রামক (NIA)", "unit": "A·m²" },
-    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "\\theta", "meaning": "ঘূর্ণন কোণ", "unit": "°" }
+    {
+      "symbol": "W",
+      "meaning": "কৃতকাজ",
+      "unit": "J"
+    },
+    {
+      "symbol": "M",
+      "meaning": "কুণ্ডলীর চৌম্বক ভ্রামক (NIA)",
+      "unit": "A·m²"
+    },
+    {
+      "symbol": "B",
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "ঘূর্ণন কোণ",
+      "unit": "°"
+    }
   ],
   "derivation": {
     "lead": "টর্ক সমাকলন করে কাজের সমীকরণ:",
@@ -21,10 +48,12 @@
       {
         "title": "কোণ সমাকলন",
         "latex": "W = \\int_0^{\\theta} \\tau d\\theta = \\int_0^{\\theta} M B \\sin \\theta d\\theta = M B (1 - \\cos \\theta)",
-        "note": "১৮০° ঘুরাতে সর্বোচ্চ কাজ $W_{\\text{max}} = 2 M B$ সম্পাদনা করতে হয়।"
+        "note": "১৮০° ঘুরাতে সর্বোচ্চ কাজ W_{\\text{max}} = 2 M B সম্পাদনা করতে হয়।"
       }
     ],
-    "assumptions": ["কুণ্ডলীটি স্থির অবস্থান থেকে সমকৌণিক বেগে ঘোরানো হয়েছে।"]
+    "assumptions": [
+      "কুণ্ডলীটি স্থির অবস্থান থেকে সমকৌণিক বেগে ঘোরানো হয়েছে।"
+    ]
   },
   "questions": [
     {
@@ -32,5 +61,12 @@
       "question": "১.৫ A·m² ভ্রামকের একটি কুণ্ডলী ০.৬ T চৌম্বক ক্ষেত্রের সমান্তরালে আছে। একে ৯০° ঘুরাতে এবং ১৮০° উল্টে দিতে কৃতকাজের মান যথাক্রমে কত?",
       "answer": "W_{90^\\circ} = 1.5 \\times 0.6 \\times (1 - 0) = 0.9 \\text{ J}. \\quad W_{180^\\circ} = 1.5 \\times 0.6 \\times (1 - (-1)) = 1.8 \\text{ J}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "W = MB(1 − cosθ) — শূন্য থেকে θ পর্যন্ত ঘোরাতে কাজ। θ = 90° এ W = MB, θ = 180° এ W = 2MB (সর্বোচ্চ)।",
+    "steps": [
+      "U = −MB cosθ থেকে W = U(θ) − U(0) = −MB cosθ + MB = MB(1 − cosθ)।",
+      "তাই কাজ ও বিভব শক্তি — একই সূত্রের দুই রূপ।"
+    ]
+  }
 }

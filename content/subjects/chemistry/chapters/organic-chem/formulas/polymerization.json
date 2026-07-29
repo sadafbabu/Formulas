@@ -1,0 +1,50 @@
+{
+  "id": "polymerization",
+  "chapter": "organic-chem",
+  "title": "Polymerization",
+  "titleBn": "পলিমারাইজেশন",
+  "summary": "যোজন ও ঘনীভবন পলিমার",
+  "latex": "n\\,\\ce{CH2=CH2 -> [-CH2-CH2-]_n}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 170,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "যোজন ও ঘনীভবন পলিমার",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "n\\,\\ce{CH2=CH2 -> [-CH2-CH2-]_n}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পলিমারাইজেশন এর মূল সূত্রটি লেখো।",
+      "answer": "n\\,\\ce{CH2=CH2 -> [-CH2-CH2-]_n}"
+    }
+  ],
+  "memorize": {
+    "trick": "Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

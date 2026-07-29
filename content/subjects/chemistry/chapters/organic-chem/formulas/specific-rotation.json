@@ -1,0 +1,52 @@
+{
+  "id": "specific-rotation",
+  "chapter": "organic-chem",
+  "title": "Specific Rotation",
+  "titleBn": "আপেক্ষিক ঘূর্ণন",
+  "summary": "অপটিক্যাল অ্যাকটিভিটির পরিমাপ",
+  "latex": "[\\alpha]=\\frac{\\alpha}{l\\cdot c},\\quad\\mathrm{ee}=\\frac{[\\alpha]_{obs}}{[\\alpha]_{pure}}\\times100\\%",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 180,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "অপটিক্যাল অ্যাকটিভিটির পরিমাপ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "[\\alpha]=\\frac{\\alpha}{l\\cdot c},\\quad\\mathrm{ee}=\\frac{[\\alpha]_{obs}}{[\\alpha]_{pure}}\\times100\\%",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আপেক্ষিক ঘূর্ণন এর মূল সূত্রটি লেখো।",
+      "answer": "[\\alpha]=\\frac{\\alpha}{l\\cdot c},\\quad\\mathrm{ee}=\\frac{[\\alpha]_{obs}}{[\\alpha]_{pure}}\\times100\\%"
+    }
+  ],
+  "memorize": {
+    "trick": "[α]=α/(l·c); ee অনুপাতে বিশুদ্ধতা।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "isomerism"
+  ]
+}

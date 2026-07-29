@@ -1,0 +1,49 @@
+{
+  "id": "gas-density-formula",
+  "chapter": "qualitative-chem",
+  "title": "Gas Density",
+  "titleBn": "গ্যাসের ঘনত্ব",
+  "summary": "d=PM/RT",
+  "latex": "d=\\frac{PM}{RT}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 170,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "d=PM/RT",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "d=\\frac{PM}{RT}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "গ্যাসের ঘনত্ব এর মূল সূত্রটি লেখো।",
+      "answer": "d=\\frac{PM}{RT}"
+    }
+  ],
+  "memorize": {
+    "trick": "From PV=nRT → d=PM/RT; compare molar masses at same P,T。",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

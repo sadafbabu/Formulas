@@ -1,0 +1,49 @@
+{
+  "id": "hyperbola-eccentricity",
+  "chapter": "conic-sections",
+  "title": "Hyperbola Eccentricity",
+  "titleBn": "অধিবৃত্তের উপকেন্দ্রতা",
+  "summary": "e=c/a>1",
+  "latex": "e=\\frac{c}{a}=\\sqrt{1+\\frac{b^2}{a^2}}>1",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 140,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "e=c/a>1",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "e=\\frac{c}{a}=\\sqrt{1+\\frac{b^2}{a^2}}>1",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অধিবৃত্তের উপকেন্দ্রতা এর মূল সূত্রটি লেখো।",
+      "answer": "e=\\frac{c}{a}=\\sqrt{1+\\frac{b^2}{a^2}}>1"
+    }
+  ],
+  "memorize": {
+    "trick": "e>1 অধিবৃত্ত; e=1 পরাবৃত্ত; e<1 উপবৃত্ত।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

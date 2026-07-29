@@ -1,0 +1,73 @@
+{
+  "id": "coefficient-extraction",
+  "chapter": "binomial-theorem",
+  "title": "Coefficient Extraction",
+  "titleBn": "নির্দিষ্ট ঘাতের সহগ ও ধ্রুব পদ",
+  "summary": "এক বা একাধিক binomial-এর product-এ x^k-এর coefficient ও x-independent term নির্ণয়।",
+  "latex": "[x^k](1+x)^n=\\binom nk,\\quad [x^k]A(x)B(x)=\\sum_{r=0}^k a_r b_{k-r}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 100,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "general-term",
+    "binomial-expansion",
+    "multinomial-theorem"
+  ],
+  "symbols": [
+    {
+      "symbol": "[x^k]F(x)",
+      "meaning": "F-এ x^k-এর coefficient",
+      "unit": "—"
+    },
+    {
+      "symbol": "a_r,b_r",
+      "meaning": "series coefficients",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Product-এ x^k তৈরি করতে দুই factor-এর exponent-গুলোর যোগ k হতে হবে; সব সম্ভব pair-এর coefficient যোগ হয়।",
+    "steps": [
+      {
+        "title": "convolution",
+        "latex": "[x^k](\\sum a_rx^r)(\\sum b_sx^s)=\\sum_{r+s=k}a_rb_s",
+        "note": "Exponent matching-ই মূল।"
+      },
+      {
+        "title": "constant term",
+        "latex": "[x^0]\\left(a x^p+\\frac b{x^q}\\right)^n",
+        "note": "General term-এর x exponent শূন্য ধরে r solve করুন; r integer range-এ না হলে constant term নেই।"
+      },
+      {
+        "title": "Vandermonde",
+        "latex": "\\sum_r\\binom mr\\binom n{k-r}=\\binom{m+n}k",
+        "note": "(1+x)^m(1+x)^n=(1+x)^{m+n} থেকে।"
+      }
+    ],
+    "assumptions": [
+      "Series finite অথবা coefficient-এর জন্য convergence সমস্যা নেই।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission",
+      "question": "(1+x)^3(1+x)^4-এ x^5-এর coefficient কত?",
+      "answer": "(1+x)^7\\Rightarrow [x^5]=\\binom75=21"
+    }
+  ],
+  "memorize": {
+    "trick": "Coefficient question মানে exponent match। Product-এ exponent যোগ হয়ে target k; constant term-এ মোট exponent 0। একই base (1+x) হলে আগে powers যোগ করে দিন।",
+    "steps": [
+      "General term-এ T_{r+1}—term number আর r এক নয়।",
+      "r integer ও 0≤r≤n কি না অবশ্যই যাচাই করুন।"
+    ]
+  }
+}

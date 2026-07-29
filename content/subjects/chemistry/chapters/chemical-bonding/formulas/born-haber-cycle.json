@@ -1,0 +1,80 @@
+{
+  "id": "born-haber-cycle",
+  "chapter": "chemical-bonding",
+  "title": "Born–Haber Cycle & Lattice Energy",
+  "titleBn": "বর্ন–হেবার চক্র ও ল্যাটিস শক্তি",
+  "summary": "Hess-এর সূত্রে আয়নিক কঠিনের lattice enthalpy নির্ণয়ের তাপ-রাসায়নিক চক্র।",
+  "latex": "\\Delta H_f^\\circ=\\Delta H_{\\mathrm{sub}}+\\tfrac12D+IE+EA+\\Delta H_{\\mathrm{latt}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "fajans-rule",
+    "bond-parameters",
+    "hess-gibbs"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\Delta H_f^\\circ",
+      "meaning": "গঠন এনথালপি",
+      "unit": "kJ/mol"
+    },
+    {
+      "symbol": "IE",
+      "meaning": "আয়নীকরণ এনথালপি",
+      "unit": "kJ/mol"
+    },
+    {
+      "symbol": "EA",
+      "meaning": "ইলেকট্রন আসক্তি এনথালপি",
+      "unit": "kJ/mol"
+    },
+    {
+      "symbol": "\\Delta H_{\\mathrm{latt}}",
+      "meaning": "ল্যাটিস গঠন এনথালপি",
+      "unit": "kJ/mol"
+    }
+  ],
+  "derivation": {
+    "lead": "Hess-এর সূত্র অনুযায়ী একই প্রারম্ভিক ও শেষ অবস্থার মোট এনথালপি পথ-নিরপেক্ষ।",
+    "steps": [
+      {
+        "title": "গ্যাসীয় আয়ন সৃষ্টি",
+        "latex": "\\ce{M(s)->M(g)->M+(g)},\\qquad \\ce{\\tfrac12X2(g)->X(g)->X-(g)}",
+        "note": "sublimation, bond dissociation, IE ও EA ধাপ যোগ হয়।"
+      },
+      {
+        "title": "ল্যাটিস গঠন",
+        "latex": "\\ce{M+(g)+X-(g)->MX(s)}",
+        "note": "এই ধাপের এনথালপি ঋণাত্মক; lattice বিচ্ছেদ শক্তি সমমান ধনাত্মক।"
+      }
+    ],
+    "assumptions": [
+      "সব এনথালপি একই তাপমাত্রা ও standard state-এ।",
+      "দেখানো equation 1:1 salt MX, M(s) ও ½X₂(g) থেকে গঠনের জন্য"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission",
+      "question": "একটি Born–Haber cycle-এ অন্য ধাপগুলোর যোগ +৩৮০ kJ/mol এবং ΔH°f = −৪১০ kJ/mol হলে lattice formation enthalpy কত?",
+      "answer": "\\Delta H_{\\mathrm{latt}}=-410-380=-790\\ \\mathrm{kJ/mol}"
+    }
+  ],
+  "memorize": {
+    "trick": "Born–Haber আসলে Hess-এর সূত্র। ক্রম: solid→gas→cation; X₂→atom→anion; শেষে gaseous ion→solid lattice। চিহ্ন ঠিক রাখাই মূল।",
+    "steps": [
+      "Lattice formation enthalpy ঋণাত্মক; lattice dissociation energy ধনাত্মক।",
+      "আধান বেশি ও আকার ছোট হলে lattice energy বেশি।"
+    ]
+  }
+}

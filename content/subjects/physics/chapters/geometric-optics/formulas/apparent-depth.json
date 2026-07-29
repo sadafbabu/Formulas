@@ -1,0 +1,52 @@
+{
+  "id": "apparent-depth",
+  "chapter": "geometric-optics",
+  "title": "Apparent Depth",
+  "titleBn": "আপাত গভীরতা",
+  "summary": "ঘন মাধ্যমে আপাত গভীরতা",
+  "latex": "d_{app}=\\frac{d_{real}}{\\mu},\\quad\\mu=\\frac{\\text{real depth}}{\\text{apparent depth}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "ঘন মাধ্যমে আপাত গভীরতা",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "d_{app}=\\frac{d_{real}}{\\mu},\\quad\\mu=\\frac{\\text{real depth}}{\\text{apparent depth}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আপাত গভীরতা এর মূল সূত্রটি লেখো।",
+      "answer": "d_{app}=\\frac{d_{real}}{\\mu},\\quad\\mu=\\frac{\\text{real depth}}{\\text{apparent depth}}"
+    }
+  ],
+  "memorize": {
+    "trick": "আপাত = প্রকৃত/μ — পানি থেকে কম গভীর দেখায়।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "snell-law"
+  ]
+}

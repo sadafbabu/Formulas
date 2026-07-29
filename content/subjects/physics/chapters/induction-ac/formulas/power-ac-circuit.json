@@ -1,0 +1,70 @@
+{
+  "id": "power-ac-circuit",
+  "chapter": "induction-ac",
+  "title": "AC Power & Power Factor",
+  "titleBn": "AC ক্ষমতা ও পাওয়ার ফ্যাক্টর",
+  "summary": "AC বর্তনীতে গড় ক্ষমতা, পাওয়ার ফ্যাক্টর ও শক্তি সংরক্ষণ",
+  "latex": "P_{avg} = V_{rms} I_{rms} \\cos\\phi, \\quad \\cos\\phi = \\frac{R}{Z}, \\quad Z = \\sqrt{R^2 + (X_L - X_C)^2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "ac-rms-values",
+    "lc-lcr-circuit",
+    "resonance-frequency"
+  ],
+  "symbols": [
+    {
+      "symbol": "P_{avg}",
+      "meaning": "গড় ক্ষমতা (প্রকৃত ক্ষমতা)",
+      "unit": "W"
+    },
+    {
+      "symbol": "\\cos\\phi",
+      "meaning": "পাওয়ার ফ্যাক্টর",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "Z",
+      "meaning": "প্রতিবাধা",
+      "unit": "Ω"
+    },
+    {
+      "symbol": "\\phi",
+      "meaning": "বর্তনীতে ভোল্টেজ ও প্রবাহের দশা পার্থক্য",
+      "unit": "°"
+    }
+  ],
+  "derivation": {
+    "lead": "AC বর্তনীতে কেবল রোধী উপাংশই ক্ষমতা গ্রহণ করে; প্রতিবাধক ও ধারক গড়ে ক্ষমতা গ্রহণ করে না।",
+    "steps": [
+      {
+        "title": "গড় ক্ষমতা নির্ণয়",
+        "latex": "P = \\frac{1}{T}\\int_0^T vi\\,dt = V_{rms}I_{rms}\\cos\\phi",
+        "note": "অনুনাদে cos φ = 1 (সর্বোচ্চ পাওয়ার ফ্যাক্টর), বিশুদ্ধ আবেশকে cos φ = 0 (ক্ষমতা শূন্য)"
+      }
+    ],
+    "assumptions": [
+      "স্থির অবস্থা AC",
+      "সাইনুসয়েডী উৎস"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "একটি AC বর্তনীতে V = 200 V, I = 5 A, পাওয়ার ফ্যাক্টর 0.8। গড় ক্ষমতা কত?",
+      "answer": "P = V_{rms} I_{rms} \\cos\\phi = 200 \\times 5 \\times 0.8 = 800\\ \\text{W}"
+    }
+  ],
+  "memorize": {
+    "trick": "গড় ক্ষমতা P = Vᵣₘₛ Iᵣₘₛ cos φ। পাওয়ার ফ্যাক্টর cos φ = R/Z। অনুনাদে cos φ = 1।"
+  }
+}

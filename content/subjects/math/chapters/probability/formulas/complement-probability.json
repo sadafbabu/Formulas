@@ -1,0 +1,49 @@
+{
+  "id": "complement-probability",
+  "chapter": "probability",
+  "title": "Complement Rule",
+  "titleBn": "পরিপূরক নিয়ম",
+  "summary": "P(E')=1−P(E)",
+  "latex": "P(E')=1-P(E)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "P(E')=1−P(E)",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P(E')=1-P(E)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পরিপূরক নিয়ম এর মূল সূত্রটি লেখো।",
+      "answer": "P(E')=1-P(E)"
+    }
+  ],
+  "memorize": {
+    "trick": "'ঘটবে না' = 1 − 'ঘটবে' — সবচেয়ে দ্রুত পদ্ধতি।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

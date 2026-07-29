@@ -1,0 +1,49 @@
+{
+  "id": "thin-film-interference",
+  "chapter": "wave-optics",
+  "title": "Thin Film Interference",
+  "titleBn": "অপাতল স্তরে ব্যতিচার",
+  "summary": "2nt=(m+½)λ",
+  "latex": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "2nt=(m+½)λ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অপাতল স্তরে ব্যতিচার এর মূল সূত্রটি লেখো।",
+      "answer": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda"
+    }
+  ],
+  "memorize": {
+    "trick": "Phase reversal at one surface → half wavelength path difference。",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

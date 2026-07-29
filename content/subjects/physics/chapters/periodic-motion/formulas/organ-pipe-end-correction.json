@@ -1,0 +1,52 @@
+{
+  "id": "organ-pipe-end-correction",
+  "chapter": "periodic-motion",
+  "title": "Organ Pipe End Correction",
+  "titleBn": "বায়ুস্তম্ভে প্রান্ত সংশোধন",
+  "summary": "খোলা প্রান্তে end correction",
+  "latex": "e=0.3d,\\quad f_o=\\frac{v}{2(L+2e)},\\quad f_c=\\frac{v}{4(L+e)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "খোলা প্রান্তে end correction",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "e=0.3d,\\quad f_o=\\frac{v}{2(L+2e)},\\quad f_c=\\frac{v}{4(L+e)}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বায়ুস্তম্ভে প্রান্ত সংশোধন এর মূল সূত্রটি লেখো।",
+      "answer": "e=0.3d,\\quad f_o=\\frac{v}{2(L+2e)},\\quad f_c=\\frac{v}{4(L+e)}"
+    }
+  ],
+  "memorize": {
+    "trick": "প্রতি খোলা প্রান্তে +0.3d; বদ্ধে এক প্রান্ত।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "stationary-waves"
+  ]
+}

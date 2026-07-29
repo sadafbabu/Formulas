@@ -1,0 +1,91 @@
+{
+  "id": "motion-equations",
+  "chapter": "dynamics",
+  "title": "Equations of Motion",
+  "titleBn": "সুষম ত্বরণে গতির সমীকরণ",
+  "summary": "সুষম ত্বরণে চলমান বস্তুর বেগ, সরণ ও সময়ের তিনটি মূল সমীকরণ।",
+  "latex": "v = u + at, \\quad s = ut + \\tfrac{1}{2}at^2, \\quad v^2 = u^2 + 2as",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "newtons-laws",
+    "projectile-motion"
+  ],
+  "symbols": [
+    {
+      "symbol": "u",
+      "meaning": "আদি বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "v",
+      "meaning": "শেষ বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "a",
+      "meaning": "সুষম ত্বরণ",
+      "unit": "m/s²"
+    },
+    {
+      "symbol": "s",
+      "meaning": "সরণ",
+      "unit": "m"
+    },
+    {
+      "symbol": "t",
+      "meaning": "সময়",
+      "unit": "s"
+    }
+  ],
+  "derivation": {
+    "lead": "ত্বরণের সংজ্ঞা a = dv/dt থেকে যোগজীকরণ করে তিনটি সমীকরণ পাওয়া যায়।",
+    "steps": [
+      {
+        "title": "প্রথম সমীকরণ",
+        "latex": "a = \\frac{dv}{dt} \\Rightarrow \\int_u^v dv = \\int_0^t a\\,dt \\Rightarrow v = u + at",
+        "note": "ত্বরণ ধ্রুব হলেই এই যোগজীকরণ বৈধ।"
+      },
+      {
+        "title": "দ্বিতীয় সমীকরণ",
+        "latex": "s = \\int_0^t v\\,dt = \\int_0^t (u + at)\\,dt = ut + \\tfrac{1}{2}at^2",
+        "note": "v–t লেখচিত্রের নিচের ক্ষেত্রফলই সরণ।"
+      },
+      {
+        "title": "তৃতীয় সমীকরণ",
+        "latex": "v^2 = u^2 + 2as",
+        "note": "প্রথম দুটি থেকে t বাদ দিলে সময়-মুক্ত সমীকরণ পাওয়া যায়।"
+      }
+    ],
+    "assumptions": [
+      "ত্বরণ সমগ্র গতিপথে ধ্রুব।",
+      "গতি সরলরেখায়।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "১০ m/s আদি বেগে চলা একটি গাড়ি ২ m/s² সুষম ত্বরণে ৫ s চলল। শেষ বেগ ও অতিক্রান্ত দূরত্ব কত?",
+      "answer": "v = 10 + 2(5) = 20\\ \\text{m/s}, \\quad s = 10(5) + \\tfrac{1}{2}(2)(25) = 75\\ \\text{m}"
+    }
+  ],
+  "memorize": {
+    "trick": "তিনটি সমীকরণে তিনটি রাশি বাদ পড়ে: ১ম-এ s নেই, ২য়-এ v নেই, ৩য়-এ t নেই। যে রাশিটি প্রশ্নে নেই ও চাওয়াও হয়নি, সেটিই বাদ — সেই সমীকরণটাই বাছুন।",
+    "steps": [
+      "v = u + at (s নেই)",
+      "s = ut + ½at² (v নেই)",
+      "v² = u² + 2as (t নেই)",
+      "উপরের দিকে ছোড়া হলে a = −g; নিচে পড়লে a = +g।"
+    ]
+  }
+}

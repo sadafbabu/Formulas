@@ -1,0 +1,52 @@
+{
+  "id": "electrolysis-products",
+  "chapter": "electrochemistry",
+  "title": "Preferential Discharge",
+  "titleBn": "অগ্রাধিকার নিঃসরণ",
+  "summary": "ইলেকট্রোলাইসিসে কোন আয়ন নিঃসৃত হয়",
+  "latex": "\\text{cathode: higher }E^\\circ\\text{ first};\\quad\\text{anode: dilute }OH^-/\\text{halide rules}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "ইলেকট্রোলাইসিসে কোন আয়ন নিঃসৃত হয়",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{cathode: higher }E^\\circ\\text{ first};\\quad\\text{anode: dilute }OH^-/\\text{halide rules}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অগ্রাধিকার নিঃসরণ এর মূল সূত্রটি লেখো।",
+      "answer": "\\text{cathode: higher }E^\\circ\\text{ first};\\quad\\text{anode: dilute }OH^-/\\text{halide rules}"
+    }
+  ],
+  "memorize": {
+    "trick": "ক্যাথোডে সহজে বিজারিত (উচ্চ E°) আগে।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "faradays-electrolysis"
+  ]
+}

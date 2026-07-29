@@ -2,7 +2,7 @@
   "title": "Markovnikov's Rule & Anti-Markovnikov",
   "titleBn": "মারকভনিকভ নিয়ম ও প্রতি-মারকভনিকভ",
   "summary": "অপ্রতিসম অ্যালকিনে HX যোজনের নিয়ম",
-  "latex": "\\text{R-CH=CH}_2 + \\text{HX} \\to \\text{R-CHX-CH}_3 \\text{ (Markovnikov)}",
+  "latex": "\\ce{CH3CH=CH2 + HX -> CH3CHXCH3}, \\quad \\text{মার্কনিকভ: H যায় বেশি H যুক্ত C-এ}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -11,6 +11,7 @@
     "2-star"
   ],
   "importance": 2,
+  "order": 20,
   "symbols": [
     {
       "symbol": "R",
@@ -29,12 +30,28 @@
       {
         "title": "মারকভনিকভ",
         "latex": "H \\to \\text{more H}, \\quad X \\to \\text{less H}",
-        "note": "প্রতি-মারকভনিকভে peroxide প্রভাব (Kharasch effect)"
+        "note": "সাধারণ peroxide/Kharasch anti-Markovnikov effect HBr-এর জন্য; HCl বা HI-এর জন্য নয়।"
       }
     ],
-    "assumptions": "মুক্ত মূলক প্রক্রিয়া নয়"
+    "assumptions": [
+      "মুক্ত মূলক প্রক্রিয়া নয়",
+      "Peroxide effect-এর anti-Markovnikov exception কেবল HBr-এ"
+    ]
   },
   "id": "markovnikov-rule",
   "chapter": "organic-chem",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "প্রোপিনে (\\ce{CH3CH=CH2}) HBr যোগ করলে প্রধান উৎপাদ কী হবে?",
+      "answer": "\\ce{CH3CHBrCH3} (2-bromopropane)  -  মার্কনিকভ নিয়ম অনুযায়ী Br কম H যুক্ত কার্বনে যুক্ত হয়।"
+    }
+  ],
+  "memorize": {
+    "trick": "অসমতুল্য অ্যালকিনে HX যোগ: H যায় বেশি H যুক্ত কার্বনে, X যায় কম H যুক্ত কার্বনে।"
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
 }

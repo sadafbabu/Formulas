@@ -1,0 +1,49 @@
+{
+  "id": "relative-lowering-vapour-pressure",
+  "chapter": "colligative-properties",
+  "title": "Relative Lowering of V.P.",
+  "titleBn": "বাষ্পচাপের আপেক্ষিক হ্রাস",
+  "summary": "(P°−P)/P°",
+  "latex": "\\frac{P^\\circ-P}{P^\\circ}=x_B=\\frac{n_B}{n_A+n_B}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "(P°−P)/P°",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{P^\\circ-P}{P^\\circ}=x_B=\\frac{n_B}{n_A+n_B}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বাষ্পচাপের আপেক্ষিক হ্রাস এর মূল সূত্রটি লেখো।",
+      "answer": "\\frac{P^\\circ-P}{P^\\circ}=x_B=\\frac{n_B}{n_A+n_B}"
+    }
+  ],
+  "memorize": {
+    "trick": "ΔP/P° = mole fraction of solute; Raoult's law base。",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": []
+}

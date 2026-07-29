@@ -1,0 +1,81 @@
+{
+  "id": "acid-base-equilibria",
+  "chapter": "chemical-equilibrium",
+  "title": "Acid–Base Equilibria",
+  "titleBn": "অম্ল–ক্ষার সাম্য, Ka/Kb ও দুর্বল অম্লের pH",
+  "summary": "Brønsted conjugate pair, দুর্বল acid/base ionization ও pH-এর দ্রুত সূত্র।",
+  "latex": "K_aK_b=K_w,\\quad [\\ce{H+}]\\approx\\sqrt{K_aC},\\quad \\mathrm{pH}=\\tfrac12(pK_a-\\log C)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 100,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "ph-poh-water",
+    "buffer-solution",
+    "degree-dissociation"
+  ],
+  "symbols": [
+    {
+      "symbol": "K_a",
+      "meaning": "অম্ল বিয়োজন ধ্রুবক",
+      "unit": "—"
+    },
+    {
+      "symbol": "K_b",
+      "meaning": "ক্ষার বিয়োজন ধ্রুবক",
+      "unit": "—"
+    },
+    {
+      "symbol": "K_w",
+      "meaning": "পানির আয়ন গুণফল",
+      "unit": "—",
+      "value": "10⁻¹⁴ at 25°C"
+    }
+  ],
+  "derivation": {
+    "lead": "দুর্বল অম্লের ionization খুব কম হলে equilibrium expression-এ (C−x)≈C ধরা যায়।",
+    "steps": [
+      {
+        "title": "দুর্বল অম্ল",
+        "latex": "K_a=\\frac{x^2}{C-x}\\approx\\frac{x^2}{C}\\Rightarrow x=[\\ce{H+}]=\\sqrt{K_aC}",
+        "note": "তাই pH = ½(pKₐ − log C)।"
+      },
+      {
+        "title": "দুর্বল ক্ষার",
+        "latex": "[\\ce{OH-}]=\\sqrt{K_bC},\\quad \\mathrm{pOH}=\\tfrac12(pK_b-\\log C)",
+        "note": "শেষে pH = 14 − pOH (২৫°C)।"
+      },
+      {
+        "title": "conjugate pair",
+        "latex": "K_aK_b=K_w,\\quad pK_a+pK_b=14",
+        "note": "শক্তিশালী acid-এর conjugate base দুর্বল।"
+      }
+    ],
+    "assumptions": [
+      "বিয়োজন ৫%-এর কম, তাই x≪C approximation।",
+      "তাপমাত্রা ২৫°C।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical Admission",
+      "question": "0.10 M \\ce{CH3COOH}-এর Kₐ = 1.8×10⁻⁵ হলে pH কত?",
+      "answer": "[\\ce{H+}]=\\sqrt{1.8\\times10^{-5}\\times0.10}=1.34\\times10^{-3};\\quad \\mathrm{pH}=2.87"
+    }
+  ],
+  "memorize": {
+    "trick": "দুর্বল acid/base-এ concentration-এর বর্গমূল: [H⁺]=√(KₐC), [OH⁻]=√(K_bC)। আর conjugate pair-এ pKₐ+pK_b=14।",
+    "steps": [
+      "Kₐ বড় ⇒ acid শক্তিশালী ⇒ pKₐ ছোট।",
+      "Approximation x≪C কেবল দুর্বল acid/base ও যথেষ্ট concentration-এ।"
+    ]
+  }
+}

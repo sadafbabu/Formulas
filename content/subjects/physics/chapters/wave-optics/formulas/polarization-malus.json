@@ -1,0 +1,65 @@
+{
+  "title": "Malus's Law (Polarization)",
+  "titleBn": "ম্যালুসের সূত্র (সমবর্তন)",
+  "summary": "পোলারায়িত আলো বিশ্লেষক অতিক্রমে তীব্রতা",
+  "latex": "I = I_0 \\cos^2\\theta",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "I",
+      "meaning": "প্রেষিত তীব্রতা",
+      "unit": "W/m²"
+    },
+    {
+      "symbol": "I_0",
+      "meaning": "আপতিত তীব্রতা",
+      "unit": "W/m²"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "পোলারায়িত ও বিশ্লেষক অক্ষের কোণ",
+      "unit": "°"
+    }
+  ],
+  "derivation": {
+    "lead": "পোলারায়িত আলোর বৈদ্যুতিক ক্ষেত্র উপাংশ বিশ্লেষক অতিক্রমে প্রেষিত হয়।",
+    "steps": [
+      {
+        "title": "ম্যালুস সূত্র",
+        "latex": "I = I_0\\cos^2\\theta",
+        "note": "Brewster কোণে পূর্ণ সমবর্তন: tan θ_B = μ"
+      }
+    ],
+    "assumptions": [
+      "আদর্শ পোলারায়িত"
+    ]
+  },
+  "id": "polarization-malus",
+  "chapter": "wave-optics",
+  "questions": [
+    {
+      "examType": "HSC / Eng",
+      "question": "ম্যালুসের সূত্র কী?",
+      "answer": "I=I_0\\cos^2\\theta"
+    }
+  ],
+  "memorize": {
+    "trick": "I = I₀cos²θ — 'কোসাইন বর্গ'। θ = 0 এ পূর্ণ আলো, ৪৫° এ অর্ধেক, ৯০° এ সম্পূর্ণ অন্ধকার (crossed polarizers)।",
+    "steps": [
+      "θ হলো দুই পোলারাইজারের অক্ষের মধ্যবর্তী কোণ।",
+      "θ = 90° → I = 0 — এজন্যই দুটো সানগ্লাস লম্বভাবে ধরলে কালো দেখায়।",
+      "অপোলারাইজড আলো প্রথম পোলারাইজার পেরোলেই তীব্রতা অর্ধেক হয়ে যায়।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
+}

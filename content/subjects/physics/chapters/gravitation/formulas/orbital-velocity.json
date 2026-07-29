@@ -5,14 +5,41 @@
   "titleBn": "কৃত্রিম উপগ্রহের আবর্তন বেগ ও পর্যায়কাল",
   "summary": "ভূ-পৃষ্ঠ হতে h উচ্চতায় আবর্তনশীল উপগ্রহের বেগ ও পর্যায়কাল",
   "latex": "v_o = \\sqrt{\\frac{G M}{R + h}}, \\quad T = \\frac{2\\pi (R+h)}{v_o} = 2\\pi \\sqrt{\\frac{(R+h)^3}{G M}}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 20,
   "symbols": [
-    { "symbol": "v_o", "meaning": "উপগ্রহের কক্ষপথীয় বেগ", "unit": "m/s" },
-    { "symbol": "T", "meaning": "উপগ্রহের পর্যায়কাল", "unit": "s" },
-    { "symbol": "M", "meaning": "পৃথিবীর ভর (5.972 × 10²⁴)", "unit": "kg" },
-    { "symbol": "R", "meaning": "পৃথিবীর ব্যাসার্ধ (6.371 × 10⁶)", "unit": "m" },
-    { "symbol": "h", "meaning": "ভূ-পৃষ্ঠ হতে উচ্চতা", "unit": "m" }
+    {
+      "symbol": "v_o",
+      "meaning": "উপগ্রহের কক্ষপথীয় বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "T",
+      "meaning": "উপগ্রহের পর্যায়কাল",
+      "unit": "s"
+    },
+    {
+      "symbol": "M",
+      "meaning": "পৃথিবীর ভর (5.972 × 10²⁴)",
+      "unit": "kg"
+    },
+    {
+      "symbol": "R",
+      "meaning": "পৃথিবীর ব্যাসার্ধ (6.371 × 10⁶)",
+      "unit": "m"
+    },
+    {
+      "symbol": "h",
+      "meaning": "ভূ-পৃষ্ঠ হতে উচ্চতা",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "মহাকর্ষ বলই কেন্দ্রমুখী বলের যোগান দেয় (GMm/(R+h)² = m vo²/(R+h))।",
@@ -22,7 +49,8 @@
         "latex": "\\frac{G M m}{(R+h)^2} = \\frac{m v_o^2}{R+h} \\implies v_o = \\sqrt{\\frac{G M}{R+h}}",
         "note": "ভূ-স্থির উপগ্রহের (Geo-stationary satellite) পর্যায়কাল T = 24 hours"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -30,5 +58,17 @@
       "question": "ভূ-পৃষ্ঠের নিকটবর্তী (h ≈ 0) কক্ষে ঘূর্ণায়মান উপগ্রহের আবর্তন বেগ কত? [R = 6.4 × 10⁶ m, g = 9.8 m/s²]",
       "answer": "v_o = \\sqrt{g R} = \\sqrt{9.8 \\times 6.4 \\times 10^6} = \\sqrt{6.272 \\times 10^7} \\approx 7.92\\text{ km/s}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "v₀ = √(GM/r) — 'উপরে GM, নিচে ব্যাসার্ধ, পুরোটার বর্গমূল'। নিচের কক্ষে দ্রুত, উঁচু কক্ষে ধীর।",
+    "steps": [
+      "কেন্দ্রমুখী বল = মহাকর্ষ: mv²/r = GMm/r² → v₀ = √(GM/r), যেখানে r = R + h।",
+      "পর্যায়কাল T = 2πr/v₀ = 2π√(r³/GM) — এটাই কেপলারের তৃতীয় সূত্র (T² ∝ r³)।",
+      "ভূস্থির উপগ্রহে T = ২৪ ঘণ্টা, h ≈ ৩৬০০০ km।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

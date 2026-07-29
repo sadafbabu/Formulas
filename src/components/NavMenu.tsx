@@ -1,11 +1,14 @@
-import { useEffect, useId, useRef, useState } from 'react'
+import { useEffect, useId, useMemo, useRef, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import {
   chapters,
   defaultChapterId,
+  formulas,
   formulasForChapter,
-  subject,
+  getChapter,
+  subjectsList,
 } from '../data/catalog'
+import { matchFormula } from '../utils/search'
 
 interface NavMenuProps {
   query: string
@@ -27,25 +30,47 @@ export function NavMenu({
   const [params] = useSearchParams()
   const panelId = useId()
   const rootRef = useRef<HTMLDivElement>(null)
-  const list = formulasForChapter(chapterId || defaultChapterId)
+  const isCoarsePointer =
+    typeof window !== 'undefined' &&
+    window.matchMedia('(pointer: coarse)').matches
+  const q = query.trim()
+
+  const chapterList = useMemo(() => {
+    return formulasForChapter(chapterId || defaultChapterId).filter((f) =>
+      matchFormula(f, query, null),
+    )
+  }, [chapterId, query])
+
+  const globalList = useMemo(() => {
+    if (!q) return []
+    return formulas.filter((f) => matchFormula(f, query, null)).slice(0, 40)
+  }, [q, query])
+
+  const list = q && chapterList.length === 0 ? globalList : chapterList
+  const searchingAll = Boolean(q && chapterList.length === 0 && globalList.length > 0)
 
   useEffect(() => {
     if (!open) return
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') setOpen(false)
     }
-    const onPointer = (e: MouseEvent) => {
+    const onPointer = (e: Event) => {
       if (!rootRef.current?.contains(e.target as Node)) setOpen(false)
     }
     window.addEventListener('keydown', onKey)
     window.addEventListener('mousedown', onPointer)
+    window.addEventListener('touchstart', onPointer)
     return () => {
       window.removeEventListener('keydown', onKey)
       window.removeEventListener('mousedown', onPointer)
+      window.removeEventListener('touchstart', onPointer)
     }
   }, [open])
 
-  const chapter = params.get('chapter')
+  const chapter = params.get('chapter') || chapterId
+  const activeChapter = getChapter(chapterId || defaultChapterId)
+  const activeSubject =
+    subjectsList.find((s) => s.id === activeChapter?.subjectId) ?? subjectsList[0]
 
   return (
     <div className={`nav-root${floating ? ' is-floating' : ' is-inline'}`} ref={rootRef}>
@@ -68,7 +93,7 @@ export function NavMenu({
         <nav id={panelId} className="nav-panel" aria-label="Book navigation">
           <div className="nav-brand">Formulas</div>
           <p className="nav-subject-line">
-            {subject.nameBn} · {subject.name}
+            {activeSubject.nameBn} · {activeSubject.name}
           </p>
 
           <label className="nav-search">
@@ -77,7 +102,8 @@ export function NavMenu({
               value={query}
               onChange={(e) => onQueryChange(e.target.value)}
               placeholder="সূত্র খুঁজুন…"
-              autoFocus
+              aria-label="সূত্র খুঁজুন"
+              autoFocus={!isCoarsePointer}
             />
           </label>
 
@@ -97,18 +123,31 @@ export function NavMenu({
             </button>
           ))}
 
-          <p className="nav-section">সূত্র ({list.length})</p>
+          <p className="nav-section">
+            {searchingAll ? 'সব অধ্যায়ে মিল' : 'সূত্র'} ({list.length}
+            {q ? ' মিল' : ''})
+          </p>
           <ul className="nav-formula-list">
-            {list.map((f) => (
-              <li key={f.id}>
-                <Link
-                  to={`/formula/${f.id}${chapter ? `?chapter=${chapter}` : ''}`}
-                  onClick={() => setOpen(false)}
-                >
-                  {f.titleBn}
-                </Link>
-              </li>
-            ))}
+            {list.length === 0 ? (
+              <li className="nav-empty">কোনো সূত্র মিলেনি</li>
+            ) : (
+              list.map((f) => {
+                const chMeta = getChapter(f.chapter)
+                return (
+                  <li key={f.id}>
+                    <Link
+                      to={`/formula/${f.id}?chapter=${encodeURIComponent(f.chapter || chapter)}`}
+                      onClick={() => setOpen(false)}
+                    >
+                      {f.titleBn}
+                      {searchingAll && chMeta ? (
+                        <span className="nav-formula-chapter">{chMeta.nameBn}</span>
+                      ) : null}
+                    </Link>
+                  </li>
+                )
+              })
+            )}
           </ul>
         </nav>
       )}

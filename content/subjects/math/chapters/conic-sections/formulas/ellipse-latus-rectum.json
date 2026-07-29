@@ -1,0 +1,49 @@
+{
+  "id": "ellipse-latus-rectum",
+  "chapter": "conic-sections",
+  "title": "Ellipse Latus Rectum",
+  "titleBn": "উপবৃত্তের ল্যাটাস রেক্টাম",
+  "summary": "LR=2b²/a",
+  "latex": "\\text{LR}=\\frac{2b^2}{a}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "LR=2b²/a",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{LR}=\\frac{2b^2}{a}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "উপবৃত্তের ল্যাটাস রেক্টাম এর মূল সূত্রটি লেখো।",
+      "answer": "\\text{LR}=\\frac{2b^2}{a}"
+    }
+  ],
+  "memorize": {
+    "trick": "উপবৃত্তে LR = 2b²/a; পরাবৃত্তে 4a — মিশে যাবে না!",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "binomial-mean-variance",
+  "chapter": "probability",
+  "title": "Binomial Mean & Variance",
+  "titleBn": "দ্বিপদী গড় ও বিচ্যুতি",
+  "summary": "μ=np, σ²=npq",
+  "latex": "\\mu=np,\\quad \\sigma^2=np(1-p)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "μ=np, σ²=npq",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mu=np,\\quad \\sigma^2=np(1-p)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "দ্বিপদী গড় ও বিচ্যুতি এর মূল সূত্রটি লেখো।",
+      "answer": "\\mu=np,\\quad \\sigma^2=np(1-p)"
+    }
+  ],
+  "memorize": {
+    "trick": "গড়=np; বিচ্যুতি=npq — সূত্র মুখস্থ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

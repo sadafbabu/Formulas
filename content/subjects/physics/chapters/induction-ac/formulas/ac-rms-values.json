@@ -5,21 +5,43 @@
   "titleBn": "পর্যায়বৃত্ত প্রবাহের RMS মান",
   "summary": "এসি কারেন্ট ও ভোল্টেজের কার্যকর মান (Root Mean Square)",
   "latex": "I_{\\mathrm{rms}} = \\frac{I_0}{\\sqrt{2}} \\approx 0.707 I_0, \\quad V_{\\mathrm{rms}} = \\frac{V_0}{\\sqrt{2}} \\approx 0.707 V_0",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 30,
   "symbols": [
-    { "symbol": "I_{\\mathrm{rms}}", "meaning": "প্রবাহের বর্গমূলীয় গড় বর্গমান", "unit": "A" },
-    { "symbol": "I_0", "meaning": "প্রবাহের শীর্ষমান (Peak Current)", "unit": "A" },
-    { "symbol": "V_{\\mathrm{rms}}", "meaning": "ভোল্টেজের RMS মান (বাংলাদেশের 220 V)", "unit": "V" }
+    {
+      "symbol": "I_{\\mathrm{rms}}",
+      "meaning": "প্রবাহের বর্গমূলীয় গড় বর্গমান",
+      "unit": "A"
+    },
+    {
+      "symbol": "I_0",
+      "meaning": "প্রবাহের শীর্ষমান (Peak Current)",
+      "unit": "A"
+    },
+    {
+      "symbol": "V_{\\mathrm{rms}}",
+      "meaning": "ভোল্টেজের RMS মান (বাংলাদেশের 220 V)",
+      "unit": "V"
+    }
   ],
   "derivation": {
-    "lead": "এক পূর্ণ চক্রের জন্য 제곱 এর গড় নিয়ে বর্গমূল করলে RMS মান পাওয়া যায়।",
+    "lead": "এক পূর্ণ চক্রে তাৎক্ষণিক মানের বর্গের গড়ের বর্গমূল নিলে RMS বা কার্যকর মান পাওয়া যায়।",
     "steps": [
       {
         "title": "গড় মান সমাকলন",
         "latex": "I_{\\mathrm{rms}}^2 = \\frac{1}{T} \\int_0^T I_0^2 \\sin^2(\\omega t) dt = \\frac{I_0^2}{2} \\implies I_{\\mathrm{rms}} = \\frac{I_0}{\\sqrt{2}}",
         "note": "বাসাবাড়ির ২২০ V হলো RMS ভোল্টেজ, শীর্ষমান 311 V"
       }
+    ],
+    "assumptions": [
+      "I_rms = I₀/√2 ও V_rms = V₀/√2 রূপে sinusoidal waveform"
     ]
   },
   "questions": [
@@ -28,5 +50,17 @@
       "question": "বাসাবাড়ির লাইনে 220 V এসি ভোল্টেজের পিক বা শীর্ষমান কত?",
       "answer": "V_0 = V_{\\mathrm{rms}} \\sqrt{2} = 220 \\times 1.414 = 311.1\\text{ V}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "RMS = শীর্ষমান ÷ √2 ≈ 0.707 × শীর্ষমান। বাসার ২২০ V হলো RMS; শীর্ষমান আসলে ২২০√2 ≈ ৩১১ V। আর গড় মান = 0.637 × শীর্ষমান।",
+    "steps": [
+      "I_rms = I₀/√2, V_rms = V₀/√2 — কেবল সাইন তরঙ্গের জন্য।",
+      "RMS-কে বলা হয় কার্যকর মান, কারণ এটিই সমান তাপ উৎপন্ন করে: P = I_rms²R।",
+      "পূর্ণ চক্রে গড় শূন্য, তাই RMS ব্যবহার করা হয়।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

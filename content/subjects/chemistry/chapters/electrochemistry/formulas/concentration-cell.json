@@ -1,0 +1,52 @@
+{
+  "id": "concentration-cell",
+  "chapter": "electrochemistry",
+  "title": "Concentration Cell",
+  "titleBn": "ঘনমাত্রা কোষ",
+  "summary": "একই ইলেকট্রোডে ঘনমাত্রা পার্থক্য থেকে emf",
+  "latex": "E=\\frac{0.059}{n}\\log\\frac{C_2}{C_1}\\ (25^\\circ\\mathrm{C})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "একই ইলেকট্রোডে ঘনমাত্রা পার্থক্য থেকে emf",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "E=\\frac{0.059}{n}\\log\\frac{C_2}{C_1}\\ (25^\\circ\\mathrm{C})",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ঘনমাত্রা কোষ এর মূল সূত্রটি লেখো।",
+      "answer": "E=\\frac{0.059}{n}\\log\\frac{C_2}{C_1}\\ (25^\\circ\\mathrm{C})"
+    }
+  ],
+  "memorize": {
+    "trick": "E = (0.059/n) log(C₂/C₁) — বেশি ঘন দিকে বিজারিত।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "nernst-equation"
+  ]
+}

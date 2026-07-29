@@ -1,0 +1,68 @@
+{
+  "id": "pair-of-lines",
+  "chapter": "straight-lines",
+  "title": "Pair of Straight Lines",
+  "titleBn": "দ্বিঘাত সমীকরণে সরলরেখা-জোড়",
+  "summary": "সমজাতীয় দ্বিঘাত থেকে origin-গামী দুই রেখা, তাদের কোণ এবং সাধারণ সমীকরণে pair হওয়ার শর্ত।",
+  "latex": "ax^2+2hxy+by^2=0,\\quad \\tan\\theta=\\frac{2\\sqrt{h^2-ab}}{|a+b|},\\quad h^2\\ge ab",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "straight-line-angle",
+    "family-intersection-lines",
+    "equation-forms"
+  ],
+  "symbols": [
+    {
+      "symbol": "a,b,h",
+      "meaning": "দ্বিঘাতের সহগ",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "রেখা দুটির মধ্যবর্তী কোণ",
+      "unit": "°"
+    }
+  ],
+  "derivation": {
+    "lead": "y=mx বসালে b m²+2hm+a=0—এর দুই root-ই দুই রেখার slope।",
+    "steps": [
+      {
+        "title": "slope equation",
+        "latex": "bm^2+2hm+a=0,\\quad m_1+m_2=-\\frac{2h}{b},\\quad m_1m_2=\\frac ab",
+        "note": "দুই বাস্তব রেখার জন্য discriminant ≥ 0 ⇒ h²≥ab।"
+      },
+      {
+        "title": "কোণ",
+        "latex": "\\tan\\theta=\\left|\\frac{m_1-m_2}{1+m_1m_2}\\right|=\\frac{2\\sqrt{h^2-ab}}{|a+b|}",
+        "note": "a+b=0 হলে রেখা দুটি লম্ব।"
+      }
+    ],
+    "assumptions": [
+      "সমীকরণটি homogeneous second degree, তাই দুই রেখাই origin-গামী।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Varsity Admission",
+      "question": "x^2-5xy+6y^2=0 রেখা-জোড়টি factor করুন।",
+      "answer": "(x-2y)(x-3y)=0;\\quad m=\\frac12,\\frac13"
+    }
+  ],
+  "memorize": {
+    "trick": "ax²+2hxy+by²-এ xy-এর coefficient হলো 2h—h নয়। বাস্তব pair: h²≥ab; perpendicular pair: a+b=0। y=mx বসালেই সব পরিষ্কার।",
+    "steps": [
+      "Factor করতে x/y বা y/x দিয়ে quadratic বানান।",
+      "Angle formula-এ numerator 2√(h²−ab)।"
+    ]
+  }
+}

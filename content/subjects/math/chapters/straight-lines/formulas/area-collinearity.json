@@ -1,0 +1,68 @@
+{
+  "id": "area-collinearity",
+  "chapter": "straight-lines",
+  "title": "Area of a Triangle & Collinearity",
+  "titleBn": "স্থানাঙ্কে ত্রিভুজের ক্ষেত্রফল ও সমরেখতা",
+  "summary": "তিনটি বিন্দুর স্থানাঙ্ক থেকে determinant-এ ক্ষেত্রফল এবং সমরেখ হওয়ার শর্ত।",
+  "latex": "\\Delta=\\frac12\\left|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\right|,\\quad \\Delta=0\\Rightarrow\\text{সমরেখ}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "distance-formula",
+    "section-formula",
+    "equation-forms"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\Delta",
+      "meaning": "ত্রিভুজের ক্ষেত্রফল",
+      "unit": "বর্গ একক"
+    },
+    {
+      "symbol": "(x_i,y_i)",
+      "meaning": "শীর্ষবিন্দু",
+      "unit": "বিন্দু"
+    }
+  ],
+  "derivation": {
+    "lead": "Shoelace/determinant expansion থেকে oriented area পাওয়া যায়; পরমমান নিলে সাধারণ ক্ষেত্রফল।",
+    "steps": [
+      {
+        "title": "determinant",
+        "latex": "\\Delta=\\frac12\\left|\\begin{vmatrix}x_1&y_1&1\\\\x_2&y_2&1\\\\x_3&y_3&1\\end{vmatrix}\\right|",
+        "note": "দুইটি সারি নির্ভরশীল হলে determinant শূন্য—তিন বিন্দু সমরেখ।"
+      },
+      {
+        "title": "polygon shoelace",
+        "latex": "A=\\frac12\\left|\\sum x_i y_{i+1}-\\sum y_i x_{i+1}\\right|",
+        "note": "শীর্ষগুলো ঘড়ির কাঁটা বা বিপরীত ক্রমে নিতে হবে।"
+      }
+    ],
+    "assumptions": [
+      "কার্তেসীয় সমতল এবং শীর্ষগুলো ধারাবাহিক ক্রমে।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "(1,1), (3,2), (5,3) বিন্দু তিনটি কি সমরেখ?",
+      "answer": "\\Delta=\\frac12|1(2-3)+3(3-1)+5(1-2)|=\\frac12|-1+6-5|=0;\\ \\text{হ্যাঁ।}"
+    }
+  ],
+  "memorize": {
+    "trick": "তিন বিন্দুর area determinant শূন্য হলেই সমরেখ। Formula মুখস্থ না থাকলে shoelace করুন: x-গুলো diagonal-এ y দিয়ে গুণ, সামনে যোগ, পেছনে বিয়োগ, শেষে অর্ধেক।",
+    "steps": [
+      "পরমমান নিতে ভুলবেন না।",
+      "Vertex order ধারাবাহিক না হলে polygon area ভুল হবে।"
+    ]
+  }
+}

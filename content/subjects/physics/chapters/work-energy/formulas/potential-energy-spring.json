@@ -5,12 +5,31 @@
   "titleBn": "স্প্রিং-এর স্থিতিস্থাপক বিভব শক্তি",
   "summary": "স্প্রিং সংকুচিত বা প্রসারিত করার ফলে সঞ্চিত শক্তি",
   "latex": "U = \\frac{1}{2} k x^2",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 20,
   "symbols": [
-    { "symbol": "U", "meaning": "সঞ্চিত বিভব শক্তি", "unit": "J (Joule)" },
-    { "symbol": "k", "meaning": "স্প্রিং ধ্রুবক (Spring constant)", "unit": "N/m" },
-    { "symbol": "x", "meaning": "সরণ/সংকোচন/প্রসারণ", "unit": "m" }
+    {
+      "symbol": "U",
+      "meaning": "সঞ্চিত বিভব শক্তি",
+      "unit": "J (Joule)"
+    },
+    {
+      "symbol": "k",
+      "meaning": "স্প্রিং ধ্রুবক (Spring constant)",
+      "unit": "N/m"
+    },
+    {
+      "symbol": "x",
+      "meaning": "সরণ/সংকোচন/প্রসারণ",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "হুকের সূত্র F = -kx এবং কাজের ক্ষেত্র সমাকলন করে শক্তি উদ্ভূত।",
@@ -20,6 +39,9 @@
         "latex": "W = \\int_0^x k x' dx' = \\frac{1}{2} k x^2 \\implies U = \\frac{1}{2} k x^2",
         "note": "স্প্রিং বল একটি সংরক্ষণশীল বল"
       }
+    ],
+    "assumptions": [
+      "Spring Hooke-এর সূত্র মানে এবং elastic limit-এর মধ্যে; k ধ্রুব"
     ]
   },
   "questions": [
@@ -28,5 +50,16 @@
       "question": "k = 200 N/m ধ্রুবকের একটি স্প্রিংকে 5 cm প্রসারিত করতে কত কাজ করতে হবে?",
       "answer": "W = \\frac{1}{2} (200) (0.05)^2 = 100 \\times 0.0025 = 0.25\\text{ J}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "U = ½kx² — 'অর্ধেক কে এক্স বর্গ'। সংকোচন বা প্রসারণ যাই হোক, x বর্গ হওয়ায় শক্তি সর্বদা ধনাত্মক।",
+    "steps": [
+      "F = kx (হুকের সূত্র) থেকে U = ∫₀ˣ kx dx = ½kx²।",
+      "লেখচিত্র: F–x লেখের নিচের ত্রিভুজের ক্ষেত্রফল = ½·x·kx = ½kx²।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

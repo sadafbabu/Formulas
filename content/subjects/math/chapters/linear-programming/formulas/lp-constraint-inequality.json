@@ -1,0 +1,49 @@
+{
+  "id": "lp-constraint-inequality",
+  "chapter": "linear-programming",
+  "title": "Constraint Inequality",
+  "titleBn": "সীমাবদ্ধতা অসমতা",
+  "summary": "ax+by≤c",
+  "latex": "ax+by\\le c",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "—",
+      "meaning": "প্রধান চলকসমূহ সূত্রে দ্রষ্টব্য",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "ax+by≤c",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "ax+by\\le c",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সীমাবদ্ধতা অসমতা এর মূল সূত্রটি লেখো।",
+      "answer": "ax+by\\le c"
+    }
+  ],
+  "memorize": {
+    "trick": "≤ → origin side feasible (coefficients positive হলে)。",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}

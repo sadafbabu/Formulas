@@ -1,0 +1,72 @@
+{
+  "id": "half-angle-triangle",
+  "chapter": "trigonometric-equations",
+  "title": "Half-angle Formulas in a Triangle",
+  "titleBn": "ত্রিভুজে অর্ধকোণের সূত্র",
+  "summary": "Side ও semiperimeter থেকে sin(A/2), cos(A/2), tan(A/2) এবং inradius relations।",
+  "latex": "\\sin\\frac A2=\\sqrt{\\frac{(s-b)(s-c)}{bc}},\\quad \\cos\\frac A2=\\sqrt{\\frac{s(s-a)}{bc}},\\quad \\tan\\frac A2=\\frac r{s-a}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "triangle-area-radii",
+    "sine-cosine-laws",
+    "multiple-angle"
+  ],
+  "symbols": [
+    {
+      "symbol": "s",
+      "meaning": "অর্ধপরিসীমা",
+      "unit": "একক"
+    },
+    {
+      "symbol": "r",
+      "meaning": "inradius",
+      "unit": "একক"
+    }
+  ],
+  "derivation": {
+    "lead": "Cosine rule ও half-angle identities একত্র করলে side-form half-angle formulas আসে।",
+    "steps": [
+      {
+        "title": "sine half",
+        "latex": "\\sin^2\\frac A2=\\frac{1-\\cos A}{2}=\\frac{(s-b)(s-c)}{bc}",
+        "note": "Triangle angle 0<A<π, তাই positive root।"
+      },
+      {
+        "title": "cosine half",
+        "latex": "\\cos^2\\frac A2=\\frac{1+\\cos A}{2}=\\frac{s(s-a)}{bc}",
+        "note": "Positive root।"
+      },
+      {
+        "title": "inradius form",
+        "latex": "\\tan\\frac A2=\\frac r{s-a}",
+        "note": "Angle bisector ও incircle geometry থেকে।"
+      }
+    ],
+    "assumptions": [
+      "a,b,c একটি বৈধ nondegenerate triangle গঠন করে।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Varsity Admission",
+      "question": "3-4-5 ত্রিভুজে 5-এর বিপরীত A=90° হলে tan(A/2) যাচাই করুন।",
+      "answer": "s=6,\\ r=1,\\ s-a=1\\Rightarrow\\tan(A/2)=1;\\ A/2=45^\\circ"
+    }
+  ],
+  "memorize": {
+    "trick": "Triangle half-angle-এ sin(A/2)-এর numerator-এ A-এর পাশ বাদ দিয়ে (s−b)(s−c); cos(A/2)-এ s(s−a)। আর tan(A/2)=r/(s−a)।",
+    "steps": [
+      "Triangle angle-এর half 0–90°, তাই square root positive।"
+    ]
+  }
+}

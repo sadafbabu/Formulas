@@ -1,0 +1,78 @@
+{
+  "id": "salt-hydrolysis",
+  "chapter": "chemical-equilibrium",
+  "title": "Salt Hydrolysis",
+  "titleBn": "লবণের আর্দ্রবিশ্লেষণ ও দ্রবণের pH",
+  "summary": "শক্তিশালী/দুর্বল acid-base থেকে গঠিত লবণের pH ও hydrolysis constant।",
+  "latex": "K_h=\\frac{K_w}{K_a}\\ (\\text{দুর্বল acid-এর লবণ}),\\quad \\mathrm{pH}=7+\\tfrac12(pK_a+\\log C)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 110,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "acid-base-equilibria",
+    "ph-poh-water",
+    "buffer-solution"
+  ],
+  "symbols": [
+    {
+      "symbol": "K_h",
+      "meaning": "আর্দ্রবিশ্লেষণ ধ্রুবক",
+      "unit": "—"
+    },
+    {
+      "symbol": "h",
+      "meaning": "আর্দ্রবিশ্লেষণ মাত্রা",
+      "unit": "—"
+    },
+    {
+      "symbol": "C",
+      "meaning": "লবণের ঘনমাত্রা",
+      "unit": "mol/L"
+    }
+  ],
+  "derivation": {
+    "lead": "দুর্বল acid বা base-এর conjugate ion পানির সাথে বিক্রিয়া করে H⁺ বা OH⁻ তৈরি করে।",
+    "steps": [
+      {
+        "title": "দুর্বল acid + শক্ত base-এর লবণ",
+        "latex": "K_h=\\frac{K_w}{K_a},\\quad [\\ce{OH-}]=\\sqrt{\\frac{K_wC}{K_a}}",
+        "note": "দ্রবণ ক্ষারীয়; pH = 7 + ½(pKₐ + log C)।"
+      },
+      {
+        "title": "দুর্বল base + শক্ত acid-এর লবণ",
+        "latex": "K_h=\\frac{K_w}{K_b},\\quad [\\ce{H+}]=\\sqrt{\\frac{K_wC}{K_b}}",
+        "note": "দ্রবণ অম্লীয়; pH = 7 − ½(pK_b + log C)।"
+      },
+      {
+        "title": "দুর্বল acid + দুর্বল base",
+        "latex": "\\mathrm{pH}=7+\\frac12(pK_a-pK_b)",
+        "note": "pH concentration-নিরপেক্ষ; Kₐ ও K_b-এর তুলনায় নির্ধারিত।"
+      }
+    ],
+    "assumptions": [
+      "তাপমাত্রা ২৫°C এবং hydrolysis কম।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Varsity Admission",
+      "question": "0.10 M \\ce{CH3COONa}-এর pH প্রকৃতি কী?",
+      "answer": "\\ce{CH3COO-}\\ \\text{hydrolysis করে }\\ce{OH-}\\ \\text{দেয়; তাই }\\mathrm{pH}>7\\ \\text{(ক্ষারীয়)}"
+    }
+  ],
+  "memorize": {
+    "trick": "লবণের pH বের করতে ‘যে parent দুর্বল, তার ion hydrolyze করে’। Weak acid + strong base ⇒ basic; weak base + strong acid ⇒ acidic; strong+strong ⇒ neutral।",
+    "steps": [
+      "CH₃COONa ক্ষারীয়, NH₄Cl অম্লীয়, NaCl নিরপেক্ষ।",
+      "দুর্বল+দুর্বল হলে Kₐ বনাম K_b তুলনা করুন।"
+    ]
+  }
+}

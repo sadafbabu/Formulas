@@ -1,14 +1,15 @@
 {
   "title": "Damped & Forced Oscillation",
-  "titleBn": "ক্ষতিগ্রস্ত ও প্রণোদিত দোলন",
+  "titleBn": "অবমন্দিত ও প্রণোদিত দোলন",
   "summary": "ক্ষতিগ্রস্ত দোলকের সমীকরণ ও অবনমন, প্রণোদিত দোলনে অনুনাদ",
-  "latex": "x = A e^{-\\gamma t}\\cos(\\omega_d t), \\quad \\omega_d = \\sqrt{\\omega_0^2 - \\gamma^2}",
+  "latex": "x=Ae^{-\\gamma t}\\cos(\\omega_dt+\\phi),\\quad \\omega_d=\\sqrt{\\omega_0^2-\\gamma^2}",
   "tags": [
     "eng-admission",
     "varsity",
     "1-star"
   ],
   "importance": 1,
+  "order": 50,
   "symbols": [
     {
       "symbol": "\\gamma",
@@ -17,7 +18,7 @@
     },
     {
       "symbol": "\\omega_0",
-      "meaning": "�্বাভাবিক কৌণিক কম্পাঙ্ক",
+      "meaning": "স্বাভাবিক কৌণিক কম্পাঙ্ক",
       "unit": "rad/s"
     },
     {
@@ -36,10 +37,29 @@
       }
     ],
     "assumptions": [
-      "রৈখিক অবনমন"
+      "রৈখিক অবনমন",
+      "Underdamped motion: γ < ω₀"
     ]
   },
   "id": "resonance-damped",
   "chapter": "periodic-motion",
-  "questions": []
+  "questions": [
+    {
+      "examType": "Eng / HSC",
+      "question": "ড্যাম্পড অসিলেটরের রেজোন্যান্স কৌণিক কম্পাঙ্ক ≈?",
+      "answer": "\\omega\\approx\\sqrt{\\omega_0^2-2\\gamma^2}"
+    }
+  ],
+  "memorize": {
+    "trick": "ক্ষতিগ্রস্ত দোলনে বিস্তার e^(−γt) হারে কমে, আর কম্পাঙ্ক একটু কমে যায়: ω_d = √(ω₀² − γ²)। 'বাধা যত বেশি, কম্পাঙ্ক তত কম'।",
+    "steps": [
+      "x = Ae^(−γt)cos(ω_d t) — খামের ভিতরে দোলন।",
+      "γ < ω₀ হলে দোলন চলে (underdamped), γ = ω₀ হলে critical, γ > ω₀ হলে দোলনই হয় না।",
+      "অনুনাদ হয় যখন প্রণোদক কম্পাঙ্ক ≈ ω₀ — তখন বিস্তার সর্বোচ্চ।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": []
 }

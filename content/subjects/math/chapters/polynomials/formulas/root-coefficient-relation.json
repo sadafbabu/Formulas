@@ -1,0 +1,60 @@
+{
+  "title": "Cubic & Polynomial Root Relations",
+  "titleBn": "ঘন ও বহুপদী মূল-সহগ সম্পর্ক",
+  "summary": "ঘন সমীকরণের মূলের যোগফল ও গুণফল সহগের সাথে",
+  "latex": "x_1+x_2+x_3 = -\\frac{b}{a}, \\quad \\sum x_i x_j = \\frac{c}{a}, \\quad x_1 x_2 x_3 = -\\frac{d}{a}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "x_1,x_2,x_3",
+      "meaning": "ঘন সমীকরণের মূল",
+      "unit": "—"
+    },
+    {
+      "symbol": "a,b,c,d",
+      "meaning": "ঘন বহুপদীর সহগ",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "বহুপদীকে উৎপাদক আকারে লিখে সহগ তুলনা থেকে Vieta-র সাধারণ রূপ।",
+    "steps": [
+      {
+        "title": "ঘন Vieta",
+        "latex": "\\sum x_i = -b/a, \\quad \\sum x_i x_j = c/a, \\quad \\prod x_i = -d/a",
+        "note": "n-তম ক্রমের জন্য সাধারণীকরণ সম্ভব"
+      }
+    ],
+    "assumptions": [
+      "মূলগুলো গণন (পুনরাবৃত্তি সহ)"
+    ]
+  },
+  "id": "root-coefficient-relation",
+  "chapter": "polynomials",
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "ax^2+bx+c=0 এ মূলের সমষ্টি কত?",
+      "answer": "\\alpha+\\beta=-\\frac{b}{a}"
+    }
+  ],
+  "memorize": {
+    "trick": "ভিয়েতার চিহ্ন পাল্টাপাল্টি: যোগফল = −b/a, জোড়ায় গুণফলের যোগ = +c/a, তিনের গুণফল = −d/a। 'বিজোড়ে ঋণাত্মক, জোড়ে ধনাত্মক' — এই নিয়মটাই মনে রাখুন।",
+    "steps": [
+      "দ্বিঘাতে: যোগফল = −b/a, গুণফল = c/a।",
+      "ঘন সমীকরণে: Σx = −b/a, Σxᵢxⱼ = c/a, x₁x₂x₃ = −d/a।",
+      "সাধারণ নিয়ম: k সংখ্যক মূলের গুণফলের যোগফল = (−1)^k × (সহগ/a)।"
+    ]
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": []
+}
