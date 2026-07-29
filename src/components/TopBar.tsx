@@ -10,6 +10,8 @@ interface TopBarProps {
   menuSlot: ReactNode
   viewMode: 'home' | 'book'
   onGoHome: () => void
+  query?: string
+  onClearQuery?: () => void
 }
 
 export function TopBar({
@@ -20,7 +22,11 @@ export function TopBar({
   menuSlot,
   viewMode,
   onGoHome,
+  query = '',
+  onClearQuery,
 }: TopBarProps) {
+  const q = query.trim()
+
   return (
     <header className="top-bar">
       <div className="top-bar-left">
@@ -78,7 +84,23 @@ export function TopBar({
 
       {viewMode === 'book' && (
         <div className="top-bar-count" aria-live="polite">
-          {matchCount === totalCount ? `${totalCount}` : `${matchCount}/${totalCount}`}
+          {q && onClearQuery ? (
+            <button
+              type="button"
+              className="search-active-pill"
+              onClick={onClearQuery}
+              title="সার্চ মুছুন"
+              aria-label={`সার্চ মুছুন: ${q}`}
+            >
+              <span className="search-active-q">⌕ {q}</span>
+              <span aria-hidden="true">×</span>
+            </button>
+          ) : null}
+          <span>
+            {matchCount === totalCount
+              ? `${totalCount}`
+              : `${matchCount}/${totalCount}`}
+          </span>
         </div>
       )}
     </header>

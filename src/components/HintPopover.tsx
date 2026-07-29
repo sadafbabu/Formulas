@@ -8,6 +8,7 @@ import {
   type ReactNode,
 } from 'react'
 import { createPortal } from 'react-dom'
+import { readSafeInsets, viewportBox } from '../utils/safeArea'
 
 interface HintPopoverProps {
   label: string
@@ -35,34 +36,48 @@ export function HintPopover({
     const panel = panelRef.current
     if (!btn) return
     const r = btn.getBoundingClientRect()
-    const mobile = window.innerWidth < 700
+    const safe = readSafeInsets()
+    const vp = viewportBox()
+    const mobile = window.matchMedia('(max-width: 699px)').matches
+    const gap = 8
+    const marginX = Math.max(8, safe.left, safe.right) + 4
+    const marginBottom = Math.max(12, safe.bottom + 8)
+    const marginTop = Math.max(8, safe.top + 4)
+
+    const maxWidth = vp.width - marginX * 2
     const width = mobile
-      ? Math.min(window.innerWidth - 16, wide ? 420 : 320)
-      : panel?.offsetWidth || (wide ? Math.min(448, window.innerWidth - 16) : 260)
+      ? Math.min(maxWidth, wide ? 420 : 320)
+      : panel?.offsetWidth || Math.min(wide ? 448 : 260, maxWidth)
     const height = panel?.offsetHeight || 180
+
     let left: number
     let top: number
 
     if (mobile) {
-      // Centered sheet — reliable on small screens / notches.
-      left = Math.max(8, (window.innerWidth - width) / 2)
-      top = Math.max(8, Math.min(r.bottom + 8, window.innerHeight - height - 12))
-      if (top + height > window.innerHeight - 8) {
-        top = Math.max(8, window.innerHeight - height - 12)
+      left = vp.offsetLeft + Math.max(marginX, (vp.width - width) / 2)
+      top = Math.max(
+        vp.offsetTop + marginTop,
+        Math.min(r.bottom + gap, vp.offsetTop + vp.height - height - marginBottom),
+      )
+      if (top + height > vp.offsetTop + vp.height - marginBottom) {
+        top = Math.max(
+          vp.offsetTop + marginTop,
+          vp.offsetTop + vp.height - height - marginBottom,
+        )
       }
     } else {
       left = Math.min(
-        Math.max(8, r.right - width),
-        window.innerWidth - width - 8,
+        Math.max(vp.offsetLeft + marginX, r.right - width),
+        vp.offsetLeft + vp.width - width - marginX,
       )
-      top = r.bottom + 8
-      if (top + height > window.innerHeight - 8) {
-        top = Math.max(8, r.top - height - 8)
+      top = r.bottom + gap
+      if (top + height > vp.offsetTop + vp.height - marginBottom) {
+        top = Math.max(vp.offsetTop + marginTop, r.top - height - gap)
       }
     }
 
-    if (height > window.innerHeight - 16) {
-      top = 8
+    if (height > vp.height - marginTop - marginBottom) {
+      top = vp.offsetTop + marginTop
     }
     setPos({ top, left })
   }, [wide])
@@ -82,26 +97,23 @@ export function HintPopover({
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') setOpen(false)
     }
-    const onPointer = (e: MouseEvent | TouchEvent) => {
-      const t = e.target as Node
-      if (rootRef.current?.contains(t)) return
-      if (panelRef.current?.contains(t)) return
-      setOpen(false)
-    }
     const onScroll = () => place()
+    const vv = window.visualViewport
     window.addEventListener('keydown', onKey)
-    window.addEventListener('mousedown', onPointer)
-    window.addEventListener('touchstart', onPointer)
     window.addEventListener('resize', onScroll)
     window.addEventListener('scroll', onScroll, true)
+    vv?.addEventListener('resize', onScroll)
+    vv?.addEventListener('scroll', onScroll)
     return () => {
       window.removeEventListener('keydown', onKey)
-      window.removeEventListener('mousedown', onPointer)
-      window.removeEventListener('touchstart', onPointer)
       window.removeEventListener('resize', onScroll)
       window.removeEventListener('scroll', onScroll, true)
+      vv?.removeEventListener('resize', onScroll)
+      vv?.removeEventListener('scroll', onScroll)
     }
   }, [open, place])
+
+  const close = () => setOpen(false)
 
   return (
     <div className="hint-wrap" ref={rootRef}>
@@ -122,19 +134,26 @@ export function HintPopover({
 
       {open &&
         createPortal(
-          <div
-            id={tipId}
-            ref={panelRef}
-            className={`hint-popover${wide ? ' is-wide' : ''}`}
-            role="dialog"
-            aria-modal="true"
-            aria-label={title}
-            style={{ top: pos.top, left: pos.left }}
-            onClick={(e) => e.stopPropagation()}
-          >
-            <p className="hint-popover-title">{title}</p>
-            {children}
-          </div>,
+          <>
+            <button
+              type="button"
+              className="overlay-backdrop"
+              aria-label="Close hint"
+              onClick={close}
+            />
+            <div
+              id={tipId}
+              ref={panelRef}
+              className={`hint-popover${wide ? ' is-wide' : ''}`}
+              role="dialog"
+              aria-label={title}
+              style={{ top: pos.top, left: pos.left }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <p className="hint-popover-title">{title}</p>
+              {children}
+            </div>
+          </>,
           document.body,
         )}
     </div>

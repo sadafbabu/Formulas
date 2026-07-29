@@ -77,6 +77,8 @@ export function SampleBookPage() {
         totalCount={all.length}
         viewMode={viewMode}
         onGoHome={handleGoHome}
+        query={query}
+        onClearQuery={() => setQuery('')}
         menuSlot={
           <NavMenu
             query={query}

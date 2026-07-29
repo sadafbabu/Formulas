@@ -30,8 +30,8 @@ export function FormulaBlock({
   // Filter out any older star tags from formula.tags to avoid duplicates
   const examTags = formula.tags.filter((t) => !t.endsWith('-star'))
 
-  // Exam tags first (cap at 2 for compact rows), then grey star importance.
-  const displayTags: TagId[] = [...examTags.slice(0, 2), importanceTag]
+  // One exam tag + star keeps the meta row tappable on narrow phones.
+  const displayTags: TagId[] = [...examTags.slice(0, 1), importanceTag]
 
   return (
     <article

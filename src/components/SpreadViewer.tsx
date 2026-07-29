@@ -112,7 +112,7 @@ export function SpreadViewer({
       const node = target as HTMLElement | null
       return Boolean(
         node?.closest(
-          '.formula-latex-col, .formula-latex, .formula-actions, .hint-wrap, .hint-popover, .nav-panel, .deck-chrome, input, textarea, button',
+          '.formula-latex-col, .formula-latex, .formula-actions, .hint-wrap, .hint-popover, .overlay-backdrop, .nav-panel, .deck-chrome, .formula-meta, a, input, textarea, button',
         ),
       )
     }
@@ -133,8 +133,9 @@ export function SpreadViewer({
       const dy = t.clientY - touchStart.current.y
       touchStart.current = null
       // Strong horizontal intent only — never fight vertical scroll.
-      if (Math.abs(dx) < 72) return
-      if (Math.abs(dx) < Math.abs(dy) * 1.8) return
+      if (Math.abs(dx) < 80) return
+      if (Math.abs(dy) > 28 && Math.abs(dx) < Math.abs(dy) * 2.2) return
+      if (Math.abs(dx) < Math.abs(dy) * 2) return
       if (dx < 0) goNext()
       else goPrev()
     }
@@ -299,20 +300,6 @@ export function SpreadViewer({
           className={`mobile-pager ${slideClass}`}
           aria-label="Book page"
         >
-          <button
-            type="button"
-            className="edge-zone is-left"
-            aria-label="Previous edge"
-            disabled={atStart}
-            onClick={goPrev}
-          />
-          <button
-            type="button"
-            className="edge-zone is-right"
-            aria-label="Next edge"
-            disabled={atEnd}
-            onClick={goNext}
-          />
           {mobilePage && (
             <div className="page-hit is-single">
               <A5Page

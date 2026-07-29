@@ -17,6 +17,7 @@ import {
   subjectsList,
 } from '../data/catalog'
 import { matchFormula } from '../utils/search'
+import { readSafeInsets, viewportBox } from '../utils/safeArea'
 
 interface NavMenuProps {
   query: string
@@ -70,12 +71,23 @@ export function NavMenu({
     const btn = rootRef.current
     if (!btn) return
     const r = btn.getBoundingClientRect()
-    const width = Math.min(320, window.innerWidth - 16)
+    const safe = readSafeInsets()
+    const vp = viewportBox()
+    const marginX = Math.max(8, safe.left, safe.right)
+    const marginY = Math.max(8, safe.top)
+    const marginBottom = Math.max(8, safe.bottom + 8)
+    const width = Math.min(320, vp.width - marginX * 2)
     const panelH = panelRef.current?.offsetHeight || 320
-    let left = Math.min(Math.max(8, r.left), window.innerWidth - width - 8)
+    let left = Math.min(
+      Math.max(vp.offsetLeft + marginX, r.left),
+      vp.offsetLeft + vp.width - width - marginX,
+    )
     let top = r.bottom + 8
-    if (top + panelH > window.innerHeight - 8) {
-      top = Math.max(8, window.innerHeight - panelH - 8)
+    if (top + panelH > vp.offsetTop + vp.height - marginBottom) {
+      top = Math.max(
+        vp.offsetTop + marginY,
+        vp.offsetTop + vp.height - panelH - marginBottom,
+      )
     }
     setPos({ top, left })
   }
@@ -85,31 +97,26 @@ export function NavMenu({
     placePanel()
     const id = window.requestAnimationFrame(placePanel)
     return () => window.cancelAnimationFrame(id)
-  }, [open])
+  }, [open, query, list.length])
 
   useEffect(() => {
     if (!open) return
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') setOpen(false)
     }
-    const onPointer = (e: Event) => {
-      const t = e.target as Node
-      if (rootRef.current?.contains(t)) return
-      if (panelRef.current?.contains(t)) return
-      setOpen(false)
-    }
     const onReposition = () => placePanel()
+    const vv = window.visualViewport
     window.addEventListener('keydown', onKey)
-    window.addEventListener('mousedown', onPointer)
-    window.addEventListener('touchstart', onPointer)
     window.addEventListener('resize', onReposition)
     window.addEventListener('scroll', onReposition, true)
+    vv?.addEventListener('resize', onReposition)
+    vv?.addEventListener('scroll', onReposition)
     return () => {
       window.removeEventListener('keydown', onKey)
-      window.removeEventListener('mousedown', onPointer)
-      window.removeEventListener('touchstart', onPointer)
       window.removeEventListener('resize', onReposition)
       window.removeEventListener('scroll', onReposition, true)
+      vv?.removeEventListener('resize', onReposition)
+      vv?.removeEventListener('scroll', onReposition)
     }
   }, [open])
 
@@ -118,80 +125,100 @@ export function NavMenu({
   const activeSubject =
     subjectsList.find((s) => s.id === activeChapter?.subjectId) ?? subjectsList[0]
 
+  const close = () => setOpen(false)
+
   const panel = open ? (
-    <nav
-      id={panelId}
-      ref={panelRef}
-      className="nav-panel"
-      aria-label="Book navigation"
-      style={{ top: pos.top, left: pos.left }}
-    >
-      <div className="nav-brand">Formulas</div>
-      <p className="nav-subject-line">
-        {activeSubject.nameBn} · {activeSubject.name}
-      </p>
+    <>
+      <button
+        type="button"
+        className="overlay-backdrop"
+        aria-label="Close navigation"
+        onClick={close}
+      />
+      <nav
+        id={panelId}
+        ref={panelRef}
+        className="nav-panel"
+        aria-label="Book navigation"
+        style={{ top: pos.top, left: pos.left }}
+      >
+        <div className="nav-brand">Formulas</div>
+        <p className="nav-subject-line">
+          {activeSubject.nameBn} · {activeSubject.name}
+        </p>
 
-      <label className="nav-search">
-        <span aria-hidden="true">⌕</span>
-        <input
-          value={query}
-          onChange={(e) => onQueryChange(e.target.value)}
-          placeholder="সূত্র খুঁজুন…"
-          aria-label="সূত্র খুঁজুন"
-          autoFocus={!isCoarsePointer}
-        />
-      </label>
-
-      {chaptersBySubject.map(({ subject, chapters: subjectChapters }) => (
-        <div key={subject.id} className="nav-subject-group">
-          <p className="nav-section">
-            {subject.nameBn}
-            <span className="nav-section-en"> · {subject.name}</span>
-          </p>
-          {subjectChapters.map((ch) => (
+        <label className="nav-search">
+          <span aria-hidden="true">⌕</span>
+          <input
+            value={query}
+            onChange={(e) => onQueryChange(e.target.value)}
+            placeholder="সূত্র খুঁজুন…"
+            aria-label="সূত্র খুঁজুন"
+            autoFocus={!isCoarsePointer}
+          />
+          {q ? (
             <button
-              key={ch.id}
               type="button"
-              className={`nav-link${chapterId === ch.id ? ' is-active' : ''}`}
-              onClick={() => {
-                onChapterChange(ch.id)
-                setOpen(false)
-              }}
+              className="nav-search-clear"
+              aria-label="Clear search"
+              onClick={() => onQueryChange('')}
             >
-              {ch.nameBn}
-              <span>{ch.formulaCount}</span>
+              ×
             </button>
-          ))}
-        </div>
-      ))}
+          ) : null}
+        </label>
 
-      <p className="nav-section">
-        {searchingAll ? 'সব অধ্যায়ে মিল' : 'সূত্র'} ({list.length}
-        {q ? ' মিল' : ''})
-      </p>
-      <ul className="nav-formula-list">
-        {list.length === 0 ? (
-          <li className="nav-empty">কোনো সূত্র মিলেনি</li>
-        ) : (
-          list.map((f) => {
-            const chMeta = getChapter(f.chapter)
-            return (
-              <li key={f.id}>
-                <Link
-                  to={`/formula/${f.id}?chapter=${encodeURIComponent(f.chapter || chapter)}`}
-                  onClick={() => setOpen(false)}
-                >
-                  {f.titleBn}
-                  {searchingAll && chMeta ? (
-                    <span className="nav-formula-chapter">{chMeta.nameBn}</span>
-                  ) : null}
-                </Link>
-              </li>
-            )
-          })
-        )}
-      </ul>
-    </nav>
+        {chaptersBySubject.map(({ subject, chapters: subjectChapters }) => (
+          <div key={subject.id} className="nav-subject-group">
+            <p className="nav-section">
+              {subject.nameBn}
+              <span className="nav-section-en"> · {subject.name}</span>
+            </p>
+            {subjectChapters.map((ch) => (
+              <button
+                key={ch.id}
+                type="button"
+                className={`nav-link${chapterId === ch.id ? ' is-active' : ''}`}
+                onClick={() => {
+                  onChapterChange(ch.id)
+                  setOpen(false)
+                }}
+              >
+                {ch.nameBn}
+                <span>{ch.formulaCount}</span>
+              </button>
+            ))}
+          </div>
+        ))}
+
+        <p className="nav-section">
+          {searchingAll ? 'সব অধ্যায়ে মিল' : 'সূত্র'} ({list.length}
+          {q ? ' মিল' : ''})
+        </p>
+        <ul className="nav-formula-list">
+          {list.length === 0 ? (
+            <li className="nav-empty">কোনো সূত্র মিলেনি</li>
+          ) : (
+            list.map((f) => {
+              const chMeta = getChapter(f.chapter)
+              return (
+                <li key={f.id}>
+                  <Link
+                    to={`/formula/${f.id}?chapter=${encodeURIComponent(f.chapter || chapter)}`}
+                    onClick={() => setOpen(false)}
+                  >
+                    {f.titleBn}
+                    {searchingAll && chMeta ? (
+                      <span className="nav-formula-chapter">{chMeta.nameBn}</span>
+                    ) : null}
+                  </Link>
+                </li>
+              )
+            })
+          )}
+        </ul>
+      </nav>
+    </>
   ) : null
 
   return (
