@@ -1,4 +1,5 @@
 import {
+  useCallback,
   useEffect,
   useId,
   useLayoutEffect,
@@ -29,27 +30,29 @@ export function HintPopover({
   const panelRef = useRef<HTMLDivElement>(null)
   const [pos, setPos] = useState({ top: 0, left: 0 })
 
-  const place = () => {
+  const place = useCallback(() => {
     const btn = rootRef.current
     const panel = panelRef.current
     if (!btn) return
     const r = btn.getBoundingClientRect()
+    const pad = 10
     const width = panel?.offsetWidth || (wide ? 300 : 260)
     const height = panel?.offsetHeight || 180
-    let left = Math.min(
-      Math.max(8, r.right - width),
-      window.innerWidth - width - 8,
-    )
+    const maxLeft = Math.max(pad, window.innerWidth - width - pad)
+    const left = Math.min(Math.max(pad, r.right - width), maxLeft)
     let top = r.bottom + 8
-    if (top + height > window.innerHeight - 8) {
-      top = Math.max(8, r.top - height - 8)
+    if (top + height > window.innerHeight - pad) {
+      top = Math.max(pad, r.top - height - 8)
     }
+    // Keep within viewport even if panel is taller than the screen
+    const maxTop = Math.max(pad, window.innerHeight - Math.min(height, window.innerHeight - pad * 2) - pad)
+    top = Math.min(top, maxTop)
     setPos({ top, left })
-  }
+  }, [wide])
 
   useLayoutEffect(() => {
     if (open) place()
-  }, [open, wide, children])
+  }, [open, place, children])
 
   useEffect(() => {
     if (!open) return
@@ -75,7 +78,7 @@ export function HintPopover({
       window.removeEventListener('resize', onScroll)
       window.removeEventListener('scroll', onScroll, true)
     }
-  }, [open, wide])
+  }, [open, place])
 
   return (
     <div className="hint-wrap" ref={rootRef}>

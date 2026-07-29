@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { Katex } from '../components/Katex'
+import { MathOrText } from '../components/MathOrText'
 import { NavMenu } from '../components/NavMenu'
 import { TagChip } from '../components/TagChip'
 import { defaultChapterId, getFormula } from '../data/catalog'
@@ -19,7 +20,7 @@ export function FormulaDetailPage() {
     setParams(next, { replace: true })
   }
 
-  const backTo = `/?chapter=${encodeURIComponent(chapterId)}`
+  const backTo = `/?chapter=${encodeURIComponent(chapterId)}&view=book`
 
   if (!formula) {
     return (
@@ -91,7 +92,9 @@ export function FormulaDetailPage() {
                   {symbols.map((s) => (
                     <tr key={`${s.symbol}-${s.meaning}`}>
                       <td>{s.symbol}</td>
-                      <td>{s.meaning}</td>
+                      <td>
+                        <MathOrText text={s.meaning} />
+                      </td>
                       <td>{s.unit}</td>
                       <td>{s.value ?? '—'}</td>
                     </tr>
