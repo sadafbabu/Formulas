@@ -9,7 +9,7 @@ import {
 } from '../data/catalog'
 import type { PaperId, SubjectId } from '../data/types'
 import { formulaDetailPath } from '../utils/bookLinks'
-import { matchFormula } from '../utils/search'
+import { SEARCH_SUGGESTIONS, matchFormula, searchFormulas } from '../utils/search'
 
 interface OverviewHomeProps {
   onSelectChapter: (chapterId: string) => void
@@ -39,7 +39,7 @@ export function OverviewHome({
 
   const formulaHits = useMemo(() => {
     if (!q) return []
-    return formulas.filter((f) => matchFormula(f, query, null)).slice(0, 24)
+    return searchFormulas(formulas, query, null, 24).map((r) => r.formula)
   }, [q, query])
 
   const formulaHitTotal = useMemo(() => {
@@ -63,7 +63,7 @@ export function OverviewHome({
             <input
               value={query}
               onChange={(e) => onQueryChange(e.target.value)}
-              placeholder="সূত্র বা অধ্যায় খুঁজুন…"
+              placeholder="উদাহরণ: lorentz, কার্নো, YDSE, লিফট…"
               aria-label="সূত্র বা অধ্যায় খুঁজুন"
             />
             {q ? (
@@ -77,6 +77,21 @@ export function OverviewHome({
               </button>
             ) : null}
           </label>
+        ) : null}
+
+        {onQueryChange && !q ? (
+          <div className="overview-suggest-row" aria-label="দ্রুত খোঁজ">
+            {SEARCH_SUGGESTIONS.map((s) => (
+              <button
+                key={s}
+                type="button"
+                className="overview-suggest-chip"
+                onClick={() => onQueryChange(s)}
+              >
+                {s}
+              </button>
+            ))}
+          </div>
         ) : null}
 
         <div className="overview-filters">

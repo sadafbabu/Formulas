@@ -9,18 +9,22 @@ import {
   subjectsList,
 } from '../data/catalog'
 import { formulaDetailPath } from '../utils/bookLinks'
-import { matchFormula } from '../utils/search'
+import {
+  SEARCH_SUGGESTIONS,
+  matchFormula,
+  searchFormulas,
+} from '../utils/search'
 
 interface NavMenuProps {
   query: string
   onQueryChange: (value: string) => void
   chapterId: string
   onChapterChange: (id: string) => void
-  /** When false, only render the fab+panel (menu lives inside TopBar) */
   floating?: boolean
+  openSignal?: number
 }
 
-const RESULT_LIMIT = 40
+const RESULT_LIMIT = 50
 
 export function NavMenu({
   query,
@@ -28,15 +32,24 @@ export function NavMenu({
   chapterId,
   onChapterChange,
   floating = false,
+  openSignal = 0,
 }: NavMenuProps) {
   const [open, setOpen] = useState(false)
   const [params] = useSearchParams()
   const panelId = useId()
   const rootRef = useRef<HTMLDivElement>(null)
+  const inputRef = useRef<HTMLInputElement>(null)
   const isCoarsePointer =
     typeof window !== 'undefined' &&
     window.matchMedia('(pointer: coarse)').matches
   const q = query.trim()
+
+  useEffect(() => {
+    if (openSignal > 0) {
+      setOpen(true)
+      window.setTimeout(() => inputRef.current?.focus(), 30)
+    }
+  }, [openSignal])
 
   const chapterList = useMemo(() => {
     return formulasForChapter(chapterId || defaultChapterId).filter((f) =>
@@ -44,13 +57,15 @@ export function NavMenu({
     )
   }, [chapterId, query])
 
-  const globalMatches = useMemo(() => {
+  const rankedGlobal = useMemo(() => {
     if (!q) return []
-    return formulas.filter((f) => matchFormula(f, query, null))
+    return searchFormulas(formulas, query, null, RESULT_LIMIT)
   }, [q, query])
 
-  const globalList = globalMatches.slice(0, RESULT_LIMIT)
-  const globalMatchTotal = globalMatches.length
+  const globalMatchTotal = useMemo(() => {
+    if (!q) return 0
+    return formulas.filter((f) => matchFormula(f, query, null)).length
+  }, [q, query])
 
   const chaptersBySubject = useMemo(() => {
     return subjectsList.map((subject) => ({
@@ -59,17 +74,36 @@ export function NavMenu({
     }))
   }, [])
 
-  const list = q ? (globalList.length ? globalList : chapterList) : chapterList
-  const searchingAll = Boolean(q && globalList.length > 0)
+  const filteredChapterNav = useMemo(() => {
+    if (!q) return chaptersBySubject
+    const nq = q.toLowerCase()
+    return chaptersBySubject
+      .map(({ subject, chapters: subjectChapters }) => ({
+        subject,
+        chapters: subjectChapters.filter((ch) => {
+          const hay = `${ch.name} ${ch.nameBn} ${ch.id}`.toLowerCase()
+          if (hay.includes(nq)) return true
+          return formulas.some(
+            (f) => f.chapter === ch.id && matchFormula(f, query, null),
+          )
+        }),
+      }))
+      .filter((g) => g.chapters.length > 0)
+  }, [chaptersBySubject, q, query])
+
+  const searchingAll = Boolean(q && rankedGlobal.length > 0)
+  const list = q
+    ? rankedGlobal.map((r) => r.formula)
+    : chapterList
   const resultLabel = (() => {
-    if (!q) return `সূত্র (${list.length})`
+    if (!q) return `এই অধ্যায়ের সূত্র (${list.length})`
     if (searchingAll) {
       if (globalMatchTotal > RESULT_LIMIT) {
-        return `সব অধ্যায়ে মিল (প্রথম ${RESULT_LIMIT} / ${globalMatchTotal})`
+        return `সেরা মিল (প্রথম ${RESULT_LIMIT} / ${globalMatchTotal})`
       }
-      return `সব অধ্যায়ে মিল (${globalMatchTotal})`
+      return `সেরা মিল (${globalMatchTotal})`
     }
-    return `সূত্র (${list.length} মিল)`
+    return `কোনো সূত্র মিলেনি`
   })()
 
   useEffect(() => {
@@ -98,7 +132,7 @@ export function NavMenu({
     <div className={`nav-root${floating ? ' is-floating' : ' is-inline'}`} ref={rootRef}>
       <button
         type="button"
-        className="nav-fab"
+        className={`nav-fab${open ? ' is-open' : ''}`}
         aria-label="Open navigation"
         aria-expanded={open}
         aria-controls={panelId}
@@ -113,23 +147,67 @@ export function NavMenu({
 
       {open && (
         <nav id={panelId} className="nav-panel" aria-label="Book navigation">
-          <div className="nav-brand">Formulas</div>
-          <p className="nav-subject-line">
-            {activeSubject.nameBn} · {activeSubject.name}
-          </p>
+          <div className="nav-panel-head">
+            <div>
+              <div className="nav-brand">Formulas</div>
+              <p className="nav-subject-line">
+                {activeSubject.nameBn} · {activeChapter?.nameBn ?? activeSubject.name}
+              </p>
+            </div>
+            <button
+              type="button"
+              className="nav-panel-close"
+              aria-label="মেনু বন্ধ"
+              onClick={() => setOpen(false)}
+            >
+              ×
+            </button>
+          </div>
 
           <label className="nav-search">
             <span aria-hidden="true">⌕</span>
             <input
+              ref={inputRef}
               value={query}
               onChange={(e) => onQueryChange(e.target.value)}
-              placeholder="সূত্র খুঁজুন…"
+              placeholder="নাম, চিহ্ন, অধ্যায়, Banglish…"
               aria-label="সূত্র খুঁজুন"
               autoFocus={!isCoarsePointer}
             />
+            {q ? (
+              <button
+                type="button"
+                className="nav-search-clear"
+                aria-label="সার্চ মুছুন"
+                onClick={() => {
+                  onQueryChange('')
+                  inputRef.current?.focus()
+                }}
+              >
+                ×
+              </button>
+            ) : null}
           </label>
 
-          {chaptersBySubject.map(({ subject, chapters: subjectChapters }) => (
+          {!q ? (
+            <div className="nav-suggest">
+              <span className="nav-suggest-label">দ্রুত খোঁজ</span>
+              <div className="nav-suggest-row">
+                {SEARCH_SUGGESTIONS.map((s) => (
+                  <button
+                    key={s}
+                    type="button"
+                    className="nav-suggest-chip"
+                    onClick={() => onQueryChange(s)}
+                  >
+                    {s}
+                  </button>
+                ))}
+              </div>
+            </div>
+          ) : null}
+
+          {filteredChapterNav.map(({ subject, chapters: subjectChapters }) => (
             <div key={subject.id} className="nav-subject-group">
               <p className="nav-section">
                 {subject.nameBn}
@@ -155,7 +233,9 @@ export function NavMenu({
           <p className="nav-section">{resultLabel}</p>
           <ul className="nav-formula-list">
             {list.length === 0 ? (
-              <li className="nav-empty">কোনো সূত্র মিলেনি</li>
+              <li className="nav-empty">
+                কোনো সূত্র মিলেনি — অন্য কীওয়ার্ড বা Banglish চেষ্টা করুন
+              </li>
             ) : (
               list.map((f) => {
                 const chMeta = getChapter(f.chapter)
@@ -170,10 +250,11 @@ export function NavMenu({
                       })}
                       onClick={() => setOpen(false)}
                     >
-                      {f.titleBn}
-                      {searchingAll && chMeta ? (
-                        <span className="nav-formula-chapter">{chMeta.nameBn}</span>
-                      ) : null}
+                      <span className="nav-formula-title">{f.titleBn}</span>
+                      <span className="nav-formula-sub">
+                        {f.title}
+                        {searchingAll && chMeta ? ` · ${chMeta.nameBn}` : ''}
+                      </span>
                     </Link>
                   </li>
                 )
