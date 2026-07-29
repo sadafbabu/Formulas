@@ -4,6 +4,7 @@ import { Katex } from '../components/Katex'
 import { NavMenu } from '../components/NavMenu'
 import { TagChip } from '../components/TagChip'
 import { defaultChapterId, getFormula } from '../data/catalog'
+import type { Formula } from '../data/types'
 
 export function FormulaDetailPage() {
   const { id } = useParams()
@@ -19,7 +20,7 @@ export function FormulaDetailPage() {
     setParams(next, { replace: true })
   }
 
-  const backTo = `/?chapter=${encodeURIComponent(chapterId)}`
+  const backTo = `/?chapter=${encodeURIComponent(chapterId)}&view=book`
 
   if (!formula) {
     return (
@@ -44,6 +45,9 @@ export function FormulaDetailPage() {
   }
 
   const { derivation, symbols } = formula
+  const related = (formula.related ?? [])
+    .map((rid) => getFormula(rid))
+    .filter((f): f is Formula => Boolean(f))
 
   return (
     <div className="book-shell detail-shell">
@@ -120,6 +124,26 @@ export function FormulaDetailPage() {
               ))}
             </ul>
           </aside>
+
+          {related.length > 0 && (
+            <aside className="related-box">
+              <h4>সম্পর্কিত সূত্র</h4>
+              <ul className="related-list">
+                {related.map((rf) => (
+                  <li key={rf.id}>
+                    <Link
+                      to={`/formula/${rf.id}?chapter=${encodeURIComponent(chapterId)}`}
+                    >
+                      <span className="related-title">{rf.titleBn}</span>
+                      <span className="related-latex">
+                        <Katex latex={rf.latex} />
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </aside>
+          )}
         </article>
       </main>
     </div>
