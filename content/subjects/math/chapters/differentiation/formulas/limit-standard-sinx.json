@@ -1,0 +1,53 @@
+{
+  "id": "limit-standard-sinx",
+  "chapter": "differentiation",
+  "title": "Standard Limit sin x / x",
+  "titleBn": "প্রমিত সীমা sinx/x",
+  "summary": "→1 as x→0",
+  "latex": "\\lim_{x\\to0}\\frac{\\sin x}{x}=1",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "lim, x",
+      "meaning": "→1 as x→0",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "রেডিয়ানে সত্য; ডিগ্রিতে নয়।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\lim_{x\\to0}\\frac{\\sin x}{x}=1",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "প্রমিত সীমা sinx/x এর সূত্রটি লেখো। (ইঙ্গিত: রেডিয়ানে সত্য; ডিগ্রিতে নয়।)",
+      "answer": "\\lim_{x\\to0}\\frac{\\sin x}{x}=1"
+    }
+  ],
+  "memorize": {
+    "trick": "রেডিয়ানে সত্য; ডিগ্রিতে নয়।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "second-derivative",
+    "lhopital-rule",
+    "parametric-diff"
+  ]
+}

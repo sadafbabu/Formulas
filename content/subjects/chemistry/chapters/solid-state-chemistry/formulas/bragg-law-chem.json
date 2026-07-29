@@ -1,0 +1,54 @@
+{
+  "id": "bragg-law-chem",
+  "chapter": "solid-state-chemistry",
+  "title": "Bragg's Law",
+  "titleBn": "ব্র্যাগের সূত্র",
+  "summary": "nλ=2d sinθ",
+  "latex": "n\\lambda=2d\\sin\\theta",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "n, lambda, d, theta",
+      "meaning": "nλ=2d sinθ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "nλ=2d sinθ — X-ray দিয়ে d নির্ণয়।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "n\\lambda=2d\\sin\\theta",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ব্র্যাগের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: X-ray দিয়ে d নির্ণয়।)",
+      "answer": "n\\lambda=2d\\sin\\theta"
+    }
+  ],
+  "memorize": {
+    "trick": "X-ray দিয়ে d নির্ণয়।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "density-crystal",
+    "schottky-frenkel",
+    "packing-efficiency-bcc"
+  ]
+}

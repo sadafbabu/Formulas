@@ -1,0 +1,53 @@
+{
+  "id": "change-of-base",
+  "chapter": "logarithms-exponents",
+  "title": "Change of Base",
+  "titleBn": "ভিত্তি পরিবর্তন",
+  "summary": "log_b a = log_k a / log_k b",
+  "latex": "\\log_b a=\\frac{\\log_k a}{\\log_k b}=\\frac{1}{\\log_a b}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "b, a, k",
+      "meaning": "log_b a = log_k a / log_k b",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ক্যালকুলেটরে ln বা log₁₀ দিয়ে যেকোনো ভিত্তি।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\log_b a=\\frac{\\log_k a}{\\log_k b}=\\frac{1}{\\log_a b}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ভিত্তি পরিবর্তন এর সূত্রটি লেখো। (ইঙ্গিত: ক্যালকুলেটরে ln বা log₁₀ দিয়ে যেকোনো ভিত্তি।)",
+      "answer": "\\log_b a=\\frac{\\log_k a}{\\log_k b}=\\frac{1}{\\log_a b}"
+    }
+  ],
+  "memorize": {
+    "trick": "ক্যালকুলেটরে ln বা log₁₀ দিয়ে যেকোনো ভিত্তি।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "log-power-rule",
+    "log-identity-ab",
+    "log-product-quotient"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "log-power-rule",
+  "chapter": "logarithms-exponents",
+  "title": "Log Power Rule",
+  "titleBn": "লগ ঘাত সূত্র",
+  "summary": "log(a^n)=n log a",
+  "latex": "\\log_c(a^n)=n\\log_c a",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "c, a, n",
+      "meaning": "log(a^n)=n log a",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "log(a^n)=n log a — ঘাত সামনে এসে গুণক হয়।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\log_c(a^n)=n\\log_c a",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "লগ ঘাত সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: ঘাত সামনে এসে গুণক হয়।)",
+      "answer": "\\log_c(a^n)=n\\log_c a"
+    }
+  ],
+  "memorize": {
+    "trick": "ঘাত সামনে এসে গুণক হয়।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "log-product-quotient",
+    "change-of-base",
+    "log-identity-ab"
+  ]
+}

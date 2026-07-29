@@ -1,0 +1,54 @@
+{
+  "id": "ac-power-factor",
+  "chapter": "induction-ac",
+  "title": "Power Factor",
+  "titleBn": "ক্ষমতা গুণাঙ্ক",
+  "summary": "cosφ = R/Z",
+  "latex": "\\cos\\phi=\\frac{R}{Z},\\quad P_{\\mathrm{avg}}=V_{\\mathrm{rms}}I_{\\mathrm{rms}}\\cos\\phi",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 150,
+  "symbols": [
+    {
+      "symbol": "phi, R, Z, P",
+      "meaning": "cosφ = R/Z",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "cosφ = R/Z — খাঁটি রোধে cosφ=১।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\cos\\phi=\\frac{R}{Z},\\quad P_{\\mathrm{avg}}=V_{\\mathrm{rms}}I_{\\mathrm{rms}}\\cos\\phi",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ক্ষমতা গুণাঙ্ক এর সূত্রটি লেখো। (ইঙ্গিত: খাঁটি রোধে cosφ=১।)",
+      "answer": "\\cos\\phi=\\frac{R}{Z},\\quad P_{\\mathrm{avg}}=V_{\\mathrm{rms}}I_{\\mathrm{rms}}\\cos\\phi"
+    }
+  ],
+  "memorize": {
+    "trick": "খাঁটি রোধে cosφ=১।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "ac-impedance",
+    "lc-resonance-freq",
+    "eddy-current-loss"
+  ]
+}

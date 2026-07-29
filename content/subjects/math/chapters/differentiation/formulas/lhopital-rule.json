@@ -1,0 +1,52 @@
+{
+  "id": "lhopital-rule",
+  "chapter": "differentiation",
+  "title": "L'Hôpital's Rule",
+  "titleBn": "ল'হোপিটালের নিয়ম",
+  "summary": "0/0 or ∞/∞",
+  "latex": "\\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "lim, f, g, tfrac",
+      "meaning": "0/0 or ∞/∞",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "অনির্ণেয় আকারে অন্তরক নাও।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ল'হোপিটালের নিয়ম এর সূত্রটি লেখো। (ইঙ্গিত: অনির্ণেয় আকারে অন্তরক নাও।)",
+      "answer": "\\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})"
+    }
+  ],
+  "memorize": {
+    "trick": "অনির্ণেয় আকারে অন্তরক নাও।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "limit-standard-sinx",
+    "second-derivative"
+  ]
+}

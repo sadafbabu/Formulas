@@ -1,0 +1,52 @@
+{
+  "id": "fundamental-theorem-calculus",
+  "chapter": "integration",
+  "title": "Fundamental Theorem of Calculus",
+  "titleBn": "ক্যালকুলাসের মৌলিক উপপাদ্য",
+  "summary": "d/dx ∫_a^x f = f(x)",
+  "latex": "\\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "d, x, int, a",
+      "meaning": "d/dx ∫_a^x f = f(x)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "যোগজের অন্তরক = মূল ফাংশন।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ক্যালকুলাসের মৌলিক উপপাদ্য এর সূত্রটি লেখো। (ইঙ্গিত: যোগজের অন্তরক = মূল ফাংশন।)",
+      "answer": "\\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)"
+    }
+  ],
+  "memorize": {
+    "trick": "যোগজের অন্তরক = মূল ফাংশন।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "volume-disk-method",
+    "area-under-curve"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "log-equation-basic",
+  "chapter": "logarithms-exponents",
+  "title": "Basic Log Equation",
+  "titleBn": "মৌলিক লগ সমীকরণ",
+  "summary": "log_b a = c ⇒ a=b^c",
+  "latex": "\\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "b, a, c, iff",
+      "meaning": "log_b a = c ⇒ a=b^c",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "লগ সমীকরণ → ঘাত আকারে লেখো।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "মৌলিক লগ সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: লগ সমীকরণ → ঘাত আকারে লেখো।)",
+      "answer": "\\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)"
+    }
+  ],
+  "memorize": {
+    "trick": "লগ সমীকরণ → ঘাত আকারে লেখো।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "natural-common-log",
+    "exp-log-inverse"
+  ]
+}

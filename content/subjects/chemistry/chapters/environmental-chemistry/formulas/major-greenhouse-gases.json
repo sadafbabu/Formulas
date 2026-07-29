@@ -1,0 +1,54 @@
+{
+  "id": "major-greenhouse-gases",
+  "chapter": "environmental-chemistry",
+  "title": "Greenhouse Gases",
+  "titleBn": "গ্রিনহাউস গ্যাস",
+  "summary": "CO₂, CH₄, N₂O, O₃",
+  "latex": "\\mathrm{CO_2},\\mathrm{CH_4},\\mathrm{N_2O},\\mathrm{O_3},\\mathrm{CFCs}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "CO_2, CH_4, N_2O, O_3",
+      "meaning": "CO₂, CH₄, N₂O, O₃",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{CO_2},\\mathrm{CH_4},\\mathrm{N_2O},\\mathrm{O_3},\\mathrm{CFCs}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "গ্রিনহাউস গ্যাস এর সূত্রটি লেখো। (ইঙ্গিত: CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।)",
+      "answer": "\\mathrm{CO_2},\\mathrm{CH_4},\\mathrm{N_2O},\\mathrm{O_3},\\mathrm{CFCs}"
+    }
+  ],
+  "memorize": {
+    "trick": "CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "bod-cod-definitions",
+    "ozone-depletion-cfcs",
+    "green-chemistry-principles"
+  ]
+}

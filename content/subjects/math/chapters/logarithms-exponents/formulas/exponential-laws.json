@@ -1,0 +1,53 @@
+{
+  "id": "exponential-laws",
+  "chapter": "logarithms-exponents",
+  "title": "Laws of Exponents",
+  "titleBn": "ঘাতের সূত্রাবলি",
+  "summary": "a^m a^n, (a^m)^n",
+  "latex": "a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "a, m, n",
+      "meaning": "a^m a^n, (a^m)^n",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ঘাতের সূত্রাবলি এর সূত্রটি লেখো। (ইঙ্গিত: গুণে ঘাত যোগ; ঘাতের ঘাত গুণ।)",
+      "answer": "a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}"
+    }
+  ],
+  "memorize": {
+    "trick": "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "log-identity-ab",
+    "exp-log-inverse",
+    "change-of-base"
+  ]
+}

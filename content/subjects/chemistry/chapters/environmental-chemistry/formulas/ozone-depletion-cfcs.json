@@ -1,0 +1,54 @@
+{
+  "id": "ozone-depletion-cfcs",
+  "chapter": "environmental-chemistry",
+  "title": "Ozone Depletion by CFC",
+  "titleBn": "CFC দ্বারা ওজোন ক্ষয়",
+  "summary": "Cl radical chain",
+  "latex": "\\mathrm{CF_2Cl_2}\\xrightarrow{uv}\\mathrm{Cl^\\bullet},\\quad \\mathrm{Cl^\\bullet}+\\mathrm{O_3}\\to\\mathrm{ClO^\\bullet}+\\mathrm{O_2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "CF_2Cl_2, xrightarrow, u, v",
+      "meaning": "Cl radical chain",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "এক Cl পরমাণু হাজার ওজোন ভাঙতে পারে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{CF_2Cl_2}\\xrightarrow{uv}\\mathrm{Cl^\\bullet},\\quad \\mathrm{Cl^\\bullet}+\\mathrm{O_3}\\to\\mathrm{ClO^\\bullet}+\\mathrm{O_2}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "CFC দ্বারা ওজোন ক্ষয় এর সূত্রটি লেখো। (ইঙ্গিত: এক Cl পরমাণু হাজার ওজোন ভাঙতে পারে।)",
+      "answer": "\\mathrm{CF_2Cl_2}\\xrightarrow{uv}\\mathrm{Cl^\\bullet},\\quad \\mathrm{Cl^\\bullet}+\\mathrm{O_3}\\to\\mathrm{ClO^\\bullet}+\\mathrm{O_2}"
+    }
+  ],
+  "memorize": {
+    "trick": "এক Cl পরমাণু হাজার ওজোন ভাঙতে পারে।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "major-greenhouse-gases",
+    "acid-rain-formation",
+    "bod-cod-definitions"
+  ]
+}

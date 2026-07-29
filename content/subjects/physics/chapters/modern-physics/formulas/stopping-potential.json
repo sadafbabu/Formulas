@@ -1,0 +1,54 @@
+{
+  "id": "stopping-potential",
+  "chapter": "modern-physics",
+  "title": "Stopping Potential",
+  "titleBn": "রোধ বিভব",
+  "summary": "eV₀=K_max",
+  "latex": "eV_0=K_{\\max}=hf-\\phi",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 150,
+  "symbols": [
+    {
+      "symbol": "e, V, K, h",
+      "meaning": "eV₀=K_max",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "V₀ দিয়ে K_max মাপা যায়।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "eV_0=K_{\\max}=hf-\\phi",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "রোধ বিভব এর সূত্রটি লেখো। (ইঙ্গিত: V₀ দিয়ে K_max মাপা যায়।)",
+      "answer": "eV_0=K_{\\max}=hf-\\phi"
+    }
+  ],
+  "memorize": {
+    "trick": "V₀ দিয়ে K_max মাপা যায়।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "einstein-photoelectric",
+    "bohr-frequency-condition",
+    "bragg-law"
+  ]
+}

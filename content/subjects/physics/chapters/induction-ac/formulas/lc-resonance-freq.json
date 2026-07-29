@@ -1,0 +1,54 @@
+{
+  "id": "lc-resonance-freq",
+  "chapter": "induction-ac",
+  "title": "LC Resonance Frequency",
+  "titleBn": "LC অনুরণন কম্পাঙ্ক",
+  "summary": "f₀=1/(2π√LC)",
+  "latex": "f_0=\\frac{1}{2\\pi\\sqrt{LC}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 160,
+  "symbols": [
+    {
+      "symbol": "f, pi, sqrt, L",
+      "meaning": "f₀=1/(2π√LC)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "f₀=1/(2π√LC) — রেডিও টিউনিং-এর সূত্র।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "f_0=\\frac{1}{2\\pi\\sqrt{LC}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "LC অনুরণন কম্পাঙ্ক এর সূত্রটি লেখো। (ইঙ্গিত: রেডিও টিউনিং-এর সূত্র।)",
+      "answer": "f_0=\\frac{1}{2\\pi\\sqrt{LC}}"
+    }
+  ],
+  "memorize": {
+    "trick": "রেডিও টিউনিং-এর সূত্র।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "ac-power-factor",
+    "ideal-transformer-ratio",
+    "ac-impedance"
+  ]
+}

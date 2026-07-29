@@ -1,0 +1,53 @@
+{
+  "id": "mean-value-theorem",
+  "chapter": "calculus",
+  "title": "Mean Value Theorem",
+  "titleBn": "মধ্যমান উপপাদ্য",
+  "summary": "f'(c)=(f(b)−f(a))/(b−a)",
+  "latex": "f'(c)=\\frac{f(b)-f(a)}{b-a}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 175,
+  "symbols": [
+    {
+      "symbol": "f, c, b, a",
+      "meaning": "f'(c)=(f(b)−f(a))/(b−a)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "কোনো c-তে স্পর্শক জ্যা-এর সমান্তরাল।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "f'(c)=\\frac{f(b)-f(a)}{b-a}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "মধ্যমান উপপাদ্য এর সূত্রটি লেখো। (ইঙ্গিত: কোনো c-তে স্পর্শক জ্যা-এর সমান্তরাল।)",
+      "answer": "f'(c)=\\frac{f(b)-f(a)}{b-a}"
+    }
+  ],
+  "memorize": {
+    "trick": "কোনো c-তে স্পর্শক জ্যা-এর সমান্তরাল।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "integration-by-parts",
+    "partial-fractions",
+    "taylor-maclaurin"
+  ]
+}

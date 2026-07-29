@@ -1,0 +1,54 @@
+{
+  "id": "first-order-half-life",
+  "chapter": "chemical-equilibrium",
+  "title": "First-Order Half-Life",
+  "titleBn": "প্রথম ক্রমের অর্ধায়ু",
+  "summary": "t½=0.693/k",
+  "latex": "t_{1/2}=\\frac{0.693}{k}\\quad(\\text{1st order})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 200,
+  "symbols": [
+    {
+      "symbol": "t, k, 1st order",
+      "meaning": "t½=0.693/k",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ঘনত্ব-নির্ভর নয় — তেজস্ক্রিয় ক্ষয়ের মতো।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "t_{1/2}=\\frac{0.693}{k}\\quad(\\text{1st order})",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "প্রথম ক্রমের অর্ধায়ু এর সূত্রটি লেখো। (ইঙ্গিত: ঘনত্ব-নির্ভর নয় — তেজস্ক্রিয় ক্ষয়ের মতো।)",
+      "answer": "t_{1/2}=\\frac{0.693}{k}\\quad(\\text{1st order})"
+    }
+  ],
+  "memorize": {
+    "trick": "ঘনত্ব-নির্ভর নয় — তেজস্ক্রিয় ক্ষয়ের মতো।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "ka-kb-relation",
+    "integrated-first-order",
+    "hess-law"
+  ]
+}

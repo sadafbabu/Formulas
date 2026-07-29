@@ -1,0 +1,52 @@
+{
+  "id": "cramer-rule-system",
+  "chapter": "matrix-determinant",
+  "title": "Cramer's Rule",
+  "titleBn": "ক্রেমারের সূত্র",
+  "summary": "x=Δx/Δ",
+  "latex": "x_i=\\frac{\\Delta_i}{\\Delta}\\quad(\\Delta\\ne0)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "x, i, Delta",
+      "meaning": "x=Δx/Δ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "প্রতি চলকের জন্য স্তম্ভ বদলাও।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "x_i=\\frac{\\Delta_i}{\\Delta}\\quad(\\Delta\\ne0)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ক্রেমারের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: প্রতি চলকের জন্য স্তম্ভ বদলাও।)",
+      "answer": "x_i=\\frac{\\Delta_i}{\\Delta}\\quad(\\Delta\\ne0)"
+    }
+  ],
+  "memorize": {
+    "trick": "প্রতি চলকের জন্য স্তম্ভ বদলাও।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "inverse-matrix-adj",
+    "det-2x2-formula"
+  ]
+}

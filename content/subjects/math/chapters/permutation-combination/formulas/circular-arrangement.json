@@ -1,0 +1,53 @@
+{
+  "id": "circular-arrangement",
+  "chapter": "permutation-combination",
+  "title": "Circular Permutation",
+  "titleBn": "বৃত্তাকার ক্রমবিন্যাস",
+  "summary": "(n−1)!",
+  "latex": "P_{\\circ}=(n-1)!",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "P, circ, n",
+      "meaning": "(n−1)!",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "(n−1)! — ঘূর্ণন একই ধরলে (n−1)!।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P_{\\circ}=(n-1)!",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বৃত্তাকার ক্রমবিন্যাস এর সূত্রটি লেখো। (ইঙ্গিত: ঘূর্ণন একই ধরলে (n−1)!।)",
+      "answer": "P_{\\circ}=(n-1)!"
+    }
+  ],
+  "memorize": {
+    "trick": "ঘূর্ণন একই ধরলে (n−1)!।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "combination-ncr",
+    "permutation-with-repetition",
+    "permutation-npr"
+  ]
+}

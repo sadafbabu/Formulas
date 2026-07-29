@@ -1,0 +1,53 @@
+{
+  "id": "cement-composition",
+  "chapter": "industrial-chemistry",
+  "title": "Portland Cement",
+  "titleBn": "পোর্টল্যান্ড সিমেন্ট",
+  "summary": "CaO, SiO₂, Al₂O₃",
+  "latex": "\\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "1-star"
+  ],
+  "importance": 1,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "main:, CaO, SiO_2, Al_2O_3",
+      "meaning": "CaO, SiO₂, Al₂O₃",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "জলযোগে সেটিং — হাইড্রেশন।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পোর্টল্যান্ড সিমেন্ট এর সূত্রটি লেখো। (ইঙ্গিত: জলযোগে সেটিং — হাইড্রেশন।)",
+      "answer": "\\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}"
+    }
+  ],
+  "memorize": {
+    "trick": "জলযোগে সেটিং — হাইড্রেশন।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "glass-composition",
+    "ostwald-nh3-oxidation"
+  ]
+}

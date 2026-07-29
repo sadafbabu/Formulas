@@ -1,0 +1,53 @@
+{
+  "id": "natural-common-log",
+  "chapter": "logarithms-exponents",
+  "title": "ln and log₁₀",
+  "titleBn": "ln ও সাধারণ লগ",
+  "summary": "ln = log_e",
+  "latex": "\\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "x, e",
+      "meaning": "ln = log_e",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "প্রাকৃতিক লগ ভিত্তি e≈2.718।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ln ও সাধারণ লগ এর সূত্রটি লেখো। (ইঙ্গিত: প্রাকৃতিক লগ ভিত্তি e≈2.718।)",
+      "answer": "\\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}"
+    }
+  ],
+  "memorize": {
+    "trick": "প্রাকৃতিক লগ ভিত্তি e≈2.718।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "exp-log-inverse",
+    "log-equation-basic",
+    "exponential-laws"
+  ]
+}

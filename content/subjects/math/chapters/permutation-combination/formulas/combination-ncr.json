@@ -1,0 +1,53 @@
+{
+  "id": "combination-ncr",
+  "chapter": "permutation-combination",
+  "title": "ⁿCᵣ",
+  "titleBn": "সমাবেশ ⁿCᵣ",
+  "summary": "n!/(r!(n−r)!)",
+  "latex": "{}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "n, C, r, P",
+      "meaning": "n!/(r!(n−r)!)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ক্রম গুরুত্বহীন; ⁿCᵣ=ⁿCₙ₋ᵣ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "{}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সমাবেশ ⁿCᵣ এর সূত্রটি লেখো। (ইঙ্গিত: ক্রম গুরুত্বহীন; ⁿCᵣ=ⁿCₙ₋ᵣ।)",
+      "answer": "{}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!"
+    }
+  ],
+  "memorize": {
+    "trick": "ক্রম গুরুত্বহীন; ⁿCᵣ=ⁿCₙ₋ᵣ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "permutation-npr",
+    "circular-arrangement",
+    "combination-identities"
+  ]
+}

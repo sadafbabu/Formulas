@@ -1,0 +1,54 @@
+{
+  "id": "werner-valency-types",
+  "chapter": "coordination-chemistry",
+  "title": "Werner Primary & Secondary Valency",
+  "titleBn": "ওয়ার্নার প্রাথমিক ও মাধ্যমিক যোজনী",
+  "summary": "oxidation vs coordination",
+  "latex": "\\text{primary = oxidation number};\\quad \\text{secondary = coordination number}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "primary = oxidation number, secondary = coordination number",
+      "meaning": "oxidation vs coordination",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "প্রাথমিক আয়নীয়; মাধ্যমিক দিকনির্দেশক।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{primary = oxidation number};\\quad \\text{secondary = coordination number}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ওয়ার্নার প্রাথমিক ও মাধ্যমিক যোজনী এর সূত্রটি লেখো। (ইঙ্গিত: প্রাথমিক আয়নীয়; মাধ্যমিক দিকনির্দেশক।)",
+      "answer": "\\text{primary = oxidation number};\\quad \\text{secondary = coordination number}"
+    }
+  ],
+  "memorize": {
+    "trick": "প্রাথমিক আয়নীয়; মাধ্যমিক দিকনির্দেশক।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "magnetic-moment-spin-only",
+    "coordination-number-geometry",
+    "crystal-field-splitting"
+  ]
+}

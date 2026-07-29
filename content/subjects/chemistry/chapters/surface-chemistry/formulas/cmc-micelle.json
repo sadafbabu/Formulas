@@ -1,0 +1,53 @@
+{
+  "id": "cmc-micelle",
+  "chapter": "surface-chemistry",
+  "title": "CMC & Micelle",
+  "titleBn": "CMC ও মাইকেল",
+  "summary": "critical micelle concentration",
+  "latex": "\\text{CMC = concentration where micelles form}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "CMC = concentration where micelles form",
+      "meaning": "critical micelle concentration",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সাবানের পরিষ্কার ক্ষমতা CMC-এর উপরে কার্যকর।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{CMC = concentration where micelles form}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "CMC ও মাইকেল এর সূত্রটি লেখো। (ইঙ্গিত: সাবানের পরিষ্কার ক্ষমতা CMC-এর উপরে কার্যকর।)",
+      "answer": "\\text{CMC = concentration where micelles form}"
+    }
+  ],
+  "memorize": {
+    "trick": "সাবানের পরিষ্কার ক্ষমতা CMC-এর উপরে কার্যকর।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "emulsion-types",
+    "brownian-motion-colloid"
+  ]
+}

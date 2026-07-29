@@ -1,0 +1,53 @@
+{
+  "id": "permutation-npr",
+  "chapter": "permutation-combination",
+  "title": "ⁿPᵣ",
+  "titleBn": "ক্রমবিন্যাস ⁿPᵣ",
+  "summary": "n!/(n−r)!",
+  "latex": "{}^{n}P_{r}=\\frac{n!}{(n-r)!}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 75,
+  "symbols": [
+    {
+      "symbol": "n, P, r",
+      "meaning": "n!/(n−r)!",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "n!/(n−r)! — ক্রম গুরুত্বপূর্ণ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "{}^{n}P_{r}=\\frac{n!}{(n-r)!}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ক্রমবিন্যাস ⁿPᵣ এর সূত্রটি লেখো। (ইঙ্গিত: ক্রম গুরুত্বপূর্ণ।)",
+      "answer": "{}^{n}P_{r}=\\frac{n!}{(n-r)!}"
+    }
+  ],
+  "memorize": {
+    "trick": "ক্রম গুরুত্বপূর্ণ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "combination-identities",
+    "combination-ncr",
+    "permutation-formula"
+  ]
+}

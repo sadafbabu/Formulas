@@ -1,0 +1,54 @@
+{
+  "id": "stellar-parallax-pc",
+  "chapter": "astronomy",
+  "title": "Stellar Parallax Distance",
+  "titleBn": "প্যারালাক্স দূরত্ব",
+  "summary": "d=1/p",
+  "latex": "d(\\mathrm{pc})=\\frac{1}{p('')} ",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "d, pc, p",
+      "meaning": "d=1/p",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "প্যারালাক্স সেকেন্ডে → পারসেক দূরত্ব।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "d(\\mathrm{pc})=\\frac{1}{p('')} ",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "প্যারালাক্স দূরত্ব এর সূত্রটি লেখো। (ইঙ্গিত: প্যারালাক্স সেকেন্ডে → পারসেক দূরত্ব।)",
+      "answer": "d(\\mathrm{pc})=\\frac{1}{p('')} "
+    }
+  ],
+  "memorize": {
+    "trick": "প্যারালাক্স সেকেন্ডে → পারসেক দূরত্ব।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "escape-velocity-planet",
+    "absolute-apparent-magnitude",
+    "magnitude-scale"
+  ]
+}

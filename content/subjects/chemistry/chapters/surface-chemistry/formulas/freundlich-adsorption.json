@@ -1,0 +1,54 @@
+{
+  "id": "freundlich-adsorption",
+  "chapter": "surface-chemistry",
+  "title": "Freundlich Isotherm",
+  "titleBn": "ফ্রয়েন্ডলিচ সমতাপরেখা",
+  "summary": "x/m = k P^(1/n)",
+  "latex": "\\frac{x}{m}=k P^{1/n}\\quad(n>1)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "x, m, k, P",
+      "meaning": "x/m = k P^(1/n)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{x}{m}=k P^{1/n}\\quad(n>1)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ফ্রয়েন্ডলিচ সমতাপরেখা এর সূত্রটি লেখো। (ইঙ্গিত: log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।)",
+      "answer": "\\frac{x}{m}=k P^{1/n}\\quad(n>1)"
+    }
+  ],
+  "memorize": {
+    "trick": "log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "adsorption-physisorption-chemisorption",
+    "langmuir-adsorption",
+    "catalyst-types"
+  ]
+}

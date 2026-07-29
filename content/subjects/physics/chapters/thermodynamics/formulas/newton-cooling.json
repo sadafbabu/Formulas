@@ -1,0 +1,54 @@
+{
+  "id": "newton-cooling",
+  "chapter": "thermodynamics",
+  "title": "Newton's Law of Cooling",
+  "titleBn": "নিউটনের শীতলীকরণ সূত্র",
+  "summary": "dT/dt ∝ (T−T₀)",
+  "latex": "\\frac{dT}{dt}=-k(T-T_0)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 160,
+  "symbols": [
+    {
+      "symbol": "d, T, t, k",
+      "meaning": "dT/dt ∝ (T−T₀)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "তাপমাত্রা পার্থক্যের সমানুপাতিক হারে ঠান্ডা।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{dT}{dt}=-k(T-T_0)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "নিউটনের শীতলীকরণ সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: তাপমাত্রা পার্থক্যের সমানুপাতিক হারে ঠান্ডা।)",
+      "answer": "\\frac{dT}{dt}=-k(T-T_0)"
+    }
+  ],
+  "memorize": {
+    "trick": "তাপমাত্রা পার্থক্যের সমানুপাতিক হারে ঠান্ডা।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "latent-heat",
+    "thermal-conduction-rate",
+    "heat-capacity-specific"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "activation-energy-arrhenius-plot",
+  "chapter": "chemical-equilibrium",
+  "title": "Arrhenius Plot",
+  "titleBn": "আরেনিয়াস প্লট",
+  "summary": "ln k vs 1/T",
+  "latex": "\\ln k=\\ln A-\\frac{E_a}{RT}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 220,
+  "symbols": [
+    {
+      "symbol": "k, A, E, a",
+      "meaning": "ln k vs 1/T",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ln k vs 1/T — ঢাল = −E_a/R।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\ln k=\\ln A-\\frac{E_a}{RT}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আরেনিয়াস প্লট এর সূত্রটি লেখো। (ইঙ্গিত: ঢাল = −E_a/R।)",
+      "answer": "\\ln k=\\ln A-\\frac{E_a}{RT}"
+    }
+  ],
+  "memorize": {
+    "trick": "ঢাল = −E_a/R।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "integrated-first-order",
+    "first-order-half-life"
+  ]
+}

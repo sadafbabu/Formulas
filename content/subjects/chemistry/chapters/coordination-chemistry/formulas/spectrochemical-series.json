@@ -1,0 +1,54 @@
+{
+  "id": "spectrochemical-series",
+  "chapter": "coordination-chemistry",
+  "title": "Spectrochemical Series",
+  "titleBn": "বর্ণালি রাসায়নিক শ্রেণি",
+  "summary": "ligand field strength",
+  "latex": "\\mathrm{I^-}<\\mathrm{Br^-}<\\mathrm{Cl^-}<\\mathrm{F^-}<\\mathrm{OH^-}<\\mathrm{H_2O}<\\mathrm{NH_3}<\\mathrm{en}<\\mathrm{CN^-}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "I^-, Br^-, Cl^-, F^-",
+      "meaning": "ligand field strength",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "CN⁻ শক্তিশালী ক্ষেত্র লিগ্যান্ড।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{I^-}<\\mathrm{Br^-}<\\mathrm{Cl^-}<\\mathrm{F^-}<\\mathrm{OH^-}<\\mathrm{H_2O}<\\mathrm{NH_3}<\\mathrm{en}<\\mathrm{CN^-}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বর্ণালি রাসায়নিক শ্রেণি এর সূত্রটি লেখো। (ইঙ্গিত: CN⁻ শক্তিশালী ক্ষেত্র লিগ্যান্ড।)",
+      "answer": "\\mathrm{I^-}<\\mathrm{Br^-}<\\mathrm{Cl^-}<\\mathrm{F^-}<\\mathrm{OH^-}<\\mathrm{H_2O}<\\mathrm{NH_3}<\\mathrm{en}<\\mathrm{CN^-}"
+    }
+  ],
+  "memorize": {
+    "trick": "CN⁻ শক্তিশালী ক্ষেত্র লিগ্যান্ড।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "efs-crystal-field-split",
+    "chelate-effect",
+    "coordination-number-geometry"
+  ]
+}

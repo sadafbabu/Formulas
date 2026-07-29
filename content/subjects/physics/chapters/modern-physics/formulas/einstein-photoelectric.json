@@ -1,0 +1,54 @@
+{
+  "id": "einstein-photoelectric",
+  "chapter": "modern-physics",
+  "title": "Einstein Photoelectric Equation",
+  "titleBn": "আইনস্টাইনের ফটোইলেকট্রিক সমীকরণ",
+  "summary": "K_max=hf−φ",
+  "latex": "K_{\\max}=hf-\\phi=h(f-f_0)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 140,
+  "symbols": [
+    {
+      "symbol": "K, h, f, phi",
+      "meaning": "K_max=hf−φ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "K_max=hf−φ — কাট-অফ f₀=φ/h।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "K_{\\max}=hf-\\phi=h(f-f_0)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আইনস্টাইনের ফটোইলেকট্রিক সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: কাট-অফ f₀=φ/h।)",
+      "answer": "K_{\\max}=hf-\\phi=h(f-f_0)"
+    }
+  ],
+  "memorize": {
+    "trick": "কাট-অফ f₀=φ/h।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "bragg-law",
+    "stopping-potential",
+    "photoelectric-threshold"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "schottky-frenkel",
+  "chapter": "solid-state-chemistry",
+  "title": "Schottky & Frenkel Defects",
+  "titleBn": "শটকি ও ফ্রেনকেল ত্রুটি",
+  "summary": "vacancy / interstitial",
+  "latex": "\\text{Schottky: cation+anion vacancy};\\ \\text{Frenkel: ion displaced to interstitial}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "Schottky: cation+anion vacancy, Frenkel: ion displaced to interstitial",
+      "meaning": "vacancy / interstitial",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{Schottky: cation+anion vacancy};\\ \\text{Frenkel: ion displaced to interstitial}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "শটকি ও ফ্রেনকেল ত্রুটি এর সূত্রটি লেখো। (ইঙ্গিত: শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।)",
+      "answer": "\\text{Schottky: cation+anion vacancy};\\ \\text{Frenkel: ion displaced to interstitial}"
+    }
+  ],
+  "memorize": {
+    "trick": "শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "bragg-law-chem",
+    "density-crystal"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "torricelli-theorem",
+  "chapter": "properties-of-matter",
+  "title": "Torricelli's Theorem",
+  "titleBn": "টরিসেলির উপপাদ্য",
+  "summary": "v=√(2gh)",
+  "latex": "v=\\sqrt{2gh}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 140,
+  "symbols": [
+    {
+      "symbol": "v, sqrt, g, h",
+      "meaning": "v=√(2gh)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ট্যাঙ্কের ছিদ্রে বেগ = √(2gh)।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "v=\\sqrt{2gh}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "টরিসেলির উপপাদ্য এর সূত্রটি লেখো। (ইঙ্গিত: ট্যাঙ্কের ছিদ্রে বেগ = √(2gh)।)",
+      "answer": "v=\\sqrt{2gh}"
+    }
+  ],
+  "memorize": {
+    "trick": "ট্যাঙ্কের ছিদ্রে বেগ = √(2gh)।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "continuity-fluid",
+    "hookes-law-stress-strain"
+  ]
+}

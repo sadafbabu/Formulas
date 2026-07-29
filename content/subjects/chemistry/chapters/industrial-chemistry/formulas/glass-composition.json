@@ -1,0 +1,54 @@
+{
+  "id": "glass-composition",
+  "chapter": "industrial-chemistry",
+  "title": "Soda-Lime Glass",
+  "titleBn": "সোডা-লাইম কাচ",
+  "summary": "Na₂O·CaO·6SiO₂",
+  "latex": "\\mathrm{Na_2O\\cdot CaO\\cdot 6SiO_2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "1-star"
+  ],
+  "importance": 1,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "Na_2O\\cdot CaO\\cdot 6SiO_2",
+      "meaning": "Na₂O·CaO·6SiO₂",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সাধারণ কাচ = সোডা + চুন + বালি।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{Na_2O\\cdot CaO\\cdot 6SiO_2}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সোডা-লাইম কাচ এর সূত্রটি লেখো। (ইঙ্গিত: সাধারণ কাচ = সোডা + চুন + বালি।)",
+      "answer": "\\mathrm{Na_2O\\cdot CaO\\cdot 6SiO_2}"
+    }
+  ],
+  "memorize": {
+    "trick": "সাধারণ কাচ = সোডা + চুন + বালি।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "ostwald-nh3-oxidation",
+    "cement-composition",
+    "solvay-nahco3-step"
+  ]
+}

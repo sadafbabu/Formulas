@@ -1,0 +1,52 @@
+{
+  "id": "combination-sum-identity",
+  "chapter": "permutation-combination",
+  "title": "Pascal Identity",
+  "titleBn": "প্যাসকেল সমতা",
+  "summary": "ⁿCᵣ + ⁿCᵣ₋₁ = ⁿ⁺¹Cᵣ",
+  "latex": "{}^{n}C_{r}+{}^{n}C_{r-1}={}^{n+1}C_{r}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "n, C, r",
+      "meaning": "ⁿCᵣ + ⁿCᵣ₋₁ = ⁿ⁺¹Cᵣ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "দ্বিপদী সহগের ত্রিভুজ নিয়ম।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "{}^{n}C_{r}+{}^{n}C_{r-1}={}^{n+1}C_{r}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "প্যাসকেল সমতা এর সূত্রটি লেখো। (ইঙ্গিত: দ্বিপদী সহগের ত্রিভুজ নিয়ম।)",
+      "answer": "{}^{n}C_{r}+{}^{n}C_{r-1}={}^{n+1}C_{r}"
+    }
+  ],
+  "memorize": {
+    "trick": "দ্বিপদী সহগের ত্রিভুজ নিয়ম।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "permutation-with-repetition",
+    "circular-arrangement"
+  ]
+}

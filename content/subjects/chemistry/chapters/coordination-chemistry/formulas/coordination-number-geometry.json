@@ -1,0 +1,54 @@
+{
+  "id": "coordination-number-geometry",
+  "chapter": "coordination-chemistry",
+  "title": "CN and Geometry",
+  "titleBn": "সমন্বয় সংখ্যা ও জ্যামিতি",
+  "summary": "CN 2,4,6",
+  "latex": "\\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "CN, linear, tetrahedral/square planar, octahedral",
+      "meaning": "CN 2,4,6",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "CN 2,4,6 — CN=৬ সাধারণত অষ্টতলক।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সমন্বয় সংখ্যা ও জ্যামিতি এর সূত্রটি লেখো। (ইঙ্গিত: CN=৬ সাধারণত অষ্টতলক।)",
+      "answer": "\\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}"
+    }
+  ],
+  "memorize": {
+    "trick": "CN=৬ সাধারণত অষ্টতলক।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "werner-valency-types",
+    "efs-crystal-field-split",
+    "magnetic-moment-spin-only"
+  ]
+}

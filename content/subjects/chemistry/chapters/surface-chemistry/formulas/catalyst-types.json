@@ -1,0 +1,54 @@
+{
+  "id": "catalyst-types",
+  "chapter": "surface-chemistry",
+  "title": "Homogeneous & Heterogeneous Catalysis",
+  "titleBn": "সম ও অসম সংঘটক",
+  "summary": "same/different phase",
+  "latex": "\\text{homogeneous: same phase};\\quad \\text{heterogeneous: different phase}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "homogeneous: same phase, heterogeneous: different phase",
+      "meaning": "same/different phase",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{homogeneous: same phase};\\quad \\text{heterogeneous: different phase}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সম ও অসম সংঘটক এর সূত্রটি লেখো। (ইঙ্গিত: Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।)",
+      "answer": "\\text{homogeneous: same phase};\\quad \\text{heterogeneous: different phase}"
+    }
+  ],
+  "memorize": {
+    "trick": "Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "langmuir-adsorption",
+    "colloid-tyndall",
+    "freundlich-adsorption"
+  ]
+}

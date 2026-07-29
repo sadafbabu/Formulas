@@ -1,0 +1,53 @@
+{
+  "id": "vertical-circle-limits",
+  "chapter": "circular-motion",
+  "title": "Vertical Circle Extremes",
+  "titleBn": "উল্লম্ব বৃত্তের চরম",
+  "summary": "top/bottom",
+  "latex": "v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "v, top, sqrt, g",
+      "meaning": "top/bottom",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "top/bottom — শীর্ষে ন্যূনতম √(gr)।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "উল্লম্ব বৃত্তের চরম এর সূত্রটি লেখো। (ইঙ্গিত: শীর্ষে ন্যূনতম √(gr)।)",
+      "answer": "v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})"
+    }
+  ],
+  "memorize": {
+    "trick": "শীর্ষে ন্যূনতম √(gr)।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "banking-of-road",
+    "centripetal-force-mv2r"
+  ]
+}

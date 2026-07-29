@@ -1,0 +1,54 @@
+{
+  "id": "v-omega-r",
+  "chapter": "circular-motion",
+  "title": "v = ωr",
+  "titleBn": "রৈখিক ও কৌণিক বেগ",
+  "summary": "v=ωr",
+  "latex": "v=\\omega r,\\quad a_t=\\alpha r",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "v, omega, r, a",
+      "meaning": "v=ωr",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "একই r-এ ω বাড়লে v বাড়ে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "v=\\omega r,\\quad a_t=\\alpha r",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "রৈখিক ও কৌণিক বেগ এর সূত্রটি লেখো। (ইঙ্গিত: একই r-এ ω বাড়লে v বাড়ে।)",
+      "answer": "v=\\omega r,\\quad a_t=\\alpha r"
+    }
+  ],
+  "memorize": {
+    "trick": "একই r-এ ω বাড়লে v বাড়ে।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "death-well-loop",
+    "centripetal-force-mv2r",
+    "conical-pendulum"
+  ]
+}

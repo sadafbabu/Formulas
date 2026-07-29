@@ -1,0 +1,54 @@
+{
+  "id": "density-crystal",
+  "chapter": "solid-state-chemistry",
+  "title": "Crystal Density",
+  "titleBn": "স্ফটিক ঘনত্ব",
+  "summary": "ρ = ZM/(N_A a³)",
+  "latex": "\\rho=\\frac{ZM}{N_A a^3}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "rho, Z, M, N",
+      "meaning": "ρ = ZM/(N_A a³)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Z = একক কোষে কণা সংখ্যা।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\rho=\\frac{ZM}{N_A a^3}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "স্ফটিক ঘনত্ব এর সূত্রটি লেখো। (ইঙ্গিত: Z = একক কোষে কণা সংখ্যা।)",
+      "answer": "\\rho=\\frac{ZM}{N_A a^3}"
+    }
+  ],
+  "memorize": {
+    "trick": "Z = একক কোষে কণা সংখ্যা।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "packing-efficiency-bcc",
+    "bragg-law-chem",
+    "packing-efficiency-fcc"
+  ]
+}

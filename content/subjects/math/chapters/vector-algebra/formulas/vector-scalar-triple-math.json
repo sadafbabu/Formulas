@@ -1,0 +1,53 @@
+{
+  "id": "vector-scalar-triple-math",
+  "chapter": "vector-algebra",
+  "title": "Scalar Triple Product",
+  "titleBn": "স্কালার ত্রিগুণফল",
+  "summary": "[a b c]",
+  "latex": "[\\vec a\\,\\vec b\\,\\vec c]=\\vec a\\cdot(\\vec b\\times\\vec c)=\\begin{vmatrix}a_x&a_y&a_z\\\\b_x&b_y&b_z\\\\c_x&c_y&c_z\\end{vmatrix}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "vec, a, b, c",
+      "meaning": "[a b c]",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "আয়তন = |[a b c]|; সমতলীয় হলে ০।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "[\\vec a\\,\\vec b\\,\\vec c]=\\vec a\\cdot(\\vec b\\times\\vec c)=\\begin{vmatrix}a_x&a_y&a_z\\\\b_x&b_y&b_z\\\\c_x&c_y&c_z\\end{vmatrix}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "স্কালার ত্রিগুণফল এর সূত্রটি লেখো। (ইঙ্গিত: আয়তন = |[a b c]|; সমতলীয় হলে ০।)",
+      "answer": "[\\vec a\\,\\vec b\\,\\vec c]=\\vec a\\cdot(\\vec b\\times\\vec c)=\\begin{vmatrix}a_x&a_y&a_z\\\\b_x&b_y&b_z\\\\c_x&c_y&c_z\\end{vmatrix}"
+    }
+  ],
+  "memorize": {
+    "trick": "আয়তন = |[a b c]|; সমতলীয় হলে ০।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "vector-cross-product-math",
+    "vector-projection-formula",
+    "vector-dot-product-math"
+  ]
+}

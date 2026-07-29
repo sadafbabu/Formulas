@@ -1,0 +1,54 @@
+{
+  "id": "langmuir-adsorption",
+  "chapter": "surface-chemistry",
+  "title": "Langmuir Isotherm",
+  "titleBn": "ল্যাংমুইর সমতাপরেখা",
+  "summary": "θ = KP/(1+KP)",
+  "latex": "\\theta=\\frac{KP}{1+KP},\\quad \\frac{P}{x/m}=\\frac{1}{k_1k_2}+\\frac{P}{k_1}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "theta, K, P, x",
+      "meaning": "θ = KP/(1+KP)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "একস্তর অধিশোষণ; উচ্চ P-তে θ→1।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\theta=\\frac{KP}{1+KP},\\quad \\frac{P}{x/m}=\\frac{1}{k_1k_2}+\\frac{P}{k_1}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ল্যাংমুইর সমতাপরেখা এর সূত্রটি লেখো। (ইঙ্গিত: একস্তর অধিশোষণ; উচ্চ P-তে θ→1।)",
+      "answer": "\\theta=\\frac{KP}{1+KP},\\quad \\frac{P}{x/m}=\\frac{1}{k_1k_2}+\\frac{P}{k_1}"
+    }
+  ],
+  "memorize": {
+    "trick": "একস্তর অধিশোষণ; উচ্চ P-তে θ→1।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "freundlich-adsorption",
+    "catalyst-types",
+    "adsorption-physisorption-chemisorption"
+  ]
+}

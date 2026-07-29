@@ -1,0 +1,54 @@
+{
+  "id": "bod-cod-definitions",
+  "chapter": "environmental-chemistry",
+  "title": "BOD & COD",
+  "titleBn": "BOD ও COD",
+  "summary": "oxygen demand",
+  "latex": "\\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\text{ demand}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "BOD, O, used by microbes, COD",
+      "meaning": "oxygen demand",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "oxygen demand — BOD বেশি = পানি দূষিত।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\text{ demand}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "BOD ও COD এর সূত্রটি লেখো। (ইঙ্গিত: BOD বেশি = পানি দূষিত।)",
+      "answer": "\\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\text{ demand}"
+    }
+  ],
+  "memorize": {
+    "trick": "BOD বেশি = পানি দূষিত।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "green-chemistry-principles",
+    "major-greenhouse-gases",
+    "smog-photochemical"
+  ]
+}

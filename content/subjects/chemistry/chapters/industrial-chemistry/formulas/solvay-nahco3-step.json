@@ -1,0 +1,54 @@
+{
+  "id": "solvay-nahco3-step",
+  "chapter": "industrial-chemistry",
+  "title": "Solvay Bicarbonate Step",
+  "titleBn": "সলভে বাইকার্বোনেট ধাপ",
+  "summary": "NaHCO₃ precipitation",
+  "latex": "\\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+\\mathrm{NH_4Cl}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "NaCl, NH_3, CO_2, H_2O",
+      "meaning": "NaHCO₃ precipitation",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "NaHCO₃ তাপে Na₂CO₃ দেয়।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+\\mathrm{NH_4Cl}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সলভে বাইকার্বোনেট ধাপ এর সূত্রটি লেখো। (ইঙ্গিত: NaHCO₃ তাপে Na₂CO₃ দেয়।)",
+      "answer": "\\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+\\mathrm{NH_4Cl}"
+    }
+  ],
+  "memorize": {
+    "trick": "NaHCO₃ তাপে Na₂CO₃ দেয়।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "contact-process-v2o5",
+    "ostwald-nh3-oxidation",
+    "haber-ammonia-conditions"
+  ]
+}

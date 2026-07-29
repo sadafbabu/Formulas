@@ -1,0 +1,53 @@
+{
+  "id": "vector-projection-formula",
+  "chapter": "vector-algebra",
+  "title": "Projection of a on b",
+  "titleBn": "a-এর b-এর উপর অভিক্ষেপ",
+  "summary": "proj_b a",
+  "latex": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad \\mathrm{comp}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "proj, vec, b, a",
+      "meaning": "proj_b a",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad \\mathrm{comp}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "a-এর b-এর উপর অভিক্ষেপ এর সূত্রটি লেখো। (ইঙ্গিত: অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।)",
+      "answer": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad \\mathrm{comp}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|}"
+    }
+  ],
+  "memorize": {
+    "trick": "অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "vector-scalar-triple-math",
+    "vector-section-formula",
+    "vector-cross-product-math"
+  ]
+}

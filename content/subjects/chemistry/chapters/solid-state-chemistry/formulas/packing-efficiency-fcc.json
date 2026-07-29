@@ -1,0 +1,54 @@
+{
+  "id": "packing-efficiency-fcc",
+  "chapter": "solid-state-chemistry",
+  "title": "FCC Packing Efficiency",
+  "titleBn": "FCC প্যাকিং দক্ষতা",
+  "summary": "74%",
+  "latex": "\\text{PE}=\\frac{4\\times\\tfrac43\\pi r^3}{a^3}\\times100\\%=74\\%\\quad(a=2\\sqrt2\\,r)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "PE, tfrac, pi, r",
+      "meaning": "74%",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "74% — FCC/HCP সর্বোচ্চ ৭৪%।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{PE}=\\frac{4\\times\\tfrac43\\pi r^3}{a^3}\\times100\\%=74\\%\\quad(a=2\\sqrt2\\,r)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "FCC প্যাকিং দক্ষতা এর সূত্রটি লেখো। (ইঙ্গিত: FCC/HCP সর্বোচ্চ ৭৪%।)",
+      "answer": "\\text{PE}=\\frac{4\\times\\tfrac43\\pi r^3}{a^3}\\times100\\%=74\\%\\quad(a=2\\sqrt2\\,r)"
+    }
+  ],
+  "memorize": {
+    "trick": "FCC/HCP সর্বোচ্চ ৭৪%।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "schottky-defect",
+    "packing-efficiency-bcc",
+    "bragg-equation"
+  ]
+}

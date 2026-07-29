@@ -1,0 +1,54 @@
+{
+  "id": "contact-process-v2o5",
+  "chapter": "industrial-chemistry",
+  "title": "Contact Process Key Step",
+  "titleBn": "কন্টাক্ট মূল ধাপ",
+  "summary": "SO₂→SO₃ with V₂O₅",
+  "latex": "2\\mathrm{SO_2}+\\mathrm{O_2}\\rightleftharpoons 2\\mathrm{SO_3}\\ (\\mathrm{V_2O_5})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "SO_2, O_2, rightleftharpoons, SO_3",
+      "meaning": "SO₂→SO₃ with V₂O₅",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "V₂O₅ সংঘটক; ওলিয়াম হয়ে H₂SO₄।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "2\\mathrm{SO_2}+\\mathrm{O_2}\\rightleftharpoons 2\\mathrm{SO_3}\\ (\\mathrm{V_2O_5})",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কন্টাক্ট মূল ধাপ এর সূত্রটি লেখো। (ইঙ্গিত: V₂O₅ সংঘটক; ওলিয়াম হয়ে H₂SO₄।)",
+      "answer": "2\\mathrm{SO_2}+\\mathrm{O_2}\\rightleftharpoons 2\\mathrm{SO_3}\\ (\\mathrm{V_2O_5})"
+    }
+  ],
+  "memorize": {
+    "trick": "V₂O₅ সংঘটক; ওলিয়াম হয়ে H₂SO₄।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "haber-ammonia-conditions",
+    "solvay-nahco3-step",
+    "solvay-process"
+  ]
+}

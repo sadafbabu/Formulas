@@ -1,0 +1,53 @@
+{
+  "id": "vector-dot-product-math",
+  "chapter": "vector-algebra",
+  "title": "Dot Product",
+  "titleBn": "অন্তঃগুণফল",
+  "summary": "a·b = |a||b|cosθ",
+  "latex": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_xb_x+a_yb_y+a_zb_z",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "vec, a, b, theta",
+      "meaning": "a·b = |a||b|cosθ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_xb_x+a_yb_y+a_zb_z",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অন্তঃগুণফল এর সূত্রটি লেখো। (ইঙ্গিত: লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।)",
+      "answer": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_xb_x+a_yb_y+a_zb_z"
+    }
+  ],
+  "memorize": {
+    "trick": "লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "vector-magnitude-unit",
+    "vector-cross-product-math",
+    "vector-scalar-triple-math"
+  ]
+}

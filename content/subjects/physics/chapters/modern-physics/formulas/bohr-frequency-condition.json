@@ -1,0 +1,53 @@
+{
+  "id": "bohr-frequency-condition",
+  "chapter": "modern-physics",
+  "title": "Bohr Frequency Condition",
+  "titleBn": "বোরের কম্পাঙ্ক শর্ত",
+  "summary": "hf=E₂−E₁",
+  "latex": "hf=E_2-E_1",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 160,
+  "symbols": [
+    {
+      "symbol": "h, f, E",
+      "meaning": "hf=E₂−E₁",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "শক্তি পার্থক্য = ফোটন শক্তি।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "hf=E_2-E_1",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বোরের কম্পাঙ্ক শর্ত এর সূত্রটি লেখো। (ইঙ্গিত: শক্তি পার্থক্য = ফোটন শক্তি।)",
+      "answer": "hf=E_2-E_1"
+    }
+  ],
+  "memorize": {
+    "trick": "শক্তি পার্থক্য = ফোটন শক্তি।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "stopping-potential",
+    "einstein-photoelectric"
+  ]
+}

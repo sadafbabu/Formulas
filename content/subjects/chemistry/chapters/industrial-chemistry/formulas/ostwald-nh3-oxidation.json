@@ -1,0 +1,54 @@
+{
+  "id": "ostwald-nh3-oxidation",
+  "chapter": "industrial-chemistry",
+  "title": "Ostwald NH₃ Oxidation",
+  "titleBn": "অস্টওয়াল্ড NH₃ জারণ",
+  "summary": "NH₃→NO",
+  "latex": "4\\mathrm{NH_3}+5\\mathrm{O_2}\\xrightarrow{\\mathrm{Pt}}4\\mathrm{NO}+6\\mathrm{H_2O}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "NH_3, O_2, xrightarrow, Pt",
+      "meaning": "NH₃→NO",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "4\\mathrm{NH_3}+5\\mathrm{O_2}\\xrightarrow{\\mathrm{Pt}}4\\mathrm{NO}+6\\mathrm{H_2O}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অস্টওয়াল্ড NH₃ জারণ এর সূত্রটি লেখো। (ইঙ্গিত: অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।)",
+      "answer": "4\\mathrm{NH_3}+5\\mathrm{O_2}\\xrightarrow{\\mathrm{Pt}}4\\mathrm{NO}+6\\mathrm{H_2O}"
+    }
+  ],
+  "memorize": {
+    "trick": "অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "solvay-nahco3-step",
+    "glass-composition",
+    "contact-process-v2o5"
+  ]
+}

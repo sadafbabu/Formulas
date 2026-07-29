@@ -1,0 +1,53 @@
+{
+  "id": "acid-rain-formation",
+  "chapter": "environmental-chemistry",
+  "title": "Acid Rain",
+  "titleBn": "অ্যাসিড বৃষ্টি",
+  "summary": "SO₂, NOₓ → acids",
+  "latex": "\\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "SO_2, H_2O, H_2SO_3, NO_2",
+      "meaning": "SO₂, NOₓ → acids",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "pH < ৫.৬ হলে অ্যাসিড বৃষ্টি।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অ্যাসিড বৃষ্টি এর সূত্রটি লেখো। (ইঙ্গিত: pH < ৫.৬ হলে অ্যাসিড বৃষ্টি।)",
+      "answer": "\\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}"
+    }
+  ],
+  "memorize": {
+    "trick": "pH < ৫.৬ হলে অ্যাসিড বৃষ্টি।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "ozone-depletion-cfcs",
+    "major-greenhouse-gases"
+  ]
+}

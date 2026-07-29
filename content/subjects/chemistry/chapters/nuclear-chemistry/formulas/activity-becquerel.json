@@ -1,0 +1,54 @@
+{
+  "id": "activity-becquerel",
+  "chapter": "nuclear-chemistry",
+  "title": "Activity Units",
+  "titleBn": "সক্রিয়তার একক",
+  "summary": "Bq and Ci",
+  "latex": "1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "Bq, s^{-1, Ci",
+      "meaning": "Bq and Ci",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Bq and Ci — SI একক বেকেরেল।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সক্রিয়তার একক এর সূত্রটি লেখো। (ইঙ্গিত: SI একক বেকেরেল।)",
+      "answer": "1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}"
+    }
+  ],
+  "memorize": {
+    "trick": "SI একক বেকেরেল।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "mean-life-chem",
+    "mass-energy-chem",
+    "nuclear-fission-fusion"
+  ]
+}

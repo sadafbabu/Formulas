@@ -1,0 +1,52 @@
+{
+  "id": "log-product-quotient",
+  "chapter": "logarithms-exponents",
+  "title": "Log Product & Quotient",
+  "titleBn": "লগ গুণ ও ভাগ",
+  "summary": "log(ab), log(a/b)",
+  "latex": "\\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "c, a, b",
+      "meaning": "log(ab), log(a/b)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "গুণ → যোগ; ভাগ → বিয়োগ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "লগ গুণ ও ভাগ এর সূত্রটি লেখো। (ইঙ্গিত: গুণ → যোগ; ভাগ → বিয়োগ।)",
+      "answer": "\\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b"
+    }
+  ],
+  "memorize": {
+    "trick": "গুণ → যোগ; ভাগ → বিয়োগ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "log-power-rule",
+    "change-of-base"
+  ]
+}

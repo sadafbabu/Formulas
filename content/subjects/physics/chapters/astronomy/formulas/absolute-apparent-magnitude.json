@@ -1,0 +1,54 @@
+{
+  "id": "absolute-apparent-magnitude",
+  "chapter": "astronomy",
+  "title": "Distance Modulus",
+  "titleBn": "দূরত্ব মডুলাস",
+  "summary": "m−M=5log(d/10)",
+  "latex": "m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "m, M, d, in pc",
+      "meaning": "m−M=5log(d/10)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "m−M=5log(d/10) — m=আপাত, M=পরম মান।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "দূরত্ব মডুলাস এর সূত্রটি লেখো। (ইঙ্গিত: m=আপাত, M=পরম মান।)",
+      "answer": "m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})"
+    }
+  ],
+  "memorize": {
+    "trick": "m=আপাত, M=পরম মান।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "stellar-parallax-pc",
+    "hubble-recession-law",
+    "escape-velocity-planet"
+  ]
+}

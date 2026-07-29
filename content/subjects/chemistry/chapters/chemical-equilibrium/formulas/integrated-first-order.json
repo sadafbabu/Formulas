@@ -1,0 +1,54 @@
+{
+  "id": "integrated-first-order",
+  "chapter": "chemical-equilibrium",
+  "title": "Integrated First-Order Rate",
+  "titleBn": "সমাকলিত প্রথম ক্রম",
+  "summary": "ln([A]₀/[A])=kt",
+  "latex": "\\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 210,
+  "symbols": [
+    {
+      "symbol": "A, k, t, or",
+      "meaning": "ln([A]₀/[A])=kt",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ln([A]₀/[A])=kt — ln[A] বনাম t সরলরেখা।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সমাকলিত প্রথম ক্রম এর সূত্রটি লেখো। (ইঙ্গিত: ln[A] বনাম t সরলরেখা।)",
+      "answer": "\\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}"
+    }
+  ],
+  "memorize": {
+    "trick": "ln[A] বনাম t সরলরেখা।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "first-order-half-life",
+    "activation-energy-arrhenius-plot",
+    "ka-kb-relation"
+  ]
+}

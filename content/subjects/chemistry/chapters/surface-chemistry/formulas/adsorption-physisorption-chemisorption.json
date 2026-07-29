@@ -1,0 +1,53 @@
+{
+  "id": "adsorption-physisorption-chemisorption",
+  "chapter": "surface-chemistry",
+  "title": "Physisorption vs Chemisorption",
+  "titleBn": "ভৌত ও রাসায়নিক অধিশোষণ",
+  "summary": "ΔH, layer, reversible",
+  "latex": "\\text{physisorption: }|\\Delta H|\\sim 20\\!-\\!40\\,\\mathrm{kJ/mol};\\ \\text{chemisorption: }|\\Delta H|\\sim 80\\!-\\!240\\,\\mathrm{kJ/mol}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "physisorption:, Delta, H, sim",
+      "meaning": "ΔH, layer, reversible",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ভৌত = বহুস্তর, উল্টানো যায়; রাসায়নিক = একস্তর, শক্তিশালী।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{physisorption: }|\\Delta H|\\sim 20\\!-\\!40\\,\\mathrm{kJ/mol};\\ \\text{chemisorption: }|\\Delta H|\\sim 80\\!-\\!240\\,\\mathrm{kJ/mol}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ভৌত ও রাসায়নিক অধিশোষণ এর সূত্রটি লেখো। (ইঙ্গিত: ভৌত = বহুস্তর, উল্টানো যায়; রাসায়নিক = একস্তর, শক্তিশালী।)",
+      "answer": "\\text{physisorption: }|\\Delta H|\\sim 20\\!-\\!40\\,\\mathrm{kJ/mol};\\ \\text{chemisorption: }|\\Delta H|\\sim 80\\!-\\!240\\,\\mathrm{kJ/mol}"
+    }
+  ],
+  "memorize": {
+    "trick": "ভৌত = বহুস্তর, উল্টানো যায়; রাসায়নিক = একস্তর, শক্তিশালী।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "freundlich-adsorption",
+    "langmuir-adsorption"
+  ]
+}

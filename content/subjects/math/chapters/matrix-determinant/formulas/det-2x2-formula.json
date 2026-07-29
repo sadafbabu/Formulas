@@ -1,0 +1,53 @@
+{
+  "id": "det-2x2-formula",
+  "chapter": "matrix-determinant",
+  "title": "2×2 Determinant",
+  "titleBn": "২×২ নির্ণায়ক",
+  "summary": "ad−bc",
+  "latex": "\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "v, m, a, t",
+      "meaning": "ad−bc",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "২×২: প্রধান−অপ্রধান কর্ণ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "২×২ নির্ণায়ক এর সূত্রটি লেখো। (ইঙ্গিত: ২×২: প্রধান−অপ্রধান কর্ণ।)",
+      "answer": "\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc"
+    }
+  ],
+  "memorize": {
+    "trick": "২×২: প্রধান−অপ্রধান কর্ণ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "matrix-multiplication-cond",
+    "inverse-matrix-adj",
+    "determinant-3x3-expansion"
+  ]
+}

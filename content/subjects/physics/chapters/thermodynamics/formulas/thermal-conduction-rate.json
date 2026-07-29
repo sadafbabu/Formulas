@@ -1,0 +1,53 @@
+{
+  "id": "thermal-conduction-rate",
+  "chapter": "thermodynamics",
+  "title": "Heat Conduction Rate",
+  "titleBn": "তাপ পরিবহন হার",
+  "summary": "dQ/dt = κAΔT/L",
+  "latex": "\\frac{dQ}{dt}=\\kappa A\\frac{\\Delta T}{L}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 170,
+  "symbols": [
+    {
+      "symbol": "d, Q, t, kappa",
+      "meaning": "dQ/dt = κAΔT/L",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "dQ/dt = κAΔT/L — κ বড় = ভালো পরিবাহী।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{dQ}{dt}=\\kappa A\\frac{\\Delta T}{L}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "তাপ পরিবহন হার এর সূত্রটি লেখো। (ইঙ্গিত: κ বড় = ভালো পরিবাহী।)",
+      "answer": "\\frac{dQ}{dt}=\\kappa A\\frac{\\Delta T}{L}"
+    }
+  ],
+  "memorize": {
+    "trick": "κ বড় = ভালো পরিবাহী।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "newton-cooling",
+    "latent-heat"
+  ]
+}

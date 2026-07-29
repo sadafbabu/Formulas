@@ -1,0 +1,52 @@
+{
+  "id": "lp-graphical-steps",
+  "chapter": "linear-programming",
+  "title": "Graphical Method Steps",
+  "titleBn": "লেখচিত্র পদ্ধতির ধাপ",
+  "summary": "draw → shade → evaluate",
+  "latex": "\\text{1) lines 2) shade 3) corners 4) evaluate }Z",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "1) lines 2) shade 3) corners 4) evaluate, Z",
+      "meaning": "draw → shade → evaluate",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "দুই চলকের LP গ্রাফে সহজ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{1) lines 2) shade 3) corners 4) evaluate }Z",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "লেখচিত্র পদ্ধতির ধাপ এর সূত্রটি লেখো। (ইঙ্গিত: দুই চলকের LP গ্রাফে সহজ।)",
+      "answer": "\\text{1) lines 2) shade 3) corners 4) evaluate }Z"
+    }
+  ],
+  "memorize": {
+    "trick": "দুই চলকের LP গ্রাফে সহজ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "lp-corner-optimum",
+    "lp-feasible-set"
+  ]
+}

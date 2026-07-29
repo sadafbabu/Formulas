@@ -1,0 +1,54 @@
+{
+  "id": "colloid-tyndall",
+  "chapter": "surface-chemistry",
+  "title": "Tyndall Effect",
+  "titleBn": "টিনডাল প্রভাব",
+  "summary": "light scattering",
+  "latex": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "colloidal particles scatter light, Rightarrow, Tyndall cone",
+      "meaning": "light scattering",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সমাধান করে না; কলয়েড করে — পথ দেখা যায়।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "টিনডাল প্রভাব এর সূত্রটি লেখো। (ইঙ্গিত: সমাধান করে না; কলয়েড করে — পথ দেখা যায়।)",
+      "answer": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}"
+    }
+  ],
+  "memorize": {
+    "trick": "সমাধান করে না; কলয়েড করে — পথ দেখা যায়।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "catalyst-types",
+    "brownian-motion-colloid",
+    "langmuir-adsorption"
+  ]
+}

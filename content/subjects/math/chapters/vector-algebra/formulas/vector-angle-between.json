@@ -1,0 +1,53 @@
+{
+  "id": "vector-angle-between",
+  "chapter": "vector-algebra",
+  "title": "Angle Between Vectors",
+  "titleBn": "দুই ভেক্টরের কোণ",
+  "summary": "cosθ = (a·b)/(|a||b|)",
+  "latex": "\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "theta, vec, a, b",
+      "meaning": "cosθ = (a·b)/(|a||b|)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "কোণ বের করতে ডট ব্যবহার করো।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "দুই ভেক্টরের কোণ এর সূত্রটি লেখো। (ইঙ্গিত: কোণ বের করতে ডট ব্যবহার করো।)",
+      "answer": "\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}"
+    }
+  ],
+  "memorize": {
+    "trick": "কোণ বের করতে ডট ব্যবহার করো।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "vector-section-formula",
+    "vector-area-parallelogram",
+    "vector-projection-formula"
+  ]
+}

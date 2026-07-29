@@ -1,0 +1,52 @@
+{
+  "id": "vector-area-parallelogram",
+  "chapter": "vector-algebra",
+  "title": "Area of Parallelogram",
+  "titleBn": "সামান্তরিকের ক্ষেত্রফল",
+  "summary": "|a×b|",
+  "latex": "A=|\\vec a\\times\\vec b|",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "A, vec, a, b",
+      "meaning": "|a×b|",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ক্রসের মান = সামান্তরিক ক্ষেত্রফল।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "A=|\\vec a\\times\\vec b|",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সামান্তরিকের ক্ষেত্রফল এর সূত্রটি লেখো। (ইঙ্গিত: ক্রসের মান = সামান্তরিক ক্ষেত্রফল।)",
+      "answer": "A=|\\vec a\\times\\vec b|"
+    }
+  ],
+  "memorize": {
+    "trick": "ক্রসের মান = সামান্তরিক ক্ষেত্রফল।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "vector-angle-between",
+    "vector-section-formula"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "exp-log-inverse",
+  "chapter": "logarithms-exponents",
+  "title": "Exp–Log Inverse",
+  "titleBn": "ঘাত–লগ বিপরীত",
+  "summary": "a^{log_a x}=x",
+  "latex": "a^{\\log_a x}=x\\ (x>0),\\quad \\log_a(a^x)=x",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "a, x",
+      "meaning": "a^{log_a x}=x",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "একই ভিত্তিতে একে অন্যের উল্টো।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "a^{\\log_a x}=x\\ (x>0),\\quad \\log_a(a^x)=x",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ঘাত–লগ বিপরীত এর সূত্রটি লেখো। (ইঙ্গিত: একই ভিত্তিতে একে অন্যের উল্টো।)",
+      "answer": "a^{\\log_a x}=x\\ (x>0),\\quad \\log_a(a^x)=x"
+    }
+  ],
+  "memorize": {
+    "trick": "একই ভিত্তিতে একে অন্যের উল্টো।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "exponential-laws",
+    "natural-common-log",
+    "log-identity-ab"
+  ]
+}

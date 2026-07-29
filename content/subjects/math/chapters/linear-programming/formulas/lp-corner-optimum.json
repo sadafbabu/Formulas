@@ -1,0 +1,53 @@
+{
+  "id": "lp-corner-optimum",
+  "chapter": "linear-programming",
+  "title": "Corner Point Theorem",
+  "titleBn": "কোণবিন্দু উপপাদ্য",
+  "summary": "optimum at vertex",
+  "latex": "\\text{optimal }Z\\text{ occurs at a corner of the feasible region}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "optimal, Z, occurs at a corner of the feasible region",
+      "meaning": "optimum at vertex",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সব কোণে Z হিসাব করে বড়/ছোট নাও।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{optimal }Z\\text{ occurs at a corner of the feasible region}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কোণবিন্দু উপপাদ্য এর সূত্রটি লেখো। (ইঙ্গিত: সব কোণে Z হিসাব করে বড়/ছোট নাও।)",
+      "answer": "\\text{optimal }Z\\text{ occurs at a corner of the feasible region}"
+    }
+  ],
+  "memorize": {
+    "trick": "সব কোণে Z হিসাব করে বড়/ছোট নাও।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "lp-feasible-set",
+    "lp-graphical-steps",
+    "lp-objective-z"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mean-life-chem",
+  "chapter": "nuclear-chemistry",
+  "title": "Mean Life",
+  "titleBn": "গড় আয়ু",
+  "summary": "τ=1/λ",
+  "latex": "\\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "tau, lambda, t",
+      "meaning": "τ=1/λ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "τ=1/λ — গড় আয়ু > অর্ধায়ু।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "গড় আয়ু এর সূত্রটি লেখো। (ইঙ্গিত: গড় আয়ু > অর্ধায়ু।)",
+      "answer": "\\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}"
+    }
+  ],
+  "memorize": {
+    "trick": "গড় আয়ু > অর্ধায়ু।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "nuclear-fission-fusion",
+    "activity-becquerel",
+    "alpha-beta-gamma-decay"
+  ]
+}

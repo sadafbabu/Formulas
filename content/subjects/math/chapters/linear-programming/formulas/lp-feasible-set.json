@@ -1,0 +1,53 @@
+{
+  "id": "lp-feasible-set",
+  "chapter": "linear-programming",
+  "title": "Feasible Region",
+  "titleBn": "সম্ভাব্য অঞ্চল",
+  "summary": "intersection of half-planes",
+  "latex": "\\text{feasible region = intersection of all constraints}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "feasible region = intersection of all constraints",
+      "meaning": "intersection of half-planes",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{feasible region = intersection of all constraints}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সম্ভাব্য অঞ্চল এর সূত্রটি লেখো। (ইঙ্গিত: বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।)",
+      "answer": "\\text{feasible region = intersection of all constraints}"
+    }
+  ],
+  "memorize": {
+    "trick": "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "lp-objective-z",
+    "lp-corner-optimum",
+    "lp-constraint-inequality"
+  ]
+}

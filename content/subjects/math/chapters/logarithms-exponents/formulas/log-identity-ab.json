@@ -1,0 +1,53 @@
+{
+  "id": "log-identity-ab",
+  "chapter": "logarithms-exponents",
+  "title": "log_b a · log_a b = 1",
+  "titleBn": "বিপরীত লগ গুণফল",
+  "summary": "reciprocal logs",
+  "latex": "\\log_b a\\cdot\\log_a b=1",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "b, a",
+      "meaning": "reciprocal logs",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "একটি জানলে অন্যটি উল্টো।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\log_b a\\cdot\\log_a b=1",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বিপরীত লগ গুণফল এর সূত্রটি লেখো। (ইঙ্গিত: একটি জানলে অন্যটি উল্টো।)",
+      "answer": "\\log_b a\\cdot\\log_a b=1"
+    }
+  ],
+  "memorize": {
+    "trick": "একটি জানলে অন্যটি উল্টো।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "change-of-base",
+    "exponential-laws",
+    "log-power-rule"
+  ]
+}

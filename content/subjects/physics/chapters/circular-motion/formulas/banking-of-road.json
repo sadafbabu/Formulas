@@ -1,0 +1,54 @@
+{
+  "id": "banking-of-road",
+  "chapter": "circular-motion",
+  "title": "Banking of Road",
+  "titleBn": "রাস্তার ঢালকরণ",
+  "summary": "tanθ=v²/(rg)",
+  "latex": "\\tan\\theta=\\frac{v^2}{rg}\\quad(\\text{no friction})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "theta, v, r, g",
+      "meaning": "tanθ=v²/(rg)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "tanθ=v²/(rg) — বেশি গতি = বেশি ঢাল।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\tan\\theta=\\frac{v^2}{rg}\\quad(\\text{no friction})",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "রাস্তার ঢালকরণ এর সূত্রটি লেখো। (ইঙ্গিত: বেশি গতি = বেশি ঢাল।)",
+      "answer": "\\tan\\theta=\\frac{v^2}{rg}\\quad(\\text{no friction})"
+    }
+  ],
+  "memorize": {
+    "trick": "বেশি গতি = বেশি ঢাল।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "centripetal-force-mv2r",
+    "vertical-circle-limits",
+    "v-omega-r"
+  ]
+}

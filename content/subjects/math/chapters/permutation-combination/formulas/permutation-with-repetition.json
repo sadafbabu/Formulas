@@ -1,0 +1,53 @@
+{
+  "id": "permutation-with-repetition",
+  "chapter": "permutation-combination",
+  "title": "Permutations with Repetition",
+  "titleBn": "পুনরাবৃত্তিসহ ক্রমবিন্যাস",
+  "summary": "n!/(n₁!n₂!…)",
+  "latex": "\\frac{n!}{n_1!n_2!\\cdots n_k!}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "n, cdots, k",
+      "meaning": "n!/(n₁!n₂!…)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "একই অক্ষরের পুনরাবৃত্তি ভাজকে যায়।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{n!}{n_1!n_2!\\cdots n_k!}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পুনরাবৃত্তিসহ ক্রমবিন্যাস এর সূত্রটি লেখো। (ইঙ্গিত: একই অক্ষরের পুনরাবৃত্তি ভাজকে যায়।)",
+      "answer": "\\frac{n!}{n_1!n_2!\\cdots n_k!}"
+    }
+  ],
+  "memorize": {
+    "trick": "একই অক্ষরের পুনরাবৃত্তি ভাজকে যায়।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "circular-arrangement",
+    "combination-sum-identity",
+    "combination-ncr"
+  ]
+}

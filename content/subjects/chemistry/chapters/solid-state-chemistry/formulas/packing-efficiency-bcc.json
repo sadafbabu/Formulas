@@ -1,0 +1,54 @@
+{
+  "id": "packing-efficiency-bcc",
+  "chapter": "solid-state-chemistry",
+  "title": "BCC Packing Efficiency",
+  "titleBn": "BCC প্যাকিং দক্ষতা",
+  "summary": "68%",
+  "latex": "\\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "PE, a, sqrt, r",
+      "meaning": "68%",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "BCC-তে body diagonal = 4r।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "BCC প্যাকিং দক্ষতা এর সূত্রটি লেখো। (ইঙ্গিত: BCC-তে body diagonal = 4r।)",
+      "answer": "\\text{PE}=68\\%\\quad(a\\sqrt3=4r)"
+    }
+  ],
+  "memorize": {
+    "trick": "BCC-তে body diagonal = 4r।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "packing-efficiency-fcc",
+    "density-crystal",
+    "schottky-defect"
+  ]
+}

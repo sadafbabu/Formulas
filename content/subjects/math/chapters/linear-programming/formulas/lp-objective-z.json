@@ -1,0 +1,53 @@
+{
+  "id": "lp-objective-z",
+  "chapter": "linear-programming",
+  "title": "Objective Function",
+  "titleBn": "উদ্দেশ্য ফাংশন",
+  "summary": "Z = ax+by",
+  "latex": "Z=ax+by\\ (\\text{maximize/minimize})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "Z, a, x, b",
+      "meaning": "Z = ax+by",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "কোণবিন্দুতে চরম মান পাওয়া যায়।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "Z=ax+by\\ (\\text{maximize/minimize})",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "উদ্দেশ্য ফাংশন এর সূত্রটি লেখো। (ইঙ্গিত: কোণবিন্দুতে চরম মান পাওয়া যায়।)",
+      "answer": "Z=ax+by\\ (\\text{maximize/minimize})"
+    }
+  ],
+  "memorize": {
+    "trick": "কোণবিন্দুতে চরম মান পাওয়া যায়।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "lp-constraint-inequality",
+    "lp-feasible-set",
+    "lp-corner-point"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "haber-ammonia-conditions",
+  "chapter": "industrial-chemistry",
+  "title": "Haber Optimum Conditions",
+  "titleBn": "হেবার অনুকূল শর্ত",
+  "summary": "pressure temperature catalyst",
+  "latex": "P\\sim 200\\!-\\!300\\,\\mathrm{atm},\\ T\\sim 400\\!-\\!450^\\circ\\mathrm{C},\\ \\mathrm{Fe\\ catalyst}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "P, sim, atm, T",
+      "meaning": "pressure temperature catalyst",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "উচ্চ চাপ + মধ্যম তাপ + Fe সংঘটক।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P\\sim 200\\!-\\!300\\,\\mathrm{atm},\\ T\\sim 400\\!-\\!450^\\circ\\mathrm{C},\\ \\mathrm{Fe\\ catalyst}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "হেবার অনুকূল শর্ত এর সূত্রটি লেখো। (ইঙ্গিত: উচ্চ চাপ + মধ্যম তাপ + Fe সংঘটক।)",
+      "answer": "P\\sim 200\\!-\\!300\\,\\mathrm{atm},\\ T\\sim 400\\!-\\!450^\\circ\\mathrm{C},\\ \\mathrm{Fe\\ catalyst}"
+    }
+  ],
+  "memorize": {
+    "trick": "উচ্চ চাপ + মধ্যম তাপ + Fe সংঘটক।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "solvay-process",
+    "contact-process-v2o5",
+    "ostwald-process"
+  ]
+}

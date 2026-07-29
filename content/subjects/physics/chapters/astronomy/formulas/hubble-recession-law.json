@@ -1,0 +1,54 @@
+{
+  "id": "hubble-recession-law",
+  "chapter": "astronomy",
+  "title": "Hubble's Law",
+  "titleBn": "হাবলের সূত্র",
+  "summary": "v=H₀d",
+  "latex": "v=H_0 d",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "v, H, d",
+      "meaning": "v=H₀d",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "মহাবিশ্ব সম্প্রসারণের প্রমাণ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "v=H_0 d",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "হাবলের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: মহাবিশ্ব সম্প্রসারণের প্রমাণ।)",
+      "answer": "v=H_0 d"
+    }
+  ],
+  "memorize": {
+    "trick": "মহাবিশ্ব সম্প্রসারণের প্রমাণ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "absolute-apparent-magnitude",
+    "planetary-escape-speed",
+    "stellar-parallax-pc"
+  ]
+}

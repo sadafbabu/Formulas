@@ -1,0 +1,54 @@
+{
+  "id": "continuity-fluid",
+  "chapter": "properties-of-matter",
+  "title": "Equation of Continuity",
+  "titleBn": "ধারাবাহিকতার সমীকরণ",
+  "summary": "A₁v₁=A₂v₂",
+  "latex": "A_1v_1=A_2v_2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "A, v",
+      "meaning": "A₁v₁=A₂v₂",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "A₁v₁=A₂v₂ — সরু স্থানে বেগ বেশি।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "A_1v_1=A_2v_2",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ধারাবাহিকতার সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: সরু স্থানে বেগ বেশি।)",
+      "answer": "A_1v_1=A_2v_2"
+    }
+  ],
+  "memorize": {
+    "trick": "সরু স্থানে বেগ বেশি।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "hookes-law-stress-strain",
+    "torricelli-theorem",
+    "excess-pressure-bubble"
+  ]
+}

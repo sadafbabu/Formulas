@@ -1,0 +1,54 @@
+{
+  "id": "brownian-motion-colloid",
+  "chapter": "surface-chemistry",
+  "title": "Brownian Motion",
+  "titleBn": "ব্রাউনীয় গতি",
+  "summary": "zigzag particle motion",
+  "latex": "\\text{continuous random motion of colloidal particles}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "continuous random motion of colloidal particles",
+      "meaning": "zigzag particle motion",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{continuous random motion of colloidal particles}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ব্রাউনীয় গতি এর সূত্রটি লেখো। (ইঙ্গিত: কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।)",
+      "answer": "\\text{continuous random motion of colloidal particles}"
+    }
+  ],
+  "memorize": {
+    "trick": "কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "colloid-tyndall",
+    "emulsion-types",
+    "catalyst-types"
+  ]
+}

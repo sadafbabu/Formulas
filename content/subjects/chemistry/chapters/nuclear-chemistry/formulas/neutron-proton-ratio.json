@@ -1,0 +1,53 @@
+{
+  "id": "neutron-proton-ratio",
+  "chapter": "nuclear-chemistry",
+  "title": "n/p Stability",
+  "titleBn": "n/p স্থিতিশীলতা",
+  "summary": "band of stability",
+  "latex": "\\text{stable }n/p\\approx1\\ (\\text{light})\\to\\approx1.5\\ (\\text{heavy})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "stable, n, p, light",
+      "meaning": "band of stability",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{stable }n/p\\approx1\\ (\\text{light})\\to\\approx1.5\\ (\\text{heavy})",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "n/p স্থিতিশীলতা এর সূত্রটি লেখো। (ইঙ্গিত: ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।)",
+      "answer": "\\text{stable }n/p\\approx1\\ (\\text{light})\\to\\approx1.5\\ (\\text{heavy})"
+    }
+  ],
+  "memorize": {
+    "trick": "ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "mass-energy-chem",
+    "activity-becquerel"
+  ]
+}

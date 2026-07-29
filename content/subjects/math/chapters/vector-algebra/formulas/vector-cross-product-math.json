@@ -1,0 +1,53 @@
+{
+  "id": "vector-cross-product-math",
+  "chapter": "vector-algebra",
+  "title": "Cross Product",
+  "titleBn": "বহির্গুণফল",
+  "summary": "a×b",
+  "latex": "\\vec a\\times\\vec b=|\\vec a||\\vec b|\\sin\\theta\\,\\hat n=\\begin{vmatrix}\\hat i&\\hat j&\\hat k\\\\a_x&a_y&a_z\\\\b_x&b_y&b_z\\end{vmatrix}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "vec, a, b, theta",
+      "meaning": "a×b",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ডানহস্ত নিয়ম; সমান্তরালে ক্রস = ০।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\vec a\\times\\vec b=|\\vec a||\\vec b|\\sin\\theta\\,\\hat n=\\begin{vmatrix}\\hat i&\\hat j&\\hat k\\\\a_x&a_y&a_z\\\\b_x&b_y&b_z\\end{vmatrix}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বহির্গুণফল এর সূত্রটি লেখো। (ইঙ্গিত: ডানহস্ত নিয়ম; সমান্তরালে ক্রস = ০।)",
+      "answer": "\\vec a\\times\\vec b=|\\vec a||\\vec b|\\sin\\theta\\,\\hat n=\\begin{vmatrix}\\hat i&\\hat j&\\hat k\\\\a_x&a_y&a_z\\\\b_x&b_y&b_z\\end{vmatrix}"
+    }
+  ],
+  "memorize": {
+    "trick": "ডানহস্ত নিয়ম; সমান্তরালে ক্রস = ০।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "vector-dot-product-math",
+    "vector-scalar-triple-math",
+    "vector-magnitude-unit"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "efs-crystal-field-split",
+  "chapter": "coordination-chemistry",
+  "title": "Crystal Field Splitting",
+  "titleBn": "স্ফটিক ক্ষেত্র বিভাজন",
+  "summary": "Δ_o / Δ_t",
+  "latex": "\\Delta_o\\ (\\text{octahedral}),\\quad \\Delta_t=\\tfrac45\\Delta_o\\ (\\text{approx. for tetrahedral})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "Delta, o, octahedral, t",
+      "meaning": "Δ_o / Δ_t",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "বড় Δ → নিম্ন স্পিন; ছোট Δ → উচ্চ স্পিন।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\Delta_o\\ (\\text{octahedral}),\\quad \\Delta_t=\\tfrac45\\Delta_o\\ (\\text{approx. for tetrahedral})",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "স্ফটিক ক্ষেত্র বিভাজন এর সূত্রটি লেখো। (ইঙ্গিত: বড় Δ → নিম্ন স্পিন; ছোট Δ → উচ্চ স্পিন।)",
+      "answer": "\\Delta_o\\ (\\text{octahedral}),\\quad \\Delta_t=\\tfrac45\\Delta_o\\ (\\text{approx. for tetrahedral})"
+    }
+  ],
+  "memorize": {
+    "trick": "বড় Δ → নিম্ন স্পিন; ছোট Δ → উচ্চ স্পিন।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "coordination-number-geometry",
+    "spectrochemical-series",
+    "werner-valency-types"
+  ]
+}

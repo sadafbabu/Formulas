@@ -34,7 +34,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমাবেশ পরিচয় এর সূত্রটি লেখো। (ইঙ্গিত: Binomial row sum = 2^n; Pascal's triangle।)",
+      "question": "সমাবেশের সমষ্টি এর সূত্রটি লেখো। (ইঙ্গিত: Binomial row sum = 2^n; Pascal's triangle।)",
       "answer": "\\binom{n}{0}+\\binom{n}{1}+\\cdots+\\binom{n}{n}=2^n"
     }
   ],

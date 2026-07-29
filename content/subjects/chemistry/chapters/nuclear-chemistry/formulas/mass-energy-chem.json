@@ -1,0 +1,54 @@
+{
+  "id": "mass-energy-chem",
+  "chapter": "nuclear-chemistry",
+  "title": "Mass–Energy Equivalence",
+  "titleBn": "ভর–শক্তি সমতুল্যতা",
+  "summary": "E=mc²",
+  "latex": "E=(\\Delta m)c^2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "E, Delta, m, c",
+      "meaning": "E=mc²",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ভর ক্ষতি → শক্তি নির্গত।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "E=(\\Delta m)c^2",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ভর–শক্তি সমতুল্যতা এর সূত্রটি লেখো। (ইঙ্গিত: ভর ক্ষতি → শক্তি নির্গত।)",
+      "answer": "E=(\\Delta m)c^2"
+    }
+  ],
+  "memorize": {
+    "trick": "ভর ক্ষতি → শক্তি নির্গত।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "activity-becquerel",
+    "neutron-proton-ratio",
+    "mean-life-chem"
+  ]
+}

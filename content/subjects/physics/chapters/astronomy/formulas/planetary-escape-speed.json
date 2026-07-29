@@ -1,0 +1,53 @@
+{
+  "id": "planetary-escape-speed",
+  "chapter": "astronomy",
+  "title": "Escape Velocity",
+  "titleBn": "পলায়ন বেগ",
+  "summary": "√(2GM/R)",
+  "latex": "v_e=\\sqrt{\\frac{2GM}{R}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "v, e, sqrt, G",
+      "meaning": "√(2GM/R)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "√(2GM/R) — পৃথিবীতে ≈১১.২ km/s।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "v_e=\\sqrt{\\frac{2GM}{R}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পলায়ন বেগ এর সূত্রটি লেখো। (ইঙ্গিত: পৃথিবীতে ≈১১.২ km/s।)",
+      "answer": "v_e=\\sqrt{\\frac{2GM}{R}}"
+    }
+  ],
+  "memorize": {
+    "trick": "পৃথিবীতে ≈১১.২ km/s।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "hubble-recession-law",
+    "absolute-apparent-magnitude"
+  ]
+}

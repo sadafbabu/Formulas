@@ -1,0 +1,54 @@
+{
+  "id": "emulsion-types",
+  "chapter": "surface-chemistry",
+  "title": "Emulsion Types",
+  "titleBn": "ইমালশনের প্রকার",
+  "summary": "O/W and W/O",
+  "latex": "\\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "O/W (oil in water), W/O (water in oil)",
+      "meaning": "O/W and W/O",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "O/W and W/O — দুধ = O/W; মাখন = W/O।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ইমালশনের প্রকার এর সূত্রটি লেখো। (ইঙ্গিত: দুধ = O/W; মাখন = W/O।)",
+      "answer": "\\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}"
+    }
+  ],
+  "memorize": {
+    "trick": "দুধ = O/W; মাখন = W/O।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "brownian-motion-colloid",
+    "cmc-micelle",
+    "colloid-tyndall"
+  ]
+}
