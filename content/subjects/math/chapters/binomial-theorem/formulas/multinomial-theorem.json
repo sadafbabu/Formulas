@@ -1,0 +1,67 @@
+{
+  "id": "multinomial-theorem",
+  "chapter": "binomial-theorem",
+  "title": "Multinomial Theorem",
+  "titleBn": "বহুপদী উপপাদ্য",
+  "summary": "(x₁+…+xₘ)^n-এর সাধারণ পদ ও coefficient; তিন বা ততোধিক পদের expansion।",
+  "latex": "(x_1+\\cdots+x_m)^n=\\sum_{r_1+\\cdots+r_m=n}\\frac{n!}{r_1!\\cdots r_m!}x_1^{r_1}\\cdots x_m^{r_m}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "binomial-expansion",
+    "general-term",
+    "coefficient-extraction"
+  ],
+  "symbols": [
+    {
+      "symbol": "r_i",
+      "meaning": "i-তম পদের ঘাত",
+      "unit": "অঋণাত্মক পূর্ণসংখ্যা"
+    },
+    {
+      "symbol": "\\frac{n!}{\\prod r_i!}",
+      "meaning": "multinomial coefficient",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "nটি factor থেকে xᵢ ঠিক rᵢ বার বাছার permutation সংখ্যা n!/(r₁!…rₘ!)।",
+    "steps": [
+      {
+        "title": "general term",
+        "latex": "T=\\frac{n!}{r_1!r_2!\\cdots r_m!}x_1^{r_1}\\cdots x_m^{r_m},\\quad\\sum r_i=n",
+        "note": "সব exponent-এর যোগফল n না হলে term নেই।"
+      },
+      {
+        "title": "term count",
+        "latex": "N=\\binom{n+m-1}{m-1}",
+        "note": "mটি variable-এ total degree n-এর nonnegative integer solutions।"
+      }
+    ],
+    "assumptions": [
+      "Variables commute এবং n nonnegative integer।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "(x+y+z)^5-এ x^2y^2z-এর coefficient কত?",
+      "answer": "\\frac{5!}{2!2!1!}=30"
+    }
+  ],
+  "memorize": {
+    "trick": "Multinomial term-এ exponent-গুলোর যোগ n এবং coefficient = n! ভাগ প্রতিটি exponent-এর factorial। প্রশ্নে term দেওয়া থাকলে এক লাইনের হিসাব।",
+    "steps": [
+      "(x+y+z)^n-এর মোট আলাদা term = (n+1)(n+2)/2।"
+    ]
+  }
+}

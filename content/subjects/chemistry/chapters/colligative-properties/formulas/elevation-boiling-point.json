@@ -1,0 +1,53 @@
+{
+  "id": "elevation-boiling-point",
+  "chapter": "colligative-properties",
+  "title": "Elevation of Boiling Point",
+  "titleBn": "স্ফুটনাঙ্কের উচ্চায়ন",
+  "summary": "ΔTb=Kbm",
+  "latex": "\\Delta T_b=K_b m",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "Delta, T, b, K",
+      "meaning": "ΔTb=Kbm",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ΔTb = Kb × molality; Ebullioscopic constant।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\Delta T_b=K_b m",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "স্ফুটনাঙ্কের উচ্চায়ন এর সূত্রটি লেখো। (ইঙ্গিত: ΔTb = Kb × molality; Ebullioscopic constant।)",
+      "answer": "\\Delta T_b=K_b m"
+    }
+  ],
+  "memorize": {
+    "trick": "ΔTb = Kb × molality; Ebullioscopic constant।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "relative-lowering-vapour-pressure",
+    "depression-freezing-point",
+    "osmotic-pressure"
+  ]
+}

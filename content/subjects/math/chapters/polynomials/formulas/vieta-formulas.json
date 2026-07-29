@@ -10,6 +10,7 @@
     "2-star"
   ],
   "importance": 2,
+  "order": 30,
   "symbols": [
     {
       "symbol": "x_1, x_2",
@@ -31,9 +32,28 @@
         "note": "n-তম ক্রমের জন্য সাধারণ রূপ আছে"
       }
     ],
-    "assumptions": "মূলগুলো গণন ও পুনরাবৃত্ত সহ"
+    "assumptions": [
+      "মূলগুলো গণন ও পুনরাবৃত্ত সহ"
+    ]
   },
   "id": "vieta-formulas",
   "chapter": "polynomials",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "ঘন সমীকরণে মূলের সমষ্টির সূত্র কী?",
+      "answer": "\\alpha+\\beta+\\gamma=-\\frac{b}{a}"
+    }
+  ],
+  "memorize": {
+    "trick": "ax³+bx²+cx+d=0 → মূল যোগফল = -b/a, জোড় গুণফল = c/a, তিন মূল গুণফল = -d/a।"
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "factor-theorem",
+    "synthetic-division",
+    "quadratic-equation-roots"
+  ]
 }

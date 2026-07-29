@@ -1,0 +1,52 @@
+{
+  "id": "spherical-capacitor",
+  "chapter": "static-electricity",
+  "title": "Spherical Capacitor",
+  "titleBn": "গোলীয় ধারক",
+  "summary": "কেন্দ্রীক গোলক ও বিচ্ছিন্ন গোলকের ধারকত্ব",
+  "latex": "C=4\\pi\\varepsilon_0\\frac{ab}{b-a},\\quad C_{iso}=4\\pi\\varepsilon_0 R",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "C, pi, varepsilon, a",
+      "meaning": "কেন্দ্রীক গোলক ও বিচ্ছিন্ন গোলকের ধারকত্ব",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "কেন্দ্রীক গোলক ও বিচ্ছিন্ন গোলকের ধারকত্ব",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "C=4\\pi\\varepsilon_0\\frac{ab}{b-a},\\quad C_{iso}=4\\pi\\varepsilon_0 R",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "গোলীয় ধারক এর সূত্রটি লেখো। (ইঙ্গিত: বিচ্ছিন্ন গোলক C=4πε₀R; দুই গোলকে ab/(b−a)।)",
+      "answer": "C=4\\pi\\varepsilon_0\\frac{ab}{b-a},\\quad C_{iso}=4\\pi\\varepsilon_0 R"
+    }
+  ],
+  "memorize": {
+    "trick": "বিচ্ছিন্ন গোলক C=4πε₀R; দুই গোলকে ab/(b−a)।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "capacitor-parallel-plate"
+  ]
+}

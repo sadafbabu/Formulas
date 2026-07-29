@@ -1,0 +1,54 @@
+{
+  "id": "echo-formula",
+  "chapter": "waves",
+  "title": "Echo",
+  "titleBn": "প্রতিধ্বনি",
+  "summary": "2d=vt",
+  "latex": "2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "d, v, t, Rightarrow",
+      "meaning": "2d=vt",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "যাওয়া+ফেরা = 2d; d = vt/2।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "প্রতিধ্বনি এর সূত্রটি লেখো। (ইঙ্গিত: যাওয়া+ফেরা = 2d; d = vt/2।)",
+      "answer": "2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}"
+    }
+  ],
+  "memorize": {
+    "trick": "যাওয়া+ফেরা = 2d; d = vt/2।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "intensity-amplitude-wave",
+    "doppler-effect-general",
+    "phase-path-difference"
+  ]
+}

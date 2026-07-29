@@ -1,0 +1,54 @@
+{
+  "id": "beats-frequency",
+  "chapter": "waves",
+  "title": "Beat Frequency",
+  "titleBn": "কম্পনসংখ্যা পার্থক্য (বিট)",
+  "summary": "|f1−f2|",
+  "latex": "f_{\\text{beat}}=|f_1-f_2|",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "f, beat",
+      "meaning": "|f1−f2|",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "প্রতি সেকেন্ডে বিট = দুই কম্পাঙ্কের পার্থক্য।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "f_{\\text{beat}}=|f_1-f_2|",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কম্পনসংখ্যা পার্থক্য (বিট) এর সূত্রটি লেখো। (ইঙ্গিত: প্রতি সেকেন্ডে বিট = দুই কম্পাঙ্কের পার্থক্য।)",
+      "answer": "f_{\\text{beat}}=|f_1-f_2|"
+    }
+  ],
+  "memorize": {
+    "trick": "প্রতি সেকেন্ডে বিট = দুই কম্পাঙ্কের পার্থক্য।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "doppler-effect-general",
+    "organ-pipe-closed",
+    "echo-formula"
+  ]
+}

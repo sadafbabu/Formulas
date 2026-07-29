@@ -1,0 +1,52 @@
+{
+  "id": "poisson-approx-hint",
+  "chapter": "probability",
+  "title": "Poisson Approximation Hint",
+  "titleBn": "পোয়াসোঁ আনুমানিক",
+  "summary": "λ=np",
+  "latex": "P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "1-star"
+  ],
+  "importance": 1,
+  "order": 150,
+  "symbols": [
+    {
+      "symbol": "P, X, k, e",
+      "meaning": "λ=np",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "n বড়, p ছোট হলে binomial → Poisson।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পোয়াসোঁ আনুমানিক এর সূত্রটি লেখো। (ইঙ্গিত: n বড়, p ছোট হলে binomial → Poisson।)",
+      "answer": "P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np"
+    }
+  ],
+  "memorize": {
+    "trick": "n বড়, p ছোট হলে binomial → Poisson।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "expected-value",
+    "permutation-probability"
+  ]
+}

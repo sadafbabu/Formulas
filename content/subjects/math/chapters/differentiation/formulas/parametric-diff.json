@@ -1,0 +1,53 @@
+{
+  "id": "parametric-diff",
+  "chapter": "differentiation",
+  "title": "Parametric Differentiation",
+  "titleBn": "প্যারামিতিক অন্তরীকরণ",
+  "summary": "dy/dx=(dy/dt)/(dx/dt)",
+  "latex": "\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "d, y, x, t",
+      "meaning": "dy/dx=(dy/dt)/(dx/dt)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "dy/dx=(dy/dt)/(dx/dt) — t বাদ না দিয়েই ঢাল।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "প্যারামিতিক অন্তরীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: t বাদ না দিয়েই ঢাল।)",
+      "answer": "\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}"
+    }
+  ],
+  "memorize": {
+    "trick": "t বাদ না দিয়েই ঢাল।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "implicit-diff",
+    "second-derivative",
+    "quotient-rule-diff"
+  ]
+}

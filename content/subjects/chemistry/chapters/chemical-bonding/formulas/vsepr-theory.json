@@ -1,0 +1,71 @@
+{
+  "title": "VSEPR Geometry & Lone Pairs",
+  "titleBn": "VSEPR জ্যামিতি ও একাকী জোড়",
+  "summary": "অণুর জ্যামিতিক কাঠামো ও বন্ধন জোড়/একাকী জোড়",
+  "latex": "S=N_{\\sigma}+N_{\\mathrm{lone}},\\quad H=\\frac{V+M-C+A}{2}\\ \\text{(সীমিত shortcut)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "S",
+      "meaning": "স্টেরিক সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "N",
+      "meaning": "বন্ধন জোড় সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "L",
+      "meaning": "একাকী জোড় সংখ্যা",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "ইলেকট্রন জোড় পরস্পরকে বিকর্ষণ করে, সর্বনিম্ন বিকর্ষণ কোণ নির্ধারণ জ্যামিতি।",
+    "steps": [
+      {
+        "title": "স্টেরিক সংখ্যা",
+        "latex": "S = N + L",
+        "note": "S=2 রৈখিক, 3 ত্রিভুজাকার, 4 চতুষ্ত্রিকোণী"
+      }
+    ],
+    "assumptions": [
+      "কেন্দ্রীয় পরমাণু",
+      "(V+M−C+A)/2 shortcut কেবল closed-shell species, monovalent ligand ও charge magnitude convention-এ"
+    ]
+  },
+  "id": "vsepr-theory",
+  "chapter": "chemical-bonding",
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "sp³ hybrid অণুর আকৃতি কী?",
+      "answer": "\\text{tetrahedral (চতুস্তলকীয়)}"
+    }
+  ],
+  "memorize": {
+    "trick": "মোট ইলেকট্রন যুগল গণনা করুন (বন্ধন + একাকী): ২ = সরলরৈখিক, ৩ = ত্রিকোণীয়, ৪ = চতুস্তলকীয়, ৫ = ত্রিকোণীয় দ্বিপিরামিড, ৬ = অষ্টতলকীয়। একাকী জোড় বেশি জায়গা নেয়, তাই কোণ চেপে যায়।",
+    "steps": [
+      "সংকরণ সংখ্যা = (V + M − C + A)/2; ২ = sp, ৩ = sp², ৪ = sp³, ৫ = sp³d, ৬ = sp³d²।",
+      "বিকর্ষণের ক্রম: একাকী-একাকী > একাকী-বন্ধন > বন্ধন-বন্ধন।",
+      "উদাহরণে দেখুন: CH₄ = 109.5°, NH₃ = 107° (১ একাকী), H₂O = 104.5° (২ একাকী) — প্রতিটি একাকী জোড়ে প্রায় ২.৫° কমে।"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "formal-charge",
+    "bond-parameters",
+    "lewis-structure"
+  ]
+}

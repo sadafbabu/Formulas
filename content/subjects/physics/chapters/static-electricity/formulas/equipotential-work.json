@@ -1,0 +1,52 @@
+{
+  "id": "equipotential-work",
+  "chapter": "static-electricity",
+  "title": "Equipotential Surfaces",
+  "titleBn": "সমবিভব তল ও কাজ",
+  "summary": "সমবিভবে কাজ শূন্য এবং E=-∇V",
+  "latex": "W_{a\\to b}=q(V_a-V_b),\\quad\\vec E=-\\nabla V,\\quad W_{eq}=0",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "W, a, b, q",
+      "meaning": "সমবিভবে কাজ শূন্য এবং E=-∇V",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সমবিভবে কাজ শূন্য এবং E=-∇V",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "W_{a\\to b}=q(V_a-V_b),\\quad\\vec E=-\\nabla V,\\quad W_{eq}=0",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সমবিভব তল ও কাজ এর সূত্রটি লেখো। (ইঙ্গিত: সমবিভব তলে চললে কাজ শূন্য; E অভিলম্ব।)",
+      "answer": "W_{a\\to b}=q(V_a-V_b),\\quad\\vec E=-\\nabla V,\\quad W_{eq}=0"
+    }
+  ],
+  "memorize": {
+    "trick": "সমবিভব তলে চললে কাজ শূন্য; E অভিলম্ব।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "electric-potential"
+  ]
+}

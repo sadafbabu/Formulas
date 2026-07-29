@@ -1,0 +1,53 @@
+{
+  "id": "werner-primary-secondary",
+  "chapter": "coordination-chemistry",
+  "title": "Werner's Theory",
+  "titleBn": "ভার্নারের তত্ত্ব",
+  "summary": "primary+secondary valence",
+  "latex": "\\text{Primary valence = ionizable; Secondary = non-ionizable}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "Primary valence = ionizable; Secondary = non-ionizable",
+      "meaning": "primary+secondary valence",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "primary+secondary valence",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{Primary valence = ionizable; Secondary = non-ionizable}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ভার্নারের তত্ত্ব এর সূত্রটি লেখো। (ইঙ্গিত: Primary = oxidation state; Secondary = coordination।)",
+      "answer": "\\text{Primary valence = ionizable; Secondary = non-ionizable}"
+    }
+  ],
+  "memorize": {
+    "trick": "Primary = oxidation state; Secondary = coordination।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "effective-atomic-number",
+    "crystal-field-splitting",
+    "coordination-number"
+  ]
+}

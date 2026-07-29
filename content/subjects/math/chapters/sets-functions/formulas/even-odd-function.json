@@ -1,0 +1,53 @@
+{
+  "id": "even-odd-function",
+  "chapter": "sets-functions",
+  "title": "Even & Odd Functions",
+  "titleBn": "জোড় ও বিজোড় ফাংশন",
+  "summary": "f(−x)",
+  "latex": "f(-x)=f(x)\\text{ (even)};\\quad f(-x)=-f(x)\\text{ (odd)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "f, x, (even), (odd)",
+      "meaning": "f(−x)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Even → y-axis symmetry; Odd → origin symmetry।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "f(-x)=f(x)\\text{ (even)};\\quad f(-x)=-f(x)\\text{ (odd)}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "জোড় ও বিজোড় ফাংশন এর সূত্রটি লেখো। (ইঙ্গিত: Even → y-axis symmetry; Odd → origin symmetry।)",
+      "answer": "f(-x)=f(x)\\text{ (even)};\\quad f(-x)=-f(x)\\text{ (odd)}"
+    }
+  ],
+  "memorize": {
+    "trick": "Even → y-axis symmetry; Odd → origin symmetry।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "inverse-function",
+    "n-union-three-sets",
+    "function-composition"
+  ]
+}

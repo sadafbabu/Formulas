@@ -1,0 +1,54 @@
+{
+  "id": "screw-gauge-least-count",
+  "chapter": "measurement",
+  "title": "Screw Gauge Least Count",
+  "titleBn": "স্ক্রু গেজ লঘিষ্ঠ পাঠ",
+  "summary": "pitch/divisions",
+  "latex": "\\mathrm{LC}=\\frac{\\text{pitch}}{\\text{circular scale divisions}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "LC, pitch, circular scale divisions",
+      "meaning": "pitch/divisions",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{LC}=\\frac{\\text{pitch}}{\\text{circular scale divisions}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "স্ক্রু গেজ লঘিষ্ঠ পাঠ এর সূত্রটি লেখো। (ইঙ্গিত: Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।)",
+      "answer": "\\mathrm{LC}=\\frac{\\text{pitch}}{\\text{circular scale divisions}}"
+    }
+  ],
+  "memorize": {
+    "trick": "Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "least-count-vernier",
+    "si-base-units",
+    "significant-figures-rule"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "ac-average-peak",
+  "chapter": "induction-ac",
+  "title": "AC Average & Peak",
+  "titleBn": "AC-এর গড় ও শীর্ষ মান",
+  "summary": "পূর্ণাঙ্গ সাইনের গড় ও শীর্ষ সম্পর্ক",
+  "latex": "I_{avg}=\\frac{2I_0}{\\pi},\\quad I_{rms}=\\frac{I_0}{\\sqrt{2}},\\quad I_0=\\sqrt{2}\\,I_{rms}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "I, a, v, g",
+      "meaning": "পূর্ণাঙ্গ সাইনের গড় ও শীর্ষ সম্পর্ক",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "পূর্ণাঙ্গ সাইনের গড় ও শীর্ষ সম্পর্ক",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "I_{avg}=\\frac{2I_0}{\\pi},\\quad I_{rms}=\\frac{I_0}{\\sqrt{2}},\\quad I_0=\\sqrt{2}\\,I_{rms}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "AC-এর গড় ও শীর্ষ মান এর সূত্রটি লেখো। (ইঙ্গিত: I₀ = √2 I_rms; অর্ধচক্র গড় = 2I₀/π।)",
+      "answer": "I_{avg}=\\frac{2I_0}{\\pi},\\quad I_{rms}=\\frac{I_0}{\\sqrt{2}},\\quad I_0=\\sqrt{2}\\,I_{rms}"
+    }
+  ],
+  "memorize": {
+    "trick": "I₀ = √2 I_rms; অর্ধচক্র গড় = 2I₀/π।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "ac-rms-values"
+  ]
+}

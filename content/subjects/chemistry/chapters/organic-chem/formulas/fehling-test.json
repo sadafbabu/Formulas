@@ -1,0 +1,53 @@
+{
+  "id": "fehling-test",
+  "chapter": "organic-chem",
+  "title": "Fehling's Test",
+  "titleBn": "ফেলিং পরীক্ষা",
+  "summary": "aldehyde detection",
+  "latex": "\\ce{RCHO + 2Cu(OH)2 -> RCOOH + Cu2O + 2H2O}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 190,
+  "symbols": [
+    {
+      "symbol": "ce, R, C, H",
+      "meaning": "aldehyde detection",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Aldehyde → red Cu₂O precipitate; ketone negative।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\ce{RCHO + 2Cu(OH)2 -> RCOOH + Cu2O + 2H2O}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ফেলিং পরীক্ষা এর সূত্রটি লেখো। (ইঙ্গিত: Aldehyde → red Cu₂O precipitate; ketone negative।)",
+      "answer": "\\ce{RCHO + 2Cu(OH)2 -> RCOOH + Cu2O + 2H2O}"
+    }
+  ],
+  "memorize": {
+    "trick": "Aldehyde → red Cu₂O precipitate; ketone negative।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "specific-rotation",
+    "tollens-test",
+    "polymerization"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "specific-conductivity",
+  "chapter": "electrochemistry",
+  "title": "Specific & Molar Conductivity",
+  "titleBn": "আপেক্ষিক ও মোলার পরিবাহিতা",
+  "summary": "κ এবং Λ_m",
+  "latex": "\\kappa=\\frac{1}{\\rho},\\quad\\Lambda_m=\\frac{\\kappa\\times1000}{C},\\quad G=\\kappa\\frac{A}{l}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "kappa, rho, Lambda, m",
+      "meaning": "κ এবং Λ_m",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\kappa=\\frac{1}{\\rho},\\quad\\Lambda_m=\\frac{\\kappa\\times1000}{C},\\quad G=\\kappa\\frac{A}{l}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আপেক্ষিক ও মোলার পরিবাহিতা এর সূত্রটি লেখো। (ইঙ্গিত: Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।)",
+      "answer": "\\kappa=\\frac{1}{\\rho},\\quad\\Lambda_m=\\frac{\\kappa\\times1000}{C},\\quad G=\\kappa\\frac{A}{l}"
+    }
+  ],
+  "memorize": {
+    "trick": "Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "conductance-kohlrausch"
+  ]
+}

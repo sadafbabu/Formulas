@@ -1,0 +1,74 @@
+{
+  "id": "benzene-reactions",
+  "chapter": "organic-chem",
+  "title": "Benzene Electrophilic Substitution",
+  "titleBn": "বেনজিনের ইলেকট্রোফিলিক প্রতিস্থাপন বিক্রিয়া",
+  "summary": "Benzene-এর nitration, halogenation, sulfonation ও Friedel–Crafts reaction-এর reagent map।",
+  "latex": "\\ce{C6H6 ->[HNO3/H2SO4] C6H5NO2 ->[1.\\ Sn/HCl][2.\\ NaOH] C6H5NH2};\\quad \\ce{C6H6 ->[RCl/AlCl3] C6H5R}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "organic-reactions",
+    "functional-groups",
+    "directing-effects"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\ce{NO2+}",
+      "meaning": "nitronium electrophile",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\ce{AlCl3}",
+      "meaning": "Lewis acid catalyst",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Aromaticity রক্ষার জন্য benzene addition নয়, electrophilic substitution করে।",
+    "steps": [
+      {
+        "title": "nitration",
+        "latex": "\\ce{HNO3+H2SO4 -> NO2+ + HSO4- + H2O};\\quad \\ce{C6H6+NO2+->C6H5NO2+H+}",
+        "note": "H₂SO₄ শক্তিশালী acid হয়ে electrophile NO₂⁺ তৈরি করে।"
+      },
+      {
+        "title": "halogenation",
+        "latex": "\\ce{C6H6 + Br2 ->[FeBr3] C6H5Br + HBr}",
+        "note": "FeBr₃/FeCl₃ Lewis acid catalyst।"
+      },
+      {
+        "title": "Friedel–Crafts",
+        "latex": "\\ce{C6H6 ->[RCl/AlCl3] C6H5R};\\quad \\ce{C6H6 ->[RCOCl/AlCl3] C6H5COR}",
+        "note": "Alkylation-এ rearrangement হতে পারে; acylation-এ হয় না।"
+      }
+    ],
+    "assumptions": [
+      "Benzene ring aromatic ও catalyst শুকনো।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Eng Admission",
+      "question": "Nitrobenzene থেকে aniline তৈরির reagent কী?",
+      "answer": "\\ce{Sn/HCl}\\ \\text{বা}\\ \\ce{Fe/HCl};\\ \\text{পরে base দিয়ে free amine।}"
+    }
+  ],
+  "memorize": {
+    "trick": "Benzene-এর চার reagent map: nitration HNO₃/H₂SO₄; halogenation X₂/FeX₃; alkylation RCl/AlCl₃; acylation RCOCl/AlCl₃।",
+    "steps": [
+      "Benzene addition এড়িয়ে substitution করে—aromaticity বাঁচাতে।",
+      "NO₂⁺ nitration-এর electrophile।"
+    ]
+  }
+}

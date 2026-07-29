@@ -1,0 +1,86 @@
+{
+  "id": "interference-conditions",
+  "chapter": "wave-optics",
+  "title": "Conditions of Interference",
+  "titleBn": "ব্যতিচারের শর্ত ও তীব্রতা বিন্যাস",
+  "summary": "গঠনমূলক ও ধ্বংসাত্মক ব্যতিচারের শর্ত এবং তীব্রতার সর্বোচ্চ-সর্বনিম্ন মান।",
+  "latex": "\\Delta x = n\\lambda\\ (\\text{উজ্জ্বল}), \\quad (2n-1)\\tfrac{\\lambda}{2}\\ (\\text{অনুজ্জ্বল}), \\quad \\frac{I_{\\max}}{I_{\\min}} = \\frac{(\\sqrt{I_1}+\\sqrt{I_2})^2}{(\\sqrt{I_1}-\\sqrt{I_2})^2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "youngs-double-slit",
+    "optical-path-phase",
+    "newtons-rings"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\Delta x",
+      "meaning": "পথ পার্থক্য",
+      "unit": "m"
+    },
+    {
+      "symbol": "I",
+      "meaning": "তীব্রতা",
+      "unit": "W/m²"
+    },
+    {
+      "symbol": "a",
+      "meaning": "বিস্তার",
+      "unit": "m"
+    },
+    {
+      "symbol": "n",
+      "meaning": "ক্রম",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "দুই তরঙ্গের উপরিপাতনে ফলাফল তীব্রতা দশা পার্থক্যের উপর নির্ভর করে।",
+    "steps": [
+      {
+        "title": "তীব্রতা",
+        "latex": "I = I_1 + I_2 + 2\\sqrt{I_1I_2}\\cos\\phi",
+        "note": "φ = 0 হলে সর্বোচ্চ, φ = π হলে সর্বনিম্ন।"
+      },
+      {
+        "title": "গঠনমূলক ও ধ্বংসাত্মক",
+        "latex": "\\Delta x = n\\lambda \\Rightarrow \\text{উজ্জ্বল}, \\quad \\Delta x = (2n-1)\\tfrac{\\lambda}{2} \\Rightarrow \\text{অনুজ্জ্বল}",
+        "note": "তীব্রতা বিস্তারের বর্গের সমানুপাতী: I ∝ a²।"
+      },
+      {
+        "title": "আবশ্যক শর্ত",
+        "latex": "\\text{একই কম্পাঙ্ক, স্থির দশা সম্পর্ক (coherent)}",
+        "note": "অসংগত উৎস হলে ডোরা দেখা যায় না — শক্তি রক্ষা হয়, শুধু পুনর্বিন্যাস হয়।"
+      }
+    ],
+    "assumptions": [
+      "দুই উৎস সংগত (coherent)।",
+      "বিস্তার তুলনীয় হলে ডোরার বৈসাদৃশ্য ভালো হয়।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission",
+      "question": "দুই সংগত তরঙ্গের বিস্তারের অনুপাত ৩:১ হলে I_max/I_min কত?",
+      "answer": "\\frac{I_{\\max}}{I_{\\min}} = \\frac{(3+1)^2}{(3-1)^2} = \\frac{16}{4} = 4:1"
+    }
+  ],
+  "memorize": {
+    "trick": "উজ্জ্বলে পূর্ণ সংখ্যক তরঙ্গদৈর্ঘ্য (nλ), অনুজ্জ্বলে অর্ধ-বিজোড় গুণিতক ((2n−1)λ/2)। আর দশায় ভাবলে: উজ্জ্বলে 2nπ, অনুজ্জ্বলে বিজোড় π।",
+    "steps": [
+      "I ∝ a² — তীব্রতা বিস্তারের বর্গের সমানুপাতী।",
+      "I_max/I_min = (a₁+a₂)²/(a₁−a₂)² — বিস্তার সমান হলে I_min = 0, ডোরা সবচেয়ে স্পষ্ট।",
+      "ব্যতিচারে শক্তি নষ্ট হয় না, কেবল স্থান বদলায়।"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "stokes-law",
+  "chapter": "properties-of-matter",
+  "title": "Stokes' Law",
+  "titleBn": "স্টোকসের সূত্র",
+  "summary": "সান্দ্র মাধ্যমে গোলকের প্রতিকর্ষ",
+  "latex": "F=6\\pi\\eta rv,\\quad v_t=\\frac{2r^2(\\rho-\\sigma)g}{9\\eta}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "F, pi, eta, r",
+      "meaning": "সান্দ্র মাধ্যমে গোলকের প্রতিকর্ষ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সান্দ্র মাধ্যমে গোলকের প্রতিকর্ষ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "F=6\\pi\\eta rv,\\quad v_t=\\frac{2r^2(\\rho-\\sigma)g}{9\\eta}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "স্টোকসের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: F=6πηrv; টার্মিনাল v_t ∝ r²।)",
+      "answer": "F=6\\pi\\eta rv,\\quad v_t=\\frac{2r^2(\\rho-\\sigma)g}{9\\eta}"
+    }
+  ],
+  "memorize": {
+    "trick": "F=6πηrv; টার্মিনাল v_t ∝ r²।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "bulk-shear-modulus",
+    "poiseuille-law",
+    "youngs-modulus"
+  ]
+}

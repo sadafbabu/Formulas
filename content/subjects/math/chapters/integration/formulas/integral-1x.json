@@ -1,0 +1,53 @@
+{
+  "id": "integral-1x",
+  "chapter": "integration",
+  "title": "∫ dx/x",
+  "titleBn": "১/x এর যোগজ",
+  "summary": "ln|x|",
+  "latex": "\\int\\frac{1}{x}\\,dx=\\ln|x|+C",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "int, x, d, C",
+      "meaning": "ln|x|",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ln|x| — n=−1 ব্যতিক্রম → ln|x|।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\int\\frac{1}{x}\\,dx=\\ln|x|+C",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "১/x এর যোগজ এর সূত্রটি লেখো। (ইঙ্গিত: n=−1 ব্যতিক্রম → ln|x|।)",
+      "answer": "\\int\\frac{1}{x}\\,dx=\\ln|x|+C"
+    }
+  ],
+  "memorize": {
+    "trick": "n=−1 ব্যতিক্রম → ln|x|।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "integral-xn",
+    "integral-ex",
+    "integral-trig-basic"
+  ]
+}

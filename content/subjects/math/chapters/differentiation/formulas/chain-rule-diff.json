@@ -1,0 +1,54 @@
+{
+  "id": "chain-rule-diff",
+  "chapter": "differentiation",
+  "title": "Chain Rule",
+  "titleBn": "শৃঙ্খল নিয়ম",
+  "summary": "dy/dx=(dy/du)(du/dx)",
+  "latex": "\\frac{dy}{dx}=\\frac{dy}{du}\\cdot\\frac{du}{dx}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "d, y, x, u",
+      "meaning": "dy/dx=(dy/du)(du/dx)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "বাইরের অন্তরক × ভিতরের অন্তরক।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{dy}{dx}=\\frac{dy}{du}\\cdot\\frac{du}{dx}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "শৃঙ্খল নিয়ম এর সূত্রটি লেখো। (ইঙ্গিত: বাইরের অন্তরক × ভিতরের অন্তরক।)",
+      "answer": "\\frac{dy}{dx}=\\frac{dy}{du}\\cdot\\frac{du}{dx}"
+    }
+  ],
+  "memorize": {
+    "trick": "বাইরের অন্তরক × ভিতরের অন্তরক।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "differentiation-chain-rule",
+    "derivative-exp-log",
+    "product-rule-diff",
+    "derivative-trig"
+  ]
+}

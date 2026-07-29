@@ -4,33 +4,69 @@
   "titleBn": "চৌম্বক ভ্রামক",
   "latex": "M = N I A",
   "summary": "প্রবাহকুণ্ডলীর চৌম্বক ভ্রামক। কুণ্ডলীর পাকসংখ্যা, প্রবাহ ও ক্ষেত্রফলের গুণফল।",
-  "tags": ["hsc", "eng-admission", "medical", "2-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "2-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 2,
-  "subjects": ["physics"],
-  "related": ["torque-loop", "loop-center"],
+  "order": 130,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "torque-loop",
+    "loop-center"
+  ],
   "symbols": [
-    { "symbol": "M", "meaning": "চৌম্বক দ্বিমেৰু ভ্রামক", "unit": "A·m² বা J/T" },
-    { "symbol": "N", "meaning": "কুণ্ডলীর পাকসংখ্যা", "unit": "মাত্রাচ্ছন্ন" },
-    { "symbol": "I", "meaning": "বিদ্যুৎপ্রবাহ", "unit": "A" },
-    { "symbol": "A", "meaning": "কুণ্ডলীর সমতলের ক্ষেত্রফল", "unit": "m²" }
+    {
+      "symbol": "M",
+      "meaning": "চৌম্বক দ্বিমেরু ভ্রামক",
+      "unit": "A·m² বা J/T"
+    },
+    {
+      "symbol": "N",
+      "meaning": "কুণ্ডলীর পাকসংখ্যা",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "I",
+      "meaning": "বিদ্যুৎপ্রবাহ",
+      "unit": "A"
+    },
+    {
+      "symbol": "A",
+      "meaning": "কুণ্ডলীর সমতলের ক্ষেত্রফল",
+      "unit": "m²"
+    }
   ],
   "derivation": {
-    "lead": "কুণ্ডলীর চৌম্বক দ্বিমেৰু সমতা:",
+    "lead": "কুণ্ডলীর চৌম্বক দ্বিমেরু সমতা:",
     "steps": [
       {
         "title": "ভেক্টর সংজ্ঞায়ন",
         "latex": "\\vec{M} = N I \\vec{A}",
-        "note": "ক্ষেত্রফল ভেক্টর $\\vec{A}$-এর দিক ডানহাতের আঙুল ঘুরিয়ে কুণ্ডলীর লম্ব বরাবর নির্ণয় করা হয়।"
+        "note": "ক্ষেত্রফল ভেক্টর \\vec{A}-এর দিক ডানহাতের আঙুল ঘুরিয়ে কুণ্ডলীর লম্ব বরাবর নির্ণয় করা হয়।"
       }
     ],
-    "assumptions": ["কুণ্ডলীটি সমতল।"]
+    "assumptions": [
+      "কুণ্ডলীটি সমতল।"
+    ]
   },
   "questions": [
     {
       "examType": "BUET / Medical (Hard)",
-      "question": "২০০ পাকের ও ৫ cm ব্যাসার্ধের একটি বৃত্তাকার কুণ্ডলীতে ৩ A প্রবাহ দিলে এর চৌম্বক দ্বিমেৰু ভ্রামক কত?",
+      "question": "২০০ পাকের ও ৫ cm ব্যাসার্ধের একটি বৃত্তাকার কুণ্ডলীতে ৩ A প্রবাহ দিলে এর চৌম্বক দ্বিমেরু ভ্রামক কত?",
       "answer": "M = 200 \\times 3 \\times (\\pi \\times 0.05^2) = 600 \\times 0.007854 = 4.712 \\text{ A}\\cdot\\text{m}^2"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "M = NIA — 'নিয়া' (NIA) মনে রাখুন: N পাক, I প্রবাহ, A ক্ষেত্রফল।",
+    "steps": [
+      "একক: A·m²। দিক ডান হাতের নিয়মে তলের লম্ব।",
+      "টর্ক τ = MB sinθ ও শক্তি U = −MB cosθ — দুটোতেই এই M বসে।"
+    ]
+  }
 }

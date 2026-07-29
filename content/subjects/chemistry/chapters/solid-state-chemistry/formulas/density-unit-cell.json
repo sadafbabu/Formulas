@@ -1,0 +1,53 @@
+{
+  "id": "density-unit-cell",
+  "chapter": "solid-state-chemistry",
+  "title": "Density from Unit Cell",
+  "titleBn": "একক কোষ থেকে ঘনত্ব",
+  "summary": "d=ZM/Na³",
+  "latex": "d=\\frac{ZM}{N_A a^3}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "d, Z, M, N",
+      "meaning": "d=ZM/Na³",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Z=atoms/cell, M=molar mass, a=edge length।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "d=\\frac{ZM}{N_A a^3}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "একক কোষ থেকে ঘনত্ব এর সূত্রটি লেখো। (ইঙ্গিত: Z=atoms/cell, M=molar mass, a=edge length।)",
+      "answer": "d=\\frac{ZM}{N_A a^3}"
+    }
+  ],
+  "memorize": {
+    "trick": "Z=atoms/cell, M=molar mass, a=edge length।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "packing-efficiency",
+    "bragg-equation",
+    "unit-cell-atoms"
+  ]
+}

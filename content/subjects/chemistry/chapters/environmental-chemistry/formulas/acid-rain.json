@@ -1,0 +1,54 @@
+{
+  "id": "acid-rain",
+  "chapter": "environmental-chemistry",
+  "title": "Acid Rain",
+  "titleBn": "অম্ল বৃষ্টি",
+  "summary": "pH < 5.6",
+  "latex": "\\ce{SO2 + H2O -> H2SO3};\\quad \\ce{NO2 + H2O -> HNO3}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "ce, S, O, H",
+      "meaning": "pH < 5.6",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "SO₂/NO₂ → অম্ল; pH ৫.৬-এর নিচে = অম্ল বৃষ্টি।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\ce{SO2 + H2O -> H2SO3};\\quad \\ce{NO2 + H2O -> HNO3}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অম্ল বৃষ্টি এর সূত্রটি লেখো। (ইঙ্গিত: SO₂/NO₂ → অম্ল; pH ৫.৬-এর নিচে = অম্ল বৃষ্টি।)",
+      "answer": "\\ce{SO2 + H2O -> H2SO3};\\quad \\ce{NO2 + H2O -> HNO3}"
+    }
+  ],
+  "memorize": {
+    "trick": "SO₂/NO₂ → অম্ল; pH ৫.৬-এর নিচে = অম্ল বৃষ্টি।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "ozone-depletion",
+    "bod-cod",
+    "greenhouse-gases"
+  ]
+}

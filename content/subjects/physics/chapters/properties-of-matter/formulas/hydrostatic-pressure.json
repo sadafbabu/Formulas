@@ -1,0 +1,53 @@
+{
+  "id": "hydrostatic-pressure",
+  "chapter": "properties-of-matter",
+  "title": "Hydrostatic Pressure",
+  "titleBn": "স্থিতিস্থাপক চাপ",
+  "summary": "P=hρg",
+  "latex": "P=h\\rho g",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "P, h, rho, g",
+      "meaning": "P=hρg",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "P = hρg; depth increases → pressure increases।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P=h\\rho g",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "স্থিতিস্থাপক চাপ এর সূত্রটি লেখো। (ইঙ্গিত: P = hρg; depth increases → pressure increases।)",
+      "answer": "P=h\\rho g"
+    }
+  ],
+  "memorize": {
+    "trick": "P = hρg; depth increases → pressure increases।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "continuity-equation",
+    "pascals-law",
+    "bernoulli-equation"
+  ]
+}

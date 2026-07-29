@@ -1,0 +1,54 @@
+{
+  "id": "period-frequency-circular",
+  "chapter": "circular-motion",
+  "title": "Period & Frequency",
+  "titleBn": "পর্যায়কাল ও কম্পাঙ্ক",
+  "summary": "T=2π/ω",
+  "latex": "T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "T, pi, omega, f",
+      "meaning": "T=2π/ω",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "T=2π/ω — ω = 2πf; T = 1/f।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পর্যায়কাল ও কম্পাঙ্ক এর সূত্রটি লেখো। (ইঙ্গিত: ω = 2πf; T = 1/f।)",
+      "answer": "T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f"
+    }
+  ],
+  "memorize": {
+    "trick": "ω = 2πf; T = 1/f।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "centripetal-acceleration",
+    "banking-of-road-ideal",
+    "angular-linear-relation"
+  ]
+}

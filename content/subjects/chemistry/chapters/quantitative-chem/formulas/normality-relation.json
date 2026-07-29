@@ -1,0 +1,54 @@
+{
+  "id": "normality-relation",
+  "chapter": "quantitative-chem",
+  "title": "Normality",
+  "titleBn": "নরমালিটি",
+  "summary": "N=M×n-factor",
+  "latex": "N=M\\times n_{\\text{factor}},\\quad N_1V_1=N_2V_2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "N, M, n, factor",
+      "meaning": "N=M×n-factor",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "N=M\\times n_{\\text{factor}},\\quad N_1V_1=N_2V_2",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "নরমালিটি এর সূত্রটি লেখো। (ইঙ্গিত: অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।)",
+      "answer": "N=M\\times n_{\\text{factor}},\\quad N_1V_1=N_2V_2"
+    }
+  ],
+  "memorize": {
+    "trick": "অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "molarity-molality",
+    "percentage-composition",
+    "mole-concept-basic"
+  ]
+}

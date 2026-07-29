@@ -1,0 +1,74 @@
+{
+  "title": "Optical Path & Phase Difference",
+  "titleBn": "আলোকীয় পথ ও দশা পার্থক্য",
+  "summary": "আলোকীয় পথ দৈর্ঘ্য ও দশা পার্থক্য সম্পর্ক",
+  "latex": "\\mathrm{OPL}=\\mu x,\\quad \\Delta\\phi=\\frac{2\\pi}{\\lambda_0}\\Delta(\\mathrm{OPL})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "\\Delta",
+      "meaning": "দুই optical path length-এর পার্থক্য",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\mu",
+      "meaning": "মাধ্যমের প্রতিসরাঙ্ক",
+      "unit": "এককহীন"
+    },
+    {
+      "symbol": "x",
+      "meaning": "জ্যামিতিক পথ",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\Delta\\phi",
+      "meaning": "দশা পার্থক্য",
+      "unit": "rad"
+    }
+  ],
+  "derivation": {
+    "lead": "আলোকীয় পথ = প্রতিসরাঙ্ক × জ্যামিতিক পথ।",
+    "steps": [
+      {
+        "title": "দশা পার্থক্য",
+        "latex": "\\Delta\\phi = \\frac{2\\pi}{\\lambda}\\mu x",
+        "note": "ব্যাতিচারে দশা পার্থক্য থেকে ডোরা তৈরি"
+      }
+    ],
+    "assumptions": [
+      "একই তরঙ্গদৈর্ঘ্য"
+    ]
+  },
+  "id": "optical-path-phase",
+  "chapter": "wave-optics",
+  "questions": [
+    {
+      "examType": "HSC / Eng",
+      "question": "অাপটিক্যাল পাথ ও দশা পার্থক্যের সম্পর্ক কী?",
+      "answer": "\\delta=\\frac{2\\pi}{\\lambda}\\Delta"
+    }
+  ],
+  "memorize": {
+    "trick": "আলোকীয় পথ = μ × প্রকৃত পথ। আর দশা পার্থক্য = (2π/λ) × পথ পার্থক্য — 'এক তরঙ্গদৈর্ঘ্য পথ = ২π দশা'।",
+    "steps": [
+      "Δ = μx — ঘন মাধ্যমে আলো যেন বেশি পথ পেরিয়েছে।",
+      "Δφ = (2π/λ)·Δ — পথ থেকে দশা বের করার সেতু।",
+      "পথ পার্থক্য λ/2 হলে দশা পার্থক্য π, তাই ধ্বংসাত্মক ব্যতিচার।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "diffraction-grating",
+    "polarization-malus",
+    "single-slit-diffraction"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "amplifier-gain",
+  "chapter": "semiconductor",
+  "title": "Amplifier Gain & Feedback",
+  "titleBn": "ট্রানজিস্টর বিবর্ধক, লাভ ও ফিডব্যাক",
+  "summary": "কমন-ইমিটার বিবর্ধকের ভোল্টেজ ও ক্ষমতা লাভ, ডেসিবেল মান এবং দোলক হওয়ার শর্ত।",
+  "latex": "A_v=-\\beta\\frac{R_C}{R_{in}},\\quad G_{v,\\mathrm{dB}}=20\\log_{10}|A_v|,\\quad G_{p,\\mathrm{dB}}=10\\log_{10}A_p",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "transistor-alpha-beta",
+    "logic-gates",
+    "lc-lcr-circuit"
+  ],
+  "symbols": [
+    {
+      "symbol": "A_v",
+      "meaning": "ভোল্টেজ লাভ",
+      "unit": "—"
+    },
+    {
+      "symbol": "A_p",
+      "meaning": "ক্ষমতা লাভ",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\beta",
+      "meaning": "প্রবাহ লাভ",
+      "unit": "—"
+    },
+    {
+      "symbol": "R_C",
+      "meaning": "কালেক্টর রোধ",
+      "unit": "Ω"
+    }
+  ],
+  "derivation": {
+    "lead": "ক্ষুদ্র বেস প্রবাহ বড় কালেক্টর প্রবাহ নিয়ন্ত্রণ করে, ফলে সংকেত বিবর্ধিত হয়।",
+    "steps": [
+      {
+        "title": "ভোল্টেজ লাভ",
+        "latex": "A_v = \\frac{\\Delta V_{out}}{\\Delta V_{in}} = -\\beta\\frac{R_C}{R_{in}}",
+        "note": "ঋণাত্মক চিহ্ন মানে কমন-ইমিটারে আউটপুট ইনপুটের ১৮০° বিপরীত দশায়।"
+      },
+      {
+        "title": "ডেসিবেল",
+        "latex": "G_{v,\\mathrm{dB}}=20\\log_{10}|A_v|,\\quad G_{p,\\mathrm{dB}}=10\\log_{10}A_p",
+        "note": "দুই dB expression সমান বলা যায় কেবল input/output reference impedance সমান হলে।"
+      },
+      {
+        "title": "দোলকের শর্ত",
+        "latex": "A\\beta_{fb} = 1 \\text{ ও দশা } 360^\\circ",
+        "note": "ধনাত্মক ফিডব্যাকে দোলক (বারখাউজেন শর্ত); ঋণাত্মক ফিডব্যাকে স্থিতিশীল বিবর্ধক।"
+      }
+    ],
+    "assumptions": [
+      "ক্ষুদ্র সংকেত (রৈখিক) অঞ্চলে কাজ করছে।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission",
+      "question": "β = 100, R_C = 2 kΩ ও R_in = 1 kΩ হলে ভোল্টেজ লাভ ও ডেসিবেল মান কত?",
+      "answer": "A_v = -100 \\times \\frac{2}{1} = -200, \\quad G_{dB} = 20\\log_{10}200 \\approx 46\\ \\text{dB}"
+    }
+  ],
+  "memorize": {
+    "trick": "কমন-ইমিটারে আউটপুট সর্বদা ১৮০° উল্টো (তাই ঋণাত্মক লাভ)। ডেসিবেলে ভোল্টেজের জন্য ২০log, ক্ষমতার জন্য ১০log — কারণ ক্ষমতা ভোল্টেজের বর্গের সমানুপাতী।",
+    "steps": [
+      "তিন সংযোগের তুলনা: CE-তে সর্বোচ্চ ক্ষমতা লাভ, CB-তে ভোল্টেজ লাভ, CC-তে (emitter follower) কেবল প্রবাহ লাভ।",
+      "ঋণাত্মক ফিডব্যাক লাভ কমায় কিন্তু স্থিতিশীলতা ও ব্যান্ডউইথ বাড়ায়।",
+      "ধনাত্মক ফিডব্যাকে Aβ = 1 হলে দোলক তৈরি হয়।"
+    ]
+  }
+}

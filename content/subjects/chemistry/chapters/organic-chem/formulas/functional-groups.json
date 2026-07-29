@@ -1,0 +1,80 @@
+{
+  "id": "functional-groups",
+  "chapter": "organic-chem",
+  "title": "Organic Functional Groups",
+  "titleBn": "জৈব কার্যকরী গোষ্ঠীসমূহ",
+  "summary": "প্রধান কার্যকরী গোষ্ঠী, তাদের প্রতীক ও শ্রেণী নির্ণয়",
+  "latex": "\\ce{-OH} \\ (\\text{অ্যালকোহল}), \\quad \\ce{-CHO} \\ (\\text{অ্যালডিহাইড}), \\quad \\ce{>C=O} \\ (\\text{কিটোন}), \\quad \\ce{-COOH} \\ (\\text{কার্বক্সিলিক অম্ল})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 40,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "alcohol-oxidation",
+    "grignard-reaction",
+    "organic-reactions"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\ce{-OH}",
+      "meaning": "হাইড্রক্সিল গোষ্ঠী (অ্যালকোহল)",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\ce{-CHO}",
+      "meaning": "অ্যালডিহাইড গোষ্ঠী",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\ce{>C=O}",
+      "meaning": "কার্বোনাইল গোষ্ঠী (কিটোন)",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\ce{-COOH}",
+      "meaning": "কার্বক্সিল গোষ্ঠী (কার্বক্সিলিক অম্ল)",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\ce{-NH2}",
+      "meaning": "অ্যামিনো গোষ্ঠী (অ্যামিন)",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "কার্যকরী গোষ্ঠী অণুর রাসায়নিক ধর্ম নির্ধারণ করে — একই গোষ্ঠী থাকলে সদৃশ বিক্রিয়া।",
+    "steps": [
+      {
+        "title": "প্রধান গোষ্ঠী সারণি",
+        "latex": "\\ce{-X} \\ (\\text{হ্যালাইড}), \\quad \\ce{-O-} \\ (\\text{ইথার}), \\quad \\ce{-NO2} \\ (\\text{নাইট্রো}), \\quad \\ce{-CN} \\ (\\text{নাইট্রাইল})",
+        "note": "IUPAC নামকরণে গোষ্ঠী অনুসারে প্রত্যয় নির্ধারিত (-ol, -al, -one, -oic acid)"
+      }
+    ],
+    "assumptions": [
+      "প্রধান শৃঙ্খল নির্বাচন গোষ্ঠী ধারণকারী দীর্ঘতম শৃঙ্খল"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "\\ce{CH3CH2COOH} যৌগের IUPAC নাম ও কার্যকরী গোষ্ঠী কী?",
+      "answer": "\\ce{-COOH} \\text{কা}\\text{র্}\\text{বক}\\text{্স}\\text{িল}\\text{িক} \\text{অম}\\text{্ল} \\text{গো}\\text{ষ্}\\text{ঠী}, \\text{৩ ক}\\text{ার}\\text{্ব}\\text{ন শ}\\text{ৃঙ}\\text{্খ}\\text{ল → প}\\text{্র}\\text{োপ}\\text{ান}\\text{য়}\\text{িক} \\text{অম}\\text{্ল} (propanoic acid)"
+    }
+  ],
+  "memorize": {
+    "trick": "অ্যালকোহল -OH, অ্যালডিহাইড -CHO, কিটোন >C=O, কার্বক্সিলিক অম্ল -COOH, অ্যামিন -NH₂।",
+    "steps": [
+      "IUPAC প্রত্যয়: -ol (অ্যালকোহল), -al (অ্যালডিহাইড), -one (কিটোন), -oic acid (কার্বক্সিলিক অম্ল)",
+      "প্রধান শৃঙ্খল = গোষ্ঠী ধারণকারী দীর্ঘতম শৃঙ্খল",
+      "নম্বর দান গোষ্ঠী থেকে শুরু (নিম্নতম লোকেন্ট)"
+    ]
+  }
+}

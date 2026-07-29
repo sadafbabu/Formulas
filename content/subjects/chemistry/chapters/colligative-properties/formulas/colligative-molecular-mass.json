@@ -1,0 +1,52 @@
+{
+  "id": "colligative-molecular-mass",
+  "chapter": "colligative-properties",
+  "title": "Molar Mass from Colligative",
+  "titleBn": "সম্মিল গুণ থেকে mol ভর",
+  "summary": "M from ΔTb or π",
+  "latex": "M=\\frac{K_b w_B}{\\Delta T_b w_A}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "M, K, b, w",
+      "meaning": "M from ΔTb or π",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ΔTb বা π দিয়ে molar mass — HSC numerical favorite।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "M=\\frac{K_b w_B}{\\Delta T_b w_A}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সম্মিল গুণ থেকে mol ভর এর সূত্রটি লেখো। (ইঙ্গিত: ΔTb বা π দিয়ে molar mass — HSC numerical favorite।)",
+      "answer": "M=\\frac{K_b w_B}{\\Delta T_b w_A}"
+    }
+  ],
+  "memorize": {
+    "trick": "ΔTb বা π দিয়ে molar mass — HSC numerical favorite।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "raoult-law",
+    "vant-hoff-factor"
+  ]
+}

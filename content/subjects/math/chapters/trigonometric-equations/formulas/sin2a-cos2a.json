@@ -1,0 +1,53 @@
+{
+  "id": "sin2a-cos2a",
+  "chapter": "trigonometric-equations",
+  "title": "Double Angle Formulas",
+  "titleBn": "দ্বিগুণ কোণ সূত্র",
+  "summary": "sin2A, cos2A",
+  "latex": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 180,
+  "symbols": [
+    {
+      "symbol": "A",
+      "meaning": "sin2A, cos2A",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "দ্বিগুণ কোণ সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।)",
+      "answer": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A"
+    }
+  ],
+  "memorize": {
+    "trick": "cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "general-solution-tan",
+    "tan2a-formula",
+    "general-solution-cos"
+  ]
+}

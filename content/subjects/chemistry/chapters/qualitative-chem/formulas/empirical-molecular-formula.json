@@ -1,0 +1,54 @@
+{
+  "id": "empirical-molecular-formula",
+  "chapter": "qualitative-chem",
+  "title": "Empirical & Molecular Formula",
+  "titleBn": "আনুভবিক ও আণবিক সংকেত",
+  "summary": "EF থেকে MF নির্ণয়",
+  "latex": "\\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "MF, EF, n, M",
+      "meaning": "EF থেকে MF নির্ণয়",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "n = আণবিক ভর ÷ আনুভবিক ভর।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আনুভবিক ও আণবিক সংকেত এর সূত্রটি লেখো। (ইঙ্গিত: n = আণবিক ভর ÷ আনুভবিক ভর।)",
+      "answer": "\\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}"
+    }
+  ],
+  "memorize": {
+    "trick": "n = আণবিক ভর ÷ আনুভবিক ভর।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "mole-avogadro",
+    "equivalent-normality",
+    "qualitative-ion-tests"
+  ]
+}

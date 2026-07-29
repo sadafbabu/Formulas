@@ -1,0 +1,73 @@
+{
+  "id": "integration-substitution",
+  "chapter": "calculus",
+  "title": "Substitution & Trigonometric Integrals",
+  "titleBn": "প্রতিস্থাপন পদ্ধতি ও ত্রিকোণমিতিক যোগজ",
+  "summary": "u-substitution, rationalized trigonometric substitution ও standard reduction patterns।",
+  "latex": "\\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du,\\quad u=g(x)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "standard-integrals",
+    "integration-by-parts",
+    "differentiation-chain-rule"
+  ],
+  "symbols": [
+    {
+      "symbol": "u",
+      "meaning": "নতুন চলক",
+      "unit": "—"
+    },
+    {
+      "symbol": "du",
+      "meaning": "g′(x)dx",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Substitution হলো chain rule-এর উল্টো; ভেতরের function ও তার derivative একসাথে দেখলেই u নিন।",
+    "steps": [
+      {
+        "title": "log pattern",
+        "latex": "\\int\\frac{f'(x)}{f(x)}dx=\\ln|f(x)|+C",
+        "note": "Numerator denominator-এর derivative হলে সরাসরি ln।"
+      },
+      {
+        "title": "trig substitution",
+        "latex": "\\sqrt{a^2-x^2}:x=a\\sin\\theta;\\quad\\sqrt{a^2+x^2}:x=a\\tan\\theta;\\quad\\sqrt{x^2-a^2}:x=a\\sec\\theta",
+        "note": "Minus→sin, plus→tan, x²−a²→sec।"
+      },
+      {
+        "title": "powers of sin/cos",
+        "latex": "\\int\\sin^m x\\cos^n x\\,dx",
+        "note": "একটি odd হলে একটি factor আলাদা রেখে বাকিটা identity-তে; দুটো even হলে half-angle।"
+      }
+    ],
+    "assumptions": [
+      "Substitution-এর পরে integral পুরোপুরি নতুন চলকে প্রকাশ করতে হবে।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Eng Admission",
+      "question": "\\int\\frac{2x}{1+x^2}\\,dx",
+      "answer": "u=1+x^2,\\ du=2x\\,dx\\Rightarrow \\int\\frac{du}{u}=\\ln(1+x^2)+C"
+    }
+  ],
+  "memorize": {
+    "trick": "Numerator denominator-এর derivative দেখলেই ln। Radical substitution: a²−x²→a sinθ; a²+x²→a tanθ; x²−a²→a secθ—‘minus sin, plus tan, reverse sec’।",
+    "steps": [
+      "u নেওয়ার পরে dx-সহ সবকিছু বদলান।",
+      "Definite integral-এ u নিলে limits-ও বদলান, না হলে শেষে x-এ ফেরত আসুন।"
+    ]
+  }
+}

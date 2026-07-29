@@ -1,0 +1,52 @@
+{
+  "id": "bragg-law",
+  "chapter": "modern-physics",
+  "title": "Bragg's Law",
+  "titleBn": "ব্র্যাগের সূত্র",
+  "summary": "স্ফটিক থেকে এক্স-রে অপবর্তন",
+  "latex": "2d\\sin\\theta=n\\lambda",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "d, theta, n, lambda",
+      "meaning": "স্ফটিক থেকে এক্স-রে অপবর্তন",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "স্ফটিক থেকে এক্স-রে অপবর্তন",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "2d\\sin\\theta=n\\lambda",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ব্র্যাগের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: 2d sinθ = nλ — পথপার্থক্য দুই স্তরে।)",
+      "answer": "2d\\sin\\theta=n\\lambda"
+    }
+  ],
+  "memorize": {
+    "trick": "2d sinθ = nλ — পথপার্থক্য দুই স্তরে।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "x-ray-characteristic"
+  ]
+}

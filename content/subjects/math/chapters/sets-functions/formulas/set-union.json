@@ -1,0 +1,52 @@
+{
+  "id": "set-union",
+  "chapter": "sets-functions",
+  "title": "Set Union",
+  "titleBn": "সেটের যোগ",
+  "summary": "A∪B",
+  "latex": "A\\cup B=\\{x:x\\in A\\text{ or }x\\in B\\}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "A, cup, B, x",
+      "meaning": "A∪B",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "A\\cup B=\\{x:x\\in A\\text{ or }x\\in B\\}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সেটের যোগ এর সূত্রটি লেখো। (ইঙ্গিত: ∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।)",
+      "answer": "A\\cup B=\\{x:x\\in A\\text{ or }x\\in B\\}"
+    }
+  ],
+  "memorize": {
+    "trick": "∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "set-intersection",
+    "set-complement"
+  ]
+}

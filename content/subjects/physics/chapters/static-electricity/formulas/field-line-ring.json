@@ -1,0 +1,53 @@
+{
+  "id": "field-line-ring",
+  "chapter": "static-electricity",
+  "title": "E-field of Line & Ring",
+  "titleBn": "অসীম রেখা ও বলয়ের তড়িৎক্ষেত্র",
+  "summary": "রৈখিক চার্জ ও চার্জড রিং-এর E",
+  "latex": "E_{line}=\\frac{\\lambda}{2\\pi\\varepsilon_0 r},\\quad E_{ring}=\\frac{1}{4\\pi\\varepsilon_0}\\frac{Qx}{(R^2+x^2)^{3/2}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "E, l, i, n",
+      "meaning": "রৈখিক চার্জ ও চার্জড রিং-এর E",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "রৈখিক চার্জ ও চার্জড রিং-এর E",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "E_{line}=\\frac{\\lambda}{2\\pi\\varepsilon_0 r},\\quad E_{ring}=\\frac{1}{4\\pi\\varepsilon_0}\\frac{Qx}{(R^2+x^2)^{3/2}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অসীম রেখা ও বলয়ের তড়িৎক্ষেত্র এর সূত্রটি লেখো। (ইঙ্গিত: রেখা: 1/r; রিং অক্ষ: x/(R²+x²)^{3/2}।)",
+      "answer": "E_{line}=\\frac{\\lambda}{2\\pi\\varepsilon_0 r},\\quad E_{ring}=\\frac{1}{4\\pi\\varepsilon_0}\\frac{Qx}{(R^2+x^2)^{3/2}}"
+    }
+  ],
+  "memorize": {
+    "trick": "রেখা: 1/r; রিং অক্ষ: x/(R²+x²)^{3/2}।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "electric-field",
+    "coulombs-law"
+  ]
+}

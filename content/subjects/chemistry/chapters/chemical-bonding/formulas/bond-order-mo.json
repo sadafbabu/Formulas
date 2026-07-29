@@ -11,6 +11,7 @@
     "3-star"
   ],
   "importance": 3,
+  "order": 20,
   "symbols": [
     {
       "symbol": "N_b",
@@ -32,9 +33,33 @@
         "note": "BO বেশি হলে বন্ধন শক্ত ও স্থিতিশীল"
       }
     ],
-    "assumptions": "আণবিক অরবিটাল তত্ত্ব প্রযোজ্য"
+    "assumptions": [
+      "আণবিক অরবিটাল তত্ত্ব প্রযোজ্য"
+    ]
   },
   "id": "bond-order-mo",
   "chapter": "chemical-bonding",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC / Eng",
+      "question": "N₂ অণুর bond order কত?",
+      "answer": "\\text{Bond order} = \\frac{8-2}{2} = 3"
+    }
+  ],
+  "memorize": {
+    "trick": "বন্ধন ক্রম = (বন্ধনী − বিবন্ধনী ইলেকট্রন)/২ — 'যোগ বিয়োগ ভাগ দুই'। ক্রম শূন্য মানে অণুটি অস্তিত্বহীন (তাই He₂ নেই)।",
+    "steps": [
+      "BO = (N_b − N_a)/2।",
+      "বন্ধন ক্রম বাড়লে বন্ধন শক্তি বাড়ে ও বন্ধন দৈর্ঘ্য কমে — উল্টো সম্পর্ক।",
+      "মুখস্থ: O₂ = 2 (অনুচুম্বক), N₂ = 3 (সবচেয়ে দৃঢ়), F₂ = 1, He₂ = 0 (নেই)।"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "hybridization-shapes",
+    "dipole-moment",
+    "lewis-structure"
+  ]
 }

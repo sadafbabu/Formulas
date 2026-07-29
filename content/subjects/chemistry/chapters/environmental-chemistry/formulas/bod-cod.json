@@ -1,0 +1,54 @@
+{
+  "id": "bod-cod",
+  "chapter": "environmental-chemistry",
+  "title": "BOD & COD",
+  "titleBn": "BOD ও COD",
+  "summary": "oxygen demand",
+  "latex": "\\text{BOD}=\\text{O}_2\\text{ used by microbes (5 days)};\\quad \\text{COD}=\\text{chemical O}_2\\text{ demand}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "BOD, O, used by microbes (5 days), COD",
+      "meaning": "oxygen demand",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{BOD}=\\text{O}_2\\text{ used by microbes (5 days)};\\quad \\text{COD}=\\text{chemical O}_2\\text{ demand}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "BOD ও COD এর সূত্রটি লেখো। (ইঙ্গিত: BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।)",
+      "answer": "\\text{BOD}=\\text{O}_2\\text{ used by microbes (5 days)};\\quad \\text{COD}=\\text{chemical O}_2\\text{ demand}"
+    }
+  ],
+  "memorize": {
+    "trick": "BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "acid-rain",
+    "smog-photochemical",
+    "ozone-depletion"
+  ]
+}

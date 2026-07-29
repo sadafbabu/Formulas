@@ -1,0 +1,53 @@
+{
+  "id": "ellipse-standard",
+  "chapter": "conic-sections",
+  "title": "Standard Ellipse",
+  "titleBn": "মানক উপবৃত্ত",
+  "summary": "x²/a²+y²/b²=1",
+  "latex": "\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1\\quad(a>b)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "x, a, y, b",
+      "meaning": "x²/a²+y²/b²=1",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "a = বৃহত্তর অর্ধ-অক্ষ; c²=a²−b²; ইকসেন্ট্রিসিটি e=c/a<1।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1\\quad(a>b)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "মানক উপবৃত্ত এর সূত্রটি লেখো। (ইঙ্গিত: a = বৃহত্তর অর্ধ-অক্ষ; c²=a²−b²; ইকসেন্ট্রিসিটি e=c/a<1।)",
+      "answer": "\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1\\quad(a>b)"
+    }
+  ],
+  "memorize": {
+    "trick": "a = বৃহত্তর অর্ধ-অক্ষ; c²=a²−b²; ইকসেন্ট্রিসিটি e=c/a<1।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "parabola-tangent",
+    "ellipse-foci",
+    "parabola-parametric"
+  ]
+}

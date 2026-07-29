@@ -1,0 +1,75 @@
+{
+  "title": "Formal Charge Calculation",
+  "titleBn": "আনুষ্ঠানিক আধান নির্ণয়",
+  "summary": "Lewis কাঠামোতে পরমাণুর আনুষ্ঠানিক আধান",
+  "latex": "FC = V - (L + \\tfrac{S}{2}), \\quad \\sum FC = Q_{total}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "FC",
+      "meaning": "আনুষ্ঠানিক আধান",
+      "unit": "—"
+    },
+    {
+      "symbol": "V",
+      "meaning": "মুক্ত নিরপেক্ষ পরমাণুর যোজ্যতা ইলেকট্রন সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "L",
+      "meaning": "অবিযুক্ত ইলেকট্রন",
+      "unit": "—"
+    },
+    {
+      "symbol": "S",
+      "meaning": "বন্ধন ইলেকট্রন",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "পরমাণুর মুক্ত ইলেকট্রন ও বন্ধন ইলেকট্রন থেকে আনুষ্ঠানিক আধান।",
+    "steps": [
+      {
+        "title": "আনুষ্ঠানিক আধান",
+        "latex": "FC = V - (L + S/2)",
+        "note": "সব পরমাণুর FC যোগফল অণুর মোট আধান"
+      }
+    ],
+    "assumptions": [
+      "Lewis কাঠামো"
+    ]
+  },
+  "id": "formal-charge",
+  "chapter": "chemical-bonding",
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "Formal charge এর সূত্র কী?",
+      "answer": "FC = V - N - \\frac{B}{2}"
+    }
+  ],
+  "memorize": {
+    "trick": "FC = V − (L + S/2): 'নিজের ইলেকট্রন − (একাকী জোড় + শেয়ারের অর্ধেক)'। সব পরমাণুর FC যোগ করলে অণুর মোট আধান পাওয়া যায় — এটাই যাচাইয়ের উপায়।",
+    "steps": [
+      "V = যোজ্যতা ইলেকট্রন, L = একাকী (bonding-বহির্ভূত) ইলেকট্রন, S = শেয়ারকৃত ইলেকট্রন।",
+      "সবচেয়ে গ্রহণযোগ্য গঠনে FC-এর মান শূন্যের যত কাছাকাছি, তত ভালো।",
+      "ঋণাত্মক FC বেশি তড়িৎ-ঋণাত্মক পরমাণুতে থাকা উচিত।"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "lewis-structure",
+    "vsepr-theory",
+    "dipole-moment"
+  ]
+}

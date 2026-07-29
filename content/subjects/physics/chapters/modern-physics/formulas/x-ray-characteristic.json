@@ -1,0 +1,70 @@
+{
+  "title": "X-ray Characteristic & Cut-off",
+  "titleBn": "এক্স-রশ্মির বৈশিষ্ট্যমূলক বর্ণালি ও সীমা",
+  "summary": "এক্স-র টিউবে সর্বনিম্ন তরঙ্গদৈর্ঘ্য ও বৈশিষ্ট্যমূলক রশ্মি",
+  "latex": "\\lambda_{min} = \\frac{hc}{eV}, \\quad \\frac{1}{\\lambda} = R(Z-\\sigma)^2\\left(\\frac{1}{n_1^2}-\\frac{1}{n_2^2}\\right)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "\\lambda_{min}",
+      "meaning": "সর্বনিম্ন তরঙ্গদৈর্ঘ্য",
+      "unit": "m"
+    },
+    {
+      "symbol": "V",
+      "meaning": "টিউব বিভব",
+      "unit": "V"
+    },
+    {
+      "symbol": "Z",
+      "meaning": "লক্ষ্য উপাদানের পারমাণবিক সংখ্যা",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "ইলেকট্রনের সম্পূর্ণ গতিশক্তি একটি ফোটনে রূপান্তর হলে সর্বনিম্ন তরঙ্গদৈর্ঘ্য।",
+    "steps": [
+      {
+        "title": "Duane-Hunt সূত্র",
+        "latex": "\\lambda_{min} = \\frac{hc}{eV}",
+        "note": "Moseley সূত্র বৈশিষ্ট্যমূলক রশ্মির জন্য"
+      }
+    ],
+    "assumptions": [
+      "সম্পূর্ণ শক্তি স্থানান্তর"
+    ]
+  },
+  "id": "x-ray-characteristic",
+  "chapter": "modern-physics",
+  "questions": [
+    {
+      "examType": "Medical / HSC",
+      "question": "মোসলির সূত্রের রূপ কী?",
+      "answer": "\\sqrt{f}=a(Z-b)"
+    }
+  ],
+  "memorize": {
+    "trick": "λ_min = hc/(eV) ≈ 12400/V Å — সর্বনিম্ন তরঙ্গদৈর্ঘ্য কেবল ভোল্টেজের উপর নির্ভর করে, টার্গেট পদার্থে নয়। বৈশিষ্ট্যমূলক রেখা টার্গেটের উপর নির্ভর করে (মোজলির সূত্র)।",
+    "steps": [
+      "λ_min = hc/(eV): ভোল্টেজ বাড়লে রশ্মি বেশি ভেদক (কঠিন এক্স-রে)।",
+      "মোজলি: 1/λ = R(Z − σ)²(1/n₁² − 1/n₂²) — √f ∝ (Z − σ)।",
+      "অবিচ্ছিন্ন বর্ণালি = ব্রেমসস্ট্রালুং, রেখা বর্ণালি = বৈশিষ্ট্যমূলক।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "compton-effect",
+    "mass-defect-binding-energy",
+    "bohr-radius-hydrogen"
+  ]
+}

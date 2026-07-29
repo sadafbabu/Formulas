@@ -1,0 +1,90 @@
+{
+  "id": "stationary-waves",
+  "chapter": "periodic-motion",
+  "title": "Stationary Waves in Strings & Pipes",
+  "titleBn": "স্থির তরঙ্গ: তার ও বায়ুস্তম্ভের কম্পন",
+  "summary": "তারে ও নলে স্থির তরঙ্গের মূল সুর ও উপসুর; বদ্ধ ও মুক্ত নলের পার্থক্য।",
+  "latex": "f_n = \\frac{n}{2L}\\sqrt{\\frac{T}{\\mu}}, \\quad f_{\\text{মুক্ত নল}} = \\frac{nv}{2L}, \\quad f_{\\text{বদ্ধ নল}} = \\frac{(2n-1)v}{4L}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "wave-equation",
+    "sound-beats-doppler"
+  ],
+  "symbols": [
+    {
+      "symbol": "L",
+      "meaning": "তার বা নলের দৈর্ঘ্য",
+      "unit": "m"
+    },
+    {
+      "symbol": "T",
+      "meaning": "তারে টান",
+      "unit": "N"
+    },
+    {
+      "symbol": "\\mu",
+      "meaning": "একক দৈর্ঘ্যের ভর",
+      "unit": "kg/m"
+    },
+    {
+      "symbol": "n",
+      "meaning": "সুরের ক্রম",
+      "unit": "—"
+    },
+    {
+      "symbol": "v",
+      "meaning": "শব্দের বেগ",
+      "unit": "m/s"
+    }
+  ],
+  "derivation": {
+    "lead": "দুই প্রান্তের সীমা শর্ত (নিস্পন্দ বা সুস্পন্দ বিন্দু) থেকেই অনুমোদিত তরঙ্গদৈর্ঘ্য নির্ধারিত হয়।",
+    "steps": [
+      {
+        "title": "তারে",
+        "latex": "L = \\frac{n\\lambda}{2} \\Rightarrow f_n = \\frac{n}{2L}\\sqrt{\\frac{T}{\\mu}}",
+        "note": "দুই প্রান্তই বাঁধা, তাই দুই প্রান্তে নিস্পন্দ বিন্দু; সব উপসুর পাওয়া যায়।"
+      },
+      {
+        "title": "মুক্ত নল",
+        "latex": "f_n = \\frac{nv}{2L}, \\quad n = 1,2,3,\\ldots",
+        "note": "জোড় ও বিজোড় — সব উপসুর থাকে।"
+      },
+      {
+        "title": "বদ্ধ নল",
+        "latex": "f_n = \\frac{(2n-1)v}{4L}",
+        "note": "কেবল বিজোড় হার্মনিক; একই দৈর্ঘ্যে মূল সুর মুক্ত নলের অর্ধেক।"
+      }
+    ],
+    "assumptions": [
+      "প্রান্ত সংশোধন উপেক্ষিত।",
+      "তার সুষম ও পুরো দৈর্ঘ্যে টান সমান।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission",
+      "question": "১ m লম্বা বদ্ধ নলের মূল সুরের কম্পাঙ্ক কত? (v = 340 m/s)",
+      "answer": "f_1 = \\frac{v}{4L} = \\frac{340}{4 \\times 1} = 85\\ \\text{Hz}"
+    }
+  ],
+  "memorize": {
+    "trick": "বদ্ধ নলে ৪L, মুক্ত নলে ২L — \"বদ্ধ মানে চার, মুক্ত মানে দুই\"। আর বদ্ধ নলে কেবল বিজোড় হার্মনিক (1:3:5), মুক্ত নলে সব (1:2:3)। তাই একই দৈর্ঘ্যে বদ্ধ নলের সুর মোটা।",
+    "steps": [
+      "তারে f ∝ √T — টান চারগুণ করলে কম্পাঙ্ক দ্বিগুণ।",
+      "তারে f ∝ 1/L এবং f ∝ 1/√μ — মোটা তারে সুর মোটা।",
+      "নিস্পন্দ বিন্দুর ব্যবধান λ/2, আর সুস্পন্দ ও নিস্পন্দের ব্যবধান λ/4।"
+    ]
+  }
+}

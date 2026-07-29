@@ -1,0 +1,53 @@
+{
+  "id": "magnification-mirror-lens",
+  "chapter": "geometric-optics",
+  "title": "Lateral Magnification",
+  "titleBn": "পার্শ্বীয় বিবর্ধন",
+  "summary": "দর্পণ ও লেন্সের বিবর্ধন",
+  "latex": "m=\\frac{h'}{h}=-\\frac{v}{u},\\quad m_{lens}=\\frac{f}{f-u}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "m, h, v, u",
+      "meaning": "দর্পণ ও লেন্সের বিবর্ধন",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "m = −v/u; ঋণাত্মক m = উল্টো প্রতিবিম্ব।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "m=\\frac{h'}{h}=-\\frac{v}{u},\\quad m_{lens}=\\frac{f}{f-u}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পার্শ্বীয় বিবর্ধন এর সূত্রটি লেখো। (ইঙ্গিত: m = −v/u; ঋণাত্মক m = উল্টো প্রতিবিম্ব।)",
+      "answer": "m=\\frac{h'}{h}=-\\frac{v}{u},\\quad m_{lens}=\\frac{f}{f-u}"
+    }
+  ],
+  "memorize": {
+    "trick": "m = −v/u; ঋণাত্মক m = উল্টো প্রতিবিম্ব।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "mirror-formula",
+    "lens-makers-formula"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "mole-concept-basic",
+  "chapter": "quantitative-chem",
+  "title": "Mole Concept",
+  "titleBn": "মোল ধারণা",
+  "summary": "n=N/NA=m/M",
+  "latex": "n=\\frac{N}{N_A}=\\frac{m}{M}=\\frac{V}{22.4\\,\\mathrm{L}}\\ (\\text{STP gas})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "n, N, A, m",
+      "meaning": "n=N/NA=m/M",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "১ মোল = ৬.০২২×১০²³ কণা = M গ্রাম = STP-তে ২২.৪ L গ্যাস।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "n=\\frac{N}{N_A}=\\frac{m}{M}=\\frac{V}{22.4\\,\\mathrm{L}}\\ (\\text{STP gas})",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "মোল ধারণা এর সূত্রটি লেখো। (ইঙ্গিত: ১ মোল = ৬.০২২×১০²³ কণা = M গ্রাম = STP-তে ২২.৪ L গ্যাস।)",
+      "answer": "n=\\frac{N}{N_A}=\\frac{m}{M}=\\frac{V}{22.4\\,\\mathrm{L}}\\ (\\text{STP gas})"
+    }
+  ],
+  "memorize": {
+    "trick": "১ মোল = ৬.০২২×১০²³ কণা = M গ্রাম = STP-তে ২২.৪ L গ্যাস।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "molarity-molality",
+    "normality-relation"
+  ]
+}

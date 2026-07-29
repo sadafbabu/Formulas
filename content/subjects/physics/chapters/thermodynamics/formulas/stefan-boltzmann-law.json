@@ -1,0 +1,53 @@
+{
+  "id": "stefan-boltzmann-law",
+  "chapter": "thermodynamics",
+  "title": "Stefan-Boltzmann Law",
+  "titleBn": "স্টিফান-বোল্টজম্যান সূত্র",
+  "summary": "P=σAT⁴",
+  "latex": "P=\\sigma A T^4",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "P, sigma, A, T",
+      "meaning": "P=σAT⁴",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Radiated power ∝ T⁴; σ=5.67×10⁻⁸ W/m²K⁴।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P=\\sigma A T^4",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "স্টিফান-বোল্টজম্যান সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: Radiated power ∝ T⁴; σ=5.67×10⁻⁸ W/m²K⁴।)",
+      "answer": "P=\\sigma A T^4"
+    }
+  ],
+  "memorize": {
+    "trick": "Radiated power ∝ T⁴; σ=5.67×10⁻⁸ W/m²K⁴।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "carnot-entropy",
+    "thermal-expansion-linear",
+    "heat-conduction"
+  ]
+}

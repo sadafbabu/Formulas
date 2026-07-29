@@ -1,0 +1,52 @@
+{
+  "id": "mo-energy-order",
+  "chapter": "chemical-bonding",
+  "title": "MO Energy Order",
+  "titleBn": "আণবিক অরবিটাল শক্তি ক্রম",
+  "summary": "N₂ ও O₂ এর MO ক্রম",
+  "latex": "\\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\sigma^*2s\\,\\sigma2p\\,\\pi2p\\,\\pi^*",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "N_2, sigma, s, pi",
+      "meaning": "N₂ ও O₂ এর MO ক্রম",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "N₂-তে π আগে σ2p; O₂-তে σ2p আগে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\sigma^*2s\\,\\sigma2p\\,\\pi2p\\,\\pi^*",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আণবিক অরবিটাল শক্তি ক্রম এর সূত্রটি লেখো। (ইঙ্গিত: N₂-তে π আগে σ2p; O₂-তে σ2p আগে।)",
+      "answer": "\\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\sigma^*2s\\,\\sigma2p\\,\\pi2p\\,\\pi^*"
+    }
+  ],
+  "memorize": {
+    "trick": "N₂-তে π আগে σ2p; O₂-তে σ2p আগে।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "bond-order-mo"
+  ]
+}

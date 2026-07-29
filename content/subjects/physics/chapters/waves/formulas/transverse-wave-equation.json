@@ -1,0 +1,54 @@
+{
+  "id": "transverse-wave-equation",
+  "chapter": "waves",
+  "title": "Progressive Wave Equation",
+  "titleBn": "অগ্রগামী তরঙ্গ সমীকরণ",
+  "summary": "y=A sin(ωt−kx)",
+  "latex": "y=A\\sin(\\omega t-kx),\\quad k=\\frac{2\\pi}{\\lambda}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "y, A, omega, t",
+      "meaning": "y=A sin(ωt−kx)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ωt−kx ডানদিকে; ωt+kx বামদিকে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "y=A\\sin(\\omega t-kx),\\quad k=\\frac{2\\pi}{\\lambda}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অগ্রগামী তরঙ্গ সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: ωt−kx ডানদিকে; ωt+kx বামদিকে।)",
+      "answer": "y=A\\sin(\\omega t-kx),\\quad k=\\frac{2\\pi}{\\lambda}"
+    }
+  ],
+  "memorize": {
+    "trick": "ωt−kx ডানদিকে; ωt+kx বামদিকে।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "wave-v-f-lambda",
+    "superposition-principle-wave",
+    "wave-speed-string"
+  ]
+}

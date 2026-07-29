@@ -1,0 +1,54 @@
+{
+  "id": "equivalent-normality",
+  "chapter": "qualitative-chem",
+  "title": "Equivalent Weight & Normality",
+  "titleBn": "তুল্যাঙ্ক ও নরমালিটি",
+  "summary": "তুল্যাঙ্ক ভর এবং নরমালিটি",
+  "latex": "E=\\frac{M}{n\\text{-factor}},\\quad N=\\frac{\\text{gram-equivalent}}{V_L},\\quad N_1V_1=N_2V_2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "E, M, n, -factor",
+      "meaning": "তুল্যাঙ্ক ভর এবং নরমালিটি",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "তুল্যাঙ্ক ভর এবং নরমালিটি",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "E=\\frac{M}{n\\text{-factor}},\\quad N=\\frac{\\text{gram-equivalent}}{V_L},\\quad N_1V_1=N_2V_2",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "তুল্যাঙ্ক ও নরমালিটি এর সূত্রটি লেখো। (ইঙ্গিত: E = M/n-factor; টাইট্রেশনে N₁V₁=N₂V₂।)",
+      "answer": "E=\\frac{M}{n\\text{-factor}},\\quad N=\\frac{\\text{gram-equivalent}}{V_L},\\quad N_1V_1=N_2V_2"
+    }
+  ],
+  "memorize": {
+    "trick": "E = M/n-factor; টাইট্রেশনে N₁V₁=N₂V₂।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "empirical-molecular-formula",
+    "oxidation-number",
+    "mole-avogadro"
+  ]
+}

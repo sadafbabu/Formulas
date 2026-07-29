@@ -1,0 +1,53 @@
+{
+  "id": "lami-theorem",
+  "chapter": "math-statics",
+  "title": "Lami's Theorem",
+  "titleBn": "লামির উপপাদ্য",
+  "summary": "তিন বল সাম্য",
+  "latex": "\\frac{P}{\\sin\\alpha}=\\frac{Q}{\\sin\\beta}=\\frac{R}{\\sin\\gamma}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "P, alpha, Q, beta",
+      "meaning": "তিন বল সাম্য",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "প্রতিটি বল বিপরীত কোণের sin-এ ভাগ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{P}{\\sin\\alpha}=\\frac{Q}{\\sin\\beta}=\\frac{R}{\\sin\\gamma}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "লামির উপপাদ্য এর সূত্রটি লেখো। (ইঙ্গিত: প্রতিটি বল বিপরীত কোণের sin-এ ভাগ।)",
+      "answer": "\\frac{P}{\\sin\\alpha}=\\frac{Q}{\\sin\\beta}=\\frac{R}{\\sin\\gamma}"
+    }
+  ],
+  "memorize": {
+    "trick": "প্রতিটি বল বিপরীত কোণের sin-এ ভাগ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "triangle-of-forces",
+    "moment-of-force",
+    "equilibrium-forces"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "projectile-range",
+  "chapter": "math-dynamics",
+  "title": "Projectile Range",
+  "titleBn": "ক্ষিপ্ত বস্তুর পালা",
+  "summary": "R=u²sin2θ/g",
+  "latex": "R=\\frac{u^2\\sin 2\\theta}{g}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "R, u, theta, g",
+      "meaning": "R=u²sin2θ/g",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "45°-এ max range; R=u²sin2θ/g — HSC favorite।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "R=\\frac{u^2\\sin 2\\theta}{g}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ক্ষিপ্ত বস্তুর পালা এর সূত্রটি লেখো। (ইঙ্গিত: 45°-এ max range; R=u²sin2θ/g — HSC favorite।)",
+      "answer": "R=\\frac{u^2\\sin 2\\theta}{g}"
+    }
+  ],
+  "memorize": {
+    "trick": "45°-এ max range; R=u²sin2θ/g — HSC favorite।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "projectile-max-height",
+    "projectile-time-of-flight"
+  ]
+}

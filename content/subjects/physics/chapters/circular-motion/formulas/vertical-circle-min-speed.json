@@ -1,0 +1,54 @@
+{
+  "id": "vertical-circle-min-speed",
+  "chapter": "circular-motion",
+  "title": "Min Speed at Top",
+  "titleBn": "শীর্ষে ন্যূনতম বেগ",
+  "summary": "v=√(gr)",
+  "latex": "v_{\\text{top,min}}=\\sqrt{gr},\\quad v_{\\text{bottom,min}}=\\sqrt{5gr}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "v, top,min, sqrt, g",
+      "meaning": "v=√(gr)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "শীর্ষ √(gr); নিচে √(5gr) — শক্তি সংরক্ষণ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "v_{\\text{top,min}}=\\sqrt{gr},\\quad v_{\\text{bottom,min}}=\\sqrt{5gr}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "শীর্ষে ন্যূনতম বেগ এর সূত্রটি লেখো। (ইঙ্গিত: শীর্ষ √(gr); নিচে √(5gr) — শক্তি সংরক্ষণ।)",
+      "answer": "v_{\\text{top,min}}=\\sqrt{gr},\\quad v_{\\text{bottom,min}}=\\sqrt{5gr}"
+    }
+  ],
+  "memorize": {
+    "trick": "শীর্ষ √(gr); নিচে √(5gr) — শক্তি সংরক্ষণ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "vertical-circle-tension",
+    "conical-pendulum",
+    "banking-of-road-ideal"
+  ]
+}

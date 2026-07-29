@@ -6,11 +6,11 @@
   "tags": [
     "hsc",
     "eng-admission",
-    "medical",
     "varsity",
     "2-star"
   ],
   "importance": 2,
+  "order": 40,
   "symbols": [
     {
       "symbol": "m:n",
@@ -37,9 +37,33 @@
         "note": "বহিঃবিভাজকের জন্য m:n এর একটি ঋণাত্মক ধরা হয়"
       }
     ],
-    "assumptions": "অনুপাত ধনাত্মক"
+    "assumptions": [
+      "অনুপাত ধনাত্মক"
+    ]
   },
   "id": "section-formula",
   "chapter": "straight-lines",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "m:n অনুপাতে অভ্যন্তরীণ বিভাজন সূত্র কী?",
+      "answer": "\\left(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n}\\right)"
+    }
+  ],
+  "memorize": {
+    "trick": "অন্তর্বিভাজনে 'ক্রস' করে লিখুন: (mx₂ + nx₁)/(m+n) — m-এর সাথে x₂, n-এর সাথে x₁। মধ্যবিন্দু হলো m = n = 1-এর বিশেষ রূপ, তাই শুধু গড়।",
+    "steps": [
+      "অন্তঃস্থ বিভাজন: ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n))।",
+      "বহিঃস্থ বিভাজন: হরে বিয়োগ, (m−n) — 'বাইরে গেলে বিয়োগ'।",
+      "মধ্যবিন্দু: গড় নিন। ত্রিভুজের ভরকেন্দ্র: তিন শীর্ষের গড়।"
+    ]
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "distance-formula",
+    "equation-forms",
+    "perpendicular-distance"
+  ]
 }

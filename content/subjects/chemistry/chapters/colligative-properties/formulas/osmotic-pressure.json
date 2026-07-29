@@ -1,0 +1,53 @@
+{
+  "id": "osmotic-pressure",
+  "chapter": "colligative-properties",
+  "title": "Osmotic Pressure",
+  "titleBn": "প্রস্বেদ চাপ",
+  "summary": "π=CRT",
+  "latex": "\\pi=CRT=MRT",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "pi, C, R, T",
+      "meaning": "π=CRT",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "π = CRT — dilute solution; van't Hoff factor i multiply।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\pi=CRT=MRT",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "প্রস্বেদ চাপ এর সূত্রটি লেখো। (ইঙ্গিত: π = CRT — dilute solution; van't Hoff factor i multiply।)",
+      "answer": "\\pi=CRT=MRT"
+    }
+  ],
+  "memorize": {
+    "trick": "π = CRT — dilute solution; van't Hoff factor i multiply।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "depression-freezing-point",
+    "vant-hoff-factor",
+    "elevation-boiling-point"
+  ]
+}

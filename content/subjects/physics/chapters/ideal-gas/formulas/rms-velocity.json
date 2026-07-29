@@ -4,15 +4,42 @@
   "title": "RMS Velocity & Kinetic Energy of Gas",
   "titleBn": "গ্যাসের বর্গমূল গড় বর্গ বেগ ও গড় গতিশক্তি",
   "summary": "গ্যাস অণুর RMS বেগ এবং ১ অণু ও ১ মোলের মোট গতিশক্তি",
-  "latex": "v_{\\text{rms}} = \\sqrt{\\frac{3 R T}{M}} = \\sqrt{\\frac{3 P}{\\rho}}, \\quad E_k = \\frac{3}{2} n R T = \\frac{3}{2} k_B T",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "latex": "v_{\\mathrm{rms}}=\\sqrt{\\frac{3RT}{M}}=\\sqrt{\\frac{3P}{\\rho}},\\quad \\langle E_k\\rangle_{\\mathrm{molecule}}=\\frac32k_BT,\\quad E_{k,n\\mathrm{mol}}=\\frac32nRT",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 20,
   "symbols": [
-    { "symbol": "v_{\\text{rms}}", "meaning": "বর্গমূল গড় বর্গ বেগ", "unit": "m/s" },
-    { "symbol": "M", "meaning": "গ্যাসের আণবিক ভর", "unit": "kg/mol" },
-    { "symbol": "T", "meaning": "পরম তাপমাত্রা", "unit": "K" },
-    { "symbol": "k_B", "meaning": "বোল্টজমান ধ্রুবক (1.38 × 10⁻²³)", "unit": "J/K" },
-    { "symbol": "E_k", "meaning": "মোট গতিশক্তি", "unit": "J" }
+    {
+      "symbol": "v_{\\text{rms}}",
+      "meaning": "বর্গমূল গড় বর্গ বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "M",
+      "meaning": "গ্যাসের আণবিক ভর",
+      "unit": "kg/mol"
+    },
+    {
+      "symbol": "T",
+      "meaning": "পরম তাপমাত্রা",
+      "unit": "K"
+    },
+    {
+      "symbol": "k_B",
+      "meaning": "বোল্টজমান ধ্রুবক (1.38 × 10⁻²³)",
+      "unit": "J/K"
+    },
+    {
+      "symbol": "E_k",
+      "meaning": "মোট গতিশক্তি",
+      "unit": "J"
+    }
   ],
   "derivation": {
     "lead": "গ্যাসের চাপ P = (1/3) ρ v_rms² সূত্র হতে প্রাপ্ত।",
@@ -22,7 +49,8 @@
         "latex": "P = \\frac{1}{3} \\frac{N m}{V} v_{\\text{rms}}^2 \\implies P V = \\frac{1}{3} M v_{\\text{rms}}^2 = R T \\implies v_{\\text{rms}} = \\sqrt{\\frac{3 R T}{M}}",
         "note": "গড় বেগ c̄ = √(8RT/πM), সম্ভাব্যতম বেগ c_mp = √(2RT/M)"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -30,5 +58,21 @@
       "question": "27°C তাপমাত্রায় অক্সিজেন (O₂) অণুর RMS বেগ কত?",
       "answer": "M = 32 \\times 10^{-3}\\text{ kg/mol}, \\, T = 300\\text{ K} \\implies v_{\\text{rms}} = \\sqrt{\\frac{3 \\times 8.314 \\times 300}{32 \\times 10^{-3}}} = \\sqrt{\\frac{7482.6}{0.032}} = \\sqrt{233831.25} \\approx 483.56\\text{ m/s}"
     }
+  ],
+  "memorize": {
+    "trick": "v_rms = √(3RT/M) = √(3P/ρ) — 'তিন' মনে রাখুন। তিন বেগের ক্রম: v_p < v_avg < v_rms (√2 < √2.55 < √3)।",
+    "steps": [
+      "v_rms = √(3RT/M): তাপমাত্রা বাড়লে √T হারে বাড়ে, ভারী গ্যাসে কমে।",
+      "একই তাপমাত্রায় হালকা গ্যাস দ্রুত — তাই হাইড্রোজেন সবচেয়ে দ্রুত।",
+      "v_p:v_avg:v_rms = √2:√(8/π):√3 ≈ 1 : 1.128 : 1.224।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "gas-laws",
+    "ideal-gas-equation",
+    "kinetic-energy-gas"
   ]
 }

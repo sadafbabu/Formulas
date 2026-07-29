@@ -1,0 +1,53 @@
+{
+  "id": "integral-ex",
+  "chapter": "integration",
+  "title": "∫ eˣ dx",
+  "titleBn": "eˣ এর যোগজ",
+  "summary": "eˣ",
+  "latex": "\\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "int, e, x, d",
+      "meaning": "eˣ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "eˣ নিজের যোগজ; aˣ ভাগ ln a।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "eˣ এর যোগজ এর সূত্রটি লেখো। (ইঙ্গিত: eˣ নিজের যোগজ; aˣ ভাগ ln a।)",
+      "answer": "\\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C"
+    }
+  ],
+  "memorize": {
+    "trick": "eˣ নিজের যোগজ; aˣ ভাগ ln a।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "integral-1x",
+    "integral-trig-basic",
+    "integral-xn"
+  ]
+}

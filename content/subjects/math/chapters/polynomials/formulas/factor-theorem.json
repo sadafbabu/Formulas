@@ -6,11 +6,11 @@
   "tags": [
     "hsc",
     "eng-admission",
-    "medical",
     "varsity",
     "3-star"
   ],
   "importance": 3,
+  "order": 20,
   "symbols": [
     {
       "symbol": "P(x)",
@@ -32,9 +32,33 @@
         "note": "শেষফল উপপাদ্যের বিশেষ রূপ"
       }
     ],
-    "assumptions": "P(x) বাস্তব বা জটিল সহগবিশিষ্ট"
+    "assumptions": [
+      "P(x) বাস্তব বা জটিল সহগবিশিষ্ট"
+    ]
   },
   "id": "factor-theorem",
   "chapter": "polynomials",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "x-a উৎপাদক হলে f(a) এর মান কত?",
+      "answer": "f(a)=0"
+    }
+  ],
+  "memorize": {
+    "trick": "P(a) = 0 ⟺ (x − a) উৎপাদক — 'শূন্য বসালে শূন্য হলেই উৎপাদক'। চিহ্নে সতর্ক: উৎপাদক (x + 2) হলে বসাতে হবে x = −2।",
+    "steps": [
+      "উৎপাদক যাচাই: শূন্যস্থান বসিয়ে দেখুন ফল শূন্য কি না।",
+      "(ax − b) উৎপাদক হলে P(b/a) = 0।",
+      "একটি উৎপাদক পেলে ভাগ করে বাকিটা ছোট ঘাতে নামিয়ে আনুন।"
+    ]
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "quadratic-equation-roots",
+    "vieta-formulas",
+    "synthetic-division"
+  ]
 }

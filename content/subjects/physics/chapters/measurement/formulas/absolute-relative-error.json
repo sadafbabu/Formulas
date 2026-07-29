@@ -1,0 +1,53 @@
+{
+  "id": "absolute-relative-error",
+  "chapter": "measurement",
+  "title": "Absolute & Relative Error",
+  "titleBn": "পরম ও আপেক্ষিক ত্রুটি",
+  "summary": "Δx এবং Δx/x",
+  "latex": "\\Delta x=|x_{\\text{meas}}-x_{\\text{true}}|,\\quad \\frac{\\Delta x}{x}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "Delta, x, meas, true",
+      "meaning": "Δx এবং Δx/x",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "পরম = পার্থক্য; আপেক্ষিক = পরম/মান।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\Delta x=|x_{\\text{meas}}-x_{\\text{true}}|,\\quad \\frac{\\Delta x}{x}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পরম ও আপেক্ষিক ত্রুটি এর সূত্রটি লেখো। (ইঙ্গিত: পরম = পার্থক্য; আপেক্ষিক = পরম/মান।)",
+      "answer": "\\Delta x=|x_{\\text{meas}}-x_{\\text{true}}|,\\quad \\frac{\\Delta x}{x}"
+    }
+  ],
+  "memorize": {
+    "trick": "পরম = পার্থক্য; আপেক্ষিক = পরম/মান।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "si-base-units",
+    "screw-gauge-least-count"
+  ]
+}

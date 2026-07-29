@@ -1,0 +1,53 @@
+{
+  "id": "greenhouse-gases",
+  "chapter": "environmental-chemistry",
+  "title": "Greenhouse Gases",
+  "titleBn": "গ্রিনহাউস গ্যাস",
+  "summary": "CO₂, CH₄, N₂O, CFC",
+  "latex": "\\ce{CO2},\\ \\ce{CH4},\\ \\ce{N2O},\\ \\ce{O3},\\ \\text{CFCs}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "ce, C, O, H",
+      "meaning": "CO₂, CH₄, N₂O, CFC",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "IR শোষণ করে পৃথিবী গরম রাখে — CO₂ প্রধান।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\ce{CO2},\\ \\ce{CH4},\\ \\ce{N2O},\\ \\ce{O3},\\ \\text{CFCs}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "গ্রিনহাউস গ্যাস এর সূত্রটি লেখো। (ইঙ্গিত: IR শোষণ করে পৃথিবী গরম রাখে — CO₂ প্রধান।)",
+      "answer": "\\ce{CO2},\\ \\ce{CH4},\\ \\ce{N2O},\\ \\ce{O3},\\ \\text{CFCs}"
+    }
+  ],
+  "memorize": {
+    "trick": "IR শোষণ করে পৃথিবী গরম রাখে — CO₂ প্রধান।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "ozone-depletion",
+    "acid-rain"
+  ]
+}

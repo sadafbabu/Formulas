@@ -1,0 +1,53 @@
+{
+  "id": "binomial-mean-variance",
+  "chapter": "probability",
+  "title": "Binomial Mean & Variance",
+  "titleBn": "দ্বিপদী গড় ও বিচ্যুতি",
+  "summary": "μ=np, σ²=npq",
+  "latex": "\\mu=np,\\quad \\sigma^2=np(1-p)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "mu, n, p, sigma",
+      "meaning": "μ=np, σ²=npq",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "গড়=np; বিচ্যুতি=npq — সূত্র মুখস্থ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mu=np,\\quad \\sigma^2=np(1-p)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "দ্বিপদী গড় ও বিচ্যুতি এর সূত্রটি লেখো। (ইঙ্গিত: গড়=np; বিচ্যুতি=npq — সূত্র মুখস্থ।)",
+      "answer": "\\mu=np,\\quad \\sigma^2=np(1-p)"
+    }
+  ],
+  "memorize": {
+    "trick": "গড়=np; বিচ্যুতি=npq — সূত্র মুখস্থ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "binomial-probability",
+    "geometric-probability",
+    "total-probability-theorem"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "family-intersection-lines",
+  "chapter": "straight-lines",
+  "title": "Family & Intersection of Lines",
+  "titleBn": "রেখার পরিবার, ছেদবিন্দু ও angle bisector",
+  "summary": "দুই রেখার ছেদবিন্দুগামী সব রেখা এবং দুই রেখার কোণদ্বিখণ্ডকের সমীকরণ।",
+  "latex": "\\lambda L_1+\\mu L_2=0,\\quad(\\lambda,\\mu)\\ne(0,0);\\qquad \\frac{L_1}{\\sqrt{a_1^2+b_1^2}}=\\pm\\frac{L_2}{\\sqrt{a_2^2+b_2^2}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "equation-forms",
+    "straight-line-angle",
+    "pair-of-lines"
+  ],
+  "symbols": [
+    {
+      "symbol": "L_1,L_2",
+      "meaning": "দুই রেখার বাম পাশের expression",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\lambda",
+      "meaning": "পরিবার parameter",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "L₁=L₂=0 ছেদবিন্দুতে L₁+λL₂ সব λ-এর জন্য শূন্য; তাই এটি ছেদবিন্দুগামী রেখার পরিবার।",
+    "steps": [
+      {
+        "title": "পরিবার",
+        "latex": "\\lambda L_1+\\mu L_2=0,\\quad(\\lambda,\\mu)\\ne(0,0)",
+        "note": "Homogeneous parameter pair সব রেখা অন্তর্ভুক্ত করে; L₁+λL₂ finite λ form-এ L₂=0 আলাদা case।"
+      },
+      {
+        "title": "angle bisectors",
+        "latex": "\\frac{a_1x+b_1y+c_1}{\\sqrt{a_1^2+b_1^2}}=\\pm\\frac{a_2x+b_2y+c_2}{\\sqrt{a_2^2+b_2^2}}",
+        "note": "দুই রেখা থেকে signed perpendicular distance সমান।"
+      }
+    ],
+    "assumptions": [
+      "L₁ ও L₂ distinct ও nonparallel হলে একটি নির্দিষ্ট ছেদবিন্দু আছে।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Eng Admission",
+      "question": "x+y−1=0 ও x−y−3=0-এর ছেদবিন্দু এবং (0,0)-গামী রেখা নির্ণয় করুন।",
+      "answer": "L_1+\\lambda L_2=0;\\ (0,0)\\Rightarrow-1-3\\lambda=0\\Rightarrow\\lambda=-\\frac13;\\ 3L_1-L_2=0\\Rightarrow x+2y=0"
+    }
+  ],
+  "memorize": {
+    "trick": "দুই রেখার intersection দিয়ে যেকোনো রেখা: L₁+λL₂=0—ছেদবিন্দু আলাদা করে বের করার দরকার নেই। Angle bisector-এ শুধু normalized L₁ = ± normalized L₂।",
+    "steps": [
+      "+ ও − থেকে দুইটি bisector আসে।",
+      "লম্ব দূরত্বের denominator √(a²+b²) বাদ দেবেন না।"
+    ]
+  }
+}

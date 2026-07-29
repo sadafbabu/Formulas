@@ -5,12 +5,31 @@
   "titleBn": "বিন্দু আধানের জন্য তড়িৎ বিভব",
   "summary": "অসীম হতে একক ধনাত্মক আধান আননে কৃতকাজ",
   "latex": "V = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q}{r}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 30,
   "symbols": [
-    { "symbol": "V", "meaning": "তড়িৎ বিভব", "unit": "V (Volt)" },
-    { "symbol": "q", "meaning": "উৎস আধান", "unit": "C" },
-    { "symbol": "r", "meaning": "নির্ধারিত বিন্দুর দূরত্ব", "unit": "m" }
+    {
+      "symbol": "V",
+      "meaning": "তড়িৎ বিভব",
+      "unit": "V (Volt)"
+    },
+    {
+      "symbol": "q",
+      "meaning": "উৎস আধান",
+      "unit": "C"
+    },
+    {
+      "symbol": "r",
+      "meaning": "নির্ধারিত বিন্দুর দূরত্ব",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "তড়িৎ ক্ষেত্রের প্রাবল্যের অসীম সমাকলন থেকে বিভব পাওয়া যায়।",
@@ -20,7 +39,8 @@
         "latex": "V = -\\int_{\\infty}^r E dr = -\\int_{\\infty}^r \\frac{q}{4\\pi\\varepsilon_0 r^2} dr = \\frac{q}{4\\pi\\varepsilon_0 r}",
         "note": "অসীম দূরত্বে বিভব শূন্য ধরা হয়"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -28,5 +48,21 @@
       "question": "10 μC আধান হতে 9 cm দূরে বিভব কত হবে?",
       "answer": "V = (9 \\times 10^9) \\frac{10 \\times 10^{-6}}{0.09} = 10^6\\text{ V}"
     }
+  ],
+  "memorize": {
+    "trick": "V = kq/r — 'বিভবে এক r, ক্ষেত্রে r বর্গ'। বিভব স্কেলার (দিক নেই), তাই একাধিক আধান থাকলে শুধু বীজগাণিতিকভাবে যোগ করুন — চিহ্ন সহ।",
+    "steps": [
+      "V = q/(4πε₀r) = kq/r, যেখানে k = 9×10⁹ N·m²/C²।",
+      "E = −∇V; কোনো পুরো অঞ্চলে ∇V = 0 হলে E = 0। একটিমাত্র equipotential surface-এ V ধ্রুব হলেও normal field থাকতে পারে।",
+      "ধনাত্মক আধানে V ধনাত্মক, ঋণাত্মক আধানে ঋণাত্মক — চিহ্ন বসাতে ভুলবেন না।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "coulombs-law",
+    "capacitor-parallel-plate",
+    "capacitor-energy"
   ]
 }

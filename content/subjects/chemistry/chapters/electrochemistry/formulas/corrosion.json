@@ -1,0 +1,73 @@
+{
+  "id": "corrosion",
+  "chapter": "electrochemistry",
+  "title": "Electrochemical Corrosion",
+  "titleBn": "তড়িৎ রাসায়নিক ক্ষয় ও মরিচা প্রতিরোধ",
+  "summary": "লোহার electrochemical rusting অর্ধ-বিক্রিয়া ও galvanization/cathodic protection।",
+  "latex": "\\ce{Fe -> Fe^{2+}+2e-},\\quad \\ce{O2+2H2O+4e- -> 4OH-},\\quad \\ce{4Fe(OH)2+O2+2H2O -> 4Fe(OH)3 -> Fe2O3.xH2O}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "galvanic-cell",
+    "electrochemical-series",
+    "gibbs-emf-relation"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\ce{Fe2O3.xH2O}",
+      "meaning": "পরিবর্তনশীল জলযুক্ত ferric oxide (মরিচা)",
+      "unit": "—"
+    },
+    {
+      "symbol": "E^\\circ",
+      "meaning": "reduction potential",
+      "unit": "V"
+    }
+  ],
+  "derivation": {
+    "lead": "ভেজা লোহার পৃষ্ঠে ক্ষুদ্র galvanic cell তৈরি হয়; oxygen-কম অংশ anode হয়ে Fe জারিত হয়।",
+    "steps": [
+      {
+        "title": "anodic অঞ্চল",
+        "latex": "\\ce{Fe -> Fe^{2+}+2e-}",
+        "note": "লোহা দ্রবীভূত হয়।"
+      },
+      {
+        "title": "cathodic অঞ্চল",
+        "latex": "\\ce{O2+2H2O+4e- -> 4OH-}",
+        "note": "বায়ুর oxygen ও পানি electron গ্রহণ করে।"
+      },
+      {
+        "title": "প্রতিরোধ",
+        "latex": "\\ce{Zn -> Zn^{2+}+2e-}\\quad(\\text{sacrificial anode})",
+        "note": "Zn লোহার আগে জারিত হয়; coating আঁচড়ালেও সুরক্ষা দেয়।"
+      }
+    ],
+    "assumptions": [
+      "পানি ও dissolved oxygen উপস্থিত।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical Admission",
+      "question": "Galvanized iron-এ coating আঁচড়ালেও কেন লোহা সহজে মরিচা ধরে না?",
+      "answer": "\\ce{Zn}\\ \\text{লোহার চেয়ে বেশি সক্রিয়; sacrificial anode হয়ে নিজে জারিত হয়ে Fe-কে cathodic রাখে।}"
+    }
+  ],
+  "memorize": {
+    "trick": "মরিচার জন্য দুটোই লাগে: পানি + oxygen। Zinc coating শুধু barrier নয়—sacrificial anode; নিজে ক্ষয় হয়ে লোহাকে বাঁচায়। Tin coating আঁচড়ালে উল্টো Fe দ্রুত ক্ষয় হয়।",
+    "steps": [
+      "Anode-এ metal loss, cathode-এ reduction।",
+      "Painting/oiling barrier; galvanizing sacrificial protection।"
+    ]
+  }
+}

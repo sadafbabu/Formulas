@@ -1,19 +1,16 @@
 import type { Formula } from '../data/types'
 import { HintPopover } from './HintPopover'
-import { Katex } from './Katex'
+import { MathOrText } from './MathOrText'
 
 interface QuestionHintProps {
   formula: Formula
 }
 
 export function QuestionHint({ formula }: QuestionHintProps) {
-  const qList = formula.questions ?? [
-    {
-      examType: 'BUET / Eng Admission Hard',
-      question: `${formula.titleBn} সংক্রান্ত গাণিতিক প্রশ্ন: একটি ৫ A প্রবাহের তারের ক্ষেত্রে মূল সূত্রের প্রয়োগ নিরূপণ করো।`,
-      answer: `সূত্র: ${formula.latex} এ মান বসিয়ে মান নির্ণয় করা যায়।`,
-    },
-  ]
+  const qList = (formula.questions ?? []).filter(
+    (q) => q.question?.trim() && q.answer?.trim(),
+  )
+  if (!qList.length) return null
 
   return (
     <HintPopover
@@ -44,13 +41,16 @@ export function QuestionHint({ formula }: QuestionHintProps) {
             <span className="question-exam-tag">{q.examType}</span>
             <div className="question-problem">
               <strong>প্রশ্ন:</strong>
-              <p>{q.question}</p>
+              <MathOrText text={q.question} as="p" className="question-copy" />
             </div>
             <div className="question-solution">
               <strong>সমাধান:</strong>
-              <div className="question-solution-text">
-                <Katex latex={q.answer} display />
-              </div>
+              <MathOrText
+                text={q.answer}
+                display
+                as="div"
+                className="question-solution-text"
+              />
             </div>
           </div>
         ))}

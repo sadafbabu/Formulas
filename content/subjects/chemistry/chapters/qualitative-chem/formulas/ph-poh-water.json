@@ -1,0 +1,65 @@
+{
+  "id": "ph-poh-water",
+  "chapter": "qualitative-chem",
+  "title": "pH, pOH & Water Ion Product",
+  "titleBn": "pH, pOH ও পানির আয়ন গুণফল",
+  "summary": "অম্ল-ক্ষার মাত্রা পরিমাপ, পানির আয়নীকরণ ধ্রুবক ও সম্পর্ক",
+  "latex": "\\mathrm{pH}=-\\log[H^+],\\quad \\mathrm{pOH}=-\\log[OH^-],\\quad K_w=[H^+][OH^-]=10^{-14},\\quad \\mathrm{pH}+\\mathrm{pOH}=14",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 50,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "buffer-solution",
+    "solubility-product"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\mathrm{pH}",
+      "meaning": "হাইড্রোজেন আয়ন ঘনমাত্রার ঋণাত্মক লগ",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "\\mathrm{pOH}",
+      "meaning": "হাইড্রক্সিল আয়ন ঘনমাত্রার ঋণাত্মক লগ",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "K_w",
+      "meaning": "পানির আয়ন গুণফল",
+      "unit": "mol²/L²",
+      "value": "10⁻¹⁴"
+    }
+  ],
+  "derivation": {
+    "lead": "পানির আয়নীকরণ: \\ce{H2O <=> H^+ + OH^-}। 25°C তে [H⁺][OH⁻] = 10⁻¹⁴।",
+    "steps": [
+      {
+        "title": "pH ও pOH সংজ্ঞা",
+        "latex": "\\mathrm{pH}=-\\log[H^+],\\quad \\mathrm{pOH}=-\\log[OH^-] \\implies \\mathrm{pH}+\\mathrm{pOH}=-\\log K_w=14",
+        "note": "বিশুদ্ধ পানি: pH = 7 (প্রশম), অম্ল: pH < 7, ক্ষার: pH > 7"
+      }
+    ],
+    "assumptions": [
+      "25°C তাপমাত্রায় K_w = 10⁻¹⁴"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical Admission",
+      "question": "0.001 M HCl দ্রবণের pH কত?",
+      "answer": "[H^+]=10^{-3} \\implies \\mathrm{pH}=-\\log(10^{-3})=3"
+    }
+  ],
+  "memorize": {
+    "trick": "pH + pOH = 14 (25°C তে)। pH < 7 অম্ল, pH = 7 প্রশম, pH > 7 ক্ষার। পানির K_w = 10⁻¹⁴।"
+  }
+}

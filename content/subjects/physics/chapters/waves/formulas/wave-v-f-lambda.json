@@ -1,0 +1,54 @@
+{
+  "id": "wave-v-f-lambda",
+  "chapter": "waves",
+  "title": "v = fλ",
+  "titleBn": "তরঙ্গ বেগ সূত্র",
+  "summary": "v=fλ",
+  "latex": "v=f\\lambda",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "v, f, lambda",
+      "meaning": "v=fλ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "বেগ = কম্পাঙ্ক × তরঙ্গদৈর্ঘ্য — সব তরঙ্গে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "v=f\\lambda",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "তরঙ্গ বেগ সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: বেগ = কম্পাঙ্ক × তরঙ্গদৈর্ঘ্য — সব তরঙ্গে।)",
+      "answer": "v=f\\lambda"
+    }
+  ],
+  "memorize": {
+    "trick": "বেগ = কম্পাঙ্ক × তরঙ্গদৈর্ঘ্য — সব তরঙ্গে।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "wave-speed-string",
+    "transverse-wave-equation",
+    "superposition-principle-wave"
+  ]
+}

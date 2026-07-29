@@ -1,0 +1,54 @@
+{
+  "id": "least-count-vernier",
+  "chapter": "measurement",
+  "title": "Vernier Least Count",
+  "titleBn": "ভার্নিয়ার লঘিষ্ঠ পাঠ",
+  "summary": "LC = 1 MSD − 1 VSD",
+  "latex": "\\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "LC, MSD, VSD, n",
+      "meaning": "LC = 1 MSD − 1 VSD",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "n ভাগে ভাগ করলে LC = MSD/n।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ভার্নিয়ার লঘিষ্ঠ পাঠ এর সূত্রটি লেখো। (ইঙ্গিত: n ভাগে ভাগ করলে LC = MSD/n।)",
+      "answer": "\\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}"
+    }
+  ],
+  "memorize": {
+    "trick": "n ভাগে ভাগ করলে LC = MSD/n।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "significant-figures-rule",
+    "screw-gauge-least-count",
+    "error-propagation-power"
+  ]
+}

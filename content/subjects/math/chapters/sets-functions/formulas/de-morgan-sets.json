@@ -1,0 +1,53 @@
+{
+  "id": "de-morgan-sets",
+  "chapter": "sets-functions",
+  "title": "De Morgan's Laws (Sets)",
+  "titleBn": "ডি মরগানের সূত্র (সেট)",
+  "summary": "(A∪B)'=(A'∩B')",
+  "latex": "(A\\cup B)'=A'\\cap B'\\quad;(A\\cap B)'=A'\\cup B'",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "A, cup, B, cap",
+      "meaning": "(A∪B)'=(A'∩B')",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Union↔Intersection উল্টো; complement বাইরে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "(A\\cup B)'=A'\\cap B'\\quad;(A\\cap B)'=A'\\cup B'",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ডি মরগানের সূত্র (সেট) এর সূত্রটি লেখো। (ইঙ্গিত: Union↔Intersection উল্টো; complement বাইরে।)",
+      "answer": "(A\\cup B)'=A'\\cap B'\\quad;(A\\cap B)'=A'\\cup B'"
+    }
+  ],
+  "memorize": {
+    "trick": "Union↔Intersection উল্টো; complement বাইরে।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "set-difference",
+    "cartesian-product",
+    "set-complement"
+  ]
+}

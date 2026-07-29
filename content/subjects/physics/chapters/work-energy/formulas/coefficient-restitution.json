@@ -1,0 +1,80 @@
+{
+  "id": "coefficient-restitution",
+  "chapter": "work-energy",
+  "title": "Coefficient of Restitution",
+  "titleBn": "স্থিতিস্থাপক সহগ ও লাফানো বলের উচ্চতা",
+  "summary": "সংঘর্ষের পর আপেক্ষিক বেগ ও আগের আপেক্ষিক বেগের অনুপাত; বল কতটা লাফাবে তা এ থেকেই বের হয়।",
+  "latex": "e = \\frac{v_2 - v_1}{u_1 - u_2}, \\quad h_n = e^{2n}h_0, \\quad 0 \\le e \\le 1",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "elastic-collision",
+    "momentum-impulse"
+  ],
+  "symbols": [
+    {
+      "symbol": "e",
+      "meaning": "স্থিতিস্থাপক সহগ",
+      "unit": "—"
+    },
+    {
+      "symbol": "h_0",
+      "meaning": "আদি উচ্চতা",
+      "unit": "m"
+    },
+    {
+      "symbol": "h_n",
+      "meaning": "n-তম লাফের উচ্চতা",
+      "unit": "m"
+    },
+    {
+      "symbol": "n",
+      "meaning": "লাফের সংখ্যা",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "নিউটনের সংঘর্ষ সূত্র: বিচ্ছিন্ন হওয়ার আপেক্ষিক বেগ = e × সংঘর্ষের আপেক্ষিক বেগ।",
+    "steps": [
+      {
+        "title": "সংজ্ঞা",
+        "latex": "e = \\frac{\\text{বিচ্ছেদ বেগ}}{\\text{অভিগমন বেগ}} = \\frac{v_2 - v_1}{u_1 - u_2}",
+        "note": "e = 1 পূর্ণ স্থিতিস্থাপক, e = 0 পূর্ণ অস্থিতিস্থাপক (লেগে যায়)।"
+      },
+      {
+        "title": "মেঝেতে লাফানো বল",
+        "latex": "e = \\sqrt{\\frac{h_1}{h_0}} \\Rightarrow h_n = e^{2n}h_0",
+        "note": "প্রতিবার লাফে উচ্চতা e² গুণ হয়ে যায়।"
+      }
+    ],
+    "assumptions": [
+      "সংঘর্ষ কেন্দ্রমুখী (head-on)।",
+      "মেঝে অচল ও অসীম ভরের ধরা হয়।",
+      "0 ≤ e ≤ 1 রূপে সাধারণ passive collision; superelastic collision-এ e > 1 হতে পারে"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Eng Admission",
+      "question": "১ m উঁচু থেকে ফেলা একটি বল ০.৬৪ m উঁচুতে ওঠে। e কত এবং দ্বিতীয় লাফে কত উঁচুতে উঠবে?",
+      "answer": "e = \\sqrt{0.64/1} = 0.8, \\quad h_2 = e^4 h_0 = 0.4096\\ \\text{m}"
+    }
+  ],
+  "memorize": {
+    "trick": "e = √(h₁/h₀) — উচ্চতার অনুপাতের বর্গমূল। আর প্রতি লাফে উচ্চতা e² গুণ হয়, তাই n লাফ পরে h_n = e^{2n}h₀ — \"উচ্চতায় ঘাত দ্বিগুণ, বেগে একগুণ\"।",
+    "steps": [
+      "e = 1 → পূর্ণ স্থিতিস্থাপক, শক্তি অক্ষত; e = 0 → লেগে যায়।",
+      "বেগের অনুপাতে e-এর ঘাত n, উচ্চতার অনুপাতে 2n।",
+      "মোট অতিক্রান্ত দূরত্ব = h₀(1 + e²)/(1 − e²)।"
+    ]
+  }
+}

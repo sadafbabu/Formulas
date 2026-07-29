@@ -1,0 +1,53 @@
+{
+  "id": "inverse-function",
+  "chapter": "sets-functions",
+  "title": "Inverse Function",
+  "titleBn": "বিপরীত ফাংশন",
+  "summary": "f⁻¹",
+  "latex": "f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "f, x, and, y",
+      "meaning": "f⁻¹",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "f⁻¹ exists iff f one-to-one; graph = mirror y=x।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বিপরীত ফাংশন এর সূত্রটি লেখো। (ইঙ্গিত: f⁻¹ exists iff f one-to-one; graph = mirror y=x।)",
+      "answer": "f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y"
+    }
+  ],
+  "memorize": {
+    "trick": "f⁻¹ exists iff f one-to-one; graph = mirror y=x।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "function-composition",
+    "even-odd-function",
+    "function-definition"
+  ]
+}

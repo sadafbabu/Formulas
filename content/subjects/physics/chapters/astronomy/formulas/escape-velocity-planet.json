@@ -1,0 +1,53 @@
+{
+  "id": "escape-velocity-planet",
+  "chapter": "astronomy",
+  "title": "Planetary Escape Speed",
+  "titleBn": "গ্রহ থেকে মুক্তি বেগ",
+  "summary": "√(2GM/R)",
+  "latex": "v_e=\\sqrt{\\frac{2GM}{R}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "v, e, sqrt, G",
+      "meaning": "√(2GM/R)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "পৃথিবী ≈ 11.2 km/s; কৃষ্ণগহ্বরের event horizon সংজ্ঞায়।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "v_e=\\sqrt{\\frac{2GM}{R}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "গ্রহ থেকে মুক্তি বেগ এর সূত্রটি লেখো। (ইঙ্গিত: পৃথিবী ≈ 11.2 km/s; কৃষ্ণগহ্বরের event horizon সংজ্ঞায়।)",
+      "answer": "v_e=\\sqrt{\\frac{2GM}{R}}"
+    }
+  ],
+  "memorize": {
+    "trick": "পৃথিবী ≈ 11.2 km/s; কৃষ্ণগহ্বরের event horizon সংজ্ঞায়।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "magnitude-scale",
+    "solar-luminosity-flux"
+  ]
+}

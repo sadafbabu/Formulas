@@ -5,11 +5,26 @@
   "titleBn": "হুইটস্টোন ব্রীজ নীতি",
   "summary": "চারটি রোধ দ্বারা তৈরি ব্রীজের সাম্যাবস্থার শর্ত",
   "latex": "\\frac{P}{Q} = \\frac{R}{S}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 30,
   "symbols": [
-    { "symbol": "P, Q", "meaning": "প্রথম ও দ্বিতীয় বাহুর রোধ", "unit": "Ω" },
-    { "symbol": "R, S", "meaning": "তৃতীয় ও চতুর্থ বাহুর রোধ", "unit": "Ω" }
+    {
+      "symbol": "P, Q",
+      "meaning": "প্রথম ও দ্বিতীয় বাহুর রোধ",
+      "unit": "Ω"
+    },
+    {
+      "symbol": "R, S",
+      "meaning": "তৃতীয় ও চতুর্থ বাহুর রোধ",
+      "unit": "Ω"
+    }
   ],
   "derivation": {
     "lead": "গ্যালভানোমিটারে কোনো প্রবাহ না থাকলে ব্রীজ সাম্যাবস্থায় পৌঁছায়।",
@@ -19,13 +34,30 @@
         "latex": "I_1 P = I_2 R, \\quad I_1 Q = I_2 S \\implies \\frac{P}{Q} = \\frac{R}{S}",
         "note": "গ্যালভানোমিটার প্রবাহ Ig = 0"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
       "examType": "CKRUET Admission",
       "question": "একটি হুইটস্টোন ব্রীজের চার বাহুর রোধ যথাক্রমে 6 Ω, 12 Ω, 18 Ω এবং S। S এর মান কত হলে ব্রীজটি সাম্যাবস্থায় থাকবে?",
-      "answer": "S = \\frac{Q \\times R}{P} = \\frac{12 \\times 18}{6} = 36\\text{ Ω}"
+      "answer": "S = \\frac{Q \\times R}{P} = \\frac{12 \\times 18}{6} = 36~\\Omega"
     }
+  ],
+  "memorize": {
+    "trick": "P/Q = R/S — সাম্যাবস্থায় গ্যালভানোমিটারে প্রবাহ শূন্য। মনে রাখুন 'পাশাপাশি বাহুর অনুপাত সমান' — কোনাকুনি গুণফলও সমান (PS = QR)।",
+    "steps": [
+      "সাম্যাবস্থায় সেতুর মধ্যবিন্দু দুটির বিভব সমান, তাই গ্যালভানোমিটারে প্রবাহ নেই।",
+      "তখন P/Q = R/S, অর্থাৎ অজানা S = QR/P।",
+      "মিটার ব্রীজে S = R·(100 − l)/l — এখানে l হলো সাম্য দৈর্ঘ্য।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "ohms-law",
+    "resistivity-temperature",
+    "kirchhoffs-laws"
   ]
 }

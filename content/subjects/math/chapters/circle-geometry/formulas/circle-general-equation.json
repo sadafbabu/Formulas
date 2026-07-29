@@ -1,0 +1,53 @@
+{
+  "id": "circle-general-equation",
+  "chapter": "circle-geometry",
+  "title": "General Circle Equation",
+  "titleBn": "বৃত্তের সাধারণ সমীকরণ",
+  "summary": "x²+y²+2gx+2fy+c=0",
+  "latex": "x^2+y^2+2gx+2fy+c=0,\\quad \\text{centre }(-g,-f),\\ r=\\sqrt{g^2+f^2-c}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "x, y, g, f",
+      "meaning": "x²+y²+2gx+2fy+c=0",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "কেন্দ্র (−g,−f); r²=g²+f²−c>0 চাই।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "x^2+y^2+2gx+2fy+c=0,\\quad \\text{centre }(-g,-f),\\ r=\\sqrt{g^2+f^2-c}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বৃত্তের সাধারণ সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: কেন্দ্র (−g,−f); r²=g²+f²−c>0 চাই।)",
+      "answer": "x^2+y^2+2gx+2fy+c=0,\\quad \\text{centre }(-g,-f),\\ r=\\sqrt{g^2+f^2-c}"
+    }
+  ],
+  "memorize": {
+    "trick": "কেন্দ্র (−g,−f); r²=g²+f²−c>0 চাই।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "circle-equation",
+    "circle-center-radius",
+    "circle-diameter-form"
+  ]
+}

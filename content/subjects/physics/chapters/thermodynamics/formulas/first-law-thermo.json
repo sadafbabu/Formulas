@@ -4,13 +4,32 @@
   "title": "First Law of Thermodynamics",
   "titleBn": "তাপগতিবিদ্যার ১ম সূত্র",
   "summary": "সিস্টেমে প্রদত্ত তাপ অভ্যন্তরীণ শক্তি বৃদ্ধি ও বাহ্যিক কাজে ব্যবহৃত হয়",
-  "latex": "dQ = dU + dW",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "latex": "\\delta Q=dU+\\delta W,\\quad \\delta W=P_{\\mathrm{ext}}dV;\\quad \\text{quasistatic হলে }P_{\\mathrm{ext}}=P",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 30,
   "symbols": [
-    { "symbol": "dQ", "meaning": "সিস্টেমে সরবরাহকৃত তাপশক্তি", "unit": "J (Joule)" },
-    { "symbol": "dU", "meaning": "অভ্যন্তরীণ শক্তির পরিবর্তন", "unit": "J (Joule)" },
-    { "symbol": "dW", "meaning": "সিস্টেম দ্বারা সম্পাদিত কাজ", "unit": "J (Joule)" }
+    {
+      "symbol": "dQ",
+      "meaning": "সিস্টেমে সরবরাহকৃত তাপশক্তি",
+      "unit": "J (Joule)"
+    },
+    {
+      "symbol": "dU",
+      "meaning": "অভ্যন্তরীণ শক্তির পরিবর্তন",
+      "unit": "J (Joule)"
+    },
+    {
+      "symbol": "dW",
+      "meaning": "সিস্টেম দ্বারা সম্পাদিত কাজ",
+      "unit": "J (Joule)"
+    }
   ],
   "derivation": {
     "lead": "শক্তির সংরক্ষণশীলতা নীতি থেকে পাওয়া যায় যে শক্তিসমূহ রূপান্তরযোগ্য।",
@@ -20,7 +39,8 @@
         "latex": "dQ = dU + P dV",
         "note": "স্থির চাপে dW = P dV প্রতিস্থাপন করা হয়"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -28,5 +48,21 @@
       "question": "একটি সিস্টেমে ৫০০ J তাপ প্রদান করায় অভ্যন্তরীণ শক্তি ২০০ J বৃদ্ধি পেল। সিস্টেম কর্তৃক সম্পাদিত কাজ কত?",
       "answer": "dW = dQ - dU = 500 - 200 = 300\\text{ J}"
     }
+  ],
+  "memorize": {
+    "trick": "dQ = dU + dW — 'দেওয়া তাপ = ভিতরে জমা + বাইরে কাজ'। এটি শক্তির নিত্যতা সূত্রেরই তাপীয় রূপ।",
+    "steps": [
+      "চিহ্ন: গ্যাসে তাপ দিলে Q ধনাত্মক, গ্যাস প্রসারিত হয়ে কাজ করলে W ধনাত্মক।",
+      "সমোষ্ণে dU = 0 → Q = W; রুদ্ধতাপে Q = 0 → W = −dU; সমআয়তনে W = 0 → Q = dU।",
+      "চারটি প্রক্রিয়ার সব ফল এই এক সূত্রেই বের হয়।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "cp-cv-relation",
+    "isothermal-work",
+    "entropy-change"
   ]
 }

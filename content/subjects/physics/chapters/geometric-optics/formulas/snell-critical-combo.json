@@ -1,0 +1,53 @@
+{
+  "id": "snell-critical-combo",
+  "chapter": "geometric-optics",
+  "title": "Relative Refractive Index",
+  "titleBn": "আপেক্ষিক প্রতিসরাঙ্ক",
+  "summary": "μ21=μ2/μ1",
+  "latex": "{}_{1}\\mu_{2}=\\frac{\\mu_2}{\\mu_1}=\\frac{v_1}{v_2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 160,
+  "symbols": [
+    {
+      "symbol": "mu, v",
+      "meaning": "μ21=μ2/μ1",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "আলো দ্রুত মাধ্যম থেকে ধীর মাধ্যমে → μ>1।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "{}_{1}\\mu_{2}=\\frac{\\mu_2}{\\mu_1}=\\frac{v_1}{v_2}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আপেক্ষিক প্রতিসরাঙ্ক এর সূত্রটি লেখো। (ইঙ্গিত: আলো দ্রুত মাধ্যম থেকে ধীর মাধ্যমে → μ>1।)",
+      "answer": "{}_{1}\\mu_{2}=\\frac{\\mu_2}{\\mu_1}=\\frac{v_1}{v_2}"
+    }
+  ],
+  "memorize": {
+    "trick": "আলো দ্রুত মাধ্যম থেকে ধীর মাধ্যমে → μ>1।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "mirror-magnification",
+    "lens-formula"
+  ]
+}

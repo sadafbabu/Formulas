@@ -1,0 +1,53 @@
+{
+  "id": "tan2a-formula",
+  "chapter": "trigonometric-equations",
+  "title": "tan 2A",
+  "titleBn": "tan ২A",
+  "summary": "2tanA/(1−tan²A)",
+  "latex": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 190,
+  "symbols": [
+    {
+      "symbol": "A",
+      "meaning": "2tanA/(1−tan²A)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "tan ২A এর সূত্রটি লেখো। (ইঙ্গিত: ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।)",
+      "answer": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}"
+    }
+  ],
+  "memorize": {
+    "trick": "ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "sin2a-cos2a",
+    "sin3a-cos3a",
+    "general-solution-tan"
+  ]
+}

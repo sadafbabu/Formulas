@@ -1,0 +1,58 @@
+{
+  "title": "Vector Triple Product (BAC Rule)",
+  "titleBn": "ভেক্টর ত্রৈগুণিক গুণফল (BAC নিয়ম)",
+  "summary": "তিন ভেক্টরের ত্রৈগুণিক গুণফল ও BAC-CAB নিয়ম",
+  "latex": "\\vec{a}\\times(\\vec{b}\\times\\vec{c}) = \\vec{b}(\\vec{a}\\cdot\\vec{c}) - \\vec{c}(\\vec{a}\\cdot\\vec{b})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "\\vec{a},\\vec{b},\\vec{c}",
+      "meaning": "তিনটি ভেক্টর",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "দুই ক্রস গুণফলের সম্প্রসারণ থেকে BAC-CAB নিয়ম।",
+    "steps": [
+      {
+        "title": "BAC নিয়ম",
+        "latex": "\\vec{a}\\times(\\vec{b}\\times\\vec{c}) = \\vec{b}(\\vec{a}\\cdot\\vec{c}) - \\vec{c}(\\vec{a}\\cdot\\vec{b})",
+        "note": "লব্ধি ভেক্টর b, c সমতলে অবস্থান করে"
+      }
+    ],
+    "assumptions": [
+      "ত্রিমাত্রিক স্থান"
+    ]
+  },
+  "id": "vector-triple-product",
+  "chapter": "vector",
+  "questions": [
+    {
+      "examType": "HSC / Varsity",
+      "question": "ভেক্টর ট্রিপল প্রোডাক্ট আইডেন্টিটি কী?",
+      "answer": "\\vec a\\times(\\vec b\\times\\vec c)=(\\vec a\\cdot\\vec c)\\vec b-(\\vec a\\cdot\\vec b)\\vec c"
+    }
+  ],
+  "memorize": {
+    "trick": "BAC মাইনাস CAB নিয়ম: a×(b×c) = b(a·c) − c(a·b)। মনে রাখুন 'ব্যাক-ক্যাব' (BAC − CAB) — মাঝেরটা আগে আসে।",
+    "steps": [
+      "a×(b×c) = b(a·c) − c(a·b) — ফলাফল b ও c-এর তলেই থাকে।",
+      "বন্ধনী সরালে উত্তর বদলায়: a×(b×c) ≠ (a×b)×c।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "vector-dot-product",
+    "direction-cosines",
+    "vector-resultant"
+  ]
+}

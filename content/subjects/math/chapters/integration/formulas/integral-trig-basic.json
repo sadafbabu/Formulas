@@ -1,0 +1,53 @@
+{
+  "id": "integral-trig-basic",
+  "chapter": "integration",
+  "title": "Basic Trig Integrals",
+  "titleBn": "মৌলিক ত্রিকোণমিতিক যোগজ",
+  "summary": "sin, cos, sec²",
+  "latex": "\\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "int, x",
+      "meaning": "sin, cos, sec²",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "অন্তরকের উল্টো দিক মনে রাখো।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "মৌলিক ত্রিকোণমিতিক যোগজ এর সূত্রটি লেখো। (ইঙ্গিত: অন্তরকের উল্টো দিক মনে রাখো।)",
+      "answer": "\\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x"
+    }
+  ],
+  "memorize": {
+    "trick": "অন্তরকের উল্টো দিক মনে রাখো।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "integral-ex",
+    "integral-substitution-basic",
+    "integral-1x"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "vant-hoff-factor",
+  "chapter": "colligative-properties",
+  "title": "van't Hoff Factor",
+  "titleBn": "ভ্যান't হফ গুণক",
+  "summary": "i=observed/calculated",
+  "latex": "i=\\frac{\\text{observed colligative property}}{\\text{calculated (no dissociation)}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "i, observed colligative property, calculated (no dissociation)",
+      "meaning": "i=observed/calculated",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Electrolyte-এ i>1; association-এ i<1।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "i=\\frac{\\text{observed colligative property}}{\\text{calculated (no dissociation)}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ভ্যান't হফ গুণক এর সূত্রটি লেখো। (ইঙ্গিত: Electrolyte-এ i>1; association-এ i<1।)",
+      "answer": "i=\\frac{\\text{observed colligative property}}{\\text{calculated (no dissociation)}}"
+    }
+  ],
+  "memorize": {
+    "trick": "Electrolyte-এ i>1; association-এ i<1।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "osmotic-pressure",
+    "raoult-law",
+    "depression-freezing-point"
+  ]
+}

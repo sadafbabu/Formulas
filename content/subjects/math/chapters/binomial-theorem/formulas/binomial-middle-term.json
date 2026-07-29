@@ -3,14 +3,32 @@
   "chapter": "binomial-theorem",
   "title": "Middle Term & Greatest Coefficient in Binomial",
   "titleBn": "দ্বিপদী উপপাদ্যে মধ্যপদ ও বৃহত্তম সহগ",
-  "summary": "(a+x)ⁿ এর মধ্যপদ, r+1 তম পদে x এর ঘাত নির্ণয় এবং বৃহত্তম পদ",
+  "summary": "(a+x)ⁿ এর মধ্যপদ, r+1 তম পদে x এর ঘাত নির্ণয় এবং বৃহত্তম দ্বিপদী সহগ",
   "latex": "T_{r+1} = \\binom{n}{r} a^{n-r} x^r, \\quad \\text{Middle term (n even): } T_{\\frac{n}{2}+1}, \\quad \\text{Middle terms (n odd): } T_{\\frac{n+1}{2}}, T_{\\frac{n+3}{2}}",
-  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 60,
   "symbols": [
-    { "symbol": "T_{r+1}", "meaning": "(r+1)তম পদ", "unit": "রাশিমালা" },
-    { "symbol": "\\binom{n}{r}", "meaning": "দ্বিপদী সহগ = nCr", "unit": "সংখ্যা" },
-    { "symbol": "n", "meaning": "ঘাত", "unit": "ধনাত্মক পূর্ণসংখ্যা" }
+    {
+      "symbol": "T_{r+1}",
+      "meaning": "(r+1)তম পদ",
+      "unit": "রাশিমালা"
+    },
+    {
+      "symbol": "\\binom{n}{r}",
+      "meaning": "দ্বিপদী সহগ = nCr",
+      "unit": "সংখ্যা"
+    },
+    {
+      "symbol": "n",
+      "meaning": "ঘাত",
+      "unit": "ধনাত্মক পূর্ণসংখ্যা"
+    }
   ],
   "derivation": {
     "lead": "(a+x)ⁿ এর মোট পদ সংখ্যা n+1। n জোড় হলে একটি মধ্যপদ, n বিজোড় হলে দুটি মধ্যপদ।",
@@ -20,7 +38,8 @@
         "latex": "\\text{In } (1+x)^n: \\text{ coefficient of } x^k = \\binom{n}{k}, \\quad \\text{sum of coefficients} = 2^n",
         "note": "(1+x)^n এ x=1 রাখলে সহগের যোগফল = 2ⁿ, x=-1 রাখলে = 0"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -28,5 +47,21 @@
       "question": "(2x - 1/x²)¹² তে x এর কোনো শক্তি থেকে মুক্ত পদটি কত?",
       "answer": "T_{r+1} = \\binom{12}{r}(2x)^{12-r}(-1/x^2)^r = \\binom{12}{r}2^{12-r}(-1)^r x^{12-r-2r} \\implies 12-3r = 0 \\implies r=4 \\implies T_5 = \\binom{12}{4} \\cdot 2^8 \\cdot 1 = 495 \\times 256 = 126720"
     }
+  ],
+  "memorize": {
+    "trick": "n জোড় হলে মধ্যপদ একটি: (n/2 + 1)তম। n বিজোড় হলে দুটি: (n+1)/2 ও (n+3)/2 তম। 'জোড়ে এক, বিজোড়ে দুই' — মোট পদ (n+1) বলেই এমন হয়।",
+    "steps": [
+      "n = 6 → পদ ৭টি → মধ্যপদ ৪র্থ (= 6/2 + 1)।",
+      "n = 7 → পদ ৮টি → মধ্যপদ ৪র্থ ও ৫ম।",
+      "বৃহত্তম সহগ মধ্যপদেই থাকে — সহগ প্রতিসম, তাই মাঝেই চূড়া।"
+    ]
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "pascal-identity",
+    "generalized-binomial",
+    "sum-binomial-coeff"
   ]
 }

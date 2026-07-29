@@ -1,0 +1,54 @@
+{
+  "id": "limiting-reagent-calc",
+  "chapter": "quantitative-chem",
+  "title": "Limiting Reagent Calc",
+  "titleBn": "সীমিত বিকারক গণনা",
+  "summary": "smallest mole/coeff",
+  "latex": "\\text{limiting}=\\min\\left(\\frac{n_i}{\\nu_i}\\right)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "limiting, n, i, nu",
+      "meaning": "smallest mole/coeff",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{limiting}=\\min\\left(\\frac{n_i}{\\nu_i}\\right)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সীমিত বিকারক গণনা এর সূত্রটি লেখো। (ইঙ্গিত: প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।)",
+      "answer": "\\text{limiting}=\\min\\left(\\frac{n_i}{\\nu_i}\\right)"
+    }
+  ],
+  "memorize": {
+    "trick": "প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "stoichiometry-mass",
+    "ppm-ppb",
+    "percentage-composition"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "division-into-groups",
+  "chapter": "permutation-combination",
+  "title": "Division into Groups",
+  "titleBn": "গ্রুপে বিভাজন",
+  "summary": "অসম/সম গ্রুপে ভাগ",
+  "latex": "\\frac{n!}{n_1!n_2!\\cdots k!}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "n, cdots, k",
+      "meaning": "অসম/সম গ্রুপে ভাগ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "n!/(n₁!n₂!…); একই সাইজ গ্রুপে অতিরিক্ত ভাগ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{n!}{n_1!n_2!\\cdots k!}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "গ্রুপে বিভাজন এর সূত্রটি লেখো। (ইঙ্গিত: n!/(n₁!n₂!…); একই সাইজ গ্রুপে অতিরিক্ত ভাগ।)",
+      "answer": "\\frac{n!}{n_1!n_2!\\cdots k!}"
+    }
+  ],
+  "memorize": {
+    "trick": "n!/(n₁!n₂!…); একই সাইজ গ্রুপে অতিরিক্ত ভাগ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "combination-identity",
+    "circular-permutation",
+    "npr-ncr"
+  ]
+}

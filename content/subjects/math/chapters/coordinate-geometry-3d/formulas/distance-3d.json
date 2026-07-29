@@ -1,0 +1,52 @@
+{
+  "id": "distance-3d",
+  "chapter": "coordinate-geometry-3d",
+  "title": "Distance in 3D",
+  "titleBn": "ত্রিমাত্রিক দূরত্ব",
+  "summary": "দুই বিন্দুর দূরত্ব",
+  "latex": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "d, sqrt, x, y",
+      "meaning": "দুই বিন্দুর দূরত্ব",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "2D-এর √(Δx²+Δy²)-এ z যোগ — একই ধরন।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ত্রিমাত্রিক দূরত্ব এর সূত্রটি লেখো। (ইঙ্গিত: 2D-এর √(Δx²+Δy²)-এ z যোগ — একই ধরন।)",
+      "answer": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}"
+    }
+  ],
+  "memorize": {
+    "trick": "2D-এর √(Δx²+Δy²)-এ z যোগ — একই ধরন।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "section-formula-3d",
+    "direction-cosines-3d"
+  ]
+}

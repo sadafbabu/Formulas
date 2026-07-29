@@ -1,0 +1,80 @@
+{
+  "id": "periodic-trends",
+  "chapter": "qualitative-chem",
+  "title": "Periodic Trends",
+  "titleBn": "পর্যায় সারণির ধর্মের পর্যায়বৃত্ত পরিবর্তন",
+  "summary": "পারমাণবিক ব্যাসার্ধ, আয়নীকরণ শক্তি, তড়িৎঋণাত্মকতা ও ইলেকট্রন আসক্তির পর্যায়বৃত্ত প্রবণতা।",
+  "latex": "r:\\ \\searrow_{\\text{period}},\\ \\nearrow_{\\text{group}};\\quad IE,\\chi:\\ \\nearrow_{\\text{period}},\\ \\searrow_{\\text{group}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "electron-configuration",
+    "quantum-numbers",
+    "effective-nuclear-charge"
+  ],
+  "symbols": [
+    {
+      "symbol": "r",
+      "meaning": "পারমাণবিক ব্যাসার্ধ",
+      "unit": "pm"
+    },
+    {
+      "symbol": "IE",
+      "meaning": "প্রথম আয়নীকরণ শক্তি",
+      "unit": "kJ/mol"
+    },
+    {
+      "symbol": "\\chi",
+      "meaning": "তড়িৎঋণাত্মকতা",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "কার্যকর নিউক্লীয় আধান ও নতুন শক্তিস্তরের যোগ—এই দুই প্রতিযোগী প্রভাব থেকে পর্যায়বৃত্ত প্রবণতা আসে।",
+    "steps": [
+      {
+        "title": "পর্যায়ে বাম থেকে ডানে",
+        "latex": "Z_{\\mathrm{eff}}\\uparrow\\Rightarrow r\\downarrow,\\ IE\\uparrow,\\ \\chi\\uparrow",
+        "note": "একই শক্তিস্তরে নিউক্লীয় আধান বাড়ে, তাই ইলেকট্রন বেশি শক্ত করে বাঁধা থাকে।"
+      },
+      {
+        "title": "গ্রুপে উপর থেকে নিচে",
+        "latex": "n\\uparrow,\\ \\text{shielding}\\uparrow\\Rightarrow r\\uparrow,\\ IE\\downarrow,\\ \\chi\\downarrow",
+        "note": "নতুন শক্তিস্তর ও আড়াল প্রভাব নিউক্লীয় আকর্ষণ কমায়।"
+      },
+      {
+        "title": "আয়নের আকার",
+        "latex": "r_{\\ce{cation}}<r_{\\ce{atom}}<r_{\\ce{anion}}",
+        "note": "ইলেকট্রন হারালে বিকর্ষণ কমে, গ্রহণ করলে বাড়ে। সমইলেকট্রনিক শ্রেণিতে Z বেশি হলে আকার ছোট।"
+      }
+    ],
+    "assumptions": [
+      "মূল প্রবণতা বলা হয়েছে; অর্ধপূর্ণ ও পূর্ণ উপস্তরের কারণে কিছু ব্যতিক্রম আছে।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical Admission",
+      "question": "সমইলেকট্রনিক \\ce{O^{2-}}, \\ce{F^-}, \\ce{Na^+}, \\ce{Mg^{2+}} আয়নগুলোর ব্যাসার্ধের অবরোহ ক্রম কী?",
+      "answer": "\\ce{O^{2-} > F^- > Na^+ > Mg^{2+}};\\ \\text{ইলেকট্রন সমান, কিন্তু Z বাড়লে আকার কমে।}"
+    }
+  ],
+  "memorize": {
+    "trick": "পর্যায়ে ব্যাসার্ধ কমে কিন্তু IE ও তড়িৎঋণাত্মকতা বাড়ে; গ্রুপে ঠিক উল্টো। মনে রাখুন: “ডানে গেলে নিউক্লিয়াস জেতে, নিচে গেলে স্তর জেতে।”",
+    "steps": [
+      "সমইলেকট্রনিক শ্রেণিতে প্রোটন যত বেশি, আকার তত ছোট।",
+      "ক্যাটায়ন মূল পরমাণুর চেয়ে ছোট; অ্যানায়ন বড়।",
+      "IE ব্যতিক্রম: Be > B এবং N > O—পূর্ণ/অর্ধপূর্ণ উপস্তরের স্থিতিশীলতার জন্য।"
+    ]
+  }
+}

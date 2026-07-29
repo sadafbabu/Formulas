@@ -1,0 +1,53 @@
+{
+  "id": "mutually-exclusive-probability",
+  "chapter": "probability",
+  "title": "Mutually Exclusive Events",
+  "titleBn": "পরস্পর বর্জন ঘটনা",
+  "summary": "P(A∩B)=0",
+  "latex": "P(A\\cap B)=0\\Rightarrow P(A\\cup B)=P(A)+P(B)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "P, A, cap, B",
+      "meaning": "P(A∩B)=0",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "একসাথে ঘটতে পারে না → সরাসরি যোগ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P(A\\cap B)=0\\Rightarrow P(A\\cup B)=P(A)+P(B)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পরস্পর বর্জন ঘটনা এর সূত্রটি লেখো। (ইঙ্গিত: একসাথে ঘটতে পারে না → সরাসরি যোগ।)",
+      "answer": "P(A\\cap B)=0\\Rightarrow P(A\\cup B)=P(A)+P(B)"
+    }
+  ],
+  "memorize": {
+    "trick": "একসাথে ঘটতে পারে না → সরাসরি যোগ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "addition-rule-probability",
+    "conditional-probability",
+    "complement-probability"
+  ]
+}

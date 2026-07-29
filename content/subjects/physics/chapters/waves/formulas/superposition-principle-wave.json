@@ -1,0 +1,54 @@
+{
+  "id": "superposition-principle-wave",
+  "chapter": "waves",
+  "title": "Superposition Principle",
+  "titleBn": "অধিরোপণ নীতি",
+  "summary": "y=y1+y2",
+  "latex": "y=y_1+y_2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "y",
+      "meaning": "y=y1+y2",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "দুই তরঙ্গ একই স্থানে → সরণ যোগ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "y=y_1+y_2",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অধিরোপণ নীতি এর সূত্রটি লেখো। (ইঙ্গিত: দুই তরঙ্গ একই স্থানে → সরণ যোগ।)",
+      "answer": "y=y_1+y_2"
+    }
+  ],
+  "memorize": {
+    "trick": "দুই তরঙ্গ একই স্থানে → সরণ যোগ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "transverse-wave-equation",
+    "phase-path-difference",
+    "wave-v-f-lambda"
+  ]
+}

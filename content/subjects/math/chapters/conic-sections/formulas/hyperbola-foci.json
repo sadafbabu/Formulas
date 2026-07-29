@@ -1,0 +1,53 @@
+{
+  "id": "hyperbola-foci",
+  "chapter": "conic-sections",
+  "title": "Hyperbola Foci",
+  "titleBn": "অধিবৃত্তের ফোকাস",
+  "summary": "ফোকাস (±c,0)",
+  "latex": "c^2=a^2+b^2,\\ \\text{Foci }(\\pm c,0)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "c, a, b, Foci",
+      "meaning": "ফোকাস (±c,0)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "|PF₁−PF₂|=2a — অধিবৃত্ত সংজ্ঞা।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "c^2=a^2+b^2,\\ \\text{Foci }(\\pm c,0)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অধিবৃত্তের ফোকাস এর সূত্রটি লেখো। (ইঙ্গিত: |PF₁−PF₂|=2a — অধিবৃত্ত সংজ্ঞা।)",
+      "answer": "c^2=a^2+b^2,\\ \\text{Foci }(\\pm c,0)"
+    }
+  ],
+  "memorize": {
+    "trick": "|PF₁−PF₂|=2a — অধিবৃত্ত সংজ্ঞা।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "hyperbola-standard",
+    "hyperbola-asymptotes",
+    "ellipse-tangent"
+  ]
+}

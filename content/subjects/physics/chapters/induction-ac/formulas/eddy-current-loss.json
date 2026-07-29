@@ -1,0 +1,53 @@
+{
+  "id": "eddy-current-loss",
+  "chapter": "induction-ac",
+  "title": "Eddy Current",
+  "titleBn": "এডি কারেন্ট",
+  "summary": "laminated core",
+  "latex": "P_{\\text{eddy}}\\propto B^2f^2t^2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "1-star"
+  ],
+  "importance": 1,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "P, eddy, B, f",
+      "meaning": "laminated core",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "পাতলা স্তরে কোর কাটো → এডি লস কমে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P_{\\text{eddy}}\\propto B^2f^2t^2",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "এডি কারেন্ট এর সূত্রটি লেখো। (ইঙ্গিত: পাতলা স্তরে কোর কাটো → এডি লস কমে।)",
+      "answer": "P_{\\text{eddy}}\\propto B^2f^2t^2"
+    }
+  ],
+  "memorize": {
+    "trick": "পাতলা স্তরে কোর কাটো → এডি লস কমে।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "ac-average-peak",
+    "lr-cr-transient"
+  ]
+}

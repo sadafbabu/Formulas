@@ -1,0 +1,53 @@
+{
+  "id": "displacement-velocity-accel",
+  "chapter": "motion-kinematics",
+  "title": "v and a Definitions",
+  "titleBn": "বেগ ও ত্বরণের সংজ্ঞা",
+  "summary": "v=dx/dt, a=dv/dt",
+  "latex": "\\vec v=\\frac{d\\vec r}{dt},\\quad \\vec a=\\frac{d\\vec v}{dt}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "vec, v, d, r",
+      "meaning": "v=dx/dt, a=dv/dt",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সরণের অন্তরক = বেগ; বেগের অন্তরক = ত্বরণ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\vec v=\\frac{d\\vec r}{dt},\\quad \\vec a=\\frac{d\\vec v}{dt}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বেগ ও ত্বরণের সংজ্ঞা এর সূত্রটি লেখো। (ইঙ্গিত: সরণের অন্তরক = বেগ; বেগের অন্তরক = ত্বরণ।)",
+      "answer": "\\vec v=\\frac{d\\vec r}{dt},\\quad \\vec a=\\frac{d\\vec v}{dt}"
+    }
+  ],
+  "memorize": {
+    "trick": "সরণের অন্তরক = বেগ; বেগের অন্তরক = ত্বরণ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "average-instantaneous-velocity",
+    "kinematic-equation-v"
+  ]
+}

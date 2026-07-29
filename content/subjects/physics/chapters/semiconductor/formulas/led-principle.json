@@ -1,0 +1,53 @@
+{
+  "id": "led-principle",
+  "chapter": "semiconductor",
+  "title": "LED Principle",
+  "titleBn": "LED নীতি",
+  "summary": "recombination photon",
+  "latex": "E_g=\\frac{hc}{\\lambda}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "E, g, h, c",
+      "meaning": "recombination photon",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ব্যান্ড গ্যাপ = ফোটন শক্তি; রঙ Eg দিয়ে নির্ধারিত।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "E_g=\\frac{hc}{\\lambda}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "LED নীতি এর সূত্রটি লেখো। (ইঙ্গিত: ব্যান্ড গ্যাপ = ফোটন শক্তি; রঙ Eg দিয়ে নির্ধারিত।)",
+      "answer": "E_g=\\frac{hc}{\\lambda}"
+    }
+  ],
+  "memorize": {
+    "trick": "ব্যান্ড গ্যাপ = ফোটন শক্তি; রঙ Eg দিয়ে নির্ধারিত।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "de-morgan-boolean",
+    "transistor-ce-relations"
+  ]
+}

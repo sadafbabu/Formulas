@@ -4,14 +4,37 @@
   "title": "Torque and Angular Acceleration",
   "titleBn": "টর্ক এবং কৌণিক ত্বরণ",
   "summary": "ঘূর্ণন গতিতে বলের ভ্রামক বা টর্কের সমীকরণ",
-  "latex": "\\tau = I \\alpha = r F \\sin\\theta",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "latex": "\\vec\\tau=\\frac{d\\vec L}{dt};\\quad \\tau=I\\alpha\\ (\\text{স্থির principal axis});\\quad \\tau=rF\\sin\\theta",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 50,
   "symbols": [
-    { "symbol": "\\tau", "meaning": "টর্ক বা বলের ভ্রামক", "unit": "N·m" },
-    { "symbol": "I", "meaning": "জড়তার ভ্রামক (Moment of Inertia)", "unit": "kg·m²" },
-    { "symbol": "\\alpha", "meaning": "কৌণিক ত্বরণ", "unit": "rad/s²" },
-    { "symbol": "r", "meaning": "ঘূর্ণন অক্ষ হতে বলের দূরত্ব", "unit": "m" }
+    {
+      "symbol": "\\tau",
+      "meaning": "টর্ক বা বলের ভ্রামক",
+      "unit": "N·m"
+    },
+    {
+      "symbol": "I",
+      "meaning": "জড়তার ভ্রামক (Moment of Inertia)",
+      "unit": "kg·m²"
+    },
+    {
+      "symbol": "\\alpha",
+      "meaning": "কৌণিক ত্বরণ",
+      "unit": "rad/s²"
+    },
+    {
+      "symbol": "r",
+      "meaning": "ঘূর্ণন অক্ষ হতে বলের দূরত্ব",
+      "unit": "m"
+    }
   ],
   "derivation": {
     "lead": "রৈখিক টর্ক ও জড়তার ভ্রামক সম্পর্ক F = ma থেকে সংজ্ঞায়িত।",
@@ -21,6 +44,9 @@
         "latex": "\\tau = r F = r (m a) = r m (r \\alpha) = (m r^2) \\alpha = I \\alpha",
         "note": "জড়তার ভ্রামক I = m r²"
       }
+    ],
+    "assumptions": [
+      "τ = Iα রূপে একটি স্থির principal axis-এর চারপাশে ঘূর্ণন"
     ]
   },
   "questions": [
@@ -29,5 +55,20 @@
       "question": "2 kg·m² জড়তার ভ্রামক বিশিষ্ট চাকার ওপর 10 N·m টর্ক প্রয়োগ করলে কৌণিক ত্বরণ কত?",
       "answer": "\\alpha = \\frac{\\tau}{I} = \\frac{10}{2} = 5\\text{ rad/s}^2"
     }
+  ],
+  "memorize": {
+    "trick": "τ = Iα হলো F = ma-এর ঘূর্ণন রূপ। বল→টর্ক, ভর→জাড্য ভ্রামক, ত্বরণ→কৌণিক ত্বরণ। আর τ = rF sinθ — লম্ব দূরত্ব যত বেশি, টর্ক তত বেশি (তাই দরজার হাতল কবজা থেকে দূরে)।",
+    "steps": [
+      "রৈখিক F = ma ↔ ঘূর্ণন τ = Iα — পুরো অধ্যায় এই একটাই মিল।",
+      "τ = rF sinθ; বল ব্যাসার্ধের বরাবর হলে (θ = 0) টর্ক শূন্য।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "centripetal-force",
+    "projectile-motion",
+    "banked-road"
   ]
 }

@@ -1,0 +1,53 @@
+{
+  "id": "moment-of-force",
+  "chapter": "math-statics",
+  "title": "Moment of Force",
+  "titleBn": "বলের ভ্রাম",
+  "summary": "τ=Fd",
+  "latex": "\\tau=F\\,d\\,\\sin\\theta",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "tau, F, d, theta",
+      "meaning": "τ=Fd",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "τ = F × ⊥ distance; d⊥ = d sinθ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\tau=F\\,d\\,\\sin\\theta",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বলের ভ্রাম এর সূত্রটি লেখো। (ইঙ্গিত: τ = F × ⊥ distance; d⊥ = d sinθ।)",
+      "answer": "\\tau=F\\,d\\,\\sin\\theta"
+    }
+  ],
+  "memorize": {
+    "trick": "τ = F × ⊥ distance; d⊥ = d sinθ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "lami-theorem",
+    "couple-moment",
+    "triangle-of-forces"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "kinematic-equation-v",
+  "chapter": "motion-kinematics",
+  "title": "v = u + at",
+  "titleBn": "প্রথম গতি সমীকরণ",
+  "summary": "v=u+at",
+  "latex": "v=u+at",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "v, u, a, t",
+      "meaning": "v=u+at",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সমান ত্বরণে চূড়ান্ত বেগ = প্রাথমিক + at।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "v=u+at",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "প্রথম গতি সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: সমান ত্বরণে চূড়ান্ত বেগ = প্রাথমিক + at।)",
+      "answer": "v=u+at"
+    }
+  ],
+  "memorize": {
+    "trick": "সমান ত্বরণে চূড়ান্ত বেগ = প্রাথমিক + at।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "average-instantaneous-velocity",
+    "kinematic-equation-s",
+    "displacement-velocity-accel"
+  ]
+}

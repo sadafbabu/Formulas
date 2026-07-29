@@ -1,0 +1,53 @@
+{
+  "id": "rc-charging",
+  "chapter": "current-electricity",
+  "title": "RC Charging",
+  "titleBn": "RC চarging",
+  "summary": "q=Q(1−e^(−t/RC))",
+  "latex": "q=Q(1-e^{-t/RC}),\\quad Q=CV",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "q, Q, e, t",
+      "meaning": "q=Q(1−e^(−t/RC))",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "τ=RC time constant; 63% charge at t=τ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "q=Q(1-e^{-t/RC}),\\quad Q=CV",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "RC চarging এর সূত্রটি লেখো। (ইঙ্গিত: τ=RC time constant; 63% charge at t=τ।)",
+      "answer": "q=Q(1-e^{-t/RC}),\\quad Q=CV"
+    }
+  ],
+  "memorize": {
+    "trick": "τ=RC time constant; 63% charge at t=τ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "group-cells-max-power",
+    "shunt-multiplier",
+    "cells-series-parallel"
+  ]
+}

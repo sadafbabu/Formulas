@@ -1,0 +1,53 @@
+{
+  "id": "hyperbola-asymptotes",
+  "chapter": "conic-sections",
+  "title": "Hyperbola Asymptotes",
+  "titleBn": "অধিবৃত্তের লঘুগামী",
+  "summary": "y=±(b/a)x",
+  "latex": "y=\\pm\\frac{b}{a}x",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "y, b, a, x",
+      "meaning": "y=±(b/a)x",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "লঘুগামী x²/a²−y²/b²=0; কেন্দ্রে মিলে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "y=\\pm\\frac{b}{a}x",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অধিবৃত্তের লঘুগামী এর সূত্রটি লেখো। (ইঙ্গিত: লঘুগামী x²/a²−y²/b²=0; কেন্দ্রে মিলে।)",
+      "answer": "y=\\pm\\frac{b}{a}x"
+    }
+  ],
+  "memorize": {
+    "trick": "লঘুগামী x²/a²−y²/b²=0; কেন্দ্রে মিলে।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "hyperbola-foci",
+    "hyperbola-eccentricity",
+    "hyperbola-standard"
+  ]
+}

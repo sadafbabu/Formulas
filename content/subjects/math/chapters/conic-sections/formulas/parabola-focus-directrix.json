@@ -1,0 +1,53 @@
+{
+  "id": "parabola-focus-directrix",
+  "chapter": "conic-sections",
+  "title": "Parabola Focus & Directrix",
+  "titleBn": "পরাবৃত্তের ফোকাস ও ডাইরেক্ট্রিক্স",
+  "summary": "ফোকাস ও ডাইরেক্ট্রিক্স",
+  "latex": "\\text{Focus }(a,0),\\ \\text{Directrix }x=-a\\ \\text{for }y^2=4ax",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "Focus, a, Directrix, x",
+      "meaning": "ফোকাস ও ডাইরেক্ট্রিক্স",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "4a = ল্যাটাস রেক্টামের দৈর্ঘ্য; ফোকাস থেকে যেকোনো বিন্দু = ডাইরেক্ট্রিক্সের দূরত্ব।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{Focus }(a,0),\\ \\text{Directrix }x=-a\\ \\text{for }y^2=4ax",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পরাবৃত্তের ফোকাস ও ডাইরেক্ট্রিক্স এর সূত্রটি লেখো। (ইঙ্গিত: 4a = ল্যাটাস রেক্টামের দৈর্ঘ্য; ফোকাস থেকে যেকোনো বিন্দু = ড)",
+      "answer": "\\text{Focus }(a,0),\\ \\text{Directrix }x=-a\\ \\text{for }y^2=4ax"
+    }
+  ],
+  "memorize": {
+    "trick": "4a = ল্যাটাস রেক্টামের দৈর্ঘ্য; ফোকাস থেকে যেকোনো বিন্দু = ডাইরেক্ট্রিক্সের দূরত্ব।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "parabola-standard",
+    "parabola-latus-rectum",
+    "parabola-parametric"
+  ]
+}

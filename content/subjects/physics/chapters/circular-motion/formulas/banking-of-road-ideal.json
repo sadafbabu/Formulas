@@ -1,0 +1,54 @@
+{
+  "id": "banking-of-road-ideal",
+  "chapter": "circular-motion",
+  "title": "Ideal Banking Angle",
+  "titleBn": "আদর্শ ব্যাংকিং কোণ",
+  "summary": "tanθ=v²/rg",
+  "latex": "\\tan\\theta=\\frac{v^2}{rg}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "theta, v, r, g",
+      "meaning": "tanθ=v²/rg",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ঘর্ষণ ছাড়া; v² = rg tanθ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\tan\\theta=\\frac{v^2}{rg}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আদর্শ ব্যাংকিং কোণ এর সূত্রটি লেখো। (ইঙ্গিত: ঘর্ষণ ছাড়া; v² = rg tanθ।)",
+      "answer": "\\tan\\theta=\\frac{v^2}{rg}"
+    }
+  ],
+  "memorize": {
+    "trick": "ঘর্ষণ ছাড়া; v² = rg tanθ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "period-frequency-circular",
+    "vertical-circle-tension",
+    "centripetal-acceleration"
+  ]
+}

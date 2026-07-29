@@ -1,0 +1,52 @@
+{
+  "id": "normal-form-line",
+  "chapter": "straight-lines",
+  "title": "Normal Form of Line",
+  "titleBn": "রেখার লম্ব রূপ",
+  "summary": "x cosα+y sinα=p",
+  "latex": "x\\cos\\alpha+y\\sin\\alpha=p",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 160,
+  "symbols": [
+    {
+      "symbol": "x, alpha, y, p",
+      "meaning": "x cosα+y sinα=p",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "p = perpendicular from origin; α = angle with x-axis।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "x\\cos\\alpha+y\\sin\\alpha=p",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "রেখার লম্ব রূপ এর সূত্রটি লেখো। (ইঙ্গিত: p = perpendicular from origin; α = angle with x-axis।)",
+      "answer": "x\\cos\\alpha+y\\sin\\alpha=p"
+    }
+  ],
+  "memorize": {
+    "trick": "p = perpendicular from origin; α = angle with x-axis।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "point-slope-form",
+    "slope-intercept-form"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "volumetric-titration",
+  "chapter": "qualitative-chem",
+  "title": "Volumetric Titration",
+  "titleBn": "আয়তনমিতিক টাইট্রেশন",
+  "summary": "টাইট্রেশন হিসাবের মূল সূত্র",
+  "latex": "\\frac{W}{E}=\\frac{NV}{1000},\\quad M_a V_a \\nu_a = M_b V_b \\nu_b",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 160,
+  "symbols": [
+    {
+      "symbol": "W, E, N, V",
+      "meaning": "টাইট্রেশন হিসাবের মূল সূত্র",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "টাইট্রেশন হিসাবের মূল সূত্র",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{W}{E}=\\frac{NV}{1000},\\quad M_a V_a \\nu_a = M_b V_b \\nu_b",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আয়তনমিতিক টাইট্রেশন এর সূত্রটি লেখো। (ইঙ্গিত: মোল-সমতুল্যতা: MVν দুই পাশে সমান।)",
+      "answer": "\\frac{W}{E}=\\frac{NV}{1000},\\quad M_a V_a \\nu_a = M_b V_b \\nu_b"
+    }
+  ],
+  "memorize": {
+    "trick": "মোল-সমতুল্যতা: MVν দুই পাশে সমান।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "limiting-reagent",
+    "gas-density-formula",
+    "oxidation-number"
+  ]
+}

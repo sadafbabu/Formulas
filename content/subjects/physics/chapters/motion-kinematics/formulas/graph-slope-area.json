@@ -1,0 +1,53 @@
+{
+  "id": "graph-slope-area",
+  "chapter": "motion-kinematics",
+  "title": "Motion Graphs",
+  "titleBn": "গতি লেখচিত্র",
+  "summary": "slope & area",
+  "latex": "v=\\text{slope of }x\\text{–}t;\\quad a=\\text{slope of }v\\text{–}t;\\quad s=\\text{area under }v\\text{–}t",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "v, slope of, x, –",
+      "meaning": "slope & area",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "x–t ঢাল=v; v–t ঢাল=a; v–t ক্ষেত্রফল=s।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "v=\\text{slope of }x\\text{–}t;\\quad a=\\text{slope of }v\\text{–}t;\\quad s=\\text{area under }v\\text{–}t",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "গতি লেখচিত্র এর সূত্রটি লেখো। (ইঙ্গিত: x–t ঢাল=v; v–t ঢাল=a; v–t ক্ষেত্রফল=s।)",
+      "answer": "v=\\text{slope of }x\\text{–}t;\\quad a=\\text{slope of }v\\text{–}t;\\quad s=\\text{area under }v\\text{–}t"
+    }
+  ],
+  "memorize": {
+    "trick": "x–t ঢাল=v; v–t ঢাল=a; v–t ক্ষেত্রফল=s।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "river-boat-crossing",
+    "rain-man-relative"
+  ]
+}

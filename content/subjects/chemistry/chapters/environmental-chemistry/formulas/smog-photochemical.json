@@ -1,0 +1,54 @@
+{
+  "id": "smog-photochemical",
+  "chapter": "environmental-chemistry",
+  "title": "Photochemical Smog",
+  "titleBn": "আলোকরাসায়নিক ধোঁয়াশা",
+  "summary": "NOx + VOC + sunlight",
+  "latex": "\\ce{NO2 ->[h\\nu] NO + O*}\\ ;\\ \\ce{O* + O2 -> O3}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "1-star"
+  ],
+  "importance": 1,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "ce, N, O, h",
+      "meaning": "NOx + VOC + sunlight",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "রৌদ্র + যানবাহন দূষণ → O₃, PAN; লস অ্যাঞ্জেলেস টাইপ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\ce{NO2 ->[h\\nu] NO + O*}\\ ;\\ \\ce{O* + O2 -> O3}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আলোকরাসায়নিক ধোঁয়াশা এর সূত্রটি লেখো। (ইঙ্গিত: রৌদ্র + যানবাহন দূষণ → O₃, PAN; লস অ্যাঞ্জেলেস টাইপ।)",
+      "answer": "\\ce{NO2 ->[h\\nu] NO + O*}\\ ;\\ \\ce{O* + O2 -> O3}"
+    }
+  ],
+  "memorize": {
+    "trick": "রৌদ্র + যানবাহন দূষণ → O₃, PAN; লস অ্যাঞ্জেলেস টাইপ।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "bod-cod",
+    "green-chemistry-principles",
+    "acid-rain"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "bernoulli-equation",
+  "chapter": "properties-of-matter",
+  "title": "Bernoulli's Equation",
+  "titleBn": "বার্নোলির সমীকরণ",
+  "summary": "অসংকোচনযোগ্য প্রবাহে শক্তি সংরক্ষণ",
+  "latex": "P+\\tfrac12\\rho v^2+\\rho g h=\\text{constant}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "P, tfrac, rho, v",
+      "meaning": "অসংকোচনযোগ্য প্রবাহে শক্তি সংরক্ষণ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "অসংকোচনযোগ্য প্রবাহে শক্তি সংরক্ষণ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P+\\tfrac12\\rho v^2+\\rho g h=\\text{constant}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বার্নোলির সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: P + ½ρv² + ρgh = ধ্রুব — গতি বাড়লে চাপ কমে।)",
+      "answer": "P+\\tfrac12\\rho v^2+\\rho g h=\\text{constant}"
+    }
+  ],
+  "memorize": {
+    "trick": "P + ½ρv² + ρgh = ধ্রুব — গতি বাড়লে চাপ কমে।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "capillary-rise",
+    "continuity-equation",
+    "surface-tension"
+  ]
+}

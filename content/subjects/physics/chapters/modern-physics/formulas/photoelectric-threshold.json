@@ -1,0 +1,52 @@
+{
+  "id": "photoelectric-threshold",
+  "chapter": "modern-physics",
+  "title": "Photoelectric Threshold",
+  "titleBn": "সীমা কম্পাঙ্ক ও তরঙ্গদৈর্ঘ্য",
+  "summary": "কাজের ফাংশন থেকে সীমা মান",
+  "latex": "hf_0=\\phi,\\quad\\lambda_0=\\frac{hc}{\\phi},\\quad K_{max}=hc\\big(\\frac{1}{\\lambda}-\\frac{1}{\\lambda_0}\\big)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "h, f, phi, lambda",
+      "meaning": "কাজের ফাংশন থেকে সীমা মান",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "কাজের ফাংশন থেকে সীমা মান",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "hf_0=\\phi,\\quad\\lambda_0=\\frac{hc}{\\phi},\\quad K_{max}=hc\\big(\\frac{1}{\\lambda}-\\frac{1}{\\lambda_0}\\big)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সীমা কম্পাঙ্ক ও তরঙ্গদৈর্ঘ্য এর সূত্রটি লেখো। (ইঙ্গিত: φ = hf₀ = hc/λ₀; λ<λ₀ না হলে ইলেকট্রন বেরোয় না।)",
+      "answer": "hf_0=\\phi,\\quad\\lambda_0=\\frac{hc}{\\phi},\\quad K_{max}=hc\\big(\\frac{1}{\\lambda}-\\frac{1}{\\lambda_0}\\big)"
+    }
+  ],
+  "memorize": {
+    "trick": "φ = hf₀ = hc/λ₀; λ<λ₀ না হলে ইলেকট্রন বেরোয় না।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "mass-energy-photoelectric"
+  ]
+}

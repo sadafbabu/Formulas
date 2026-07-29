@@ -5,14 +5,40 @@
   "titleBn": "সমোষ্ণ প্রক্রিয়ায় কৃতকাজ",
   "summary": "স্থির তাপমাত্রায় গ্যাসের প্রসারণে কাজের পরিমাণ",
   "latex": "W = n R T \\ln\\left(\\frac{V_2}{V_1}\\right) = n R T \\ln\\left(\\frac{P_1}{P_2}\\right)",
-  "tags": ["hsc", "eng-admission", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 40,
   "symbols": [
-    { "symbol": "W", "meaning": "সমোষ্ণ প্রক্রিয়ায় সম্পাদিত কাজ", "unit": "J" },
-    { "symbol": "n", "meaning": "গ্যাসের মোল সংখ্যা", "unit": "mol" },
-    { "symbol": "R", "meaning": "সর্বজনীন গ্যাস ধ্রুবক (8.314)", "unit": "J/(mol·K)" },
-    { "symbol": "T", "meaning": "স্থির তাপমাত্রা", "unit": "K" },
-    { "symbol": "V_1, V_2", "meaning": "আদি ও শেষ আয়তন", "unit": "m³" }
+    {
+      "symbol": "W",
+      "meaning": "সমোষ্ণ প্রক্রিয়ায় সম্পাদিত কাজ",
+      "unit": "J"
+    },
+    {
+      "symbol": "n",
+      "meaning": "গ্যাসের মোল সংখ্যা",
+      "unit": "mol"
+    },
+    {
+      "symbol": "R",
+      "meaning": "সর্বজনীন গ্যাস ধ্রুবক (8.314)",
+      "unit": "J/(mol·K)"
+    },
+    {
+      "symbol": "T",
+      "meaning": "স্থির তাপমাত্রা",
+      "unit": "K"
+    },
+    {
+      "symbol": "V_1, V_2",
+      "meaning": "আদি ও শেষ আয়তন",
+      "unit": "m³"
+    }
   ],
   "derivation": {
     "lead": "P = nRT / V বসিয়ে আয়তনের সাপেক্ষে সমাকলন করে কৃতকাজ পাওয়া যায়।",
@@ -22,6 +48,9 @@
         "latex": "W = \\int_{V_1}^{V_2} P dV = nRT \\int_{V_1}^{V_2} \\frac{dV}{V} = nRT \\ln\\left(\\frac{V_2}{V_1}\\right)",
         "note": "বয়েলের সূত্রানুসারে V₂/V₁ = P₁/P₂"
       }
+    ],
+    "assumptions": [
+      "আদর্শ গ্যাসের reversible/quasistatic isothermal process"
     ]
   },
   "questions": [
@@ -30,5 +59,21 @@
       "question": "300 K তাপমাত্রায় 2 mol আদর্শ গ্যাসকে সমোষ্ণ প্রক্রিয়ায় আয়তন দ্বিগুণ করা হলে কৃতকাজ কত?",
       "answer": "W = (2)(8.314)(300)\\ln(2) = 4988.4 \\times 0.693 = 3457.7\\text{ J}"
     }
+  ],
+  "memorize": {
+    "trick": "সমোষ্ণে কাজে 'লগ' থাকে: W = nRT ln(V₂/V₁)। মনে রাখুন — সমোষ্ণে ln, রুদ্ধতাপে ঘাত (γ)।",
+    "steps": [
+      "T ধ্রুব হওয়ায় ΔU = 0, তাই দেওয়া সব তাপই কাজে রূপান্তরিত: Q = W।",
+      "PV = nRT থেকে W = ∫P dV = nRT ln(V₂/V₁) = nRT ln(P₁/P₂)।",
+      "প্রসারণে V₂ > V₁ তাই W ধনাত্মক; সংকোচনে ঋণাত্মক।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "first-law-thermo",
+    "carnaud-efficiency",
+    "cp-cv-relation"
   ]
 }

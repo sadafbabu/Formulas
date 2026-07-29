@@ -1,0 +1,80 @@
+{
+  "id": "qualitative-ion-tests",
+  "chapter": "qualitative-chem",
+  "title": "Qualitative Ion Tests",
+  "titleBn": "গুণগত বিশ্লেষণে আয়ন শনাক্তকরণ",
+  "summary": "প্রধান ক্যাটায়ন, অ্যানায়ন, গ্যাস ও শিখা পরীক্ষার রং/অধঃক্ষেপ মনে রাখার সারণি।",
+  "latex": "\\ce{Ag+ + Cl- -> AgCl(s)}\\ (\\text{সাদা}),\\quad \\ce{Ba^{2+}+SO4^{2-}->BaSO4(s)}\\ (\\text{সাদা}),\\quad \\ce{Fe^{3+}+3OH-->Fe(OH)3(s)}\\ (\\text{বাদামি})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 100,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "solubility-product",
+    "electron-configuration",
+    "periodic-trends"
+  ],
+  "symbols": [
+    {
+      "symbol": "ppt",
+      "meaning": "অধঃক্ষেপ",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\ce{AgCl}",
+      "meaning": "সাদা অধঃক্ষেপ; NH₃-তে দ্রবণীয়",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\ce{BaSO4}",
+      "meaning": "সাদা অধঃক্ষেপ; অ্যাসিডে অদ্রবণীয়",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "কম দ্রাব্য লবণ তৈরি হলে বৈশিষ্ট্যমূলক অধঃক্ষেপ বা রং দেখে আয়ন শনাক্ত করা যায়।",
+    "steps": [
+      {
+        "title": "হ্যালাইড পরীক্ষা",
+        "latex": "\\ce{AgCl\\ (white),\\ AgBr\\ (cream),\\ AgI\\ (yellow)}",
+        "note": "AgCl লঘু NH₃-তে, AgBr ঘন NH₃-তে দ্রবীভূত; AgI দ্রবীভূত নয়।"
+      },
+      {
+        "title": "শিখা পরীক্ষা",
+        "latex": "\\ce{Na+:\\ yellow,\\ K+:\\ lilac,\\ Ca^{2+}:\\ brick-red,\\ Cu^{2+}:\\ blue-green}",
+        "note": "উত্তেজিত ইলেকট্রন নিম্ন স্তরে ফিরে নির্দিষ্ট রঙের আলো দেয়।"
+      },
+      {
+        "title": "গ্যাস পরীক্ষা",
+        "latex": "\\ce{CO2 + Ca(OH)2 -> CaCO3(s) + H2O}",
+        "note": "CO₂ চুনপানিকে দুধের মতো করে; NH₃ সিক্ত লাল লিটমাস নীল করে।"
+      }
+    ],
+    "assumptions": [
+      "পরীক্ষা পরিষ্কার পাত্রে ও উপযুক্ত অম্লীয়/ক্ষারীয় মাধ্যমে করা হয়।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical Admission",
+      "question": "AgNO₃ যোগে cream অধঃক্ষেপ হয় এবং ঘন NH₃-তে দ্রবীভূত হয়—অ্যানায়নটি কী?",
+      "answer": "\\ce{Br^-};\\ \\ce{AgBr}\\ \\text{cream অধঃক্ষেপ।}"
+    }
+  ],
+  "memorize": {
+    "trick": "Silver halide রং: Cl সাদা, Br cream, I হলুদ—‘সাদা থেকে হলুদ, নিচে নামলে গাঢ়’। শিখা: Na হলুদ, K বেগুনি, Ca ইট-লাল, Cu নীল-সবুজ।",
+    "steps": [
+      "CO₂ চুনপানি দুধের মতো করে; অতিরিক্ত CO₂-তে আবার স্বচ্ছ।",
+      "NH₃-এর তীব্র গন্ধ, সিক্ত লাল লিটমাস নীল।",
+      "Fe²⁺ + OH⁻ সবুজ, Fe³⁺ + OH⁻ বাদামি, Cu²⁺ + OH⁻ নীল।"
+    ]
+  }
+}

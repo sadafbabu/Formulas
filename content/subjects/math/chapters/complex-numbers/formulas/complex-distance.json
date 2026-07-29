@@ -1,0 +1,53 @@
+{
+  "id": "complex-distance",
+  "chapter": "complex-numbers",
+  "title": "Distance in Argand Plane",
+  "titleBn": "আর্গান্ড সমতলে দূরত্ব",
+  "summary": "দুই জটিল সংখ্যার দূরত্ব",
+  "latex": "|z_1-z_2|=\\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "z, sqrt, x, y",
+      "meaning": "দুই জটিল সংখ্যার দূরত্ব",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "|z₁−z₂| = সমতলের সাধারণ দূরত্ব।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "|z_1-z_2|=\\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আর্গান্ড সমতলে দূরত্ব এর সূত্রটি লেখো। (ইঙ্গিত: |z₁−z₂| = সমতলের সাধারণ দূরত্ব।)",
+      "answer": "|z_1-z_2|=\\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}"
+    }
+  ],
+  "memorize": {
+    "trick": "|z₁−z₂| = সমতলের সাধারণ দূরত্ব।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "arg-quotient-product",
+    "complex-conjugate-modulus",
+    "complex-inequalities"
+  ]
+}

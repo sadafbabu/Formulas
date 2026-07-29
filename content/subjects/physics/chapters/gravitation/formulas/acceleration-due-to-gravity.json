@@ -1,0 +1,53 @@
+{
+  "id": "acceleration-due-to-gravity",
+  "chapter": "gravitation",
+  "title": "g = GM/R²",
+  "titleBn": "অভিকর্ষজ ত্বরণ",
+  "summary": "g=GM/R²",
+  "latex": "g=\\frac{GM}{R^2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "g, G, M, R",
+      "meaning": "g=GM/R²",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "পৃথিবী পৃষ্ঠে g; উচ্চতায় g' = g(1−2h/R)।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "g=\\frac{GM}{R^2}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অভিকর্ষজ ত্বরণ এর সূত্রটি লেখো। (ইঙ্গিত: পৃথিবী পৃষ্ঠে g; উচ্চতায় g' = g(1−2h/R)।)",
+      "answer": "g=\\frac{GM}{R^2}"
+    }
+  ],
+  "memorize": {
+    "trick": "পৃথিবী পৃষ্ঠে g; উচ্চতায় g' = g(1−2h/R)।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "orbital-period",
+    "gravitational-intensity"
+  ]
+}

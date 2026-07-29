@@ -1,0 +1,54 @@
+{
+  "id": "heat-capacity-specific",
+  "chapter": "thermodynamics",
+  "title": "Specific Heat Capacity",
+  "titleBn": "আপেক্ষিক তাপ",
+  "summary": "Q=mcΔT",
+  "latex": "Q=mc\\Delta T,\\quad c=\\frac{Q}{m\\Delta T}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 140,
+  "symbols": [
+    {
+      "symbol": "Q, m, c, Delta",
+      "meaning": "Q=mcΔT",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "c = একক ভরে ১° তাপমাত্রা বাড়াতে প্রয়োজনীয় তাপ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "Q=mc\\Delta T,\\quad c=\\frac{Q}{m\\Delta T}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আপেক্ষিক তাপ এর সূত্রটি লেখো। (ইঙ্গিত: c = একক ভরে ১° তাপমাত্রা বাড়াতে প্রয়োজনীয় তাপ।)",
+      "answer": "Q=mc\\Delta T,\\quad c=\\frac{Q}{m\\Delta T}"
+    }
+  ],
+  "memorize": {
+    "trick": "c = একক ভরে ১° তাপমাত্রা বাড়াতে প্রয়োজনীয় তাপ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "thermal-expansion-linear",
+    "latent-heat",
+    "stefan-boltzmann-law"
+  ]
+}

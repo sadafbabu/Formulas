@@ -1,0 +1,53 @@
+{
+  "id": "hookes-law-stress-strain",
+  "chapter": "properties-of-matter",
+  "title": "Hooke's Law",
+  "titleBn": "হুকের সূত্র",
+  "summary": "stress∝strain",
+  "latex": "\\frac{F}{A}=Y\\frac{\\Delta L}{L}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "F, A, Y, Delta",
+      "meaning": "stress∝strain",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "স্থিতিস্থাপক সীমায় stress = Y × strain।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{F}{A}=Y\\frac{\\Delta L}{L}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "হুকের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: স্থিতিস্থাপক সীমায় stress = Y × strain।)",
+      "answer": "\\frac{F}{A}=Y\\frac{\\Delta L}{L}"
+    }
+  ],
+  "memorize": {
+    "trick": "স্থিতিস্থাপক সীমায় stress = Y × strain।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "excess-pressure-bubble",
+    "pascals-law"
+  ]
+}

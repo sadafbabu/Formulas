@@ -1,0 +1,54 @@
+{
+  "id": "capillary-rise",
+  "chapter": "properties-of-matter",
+  "title": "Capillary Rise",
+  "titleBn": "কৈশিক উত্থান",
+  "summary": "নলে তরলের উত্থান/পতন",
+  "latex": "h=\\frac{2T\\cos\\theta}{r\\rho g}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "h, T, theta, r",
+      "meaning": "নলে তরলের উত্থান/পতন",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "h ∝ T, ∝ 1/r — সরু নলে বেশি উঠে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "h=\\frac{2T\\cos\\theta}{r\\rho g}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কৈশিক উত্থান এর সূত্রটি লেখো। (ইঙ্গিত: h ∝ T, ∝ 1/r — সরু নলে বেশি উঠে।)",
+      "answer": "h=\\frac{2T\\cos\\theta}{r\\rho g}"
+    }
+  ],
+  "memorize": {
+    "trick": "h ∝ T, ∝ 1/r — সরু নলে বেশি উঠে।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "surface-tension",
+    "bernoulli-equation",
+    "poiseuille-law"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "compound-pendulum",
+  "chapter": "periodic-motion",
+  "title": "Compound Pendulum",
+  "titleBn": "যৌগিক দোলক",
+  "summary": "ভৌত দোলকের পর্যায়কাল",
+  "latex": "T=2\\pi\\sqrt{\\frac{I}{mgd}}=2\\pi\\sqrt{\\frac{k^2+d^2}{gd}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "T, pi, sqrt, I",
+      "meaning": "ভৌত দোলকের পর্যায়কাল",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "I = mk²; সমতুল্য দৈর্ঘ্য L_eq=(k²+d²)/d।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "T=2\\pi\\sqrt{\\frac{I}{mgd}}=2\\pi\\sqrt{\\frac{k^2+d^2}{gd}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "যৌগিক দোলক এর সূত্রটি লেখো। (ইঙ্গিত: I = mk²; সমতুল্য দৈর্ঘ্য L_eq=(k²+d²)/d।)",
+      "answer": "T=2\\pi\\sqrt{\\frac{I}{mgd}}=2\\pi\\sqrt{\\frac{k^2+d^2}{gd}}"
+    }
+  ],
+  "memorize": {
+    "trick": "I = mk²; সমতুল্য দৈর্ঘ্য L_eq=(k²+d²)/d।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "shm-time-period"
+  ]
+}

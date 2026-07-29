@@ -1,0 +1,52 @@
+{
+  "id": "combination-identity",
+  "chapter": "permutation-combination",
+  "title": "Combination Identities",
+  "titleBn": "সমাবেশ অভেদ",
+  "summary": "পাস্কাল ও সমষ্টি অভেদ",
+  "latex": "{}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "n, C, r, sum",
+      "meaning": "পাস্কাল ও সমষ্টি অভেদ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "C(n,r)=C(n,n−r); যোগফল 2ⁿ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "{}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সমাবেশ অভেদ এর সূত্রটি লেখো। (ইঙ্গিত: C(n,r)=C(n,n−r); যোগফল 2ⁿ।)",
+      "answer": "{}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n"
+    }
+  ],
+  "memorize": {
+    "trick": "C(n,r)=C(n,n−r); যোগফল 2ⁿ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "pascal-identity",
+    "sum-binomial-coeff"
+  ]
+}

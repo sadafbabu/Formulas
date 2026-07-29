@@ -1,0 +1,54 @@
+{
+  "id": "solar-luminosity-flux",
+  "chapter": "astronomy",
+  "title": "Solar Constant / Flux",
+  "titleBn": "সৌর ধ্রুবক",
+  "summary": "S=L/(4πr²)",
+  "latex": "S=\\frac{L}{4\\pi r^2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "S, L, pi, r",
+      "meaning": "S=L/(4πr²)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "উজ্জ্বলতা L; পৃথিবীতে ফ্লাক্স 1/r² হারে কমে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "S=\\frac{L}{4\\pi r^2}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সৌর ধ্রুবক এর সূত্রটি লেখো। (ইঙ্গিত: উজ্জ্বলতা L; পৃথিবীতে ফ্লাক্স 1/r² হারে কমে।)",
+      "answer": "S=\\frac{L}{4\\pi r^2}"
+    }
+  ],
+  "memorize": {
+    "trick": "উজ্জ্বলতা L; পৃথিবীতে ফ্লাক্স 1/r² হারে কমে।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "hubble-law",
+    "magnitude-scale",
+    "light-year-au"
+  ]
+}

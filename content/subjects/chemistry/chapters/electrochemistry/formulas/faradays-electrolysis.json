@@ -4,16 +4,47 @@
   "title": "Faraday's Laws of Electrolysis",
   "titleBn": "ফ্যারাডের তড়িৎ বিশ্লেষণ সূত্র",
   "summary": "তড়িৎ বিশ্লেষণে সঞ্চিত বা দ্রবীভূত পদার্থের ভর ও তড়িৎ পরিমাণের সম্পর্ক",
-  "latex": "W = Z Q = Z I t = \\frac{M I t}{n F}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "latex": "m=ZIt=\\frac{MIt}{nF},\\quad F=96500\\ \\mathrm{C\\,mol^{-1}},\\quad Z=\\frac{M}{nF}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 30,
   "symbols": [
-    { "symbol": "W", "meaning": "সঞ্চিত পদার্থের ভর", "unit": "g (Gram)" },
-    { "symbol": "Z", "meaning": "তড়িৎ রাসায়নিক তুল্যাঙ্ক", "unit": "g/C" },
-    { "symbol": "I", "meaning": "প্রবাহিত তড়িৎ প্রবাহমাত্রা", "unit": "A" },
-    { "symbol": "t", "meaning": "সময়", "unit": "s" },
-    { "symbol": "F", "meaning": "১ ফ্যারাডে (96500 C)", "unit": "C/mol" },
-    { "symbol": "n", "meaning": "যোজ্যতা/ইলেকট্রন সংখ্যা", "unit": "মোল" }
+    {
+      "symbol": "m",
+      "meaning": "জমা/মুক্ত পদার্থের ভর",
+      "unit": "g (Gram)"
+    },
+    {
+      "symbol": "Z",
+      "meaning": "তড়িৎ রাসায়নিক তুল্যাঙ্ক",
+      "unit": "g/C"
+    },
+    {
+      "symbol": "I",
+      "meaning": "প্রবাহিত তড়িৎ প্রবাহমাত্রা",
+      "unit": "A"
+    },
+    {
+      "symbol": "t",
+      "meaning": "সময়",
+      "unit": "s"
+    },
+    {
+      "symbol": "F",
+      "meaning": "১ ফ্যারাডে (96500 C)",
+      "unit": "C/mol"
+    },
+    {
+      "symbol": "n",
+      "meaning": "যোজ্যতা/ইলেকট্রন সংখ্যা",
+      "unit": "এককহীন"
+    }
   ],
   "derivation": {
     "lead": "W ∝ Q এবং Q = It। ১ম ফ্যারাডে ধ্রুবক F = 96500 C/mol প্রতিস্থাপন করা হয়।",
@@ -23,13 +54,25 @@
         "latex": "Z = \\frac{M}{n F} \\implies W = \\frac{M I t}{n F}",
         "note": "১ মোল ইলেকট্রনের চার্জ = ৯৬৫০০ কুলম্ব"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
       "examType": "BUET Admission Hard",
-      "question": "CuSO4 দ্রবণে 5 A প্রবাহ 30 min চালনা করলে ক্যাথোডে কত গ্রাম তামাক (Cu) জমা হবে? [Cu = 63.5]",
+      "question": "CuSO4 দ্রবণে 5 A প্রবাহ 30 min চালনা করলে ক্যাথোডে কত গ্রাম তামা (Cu) জমা হবে? [Cu = 63.5]",
       "answer": "W = \\frac{63.5 \\times 5 \\times (30 \\times 60)}{2 \\times 96500} = \\frac{571500}{193000} = 2.961\\text{ g}"
     }
+  ],
+  "memorize": {
+    "trick": "m = ZIt = MIt/(nF), তাই electrochemical equivalent Z = M/(nF)—শুধু M/n নয়। এক Faraday charge এক gram-equivalent পদার্থ জমায়।"
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "nernst-equation",
+    "faraday-second-law",
+    "conductance-kohlrausch"
   ]
 }

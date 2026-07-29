@@ -1,0 +1,54 @@
+{
+  "id": "percentage-composition",
+  "chapter": "quantitative-chem",
+  "title": "Percentage Composition",
+  "titleBn": "শতকরা সংযুক্তি",
+  "summary": "% element",
+  "latex": "\\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "mass of element in formula, molar mass",
+      "meaning": "% element",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "যৌগে মৌলের ভর অনুপাত × ১০০।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "শতকরা সংযুক্তি এর সূত্রটি লেখো। (ইঙ্গিত: যৌগে মৌলের ভর অনুপাত × ১০০।)",
+      "answer": "\\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100"
+    }
+  ],
+  "memorize": {
+    "trick": "যৌগে মৌলের ভর অনুপাত × ১০০।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "normality-relation",
+    "stoichiometry-mass",
+    "molarity-molality"
+  ]
+}

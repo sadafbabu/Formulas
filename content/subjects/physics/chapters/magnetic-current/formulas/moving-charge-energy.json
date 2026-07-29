@@ -4,17 +4,48 @@
   "titleBn": "গতিশীল আধানের গতিশক্তি",
   "latex": "E_k = \\frac{1}{2} m v^2 = \\frac{q^2 B^2 r^2}{2m}",
   "summary": "চৌম্বক ক্ষেত্রে বৃত্তাকার ঘূর্ণনে গতিশীল আধানের অর্জিত গতিশক্তি।",
-  "tags": ["hsc", "eng-admission", "varsity", "2-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 2,
-  "subjects": ["physics"],
-  "related": ["cyclotron-radius", "lorentz"],
+  "order": 200,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "cyclotron-radius",
+    "lorentz"
+  ],
   "symbols": [
-    { "symbol": "E_k", "meaning": "গতিশক্তি", "unit": "J বা eV" },
-    { "symbol": "q", "meaning": "কণার আধান", "unit": "C" },
-    { "symbol": "B", "meaning": "চৌম্বক ক্ষেত্র", "unit": "T" },
-    { "symbol": "r", "meaning": "ঘূর্ণন পথের ব্যাসার্ধ", "unit": "m" },
-    { "symbol": "m", "meaning": "কণার ভর", "unit": "kg" }
+    {
+      "symbol": "E_k",
+      "meaning": "গতিশক্তি",
+      "unit": "J বা eV"
+    },
+    {
+      "symbol": "q",
+      "meaning": "কণার আধান",
+      "unit": "C"
+    },
+    {
+      "symbol": "B",
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    },
+    {
+      "symbol": "r",
+      "meaning": "ঘূর্ণন পথের ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "m",
+      "meaning": "কণার ভর",
+      "unit": "kg"
+    }
   ],
   "derivation": {
     "lead": "ব্যাসার্ধ r থেকে বেগ v প্রতিস্থাপন:",
@@ -25,13 +56,22 @@
         "note": "ঘূর্ণন ব্যাসার্ধ দ্বিগুণ করলে গতিশক্তি চারগুণ বৃদ্ধি পায়।"
       }
     ],
-    "assumptions": ["কণাটির বেগ অ-আপেক্ষিক (Non-relativistic v << c)।"]
+    "assumptions": [
+      "কণাটির বেগ অ-আপেক্ষিক (Non-relativistic v << c)।"
+    ]
   },
   "questions": [
     {
       "examType": "BUET / CKRU (Hard)",
-      "question": "একটি ডিউটেরন (m = 3.34 × 10⁻²⁷ kg, q = 1.6 × 10⁻¹十九 C) 0.5 m ব্যাসার্ধের বৃত্তাকার পথে 1.2 T চৌম্বক ক্ষেত্রে ঘুরলে এর সর্বোচ্চ গতিশক্তি কত MeV হবে?",
+      "question": "একটি ডিউটেরন (m = 3.34 × 10⁻²⁷ kg, q = 1.6 × 10⁻¹⁹ C) 0.5 m ব্যাসার্ধের বৃত্তাকার পথে 1.2 T চৌম্বক ক্ষেত্রে ঘুরলে এর সর্বোচ্চ গতিশক্তি কত MeV হবে?",
       "answer": "E_k = \\frac{(1.6 \\times 10^{-19})^2 \\times (1.2)^2 \\times (0.5)^2}{2 \\times 3.34 \\times 10^{-27}} = 1.381 \\times 10^{-12} \\text{ J} = \\frac{1.381 \\times 10^{-12}}{1.6 \\times 10^{-13}} = 8.63 \\text{ MeV}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "E = q²B²r²/(2m) — r = mv/(qB) থেকে v বের করে ½mv²-এ বসালেই আসে। উপরে সব বর্গ (q², B², r²), নিচে 2m।",
+    "steps": [
+      "r = mv/(qB) থেকে v = qBr/m।",
+      "E = ½mv² = ½m·(qBr/m)² = q²B²r²/(2m)।"
+    ]
+  }
 }

@@ -1,0 +1,53 @@
+{
+  "id": "bayes-theorem",
+  "chapter": "probability",
+  "title": "Bayes' Theorem",
+  "titleBn": "বেইজের উপপাদ্য",
+  "summary": "পosterior সম্ভাব্যতা",
+  "latex": "P(A|B)=\\frac{P(B|A)P(A)}{P(B)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "P, A, B",
+      "meaning": "পosterior সম্ভাব্যতা",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "P(B|A)P(A)/P(B) — উল্টো শর্তাধীন সম্ভাব্যতা।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P(A|B)=\\frac{P(B|A)P(A)}{P(B)}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বেইজের উপপাদ্য এর সূত্রটি লেখো। (ইঙ্গিত: P(B|A)P(A)/P(B) — উল্টো শর্তাধীন সম্ভাব্যতা।)",
+      "answer": "P(A|B)=\\frac{P(B|A)P(A)}{P(B)}"
+    }
+  ],
+  "memorize": {
+    "trick": "P(B|A)P(A)/P(B) — উল্টো শর্তাধীন সম্ভাব্যতা।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "independent-events-probability",
+    "total-probability-theorem",
+    "multiplication-rule-probability"
+  ]
+}

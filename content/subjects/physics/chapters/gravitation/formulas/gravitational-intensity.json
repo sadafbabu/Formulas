@@ -1,0 +1,53 @@
+{
+  "id": "gravitational-intensity",
+  "chapter": "gravitation",
+  "title": "Gravitational Field Intensity",
+  "titleBn": "মহাকর্ষ ক্ষেত্র প্রাবল্য",
+  "summary": "মহাকর্ষ ক্ষেত্র ও বিভবের সম্পর্ক",
+  "latex": "\\vec g=-\\frac{GM}{r^2}\\hat r,\\quad\\vec F=m\\vec g,\\quad g=-\\frac{dV}{dr}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "vec, g, G, M",
+      "meaning": "মহাকর্ষ ক্ষেত্র ও বিভবের সম্পর্ক",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "মহাকর্ষ ক্ষেত্র ও বিভবের সম্পর্ক",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\vec g=-\\frac{GM}{r^2}\\hat r,\\quad\\vec F=m\\vec g,\\quad g=-\\frac{dV}{dr}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "মহাকর্ষ ক্ষেত্র প্রাবল্য এর সূত্রটি লেখো। (ইঙ্গিত: g = F/m; V এর ঋণাত্মক ঢাল = g।)",
+      "answer": "\\vec g=-\\frac{GM}{r^2}\\hat r,\\quad\\vec F=m\\vec g,\\quad g=-\\frac{dV}{dr}"
+    }
+  ],
+  "memorize": {
+    "trick": "g = F/m; V এর ঋণাত্মক ঢাল = g।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "newtons-gravitation",
+    "gravitational-potential"
+  ]
+}

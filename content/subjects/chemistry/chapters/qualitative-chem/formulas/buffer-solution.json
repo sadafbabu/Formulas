@@ -4,14 +4,37 @@
   "title": "Buffer Solution & Henderson-Hasselbalch",
   "titleBn": "বাফার দ্রবণ ও পিএইচ সূত্র",
   "summary": "বাফার দ্রবণের pH নির্ণয়ের Henderson-Hasselbalch সমীকরণ",
-  "latex": "\\text{pH} = \\text{p}K_a + \\log\\frac{[A^-]}{[HA]}, \\quad \\text{pOH} = \\text{p}K_b + \\log\\frac{[B^+]}{[BOH]}, \\quad \\text{pH} + \\text{pOH} = 14",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "latex": "\\mathrm{pH}=pK_a+\\log\\frac{[A^-]}{[HA]},\\quad \\mathrm{pOH}=pK_b+\\log\\frac{[B^+]}{[BOH]},\\quad \\mathrm{pH}+\\mathrm{pOH}=14",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 60,
   "symbols": [
-    { "symbol": "\\text{pH}", "meaning": "হাইড্রোজেন আয়নের ঋণাত্মক লগ", "unit": "মাত্রাহীন" },
-    { "symbol": "K_a", "meaning": "অম্লের বিয়োজন ধ্রুবক", "unit": "mol/L" },
-    { "symbol": "[A^-]", "meaning": "সংযুগী ভিত্তির ঘনমাত্রা", "unit": "mol/L" },
-    { "symbol": "[HA]", "meaning": "দুর্বল অম্লের ঘনমাত্রা", "unit": "mol/L" }
+    {
+      "symbol": "\\text{pH}",
+      "meaning": "হাইড্রোজেন আয়নের ঋণাত্মক লগ",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "K_a",
+      "meaning": "অম্লের বিয়োজন ধ্রুবক",
+      "unit": "mol/L"
+    },
+    {
+      "symbol": "[A^-]",
+      "meaning": "সংযুগী ভিত্তির ঘনমাত্রা",
+      "unit": "mol/L"
+    },
+    {
+      "symbol": "[HA]",
+      "meaning": "দুর্বল অম্লের ঘনমাত্রা",
+      "unit": "mol/L"
+    }
   ],
   "derivation": {
     "lead": "বাফার দ্রবণ pH-এর পরিবর্তন প্রতিরোধ করে। দুর্বল অম্ল + তার লবণ বা দুর্বল ক্ষার + তার লবণ দিয়ে তৈরি।",
@@ -21,6 +44,9 @@
         "latex": "\\text{pH} = -\\log[H^+], \\quad \\text{pOH} = -\\log[OH^-], \\quad K_w = [H^+][OH^-] = 10^{-14}",
         "note": "বিশুদ্ধ পানির pH = 7, অম্লীয় দ্রবণ: pH < 7, ক্ষারীয়: pH > 7"
       }
+    ],
+    "assumptions": [
+      "pH + pOH = 14 ও neutral pH = 7 রূপে 25°C; অন্য তাপমাত্রায় pH+pOH=pKw"
     ]
   },
   "questions": [
@@ -29,5 +55,16 @@
       "question": "0.1 M CH₃COOH এবং 0.1 M CH₃COONa দ্রবণের pH কত? [Ka = 1.8 × 10⁻⁵]",
       "answer": "\\text{pH} = -\\log(1.8 \\times 10^{-5}) + \\log\\frac{0.1}{0.1} = 4.74 + 0 = 4.74"
     }
+  ],
+  "memorize": {
+    "trick": "pH = pKa + log([লবণ]/[অম্ল]) — সমান হলে pH = pKa। লবণ বাড়লে pH বাড়ে।"
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "ph-poh-water",
+    "periodic-trends",
+    "electron-configuration"
   ]
 }

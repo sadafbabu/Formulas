@@ -1,0 +1,54 @@
+{
+  "id": "significant-figures-rule",
+  "chapter": "measurement",
+  "title": "Significant Figures",
+  "titleBn": "সার্থক অঙ্ক",
+  "summary": "নির্ভুল অঙ্ক গণনা",
+  "latex": "\\text{s.f. = all certain digits + first uncertain digit}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "s.f. = all certain digits + first uncertain digit",
+      "meaning": "নির্ভুল অঙ্ক গণনা",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{s.f. = all certain digits + first uncertain digit}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সার্থক অঙ্ক এর সূত্রটি লেখো। (ইঙ্গিত: গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।)",
+      "answer": "\\text{s.f. = all certain digits + first uncertain digit}"
+    }
+  ],
+  "memorize": {
+    "trick": "গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "error-propagation-power",
+    "least-count-vernier",
+    "error-propagation-product"
+  ]
+}

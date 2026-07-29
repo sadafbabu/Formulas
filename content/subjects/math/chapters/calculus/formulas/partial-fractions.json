@@ -1,0 +1,53 @@
+{
+  "id": "partial-fractions",
+  "chapter": "calculus",
+  "title": "Partial Fractions",
+  "titleBn": "আংশিক ভগ্নাংশ",
+  "summary": "decompose rational",
+  "latex": "\\frac{P(x)}{Q(x)}=\\sum\\frac{A_i}{(x-a_i)^{n_i}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 170,
+  "symbols": [
+    {
+      "symbol": "P, x, Q, sum",
+      "meaning": "decompose rational",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Denominator factor → A/(x−a) terms; then integrate।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{P(x)}{Q(x)}=\\sum\\frac{A_i}{(x-a_i)^{n_i}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আংশিক ভগ্নাংশ এর সূত্রটি লেখো। (ইঙ্গিত: Denominator factor → A/(x−a) terms; then integrate।)",
+      "answer": "\\frac{P(x)}{Q(x)}=\\sum\\frac{A_i}{(x-a_i)^{n_i}}"
+    }
+  ],
+  "memorize": {
+    "trick": "Denominator factor → A/(x−a) terms; then integrate।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "integration-by-parts",
+    "trapezoidal-rule",
+    "taylor-maclaurin"
+  ]
+}

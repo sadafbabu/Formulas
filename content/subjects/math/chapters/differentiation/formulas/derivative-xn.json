@@ -1,0 +1,53 @@
+{
+  "id": "derivative-xn",
+  "chapter": "differentiation",
+  "title": "Power Rule",
+  "titleBn": "ঘাত নিয়ম",
+  "summary": "nxⁿ⁻¹",
+  "latex": "\\frac{d}{dx}x^n=nx^{n-1}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "d, x, n",
+      "meaning": "nxⁿ⁻¹",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "nxⁿ⁻¹ — ঘাত সামনে এনে এক কমাও।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{d}{dx}x^n=nx^{n-1}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ঘাত নিয়ম এর সূত্রটি লেখো। (ইঙ্গিত: ঘাত সামনে এনে এক কমাও।)",
+      "answer": "\\frac{d}{dx}x^n=nx^{n-1}"
+    }
+  ],
+  "memorize": {
+    "trick": "ঘাত সামনে এনে এক কমাও।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "derivative-definition",
+    "derivative-trig",
+    "derivative-exp-log"
+  ]
+}

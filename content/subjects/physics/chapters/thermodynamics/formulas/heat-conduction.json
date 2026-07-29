@@ -1,0 +1,52 @@
+{
+  "id": "heat-conduction",
+  "chapter": "thermodynamics",
+  "title": "Heat Conduction",
+  "titleBn": "তাপ পরিবহন (Fourier)",
+  "summary": "পরিবাহী তাপপ্রবাহের হার",
+  "latex": "\\frac{dQ}{dt}=KA\\frac{\\Delta T}{L},\\quad R_{th}=\\frac{L}{KA}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "d, Q, t, K",
+      "meaning": "পরিবাহী তাপপ্রবাহের হার",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "হার ∝ A ও ΔT, ∝ 1/L — Ohm-এর ছাঁচ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{dQ}{dt}=KA\\frac{\\Delta T}{L},\\quad R_{th}=\\frac{L}{KA}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "তাপ পরিবহন (Fourier) এর সূত্রটি লেখো। (ইঙ্গিত: হার ∝ A ও ΔT, ∝ 1/L — Ohm-এর ছাঁচ।)",
+      "answer": "\\frac{dQ}{dt}=KA\\frac{\\Delta T}{L},\\quad R_{th}=\\frac{L}{KA}"
+    }
+  ],
+  "memorize": {
+    "trick": "হার ∝ A ও ΔT, ∝ 1/L — Ohm-এর ছাঁচ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "calorimetry"
+  ]
+}

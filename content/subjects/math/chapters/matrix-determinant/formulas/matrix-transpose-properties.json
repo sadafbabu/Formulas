@@ -1,0 +1,53 @@
+{
+  "id": "matrix-transpose-properties",
+  "chapter": "matrix-determinant",
+  "title": "Transpose Properties",
+  "titleBn": "ট্রান্সপোজ ধর্ম",
+  "summary": "(AB)ᵀ=BᵀAᵀ",
+  "latex": "(AB)^T=B^TA^T,\\quad (A^T)^T=A",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "A, B, T",
+      "meaning": "(AB)ᵀ=BᵀAᵀ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "গুণের ট্রান্সপোজে ক্রম উল্টো।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "(AB)^T=B^TA^T,\\quad (A^T)^T=A",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ট্রান্সপোজ ধর্ম এর সূত্রটি লেখো। (ইঙ্গিত: গুণের ট্রান্সপোজে ক্রম উল্টো।)",
+      "answer": "(AB)^T=B^TA^T,\\quad (A^T)^T=A"
+    }
+  ],
+  "memorize": {
+    "trick": "গুণের ট্রান্সপোজে ক্রম উল্টো।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "determinant-properties",
+    "determinant-3x3-expansion",
+    "cramers-rule"
+  ]
+}

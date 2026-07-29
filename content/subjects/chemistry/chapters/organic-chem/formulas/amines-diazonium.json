@@ -1,0 +1,73 @@
+{
+  "id": "amines-diazonium",
+  "chapter": "organic-chem",
+  "title": "Amines & Diazonium Salts",
+  "titleBn": "অ্যামিনের ক্ষারত্ব, ডায়াজোনিয়াম লবণ ও azo coupling",
+  "summary": "Amine basicity, aniline diazotization ও diazonium থেকে গুরুত্বপূর্ণ substitution/conversion।",
+  "latex": "\\ce{C6H5NH2 + NaNO2 + 2HCl ->[0-5 ^\\circ C] C6H5N2+Cl- + NaCl + 2H2O};\\quad \\ce{ArN2+ ->[H2O,\\Delta] ArOH + N2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 130,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "benzene-reactions",
+    "directing-effects",
+    "functional-groups"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\ce{ArN2+}",
+      "meaning": "aryl diazonium ion",
+      "unit": "—"
+    },
+    {
+      "symbol": "K_b",
+      "meaning": "base ionization constant",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Amine-এর nitrogen lone pair proton গ্রহণ করে; aniline-এ lone pair ring-এ delocalized হওয়ায় basicity কম।",
+    "steps": [
+      {
+        "title": "basicity",
+        "latex": "\\ce{NH3 + H2O <=> NH4+ + OH-}",
+        "note": "Gas phase-এ alkyl donation basicity বাড়ায়; aqueous phase-এ solvation ও steric effect-ও গুরুত্বপূর্ণ।"
+      },
+      {
+        "title": "diazotization",
+        "latex": "\\ce{ArNH2 ->[NaNO2/HCl,\\ 0-5^\\circ C] ArN2+Cl-}",
+        "note": "Aryl diazonium salt কেবল ঠান্ডায় স্থিতিশীল।"
+      },
+      {
+        "title": "conversion map",
+        "latex": "\\ce{ArN2+ ->[CuCl] ArCl;\\ ->[CuCN] ArCN;\\ ->[H2O] ArOH;\\ ->[H3PO2] ArH}",
+        "note": "Diazonium group ভালো leaving group; N₂ gas বেরিয়ে reaction চালায়।"
+      }
+    ],
+    "assumptions": [
+      "Diazonium salt ০–৫°C-এ প্রস্তুত ও ব্যবহৃত।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Eng Admission",
+      "question": "Aniline থেকে phenol তৈরির reagent sequence কী?",
+      "answer": "\\ce{C6H5NH2 ->[NaNO2/HCl,\\ 0-5^\\circ C] C6H5N2+Cl- ->[H2O,\\Delta] C6H5OH}"
+    }
+  ],
+  "memorize": {
+    "trick": "Aniline→diazonium করতে NaNO₂/HCl এবং ০–৫°C বাধ্যতামূলক। Diazonium হলো conversion hub: CuCl→Cl, CuCN→CN, H₂O/heat→OH, H₃PO₂→H।",
+    "steps": [
+      "Aniline NH₃-এর চেয়ে কম basic—lone pair benzene ring-এ delocalized।",
+      "Azo coupling-এ রঙিন dye তৈরি হয়।"
+    ]
+  }
+}

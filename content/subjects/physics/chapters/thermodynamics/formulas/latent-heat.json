@@ -1,0 +1,53 @@
+{
+  "id": "latent-heat",
+  "chapter": "thermodynamics",
+  "title": "Latent Heat",
+  "titleBn": "সুপ্ত তাপ",
+  "summary": "Q=mL",
+  "latex": "Q=mL",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 150,
+  "symbols": [
+    {
+      "symbol": "Q, m, L",
+      "meaning": "Q=mL",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "তাপমাত্রা না বাড়িয়ে দশা পরিবর্তনের তাপ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "Q=mL",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সুপ্ত তাপ এর সূত্রটি লেখো। (ইঙ্গিত: তাপমাত্রা না বাড়িয়ে দশা পরিবর্তনের তাপ।)",
+      "answer": "Q=mL"
+    }
+  ],
+  "memorize": {
+    "trick": "তাপমাত্রা না বাড়িয়ে দশা পরিবর্তনের তাপ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "heat-capacity-specific",
+    "thermal-expansion-linear"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "cells-series-parallel",
+  "chapter": "current-electricity",
+  "title": "Cells in Series & Parallel",
+  "titleBn": "কোষের শ্রেণী ও সমান্তরাল সংযোগ",
+  "summary": "n কোষ শ্রেণী/সমান্তরালে সমতুল্য emf ও r",
+  "latex": "\\text{series: }E_{eq}=nE,\\ r_{eq}=nr;\\quad\\text{parallel: }E_{eq}=E,\\ r_{eq}=r/m",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "series:, E, e, q",
+      "meaning": "n কোষ শ্রেণী/সমান্তরালে সমতুল্য emf ও r",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "n কোষ শ্রেণী/সমান্তরালে সমতুল্য emf ও r",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{series: }E_{eq}=nE,\\ r_{eq}=nr;\\quad\\text{parallel: }E_{eq}=E,\\ r_{eq}=r/m",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কোষের শ্রেণী ও সমান্তরাল সংযোগ এর সূত্রটি লেখো। (ইঙ্গিত: শ্রেণীতে E যোগ; সমান্তরালে E এক, r ভাগ।)",
+      "answer": "\\text{series: }E_{eq}=nE,\\ r_{eq}=nr;\\quad\\text{parallel: }E_{eq}=E,\\ r_{eq}=r/m"
+    }
+  ],
+  "memorize": {
+    "trick": "শ্রেণীতে E যোগ; সমান্তরালে E এক, r ভাগ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "emf-internal-resistance"
+  ]
+}

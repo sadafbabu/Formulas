@@ -1,0 +1,60 @@
+{
+  "title": "Pascal Identity & Properties",
+  "titleBn": "পাস্কাল অভেদ ও ধর্মাবলি",
+  "summary": "পাস্কাল অভেদ ও দ্বিপদী সহগের ধর্ম",
+  "latex": "\\binom{n}{r} + \\binom{n}{r+1} = \\binom{n+1}{r+1}, \\quad \\binom{n}{r}\\binom{r}{k} = \\binom{n}{k}\\binom{n-k}{r-k}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "n, r, k",
+      "meaning": "অঋণাত্মক পূর্ণসংখ্যা",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "সংমিশ্রণ সংজ্ঞা থেকে পাস্কাল অভেদ।",
+    "steps": [
+      {
+        "title": "পাস্কাল অভেদ",
+        "latex": "\\binom{n}{r}+\\binom{n}{r+1} = \\binom{n+1}{r+1}",
+        "note": "পাস্কাল ত্রিভুজ নির্মাণের ভিত্তি"
+      }
+    ],
+    "assumptions": [
+      "0 ≤ r ≤ n",
+      "দ্বিতীয় identity-তে 0 ≤ k ≤ r ≤ n"
+    ]
+  },
+  "id": "pascal-identity",
+  "chapter": "binomial-theorem",
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "Pascal-এর অভেদ কী?",
+      "answer": "\\binom{n}{r}=\\binom{n-1}{r}+\\binom{n-1}{r-1}"
+    }
+  ],
+  "memorize": {
+    "trick": "পাস্কাল: C(n,r) + C(n,r+1) = C(n+1,r+1) — 'পাশাপাশি দুটো যোগ করলে নিচের সারির মাঝেরটা'। পাস্কালের ত্রিভুজ এভাবেই তৈরি হয়।",
+    "steps": [
+      "ত্রিভুজে যেকোনো সংখ্যা = তার উপরের দুই সংখ্যার যোগফল — এটিই এই অভেদ।",
+      "C(n,0) = C(n,n) = 1 — দুই প্রান্ত সর্বদা ১।",
+      "n-তম সারির যোগফল = 2ⁿ।"
+    ]
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "sum-binomial-coeff",
+    "binomial-middle-term",
+    "greatest-term"
+  ]
+}

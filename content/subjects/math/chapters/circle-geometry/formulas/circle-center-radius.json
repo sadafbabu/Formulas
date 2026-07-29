@@ -1,0 +1,53 @@
+{
+  "id": "circle-center-radius",
+  "chapter": "circle-geometry",
+  "title": "Centre-Radius Form",
+  "titleBn": "কেন্দ্র–ব্যাসার্ধ রূপ",
+  "summary": "(x−h)²+(y−k)²=r²",
+  "latex": "(x-h)^2+(y-k)^2=r^2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "x, h, y, k",
+      "meaning": "(x−h)²+(y−k)²=r²",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "কেন্দ্র (h,k), ব্যাসার্ধ r — সবচেয়ে সোজা রূপ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "(x-h)^2+(y-k)^2=r^2",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কেন্দ্র–ব্যাসার্ধ রূপ এর সূত্রটি লেখো। (ইঙ্গিত: কেন্দ্র (h,k), ব্যাসার্ধ r — সবচেয়ে সোজা রূপ।)",
+      "answer": "(x-h)^2+(y-k)^2=r^2"
+    }
+  ],
+  "memorize": {
+    "trick": "কেন্দ্র (h,k), ব্যাসার্ধ r — সবচেয়ে সোজা রূপ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "circle-general-equation",
+    "circle-diameter-form",
+    "tangent-circle-point"
+  ]
+}

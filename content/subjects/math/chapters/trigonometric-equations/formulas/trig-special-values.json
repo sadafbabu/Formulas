@@ -1,0 +1,73 @@
+{
+  "id": "trig-special-values",
+  "chapter": "trigonometric-equations",
+  "title": "Special Angles & Reduction",
+  "titleBn": "বিশেষ কোণের মান ও quadrant reduction",
+  "summary": "0°, 30°, 45°, 60°, 90°-এর exact values এবং ASTC quadrant sign/reduction formulas।",
+  "latex": "\\sin(90^\\circ-\\theta)=\\cos\\theta,\\quad \\sin(180^\\circ-\\theta)=\\sin\\theta,\\quad \\cos(180^\\circ-\\theta)=-\\cos\\theta",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "compound-angle",
+    "multiple-angle",
+    "general-solutions-trig"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\theta",
+      "meaning": "reference angle",
+      "unit": "° বা rad"
+    },
+    {
+      "symbol": "ASTC",
+      "meaning": "quadrant sign mnemonic",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Unit circle-এ coordinates (cosθ,sinθ); symmetry ব্যবহার করলে reduction signs আসে।",
+    "steps": [
+      {
+        "title": "special values",
+        "latex": "(\\sin0^\\circ,\\sin30^\\circ,\\sin45^\\circ,\\sin60^\\circ,\\sin90^\\circ)=\\left(0,\\frac12,\\frac{\\sqrt2}{2},\\frac{\\sqrt3}{2},1\\right)",
+        "note": "Sin-এর জন্য √0 থেকে √4; cos একই list উল্টো।"
+      },
+      {
+        "title": "quadrant signs",
+        "latex": "I:\\text{all},\\ II:\\sin,\\ III:\\tan,\\ IV:\\cos",
+        "note": "ASTC: All Students Take Calculus।"
+      },
+      {
+        "title": "cofunction",
+        "latex": "\\sin(90^\\circ-\\theta)=\\cos\\theta,\\quad\\tan(90^\\circ-\\theta)=\\cot\\theta",
+        "note": "90°±θ হলে function বদলায়; 180°±θ হলে function একই, sign quadrant অনুযায়ী।"
+      }
+    ],
+    "assumptions": [
+      "Angles same unit-এ।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "\\sin150^\\circ+\\cos120^\\circ+\\tan225^\\circ",
+      "answer": "\\frac12-\\frac12+1=1"
+    }
+  ],
+  "memorize": {
+    "trick": "Sin values: √0,√1,√2,√3,√4 সব ২ দিয়ে ভাগ; cos উল্টো। Sign-এর ASTC: quadrant I All, II Sin, III Tan, IV Cos positive।",
+    "steps": [
+      "90° এ function বদলায় (sin↔cos, tan↔cot); 180° এ বদলায় না।",
+      "Sign reference angle নয়, actual quadrant ঠিক করে।"
+    ]
+  }
+}

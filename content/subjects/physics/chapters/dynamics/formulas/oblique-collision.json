@@ -1,0 +1,52 @@
+{
+  "id": "oblique-collision",
+  "chapter": "dynamics",
+  "title": "Oblique Collision",
+  "titleBn": "তির্যক সংঘর্ষ",
+  "summary": "মসৃণ তল বরাবর তির্যক সংঘর্ষ",
+  "latex": "u_{1\\parallel}=v_{1\\parallel},\\quad m_1u_{1\\perp}+m_2u_{2\\perp}=m_1v_{1\\perp}+m_2v_{2\\perp}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 160,
+  "symbols": [
+    {
+      "symbol": "u, parallel, v, m",
+      "meaning": "মসৃণ তল বরাবর তির্যক সংঘর্ষ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "মসৃণ তল বরাবর তির্যক সংঘর্ষ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "u_{1\\parallel}=v_{1\\parallel},\\quad m_1u_{1\\perp}+m_2u_{2\\perp}=m_1v_{1\\perp}+m_2v_{2\\perp}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "তির্যক সংঘর্ষ এর সূত্রটি লেখো। (ইঙ্গিত: স্পর্শক বরাবর বেগ অপরিবর্তিত; অভিলম্ব বরাবর 1D সংঘর্ষ।)",
+      "answer": "u_{1\\parallel}=v_{1\\parallel},\\quad m_1u_{1\\perp}+m_2u_{2\\perp}=m_1v_{1\\perp}+m_2v_{2\\perp}"
+    }
+  ],
+  "memorize": {
+    "trick": "স্পর্শক বরাবর বেগ অপরিবর্তিত; অভিলম্ব বরাবর 1D সংঘর্ষ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "elastic-collision"
+  ]
+}

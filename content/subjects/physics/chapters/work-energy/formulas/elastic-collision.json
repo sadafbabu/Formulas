@@ -1,0 +1,70 @@
+{
+  "title": "Elastic & Inelastic Collision",
+  "titleBn": "স্থিতিস্থাপক ও অস্থিতিস্থাপক সংঘর্ষ",
+  "summary": "১D স্থিতিস্থাপক সংঘর্ষে ভরবেগ ও গতিশক্তি সংরক্ষণ",
+  "latex": "m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2, \\quad v_1 = \\frac{m_1-m_2}{m_1+m_2}u_1 + \\frac{2m_2}{m_1+m_2}u_2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "m_1, m_2",
+      "meaning": "দুটি বস্তুর ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "u_1, u_2",
+      "meaning": "সংঘর্ষ-পূর্ব বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "v_1, v_2",
+      "meaning": "সংঘর্ষ-পর বেগ",
+      "unit": "m/s"
+    }
+  ],
+  "derivation": {
+    "lead": "ভরবেগ ও গতিশক্তি সংরক্ষণ সমীকরণ একসাথে সমাধান।",
+    "steps": [
+      {
+        "title": "স্থিতিস্থাপক সংঘর্ষ",
+        "latex": "v_1-v_2 = -(u_1-u_2)",
+        "note": "প্রত্যাবর্তন গুণাঙ্ক e=1; সম্পূর্ণ অস্থিতিস্থাপকে e=0"
+      }
+    ],
+    "assumptions": [
+      "একমাত্রিক সংঘর্ষ"
+    ]
+  },
+  "id": "elastic-collision",
+  "chapter": "work-energy",
+  "questions": [
+    {
+      "examType": "Eng / HSC",
+      "question": "স্থিতিস্থাপক সংঘর্ষে কি কি সংরক্ষিত?",
+      "answer": "\\text{ভরবেগ ও গতিশক্তি উভয়ই সংরক্ষিত}"
+    }
+  ],
+  "memorize": {
+    "trick": "সব সংঘর্ষে ভরবেগ রক্ষা হয়, কিন্তু গতিশক্তি কেবল স্থিতিস্থাপক সংঘর্ষে। সমান ভরে সংঘর্ষ হলে বেগ 'বিনিময়' হয়ে যায় — এটাই সবচেয়ে বেশি আসে।",
+    "steps": [
+      "ভরবেগ: m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂ (সব সংঘর্ষে)।",
+      "স্থিতিস্থাপক হলে অতিরিক্ত শর্ত: আপাত বেগ উল্টে যায়, u₁ − u₂ = v₂ − v₁।",
+      "m₁ = m₂ ও u₂ = 0 হলে v₁ = 0, v₂ = u₁ — পুরো বেগ হস্তান্তর।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "power-efficiency",
+    "conservation-mechanical-energy",
+    "kinetic-energy"
+  ]
+}

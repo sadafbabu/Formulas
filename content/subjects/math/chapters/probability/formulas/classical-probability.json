@@ -1,0 +1,52 @@
+{
+  "id": "classical-probability",
+  "chapter": "probability",
+  "title": "Classical Probability",
+  "titleBn": "ধ্রুবক সম্ভাব্যতা",
+  "summary": "P(E)=favourable/total",
+  "latex": "P(E)=\\frac{n(E)}{n(S)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "P, E, n, S",
+      "meaning": "P(E)=favourable/total",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সমান সম্ভাব্য নমুনা বিন্দু ধরে; 0≤P(E)≤1।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P(E)=\\frac{n(E)}{n(S)}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ধ্রুবক সম্ভাব্যতা এর সূত্রটি লেখো। (ইঙ্গিত: সমান সম্ভাব্য নমুনা বিন্দু ধরে; 0≤P(E)≤1।)",
+      "answer": "P(E)=\\frac{n(E)}{n(S)}"
+    }
+  ],
+  "memorize": {
+    "trick": "সমান সম্ভাব্য নমুনা বিন্দু ধরে; 0≤P(E)≤1।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "complement-probability",
+    "addition-rule-probability"
+  ]
+}

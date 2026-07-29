@@ -1,0 +1,53 @@
+{
+  "id": "binomial-probability",
+  "chapter": "probability",
+  "title": "Binomial Probability",
+  "titleBn": "দ্বিপদী সম্ভাব্যতা",
+  "summary": "nCr p^r q^(n−r)",
+  "latex": "P(X=r)=\\binom{n}{r}p^r(1-p)^{n-r}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "P, X, r, binom",
+      "meaning": "nCr p^r q^(n−r)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "n বার স্বাধীন trial; সফল r বার; q=1−p।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P(X=r)=\\binom{n}{r}p^r(1-p)^{n-r}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "দ্বিপদী সম্ভাব্যতা এর সূত্রটি লেখো। (ইঙ্গিত: n বার স্বাধীন trial; সফল r বার; q=1−p।)",
+      "answer": "P(X=r)=\\binom{n}{r}p^r(1-p)^{n-r}"
+    }
+  ],
+  "memorize": {
+    "trick": "n বার স্বাধীন trial; সফল r বার; q=1−p।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "total-probability-theorem",
+    "binomial-mean-variance",
+    "bayes-theorem"
+  ]
+}

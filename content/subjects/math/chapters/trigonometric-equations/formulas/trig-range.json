@@ -1,0 +1,51 @@
+{
+  "id": "trig-range",
+  "chapter": "trigonometric-equations",
+  "title": "Range of Trig Expression",
+  "titleBn": "ত্রিকোণমিতিক রাশির সীমা",
+  "summary": "a cosθ + b sinθ এর রেঞ্জ",
+  "latex": "a\\cos\\theta+b\\sin\\theta\\in\\big[-\\sqrt{a^2+b^2},\\sqrt{a^2+b^2}\\big]",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "a, theta, b, in",
+      "meaning": "a cosθ + b sinθ এর রেঞ্জ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "a cosθ + b sinθ এর রেঞ্জ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "a\\cos\\theta+b\\sin\\theta\\in\\big[-\\sqrt{a^2+b^2},\\sqrt{a^2+b^2}\\big]",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ত্রিকোণমিতিক রাশির সীমা এর সূত্রটি লেখো। (ইঙ্গিত: রেঞ্জ = [−R, R], R=√(a²+b²)।)",
+      "answer": "a\\cos\\theta+b\\sin\\theta\\in\\big[-\\sqrt{a^2+b^2},\\sqrt{a^2+b^2}\\big]"
+    }
+  ],
+  "memorize": {
+    "trick": "রেঞ্জ = [−R, R], R=√(a²+b²)।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "linear-trig-form"
+  ]
+}

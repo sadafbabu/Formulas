@@ -1,0 +1,80 @@
+{
+  "id": "uncertainty-principle",
+  "chapter": "modern-physics",
+  "title": "Heisenberg Uncertainty Principle",
+  "titleBn": "হাইজেনবার্গের অনিশ্চয়তা নীতি",
+  "summary": "অবস্থান ও ভরবেগ একসাথে নিখুঁতভাবে জানা অসম্ভব; শক্তি ও সময়ের ক্ষেত্রেও একই।",
+  "latex": "\\Delta x \\cdot \\Delta p \\ge \\frac{h}{4\\pi}, \\quad \\Delta E \\cdot \\Delta t \\ge \\frac{h}{4\\pi}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "de-broglie-wavelength",
+    "bohr-radius-hydrogen",
+    "quantum-numbers"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\Delta x",
+      "meaning": "অবস্থানের অনিশ্চয়তা",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\Delta p",
+      "meaning": "ভরবেগের অনিশ্চয়তা",
+      "unit": "kg·m/s"
+    },
+    {
+      "symbol": "h",
+      "meaning": "প্ল্যাঙ্ক ধ্রুবক",
+      "unit": "J·s",
+      "value": "6.63×10⁻³⁴"
+    }
+  ],
+  "derivation": {
+    "lead": "কণার তরঙ্গধর্মের সরাসরি পরিণতি — তরঙ্গের অবস্থান ও তরঙ্গদৈর্ঘ্য একসাথে নিখুঁত হতে পারে না।",
+    "steps": [
+      {
+        "title": "মূল সম্পর্ক",
+        "latex": "\\Delta x \\cdot \\Delta p \\ge \\frac{h}{4\\pi} = \\frac{\\hbar}{2}",
+        "note": "একটির নিশ্চয়তা বাড়ালে অন্যটির অনিশ্চয়তা বাড়তে বাধ্য।"
+      },
+      {
+        "title": "শক্তি-সময় রূপ",
+        "latex": "\\Delta E \\cdot \\Delta t \\ge \\frac{h}{4\\pi}",
+        "note": "ক্ষণস্থায়ী অবস্থার শক্তি অনিশ্চিত — এ থেকেই বর্ণালি রেখার প্রশস্ততা আসে।"
+      },
+      {
+        "title": "ফল",
+        "latex": "\\text{বোরের নির্দিষ্ট কক্ষপথ ধারণা ভুল প্রমাণিত হয়}",
+        "note": "তাই অরবিটাল ও সম্ভাবনা ঘনত্বের ধারণা এসেছে।"
+      }
+    ],
+    "assumptions": [
+      "কোয়ান্টাম স্কেলে প্রযোজ্য; স্থূল বস্তুতে প্রভাব অগ্রাহ্য।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Varsity Admission",
+      "question": "একটি ইলেকট্রনের অবস্থান ১০⁻¹⁰ m নিখুঁতভাবে জানা গেলে ভরবেগের সর্বনিম্ন অনিশ্চয়তা কত?",
+      "answer": "\\Delta p \\ge \\frac{h}{4\\pi\\Delta x} = \\frac{6.63\\times10^{-34}}{4\\pi \\times 10^{-10}} \\approx 5.3\\times10^{-25}\\ \\text{kg·m/s}"
+    }
+  ],
+  "memorize": {
+    "trick": "গুণফলের সীমা h/4π — \"যত নিখুঁতভাবে অবস্থান জানবেন, তত অনিশ্চিত হবে ভরবেগ\"। এটি যন্ত্রের দোষ নয়, প্রকৃতির নিয়ম।",
+    "steps": [
+      "Δx·Δp ≥ h/4π এবং ΔE·Δt ≥ h/4π — দুই রূপ, একই নীতি।",
+      "ক্রিকেট বলে এই সীমা এত ছোট যে টের পাওয়া যায় না; ইলেকট্রনে এটাই মূল কথা।",
+      "এ কারণেই ইলেকট্রনের \"নির্দিষ্ট কক্ষপথ\" নেই, আছে অরবিটাল (সম্ভাবনার মেঘ)।"
+    ]
+  }
+}

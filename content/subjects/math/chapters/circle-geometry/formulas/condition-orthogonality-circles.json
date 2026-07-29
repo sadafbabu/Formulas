@@ -1,0 +1,52 @@
+{
+  "id": "condition-orthogonality-circles",
+  "chapter": "circle-geometry",
+  "title": "Orthogonal Circles",
+  "titleBn": "লম্ববৃত্ত",
+  "summary": "2g1g2+2f1f2=c1+c2",
+  "latex": "2g_1g_2+2f_1f_2=c_1+c_2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "g, f, c",
+      "meaning": "2g1g2+2f1f2=c1+c2",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ছেদকোণ ৯০° → d² = r₁²+r₂²।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "2g_1g_2+2f_1f_2=c_1+c_2",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "লম্ববৃত্ত এর সূত্রটি লেখো। (ইঙ্গিত: ছেদকোণ ৯০° → d² = r₁²+r₂²।)",
+      "answer": "2g_1g_2+2f_1f_2=c_1+c_2"
+    }
+  ],
+  "memorize": {
+    "trick": "ছেদকোণ ৯০° → d² = r₁²+r₂²।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "common-chord-circles",
+    "radical-axis"
+  ]
+}

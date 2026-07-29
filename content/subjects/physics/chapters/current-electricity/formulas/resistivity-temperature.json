@@ -11,10 +11,11 @@
     "2-star"
   ],
   "importance": 2,
+  "order": 40,
   "symbols": [
     {
       "symbol": "\\rho",
-      "meaning": "রোধ অপরিষ্কার সংখ্যা (resistivity)",
+      "meaning": "রোধাঙ্ক (resistivity)",
       "unit": "Ω·m"
     },
     {
@@ -47,9 +48,33 @@
         "note": "তাপমাত্রা বাড়লে ধাতুর রোধ বাড়ে"
       }
     ],
-    "assumptions": "রৈখিক তাপীয় নির্ভরতা"
+    "assumptions": [
+      "রৈখিক তাপীয় নির্ভরতা"
+    ]
   },
   "id": "resistivity-temperature",
   "chapter": "current-electricity",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "তাপমাত্রায় রোধের পরিবর্তন সূত্র কী?",
+      "answer": "R=R_0(1+\\alpha\\Delta T)"
+    }
+  ],
+  "memorize": {
+    "trick": "ρ = ρ₀(1 + αΔT) — ধাতুতে α ধনাত্মক (গরমে রোধ বাড়ে), অর্ধপরিবাহীতে ঋণাত্মক (গরমে রোধ কমে)। আর R = ρl/A — 'লম্বা ও চিকন তারের রোধ বেশি'।",
+    "steps": [
+      "R = ρl/A: দৈর্ঘ্য দ্বিগুণ → রোধ দ্বিগুণ; ব্যাসার্ধ দ্বিগুণ → ক্ষেত্রফল চারগুণ → রোধ এক-চতুর্থাংশ।",
+      "তার টেনে লম্বা করলে আয়তন স্থির থাকে, তাই R ∝ l² — এটি পরীক্ষায় খুব আসে।",
+      "রোধাঙ্ক ρ পদার্থের ধর্ম, রোধ R আকৃতির উপরও নির্ভর করে।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "wheatstone-bridge",
+    "drift-velocity",
+    "ohms-law"
+  ]
 }

@@ -1,0 +1,54 @@
+{
+  "id": "product-rule-diff",
+  "chapter": "differentiation",
+  "title": "Product Rule",
+  "titleBn": "গুণ নিয়ম",
+  "summary": "uv'+vu'",
+  "latex": "(uv)'=u'v+uv'",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "u, v",
+      "meaning": "uv'+vu'",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "প্রথম×দ্বিতীয়′ + দ্বিতীয়×প্রথম′।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "(uv)'=u'v+uv'",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "গুণ নিয়ম এর সূত্রটি লেখো। (ইঙ্গিত: প্রথম×দ্বিতীয়′ + দ্বিতীয়×প্রথম′।)",
+      "answer": "(uv)'=u'v+uv'"
+    }
+  ],
+  "memorize": {
+    "trick": "প্রথম×দ্বিতীয়′ + দ্বিতীয়×প্রথম′।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "product-quotient-rule",
+    "chain-rule-diff",
+    "quotient-rule-diff",
+    "derivative-exp-log"
+  ]
+}

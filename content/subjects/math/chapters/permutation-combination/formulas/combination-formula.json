@@ -1,0 +1,53 @@
+{
+  "id": "combination-formula",
+  "chapter": "permutation-combination",
+  "title": "Combination Formula",
+  "titleBn": "সমাবেশ সূত্র",
+  "summary": "nCr",
+  "latex": "\\binom{n}{r}=\\frac{n!}{r!(n-r)!}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "binom, n, r",
+      "meaning": "nCr",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "nCr = nPr/r!; order doesn't matter।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\binom{n}{r}=\\frac{n!}{r!(n-r)!}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সমাবেশ সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: nCr = nPr/r!; order doesn't matter।)",
+      "answer": "\\binom{n}{r}=\\frac{n!}{r!(n-r)!}"
+    }
+  ],
+  "memorize": {
+    "trick": "nCr = nPr/r!; order doesn't matter।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "circular-permutation",
+    "permutation-formula",
+    "division-into-groups"
+  ]
+}

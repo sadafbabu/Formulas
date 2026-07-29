@@ -1,0 +1,86 @@
+{
+  "id": "newtons-rings",
+  "chapter": "wave-optics",
+  "title": "Newton's Rings & Thin Film",
+  "titleBn": "নিউটনের বলয় ও পাতলা পর্দার ব্যতিচার",
+  "summary": "পাতলা পর্দায় প্রতিফলিত আলোর ব্যতিচার এবং নিউটনের বলয়ের ব্যাসার্ধ।",
+  "latex": "2\\mu t\\cos r = n\\lambda\\ (\\text{অনুজ্জ্বল}), \\quad r_n = \\sqrt{n\\lambda R}\\ (\\text{অনুজ্জ্বল বলয়})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "interference-conditions",
+    "optical-path-phase",
+    "youngs-double-slit"
+  ],
+  "symbols": [
+    {
+      "symbol": "t",
+      "meaning": "পর্দার পুরুত্ব",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\mu",
+      "meaning": "পর্দার প্রতিসরাঙ্ক",
+      "unit": "—"
+    },
+    {
+      "symbol": "r_n",
+      "meaning": "n-তম বলয়ের ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "R",
+      "meaning": "লেন্সের বক্রতার ব্যাসার্ধ",
+      "unit": "m"
+    }
+  ],
+  "derivation": {
+    "lead": "পর্দার দুই তল থেকে প্রতিফলিত রশ্মি ব্যতিচার করে; ঘন মাধ্যম থেকে প্রতিফলনে λ/2 অতিরিক্ত পথ যোগ হয়।",
+    "steps": [
+      {
+        "title": "পাতলা পর্দা",
+        "latex": "2\\mu t\\cos r = n\\lambda\\ (\\text{অনুজ্জ্বল}), \\quad = (2n-1)\\tfrac{\\lambda}{2}\\ (\\text{উজ্জ্বল})",
+        "note": "প্রতিফলনে দশা উল্টে যাওয়ায় শর্ত অদলবদল হয়ে যায় — এখানেই ভুল হয়।"
+      },
+      {
+        "title": "নিউটনের বলয়",
+        "latex": "r_n^2 = n\\lambda R \\Rightarrow r_n \\propto \\sqrt{n}",
+        "note": "বলয়ের ব্যাসার্ধ ক্রমের বর্গমূলের সমানুপাতী, তাই বাইরের বলয়গুলো ঘন হয়ে আসে।"
+      },
+      {
+        "title": "কেন্দ্র অন্ধকার",
+        "latex": "t = 0 \\Rightarrow \\text{পথ পার্থক্য} = \\lambda/2",
+        "note": "স্পর্শ বিন্দুতে পুরুত্ব শূন্য, তবু প্রতিফলনের λ/2-এর কারণে কেন্দ্র কালো দেখায়।"
+      }
+    ],
+    "assumptions": [
+      "আলো একবর্ণী ও লম্বভাবে আপতিত।",
+      "পর্দা খুব পাতলা।",
+      "Thin-film শর্তগুলোতে ঠিক একটি phase reversal"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Varsity Admission",
+      "question": "৫৮৯ nm আলোয় R = 1 m লেন্স ব্যবহার করলে ৪র্থ অনুজ্জ্বল বলয়ের ব্যাসার্ধ কত?",
+      "answer": "r_4 = \\sqrt{4 \\times 589\\times10^{-9} \\times 1} = \\sqrt{2.356\\times10^{-6}} \\approx 1.535\\ \\text{mm}"
+    }
+  ],
+  "memorize": {
+    "trick": "প্রতিফলিত আলোতে, ideal contact ও একবার phase reversal হলে কেন্দ্র কালো; transmitted pattern-এ কেন্দ্র উজ্জ্বল। r_n ∝ √n, তাই বাইরের বলয়গুলো ঘন হয়ে আসে।",
+    "steps": [
+      "প্রতিফলিত আলোয় যা উজ্জ্বল, প্রতিসৃত আলোয় তা অনুজ্জ্বল — শর্ত উল্টো।",
+      "পানিতে ডুবালে λ কমে যায় (λ/μ), তাই বলয় ছোট হয়।",
+      "সাবানের বুদবুদ ও তেলের পর্দার রং এই একই ব্যতিচারের ফল।"
+    ]
+  }
+}

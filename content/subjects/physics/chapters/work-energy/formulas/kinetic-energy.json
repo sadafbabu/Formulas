@@ -5,12 +5,31 @@
   "titleBn": "গতিশক্তি ও ভরবেগের সম্পর্ক",
   "summary": "বস্তুর গতিশক্তি এবং ভরবেগের সমীকরণ",
   "latex": "E_k = \\frac{1}{2} m v^2 = \\frac{P^2}{2m}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 30,
   "symbols": [
-    { "symbol": "E_k", "meaning": "গতিশক্তি", "unit": "J (Joule)" },
-    { "symbol": "P", "meaning": "রৈখিক ভরবেগ (P = mv)", "unit": "kg·m/s" },
-    { "symbol": "m", "meaning": "বস্তুর ভর", "unit": "kg" }
+    {
+      "symbol": "E_k",
+      "meaning": "গতিশক্তি",
+      "unit": "J (Joule)"
+    },
+    {
+      "symbol": "P",
+      "meaning": "রৈখিক ভরবেগ (P = mv)",
+      "unit": "kg·m/s"
+    },
+    {
+      "symbol": "m",
+      "meaning": "বস্তুর ভর",
+      "unit": "kg"
+    }
   ],
   "derivation": {
     "lead": "ভরবেগ P = mv গতিশক্তিতে প্রতিস্থাপন করে এই সম্পর্ক পাওয়া যায়।",
@@ -20,7 +39,8 @@
         "latex": "E_k = \\frac{1}{2} m v^2 = \\frac{(m v)^2}{2m} = \\frac{P^2}{2m}",
         "note": "ভরবেগ ৫০% বৃদ্ধি পেলে গতিশক্তি ১২৫% বৃদ্ধি পায়"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -28,5 +48,20 @@
       "question": "একটি বস্তুর ভরবেগ ৫০% বৃদ্ধি করা হলে গতিশক্তি শতকরা কত বৃদ্ধি পাবে?",
       "answer": "E_2 = \\frac{(1.5 P)^2}{2m} = 2.25 E_1 \\implies \\text{বৃদ্ধি} = 125\\%"
     }
+  ],
+  "memorize": {
+    "trick": "E_k = ½mv² = p²/(2m) — দুটো রূপ। ভরবেগ p দেওয়া থাকলে দ্বিতীয়টি, বেগ v দেওয়া থাকলে প্রথমটি।",
+    "steps": [
+      "p = mv বসান: p²/(2m) = m²v²/(2m) = ½mv²। এভাবেই একটা থেকে অন্যটা বের হয়।",
+      "গুরুত্বপূর্ণ: p দ্বিগুণ হলে E_k চারগুণ; E_k দ্বিগুণ হলে p কেবল √2 গুণ।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "potential-energy-spring",
+    "power-efficiency",
+    "work-theorem"
   ]
 }

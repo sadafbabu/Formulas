@@ -1,0 +1,52 @@
+{
+  "id": "second-derivative",
+  "chapter": "differentiation",
+  "title": "Second Derivative",
+  "titleBn": "দ্বিতীয় অন্তরক",
+  "summary": "d²y/dx²",
+  "latex": "\\frac{d^2y}{dx^2}=\\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "d, y, x",
+      "meaning": "d²y/dx²",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "বাঁক/উত্তলতা ও maxima-minima পরীক্ষায়।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{d^2y}{dx^2}=\\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "দ্বিতীয় অন্তরক এর সূত্রটি লেখো। (ইঙ্গিত: বাঁক/উত্তলতা ও maxima-minima পরীক্ষায়।)",
+      "answer": "\\frac{d^2y}{dx^2}=\\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)"
+    }
+  ],
+  "memorize": {
+    "trick": "বাঁক/উত্তলতা ও maxima-minima পরীক্ষায়।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "parametric-diff",
+    "implicit-diff"
+  ]
+}

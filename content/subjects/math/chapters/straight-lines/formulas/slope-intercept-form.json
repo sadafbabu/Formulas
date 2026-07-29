@@ -1,0 +1,53 @@
+{
+  "id": "slope-intercept-form",
+  "chapter": "straight-lines",
+  "title": "Slope-Intercept Form",
+  "titleBn": "ঢাল-ছেদ রূপ",
+  "summary": "y=mx+c",
+  "latex": "y=mx+c",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 140,
+  "symbols": [
+    {
+      "symbol": "y, m, x, c",
+      "meaning": "y=mx+c",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "m=slope, c=y-intercept; quick graphing।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "y=mx+c",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ঢাল-ছেদ রূপ এর সূত্রটি লেখো। (ইঙ্গিত: m=slope, c=y-intercept; quick graphing।)",
+      "answer": "y=mx+c"
+    }
+  ],
+  "memorize": {
+    "trick": "m=slope, c=y-intercept; quick graphing।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "image-of-point",
+    "point-slope-form",
+    "concurrent-lines"
+  ]
+}

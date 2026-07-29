@@ -4,17 +4,48 @@
   "titleBn": "চৌম্বক তীব্রতা ও প্রবেশ্যতা",
   "latex": "B = \\mu_0 (H + M) = \\mu H, \\quad \\mu_r = 1 + \\chi_m",
   "summary": "চৌম্বক তীব্রতা (H), ম্যাগনেটাইজেশন (M), আপেক্ষিক প্রবেশ্যতা (μ_r) এবং গ্রহীতা (χ_m)-এর মধ্যকার মৌলিক সম্পর্ক।",
-  "tags": ["hsc", "eng-admission", "varsity", "2-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
   "chapter": "magnetic-current",
   "importance": 2,
-  "subjects": ["physics"],
-  "related": ["earth-magnetism", "solenoid"],
+  "order": 280,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "earth-magnetism",
+    "solenoid"
+  ],
   "symbols": [
-    { "symbol": "B", "meaning": "মোট চৌম্বক আবেশ", "unit": "T" },
-    { "symbol": "H", "meaning": "চৌম্বকায়ন ক্ষেত্র তীব্রতা", "unit": "A/m" },
-    { "symbol": "M", "meaning": "ম্যাগনেটাইজেশন তীব্রতা", "unit": "A/m" },
-    { "symbol": "\\mu_r", "meaning": "আপেক্ষিক চৌম্বক প্রবেশ্যতা", "unit": "মাত্রাচ্ছন্ন" },
-    { "symbol": "\\chi_m", "meaning": "চৌম্বক গ্রহীতা (Susceptibility)", "unit": "মাত্রাচ্ছন্ন" }
+    {
+      "symbol": "B",
+      "meaning": "মোট চৌম্বক আবেশ",
+      "unit": "T"
+    },
+    {
+      "symbol": "H",
+      "meaning": "চৌম্বকায়ন ক্ষেত্র তীব্রতা",
+      "unit": "A/m"
+    },
+    {
+      "symbol": "M",
+      "meaning": "ম্যাগনেটাইজেশন তীব্রতা",
+      "unit": "A/m"
+    },
+    {
+      "symbol": "\\mu_r",
+      "meaning": "আপেক্ষিক চৌম্বক প্রবেশ্যতা",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "\\chi_m",
+      "meaning": "চৌম্বক গ্রহীতা (Susceptibility)",
+      "unit": "মাত্রাহীন"
+    }
   ],
   "derivation": {
     "lead": "পদার্থে চৌম্বক ক্ষেত্র আবেশ সূচনা সমীকরণ:",
@@ -22,10 +53,12 @@
       {
         "title": "আবেশ ও গ্রহীতা সমতা",
         "latex": "M = \\chi_m H \\implies B = \\mu_0 H (1 + \\chi_m) = \\mu_0 \\mu_r H = \\mu H",
-        "note": "প্যারাম্যাগনেটিক পদার্থের ক্ষেত্রে $\\chi_m > 0$ এবং ফেরোম্যাগনেটিকে $\\chi_m >> 0$ হয়।"
+        "note": "প্যারাম্যাগনেটিক পদার্থের ক্ষেত্রে \\chi_m > 0 এবং ফেরোম্যাগনেটিকে \\chi_m >> 0 হয়।"
       }
     ],
-    "assumptions": ["পদার্থটি একজাতীয় (Isotropic & Linear)."]
+    "assumptions": [
+      "পদার্থটি একজাতীয় (Isotropic & Linear)."
+    ]
   },
   "questions": [
     {
@@ -33,5 +66,12 @@
       "question": "একটি লোহার কোরবিশিষ্ট সোলেনয়েডের H = 1500 A/m। লোহার আপেক্ষিক প্রবেশ্যতা μ_r = 600 হলে লোহার ভেতর ম্যাগনেটাইজেশন M এবং মোট আবেশ B নির্ণয় করো।",
       "answer": "\\chi_m = 600 - 1 = 599. \\quad M = 599 \\times 1500 = 8.985 \\times 10^5 \\text{ A/m}. \\quad B = 4\\pi \\times 10^{-7} \\times 600 \\times 1500 = 1.131 \\text{ T}"
     }
-  ]
+  ],
+  "memorize": {
+    "trick": "B = μ₀(H + M) — 'মোট = বাইরের + ভিতরের'। H বাইরের প্রয়োগ, M পদার্থের সাড়া। আর μ_r = 1 + χ_m।",
+    "steps": [
+      "χ_m > 0 হলে অনুচুম্বক, χ_m < 0 হলে ডায়াচুম্বক, χ_m ≫ 0 হলে ফেরোচুম্বক।",
+      "শূন্যস্থানে M = 0, তাই B = μ₀H এবং μ_r = 1।"
+    ]
+  }
 }

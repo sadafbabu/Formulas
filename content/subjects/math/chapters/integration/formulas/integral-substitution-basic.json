@@ -1,0 +1,53 @@
+{
+  "id": "integral-substitution-basic",
+  "chapter": "integration",
+  "title": "Substitution Method",
+  "titleBn": "প্রতিস্থাপন পদ্ধতি",
+  "summary": "u=g(x)",
+  "latex": "\\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "int, f, g, x",
+      "meaning": "u=g(x)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ভিতরের অন্তরক দেখলেই u ধরো।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "প্রতিস্থাপন পদ্ধতি এর সূত্রটি লেখো। (ইঙ্গিত: ভিতরের অন্তরক দেখলেই u ধরো।)",
+      "answer": "\\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du"
+    }
+  ],
+  "memorize": {
+    "trick": "ভিতরের অন্তরক দেখলেই u ধরো।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "integral-trig-basic",
+    "integral-by-parts-ilate",
+    "integral-ex"
+  ]
+}

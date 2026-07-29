@@ -1,0 +1,53 @@
+{
+  "id": "ostwald-process",
+  "chapter": "industrial-chemistry",
+  "title": "Ostwald Process",
+  "titleBn": "অস্টওয়াল্ড পদ্ধতি",
+  "summary": "NH₃→HNO₃",
+  "latex": "\\ce{4NH3 + 5O2 -> 4NO + 6H2O};\\quad \\ce{NO -> NO2 -> HNO3}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "ce, N, H, O",
+      "meaning": "NH₃→HNO₃",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\ce{4NH3 + 5O2 -> 4NO + 6H2O};\\quad \\ce{NO -> NO2 -> HNO3}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অস্টওয়াল্ড পদ্ধতি এর সূত্রটি লেখো। (ইঙ্গিত: Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।)",
+      "answer": "\\ce{4NH3 + 5O2 -> 4NO + 6H2O};\\quad \\ce{NO -> NO2 -> HNO3}"
+    }
+  ],
+  "memorize": {
+    "trick": "Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "contact-process",
+    "solvay-process",
+    "haber-process"
+  ]
+}

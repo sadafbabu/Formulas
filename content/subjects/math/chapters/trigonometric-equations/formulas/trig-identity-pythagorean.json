@@ -1,0 +1,61 @@
+{
+  "id": "trig-identity-pythagorean",
+  "chapter": "trigonometric-equations",
+  "title": "Pythagorean & Sum Trigonometric Identities",
+  "titleBn": "পিথাগোরাসীয় ও যোগফল ত্রিকোণমিতিক অভেদ",
+  "summary": "মৌলিক ত্রিকোণমিতিক অভেদ ও তাদের প্রয়োগ",
+  "latex": "\\sin^2\\theta + \\cos^2\\theta = 1, \\quad 1 + \\tan^2\\theta = \\sec^2\\theta, \\quad 1 + \\cot^2\\theta = \\csc^2\\theta",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 40,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "compound-angle",
+    "general-solutions-trig",
+    "multiple-angle"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\theta",
+      "meaning": "যেকোনো কোণ",
+      "unit": "রেডিয়ান/°"
+    },
+    {
+      "symbol": "\\sin, \\cos, \\tan",
+      "meaning": "ত্রিকোণমিতিক অনুপাত",
+      "unit": "মাত্রাহীন"
+    }
+  ],
+  "derivation": {
+    "lead": "একক বৃত্তে কোণ θ-এর সাপেক্ষে পিথাগোরাস উপপাদ্য প্রয়োগ করে।",
+    "steps": [
+      {
+        "title": "অভেদ সমূহ",
+        "latex": "\\sin^2\\theta + \\cos^2\\theta = 1; \\quad \\sec^2\\theta - \\tan^2\\theta = 1; \\quad \\csc^2\\theta - \\cot^2\\theta = 1",
+        "note": "ভাগ করে পাওয়া যায়: cos²θ দ্বারা → 1+tan²θ=sec²θ; sin²θ দ্বারা → 1+cot²θ=csc²θ"
+      }
+    ],
+    "assumptions": [
+      "θ যেকোনো বাস্তব সংখ্যা",
+      "1+tan²θ=sec²θ যেখানে cosθ ≠ 0",
+      "1+cot²θ=csc²θ যেখানে sinθ ≠ 0"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "যদি sin θ = 3/5 হয়, তবে cos θ ও tan θ এর মান কত? [θ দ্বিতীয় চতুর্থাংশে নয়]",
+      "answer": "\\cos\\theta = \\sqrt{1 - \\sin^2\\theta} = \\sqrt{1 - \\frac{9}{25}} = \\frac{4}{5}, \\quad \\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta} = \\frac{3}{4}"
+    }
+  ],
+  "memorize": {
+    "trick": "sin² + cos² = 1 — এটাই মূল। ভাগ করে বাকি দুটো পাওয়া যায়: 1+tan²=sec², 1+cot²=csc²।"
+  }
+}

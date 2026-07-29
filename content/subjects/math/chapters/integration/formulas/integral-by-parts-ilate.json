@@ -1,0 +1,54 @@
+{
+  "id": "integral-by-parts-ilate",
+  "chapter": "integration",
+  "title": "Integration by Parts",
+  "titleBn": "অংশীয় যোগজীকরণ",
+  "summary": "∫u dv",
+  "latex": "\\int u\\,dv=uv-\\int v\\,du",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "int, u, d, v",
+      "meaning": "∫u dv",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "LIATE: Log → Inverse → Algebraic → Trig → Exp।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\int u\\,dv=uv-\\int v\\,du",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অংশীয় যোগজীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: LIATE: Log → Inverse → Algebraic → Trig → Exp।)",
+      "answer": "\\int u\\,dv=uv-\\int v\\,du"
+    }
+  ],
+  "memorize": {
+    "trick": "LIATE: Log → Inverse → Algebraic → Trig → Exp।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "integration-by-parts",
+    "integral-substitution-basic",
+    "definite-integral-properties",
+    "integral-trig-basic"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "shunt-multiplier",
+  "chapter": "current-electricity",
+  "title": "Shunt & Multiplier",
+  "titleBn": "শাণ্ট ও মাল্টিপ্লায়ার",
+  "summary": "Ammeter/Voltmeter",
+  "latex": "S=\\frac{I_g G}{I-I_g},\\quad R=\\frac{V}{I_g}-G",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 140,
+  "symbols": [
+    {
+      "symbol": "S, I, g, G",
+      "meaning": "Ammeter/Voltmeter",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "অ্যামিটারে সমান্তরাল শাণ্ট; ভোল্টমিটারে সিরিজ রোধ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "S=\\frac{I_g G}{I-I_g},\\quad R=\\frac{V}{I_g}-G",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "শাণ্ট ও মাল্টিপ্লায়ার এর সূত্রটি লেখো। (ইঙ্গিত: অ্যামিটারে সমান্তরাল শাণ্ট; ভোল্টমিটারে সিরিজ রোধ।)",
+      "answer": "S=\\frac{I_g G}{I-I_g},\\quad R=\\frac{V}{I_g}-G"
+    }
+  ],
+  "memorize": {
+    "trick": "অ্যামিটারে সমান্তরাল শাণ্ট; ভোল্টমিটারে সিরিজ রোধ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "rc-charging",
+    "group-cells-max-power"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "sin3a-cos3a",
+  "chapter": "trigonometric-equations",
+  "title": "Triple Angle",
+  "titleBn": "ত্রিগুণ কোণ",
+  "summary": "sin3A, cos3A",
+  "latex": "\\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 200,
+  "symbols": [
+    {
+      "symbol": "A",
+      "meaning": "sin3A, cos3A",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "sin3A: 3s−4s³; cos3A: 4c³−3c।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ত্রিগুণ কোণ এর সূত্রটি লেখো। (ইঙ্গিত: sin3A: 3s−4s³; cos3A: 4c³−3c।)",
+      "answer": "\\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A"
+    }
+  ],
+  "memorize": {
+    "trick": "sin3A: 3s−4s³; cos3A: 4c³−3c।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "tan2a-formula",
+    "sin2a-cos2a"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "complex-cube-roots-unity",
+  "chapter": "complex-numbers",
+  "title": "Cube Roots of Unity & Properties",
+  "titleBn": "১-এর ঘনমূল ও ধর্ম",
+  "summary": "১-এর তিনটি ঘনমূল ও তাদের যোগফল শূন্য ধর্ম",
+  "latex": "z^3=1\\Rightarrow z=e^{2k\\pi i/3},\\quad k=0,1,2;\\qquad 1+\\omega+\\omega^2=0,\\quad \\omega^3=1",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 50,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "de-moivre",
+    "euler-form",
+    "roots-of-unity"
+  ],
+  "symbols": [
+    {
+      "symbol": "\\omega",
+      "meaning": "১-এর কাল্পনিক ঘনমূল",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "i",
+      "meaning": "কাল্পনিক একক, i² = -1",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "z³ = 1 সমীকরণের সমাধান দ্য ময়ভার উপপাদ্য থেকে প্রাপ্ত।",
+    "steps": [
+      {
+        "title": "ঘনমূল নির্ণয়",
+        "latex": "1^{1/3} = e^{2k\\pi i/3}, \\quad k = 0,1,2 \\implies 1, \\omega, \\omega^2",
+        "note": "তিন ঘনমূল একটি নিয়ত বৃত্তের শীর্ষে অবস্থিত (120° পরস্পর থেকে)"
+      }
+    ],
+    "assumptions": [
+      "z³ = 1 সমীকরণ"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission",
+      "question": "1 + ω + ω² এর মান কত? এবং ω³ এর মান কত?",
+      "answer": "1 + \\omega + \\omega^2 = 0 \\text{ (যোগফল শূন্য)}, \\quad \\omega^3 = 1"
+    }
+  ],
+  "memorize": {
+    "trick": "১-এর ঘনমূল: 1, ω, ω²। যোগফল = 0, ঘনমূল = 1। ω = (-1+i√3)/2।"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "resolving-power",
+  "chapter": "wave-optics",
+  "title": "Resolving Power",
+  "titleBn": "বিভেদন ক্ষমতা",
+  "summary": "দূরবীক্ষণ, অণুবীক্ষণ ও গ্রেটিং-এর RP",
+  "latex": "\\mathrm{RP}_{tel}=\\frac{D}{1.22\\lambda},\\quad\\mathrm{RP}_{micro}=\\frac{2\\mu\\sin\\theta}{\\lambda},\\quad\\mathrm{RP}_{gr}=nN",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "RP, t, e, l",
+      "meaning": "দূরবীক্ষণ, অণুবীক্ষণ ও গ্রেটিং-এর RP",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "দূরবীক্ষণ, অণুবীক্ষণ ও গ্রেটিং-এর RP",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{RP}_{tel}=\\frac{D}{1.22\\lambda},\\quad\\mathrm{RP}_{micro}=\\frac{2\\mu\\sin\\theta}{\\lambda},\\quad\\mathrm{RP}_{gr}=nN",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বিভেদন ক্ষমতা এর সূত্রটি লেখো। (ইঙ্গিত: বড় D বা N ⇒ বেশি RP; ছোট λ ভালো।)",
+      "answer": "\\mathrm{RP}_{tel}=\\frac{D}{1.22\\lambda},\\quad\\mathrm{RP}_{micro}=\\frac{2\\mu\\sin\\theta}{\\lambda},\\quad\\mathrm{RP}_{gr}=nN"
+    }
+  ],
+  "memorize": {
+    "trick": "বড় D বা N ⇒ বেশি RP; ছোট λ ভালো।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "diffraction-grating",
+    "microscope-telescope"
+  ]
+}

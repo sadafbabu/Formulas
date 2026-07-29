@@ -1,0 +1,87 @@
+{
+  "id": "magnetic-force-circular",
+  "chapter": "magnetic-current",
+  "title": "Circular Motion of Charge in Magnetic Field",
+  "titleBn": "চৌম্বক ক্ষেত্রে আধানের বৃত্তাকার গতি",
+  "summary": "লরেঞ্জ বলের প্রভাবে আধান বৃত্তাকার পথে গতিশীল — ব্যাসার্ধ ও পর্যায়কাল",
+  "latex": "r = \\frac{mv}{|q|B}, \\quad T = \\frac{2\\pi m}{|q|B}, \\quad \\omega = \\frac{|q|B}{m}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 360,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "lorentz",
+    "cyclotron-radius",
+    "cyclotron-freq"
+  ],
+  "symbols": [
+    {
+      "symbol": "r",
+      "meaning": "বৃত্তের ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "T",
+      "meaning": "পর্যায়কাল",
+      "unit": "s"
+    },
+    {
+      "symbol": "\\omega",
+      "meaning": "কৌণিক কম্পাঙ্ক",
+      "unit": "rad/s"
+    },
+    {
+      "symbol": "m",
+      "meaning": "আধানের ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "v",
+      "meaning": "আধানের বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "q",
+      "meaning": "আধানের মান",
+      "unit": "C"
+    },
+    {
+      "symbol": "B",
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
+    }
+  ],
+  "derivation": {
+    "lead": "v ⊥ B হলে লরেঞ্জ বল অনুভূমিক বেগের লম্বদিকে ক্রিয়া করে বৃত্তাকার গতি সৃষ্টি করে।",
+    "steps": [
+      {
+        "title": "কেন্দ্রাভিমুখী বল = লরেঞ্জ বল",
+        "latex": "\\frac{mv^2}{r} = qvB \\implies r = \\frac{mv}{qB}",
+        "note": "পর্যায়কাল বেগের উপর নির্ভর করে না — cyclotron-এর মূল নীতি"
+      }
+    ],
+    "assumptions": [
+      "v ও B পরস্পর লম্ব",
+      "বায়ু ঘর্ষণ উপেক্ষা",
+      "q দ্বারা charge magnitude |q| বোঝানো হয়েছে"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical Admission",
+      "question": "একটি ইলেকট্রন 2×10⁶ m/s বেগে 0.5 T চৌম্বক ক্ষেত্রে লম্বভাবে প্রবেশ করলে বৃত্তের ব্যাসার্ধ কত? [m = 9.1×10⁻³¹ kg]",
+      "answer": "r = \\frac{mv}{qB} = \\frac{9.1\\times10^{-31} \\times 2\\times10^6}{1.6\\times10^{-19} \\times 0.5} = 2.28\\times10^{-5}\\ \\text{m} = 22.8\\ \\mu\\text{m}"
+    }
+  ],
+  "memorize": {
+    "trick": "r = mv/qB, T = 2πm/qB — পর্যায়কাল বেগের উপর নির্ভরশীল না (cyclotron নীতি)।"
+  }
+}

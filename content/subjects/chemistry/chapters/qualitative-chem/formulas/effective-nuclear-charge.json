@@ -1,0 +1,73 @@
+{
+  "id": "effective-nuclear-charge",
+  "chapter": "qualitative-chem",
+  "title": "Effective Nuclear Charge & Slater Rules",
+  "titleBn": "কার্যকর নিউক্লীয় আধান ও আড়াল প্রভাব",
+  "summary": "বহুইলেকট্রন পরমাণুতে একটি ইলেকট্রনের অনুভূত নিট নিউক্লীয় আধান এবং স্লেটারের নিয়ম।",
+  "latex": "Z_{\\mathrm{eff}}=Z-S,\\quad E_n\\approx-13.6\\frac{Z_{\\mathrm{eff}}^2}{n^2}\\ \\mathrm{eV}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "periodic-trends",
+    "electron-configuration",
+    "bohr-atom-model"
+  ],
+  "symbols": [
+    {
+      "symbol": "Z_{\\mathrm{eff}}",
+      "meaning": "কার্যকর নিউক্লীয় আধান",
+      "unit": "—"
+    },
+    {
+      "symbol": "Z",
+      "meaning": "পারমাণবিক সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "S",
+      "meaning": "আড়াল ধ্রুবক",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "ভিতরের ইলেকট্রন নিউক্লিয়াসের আকর্ষণ আংশিক আড়াল করে; তাই বাইরের ইলেকট্রন পূর্ণ Z অনুভব করে না।",
+    "steps": [
+      {
+        "title": "মূল সম্পর্ক",
+        "latex": "Z_{\\mathrm{eff}}=Z-S",
+        "note": "S বড় হলে অনুভূত আকর্ষণ কম; d ও f ইলেকট্রনের আড়াল ক্ষমতা দুর্বল।"
+      },
+      {
+        "title": "আড়াল ক্ষমতার ক্রম",
+        "latex": "s>p>d>f",
+        "note": "s-অরবিটাল নিউক্লিয়াসে বেশি প্রবেশ করে, তাই সবচেয়ে ভালো আড়াল করে।"
+      }
+    ],
+    "assumptions": [
+      "স্লেটারের নিয়ম একটি সন্নিকট পদ্ধতি।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Varsity Admission",
+      "question": "Z = 17 ও আনুমানিক আড়াল ধ্রুবক S = 10 হলে কার্যকর নিউক্লীয় আধান কত?",
+      "answer": "Z_{\\mathrm{eff}}=17-10=7"
+    }
+  ],
+  "memorize": {
+    "trick": "কার্যকর আধান = আসল আধান − আড়াল: Z_eff = Z − S। পর্যায়ে Z বাড়ে কিন্তু S খুব কম বাড়ে, তাই Z_eff বাড়ে এবং ব্যাসার্ধ কমে।",
+    "steps": [
+      "আড়াল ক্ষমতা s > p > d > f।",
+      "Z_eff বাড়লে ব্যাসার্ধ কমে, IE বাড়ে।"
+    ]
+  }
+}

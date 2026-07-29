@@ -1,0 +1,69 @@
+{
+  "id": "complex-square-root",
+  "chapter": "complex-numbers",
+  "title": "Square Root of a Complex Number",
+  "titleBn": "জটিল সংখ্যার বর্গমূল",
+  "summary": "a+ib-এর square root-এর Cartesian ও polar পদ্ধতি।",
+  "latex": "\\sqrt{a+ib}=\\pm\\left[\\sqrt{\\frac{r+a}{2}}+i\\,\\operatorname{sgn}(b)\\sqrt{\\frac{r-a}{2}}\\right],\\quad r=\\sqrt{a^2+b^2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "complex-modulus-argument",
+    "polar-multiplication",
+    "nth-roots-complex"
+  ],
+  "symbols": [
+    {
+      "symbol": "r",
+      "meaning": "|a+ib|",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\operatorname{sgn}(b)",
+      "meaning": "b-এর চিহ্ন",
+      "unit": "±1"
+    }
+  ],
+  "derivation": {
+    "lead": "(x+iy)²=a+ib ধরে real ও imaginary অংশ সমান করে x²−y²=a, 2xy=b এবং x²+y²=r পাওয়া যায়।",
+    "steps": [
+      {
+        "title": "component equations",
+        "latex": "x^2=\\frac{r+a}{2},\\quad y^2=\\frac{r-a}{2},\\quad \\operatorname{sgn}(xy)=\\operatorname{sgn}(b)",
+        "note": "Imaginary অংশের চিহ্ন 2xy=b থেকে ঠিক করতে হয়।"
+      },
+      {
+        "title": "polar shortcut",
+        "latex": "\\sqrt{re^{i\\theta}}=\\pm\\sqrt r\\,e^{i\\theta/2}",
+        "note": "Argument অর্ধেক, modulus-এর square root।"
+      }
+    ],
+    "assumptions": [
+      "Principal argument বেছে নিয়ে দুই বিপরীত root।",
+      "Displayed sgn(b) Cartesian shortcut b ≠ 0; b=0,a≥0 হলে ±√a; b=0,a<0 হলে ±i√(−a)"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "\\sqrt{3+4i} নির্ণয় করুন।",
+      "answer": "r=5;\\ \\sqrt{3+4i}=\\pm\\left(\\sqrt4+i\\sqrt1\\right)=\\pm(2+i)"
+    }
+  ],
+  "memorize": {
+    "trick": "Square root-এ modulus-এর root, argument অর্ধেক। Cartesian formula-এ (r+a)/2 real অংশে, (r−a)/2 imaginary অংশে; b-এর চিহ্ন imaginary sign ঠিক করে।",
+    "steps": [
+      "দুটি square root পরস্পরের negative।",
+      "উত্তর square করে original সংখ্যা ফিরছে কি না যাচাই করুন।"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "function-composition",
+  "chapter": "sets-functions",
+  "title": "Function Composition",
+  "titleBn": "ফাংশনের সংযোজন",
+  "summary": "(f∘g)(x)",
+  "latex": "(f\\circ g)(x)=f(g(x))",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "f, circ, g, x",
+      "meaning": "(f∘g)(x)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "g আগে, f পরে; fog ≠ gof সাধারণত।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "(f\\circ g)(x)=f(g(x))",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ফাংশনের সংযোজন এর সূত্রটি লেখো। (ইঙ্গিত: g আগে, f পরে; fog ≠ gof সাধারণত।)",
+      "answer": "(f\\circ g)(x)=f(g(x))"
+    }
+  ],
+  "memorize": {
+    "trick": "g আগে, f পরে; fog ≠ gof সাধারণত।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "function-definition",
+    "inverse-function",
+    "cartesian-product"
+  ]
+}

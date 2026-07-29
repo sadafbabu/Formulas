@@ -1,0 +1,53 @@
+{
+  "id": "organ-pipe-open",
+  "chapter": "waves",
+  "title": "Open Organ Pipe",
+  "titleBn": "মুক্ত অর্গান পাইপ",
+  "summary": "λ/2, λ…",
+  "latex": "f_n=n\\frac{v}{2L},\\quad n=1,2,3,\\ldots",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "f, n, v, L",
+      "meaning": "λ/2, λ…",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সব গুণিতক; মূল সুর v/2L।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "f_n=n\\frac{v}{2L},\\quad n=1,2,3,\\ldots",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "মুক্ত অর্গান পাইপ এর সূত্রটি লেখো। (ইঙ্গিত: সব গুণিতক; মূল সুর v/2L।)",
+      "answer": "f_n=n\\frac{v}{2L},\\quad n=1,2,3,\\ldots"
+    }
+  ],
+  "memorize": {
+    "trick": "সব গুণিতক; মূল সুর v/2L।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "organ-pipe-closed",
+    "beats-frequency"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "am-gm-hm",
+  "chapter": "sequences-series",
+  "title": "AM–GM–HM Inequality",
+  "titleBn": "AM–GM–HM অসমতা",
+  "summary": "AM≥GM≥HM",
+  "latex": "\\frac{a+b}{2}\\ge\\sqrt{ab}\\ge\\frac{2ab}{a+b}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "a, b, sqrt",
+      "meaning": "AM≥GM≥HM",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সমানতা কেবল a=b-তে; ভর্তিতে খুব কাজে লাগে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{a+b}{2}\\ge\\sqrt{ab}\\ge\\frac{2ab}{a+b}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "AM–GM–HM অসমতা এর সূত্রটি লেখো। (ইঙ্গিত: সমানতা কেবল a=b-তে; ভর্তিতে খুব কাজে লাগে।)",
+      "answer": "\\frac{a+b}{2}\\ge\\sqrt{ab}\\ge\\frac{2ab}{a+b}"
+    }
+  ],
+  "memorize": {
+    "trick": "সমানতা কেবল a=b-তে; ভর্তিতে খুব কাজে লাগে।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "hp-relation",
+    "agp-sum",
+    "gp-sum-infinite"
+  ]
+}

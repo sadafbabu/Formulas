@@ -1,0 +1,54 @@
+{
+  "id": "ph-strong-acid",
+  "chapter": "chemical-equilibrium",
+  "title": "pH of Strong Acid",
+  "titleBn": "সবল অম্লের pH",
+  "summary": "pH=−log[H+]",
+  "latex": "\\mathrm{pH}=-\\log_{10}[\\mathrm{H}^+],\\quad \\mathrm{pOH}=-\\log_{10}[\\mathrm{OH}^-]",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 170,
+  "symbols": [
+    {
+      "symbol": "pH, H, pOH, OH",
+      "meaning": "pH=−log[H+]",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সবল অম্লে [H⁺]=molarity; pH+pOH=14 (২৫°C)।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{pH}=-\\log_{10}[\\mathrm{H}^+],\\quad \\mathrm{pOH}=-\\log_{10}[\\mathrm{OH}^-]",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সবল অম্লের pH এর সূত্রটি লেখো। (ইঙ্গিত: সবল অম্লে [H⁺]=molarity; pH+pOH=14 (২৫°C)।)",
+      "answer": "\\mathrm{pH}=-\\log_{10}[\\mathrm{H}^+],\\quad \\mathrm{pOH}=-\\log_{10}[\\mathrm{OH}^-]"
+    }
+  ],
+  "memorize": {
+    "trick": "সবল অম্লে [H⁺]=molarity; pH+pOH=14 (২৫°C)।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "buffer-capacity",
+    "hess-law",
+    "zero-order-kinetics"
+  ]
+}

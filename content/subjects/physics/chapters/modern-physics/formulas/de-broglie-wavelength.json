@@ -11,6 +11,7 @@
     "3-star"
   ],
   "importance": 3,
+  "order": 30,
   "symbols": [
     {
       "symbol": "\\lambda",
@@ -40,7 +41,7 @@
     }
   ],
   "derivation": {
-    "lead": "E = mc² ও E = hν সমীকরণ থেকে কণার তরঙ্গ দ্বৈত প্রকৃতি প্রাপ্ত।",
+    "lead": "ফোটনের জন্য E=pc ও E=hν, সঙ্গে c=νλ দিলে λ=h/p। de Broglie একই সম্পর্ক matter particle-এর জন্য postulate করেন।",
     "steps": [
       {
         "title": "তরঙ্গদৈর্ঘ্য সূত্র",
@@ -54,5 +55,27 @@
   },
   "id": "de-broglie-wavelength",
   "chapter": "modern-physics",
-  "questions": []
+  "questions": [
+    {
+      "examType": "Medical / Eng",
+      "question": "ভরবেগ p এর কণার ডি-ব্রগলি তরঙ্গদৈর্ঘ্য কী?",
+      "answer": "\\lambda = \\frac{h}{p}"
+    }
+  ],
+  "memorize": {
+    "trick": "λ = h/p = h/(mv) — 'ভারী বা দ্রুত কণার তরঙ্গদৈর্ঘ্য ছোট'। এজন্যই ক্রিকেট বলের তরঙ্গধর্ম দেখা যায় না, কিন্তু ইলেকট্রনের যায়।",
+    "steps": [
+      "λ = h/p; ভরবেগ বাড়লে λ কমে।",
+      "V ভোল্টে ত্বরিত ইলেকট্রনে λ = 12.27/√V Å — এই সংখ্যাটি মুখস্থ রাখলে অনেক প্রশ্ন সেকেন্ডে হয়।",
+      "গতিশক্তি দিয়ে: λ = h/√(2mE)।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "mass-energy-photoelectric",
+    "bohr-radius-hydrogen",
+    "radioactive-decay"
+  ]
 }

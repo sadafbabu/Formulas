@@ -1,0 +1,53 @@
+{
+  "id": "couple-moment",
+  "chapter": "math-statics",
+  "title": "Couple Moment",
+  "titleBn": "দম্পতি বলের ভ্রাম",
+  "summary": "M=Fd",
+  "latex": "M=F\\,d",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "M, F, d",
+      "meaning": "M=Fd",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "দুই সমান বিপরীত বল; moment = F×distance between।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "M=F\\,d",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "দম্পতি বলের ভ্রাম এর সূত্রটি লেখো। (ইঙ্গিত: দুই সমান বিপরীত বল; moment = F×distance between।)",
+      "answer": "M=F\\,d"
+    }
+  ],
+  "memorize": {
+    "trick": "দুই সমান বিপরীত বল; moment = F×distance between।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "moment-of-force",
+    "parallel-forces-resultant",
+    "lami-theorem"
+  ]
+}

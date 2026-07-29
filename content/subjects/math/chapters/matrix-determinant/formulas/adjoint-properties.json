@@ -1,0 +1,53 @@
+{
+  "id": "adjoint-properties",
+  "chapter": "matrix-determinant",
+  "title": "Adjoint Properties",
+  "titleBn": "অ্যাডজয়েন্টের ধর্ম",
+  "summary": "adj ও det সম্পর্ক",
+  "latex": "A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "A, adj, det, I",
+      "meaning": "adj ও det সম্পর্ক",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "adj ও det সম্পর্ক — A·adjA = (detA)I।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অ্যাডজয়েন্টের ধর্ম এর সূত্রটি লেখো। (ইঙ্গিত: A·adjA = (detA)I।)",
+      "answer": "A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I"
+    }
+  ],
+  "memorize": {
+    "trick": "A·adjA = (detA)I।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "matrix-multiplication",
+    "cramers-rule",
+    "matrix-inverse"
+  ]
+}

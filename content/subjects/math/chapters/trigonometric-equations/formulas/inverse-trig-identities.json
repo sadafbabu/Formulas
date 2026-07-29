@@ -1,0 +1,60 @@
+{
+  "title": "Inverse Trigonometric Identities",
+  "titleBn": "বিপরীত ত্রিকোণমিতিক অভেদ",
+  "summary": "বিপরীত ত্রিকোণমিতিক ফাংশনের মূল অভেদ",
+  "latex": "\\sin^{-1} x + \\cos^{-1} x = \\frac{\\pi}{2}, \\quad \\tan^{-1} x + \\cot^{-1} x = \\frac{\\pi}{2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "\\sin^{-1}, \\cos^{-1}",
+      "meaning": "বিপরীত ত্রিকোণমিতিক ফাংশন",
+      "unit": "rad"
+    }
+  ],
+  "derivation": {
+    "lead": "সম্পূরক কোণের সম্পর্ক থেকে বিপরীত ফাংশন অভেদ।",
+    "steps": [
+      {
+        "title": "সম্পূরক অভেদ",
+        "latex": "\\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2}",
+        "note": "মূল মান নির্ধারণে শাখা নির্বাচন জরুরি"
+      }
+    ],
+    "assumptions": [
+      "মূল শাখায়",
+      "tan⁻¹x + cot⁻¹x = π/2 রূপে arccot-এর principal range (0,π)"
+    ]
+  },
+  "id": "inverse-trig-identities",
+  "chapter": "trigonometric-equations",
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "\\sin^{-1}x + \\cos^{-1}x = ?",
+      "answer": "\\dfrac{\\pi}{2}"
+    }
+  ],
+  "memorize": {
+    "trick": "সহ-অনুপাতের যোগফল সর্বদা π/2: sin⁻¹x + cos⁻¹x = π/2 এবং tan⁻¹x + cot⁻¹x = π/2। 'সহ (co) মানে পরিপূরক' — নামেই সূত্র।",
+    "steps": [
+      "sin⁻¹x + cos⁻¹x = π/2 (−1 ≤ x ≤ 1)।",
+      "tan⁻¹x + cot⁻¹x = π/2 (সব বাস্তব x)।",
+      "sin⁻¹(−x) = −sin⁻¹x (অযুগ্ম), কিন্তু cos⁻¹(−x) = π − cos⁻¹x — এই পার্থক্যটি মনে রাখুন।"
+    ]
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "product-sum-identities",
+    "inverse-trig",
+    "trig-identity-pythagorean"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "complex-locus",
+  "chapter": "complex-numbers",
+  "title": "Complex Locus",
+  "titleBn": "জটিল সমতলে locus-এর সমীকরণ",
+  "summary": "Modulus ও argument condition-কে straight line, circle, ellipse ও angle locus-এ রূপান্তর।",
+  "latex": "|z-z_0|=r\\Rightarrow\\text{বৃত্ত},\\quad |z-z_1|=|z-z_2|\\Rightarrow\\text{লম্বদ্বিখণ্ডক},\\quad \\arg\\frac{z-z_1}{z-z_2}=\\theta",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "complex-modulus-argument",
+    "circle-equation",
+    "perpendicular-distance"
+  ],
+  "symbols": [
+    {
+      "symbol": "z",
+      "meaning": "চলমান complex point x+iy",
+      "unit": "—"
+    },
+    {
+      "symbol": "z_0",
+      "meaning": "স্থির point",
+      "unit": "—"
+    },
+    {
+      "symbol": "r",
+      "meaning": "distance",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "|z−z₀| complex plane-এ দুই বিন্দুর Euclidean distance, আর argument quotient দুই রেখার angle।",
+    "steps": [
+      {
+        "title": "circle",
+        "latex": "|z-(a+ib)|=r\\Rightarrow(x-a)^2+(y-b)^2=r^2",
+        "note": "Center z₀, radius r।"
+      },
+      {
+        "title": "line",
+        "latex": "|z-z_1|=|z-z_2|",
+        "note": "দুই স্থির বিন্দু থেকে সমদূরবর্তী locus = segment-এর perpendicular bisector।"
+      },
+      {
+        "title": "Apollonius circle",
+        "latex": "\\left|\\frac{z-z_1}{z-z_2}\\right|=k,\\quad k\\ne1",
+        "note": "দুই distance-এর ratio ধ্রুব হলে circle; k=1 হলে straight line।"
+      }
+    ],
+    "assumptions": [
+      "z₁≠z₂ এবং argument condition-এ endpoints বাদ।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Varsity Admission",
+      "question": "|z-(2+3i)|=4 locus কী?",
+      "answer": "(x-2)^2+(y-3)^2=16;\\ \\text{center }(2,3),\\ radius\\ 4"
+    }
+  ],
+  "memorize": {
+    "trick": "|z−a| মানে distance। এক point থেকে distance fixed ⇒ circle; দুই point থেকে distance equal ⇒ perpendicular bisector; distance ratio fixed ⇒ Apollonius circle।",
+    "steps": [
+      "arg((z−z₁)/(z−z₂)) fixed ⇒ segment z₁z₂ যে fixed angle subtend করে সেই arc।"
+    ]
+  }
+}

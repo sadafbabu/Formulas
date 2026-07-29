@@ -1,0 +1,53 @@
+{
+  "id": "vector-projection",
+  "chapter": "vector",
+  "title": "Vector Projection",
+  "titleBn": "ভেক্টর প্রক্ষেপ",
+  "summary": "এক ভেক্টরের অন্য ভেক্টরের উপর প্রক্ষেপ",
+  "latex": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad a_\\parallel=|\\vec a|\\cos\\theta",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "proj, vec, b, a",
+      "meaning": "এক ভেক্টরের অন্য ভেক্টরের উপর প্রক্ষেপ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "এক ভেক্টরের অন্য ভেক্টরের উপর প্রক্ষেপ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad a_\\parallel=|\\vec a|\\cos\\theta",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ভেক্টর প্রক্ষেপ এর সূত্রটি লেখো। (ইঙ্গিত: প্রক্ষেপ = ডট গুণফল ÷ |b| — কোসাইন দিয়েও a cosθ।)",
+      "answer": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad a_\\parallel=|\\vec a|\\cos\\theta"
+    }
+  ],
+  "memorize": {
+    "trick": "প্রক্ষেপ = ডট গুণফল ÷ |b| — কোসাইন দিয়েও a cosθ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "vector-addition-laws",
+    "scalar-triple-product"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "gravitational-pe",
+  "chapter": "work-energy",
+  "title": "Gravitational Potential Energy",
+  "titleBn": "অভিকর্ষজ বিভব শক্তি",
+  "summary": "পৃষ্ঠের কাছে mgh এবং অভিকর্ষের কাজ",
+  "latex": "U=mgh,\\quad W_{g}=-\\Delta U=mg(h_i-h_f)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "U, m, g, h",
+      "meaning": "পৃষ্ঠের কাছে mgh এবং অভিকর্ষের কাজ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "পৃষ্ঠের কাছে mgh এবং অভিকর্ষের কাজ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "U=mgh,\\quad W_{g}=-\\Delta U=mg(h_i-h_f)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অভিকর্ষজ বিভব শক্তি এর সূত্রটি লেখো। (ইঙ্গিত: উপরে উঠলে U বাড়ে; অভিকর্ষের কাজ = −ΔU।)",
+      "answer": "U=mgh,\\quad W_{g}=-\\Delta U=mg(h_i-h_f)"
+    }
+  ],
+  "memorize": {
+    "trick": "উপরে উঠলে U বাড়ে; অভিকর্ষের কাজ = −ΔU।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "conservation-mechanical-energy",
+    "work-theorem"
+  ]
+}

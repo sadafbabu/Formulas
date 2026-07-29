@@ -1,0 +1,53 @@
+{
+  "id": "center-of-mass",
+  "chapter": "dynamics",
+  "title": "Center of Mass",
+  "titleBn": "ভরকেন্দ্র",
+  "summary": "কণাতন্ত্রের ভরকেন্দ্র ও বহিঃবল",
+  "latex": "\\vec r_{cm}=\\frac{\\sum m_i\\vec r_i}{\\sum m_i},\\quad M\\vec a_{cm}=\\vec F_{ext}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "vec, r, c, m",
+      "meaning": "কণাতন্ত্রের ভরকেন্দ্র ও বহিঃবল",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "কণাতন্ত্রের ভরকেন্দ্র ও বহিঃবল",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\vec r_{cm}=\\frac{\\sum m_i\\vec r_i}{\\sum m_i},\\quad M\\vec a_{cm}=\\vec F_{ext}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ভরকেন্দ্র এর সূত্রটি লেখো। (ইঙ্গিত: ভরকেন্দ্র = ভর-ওজনকৃত গড় অবস্থান; বহিঃবলই cm ত্বরণ দেয়।)",
+      "answer": "\\vec r_{cm}=\\frac{\\sum m_i\\vec r_i}{\\sum m_i},\\quad M\\vec a_{cm}=\\vec F_{ext}"
+    }
+  ],
+  "memorize": {
+    "trick": "ভরকেন্দ্র = ভর-ওজনকৃত গড় অবস্থান; বহিঃবলই cm ত্বরণ দেয়।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "newtons-laws",
+    "momentum-impulse"
+  ]
+}

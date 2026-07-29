@@ -1,0 +1,54 @@
+{
+  "id": "hubble-law",
+  "chapter": "astronomy",
+  "title": "Hubble's Law",
+  "titleBn": "হাবলের সূত্র",
+  "summary": "v=H₀d",
+  "latex": "v=H_0 d",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "v, H, d",
+      "meaning": "v=H₀d",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "দূরত্ব বাড়লে মহাবিশ্ব সম্প্রসারণ বেগ বাড়ে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "v=H_0 d",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "হাবলের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: দূরত্ব বাড়লে মহাবিশ্ব সম্প্রসারণ বেগ বাড়ে।)",
+      "answer": "v=H_0 d"
+    }
+  ],
+  "memorize": {
+    "trick": "দূরত্ব বাড়লে মহাবিশ্ব সম্প্রসারণ বেগ বাড়ে।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "light-year-au",
+    "solar-luminosity-flux",
+    "parallax-distance"
+  ]
+}

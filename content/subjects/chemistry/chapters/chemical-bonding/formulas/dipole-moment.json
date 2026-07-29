@@ -10,6 +10,7 @@
     "2-star"
   ],
   "importance": 2,
+  "order": 30,
   "symbols": [
     {
       "symbol": "\\mu",
@@ -36,9 +37,33 @@
         "note": "1 D = 3.336×10⁻³⁰ C·m"
       }
     ],
-    "assumptions": "বিন্দু আধান ধরা হয়েছে"
+    "assumptions": [
+      "বিন্দু আধান ধরা হয়েছে"
+    ]
   },
   "id": "dipole-moment",
   "chapter": "chemical-bonding",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "দ্বিমেরু ভ্রামক μ এর সূত্র কী?",
+      "answer": "\\mu = q \\times d"
+    }
+  ],
+  "memorize": {
+    "trick": "μ = q × d — একক ডিবাই (D)। মূল কথা: বন্ধন পোলার হলেও অণু অপোলার হতে পারে, যদি জ্যামিতি প্রতিসম হয় (CO₂, CCl₄ — ভ্রামক বাতিল হয়ে যায়)।",
+    "steps": [
+      "CO₂ সরলরৈখিক → μ = 0; H₂O কোণাকৃতি → μ = 1.85 D।",
+      "শতকরা আয়নিক ধর্ম = (μ পরিমাপকৃত/μ পূর্ণ আয়নিক) × 100।",
+      "μ ভেক্টর — তাই যোগ করার সময় দিক হিসাব করতে হয়।"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "bond-order-mo",
+    "lewis-structure",
+    "hybridization-shapes"
+  ]
 }

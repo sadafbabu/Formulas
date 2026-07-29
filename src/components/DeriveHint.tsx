@@ -1,7 +1,8 @@
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import type { Formula } from '../data/types'
 import { HintPopover } from './HintPopover'
 import { Katex } from './Katex'
+import { MathOrText } from './MathOrText'
 
 interface DeriveHintProps {
   formula: Formula
@@ -9,11 +10,14 @@ interface DeriveHintProps {
 
 export function DeriveHint({ formula }: DeriveHintProps) {
   const first = formula.derivation.steps[0]
+  const [params] = useSearchParams()
+  const chapter = params.get('chapter') || formula.chapter
+  const detailTo = `/formula/${formula.id}?chapter=${encodeURIComponent(chapter)}`
 
   return (
     <HintPopover
       label={`${formula.titleBn} — কীভাবে এলো`}
-      title="কেভাবে এলো"
+      title="কীভাবে এলো"
       icon={
         <svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true">
           <path
@@ -23,7 +27,11 @@ export function DeriveHint({ formula }: DeriveHintProps) {
         </svg>
       }
     >
-      <p className="derive-popover-lead">{formula.derivation.lead}</p>
+      <MathOrText
+        text={formula.derivation.lead}
+        as="p"
+        className="derive-popover-lead"
+      />
       {first && (
         <div className="derive-popover-step">
           <span>{first.title}</span>
@@ -32,7 +40,7 @@ export function DeriveHint({ formula }: DeriveHintProps) {
       )}
       <Link
         className="derive-popover-link"
-        to={`/formula/${formula.id}`}
+        to={detailTo}
         onClick={(e) => e.stopPropagation()}
       >
         পুরো derivation →

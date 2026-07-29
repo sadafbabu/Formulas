@@ -1,0 +1,54 @@
+{
+  "id": "gauss-law",
+  "chapter": "static-electricity",
+  "title": "Gauss's Law",
+  "titleBn": "গসের সূত্র",
+  "summary": "∮E·dA=Q/ε₀",
+  "latex": "\\oint\\vec E\\cdot d\\vec A=\\frac{Q_{\\text{encl}}}{\\varepsilon_0}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "oint, vec, E, d",
+      "meaning": "∮E·dA=Q/ε₀",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "বদ্ধ তলে মোট ফ্লাক্স = ভিতরের চার্জ/ε₀।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\oint\\vec E\\cdot d\\vec A=\\frac{Q_{\\text{encl}}}{\\varepsilon_0}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "গসের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: বদ্ধ তলে মোট ফ্লাক্স = ভিতরের চার্জ/ε₀।)",
+      "answer": "\\oint\\vec E\\cdot d\\vec A=\\frac{Q_{\\text{encl}}}{\\varepsilon_0}"
+    }
+  ],
+  "memorize": {
+    "trick": "বদ্ধ তলে মোট ফ্লাক্স = ভিতরের চার্জ/ε₀।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "equipotential-work",
+    "field-infinite-sheet",
+    "spherical-capacitor"
+  ]
+}

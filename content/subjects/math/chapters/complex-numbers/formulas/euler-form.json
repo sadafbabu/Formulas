@@ -10,6 +10,7 @@
     "3-star"
   ],
   "importance": 3,
+  "order": 20,
   "symbols": [
     {
       "symbol": "r",
@@ -36,9 +37,28 @@
         "note": "এখান থেকে de Moivre সূত্র প্রাপ্ত"
       }
     ],
-    "assumptions": "θ রেডিয়ানে"
+    "assumptions": [
+      "θ রেডিয়ানে"
+    ]
   },
   "id": "euler-form",
   "chapter": "complex-numbers",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC / Varsity",
+      "question": "e^{i\\theta} এর অয়লার রূপ কী?",
+      "answer": "e^{i\\theta}=\\cos\\theta + i\\sin\\theta"
+    }
+  ],
+  "memorize": {
+    "trick": "e^(iθ) = cos θ + i sin θ — জটিল সংখ্যার সূচকীয় রূপ। মডুলাস r ও আর্গুমেন্ট θ।"
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "complex-modulus-argument",
+    "roots-of-unity",
+    "de-moivre"
+  ]
 }

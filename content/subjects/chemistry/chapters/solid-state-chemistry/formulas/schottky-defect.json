@@ -1,0 +1,52 @@
+{
+  "id": "schottky-defect",
+  "chapter": "solid-state-chemistry",
+  "title": "Schottky Defect",
+  "titleBn": "শটকি ত্রুটি",
+  "summary": "cation+anion vacancy",
+  "latex": "\\text{Schottky: equal cation and anion vacancies}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "1-star"
+  ],
+  "importance": 1,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "Schottky: equal cation and anion vacancies",
+      "meaning": "cation+anion vacancy",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Ionic solid-এ দুই vacancy; density decreases।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{Schottky: equal cation and anion vacancies}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "শটকি ত্রুটি এর সূত্রটি লেখো। (ইঙ্গিত: Ionic solid-এ দুই vacancy; density decreases।)",
+      "answer": "\\text{Schottky: equal cation and anion vacancies}"
+    }
+  ],
+  "memorize": {
+    "trick": "Ionic solid-এ দুই vacancy; density decreases।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "bragg-equation",
+    "density-unit-cell"
+  ]
+}

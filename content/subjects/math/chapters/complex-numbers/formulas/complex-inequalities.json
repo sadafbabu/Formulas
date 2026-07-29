@@ -1,0 +1,63 @@
+{
+  "id": "complex-inequalities",
+  "chapter": "complex-numbers",
+  "title": "Triangle Inequality in Complex Numbers",
+  "titleBn": "জটিল সংখ্যায় ত্রিভুজ অসমতা",
+  "summary": "Modulus-এর triangle ও reverse-triangle inequalities এবং equality conditions।",
+  "latex": "|z_1+z_2|\\le|z_1|+|z_2|,\\quad \\big||z_1|-|z_2|\\big|\\le|z_1-z_2|",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 110,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "complex-modulus-argument",
+    "conjugate-properties",
+    "complex-locus"
+  ],
+  "symbols": [
+    {
+      "symbol": "|z|",
+      "meaning": "complex modulus/distance",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Complex numbers-কে plane vectors ভাবলে triangle-এর এক বাহু অন্য দুই বাহুর যোগের বেশি হতে পারে না।",
+    "steps": [
+      {
+        "title": "square proof",
+        "latex": "|z_1+z_2|^2=|z_1|^2+|z_2|^2+2\\Re(z_1\\bar z_2)\\le(|z_1|+|z_2|)^2",
+        "note": "Re(w)≤|w| ব্যবহার করা হয়েছে।"
+      },
+      {
+        "title": "equality",
+        "latex": "|z_1+z_2|=|z_1|+|z_2|\\iff \\frac{z_1}{z_2}\\ge0\\ \\text{real}",
+        "note": "দুই vector একই দিকে হলে equality।"
+      }
+    ],
+    "assumptions": [
+      "z₂≠0 ratio condition-এ।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission",
+      "question": "|z-1|+|z+1|\\ge2 প্রমাণের মূল inequality কী?",
+      "answer": "|z-1|+|z+1|\\ge|(z-1)-(z+1)|=|-2|=2"
+    }
+  ],
+  "memorize": {
+    "trick": "Triangle inequality: ‘direct distance ≤ broken path’। Reverse inequality: difference of lengths ≤ distance between endpoints। Geometry ভাবলে সূত্র মুখস্থ লাগে না।",
+    "steps": [
+      "একই দিকে হলে sum inequality-তে equality।",
+      "বিপরীত দিকে হলে reverse inequality-তে equality।"
+    ]
+  }
+}

@@ -5,15 +5,46 @@
   "titleBn": "ঘর্ষণের সূত্রসমূহ",
   "summary": "স্থিতি ও গতীয় ঘর্ষণ বল, ঘর্ষণ গুণাংক",
   "latex": "f_s \\leq \\mu_s N, \\quad f_k = \\mu_k N, \\quad \\tan\\theta = \\mu_s",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 20,
   "symbols": [
-    { "symbol": "f_s", "meaning": "স্থিতি ঘর্ষণ বল", "unit": "N" },
-    { "symbol": "f_k", "meaning": "গতীয় ঘর্ষণ বল", "unit": "N" },
-    { "symbol": "\\mu_s", "meaning": "স্থিতি ঘর্ষণ গুণাংক", "unit": "মাত্রাহীন" },
-    { "symbol": "\\mu_k", "meaning": "গতীয় ঘর্ষণ গুণাংক", "unit": "মাত্রাহীন" },
-    { "symbol": "N", "meaning": "অভিলম্ব প্রতিক্রিয়া", "unit": "N" },
-    { "symbol": "\\theta", "meaning": "ঘর্ষণ কোণ", "unit": "ডিগ্রী" }
+    {
+      "symbol": "f_s",
+      "meaning": "স্থিতি ঘর্ষণ বল",
+      "unit": "N"
+    },
+    {
+      "symbol": "f_k",
+      "meaning": "গতীয় ঘর্ষণ বল",
+      "unit": "N"
+    },
+    {
+      "symbol": "\\mu_s",
+      "meaning": "স্থিতি ঘর্ষণ গুণাংক",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "\\mu_k",
+      "meaning": "গতীয় ঘর্ষণ গুণাংক",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "N",
+      "meaning": "অভিলম্ব প্রতিক্রিয়া",
+      "unit": "N"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "ঘর্ষণ কোণ",
+      "unit": "ডিগ্রী"
+    }
   ],
   "derivation": {
     "lead": "ঘর্ষণের সূত্রসমূহ পরীক্ষামূলকভাবে প্রতিষ্ঠিত: গতীয় ঘর্ষণ সর্বদা স্থিতি ঘর্ষণের চেয়ে কম।",
@@ -23,7 +54,8 @@
         "latex": "\\text{Incline angle } \\alpha: \\quad mg\\sin\\alpha = \\mu_s mg\\cos\\alpha \\implies \\mu_s = \\tan\\alpha",
         "note": "ঘর্ষণ কোণ θ = arctan(μ_s)"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -31,5 +63,21 @@
       "question": "স্থিতি ঘর্ষণ গুণাংক 0.4 এবং অভিলম্ব প্রতিক্রিয়া 50 N হলে সর্বোচ্চ স্থিতি ঘর্ষণ বল কত?",
       "answer": "f_s = \\mu_s N = 0.4 \\times 50 = 20 \\text{ N}"
     }
+  ],
+  "memorize": {
+    "trick": "ঘর্ষণ = μ × N, কখনো μ × ওজন নয়। স্থিতি ঘর্ষণ 'সর্বোচ্চ পর্যন্ত' (≤ μ_s N), গতি ঘর্ষণ 'নির্দিষ্ট' (= μ_k N)। আর μ_s > μ_k — 'ঠেলা শুরু করা কঠিন, চালিয়ে রাখা সহজ'।",
+    "steps": [
+      "স্থিতি: f_s ≤ μ_s N — সমান চিহ্ন কেবল ছুটে যাওয়ার মুহূর্তে।",
+      "গতি: f_k = μ_k N — সবসময় সমান।",
+      "আনত তলে ঠিক পিছলে যাওয়ার কোণে tanθ = μ_s (কোণটিকে বলে ঘর্ষণ কোণ)।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "newtons-laws",
+    "banked-road",
+    "centripetal-force"
   ]
 }

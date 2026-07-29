@@ -1,0 +1,51 @@
+{
+  "id": "sum-powers-roots",
+  "chapter": "polynomials",
+  "title": "Newton Power Sums",
+  "titleBn": "মূলের ঘাতের যোগফল",
+  "summary": "পাওয়ার সাম পুনরাবৃত্তি",
+  "latex": "p_k+a_{n-1}p_{k-1}+\\cdots+n a_{n-k}=0\\quad(k\\le n)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "p, k, a, n",
+      "meaning": "পাওয়ার সাম পুনরাবৃত্তি",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "নিউটন সাম: p_k সহগ দিয়ে পুনরাবৃত্ত।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "p_k+a_{n-1}p_{k-1}+\\cdots+n a_{n-k}=0\\quad(k\\le n)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "মূলের ঘাতের যোগফল এর সূত্রটি লেখো। (ইঙ্গিত: নিউটন সাম: p_k সহগ দিয়ে পুনরাবৃত্ত।)",
+      "answer": "p_k+a_{n-1}p_{k-1}+\\cdots+n a_{n-k}=0\\quad(k\\le n)"
+    }
+  ],
+  "memorize": {
+    "trick": "নিউটন সাম: p_k সহগ দিয়ে পুনরাবৃত্ত।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "vieta-formulas"
+  ]
+}

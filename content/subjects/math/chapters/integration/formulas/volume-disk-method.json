@@ -1,0 +1,52 @@
+{
+  "id": "volume-disk-method",
+  "chapter": "integration",
+  "title": "Volume Disk Method",
+  "titleBn": "চাকতি পদ্ধতিতে আয়তন",
+  "summary": "π∫y² dx",
+  "latex": "V=\\pi\\int_a^b [f(x)]^2\\,dx",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "V, pi, int, a",
+      "meaning": "π∫y² dx",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "x-অক্ষ ঘুরিয়ে চাকতি; πr² এর যোগজ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "V=\\pi\\int_a^b [f(x)]^2\\,dx",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "চাকতি পদ্ধতিতে আয়তন এর সূত্রটি লেখো। (ইঙ্গিত: x-অক্ষ ঘুরিয়ে চাকতি; πr² এর যোগজ।)",
+      "answer": "V=\\pi\\int_a^b [f(x)]^2\\,dx"
+    }
+  ],
+  "memorize": {
+    "trick": "x-অক্ষ ঘুরিয়ে চাকতি; πr² এর যোগজ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "area-under-curve",
+    "integral-even-odd"
+  ]
+}

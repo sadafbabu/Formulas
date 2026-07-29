@@ -11,6 +11,7 @@
     "3-star"
   ],
   "importance": 3,
+  "order": 40,
   "symbols": [
     {
       "symbol": "m",
@@ -42,9 +43,33 @@
         "note": "1 Faraday = 96500 C আধান"
       }
     ],
-    "assumptions": "একই সময়, একই প্রবাহ"
+    "assumptions": [
+      "একই সময়, একই প্রবাহ"
+    ]
   },
   "id": "faraday-second-law",
   "chapter": "electrochemistry",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "ফ্যারাডের দ্বিতীয় সূত্র অনুযায়ী m ∝ ?",
+      "answer": "m \\propto EQ \\quad (E=\\text{equivalent weight})"
+    }
+  ],
+  "memorize": {
+    "trick": "একই প্রবাহে জমা ভরের অনুপাত = তুল্য ভরের অনুপাত: m₁/m₂ = E₁/E₂, যেখানে E = M/n। 'সমান তড়িৎ, ভাগাভাগি তুল্য ভর অনুযায়ী'।",
+    "steps": [
+      "তুল্য ভর E = আণবিক ভর/যোজনী পরিবর্তন (n)।",
+      "শ্রেণীতে জোড়া কোষে প্রবাহ একই, তাই ভর কেবল E-এর উপর নির্ভর করে।",
+      "প্রথম সূত্রের সাথে মিলিয়ে m = (E·I·t)/96500।"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "faradays-electrolysis",
+    "gibbs-emf-relation",
+    "nernst-equation"
+  ]
 }

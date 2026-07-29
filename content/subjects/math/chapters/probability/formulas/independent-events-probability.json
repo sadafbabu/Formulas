@@ -1,0 +1,53 @@
+{
+  "id": "independent-events-probability",
+  "chapter": "probability",
+  "title": "Independent Events",
+  "titleBn": "স্বাধীন ঘটনা",
+  "summary": "P(A∩B)=P(A)P(B)",
+  "latex": "P(A\\cap B)=P(A)P(B)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "P, A, cap, B",
+      "meaning": "P(A∩B)=P(A)P(B)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "একটির ঘটনা অন্যটিকে প্রভাবিত করে না → গুণ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P(A\\cap B)=P(A)P(B)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "স্বাধীন ঘটনা এর সূত্রটি লেখো। (ইঙ্গিত: একটির ঘটনা অন্যটিকে প্রভাবিত করে না → গুণ।)",
+      "answer": "P(A\\cap B)=P(A)P(B)"
+    }
+  ],
+  "memorize": {
+    "trick": "একটির ঘটনা অন্যটিকে প্রভাবিত করে না → গুণ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "multiplication-rule-probability",
+    "bayes-theorem",
+    "conditional-probability"
+  ]
+}

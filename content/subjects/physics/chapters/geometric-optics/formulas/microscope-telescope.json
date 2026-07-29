@@ -1,0 +1,92 @@
+{
+  "id": "microscope-telescope",
+  "chapter": "geometric-optics",
+  "title": "Microscope & Telescope Magnification",
+  "titleBn": "অণুবীক্ষণ ও দূরবীক্ষণ যন্ত্রের বিবর্ধন",
+  "summary": "যৌগিক অণুবীক্ষণ ও দূরবীক্ষণ যন্ত্রের কৌণিক বিবর্ধন ও নলের দৈর্ঘ্য।",
+  "latex": "M_{\\mathrm{micro,near}}=\\frac{v_o}{u_o}\\left(1+\\frac D{f_e}\\right),\\quad M_{\\mathrm{micro},\\infty}=\\frac{v_o}{u_o}\\frac D{f_e},\\quad M_{\\mathrm{telescope}}=\\frac{f_o}{f_e}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "lens-combination-power",
+    "lens-makers-formula",
+    "mirror-formula"
+  ],
+  "symbols": [
+    {
+      "symbol": "f_o",
+      "meaning": "অবজেক্টিভের ফোকাস দূরত্ব",
+      "unit": "cm"
+    },
+    {
+      "symbol": "f_e",
+      "meaning": "আইপিসের ফোকাস দূরত্ব",
+      "unit": "cm"
+    },
+    {
+      "symbol": "D",
+      "meaning": "স্পষ্ট দৃষ্টির নিকট দূরত্ব",
+      "unit": "cm",
+      "value": "25"
+    },
+    {
+      "symbol": "L",
+      "meaning": "নলের দৈর্ঘ্য",
+      "unit": "cm"
+    },
+    {
+      "symbol": "D_{\\mathrm{ap}}",
+      "meaning": "objective aperture-এর ব্যাস",
+      "unit": "m"
+    }
+  ],
+  "derivation": {
+    "lead": "দুই লেন্সের বিবর্ধন গুণ হয়ে মোট বিবর্ধন দেয়।",
+    "steps": [
+      {
+        "title": "অণুবীক্ষণ",
+        "latex": "M = m_o \\times m_e = \\frac{v_o}{u_o}\\left(1 + \\frac{D}{f_e}\\right)",
+        "note": "দুই লেন্সেরই ফোকাস দূরত্ব ছোট রাখতে হয়; f_o < f_e।"
+      },
+      {
+        "title": "দূরবীক্ষণ (স্বাভাবিক সমন্বয়)",
+        "latex": "M = \\frac{f_o}{f_e}, \\quad L = f_o + f_e",
+        "note": "অবজেক্টিভের ফোকাস দূরত্ব বড়, আইপিসের ছোট — অণুবীক্ষণের ঠিক উল্টো।"
+      },
+      {
+        "title": "বিভেদন ক্ষমতা",
+        "latex": "R.P.=\\frac{D_{\\mathrm{ap}}}{1.22\\lambda}",
+        "note": "D_ap হলো objective aperture-এর ব্যাস; এটি স্পষ্ট দৃষ্টির নিকট দূরত্ব D = 25 cm থেকে আলাদা।"
+      }
+    ],
+    "assumptions": [
+      "লেন্স পাতলা ও অপেরণ-মুক্ত ধরা হয়েছে।",
+      "চূড়ান্ত প্রতিবিম্ব নিকট বিন্দুতে বা অসীমে।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical Admission",
+      "question": "একটি দূরবীক্ষণ যন্ত্রের অবজেক্টিভের ফোকাস দূরত্ব ১০০ cm ও আইপিসের ৫ cm। বিবর্ধন ও নলের দৈর্ঘ্য কত?",
+      "answer": "M = \\frac{100}{5} = 20, \\quad L = 100 + 5 = 105\\ \\text{cm}"
+    }
+  ],
+  "memorize": {
+    "trick": "উল্টো নিয়মটাই চাবি: দূরবীক্ষণে f_o বড় ও f_e ছোট (M = f_o/f_e), কিন্তু অণুবীক্ষণে দুটোই ছোট এবং f_o < f_e। \"দূরের জিনিস দেখতে বড় লেন্স, কাছের জিনিস দেখতে ছোট লেন্স\"।",
+    "steps": [
+      "দূরবীক্ষণ: M = f_o/f_e, L = f_o + f_e (স্বাভাবিক সমন্বয়ে)।",
+      "অণুবীক্ষণ: বিবর্ধন দুই লেন্সের গুণফল, তাই অনেক বেশি।",
+      "বিবর্ধন বাড়াতে দূরবীক্ষণে f_e কমান, কিন্তু তাতে উজ্জ্বলতা কমে।"
+    ]
+  }
+}

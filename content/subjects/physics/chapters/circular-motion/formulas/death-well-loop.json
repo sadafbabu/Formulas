@@ -1,0 +1,53 @@
+{
+  "id": "death-well-loop",
+  "chapter": "circular-motion",
+  "title": "Loop-the-Loop",
+  "titleBn": "লুপ দিয়ে ঘূর্ণন",
+  "summary": "height 5r/2",
+  "latex": "h_{\\min}=\\frac{5r}{2}\\quad\\text{(from bottom of loop)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "h, r, (from bottom of loop)",
+      "meaning": "height 5r/2",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "h_{\\min}=\\frac{5r}{2}\\quad\\text{(from bottom of loop)}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "লুপ দিয়ে ঘূর্ণন এর সূত্রটি লেখো। (ইঙ্গিত: লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।)",
+      "answer": "h_{\\min}=\\frac{5r}{2}\\quad\\text{(from bottom of loop)}"
+    }
+  ],
+  "memorize": {
+    "trick": "লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "conical-pendulum",
+    "vertical-circle-min-speed"
+  ]
+}

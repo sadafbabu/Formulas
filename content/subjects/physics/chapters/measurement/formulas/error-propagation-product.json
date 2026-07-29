@@ -1,0 +1,54 @@
+{
+  "id": "error-propagation-product",
+  "chapter": "measurement",
+  "title": "Error in Product/Quotient",
+  "titleBn": "গুণ/ভাগে ত্রুটি",
+  "summary": "যোগ আপেক্ষিক ত্রুটি",
+  "latex": "\\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "Delta, z, x, y",
+      "meaning": "যোগ আপেক্ষিক ত্রুটি",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "গুণ/ভাগে ত্রুটি এর সূত্রটি লেখো। (ইঙ্গিত: গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।)",
+      "answer": "\\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y)"
+    }
+  ],
+  "memorize": {
+    "trick": "গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "percentage-error",
+    "error-propagation-power",
+    "dimensional-homogeneity"
+  ]
+}

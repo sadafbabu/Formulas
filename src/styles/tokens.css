@@ -23,7 +23,13 @@
   --radius-sm: 8px;
   --radius-slide: 0;
   --spread-gap: 0;
-  --nav-size: 2.5rem;
+  --nav-size: 2.35rem;
+  --touch-min: 2.35rem;
+  --hint-size: 1.85rem;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
   --ease-slide: cubic-bezier(0.22, 1, 0.36, 1);
   --shadow-slide: none;
 

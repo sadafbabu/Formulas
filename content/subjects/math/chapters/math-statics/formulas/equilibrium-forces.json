@@ -1,0 +1,52 @@
+{
+  "id": "equilibrium-forces",
+  "chapter": "math-statics",
+  "title": "Equilibrium of Forces",
+  "titleBn": "বলের সাম্যাবস্থা",
+  "summary": "ΣF=0",
+  "latex": "\\sum F_x=0,\\quad \\sum F_y=0",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "sum, F, x, y",
+      "meaning": "ΣF=0",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সাম্য = x ও y-তে বলের যোগফল শূন্য।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\sum F_x=0,\\quad \\sum F_y=0",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বলের সাম্যাবস্থা এর সূত্রটি লেখো। (ইঙ্গিত: সাম্য = x ও y-তে বলের যোগফল শূন্য।)",
+      "answer": "\\sum F_x=0,\\quad \\sum F_y=0"
+    }
+  ],
+  "memorize": {
+    "trick": "সাম্য = x ও y-তে বলের যোগফল শূন্য।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "triangle-of-forces",
+    "lami-theorem"
+  ]
+}

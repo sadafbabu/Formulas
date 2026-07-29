@@ -1,0 +1,53 @@
+{
+  "id": "image-of-point",
+  "chapter": "straight-lines",
+  "title": "Image of a Point in a Line",
+  "titleBn": "রেখার সাপেক্ষে বিন্দুর প্রতিবিম্ব",
+  "summary": "বিন্দুর দর্পণ প্রতিবিম্ব",
+  "latex": "\\frac{x-x_1}{a}=\\frac{y-y_1}{b}=-\\frac{2(ax_1+by_1+c)}{a^2+b^2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "x, a, y, b",
+      "meaning": "বিন্দুর দর্পণ প্রতিবিম্ব",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "বিন্দুর দর্পণ প্রতিবিম্ব",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{x-x_1}{a}=\\frac{y-y_1}{b}=-\\frac{2(ax_1+by_1+c)}{a^2+b^2}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "রেখার সাপেক্ষে বিন্দুর প্রতিবিম্ব এর সূত্রটি লেখো। (ইঙ্গিত: মধ্যবিন্দু রেখায়; যোগদণ্ড রেখার লম্ব।)",
+      "answer": "\\frac{x-x_1}{a}=\\frac{y-y_1}{b}=-\\frac{2(ax_1+by_1+c)}{a^2+b^2}"
+    }
+  ],
+  "memorize": {
+    "trick": "মধ্যবিন্দু রেখায়; যোগদণ্ড রেখার লম্ব।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "concurrent-lines",
+    "slope-intercept-form",
+    "parallel-lines-distance"
+  ]
+}

@@ -3,15 +3,38 @@
   "chapter": "electrochemistry",
   "title": "Molar Conductance & Kohlrausch Law",
   "titleBn": "মোলার পরিবাহিতাও কোলরাউশের সূত্র",
-  "summary": "তড়িৎ বিশ্লেষ্যের মোলার পরিবাহিতা ও অসীম লঘুতায় তুল্য পরিবাহিতা",
+  "summary": "তড়িৎ বিশ্লেষ্যের মোলার পরিবাহিতা ও অসীম লঘুতায় মোলার পরিবাহিতা",
   "latex": "\\Lambda_m = \\frac{\\kappa \\times 1000}{M}, \\quad \\Lambda_m^\\circ = \\nu_+ \\lambda_+^\\circ + \\nu_- \\lambda_-^\\circ",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 10,
   "symbols": [
-    { "symbol": "\\Lambda_m", "meaning": "মোলার পরিবাহিতা", "unit": "S·cm²/mol" },
-    { "symbol": "\\kappa", "meaning": "আপেক্ষিক পরিবাহিতা (Koppa)", "unit": "S/cm" },
-    { "symbol": "M", "meaning": "মোলারিটি (ঘনমাত্রা)", "unit": "mol/L" },
-    { "symbol": "\\Lambda_m^\\circ", "meaning": "অসীম লঘুতায় মোলার পরিবাহিতা", "unit": "S·cm²/mol" }
+    {
+      "symbol": "\\Lambda_m",
+      "meaning": "মোলার পরিবাহিতা",
+      "unit": "S·cm²/mol"
+    },
+    {
+      "symbol": "\\kappa",
+      "meaning": "আপেক্ষিক পরিবাহিতা (Koppa)",
+      "unit": "S/cm"
+    },
+    {
+      "symbol": "M",
+      "meaning": "মোলারিটি (ঘনমাত্রা)",
+      "unit": "mol/L"
+    },
+    {
+      "symbol": "\\Lambda_m^\\circ",
+      "meaning": "অসীম লঘুতায় মোলার পরিবাহিতা",
+      "unit": "S·cm²/mol"
+    }
   ],
   "derivation": {
     "lead": "অসীম লঘুতায় প্রতিটি আয়ন স্বাধীনভাবে তড়িৎ পরিবহনে অবদান রাখে।",
@@ -21,7 +44,8 @@
         "latex": "\\Lambda_m^\\circ (\\text{NaCl}) = \\lambda^\\circ (\\text{Na}^+) + \\lambda^\\circ (\\text{Cl}^-)",
         "note": "মৃদু তড়িৎ বিশ্লেষ্যের দ্রাব্যতা ও বিয়োজন মাত্রা α = Λm / Λm° নির্ণয়ে ব্যবহৃত হয়"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -29,5 +53,20 @@
       "question": "0.1 M HCl দ্রবণের আপেক্ষিক পরিবাহিতা 0.04 S/cm হলে এর মোলার পরিবাহিতা (Λm) কত?",
       "answer": "\\Lambda_m = \\frac{0.04 \\times 1000}{0.1} = \\frac{40}{0.1} = 400\\text{ S}\\cdot\\text{cm}^2/\\text{mol}"
     }
+  ],
+  "memorize": {
+    "trick": "Λ_m = κ×1000/M — লঘু করলে মোলার পরিবাহিতা বাড়ে (আয়ন স্বাধীনভাবে চলে)। কোলরাউশ: অসীম লঘুতায় মোট পরিবাহিতা = ক্যাটায়ন ও অ্যানায়নের আলাদা অবদানের যোগফল।",
+    "steps": [
+      "Λ_m° = ν₊λ₊° + ν₋λ₋° — প্রতিটি আয়ন স্বাধীনভাবে অবদান রাখে।",
+      "এ কারণেই দুর্বল তড়িৎবিশ্লেষ্যের Λ_m° পরোক্ষভাবে (সবল লবণ থেকে যোগ-বিয়োগ করে) বের করা যায়।",
+      "α = Λ_m/Λ_m° — বিয়োজন মাত্রা এভাবেও পাওয়া যায়।"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "nernst-equation",
+    "faradays-electrolysis"
   ]
 }

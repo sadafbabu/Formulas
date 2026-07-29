@@ -1,0 +1,67 @@
+{
+  "title": "Mean Free Path of Gas Molecules",
+  "titleBn": "গ্যাস অণুর গড় মুক্ত পথ",
+  "summary": "অণুর দুই সংঘর্ষের মধ্যবর্তী গড় দূরত্ব",
+  "latex": "\\lambda = \\frac{1}{\\sqrt{2}\\,\\pi d^2 n}, \\quad \\lambda = \\frac{kT}{\\sqrt{2}\\,\\pi d^2 P}",
+  "tags": [
+    "eng-admission",
+    "varsity",
+    "1-star"
+  ],
+  "importance": 1,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "\\lambda",
+      "meaning": "গড় মুক্ত পথ",
+      "unit": "m"
+    },
+    {
+      "symbol": "d",
+      "meaning": "অণুর ব্যাস",
+      "unit": "m"
+    },
+    {
+      "symbol": "n",
+      "meaning": "অণু সংখ্যা ঘনত্ব",
+      "unit": "/m³"
+    }
+  ],
+  "derivation": {
+    "lead": "অণুর আপেক্ষিক গতি ও সংঘর্ষ প্রস্থছেদ থেকে।",
+    "steps": [
+      {
+        "title": "গড় মুক্ত পথ",
+        "latex": "\\lambda = \\frac{kT}{\\sqrt{2}\\pi d^2 P}",
+        "note": "চাপ বাড়লে মুক্ত পথ কমে"
+      }
+    ],
+    "assumptions": [
+      "গোলীয় অণু"
+    ]
+  },
+  "id": "mean-free-path",
+  "chapter": "ideal-gas",
+  "questions": [
+    {
+      "examType": "Eng / HSC",
+      "question": "গড় মুক্ত পথ λ এর সূত্র কী?",
+      "answer": "\\lambda=\\frac{1}{\\sqrt{2}\\pi d^2 n}"
+    }
+  ],
+  "memorize": {
+    "trick": "λ = kT/(√2 πd²P) — 'চাপ বাড়লে পথ কমে, তাপ বাড়লে পথ বাড়ে'। হরে √2 ও d² (ব্যাসের বর্গ) — মোটা অণুর পথ ছোট।",
+    "steps": [
+      "λ = 1/(√2 πd²n); n = P/(kT) বসালে λ = kT/(√2 πd²P)।",
+      "λ ∝ 1/P — শূন্য মাধ্যমে (কম চাপে) গড় মুক্ত পথ বিশাল, তাই CRT/ভ্যাকুয়াম টিউব কাজ করে।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "maxwell-distribution",
+    "dalton-graham-law",
+    "kinetic-energy-gas"
+  ]
+}

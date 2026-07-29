@@ -4,15 +4,42 @@
   "title": "Entropy Change in Thermal Processes",
   "titleBn": "এনট্রপির পরিবর্তন ও বিশৃঙ্খলা",
   "summary": "সমউষ্ণ ও রুদ্ধতাপীয় প্রক্রিয়ায় এনট্রপির পরিবর্তন",
-  "latex": "\\Delta S = \\int \\frac{dQ}{T}, \\quad \\Delta S = m c \\ln\\left(\\frac{T_2}{T_1}\\right), \\quad \\Delta S = \\frac{m L}{T}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "latex": "\\Delta S=\\int\\frac{\\delta Q_{\\mathrm{rev}}}{T},\\quad \\Delta S=mc\\ln\\frac{T_2}{T_1},\\quad \\Delta S=\\frac{mL}{T}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 10,
   "symbols": [
-    { "symbol": "\\Delta S", "meaning": "এনট্রপির পরিবর্তন", "unit": "J/K" },
-    { "symbol": "dQ", "meaning": "গৃহীত বা বর্জিত তাপ", "unit": "J" },
-    { "symbol": "T", "meaning": "পরম তাপমাত্রা", "unit": "K" },
-    { "symbol": "m", "meaning": "পদার্থের ভর", "unit": "kg" },
-    { "symbol": "L", "meaning": "সুপ্ততাপ (Latent heat)", "unit": "J/kg" }
+    {
+      "symbol": "\\Delta S",
+      "meaning": "এনট্রপির পরিবর্তন",
+      "unit": "J/K"
+    },
+    {
+      "symbol": "dQ",
+      "meaning": "গৃহীত বা বর্জিত তাপ",
+      "unit": "J"
+    },
+    {
+      "symbol": "T",
+      "meaning": "পরম তাপমাত্রা",
+      "unit": "K"
+    },
+    {
+      "symbol": "m",
+      "meaning": "পদার্থের ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "L",
+      "meaning": "সুপ্ততাপ (Latent heat)",
+      "unit": "J/kg"
+    }
   ],
   "derivation": {
     "lead": "২য় তাপগতীয় সূত্র অনুযায়ী রুদ্ধতাপীয় প্রক্রিয়ায় এনট্রপি অপরিবর্তিত থাকে (dS = 0)।",
@@ -22,7 +49,8 @@
         "latex": "dQ = m c dT \\implies \\Delta S = \\int_{T_1}^{T_2} \\frac{m c dT}{T} = m c \\ln\\left(\\frac{T_2}{T_1}\\right)",
         "note": "অবস্থার পরিবর্তনে (গলন/বাষ্পীভবন) ΔS = mL/T"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -30,5 +58,20 @@
       "question": "0°C তাপমাত্রার 1 kg বরফকে 0°C এর পানিতে পরিণত করতে এনট্রপির পরিবর্তন কত? [L_f = 3.36 × 10⁵ J/kg]",
       "answer": "\\Delta S = \\frac{m L_f}{T} = \\frac{1 \\times 3.36 \\times 10^5}{273.15} \\approx 1230.09\\text{ J/K}"
     }
+  ],
+  "memorize": {
+    "trick": "ΔS = Q/T — 'বিশৃঙ্খলার হিসাব'। তাপ ঢুকলে S বাড়ে, বেরোলে কমে। অবস্থা পরিবর্তনে (গলন/বাষ্পীভবন) ΔS = mL/T, তাপমাত্রা পাল্টালে ΔS = mc ln(T₂/T₁)।",
+    "steps": [
+      "ধ্রুব তাপমাত্রায়: ΔS = Q/T (যেমন গলন, স্ফুটন)।",
+      "তাপমাত্রা বদলালে: ΔS = mc ln(T₂/T₁) — এখানে ln আসে।",
+      "মহাবিশ্বের মোট এনট্রপি কখনো কমে না — এটাই দ্বিতীয় সূত্র।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "cp-cv-relation",
+    "first-law-thermo"
   ]
 }

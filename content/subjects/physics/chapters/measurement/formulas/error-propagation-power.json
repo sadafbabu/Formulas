@@ -1,0 +1,54 @@
+{
+  "id": "error-propagation-power",
+  "chapter": "measurement",
+  "title": "Error in Power",
+  "titleBn": "ঘাতে ত্রুটি",
+  "summary": "n× relative error",
+  "latex": "\\frac{\\Delta z}{z}=|n|\\frac{\\Delta x}{x}\\quad(z=x^n)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "Delta, z, n, x",
+      "meaning": "n× relative error",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ঘাত n হলে আপেক্ষিক ত্রুটি n গুণ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{\\Delta z}{z}=|n|\\frac{\\Delta x}{x}\\quad(z=x^n)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ঘাতে ত্রুটি এর সূত্রটি লেখো। (ইঙ্গিত: ঘাত n হলে আপেক্ষিক ত্রুটি n গুণ।)",
+      "answer": "\\frac{\\Delta z}{z}=|n|\\frac{\\Delta x}{x}\\quad(z=x^n)"
+    }
+  ],
+  "memorize": {
+    "trick": "ঘাত n হলে আপেক্ষিক ত্রুটি n গুণ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "error-propagation-product",
+    "significant-figures-rule",
+    "percentage-error"
+  ]
+}

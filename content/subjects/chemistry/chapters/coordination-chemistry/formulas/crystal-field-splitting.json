@@ -1,0 +1,53 @@
+{
+  "id": "crystal-field-splitting",
+  "chapter": "coordination-chemistry",
+  "title": "Crystal Field Splitting",
+  "titleBn": "ক্রিস্টাল ক্ষেত্র বিভাজন",
+  "summary": "Δ₀",
+  "latex": "\\Delta_0=\\text{energy gap between }e_g\\text{ and }t_{2g}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "Delta, energy gap between, e, g",
+      "meaning": "Δ₀",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Octahedral: eg vs t2g; color from d-d transition।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\Delta_0=\\text{energy gap between }e_g\\text{ and }t_{2g}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ক্রিস্টাল ক্ষেত্র বিভাজন এর সূত্রটি লেখো। (ইঙ্গিত: Octahedral: eg vs t2g; color from d-d transition।)",
+      "answer": "\\Delta_0=\\text{energy gap between }e_g\\text{ and }t_{2g}"
+    }
+  ],
+  "memorize": {
+    "trick": "Octahedral: eg vs t2g; color from d-d transition।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "werner-primary-secondary",
+    "magnetic-moment-spin-only",
+    "effective-atomic-number"
+  ]
+}

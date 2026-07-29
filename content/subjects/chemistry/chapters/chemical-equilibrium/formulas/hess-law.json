@@ -1,0 +1,54 @@
+{
+  "id": "hess-law",
+  "chapter": "chemical-equilibrium",
+  "title": "Hess's Law",
+  "titleBn": "হেসের সূত্র",
+  "summary": "ΔH path independent",
+  "latex": "\\Delta H=\\sum \\Delta H_{\\text{steps}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 180,
+  "symbols": [
+    {
+      "symbol": "Delta, H, sum, steps",
+      "meaning": "ΔH path independent",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "মোট এনথ্যালপি পরিবর্তন পথ-নির্ভর নয়।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\Delta H=\\sum \\Delta H_{\\text{steps}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "হেসের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: মোট এনথ্যালপি পরিবর্তন পথ-নির্ভর নয়।)",
+      "answer": "\\Delta H=\\sum \\Delta H_{\\text{steps}}"
+    }
+  ],
+  "memorize": {
+    "trick": "মোট এনথ্যালপি পরিবর্তন পথ-নির্ভর নয়।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "ph-strong-acid",
+    "ka-kb-relation",
+    "buffer-capacity"
+  ]
+}

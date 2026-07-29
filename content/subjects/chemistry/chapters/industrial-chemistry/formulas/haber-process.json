@@ -1,0 +1,52 @@
+{
+  "id": "haber-process",
+  "chapter": "industrial-chemistry",
+  "title": "Haber Process",
+  "titleBn": "হ্যাবার পদ্ধতি",
+  "summary": "N₂+3H₂⇌2NH₃",
+  "latex": "\\ce{N2 + 3H2 <=> 2NH3};\\quad \\Delta H=-92\\ \\text{kJ/mol}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "ce, N, H, Delta",
+      "meaning": "N₂+3H₂⇌2NH₃",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "450°C, 200 atm, Fe catalyst; exothermic → low T favors product।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\ce{N2 + 3H2 <=> 2NH3};\\quad \\Delta H=-92\\ \\text{kJ/mol}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "হ্যাবার পদ্ধতি এর সূত্রটি লেখো। (ইঙ্গিত: 450°C, 200 atm, Fe catalyst; exothermic → low T favors produ)",
+      "answer": "\\ce{N2 + 3H2 <=> 2NH3};\\quad \\Delta H=-92\\ \\text{kJ/mol}"
+    }
+  ],
+  "memorize": {
+    "trick": "450°C, 200 atm, Fe catalyst; exothermic → low T favors product।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "contact-process",
+    "ostwald-process"
+  ]
+}

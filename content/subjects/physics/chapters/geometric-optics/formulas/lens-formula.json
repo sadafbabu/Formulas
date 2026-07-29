@@ -1,0 +1,54 @@
+{
+  "id": "lens-formula",
+  "chapter": "geometric-optics",
+  "title": "Thin Lens Formula",
+  "titleBn": "পাতলা লেন্স সূত্র",
+  "summary": "1/v−1/u=1/f",
+  "latex": "\\frac{1}{v}-\\frac{1}{u}=\\frac{1}{f}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 140,
+  "symbols": [
+    {
+      "symbol": "v, u, f",
+      "meaning": "1/v−1/u=1/f",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "দর্পণে +; লেন্সে − চিহ্ন প্রথা মেনে চলো।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{1}{v}-\\frac{1}{u}=\\frac{1}{f}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পাতলা লেন্স সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: দর্পণে +; লেন্সে − চিহ্ন প্রথা মেনে চলো।)",
+      "answer": "\\frac{1}{v}-\\frac{1}{u}=\\frac{1}{f}"
+    }
+  ],
+  "memorize": {
+    "trick": "দর্পণে +; লেন্সে − চিহ্ন প্রথা মেনে চলো।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "critical-angle",
+    "mirror-magnification",
+    "optical-fiber"
+  ]
+}

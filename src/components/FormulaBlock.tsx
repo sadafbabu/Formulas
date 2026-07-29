@@ -1,6 +1,8 @@
+import { Link, useSearchParams } from 'react-router-dom'
 import type { Formula, TagId } from '../data/types'
 import { DeriveHint } from './DeriveHint'
 import { Katex } from './Katex'
+import { MemorizeHint } from './MemorizeHint'
 import { QuestionHint } from './QuestionHint'
 import { SymbolHint } from './SymbolHint'
 import { TagChip } from './TagChip'
@@ -9,13 +11,19 @@ interface FormulaBlockProps {
   formula: Formula
   activeTag?: TagId | null
   index?: number
+  animate?: boolean
 }
 
 export function FormulaBlock({
   formula,
   activeTag,
   index = 0,
+  animate = true,
 }: FormulaBlockProps) {
+  const [params] = useSearchParams()
+  const chapter = params.get('chapter') || formula.chapter
+  const detailTo = `/formula/${formula.id}?chapter=${encodeURIComponent(chapter)}`
+
   // Determine grey star importance tag (3-star highest, 2-star, 1-star)
   const imp = formula.importance ?? 2
   const importanceTag: TagId =
@@ -24,35 +32,47 @@ export function FormulaBlock({
   // Filter out any older star tags from formula.tags to avoid duplicates
   const examTags = formula.tags.filter((t) => !t.endsWith('-star'))
 
-  // Clean ordered display tags: exam tags first, followed by single grey star tag
-  const displayTags: TagId[] = [...examTags, importanceTag]
+  // One exam tag + star keeps the meta row tappable on narrow phones.
+  const displayTags: TagId[] = [...examTags.slice(0, 1), importanceTag]
 
   return (
     <article
-      className="formula"
-      style={{ animationDelay: `${30 + index * 30}ms` }}
+      className={`formula${animate ? ' is-animated' : ''}`}
+      style={animate ? { animationDelay: `${20 + index * 20}ms` } : undefined}
     >
       <div className="formula-main">
         <div className="formula-latex-col">
-          <Katex latex={formula.latex} display />
+          <Link to={detailTo} className="formula-latex-link" title="বিস্তারিত দেখুন">
+            <div className="formula-latex">
+              <Katex latex={formula.latex} display />
+            </div>
+          </Link>
         </div>
 
         <div className="formula-text-col">
           <header className="formula-head">
             <h2 className="formula-title">
-              <span className="formula-title-bn">{formula.titleBn}</span>
-              <span className="formula-title-en">{formula.title}</span>
+              <Link to={detailTo} className="formula-title-link">
+                <span className="formula-title-bn">{formula.titleBn}</span>
+                <span className="formula-title-en">{formula.title}</span>
+              </Link>
             </h2>
             <div className="formula-actions">
               <QuestionHint formula={formula} />
               <SymbolHint formula={formula} />
               <DeriveHint formula={formula} />
+              <MemorizeHint formula={formula} />
             </div>
           </header>
           <p className="formula-summary">{formula.summary}</p>
           <div className="formula-meta">
             {displayTags.map((tag) => (
-              <TagChip key={tag} id={tag} active={activeTag === tag} />
+              <TagChip
+                key={tag}
+                id={tag}
+                active={activeTag === tag}
+                chapterId={formula.chapter}
+              />
             ))}
           </div>
         </div>

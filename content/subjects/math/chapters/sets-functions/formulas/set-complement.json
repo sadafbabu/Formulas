@@ -1,0 +1,53 @@
+{
+  "id": "set-complement",
+  "chapter": "sets-functions",
+  "title": "Set Complement",
+  "titleBn": "পরিপূরক সেট",
+  "summary": "A'",
+  "latex": "A'=U\\setminus A",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "A, U, setminus",
+      "meaning": "A'",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Universal set-এ যা A-তে নেই = A'।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "A'=U\\setminus A",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পরিপূরক সেট এর সূত্রটি লেখো। (ইঙ্গিত: Universal set-এ যা A-তে নেই = A'।)",
+      "answer": "A'=U\\setminus A"
+    }
+  ],
+  "memorize": {
+    "trick": "Universal set-এ যা A-তে নেই = A'।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "set-intersection",
+    "set-difference",
+    "set-union"
+  ]
+}

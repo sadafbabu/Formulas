@@ -1,0 +1,53 @@
+{
+  "id": "cartesian-product",
+  "chapter": "sets-functions",
+  "title": "Cartesian Product",
+  "titleBn": "কার্তesian গুণফল",
+  "summary": "A×B",
+  "latex": "A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "A, B, a, b",
+      "meaning": "A×B",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "|A×B|=|A|·|B|; ordered pair।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কার্তesian গুণফল এর সূত্রটি লেখো। (ইঙ্গিত: |A×B|=|A|·|B|; ordered pair।)",
+      "answer": "A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}"
+    }
+  ],
+  "memorize": {
+    "trick": "|A×B|=|A|·|B|; ordered pair।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "de-morgan-sets",
+    "function-definition",
+    "set-difference"
+  ]
+}

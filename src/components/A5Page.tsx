@@ -8,6 +8,8 @@ interface A5PageProps {
   activeTag?: TagId | null
   /** Expected formulas per full page — sparse pages pack to the top */
   perPage?: number
+  /** When false, skip staggered enter animation (page turns). */
+  animateFormulas?: boolean
 }
 
 export function A5Page({
@@ -16,6 +18,7 @@ export function A5Page({
   side = 'single',
   activeTag,
   perPage = 7,
+  animateFormulas = true,
 }: A5PageProps) {
   const sideClass =
     side === 'left' ? 'is-left' : side === 'right' ? 'is-right' : 'is-single'
@@ -43,6 +46,7 @@ export function A5Page({
             formula={formula}
             activeTag={activeTag}
             index={i}
+            animate={animateFormulas}
           />
         ))}
       </div>

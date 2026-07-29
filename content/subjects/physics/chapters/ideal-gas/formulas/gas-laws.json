@@ -5,14 +5,41 @@
   "titleBn": "গ্যাসের সূত্রসমূহ: বয়েল, চার্লস ও সম্মিলিত",
   "summary": "বয়েলের সূত্র, চার্লসের সূত্র এবং সম্মিলিত গ্যাস সূত্র",
   "latex": "PV = \\text{const} \\text{ (Boyle)}, \\quad \\frac{V}{T} = \\text{const} \\text{ (Charles)}, \\quad \\frac{P_1V_1}{T_1} = \\frac{P_2V_2}{T_2}, \\quad PV = nRT",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 10,
   "symbols": [
-    { "symbol": "P", "meaning": "চাপ", "unit": "Pa (Pascal)" },
-    { "symbol": "V", "meaning": "আয়তন", "unit": "m³" },
-    { "symbol": "T", "meaning": "পরম তাপমাত্রা", "unit": "K" },
-    { "symbol": "n", "meaning": "মোল সংখ্যা", "unit": "mol" },
-    { "symbol": "R", "meaning": "সার্বজনীন গ্যাস ধ্রুবক = 8.314", "unit": "J/(mol·K)" }
+    {
+      "symbol": "P",
+      "meaning": "চাপ",
+      "unit": "Pa (Pascal)"
+    },
+    {
+      "symbol": "V",
+      "meaning": "আয়তন",
+      "unit": "m³"
+    },
+    {
+      "symbol": "T",
+      "meaning": "পরম তাপমাত্রা",
+      "unit": "K"
+    },
+    {
+      "symbol": "n",
+      "meaning": "মোল সংখ্যা",
+      "unit": "mol"
+    },
+    {
+      "symbol": "R",
+      "meaning": "সার্বজনীন গ্যাস ধ্রুবক = 8.314",
+      "unit": "J/(mol·K)"
+    }
   ],
   "derivation": {
     "lead": "আদর্শ গ্যাসের সমীকরণ PV = nRT তিনটি পৃথক সূত্রকে একত্রিত করে।",
@@ -22,7 +49,8 @@
         "latex": "PV = NkT, \\quad k = 1.38 \\times 10^{-23} \\text{ J/K}, \\quad N = nN_A",
         "note": "N = মোট অণুর সংখ্যা, NA = 6.022×10²³ (অ্যাভোগ্যাড্রো সংখ্যা)"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -30,5 +58,19 @@
       "question": "27°C তাপমাত্রায় 2 mol আদর্শ গ্যাসের চাপ 10⁵ Pa হলে আয়তন কত?",
       "answer": "V = \\frac{nRT}{P} = \\frac{2 \\times 8.314 \\times 300}{10^5} = \\frac{4988.4}{10^5} \\approx 0.0499 \\text{ m}^3"
     }
+  ],
+  "memorize": {
+    "trick": "বয়েল = তাপমাত্রা স্থির (PV ধ্রুব), চার্লস = চাপ স্থির (V/T ধ্রুব), গে-লুসাক = আয়তন স্থির (P/T ধ্রুব)। 'বয়েলে T আটকানো, চার্লসে P আটকানো'। সব মিলিয়ে PV/T ধ্রুব।",
+    "steps": [
+      "সম্মিলিত: P₁V₁/T₁ = P₂V₂/T₂ — T অবশ্যই কেলভিনে।",
+      "n মোল যোগ করলেই আদর্শ গ্যাস সমীকরণ PV = nRT।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "rms-velocity",
+    "ideal-gas-equation"
   ]
 }

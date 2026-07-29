@@ -1,0 +1,53 @@
+{
+  "id": "hp-relation",
+  "chapter": "sequences-series",
+  "title": "Harmonic Progression",
+  "titleBn": "হারমোনিক ধারা",
+  "summary": "1/a_n is AP",
+  "latex": "a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "a, b, c, in HP",
+      "meaning": "1/a_n is AP",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "হারমোনিক ধারা এর সূত্রটি লেখো। (ইঙ্গিত: HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।)",
+      "answer": "a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}"
+    }
+  ],
+  "memorize": {
+    "trick": "HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "gp-sum-infinite",
+    "am-gm-hm",
+    "gp-sum-finite"
+  ]
+}

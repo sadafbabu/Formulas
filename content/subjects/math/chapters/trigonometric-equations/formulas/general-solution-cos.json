@@ -1,0 +1,53 @@
+{
+  "id": "general-solution-cos",
+  "chapter": "trigonometric-equations",
+  "title": "General Solution cosθ=k",
+  "titleBn": "cosθ=k-এর সাধারণ সমাধান",
+  "summary": "θ=2nπ±α",
+  "latex": "\\theta=2n\\pi\\pm\\alpha,\\quad \\cos\\alpha=k",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 160,
+  "symbols": [
+    {
+      "symbol": "theta, n, pi, alpha",
+      "meaning": "θ=2nπ±α",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "±α symmetry; 2nπ period for cos।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\theta=2n\\pi\\pm\\alpha,\\quad \\cos\\alpha=k",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "cosθ=k-এর সাধারণ সমাধান এর সূত্রটি লেখো। (ইঙ্গিত: ±α symmetry; 2nπ period for cos।)",
+      "answer": "\\theta=2n\\pi\\pm\\alpha,\\quad \\cos\\alpha=k"
+    }
+  ],
+  "memorize": {
+    "trick": "±α symmetry; 2nπ period for cos।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "general-solution-sin",
+    "general-solution-tan",
+    "conditional-identity"
+  ]
+}

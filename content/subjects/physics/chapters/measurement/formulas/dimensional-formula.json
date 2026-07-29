@@ -1,0 +1,53 @@
+{
+  "id": "dimensional-formula",
+  "chapter": "measurement",
+  "title": "Dimensional Formula",
+  "titleBn": "মাত্রিক সূত্র",
+  "summary": "[M^a L^b T^c]",
+  "latex": "[Q]=\\mathrm{M}^{a}\\mathrm{L}^{b}\\mathrm{T}^{c}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "Q, M, a, L",
+      "meaning": "[M^a L^b T^c]",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "প্রতিটি ভৌত রাশিকে M, L, T-এর ঘাত দিয়ে লেখো।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "[Q]=\\mathrm{M}^{a}\\mathrm{L}^{b}\\mathrm{T}^{c}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "মাত্রিক সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: প্রতিটি ভৌত রাশিকে M, L, T-এর ঘাত দিয়ে লেখো।)",
+      "answer": "[Q]=\\mathrm{M}^{a}\\mathrm{L}^{b}\\mathrm{T}^{c}"
+    }
+  ],
+  "memorize": {
+    "trick": "প্রতিটি ভৌত রাশিকে M, L, T-এর ঘাত দিয়ে লেখো।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "dimensional-homogeneity",
+    "percentage-error"
+  ]
+}

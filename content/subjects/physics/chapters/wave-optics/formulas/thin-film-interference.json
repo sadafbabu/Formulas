@@ -1,0 +1,52 @@
+{
+  "id": "thin-film-interference",
+  "chapter": "wave-optics",
+  "title": "Thin Film Interference",
+  "titleBn": "অপাতল স্তরে ব্যতিচার",
+  "summary": "2nt=(m+½)λ",
+  "latex": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "n, t, m, tfrac",
+      "meaning": "2nt=(m+½)λ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Phase reversal at one surface → half wavelength path difference।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অপাতল স্তরে ব্যতিচার এর সূত্রটি লেখো। (ইঙ্গিত: Phase reversal at one surface → half wavelength path differe)",
+      "answer": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda"
+    }
+  ],
+  "memorize": {
+    "trick": "Phase reversal at one surface → half wavelength path difference।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "fresnel-biprism",
+    "resolving-power"
+  ]
+}

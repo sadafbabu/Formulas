@@ -5,13 +5,36 @@
   "titleBn": "দুটি ভেক্টরের লব্ধি মান ও দিক",
   "summary": "সামান্তরিক সূত্রের সাহায্যে দুটি ভেক্টরের লব্ধি নির্ণয়",
   "latex": "R = \\sqrt{P^2 + Q^2 + 2PQ\\cos\\alpha}, \\quad \\tan\\theta = \\frac{Q\\sin\\alpha}{P + Q\\cos\\alpha}",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 30,
   "symbols": [
-    { "symbol": "R", "meaning": "লব্ধি ভেক্টরের মান", "unit": "একক" },
-    { "symbol": "P, Q", "meaning": "দুটি ভেক্টরের মান", "unit": "একক" },
-    { "symbol": "\\alpha", "meaning": "ভেক্টরদ্বয়ের অন্তর্ভূক্ত কোণ", "unit": "degree" },
-    { "symbol": "\\theta", "meaning": "P ভেক্টরের সাথে লব্ধির কোণ", "unit": "degree" }
+    {
+      "symbol": "R",
+      "meaning": "লব্ধি ভেক্টরের মান",
+      "unit": "একক"
+    },
+    {
+      "symbol": "P, Q",
+      "meaning": "দুটি ভেক্টরের মান",
+      "unit": "একক"
+    },
+    {
+      "symbol": "\\alpha",
+      "meaning": "ভেক্টরদ্বয়ের অন্তর্ভূক্ত কোণ",
+      "unit": "degree"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "P ভেক্টরের সাথে লব্ধির কোণ",
+      "unit": "degree"
+    }
   ],
   "derivation": {
     "lead": "সামান্তরিকের কর্ণদ্বারা লব্ধির মান ও দিক নির্দেশিত হয়।",
@@ -21,7 +44,8 @@
         "latex": "R^2 = (P + Q\\cos\\alpha)^2 + (Q\\sin\\alpha)^2 = P^2 + Q^2 + 2PQ\\cos\\alpha",
         "note": "লব্ধির দিক tan θ = Q sin α / (P + Q cos α)"
       }
-    ]
+    ],
+    "assumptions": []
   },
   "questions": [
     {
@@ -29,5 +53,21 @@
       "question": "দুটি সমান বল P এবং P কোন কোণে ক্রিয়া করলে তাদের লব্ধি বলের মান P এর সমান হবে?",
       "answer": "P^2 = P^2 + P^2 + 2P^2 \\cos\\alpha \\implies \\cos\\alpha = -0.5 \\implies \\alpha = 120^\\circ"
     }
+  ],
+  "memorize": {
+    "trick": "R = √(P² + Q² + 2PQcosα) — কোসাইন সূত্রের ছাঁচ, তবে '+2PQcosα' (ত্রিভুজে −)। α = 0 এ R = P+Q সর্বোচ্চ, α = 180° এ R = |P−Q| সর্বনিম্ন, α = 90° এ R = √(P²+Q²)।",
+    "steps": [
+      "R = √(P² + Q² + 2PQcosα)।",
+      "দিক: tanθ = Q sinα/(P + Q cosα) — P-এর সাথে লব্ধির কোণ।",
+      "তিনটি বিশেষ মান (0°, 90°, 180°) মুখস্থ রাখলে অর্ধেক প্রশ্ন সেকেন্ডে হয়।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "vector-cross-area",
+    "vector-dot-product",
+    "vector-dot-angle"
   ]
 }

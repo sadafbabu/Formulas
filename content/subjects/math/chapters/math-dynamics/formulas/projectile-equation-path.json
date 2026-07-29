@@ -1,0 +1,53 @@
+{
+  "id": "projectile-equation-path",
+  "chapter": "math-dynamics",
+  "title": "Projectile Path",
+  "titleBn": "ক্ষিপ্ত পথের সমীকরণ",
+  "summary": "y=x tanθ−...",
+  "latex": "y=x\\tan\\theta-\\frac{gx^2}{2u^2\\cos^2\\theta}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "y, x, theta, g",
+      "meaning": "y=x tanθ−...",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "x elim করে parabolic path; g/2u²cos²θ coefficient।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "y=x\\tan\\theta-\\frac{gx^2}{2u^2\\cos^2\\theta}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ক্ষিপ্ত পথের সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: x elim করে parabolic path; g/2u²cos²θ coefficient।)",
+      "answer": "y=x\\tan\\theta-\\frac{gx^2}{2u^2\\cos^2\\theta}"
+    }
+  ],
+  "memorize": {
+    "trick": "x elim করে parabolic path; g/2u²cos²θ coefficient।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "projectile-time-of-flight",
+    "projectile-velocity-components",
+    "projectile-max-height"
+  ]
+}

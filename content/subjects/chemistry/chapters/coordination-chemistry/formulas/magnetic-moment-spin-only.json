@@ -1,0 +1,52 @@
+{
+  "id": "magnetic-moment-spin-only",
+  "chapter": "coordination-chemistry",
+  "title": "Spin-Only Magnetic Moment",
+  "titleBn": "স্পিন-মাত্র চৌম্বক মুহূর্ত",
+  "summary": "μ=√n(n+2) BM",
+  "latex": "\\mu=\\sqrt{n(n+2)}\\ \\text{BM}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "mu, sqrt, n, BM",
+      "meaning": "μ=√n(n+2) BM",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "n=unpaired electrons; √n(n+2) BM formula।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mu=\\sqrt{n(n+2)}\\ \\text{BM}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "স্পিন-মাত্র চৌম্বক মুহূর্ত এর সূত্রটি লেখো। (ইঙ্গিত: n=unpaired electrons; √n(n+2) BM formula।)",
+      "answer": "\\mu=\\sqrt{n(n+2)}\\ \\text{BM}"
+    }
+  ],
+  "memorize": {
+    "trick": "n=unpaired electrons; √n(n+2) BM formula।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "crystal-field-splitting",
+    "werner-primary-secondary"
+  ]
+}

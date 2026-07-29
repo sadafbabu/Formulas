@@ -2,7 +2,7 @@
   "title": "Gibbs Free Energy & Cell EMF",
   "titleBn": "গিবস মুক্ত শক্তি ও কোষ EMF",
   "summary": "কোষের EMF ও গিবস মুক্ত শক্তি পরিবর্তন সম্পর্ক",
-  "latex": "\\Delta G = -nFE_{cell}, \\quad E_{cell} = E^\\circ_{cell} - \\frac{RT}{nF}\\ln Q",
+  "latex": "\\Delta G=-nFE_{\\mathrm{cell}},\\quad \\Delta G^\\circ=-nFE^\\circ_{\\mathrm{cell}},\\quad E=E^\\circ-\\frac{RT}{nF}\\ln Q",
   "tags": [
     "hsc",
     "eng-admission",
@@ -10,11 +10,12 @@
     "3-star"
   ],
   "importance": 3,
+  "order": 50,
   "symbols": [
     {
       "symbol": "\\Delta G",
       "meaning": "গিবস মুক্ত শক্তি পরিবর্তন",
-      "unit": "J"
+      "unit": "J/mol"
     },
     {
       "symbol": "n",
@@ -42,9 +43,33 @@
         "note": "ΔG < 0 হলে কোষ স্বতঃস্ফূর্ত"
       }
     ],
-    "assumptions": "প্রমাণ অবস্থা"
+    "assumptions": [
+      "বর্তমান reversible cell state-এ ΔG = −nFE; standard state-এ ΔG° = −nFE°"
+    ]
   },
   "id": "gibbs-emf-relation",
   "chapter": "electrochemistry",
-  "questions": []
+  "questions": [
+    {
+      "examType": "Eng / HSC",
+      "question": "\\Delta G ও EMF এর সম্পর্ক কী?",
+      "answer": "\\Delta G = -nFE"
+    }
+  ],
+  "memorize": {
+    "trick": "ΔG = −nFE — ঋণাত্মক চিহ্নটাই আসল: E ধনাত্মক হলে ΔG ঋণাত্মক, অর্থাৎ বিক্রিয়া স্বতঃস্ফূর্ত। 'ধনাত্মক EMF = কোষ কাজ করবে'।",
+    "steps": [
+      "ΔG° = −nFE°_cell, F = 96500 C/mol।",
+      "ΔG° = −RT lnK — তাই E° থেকে সাম্য ধ্রুবকও বের করা যায়।",
+      "নার্নস্ট: E = E° − (RT/nF)lnQ; ২৯৮ K এ = E° − (0.0592/n)logQ।"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "faraday-second-law",
+    "electrochemical-series",
+    "faradays-electrolysis"
+  ]
 }

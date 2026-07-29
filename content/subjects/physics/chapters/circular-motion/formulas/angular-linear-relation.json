@@ -1,0 +1,53 @@
+{
+  "id": "angular-linear-relation",
+  "chapter": "circular-motion",
+  "title": "v = ωr",
+  "titleBn": "রৈখিক–কৌণিক সম্পর্ক",
+  "summary": "v=ωr",
+  "latex": "v=\\omega r,\\quad a_t=\\alpha r",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "v, omega, r, a",
+      "meaning": "v=ωr",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "রৈখিক বেগ = ω×r; স্পর্শক ত্বরণ = αr।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "v=\\omega r,\\quad a_t=\\alpha r",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "রৈখিক–কৌণিক সম্পর্ক এর সূত্রটি লেখো। (ইঙ্গিত: রৈখিক বেগ = ω×r; স্পর্শক ত্বরণ = αr।)",
+      "answer": "v=\\omega r,\\quad a_t=\\alpha r"
+    }
+  ],
+  "memorize": {
+    "trick": "রৈখিক বেগ = ω×r; স্পর্শক ত্বরণ = αr।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "centripetal-acceleration",
+    "period-frequency-circular"
+  ]
+}

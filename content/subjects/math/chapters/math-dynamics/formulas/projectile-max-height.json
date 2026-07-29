@@ -1,0 +1,53 @@
+{
+  "id": "projectile-max-height",
+  "chapter": "math-dynamics",
+  "title": "Maximum Height",
+  "titleBn": "সর্বোচ্চ উচ্চতা",
+  "summary": "H=u²sin²θ/2g",
+  "latex": "H=\\frac{u^2\\sin^2\\theta}{2g}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "H, u, theta, g",
+      "meaning": "H=u²sin²θ/2g",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "শুধু vertical component u sinθ; H=v²/2g।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "H=\\frac{u^2\\sin^2\\theta}{2g}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সর্বোচ্চ উচ্চতা এর সূত্রটি লেখো। (ইঙ্গিত: শুধু vertical component u sinθ; H=v²/2g।)",
+      "answer": "H=\\frac{u^2\\sin^2\\theta}{2g}"
+    }
+  ],
+  "memorize": {
+    "trick": "শুধু vertical component u sinθ; H=v²/2g।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "projectile-range",
+    "projectile-time-of-flight",
+    "projectile-equation-path"
+  ]
+}

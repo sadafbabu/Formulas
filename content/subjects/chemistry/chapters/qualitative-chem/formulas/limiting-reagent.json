@@ -1,0 +1,54 @@
+{
+  "id": "limiting-reagent",
+  "chapter": "qualitative-chem",
+  "title": "Limiting Reagent",
+  "titleBn": "সীমিত বিকারক",
+  "summary": "প্রোডাক্ট নির্ণয়ে সীমিত বিকারক",
+  "latex": "n_{\\text{prod}}=\\min_i\\Big(\\frac{n_i}{\\nu_i}\\Big)\\times\\nu_{\\text{prod}}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 150,
+  "symbols": [
+    {
+      "symbol": "n, prod, i, Big",
+      "meaning": "প্রোডাক্ট নির্ণয়ে সীমিত বিকারক",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "প্রোডাক্ট নির্ণয়ে সীমিত বিকারক",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "n_{\\text{prod}}=\\min_i\\Big(\\frac{n_i}{\\nu_i}\\Big)\\times\\nu_{\\text{prod}}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সীমিত বিকারক এর সূত্রটি লেখো। (ইঙ্গিত: যে বিকারকের n/ν সবচেয়ে ছোট সেটা limiting।)",
+      "answer": "n_{\\text{prod}}=\\min_i\\Big(\\frac{n_i}{\\nu_i}\\Big)\\times\\nu_{\\text{prod}}"
+    }
+  ],
+  "memorize": {
+    "trick": "যে বিকারকের n/ν সবচেয়ে ছোট সেটা limiting।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "oxidation-number",
+    "volumetric-titration",
+    "equivalent-normality"
+  ]
+}

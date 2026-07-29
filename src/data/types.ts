@@ -4,7 +4,6 @@ export type TagId =
   | 'medical'
   | 'varsity'
   | 'general'
-  | 'olympic'
   | '3-star'
   | '2-star'
   | '1-star'
@@ -42,6 +41,12 @@ export interface QuestionItem {
   answer: string
 }
 
+/** Memorization aid: a mnemonic/trick plus optional ordered steps to recall the formula */
+export interface MemorizeItem {
+  trick: string
+  steps?: string[]
+}
+
 export type PaperId = '1st-paper' | '2nd-paper'
 export type SubjectId = 'physics' | 'chemistry' | 'math'
 
@@ -55,11 +60,14 @@ export interface Formula {
   chapter: string
   paper?: PaperId
   importance?: 1 | 2 | 3 // 1 to 3 grey stars (3 being highest / most important)
+  /** Position within its chapter; lower shows first. Unordered formulas sort last, by id. */
+  order?: number
   subjects: string[]
   related: string[]
   symbols: SymbolInfo[]
   derivation: Derivation
   questions?: QuestionItem[]
+  memorize?: MemorizeItem
 }
 
 export interface ChapterMeta {

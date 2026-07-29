@@ -1,0 +1,53 @@
+{
+  "id": "set-difference",
+  "chapter": "sets-functions",
+  "title": "Set Difference",
+  "titleBn": "সেটের পার্থক্য",
+  "summary": "A−B",
+  "latex": "A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "A, setminus, B, x",
+      "meaning": "A−B",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "A-তে আছে কিন্তু B-তে নেই।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সেটের পার্থক্য এর সূত্রটি লেখো। (ইঙ্গিত: A-তে আছে কিন্তু B-তে নেই।)",
+      "answer": "A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}"
+    }
+  ],
+  "memorize": {
+    "trick": "A-তে আছে কিন্তু B-তে নেই।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "set-complement",
+    "de-morgan-sets",
+    "set-intersection"
+  ]
+}

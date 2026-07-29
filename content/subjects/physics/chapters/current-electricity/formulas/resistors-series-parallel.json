@@ -1,0 +1,75 @@
+{
+  "id": "resistors-series-parallel",
+  "chapter": "current-electricity",
+  "title": "Resistors in Series & Parallel",
+  "titleBn": "রোধের শ্রেণী ও সমান্তরাল সমবায়",
+  "summary": "রোধ সমবায়ের মূল সূত্র এবং প্রবাহ ও বিভব কীভাবে ভাগ হয়।",
+  "latex": "R_s = \\sum R_i, \\quad \\frac{1}{R_p} = \\sum\\frac{1}{R_i}, \\quad R_p = \\frac{R_1R_2}{R_1+R_2}\\ (\\text{দুটির ক্ষেত্রে})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "ohms-law",
+    "emf-internal-resistance",
+    "joule-heating"
+  ],
+  "symbols": [
+    {
+      "symbol": "R_s",
+      "meaning": "শ্রেণী সমবায়ের তুল্য রোধ",
+      "unit": "Ω"
+    },
+    {
+      "symbol": "R_p",
+      "meaning": "সমান্তরাল সমবায়ের তুল্য রোধ",
+      "unit": "Ω"
+    }
+  ],
+  "derivation": {
+    "lead": "শ্রেণীতে প্রবাহ একই ও বিভব ভাগ হয়; সমান্তরালে বিভব একই ও প্রবাহ ভাগ হয়।",
+    "steps": [
+      {
+        "title": "শ্রেণী",
+        "latex": "I \\text{ একই}, \\quad V = V_1 + V_2 \\Rightarrow R_s = R_1 + R_2",
+        "note": "তুল্য রোধ সবচেয়ে বড় রোধের চেয়েও বেশি।"
+      },
+      {
+        "title": "সমান্তরাল",
+        "latex": "V \\text{ একই}, \\quad I = I_1 + I_2 \\Rightarrow \\frac{1}{R_p} = \\frac{1}{R_1} + \\frac{1}{R_2}",
+        "note": "তুল্য রোধ সবচেয়ে ছোট রোধের চেয়েও কম।"
+      },
+      {
+        "title": "প্রবাহ বিভাজন",
+        "latex": "I_1 = I\\frac{R_2}{R_1+R_2}",
+        "note": "সমান্তরালে ছোট রোধের শাখায় বেশি প্রবাহ যায়।"
+      }
+    ],
+    "assumptions": [
+      "সংযোগ তারের রোধ উপেক্ষণীয়।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Eng Admission",
+      "question": "৬ Ω ও ৩ Ω রোধ সমান্তরালে যুক্ত করে ২ Ω-এর সাথে শ্রেণীতে বসানো হলো। মোট রোধ কত?",
+      "answer": "R_p = \\frac{6\\times3}{6+3} = 2\\ \\Omega, \\quad R_{total} = 2 + 2 = 4\\ \\Omega"
+    }
+  ],
+  "memorize": {
+    "trick": "শ্রেণীতে সরল যোগ, সমান্তরালে \"গুণফল ভাগ যোগফল\" (দুটির ক্ষেত্রে)। যাচাইয়ের নিয়ম: শ্রেণীর ফল সবচেয়ে বড়টির চেয়েও বড় হবে, সমান্তরালের ফল সবচেয়ে ছোটটির চেয়েও ছোট হবে।",
+    "steps": [
+      "n সমান রোধ R: শ্রেণীতে nR, সমান্তরালে R/n।",
+      "ধারকের ক্ষেত্রে সব উল্টো — রোধে যা শ্রেণী, ধারকে তা সমান্তরাল।",
+      "সমান্তরালে ছোট রোধে বেশি প্রবাহ, শ্রেণীতে বড় রোধে বেশি বিভব পতন।"
+    ]
+  }
+}

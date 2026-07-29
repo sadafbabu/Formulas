@@ -1,0 +1,54 @@
+{
+  "id": "relative-velocity-1d",
+  "chapter": "motion-kinematics",
+  "title": "Relative Velocity 1D",
+  "titleBn": "আপেক্ষিক বেগ (১D)",
+  "summary": "vAB=vA−vB",
+  "latex": "\\vec v_{AB}=\\vec v_A-\\vec v_B",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "vec, v, A, B",
+      "meaning": "vAB=vA−vB",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "A এর সাপেক্ষে B = vA − vB।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\vec v_{AB}=\\vec v_A-\\vec v_B",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আপেক্ষিক বেগ (১D) এর সূত্রটি লেখো। (ইঙ্গিত: A এর সাপেক্ষে B = vA − vB।)",
+      "answer": "\\vec v_{AB}=\\vec v_A-\\vec v_B"
+    }
+  ],
+  "memorize": {
+    "trick": "A এর সাপেক্ষে B = vA − vB।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "kinematic-nth-second",
+    "rain-man-relative",
+    "kinematic-equation-v2"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "williamson-ether",
+  "chapter": "organic-chem",
+  "title": "Williamson Ether Synthesis",
+  "titleBn": "উইলিয়ামসন ইথার সংশ্লেষণ",
+  "summary": "RONa + R'X",
+  "latex": "\\ce{RONa + R'X -> ROR' + NaX}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 220,
+  "symbols": [
+    {
+      "symbol": "ce, R, O, N",
+      "meaning": "RONa + R'X",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "অ্যালকক্সাইড + অ্যালকাইল হ্যালাইড → ইথার।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\ce{RONa + R'X -> ROR' + NaX}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "উইলিয়ামসন ইথার সংশ্লেষণ এর সূত্রটি লেখো। (ইঙ্গিত: অ্যালকক্সাইড + অ্যালকাইল হ্যালাইড → ইথার।)",
+      "answer": "\\ce{RONa + R'X -> ROR' + NaX}"
+    }
+  ],
+  "memorize": {
+    "trick": "অ্যালকক্সাইড + অ্যালকাইল হ্যালাইড → ইথার।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "hoffmann-bromamide",
+    "tollens-test"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "equation-from-roots",
+  "chapter": "polynomials",
+  "title": "Equation from Roots",
+  "titleBn": "মূল হতে সমীকরণ গঠন",
+  "summary": "দেওয়া মূল থেকে সমীকরণ",
+  "latex": "(x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "x, alpha, beta, Rightarrow",
+      "meaning": "দেওয়া মূল থেকে সমীকরণ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "x² − (সমষ্টি)x + (গুণফল) = ০।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "(x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "মূল হতে সমীকরণ গঠন এর সূত্রটি লেখো। (ইঙ্গিত: x² − (সমষ্টি)x + (গুণফল) = ০।)",
+      "answer": "(x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0"
+    }
+  ],
+  "memorize": {
+    "trick": "x² − (সমষ্টি)x + (গুণফল) = ০।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "vieta-formulas"
+  ]
+}

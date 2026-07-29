@@ -11,6 +11,7 @@
     "3-star"
   ],
   "importance": 3,
+  "order": 50,
   "symbols": [
     {
       "symbol": "E",
@@ -19,7 +20,7 @@
     },
     {
       "symbol": "\\varepsilon_0",
-      "meaning": "শূন্যের প্রবেশ্যতা",
+      "meaning": "শূন্যস্থানের তড়িৎ ভেদনযোগ্যতা (electric permittivity)",
       "unit": "F/m",
       "value": "8.85×10⁻¹²"
     },
@@ -43,9 +44,33 @@
         "note": "প্রতিসাম্য থাকলে ক্ষেত্র সহজে নির্ণেয়"
       }
     ],
-    "assumptions": "বিন্দু আধান, সমস্ত্র মাধ্যম"
+    "assumptions": [
+      "বিন্দু আধান, সমস্ত্র মাধ্যম"
+    ]
   },
   "id": "electric-field",
   "chapter": "static-electricity",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "বিন্দু চার্জ Q থেকে r দূরত্বে E কত?",
+      "answer": "E=\\frac{1}{4\\pi\\varepsilon_0}\\frac{Q}{r^2}"
+    }
+  ],
+  "memorize": {
+    "trick": "E = kq/r² — বর্গ বিপরীত। আর গাউসের সূত্র ∮E·dA = q_ভিতরে/ε₀ — 'যত আধান ঘেরা, তত ফ্লাক্স'; বাইরের আধান কোনো ফল দেয় না।",
+    "steps": [
+      "গাউস দিয়ে তিনটি ফল মুখস্থ: বিন্দু আধানে kq/r², অসীম তারে λ/(2πε₀r), অসীম তলে σ/(2ε₀)।",
+      "লক্ষ্য করুন: বিন্দুতে 1/r², তারে 1/r, তলে r-নিরপেক্ষ — 'যত ছড়ানো, তত কম নির্ভরতা'।",
+      "পরিবাহীর ভিতরে E = 0, পৃষ্ঠে σ/ε₀।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "capacitor-parallel-plate",
+    "capacitor-combination",
+    "electric-potential"
+  ]
 }

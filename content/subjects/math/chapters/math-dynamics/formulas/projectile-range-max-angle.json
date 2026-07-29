@@ -1,0 +1,53 @@
+{
+  "id": "projectile-range-max-angle",
+  "chapter": "math-dynamics",
+  "title": "Max Range Angle",
+  "titleBn": "সর্বোচ্চ পালার কোণ",
+  "summary": "θ=45°",
+  "latex": "R_{\\max}=\\frac{u^2}{g}\\quad\\text{at }\\theta=45^\\circ",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "R, u, g, at",
+      "meaning": "θ=45°",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "sin2θ max at 45°; same level থেকে ছোড়লে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "R_{\\max}=\\frac{u^2}{g}\\quad\\text{at }\\theta=45^\\circ",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সর্বোচ্চ পালার কোণ এর সূত্রটি লেখো। (ইঙ্গিত: sin2θ max at 45°; same level থেকে ছোড়লে।)",
+      "answer": "R_{\\max}=\\frac{u^2}{g}\\quad\\text{at }\\theta=45^\\circ"
+    }
+  ],
+  "memorize": {
+    "trick": "sin2θ max at 45°; same level থেকে ছোড়লে।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "projectile-velocity-components",
+    "newton-second-math",
+    "projectile-equation-path"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "complex-conjugate-modulus",
+  "chapter": "complex-numbers",
+  "title": "z·z̄ = |z|²",
+  "titleBn": "মডুলাস ও কনজুগেট",
+  "summary": "zz̄=|z|²",
+  "latex": "z\\bar z=|z|^2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 140,
+  "symbols": [
+    {
+      "symbol": "z, bar",
+      "meaning": "zz̄=|z|²",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ভাগ করার সময় ভাজককে কনজুগেট দিয়ে গুণ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "z\\bar z=|z|^2",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "মডুলাস ও কনজুগেট এর সূত্রটি লেখো। (ইঙ্গিত: ভাগ করার সময় ভাজককে কনজুগেট দিয়ে গুণ।)",
+      "answer": "z\\bar z=|z|^2"
+    }
+  ],
+  "memorize": {
+    "trick": "ভাগ করার সময় ভাজককে কনজুগেট দিয়ে গুণ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "complex-distance",
+    "arg-quotient-product"
+  ]
+}

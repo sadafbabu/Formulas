@@ -1,0 +1,53 @@
+{
+  "id": "gp-nth-term",
+  "chapter": "sequences-series",
+  "title": "GP nth Term",
+  "titleBn": "গুণোত্তর ধারার n-তম পদ",
+  "summary": "ar^(n−1)",
+  "latex": "a_n=ar^{n-1}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "a, n, r",
+      "meaning": "ar^(n−1)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "প্রথম a, সাধারণ অনুপাত r।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "a_n=ar^{n-1}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "গুণোত্তর ধারার n-তম পদ এর সূত্রটি লেখো। (ইঙ্গিত: প্রথম a, সাধারণ অনুপাত r।)",
+      "answer": "a_n=ar^{n-1}"
+    }
+  ],
+  "memorize": {
+    "trick": "প্রথম a, সাধারণ অনুপাত r।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "ap-sum",
+    "gp-sum-finite",
+    "ap-nth-term"
+  ]
+}

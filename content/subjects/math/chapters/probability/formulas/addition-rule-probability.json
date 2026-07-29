@@ -1,0 +1,53 @@
+{
+  "id": "addition-rule-probability",
+  "chapter": "probability",
+  "title": "Addition Rule",
+  "titleBn": "যোগ নিয়ম",
+  "summary": "P(A∪B)",
+  "latex": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "P, A, cup, B",
+      "meaning": "P(A∪B)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "মিলিত = A+B−AB; পরস্পর বর্জন হলে AB=0।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "যোগ নিয়ম এর সূত্রটি লেখো। (ইঙ্গিত: মিলিত = A+B−AB; পরস্পর বর্জন হলে AB=0।)",
+      "answer": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)"
+    }
+  ],
+  "memorize": {
+    "trick": "মিলিত = A+B−AB; পরস্পর বর্জন হলে AB=0।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "complement-probability",
+    "mutually-exclusive-probability",
+    "classical-probability"
+  ]
+}

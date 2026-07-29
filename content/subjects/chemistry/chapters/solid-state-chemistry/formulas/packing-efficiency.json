@@ -1,0 +1,53 @@
+{
+  "id": "packing-efficiency",
+  "chapter": "solid-state-chemistry",
+  "title": "Packing Efficiency",
+  "titleBn": "প্যাকিং দক্ষতা",
+  "summary": "volume occupied",
+  "latex": "\\text{PE}=\\frac{\\text{volume of atoms}}{\\text{volume of unit cell}}\\times100\\%",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "PE, volume of atoms, volume of unit cell",
+      "meaning": "volume occupied",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "SC=52%, BCC=68%, FCC/HCP=74% — memorize।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{PE}=\\frac{\\text{volume of atoms}}{\\text{volume of unit cell}}\\times100\\%",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "প্যাকিং দক্ষতা এর সূত্রটি লেখো। (ইঙ্গিত: SC=52%, BCC=68%, FCC/HCP=74% — memorize।)",
+      "answer": "\\text{PE}=\\frac{\\text{volume of atoms}}{\\text{volume of unit cell}}\\times100\\%"
+    }
+  ],
+  "memorize": {
+    "trick": "SC=52%, BCC=68%, FCC/HCP=74% — memorize।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "unit-cell-atoms",
+    "density-unit-cell",
+    "bragg-equation"
+  ]
+}

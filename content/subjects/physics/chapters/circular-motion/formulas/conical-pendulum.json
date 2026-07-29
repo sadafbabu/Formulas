@@ -1,0 +1,54 @@
+{
+  "id": "conical-pendulum",
+  "chapter": "circular-motion",
+  "title": "Conical Pendulum",
+  "titleBn": "শঙ্কু দোলক",
+  "summary": "T=2π√(L cosθ/g)",
+  "latex": "T=2\\pi\\sqrt{\\frac{L\\cos\\theta}{g}},\\quad \\tan\\theta=\\frac{v^2}{rg}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "T, pi, sqrt, L",
+      "meaning": "T=2π√(L cosθ/g)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "উল্লম্ব উপাংশ ভারসাম্য; অনুভূমিক = কেন্দ্রমুখী।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "T=2\\pi\\sqrt{\\frac{L\\cos\\theta}{g}},\\quad \\tan\\theta=\\frac{v^2}{rg}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "শঙ্কু দোলক এর সূত্রটি লেখো। (ইঙ্গিত: উল্লম্ব উপাংশ ভারসাম্য; অনুভূমিক = কেন্দ্রমুখী।)",
+      "answer": "T=2\\pi\\sqrt{\\frac{L\\cos\\theta}{g}},\\quad \\tan\\theta=\\frac{v^2}{rg}"
+    }
+  ],
+  "memorize": {
+    "trick": "উল্লম্ব উপাংশ ভারসাম্য; অনুভূমিক = কেন্দ্রমুখী।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "vertical-circle-min-speed",
+    "death-well-loop",
+    "vertical-circle-tension"
+  ]
+}

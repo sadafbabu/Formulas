@@ -1,0 +1,53 @@
+{
+  "id": "parabola-parametric",
+  "chapter": "conic-sections",
+  "title": "Parametric Parabola",
+  "titleBn": "পরামিতিক পরাবৃত্ত",
+  "summary": "x=at², y=2at",
+  "latex": "x=at^2,\\quad y=2at",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "x, a, t, y",
+      "meaning": "x=at², y=2at",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "t = tan(θ/2) ধরে স্পর্শরেখা সহজ।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "x=at^2,\\quad y=2at",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পরামিতিক পরাবৃত্ত এর সূত্রটি লেখো। (ইঙ্গিত: t = tan(θ/2) ধরে স্পর্শরেখা সহজ।)",
+      "answer": "x=at^2,\\quad y=2at"
+    }
+  ],
+  "memorize": {
+    "trick": "t = tan(θ/2) ধরে স্পর্শরেখা সহজ।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "parabola-latus-rectum",
+    "parabola-tangent",
+    "parabola-focus-directrix"
+  ]
+}

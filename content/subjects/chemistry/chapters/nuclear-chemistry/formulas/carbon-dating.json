@@ -1,0 +1,54 @@
+{
+  "id": "carbon-dating",
+  "chapter": "nuclear-chemistry",
+  "title": "Carbon Dating",
+  "titleBn": "কার্বন ডেটিং",
+  "summary": "¹⁴C age",
+  "latex": "t=\\frac{t_{1/2}}{0.693}\\ln\\frac{N_0}{N}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "t, N",
+      "meaning": "¹⁴C age",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "জীবিত বস্তুতে ¹⁴C/¹²C স্থির; মৃত্যুর পর ক্ষয়।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "t=\\frac{t_{1/2}}{0.693}\\ln\\frac{N_0}{N}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কার্বন ডেটিং এর সূত্রটি লেখো। (ইঙ্গিত: জীবিত বস্তুতে ¹⁴C/¹²C স্থির; মৃত্যুর পর ক্ষয়।)",
+      "answer": "t=\\frac{t_{1/2}}{0.693}\\ln\\frac{N_0}{N}"
+    }
+  ],
+  "memorize": {
+    "trick": "জীবিত বস্তুতে ¹⁴C/¹²C স্থির; মৃত্যুর পর ক্ষয়।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "half-life-chem",
+    "binding-energy-per-nucleon",
+    "radioactive-decay-law-chem"
+  ]
+}

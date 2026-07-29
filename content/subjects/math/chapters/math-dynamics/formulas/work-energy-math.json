@@ -1,0 +1,52 @@
+{
+  "id": "work-energy-math",
+  "chapter": "math-dynamics",
+  "title": "Work–Energy Theorem",
+  "titleBn": "কাজ–শক্তি উপপাদ্য",
+  "summary": "W=ΔKE",
+  "latex": "W=\\frac12 m(v^2-u^2)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "W, m, v, u",
+      "meaning": "W=ΔKE",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "মোট কাজ = গতিশক্তির পরিবর্তন।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "W=\\frac12 m(v^2-u^2)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কাজ–শক্তি উপপাদ্য এর সূত্রটি লেখো। (ইঙ্গিত: মোট কাজ = গতিশক্তির পরিবর্তন।)",
+      "answer": "W=\\frac12 m(v^2-u^2)"
+    }
+  ],
+  "memorize": {
+    "trick": "মোট কাজ = গতিশক্তির পরিবর্তন।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "newton-second-math",
+    "projectile-range-max-angle"
+  ]
+}

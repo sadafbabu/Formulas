@@ -1,0 +1,53 @@
+{
+  "id": "agp-sum",
+  "chapter": "sequences-series",
+  "title": "Arithmetico-Geometric Series",
+  "titleBn": "সমান্তর-গুণোত্তর ধারা",
+  "summary": "Σ n rⁿ",
+  "latex": "S=a+(a+d)r+(a+2d)r^2+\\cdots",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "S, a, d, r",
+      "meaning": "Σ n rⁿ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Σ n rⁿ — S − rS করে GP বের করো।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "S=a+(a+d)r+(a+2d)r^2+\\cdots",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সমান্তর-গুণোত্তর ধারা এর সূত্রটি লেখো। (ইঙ্গিত: S − rS করে GP বের করো।)",
+      "answer": "S=a+(a+d)r+(a+2d)r^2+\\cdots"
+    }
+  ],
+  "memorize": {
+    "trick": "S − rS করে GP বের করো।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "am-gm-hm",
+    "sum-natural-squares-cubes",
+    "hp-relation"
+  ]
+}

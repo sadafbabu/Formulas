@@ -1,0 +1,54 @@
+{
+  "id": "kinematic-equation-s",
+  "chapter": "motion-kinematics",
+  "title": "s = ut + ½at²",
+  "titleBn": "দ্বিতীয় গতি সমীকরণ",
+  "summary": "s=ut+½at²",
+  "latex": "s=ut+\\tfrac12 at^2",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "s, u, t, tfrac",
+      "meaning": "s=ut+½at²",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সরণ = ut + ½at²; a=0 হলে s=ut।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "s=ut+\\tfrac12 at^2",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "দ্বিতীয় গতি সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: সরণ = ut + ½at²; a=0 হলে s=ut।)",
+      "answer": "s=ut+\\tfrac12 at^2"
+    }
+  ],
+  "memorize": {
+    "trick": "সরণ = ut + ½at²; a=0 হলে s=ut।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "kinematic-equation-v",
+    "kinematic-equation-v2",
+    "average-instantaneous-velocity"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "rolling-motion",
+  "chapter": "dynamics",
+  "title": "Pure Rolling",
+  "titleBn": "বিশুদ্ধ গড়ান",
+  "summary": "বিশুদ্ধ গড়ানে রৈখিক ও কৌণিক সম্পর্ক এবং মোট KE",
+  "latex": "v=\\omega R,\\quad a=\\alpha R,\\quad K=\\tfrac12 mv^2+\\tfrac12 I\\omega^2=\\tfrac12 mv^2\\big(1+\\tfrac{k^2}{R^2}\\big)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 140,
+  "symbols": [
+    {
+      "symbol": "v, omega, R, a",
+      "meaning": "বিশুদ্ধ গড়ানে রৈখিক ও কৌণিক সম্পর্ক এবং মোট KE",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "বিশুদ্ধ গড়ানে রৈখিক ও কৌণিক সম্পর্ক এবং মোট KE",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "v=\\omega R,\\quad a=\\alpha R,\\quad K=\\tfrac12 mv^2+\\tfrac12 I\\omega^2=\\tfrac12 mv^2\\big(1+\\tfrac{k^2}{R^2}\\big)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বিশুদ্ধ গড়ান এর সূত্রটি লেখো। (ইঙ্গিত: বিশুদ্ধ গড়ান: v=ωR; KE = অনুবাদ + ঘূর্ণন।)",
+      "answer": "v=\\omega R,\\quad a=\\alpha R,\\quad K=\\tfrac12 mv^2+\\tfrac12 I\\omega^2=\\tfrac12 mv^2\\big(1+\\tfrac{k^2}{R^2}\\big)"
+    }
+  ],
+  "memorize": {
+    "trick": "বিশুদ্ধ গড়ান: v=ωR; KE = অনুবাদ + ঘূর্ণন।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "moment-of-inertia",
+    "kinetic-energy"
+  ]
+}

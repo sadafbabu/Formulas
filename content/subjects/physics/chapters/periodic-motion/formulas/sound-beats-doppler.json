@@ -1,0 +1,86 @@
+{
+  "id": "sound-beats-doppler",
+  "chapter": "periodic-motion",
+  "title": "Beats & Doppler Effect",
+  "titleBn": "স্বরকম্প ও ডপলার ক্রিয়া",
+  "summary": "দুই কাছাকাছি কম্পাঙ্কে স্বরকম্প, এবং উৎস-শ্রোতার আপেক্ষিক গতিতে আপাত কম্পাঙ্কের পরিবর্তন।",
+  "latex": "f_{beat} = |f_1 - f_2|, \\quad f' = f\\frac{v \\pm v_o}{v \\mp v_s}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "wave-equation",
+    "stationary-waves"
+  ],
+  "symbols": [
+    {
+      "symbol": "f_{beat}",
+      "meaning": "স্বরকম্পের কম্পাঙ্ক",
+      "unit": "Hz"
+    },
+    {
+      "symbol": "v",
+      "meaning": "শব্দের বেগ",
+      "unit": "m/s",
+      "value": "≈343 m/s at 20°C dry air"
+    },
+    {
+      "symbol": "v_o",
+      "meaning": "শ্রোতার বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "v_s",
+      "meaning": "উৎসের বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "f'",
+      "meaning": "আপাত কম্পাঙ্ক",
+      "unit": "Hz"
+    }
+  ],
+  "derivation": {
+    "lead": "কাছাকাছি দুই কম্পাঙ্কের উপরিপাতনে তীব্রতা পর্যায়ক্রমে বাড়ে-কমে; আর আপেক্ষিক গতিতে তরঙ্গমুখের ব্যবধান বদলায়।",
+    "steps": [
+      {
+        "title": "স্বরকম্প",
+        "latex": "f_{beat} = |f_1 - f_2|",
+        "note": "প্রতি সেকেন্ডে যতবার তীব্রতা সর্বোচ্চ হয়।"
+      },
+      {
+        "title": "ডপলার — চিহ্নের নিয়ম",
+        "latex": "f' = f\\frac{v + v_o}{v - v_s}\\ (\\text{কাছে আসলে})",
+        "note": "কাছে আসলে কম্পাঙ্ক বাড়ে (তীক্ষ্ণ), দূরে গেলে কমে (মোটা)।"
+      }
+    ],
+    "assumptions": [
+      "মাধ্যম স্থির (বায়ুপ্রবাহ নেই)।",
+      "গতি শব্দের বেগের চেয়ে কম।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical Admission",
+      "question": "৩৪০ Hz কম্পাঙ্কের হর্ন বাজিয়ে একটি গাড়ি ২০ m/s বেগে স্থির শ্রোতার দিকে আসছে। আপাত কম্পাঙ্ক কত? (v = 340 m/s)",
+      "answer": "f' = 340 \\times \\frac{340}{340-20} = 340 \\times \\frac{340}{320} = 361.25\\ \\text{Hz}"
+    }
+  ],
+  "memorize": {
+    "trick": "ডপলারের চিহ্ন মনে রাখার সহজ নিয়ম: \"কাছে আসলে কম্পাঙ্ক বাড়ে\" — তাই যে চিহ্ন বসালে ভগ্নাংশ বড় হয়, সেটাই ঠিক। শ্রোতা লবে, উৎস হরে।",
+    "steps": [
+      "কাছে আসছে: লবে +v_o, হরে −v_s (ভগ্নাংশ বড় → f বাড়ে)।",
+      "দূরে যাচ্ছে: লবে −v_o, হরে +v_s (ভগ্নাংশ ছোট → f কমে)।",
+      "Beat আলাদা শোনা শ্রোতা ও frequency range-নির্ভর; সাধারণ lab approximation-এ প্রায় 10 Hz পর্যন্ত স্পষ্ট ধরা হয়।"
+    ]
+  }
+}

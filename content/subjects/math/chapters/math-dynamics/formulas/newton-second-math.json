@@ -1,0 +1,53 @@
+{
+  "id": "newton-second-math",
+  "chapter": "math-dynamics",
+  "title": "Newton's Second Law",
+  "titleBn": "নিউটনের দ্বিতীয় সূত্র",
+  "summary": "F=ma",
+  "latex": "F=ma=\\frac{dp}{dt}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "F, m, a, d",
+      "meaning": "F=ma",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "গণিতের গতিবিদ্যায় F=ma দিয়ে সমীকরণ গঠন।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "F=ma=\\frac{dp}{dt}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "নিউটনের দ্বিতীয় সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: গণিতের গতিবিদ্যায় F=ma দিয়ে সমীকরণ গঠন।)",
+      "answer": "F=ma=\\frac{dp}{dt}"
+    }
+  ],
+  "memorize": {
+    "trick": "গণিতের গতিবিদ্যায় F=ma দিয়ে সমীকরণ গঠন।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "projectile-range-max-angle",
+    "work-energy-math",
+    "projectile-velocity-components"
+  ]
+}

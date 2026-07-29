@@ -1,0 +1,53 @@
+{
+  "id": "effective-atomic-number",
+  "chapter": "coordination-chemistry",
+  "title": "Effective Atomic Number",
+  "titleBn": "কার্যকর পরমাণু সংখ্যা",
+  "summary": "EAN rule",
+  "latex": "\\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "EAN, Z, oxidation state, CN",
+      "meaning": "EAN rule",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "EAN ≈ next noble gas (18 or 36) → stable complex।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কার্যকর পরমাণু সংখ্যা এর সূত্রটি লেখো। (ইঙ্গিত: EAN ≈ next noble gas (18 or 36) → stable complex।)",
+      "answer": "\\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}"
+    }
+  ],
+  "memorize": {
+    "trick": "EAN ≈ next noble gas (18 or 36) → stable complex।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "coordination-number",
+    "werner-primary-secondary",
+    "crystal-field-splitting"
+  ]
+}

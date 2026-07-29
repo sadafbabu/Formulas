@@ -1,0 +1,53 @@
+{
+  "id": "angular-kinematics",
+  "chapter": "dynamics",
+  "title": "Angular Kinematics",
+  "titleBn": "কৌণিক গতির সমীকরণ",
+  "summary": "সমকৌণিক ত্বরণে কৌণিক গতির তিন সমীকরণ",
+  "latex": "\\omega=\\omega_0+\\alpha t,\\quad\\theta=\\omega_0 t+\\tfrac12\\alpha t^2,\\quad\\omega^2=\\omega_0^2+2\\alpha\\theta",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "omega, alpha, t, theta",
+      "meaning": "সমকৌণিক ত্বরণে কৌণিক গতির তিন সমীকরণ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সমকৌণিক ত্বরণে কৌণিক গতির তিন সমীকরণ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\omega=\\omega_0+\\alpha t,\\quad\\theta=\\omega_0 t+\\tfrac12\\alpha t^2,\\quad\\omega^2=\\omega_0^2+2\\alpha\\theta",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কৌণিক গতির সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: রৈখিকের ছাঁচ: v→ω, a→α, s→θ।)",
+      "answer": "\\omega=\\omega_0+\\alpha t,\\quad\\theta=\\omega_0 t+\\tfrac12\\alpha t^2,\\quad\\omega^2=\\omega_0^2+2\\alpha\\theta"
+    }
+  ],
+  "memorize": {
+    "trick": "রৈখিকের ছাঁচ: v→ω, a→α, s→θ।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "motion-equations",
+    "torque-angular-acc"
+  ]
+}

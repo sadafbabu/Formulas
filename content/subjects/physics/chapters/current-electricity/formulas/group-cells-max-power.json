@@ -1,0 +1,52 @@
+{
+  "id": "group-cells-max-power",
+  "chapter": "current-electricity",
+  "title": "Grouping of Cells",
+  "titleBn": "কোষ বিন্যাস ও সর্বোচ্চ প্রবাহ",
+  "summary": "বাহ্যিক রোধের সাথে মিলিয়ে কোষ বিন্যাস",
+  "latex": "I=\\frac{nE}{nr+R}\\ \\text{(series)},\\quad I=\\frac{mE}{r+mR}\\ \\text{(parallel)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 120,
+  "symbols": [
+    {
+      "symbol": "I, n, E, r",
+      "meaning": "বাহ্যিক রোধের সাথে মিলিয়ে কোষ বিন্যাস",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "বাহ্যিক রোধের সাথে মিলিয়ে কোষ বিন্যাস",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "I=\\frac{nE}{nr+R}\\ \\text{(series)},\\quad I=\\frac{mE}{r+mR}\\ \\text{(parallel)}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "কোষ বিন্যাস ও সর্বোচ্চ প্রবাহ এর সূত্রটি লেখো। (ইঙ্গিত: R ≈ r_eq হলে সর্বোচ্চ পাওয়ার ট্রান্সফার।)",
+      "answer": "I=\\frac{nE}{nr+R}\\ \\text{(series)},\\quad I=\\frac{mE}{r+mR}\\ \\text{(parallel)}"
+    }
+  ],
+  "memorize": {
+    "trick": "R ≈ r_eq হলে সর্বোচ্চ পাওয়ার ট্রান্সফার।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "cells-series-parallel"
+  ]
+}

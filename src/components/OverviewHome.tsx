@@ -60,37 +60,69 @@ export function OverviewHome({ onSelectChapter }: OverviewHomeProps) {
 
       {/* Minimalist Chapters Grid */}
       <section className="overview-grid">
-        {filteredChapters.map((ch) => {
-          const subj = subjectsList.find((s) => s.id === ch.subjectId)
-          const paper = papers.find((p) => p.id === ch.paperId)
-
-          return (
-            <article
-              key={ch.id}
-              className={`chapter-card${ch.isReady ? ' is-ready' : ' is-locked'}`}
-              onClick={() => ch.isReady && onSelectChapter(ch.id)}
+        {filteredChapters.length === 0 ? (
+          <div className="overview-empty">
+            <p>এই ফিল্টারে কোনো অধ্যায় নেই</p>
+            <button
+              type="button"
+              className="filter-tab is-active"
+              onClick={() => {
+                setSelectedSubject('all')
+                setSelectedPaper('all')
+              }}
             >
-              <div className="card-top">
-                <span className="card-badge">
-                  {subj?.nameBn} · {paper?.nameBn}
-                </span>
-                <span className={`status-pill${ch.isReady ? ' is-live' : ''}`}>
-                  {ch.isReady ? `${ch.formulaCount} Formulations` : 'Coming Soon'}
-                </span>
-              </div>
+              সব ফিল্টার মুছুন
+            </button>
+          </div>
+        ) : (
+          filteredChapters.map((ch) => {
+            const subj = subjectsList.find((s) => s.id === ch.subjectId)
+            const paper = papers.find((p) => p.id === ch.paperId)
 
-              <h3 className="chapter-title-bn">{ch.nameBn}</h3>
-              <p className="chapter-title-en">{ch.name}</p>
+            return (
+              <article
+                key={ch.id}
+                className={`chapter-card${ch.isReady ? ' is-ready' : ' is-locked'}`}
+                role={ch.isReady ? 'button' : undefined}
+                tabIndex={ch.isReady ? 0 : undefined}
+                aria-label={
+                  ch.isReady
+                    ? `${ch.nameBn} অধ্যায় খুলুন`
+                    : `${ch.nameBn} — শীঘ্রই আসছে`
+                }
+                onClick={() => ch.isReady && onSelectChapter(ch.id)}
+                onKeyDown={(e) => {
+                  if (!ch.isReady) return
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault()
+                    onSelectChapter(ch.id)
+                  }
+                }}
+              >
+                <div className="card-top">
+                  <span className="card-badge">
+                    {subj?.nameBn} · {paper?.nameBn}
+                  </span>
+                  <span className={`status-pill${ch.isReady ? ' is-live' : ''}`}>
+                    {ch.isReady ? `${ch.formulaCount} সূত্র` : 'শীঘ্রই আসছে'}
+                  </span>
+                </div>
 
-              <div className="card-footer">
-                <span className="chapter-order">CHAPTER 0{ch.order}</span>
-                <span className="open-link">
-                  {ch.isReady ? 'Open Book →' : 'In Progress'}
-                </span>
-              </div>
-            </article>
-          )
-        })}
+                <h3 className="chapter-title-bn">{ch.nameBn}</h3>
+                <p className="chapter-title-en">{ch.name}</p>
+
+                <div className="card-footer">
+                  <span className="chapter-order">
+                    CHAPTER {String(ch.order).padStart(2, '0')}
+                  </span>
+                  <span className="open-link">
+                    {ch.isReady ? 'বই খুলুন →' : 'প্রস্তুত হচ্ছে'}
+                  </span>
+                </div>
+              </article>
+            )
+          })
+        )}
       </section>
     </div>
   )

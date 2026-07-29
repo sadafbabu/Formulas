@@ -1,0 +1,73 @@
+{
+  "id": "standard-derivatives",
+  "chapter": "calculus",
+  "title": "Standard Derivatives",
+  "titleBn": "প্রমাণ অবকলন সূত্রসমূহ",
+  "summary": "বীজগাণিতিক, exponential, logarithmic, trigonometric ও inverse-trigonometric function-এর standard derivatives।",
+  "latex": "\\frac d{dx}x^n=nx^{n-1},\\quad (e^x)'=e^x,\\quad (\\ln x)'=\\frac1x,\\quad (\\sin x)'=\\cos x,\\quad (\\cos x)'=-\\sin x",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 70,
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "differentiation-chain-rule",
+    "product-quotient-rule",
+    "maxima-minima"
+  ],
+  "symbols": [
+    {
+      "symbol": "f'(x)",
+      "meaning": "প্রথম derivative",
+      "unit": "function-এর একক/x"
+    },
+    {
+      "symbol": "n",
+      "meaning": "বাস্তব ঘাত",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "Derivative হলো instantaneous rate/ঢাল; standard limits থেকে মৌলিক সূত্রগুলো আসে।",
+    "steps": [
+      {
+        "title": "trigonometric",
+        "latex": "(\\tan x)'=\\sec^2x,\\quad(\\cot x)'=-\\csc^2x,\\quad(\\sec x)'=\\sec x\\tan x,\\quad(\\csc x)'=-\\csc x\\cot x",
+        "note": "sin ও tan positive derivative; cos, cot, cosec negative—sec positive।"
+      },
+      {
+        "title": "inverse trigonometric",
+        "latex": "(\\sin^{-1}x)'=\\frac1{\\sqrt{1-x^2}},\\quad(\\tan^{-1}x)'=\\frac1{1+x^2},\\quad(\\sec^{-1}x)'=\\frac1{|x|\\sqrt{x^2-1}}",
+        "note": "sin inverse-এ 1−x²; tan inverse-এ 1+x²।"
+      },
+      {
+        "title": "general exponential/log",
+        "latex": "(a^x)'=a^x\\ln a,\\quad(\\log_a x)'=\\frac1{x\\ln a}",
+        "note": "a=e হলে ln e=1, তাই সহজ রূপ।"
+      }
+    ],
+    "assumptions": [
+      "Angle radian-এ; degree-তে derivative-এ π/180 factor লাগত।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "HSC Board",
+      "question": "y=x^2e^x\\sin x হলে dy/dx কত?",
+      "answer": "\\frac{dy}{dx}=e^x[(2x+x^2)\\sin x+x^2\\cos x]"
+    }
+  ],
+  "memorize": {
+    "trick": "Trig derivative জোড়া: sin→cos, cos→−sin; tan→sec², cot→−cosec²; sec→sec tan, cosec→−cosec cot। Inverse-এ sin-এর 1−x², tan-এর 1+x²।",
+    "steps": [
+      "Angle অবশ্যই radian।",
+      "Composite function দেখলেই chain rule-এ ভেতরের derivative গুণ করুন।"
+    ]
+  }
+}

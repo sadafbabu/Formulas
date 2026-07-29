@@ -1,0 +1,53 @@
+{
+  "id": "derivative-exp-log",
+  "chapter": "differentiation",
+  "title": "Exp & Log Derivatives",
+  "titleBn": "সূচক ও লগ অন্তরক",
+  "summary": "eˣ, ln x",
+  "latex": "(e^x)'=e^x,\\quad (\\ln x)'=\\frac{1}{x},\\quad (a^x)'=a^x\\ln a",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "e, x, a",
+      "meaning": "eˣ, ln x",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "eˣ নিজের অন্তরক; ln-এর অন্তরক ১/x।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "(e^x)'=e^x,\\quad (\\ln x)'=\\frac{1}{x},\\quad (a^x)'=a^x\\ln a",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সূচক ও লগ অন্তরক এর সূত্রটি লেখো। (ইঙ্গিত: eˣ নিজের অন্তরক; ln-এর অন্তরক ১/x।)",
+      "answer": "(e^x)'=e^x,\\quad (\\ln x)'=\\frac{1}{x},\\quad (a^x)'=a^x\\ln a"
+    }
+  ],
+  "memorize": {
+    "trick": "eˣ নিজের অন্তরক; ln-এর অন্তরক ১/x।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "derivative-trig",
+    "chain-rule-diff",
+    "derivative-xn"
+  ]
+}

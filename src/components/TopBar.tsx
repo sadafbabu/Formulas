@@ -10,6 +10,8 @@ interface TopBarProps {
   menuSlot: ReactNode
   viewMode: 'home' | 'book'
   onGoHome: () => void
+  query?: string
+  onClearQuery?: () => void
 }
 
 export function TopBar({
@@ -20,7 +22,11 @@ export function TopBar({
   menuSlot,
   viewMode,
   onGoHome,
+  query = '',
+  onClearQuery,
 }: TopBarProps) {
+  const q = query.trim()
+
   return (
     <header className="top-bar">
       <div className="top-bar-left">
@@ -29,6 +35,8 @@ export function TopBar({
           className={`home-nav-btn${viewMode === 'home' ? ' is-active' : ''}`}
           onClick={onGoHome}
           title="সকল বিষয় ও অধ্যায়ের ওভারভিউ ড্যাশবোর্ড"
+          aria-label="ওভারভিউতে ফিরে যান"
+          aria-current={viewMode === 'home' ? 'page' : undefined}
         >
           <svg
             className="home-icon"
@@ -46,7 +54,7 @@ export function TopBar({
           </svg>
           <span>ওভারভিউ</span>
         </button>
-        {viewMode === 'book' && menuSlot}
+        {menuSlot}
       </div>
 
       {viewMode === 'book' && (
@@ -55,6 +63,7 @@ export function TopBar({
             type="button"
             className={`top-tag${!activeTag ? ' is-active' : ''}`}
             onClick={() => onTagChange(null)}
+            aria-pressed={!activeTag}
           >
             All
           </button>
@@ -65,6 +74,7 @@ export function TopBar({
               className={`top-tag${activeTag === tag.id ? ' is-active' : ''}`}
               onClick={() => onTagChange(tag.id)}
               title={tag.labelBn}
+              aria-pressed={activeTag === tag.id}
             >
               {tag.label}
             </button>
@@ -74,7 +84,23 @@ export function TopBar({
 
       {viewMode === 'book' && (
         <div className="top-bar-count" aria-live="polite">
-          {activeTag ? `${matchCount}/${totalCount}` : `${totalCount}`}
+          {q && onClearQuery ? (
+            <button
+              type="button"
+              className="search-active-pill"
+              onClick={onClearQuery}
+              title="সার্চ মুছুন"
+              aria-label={`সার্চ মুছুন: ${q}`}
+            >
+              <span className="search-active-q">⌕ {q}</span>
+              <span aria-hidden="true">×</span>
+            </button>
+          ) : null}
+          <span className={q ? 'top-bar-count-num is-muted' : 'top-bar-count-num'}>
+            {matchCount === totalCount
+              ? `${totalCount}`
+              : `${matchCount}/${totalCount}`}
+          </span>
         </div>
       )}
     </header>

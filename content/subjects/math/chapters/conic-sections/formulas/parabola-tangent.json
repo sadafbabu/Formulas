@@ -1,0 +1,53 @@
+{
+  "id": "parabola-tangent",
+  "chapter": "conic-sections",
+  "title": "Tangent to Parabola",
+  "titleBn": "পরাবৃত্তের স্পর্শরেখা",
+  "summary": "y²=4ax-এ স্পর্শরেখা",
+  "latex": "yy_1=2a(x+x_1)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "y, a, x",
+      "meaning": "y²=4ax-এ স্পর্শরেখা",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "'yy₁ = 2a(x+x₁)' — y²=4ax-এর স্পর্শ সূত্র; T≡0 পদ্ধতি মনে রাখো।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "yy_1=2a(x+x_1)",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পরাবৃত্তের স্পর্শরেখা এর সূত্রটি লেখো। (ইঙ্গিত: 'yy₁ = 2a(x+x₁)' — y²=4ax-এর স্পর্শ সূত্র; T≡0 পদ্ধতি মনে রা)",
+      "answer": "yy_1=2a(x+x_1)"
+    }
+  ],
+  "memorize": {
+    "trick": "'yy₁ = 2a(x+x₁)' — y²=4ax-এর স্পর্শ সূত্র; T≡0 পদ্ধতি মনে রাখো।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "parabola-parametric",
+    "ellipse-standard",
+    "parabola-latus-rectum"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "parabola-latus-rectum",
+  "chapter": "conic-sections",
+  "title": "Latus Rectum of Parabola",
+  "titleBn": "পরাবৃত্তের ল্যাটাস রেক্টাম",
+  "summary": "ল্যাটাস রেক্টাম",
+  "latex": "\\text{LR}=4a",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "LR, a",
+      "meaning": "ল্যাটাস রেক্টাম",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "LR = 4a — পরাবৃত্তে সবচেয়ে বেশি ব্যবহৃত সংখ্যা।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\text{LR}=4a",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "পরাবৃত্তের ল্যাটাস রেক্টাম এর সূত্রটি লেখো। (ইঙ্গিত: LR = 4a — পরাবৃত্তে সবচেয়ে বেশি ব্যবহৃত সংখ্যা।)",
+      "answer": "\\text{LR}=4a"
+    }
+  ],
+  "memorize": {
+    "trick": "LR = 4a — পরাবৃত্তে সবচেয়ে বেশি ব্যবহৃত সংখ্যা।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "parabola-focus-directrix",
+    "parabola-parametric",
+    "parabola-standard"
+  ]
+}

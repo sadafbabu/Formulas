@@ -1,0 +1,85 @@
+{
+  "id": "joule-heating",
+  "chapter": "current-electricity",
+  "title": "Joule Heating & Electric Power",
+  "titleBn": "জুলের তাপীয় সূত্র ও তড়িৎ ক্ষমতা",
+  "summary": "রোধে প্রবাহ চললে উৎপন্ন তাপ ও ক্ষমতার তিনটি রূপ; বিদ্যুৎ বিলের হিসাবও এখান থেকেই।",
+  "latex": "H = I^2Rt, \\quad P = VI = I^2R = \\frac{V^2}{R}, \\quad 1\\ \\text{একক} = 1\\ \\text{kWh}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "ohms-law",
+    "resistors-series-parallel",
+    "emf-internal-resistance"
+  ],
+  "symbols": [
+    {
+      "symbol": "H",
+      "meaning": "উৎপন্ন তাপ",
+      "unit": "J"
+    },
+    {
+      "symbol": "P",
+      "meaning": "ক্ষমতা",
+      "unit": "W"
+    },
+    {
+      "symbol": "t",
+      "meaning": "সময়",
+      "unit": "s"
+    },
+    {
+      "symbol": "V",
+      "meaning": "বিভব পার্থক্য",
+      "unit": "V"
+    }
+  ],
+  "derivation": {
+    "lead": "আধান q বিভব পার্থক্য V পেরোলে কাজ = qV; সময় দিয়ে ভাগ করলে ক্ষমতা।",
+    "steps": [
+      {
+        "title": "ক্ষমতা",
+        "latex": "P = \\frac{W}{t} = \\frac{qV}{t} = VI",
+        "note": "ওহমের সূত্র বসিয়ে তিন রূপ পাওয়া যায়।"
+      },
+      {
+        "title": "তাপ",
+        "latex": "H = Pt = I^2Rt",
+        "note": "তাপ প্রবাহের বর্গের সমানুপাতী — তাই প্রবাহ দ্বিগুণ হলে তাপ চারগুণ।"
+      },
+      {
+        "title": "কোন রূপ কখন",
+        "latex": "\\text{শ্রেণীতে } I^2R, \\quad \\text{সমান্তরালে } \\frac{V^2}{R}",
+        "note": "শ্রেণীতে I সমান তাই বড় রোধে বেশি তাপ; সমান্তরালে V সমান তাই ছোট রোধে বেশি তাপ।"
+      }
+    ],
+    "assumptions": [
+      "সব তড়িৎ শক্তি তাপে রূপান্তরিত হয় (বিশুদ্ধ রোধ)।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical Admission",
+      "question": "১০০ W-২২০ V বাল্ব প্রতিদিন ৫ ঘণ্টা করে ৩০ দিন চললে কত ইউনিট বিদ্যুৎ খরচ হবে?",
+      "answer": "E = 0.1\\ \\text{kW} \\times 5 \\times 30 = 15\\ \\text{kWh} = 15\\ \\text{একক}"
+    }
+  ],
+  "memorize": {
+    "trick": "তিন রূপ: P = VI = I²R = V²/R। কোনটা ব্যবহার করবেন তা নির্ভর করে কী ধ্রুব তার উপর — শ্রেণীতে I ধ্রুব তাই I²R, সমান্তরালে V ধ্রুব তাই V²/R।",
+    "steps": [
+      "শ্রেণীতে বড় রোধ বেশি গরম হয়; সমান্তরালে ছোট রোধ বেশি গরম হয় — উল্টো!",
+      "দুই বাল্ব শ্রেণীতে দিলে কম ক্ষমতার বাল্বটি বেশি জ্বলে (রোধ বেশি)।",
+      "১ ইউনিট = ১ kWh = 3.6×10⁶ J।"
+    ]
+  }
+}

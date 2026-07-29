@@ -1,0 +1,53 @@
+{
+  "id": "conic-general-second-degree",
+  "chapter": "conic-sections",
+  "title": "General Second Degree",
+  "titleBn": "সাধারণ দ্বিঘাত সমীকরণ",
+  "summary": "Ax²+Bxy+Cy²+...=0",
+  "latex": "Ax^2+Bxy+Cy^2+Dx+Ey+F=0",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 170,
+  "symbols": [
+    {
+      "symbol": "A, x, B, y",
+      "meaning": "Ax²+Bxy+Cy²+...=0",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "B²−4AC দিয়ে কোনিক চেনা: <0 উপবৃত্ত, =0 পরাবৃত্ত, >0 অধিবৃত্ত।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "Ax^2+Bxy+Cy^2+Dx+Ey+F=0",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "সাধারণ দ্বিঘাত সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: B²−4AC দিয়ে কোনিক চেনা: <0 উপবৃত্ত, =0 পরাবৃত্ত, >0 অধিবৃত্)",
+      "answer": "Ax^2+Bxy+Cy^2+Dx+Ey+F=0"
+    }
+  ],
+  "memorize": {
+    "trick": "B²−4AC দিয়ে কোনিক চেনা: <0 উপবৃত্ত, =0 পরাবৃত্ত, >0 অধিবৃত্ত।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "hyperbola-tangent",
+    "conic-discriminant-type",
+    "hyperbola-rectangular"
+  ]
+}

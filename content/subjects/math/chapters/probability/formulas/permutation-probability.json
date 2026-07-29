@@ -1,0 +1,53 @@
+{
+  "id": "permutation-probability",
+  "chapter": "probability",
+  "title": "Permutation in Probability",
+  "titleBn": "ক্রমবিন্যাসে সম্ভাব্যতা",
+  "summary": "n!/(n−r)!",
+  "latex": "P=\\frac{\\text{favourable permutations}}{n!}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 130,
+  "symbols": [
+    {
+      "symbol": "P, favourable permutations, n",
+      "meaning": "n!/(n−r)!",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "P=\\frac{\\text{favourable permutations}}{n!}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "ক্রমবিন্যাসে সম্ভাব্যতা এর সূত্রটি লেখো। (ইঙ্গিত: ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।)",
+      "answer": "P=\\frac{\\text{favourable permutations}}{n!}"
+    }
+  ],
+  "memorize": {
+    "trick": "ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "geometric-probability",
+    "expected-value",
+    "binomial-mean-variance"
+  ]
+}

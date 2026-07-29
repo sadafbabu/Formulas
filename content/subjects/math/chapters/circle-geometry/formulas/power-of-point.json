@@ -1,0 +1,53 @@
+{
+  "id": "power-of-point",
+  "chapter": "circle-geometry",
+  "title": "Power of a Point",
+  "titleBn": "বিন্দুর ক্ষমতা",
+  "summary": "PA·PB=PT²",
+  "latex": "PA\\cdot PB=PT^2=\\text{power}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "P, A, B, T",
+      "meaning": "PA·PB=PT²",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ছেদকারী জ্যা বা স্পর্শক — পাওয়ার সমান।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "PA\\cdot PB=PT^2=\\text{power}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "বিন্দুর ক্ষমতা এর সূত্রটি লেখো। (ইঙ্গিত: ছেদকারী জ্যা বা স্পর্শক — পাওয়ার সমান।)",
+      "answer": "PA\\cdot PB=PT^2=\\text{power}"
+    }
+  ],
+  "memorize": {
+    "trick": "ছেদকারী জ্যা বা স্পর্শক — পাওয়ার সমান।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "chord-of-contact",
+    "radical-axis",
+    "tangent-from-external"
+  ]
+}

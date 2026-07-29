@@ -1,0 +1,68 @@
+{
+  "title": "Half Wave Rectifier & Efficiency",
+  "titleBn": "অর্ধ তরঙ্গ দিষ্টকারী ও দক্ষতা",
+  "summary": "অর্ধ-তরঙ্গ দিষ্টকারণের গড় প্রবাহ, বিভব ও দক্ষতা",
+  "latex": "I_{dc} = \\frac{I_0}{\\pi}, \\quad V_{dc} = \\frac{V_0}{\\pi}, \\quad \\eta = 40.6\\%",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 40,
+  "symbols": [
+    {
+      "symbol": "I_0",
+      "meaning": "সর্বোচ্চ প্রবাহ",
+      "unit": "A"
+    },
+    {
+      "symbol": "V_0",
+      "meaning": "সর্বোচ্চ বিভব",
+      "unit": "V"
+    },
+    {
+      "symbol": "\\eta",
+      "meaning": "দিষ্টকারণ দক্ষতা",
+      "unit": "%"
+    }
+  ],
+  "derivation": {
+    "lead": "অর্ধ-তরঙ্গে শুধু ধনাত্মক অর্ধেক চক্র কাজে লাগে।",
+    "steps": [
+      {
+        "title": "গড় প্রবাহ",
+        "latex": "I_{dc} = \\frac{1}{2\\pi}\\int_0^\\pi I_0\\sin\\omega t\\,d(\\omega t) = \\frac{I_0}{\\pi}",
+        "note": "দক্ষতা 40.6%, পূর্ণ-তরঙ্গে 81.2%"
+      }
+    ],
+    "assumptions": [
+      "আদর্শ ডায়োড"
+    ]
+  },
+  "id": "half-wave-rectifier",
+  "chapter": "semiconductor",
+  "questions": [
+    {
+      "examType": "HSC / Eng",
+      "question": "হাফ-ওয়েভ রেকটিফায়ারের দক্ষতা ≈?",
+      "answer": "\\eta\\approx 40.6\\%"
+    }
+  ],
+  "memorize": {
+    "trick": "অর্ধতরঙ্গে '১ পাই', পূর্ণতরঙ্গে '২ পাই': I_dc = I₀/π বনাম 2I₀/π। দক্ষতাও ঠিক দ্বিগুণ: ৪০.৬% বনাম ৮১.২% — এই দুই সংখ্যা মুখস্থ রাখুন।",
+    "steps": [
+      "অর্ধতরঙ্গ: I_dc = I₀/π, η_max = 40.6%, রিপল ফ্যাক্টর = 1.21, একটি ডায়োড।",
+      "পূর্ণতরঙ্গ: I_dc = 2I₀/π, η_max = 81.2%, রিপল = 0.48, দুই বা চারটি ডায়োড।",
+      "অর্ধতরঙ্গে আউটপুট কম্পাঙ্ক = ইনপুট কম্পাঙ্ক, পূর্ণতরঙ্গে দ্বিগুণ।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "rectifier-ripple",
+    "zener-diode",
+    "pn-junction-diode"
+  ]
+}

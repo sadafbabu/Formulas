@@ -1,0 +1,74 @@
+{
+  "id": "isomerism",
+  "chapter": "organic-chem",
+  "title": "Structural & Stereoisomerism",
+  "titleBn": "গাঠনিক ও স্থানিক সমাণুতা",
+  "summary": "Chain, position, functional, geometrical ও optical isomer চেনার নিয়ম।",
+  "latex": "\\ce{C4H10:\\ CH3-CH2-CH2-CH3\\ \\text{and}\\ (CH3)3CH};\\quad N_{\\mathrm{stereo,max}}=2^n",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 80,
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "functional-groups",
+    "organic-reactions",
+    "sn1-sn2-mechanism"
+  ],
+  "symbols": [
+    {
+      "symbol": "n",
+      "meaning": "chiral center সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "2^n",
+      "meaning": "সর্বোচ্চ stereoisomer (meso না থাকলে)",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "একই molecular formula কিন্তু atom connectivity বা spatial arrangement ভিন্ন হলে isomer হয়।",
+    "steps": [
+      {
+        "title": "গাঠনিক",
+        "latex": "\\text{chain, position, functional, metamerism}",
+        "note": "Connectivity বদলে যায়—যেমন ethanol ও dimethyl ether functional isomer।"
+      },
+      {
+        "title": "geometrical",
+        "latex": "\\ce{R^1R^2C=CR^3R^4}:\\ \\text{cis/trans or E/Z}",
+        "note": "C=C-এর দুই carbon-এ দুটি করে ভিন্ন group না থাকলে geometrical isomer হয় না।"
+      },
+      {
+        "title": "optical",
+        "latex": "N_{\\max}=2^n",
+        "note": "sp³ carbon-এ চারটি ভিন্ন group থাকলে chiral center; meso থাকলে সংখ্যা কমে।"
+      }
+    ],
+    "assumptions": [
+      "সর্বোচ্চ 2ⁿ সূত্রে meso form ও symmetry নেই।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "Medical Admission",
+      "question": "\\ce{CH3-CH(OH)-COOH}-এ কয়টি chiral center ও সর্বোচ্চ optical isomer আছে?",
+      "answer": "n=1,\\quad N=2^1=2\\ \\text{(এক জোড়া enantiomer)}"
+    }
+  ],
+  "memorize": {
+    "trick": "একই formula, ভিন্ন connectivity = structural; একই connectivity, ভিন্ন 3D = stereoisomer। Chiral carbon-এ চারটি আলাদা group—nটি chiral center হলে সর্বোচ্চ 2ⁿ।",
+    "steps": [
+      "C=C-এর প্রতিটি carbon-এ দুই ভিন্ন group থাকলেই cis/trans সম্ভব।",
+      "Meso compound-এ chiral center থাকলেও molecule optically inactive।"
+    ]
+  }
+}

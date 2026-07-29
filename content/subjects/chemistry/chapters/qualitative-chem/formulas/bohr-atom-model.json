@@ -4,15 +4,42 @@
   "title": "Bohr Atom Model & Rydberg Formula",
   "titleBn": "বোর পরমাণু মডেল ও রিডবার্গ সমীকরণ",
   "summary": "ইলেকট্রনের কৌণিক ভরবেগ এবং বর্ণালীর তরঙ্গদৈর্ঘ্য নির্ণয়",
-  "latex": "m v r = \\frac{n h}{2\\pi}, \\quad \\frac{1}{\\lambda} = R_H \\left(\\frac{1}{n_1^2} - \\frac{1}{n_2^2}\\right)",
-  "tags": ["hsc", "eng-admission", "medical", "varsity", "3-star"],
+  "latex": "r_n=\\frac{n^2}{Z}a_0,\\quad E_n=-13.6\\frac{Z^2}{n^2}\\ \\mathrm{eV},\\quad \\frac1\\lambda=RZ^2\\left(\\frac1{n_1^2}-\\frac1{n_2^2}\\right)",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
   "importance": 3,
+  "order": 20,
   "symbols": [
-    { "symbol": "m v r", "meaning": "ইলেকট্রনের কৌণিক ভরবেগ (L)", "unit": "kg·m²/s" },
-    { "symbol": "n", "meaning": "প্রধান কোয়ান্টাম সংখ্যা (১, ২, ৩...)", "unit": "সংখ্যা" },
-    { "symbol": "h", "meaning": "প্ল্যাঙ্কের ধ্রুবক (6.626 × 10⁻³⁴)", "unit": "J·s" },
-    { "symbol": "\\lambda", "meaning": "নিঃসৃত বা শোষিত আলোর তরঙ্গদৈর্ঘ্য", "unit": "m বা nm" },
-    { "symbol": "R_H", "meaning": "রিডবার্গ ধ্রুবক (1.097 × 10⁷)", "unit": "m⁻¹" }
+    {
+      "symbol": "m v r",
+      "meaning": "ইলেকট্রনের কৌণিক ভরবেগ (L)",
+      "unit": "kg·m²/s"
+    },
+    {
+      "symbol": "n",
+      "meaning": "প্রধান কোয়ান্টাম সংখ্যা (১, ২, ৩...)",
+      "unit": "সংখ্যা"
+    },
+    {
+      "symbol": "h",
+      "meaning": "প্ল্যাঙ্কের ধ্রুবক (6.626 × 10⁻³⁴)",
+      "unit": "J·s"
+    },
+    {
+      "symbol": "\\lambda",
+      "meaning": "নিঃসৃত বা শোষিত আলোর তরঙ্গদৈর্ঘ্য",
+      "unit": "m বা nm"
+    },
+    {
+      "symbol": "R_H",
+      "meaning": "রিডবার্গ ধ্রুবক (1.097 × 10⁷)",
+      "unit": "m⁻¹"
+    }
   ],
   "derivation": {
     "lead": "বোরের কৌণিক ভরবেগের কোয়ান্টায়নের শর্ত mvr = nh/2π থেকে স্পেকট্রাম সূত্রের উৎপত্তি।",
@@ -22,6 +49,9 @@
         "latex": "\\Delta E = E_2 - E_1 = h f = \\frac{h c}{\\lambda} \\implies \\frac{1}{\\lambda} = R_H \\left(\\frac{1}{n_1^2} - \\frac{1}{n_2^2}\\right)",
         "note": "লাইম্যান সিরিজের জন্য n₁ = 1, বামার সিরিজের জন্য n₁ = 2"
       }
+    ],
+    "assumptions": [
+      "এক-electron hydrogen-like species; hydrogen-এর জন্য Z = 1"
     ]
   },
   "questions": [
@@ -30,5 +60,16 @@
       "question": "হাইড্রোজেন পরমাণুর ইলেকট্রন n=3 হতে n=2 স্তরে লাফ দিলে উৎপন্ন বিকিরণের তরঙ্গদৈর্ঘ্য কত?",
       "answer": "\\frac{1}{\\lambda} = 1.097 \\times 10^7 \\left(\\frac{1}{4} - \\frac{1}{9}\\right) = 1.097 \\times 10^7 \\times \\frac{5}{36} \\implies \\lambda = 656.3\\text{ nm}"
     }
+  ],
+  "memorize": {
+    "trick": "rn = n²a₀; En = -13.6/n² eV — কক্ষ n² অনুপাতিক, শক্তি 1/n² অনুপাতিক।"
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "solubility-product",
+    "quantum-numbers",
+    "electron-configuration"
   ]
 }

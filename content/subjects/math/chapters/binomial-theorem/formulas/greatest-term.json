@@ -10,6 +10,7 @@
     "2-star"
   ],
   "importance": 2,
+  "order": 30,
   "symbols": [
     {
       "symbol": "T_r, T_{r+1}",
@@ -26,9 +27,33 @@
         "note": "পূর্ণসংখ্যা শর্ত পূরণ করতে হয়"
       }
     ],
-    "assumptions": "a, b ধনাত্মক"
+    "assumptions": [
+      "a, b ধনাত্মক"
+    ]
   },
   "id": "greatest-term",
   "chapter": "binomial-theorem",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "(a+b)^n এ বৃহত্তম পদ নির্ণয়ের শর্ত কী?",
+      "answer": "T_{r+1}/T_r \\ge 1 \\Rightarrow r \\le \\frac{(n+1)b}{a+b}"
+    }
+  ],
+  "memorize": {
+    "trick": "বৃহত্তম পদ পেতে অনুপাত T_{r+1}/T_r = [(n−r+1)/r]·(b/a) নিন; যতক্ষণ এই অনুপাত ১-এর বেশি, পদ বাড়ছে। যেখানে ১-এর নিচে নামে, ঠিক তার আগের পদই বৃহত্তম।",
+    "steps": [
+      "অনুপাত > 1 রেখে r-এর অসমতা সমাধান করুন।",
+      "r ভগ্নাংশ এলে নিচের পূর্ণসংখ্যা নিন এবং T_{r+1} বৃহত্তম।",
+      "r পূর্ণসংখ্যা এলে দুটি পদ সমান ও দুটোই বৃহত্তম।"
+    ]
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "general-term",
+    "sum-binomial-coeff",
+    "binomial-expansion"
+  ]
 }

@@ -1,0 +1,53 @@
+{
+  "id": "pascals-law",
+  "chapter": "properties-of-matter",
+  "title": "Pascal's Law",
+  "titleBn": "প্যাসকেলের সূত্র",
+  "summary": "pressure transmitted",
+  "latex": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 100,
+  "symbols": [
+    {
+      "symbol": "F, A",
+      "meaning": "pressure transmitted",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Hydraulic lift: small force × large distance = large force × small distance।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "প্যাসকেলের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: Hydraulic lift: small force × large distance = large force ×)",
+      "answer": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}"
+    }
+  ],
+  "memorize": {
+    "trick": "Hydraulic lift: small force × large distance = large force × small distance।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "hydrostatic-pressure",
+    "excess-pressure-bubble",
+    "continuity-equation"
+  ]
+}

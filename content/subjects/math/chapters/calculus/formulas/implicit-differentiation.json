@@ -1,0 +1,52 @@
+{
+  "id": "implicit-differentiation",
+  "chapter": "calculus",
+  "title": "Implicit Differentiation",
+  "titleBn": "অন্তর্নিহিত অন্তরীকরণ",
+  "summary": "F(x,y)=0 থেকে dy/dx",
+  "latex": "F(x,y)=0\\Rightarrow\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 140,
+  "symbols": [
+    {
+      "symbol": "F, x, y, Rightarrow",
+      "meaning": "F(x,y)=0 থেকে dy/dx",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "দুই পাশে d/dx; dy/dx কে আলাদা করুন।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "F(x,y)=0\\Rightarrow\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "অন্তর্নিহিত অন্তরীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: দুই পাশে d/dx; dy/dx কে আলাদা করুন।)",
+      "answer": "F(x,y)=0\\Rightarrow\\frac{dy}{dx}=-\\frac{F_x}{F_y}"
+    }
+  ],
+  "memorize": {
+    "trick": "দুই পাশে d/dx; dy/dx কে আলাদা করুন।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "implicit-diff",
+    "differentiation-chain-rule"
+  ]
+}

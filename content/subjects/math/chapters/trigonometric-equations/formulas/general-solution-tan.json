@@ -1,0 +1,53 @@
+{
+  "id": "general-solution-tan",
+  "chapter": "trigonometric-equations",
+  "title": "General Solution tanθ=k",
+  "titleBn": "tanθ=k-এর সাধারণ সমাধান",
+  "summary": "θ=nπ+α",
+  "latex": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 170,
+  "symbols": [
+    {
+      "symbol": "theta, n, pi, alpha",
+      "meaning": "θ=nπ+α",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Period π (not 2π) for tan; simpler than sin/cos।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "tanθ=k-এর সাধারণ সমাধান এর সূত্রটি লেখো। (ইঙ্গিত: Period π (not 2π) for tan; simpler than sin/cos।)",
+      "answer": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k"
+    }
+  ],
+  "memorize": {
+    "trick": "Period π (not 2π) for tan; simpler than sin/cos।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "general-solution-cos",
+    "sin2a-cos2a",
+    "general-solution-sin"
+  ]
+}

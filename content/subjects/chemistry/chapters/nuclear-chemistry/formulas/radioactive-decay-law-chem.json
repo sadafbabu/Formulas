@@ -1,0 +1,54 @@
+{
+  "id": "radioactive-decay-law-chem",
+  "chapter": "nuclear-chemistry",
+  "title": "Radioactive Decay Law",
+  "titleBn": "তেজস্ক্রিয় ক্ষয় সূত্র",
+  "summary": "N=N₀e^(−λt)",
+  "latex": "N=N_0 e^{-\\lambda t},\\quad A=\\lambda N",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 10,
+  "symbols": [
+    {
+      "symbol": "N, e, lambda, t",
+      "meaning": "N=N₀e^(−λt)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "A = λN; সক্রিয়তা ক্ষয়ের হার।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "N=N_0 e^{-\\lambda t},\\quad A=\\lambda N",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "তেজস্ক্রিয় ক্ষয় সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: A = λN; সক্রিয়তা ক্ষয়ের হার।)",
+      "answer": "N=N_0 e^{-\\lambda t},\\quad A=\\lambda N"
+    }
+  ],
+  "memorize": {
+    "trick": "A = λN; সক্রিয়তা ক্ষয়ের হার।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "radioactive-decay",
+    "half-life-chem",
+    "carbon-dating"
+  ]
+}

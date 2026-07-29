@@ -1,0 +1,54 @@
+{
+  "id": "bulk-shear-modulus",
+  "chapter": "properties-of-matter",
+  "title": "Bulk & Shear Modulus",
+  "titleBn": "আয়তন ও পার্শ্ব গুণাঙ্ক",
+  "summary": "বাল্ক ও শিয়ার মডুলাস",
+  "latex": "B=-\\frac{\\Delta P}{\\Delta V/V},\\quad\\eta=\\frac{F/A}{\\Delta x/L}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "B, Delta, P, V",
+      "meaning": "বাল্ক ও শিয়ার মডুলাস",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "B চাপে আয়তন; η পার্শ্ব সরণে।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "B=-\\frac{\\Delta P}{\\Delta V/V},\\quad\\eta=\\frac{F/A}{\\Delta x/L}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "আয়তন ও পার্শ্ব গুণাঙ্ক এর সূত্রটি লেখো। (ইঙ্গিত: B চাপে আয়তন; η পার্শ্ব সরণে।)",
+      "answer": "B=-\\frac{\\Delta P}{\\Delta V/V},\\quad\\eta=\\frac{F/A}{\\Delta x/L}"
+    }
+  ],
+  "memorize": {
+    "trick": "B চাপে আয়তন; η পার্শ্ব সরণে।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "youngs-modulus",
+    "stokes-law",
+    "poiseuille-law"
+  ]
+}

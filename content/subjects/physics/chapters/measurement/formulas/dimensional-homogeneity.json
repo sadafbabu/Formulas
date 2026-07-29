@@ -1,0 +1,54 @@
+{
+  "id": "dimensional-homogeneity",
+  "chapter": "measurement",
+  "title": "Principle of Homogeneity",
+  "titleBn": "মাত্রিক সমসত্ত্বতার নীতি",
+  "summary": "প্রতিটি পদ একই মাত্রা",
+  "latex": "[\\text{LHS}]=[\\text{RHS}]\\quad\\text{(each term)}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 20,
+  "symbols": [
+    {
+      "symbol": "LHS, RHS, (each term)",
+      "meaning": "প্রতিটি পদ একই মাত্রা",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "যোগ/বিয়োগ শুধু একই মাত্রার রাশিতে; সমীকরণ যাচাইয়ে ব্যবহার।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "[\\text{LHS}]=[\\text{RHS}]\\quad\\text{(each term)}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "মাত্রিক সমসত্ত্বতার নীতি এর সূত্রটি লেখো। (ইঙ্গিত: যোগ/বিয়োগ শুধু একই মাত্রার রাশিতে; সমীকরণ যাচাইয়ে ব্যবহার।)",
+      "answer": "[\\text{LHS}]=[\\text{RHS}]\\quad\\text{(each term)}"
+    }
+  ],
+  "memorize": {
+    "trick": "যোগ/বিয়োগ শুধু একই মাত্রার রাশিতে; সমীকরণ যাচাইয়ে ব্যবহার।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "dimensional-formula",
+    "percentage-error",
+    "error-propagation-product"
+  ]
+}

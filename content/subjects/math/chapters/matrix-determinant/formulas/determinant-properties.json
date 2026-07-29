@@ -1,0 +1,53 @@
+{
+  "id": "determinant-properties",
+  "chapter": "matrix-determinant",
+  "title": "Determinant Properties",
+  "titleBn": "নির্ণায়কের ধর্ম",
+  "summary": "row interchange",
+  "latex": "|A^T|=|A|;\\quad |AB|=|A||B|",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 70,
+  "symbols": [
+    {
+      "symbol": "A, T, B",
+      "meaning": "row interchange",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "Row swap → sign change; two equal rows → det=0।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "|A^T|=|A|;\\quad |AB|=|A||B|",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "নির্ণায়কের ধর্ম এর সূত্রটি লেখো। (ইঙ্গিত: Row swap → sign change; two equal rows → det=0।)",
+      "answer": "|A^T|=|A|;\\quad |AB|=|A||B|"
+    }
+  ],
+  "memorize": {
+    "trick": "Row swap → sign change; two equal rows → det=0।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "cramers-rule",
+    "matrix-transpose-properties",
+    "adjoint-properties"
+  ]
+}

@@ -2,7 +2,7 @@
   "title": "Average Kinetic Energy of Gas Molecules",
   "titleBn": "গ্যাস অণুর গড় গতিশক্তি",
   "summary": "গ্যাস অণুর গড় গতিশক্তি ও তাপমাত্রার সম্পর্ক",
-  "latex": "\\frac{3}{2}kT = \\frac{1}{2}m\\bar{v}^2, \\quad k = 1.38\\times 10^{-23}\\ \\text{J/K}",
+  "latex": "\\frac12m\\langle v^2\\rangle=\\frac12m v_{\\mathrm{rms}}^2=\\frac32kT",
   "tags": [
     "hsc",
     "eng-admission",
@@ -10,6 +10,7 @@
     "2-star"
   ],
   "importance": 2,
+  "order": 40,
   "symbols": [
     {
       "symbol": "k",
@@ -48,5 +49,26 @@
   },
   "id": "kinetic-energy-gas",
   "chapter": "ideal-gas",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "এক অণুর গড় গতিশক্তি কী?",
+      "answer": "\\langle KE\\rangle=\\frac{3}{2}kT"
+    }
+  ],
+  "memorize": {
+    "trick": "গড় গতিশক্তি = (3/2)kT — কেবল তাপমাত্রার উপর নির্ভর করে, গ্যাস কোনটা তা লাগে না! 'প্রতি স্বাধীনতার মাত্রায় ½kT, তিন মাত্রা তাই 3/2 kT'।",
+    "steps": [
+      "E = (3/2)kT প্রতি অণুতে; n মোলে E = (3/2)nRT।",
+      "একই তাপমাত্রায় O₂ ও H₂-এর গড় গতিশক্তি সমান, কিন্তু বেগ আলাদা (ভর আলাদা)।"
+    ]
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "ideal-gas-equation",
+    "maxwell-distribution",
+    "rms-velocity"
+  ]
 }

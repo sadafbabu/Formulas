@@ -25,6 +25,27 @@ const ALIASES: Record<string, string[]> = {
   freq: ['কম্পাঙ্ক'],
   important: ['গুরুত্বপূর্ণ', 'সর্বোচ্চ'],
   top: ['সর্বোচ্চ', '3-star'],
+  // Chemistry
+  mole: ['মোল', 'অ্যাভোগাড্রো'],
+  ph: ['পিএইচ', 'হাইড্রোজেন'],
+  buffer: ['বাফার'],
+  organic: ['জৈব', 'অর্গানিক'],
+  nernst: ['নার্নস্ট'],
+  faraday: ['ফ্যারাডে'],
+  colligative: ['সম্মিল', 'অসমোটিক'],
+  haber: ['হ্যাবার', 'অ্যামোনিয়া'],
+  // Math
+  matrix: ['ম্যাট্রিক্স', 'নির্ণায়ক'],
+  determinant: ['নির্ণায়ক', 'ডিটারমিন্যান্ট'],
+  probability: ['সম্ভাব্যতা', 'বেইজ'],
+  binomial: ['দ্বিপদী'],
+  parabola: ['পরাবৃত্ত'],
+  ellipse: ['উপবৃত্ত'],
+  hyperbola: ['অধিবৃত্ত'],
+  integral: ['যোগজ', 'ইন্টিগ্রাল'],
+  derivative: ['অন্তরক', 'ডিফারেনশিয়াল'],
+  sequence: ['অনুক্রম', 'ধারা', 'সমান্তর'],
+  permutation: ['ক্রমবিন্যাস', 'সমাবেশ'],
 }
 
 export function matchFormula(

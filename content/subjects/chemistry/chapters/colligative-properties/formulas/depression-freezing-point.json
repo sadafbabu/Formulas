@@ -1,0 +1,53 @@
+{
+  "id": "depression-freezing-point",
+  "chapter": "colligative-properties",
+  "title": "Depression of Freezing Point",
+  "titleBn": "স্থাযোগাঙ্কের অবনমন",
+  "summary": "ΔTf=Kfm",
+  "latex": "\\Delta T_f=K_f m",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 30,
+  "symbols": [
+    {
+      "symbol": "Delta, T, f, K",
+      "meaning": "ΔTf=Kfm",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "ΔTf = Kf × m; Cryoscopic constant।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\Delta T_f=K_f m",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "স্থাযোগাঙ্কের অবনমন এর সূত্রটি লেখো। (ইঙ্গিত: ΔTf = Kf × m; Cryoscopic constant।)",
+      "answer": "\\Delta T_f=K_f m"
+    }
+  ],
+  "memorize": {
+    "trick": "ΔTf = Kf × m; Cryoscopic constant।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "elevation-boiling-point",
+    "osmotic-pressure",
+    "relative-lowering-vapour-pressure"
+  ]
+}

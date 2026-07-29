@@ -1,0 +1,53 @@
+{
+  "id": "radical-axis",
+  "chapter": "circle-geometry",
+  "title": "Radical Axis",
+  "titleBn": "মূলদ অক্ষ",
+  "summary": "S1−S2=0",
+  "latex": "S_1-S_2=0",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "symbols": [
+    {
+      "symbol": "S",
+      "meaning": "S1−S2=0",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "দুই বৃত্তের সমীকরণ বিয়োগ = radical axis (সরলরেখা)।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "S_1-S_2=0",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "মূলদ অক্ষ এর সূত্রটি লেখো। (ইঙ্গিত: দুই বৃত্তের সমীকরণ বিয়োগ = radical axis (সরলরেখা)।)",
+      "answer": "S_1-S_2=0"
+    }
+  ],
+  "memorize": {
+    "trick": "দুই বৃত্তের সমীকরণ বিয়োগ = radical axis (সরলরেখা)।",
+    "steps": []
+  },
+  "subjects": [
+    "math"
+  ],
+  "related": [
+    "power-of-point",
+    "common-chord-circles",
+    "chord-of-contact"
+  ]
+}

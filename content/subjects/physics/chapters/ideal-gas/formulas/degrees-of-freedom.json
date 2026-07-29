@@ -1,0 +1,86 @@
+{
+  "id": "degrees-of-freedom",
+  "chapter": "ideal-gas",
+  "title": "Degrees of Freedom & Internal Energy",
+  "titleBn": "স্বাধীনতার মাত্রা, অন্তঃস্থ শক্তি ও γ",
+  "summary": "সমবিভাজন নীতি থেকে অন্তঃস্থ শক্তি ও গ্যাসের γ-এর মান বের করা।",
+  "latex": "U = \\frac{f}{2}nRT, \\quad C_v = \\frac{f}{2}R, \\quad \\gamma = 1 + \\frac{2}{f}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 80,
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "cp-cv-relation",
+    "kinetic-energy-gas",
+    "first-law-thermo"
+  ],
+  "symbols": [
+    {
+      "symbol": "f",
+      "meaning": "স্বাধীনতার মাত্রা",
+      "unit": "—"
+    },
+    {
+      "symbol": "U",
+      "meaning": "অন্তঃস্থ শক্তি",
+      "unit": "J"
+    },
+    {
+      "symbol": "C_v",
+      "meaning": "স্থির আয়তনে মোলার আপেক্ষিক তাপ",
+      "unit": "J/(mol·K)"
+    },
+    {
+      "symbol": "\\gamma",
+      "meaning": "C_p/C_v অনুপাত",
+      "unit": "—"
+    }
+  ],
+  "derivation": {
+    "lead": "সমবিভাজন নীতি: প্রতিটি স্বাধীনতার মাত্রায় প্রতি অণুতে গড় শক্তি ½kT।",
+    "steps": [
+      {
+        "title": "অন্তঃস্থ শক্তি",
+        "latex": "U = \\frac{f}{2}nRT",
+        "note": "একপরমাণুকে f=3; vibration-frozen linear molecule-এ f=5; nonlinear molecule-এ f=6।"
+      },
+      {
+        "title": "আপেক্ষিক তাপ",
+        "latex": "C_v = \\frac{f}{2}R, \\quad C_p = C_v + R = \\left(\\frac{f}{2}+1\\right)R",
+        "note": "মেয়ারের সম্পর্ক থেকে সরাসরি।"
+      },
+      {
+        "title": "γ নির্ণয়",
+        "latex": "\\gamma = \\frac{C_p}{C_v} = 1 + \\frac{2}{f}",
+        "note": "f = 3 → γ = 1.67; f = 5 → γ = 1.40; f = 6 → γ = 1.33।"
+      }
+    ],
+    "assumptions": [
+      "কম্পন মাত্রা কক্ষ তাপমাত্রায় সক্রিয় নয়।",
+      "গ্যাস আদর্শ।"
+    ]
+  },
+  "questions": [
+    {
+      "examType": "BUET Admission",
+      "question": "দ্বিপরমাণুক গ্যাসের (f = 5) C_v, C_p ও γ কত?",
+      "answer": "C_v = \\tfrac{5}{2}R = 20.8, \\quad C_p = \\tfrac{7}{2}R = 29.1\\ \\text{J/(mol·K)}, \\quad \\gamma = 1.4"
+    }
+  ],
+  "memorize": {
+    "trick": "একটি সংখ্যা f জানলেই সব বের হয়: U = (f/2)nRT, C_v = (f/2)R, γ = 1 + 2/f। আর f মনে রাখুন: একপরমাণুক ৩, দ্বিপরমাণুক ৫, ত্রিপরমাণুক ৬।",
+    "steps": [
+      "He, Ar (একপরমাণুক): f = 3, γ = 5/3 ≈ 1.67।",
+      "H₂, O₂, N₂ এবং vibration-frozen linear CO₂: f = 5, γ = 7/5 = 1.40।",
+      "Nonlinear H₂O (vibration frozen): f = 6, γ = 4/3 ≈ 1.33।",
+      "f বাড়লে γ কমে—γ = 1 + 2/f।"
+    ]
+  }
+}

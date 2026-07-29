@@ -1,0 +1,52 @@
+{
+  "id": "percent-ionic-character",
+  "chapter": "chemical-bonding",
+  "title": "Percent Ionic Character",
+  "titleBn": "শতকরা আয়নিক চরিত্র",
+  "summary": "দ্বিমেরু ভ্রামক থেকে আয়নিক শতাংশ",
+  "latex": "\\%\\text{ionic}=\\frac{\\mu_{obs}}{\\mu_{ionic}}\\times 100,\\quad\\mu_{ionic}=e\\cdot d",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 110,
+  "symbols": [
+    {
+      "symbol": "ionic, mu, o, b",
+      "meaning": "দ্বিমেরু ভ্রামক থেকে আয়নিক শতাংশ",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "দ্বিমেরু ভ্রামক থেকে আয়নিক শতাংশ",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\%\\text{ionic}=\\frac{\\mu_{obs}}{\\mu_{ionic}}\\times 100,\\quad\\mu_{ionic}=e\\cdot d",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "শতকরা আয়নিক চরিত্র এর সূত্রটি লেখো। (ইঙ্গিত: %ionic = μ_obs/μ_ionic × 100।)",
+      "answer": "\\%\\text{ionic}=\\frac{\\mu_{obs}}{\\mu_{ionic}}\\times 100,\\quad\\mu_{ionic}=e\\cdot d"
+    }
+  ],
+  "memorize": {
+    "trick": "%ionic = μ_obs/μ_ionic × 100।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "dipole-moment"
+  ]
+}

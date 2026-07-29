@@ -2,7 +2,7 @@
   "title": "SN1 vs SN2 Reaction Mechanism",
   "titleBn": "SN1 বনাম SN2 বিক্রিয়া ক্রিয়াবিধি",
   "summary": "নিউক্লিওফিলিক প্রতিস্থাপন বিক্রিয়ার দুই প্রক্রিয়া",
-  "latex": "SN1: \\text{rate} = k[\\text{RX}], \\quad SN2: \\text{rate} = k[\\text{RX}][\\text{Nu}^-]",
+  "latex": "\\text{SN1: rate} = k[\\text{substrate}], \\quad \\text{SN2: rate} = k[\\text{substrate}][\\text{nuc}]",
   "tags": [
     "hsc",
     "eng-admission",
@@ -10,6 +10,7 @@
     "2-star"
   ],
   "importance": 2,
+  "order": 30,
   "symbols": [
     {
       "symbol": "RX",
@@ -24,7 +25,7 @@
     {
       "symbol": "k",
       "meaning": "হার ধ্রুবক",
-      "unit": "—"
+      "unit": "SN1: s⁻¹; SN2: L mol⁻¹ s⁻¹"
     }
   ],
   "derivation": {
@@ -36,9 +37,33 @@
         "note": "SN1: 3° > 2°, SN2: 1° > 2°"
       }
     ],
-    "assumptions": "দ্রাবক প্রভাব স্থির"
+    "assumptions": [
+      "দ্রাবক প্রভাব স্থির"
+    ]
   },
   "id": "sn1-sn2-mechanism",
   "chapter": "organic-chem",
-  "questions": []
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "SN1 ও SN2 এর মৌলিক পার্থক্য কী?",
+      "answer": "\\text{SN1: 2-step, carbocation; SN2: 1-step, backside attack}"
+    }
+  ],
+  "memorize": {
+    "trick": "SN1 = এক অণু নির্ভর (১ম ক্রম), ৩° সাবস্ট্রেটে দ্রুত, রেসিমিক মিশ্রণ দেয়। SN2 = দুই অণু নির্ভর (২য় ক্রম), ১° সাবস্ট্রেটে দ্রুত, কনফিগারেশন উল্টে যায় (Walden inversion)। 'সংখ্যাটাই ক্রম, আর ১-এ ৩°, ২-এ ১°' — উল্টো।",
+    "steps": [
+      "SN1: হার = k[সাবস্ট্রেট]; কার্বোক্যাটায়ন সৃষ্টি হয়, তাই ৩° > ২° > ১°।",
+      "SN2: হার = k[সাবস্ট্রেট][নিউক্লিওফাইল]; পিছন থেকে আক্রমণ, তাই ১° > ২° > ৩°।",
+      "পোলার প্রোটিক দ্রাবক SN1 কে, পোলার অ্যাপ্রোটিক দ্রাবক SN2 কে সাহায্য করে।"
+    ]
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "markovnikov-rule",
+    "functional-groups",
+    "grignard-reaction"
+  ]
 }

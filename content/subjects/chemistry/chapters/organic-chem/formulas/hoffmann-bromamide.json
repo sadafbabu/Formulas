@@ -1,0 +1,54 @@
+{
+  "id": "hoffmann-bromamide",
+  "chapter": "organic-chem",
+  "title": "Hoffmann Bromamide",
+  "titleBn": "হফম্যান ব্রোমামাইড",
+  "summary": "amide → amine (−1C)",
+  "latex": "\\ce{RCONH2 + Br2 + 4KOH -> RNH2 + K2CO3 + 2KBr + 2H2O}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 210,
+  "symbols": [
+    {
+      "symbol": "ce, R, C, O",
+      "meaning": "amide → amine (−1C)",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "অ্যামাইড থেকে ১ কার্বন কম প্রাথমিক অ্যামিন।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\ce{RCONH2 + Br2 + 4KOH -> RNH2 + K2CO3 + 2KBr + 2H2O}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "হফম্যান ব্রোমামাইড এর সূত্রটি লেখো। (ইঙ্গিত: অ্যামাইড থেকে ১ কার্বন কম প্রাথমিক অ্যামিন।)",
+      "answer": "\\ce{RCONH2 + Br2 + 4KOH -> RNH2 + K2CO3 + 2KBr + 2H2O}"
+    }
+  ],
+  "memorize": {
+    "trick": "অ্যামাইড থেকে ১ কার্বন কম প্রাথমিক অ্যামিন।",
+    "steps": []
+  },
+  "subjects": [
+    "chemistry"
+  ],
+  "related": [
+    "tollens-test",
+    "williamson-ether",
+    "fehling-test"
+  ]
+}

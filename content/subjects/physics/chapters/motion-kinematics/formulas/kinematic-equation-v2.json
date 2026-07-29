@@ -1,0 +1,54 @@
+{
+  "id": "kinematic-equation-v2",
+  "chapter": "motion-kinematics",
+  "title": "v² = u² + 2as",
+  "titleBn": "তৃতীয় গতি সমীকরণ",
+  "summary": "v²=u²+2as",
+  "latex": "v^2=u^2+2as",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "3-star"
+  ],
+  "importance": 3,
+  "order": 50,
+  "symbols": [
+    {
+      "symbol": "v, u, a, s",
+      "meaning": "v²=u²+2as",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "সময় ছাড়া সমীকরণ; v²−u²=2as।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "v^2=u^2+2as",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "তৃতীয় গতি সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: সময় ছাড়া সমীকরণ; v²−u²=2as।)",
+      "answer": "v^2=u^2+2as"
+    }
+  ],
+  "memorize": {
+    "trick": "সময় ছাড়া সমীকরণ; v²−u²=2as।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "kinematic-equation-s",
+    "kinematic-nth-second",
+    "kinematic-equation-v"
+  ]
+}

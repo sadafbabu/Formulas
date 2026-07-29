@@ -1,0 +1,54 @@
+{
+  "id": "si-base-units",
+  "chapter": "measurement",
+  "title": "SI Base Units",
+  "titleBn": "SI মৌলিক একক",
+  "summary": "৭টি মৌলিক একক",
+  "latex": "\\mathrm{m},\\ \\mathrm{kg},\\ \\mathrm{s},\\ \\mathrm{A},\\ \\mathrm{K},\\ \\mathrm{mol},\\ \\mathrm{cd}",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 90,
+  "symbols": [
+    {
+      "symbol": "m, kg, s, A",
+      "meaning": "৭টি মৌলিক একক",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "দৈর্ঘ্য–ভর–সময়–বিদ্যুৎ–তাপমাত্রা–মোল–ক্যান্ডেলা।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{m},\\ \\mathrm{kg},\\ \\mathrm{s},\\ \\mathrm{A},\\ \\mathrm{K},\\ \\mathrm{mol},\\ \\mathrm{cd}",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "SI মৌলিক একক এর সূত্রটি লেখো। (ইঙ্গিত: দৈর্ঘ্য–ভর–সময়–বিদ্যুৎ–তাপমাত্রা–মোল–ক্যান্ডেলা।)",
+      "answer": "\\mathrm{m},\\ \\mathrm{kg},\\ \\mathrm{s},\\ \\mathrm{A},\\ \\mathrm{K},\\ \\mathrm{mol},\\ \\mathrm{cd}"
+    }
+  ],
+  "memorize": {
+    "trick": "দৈর্ঘ্য–ভর–সময়–বিদ্যুৎ–তাপমাত্রা–মোল–ক্যান্ডেলা।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "screw-gauge-least-count",
+    "absolute-relative-error",
+    "least-count-vernier"
+  ]
+}

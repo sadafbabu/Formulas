@@ -1,0 +1,54 @@
+{
+  "id": "intensity-amplitude-wave",
+  "chapter": "waves",
+  "title": "Intensity ∝ A²",
+  "titleBn": "তীব্রতা ও প্রশস্ততা",
+  "summary": "I∝A²",
+  "latex": "I\\propto A^2,\\quad I\\propto \\frac{1}{r^2}\\ (\\text{point source})",
+  "tags": [
+    "hsc",
+    "eng-admission",
+    "medical",
+    "varsity",
+    "2-star"
+  ],
+  "importance": 2,
+  "order": 60,
+  "symbols": [
+    {
+      "symbol": "I, A, r, point source",
+      "meaning": "I∝A²",
+      "unit": "সূত্রানুযায়ী"
+    }
+  ],
+  "derivation": {
+    "lead": "প্রশস্ততা দ্বিগুণ → তীব্রতা চারগুণ; বিন্দু উৎসে 1/r²।",
+    "steps": [
+      {
+        "title": "মূল সূত্র",
+        "latex": "I\\propto A^2,\\quad I\\propto \\frac{1}{r^2}\\ (\\text{point source})",
+        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+      }
+    ],
+    "assumptions": []
+  },
+  "questions": [
+    {
+      "examType": "HSC / Admission",
+      "question": "তীব্রতা ও প্রশস্ততা এর সূত্রটি লেখো। (ইঙ্গিত: প্রশস্ততা দ্বিগুণ → তীব্রতা চারগুণ; বিন্দু উৎসে 1/r²।)",
+      "answer": "I\\propto A^2,\\quad I\\propto \\frac{1}{r^2}\\ (\\text{point source})"
+    }
+  ],
+  "memorize": {
+    "trick": "প্রশস্ততা দ্বিগুণ → তীব্রতা চারগুণ; বিন্দু উৎসে 1/r²।",
+    "steps": []
+  },
+  "subjects": [
+    "physics"
+  ],
+  "related": [
+    "phase-path-difference",
+    "echo-formula",
+    "superposition-principle-wave"
+  ]
+}
