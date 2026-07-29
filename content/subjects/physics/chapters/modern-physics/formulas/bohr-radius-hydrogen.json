@@ -51,7 +51,13 @@
   },
   "id": "bohr-radius-hydrogen",
   "chapter": "modern-physics",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "হাইড্রোজেনের প্রথম বোহর কক্ষের ব্যাসার্ধ কত?",
+      "answer": "a_0 = 0.529~\\text{Å} = 5.29\\times10^{-11}~\\text{m}"
+    }
+  ],
   "memorize": {
     "trick": "r_n = n²a₀ — ব্যাসার্ধ n বর্গ হারে বাড়ে (a₀ = 0.529 Å)। আর শক্তি E_n = −13.6/n² eV — 'ব্যাসার্ধে n², শক্তিতে 1/n²'।",
     "steps": [

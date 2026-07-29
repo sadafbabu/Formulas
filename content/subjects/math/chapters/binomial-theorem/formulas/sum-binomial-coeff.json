@@ -33,7 +33,13 @@
   },
   "id": "sum-binomial-coeff",
   "chapter": "binomial-theorem",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "\\sum_{r=0}^{n}\\binom{n}{r} = ?",
+      "answer": "2^n"
+    }
+  ],
   "memorize": {
     "trick": "সব সহগের যোগফল = 2ⁿ (x = 1 বসান), পর্যায়ক্রমে চিহ্ন দিলে যোগফল = 0 (x = −1 বসান)। আর C(n,r) = C(n,n−r) — সহগ প্রতিসম, তাই দুই প্রান্ত থেকে সমান।",
     "steps": [

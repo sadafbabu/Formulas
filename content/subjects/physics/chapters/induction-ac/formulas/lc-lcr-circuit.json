@@ -53,7 +53,13 @@
   },
   "id": "lc-lcr-circuit",
   "chapter": "induction-ac",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "Eng / HSC",
+      "question": "LC বর্তনীর resonant angular frequency কী?",
+      "answer": "\\omega_0 = \\frac{1}{\\sqrt{LC}}"
+    }
+  ],
   "memorize": {
     "trick": "f₀ = 1/(2π√LC) — অনুনাদে X_L = X_C, তাই Z সর্বনিম্ন = R এবং প্রবাহ সর্বোচ্চ। 'অনুনাদে সার্কিট শুধু রোধের মতো আচরণ করে'।",
     "steps": [

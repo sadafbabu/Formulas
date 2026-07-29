@@ -33,7 +33,13 @@
   },
   "id": "compound-angle",
   "chapter": "trigonometric-equations",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC / Varsity",
+      "question": "\\sin(A+B) এর সূত্র লেখো।",
+      "answer": "\\sin(A+B)=\\sin A\\cos B + \\cos A\\sin B"
+    }
+  ],
   "memorize": {
     "trick": "sin(A±B) = sinA cosB ± cosA sinB; cos(A±B) = cosA cosB ∓ sinA sinB — sin মিশ্র চিহ্ন, cos বিপরীত চিহ্ন।"
   },

@@ -39,7 +39,13 @@
   },
   "id": "bond-order-mo",
   "chapter": "chemical-bonding",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC / Eng",
+      "question": "N₂ অণুর bond order কত?",
+      "answer": "\\text{Bond order} = \\frac{8-2}{2} = 3"
+    }
+  ],
   "memorize": {
     "trick": "বন্ধন ক্রম = (বন্ধনী − বিবন্ধনী ইলেকট্রন)/২ — 'যোগ বিয়োগ ভাগ দুই'। ক্রম শূন্য মানে অণুটি অস্তিত্বহীন (তাই He₂ নেই)।",
     "steps": [

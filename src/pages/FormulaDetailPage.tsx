@@ -5,7 +5,7 @@ import { MathOrText } from '../components/MathOrText'
 import { NavMenu } from '../components/NavMenu'
 import { TagChip } from '../components/TagChip'
 import { defaultChapterId, getFormula } from '../data/catalog'
-import { toLatexSymbol } from '../utils/mathText'
+import { stripDollarMath, toLatexSymbol } from '../utils/mathText'
 
 export function FormulaDetailPage() {
   const { id } = useParams()
@@ -48,9 +48,11 @@ export function FormulaDetailPage() {
   }
 
   const { derivation, symbols } = formula
-  const assumptions = Array.isArray(derivation.assumptions)
-    ? derivation.assumptions
-    : []
+  const assumptions = (
+    Array.isArray(derivation.assumptions) ? derivation.assumptions : []
+  )
+    .map((item) => stripDollarMath(item).trim())
+    .filter(Boolean)
   const steps = Array.isArray(derivation.steps) ? derivation.steps : []
 
   return (
@@ -131,7 +133,9 @@ export function FormulaDetailPage() {
               <h4>ধরে নেওয়া</h4>
               <ul>
                 {assumptions.map((item) => (
-                  <li key={item}>{item}</li>
+                  <li key={item}>
+                    <MathOrText text={item} />
+                  </li>
                 ))}
               </ul>
             </aside>

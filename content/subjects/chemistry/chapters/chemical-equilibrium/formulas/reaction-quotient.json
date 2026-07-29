@@ -44,7 +44,13 @@
   },
   "id": "reaction-quotient",
   "chapter": "chemical-equilibrium",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "Q_c < K_c হলে বিক্রিয়া কোন দিকে?",
+      "answer": "\\text{ডান দিকে (উৎপাদনের দিকে) এগোবে}"
+    }
+  ],
   "memorize": {
     "trick": "Q আর K-এর গঠন এক, তফাত কেবল সময়ে: Q যেকোনো মুহূর্তে, K কেবল সাম্যাবস্থায়। Q < K হলে সামনে এগোবে, Q > K হলে পিছনে, Q = K হলে সাম্যাবস্থা।",
     "steps": [

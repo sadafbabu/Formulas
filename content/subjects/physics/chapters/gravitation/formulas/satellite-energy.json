@@ -43,7 +43,13 @@
   },
   "id": "satellite-energy",
   "chapter": "gravitation",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "Eng / HSC",
+      "question": "বৃত্তাকার কক্ষে উপগ্রহের মোট শক্তি E কী?",
+      "answer": "E=-\\dfrac{GMm}{2r}"
+    }
+  ],
   "memorize": {
     "trick": "v_e = √2·v₀ — মুক্তিবেগ কক্ষীয় বেগের ঠিক √2 (≈১.৪১) গুণ। আর মোট শক্তি E = −GMm/(2r) — ঋণাত্মক মানেই বদ্ধ কক্ষপথ।",
     "steps": [

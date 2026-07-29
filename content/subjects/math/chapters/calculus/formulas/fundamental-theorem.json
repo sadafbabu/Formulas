@@ -38,7 +38,13 @@
   },
   "id": "fundamental-theorem",
   "chapter": "calculus",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC / Varsity",
+      "question": "\\frac{d}{dx}\\int_a^x f(t)\\,dt = ?",
+      "answer": "f(x)"
+    }
+  ],
   "memorize": {
     "trick": "যোগজ ও অবকলন পরস্পরের বিপরীত — এটাই মৌলিক উপপাদ্য। ∫ₐᵇf = F(b) − F(a) ('উপরে বসিয়ে নিচে বসানো বাদ'), আর d/dx∫ₐˣf(t)dt = f(x) ('অবকলন যোগজকে কাটে')।",
     "steps": [

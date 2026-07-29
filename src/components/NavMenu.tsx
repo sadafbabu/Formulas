@@ -1,4 +1,4 @@
-import { useEffect, useId, useRef, useState } from 'react'
+import { useEffect, useId, useMemo, useRef, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import {
   chapters,
@@ -7,6 +7,7 @@ import {
   getChapter,
   subjectsList,
 } from '../data/catalog'
+import { matchFormula } from '../utils/search'
 
 interface NavMenuProps {
   query: string
@@ -28,7 +29,11 @@ export function NavMenu({
   const [params] = useSearchParams()
   const panelId = useId()
   const rootRef = useRef<HTMLDivElement>(null)
-  const list = formulasForChapter(chapterId || defaultChapterId)
+  const list = useMemo(() => {
+    return formulasForChapter(chapterId || defaultChapterId).filter((f) =>
+      matchFormula(f, query, null),
+    )
+  }, [chapterId, query])
 
   useEffect(() => {
     if (!open) return
@@ -46,7 +51,7 @@ export function NavMenu({
     }
   }, [open])
 
-  const chapter = params.get('chapter')
+  const chapter = params.get('chapter') || chapterId
   const activeChapter = getChapter(chapterId || defaultChapterId)
   const activeSubject =
     subjectsList.find((s) => s.id === activeChapter?.subjectId) ?? subjectsList[0]
@@ -102,18 +107,25 @@ export function NavMenu({
             </button>
           ))}
 
-          <p className="nav-section">সূত্র ({list.length})</p>
+          <p className="nav-section">
+            সূত্র ({list.length}
+            {query.trim() ? ' মিল' : ''})
+          </p>
           <ul className="nav-formula-list">
-            {list.map((f) => (
-              <li key={f.id}>
-                <Link
-                  to={`/formula/${f.id}${chapter ? `?chapter=${chapter}` : ''}`}
-                  onClick={() => setOpen(false)}
-                >
-                  {f.titleBn}
-                </Link>
-              </li>
-            ))}
+            {list.length === 0 ? (
+              <li className="nav-empty">কোনো সূত্র মিলেনি</li>
+            ) : (
+              list.map((f) => (
+                <li key={f.id}>
+                  <Link
+                    to={`/formula/${f.id}?chapter=${encodeURIComponent(chapter)}`}
+                    onClick={() => setOpen(false)}
+                  >
+                    {f.titleBn}
+                  </Link>
+                </li>
+              ))
+            )}
           </ul>
         </nav>
       )}

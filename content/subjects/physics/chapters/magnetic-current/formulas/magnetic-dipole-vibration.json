@@ -52,7 +52,7 @@
       }
     ],
     "assumptions": [
-      "বিক্ষেপ কোণ $\\theta$ অত্যন্ত ক্ষুদ্র ($\\sin\\theta \\approx \\theta$)।"
+      "বিক্ষেপ কোণ \\theta অত্যন্ত ক্ষুদ্র (\\sin\\theta \\approx \\theta)।"
     ]
   },
   "questions": [

@@ -50,7 +50,13 @@
   },
   "id": "quantum-numbers",
   "chapter": "qualitative-chem",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "Medical / HSC",
+      "question": "l = 2 হলে অরবিটাল কয়টি?",
+      "answer": "2l+1 = 5 \\quad (d\\text{-orbitals})"
+    }
+  ],
   "memorize": {
     "trick": "চারটি কোয়ান্টাম সংখ্যা = ইলেকট্রনের ঠিকানা। n = বাড়ি (শক্তিস্তর), l = তলা (উপস্তর), m_l = ঘর (অরবিটাল), m_s = ঘুরন (±½)। অরবিটাল সংখ্যা = 2l+1, ইলেকট্রন = 2(2l+1)।",
     "steps": [

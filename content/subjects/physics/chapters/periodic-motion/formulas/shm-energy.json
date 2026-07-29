@@ -59,7 +59,13 @@
   },
   "id": "shm-energy",
   "chapter": "periodic-motion",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "SHM-এ মোট শক্তি E কী?",
+      "answer": "E=\\tfrac12 m\\omega^2 A^2"
+    }
+  ],
   "memorize": {
     "trick": "মোট শক্তি E = ½mω²A² — ধ্রুব, সর্বত্র একই। প্রান্তে সব PE, কেন্দ্রে সব KE। 'KE-তে (A² − x²), PE-তে x²' — যোগ করলেই A²।",
     "steps": [

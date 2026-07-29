@@ -34,7 +34,13 @@
   },
   "id": "inverse-trig-identities",
   "chapter": "trigonometric-equations",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "\\sin^{-1}x + \\cos^{-1}x = ?",
+      "answer": "\\dfrac{\\pi}{2}"
+    }
+  ],
   "memorize": {
     "trick": "সহ-অনুপাতের যোগফল সর্বদা π/2: sin⁻¹x + cos⁻¹x = π/2 এবং tan⁻¹x + cot⁻¹x = π/2। 'সহ (co) মানে পরিপূরক' — নামেই সূত্র।",
     "steps": [

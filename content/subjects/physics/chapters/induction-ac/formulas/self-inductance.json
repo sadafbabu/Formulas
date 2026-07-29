@@ -55,7 +55,13 @@
   },
   "id": "self-inductance",
   "chapter": "induction-ac",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC / Eng",
+      "question": "স্বআবেশ L এর সংজ্ঞা সূত্র কী?",
+      "answer": "\\mathcal{E}=-L\\dfrac{dI}{dt}"
+    }
+  ],
   "memorize": {
     "trick": "ε = −L dI/dt — 'ইন্ডাক্টর প্রবাহের পরিবর্তনকে ঘৃণা করে' (আর ধারক ভোল্টেজের পরিবর্তনকে)। সোলেনয়েডে L = μ₀N²A/l — N বর্গ, এটাই মনে রাখার চাবি।",
     "steps": [

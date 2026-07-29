@@ -56,7 +56,13 @@
   },
   "id": "ideal-gas-equation",
   "chapter": "ideal-gas",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "আদর্শ গ্যাস সমীকরণ কী?",
+      "answer": "PV=nRT"
+    }
+  ],
   "memorize": {
     "trick": "PV = nRT — 'পিভি নরত'। R = 8.314 J/(mol·K) মুখস্থ রাখুন; T সর্বদা কেলভিনে।",
     "steps": [

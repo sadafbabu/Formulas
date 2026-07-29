@@ -33,7 +33,13 @@
   },
   "id": "polar-multiplication",
   "chapter": "complex-numbers",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC / Varsity",
+      "question": "দুই জটিল সংখ্যার পোলার গুণফলের সূত্র কী?",
+      "answer": "r_1r_2[\\cos(\\theta_1+\\theta_2)+i\\sin(\\theta_1+\\theta_2)]"
+    }
+  ],
   "memorize": {
     "trick": "পোলার রূপে গুণ = 'মান গুণ, কোণ যোগ'; ভাগ = 'মান ভাগ, কোণ বিয়োগ'; ঘাত = 'মান-এ ঘাত, কোণ-এ গুণ'। এজন্যই পোলার রূপে হিসাব অনেক সহজ।",
     "steps": [

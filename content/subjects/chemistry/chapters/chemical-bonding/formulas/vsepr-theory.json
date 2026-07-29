@@ -45,7 +45,13 @@
   },
   "id": "vsepr-theory",
   "chapter": "chemical-bonding",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "sp³ hybrid অণুর আকৃতি কী?",
+      "answer": "\\text{tetrahedral (চতুস্তলকীয়)}"
+    }
+  ],
   "memorize": {
     "trick": "মোট ইলেকট্রন যুগল গণনা করুন (বন্ধন + একাকী): ২ = সরলরৈখিক, ৩ = ত্রিকোণীয়, ৪ = চতুস্তলকীয়, ৫ = ত্রিকোণীয় দ্বিপিরামিড, ৬ = অষ্টতলকীয়। একাকী জোড় বেশি জায়গা নেয়, তাই কোণ চেপে যায়।",
     "steps": [

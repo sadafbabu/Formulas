@@ -50,7 +50,13 @@
   },
   "id": "electric-field",
   "chapter": "static-electricity",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC / Medical",
+      "question": "বিন্দু চার্জ Q থেকে r দূরত্বে E কত?",
+      "answer": "E=\\frac{1}{4\\pi\\varepsilon_0}\\frac{Q}{r^2}"
+    }
+  ],
   "memorize": {
     "trick": "E = kq/r² — বর্গ বিপরীত। আর গাউসের সূত্র ∮E·dA = q_ভিতরে/ε₀ — 'যত আধান ঘেরা, তত ফ্লাক্স'; বাইরের আধান কোনো ফল দেয় না।",
     "steps": [

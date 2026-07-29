@@ -43,7 +43,13 @@
   },
   "id": "general-term",
   "chapter": "binomial-theorem",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "(a+b)^n এর সাধারণ পদ T_{r+1} কী?",
+      "answer": "T_{r+1}=\\binom{n}{r}a^{n-r}b^r"
+    }
+  ],
   "memorize": {
     "trick": "T_{r+1} = C(n,r)·a^{n−r}·b^r — 'r+1 তম পদে r ঘাত b-তে'। এক ধাপ পিছিয়ে থাকা সূচকটাই সবচেয়ে বড় ভুলের জায়গা: ৫ম পদ চাইলে r = 4।",
     "steps": [

@@ -50,7 +50,13 @@
   },
   "id": "gravitational-potential",
   "chapter": "gravitation",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC / Eng",
+      "question": "পৃষ্ঠ থেকে R দূরত্বে V কত (ভর M)?",
+      "answer": "V=-\\frac{GM}{R}"
+    }
+  ],
   "memorize": {
     "trick": "অসীমে শূন্য বিভব ধরলে বিন্দু-ভরের V = −GM/r এবং দুই ভরের U = −GMm/r। ঋণাত্মক চিহ্ন bound attractive system বোঝায়; kinetic বা unbound total energy অবশ্যই ঋণাত্মক নয়।",
     "steps": [

@@ -35,7 +35,9 @@ export function HintPopover({
     const panel = panelRef.current
     if (!btn) return
     const r = btn.getBoundingClientRect()
-    const width = panel?.offsetWidth || (wide ? 300 : 260)
+    const width =
+      panel?.offsetWidth ||
+      (wide ? Math.min(448, window.innerWidth - 16) : 260)
     const height = panel?.offsetHeight || 180
     let left = Math.min(
       Math.max(8, r.right - width),
@@ -45,11 +47,21 @@ export function HintPopover({
     if (top + height > window.innerHeight - 8) {
       top = Math.max(8, r.top - height - 8)
     }
+    // If still taller than viewport, pin to top and let panel scroll.
+    if (height > window.innerHeight - 16) {
+      top = 8
+    }
     setPos({ top, left })
   }, [wide])
 
   useLayoutEffect(() => {
-    if (open) place()
+    if (!open) return
+    place()
+    const id = window.requestAnimationFrame(() => {
+      place()
+      window.requestAnimationFrame(place)
+    })
+    return () => window.cancelAnimationFrame(id)
   }, [open, children, place])
 
   useEffect(() => {
@@ -102,6 +114,7 @@ export function HintPopover({
             ref={panelRef}
             className={`hint-popover${wide ? ' is-wide' : ''}`}
             role="dialog"
+            aria-modal="true"
             aria-label={title}
             style={{ top: pos.top, left: pos.left }}
             onClick={(e) => e.stopPropagation()}

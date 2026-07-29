@@ -49,7 +49,13 @@
   },
   "id": "power-efficiency",
   "chapter": "work-energy",
-  "questions": [],
+  "questions": [
+    {
+      "examType": "HSC",
+      "question": "দক্ষতা \\eta এর সংজ্ঞা কী?",
+      "answer": "\\eta = \\dfrac{P_{\\text{out}}}{P_{\\text{in}}}\\times 100\\%"
+    }
+  ],
   "memorize": {
     "trick": "P = W/t = Fv, আর দক্ষতা η = আউটপুট/ইনপুট × ১০০%। সংরক্ষী বলের চিহ্ন: বদ্ধ পথে মোট কাজ শূন্য (∮F·dr = 0)।",
     "steps": [
