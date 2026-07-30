@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অগ্রাধিকার নিঃসরণ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "অগ্রাধিকার নিঃসরণ এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{cathode: higher }E^\\circ\\text{ first};\\quad\\text{anode: dilute }OH^-/\\text{halide rules}"
     },
     {

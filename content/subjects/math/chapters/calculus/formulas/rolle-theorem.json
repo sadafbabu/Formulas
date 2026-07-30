@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রোলের উপপাদ্য এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "রোলের উপপাদ্য এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0"
     },
     {

@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সেটের ছেদ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "সেটের ছেদ এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "A\\cap B=\\{x:x\\in A\\text{ and }x\\in B\\}"
     },
     {

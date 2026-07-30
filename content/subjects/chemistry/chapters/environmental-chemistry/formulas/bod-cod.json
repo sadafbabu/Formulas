@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "BOD ও COD এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "BOD ও COD এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{BOD}=\\text{O}_2\\text{ used by microbes (5 days)};\\quad \\text{COD}=\\text{chemical O}_2\\text{ demand}"
     },
     {

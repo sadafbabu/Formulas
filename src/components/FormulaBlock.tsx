@@ -3,6 +3,7 @@ import type { Formula, TagId } from '../data/types'
 import { formulaDetailPath } from '../utils/bookLinks'
 import { DeriveHint } from './DeriveHint'
 import { Katex } from './Katex'
+import { MathOrText } from './MathOrText'
 import { MemorizeHint } from './MemorizeHint'
 import { QuestionHint } from './QuestionHint'
 import { SymbolHint } from './SymbolHint'
@@ -64,7 +65,11 @@ export function FormulaBlock({
       </Link>
 
       <div className="formula-foot">
-        <p className="formula-summary">{formula.summary}</p>
+        <MathOrText
+          text={formula.summary}
+          as="p"
+          className="formula-summary"
+        />
         <div className="formula-meta">
           {displayTags.map((tag) => (
             <TagChip key={tag} id={tag} active={activeTag === tag} chapterId={formula.chapter} />

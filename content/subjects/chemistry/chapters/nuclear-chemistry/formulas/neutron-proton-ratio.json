@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "n/p স্থিতিশীলতা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "n/p স্থিতিশীলতা এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{stable }n/p\\approx1\\ (\\text{light})\\to\\approx1.5\\ (\\text{heavy})"
     },
     {

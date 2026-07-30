@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্ফটিক ক্ষেত্র বিভাজন এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "স্ফটিক ক্ষেত্র বিভাজন এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\Delta_o\\ (\\text{octahedral}),\\quad \\Delta_t=\\tfrac45\\Delta_o\\ (\\text{approx. for tetrahedral})"
     },
     {

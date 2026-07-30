@@ -45,7 +45,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জৈব জারণ–বিজারণ ধারণা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "জৈব জারণ–বিজারণ ধারণা এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{oxidation: gain O / lose H};\\quad \\text{reduction: gain H / lose O}"
     },
     {

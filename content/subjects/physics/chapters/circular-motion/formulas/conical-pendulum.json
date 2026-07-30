@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শঙ্কু দোলক এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "শঙ্কু দোলক এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "T=2\\pi\\sqrt{\\frac{L\\cos\\theta}{g}},\\quad \\tan\\theta=\\frac{v^2}{rg}"
     },
     {

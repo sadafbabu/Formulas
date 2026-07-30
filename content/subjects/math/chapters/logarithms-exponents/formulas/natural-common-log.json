@@ -44,7 +44,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ln ও সাধারণ লগ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "ln ও সাধারণ লগ এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}"
     }
   ],

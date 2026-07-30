@@ -226,7 +226,7 @@ def polish_questions(data: dict) -> bool:
     data["questions"] = [
         {
             "examType": "HSC / Admission",
-            "question": f"{title_bn} এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+            "question": f"{title_bn} এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
             "answer": answer,
         }
     ]

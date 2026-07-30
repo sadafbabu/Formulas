@@ -139,14 +139,21 @@ function tokenize(query: string): string[] {
 
 function expandToken(token: string): string[] {
   const out = new Set<string>([token])
+  const short = token.length < 3
   for (const [key, aliases] of Object.entries(ALIASES)) {
-    if (token === key || token.includes(key) || key.includes(token)) {
+    const keyHit = short
+      ? token === key || key.startsWith(token)
+      : token === key || token.includes(key) || key.includes(token)
+    if (keyHit) {
       out.add(key)
       for (const a of aliases) out.add(normalize(a))
     }
     for (const a of aliases) {
       const na = normalize(a)
-      if (token === na || token.includes(na) || na.includes(token)) {
+      const aliasHit = short
+        ? token === na || na.startsWith(token)
+        : token === na || token.includes(na) || na.includes(token)
+      if (aliasHit) {
         out.add(key)
         out.add(na)
       }

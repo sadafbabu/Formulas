@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পোর্টল্যান্ড সিমেন্ট এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "পোর্টল্যান্ড সিমেন্ট এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}"
     },
     {

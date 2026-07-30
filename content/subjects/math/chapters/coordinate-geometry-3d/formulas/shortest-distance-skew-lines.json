@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অসন্মিল রেখার লম্ব দূরত্ব এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "অসন্মিল রেখার লম্ব দূরত্ব এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "d=\\frac{|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|}{|\\vec b_1\\times\\vec b_2|}"
     },
     {

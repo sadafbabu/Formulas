@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জোড়–বিজোড় যোগজ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "জোড়–বিজোড় যোগজ এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\int_{-a}^{a}f_{\\text{even}}=2\\int_0^a f,\\quad \\int_{-a}^{a}f_{\\text{odd}}=0"
     },
     {

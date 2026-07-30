@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্যাস আয়তন stoichiometry এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "গ্যাস আয়তন stoichiometry এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\frac{V_A}{V_B}=\\frac{a}{b}\\quad(\\text{same }T,P)"
     },
     {

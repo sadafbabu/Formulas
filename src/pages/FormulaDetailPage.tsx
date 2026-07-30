@@ -11,8 +11,8 @@ import { stripDollarMath, toLatexSymbol } from '../utils/mathText'
 export function FormulaDetailPage() {
   const { id } = useParams()
   const formula = id ? getFormula(id) : undefined
-  const [query, setQuery] = useState('')
   const [params] = useSearchParams()
+  const [query, setQuery] = useState(() => params.get('q') ?? '')
   const navigate = useNavigate()
   const chapterId =
     params.get('chapter') || formula?.chapter || defaultChapterId
@@ -140,7 +140,7 @@ export function FormulaDetailPage() {
 
           {steps.map((step, i) => (
             <section className="step" key={`${step.title}-${i}`}>
-              <span className="step-index">Step {i + 1}</span>
+              <span className="step-index">ধাপ {i + 1}</span>
               <h3>{step.title}</h3>
               {step.latex?.trim() ? (
                 <div className="formula-latex">

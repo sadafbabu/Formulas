@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কার্যকর পরমাণু সংখ্যা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "কার্যকর পরমাণু সংখ্যা এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}"
     },
     {

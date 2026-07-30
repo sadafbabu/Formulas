@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "নদী পারাপার এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "নদী পারাপার এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "t=\\frac{d}{\\sqrt{v_b^2-v_r^2}}\\ (\\perp),\\quad t_{\\min}=\\frac{d}{v_b}"
     },
     {

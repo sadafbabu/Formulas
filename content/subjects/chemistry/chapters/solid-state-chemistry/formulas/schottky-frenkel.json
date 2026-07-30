@@ -45,7 +45,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শটকি ও ফ্রেনকেল ত্রুটি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "শটকি ও ফ্রেনকেল ত্রুটি এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{Schottky: cation+anion vacancy};\\ \\text{Frenkel: ion displaced to interstitial}"
     },
     {

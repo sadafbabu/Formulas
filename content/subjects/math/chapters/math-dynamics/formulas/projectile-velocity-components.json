@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বেগের উপাদিসমূহ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "বেগের উপাদিসমূহ এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "v_x=u\\cos\\theta,\\quad v_y=u\\sin\\theta-gt"
     },
     {

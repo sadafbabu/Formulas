@@ -45,7 +45,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রৈখিক প্রসারণ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "রৈখিক প্রসারণ এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\Delta L=\\alpha L\\Delta T,\\quad \\gamma=3\\alpha"
     },
     {

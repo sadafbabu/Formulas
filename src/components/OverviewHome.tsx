@@ -57,6 +57,14 @@ export function OverviewHome({
           এইচএসসি বোর্ড এবং বুয়েট, মেডিকেল ও ভার্সিটি ক-ইউনিট ভর্তি পরীক্ষার জন্য প্রস্তুতকৃত ডিজিটাল ফর্মুলা বুক।
         </p>
 
+        <Link
+          className="overview-memorize-cta"
+          to="/memorize?importance=3"
+        >
+          মুখস্থ ড্রিল শুরু করো
+          <span>৩★ ফ্ল্যাশকার্ড · জানি / আবার</span>
+        </Link>
+
         {onQueryChange ? (
           <label className="overview-search">
             <span aria-hidden="true">⌕</span>

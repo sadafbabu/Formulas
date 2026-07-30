@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "CE ট্রানজিস্টর প্রবাহ সম্পর্ক এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "CE ট্রানজিস্টর প্রবাহ সম্পর্ক এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}"
     }
   ],

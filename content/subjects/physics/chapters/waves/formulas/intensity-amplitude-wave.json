@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "তীব্রতা ও প্রশস্ততা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "তীব্রতা ও প্রশস্ততা এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "I\\propto A^2,\\quad I\\propto \\frac{1}{r^2}\\ (\\text{point source})"
     },
     {

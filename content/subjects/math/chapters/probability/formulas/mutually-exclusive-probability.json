@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরস্পর বর্জন ঘটনা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "পরস্পর বর্জন ঘটনা এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "P(A\\cap B)=0\\Rightarrow P(A\\cup B)=P(A)+P(B)"
     },
     {

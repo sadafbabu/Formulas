@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কার্তesian গুণফল এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "কার্তesian গুণফল এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}"
     },
     {

@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আলোকবর্ষ ও AU এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "আলোকবর্ষ ও AU এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "1\\,\\mathrm{ly}=9.46\\times10^{15}\\,\\mathrm{m},\\quad 1\\,\\mathrm{AU}=1.496\\times10^{11}\\,\\mathrm{m}"
     },
     {

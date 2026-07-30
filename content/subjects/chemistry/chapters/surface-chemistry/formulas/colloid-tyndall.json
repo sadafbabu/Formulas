@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "টিনডাল প্রভাব এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "টিনডাল প্রভাব এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}"
     },
     {

@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পোয়াসোঁ আনুমানিক এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "পোয়াসোঁ আনুমানিক এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np"
     },
     {

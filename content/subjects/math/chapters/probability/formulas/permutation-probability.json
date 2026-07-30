@@ -49,7 +49,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্রমবিন্যাসে সম্ভাব্যতা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "ক্রমবিন্যাসে সম্ভাব্যতা এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "P=\\frac{\\text{favourable permutations}}{n!}"
     },
     {

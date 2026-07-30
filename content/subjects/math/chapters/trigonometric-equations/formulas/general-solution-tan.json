@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "tanθ=k-এর সাধারণ সমাধান এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "tanθ=k-এর সাধারণ সমাধান এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k"
     },
     {

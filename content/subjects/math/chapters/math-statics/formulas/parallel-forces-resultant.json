@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমান্তরাল বলের লব্ধি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "সমান্তরাল বলের লব্ধি এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "R=\\sum F_i,\\quad \\bar{x}=\\frac{\\sum F_i x_i}{\\sum F_i}"
     },
     {

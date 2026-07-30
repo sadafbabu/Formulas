@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বর্ণালি রাসায়নিক শ্রেণি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "বর্ণালি রাসায়নিক শ্রেণি এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\mathrm{I^-}<\\mathrm{Br^-}<\\mathrm{Cl^-}<\\mathrm{F^-}<\\mathrm{OH^-}<\\mathrm{H_2O}<\\mathrm{NH_3}<\\mathrm{en}<\\mathrm{CN^-}"
     },
     {

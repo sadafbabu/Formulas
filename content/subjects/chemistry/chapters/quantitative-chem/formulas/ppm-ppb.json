@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ppm ও ppb এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "ppm ও ppb এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\mathrm{ppm}=\\frac{\\text{mass solute}}{\\text{mass solution}}\\times10^6"
     },
     {

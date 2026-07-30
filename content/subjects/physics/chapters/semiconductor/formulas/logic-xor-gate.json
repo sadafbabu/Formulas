@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "XOR গেট এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "XOR গেট এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "A\\oplus B=A\\overline{B}+\\overline{A}B"
     },
     {

@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দেকার্তের চিহ্ন নিয়ম এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "দেকার্তের চিহ্ন নিয়ম এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\#\\{\\text{positive roots}\\}\\le\\#\\{\\text{sign changes in }f(x)\\}"
     },
     {

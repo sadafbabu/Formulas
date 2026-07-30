@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সম্মিল গুণ থেকে mol ভর এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "সম্মিল গুণ থেকে mol ভর এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "M=\\frac{K_b w_B}{\\Delta T_b w_A}"
     },
     {

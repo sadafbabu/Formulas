@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্রিনহাউস গ্যাস এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "গ্রিনহাউস গ্যাস এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\mathrm{CO_2},\\mathrm{CH_4},\\mathrm{N_2O},\\mathrm{O_3},\\mathrm{CFCs}"
     },
     {

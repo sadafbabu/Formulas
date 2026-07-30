@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "নির্দিষ্ট যোগজের ধর্ম এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "নির্দিষ্ট যোগজের ধর্ম এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\int_a^b f=-\\int_b^a f,\\quad \\int_a^a f=0,\\quad \\int_a^b f=\\int_a^c f+\\int_c^b f"
     },
     {

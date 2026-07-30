@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ত্রিভুজে শর্তাধীন অভেদ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "ত্রিভুজে শর্তাধীন অভেদ এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "A+B+C=\\pi\\Rightarrow\\tan A+\\tan B+\\tan C=\\tan A\\tan B\\tan C"
     },
     {

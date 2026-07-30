@@ -116,18 +116,26 @@ export function TopBar({
           <span>ওভারভিউ</span>
         </button>
         {menuSlot}
-        {viewMode === 'book' && chapterId ? (
+        {chapterId ? (
           <Link
             className="home-nav-btn memorize-nav-btn"
             to={memorizePath({
               chapter: chapterId,
               tag: activeTag,
             })}
-            title="এই অধ্যায়ের মুখস্থ ড্রিল"
+            title="মুখস্থ ড্রিল"
           >
             মুখস্থ
           </Link>
-        ) : null}
+        ) : (
+          <Link
+            className="home-nav-btn memorize-nav-btn"
+            to="/memorize?importance=3"
+            title="মুখস্থ ড্রিল"
+          >
+            মুখস্থ
+          </Link>
+        )}
       </div>
 
       {onQueryChange ? (

@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "টollen's পরীক্ষা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "টollen's পরীক্ষা এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\ce{RCHO + 2Ag(NH3)2+ + 3OH- -> RCOO- + 2Ag + 4NH3 + 2H2O}"
     },
     {

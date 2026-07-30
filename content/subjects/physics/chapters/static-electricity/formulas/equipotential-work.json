@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমবিভব তল ও কাজ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "সমবিভব তল ও কাজ এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "W_{a\\to b}=q(V_a-V_b),\\quad\\vec E=-\\nabla V,\\quad W_{eq}=0"
     },
     {

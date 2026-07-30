@@ -49,7 +49,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরাবৃত্তের প্রতিফলন ধর্ম এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "পরাবৃত্তের প্রতিফলন ধর্ম এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{ray }\\parallel\\text{ axis reflects through focus}"
     },
     {

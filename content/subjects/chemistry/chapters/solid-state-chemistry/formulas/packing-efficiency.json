@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্যাকিং দক্ষতা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "প্যাকিং দক্ষতা এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{PE}=\\frac{\\text{volume of atoms}}{\\text{volume of unit cell}}\\times100\\%"
     }
   ],

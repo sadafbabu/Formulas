@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অস্টওয়াল্ড NH₃ জারণ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "অস্টওয়াল্ড NH₃ জারণ এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "4\\mathrm{NH_3}+5\\mathrm{O_2}\\xrightarrow{\\mathrm{Pt}}4\\mathrm{NO}+6\\mathrm{H_2O}"
     },
     {

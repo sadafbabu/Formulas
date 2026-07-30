@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অসংরক্ষী বলের কাজ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "অসংরক্ষী বলের কাজ এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "W_{nc}=\\Delta E_{mech}=E_f-E_i,\\quad W_f=-\\mu_k N s"
     },
     {

@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সবুজ রসায়ন এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "সবুজ রসায়ন এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{Atom economy}=\\frac{\\text{mass of desired product}}{\\text{mass of all reactants}}\\times100\\%"
     },
     {

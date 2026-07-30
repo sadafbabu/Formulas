@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "চল কুণ্ডলী গ্যালভানোমিটার এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "চল কুণ্ডলী গ্যালভানোমিটার এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta"
     }
   ],

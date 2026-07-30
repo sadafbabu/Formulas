@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "AC-এর গড় ও শীর্ষ মান এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "AC-এর গড় ও শীর্ষ মান এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "I_{avg}=\\frac{2I_0}{\\pi},\\quad I_{rms}=\\frac{I_0}{\\sqrt{2}},\\quad I_0=\\sqrt{2}\\,I_{rms}"
     },
     {

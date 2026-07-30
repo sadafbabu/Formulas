@@ -1,4 +1,6 @@
+import { Link, useSearchParams } from 'react-router-dom'
 import type { Formula } from '../data/types'
+import { memorizePath } from '../utils/bookLinks'
 import { HintPopover } from './HintPopover'
 
 interface MemorizeHintProps {
@@ -7,7 +9,14 @@ interface MemorizeHintProps {
 
 export function MemorizeHint({ formula }: MemorizeHintProps) {
   const memo = formula.memorize
+  const [params] = useSearchParams()
   if (!memo) return null
+
+  const drillTo = memorizePath({
+    chapter: formula.chapter,
+    tag: params.get('tag'),
+    importance: (formula.importance as 1 | 2 | 3) ?? 3,
+  })
 
   return (
     <HintPopover
@@ -43,6 +52,9 @@ export function MemorizeHint({ formula }: MemorizeHintProps) {
             ))}
           </ol>
         )}
+        <Link className="memorize-hint-drill" to={drillTo}>
+          মুখস্থ ড্রিল →
+        </Link>
       </div>
     </HintPopover>
   )

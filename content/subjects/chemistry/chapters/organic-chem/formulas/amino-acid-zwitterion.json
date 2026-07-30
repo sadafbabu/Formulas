@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অ্যামিনো অ্যাসিড জুইটারআয়ন এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "অ্যামিনো অ্যাসিড জুইটারআয়ন এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\mathrm{H_2N{-}CHR{-}COOH}\\rightleftharpoons \\mathrm{^{+}H_3N{-}CHR{-}COO^{-}}"
     },
     {

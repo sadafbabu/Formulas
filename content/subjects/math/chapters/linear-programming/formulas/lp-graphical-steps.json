@@ -44,7 +44,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "লেখচিত্র পদ্ধতির ধাপ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "লেখচিত্র পদ্ধতির ধাপ এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{1) lines 2) shade 3) corners 4) evaluate }Z"
     },
     {

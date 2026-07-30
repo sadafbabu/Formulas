@@ -28,6 +28,10 @@ const stats = {
   stubSymbols: [],
   templateQuestions: [],
   weakDerivation: [],
+  autoMemorizeSteps: [],
+  relatedRashiSymbols: [],
+  oldTemplateQuestions: [],
+  dupDerivationLatex: [],
 }
 
 for (const file of files) {
@@ -41,6 +45,14 @@ for (const file of files) {
   const steps = mem.steps || []
   if (!trick || steps.length < 2 || trick.length < 30) {
     stats.weakMemorize.push(rel)
+  }
+  const stepJoined = steps.join(' | ')
+  if (
+    steps.some((s) => String(s).startsWith('সূত্র:')) ||
+    stepJoined.includes('চিহ্ন মনে রাখো') ||
+    steps.some((s) => String(s).startsWith('কী কাজে লাগে:'))
+  ) {
+    stats.autoMemorizeSteps.push(rel)
   }
 
   const summary = (data.summary || '').trim()
@@ -60,23 +72,42 @@ for (const file of files) {
   ) {
     stats.stubSymbols.push(rel)
   }
+  if (symbols.some((s) => String(s.meaning || '').includes('সম্পর্কিত রাশি'))) {
+    stats.relatedRashiSymbols.push(rel)
+  }
 
   const questions = data.questions || []
   if (
     questions.length === 0 ||
     questions.some(
       (q) =>
-        /সূত্রটি লেখো|ইঙ্গিত:/.test(q.question || '') ||
+        /সূত্রটি লেখো\.\s*\(ইঙ্গিত:/.test(q.question || '') ||
+        (/ইঙ্গিত:/.test(q.question || '') && (q.question || '').length < 80) ||
         (q.question || '').trim().length < 12,
     )
   ) {
     stats.templateQuestions.push(rel)
+  }
+  if (
+    questions.some(
+      (q) =>
+        (q.question || '').includes('কখন ব্যবহার করবে?') ||
+        (q.question || '').trim().endsWith('মূল সম্পর্ক কী?'),
+    )
+  ) {
+    stats.oldTemplateQuestions.push(rel)
   }
 
   const der = data.derivation || {}
   const derSteps = der.steps || []
   if (derSteps.length < 2 || ((der.lead || '').trim().length < 30 && derSteps.length <= 1)) {
     stats.weakDerivation.push(rel)
+  }
+  if (
+    derSteps.length >= 2 &&
+    (derSteps[0].latex || '') === (derSteps[1].latex || '')
+  ) {
+    stats.dupDerivationLatex.push(rel)
   }
 }
 
@@ -92,13 +123,25 @@ const bySubj = (list) => {
   return c
 }
 
+const bucket = (list) => ({
+  count: list.length,
+  byImportance: byImp(list),
+  bySubject: bySubj(list),
+})
+
 const report = {
   total: stats.total,
-  weakMemorize: { count: stats.weakMemorize.length, byImportance: byImp(stats.weakMemorize), bySubject: bySubj(stats.weakMemorize) },
-  stubSummary: { count: stats.stubSummary.length, byImportance: byImp(stats.stubSummary) },
-  stubSymbols: { count: stats.stubSymbols.length, byImportance: byImp(stats.stubSymbols) },
-  templateQuestions: { count: stats.templateQuestions.length, byImportance: byImp(stats.templateQuestions) },
-  weakDerivation: { count: stats.weakDerivation.length, byImportance: byImp(stats.weakDerivation) },
+  weakMemorize: bucket(stats.weakMemorize),
+  stubSummary: bucket(stats.stubSummary),
+  stubSymbols: bucket(stats.stubSymbols),
+  templateQuestions: bucket(stats.templateQuestions),
+  weakDerivation: bucket(stats.weakDerivation),
+  templates: {
+    autoMemorizeSteps: bucket(stats.autoMemorizeSteps),
+    relatedRashiSymbols: bucket(stats.relatedRashiSymbols),
+    oldTemplateQuestions: bucket(stats.oldTemplateQuestions),
+    dupDerivationLatex: bucket(stats.dupDerivationLatex),
+  },
 }
 
 if (process.argv.includes('--json')) {

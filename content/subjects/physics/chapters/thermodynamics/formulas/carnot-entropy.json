@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কার্নো চক্র ও এনট্রপি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "কার্নো চক্র ও এনট্রপি এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\Delta S=\\int\\frac{dQ_{rev}}{T},\\quad\\eta=1-\\frac{T_2}{T_1},\\quad\\Delta S_{univ}\\ge 0"
     },
     {
