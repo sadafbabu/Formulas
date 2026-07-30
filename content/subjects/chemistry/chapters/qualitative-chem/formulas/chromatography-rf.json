@@ -31,7 +31,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "R_f=\\dfrac{\\text{distance moved by spot}}{\\text{distance moved by solvent}}",
         "note": "R_f = স্পট/সলভেন্ট — ১-এর বেশি হয় না।"
       }
     ],
@@ -50,8 +50,8 @@
     "trick": "R_f = স্পট/সলভেন্ট — ১-এর বেশি হয় না।",
     "steps": [
       "R_f = স্পট/সলভেন্ট — ১-এর বেশি হয় না।",
-      "কাজ: R_f = স্পটের দূরত্ব / দ্রাবকের দূরত্ব",
-      "চিহ্ন ঠিক আছে তো? R_f"
+      "মনে রাখো — R_f = স্পটের দূরত্ব / দ্রাবকের দূরত্ব",
+      "চিহ্ন চেক: R_f"
     ]
   },
   "subjects": [

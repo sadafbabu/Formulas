@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
         "note": "অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})"
       }
     ],
@@ -49,7 +49,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ল'হোপিটালের নিয়ম এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ল'হোপিটালের নিয়ম লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})"
     }
   ],
@@ -57,8 +57,8 @@
     "trick": "অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
     "steps": [
       "অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
-      "কাজ: অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
-      "চিহ্ন ঠিক আছে তো? lim, f, g"
+      "মনে রাখো — অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
+      "চিহ্ন চেক: lim, f, g"
     ]
   },
   "subjects": [

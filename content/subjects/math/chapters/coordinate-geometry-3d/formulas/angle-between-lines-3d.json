@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\cos\\theta=|l_1l_2+m_1m_2+n_1n_2|",
         "note": "DC-এর dot product; DR দিয়ে সহজ।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "৩D-এ রেখার মধ্যবর্তী কোণ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "৩D-এ রেখার মধ্যবর্তী কোণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\cos\\theta=|l_1l_2+m_1m_2+n_1n_2|"
     },
     {
@@ -64,11 +64,11 @@
     }
   ],
   "memorize": {
-    "trick": "DC-এর dot product; DR দিয়ে সহজ।",
+    "trick": "DC-এর dot product; DR দিয়ে সহজ। — ৩D-এ রেখার মধ্যবর্তী কোণ মনে রাখার চাবিকাঠি।",
     "steps": [
       "DC-এর dot product; DR দিয়ে সহজ।",
-      "কাজ: DC-এর dot product; DR দিয়ে সহজ।",
-      "চিহ্ন ঠিক আছে তো? theta, l, m"
+      "মনে রাখো — DC-এর dot product; DR দিয়ে সহজ।",
+      "চিহ্ন চেক: theta, l, m"
     ]
   },
   "subjects": [

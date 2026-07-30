@@ -51,7 +51,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "Q=\\dfrac{\\pi\\Delta P r^4}{8\\eta L}",
         "note": "Q∝r⁴ — নল একটু চওড়া হলে প্রবাহ অনেক বাড়ে।"
       }
     ],

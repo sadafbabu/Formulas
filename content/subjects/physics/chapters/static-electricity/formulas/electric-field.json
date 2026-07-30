@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "E = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{r^2}, \\quad \\oint E \\cdot dA = \\frac{q_{encl}}{\\varepsilon_0}",
         "note": "E = kq/r² — বর্গ বিপরীত। আর গাউসের সূত্র ∮E·dA = q_ভিতরে/ε₀ — 'যত আধান ঘেরা, তত ফ্লাক্স'; বাইরের আধান কোনো ফল দেয় না।"
       }
     ],

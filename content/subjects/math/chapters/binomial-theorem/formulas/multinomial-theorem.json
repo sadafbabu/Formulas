@@ -62,8 +62,8 @@
     "trick": "Multinomial term-এ exponent-গুলোর যোগ n এবং coefficient = n! ভাগ প্রতিটি exponent-এর factorial। প্রশ্নে term দেওয়া থাকলে এক লাইনের হিসাব।",
     "steps": [
       "Multinomial term-এ exponent-গুলোর যোগ n এবং coefficient = n! ভাগ প্রতিটি exponent-এর factorial। প্রশ্নে ter…",
-      "কাজ: (x₁+…+xₘ)^n-এর সাধারণ পদ ও coefficient; তিন বা ততোধিক পদের expansion।",
-      "চিহ্ন ঠিক আছে তো? r_i, \\frac{n!}{\\prod r_i!}"
+      "মনে রাখো — (x₁+…+xₘ)^n-এর সাধারণ পদ ও coefficient; তিন বা ততোধিক পদের expansion।",
+      "চিহ্ন চেক: r_i, \\frac{n!}{\\prod r_i!}"
     ]
   }
 }

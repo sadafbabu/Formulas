@@ -52,7 +52,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "I = K \\tan \\theta, \\quad K = \\frac{2 r B_H}{\\mu_0 N}",
         "note": "I = K tanθ — 'ট্যানজেন্ট' নামেই সূত্র। প্রবাহের ক্ষেত্র ও ভূ-চৌম্বকের অনুভূমিক উপাংশের লব্ধি বরাবর কাঁটা দাঁড়ায়।"
       }
     ],

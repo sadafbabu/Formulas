@@ -39,7 +39,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\sin\\theta_c = \\frac{\\mu_2}{\\mu_1}, \\quad \\mu_1 > \\mu_2",
         "note": "sinθ_c = μ₂/μ₁ — শর্ত: ঘন থেকে হালকা মাধ্যমে যেতে হবে (μ₁ > μ₂) এবং কোণ ক্রান্তি কোণের চেয়ে বড় হতে হবে। কাচ-বায়ুতে θ_"
       }
     ],

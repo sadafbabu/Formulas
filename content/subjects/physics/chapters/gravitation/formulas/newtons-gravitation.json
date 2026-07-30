@@ -51,7 +51,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "F = G \\frac{M m}{r^2}, \\quad g = \\frac{G M}{R^2}",
         "note": "F = GMm/r² — 'বর্গ বিপরীত সূত্র', কুলম্বের সূত্রের হুবহু ছাঁচ (শুধু k↔G, q↔m)। আর g = GM/R² — পৃষ্ঠে g কেবল গ্রহের ভর ও "
       }
     ],

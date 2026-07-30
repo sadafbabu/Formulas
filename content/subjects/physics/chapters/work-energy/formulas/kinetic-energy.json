@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "E_k = \\frac{1}{2} m v^2 = \\frac{P^2}{2m}",
         "note": "E_k = ½mv² = p²/(2m) — দুটো রূপ। ভরবেগ p দেওয়া থাকলে দ্বিতীয়টি, বেগ v দেওয়া থাকলে প্রথমটি।"
       }
     ],

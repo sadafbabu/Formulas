@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "P(1)\\text{ true and }P(k)\\Rightarrow P(k+1)\\Rightarrow P(n)\\ \\forall n\\in\\mathbb{N}",
         "note": "ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।",
     "steps": [
       "ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।",
-      "কাজ: ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।",
-      "চিহ্ন ঠিক আছে তো? P, true and, k"
+      "মনে রাখো — ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।",
+      "চিহ্ন চেক: P, true and, k"
     ]
   },
   "subjects": [

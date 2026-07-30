@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y",
         "note": "f⁻¹ exists iff f one-to-one; graph = mirror y=x।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিপরীত ফাংশন এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "বিপরীত ফাংশন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "f⁻¹ exists iff f one-to-one; graph = mirror y=x।",
     "steps": [
       "f⁻¹ exists iff f one-to-one; graph = mirror y=x।",
-      "কাজ: f⁻¹ exists iff f one-to-one; graph = mirror y=x।",
-      "চিহ্ন ঠিক আছে তো? f, x, and"
+      "মনে রাখো — f⁻¹ exists iff f one-to-one; graph = mirror y=x।",
+      "চিহ্ন চেক: f, x, and"
     ]
   },
   "subjects": [

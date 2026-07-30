@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
         "note": "Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "টেলর ও ম্যাকলরিন শ্রেণি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "টেলর ও ম্যাকলরিন শ্রেণি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}"
     }
   ],
@@ -62,8 +62,8 @@
     "trick": "Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
     "steps": [
       "Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
-      "কাজ: Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
-      "চিহ্ন ঠিক আছে তো? f, x, sum"
+      "মনে রাখো — Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
+      "চিহ্ন চেক: f, x, sum"
     ]
   },
   "subjects": [

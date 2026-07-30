@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_xb_x+a_yb_y+a_zb_z",
         "note": "লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।",
     "steps": [
       "লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।",
-      "কাজ: লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।",
-      "চিহ্ন ঠিক আছে তো? vec, a, b"
+      "মনে রাখো — লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।",
+      "চিহ্ন চেক: vec, a, b"
     ]
   },
   "subjects": [

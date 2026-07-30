@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "P=P_0+\\rho g h",
         "note": "গভীরতা বাড়লে চাপ বাড়ে: P=ρgh — প্রতি 10 m পানি ≈1 atm।"
       }
     ],

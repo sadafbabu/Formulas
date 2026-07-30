@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "N=M\\times n_{\\text{factor}},\\quad N_1V_1=N_2V_2",
         "note": "অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।"
       }
     ],
@@ -68,8 +68,8 @@
     "trick": "অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।",
     "steps": [
       "অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।",
-      "কাজ: অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।",
-      "চিহ্ন ঠিক আছে তো? N, M, n"
+      "মনে রাখো — অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।",
+      "চিহ্ন চেক: N, M, n"
     ]
   },
   "subjects": [

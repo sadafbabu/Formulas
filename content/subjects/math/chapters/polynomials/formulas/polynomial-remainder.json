@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "P(x) \\div (x - a) \\Rightarrow \\text{Remainder} = P(a), \\quad P(a) = 0 \\Rightarrow (x - a) \\text{ is a factor}",
         "note": "(x − a) দিয়ে ভাগ করলে ভাগশেষ = P(a) — ভাগই করতে হয় না, শুধু বসিয়ে দিন। ভাগশেষ শূন্য হলে সেটিই উৎপাদক উপপাদ্য।"
       }
     ],

@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "t_{1/2}=\\dfrac{1}{k[A]_0}\\quad(2\\text{nd order, }2A\\to\\text{prod})",
         "note": "2nd order: t½ = 1/(k[A]₀) — ঘনমাত্রা↑ অর্ধায়ু↓।"
       }
     ],

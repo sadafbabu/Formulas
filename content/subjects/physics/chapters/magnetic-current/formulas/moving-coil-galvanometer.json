@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
         "note": "বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "চল কুণ্ডলী গ্যালভানোমিটার এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "চল কুণ্ডলী গ্যালভানোমিটার লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta"
     }
   ],
@@ -63,8 +63,8 @@
     "trick": "বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
     "steps": [
       "বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
-      "কাজ: বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
-      "চিহ্ন ঠিক আছে তো? N, I, A"
+      "মনে রাখো — বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
+      "চিহ্ন চেক: N, I, A"
     ]
   },
   "subjects": [

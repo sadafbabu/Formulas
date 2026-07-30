@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "P=\\frac{\\text{favourable length/area}}{\\text{total length/area}}",
         "note": "এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।"
       }
     ],
@@ -49,7 +49,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জ্যামিতিক সম্ভাব্যতা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "জ্যামিতিক সম্ভাব্যতা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "P=\\frac{\\text{favourable length/area}}{\\text{total length/area}}"
     },
     {
@@ -62,8 +62,8 @@
     "trick": "এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।",
     "steps": [
       "এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।",
-      "কাজ: এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।",
-      "চিহ্ন ঠিক আছে তো? P, favourable length/area, total length/area"
+      "মনে রাখো — এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।",
+      "চিহ্ন চেক: P, favourable length/area, total length/area"
     ]
   },
   "subjects": [

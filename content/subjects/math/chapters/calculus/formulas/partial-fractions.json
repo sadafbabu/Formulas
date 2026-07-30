@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac{P(x)}{Q(x)}=\\sum\\frac{A_i}{(x-a_i)^{n_i}}",
         "note": "Denominator factor → A/(x−a) terms; then integrate।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আংশিক ভগ্নাংশ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "আংশিক ভগ্নাংশ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\frac{P(x)}{Q(x)}=\\sum\\frac{A_i}{(x-a_i)^{n_i}}"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "Denominator factor → A/(x−a) terms; then integrate।",
     "steps": [
       "Denominator factor → A/(x−a) terms; then integrate।",
-      "কাজ: Denominator factor → A/(x−a) terms; then integrate।",
-      "চিহ্ন ঠিক আছে তো? P, x, Q"
+      "মনে রাখো — Denominator factor → A/(x−a) terms; then integrate।",
+      "চিহ্ন চেক: P, x, Q"
     ]
   },
   "subjects": [

@@ -36,7 +36,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "d(\\mathrm{pc})=\\dfrac{1}{p^{\\prime\\prime}},\\quad 1\\,\\mathrm{pc}\\approx 3.26\\,\\mathrm{ly}",
         "note": "d(pc)=1/p″। d(pc) = 1/p″ — পার্সেক সংজ্ঞা"
       }
     ],
@@ -55,8 +55,8 @@
     "trick": "d(pc)=1/p″। d(pc) = 1/p″ — পার্সেক সংজ্ঞা",
     "steps": [
       "d(pc)=1/p″। d(pc) = 1/p″ — পার্সেক সংজ্ঞা",
-      "কাজ: d(pc) = 1/p″ — পার্সেক সংজ্ঞা",
-      "চিহ্ন ঠিক আছে তো? p^{\\prime\\prime}, d"
+      "মনে রাখো — d(pc) = 1/p″ — পার্সেক সংজ্ঞা",
+      "চিহ্ন চেক: p^{\\prime\\prime}, d"
     ]
   },
   "subjects": [

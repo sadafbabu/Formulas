@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}",
         "note": "তিন বল সাম্য → Lami: F/sin( opposite angle )।"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "তিন বল সাম্য → Lami: F/sin( opposite angle )।",
     "steps": [
       "তিন বল সাম্য → Lami: F/sin( opposite angle )।",
-      "কাজ: তিন বল সাম্য → Lami: F/sin( opposite angle )।",
-      "চিহ্ন ঠিক আছে তো? F, alpha, beta"
+      "মনে রাখো — তিন বল সাম্য → Lami: F/sin( opposite angle )।",
+      "চিহ্ন চেক: F, alpha, beta"
     ]
   },
   "subjects": [

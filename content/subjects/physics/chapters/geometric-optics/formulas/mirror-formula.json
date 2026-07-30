@@ -54,7 +54,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}, \\quad m = -\\frac{v}{u} = \\frac{h'}{h}",
         "note": "1/v + 1/u = 1/f — দর্পণে যোগ (+), লেন্সে বিয়োগ (1/v − 1/u = 1/f)। 'দর্পণে প্লাস, লেন্সে মাইনাস' — এটাই সবচেয়ে বেশি গুল"
       }
     ],

@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "V=\\pi\\int_a^b [f(x)]^2\\,dx\\quad(\\text{about x-axis})",
         "note": "V = π∫ y² dx — ডিস্ক পদ্ধতি। V=\\pi\\int_a^b [f(x)]^2\\,dx\\quad(\\text{about x-axis})"
       }
     ],
@@ -62,8 +62,8 @@
     "trick": "V = π∫ y² dx — ডিস্ক পদ্ধতি। V=\\pi\\int_a^b [f(x)]^2\\,dx\\quad(\\text{about x-axis})",
     "steps": [
       "V = π∫ y² dx — ডিস্ক পদ্ধতি। V=\\pi\\int_a^b [f(x)]^2\\,dx\\quad(\\text{about x-axis})",
-      "কাজ: V = π∫ y² dx — ডিস্ক পদ্ধতি। V=\\pi\\int_a^b [f(x)]^2\\,dx\\quad(\\text{about x-axis})",
-      "চিহ্ন ঠিক আছে তো? V, pi, int"
+      "মনে রাখো — V = π∫ y² dx — ডিস্ক পদ্ধতি। V=\\pi\\int_a^b [f(x)]^2\\,dx\\quad(\\text{about x-axis})",
+      "চিহ্ন চেক: V, pi, int"
     ]
   },
   "subjects": [

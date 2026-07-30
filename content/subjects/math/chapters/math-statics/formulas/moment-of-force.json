@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\tau=F\\,d\\,\\sin\\theta",
         "note": "τ = F × ⊥ distance; d⊥ = d sinθ।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বলের ভ্রাম এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "বলের ভ্রাম লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\tau=F\\,d\\,\\sin\\theta"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "τ = F × ⊥ distance; d⊥ = d sinθ।",
     "steps": [
       "τ = F × ⊥ distance; d⊥ = d sinθ।",
-      "কাজ: τ = F × ⊥ distance; d⊥ = d sinθ।",
-      "চিহ্ন ঠিক আছে তো? tau, F, d"
+      "মনে রাখো — τ = F × ⊥ distance; d⊥ = d sinθ।",
+      "চিহ্ন চেক: tau, F, d"
     ]
   },
   "subjects": [

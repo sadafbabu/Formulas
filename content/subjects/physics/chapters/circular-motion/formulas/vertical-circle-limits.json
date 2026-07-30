@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
         "note": "শীর্ষে ন্যূনতম √(gr)। v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উল্লম্ব বৃত্তের চরম এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "উল্লম্ব বৃত্তের চরম লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})"
     }
   ],
@@ -63,8 +63,8 @@
     "trick": "শীর্ষে ন্যূনতম √(gr)। v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
     "steps": [
       "শীর্ষে ন্যূনতম √(gr)। v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
-      "কাজ: শীর্ষে ন্যূনতম √(gr)। v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
-      "চিহ্ন ঠিক আছে তো? v, top, g"
+      "মনে রাখো — শীর্ষে ন্যূনতম √(gr)। v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
+      "চিহ্ন চেক: v, top, g"
     ]
   },
   "subjects": [

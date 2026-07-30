@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda",
         "note": "Phase reversal at one surface → half wavelength path difference।"
       }
     ],
@@ -49,7 +49,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অপাতল স্তরে ব্যতিচার এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "অপাতল স্তরে ব্যতিচার লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda"
     },
     {
@@ -62,8 +62,8 @@
     "trick": "Phase reversal at one surface → half wavelength path difference।",
     "steps": [
       "Phase reversal at one surface → half wavelength path difference।",
-      "কাজ: Phase reversal at one surface → half wavelength path difference।",
-      "চিহ্ন ঠিক আছে তো? n, t, m"
+      "মনে রাখো — Phase reversal at one surface → half wavelength path difference।",
+      "চিহ্ন চেক: n, t, m"
     ]
   },
   "subjects": [

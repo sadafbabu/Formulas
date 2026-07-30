@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}",
         "note": "সমাধান করে না; কলয়েড করে — পথ দেখা যায়।"
       }
     ],
@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "টিনডাল প্রভাব এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "টিনডাল প্রভাব লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}"
     },
     {
@@ -63,8 +63,8 @@
     "trick": "সমাধান করে না; কলয়েড করে — পথ দেখা যায়।",
     "steps": [
       "সমাধান করে না; কলয়েড করে — পথ দেখা যায়।",
-      "কাজ: সমাধান করে না; কলয়েড করে — পথ দেখা যায়।",
-      "চিহ্ন ঠিক আছে তো? colloidal particles scatter light, Rightarrow, Tyndall cone"
+      "মনে রাখো — সমাধান করে না; কলয়েড করে — পথ দেখা যায়।",
+      "চিহ্ন চেক: colloidal particles scatter light, Rightarrow, Tyndall cone"
     ]
   },
   "subjects": [

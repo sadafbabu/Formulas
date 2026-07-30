@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "v_p=\\sqrt{\\frac{2RT}{M}},\\quad\\langle v\\rangle=\\sqrt{\\frac{8RT}{\\pi M}},\\quad v_{rms}=\\sqrt{\\frac{3RT}{M}}",
         "note": "ক্রম: vp < ⟨v⟩ < vrms। ম্যাক্সওয়েল বিচরণের তিন বৈশিষ্ট্যমূলক গতি"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সম্ভাব্য, গড় ও rms গতি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সম্ভাব্য, গড় ও rms গতি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "v_p=\\sqrt{\\frac{2RT}{M}},\\quad\\langle v\\rangle=\\sqrt{\\frac{8RT}{\\pi M}},\\quad v_{rms}=\\sqrt{\\frac{3RT}{M}}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "ক্রম: vp < ⟨v⟩ < vrms। ম্যাক্সওয়েল বিচরণের তিন বৈশিষ্ট্যমূলক গতি",
     "steps": [
       "ক্রম: vp < ⟨v⟩ < vrms। ম্যাক্সওয়েল বিচরণের তিন বৈশিষ্ট্যমূলক গতি",
-      "কাজ: ম্যাক্সওয়েল বিচরণের তিন বৈশিষ্ট্যমূলক গতি",
-      "চিহ্ন ঠিক আছে তো? v, p, R"
+      "মনে রাখো — ম্যাক্সওয়েল বিচরণের তিন বৈশিষ্ট্যমূলক গতি",
+      "চিহ্ন চেক: v, p, R"
     ]
   },
   "subjects": [

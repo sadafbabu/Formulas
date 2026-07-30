@@ -53,7 +53,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\sin^2\\theta + \\cos^2\\theta = 1, \\quad 1 + \\tan^2\\theta = \\sec^2\\theta, \\quad 1 + \\cot^2\\theta = \\csc^2\\theta",
         "note": "sin² + cos² = 1 — এটাই মূল। ভাগ করে বাকি দুটো পাওয়া যায়: 1+tan²=sec², 1+cot²=csc²।"
       }
     ],
@@ -74,8 +74,8 @@
     "trick": "sin² + cos² = 1 — এটাই মূল। ভাগ করে বাকি দুটো পাওয়া যায়: 1+tan²=sec², 1+cot²=csc²।",
     "steps": [
       "sin² + cos² = 1 — এটাই মূল। ভাগ করে বাকি দুটো পাওয়া যায়: 1+tan²=sec², 1+cot²=csc²।",
-      "কাজ: মৌলিক ত্রিকোণমিতিক অভেদ ও তাদের প্রয়োগ",
-      "চিহ্ন ঠিক আছে তো? \\theta, \\sin, \\cos"
+      "মনে রাখো — মৌলিক ত্রিকোণমিতিক অভেদ ও তাদের প্রয়োগ",
+      "চিহ্ন চেক: \\theta, \\sin, \\cos"
     ]
   }
 }

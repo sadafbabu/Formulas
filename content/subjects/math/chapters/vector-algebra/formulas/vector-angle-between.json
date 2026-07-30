@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
         "note": "কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
     "steps": [
       "কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
-      "কাজ: কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
-      "চিহ্ন ঠিক আছে তো? theta, vec, a"
+      "মনে রাখো — কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
+      "চিহ্ন চেক: theta, vec, a"
     ]
   },
   "subjects": [

@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "H=\\frac{u^2\\sin^2\\theta}{2g}",
         "note": "শুধু vertical component u sinθ; H=v²/2g।"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "শুধু vertical component u sinθ; H=v²/2g।",
     "steps": [
       "শুধু vertical component u sinθ; H=v²/2g।",
-      "কাজ: শুধু vertical component u sinθ; H=v²/2g।",
-      "চিহ্ন ঠিক আছে তো? H, u, theta"
+      "মনে রাখো — শুধু vertical component u sinθ; H=v²/2g।",
+      "চিহ্ন চেক: H, u, theta"
     ]
   },
   "subjects": [

@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\Lambda_m = \\frac{\\kappa \\times 1000}{M}, \\quad \\Lambda_m^\\circ = \\nu_+ \\lambda_+^\\circ + \\nu_- \\lambda_-^\\circ",
         "note": "Λ_m = κ×1000/M — লঘু করলে মোলার পরিবাহিতা বাড়ে (আয়ন স্বাধীনভাবে চলে)। কোলরাউশ: অসীম লঘুতায় মোট পরিবাহিতা = ক্যাটায়ন "
       }
     ],

@@ -60,8 +60,8 @@
     "trick": "R_L = r → P_max = ε²/4r। P_{\\max}=\\dfrac{\\mathcal{E}^2}{4r}\\quad(R_L=r)",
     "steps": [
       "R_L = r → P_max = ε²/4r। P_{\\max}=\\dfrac{\\mathcal{E}^2}{4r}\\quad(R_L=r)",
-      "কাজ: R_L = r → P_max = ε²/4r। P_{\\max}=\\dfrac{\\mathcal{E}^2}{4r}\\quad(R_L=r)",
-      "চিহ্ন ঠিক আছে তো? R_L, r, \\mathcal{E}"
+      "মনে রাখো — R_L = r → P_max = ε²/4r। P_{\\max}=\\dfrac{\\mathcal{E}^2}{4r}\\quad(R_L=r)",
+      "চিহ্ন চেক: R_L, r, \\mathcal{E}"
     ]
   },
   "subjects": [

@@ -180,7 +180,6 @@ export function FormulaDetailPage() {
                 to={memorizePath({
                   chapter: formula.chapter,
                   tag: params.get('tag'),
-                  importance: (formula.importance as 1 | 2 | 3) ?? 3,
                 })}
               >
                 এই অধ্যায়ে মুখস্থ ড্রিল →
@@ -197,7 +196,6 @@ export function FormulaDetailPage() {
                 to={memorizePath({
                   chapter: formula.chapter,
                   tag: params.get('tag'),
-                  importance: (formula.importance as 1 | 2 | 3) ?? 3,
                 })}
               >
                 মুখস্থ ড্রিল শুরু →

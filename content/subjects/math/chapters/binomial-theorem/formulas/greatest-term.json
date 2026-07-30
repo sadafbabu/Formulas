@@ -33,7 +33,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "T_{r+1} > T_r \\iff \\frac{n-r+1}{r}\\cdot\\frac{b}{a} > 1",
         "note": "বৃহত্তম পদ পেতে অনুপাত T_{r+1}/T_r = [(n−r+1)/r]·(b/a) নিন; যতক্ষণ এই অনুপাত ১-এর বেশি, পদ বাড়ছে। যেখানে ১-এর নিচে নামে"
       }
     ],

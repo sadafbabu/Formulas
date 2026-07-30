@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\ce{2SO2 + O2 <=> 2SO3};\\quad \\ce{SO3 + H2SO4 -> H2S2O7 -> 2H2SO4}",
         "note": "V₂O₅ catalyst; oleum intermediate H₂S₂O₇।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কন্টাক্ট পদ্ধতি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "কন্টাক্ট পদ্ধতি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\ce{2SO2 + O2 <=> 2SO3};\\quad \\ce{SO3 + H2SO4 -> H2S2O7 -> 2H2SO4}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "V₂O₅ catalyst; oleum intermediate H₂S₂O₇।",
     "steps": [
       "V₂O₅ catalyst; oleum intermediate H₂S₂O₇।",
-      "কাজ: V₂O₅ catalyst; oleum intermediate H₂S₂O₇।",
-      "চিহ্ন ঠিক আছে তো? ce, S, O"
+      "মনে রাখো — V₂O₅ catalyst; oleum intermediate H₂S₂O₇।",
+      "চিহ্ন চেক: ce, S, O"
     ]
   },
   "subjects": [

@@ -35,7 +35,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}",
         "note": "Hydraulic lift: small force × large distance = large force × small distance।"
       }
     ],
@@ -44,7 +44,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্যাসকেলের সূত্র এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "প্যাসকেলের সূত্র লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}"
     },
     {
@@ -57,8 +57,8 @@
     "trick": "Hydraulic lift: small force × large distance = large force × small distance।",
     "steps": [
       "Hydraulic lift: small force × large distance = large force × small distance।",
-      "কাজ: Hydraulic lift: small force × large distance = large force × small distance।",
-      "চিহ্ন ঠিক আছে তো? F, A"
+      "মনে রাখো — Hydraulic lift: small force × large distance = large force × small distance।",
+      "চিহ্ন চেক: F, A"
     ]
   },
   "subjects": [

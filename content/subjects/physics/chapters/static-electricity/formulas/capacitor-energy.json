@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "U = \\frac{1}{2} C V^2 = \\frac{1}{2} \\frac{Q^2}{C} = \\frac{1}{2} Q V",
         "note": "U = ½CV² = ½Q²/C = ½QV — তিন রূপ, সবগুলোতেই '½'। Q = CV দিয়ে একটা থেকে অন্যটা যায়। যা দেওয়া আছে সেটার উপযোগী রূপটা বা"
       }
     ],

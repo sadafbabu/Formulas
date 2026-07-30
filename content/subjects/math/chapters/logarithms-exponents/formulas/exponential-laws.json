@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
         "note": "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}"
       }
     ],
@@ -57,8 +57,8 @@
     "trick": "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
     "steps": [
       "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
-      "কাজ: গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
-      "চিহ্ন ঠিক আছে তো? a, m, n"
+      "মনে রাখো — গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
+      "চিহ্ন চেক: a, m, n"
     ]
   },
   "subjects": [

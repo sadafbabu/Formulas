@@ -51,7 +51,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "Y=\\dfrac{F/A}{\\Delta L/L}=\\dfrac{FL}{A\\Delta L}",
         "note": "Y = FL/(AΔL) — ‘বল×দৈর্ঘ্য / ক্ষেত্র×প্রসারণ’; ইস্পাত শক্ত = Y বড়।"
       }
     ],

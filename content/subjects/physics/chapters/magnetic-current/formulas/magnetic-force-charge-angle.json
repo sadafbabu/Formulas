@@ -52,7 +52,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "R = \\frac{m v \\sin \\theta}{|q| B}, \\quad P = \\frac{2\\pi m v \\cos \\theta}{|q| B}",
         "note": "তির্যক প্রবেশ = সর্পিল পথ। লম্ব উপাংশ (v sinθ) বৃত্ত বানায় → R, সমান্তরাল উপাংশ (v cosθ) সামনে ঠেলে → পিচ।"
       }
     ],

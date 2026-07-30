@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad \\mathrm{comp}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|}",
         "note": "অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "a-এর b-এর উপর অভিক্ষেপ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "a-এর b-এর উপর অভিক্ষেপ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad \\mathrm{comp}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|}"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।",
     "steps": [
       "অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।",
-      "কাজ: অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।",
-      "চিহ্ন ঠিক আছে তো? proj, vec, b"
+      "মনে রাখো — অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।",
+      "চিহ্ন চেক: proj, vec, b"
     ]
   },
   "subjects": [

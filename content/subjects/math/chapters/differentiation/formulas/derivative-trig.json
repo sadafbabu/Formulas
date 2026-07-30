@@ -30,7 +30,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "(\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
         "note": "sin→cos; cos→−sin; tan→sec²। (\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x"
       }
     ],
@@ -52,8 +52,8 @@
     "trick": "sin→cos; cos→−sin; tan→sec²। (\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
     "steps": [
       "sin→cos; cos→−sin; tan→sec²। (\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
-      "কাজ: sin→cos; cos→−sin; tan→sec²। (\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
-      "চিহ্ন ঠিক আছে তো? x"
+      "মনে রাখো — sin→cos; cos→−sin; tan→sec²। (\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
+      "চিহ্ন চেক: x"
     ]
   },
   "subjects": [

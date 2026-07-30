@@ -50,7 +50,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "y = mx + c, \\quad y - y_1 = m(x - x_1), \\quad \\frac{x}{a} + \\frac{y}{b} = 1, \\quad x\\cos\\alpha + y\\sin\\alpha = p",
         "note": "চার রূপ, চার পরিস্থিতি: ঢাল-ছেদ y = mx + c (ঢাল ও ছেদ জানা), এক বিন্দু y − y₁ = m(x − x₁) (বিন্দু ও ঢাল), ছেদ x/a + y/b "
       }
     ],

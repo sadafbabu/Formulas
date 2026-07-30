@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad a_\\parallel=|\\vec a|\\cos\\theta",
         "note": "প্রক্ষেপ = ডট গুণফল ÷ |b| — কোসাইন দিয়েও a cosθ।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভেক্টর প্রক্ষেপ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ভেক্টর প্রক্ষেপ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad a_\\parallel=|\\vec a|\\cos\\theta"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "প্রক্ষেপ = ডট গুণফল ÷ |b| — কোসাইন দিয়েও a cosθ।",
     "steps": [
       "প্রক্ষেপ = ডট গুণফল ÷ |b| — কোসাইন দিয়েও a cosθ।",
-      "কাজ: এক ভেক্টরের অন্য ভেক্টরের উপর প্রক্ষেপ",
-      "চিহ্ন ঠিক আছে তো? p, r, o"
+      "মনে রাখো — এক ভেক্টরের অন্য ভেক্টরের উপর প্রক্ষেপ",
+      "চিহ্ন চেক: p, r, o"
     ]
   },
   "subjects": [

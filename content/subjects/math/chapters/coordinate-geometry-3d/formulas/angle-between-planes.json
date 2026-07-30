@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\cos\\theta=\\frac{|A_1A_2+B_1B_2+C_1C_2|}{\\sqrt{A_1^2+B_1^2+C_1^2}\\sqrt{A_2^2+B_2^2+C_2^2}}",
         "note": "স্বাভাবিক ভেক্টরের dot product।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমতলের মধ্যবর্তী কোণ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সমতলের মধ্যবর্তী কোণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\cos\\theta=\\frac{|A_1A_2+B_1B_2+C_1C_2|}{\\sqrt{A_1^2+B_1^2+C_1^2}\\sqrt{A_2^2+B_2^2+C_2^2}}"
     },
     {
@@ -64,11 +64,11 @@
     }
   ],
   "memorize": {
-    "trick": "স্বাভাবিক ভেক্টরের dot product।",
+    "trick": "স্বাভাবিক ভেক্টরের dot product। — সমতলের মধ্যবর্তী কোণ মনে রাখার চাবিকাঠি।",
     "steps": [
       "স্বাভাবিক ভেক্টরের dot product।",
-      "কাজ: স্বাভাবিক ভেক্টরের dot product।",
-      "চিহ্ন ঠিক আছে তো? theta, A, B"
+      "মনে রাখো — স্বাভাবিক ভেক্টরের dot product।",
+      "চিহ্ন চেক: theta, A, B"
     ]
   },
   "subjects": [

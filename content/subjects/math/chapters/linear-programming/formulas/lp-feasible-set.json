@@ -30,7 +30,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{feasible region = intersection of all constraints}",
         "note": "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।"
       }
     ],
@@ -39,7 +39,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সম্ভাব্য অঞ্চল এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সম্ভাব্য অঞ্চল লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\text{feasible region = intersection of all constraints}"
     },
     {
@@ -49,11 +49,11 @@
     }
   ],
   "memorize": {
-    "trick": "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।",
+    "trick": "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত। — সম্ভাব্য অঞ্চল মনে রাখার চাবিকাঠি।",
     "steps": [
       "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।",
-      "কাজ: বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।",
-      "চিহ্ন ঠিক আছে তো? feasible region = intersection of all constraints"
+      "মনে রাখো — বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।",
+      "চিহ্ন চেক: feasible region = intersection of all constraints"
     ]
   },
   "subjects": [

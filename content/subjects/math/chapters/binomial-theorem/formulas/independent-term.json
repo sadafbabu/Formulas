@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "T_{r+1}=\\binom{n}{r}a^{n-r}b^r;\\quad\\text{set power of }x=0",
         "note": "T_{r+1}-এর x-এর ঘাত = ০ করে r বের করুন।"
       }
     ],
@@ -62,8 +62,8 @@
     "trick": "T_{r+1}-এর x-এর ঘাত = ০ করে r বের করুন।",
     "steps": [
       "T_{r+1}-এর x-এর ঘাত = ০ করে r বের করুন।",
-      "কাজ: বিস্তৃতিতে x^0 পদ নির্ণয়",
-      "চিহ্ন ঠিক আছে তো? T, r, binom"
+      "মনে রাখো — বিস্তৃতিতে x^0 পদ নির্ণয়",
+      "চিহ্ন চেক: T, r, binom"
     ]
   },
   "subjects": [

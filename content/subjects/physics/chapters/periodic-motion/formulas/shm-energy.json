@@ -59,7 +59,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "E = \\frac{1}{2}m\\omega^2 A^2, \\quad KE = \\frac{1}{2}m\\omega^2(A^2 - x^2), \\quad PE = \\frac{1}{2}m\\omega^2 x^2",
         "note": "মোট শক্তি E = ½mω²A² — ধ্রুব, সর্বত্র একই। প্রান্তে সব PE, কেন্দ্রে সব KE। 'KE-তে (A² − x²), PE-তে x²' — যোগ করলেই A²।"
       }
     ],

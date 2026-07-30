@@ -38,7 +38,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\binom{n}{r} + \\binom{n}{r+1} = \\binom{n+1}{r+1}, \\quad \\binom{n}{r}\\binom{r}{k} = \\binom{n}{k}\\binom{n-k}{r-k}",
         "note": "পাস্কাল: C(n,r) + C(n,r+1) = C(n+1,r+1) — 'পাশাপাশি দুটো যোগ করলে নিচের সারির মাঝেরটা'। পাস্কালের ত্রিভুজ এভাবেই তৈরি হয"
       }
     ],

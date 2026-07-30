@@ -49,7 +49,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "I=I_0\\left(e^{eV/(\\eta kT)}-1\\right),\\quad V_T=\\frac{kT}{e}\\approx26\\ \\mathrm{mV}\\ (300\\ \\mathrm K)",
         "note": "I = I₀(e^{eV/kT} − 1) — সম্মুখ ঝোঁকে সূচকীয়ভাবে বাড়ে, বিপরীত ঝোঁকে প্রায় −I₀ তে থেমে যায়। কক্ষ তাপমাত্রায় তাপীয় ভো"
       }
     ],

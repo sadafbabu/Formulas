@@ -36,7 +36,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\Delta L=\\alpha L\\Delta T,\\quad \\gamma=3\\alpha",
         "note": "γ = 3α; আয়তন প্রসারণ তিনগুণ রৈখিক।"
       }
     ],
@@ -45,7 +45,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রৈখিক প্রসারণ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "রৈখিক প্রসারণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\Delta L=\\alpha L\\Delta T,\\quad \\gamma=3\\alpha"
     },
     {
@@ -58,8 +58,8 @@
     "trick": "γ = 3α; আয়তন প্রসারণ তিনগুণ রৈখিক।",
     "steps": [
       "γ = 3α; আয়তন প্রসারণ তিনগুণ রৈখিক।",
-      "কাজ: γ = 3α; আয়তন প্রসারণ তিনগুণ রৈখিক।",
-      "চিহ্ন ঠিক আছে তো? L, T"
+      "মনে রাখো — γ = 3α; আয়তন প্রসারণ তিনগুণ রৈখিক।",
+      "চিহ্ন চেক: L, T"
     ]
   },
   "subjects": [

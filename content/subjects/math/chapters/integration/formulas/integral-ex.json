@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
         "note": "eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C"
       }
     ],
@@ -62,8 +62,8 @@
     "trick": "eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
     "steps": [
       "eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
-      "কাজ: eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
-      "চিহ্ন ঠিক আছে তো? int, e, x"
+      "মনে রাখো — eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
+      "চিহ্ন চেক: int, e, x"
     ]
   },
   "subjects": [

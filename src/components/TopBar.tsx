@@ -76,8 +76,8 @@ export function TopBar({
       if (target?.closest('input, textarea, select, [contenteditable="true"]')) return
       if ((e.key === 'k' || e.key === 'K') && (e.metaKey || e.ctrlKey)) {
         e.preventDefault()
+        // Focus the top search only — don't also open the nav menu search.
         searchRef.current?.focus()
-        onOpenMenuSearch?.()
       }
       if (e.key === '/' && !e.metaKey && !e.ctrlKey && !e.altKey) {
         e.preventDefault()

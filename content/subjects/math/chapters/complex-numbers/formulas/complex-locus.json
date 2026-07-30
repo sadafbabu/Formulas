@@ -72,8 +72,8 @@
     "trick": "|z−a| মানে distance। এক point থেকে distance fixed ⇒ circle; দুই point থেকে distance equal ⇒ perpendicular bisector; distance ratio fixed ⇒ Apollonius circle।",
     "steps": [
       "|z−a| মানে distance। এক point থেকে distance fixed ⇒ circle; দুই point থেকে distance equal ⇒ perpendicular b…",
-      "কাজ: Modulus ও argument condition-কে straight line, circle, ellipse ও angle locus-এ রূপান্তর।",
-      "চিহ্ন ঠিক আছে তো? z, z_0, r"
+      "মনে রাখো — Modulus ও argument condition-কে straight line, circle, ellipse ও angle locus-এ রূপান্তর।",
+      "চিহ্ন চেক: z, z_0, r"
     ]
   }
 }

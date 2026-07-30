@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "(AB)_{ij}=\\sum_k a_{ik}b_{kj}",
         "note": "সারি·কলাম; সাধারণত AB≠BA। (AB)_{ij}=\\sum_k a_{ik}b_{kj}"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ম্যাট্রিক্স গুণ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ম্যাট্রিক্স গুণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "(AB)_{ij}=\\sum_k a_{ik}b_{kj}"
     }
   ],
@@ -62,8 +62,8 @@
     "trick": "সারি·কলাম; সাধারণত AB≠BA। (AB)_{ij}=\\sum_k a_{ik}b_{kj}",
     "steps": [
       "সারি·কলাম; সাধারণত AB≠BA। (AB)_{ij}=\\sum_k a_{ik}b_{kj}",
-      "কাজ: সারি·কলাম; সাধারণত AB≠BA। (AB)_{ij}=\\sum_k a_{ik}b_{kj}",
-      "চিহ্ন ঠিক আছে তো? A, B, i"
+      "মনে রাখো — সারি·কলাম; সাধারণত AB≠BA। (AB)_{ij}=\\sum_k a_{ik}b_{kj}",
+      "চিহ্ন চেক: A, B, i"
     ]
   },
   "subjects": [

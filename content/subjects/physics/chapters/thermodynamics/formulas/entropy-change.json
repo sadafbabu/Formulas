@@ -51,7 +51,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\Delta S=\\int\\frac{\\delta Q_{\\mathrm{rev}}}{T},\\quad \\Delta S=mc\\ln\\frac{T_2}{T_1},\\quad \\Delta S=\\frac{mL}{T}",
         "note": "ΔS = Q/T — 'বিশৃঙ্খলার হিসাব'। তাপ ঢুকলে S বাড়ে, বেরোলে কমে। অবস্থা পরিবর্তনে (গলন/বাষ্পীভবন) ΔS = mL/T, তাপমাত্রা পাল্"
       }
     ],

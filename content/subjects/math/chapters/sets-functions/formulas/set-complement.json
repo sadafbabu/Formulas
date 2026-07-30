@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "A'=U\\setminus A",
         "note": "Universal set-এ যা A-তে নেই = A'।"
       }
     ],
@@ -49,7 +49,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরিপূরক সেট এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "পরিপূরক সেট লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "A'=U\\setminus A"
     },
     {
@@ -62,8 +62,8 @@
     "trick": "Universal set-এ যা A-তে নেই = A'।",
     "steps": [
       "Universal set-এ যা A-তে নেই = A'।",
-      "কাজ: Universal set-এ যা A-তে নেই = A'।",
-      "চিহ্ন ঠিক আছে তো? A, U, setminus"
+      "মনে রাখো — Universal set-এ যা A-তে নেই = A'।",
+      "চিহ্ন চেক: A, U, setminus"
     ]
   },
   "subjects": [

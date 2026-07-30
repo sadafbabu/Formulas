@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\ce{SO2 + H2O -> H2SO3};\\quad \\ce{NO2 + H2O -> HNO3}",
         "note": "SO₂/NO₂ → অম্ল; pH ৫.৬-এর নিচে = অম্ল বৃষ্টি।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অম্ল বৃষ্টি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "অম্ল বৃষ্টি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\ce{SO2 + H2O -> H2SO3};\\quad \\ce{NO2 + H2O -> HNO3}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "SO₂/NO₂ → অম্ল; pH ৫.৬-এর নিচে = অম্ল বৃষ্টি।",
     "steps": [
       "SO₂/NO₂ → অম্ল; pH ৫.৬-এর নিচে = অম্ল বৃষ্টি।",
-      "কাজ: SO₂/NO₂ → অম্ল; pH ৫.৬-এর নিচে = অম্ল বৃষ্টি।",
-      "চিহ্ন ঠিক আছে তো? ce, S, O"
+      "মনে রাখো — SO₂/NO₂ → অম্ল; pH ৫.৬-এর নিচে = অম্ল বৃষ্টি।",
+      "চিহ্ন চেক: ce, S, O"
     ]
   },
   "subjects": [

@@ -148,8 +148,8 @@ export function MemorizeDrillPage() {
       return
     }
 
-    // Again: move current card to end; keep showing the card that slides into place.
-    // If it was the last card, stay on the (new) last index — never jump to 0.
+    // Again: move current card to the end. Index stays so the next card slides in.
+    // If it was the last card, wrap to 0 (otherwise we'd re-show the same card).
     setQueue((prev) => {
       if (prev.length <= 1) return prev
       const copy = [...prev]
@@ -159,10 +159,8 @@ export function MemorizeDrillPage() {
     })
     setRevealed(false)
     if (index >= queue.length - 1) {
-      // Was last (or only): after move-to-end, keep drilling at end index
-      setIndex(Math.max(0, queue.length - 1))
+      setIndex(0)
     }
-    // else: index now points at the next card that filled the gap — correct
   }
 
   useEffect(() => {

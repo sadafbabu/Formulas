@@ -52,7 +52,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\tau = M B \\sin \\theta",
         "note": "τ = MB sinθ — তলের সমতলে B থাকলে (θ = 90°) টর্ক সর্বোচ্চ, তলের লম্বে থাকলে (θ = 0) টর্ক শূন্য।"
       }
     ],

@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "s_n=u+\\tfrac12 a(2n-1)",
         "note": "n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)"
       }
     ],
@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "n-তম সেকেন্ডে সরণ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "n-তম সেকেন্ডে সরণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "s_n=u+\\tfrac12 a(2n-1)"
     },
     {
@@ -63,8 +63,8 @@
     "trick": "n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)",
     "steps": [
       "n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)",
-      "কাজ: n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)",
-      "চিহ্ন ঠিক আছে তো? s, n, u"
+      "মনে রাখো — n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)",
+      "চিহ্ন চেক: s, n, u"
     ]
   },
   "subjects": [

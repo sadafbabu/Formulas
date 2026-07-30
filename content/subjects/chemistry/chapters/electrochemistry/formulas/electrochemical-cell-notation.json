@@ -36,7 +36,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{Zn}|\\text{Zn}^{2+}\\|\\text{Cu}^{2+}|\\text{Cu}",
         "note": "বামে জারণ (অ্যানোড); ডানে বিজারণ (ক্যাথোড)।"
       }
     ],
@@ -45,7 +45,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কোষ প্রতীক এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "কোষ প্রতীক লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\text{Zn}|\\text{Zn}^{2+}\\|\\text{Cu}^{2+}|\\text{Cu}"
     },
     {
@@ -58,8 +58,8 @@
     "trick": "বামে জারণ (অ্যানোড); ডানে বিজারণ (ক্যাথোড)।",
     "steps": [
       "বামে জারণ (অ্যানোড); ডানে বিজারণ (ক্যাথোড)।",
-      "কাজ: anode|anode||cathode|cathode",
-      "চিহ্ন ঠিক আছে তো? Zn, Cu"
+      "মনে রাখো — anode|anode||cathode|cathode",
+      "চিহ্ন চেক: Zn, Cu"
     ]
   },
   "subjects": [

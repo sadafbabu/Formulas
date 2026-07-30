@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac{P^\\circ-P}{P^\\circ}=x_B=\\frac{n_B}{n_A+n_B}",
         "note": "ΔP/P° = mole fraction of solute; Raoult's law base।"
       }
     ],
@@ -68,8 +68,8 @@
     "trick": "ΔP/P° = mole fraction of solute; Raoult's law base।",
     "steps": [
       "ΔP/P° = mole fraction of solute; Raoult's law base।",
-      "কাজ: ΔP/P° = mole fraction of solute; Raoult's law base।",
-      "চিহ্ন ঠিক আছে তো? P, circ, x"
+      "মনে রাখো — ΔP/P° = mole fraction of solute; Raoult's law base।",
+      "চিহ্ন চেক: P, circ, x"
     ]
   },
   "subjects": [

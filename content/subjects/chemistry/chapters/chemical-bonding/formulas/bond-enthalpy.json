@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\Delta H=\\sum E_{\\text{broken}}-\\sum E_{\\text{formed}}",
         "note": "ভাঙা − গঠন = ΔH (এন্ডো ধনাত্মক)।"
       }
     ],
@@ -68,8 +68,8 @@
     "trick": "ভাঙা − গঠন = ΔH (এন্ডো ধনাত্মক)।",
     "steps": [
       "ভাঙা − গঠন = ΔH (এন্ডো ধনাত্মক)।",
-      "কাজ: ভাঙা − গঠন = ΔH (এন্ডো ধনাত্মক)।",
-      "চিহ্ন ঠিক আছে তো? Delta, H, sum"
+      "মনে রাখো — ভাঙা − গঠন = ΔH (এন্ডো ধনাত্মক)।",
+      "চিহ্ন চেক: Delta, H, sum"
     ]
   },
   "subjects": [

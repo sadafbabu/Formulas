@@ -56,7 +56,17 @@ export function FormulaBlock({
         </div>
       </header>
 
-      <Link to={detailTo} className="formula-latex-link" title="বিস্তারিত দেখুন">
+      <Link
+        to={detailTo}
+        className="formula-latex-link"
+        title="বিস্তারিত দেখুন"
+        onClick={(e) => {
+          // Avoid accidental navigation while selecting / inspecting KaTeX.
+          if (window.getSelection()?.toString()) {
+            e.preventDefault()
+          }
+        }}
+      >
         <div className="formula-latex-col">
           <div className="formula-latex">
             <Katex latex={formula.latex} display />

@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathrm{LC}=\\frac{\\text{pitch}}{\\text{circular scale divisions}}",
         "note": "Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্ক্রু গেজ লঘিষ্ঠ পাঠ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "স্ক্রু গেজ লঘিষ্ঠ পাঠ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\mathrm{LC}=\\frac{\\text{pitch}}{\\text{circular scale divisions}}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।",
     "steps": [
       "Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।",
-      "কাজ: Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।",
-      "চিহ্ন ঠিক আছে তো? L, C, p"
+      "মনে রাখো — Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।",
+      "চিহ্ন চেক: L, C, p"
     ]
   },
   "subjects": [

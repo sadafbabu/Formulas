@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "v_e=\\sqrt{\\frac{2GM}{R}}",
         "note": "পৃথিবী ≈ 11.2 km/s; কৃষ্ণগহ্বরের event horizon সংজ্ঞায়।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্রহ থেকে মুক্তি বেগ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "গ্রহ থেকে মুক্তি বেগ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "v_e=\\sqrt{\\frac{2GM}{R}}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "পৃথিবী ≈ 11.2 km/s; কৃষ্ণগহ্বরের event horizon সংজ্ঞায়।",
     "steps": [
       "পৃথিবী ≈ 11.2 km/s; কৃষ্ণগহ্বরের event horizon সংজ্ঞায়।",
-      "কাজ: পৃথিবী ≈ 11.2 km/s; কৃষ্ণগহ্বরের event horizon সংজ্ঞায়।",
-      "চিহ্ন ঠিক আছে তো? v, e, G"
+      "মনে রাখো — পৃথিবী ≈ 11.2 km/s; কৃষ্ণগহ্বরের event horizon সংজ্ঞায়।",
+      "চিহ্ন চেক: v, e, G"
     ]
   },
   "subjects": [

@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "{}^nP_r=\\frac{n!}{(n-r)!},\\quad{}^nC_r=\\frac{n!}{r!(n-r)!}=\\frac{{}^nP_r}{r!}",
         "note": "P = সাজাও; C = বেছে নাও = P/r!।"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "P = সাজাও; C = বেছে নাও = P/r!।",
     "steps": [
       "P = সাজাও; C = বেছে নাও = P/r!।",
-      "কাজ: P = সাজাও; C = বেছে নাও = P/r!।",
-      "চিহ্ন ঠিক আছে তো? n, P, r"
+      "মনে রাখো — P = সাজাও; C = বেছে নাও = P/r!।",
+      "চিহ্ন চেক: n, P, r"
     ]
   },
   "subjects": [

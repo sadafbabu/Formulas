@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "|z|=r=\\sqrt{a^2+b^2},\\quad \\operatorname{Arg}(z)=\\operatorname{atan2}(b,a)\\ (z\\ne0),\\quad (\\cos\\theta+i\\sin\\theta)^n=\\cos n\\theta+i\\sin n\\theta",
         "note": "|z| = √(a² + b²) হলো মূলবিন্দু থেকে দূরত্ব, Arg(z) = tan⁻¹(b/a) হলো কোণ — অর্থাৎ জটিল সংখ্যা মানে সমতলে একটি বিন্দু। ডিম"
       }
     ],

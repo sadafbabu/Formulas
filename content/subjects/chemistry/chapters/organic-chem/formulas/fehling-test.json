@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\ce{RCHO + 2Cu(OH)2 -> RCOOH + Cu2O + 2H2O}",
         "note": "Aldehyde → red Cu₂O precipitate; ketone negative।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফেলিং পরীক্ষা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ফেলিং পরীক্ষা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\ce{RCHO + 2Cu(OH)2 -> RCOOH + Cu2O + 2H2O}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "Aldehyde → red Cu₂O precipitate; ketone negative।",
     "steps": [
       "Aldehyde → red Cu₂O precipitate; ketone negative।",
-      "কাজ: Aldehyde → red Cu₂O precipitate; ketone negative।",
-      "চিহ্ন ঠিক আছে তো? ce, R, C"
+      "মনে রাখো — Aldehyde → red Cu₂O precipitate; ketone negative।",
+      "চিহ্ন চেক: ce, R, C"
     ]
   },
   "subjects": [

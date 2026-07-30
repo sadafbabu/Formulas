@@ -42,7 +42,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\gamma = \\sqrt{\\frac{V_{rms}^2 - V_{dc}^2}{V_{dc}^2}}, \\quad \\eta = \\frac{P_{dc}}{P_{ac}} \\times 100\\%",
         "note": "রিপল ফ্যাক্টর = AC অংশ ÷ DC অংশ — যত ছোট, তত ভালো DC। মুখস্থ: অর্ধতরঙ্গে ১.২১, পূর্ণতরঙ্গে ০.৪৮।"
       }
     ],

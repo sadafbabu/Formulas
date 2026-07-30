@@ -55,8 +55,8 @@
     "trick": "z ≈ v/c; বয়স ≈ 1/H₀। z=\\dfrac{\\Delta\\lambda}{\\lambda}\\approx\\dfrac{v}{c},\\quad t_H\\approx\\dfrac{1}{H_0}",
     "steps": [
       "z ≈ v/c; বয়স ≈ 1/H₀। z=\\dfrac{\\Delta\\lambda}{\\lambda}\\approx\\dfrac{v}{c},\\quad t_H\\approx\\dfrac{1}{H_0}",
-      "কাজ: z ≈ v/c; বয়স ≈ 1/H₀। z=\\dfrac{\\Delta\\lambda}{\\lambda}\\approx\\dfrac{v}{c},\\quad t_H\\approx\\dfrac{1}{H_0}",
-      "চিহ্ন ঠিক আছে তো? z, H_0"
+      "মনে রাখো — z ≈ v/c; বয়স ≈ 1/H₀। z=\\dfrac{\\Delta\\lambda}{\\lambda}\\approx\\dfrac{v}{c},\\quad t_H\\approx\\dfrac{1}{H_0}",
+      "চিহ্ন চেক: z, H_0"
     ]
   },
   "subjects": [

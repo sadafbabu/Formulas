@@ -36,7 +36,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{CN}=\\text{number of donor atoms bonded to central metal}",
         "note": "Ligand donor atoms count; common CN=4,6।"
       }
     ],
@@ -45,7 +45,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমন্বয় সংখ্যা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সমন্বয় সংখ্যা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\text{CN}=\\text{number of donor atoms bonded to central metal}"
     },
     {
@@ -58,8 +58,8 @@
     "trick": "Ligand donor atoms count; common CN=4,6।",
     "steps": [
       "Ligand donor atoms count; common CN=4,6।",
-      "কাজ: Ligand donor atoms count; common CN=4,6।",
-      "চিহ্ন ঠিক আছে তো? CN, number of donor atoms bonded to central metal"
+      "মনে রাখো — Ligand donor atoms count; common CN=4,6।",
+      "চিহ্ন চেক: CN, number of donor atoms bonded to central metal"
     ]
   },
   "subjects": [

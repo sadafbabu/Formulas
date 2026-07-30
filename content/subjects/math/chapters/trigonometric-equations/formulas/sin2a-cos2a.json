@@ -30,7 +30,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A",
         "note": "cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।"
       }
     ],
@@ -52,8 +52,8 @@
     "trick": "cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।",
     "steps": [
       "cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।",
-      "কাজ: cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।",
-      "চিহ্ন ঠিক আছে তো? A"
+      "মনে রাখো — cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।",
+      "চিহ্ন চেক: A"
     ]
   },
   "subjects": [

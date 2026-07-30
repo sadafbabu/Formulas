@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "hf=E_i-E_f=\\Delta E",
         "note": "ফোটন শক্তি = স্তরের ফারাক: hf = ΔE — সিঁড়ি থেকে লাফ।"
       }
     ],

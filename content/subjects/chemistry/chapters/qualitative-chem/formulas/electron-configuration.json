@@ -49,7 +49,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10}, \\quad (n+l)\\ \\text{rule}",
         "note": "(n+l) নিয়ম: যার (n+l) কম, সে আগে ভরে; সমান হলে ছোট n আগে। এজন্যই 4s (4+0=4) ভরে 3d (3+2=5)-এর আগে — এটাই সবচেয়ে বড় ধা"
       }
     ],

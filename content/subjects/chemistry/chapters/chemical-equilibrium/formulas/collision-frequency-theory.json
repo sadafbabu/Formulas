@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "k=PZ\\,e^{-E_a/RT}",
         "note": "হার = সংঘর্ষ × দিক × e^(−Ea/RT)।"
       }
     ],

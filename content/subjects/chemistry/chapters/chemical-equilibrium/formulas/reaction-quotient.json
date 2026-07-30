@@ -44,7 +44,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "Q_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}, \\quad Q = K \\text{ (equilibrium)}",
         "note": "Q আর K-এর গঠন এক, তফাত কেবল সময়ে: Q যেকোনো মুহূর্তে, K কেবল সাম্যাবস্থায়। Q < K হলে সামনে এগোবে, Q > K হলে পিছনে, Q = "
       }
     ],

@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "a_n=a+(n-1)d",
         "note": "প্রথম পদ a, সাধারণ অন্তর d। a_n=a+(n-1)d"
       }
     ],
@@ -62,8 +62,8 @@
     "trick": "প্রথম পদ a, সাধারণ অন্তর d। a_n=a+(n-1)d",
     "steps": [
       "প্রথম পদ a, সাধারণ অন্তর d। a_n=a+(n-1)d",
-      "কাজ: প্রথম পদ a, সাধারণ অন্তর d। a_n=a+(n-1)d",
-      "চিহ্ন ঠিক আছে তো? a, n, d"
+      "মনে রাখো — প্রথম পদ a, সাধারণ অন্তর d। a_n=a+(n-1)d",
+      "চিহ্ন চেক: a, n, d"
     ]
   },
   "subjects": [

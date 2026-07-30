@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
         "note": "2×2: ad−bc; 3×3: কোফ্যাক্টর বিস্তার।"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "2×2: ad−bc; 3×3: কোফ্যাক্টর বিস্তার।",
     "steps": [
       "2×2: ad−bc; 3×3: কোফ্যাক্টর বিস্তার।",
-      "কাজ: 2×2: ad−bc; 3×3: কোফ্যাক্টর বিস্তার।",
-      "চিহ্ন ঠিক আছে তো? v, m, a"
+      "মনে রাখো — 2×2: ad−bc; 3×3: কোফ্যাক্টর বিস্তার।",
+      "চিহ্ন চেক: v, m, a"
     ]
   },
   "subjects": [

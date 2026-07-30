@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "h_{\\min}=\\frac{5r}{2}\\quad\\text{(from bottom of loop)}",
         "note": "লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "লুপ দিয়ে ঘূর্ণন এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "লুপ দিয়ে ঘূর্ণন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "h_{\\min}=\\frac{5r}{2}\\quad\\text{(from bottom of loop)}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।",
     "steps": [
       "লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।",
-      "কাজ: লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।",
-      "চিহ্ন ঠিক আছে তো? h, r, f"
+      "মনে রাখো — লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।",
+      "চিহ্ন চেক: h, r, f"
     ]
   },
   "subjects": [

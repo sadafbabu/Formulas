@@ -49,7 +49,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\varepsilon=-L\\frac{dI}{dt},\\quad L=\\frac{\\mu N^2A}{\\ell}\\ (\\text{দীর্ঘ solenoid})",
         "note": "ε = −L dI/dt — 'ইন্ডাক্টর প্রবাহের পরিবর্তনকে ঘৃণা করে' (আর ধারক ভোল্টেজের পরিবর্তনকে)। সোলেনয়েডে L = μ₀N²A/l — N বর্গ,"
       }
     ],

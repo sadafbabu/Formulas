@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
         "note": "D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}"
       }
     ],
@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্লুকোজ মুক্ত ও চক্রাকার রূপ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "গ্লুকোজ মুক্ত ও চক্রাকার রূপ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}"
     },
     {
@@ -63,8 +63,8 @@
     "trick": "D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
     "steps": [
       "D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
-      "কাজ: D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
-      "চিহ্ন ঠিক আছে তো? open-chain aldehyde, rightleftharpoons, cyclic hemiacetal (pyranose)"
+      "মনে রাখো — D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
+      "চিহ্ন চেক: open-chain aldehyde, rightleftharpoons, cyclic hemiacetal (pyranose)"
     ]
   },
   "subjects": [

@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
         "note": "স্টেপ-আপ: Ns>Np। \\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ট্রান্সফরমার সমীকরণ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ট্রান্সফরমার সমীকরণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}"
     }
   ],
@@ -63,8 +63,8 @@
     "trick": "স্টেপ-আপ: Ns>Np। \\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
     "steps": [
       "স্টেপ-আপ: Ns>Np। \\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
-      "কাজ: স্টেপ-আপ: Ns>Np। \\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
-      "চিহ্ন ঠিক আছে তো? V, s, p"
+      "মনে রাখো — স্টেপ-আপ: Ns>Np। \\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
+      "চিহ্ন চেক: V, s, p"
     ]
   },
   "subjects": [

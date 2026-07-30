@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "F_{\\parallel}=mg\\sin\\theta,\\quad N=mg\\cos\\theta",
         "note": "সমান্তরাল = mg sinθ; লম্ব = mg cosθ।"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "সমান্তরাল = mg sinθ; লম্ব = mg cosθ।",
     "steps": [
       "সমান্তরাল = mg sinθ; লম্ব = mg cosθ।",
-      "কাজ: সমান্তরাল = mg sinθ; লম্ব = mg cosθ।",
-      "চিহ্ন ঠিক আছে তো? F, parallel, m"
+      "মনে রাখো — সমান্তরাল = mg sinθ; লম্ব = mg cosθ।",
+      "চিহ্ন চেক: F, parallel, m"
     ]
   },
   "subjects": [

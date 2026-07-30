@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "Z=ax+by",
         "note": "Maximize বা Minimize করতে হবে Z = ax+by।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উদ্দেশ্য ফাংশন এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "উদ্দেশ্য ফাংশন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "Z=ax+by"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "Maximize বা Minimize করতে হবে Z = ax+by।",
     "steps": [
       "Maximize বা Minimize করতে হবে Z = ax+by।",
-      "কাজ: Maximize বা Minimize করতে হবে Z = ax+by।",
-      "চিহ্ন ঠিক আছে তো? Z, a, x"
+      "মনে রাখো — Maximize বা Minimize করতে হবে Z = ax+by।",
+      "চিহ্ন চেক: Z, a, x"
     ]
   },
   "subjects": [

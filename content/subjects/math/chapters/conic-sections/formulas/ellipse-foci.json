@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "c^2=a^2-b^2,\\ \\text{Foci }(\\pm c,0)",
         "note": "PF₁+PF₂=2a — উপবৃত্তের সংজ্ঞা; e=c/a।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উপবৃত্তের ফোকাস এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "উপবৃত্তের ফোকাস লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "c^2=a^2-b^2,\\ \\text{Foci }(\\pm c,0)"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "PF₁+PF₂=2a — উপবৃত্তের সংজ্ঞা; e=c/a।",
     "steps": [
       "PF₁+PF₂=2a — উপবৃত্তের সংজ্ঞা; e=c/a।",
-      "কাজ: PF₁+PF₂=2a — উপবৃত্তের সংজ্ঞা; e=c/a।",
-      "চিহ্ন ঠিক আছে তো? c, a, b"
+      "মনে রাখো — PF₁+PF₂=2a — উপবৃত্তের সংজ্ঞা; e=c/a।",
+      "চিহ্ন চেক: c, a, b"
     ]
   },
   "subjects": [

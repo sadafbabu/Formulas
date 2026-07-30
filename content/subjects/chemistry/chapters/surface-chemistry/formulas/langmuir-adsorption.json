@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\theta=\\frac{KP}{1+KP},\\quad \\frac{P}{x/m}=\\frac{1}{k_1k_2}+\\frac{P}{k_1}",
         "note": "একস্তর অধিশোষণ; উচ্চ P-তে θ→1।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ল্যাংমুইর সমতাপরেখা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ল্যাংমুইর সমতাপরেখা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\theta=\\frac{KP}{1+KP},\\quad \\frac{P}{x/m}=\\frac{1}{k_1k_2}+\\frac{P}{k_1}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "একস্তর অধিশোষণ; উচ্চ P-তে θ→1।",
     "steps": [
       "একস্তর অধিশোষণ; উচ্চ P-তে θ→1।",
-      "কাজ: একস্তর অধিশোষণ; উচ্চ P-তে θ→1।",
-      "চিহ্ন ঠিক আছে তো? theta, K, P"
+      "মনে রাখো — একস্তর অধিশোষণ; উচ্চ P-তে θ→1।",
+      "চিহ্ন চেক: theta, K, P"
     ]
   },
   "subjects": [

@@ -44,7 +44,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac{m_1}{m_2} = \\frac{E_1}{E_2} = \\frac{M_1/n_1}{M_2/n_2}",
         "note": "একই প্রবাহে জমা ভরের অনুপাত = তুল্য ভরের অনুপাত: m₁/m₂ = E₁/E₂, যেখানে E = M/n। 'সমান তড়িৎ, ভাগাভাগি তুল্য ভর অনুযায়ী'"
       }
     ],

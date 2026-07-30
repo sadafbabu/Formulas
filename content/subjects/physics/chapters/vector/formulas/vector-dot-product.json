@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathbf{A} \\cdot \\mathbf{B} = A_x B_x + A_y B_y + A_z B_z = AB \\cos\\theta",
         "note": "ডট = স্কেলার, cos সহ; ক্রস = ভেক্টর, sin সহ। 'ডটে কোসাইন, ক্রসে সাইন' — A·B = AB cosθ = A_xB_x + A_yB_y + A_zB_z।"
       }
     ],

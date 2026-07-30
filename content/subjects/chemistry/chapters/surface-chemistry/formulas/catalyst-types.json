@@ -36,7 +36,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{homogeneous: same phase};\\quad \\text{heterogeneous: different phase}",
         "note": "Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।"
       }
     ],
@@ -45,7 +45,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সম ও অসম সংঘটক এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সম ও অসম সংঘটক লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\text{homogeneous: same phase};\\quad \\text{heterogeneous: different phase}"
     },
     {
@@ -58,8 +58,8 @@
     "trick": "Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।",
     "steps": [
       "Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।",
-      "কাজ: Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।",
-      "চিহ্ন ঠিক আছে তো? homogeneous: same phase, heterogeneous: different phase"
+      "মনে রাখো — Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।",
+      "চিহ্ন চেক: homogeneous: same phase, heterogeneous: different phase"
     ]
   },
   "subjects": [

@@ -36,7 +36,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
         "note": "ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f"
       }
     ],
@@ -45,7 +45,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পর্যায়কাল ও কম্পাঙ্ক এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "পর্যায়কাল ও কম্পাঙ্ক লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f"
     }
   ],
@@ -53,8 +53,8 @@
     "trick": "ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
     "steps": [
       "ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
-      "কাজ: ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
-      "চিহ্ন ঠিক আছে তো? T, f"
+      "মনে রাখো — ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
+      "চিহ্ন চেক: T, f"
     ]
   },
   "subjects": [

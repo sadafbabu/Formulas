@@ -55,8 +55,8 @@
     "trick": "পূর্ণ ≈ ৮১%; অর্ধ ≈ ৪১%। I_{\\mathrm{dc}}=\\dfrac{2I_0}{\\pi},\\quad \\eta\\approx81.2\\%",
     "steps": [
       "পূর্ণ ≈ ৮১%; অর্ধ ≈ ৪১%। I_{\\mathrm{dc}}=\\dfrac{2I_0}{\\pi},\\quad \\eta\\approx81.2\\%",
-      "কাজ: পূর্ণ ≈ ৮১%; অর্ধ ≈ ৪১%। I_{\\mathrm{dc}}=\\dfrac{2I_0}{\\pi},\\quad \\eta\\approx81.2\\%",
-      "চিহ্ন ঠিক আছে তো? I_0, \\eta"
+      "মনে রাখো — পূর্ণ ≈ ৮১%; অর্ধ ≈ ৪১%। I_{\\mathrm{dc}}=\\dfrac{2I_0}{\\pi},\\quad \\eta\\approx81.2\\%",
+      "চিহ্ন চেক: I_0, \\eta"
     ]
   },
   "subjects": [

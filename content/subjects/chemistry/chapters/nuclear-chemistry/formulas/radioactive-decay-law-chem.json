@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "N=N_0 e^{-\\lambda t},\\quad A=\\lambda N",
         "note": "A = λN; সক্রিয়তা ক্ষয়ের হার।"
       }
     ],
@@ -68,8 +68,8 @@
     "trick": "A = λN; সক্রিয়তা ক্ষয়ের হার।",
     "steps": [
       "A = λN; সক্রিয়তা ক্ষয়ের হার।",
-      "কাজ: A = λN; সক্রিয়তা ক্ষয়ের হার।",
-      "চিহ্ন ঠিক আছে তো? N, e, lambda"
+      "মনে রাখো — A = λN; সক্রিয়তা ক্ষয়ের হার।",
+      "চিহ্ন চেক: N, e, lambda"
     ]
   },
   "subjects": [

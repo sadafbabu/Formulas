@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "S=a+(a+d)r+(a+2d)r^2+\\cdots",
         "note": "S − rS করে GP বের করো। S=a+(a+d)r+(a+2d)r^2+\\cdots"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমান্তর-গুণোত্তর ধারা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সমান্তর-গুণোত্তর ধারা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "S=a+(a+d)r+(a+2d)r^2+\\cdots"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "S − rS করে GP বের করো। S=a+(a+d)r+(a+2d)r^2+\\cdots",
     "steps": [
       "S − rS করে GP বের করো। S=a+(a+d)r+(a+2d)r^2+\\cdots",
-      "কাজ: S − rS করে GP বের করো। S=a+(a+d)r+(a+2d)r^2+\\cdots",
-      "চিহ্ন ঠিক আছে তো? S, a, d"
+      "মনে রাখো — S − rS করে GP বের করো। S=a+(a+d)r+(a+2d)r^2+\\cdots",
+      "চিহ্ন চেক: S, a, d"
     ]
   },
   "subjects": [

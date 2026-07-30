@@ -36,7 +36,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "R_s=\\dfrac{2GM}{c^2}",
         "note": "R_s = 2GM/c² — সূর্যের ≈ 3 km।"
       }
     ],
@@ -55,8 +55,8 @@
     "trick": "R_s = 2GM/c² — সূর্যের ≈ 3 km।",
     "steps": [
       "R_s = 2GM/c² — সূর্যের ≈ 3 km।",
-      "কাজ: কৃষ্ণগহ্বরের ঘটনা দিগন্ত",
-      "চিহ্ন ঠিক আছে তো? R_s, M"
+      "মনে রাখো — কৃষ্ণগহ্বরের ঘটনা দিগন্ত",
+      "চিহ্ন চেক: R_s, M"
     ]
   },
   "subjects": [

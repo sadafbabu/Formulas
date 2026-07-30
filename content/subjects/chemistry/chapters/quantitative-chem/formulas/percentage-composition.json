@@ -36,7 +36,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
         "note": "যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100"
       }
     ],
@@ -45,7 +45,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শতকরা সংযুক্তি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "শতকরা সংযুক্তি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100"
     }
   ],
@@ -53,8 +53,8 @@
     "trick": "যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
     "steps": [
       "যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
-      "কাজ: যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
-      "চিহ্ন ঠিক আছে তো? mass of element in formula, molar mass"
+      "মনে রাখো — যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
+      "চিহ্ন চেক: mass of element in formula, molar mass"
     ]
   },
   "subjects": [

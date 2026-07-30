@@ -35,7 +35,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}",
         "note": "নিচের বর্গ ভাজক; উপরে vu′−uv′।"
       }
     ],
@@ -57,8 +57,8 @@
     "trick": "নিচের বর্গ ভাজক; উপরে vu′−uv′।",
     "steps": [
       "নিচের বর্গ ভাজক; উপরে vu′−uv′।",
-      "কাজ: নিচের বর্গ ভাজক; উপরে vu′−uv′।",
-      "চিহ্ন ঠিক আছে তো? u, v"
+      "মনে রাখো — নিচের বর্গ ভাজক; উপরে vu′−uv′।",
+      "চিহ্ন চেক: u, v"
     ]
   },
   "subjects": [

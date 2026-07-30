@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\ce{4NH3 + 5O2 -> 4NO + 6H2O};\\quad \\ce{NO -> NO2 -> HNO3}",
         "note": "Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অস্টওয়াল্ড পদ্ধতি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "অস্টওয়াল্ড পদ্ধতি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\ce{4NH3 + 5O2 -> 4NO + 6H2O};\\quad \\ce{NO -> NO2 -> HNO3}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।",
     "steps": [
       "Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।",
-      "কাজ: Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।",
-      "চিহ্ন ঠিক আছে তো? ce, N, H"
+      "মনে রাখো — Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।",
+      "চিহ্ন চেক: ce, N, H"
     ]
   },
   "subjects": [

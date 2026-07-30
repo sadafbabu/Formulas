@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\binom{n}{r}=\\frac{n!}{r!(n-r)!}",
         "note": "nCr = nPr/r!; order doesn't matter।"
       }
     ],
@@ -62,8 +62,8 @@
     "trick": "nCr = nPr/r!; order doesn't matter।",
     "steps": [
       "nCr = nPr/r!; order doesn't matter।",
-      "কাজ: nCr = nPr/r!; order doesn't matter।",
-      "চিহ্ন ঠিক আছে তো? binom, n, r"
+      "মনে রাখো — nCr = nPr/r!; order doesn't matter।",
+      "চিহ্ন চেক: binom, n, r"
     ]
   },
   "subjects": [

@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}",
         "note": "CN=৬ সাধারণত অষ্টতলক। \\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}"
       }
     ],
@@ -68,8 +68,8 @@
     "trick": "CN=৬ সাধারণত অষ্টতলক। \\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}",
     "steps": [
       "CN=৬ সাধারণত অষ্টতলক। \\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octa…",
-      "কাজ: CN=৬ সাধারণত অষ্টতলক। \\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahed",
-      "চিহ্ন ঠিক আছে তো? CN, linear, tetrahedral/square planar"
+      "মনে রাখো — CN=৬ সাধারণত অষ্টতলক। \\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahed",
+      "চিহ্ন চেক: CN, linear, tetrahedral/square planar"
     ]
   },
   "subjects": [

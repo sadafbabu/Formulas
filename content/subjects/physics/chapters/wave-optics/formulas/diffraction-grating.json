@@ -43,7 +43,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "(a+b)\\sin\\theta = n\\lambda, \\quad N = \\frac{1}{a+b}",
         "note": "(a+b)sinθ = nλ — এখানে (a+b) হলো গ্রেটিং ধ্রুবক, আর N = 1/(a+b) হলো প্রতি একক দৈর্ঘ্যে দাগের সংখ্যা।"
       }
     ],

@@ -52,7 +52,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "B_{\\text{axis}} = \\frac{\\mu_0}{4\\pi} \\frac{2 M r}{(r^2 - l^2)^2}, \\quad B_{\\text{eq}} = \\frac{\\mu_0}{4\\pi} \\frac{M}{(r^2 + l^2)^{3/2}}",
         "note": "অক্ষীয়ে '2M', বিষুবীয়ে শুধু 'M' — অক্ষীয় ক্ষেত্র বিষুবীয়ের দ্বিগুণ। চিহ্নও আলাদা: অক্ষীয়ে (r² − l²), বিষুবীয়ে (r² "
       }
     ],

@@ -39,7 +39,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\Delta\\lambda = \\frac{h}{m_e c}(1 - \\cos\\theta), \\quad \\lambda_C = 2.43\\times 10^{-12}\\ \\text{m}",
         "note": "Δλ = (h/m_ec)(1 − cosθ) — বিক্ষিপ্ত ফোটনের তরঙ্গদৈর্ঘ্য সর্বদা বাড়ে (শক্তি হারায়)। θ = 180° এ সর্বোচ্চ বৃদ্ধি = 2λ_C।"
       }
     ],

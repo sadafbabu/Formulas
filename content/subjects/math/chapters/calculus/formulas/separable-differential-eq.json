@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx",
         "note": "x ও y আলাদা করে যোগজ নাও। \\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "x ও y আলাদা করে যোগজ নাও। \\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx",
     "steps": [
       "x ও y আলাদা করে যোগজ নাও। \\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx",
-      "কাজ: x ও y আলাদা করে যোগজ নাও। \\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx",
-      "চিহ্ন ঠিক আছে তো? d, y, x"
+      "মনে রাখো — x ও y আলাদা করে যোগজ নাও। \\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx",
+      "চিহ্ন চেক: d, y, x"
     ]
   },
   "subjects": [

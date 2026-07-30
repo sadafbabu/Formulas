@@ -51,7 +51,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "Y=\\dfrac{\\mathrm{stress}}{\\mathrm{strain}}=\\dfrac{F/A}{\\Delta L/L}",
         "note": "স্থিতিস্থাপক সীমায় stress∝strain; Y=stress/strain।"
       }
     ],

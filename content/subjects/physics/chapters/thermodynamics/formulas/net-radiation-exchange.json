@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)",
         "note": "T⁴ − T₀⁴ — শুধু T⁴ নয়। P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)"
       }
     ],
@@ -60,8 +60,8 @@
     "trick": "T⁴ − T₀⁴ — শুধু T⁴ নয়। P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)",
     "steps": [
       "T⁴ − T₀⁴ — শুধু T⁴ নয়। P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)",
-      "কাজ: T⁴ − T₀⁴ — শুধু T⁴ নয়। P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)",
-      "চিহ্ন ঠিক আছে তো? T, T_0, e"
+      "মনে রাখো — T⁴ − T₀⁴ — শুধু T⁴ নয়। P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)",
+      "চিহ্ন চেক: T, T_0, e"
     ]
   },
   "subjects": [

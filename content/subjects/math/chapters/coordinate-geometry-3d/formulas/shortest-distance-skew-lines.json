@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "d=\\frac{|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|}{|\\vec b_1\\times\\vec b_2|}",
         "note": "cross × dot; পরস্পর ছেদ করে না → skew।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অসন্মিল রেখার লম্ব দূরত্ব এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "অসন্মিল রেখার লম্ব দূরত্ব লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "d=\\frac{|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|}{|\\vec b_1\\times\\vec b_2|}"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "cross × dot; পরস্পর ছেদ করে না → skew।",
     "steps": [
       "cross × dot; পরস্পর ছেদ করে না → skew।",
-      "কাজ: cross × dot; পরস্পর ছেদ করে না → skew।",
-      "চিহ্ন ঠিক আছে তো? d, vec, b"
+      "মনে রাখো — cross × dot; পরস্পর ছেদ করে না → skew।",
+      "চিহ্ন চেক: d, vec, b"
     ]
   },
   "subjects": [

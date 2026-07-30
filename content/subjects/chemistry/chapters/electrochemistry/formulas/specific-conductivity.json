@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\kappa=\\frac{1}{\\rho},\\quad\\Lambda_m=\\frac{\\kappa\\times1000}{C},\\quad G=\\kappa\\frac{A}{l}",
         "note": "Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।"
       }
     ],
@@ -63,8 +63,8 @@
     "trick": "Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।",
     "steps": [
       "Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।",
-      "কাজ: Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।",
-      "চিহ্ন ঠিক আছে তো? kappa, rho, Lambda"
+      "মনে রাখো — Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।",
+      "চিহ্ন চেক: kappa, rho, Lambda"
     ]
   },
   "subjects": [

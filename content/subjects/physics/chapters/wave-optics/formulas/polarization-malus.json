@@ -38,7 +38,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "I = I_0 \\cos^2\\theta",
         "note": "I = I₀cos²θ — 'কোসাইন বর্গ'। θ = 0 এ পূর্ণ আলো, ৪৫° এ অর্ধেক, ৯০° এ সম্পূর্ণ অন্ধকার (crossed polarizers)।"
       }
     ],

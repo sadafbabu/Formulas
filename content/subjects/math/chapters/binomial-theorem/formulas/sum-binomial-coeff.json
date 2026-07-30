@@ -28,7 +28,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\sum_{r=0}^{n} \\binom{n}{r} = 2^n, \\quad \\sum_{r=0}^{n} (-1)^r \\binom{n}{r} = 0, \\quad \\binom{n}{r} = \\binom{n}{n-r}",
         "note": "সব সহগের যোগফল = 2ⁿ (x = 1 বসান), পর্যায়ক্রমে চিহ্ন দিলে যোগফল = 0 (x = −1 বসান)। আর C(n,r) = C(n,n−r) — সহগ প্রতিসম, ত"
       }
     ],

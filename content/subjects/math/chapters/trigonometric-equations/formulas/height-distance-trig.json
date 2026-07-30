@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\tan\\theta=\\frac{h}{d},\\quad \\sin\\theta=\\frac{h}{l}",
         "note": "উন্নয়ন/অবনমন কোণে tan ব্যবহার করো।"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "উন্নয়ন/অবনমন কোণে tan ব্যবহার করো।",
     "steps": [
       "উন্নয়ন/অবনমন কোণে tan ব্যবহার করো।",
-      "কাজ: উন্নয়ন/অবনমন কোণে tan ব্যবহার করো।",
-      "চিহ্ন ঠিক আছে তো? theta, h, d"
+      "মনে রাখো — উন্নয়ন/অবনমন কোণে tan ব্যবহার করো।",
+      "চিহ্ন চেক: theta, h, d"
     ]
   },
   "subjects": [

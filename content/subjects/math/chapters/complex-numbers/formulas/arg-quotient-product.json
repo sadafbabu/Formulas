@@ -35,7 +35,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\arg(z_1z_2)=\\arg z_1+\\arg z_2,\\quad\\arg(z_1/z_2)=\\arg z_1-\\arg z_2",
         "note": "গুণে arg যোগ; ভাগে arg বিয়োগ।"
       }
     ],
@@ -44,7 +44,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গুণফল-ভাগফলের আরগুমেন্ট এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "গুণফল-ভাগফলের আরগুমেন্ট লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\arg(z_1z_2)=\\arg z_1+\\arg z_2,\\quad\\arg(z_1/z_2)=\\arg z_1-\\arg z_2"
     },
     {
@@ -54,11 +54,11 @@
     }
   ],
   "memorize": {
-    "trick": "গুণে arg যোগ; ভাগে arg বিয়োগ।",
+    "trick": "গুণে arg যোগ; ভাগে arg বিয়োগ। — গুণফল-ভাগফলের আরগুমেন্ট মনে রাখার চাবিকাঠি।",
     "steps": [
       "গুণে arg যোগ; ভাগে arg বিয়োগ।",
-      "কাজ: গুণে arg যোগ; ভাগে arg বিয়োগ।",
-      "চিহ্ন ঠিক আছে তো? arg, z"
+      "মনে রাখো — গুণে arg যোগ; ভাগে arg বিয়োগ।",
+      "চিহ্ন চেক: arg, z"
     ]
   },
   "subjects": [

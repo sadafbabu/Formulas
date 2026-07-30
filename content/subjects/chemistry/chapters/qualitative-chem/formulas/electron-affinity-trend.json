@@ -36,7 +36,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathrm{EA}\\text{ generally increases across a period (more negative)}",
         "note": "হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।"
       }
     ],
@@ -45,7 +45,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ইলেকট্রন আসক্তির প্রবণতা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ইলেকট্রন আসক্তির প্রবণতা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\mathrm{EA}\\text{ generally increases across a period (more negative)}"
     },
     {
@@ -55,11 +55,11 @@
     }
   ],
   "memorize": {
-    "trick": "হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।",
+    "trick": "হ্যালোজেনে EA সবচেয়ে ঋণাত্মক। — ইলেকট্রন আসক্তির প্রবণতা মনে রাখার চাবিকাঠি।",
     "steps": [
       "হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।",
-      "কাজ: হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।",
-      "চিহ্ন ঠিক আছে তো? EA, generally increases across a period (more negative)"
+      "মনে রাখো — হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।",
+      "চিহ্ন চেক: EA, generally increases across a period (more negative)"
     ]
   },
   "subjects": [

@@ -50,7 +50,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "PV = nRT, \\quad R = 8.314\\ \\text{J/(mol·K)}",
         "note": "PV = nRT — 'পিভি নরত'। R = 8.314 J/(mol·K) মুখস্থ রাখুন; T সর্বদা কেলভিনে।"
       }
     ],

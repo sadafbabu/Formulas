@@ -30,7 +30,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
         "note": "sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A"
       }
     ],
@@ -39,7 +39,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ত্রিগুণ কোণ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ত্রিগুণ কোণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A"
     }
   ],
@@ -47,8 +47,8 @@
     "trick": "sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
     "steps": [
       "sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
-      "কাজ: sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
-      "চিহ্ন ঠিক আছে তো? A"
+      "মনে রাখো — sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
+      "চিহ্ন চেক: A"
     ]
   },
   "subjects": [

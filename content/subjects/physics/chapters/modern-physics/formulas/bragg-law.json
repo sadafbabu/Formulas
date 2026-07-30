@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "2d\\sin\\theta=n\\lambda",
         "note": "2d sinθ = nλ — পথপার্থক্য দুই স্তরে।"
       }
     ],
@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ব্র্যাগের সূত্র এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ব্র্যাগের সূত্র লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "2d\\sin\\theta=n\\lambda"
     },
     {
@@ -63,8 +63,8 @@
     "trick": "2d sinθ = nλ — পথপার্থক্য দুই স্তরে।",
     "steps": [
       "2d sinθ = nλ — পথপার্থক্য দুই স্তরে।",
-      "কাজ: স্ফটিক থেকে এক্স-রে অপবর্তন",
-      "চিহ্ন ঠিক আছে তো? d, n, lambda"
+      "মনে রাখো — স্ফটিক থেকে এক্স-রে অপবর্তন",
+      "চিহ্ন চেক: d, n, lambda"
     ]
   },
   "subjects": [

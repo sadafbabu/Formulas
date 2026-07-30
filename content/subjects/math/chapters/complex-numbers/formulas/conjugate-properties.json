@@ -38,7 +38,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "|z_1 z_2| = |z_1||z_2|, \\quad \\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2}, \\quad |z|^2 = z\\,\\overline{z}",
         "note": "অন্বয়ী মানে i-এর চিহ্ন উল্টানো। মূল ধর্ম: z·z̄ = |z|² (সর্বদা বাস্তব) — এজন্যই ভাগ করার সময় হরের অন্বয়ী দিয়ে গুণ করা"
       }
     ],

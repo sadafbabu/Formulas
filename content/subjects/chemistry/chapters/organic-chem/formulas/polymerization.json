@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "n\\,\\ce{CH2=CH2 -> [-CH2-CH2-]_n}",
         "note": "Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পলিমারাইজেশন এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "পলিমারাইজেশন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "n\\,\\ce{CH2=CH2 -> [-CH2-CH2-]_n}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।",
     "steps": [
       "Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।",
-      "কাজ: Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।",
-      "চিহ্ন ঠিক আছে তো? n, ce, C"
+      "মনে রাখো — Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।",
+      "চিহ্ন চেক: n, ce, C"
     ]
   },
   "subjects": [

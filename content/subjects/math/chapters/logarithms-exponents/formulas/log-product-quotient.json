@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
         "note": "গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b"
       }
     ],
@@ -57,8 +57,8 @@
     "trick": "গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
     "steps": [
       "গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
-      "কাজ: গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
-      "চিহ্ন ঠিক আছে তো? c, a, b"
+      "মনে রাখো — গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
+      "চিহ্ন চেক: c, a, b"
     ]
   },
   "subjects": [

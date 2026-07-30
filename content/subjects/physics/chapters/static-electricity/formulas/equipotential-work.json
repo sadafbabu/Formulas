@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "W_{a\\to b}=q(V_a-V_b),\\quad\\vec E=-\\nabla V,\\quad W_{eq}=0",
         "note": "সমবিভব তলে চললে কাজ শূন্য; E অভিলম্ব।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমবিভব তল ও কাজ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সমবিভব তল ও কাজ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "W_{a\\to b}=q(V_a-V_b),\\quad\\vec E=-\\nabla V,\\quad W_{eq}=0"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "সমবিভব তলে চললে কাজ শূন্য; E অভিলম্ব।",
     "steps": [
       "সমবিভব তলে চললে কাজ শূন্য; E অভিলম্ব।",
-      "কাজ: সমবিভবে কাজ শূন্য এবং E=-∇V",
-      "চিহ্ন ঠিক আছে তো? W, a, b"
+      "মনে রাখো — সমবিভবে কাজ শূন্য এবং E=-∇V",
+      "চিহ্ন চেক: W, a, b"
     ]
   },
   "subjects": [

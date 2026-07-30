@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "E=E^\\circ-\\frac{RT}{nF}\\ln Q;\\quad 298\\ \\mathrm K\\text{-এ }E=E^\\circ-\\frac{0.05916}{n}\\log_{10}Q",
         "note": "২৫°C-এ E = E° − (0.059/n) log Q — Q বাড়লে E কমে।"
       }
     ],

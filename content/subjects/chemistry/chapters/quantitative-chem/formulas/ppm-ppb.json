@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathrm{ppm}=\\frac{\\text{mass solute}}{\\text{mass solution}}\\times10^6",
         "note": "জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।"
       }
     ],
@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ppm ও ppb এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ppm ও ppb লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\mathrm{ppm}=\\frac{\\text{mass solute}}{\\text{mass solution}}\\times10^6"
     },
     {
@@ -63,8 +63,8 @@
     "trick": "জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।",
     "steps": [
       "জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।",
-      "কাজ: জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।",
-      "চিহ্ন ঠিক আছে তো? ppm, mass solute, mass solution"
+      "মনে রাখো — জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।",
+      "চিহ্ন চেক: ppm, mass solute, mass solution"
     ]
   },
   "subjects": [

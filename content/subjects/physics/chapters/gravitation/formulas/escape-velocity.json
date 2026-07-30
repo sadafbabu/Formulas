@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "v_e = \\sqrt{\\frac{2GM}{R}} = \\sqrt{2gR}",
         "note": "v = √(2gR) — পৃথিবী থেকে পালাতে 11.2 km/s। মহাকর্ষণের √2 গুণ।"
       }
     ],

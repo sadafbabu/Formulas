@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "xy=c^2,\\quad e=\\sqrt{2}",
         "note": "xy=c²-এ লঘুগামী y=±x; e=√2 স্থির।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমকোণী অধিবৃত্ত এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সমকোণী অধিবৃত্ত লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "xy=c^2,\\quad e=\\sqrt{2}"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "xy=c²-এ লঘুগামী y=±x; e=√2 স্থির।",
     "steps": [
       "xy=c²-এ লঘুগামী y=±x; e=√2 স্থির।",
-      "কাজ: xy=c²-এ লঘুগামী y=±x; e=√2 স্থির।",
-      "চিহ্ন ঠিক আছে তো? x, y, c"
+      "মনে রাখো — xy=c²-এ লঘুগামী y=±x; e=√2 স্থির।",
+      "চিহ্ন চেক: x, y, c"
     ]
   },
   "subjects": [

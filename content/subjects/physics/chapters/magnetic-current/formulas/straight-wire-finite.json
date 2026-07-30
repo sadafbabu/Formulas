@@ -57,7 +57,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "B = \\frac{\\mu_0 I}{4\\pi r} (\\sin \\phi_1 + \\sin \\phi_2)",
         "note": "সসীম তার = অসীম তারের সূত্রে '৪' আর দুই কোণের sine। B = μ₀I(sin φ₁ + sin φ₂)/(4πr) — দুই প্রান্ত দুই sine দেয়।"
       }
     ],

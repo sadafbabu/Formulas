@@ -44,7 +44,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac12m\\langle v^2\\rangle=\\frac12m v_{\\mathrm{rms}}^2=\\frac32kT",
         "note": "গড় গতিশক্তি = (3/2)kT — কেবল তাপমাত্রার উপর নির্ভর করে, গ্যাস কোনটা তা লাগে না! 'প্রতি স্বাধীনতার মাত্রায় ½kT, তিন মাত"
       }
     ],

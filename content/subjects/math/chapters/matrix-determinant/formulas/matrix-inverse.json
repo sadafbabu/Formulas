@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "A^{-1}=\\frac{1}{\\det A}\\mathrm{adj}\\,A,\\quad AA^{-1}=I",
         "note": "A⁻¹ = (1/detA) adj A; det≠0 চাই।"
       }
     ],
@@ -62,8 +62,8 @@
     "trick": "A⁻¹ = (1/detA) adj A; det≠0 চাই।",
     "steps": [
       "A⁻¹ = (1/detA) adj A; det≠0 চাই।",
-      "কাজ: A⁻¹ = (1/detA) adj A; det≠0 চাই।",
-      "চিহ্ন ঠিক আছে তো? A, det, adj"
+      "মনে রাখো — A⁻¹ = (1/detA) adj A; det≠0 চাই।",
+      "চিহ্ন চেক: A, det, adj"
     ]
   },
   "subjects": [

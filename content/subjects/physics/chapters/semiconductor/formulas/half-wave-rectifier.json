@@ -37,7 +37,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "I_{dc} = \\frac{I_0}{\\pi}, \\quad V_{dc} = \\frac{V_0}{\\pi}, \\quad \\eta = 40.6\\%",
         "note": "অর্ধতরঙ্গে '১ পাই', পূর্ণতরঙ্গে '২ পাই': I_dc = I₀/π বনাম 2I₀/π। দক্ষতাও ঠিক দ্বিগুণ: ৪০.৬% বনাম ৮১.২% — এই দুই সংখ্যা ম"
       }
     ],

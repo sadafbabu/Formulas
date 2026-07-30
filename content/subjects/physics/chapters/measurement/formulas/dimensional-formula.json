@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "[F]=[MLT^{-2}],\\ [E]=[ML^2T^{-2}],\\ [P]=[ML^{-1}T^{-2}]",
         "note": "F: MLT⁻²; E: ML²T⁻²; P: ML⁻¹T⁻²।"
       }
     ],
@@ -62,11 +62,11 @@
     }
   ],
   "memorize": {
-    "trick": "F: MLT⁻²; E: ML²T⁻²; P: ML⁻¹T⁻²।",
+    "trick": "F: MLT⁻²; E: ML²T⁻²; P: ML⁻¹T⁻²। — মাত্রিক সূত্র মনে রাখার চাবিকাঠি।",
     "steps": [
       "F: MLT⁻²; E: ML²T⁻²; P: ML⁻¹T⁻²।",
-      "কাজ: রাশির মাত্রা [M^a L^b T^c …]",
-      "চিহ্ন ঠিক আছে তো? M, L, T"
+      "মনে রাখো — রাশির মাত্রা [M^a L^b T^c …]",
+      "চিহ্ন চেক: M, L, T"
     ]
   },
   "subjects": [

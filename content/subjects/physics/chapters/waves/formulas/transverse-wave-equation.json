@@ -65,8 +65,8 @@
     "trick": "y=A sin(ωt−kx); v=ω/k। y = A sin(ωt − kx) বা A sin(kx − ωt)",
     "steps": [
       "y=A sin(ωt−kx); v=ω/k। y = A sin(ωt − kx) বা A sin(kx − ωt)",
-      "কাজ: y = A sin(ωt − kx) বা A sin(kx − ωt)",
-      "চিহ্ন ঠিক আছে তো? A, \\omega, k"
+      "মনে রাখো — y = A sin(ωt − kx) বা A sin(kx − ωt)",
+      "চিহ্ন চেক: A, \\omega, k"
     ]
   },
   "subjects": [

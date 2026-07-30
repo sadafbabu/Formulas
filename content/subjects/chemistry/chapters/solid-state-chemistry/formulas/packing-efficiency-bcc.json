@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
         "note": "BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "BCC প্যাকিং দক্ষতা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "BCC প্যাকিং দক্ষতা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\text{PE}=68\\%\\quad(a\\sqrt3=4r)"
     }
   ],
@@ -63,8 +63,8 @@
     "trick": "BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
     "steps": [
       "BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
-      "কাজ: BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
-      "চিহ্ন ঠিক আছে তো? PE, a, sqrt"
+      "মনে রাখো — BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
+      "চিহ্ন চেক: PE, a, sqrt"
     ]
   },
   "subjects": [

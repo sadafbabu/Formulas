@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
         "note": "|A×B|=|A|·|B|; ordered pair। A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কার্তesian গুণফল এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "কার্তesian গুণফল লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "|A×B|=|A|·|B|; ordered pair। A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
     "steps": [
       "|A×B|=|A|·|B|; ordered pair। A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
-      "কাজ: |A×B|=|A|·|B|; ordered pair। A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
-      "চিহ্ন ঠিক আছে তো? A, B, a"
+      "মনে রাখো — |A×B|=|A|·|B|; ordered pair। A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
+      "চিহ্ন চেক: A, B, a"
     ]
   },
   "subjects": [

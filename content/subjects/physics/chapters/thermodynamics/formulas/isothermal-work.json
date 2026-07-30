@@ -55,7 +55,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "W = n R T \\ln\\left(\\frac{V_2}{V_1}\\right) = n R T \\ln\\left(\\frac{P_1}{P_2}\\right)",
         "note": "সমোষ্ণে কাজে 'লগ' থাকে: W = nRT ln(V₂/V₁)। মনে রাখুন — সমোষ্ণে ln, রুদ্ধতাপে ঘাত (γ)।"
       }
     ],

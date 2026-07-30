@@ -51,7 +51,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\eta = 1 - \\frac{T_2}{T_1} = 1 - \\frac{Q_2}{Q_1}",
         "note": "η = 1 − T₂/T₁ — 'এক বিয়োগ ঠান্ডা ভাগ গরম', T অবশ্যই কেলভিনে। উৎসের তাপ বাড়ালে বা সিংকের তাপ কমালে দক্ষতা বাড়ে; η = 1 "
       }
     ],

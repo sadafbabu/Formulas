@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
         "note": "২×২: প্রধান−অপ্রধান কর্ণ। \\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc"
       }
     ],
@@ -62,8 +62,8 @@
     "trick": "২×২: প্রধান−অপ্রধান কর্ণ। \\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
     "steps": [
       "২×২: প্রধান−অপ্রধান কর্ণ। \\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
-      "কাজ: ২×২: প্রধান−অপ্রধান কর্ণ। \\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
-      "চিহ্ন ঠিক আছে তো? v, m, a"
+      "মনে রাখো — ২×২: প্রধান−অপ্রধান কর্ণ। \\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
+      "চিহ্ন চেক: v, m, a"
     ]
   },
   "subjects": [

@@ -47,7 +47,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "v = \\frac{E}{B}",
         "note": "বেগ নির্বাচক: qE = qvB → v = E/B। 'ই বাই বি' — শুধু এই বেগের কণাই সোজা যায়।"
       }
     ],

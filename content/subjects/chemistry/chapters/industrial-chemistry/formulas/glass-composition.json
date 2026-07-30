@@ -31,7 +31,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathrm{Na_2O\\cdot CaO\\cdot 6SiO_2}",
         "note": "সাধারণ কাচ = সোডা + চুন + বালি।"
       }
     ],
@@ -40,7 +40,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সোডা-লাইম কাচ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সোডা-লাইম কাচ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\mathrm{Na_2O\\cdot CaO\\cdot 6SiO_2}"
     },
     {
@@ -53,8 +53,8 @@
     "trick": "সাধারণ কাচ = সোডা + চুন + বালি।",
     "steps": [
       "সাধারণ কাচ = সোডা + চুন + বালি।",
-      "কাজ: সাধারণ কাচ = সোডা + চুন + বালি।",
-      "চিহ্ন ঠিক আছে তো? Na_2O\\cdot CaO\\cdot 6SiO_2"
+      "মনে রাখো — সাধারণ কাচ = সোডা + চুন + বালি।",
+      "চিহ্ন চেক: Na_2O\\cdot CaO\\cdot 6SiO_2"
     ]
   },
   "subjects": [

@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\text{heavier}",
         "note": "বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিভাজন ও সংযোজন এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "বিভাজন ও সংযোজন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\text{heavier}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।",
     "steps": [
       "বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।",
-      "কাজ: বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।",
-      "চিহ্ন ঠিক আছে তো? fission: heavy, lighter, energy"
+      "মনে রাখো — বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।",
+      "চিহ্ন চেক: fission: heavy, lighter, energy"
     ]
   },
   "subjects": [

@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "xx_1+yy_1=r^2\\quad(x^2+y^2=r^2)",
         "note": "T=0 পদ্ধতি; কেন্দ্রে xx₁+yy₁=r²।"
       }
     ],
@@ -62,8 +62,8 @@
     "trick": "T=0 পদ্ধতি; কেন্দ্রে xx₁+yy₁=r²।",
     "steps": [
       "T=0 পদ্ধতি; কেন্দ্রে xx₁+yy₁=r²।",
-      "কাজ: T=0 পদ্ধতি; কেন্দ্রে xx₁+yy₁=r²।",
-      "চিহ্ন ঠিক আছে তো? x, y, r"
+      "মনে রাখো — T=0 পদ্ধতি; কেন্দ্রে xx₁+yy₁=r²।",
+      "চিহ্ন চেক: x, y, r"
     ]
   },
   "subjects": [

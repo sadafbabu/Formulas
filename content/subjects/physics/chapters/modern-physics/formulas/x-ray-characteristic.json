@@ -39,7 +39,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\lambda_{min} = \\frac{hc}{eV}, \\quad \\frac{1}{\\lambda} = R(Z-\\sigma)^2\\left(\\frac{1}{n_1^2}-\\frac{1}{n_2^2}\\right)",
         "note": "λ_min = hc/(eV) ≈ 12400/V Å — সর্বনিম্ন তরঙ্গদৈর্ঘ্য কেবল ভোল্টেজের উপর নির্ভর করে, টার্গেট পদার্থে নয়। বৈশিষ্ট্যমূলক র"
       }
     ],

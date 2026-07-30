@@ -30,7 +30,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{Feasible region = intersection of constraint half-planes}",
         "note": "সব constraint একসাথে plot → bounded/unbounded region।"
       }
     ],
@@ -39,7 +39,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সম্ভাব্য অঞ্চল এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সম্ভাব্য অঞ্চল লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\text{Feasible region = intersection of constraint half-planes}"
     },
     {
@@ -52,8 +52,8 @@
     "trick": "সব constraint একসাথে plot → bounded/unbounded region।",
     "steps": [
       "সব constraint একসাথে plot → bounded/unbounded region।",
-      "কাজ: সব constraint একসাথে plot → bounded/unbounded region।",
-      "চিহ্ন ঠিক আছে তো? Feasible region = intersection of constraint half-planes"
+      "মনে রাখো — সব constraint একসাথে plot → bounded/unbounded region।",
+      "চিহ্ন চেক: Feasible region = intersection of constraint half-planes"
     ]
   },
   "subjects": [

@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\vec\\tau=\\frac{d\\vec L}{dt};\\quad \\tau=I\\alpha\\ (\\text{স্থির principal axis});\\quad \\tau=rF\\sin\\theta",
         "note": "τ = Iα হলো F = ma-এর ঘূর্ণন রূপ। বল→টর্ক, ভর→জাড্য ভ্রামক, ত্বরণ→কৌণিক ত্বরণ। আর τ = rF sinθ — লম্ব দূরত্ব যত বেশি, টর্ক"
       }
     ],

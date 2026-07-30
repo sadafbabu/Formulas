@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "n\\lambda=2d\\sin\\theta",
         "note": "X-ray diffraction; n=order, d=interplanar spacing।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ব্র্যাগের সমীকরণ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ব্র্যাগের সমীকরণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "n\\lambda=2d\\sin\\theta"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "X-ray diffraction; n=order, d=interplanar spacing।",
     "steps": [
       "X-ray diffraction; n=order, d=interplanar spacing।",
-      "কাজ: X-ray diffraction; n=order, d=interplanar spacing।",
-      "চিহ্ন ঠিক আছে তো? n, lambda, d"
+      "মনে রাখো — X-ray diffraction; n=order, d=interplanar spacing।",
+      "চিহ্ন চেক: n, lambda, d"
     ]
   },
   "subjects": [

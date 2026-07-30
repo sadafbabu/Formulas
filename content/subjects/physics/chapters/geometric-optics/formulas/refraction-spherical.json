@@ -48,7 +48,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac{\\mu_2}{v} - \\frac{\\mu_1}{u} = \\frac{\\mu_2 - \\mu_1}{R}",
         "note": "μ₂/v − μ₁/u = (μ₂ − μ₁)/R — 'প্রতিসরাঙ্ক সহ লেন্স সূত্র'। μ₁ = 1 ও দুই তল মিলিয়ে ধরলেই লেন্স নির্মাতার সূত্র বের হয়।"
       }
     ],

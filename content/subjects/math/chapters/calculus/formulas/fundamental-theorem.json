@@ -38,7 +38,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\int_a^b f(x)\\,dx = F(b) - F(a), \\quad \\frac{d}{dx}\\int_a^x f(t)\\,dt = f(x)",
         "note": "যোগজ ও অবকলন পরস্পরের বিপরীত — এটাই মৌলিক উপপাদ্য। ∫ₐᵇf = F(b) − F(a) ('উপরে বসিয়ে নিচে বসানো বাদ'), আর d/dx∫ₐˣf(t)dt ="
       }
     ],

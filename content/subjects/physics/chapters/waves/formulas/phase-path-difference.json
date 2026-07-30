@@ -36,7 +36,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
         "note": "এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x"
       }
     ],
@@ -45,7 +45,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কলারূপ ও পথ পার্থক্য এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "কলারূপ ও পথ পার্থক্য লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x"
     }
   ],
@@ -53,8 +53,8 @@
     "trick": "এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
     "steps": [
       "এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
-      "কাজ: এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
-      "চিহ্ন ঠিক আছে তো? lambda, x"
+      "মনে রাখো — এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
+      "চিহ্ন চেক: lambda, x"
     ]
   },
   "subjects": [

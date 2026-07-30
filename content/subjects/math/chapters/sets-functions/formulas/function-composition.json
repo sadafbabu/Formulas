@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "(f\\circ g)(x)=f(g(x))",
         "note": "g আগে, f পরে; fog ≠ gof সাধারণত।"
       }
     ],
@@ -59,11 +59,11 @@
     }
   ],
   "memorize": {
-    "trick": "g আগে, f পরে; fog ≠ gof সাধারণত।",
+    "trick": "g আগে, f পরে; fog ≠ gof সাধারণত। — ফাংশনের সংযোজন মনে রাখার চাবিকাঠি।",
     "steps": [
       "g আগে, f পরে; fog ≠ gof সাধারণত।",
-      "কাজ: g আগে, f পরে; fog ≠ gof সাধারণত।",
-      "চিহ্ন ঠিক আছে তো? f, circ, g"
+      "মনে রাখো — g আগে, f পরে; fog ≠ gof সাধারণত।",
+      "চিহ্ন চেক: f, circ, g"
     ]
   },
   "subjects": [

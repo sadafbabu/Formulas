@@ -38,7 +38,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "T = 2\\pi \\sqrt{\\frac{I}{C}}",
         "note": "T = 2π√(I/C) — দোলকের সেই একই ছাঁচ: 'জাড্য ভাগ ফেরানো ধ্রুবক, মূলে ২π'। এখানে I জাড্য ভ্রামক, C মোচন ধ্রুবক।"
       }
     ],

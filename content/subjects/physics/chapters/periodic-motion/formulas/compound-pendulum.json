@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "T=2\\pi\\sqrt{\\dfrac{I}{mgd}}=2\\pi\\sqrt{\\dfrac{k^2+d^2}{gd}}",
         "note": "T=2π√(I/mgd) — সরল দোলকের L_eq=I/(md)।"
       }
     ],

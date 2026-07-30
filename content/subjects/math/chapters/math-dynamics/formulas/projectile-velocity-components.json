@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "v_x=u\\cos\\theta,\\quad v_y=u\\sin\\theta-gt",
         "note": "Horizontal = constant; vertical = u sinθ − gt।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বেগের উপাদিসমূহ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "বেগের উপাদিসমূহ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "v_x=u\\cos\\theta,\\quad v_y=u\\sin\\theta-gt"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "Horizontal = constant; vertical = u sinθ − gt।",
     "steps": [
       "Horizontal = constant; vertical = u sinθ − gt।",
-      "কাজ: Horizontal = constant; vertical = u sinθ − gt।",
-      "চিহ্ন ঠিক আছে তো? v, x, u"
+      "মনে রাখো — Horizontal = constant; vertical = u sinθ − gt।",
+      "চিহ্ন চেক: v, x, u"
     ]
   },
   "subjects": [

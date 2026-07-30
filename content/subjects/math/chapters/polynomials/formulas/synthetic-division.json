@@ -33,7 +33,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac{P(x)}{x-a}: \\quad P(a) = R \\text{ (remainder)}",
         "note": "কৃত্রিম ভাগ = কেবল সহগ নিয়ে কাজ, x লেখার দরকার নেই। 'নামাও, গুণ করো, যোগ করো' — এই তিন ধাপ পুনরাবৃত্তি; শেষ সংখ্যাটাই ভ"
       }
     ],

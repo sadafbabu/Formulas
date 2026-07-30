@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\overline{A+B}=\\bar A\\cdot\\bar B,\\quad\\overline{A\\cdot B}=\\bar A+\\bar B",
         "note": "বার ভাঙলে OR↔AND বদলায়। বুলিয়ান বীজগণিতের ডি মরগান"
       }
     ],
@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ডি মরগানের সূত্র এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ডি মরগানের সূত্র লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\overline{A+B}=\\bar A\\cdot\\bar B,\\quad\\overline{A\\cdot B}=\\bar A+\\bar B"
     },
     {
@@ -63,8 +63,8 @@
     "trick": "বার ভাঙলে OR↔AND বদলায়। বুলিয়ান বীজগণিতের ডি মরগান",
     "steps": [
       "বার ভাঙলে OR↔AND বদলায়। বুলিয়ান বীজগণিতের ডি মরগান",
-      "কাজ: বুলিয়ান বীজগণিতের ডি মরগান",
-      "চিহ্ন ঠিক আছে তো? overline, A, B"
+      "মনে রাখো — বুলিয়ান বীজগণিতের ডি মরগান",
+      "চিহ্ন চেক: overline, A, B"
     ]
   },
   "subjects": [

@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "A\\cap B=\\{x:x\\in A\\text{ and }x\\in B\\}",
         "note": "∩ = intersection = ছেদ; common elements।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সেটের ছেদ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সেটের ছেদ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "A\\cap B=\\{x:x\\in A\\text{ and }x\\in B\\}"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "∩ = intersection = ছেদ; common elements।",
     "steps": [
       "∩ = intersection = ছেদ; common elements।",
-      "কাজ: ∩ = intersection = ছেদ; common elements।",
-      "চিহ্ন ঠিক আছে তো? A, cap, B"
+      "মনে রাখো — ∩ = intersection = ছেদ; common elements।",
+      "চিহ্ন চেক: A, cap, B"
     ]
   },
   "subjects": [

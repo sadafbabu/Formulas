@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "P=\\frac{\\text{favourable permutations}}{n!}",
         "note": "ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।"
       }
     ],
@@ -49,7 +49,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্রমবিন্যাসে সম্ভাব্যতা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ক্রমবিন্যাসে সম্ভাব্যতা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "P=\\frac{\\text{favourable permutations}}{n!}"
     },
     {
@@ -59,11 +59,11 @@
     }
   ],
   "memorize": {
-    "trick": "ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।",
+    "trick": "ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr। — ক্রমবিন্যাসে সম্ভাব্যতা মনে রাখার চাবিকাঠি।",
     "steps": [
       "ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।",
-      "কাজ: ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।",
-      "চিহ্ন ঠিক আছে তো? P, favourable permutations, n"
+      "মনে রাখো — ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।",
+      "চিহ্ন চেক: P, favourable permutations, n"
     ]
   },
   "subjects": [

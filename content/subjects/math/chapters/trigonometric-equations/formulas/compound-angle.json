@@ -33,7 +33,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\sin(A\\pm B) = \\sin A\\cos B \\pm \\cos A\\sin B, \\quad \\cos(A\\pm B) = \\cos A\\cos B \\mp \\sin A\\sin B",
         "note": "sin(A±B) = sinA cosB ± cosA sinB; cos(A±B) = cosA cosB ∓ sinA sinB — sin মিশ্র চিহ্ন, cos বিপরীত চিহ্ন।"
       }
     ],
@@ -54,8 +54,8 @@
     "trick": "sin(A±B) = sinA cosB ± cosA sinB; cos(A±B) = cosA cosB ∓ sinA sinB — sin মিশ্র চিহ্ন, cos বিপরীত চিহ্ন।",
     "steps": [
       "sin(A±B) = sinA cosB ± cosA sinB; cos(A±B) = cosA cosB ∓ sinA sinB — sin মিশ্র চিহ্ন, cos বিপরীত চিহ্ন।",
-      "কাজ: sin, cos, tan এর যোগফল ও বিয়োগফল কোণ সূত্র",
-      "চিহ্ন ঠিক আছে তো? A, B"
+      "মনে রাখো — sin, cos, tan এর যোগফল ও বিয়োগফল কোণ সূত্র",
+      "চিহ্ন চেক: A, B"
     ]
   },
   "subjects": [

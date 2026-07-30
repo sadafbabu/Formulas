@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)",
         "note": "r≠1; r=1 হলে S=na। S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "r≠1; r=1 হলে S=na। S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)",
     "steps": [
       "r≠1; r=1 হলে S=na। S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)",
-      "কাজ: r≠1; r=1 হলে S=na। S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)",
-      "চিহ্ন ঠিক আছে তো? S, n, a"
+      "মনে রাখো — r≠1; r=1 হলে S=na। S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)",
+      "চিহ্ন চেক: S, n, a"
     ]
   },
   "subjects": [

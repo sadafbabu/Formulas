@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "F(x,y)=0\\Rightarrow\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
         "note": "দুই পাশে d/dx; dy/dx কে আলাদা করুন।"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "দুই পাশে d/dx; dy/dx কে আলাদা করুন।",
     "steps": [
       "দুই পাশে d/dx; dy/dx কে আলাদা করুন।",
-      "কাজ: দুই পাশে d/dx; dy/dx কে আলাদা করুন।",
-      "চিহ্ন ঠিক আছে তো? F, x, y"
+      "মনে রাখো — দুই পাশে d/dx; dy/dx কে আলাদা করুন।",
+      "চিহ্ন চেক: F, x, y"
     ]
   },
   "subjects": [

@@ -52,7 +52,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "B = \\frac{\\mu_0 I \\theta}{4\\pi r}",
         "note": "চাপ = পূর্ণ বৃত্তের ভগ্নাংশ। B = μ₀Iθ/(4πr) — θ = 2π বসালেই পূর্ণ বৃত্ত μ₀I/(2r) পাওয়া যায়।"
       }
     ],

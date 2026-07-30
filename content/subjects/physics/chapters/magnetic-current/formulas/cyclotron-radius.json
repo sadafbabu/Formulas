@@ -57,7 +57,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "r = \\frac{m v}{|q| B}",
         "note": "r = mv/(qB) — 'ভরবেগ ভাগ আধান-ক্ষেত্র'। ভারী বা দ্রুত কণা বড় বৃত্ত আঁকে, শক্তিশালী ক্ষেত্র বৃত্ত ছোট করে।"
       }
     ],

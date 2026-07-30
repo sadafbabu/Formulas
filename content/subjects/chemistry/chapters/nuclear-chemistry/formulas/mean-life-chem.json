@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}",
         "note": "গড় আয়ু > অর্ধায়ু। \\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}"
       }
     ],
@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গড় আয়ু এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "গড় আয়ু লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}"
     }
   ],
@@ -58,8 +58,8 @@
     "trick": "গড় আয়ু > অর্ধায়ু। \\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}",
     "steps": [
       "গড় আয়ু > অর্ধায়ু। \\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}",
-      "কাজ: গড় আয়ু > অর্ধায়ু। \\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}",
-      "চিহ্ন ঠিক আছে তো? tau, lambda, t"
+      "মনে রাখো — গড় আয়ু > অর্ধায়ু। \\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}",
+      "চিহ্ন চেক: tau, lambda, t"
     ]
   },
   "subjects": [

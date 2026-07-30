@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "a_c=\\dfrac{v^2}{r}=\\omega^2 r",
         "note": "কেন্দ্রে টানে: a_c = v²/r = ω²r — বড় বেগ/ছোট r = বেশি টান।"
       }
     ],

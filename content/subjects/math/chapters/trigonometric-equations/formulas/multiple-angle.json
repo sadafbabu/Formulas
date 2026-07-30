@@ -38,7 +38,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\sin 2A = 2\\sin A\\cos A, \\quad \\cos 2A = 2\\cos^2 A - 1, \\quad \\sin\\frac{A}{2} = \\pm\\sqrt{\\frac{1-\\cos A}{2}}",
         "note": "sin2A = 2sinAcosA ('দুই সাইন কস'), cos2A-এর তিন রূপ: 1 − 2sin²A, 2cos²A − 1, cos²A − sin²A — যেটা দরকার সেটা বাছুন। আর t"
       }
     ],

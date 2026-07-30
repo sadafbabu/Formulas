@@ -35,7 +35,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\log_b a\\cdot\\log_a b=1",
         "note": "একটি জানলে অন্যটি উল্টো। \\log_b a\\cdot\\log_a b=1"
       }
     ],
@@ -44,7 +44,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিপরীত লগ গুণফল এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "বিপরীত লগ গুণফল লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\log_b a\\cdot\\log_a b=1"
     },
     {
@@ -57,8 +57,8 @@
     "trick": "একটি জানলে অন্যটি উল্টো। \\log_b a\\cdot\\log_a b=1",
     "steps": [
       "একটি জানলে অন্যটি উল্টো। \\log_b a\\cdot\\log_a b=1",
-      "কাজ: একটি জানলে অন্যটি উল্টো। \\log_b a\\cdot\\log_a b=1",
-      "চিহ্ন ঠিক আছে তো? b, a"
+      "মনে রাখো — একটি জানলে অন্যটি উল্টো। \\log_b a\\cdot\\log_a b=1",
+      "চিহ্ন চেক: b, a"
     ]
   },
   "subjects": [

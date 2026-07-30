@@ -87,12 +87,20 @@ export function SpreadViewer({
     setPageIndex((i) => {
       if (i <= 0) return i
       const next = i - 1
-      animLock.current = true
-      setDir('prev')
-      setAnimKey((k) => k + 1)
-      window.setTimeout(() => {
-        animLock.current = false
-      }, 320)
+      const reduceMotion =
+        typeof window !== 'undefined' &&
+        window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      if (!reduceMotion) {
+        animLock.current = true
+        setDir('prev')
+        setAnimKey((k) => k + 1)
+        window.setTimeout(() => {
+          animLock.current = false
+        }, 320)
+      } else {
+        setDir('prev')
+        setAnimKey((k) => k + 1)
+      }
       return next
     })
   }, [])
@@ -102,12 +110,20 @@ export function SpreadViewer({
     setPageIndex((i) => {
       if (i >= maxPage) return i
       const next = i + 1
-      animLock.current = true
-      setDir('next')
-      setAnimKey((k) => k + 1)
-      window.setTimeout(() => {
-        animLock.current = false
-      }, 320)
+      const reduceMotion =
+        typeof window !== 'undefined' &&
+        window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      if (!reduceMotion) {
+        animLock.current = true
+        setDir('next')
+        setAnimKey((k) => k + 1)
+        window.setTimeout(() => {
+          animLock.current = false
+        }, 320)
+      } else {
+        setDir('next')
+        setAnimKey((k) => k + 1)
+      }
       return next
     })
   }, [maxPage])
@@ -206,14 +222,14 @@ export function SpreadViewer({
     const emptyTitle = hasQuery
       ? 'এই অধ্যায়ে খোঁজে কোনো সূত্র মিলেনি'
       : hasTag
-        ? 'এই tag-এ কোনো সূত্র নেই'
+        ? 'এই ট্যাগে কোনো সূত্র নেই'
         : 'এই অধ্যায়ে সূত্র নেই'
     const emptyHint = hasQuery
       ? globalMatchCount > 0
         ? `অন্য অধ্যায়ে ${globalMatchCount} মিল আছে — মেনু থেকে খুলুন, বা সার্চ মুছুন`
         : 'অন্য কীওয়ার্ড দিয়ে খুঁজুন বা সার্চ খালি করুন'
       : hasTag
-        ? 'উপর থেকে All বা অন্য tag বেছে নিন'
+        ? 'উপর থেকে সব বা অন্য ট্যাগ বেছে নিন'
         : 'মেনু থেকে অন্য অধ্যায় খুলুন'
     return (
       <div className={`spread-stage mode-${mode}`}>

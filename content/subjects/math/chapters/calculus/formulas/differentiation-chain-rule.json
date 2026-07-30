@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x), \\quad \\frac{d}{dx}[u \\cdot v] = u \\frac{dv}{dx} + v \\frac{du}{dx}",
         "note": "dy/dx = (dy/du)(du/dx) — যৌগিক ফাংশনে বহিঃস্থ ও অন্তঃস্থ অবকলনের গুণফল।"
       }
     ],
@@ -57,8 +57,8 @@
     "trick": "dy/dx = (dy/du)(du/dx) — যৌগিক ফাংশনে বহিঃস্থ ও অন্তঃস্থ অবকলনের গুণফল।",
     "steps": [
       "dy/dx = (dy/du)(du/dx) — যৌগিক ফাংশনে বহিঃস্থ ও অন্তঃস্থ অবকলনের গুণফল।",
-      "কাজ: সংযোজিত ফাংশন (Chain Rule) এবং গুণফল (Product Rule) এর অন্তরীকরণ",
-      "চিহ্ন ঠিক আছে তো? f(g(x)), u, v"
+      "মনে রাখো — সংযোজিত ফাংশন (Chain Rule) এবং গুণফল (Product Rule) এর অন্তরীকরণ",
+      "চিহ্ন চেক: f(g(x)), u, v"
     ]
   },
   "subjects": [

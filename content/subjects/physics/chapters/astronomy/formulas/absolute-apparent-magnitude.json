@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
         "note": "m=আপাত, M=পরম মান। m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দূরত্ব মডুলাস এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "দূরত্ব মডুলাস লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})"
     }
   ],
@@ -63,8 +63,8 @@
     "trick": "m=আপাত, M=পরম মান। m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
     "steps": [
       "m=আপাত, M=পরম মান। m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
-      "কাজ: m=আপাত, M=পরম মান। m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
-      "চিহ্ন ঠিক আছে তো? m, M, d"
+      "মনে রাখো — m=আপাত, M=পরম মান। m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
+      "চিহ্ন চেক: m, M, d"
     ]
   },
   "subjects": [

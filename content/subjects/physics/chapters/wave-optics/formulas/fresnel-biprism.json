@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\beta=\\frac{\\lambda D}{d},\\quad d=2a(\\mu-1)\\alpha",
         "note": "YDS-এর মতো β=λD/d; d প্রিজম থেকে।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফ্রেসনেল বাইপ্রিজম এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ফ্রেসনেল বাইপ্রিজম লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\beta=\\frac{\\lambda D}{d},\\quad d=2a(\\mu-1)\\alpha"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "YDS-এর মতো β=λD/d; d প্রিজম থেকে।",
     "steps": [
       "YDS-এর মতো β=λD/d; d প্রিজম থেকে।",
-      "কাজ: YDS-এর মতো β=λD/d; d প্রিজম থেকে।",
-      "চিহ্ন ঠিক আছে তো? lambda, D, d"
+      "মনে রাখো — YDS-এর মতো β=λD/d; d প্রিজম থেকে।",
+      "চিহ্ন চেক: lambda, D, d"
     ]
   },
   "subjects": [

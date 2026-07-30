@@ -51,7 +51,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "I_E = I_B + I_C, \\quad \\alpha = \\frac{\\Delta I_C}{\\Delta I_E}, \\quad \\beta = \\frac{\\Delta I_C}{\\Delta I_B} = \\frac{\\alpha}{1 - \\alpha}",
         "note": "I_E = I_B + I_C — 'ইমিটারই সবচেয়ে বড়'। α = I_C/I_E সামান্য ১-এর কম (≈0.98), β = I_C/I_B অনেক বড় (৫০–৩০০)। সেতু: β = α"
       }
     ],

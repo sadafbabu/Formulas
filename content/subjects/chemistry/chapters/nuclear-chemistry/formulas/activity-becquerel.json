@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
         "note": "SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}"
       }
     ],
@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সক্রিয়তার একক এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সক্রিয়তার একক লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}"
     }
   ],
@@ -58,8 +58,8 @@
     "trick": "SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
     "steps": [
       "SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
-      "কাজ: SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
-      "চিহ্ন ঠিক আছে তো? Bq, s^{-1, Ci"
+      "মনে রাখো — SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
+      "চিহ্ন চেক: Bq, s^{-1, Ci"
     ]
   },
   "subjects": [

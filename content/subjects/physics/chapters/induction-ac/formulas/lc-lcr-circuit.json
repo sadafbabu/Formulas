@@ -53,7 +53,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "T = 2\\pi\\sqrt{LC}, \\quad f_0 = \\frac{1}{2\\pi\\sqrt{LC}}, \\quad Z = \\sqrt{R^2 + (X_L - X_C)^2}",
         "note": "f₀ = 1/(2π√LC) — অনুনাদে X_L = X_C, তাই Z সর্বনিম্ন = R এবং প্রবাহ সর্বোচ্চ। 'অনুনাদে সার্কিট শুধু রোধের মতো আচরণ করে'।"
       }
     ],

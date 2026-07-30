@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "n, \\ l, \\ m_l, \\ m_s; \\quad \\text{orbitals} = (2l+1), \\quad \\text{max e}^\\ominus = 2(2l+1)",
         "note": "চারটি কোয়ান্টাম সংখ্যা = ইলেকট্রনের ঠিকানা। n = বাড়ি (শক্তিস্তর), l = তলা (উপস্তর), m_l = ঘর (অরবিটাল), m_s = ঘুরন (±½"
       }
     ],

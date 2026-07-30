@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "M=\\frac{K_b w_B}{\\Delta T_b w_A}",
         "note": "ΔTb বা π দিয়ে molar mass — HSC numerical favorite।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সম্মিল গুণ থেকে mol ভর এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সম্মিল গুণ থেকে mol ভর লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "M=\\frac{K_b w_B}{\\Delta T_b w_A}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "ΔTb বা π দিয়ে molar mass — HSC numerical favorite।",
     "steps": [
       "ΔTb বা π দিয়ে molar mass — HSC numerical favorite।",
-      "কাজ: ΔTb বা π দিয়ে molar mass — HSC numerical favorite।",
-      "চিহ্ন ঠিক আছে তো? M, K, b"
+      "মনে রাখো — ΔTb বা π দিয়ে molar mass — HSC numerical favorite।",
+      "চিহ্ন চেক: M, K, b"
     ]
   },
   "subjects": [

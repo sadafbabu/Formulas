@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+\\mathrm{NH_4Cl}",
         "note": "NaHCO₃ তাপে Na₂CO₃ দেয়। \\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+\\mathrm{NH"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সলভে বাইকার্বোনেট ধাপ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সলভে বাইকার্বোনেট ধাপ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+\\mathrm{NH_4Cl}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "NaHCO₃ তাপে Na₂CO₃ দেয়। \\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+\\mathrm{NH_4Cl}",
     "steps": [
       "NaHCO₃ তাপে Na₂CO₃ দেয়। \\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarr…",
-      "কাজ: NaHCO₃ তাপে Na₂CO₃ দেয়। \\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+",
-      "চিহ্ন ঠিক আছে তো? NaCl, NH_3, CO_2"
+      "মনে রাখো — NaHCO₃ তাপে Na₂CO₃ দেয়। \\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+",
+      "চিহ্ন চেক: NaCl, NH_3, CO_2"
     ]
   },
   "subjects": [

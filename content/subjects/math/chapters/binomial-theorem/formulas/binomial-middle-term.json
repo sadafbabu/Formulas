@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "T_{r+1} = \\binom{n}{r} a^{n-r} x^r, \\quad \\text{Middle term (n even): } T_{\\frac{n}{2}+1}, \\quad \\text{Middle terms (n odd): } T_{\\frac{n+1}{2}}, T_{\\frac{n+3}{2}}",
         "note": "n জোড় হলে মধ্যপদ একটি: (n/2 + 1)তম। n বিজোড় হলে দুটি: (n+1)/2 ও (n+3)/2 তম। 'জোড়ে এক, বিজোড়ে দুই' — মোট পদ (n+1) বলে"
       }
     ],

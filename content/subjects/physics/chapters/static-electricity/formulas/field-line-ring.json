@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "E_{\\mathrm{ring}}=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{Qx}{(x^2+R^2)^{3/2}}",
         "note": "কেন্দ্রে E=0; অক্ষে উপরের সূত্র।"
       }
     ],
@@ -65,8 +65,8 @@
     "trick": "কেন্দ্রে E=0; অক্ষে উপরের সূত্র।",
     "steps": [
       "কেন্দ্রে E=0; অক্ষে উপরের সূত্র।",
-      "কাজ: অক্ষে বলয়: E = kQx/(x²+R²)^{3/2}",
-      "চিহ্ন ঠিক আছে তো? Q, R, x"
+      "মনে রাখো — অক্ষে বলয়: E = kQx/(x²+R²)^{3/2}",
+      "চিহ্ন চেক: Q, R, x"
     ]
   },
   "subjects": [

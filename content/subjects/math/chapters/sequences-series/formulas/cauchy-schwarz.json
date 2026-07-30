@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
         "note": "সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কোশি–শ্বারজ অসমতা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "কোশি–শ্বারজ অসমতা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2"
     }
   ],
@@ -62,8 +62,8 @@
     "trick": "সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
     "steps": [
       "সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
-      "কাজ: সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
-      "চিহ্ন ঠিক আছে তো? Big, sum, a"
+      "মনে রাখো — সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
+      "চিহ্ন চেক: Big, sum, a"
     ]
   },
   "subjects": [

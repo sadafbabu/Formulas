@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "y=x\\tan\\theta-\\frac{gx^2}{2u^2\\cos^2\\theta}",
         "note": "x elim করে parabolic path; g/2u²cos²θ coefficient।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্ষিপ্ত পথের সমীকরণ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ক্ষিপ্ত পথের সমীকরণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "y=x\\tan\\theta-\\frac{gx^2}{2u^2\\cos^2\\theta}"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "x elim করে parabolic path; g/2u²cos²θ coefficient।",
     "steps": [
       "x elim করে parabolic path; g/2u²cos²θ coefficient।",
-      "কাজ: x elim করে parabolic path; g/2u²cos²θ coefficient।",
-      "চিহ্ন ঠিক আছে তো? y, x, theta"
+      "মনে রাখো — x elim করে parabolic path; g/2u²cos²θ coefficient।",
+      "চিহ্ন চেক: y, x, theta"
     ]
   },
   "subjects": [

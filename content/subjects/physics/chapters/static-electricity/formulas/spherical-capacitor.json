@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
         "note": "C=4πε₀ ab/(b−a)। C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}"
       }
     ],
@@ -65,8 +65,8 @@
     "trick": "C=4πε₀ ab/(b−a)। C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
     "steps": [
       "C=4πε₀ ab/(b−a)। C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
-      "কাজ: C=4πε₀ ab/(b−a)। C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
-      "চিহ্ন ঠিক আছে তো? a, b, C"
+      "মনে রাখো — C=4πε₀ ab/(b−a)। C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
+      "চিহ্ন চেক: a, b, C"
     ]
   },
   "subjects": [

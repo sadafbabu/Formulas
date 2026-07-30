@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "ax+by\\le c",
         "note": "≤ → origin side feasible (coefficients positive হলে)।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সীমাবদ্ধতা অসমতা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সীমাবদ্ধতা অসমতা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "ax+by\\le c"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "≤ → origin side feasible (coefficients positive হলে)।",
     "steps": [
       "≤ → origin side feasible (coefficients positive হলে)।",
-      "কাজ: ≤ → origin side feasible (coefficients positive হলে)।",
-      "চিহ্ন ঠিক আছে তো? a, x, b"
+      "মনে রাখো — ≤ → origin side feasible (coefficients positive হলে)।",
+      "চিহ্ন চেক: a, x, b"
     ]
   },
   "subjects": [

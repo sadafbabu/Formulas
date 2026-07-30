@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "[\\alpha]=\\frac{\\alpha}{l\\cdot c},\\quad\\mathrm{ee}=\\frac{[\\alpha]_{obs}}{[\\alpha]_{pure}}\\times100\\%",
         "note": "[α]=α/(l·c); ee অনুপাতে বিশুদ্ধতা।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আপেক্ষিক ঘূর্ণন এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "আপেক্ষিক ঘূর্ণন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "[\\alpha]=\\frac{\\alpha}{l\\cdot c},\\quad\\mathrm{ee}=\\frac{[\\alpha]_{obs}}{[\\alpha]_{pure}}\\times100\\%"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "[α]=α/(l·c); ee অনুপাতে বিশুদ্ধতা।",
     "steps": [
       "[α]=α/(l·c); ee অনুপাতে বিশুদ্ধতা।",
-      "কাজ: অপটিক্যাল অ্যাকটিভিটির পরিমাপ",
-      "চিহ্ন ঠিক আছে তো? alpha, l, c"
+      "মনে রাখো — অপটিক্যাল অ্যাকটিভিটির পরিমাপ",
+      "চিহ্ন চেক: alpha, l, c"
     ]
   },
   "subjects": [

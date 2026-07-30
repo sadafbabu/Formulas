@@ -33,7 +33,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\sin^{-1} x + \\cos^{-1} x = \\frac{\\pi}{2}, \\quad \\tan^{-1} x + \\cot^{-1} x = \\frac{\\pi}{2}",
         "note": "সহ-অনুপাতের যোগফল সর্বদা π/2: sin⁻¹x + cos⁻¹x = π/2 এবং tan⁻¹x + cot⁻¹x = π/2। 'সহ (co) মানে পরিপূরক' — নামেই সূত্র।"
       }
     ],

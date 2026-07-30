@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\ce{CH3CO-R + 3I2 + 4NaOH -> CHI3 + RCOONa + 3NaI + 2H2O}",
         "note": "Methyl ketone or CH₃CH(OH)− → yellow CHI₃ precipitate।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আয়োডোফর্ম পরীক্ষা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "আয়োডোফর্ম পরীক্ষা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\ce{CH3CO-R + 3I2 + 4NaOH -> CHI3 + RCOONa + 3NaI + 2H2O}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "Methyl ketone or CH₃CH(OH)− → yellow CHI₃ precipitate।",
     "steps": [
       "Methyl ketone or CH₃CH(OH)− → yellow CHI₃ precipitate।",
-      "কাজ: Methyl ketone or CH₃CH(OH)− → yellow CHI₃ precipitate।",
-      "চিহ্ন ঠিক আছে তো? ce, C, H"
+      "মনে রাখো — Methyl ketone or CH₃CH(OH)− → yellow CHI₃ precipitate।",
+      "চিহ্ন চেক: ce, C, H"
     ]
   },
   "subjects": [

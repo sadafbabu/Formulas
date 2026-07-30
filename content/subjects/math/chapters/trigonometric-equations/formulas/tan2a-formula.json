@@ -30,7 +30,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}",
         "note": "ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।"
       }
     ],
@@ -39,7 +39,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "tan ২A এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "tan ২A লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}"
     },
     {
@@ -52,8 +52,8 @@
     "trick": "ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।",
     "steps": [
       "ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।",
-      "কাজ: ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।",
-      "চিহ্ন ঠিক আছে তো? A"
+      "মনে রাখো — ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।",
+      "চিহ্ন চেক: A"
     ]
   },
   "subjects": [

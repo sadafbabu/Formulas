@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}",
         "note": "HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "হারমোনিক ধারা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "হারমোনিক ধারা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।",
     "steps": [
       "HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।",
-      "কাজ: HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।",
-      "চিহ্ন ঠিক আছে তো? a, b, c"
+      "মনে রাখো — HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।",
+      "চিহ্ন চেক: a, b, c"
     ]
   },
   "subjects": [

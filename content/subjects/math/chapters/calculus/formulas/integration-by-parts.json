@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\int u\\,dv=uv-\\int v\\,du",
         "note": "LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u।"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u।",
     "steps": [
       "LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u।",
-      "কাজ: LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u।",
-      "চিহ্ন ঠিক আছে তো? int, u, d"
+      "মনে রাখো — LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u।",
+      "চিহ্ন চেক: int, u, d"
     ]
   },
   "subjects": [

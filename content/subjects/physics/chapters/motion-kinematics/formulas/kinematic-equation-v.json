@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "v=u+at",
         "note": "বেগ বাড়ে সময় দিয়ে: v = u + at — ‘আদি + ত্বরণ×সময়’।"
       }
     ],

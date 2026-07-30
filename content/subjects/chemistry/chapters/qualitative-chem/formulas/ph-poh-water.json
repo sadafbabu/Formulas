@@ -49,7 +49,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathrm{pH}=-\\log[H^+],\\quad \\mathrm{pOH}=-\\log[OH^-],\\quad K_w=[H^+][OH^-]=10^{-14},\\quad \\mathrm{pH}+\\mathrm{pOH}=14",
         "note": "pH + pOH = 14 (25°C তে)। pH < 7 অম্ল, pH = 7 প্রশম, pH > 7 ক্ষার। পানির K_w = 10⁻¹⁴।"
       }
     ],
@@ -68,8 +68,8 @@
     "trick": "pH + pOH = 14 (25°C তে)। pH < 7 অম্ল, pH = 7 প্রশম, pH > 7 ক্ষার। পানির K_w = 10⁻¹⁴।",
     "steps": [
       "pH + pOH = 14 (25°C তে)। pH < 7 অম্ল, pH = 7 প্রশম, pH > 7 ক্ষার। পানির K_w = 10⁻¹⁴।",
-      "কাজ: অম্ল-ক্ষার মাত্রা পরিমাপ, পানির আয়নীকরণ ধ্রুবক ও সম্পর্ক",
-      "চিহ্ন ঠিক আছে তো? \\mathrm{pH}, \\mathrm{pOH}, K_w"
+      "মনে রাখো — অম্ল-ক্ষার মাত্রা পরিমাপ, পানির আয়নীকরণ ধ্রুবক ও সম্পর্ক",
+      "চিহ্ন চেক: \\mathrm{pH}, \\mathrm{pOH}, K_w"
     ]
   }
 }

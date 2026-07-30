@@ -52,7 +52,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "f = \\frac{|q| B}{2\\pi m}",
         "note": "f = qB/(2πm) — বেগ নেই! এটাই সাইক্লোট্রনের জাদু: কণা যত দ্রুত হোক, একবার ঘুরতে সময় একই লাগে।"
       }
     ],

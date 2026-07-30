@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "s=ut+\\tfrac12 at^2",
         "note": "সরণ = আদি×সময় + অর্ধেক ত্বরণ×সময়² — ‘ut + ½at²’ গান করে মনে রাখো।"
       }
     ],

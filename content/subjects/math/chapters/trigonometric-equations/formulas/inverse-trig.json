@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2}, \\quad \\tan^{-1}x + \\tan^{-1}y = \\tan^{-1}\\frac{x+y}{1-xy} \\text{ (xy<1)}",
         "note": "পরিপূরক জোড়: sin⁻¹x + cos⁻¹x = π/2, tan⁻¹x + cot⁻¹x = π/2, sec⁻¹x + cosec⁻¹x = π/2 — তিন জোড়ারই যোগফল π/2। আর tan⁻¹x +"
       }
     ],

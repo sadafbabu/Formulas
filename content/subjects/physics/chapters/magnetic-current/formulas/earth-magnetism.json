@@ -51,7 +51,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "B_H = B \\cos \\delta, \\quad B_V = B \\sin \\delta, \\quad \\tan \\delta = \\frac{B_V}{B_H}",
         "note": "B-এর দুই উপাংশ: অনুভূমিক B_H = B cosδ, উল্লম্ব B_V = B sinδ। 'কোসাইন শোয়া (অনুভূমিক), সাইন খাড়া (উল্লম্ব)'।"
       }
     ],

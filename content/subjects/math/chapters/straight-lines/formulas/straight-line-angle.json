@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\tan\\theta = \\left| \\frac{m_1 - m_2}{1 + m_1 m_2} \\right|, \\quad m_1 m_2 = -1 \\text{ (Perpendicular)}, \\quad m_1 = m_2 \\text{ (Parallel)}",
         "note": "tanθ = |(m₁ − m₂)/(1 + m₁m₂)| — 'উপরে বিয়োগ, নিচে যোগ'। লম্ব হলে হর শূন্য (m₁m₂ = −1), সমান্তরাল হলে লব শূন্য (m₁ = m₂)"
       }
     ],

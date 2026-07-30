@@ -43,7 +43,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "2\\sin A\\cos B = \\sin(A+B)+\\sin(A-B), \\quad \\sin C + \\sin D = 2\\sin\\tfrac{C+D}{2}\\cos\\tfrac{C-D}{2}",
         "note": "গুণফল→যোগফলে '2' সামনে বসে: 2sinAcosB = sin(A+B) + sin(A−B)। যোগফল→গুণফলে অর্ধেক কোণ আসে: sinC + sinD = 2 sin[(C+D)/2] c"
       }
     ],

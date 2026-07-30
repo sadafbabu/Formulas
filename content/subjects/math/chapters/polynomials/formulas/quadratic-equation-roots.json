@@ -55,7 +55,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}, \\quad \\alpha + \\beta = -\\frac{b}{a}, \\quad \\alpha \\beta = \\frac{c}{a}, \\quad D = b^2 - 4ac",
         "note": "x = (-b ± √(b²-4ac))/2a — ঋণাত্মক b, বর্গমূল বিচ্ছিন্নকারক, 2a ভাজক।"
       }
     ],

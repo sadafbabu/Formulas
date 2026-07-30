@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\overline{\\mathcal E}=-N\\frac{\\Delta\\Phi}{\\Delta t},\\quad \\mathcal E=-N\\frac{d\\Phi}{dt};\\quad A,\\theta\\ \\text{ধ্রুব হলে }\\mathcal E=-NA\\cos\\theta\\frac{dB}{dt}",
         "note": "ε = −N dΦ/dt — ঋণাত্মক চিহ্নই লেঞ্জের সূত্র: 'আবিষ্ট প্রবাহ পরিবর্তনকে বাধা দেয়'। ফ্লাক্স স্থির থাকলে যত বড়ই হোক, emf "
       }
     ],

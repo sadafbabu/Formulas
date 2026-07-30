@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{Atom economy}=\\frac{\\text{mass of desired product}}{\\text{mass of all reactants}}\\times100\\%",
         "note": "কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।"
       }
     ],
@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সবুজ রসায়ন এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সবুজ রসায়ন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\text{Atom economy}=\\frac{\\text{mass of desired product}}{\\text{mass of all reactants}}\\times100\\%"
     },
     {
@@ -63,8 +63,8 @@
     "trick": "কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।",
     "steps": [
       "কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।",
-      "কাজ: কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।",
-      "চিহ্ন ঠিক আছে তো? Atom economy, mass of desired product, mass of all reactants"
+      "মনে রাখো — কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।",
+      "চিহ্ন চেক: Atom economy, mass of desired product, mass of all reactants"
     ]
   },
   "subjects": [

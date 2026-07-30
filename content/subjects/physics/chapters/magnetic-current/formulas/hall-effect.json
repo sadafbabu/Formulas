@@ -62,7 +62,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "V_H = \\frac{I B}{n q d}",
         "note": "V_H = IB/(nqd) — 'উপরে IB, নিচে nqd'। হল বিভবের চিহ্ন থেকেই বোঝা যায় আধানবাহক ধনাত্মক না ঋণাত্মক।"
       }
     ],

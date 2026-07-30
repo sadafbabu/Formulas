@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathrm{pH}=pK_a+\\log\\frac{[A^-]}{[HA]},\\quad \\mathrm{pOH}=pK_b+\\log\\frac{[B^+]}{[BOH]},\\quad \\mathrm{pH}+\\mathrm{pOH}=14",
         "note": "pH = pKa + log([লবণ]/[অম্ল]) — সমান হলে pH = pKa। লবণ বাড়লে pH বাড়ে।"
       }
     ],
@@ -65,8 +65,8 @@
     "trick": "pH = pKa + log([লবণ]/[অম্ল]) — সমান হলে pH = pKa। লবণ বাড়লে pH বাড়ে।",
     "steps": [
       "pH = pKa + log([লবণ]/[অম্ল]) — সমান হলে pH = pKa। লবণ বাড়লে pH বাড়ে।",
-      "কাজ: বাফার দ্রবণের pH নির্ণয়ের Henderson-Hasselbalch সমীকরণ",
-      "চিহ্ন ঠিক আছে তো? \\text{pH}, K_a, [A^-]"
+      "মনে রাখো — বাফার দ্রবণের pH নির্ণয়ের Henderson-Hasselbalch সমীকরণ",
+      "চিহ্ন চেক: \\text{pH}, K_a, [A^-]"
     ]
   },
   "subjects": [

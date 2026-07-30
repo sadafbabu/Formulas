@@ -57,7 +57,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "B = \\mu_0 (H + M) = \\mu H, \\quad \\mu_r = 1 + \\chi_m",
         "note": "B = μ₀(H + M) — 'মোট = বাইরের + ভিতরের'। H বাইরের প্রয়োগ, M পদার্থের সাড়া। আর μ_r = 1 + χ_m।"
       }
     ],

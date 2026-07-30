@@ -44,7 +44,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac{1}{C_s} = \\sum \\frac{1}{C_i}, \\quad C_p = \\sum C_i, \\quad u = \\frac{1}{2}\\varepsilon_0 E^2",
         "note": "ধারকের সংযোজন রোধের উল্টো! শ্রেণীতে বিপরীতের যোগ (1/C_s = Σ1/C), সমান্তরালে সরল যোগ (C_p = ΣC)। 'রোধে যা শ্রেণী, ধারকে ত"
       }
     ],

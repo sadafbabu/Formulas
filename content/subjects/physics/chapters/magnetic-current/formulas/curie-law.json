@@ -52,7 +52,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\chi_m=\\frac CT,\\quad M=\\chi_mH=\\frac{CH}{T}",
         "note": "χ = C/T — 'তাপ বাড়লে চুম্বকত্ব কমে'। গরমে অণুগুলো এলোমেলো হয়ে যায়, তাই সাজানো কমে যায়।"
       }
     ],

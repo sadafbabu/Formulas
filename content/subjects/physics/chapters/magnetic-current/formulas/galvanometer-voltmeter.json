@@ -51,7 +51,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "R = \\frac{V}{I_g} - G",
         "note": "ভোল্টমিটার = শ্রেণীতে বড় রোধ। R = V/I_g − G — 'মোট রোধ থেকে গ্যালভানোমিটারের রোধ বাদ'।"
       }
     ],

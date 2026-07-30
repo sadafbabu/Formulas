@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac{x}{m}=k P^{1/n}\\quad(n>1)",
         "note": "log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।"
       }
     ],
@@ -68,8 +68,8 @@
     "trick": "log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।",
     "steps": [
       "log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।",
-      "কাজ: log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।",
-      "চিহ্ন ঠিক আছে তো? x, m, k"
+      "মনে রাখো — log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।",
+      "চিহ্ন চেক: x, m, k"
     ]
   },
   "subjects": [

@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "[\\vec a\\,\\vec b\\,\\vec c]=\\vec a\\cdot(\\vec b\\times\\vec c)=\\begin{vmatrix}a_x&a_y&a_z\\\\b_x&b_y&b_z\\\\c_x&c_y&c_z\\end{vmatrix}",
         "note": "আয়তন = |[a b c]|; সমতলীয় হলে ০।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্কালার ত্রিগুণফল এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "স্কালার ত্রিগুণফল লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "[\\vec a\\,\\vec b\\,\\vec c]=\\vec a\\cdot(\\vec b\\times\\vec c)=\\begin{vmatrix}a_x&a_y&a_z\\\\b_x&b_y&b_z\\\\c_x&c_y&c_z\\end{vmatrix}"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "আয়তন = |[a b c]|; সমতলীয় হলে ০।",
     "steps": [
       "আয়তন = |[a b c]|; সমতলীয় হলে ০।",
-      "কাজ: আয়তন = |[a b c]|; সমতলীয় হলে ০।",
-      "চিহ্ন ঠিক আছে তো? vec, a, b"
+      "মনে রাখো — আয়তন = |[a b c]|; সমতলীয় হলে ০।",
+      "চিহ্ন চেক: vec, a, b"
     ]
   },
   "subjects": [

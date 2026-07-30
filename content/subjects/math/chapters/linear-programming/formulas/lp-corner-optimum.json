@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{optimal }Z\\text{ occurs at a corner of the feasible region}",
         "note": "সব কোণে Z হিসাব করে বড়/ছোট নাও।"
       }
     ],
@@ -62,8 +62,8 @@
     "trick": "সব কোণে Z হিসাব করে বড়/ছোট নাও।",
     "steps": [
       "সব কোণে Z হিসাব করে বড়/ছোট নাও।",
-      "কাজ: সব কোণে Z হিসাব করে বড়/ছোট নাও।",
-      "চিহ্ন ঠিক আছে তো? optimal, Z, occurs at a corner of the feasible region"
+      "মনে রাখো — সব কোণে Z হিসাব করে বড়/ছোট নাও।",
+      "চিহ্ন চেক: optimal, Z, occurs at a corner of the feasible region"
     ]
   },
   "subjects": [

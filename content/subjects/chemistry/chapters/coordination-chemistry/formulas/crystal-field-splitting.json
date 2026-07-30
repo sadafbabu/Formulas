@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\Delta_0=\\text{energy gap between }e_g\\text{ and }t_{2g}",
         "note": "Octahedral: eg vs t2g; color from d-d transition।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্রিস্টাল ক্ষেত্র বিভাজন এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ক্রিস্টাল ক্ষেত্র বিভাজন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\Delta_0=\\text{energy gap between }e_g\\text{ and }t_{2g}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "Octahedral: eg vs t2g; color from d-d transition।",
     "steps": [
       "Octahedral: eg vs t2g; color from d-d transition।",
-      "কাজ: Octahedral: eg vs t2g; color from d-d transition।",
-      "চিহ্ন ঠিক আছে তো? Delta, energy gap between, e"
+      "মনে রাখো — Octahedral: eg vs t2g; color from d-d transition।",
+      "চিহ্ন চেক: Delta, energy gap between, e"
     ]
   },
   "subjects": [

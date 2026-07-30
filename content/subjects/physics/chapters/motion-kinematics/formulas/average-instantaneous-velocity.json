@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "v_{\\text{avg}}=\\frac{\\Delta x}{\\Delta t},\\quad v=\\lim_{\\Delta t\\to0}\\frac{\\Delta x}{\\Delta t}",
         "note": "গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গড় ও তাৎক্ষণিক বেগ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "গড় ও তাৎক্ষণিক বেগ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "v_{\\text{avg}}=\\frac{\\Delta x}{\\Delta t},\\quad v=\\lim_{\\Delta t\\to0}\\frac{\\Delta x}{\\Delta t}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।",
     "steps": [
       "গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।",
-      "কাজ: গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।",
-      "চিহ্ন ঠিক আছে তো? v, a, g"
+      "মনে রাখো — গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।",
+      "চিহ্ন চেক: v, a, g"
     ]
   },
   "subjects": [

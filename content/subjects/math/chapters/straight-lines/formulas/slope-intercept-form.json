@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "y=mx+c",
         "note": "m=slope, c=y-intercept; quick graphing।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ঢাল-ছেদ রূপ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ঢাল-ছেদ রূপ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "y=mx+c"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "m=slope, c=y-intercept; quick graphing।",
     "steps": [
       "m=slope, c=y-intercept; quick graphing।",
-      "কাজ: m=slope, c=y-intercept; quick graphing।",
-      "চিহ্ন ঠিক আছে তো? y, m, x"
+      "মনে রাখো — m=slope, c=y-intercept; quick graphing।",
+      "চিহ্ন চেক: y, m, x"
     ]
   },
   "subjects": [

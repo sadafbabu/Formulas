@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathrm{IE}\\uparrow\\text{ across period};\\quad \\mathrm{IE}\\downarrow\\text{ down group}",
         "note": "নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।"
       }
     ],
@@ -68,8 +68,8 @@
     "trick": "নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।",
     "steps": [
       "নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।",
-      "কাজ: নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।",
-      "চিহ্ন ঠিক আছে তো? IE, uparrow, across period"
+      "মনে রাখো — নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।",
+      "চিহ্ন চেক: IE, uparrow, across period"
     ]
   },
   "subjects": [

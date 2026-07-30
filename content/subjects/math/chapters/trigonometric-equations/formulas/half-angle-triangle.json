@@ -67,8 +67,8 @@
     "trick": "Triangle half-angle-এ sin(A/2)-এর numerator-এ A-এর পাশ বাদ দিয়ে (s−b)(s−c); cos(A/2)-এ s(s−a)। আর tan(A/2)=r/(s−a)।",
     "steps": [
       "Triangle half-angle-এ sin(A/2)-এর numerator-এ A-এর পাশ বাদ দিয়ে (s−b)(s−c); cos(A/2)-এ s(s−a)। আর tan(A/2)…",
-      "কাজ: Side ও semiperimeter থেকে sin(A/2), cos(A/2), tan(A/2) এবং inradius relations।",
-      "চিহ্ন ঠিক আছে তো? s, r"
+      "মনে রাখো — Side ও semiperimeter থেকে sin(A/2), cos(A/2), tan(A/2) এবং inradius relations।",
+      "চিহ্ন চেক: s, r"
     ]
   }
 }

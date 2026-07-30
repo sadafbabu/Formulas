@@ -52,7 +52,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "T = 2\\pi \\sqrt{\\frac{I_{\\text{mom}}}{M B_H}}",
         "note": "T = 2π√(I/MB_H) — দোলকের T = 2π√(l/g)-এর মতোই ছাঁচ: উপরে জাড্য, নিচে ফেরানো প্রভাব।"
       }
     ],

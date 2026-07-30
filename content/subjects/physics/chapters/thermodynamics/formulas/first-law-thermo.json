@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\delta Q=dU+\\delta W,\\quad \\delta W=P_{\\mathrm{ext}}dV;\\quad \\text{quasistatic হলে }P_{\\mathrm{ext}}=P",
         "note": "dQ = dU + dW — 'দেওয়া তাপ = ভিতরে জমা + বাইরে কাজ'। এটি শক্তির নিত্যতা সূত্রেরই তাপীয় রূপ।"
       }
     ],

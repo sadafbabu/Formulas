@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "n=\\frac{m}{M}=\\frac{N}{N_A},\\quad N_A=6.022\\times10^{23}\\,\\mathrm{mol^{-1}}",
         "note": "n = m/M = N/N_A — তিন রাস্তায় মোল।"
       }
     ],
@@ -68,8 +68,8 @@
     "trick": "n = m/M = N/N_A — তিন রাস্তায় মোল।",
     "steps": [
       "n = m/M = N/N_A — তিন রাস্তায় মোল।",
-      "কাজ: মোল, কণা সংখ্যা ও মোলার ভর",
-      "চিহ্ন ঠিক আছে তো? n, m, M"
+      "মনে রাখো — মোল, কণা সংখ্যা ও মোলার ভর",
+      "চিহ্ন চেক: n, m, M"
     ]
   },
   "subjects": [

@@ -48,7 +48,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{enc}",
         "note": "অ্যাম্পিয়ার = চৌম্বকের গাউস। ∮B·dl = μ₀I_enc — 'যত প্রবাহ ঘেরা, তত রেখা যোগফল'।"
       }
     ],

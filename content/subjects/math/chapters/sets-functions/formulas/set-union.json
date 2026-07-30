@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "A\\cup B=\\{x:x\\in A\\text{ or }x\\in B\\}",
         "note": "∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সেটের যোগ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সেটের যোগ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "A\\cup B=\\{x:x\\in A\\text{ or }x\\in B\\}"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।",
     "steps": [
       "∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।",
-      "কাজ: ∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।",
-      "চিহ্ন ঠিক আছে তো? A, cup, B"
+      "মনে রাখো — ∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।",
+      "চিহ্ন চেক: A, cup, B"
     ]
   },
   "subjects": [

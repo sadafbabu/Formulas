@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b",
         "note": "প্রতিটি input-এ exactly এক output — MCQ-তে function test।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফাংশনের সংজ্ঞা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ফাংশনের সংজ্ঞা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "প্রতিটি input-এ exactly এক output — MCQ-তে function test।",
     "steps": [
       "প্রতিটি input-এ exactly এক output — MCQ-তে function test।",
-      "কাজ: প্রতিটি input-এ exactly এক output — MCQ-তে function test।",
-      "চিহ্ন ঠিক আছে তো? f, A, B"
+      "মনে রাখো — প্রতিটি input-এ exactly এক output — MCQ-তে function test।",
+      "চিহ্ন চেক: f, A, B"
     ]
   },
   "subjects": [

@@ -38,7 +38,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\vec{a}\\times(\\vec{b}\\times\\vec{c}) = \\vec{b}(\\vec{a}\\cdot\\vec{c}) - \\vec{c}(\\vec{a}\\cdot\\vec{b})",
         "note": "BAC মাইনাস CAB নিয়ম: a×(b×c) = b(a·c) − c(a·b)। মনে রাখুন 'ব্যাক-ক্যাব' (BAC − CAB) — মাঝেরটা আগে আসে।"
       }
     ],

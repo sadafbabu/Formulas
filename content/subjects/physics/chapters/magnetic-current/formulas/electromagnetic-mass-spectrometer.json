@@ -57,7 +57,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "m = \\frac{q B^2 r^2}{2 V}",
         "note": "m = qB²r²/(2V) — 'ভর মাপার যন্ত্র'। ভারী আয়ন বড় বৃত্ত আঁকে, তাই r দেখেই ভর বলা যায়।"
       }
     ],

@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "T_{r+1}=\\binom{n}{r}a^{n-r}b^r",
         "note": "(r+1)-তম পদ; r=0 থেকে শুরু। T_{r+1}=\\binom{n}{r}a^{n-r}b^r"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সাধারণ পদের অবস্থান এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সাধারণ পদের অবস্থান লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "T_{r+1}=\\binom{n}{r}a^{n-r}b^r"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "(r+1)-তম পদ; r=0 থেকে শুরু। T_{r+1}=\\binom{n}{r}a^{n-r}b^r",
     "steps": [
       "(r+1)-তম পদ; r=0 থেকে শুরু। T_{r+1}=\\binom{n}{r}a^{n-r}b^r",
-      "কাজ: (r+1)-তম পদ; r=0 থেকে শুরু। T_{r+1}=\\binom{n}{r}a^{n-r}b^r",
-      "চিহ্ন ঠিক আছে তো? T, r, binom"
+      "মনে রাখো — (r+1)-তম পদ; r=0 থেকে শুরু। T_{r+1}=\\binom{n}{r}a^{n-r}b^r",
+      "চিহ্ন চেক: T, r, binom"
     ]
   },
   "subjects": [

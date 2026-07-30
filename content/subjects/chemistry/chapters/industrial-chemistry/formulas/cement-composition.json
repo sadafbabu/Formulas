@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
         "note": "জলযোগে সেটিং — হাইড্রেশন। \\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পোর্টল্যান্ড সিমেন্ট এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "পোর্টল্যান্ড সিমেন্ট লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "জলযোগে সেটিং — হাইড্রেশন। \\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
     "steps": [
       "জলযোগে সেটিং — হাইড্রেশন। \\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
-      "কাজ: জলযোগে সেটিং — হাইড্রেশন। \\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
-      "চিহ্ন ঠিক আছে তো? main:, CaO, SiO_2"
+      "মনে রাখো — জলযোগে সেটিং — হাইড্রেশন। \\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
+      "চিহ্ন চেক: main:, CaO, SiO_2"
     ]
   },
   "subjects": [

@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "P(n,r)=\\frac{n!}{(n-r)!}",
         "note": "Order matters → nPr; n!/(n−r)!।"
       }
     ],
@@ -62,8 +62,8 @@
     "trick": "Order matters → nPr; n!/(n−r)!।",
     "steps": [
       "Order matters → nPr; n!/(n−r)!।",
-      "কাজ: Order matters → nPr; n!/(n−r)!।",
-      "চিহ্ন ঠিক আছে তো? P, n, r"
+      "মনে রাখো — Order matters → nPr; n!/(n−r)!।",
+      "চিহ্ন চেক: P, n, r"
     ]
   },
   "subjects": [

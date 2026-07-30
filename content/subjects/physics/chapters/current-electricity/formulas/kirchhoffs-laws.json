@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\sum I = 0 \\quad (\\text{KCL}), \\quad \\sum E = \\sum I R \\quad (\\text{KVL})",
         "note": "দুই সূত্র = দুই নিত্যতা। KCL (ΣI = 0) হলো আধানের নিত্যতা — 'যত ঢোকে, তত বেরোয়'। KVL (ΣE = ΣIR) হলো শক্তির নিত্যতা — 'বদ"
       }
     ],

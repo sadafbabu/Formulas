@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "v=\\sqrt{\\dfrac{T}{\\mu}},\\quad \\mu=\\dfrac{m}{L}",
         "note": "দড়িতে v=√(T/μ) — টান↑ দ্রুত, ভারী দড়ি ধীর।"
       }
     ],

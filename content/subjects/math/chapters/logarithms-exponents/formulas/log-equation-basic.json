@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
         "note": "লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)"
       }
     ],
@@ -62,8 +62,8 @@
     "trick": "লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
     "steps": [
       "লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
-      "কাজ: লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
-      "চিহ্ন ঠিক আছে তো? b, a, c"
+      "মনে রাখো — লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
+      "চিহ্ন চেক: b, a, c"
     ]
   },
   "subjects": [

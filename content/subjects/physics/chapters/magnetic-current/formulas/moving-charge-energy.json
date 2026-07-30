@@ -57,7 +57,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "E_k = \\frac{1}{2} m v^2 = \\frac{q^2 B^2 r^2}{2m}",
         "note": "E = q²B²r²/(2m) — r = mv/(qB) থেকে v বের করে ½mv²-এ বসালেই আসে। উপরে সব বর্গ (q², B², r²), নিচে 2m।"
       }
     ],

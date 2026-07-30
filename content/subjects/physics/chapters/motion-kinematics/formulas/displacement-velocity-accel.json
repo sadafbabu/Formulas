@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "v=\\dfrac{ds}{dt},\\quad a=\\dfrac{dv}{dt}=\\dfrac{d^2s}{dt^2}",
         "note": "সরণ→বেগ→ত্বরণ = একবার করে অবকলন: v=ds/dt, a=dv/dt।"
       }
     ],

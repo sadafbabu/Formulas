@@ -44,7 +44,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "FC = V - (L + \\tfrac{S}{2}), \\quad \\sum FC = Q_{total}",
         "note": "FC = V − (L + S/2): 'নিজের ইলেকট্রন − (একাকী জোড় + শেয়ারের অর্ধেক)'। সব পরমাণুর FC যোগ করলে অণুর মোট আধান পাওয়া যায় "
       }
     ],

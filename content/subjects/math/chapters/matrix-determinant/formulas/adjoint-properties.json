@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
         "note": "A·adjA = (detA)I। A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অ্যাডজয়েন্টের ধর্ম এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "অ্যাডজয়েন্টের ধর্ম লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "A·adjA = (detA)I। A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
     "steps": [
       "A·adjA = (detA)I। A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
-      "কাজ: A·adjA = (detA)I। A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
-      "চিহ্ন ঠিক আছে তো? A, adj, det"
+      "মনে রাখো — A·adjA = (detA)I। A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
+      "চিহ্ন চেক: A, adj, det"
     ]
   },
   "subjects": [

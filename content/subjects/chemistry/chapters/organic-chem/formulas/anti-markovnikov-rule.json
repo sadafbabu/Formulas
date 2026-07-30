@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathrm{RCH=CH_2}+\\mathrm{HBr}\\xrightarrow{\\mathrm{ROOR}}\\mathrm{RCH_2CH_2Br}",
         "note": "পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।"
       }
     ],
@@ -68,8 +68,8 @@
     "trick": "পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।",
     "steps": [
       "পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।",
-      "কাজ: পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।",
-      "চিহ্ন ঠিক আছে তো? RCH=CH_2, HBr, xrightarrow"
+      "মনে রাখো — পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।",
+      "চিহ্ন চেক: RCH=CH_2, HBr, xrightarrow"
     ]
   },
   "subjects": [

@@ -36,7 +36,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\Delta H(T_2)=\\Delta H(T_1)+\\Delta C_p(T_2-T_1)",
         "note": "ΔH বদলাতে চাইলে ΔC_p×ΔT যোগ করো।"
       }
     ],
@@ -55,8 +55,8 @@
     "trick": "ΔH বদলাতে চাইলে ΔC_p×ΔT যোগ করো।",
     "steps": [
       "ΔH বদলাতে চাইলে ΔC_p×ΔT যোগ করো।",
-      "কাজ: ΔH(T₂)=ΔH(T₁)+ΔC_p (T₂−T₁)",
-      "চিহ্ন ঠিক আছে তো? \\Delta H, \\Delta C_p"
+      "মনে রাখো — ΔH(T₂)=ΔH(T₁)+ΔC_p (T₂−T₁)",
+      "চিহ্ন চেক: \\Delta H, \\Delta C_p"
     ]
   },
   "subjects": [

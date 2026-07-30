@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "x^2+y^2+2gx+2fy+c=0,\\quad \\text{centre }(-g,-f),\\ r=\\sqrt{g^2+f^2-c}",
         "note": "কেন্দ্র (−g,−f); r²=g²+f²−c>0 চাই।"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "কেন্দ্র (−g,−f); r²=g²+f²−c>0 চাই।",
     "steps": [
       "কেন্দ্র (−g,−f); r²=g²+f²−c>0 চাই।",
-      "কাজ: কেন্দ্র (−g,−f); r²=g²+f²−c>0 চাই।",
-      "চিহ্ন ঠিক আছে তো? x, y, g"
+      "মনে রাখো — কেন্দ্র (−g,−f); r²=g²+f²−c>0 চাই।",
+      "চিহ্ন চেক: x, y, g"
     ]
   },
   "subjects": [

@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathrm{I^-}<\\mathrm{Br^-}<\\mathrm{Cl^-}<\\mathrm{F^-}<\\mathrm{OH^-}<\\mathrm{H_2O}<\\mathrm{NH_3}<\\mathrm{en}<\\mathrm{CN^-}",
         "note": "CN⁻ শক্তিশালী ক্ষেত্র লিগ্যান্ড।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বর্ণালি রাসায়নিক শ্রেণি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "বর্ণালি রাসায়নিক শ্রেণি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\mathrm{I^-}<\\mathrm{Br^-}<\\mathrm{Cl^-}<\\mathrm{F^-}<\\mathrm{OH^-}<\\mathrm{H_2O}<\\mathrm{NH_3}<\\mathrm{en}<\\mathrm{CN^-}"
     },
     {
@@ -65,11 +65,11 @@
     }
   ],
   "memorize": {
-    "trick": "CN⁻ শক্তিশালী ক্ষেত্র লিগ্যান্ড।",
+    "trick": "CN⁻ শক্তিশালী ক্ষেত্র লিগ্যান্ড। — বর্ণালি রাসায়নিক শ্রেণি মনে রাখার চাবিকাঠি।",
     "steps": [
       "CN⁻ শক্তিশালী ক্ষেত্র লিগ্যান্ড।",
-      "কাজ: CN⁻ শক্তিশালী ক্ষেত্র লিগ্যান্ড।",
-      "চিহ্ন ঠিক আছে তো? I^-, Br^-, Cl^-"
+      "মনে রাখো — CN⁻ শক্তিশালী ক্ষেত্র লিগ্যান্ড।",
+      "চিহ্ন চেক: I^-, Br^-, Cl^-"
     ]
   },
   "subjects": [

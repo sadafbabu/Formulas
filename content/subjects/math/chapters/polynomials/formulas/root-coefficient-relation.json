@@ -58,7 +58,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "x_1+x_2+x_3 = -\\frac{b}{a}, \\quad \\sum x_i x_j = \\frac{c}{a}, \\quad x_1 x_2 x_3 = -\\frac{d}{a}",
         "note": "ভিয়েতার চিহ্ন পাল্টাপাল্টি: যোগফল = −b/a, জোড়ায় গুণফলের যোগ = +c/a, তিনের গুণফল = −d/a। 'বিজোড়ে ঋণাত্মক, জোড়ে ধনাত্"
       }
     ],

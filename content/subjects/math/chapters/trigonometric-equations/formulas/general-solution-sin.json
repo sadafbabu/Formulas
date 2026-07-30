@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k",
         "note": "Principal α first; then nπ+(−1)ⁿα pattern।"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "Principal α first; then nπ+(−1)ⁿα pattern।",
     "steps": [
       "Principal α first; then nπ+(−1)ⁿα pattern।",
-      "কাজ: Principal α first; then nπ+(−1)ⁿα pattern।",
-      "চিহ্ন ঠিক আছে তো? theta, n, pi"
+      "মনে রাখো — Principal α first; then nπ+(−1)ⁿα pattern।",
+      "চিহ্ন চেক: theta, n, pi"
     ]
   },
   "subjects": [

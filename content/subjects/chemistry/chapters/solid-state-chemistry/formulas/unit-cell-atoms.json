@@ -36,7 +36,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "Z=\\text{contribution from all corner/face/edge atoms}",
         "note": "Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।"
       }
     ],
@@ -58,8 +58,8 @@
     "trick": "Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।",
     "steps": [
       "Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।",
-      "কাজ: Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।",
-      "চিহ্ন ঠিক আছে তো? Z, contribution from all corner/face/edge atoms"
+      "মনে রাখো — Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।",
+      "চিহ্ন চেক: Z, contribution from all corner/face/edge atoms"
     ]
   },
   "subjects": [

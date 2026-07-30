@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "(A\\cup B)'=A'\\cap B'\\quad;(A\\cap B)'=A'\\cup B'",
         "note": "Union↔Intersection উল্টো; complement বাইরে।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ডি মরগানের সূত্র (সেট) এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ডি মরগানের সূত্র (সেট) লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "(A\\cup B)'=A'\\cap B'\\quad;(A\\cap B)'=A'\\cup B'"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "Union↔Intersection উল্টো; complement বাইরে।",
     "steps": [
       "Union↔Intersection উল্টো; complement বাইরে।",
-      "কাজ: Union↔Intersection উল্টো; complement বাইরে।",
-      "চিহ্ন ঠিক আছে তো? A, cup, B"
+      "মনে রাখো — Union↔Intersection উল্টো; complement বাইরে।",
+      "চিহ্ন চেক: A, cup, B"
     ]
   },
   "subjects": [

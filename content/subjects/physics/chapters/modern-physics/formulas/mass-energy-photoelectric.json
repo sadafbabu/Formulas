@@ -56,7 +56,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "E_\\gamma=hf=K_{\\max}+W_0,\\quad K_{\\max}=eV_0,\\quad E_0=mc^2",
         "note": "hf = W₀ + K_max — 'ফোটনের শক্তি = দরজা খোলার খরচ + বাকি গতিশক্তি'। কম্পাঙ্ক কম হলে (f < f₀) যত তীব্র আলোই হোক ইলেকট্রন ব"
       }
     ],

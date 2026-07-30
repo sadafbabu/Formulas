@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\vec g=-\\frac{GM}{r^2}\\hat r,\\quad\\vec F=m\\vec g,\\quad g=-\\frac{dV}{dr}",
         "note": "g = F/m; V এর ঋণাত্মক ঢাল = g।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মহাকর্ষ ক্ষেত্র প্রাবল্য এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "মহাকর্ষ ক্ষেত্র প্রাবল্য লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\vec g=-\\frac{GM}{r^2}\\hat r,\\quad\\vec F=m\\vec g,\\quad g=-\\frac{dV}{dr}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "g = F/m; V এর ঋণাত্মক ঢাল = g।",
     "steps": [
       "g = F/m; V এর ঋণাত্মক ঢাল = g।",
-      "কাজ: মহাকর্ষ ক্ষেত্র ও বিভবের সম্পর্ক",
-      "চিহ্ন ঠিক আছে তো? g, G, M"
+      "মনে রাখো — মহাকর্ষ ক্ষেত্র ও বিভবের সম্পর্ক",
+      "চিহ্ন চেক: g, G, M"
     ]
   },
   "subjects": [

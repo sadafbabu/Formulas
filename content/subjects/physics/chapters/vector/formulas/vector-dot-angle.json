@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathbf{A} \\cdot \\mathbf{B} = |\\mathbf{A}||\\mathbf{B}| \\cos\\theta = A_x B_x + A_y B_y + A_z B_z, \\quad \\cos\\theta = \\frac{A_x B_x + A_y B_y + A_z B_z}{|\\mathbf{A}||\\mathbf{B}|}",
         "note": "cosθ = (A·B)/(|A||B|) — দুই ভেক্টরের মধ্যবর্তী কোণ বের করার একমাত্র সূত্র। উপরে ডট গুণফল, নিচে মানের গুণফল।"
       }
     ],

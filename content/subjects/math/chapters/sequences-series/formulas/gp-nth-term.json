@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "a_n=ar^{n-1}",
         "note": "প্রথম a, সাধারণ অনুপাত r। a_n=ar^{n-1}"
       }
     ],
@@ -62,8 +62,8 @@
     "trick": "প্রথম a, সাধারণ অনুপাত r। a_n=ar^{n-1}",
     "steps": [
       "প্রথম a, সাধারণ অনুপাত r। a_n=ar^{n-1}",
-      "কাজ: প্রথম a, সাধারণ অনুপাত r। a_n=ar^{n-1}",
-      "চিহ্ন ঠিক আছে তো? a, n, r"
+      "মনে রাখো — প্রথম a, সাধারণ অনুপাত r। a_n=ar^{n-1}",
+      "চিহ্ন চেক: a, n, r"
     ]
   },
   "subjects": [

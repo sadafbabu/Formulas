@@ -51,7 +51,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{E1: two-step, carbocation intermediate, rate}=k[\\mathrm{RX}]",
         "note": "E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।"
       }
     ],
@@ -60,7 +60,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "E1 বিলোপন এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "E1 বিলোপন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\text{E1: two-step, carbocation intermediate, rate}=k[\\mathrm{RX}]"
     },
     {
@@ -70,11 +70,11 @@
     }
   ],
   "memorize": {
-    "trick": "E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।",
+    "trick": "E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি। — E1 বিলোপন মনে রাখার চাবিকাঠি।",
     "steps": [
       "E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।",
-      "কাজ: E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।",
-      "চিহ্ন ঠিক আছে তো? E1: two-step, carbocation intermediate, rate"
+      "মনে রাখো — E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।",
+      "চিহ্ন চেক: E1: two-step, carbocation intermediate, rate"
     ]
   },
   "subjects": [

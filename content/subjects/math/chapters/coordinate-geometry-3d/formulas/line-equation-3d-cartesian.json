@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac{x-x_1}{a}=\\frac{y-y_1}{b}=\\frac{z-z_1}{c}",
         "note": "DR (a,b,c) এবং বিন্দু (x₁,y₁,z₁)।"
       }
     ],
@@ -64,11 +64,11 @@
     }
   ],
   "memorize": {
-    "trick": "DR (a,b,c) এবং বিন্দু (x₁,y₁,z₁)।",
+    "trick": "DR (a,b,c) এবং বিন্দু (x₁,y₁,z₁)। — রেখার কার্টেসীয় রূপ মনে রাখার চাবিকাঠি।",
     "steps": [
       "DR (a,b,c) এবং বিন্দু (x₁,y₁,z₁)।",
-      "কাজ: DR (a,b,c) এবং বিন্দু (x₁,y₁,z₁)।",
-      "চিহ্ন ঠিক আছে তো? x, a, y"
+      "মনে রাখো — DR (a,b,c) এবং বিন্দু (x₁,y₁,z₁)।",
+      "চিহ্ন চেক: x, a, y"
     ]
   },
   "subjects": [

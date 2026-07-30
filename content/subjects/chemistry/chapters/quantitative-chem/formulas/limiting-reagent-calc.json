@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{limiting}=\\min\\left(\\frac{n_i}{\\nu_i}\\right)",
         "note": "প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।"
       }
     ],
@@ -68,8 +68,8 @@
     "trick": "প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।",
     "steps": [
       "প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।",
-      "কাজ: প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।",
-      "চিহ্ন ঠিক আছে তো? limiting, n, i"
+      "মনে রাখো — প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।",
+      "চিহ্ন চেক: limiting, n, i"
     ]
   },
   "subjects": [

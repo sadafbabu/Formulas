@@ -36,7 +36,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\%\\ \\mathrm{yield}=\\dfrac{\\text{actual mass}}{\\text{theoretical mass}}\\times 100",
         "note": "% yield = যা পেয়েছ / যা পাওয়ার কথা × 100।"
       }
     ],

@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
         "note": "কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "Ka·Kb=Kw এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "Ka·Kb=Kw লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
     "steps": [
       "কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
-      "কাজ: কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
-      "চিহ্ন ঠিক আছে তো? K, a, b"
+      "মনে রাখো — কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
+      "চিহ্ন চেক: K, a, b"
     ]
   },
   "subjects": [

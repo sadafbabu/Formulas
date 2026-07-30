@@ -38,7 +38,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "V_{out} = V_Z, \\quad I_Z = I_{in} - I_L, \\quad R_S = \\frac{V_{in} - V_Z}{I_{in}}",
         "note": "Voltage regulator হিসেবে Zener diode reverse-breakdown অঞ্চলে চালানো হয়; I_Z,min ≤ I_Z ≤ I_Z,max এবং power rating মানলে"
       }
     ],

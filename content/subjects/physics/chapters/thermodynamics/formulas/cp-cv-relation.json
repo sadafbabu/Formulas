@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "C_p - C_v = R, \\quad \\gamma = \\frac{C_p}{C_v}",
         "note": "C_p − C_v = R — 'মেয়ারের সম্পর্ক'। C_p সবসময় বড়, কারণ স্থির চাপে গ্যাসকে প্রসারিত হতে বাড়তি কাজও করতে হয়। γ = C_p/C"
       }
     ],

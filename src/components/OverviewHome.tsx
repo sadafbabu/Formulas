@@ -37,15 +37,25 @@ export function OverviewHome({
     )
   })
 
+  const scopedFormulas = useMemo(() => {
+    return formulas.filter((f) => {
+      const ch = getChapter(f.chapter)
+      if (!ch) return false
+      if (selectedSubject !== 'all' && ch.subjectId !== selectedSubject) return false
+      if (selectedPaper !== 'all' && ch.paperId !== selectedPaper) return false
+      return true
+    })
+  }, [selectedSubject, selectedPaper])
+
   const formulaHits = useMemo(() => {
     if (!q) return []
-    return searchFormulas(formulas, query, null, 24).map((r) => r.formula)
-  }, [q, query])
+    return searchFormulas(scopedFormulas, query, null, 24).map((r) => r.formula)
+  }, [q, query, scopedFormulas])
 
   const formulaHitTotal = useMemo(() => {
     if (!q) return 0
-    return formulas.filter((f) => matchFormula(f, query, null)).length
-  }, [q, query])
+    return scopedFormulas.filter((f) => matchFormula(f, query, null)).length
+  }, [q, query, scopedFormulas])
 
   return (
     <div className="overview-scroll">

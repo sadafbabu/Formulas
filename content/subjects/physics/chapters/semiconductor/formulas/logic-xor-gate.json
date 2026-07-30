@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "A\\oplus B=A\\overline{B}+\\overline{A}B",
         "note": "একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "XOR গেট এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "XOR গেট লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "A\\oplus B=A\\overline{B}+\\overline{A}B"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B",
     "steps": [
       "একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B",
-      "কাজ: একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B",
-      "চিহ্ন ঠিক আছে তো? A, oplus, B"
+      "মনে রাখো — একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B",
+      "চিহ্ন চেক: A, oplus, B"
     ]
   },
   "subjects": [

@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\int\\frac{1}{x}\\,dx=\\ln|x|+C",
         "note": "n=−1 ব্যতিক্রম → ln|x|। \\int\\frac{1}{x}\\,dx=\\ln|x|+C"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "n=−1 ব্যতিক্রম → ln|x|। \\int\\frac{1}{x}\\,dx=\\ln|x|+C",
     "steps": [
       "n=−1 ব্যতিক্রম → ln|x|। \\int\\frac{1}{x}\\,dx=\\ln|x|+C",
-      "কাজ: n=−1 ব্যতিক্রম → ln|x|। \\int\\frac{1}{x}\\,dx=\\ln|x|+C",
-      "চিহ্ন ঠিক আছে তো? int, x, d"
+      "মনে রাখো — n=−1 ব্যতিক্রম → ln|x|। \\int\\frac{1}{x}\\,dx=\\ln|x|+C",
+      "চিহ্ন চেক: int, x, d"
     ]
   },
   "subjects": [

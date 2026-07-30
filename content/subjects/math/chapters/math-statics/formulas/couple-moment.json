@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "M=F\\,d",
         "note": "দুই সমান বিপরীত বল; moment = F×distance between।"
       }
     ],
@@ -49,7 +49,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দম্পতি বলের ভ্রাম এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "দম্পতি বলের ভ্রাম লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "M=F\\,d"
     },
     {
@@ -62,8 +62,8 @@
     "trick": "দুই সমান বিপরীত বল; moment = F×distance between।",
     "steps": [
       "দুই সমান বিপরীত বল; moment = F×distance between।",
-      "কাজ: দুই সমান বিপরীত বল; moment = F×distance between।",
-      "চিহ্ন ঠিক আছে তো? M, F, d"
+      "মনে রাখো — দুই সমান বিপরীত বল; moment = F×distance between।",
+      "চিহ্ন চেক: M, F, d"
     ]
   },
   "subjects": [

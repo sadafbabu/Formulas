@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
         "note": "মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রোলের উপপাদ্য এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "রোলের উপপাদ্য লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
     "steps": [
       "মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
-      "কাজ: মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
-      "চিহ্ন ঠিক আছে তো? f, a, b"
+      "মনে রাখো — মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
+      "চিহ্ন চেক: f, a, b"
     ]
   },
   "subjects": [

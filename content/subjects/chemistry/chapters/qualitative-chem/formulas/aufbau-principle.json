@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{electrons fill orbitals in order of increasing energy (}n+\\ell\\text{ rule)}",
         "note": "n+ℓ ছোট আগে; সমান হলে ছোট n আগে।"
       }
     ],
@@ -68,8 +68,8 @@
     "trick": "n+ℓ ছোট আগে; সমান হলে ছোট n আগে।",
     "steps": [
       "n+ℓ ছোট আগে; সমান হলে ছোট n আগে।",
-      "কাজ: n+ℓ ছোট আগে; সমান হলে ছোট n আগে।",
-      "চিহ্ন ঠিক আছে তো? electrons fill orbitals in order of increasing energy (, n, ell"
+      "মনে রাখো — n+ℓ ছোট আগে; সমান হলে ছোট n আগে।",
+      "চিহ্ন চেক: electrons fill orbitals in order of increasing energy (, n, ell"
     ]
   },
   "subjects": [

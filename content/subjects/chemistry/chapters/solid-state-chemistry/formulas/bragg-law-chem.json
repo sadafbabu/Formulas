@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "n\\lambda=2d\\sin\\theta",
         "note": "X-ray দিয়ে d নির্ণয়। n\\lambda=2d\\sin\\theta"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ব্র্যাগের সূত্র এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ব্র্যাগের সূত্র লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "n\\lambda=2d\\sin\\theta"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "X-ray দিয়ে d নির্ণয়। n\\lambda=2d\\sin\\theta",
     "steps": [
       "X-ray দিয়ে d নির্ণয়। n\\lambda=2d\\sin\\theta",
-      "কাজ: X-ray দিয়ে d নির্ণয়। n\\lambda=2d\\sin\\theta",
-      "চিহ্ন ঠিক আছে তো? n, lambda, d"
+      "মনে রাখো — X-ray দিয়ে d নির্ণয়। n\\lambda=2d\\sin\\theta",
+      "চিহ্ন চেক: n, lambda, d"
     ]
   },
   "subjects": [

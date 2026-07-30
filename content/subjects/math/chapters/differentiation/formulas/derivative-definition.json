@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
         "note": "ঢালের সীমা = অন্তরক। f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "ঢালের সীমা = অন্তরক। f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
     "steps": [
       "ঢালের সীমা = অন্তরক। f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
-      "কাজ: ঢালের সীমা = অন্তরক। f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
-      "চিহ্ন ঠিক আছে তো? f, x, lim"
+      "মনে রাখো — ঢালের সীমা = অন্তরক। f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
+      "চিহ্ন চেক: f, x, lim"
     ]
   },
   "subjects": [

@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\rho=\\frac{ZM}{N_A a^3}",
         "note": "Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}"
       }
     ],
@@ -68,8 +68,8 @@
     "trick": "Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}",
     "steps": [
       "Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}",
-      "কাজ: Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}",
-      "চিহ্ন ঠিক আছে তো? rho, Z, M"
+      "মনে রাখো — Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}",
+      "চিহ্ন চেক: rho, Z, M"
     ]
   },
   "subjects": [

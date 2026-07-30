@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "R=\\frac{u^2\\sin 2\\theta}{g}",
         "note": "45°-এ max range; R=u²sin2θ/g — HSC favorite।"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "45°-এ max range; R=u²sin2θ/g — HSC favorite।",
     "steps": [
       "45°-এ max range; R=u²sin2θ/g — HSC favorite।",
-      "কাজ: 45°-এ max range; R=u²sin2θ/g — HSC favorite।",
-      "চিহ্ন ঠিক আছে তো? R, u, theta"
+      "মনে রাখো — 45°-এ max range; R=u²sin2θ/g — HSC favorite।",
+      "চিহ্ন চেক: R, u, theta"
     ]
   },
   "subjects": [

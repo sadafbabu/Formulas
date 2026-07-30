@@ -31,7 +31,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{sulphide ore particles attach to froth; gangue sinks}",
         "note": "সালফাইড আকরিক নির্বাচনী ভাসান।"
       }
     ],
@@ -40,7 +40,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফেন ভাসান পদ্ধতি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ফেন ভাসান পদ্ধতি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\text{sulphide ore particles attach to froth; gangue sinks}"
     },
     {
@@ -50,11 +50,11 @@
     }
   ],
   "memorize": {
-    "trick": "সালফাইড আকরিক নির্বাচনী ভাসান।",
+    "trick": "সালফাইড আকরিক নির্বাচনী ভাসান। — ফেন ভাসান পদ্ধতি মনে রাখার চাবিকাঠি।",
     "steps": [
       "সালফাইড আকরিক নির্বাচনী ভাসান।",
-      "কাজ: সালফাইড আকরিক নির্বাচনী ভাসান।",
-      "চিহ্ন ঠিক আছে তো? sulphide ore particles attach to froth; gangue sinks"
+      "মনে রাখো — সালফাইড আকরিক নির্বাচনী ভাসান।",
+      "চিহ্ন চেক: sulphide ore particles attach to froth; gangue sinks"
     ]
   },
   "subjects": [

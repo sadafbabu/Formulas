@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathrm{pI}=\\dfrac{\\mathrm{p}K_{a1}+\\mathrm{p}K_{a2}}{2}",
         "note": "pI = দুই প্রাসঙ্গিক pKa-এর গড় — এখানে নেট চার্জ শূন্য।"
       }
     ],

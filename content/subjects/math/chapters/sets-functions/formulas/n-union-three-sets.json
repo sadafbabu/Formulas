@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
         "note": "যোগ − জোড় ছেদ + তিনের ছেদ। |A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "তিন সেটের অন্তর্ভুক্তি–বর্জন এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "তিন সেটের অন্তর্ভুক্তি–বর্জন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "যোগ − জোড় ছেদ + তিনের ছেদ। |A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
     "steps": [
       "যোগ − জোড় ছেদ + তিনের ছেদ। |A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
-      "কাজ: যোগ − জোড় ছেদ + তিনের ছেদ। |A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
-      "চিহ্ন ঠিক আছে তো? A, cup, B"
+      "মনে রাখো — যোগ − জোড় ছেদ + তিনের ছেদ। |A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
+      "চিহ্ন চেক: A, cup, B"
     ]
   },
   "subjects": [

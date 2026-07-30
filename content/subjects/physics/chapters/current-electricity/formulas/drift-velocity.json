@@ -44,7 +44,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "v_d = \\frac{I}{nAe}, \\quad J = \\frac{I}{A} = nev_d",
         "note": "v_d = I/(nAe) — অপবেগ খুব ছোট হলেও বৈদ্যুতিক সংকেত পরিবাহীর তড়িৎচৌম্বক পরিবেশে সাধারণত আলোর বেগের একটি উল্লেখযোগ্য ভগ্ন"
       }
     ],

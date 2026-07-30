@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y)",
         "note": "গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।"
       }
     ],
@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গুণ/ভাগে ত্রুটি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "গুণ/ভাগে ত্রুটি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y)"
     },
     {
@@ -63,8 +63,8 @@
     "trick": "গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।",
     "steps": [
       "গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।",
-      "কাজ: গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।",
-      "চিহ্ন ঠিক আছে তো? z, x, y"
+      "মনে রাখো — গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।",
+      "চিহ্ন চেক: z, x, y"
     ]
   },
   "subjects": [

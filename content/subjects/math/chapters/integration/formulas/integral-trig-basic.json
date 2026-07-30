@@ -35,7 +35,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
         "note": "অন্তরকের উল্টো দিক মনে রাখো। \\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x"
       }
     ],
@@ -57,8 +57,8 @@
     "trick": "অন্তরকের উল্টো দিক মনে রাখো। \\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
     "steps": [
       "অন্তরকের উল্টো দিক মনে রাখো। \\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
-      "কাজ: অন্তরকের উল্টো দিক মনে রাখো। \\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
-      "চিহ্ন ঠিক আছে তো? int, x"
+      "মনে রাখো — অন্তরকের উল্টো দিক মনে রাখো। \\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
+      "চিহ্ন চেক: int, x"
     ]
   },
   "subjects": [

@@ -51,7 +51,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathbf{A} \\times \\mathbf{B} = |\\mathbf{A}||\\mathbf{B}| \\sin\\theta \\,\\hat{n}, \\quad \\text{Area} = |\\mathbf{A} \\times \\mathbf{B}|",
         "note": "|A×B| = AB sinθ = সামান্তরিকের ক্ষেত্রফল; ত্রিভুজের জন্য অর্ধেক। দিক ডান হাতের নিয়মে, তাই A×B = −(B×A) — ক্রমে ক্রস উল্"
       }
     ],

@@ -34,7 +34,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{Bond Order} = \\frac{N_b - N_a}{2}",
         "note": "বন্ধন ক্রম = (বন্ধনী − বিবন্ধনী ইলেকট্রন)/২ — 'যোগ বিয়োগ ভাগ দুই'। ক্রম শূন্য মানে অণুটি অস্তিত্বহীন (তাই He₂ নেই)।"
       }
     ],

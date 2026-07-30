@@ -43,7 +43,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathrm{OPL}=\\mu x,\\quad \\Delta\\phi=\\frac{2\\pi}{\\lambda_0}\\Delta(\\mathrm{OPL})",
         "note": "আলোকীয় পথ = μ × প্রকৃত পথ। আর দশা পার্থক্য = (2π/λ) × পথ পার্থক্য — 'এক তরঙ্গদৈর্ঘ্য পথ = ২π দশা'।"
       }
     ],

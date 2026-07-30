@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "P(X=r)=\\binom{n}{r}p^r(1-p)^{n-r}",
         "note": "n বার স্বাধীন trial; সফল r বার; q=1−p।"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "n বার স্বাধীন trial; সফল r বার; q=1−p।",
     "steps": [
       "n বার স্বাধীন trial; সফল r বার; q=1−p।",
-      "কাজ: n বার স্বাধীন trial; সফল r বার; q=1−p।",
-      "চিহ্ন ঠিক আছে তো? P, X, r"
+      "মনে রাখো — n বার স্বাধীন trial; সফল r বার; q=1−p।",
+      "চিহ্ন চেক: P, X, r"
     ]
   },
   "subjects": [

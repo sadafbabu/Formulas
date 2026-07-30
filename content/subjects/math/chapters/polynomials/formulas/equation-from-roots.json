@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "(x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
         "note": "x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
     "steps": [
       "x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
-      "কাজ: x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
-      "চিহ্ন ঠিক আছে তো? x, alpha, beta"
+      "মনে রাখো — x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
+      "চিহ্ন চেক: x, alpha, beta"
     ]
   },
   "subjects": [

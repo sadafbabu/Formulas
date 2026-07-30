@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{PE}=\\frac{4\\times\\tfrac43\\pi r^3}{a^3}\\times100\\%=74\\%\\quad(a=2\\sqrt2\\,r)",
         "note": "FCC/HCP সর্বোচ্চ ৭৪%। \\text{PE}=\\frac{4\\times\\tfrac43\\pi r^3}{a^3}\\times100\\%=74\\%\\quad(a=2\\sqrt2\\,r)"
       }
     ],
@@ -58,8 +58,8 @@
     "trick": "FCC/HCP সর্বোচ্চ ৭৪%। \\text{PE}=\\frac{4\\times\\tfrac43\\pi r^3}{a^3}\\times100\\%=74\\%\\quad(a=2\\sqrt2\\,r)",
     "steps": [
       "FCC/HCP সর্বোচ্চ ৭৪%। \\text{PE}=\\frac{4\\times\\tfrac43\\pi r^3}{a^3}\\times100\\%=74\\%\\quad(a=2\\sqrt2\\,r)",
-      "কাজ: FCC/HCP সর্বোচ্চ ৭৪%। \\text{PE}=\\frac{4\\times\\tfrac43\\pi r^3}{a^3}\\times100\\%=74\\%\\quad(a=2\\sqrt2\\,r)",
-      "চিহ্ন ঠিক আছে তো? PE, pi, r"
+      "মনে রাখো — FCC/HCP সর্বোচ্চ ৭৪%। \\text{PE}=\\frac{4\\times\\tfrac43\\pi r^3}{a^3}\\times100\\%=74\\%\\quad(a=2\\sqrt2\\,r)",
+      "চিহ্ন চেক: PE, pi, r"
     ]
   },
   "subjects": [

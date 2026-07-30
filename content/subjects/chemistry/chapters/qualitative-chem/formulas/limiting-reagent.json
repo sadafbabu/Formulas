@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "n_{\\text{prod}}=\\min_i\\Big(\\frac{n_i}{\\nu_i}\\Big)\\times\\nu_{\\text{prod}}",
         "note": "যে বিকারকের n/ν সবচেয়ে ছোট সেটা limiting।"
       }
     ],
@@ -68,8 +68,8 @@
     "trick": "যে বিকারকের n/ν সবচেয়ে ছোট সেটা limiting।",
     "steps": [
       "যে বিকারকের n/ν সবচেয়ে ছোট সেটা limiting।",
-      "কাজ: প্রোডাক্ট নির্ণয়ে সীমিত বিকারক",
-      "চিহ্ন ঠিক আছে তো? n, prod, i"
+      "মনে রাখো — প্রোডাক্ট নির্ণয়ে সীমিত বিকারক",
+      "চিহ্ন চেক: n, prod, i"
     ]
   },
   "subjects": [

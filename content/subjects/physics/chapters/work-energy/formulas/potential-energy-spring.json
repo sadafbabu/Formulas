@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "U = \\frac{1}{2} k x^2",
         "note": "U = ½kx² — 'অর্ধেক কে এক্স বর্গ'। সংকোচন বা প্রসারণ যাই হোক, x বর্গ হওয়ায় শক্তি সর্বদা ধনাত্মক।"
       }
     ],

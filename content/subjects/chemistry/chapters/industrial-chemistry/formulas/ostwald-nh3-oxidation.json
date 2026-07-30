@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "4\\mathrm{NH_3}+5\\mathrm{O_2}\\xrightarrow{\\mathrm{Pt}}4\\mathrm{NO}+6\\mathrm{H_2O}",
         "note": "অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অস্টওয়াল্ড NH₃ জারণ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "অস্টওয়াল্ড NH₃ জারণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "4\\mathrm{NH_3}+5\\mathrm{O_2}\\xrightarrow{\\mathrm{Pt}}4\\mathrm{NO}+6\\mathrm{H_2O}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।",
     "steps": [
       "অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।",
-      "কাজ: অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।",
-      "চিহ্ন ঠিক আছে তো? NH_3, O_2, xrightarrow"
+      "মনে রাখো — অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।",
+      "চিহ্ন চেক: NH_3, O_2, xrightarrow"
     ]
   },
   "subjects": [

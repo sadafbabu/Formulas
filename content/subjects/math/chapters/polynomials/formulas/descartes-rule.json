@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\#\\{\\text{positive roots}\\}\\le\\#\\{\\text{sign changes in }f(x)\\}",
         "note": "চিহ্ন বদলের সংখ্যা = ধনাত্মক মূলের উপরের সীমা।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দেকার্তের চিহ্ন নিয়ম এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "দেকার্তের চিহ্ন নিয়ম লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\#\\{\\text{positive roots}\\}\\le\\#\\{\\text{sign changes in }f(x)\\}"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "চিহ্ন বদলের সংখ্যা = ধনাত্মক মূলের উপরের সীমা।",
     "steps": [
       "চিহ্ন বদলের সংখ্যা = ধনাত্মক মূলের উপরের সীমা।",
-      "কাজ: ধনাত্মক মূলের সম্ভাব্য সংখ্যা",
-      "চিহ্ন ঠিক আছে তো? positive roots, sign changes in, f"
+      "মনে রাখো — ধনাত্মক মূলের সম্ভাব্য সংখ্যা",
+      "চিহ্ন চেক: positive roots, sign changes in, f"
     ]
   },
   "subjects": [

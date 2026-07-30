@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\ce{N2 + 3H2 <=> 2NH3};\\quad \\Delta H=-92\\ \\text{kJ/mol}",
         "note": "450°C, 200 atm, Fe catalyst; exothermic → low T favors product।"
       }
     ],
@@ -68,8 +68,8 @@
     "trick": "450°C, 200 atm, Fe catalyst; exothermic → low T favors product।",
     "steps": [
       "450°C, 200 atm, Fe catalyst; exothermic → low T favors product।",
-      "কাজ: 450°C, 200 atm, Fe catalyst; exothermic → low T favors product।",
-      "চিহ্ন ঠিক আছে তো? ce, N, H"
+      "মনে রাখো — 450°C, 200 atm, Fe catalyst; exothermic → low T favors product।",
+      "চিহ্ন চেক: ce, N, H"
     ]
   },
   "subjects": [

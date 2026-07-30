@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "m=\\frac{h'}{h}=-\\frac{v}{u}",
         "note": "ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিবর্ধন এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "বিবর্ধন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "m=\\frac{h'}{h}=-\\frac{v}{u}"
     }
   ],
@@ -63,8 +63,8 @@
     "trick": "ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}",
     "steps": [
       "ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}",
-      "কাজ: ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}",
-      "চিহ্ন ঠিক আছে তো? m, h, v"
+      "মনে রাখো — ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}",
+      "চিহ্ন চেক: m, h, v"
     ]
   },
   "subjects": [

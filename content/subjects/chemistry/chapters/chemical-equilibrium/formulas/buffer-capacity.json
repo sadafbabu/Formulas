@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathrm{pH}=pK_a+\\log\\frac{[\\mathrm{salt}]}{[\\mathrm{acid}]},\\quad\\beta=\\frac{dn}{d(\\mathrm{pH})}",
         "note": "Henderson + capacity β = dn/d(pH)।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বাফার ক্ষমতা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "বাফার ক্ষমতা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\mathrm{pH}=pK_a+\\log\\frac{[\\mathrm{salt}]}{[\\mathrm{acid}]},\\quad\\beta=\\frac{dn}{d(\\mathrm{pH})}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "Henderson + capacity β = dn/d(pH)।",
     "steps": [
       "Henderson + capacity β = dn/d(pH)।",
-      "কাজ: Henderson + capacity β = dn/d(pH)।",
-      "চিহ্ন ঠিক আছে তো? pH, p, K"
+      "মনে রাখো — Henderson + capacity β = dn/d(pH)।",
+      "চিহ্ন চেক: pH, p, K"
     ]
   },
   "subjects": [

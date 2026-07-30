@@ -38,7 +38,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "f(v) = 4\\pi\\left(\\frac{m}{2\\pi kT}\\right)^{3/2} v^2 e^{-mv^2/2kT}, \\quad v_p = \\sqrt{\\frac{2kT}{m}}",
         "note": "বিন্যাস লেখচিত্র মনে রাখুন: তাপমাত্রা বাড়লে চূড়া ডানে সরে ও চ্যাপ্টা হয়। সর্বাধিক সম্ভাব্য বেগ v_p = √(2kT/m) — এখানে"
       }
     ],

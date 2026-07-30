@@ -56,7 +56,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "v = f\\lambda, \\quad y = A\\sin(\\omega t - kx), \\quad \\omega = 2\\pi f, \\quad k = \\frac{2\\pi}{\\lambda}, \\quad v = \\sqrt{\\frac{T}{\\mu}}",
         "note": "v = fλ — তরঙ্গের প্রাণ। আর y = A sin(ωt − kx): ω = 2πf (সময়ের সাথে), k = 2π/λ (দূরত্বের সাথে) — 'দুটোতেই ২π, একটায় f এ"
       }
     ],

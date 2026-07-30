@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
         "note": "ln[A] বনাম t সরলরেখা। \\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}"
       }
     ],
@@ -63,8 +63,8 @@
     "trick": "ln[A] বনাম t সরলরেখা। \\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
     "steps": [
       "ln[A] বনাম t সরলরেখা। \\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
-      "কাজ: ln[A] বনাম t সরলরেখা। \\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
-      "চিহ্ন ঠিক আছে তো? A, k, t"
+      "মনে রাখো — ln[A] বনাম t সরলরেখা। \\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
+      "চিহ্ন চেক: A, k, t"
     ]
   },
   "subjects": [

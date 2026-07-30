@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
         "note": "ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
     "steps": [
       "ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
-      "কাজ: ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
-      "চিহ্ন ঠিক আছে তো? int, f, g"
+      "মনে রাখো — ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
+      "চিহ্ন চেক: int, f, g"
     ]
   },
   "subjects": [

@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}",
         "note": "F > O > N/Cl — মুখস্থ ক্রম। \\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\tex"
       }
     ],
@@ -68,8 +68,8 @@
     "trick": "F > O > N/Cl — মুখস্থ ক্রম। \\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}",
     "steps": [
       "F > O > N/Cl — মুখস্থ ক্রম। \\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\m…",
-      "কাজ: F > O > N/Cl — মুখস্থ ক্রম। \\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\math",
-      "চিহ্ন ঠিক আছে তো? chi, uparrow, across period"
+      "মনে রাখো — F > O > N/Cl — মুখস্থ ক্রম। \\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\math",
+      "চিহ্ন চেক: chi, uparrow, across period"
     ]
   },
   "subjects": [

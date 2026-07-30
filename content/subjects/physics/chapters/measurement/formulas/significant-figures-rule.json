@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{s.f. = all certain digits + first uncertain digit}",
         "note": "গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সার্থক অঙ্ক এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সার্থক অঙ্ক লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\text{s.f. = all certain digits + first uncertain digit}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।",
     "steps": [
       "গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।",
-      "কাজ: গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।",
-      "চিহ্ন ঠিক আছে তো? s, f, a"
+      "মনে রাখো — গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।",
+      "চিহ্ন চেক: s, f, a"
     ]
   },
   "subjects": [

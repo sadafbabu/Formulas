@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "Q=mc\\Delta T,\\quad c=\\dfrac{Q}{m\\Delta T}",
         "note": "Q = mcΔT — ‘মোল নয়, ভর×c×তাপমাত্রা’। পানি c≈4200।"
       }
     ],

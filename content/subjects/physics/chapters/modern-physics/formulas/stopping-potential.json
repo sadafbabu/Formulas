@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "eV_0=K_{\\max}=hf-\\phi",
         "note": "V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রোধ বিভব এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "রোধ বিভব লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "eV_0=K_{\\max}=hf-\\phi"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi",
     "steps": [
       "V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi",
-      "কাজ: V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi",
-      "চিহ্ন ঠিক আছে তো? e, V, K"
+      "মনে রাখো — V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi",
+      "চিহ্ন চেক: e, V, K"
     ]
   },
   "subjects": [

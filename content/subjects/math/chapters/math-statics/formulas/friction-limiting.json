@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "F=\\mu R,\\quad \\tan\\lambda=\\mu",
         "note": "λ = ঘর্ষণ কোণ; ঢালে μ = tan α।"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "λ = ঘর্ষণ কোণ; ঢালে μ = tan α।",
     "steps": [
       "λ = ঘর্ষণ কোণ; ঢালে μ = tan α।",
-      "কাজ: λ = ঘর্ষণ কোণ; ঢালে μ = tan α।",
-      "চিহ্ন ঠিক আছে তো? F, mu, R"
+      "মনে রাখো — λ = ঘর্ষণ কোণ; ঢালে μ = tan α।",
+      "চিহ্ন চেক: F, mu, R"
     ]
   },
   "subjects": [

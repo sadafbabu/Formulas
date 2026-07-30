@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{BOD}=\\text{O}_2\\text{ used by microbes (5 days)};\\quad \\text{COD}=\\text{chemical O}_2\\text{ demand}",
         "note": "BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "BOD ও COD এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "BOD ও COD লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\text{BOD}=\\text{O}_2\\text{ used by microbes (5 days)};\\quad \\text{COD}=\\text{chemical O}_2\\text{ demand}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।",
     "steps": [
       "BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।",
-      "কাজ: BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।",
-      "চিহ্ন ঠিক আছে তো? BOD, O, used by microbes (5 days)"
+      "মনে রাখো — BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।",
+      "চিহ্ন চেক: BOD, O, used by microbes (5 days)"
     ]
   },
   "subjects": [

@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "|A^T|=|A|;\\quad |AB|=|A||B|",
         "note": "Row swap → sign change; two equal rows → det=0।"
       }
     ],
@@ -49,7 +49,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "নির্ণায়কের ধর্ম এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "নির্ণায়কের ধর্ম লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "|A^T|=|A|;\\quad |AB|=|A||B|"
     },
     {
@@ -62,8 +62,8 @@
     "trick": "Row swap → sign change; two equal rows → det=0।",
     "steps": [
       "Row swap → sign change; two equal rows → det=0।",
-      "কাজ: Row swap → sign change; two equal rows → det=0।",
-      "চিহ্ন ঠিক আছে তো? A, T, B"
+      "মনে রাখো — Row swap → sign change; two equal rows → det=0।",
+      "চিহ্ন চেক: A, T, B"
     ]
   },
   "subjects": [

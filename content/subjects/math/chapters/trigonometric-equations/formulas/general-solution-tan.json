@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k",
         "note": "Period π (not 2π) for tan; simpler than sin/cos।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "tanθ=k-এর সাধারণ সমাধান এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "tanθ=k-এর সাধারণ সমাধান লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "Period π (not 2π) for tan; simpler than sin/cos।",
     "steps": [
       "Period π (not 2π) for tan; simpler than sin/cos।",
-      "কাজ: Period π (not 2π) for tan; simpler than sin/cos।",
-      "চিহ্ন ঠিক আছে তো? theta, n, pi"
+      "মনে রাখো — Period π (not 2π) for tan; simpler than sin/cos।",
+      "চিহ্ন চেক: theta, n, pi"
     ]
   },
   "subjects": [

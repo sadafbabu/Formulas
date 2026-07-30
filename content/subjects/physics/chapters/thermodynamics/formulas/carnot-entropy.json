@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\Delta S=\\int\\frac{dQ_{rev}}{T},\\quad\\eta=1-\\frac{T_2}{T_1},\\quad\\Delta S_{univ}\\ge 0",
         "note": "এনট্রপি = Q_rev/T; কার্নো η কেবল দুই তাপমাত্রায়।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কার্নো চক্র ও এনট্রপি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "কার্নো চক্র ও এনট্রপি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\Delta S=\\int\\frac{dQ_{rev}}{T},\\quad\\eta=1-\\frac{T_2}{T_1},\\quad\\Delta S_{univ}\\ge 0"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "এনট্রপি = Q_rev/T; কার্নো η কেবল দুই তাপমাত্রায়।",
     "steps": [
       "এনট্রপি = Q_rev/T; কার্নো η কেবল দুই তাপমাত্রায়।",
-      "কাজ: এনট্রপি পরিবর্তন এবং কার্নো দক্ষতা",
-      "চিহ্ন ঠিক আছে তো? S, d, Q"
+      "মনে রাখো — এনট্রপি পরিবর্তন এবং কার্নো দক্ষতা",
+      "চিহ্ন চেক: S, d, Q"
     ]
   },
   "subjects": [

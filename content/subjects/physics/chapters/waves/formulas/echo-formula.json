@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
         "note": "যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্রতিধ্বনি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "প্রতিধ্বনি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}"
     }
   ],
@@ -63,8 +63,8 @@
     "trick": "যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
     "steps": [
       "যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
-      "কাজ: যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
-      "চিহ্ন ঠিক আছে তো? d, v, t"
+      "মনে রাখো — যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
+      "চিহ্ন চেক: d, v, t"
     ]
   },
   "subjects": [

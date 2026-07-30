@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "d=\\frac{b-a}{n+1}",
         "note": "a ও b-এর মাঝে nটি AM → অন্তর (b−a)/(n+1)।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমান্তর মধ্যক নিবেশ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সমান্তর মধ্যক নিবেশ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "d=\\frac{b-a}{n+1}"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "a ও b-এর মাঝে nটি AM → অন্তর (b−a)/(n+1)।",
     "steps": [
       "a ও b-এর মাঝে nটি AM → অন্তর (b−a)/(n+1)।",
-      "কাজ: a ও b-এর মাঝে nটি AM → অন্তর (b−a)/(n+1)।",
-      "চিহ্ন ঠিক আছে তো? d, b, a"
+      "মনে রাখো — a ও b-এর মাঝে nটি AM → অন্তর (b−a)/(n+1)।",
+      "চিহ্ন চেক: d, b, a"
     ]
   },
   "subjects": [

@@ -51,7 +51,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\beta = \\frac{\\lambda D}{d}, \\quad \\Delta x = \\frac{\\lambda D}{2 d}, \\quad y_n = n \\frac{\\lambda D}{d} \\text{ (Bright)}",
         "note": "β = λD/d — 'ডোরার ব্যবধান = তরঙ্গদৈর্ঘ্য × দূরত্ব ÷ চির ব্যবধান'। পর্দা দূরে সরালে ডোরা চওড়া, চির দুটো কাছে আনলেও চওড়া"
       }
     ],

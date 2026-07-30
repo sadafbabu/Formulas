@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "A+B+C=\\pi\\Rightarrow\\tan A+\\tan B+\\tan C=\\tan A\\tan B\\tan C",
         "note": "কোণের যোগ π হলে tan সমষ্টি = tan গুণফল।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ত্রিভুজে শর্তাধীন অভেদ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ত্রিভুজে শর্তাধীন অভেদ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "A+B+C=\\pi\\Rightarrow\\tan A+\\tan B+\\tan C=\\tan A\\tan B\\tan C"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "কোণের যোগ π হলে tan সমষ্টি = tan গুণফল।",
     "steps": [
       "কোণের যোগ π হলে tan সমষ্টি = tan গুণফল।",
-      "কাজ: কোণের যোগ π হলে tan সমষ্টি = tan গুণফল।",
-      "চিহ্ন ঠিক আছে তো? A, B, C"
+      "মনে রাখো — কোণের যোগ π হলে tan সমষ্টি = tan গুণফল।",
+      "চিহ্ন চেক: A, B, C"
     ]
   },
   "subjects": [

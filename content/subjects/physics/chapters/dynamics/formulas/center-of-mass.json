@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\vec r_{\\mathrm{cm}}=\\dfrac{\\sum m_i\\vec r_i}{\\sum m_i}",
         "note": "ভরকেন্দ্র = ভর-ওজনকৃত গড় অবস্থান — ভারী দিক টানে।"
       }
     ],

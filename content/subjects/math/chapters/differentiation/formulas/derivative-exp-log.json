@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "(e^x)'=e^x,\\quad (\\ln x)'=\\frac{1}{x},\\quad (a^x)'=a^x\\ln a",
         "note": "eˣ নিজের অন্তরক; ln-এর অন্তরক ১/x।"
       }
     ],
@@ -62,8 +62,8 @@
     "trick": "eˣ নিজের অন্তরক; ln-এর অন্তরক ১/x।",
     "steps": [
       "eˣ নিজের অন্তরক; ln-এর অন্তরক ১/x।",
-      "কাজ: eˣ নিজের অন্তরক; ln-এর অন্তরক ১/x।",
-      "চিহ্ন ঠিক আছে তো? e, x, a"
+      "মনে রাখো — eˣ নিজের অন্তরক; ln-এর অন্তরক ১/x।",
+      "চিহ্ন চেক: e, x, a"
     ]
   },
   "subjects": [

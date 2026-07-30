@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
         "note": "m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অনুপাত বিভাজন এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "অনুপাত বিভাজন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)"
     }
   ],
@@ -62,8 +62,8 @@
     "trick": "m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
     "steps": [
       "m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
-      "কাজ: m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
-      "চিহ্ন ঠিক আছে তো? vec, r, m"
+      "মনে রাখো — m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
+      "চিহ্ন চেক: vec, r, m"
     ]
   },
   "subjects": [

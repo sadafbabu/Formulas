@@ -48,7 +48,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac1F=\\frac1{f_1}+\\frac1{f_2}-\\frac d{f_1f_2},\\quad P_{\\mathrm{eq}}=P_1+P_2-dP_1P_2;\\quad d=0\\Rightarrow P=P_1+P_2",
         "note": "লেন্স জোড়া লাগানো (d = 0) হলে ক্ষমতা সরল যোগ: P = P₁ + P₂। ফাঁক থাকলে বিয়োগ পদ আসে: 1/F = 1/f₁ + 1/f₂ − d/(f₁f₂)। ক্ষম"
       }
     ],

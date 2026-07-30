@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "|\\vec a|=\\sqrt{a_x^2+a_y^2+a_z^2},\\quad \\hat a=\\frac{\\vec a}{|\\vec a|}",
         "note": "একক ভেক্টর = ভেক্টর ÷ মান। |\\vec a|=\\sqrt{a_x^2+a_y^2+a_z^2},\\quad \\hat a=\\frac{\\vec a}{|\\vec a|}"
       }
     ],
@@ -62,8 +62,8 @@
     "trick": "একক ভেক্টর = ভেক্টর ÷ মান। |\\vec a|=\\sqrt{a_x^2+a_y^2+a_z^2},\\quad \\hat a=\\frac{\\vec a}{|\\vec a|}",
     "steps": [
       "একক ভেক্টর = ভেক্টর ÷ মান। |\\vec a|=\\sqrt{a_x^2+a_y^2+a_z^2},\\quad \\hat a=\\frac{\\vec a}{|\\vec a|}",
-      "কাজ: একক ভেক্টর = ভেক্টর ÷ মান। |\\vec a|=\\sqrt{a_x^2+a_y^2+a_z^2},\\quad \\hat a=\\frac{\\vec a}{|\\vec a|}",
-      "চিহ্ন ঠিক আছে তো? vec, a, sqrt"
+      "মনে রাখো — একক ভেক্টর = ভেক্টর ÷ মান। |\\vec a|=\\sqrt{a_x^2+a_y^2+a_z^2},\\quad \\hat a=\\frac{\\vec a}{|\\vec a|}",
+      "চিহ্ন চেক: vec, a, sqrt"
     ]
   },
   "subjects": [

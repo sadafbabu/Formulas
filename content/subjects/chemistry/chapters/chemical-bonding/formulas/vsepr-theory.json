@@ -39,7 +39,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "S=N_{\\sigma}+N_{\\mathrm{lone}},\\quad H=\\frac{V+M-C+A}{2}\\ \\text{(সীমিত shortcut)}",
         "note": "মোট ইলেকট্রন যুগল গণনা করুন (বন্ধন + একাকী): ২ = সরলরৈখিক, ৩ = ত্রিকোণীয়, ৪ = চতুস্তলকীয়, ৫ = ত্রিকোণীয় দ্বিপিরামিড, "
       }
     ],

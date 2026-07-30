@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "x\\cos\\alpha+y\\sin\\alpha=p",
         "note": "p = perpendicular from origin; α = angle with x-axis।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রেখার লম্ব রূপ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "রেখার লম্ব রূপ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "x\\cos\\alpha+y\\sin\\alpha=p"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "p = perpendicular from origin; α = angle with x-axis।",
     "steps": [
       "p = perpendicular from origin; α = angle with x-axis।",
-      "কাজ: p = perpendicular from origin; α = angle with x-axis।",
-      "চিহ্ন ঠিক আছে তো? x, alpha, y"
+      "মনে রাখো — p = perpendicular from origin; α = angle with x-axis।",
+      "চিহ্ন চেক: x, alpha, y"
     ]
   },
   "subjects": [

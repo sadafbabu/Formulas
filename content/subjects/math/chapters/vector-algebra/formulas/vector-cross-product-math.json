@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\vec a\\times\\vec b=|\\vec a||\\vec b|\\sin\\theta\\,\\hat n=\\begin{vmatrix}\\hat i&\\hat j&\\hat k\\\\a_x&a_y&a_z\\\\b_x&b_y&b_z\\end{vmatrix}",
         "note": "ডানহস্ত নিয়ম; সমান্তরালে ক্রস = ০।"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "ডানহস্ত নিয়ম; সমান্তরালে ক্রস = ০।",
     "steps": [
       "ডানহস্ত নিয়ম; সমান্তরালে ক্রস = ০।",
-      "কাজ: ডানহস্ত নিয়ম; সমান্তরালে ক্রস = ০।",
-      "চিহ্ন ঠিক আছে তো? vec, a, b"
+      "মনে রাখো — ডানহস্ত নিয়ম; সমান্তরালে ক্রস = ০।",
+      "চিহ্ন চেক: vec, a, b"
     ]
   },
   "subjects": [

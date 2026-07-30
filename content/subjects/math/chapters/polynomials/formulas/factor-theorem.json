@@ -33,7 +33,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "P(a) = 0 \\iff (x - a) \\text{ is a factor of } P(x)",
         "note": "P(a) = 0 ⟺ (x − a) উৎপাদক — 'শূন্য বসালে শূন্য হলেই উৎপাদক'। চিহ্নে সতর্ক: উৎপাদক (x + 2) হলে বসাতে হবে x = −2।"
       }
     ],

@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
         "note": "যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
     "steps": [
       "যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
-      "কাজ: যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
-      "চিহ্ন ঠিক আছে তো? d, x, int"
+      "মনে রাখো — যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
+      "চিহ্ন চেক: d, x, int"
     ]
   },
   "subjects": [

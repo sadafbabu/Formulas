@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}",
         "note": "EAN ≈ next noble gas (18 or 36) → stable complex।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কার্যকর পরমাণু সংখ্যা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "কার্যকর পরমাণু সংখ্যা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "EAN ≈ next noble gas (18 or 36) → stable complex।",
     "steps": [
       "EAN ≈ next noble gas (18 or 36) → stable complex।",
-      "কাজ: EAN ≈ next noble gas (18 or 36) → stable complex।",
-      "চিহ্ন ঠিক আছে তো? EAN, Z, oxidation state"
+      "মনে রাখো — EAN ≈ next noble gas (18 or 36) → stable complex।",
+      "চিহ্ন চেক: EAN, Z, oxidation state"
     ]
   },
   "subjects": [

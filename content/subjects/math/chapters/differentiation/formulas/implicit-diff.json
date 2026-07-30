@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
         "note": "দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অন্তর্নিহিত অন্তরীকরণ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "অন্তর্নিহিত অন্তরীকরণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\frac{dy}{dx}=-\\frac{F_x}{F_y}"
     }
   ],
@@ -62,8 +62,8 @@
     "trick": "দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}",
     "steps": [
       "দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}",
-      "কাজ: দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}",
-      "চিহ্ন ঠিক আছে তো? d, y, x"
+      "মনে রাখো — দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}",
+      "চিহ্ন চেক: d, y, x"
     ]
   },
   "subjects": [

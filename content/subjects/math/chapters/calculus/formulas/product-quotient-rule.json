@@ -43,7 +43,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "(uv)' = u'v + uv', \\quad \\left(\\frac{u}{v}\\right)' = \\frac{u'v - uv'}{v^2}",
         "note": "গুণফলে যোগ, ভাগফলে বিয়োগ। গুণফল: u'v + uv'। ভাগফল: (u'v − uv')/v² — ছড়া: 'নিচে গুণ লবের অবকল, বিয়োগ লব গুণ নিচের অবকল"
       }
     ],

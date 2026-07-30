@@ -56,7 +56,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "Q_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}, \\quad Q_c < K_c \\Rightarrow \\ce{->}, \\quad Q_c > K_c \\Rightarrow \\ce{<-}",
         "note": "চাপ দিলে সাম্য চাপ কমায় যেদিকে — Le Chatelier ‘বিরোধিতা’ করে।"
       }
     ],

@@ -51,7 +51,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "v_o = \\sqrt{\\frac{G M}{R + h}}, \\quad T = \\frac{2\\pi (R+h)}{v_o} = 2\\pi \\sqrt{\\frac{(R+h)^3}{G M}}",
         "note": "v₀ = √(GM/r) — 'উপরে GM, নিচে ব্যাসার্ধ, পুরোটার বর্গমূল'। নিচের কক্ষে দ্রুত, উঁচু কক্ষে ধীর।"
       }
     ],

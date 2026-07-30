@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{stable }n/p\\approx1\\ (\\text{light})\\to\\approx1.5\\ (\\text{heavy})",
         "note": "ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "n/p স্থিতিশীলতা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "n/p স্থিতিশীলতা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\text{stable }n/p\\approx1\\ (\\text{light})\\to\\approx1.5\\ (\\text{heavy})"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।",
     "steps": [
       "ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।",
-      "কাজ: ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।",
-      "চিহ্ন ঠিক আছে তো? stable, n, p"
+      "মনে রাখো — ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।",
+      "চিহ্ন চেক: stable, n, p"
     ]
   },
   "subjects": [

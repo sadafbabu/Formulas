@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)",
         "note": "S = n/2 × (প্রথম+শেষ)। S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)"
       }
     ],
@@ -67,8 +67,8 @@
     "trick": "S = n/2 × (প্রথম+শেষ)। S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)",
     "steps": [
       "S = n/2 × (প্রথম+শেষ)। S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)",
-      "কাজ: S = n/2 × (প্রথম+শেষ)। S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)",
-      "চিহ্ন ঠিক আছে তো? S, n, a"
+      "মনে রাখো — S = n/2 × (প্রথম+শেষ)। S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)",
+      "চিহ্ন চেক: S, n, a"
     ]
   },
   "subjects": [

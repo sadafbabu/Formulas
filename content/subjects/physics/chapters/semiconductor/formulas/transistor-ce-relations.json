@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}",
         "note": "IE=IB+IC; β≈α/(1−α)। I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "CE ট্রানজিস্টর প্রবাহ সম্পর্ক এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "CE ট্রানজিস্টর প্রবাহ সম্পর্ক লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}"
     }
   ],
@@ -63,8 +63,8 @@
     "trick": "IE=IB+IC; β≈α/(1−α)। I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}",
     "steps": [
       "IE=IB+IC; β≈α/(1−α)। I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}",
-      "কাজ: IE=IB+IC; β≈α/(1−α)। I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}",
-      "চিহ্ন ঠিক আছে তো? I, E, B"
+      "মনে রাখো — IE=IB+IC; β≈α/(1−α)। I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}",
+      "চিহ্ন চেক: I, E, B"
     ]
   },
   "subjects": [

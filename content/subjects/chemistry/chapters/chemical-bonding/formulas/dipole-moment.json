@@ -38,7 +38,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mu = q \\times d, \\quad \\%\\ \\text{ionic} = \\frac{\\mu_{obs}}{\\mu_{ionic}} \\times 100",
         "note": "μ = q × d — একক ডিবাই (D)। মূল কথা: বন্ধন পোলার হলেও অণু অপোলার হতে পারে, যদি জ্যামিতি প্রতিসম হয় (CO₂, CCl₄ — ভ্রামক ব"
       }
     ],

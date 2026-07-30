@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}",
         "note": "pH < ৫.৬ হলে অ্যাসিড বৃষ্টি। \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অ্যাসিড বৃষ্টি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "অ্যাসিড বৃষ্টি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}"
     }
   ],
@@ -63,8 +63,8 @@
     "trick": "pH < ৫.৬ হলে অ্যাসিড বৃষ্টি। \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}",
     "steps": [
       "pH < ৫.৬ হলে অ্যাসিড বৃষ্টি। \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2…",
-      "কাজ: pH < ৫.৬ হলে অ্যাসিড বৃষ্টি। \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\",
-      "চিহ্ন ঠিক আছে তো? SO_2, H_2O, H_2SO_3"
+      "মনে রাখো — pH < ৫.৬ হলে অ্যাসিড বৃষ্টি। \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\",
+      "চিহ্ন চেক: SO_2, H_2O, H_2SO_3"
     ]
   },
   "subjects": [

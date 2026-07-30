@@ -38,7 +38,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "x=Ae^{-\\gamma t}\\cos(\\omega_dt+\\phi),\\quad \\omega_d=\\sqrt{\\omega_0^2-\\gamma^2}",
         "note": "ক্ষতিগ্রস্ত দোলনে বিস্তার e^(−γt) হারে কমে, আর কম্পাঙ্ক একটু কমে যায়: ω_d = √(ω₀² − γ²)। 'বাধা যত বেশি, কম্পাঙ্ক তত কম'"
       }
     ],

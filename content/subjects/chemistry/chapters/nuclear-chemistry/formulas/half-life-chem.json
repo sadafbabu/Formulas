@@ -36,7 +36,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}",
         "note": "অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ। t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}"
       }
     ],
@@ -58,8 +58,8 @@
     "trick": "অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ। t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}",
     "steps": [
       "অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ। t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}",
-      "কাজ: অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ। t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}",
-      "চিহ্ন ঠিক আছে তো? t, lambda"
+      "মনে রাখো — অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ। t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}",
+      "চিহ্ন চেক: t, lambda"
     ]
   },
   "subjects": [

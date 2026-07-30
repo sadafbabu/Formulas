@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "R=\\sum F_i,\\quad \\bar{x}=\\frac{\\sum F_i x_i}{\\sum F_i}",
         "note": "লব্ধি = যোগ; moment arm দিয়ে অবস্থান।"
       }
     ],
@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমান্তরাল বলের লব্ধি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সমান্তরাল বলের লব্ধি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "R=\\sum F_i,\\quad \\bar{x}=\\frac{\\sum F_i x_i}{\\sum F_i}"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "লব্ধি = যোগ; moment arm দিয়ে অবস্থান।",
     "steps": [
       "লব্ধি = যোগ; moment arm দিয়ে অবস্থান।",
-      "কাজ: লব্ধি = যোগ; moment arm দিয়ে অবস্থান।",
-      "চিহ্ন ঠিক আছে তো? R, sum, F"
+      "মনে রাখো — লব্ধি = যোগ; moment arm দিয়ে অবস্থান।",
+      "চিহ্ন চেক: R, sum, F"
     ]
   },
   "subjects": [

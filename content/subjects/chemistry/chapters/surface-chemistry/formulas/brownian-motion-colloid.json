@@ -31,7 +31,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{continuous random motion of colloidal particles}",
         "note": "কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।"
       }
     ],
@@ -40,7 +40,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ব্রাউনীয় গতি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "ব্রাউনীয় গতি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\text{continuous random motion of colloidal particles}"
     },
     {
@@ -53,8 +53,8 @@
     "trick": "কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।",
     "steps": [
       "কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।",
-      "কাজ: কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।",
-      "চিহ্ন ঠিক আছে তো? continuous random motion of colloidal particles"
+      "মনে রাখো — কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।",
+      "চিহ্ন চেক: continuous random motion of colloidal particles"
     ]
   },
   "subjects": [

@@ -61,7 +61,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mu_B = \\frac{e h}{4\\pi m_e}, \\quad M = \\frac{e v r}{2} = n \\mu_B",
         "note": "μ_B = eh/(4πm_e) — চৌম্বক ভ্রামকের ক্ষুদ্রতম একক (৯.২৭×১০⁻²⁴ A·m²)। মনে রাখুন: '৪ পাই ভাগে ইলেকট্রন'।"
       }
     ],

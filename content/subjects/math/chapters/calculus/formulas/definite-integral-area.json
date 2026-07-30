@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\text{Area}=\\int_a^b|f(x)|\\,dx,\\quad \\text{Area between curves}=\\int_a^b|f_1(x)-f_2(x)|\\,dx",
         "note": "ক্ষেত্রফল = ∫(উপরের বক্ররেখা − নিচের বক্ররেখা)dx — 'উপর বাদ নিচ', তাই ফল সর্বদা ধনাত্মক। x-অক্ষের নিচে থাকলে যোগজ ঋণাত্ম"
       }
     ],

@@ -45,7 +45,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "V = -\\frac{Gm}{r}, \\quad U = -\\frac{Gm_1 m_2}{r}, \\quad g = \\frac{Gm}{r^2}",
         "note": "অসীমে শূন্য বিভব ধরলে বিন্দু-ভরের V = −GM/r এবং দুই ভরের U = −GMm/r। ঋণাত্মক চিহ্ন bound attractive system বোঝায়; kinet"
       }
     ],

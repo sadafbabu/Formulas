@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\frac{P}{Q} = \\frac{R}{S}",
         "note": "P/Q = R/S — সাম্যাবস্থায় গ্যালভানোমিটারে প্রবাহ শূন্য। মনে রাখুন 'পাশাপাশি বাহুর অনুপাত সমান' — কোনাকুনি গুণফলও সমান (P"
       }
     ],

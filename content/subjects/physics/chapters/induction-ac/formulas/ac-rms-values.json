@@ -41,7 +41,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "I_{\\mathrm{rms}} = \\frac{I_0}{\\sqrt{2}} \\approx 0.707 I_0, \\quad V_{\\mathrm{rms}} = \\frac{V_0}{\\sqrt{2}} \\approx 0.707 V_0",
         "note": "RMS = শীর্ষমান ÷ √2 ≈ 0.707 × শীর্ষমান। বাসার ২২০ V হলো RMS; শীর্ষমান আসলে ২২০√2 ≈ ৩১১ V। আর গড় মান = 0.637 × শীর্ষমান।"
       }
     ],

@@ -56,7 +56,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "m=ZIt=\\frac{MIt}{nF},\\quad F=96500\\ \\mathrm{C\\,mol^{-1}},\\quad Z=\\frac{M}{nF}",
         "note": "m = ZIt = MIt/(nF), তাই electrochemical equivalent Z = M/(nF)—শুধু M/n নয়। এক Faraday charge এক gram-equivalent পদার্থ "
       }
     ],
@@ -73,8 +73,8 @@
     "trick": "m = ZIt = MIt/(nF), তাই electrochemical equivalent Z = M/(nF)—শুধু M/n নয়। এক Faraday charge এক gram-equivalent পদার্থ জমায়।",
     "steps": [
       "m = ZIt = MIt/(nF), তাই electrochemical equivalent Z = M/(nF)—শুধু M/n নয়। এক Faraday charge এক gram-equiv…",
-      "কাজ: তড়িৎ বিশ্লেষণে সঞ্চিত বা দ্রবীভূত পদার্থের ভর ও তড়িৎ পরিমাণের সম্পর্ক",
-      "চিহ্ন ঠিক আছে তো? m, Z, I"
+      "মনে রাখো — তড়িৎ বিশ্লেষণে সঞ্চিত বা দ্রবীভূত পদার্থের ভর ও তড়িৎ পরিমাণের সম্পর্ক",
+      "চিহ্ন চেক: m, Z, I"
     ]
   },
   "subjects": [

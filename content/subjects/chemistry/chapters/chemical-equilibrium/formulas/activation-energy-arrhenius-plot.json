@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\ln k=\\ln A-\\frac{E_a}{RT}",
         "note": "ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আরেনিয়াস প্লট এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "আরেনিয়াস প্লট লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\ln k=\\ln A-\\frac{E_a}{RT}"
     }
   ],
@@ -63,8 +63,8 @@
     "trick": "ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}",
     "steps": [
       "ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}",
-      "কাজ: ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}",
-      "চিহ্ন ঠিক আছে তো? k, A, E"
+      "মনে রাখো — ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}",
+      "চিহ্ন চেক: k, A, E"
     ]
   },
   "subjects": [

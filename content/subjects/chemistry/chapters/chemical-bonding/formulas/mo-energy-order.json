@@ -46,7 +46,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\sigma^*2s\\,\\sigma2p\\,\\pi2p\\,\\pi^*",
         "note": "N₂-তে π আগে σ2p; O₂-তে σ2p আগে।"
       }
     ],
@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আণবিক অরবিটাল শক্তি ক্রম এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "আণবিক অরবিটাল শক্তি ক্রম লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\sigma^*2s\\,\\sigma2p\\,\\pi2p\\,\\pi^*"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "N₂-তে π আগে σ2p; O₂-তে σ2p আগে।",
     "steps": [
       "N₂-তে π আগে σ2p; O₂-তে σ2p আগে।",
-      "কাজ: N₂-তে π আগে σ2p; O₂-তে σ2p আগে।",
-      "চিহ্ন ঠিক আছে তো? N_2, sigma, s"
+      "মনে রাখো — N₂-তে π আগে σ2p; O₂-তে σ2p আগে।",
+      "চিহ্ন চেক: N_2, sigma, s"
     ]
   },
   "subjects": [

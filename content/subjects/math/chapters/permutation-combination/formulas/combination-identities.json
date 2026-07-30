@@ -40,7 +40,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\binom{n}{0}+\\binom{n}{1}+\\cdots+\\binom{n}{n}=2^n",
         "note": "Binomial row sum = 2^n; Pascal's triangle।"
       }
     ],
@@ -49,7 +49,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমাবেশের সমষ্টি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
+      "question": "সমাবেশের সমষ্টি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
       "answer": "\\binom{n}{0}+\\binom{n}{1}+\\cdots+\\binom{n}{n}=2^n"
     },
     {
@@ -62,8 +62,8 @@
     "trick": "Binomial row sum = 2^n; Pascal's triangle।",
     "steps": [
       "Binomial row sum = 2^n; Pascal's triangle।",
-      "কাজ: Binomial row sum = 2^n; Pascal's triangle।",
-      "চিহ্ন ঠিক আছে তো? binom, n, cdots"
+      "মনে রাখো — Binomial row sum = 2^n; Pascal's triangle।",
+      "চিহ্ন চেক: binom, n, cdots"
     ]
   },
   "subjects": [

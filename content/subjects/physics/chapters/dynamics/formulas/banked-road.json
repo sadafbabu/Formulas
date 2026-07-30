@@ -51,7 +51,7 @@
       },
       {
         "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "latex": "\\tan\\theta = \\frac{v^2}{r g}, \\quad h = d \\sin\\theta \\approx d \\tan\\theta = \\frac{d v^2}{r g}",
         "note": "tanθ = v²/(rg) — 'বেগের বর্গ ভাগ ব্যাসার্ধ-অভিকর্ষ'। ভর নেই! তাই বাঁকের নিরাপদ বেগ বাস আর মোটরসাইকেলে একই।"
       }
     ],
