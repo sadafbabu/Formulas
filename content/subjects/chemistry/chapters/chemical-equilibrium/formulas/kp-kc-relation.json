@@ -45,9 +45,14 @@
     "lead": "আদর্শ গ্যাস সমীকরণ P = (n/V)RT = C RT আংশিক চাপের সূত্রে প্রতিস্থাপন করে প্রাপ্ত।",
     "steps": [
       {
-        "title": "Kp Kc সমীকরণ রূপায়ণ",
-        "latex": "P_A = [A] R T \\implies K_p = \\frac{P_C^c P_D^d}{P_A^a P_B^b} = \\frac{[C]^c [D]^d}{[A]^a [B]^b} (R T)^{(c+d)-(a+b)} = K_c (R T)^{\\Delta n}",
-        "note": "Δn = 0 হলে Kp = Kc"
+        "title": "মূল সূত্র",
+        "latex": "K_p = K_c (RT)^{\\Delta n}, \\quad \\Delta n = (\\text{gas prod} - \\text{gas reactant})",
+        "note": "আদর্শ গ্যাস সমীকরণ P = (n/V)RT = C RT আংশিক চাপের সূত্রে প্রতিস্থাপন করে প্রাপ্ত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "K_p = K_c (RT)^{\\Delta n}, \\quad \\Delta n = (\\text{gas prod} - \\text{gas reactant})",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -62,7 +67,12 @@
     }
   ],
   "memorize": {
-    "trick": "Kp = Kc(RT)^Δn — Δn = (গ্যাসীয় উৎপাদ - গ্যাসীয় বিক্রিয়ক) মোল। Δn=0 হলে Kp=Kc।"
+    "trick": "Kp = Kc(RT)^Δn — Δn = (গ্যাসীয় উৎপাদ - গ্যাসীয় বিক্রিয়ক) মোল। Δn=0 হলে Kp=Kc।",
+    "steps": [
+      "সূত্র: K_p = K_c (RT)^{\\Delta n}, \\quad \\Delta n = (\\text{gas prod} - \\text{gas reactan…",
+      "আংশিক চাপ ও মোলার ঘনমাত্রার সাহায্যে রাসায়নিক সাম্যধ্রুবক",
+      "চিহ্ন মনে রাখো: K_p, K_c, R"
+    ]
   },
   "subjects": [
     "chemistry"

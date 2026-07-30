@@ -39,9 +39,14 @@
     "lead": "আর্গাঁ চিত্রে (Argand Diagram) কার্তেসীয় স্থানাঙ্ক (a, b) কে পোলার স্থানাঙ্ক (r, θ) এ রূপান্তর করে প্রাপ্ত।",
     "steps": [
       {
-        "title": "পোলার আকৃতি",
-        "latex": "z = r (\\cos\\theta + i \\sin\\theta) = r e^{i \\theta} \\implies z^n = r^n e^{i n \\theta} = r^n (\\cos n\\theta + i \\sin n\\theta)",
-        "note": "এককের ঘনমূল ১, ω, ω² এর যোগফল ১ + ω + ω² = 0 এবং ω³ = 1"
+        "title": "মূল সূত্র",
+        "latex": "|z|=r=\\sqrt{a^2+b^2},\\quad \\operatorname{Arg}(z)=\\operatorname{atan2}(b,a)\\ (z\\ne0),\\quad (\\cos\\theta+i\\sin\\theta)^n=\\cos n\\theta+i\\sin n\\theta",
+        "note": "আর্গাঁ চিত্রে (Argand Diagram) কার্তেসীয় স্থানাঙ্ক (a, b) কে পোলার স্থানাঙ্ক (r, θ) এ রূপান্তর করে প্রাপ্ত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "|z|=r=\\sqrt{a^2+b^2},\\quad \\operatorname{Arg}(z)=\\operatorname{atan2}(b,a)\\ (z\\ne0),\\quad (\\cos\\theta+i\\sin\\theta)^n=\\cos n\\theta+i\\sin n\\theta",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

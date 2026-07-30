@@ -3,7 +3,7 @@
   "chapter": "induction-ac",
   "title": "AC Generator EMF",
   "titleBn": "AC জেনারেটরের তড়িচ্চালক বল",
-  "summary": "ε = ε₀ sinωt",
+  "summary": "ε₀ = NBAω — ঘূর্ণন দ্রুত হলে emf বাড়ে।",
   "latex": "\\mathcal{E}=NBA\\omega\\sin\\omega t=\\mathcal{E}_0\\sin\\omega t",
   "tags": [
     "hsc",
@@ -58,7 +58,11 @@
   ],
   "memorize": {
     "trick": "ε₀ = NBAω — ঘূর্ণন দ্রুত হলে emf বাড়ে।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\mathcal{E}=NBA\\omega\\sin\\omega t=\\mathcal{E}_0\\sin\\omega t",
+      "কী কাজে লাগে: AC জেনারেটরের তড়িচ্চালক বল",
+      "চিহ্ন মনে রাখো: N, A, \\omega"
+    ]
   },
   "subjects": [
     "physics"

@@ -63,8 +63,12 @@
     }
   ],
   "memorize": {
-    "trick": "হার ∝ A ও ΔT, ∝ 1/L — Ohm-এর ছাঁচ।",
-    "steps": []
+    "trick": "তাপ হার Ohm-এর মতো: H = kAΔT/L — A↑ H↑, L↑ H↓।",
+    "steps": [
+      "H ∝ A ও ΔT",
+      "H ∝ 1/L",
+      "k = পদার্থের পরিবাহিতা"
+    ]
   },
   "subjects": [
     "physics"

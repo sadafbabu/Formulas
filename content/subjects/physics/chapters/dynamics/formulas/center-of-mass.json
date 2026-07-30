@@ -3,7 +3,7 @@
   "chapter": "dynamics",
   "title": "Center of Mass",
   "titleBn": "ভরকেন্দ্র",
-  "summary": "x_cm = Σm_i x_i / Σm_i",
+  "summary": "ভরকেন্দ্র = ভর-ওজনকৃত গড় অবস্থান — ভারী দিক টানে।",
   "latex": "\\vec r_{\\mathrm{cm}}=\\dfrac{\\sum m_i\\vec r_i}{\\sum m_i}",
   "tags": [
     "hsc",
@@ -32,12 +32,17 @@
     }
   ],
   "derivation": {
-    "lead": "ভর-ওজনকৃত গড় অবস্থান।",
+    "lead": "ভরকেন্দ্র = ভর-ওজনকৃত গড় অবস্থান — ভারী দিক টানে।",
     "steps": [
       {
-        "title": "১D",
-        "latex": "x_{\\mathrm{cm}}=\\sum m_ix_i/\\sum m_i",
-        "note": "বাহ্যিক বলহীন সিস্টেমে v_cm ধ্রুব।"
+        "title": "মূল সূত্র",
+        "latex": "\\vec r_{\\mathrm{cm}}=\\dfrac{\\sum m_i\\vec r_i}{\\sum m_i}",
+        "note": "ভরকেন্দ্র = ভর-ওজনকৃত গড় অবস্থান — ভারী দিক টানে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\vec r_{\\mathrm{cm}}=\\dfrac{\\sum m_i\\vec r_i}{\\sum m_i}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

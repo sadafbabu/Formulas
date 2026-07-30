@@ -33,8 +33,13 @@
       "unit": "Ω"
     },
     {
-      "symbol": "X_L, X_C",
+      "symbol": "X_L",
       "meaning": "আবেশীয় ও ধারকীয় প্রতিক্রিয়া",
+      "unit": "Ω"
+    },
+    {
+      "symbol": "X_C",
+      "meaning": "X_C সম্পর্কিত রাশি",
       "unit": "Ω"
     }
   ],
@@ -42,9 +47,14 @@
     "lead": "শক্তি সংরক্ষণ থেকে LC দোলন ও কিরখফের সূত্র থেকে LCR সমীকরণ।",
     "steps": [
       {
-        "title": "অনুনাদ কম্পাঙ্ক",
-        "latex": "f_0 = \\frac{1}{2\\pi\\sqrt{LC}}",
-        "note": "অনুনাদে X_L = X_C, প্রতিবাধা ন্যূনতম"
+        "title": "মূল সূত্র",
+        "latex": "T = 2\\pi\\sqrt{LC}, \\quad f_0 = \\frac{1}{2\\pi\\sqrt{LC}}, \\quad Z = \\sqrt{R^2 + (X_L - X_C)^2}",
+        "note": "শক্তি সংরক্ষণ থেকে LC দোলন ও কিরখফের সূত্র থেকে LCR সমীকরণ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "T = 2\\pi\\sqrt{LC}, \\quad f_0 = \\frac{1}{2\\pi\\sqrt{LC}}, \\quad Z = \\sqrt{R^2 + (X_L - X_C)^2}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

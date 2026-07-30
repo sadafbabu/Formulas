@@ -32,9 +32,14 @@
     "lead": "টেইলর সিরিজ থেকে cos θ + i sin θ = e^(iθ) প্রাপ্ত।",
     "steps": [
       {
-        "title": "অয়লার সূত্র",
-        "latex": "e^{i\\theta} = \\cos\\theta + i\\sin\\theta",
-        "note": "এখান থেকে de Moivre সূত্র প্রাপ্ত"
+        "title": "মূল সূত্র",
+        "latex": "e^{i\\theta} = \\cos\\theta + i\\sin\\theta, \\quad z = re^{i\\theta}",
+        "note": "টেইলর সিরিজ থেকে cos θ + i sin θ = e^(iθ) প্রাপ্ত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "e^{i\\theta} = \\cos\\theta + i\\sin\\theta, \\quad z = re^{i\\theta}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -51,7 +56,12 @@
     }
   ],
   "memorize": {
-    "trick": "e^(iθ) = cos θ + i sin θ — জটিল সংখ্যার সূচকীয় রূপ। মডুলাস r ও আর্গুমেন্ট θ।"
+    "trick": "e^(iθ) = cos θ + i sin θ — জটিল সংখ্যার সূচকীয় রূপ। মডুলাস r ও আর্গুমেন্ট θ।",
+    "steps": [
+      "সূত্র: e^{i\\theta} = \\cos\\theta + i\\sin\\theta, \\quad z = re^{i\\theta}",
+      "অয়লার সূত্র ও জটিল সংখ্যার সূচকীয় রূপ",
+      "চিহ্ন মনে রাখো: r, \\theta, i"
+    ]
   },
   "subjects": [
     "math"

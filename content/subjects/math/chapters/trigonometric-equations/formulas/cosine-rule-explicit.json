@@ -3,7 +3,7 @@
   "chapter": "trigonometric-equations",
   "title": "Law of Cosines",
   "titleBn": "কসাইন সূত্র",
-  "summary": "c²=a²+b²−2ab cosC",
+  "summary": "কোণ জানা থাকলে তৃতীয় বাহু। c^2=a^2+b^2-2ab\\cos C",
   "latex": "c^2=a^2+b^2-2ab\\cos C",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 230,
   "symbols": [
     {
-      "symbol": "c, a, b, C",
+      "symbol": "c",
       "meaning": "c²=a²+b²−2ab cosC",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "C",
+      "meaning": "C সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "কোণ জানা থাকলে তৃতীয় বাহু।",
+    "lead": "কোণ জানা থাকলে তৃতীয় বাহু। c^2=a^2+b^2-2ab\\cos C",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "c^2=a^2+b^2-2ab\\cos C",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "কোণ জানা থাকলে তৃতীয় বাহু। c^2=a^2+b^2-2ab\\cos C"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "c^2=a^2+b^2-2ab\\cos C",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কসাইন সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: কোণ জানা থাকলে তৃতীয় বাহু।)",
+      "question": "কসাইন সূত্র কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "c^2=a^2+b^2-2ab\\cos C"
     }
   ],
   "memorize": {
-    "trick": "কোণ জানা থাকলে তৃতীয় বাহু।",
-    "steps": []
+    "trick": "কোণ জানা থাকলে তৃতীয় বাহু। c^2=a^2+b^2-2ab\\cos C",
+    "steps": [
+      "সূত্র: c^2=a^2+b^2-2ab\\cos C",
+      "কী কাজে লাগে: কসাইন সূত্র",
+      "চিহ্ন মনে রাখো: c, a, b, C"
+    ]
   },
   "subjects": [
     "math"

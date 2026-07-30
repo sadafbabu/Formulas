@@ -21,8 +21,13 @@
       "unit": "J·s"
     },
     {
-      "symbol": "f, f_0",
+      "symbol": "f",
       "meaning": "আলোর কম্পাঙ্ক ও থ্রেশহোল্ড",
+      "unit": "Hz"
+    },
+    {
+      "symbol": "f_0",
+      "meaning": "f_0 সম্পর্কিত রাশি",
       "unit": "Hz"
     },
     {

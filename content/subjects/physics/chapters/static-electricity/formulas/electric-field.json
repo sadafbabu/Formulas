@@ -39,9 +39,14 @@
     "lead": "Coulomb-এর সূত্র ও ফ্লাক্স সংরক্ষণ থেকে গাউসের সূত্র প্রাপ্ত।",
     "steps": [
       {
-        "title": "গাউসের সূত্র",
-        "latex": "\\oint E \\cdot dA = q/\\varepsilon_0",
-        "note": "প্রতিসাম্য থাকলে ক্ষেত্র সহজে নির্ণেয়"
+        "title": "মূল সূত্র",
+        "latex": "E = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{r^2}, \\quad \\oint E \\cdot dA = \\frac{q_{encl}}{\\varepsilon_0}",
+        "note": "Coulomb-এর সূত্র ও ফ্লাক্স সংরক্ষণ থেকে গাউসের সূত্র প্রাপ্ত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "E = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{r^2}, \\quad \\oint E \\cdot dA = \\frac{q_{encl}}{\\varepsilon_0}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

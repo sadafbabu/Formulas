@@ -3,7 +3,7 @@
   "chapter": "coordination-chemistry",
   "title": "CFSE for Octahedral Complex",
   "titleBn": "অষ্টতলকীয় জটিলের CFSE",
-  "summary": "CFSE = (−0.4 n_t2g + 0.6 n_eg) Δ_o",
+  "summary": "t₂g −0.4, e_g +0.6 — গুণে যোগ করো Δ_o।",
   "latex": "\\mathrm{CFSE}=(-0.4\\,n_{t_{2g}}+0.6\\,n_{e_g})\\Delta_o",
   "tags": [
     "hsc",
@@ -16,8 +16,13 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "n_{t_{2g}}, n_{e_g}",
+      "symbol": "n_{t_{2g}}",
       "meaning": "দুই সেটে ইলেকট্রন সংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "n_{e_g}",
+      "meaning": "n_{e_g} সম্পর্কিত রাশি",
       "unit": "—"
     },
     {

@@ -40,9 +40,14 @@
     "lead": "অসীম লঘুতায় প্রতিটি আয়ন স্বাধীনভাবে তড়িৎ পরিবহনে অবদান রাখে।",
     "steps": [
       {
-        "title": "কোলরাউশের স্বাধীন আয়ন সঞ্চারণ নীতি",
-        "latex": "\\Lambda_m^\\circ (\\text{NaCl}) = \\lambda^\\circ (\\text{Na}^+) + \\lambda^\\circ (\\text{Cl}^-)",
-        "note": "মৃদু তড়িৎ বিশ্লেষ্যের দ্রাব্যতা ও বিয়োজন মাত্রা α = Λm / Λm° নির্ণয়ে ব্যবহৃত হয়"
+        "title": "মূল সূত্র",
+        "latex": "\\Lambda_m = \\frac{\\kappa \\times 1000}{M}, \\quad \\Lambda_m^\\circ = \\nu_+ \\lambda_+^\\circ + \\nu_- \\lambda_-^\\circ",
+        "note": "অসীম লঘুতায় প্রতিটি আয়ন স্বাধীনভাবে তড়িৎ পরিবহনে অবদান রাখে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\Lambda_m = \\frac{\\kappa \\times 1000}{M}, \\quad \\Lambda_m^\\circ = \\nu_+ \\lambda_+^\\circ + \\nu_- \\lambda_-^\\circ",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []

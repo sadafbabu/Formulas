@@ -3,7 +3,7 @@
   "chapter": "integration",
   "title": "Fundamental Theorem of Calculus",
   "titleBn": "ক্যালকুলাসের মৌলিক উপপাদ্য",
-  "summary": "d/dx ∫_a^x f = f(x)",
+  "summary": "যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
   "latex": "\\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "d, x, int, a",
+      "symbol": "d",
       "meaning": "d/dx ∫_a^x f = f(x)",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "x সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "int",
+      "meaning": "int সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "যোগজের অন্তরক = মূল ফাংশন।",
+    "lead": "যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্যালকুলাসের মৌলিক উপপাদ্য এর সূত্রটি লেখো। (ইঙ্গিত: যোগজের অন্তরক = মূল ফাংশন।)",
+      "question": "ক্যালকুলাসের মৌলিক উপপাদ্য কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)"
     }
   ],
   "memorize": {
-    "trick": "যোগজের অন্তরক = মূল ফাংশন।",
-    "steps": []
+    "trick": "যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
+    "steps": [
+      "সূত্র: \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
+      "কী কাজে লাগে: ক্যালকুলাসের মৌলিক উপপাদ্য",
+      "চিহ্ন মনে রাখো: d, x, int, a"
+    ]
   },
   "subjects": [
     "math"

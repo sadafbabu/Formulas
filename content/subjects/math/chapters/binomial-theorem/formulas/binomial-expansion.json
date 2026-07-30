@@ -35,9 +35,14 @@
     "lead": "গাণিতিক আরোহ প্রণালী (Mathematical Induction) দ্বারা দ্বিপদী উপপাদ্য প্রমাণিত।",
     "steps": [
       {
-        "title": "সাধারণ পদ রূপায়ণ",
-        "latex": "T_{r+1} = \\binom{n}{r} a^{n-r} x^r = \\frac{n!}{r!(n-r)!} a^{n-r} x^r",
-        "note": "x বর্জিত বা স্বাধীন পদের জন্য x এর সূচক = 0 ধরা হয়"
+        "title": "মূল সূত্র",
+        "latex": "T_{r+1} = \\binom{n}{r} a^{n-r} x^r, \\quad (1 + x)^n = 1 + n x + \\frac{n(n-1)}{2!} x^2 + \\dots",
+        "note": "গাণিতিক আরোহ প্রণালী (Mathematical Induction) দ্বারা দ্বিপদী উপপাদ্য প্রমাণিত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "T_{r+1} = \\binom{n}{r} a^{n-r} x^r, \\quad (1 + x)^n = 1 + n x + \\frac{n(n-1)}{2!} x^2 + \\dots",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -52,7 +57,12 @@
     }
   ],
   "memorize": {
-    "trick": "(a+b)ⁿ = Σ C(n,r) a^(n-r) b^r — a-এর ঘাত কমে, b-এর ঘাত বাড়ে, সহগ nCr।"
+    "trick": "(a+b)ⁿ = Σ C(n,r) a^(n-r) b^r — a-এর ঘাত কমে, b-এর ঘাত বাড়ে, সহগ nCr।",
+    "steps": [
+      "সূত্র: T_{r+1} = \\binom{n}{r} a^{n-r} x^r, \\quad (1 + x)^n = 1 + n x + \\frac{n(n-1)}{2!…",
+      "(a + x)ⁿ এর বিস্তৃতি এবং (r + 1)-তম পদ নির্ণয়",
+      "চিহ্ন মনে রাখো: T_{r+1}, \\binom{n}{r}, n"
+    ]
   },
   "subjects": [
     "math"

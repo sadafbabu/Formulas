@@ -45,9 +45,14 @@
     "lead": "পথ পার্থক্য ΔS = d sinθ ≈ d (y/D) = n λ গঠনমূলক ব্যতিচারের শর্ত হতে প্রাপ্ত।",
     "steps": [
       {
-        "title": "ডোরার ব্যবধান নির্ণয়",
-        "latex": "y_n = n \\frac{\\lambda D}{d} \\implies \\beta = y_{n+1} - y_n = \\frac{\\lambda D}{d}",
-        "note": "ধ্বংসাত্মক ব্যতিচারের জন্য পথ পার্থক্য = (2n + 1) λ/2"
+        "title": "মূল সূত্র",
+        "latex": "\\beta = \\frac{\\lambda D}{d}, \\quad \\Delta x = \\frac{\\lambda D}{2 d}, \\quad y_n = n \\frac{\\lambda D}{d} \\text{ (Bright)}",
+        "note": "পথ পার্থক্য ΔS = d sinθ ≈ d (y/D) = n λ গঠনমূলক ব্যতিচারের শর্ত হতে প্রাপ্ত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\beta = \\frac{\\lambda D}{d}, \\quad \\Delta x = \\frac{\\lambda D}{2 d}, \\quad y_n = n \\frac{\\lambda D}{d} \\text{ (Bright)}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

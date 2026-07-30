@@ -50,9 +50,14 @@
     "lead": "তরঙ্গের গতিবেগ v = fλ সকল তরঙ্গের ক্ষেত্রে প্রযোজ্য।",
     "steps": [
       {
-        "title": "স্থির তরঙ্গ (Standing Wave)",
-        "latex": "y = 2A\\cos(kx)\\sin(\\omega t), \\quad \\text{Node: } kx = (2n+1)\\frac{\\pi}{2}, \\quad \\text{Antinode: } kx = n\\pi",
-        "note": "তারে তরঙ্গ: v = √(T/μ), যেখানে T = তারের টান, μ = রৈখিক ভর ঘনত্ব"
+        "title": "মূল সূত্র",
+        "latex": "v = f\\lambda, \\quad y = A\\sin(\\omega t - kx), \\quad \\omega = 2\\pi f, \\quad k = \\frac{2\\pi}{\\lambda}, \\quad v = \\sqrt{\\frac{T}{\\mu}}",
+        "note": "তরঙ্গের গতিবেগ v = fλ সকল তরঙ্গের ক্ষেত্রে প্রযোজ্য।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "v = f\\lambda, \\quad y = A\\sin(\\omega t - kx), \\quad \\omega = 2\\pi f, \\quad k = \\frac{2\\pi}{\\lambda}, \\quad v = \\sqrt{\\frac{T}{\\mu}}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

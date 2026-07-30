@@ -3,7 +3,7 @@
   "chapter": "differentiation",
   "title": "Derivative Definition",
   "titleBn": "অন্তরকের সংজ্ঞা",
-  "summary": "lim h→0",
+  "summary": "ঢালের সীমা = অন্তরক। f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
   "latex": "f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "f, x, lim, h",
+      "symbol": "f",
       "meaning": "lim h→0",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "x সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "lim",
+      "meaning": "lim সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "h",
+      "meaning": "h সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "lim h→0 — ঢালের সীমা = অন্তরক।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অন্তরকের সংজ্ঞা এর সূত্রটি লেখো। (ইঙ্গিত: ঢালের সীমা = অন্তরক।)",
+      "question": "অন্তরকের সংজ্ঞা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}"
     }
   ],
   "memorize": {
-    "trick": "ঢালের সীমা = অন্তরক।",
-    "steps": []
+    "trick": "ঢালের সীমা = অন্তরক। f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
+    "steps": [
+      "সূত্র: f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
+      "কী কাজে লাগে: অন্তরকের সংজ্ঞা",
+      "চিহ্ন মনে রাখো: f, x, lim, h"
+    ]
   },
   "subjects": [
     "math"

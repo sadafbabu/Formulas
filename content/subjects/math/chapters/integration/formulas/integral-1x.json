@@ -3,7 +3,7 @@
   "chapter": "integration",
   "title": "∫ dx/x",
   "titleBn": "১/x এর যোগজ",
-  "summary": "ln|x|",
+  "summary": "n=−1 ব্যতিক্রম → ln|x|। \\int\\frac{1}{x}\\,dx=\\ln|x|+C",
   "latex": "\\int\\frac{1}{x}\\,dx=\\ln|x|+C",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "int, x, d, C",
-      "meaning": "ln|x|",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "int",
+      "meaning": "ln",
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "x",
+      "unit": "—"
+    },
+    {
+      "symbol": "d",
+      "meaning": "d সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "C",
+      "meaning": "C সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\int\\frac{1}{x}\\,dx=\\ln|x|+C",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "ln|x| — n=−1 ব্যতিক্রম → ln|x|।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\int\\frac{1}{x}\\,dx=\\ln|x|+C",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "১/x এর যোগজ এর সূত্রটি লেখো। (ইঙ্গিত: n=−1 ব্যতিক্রম → ln|x|।)",
+      "question": "১/x এর যোগজ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\int\\frac{1}{x}\\,dx=\\ln|x|+C"
     }
   ],
   "memorize": {
-    "trick": "n=−1 ব্যতিক্রম → ln|x|।",
-    "steps": []
+    "trick": "n=−1 ব্যতিক্রম → ln|x|। \\int\\frac{1}{x}\\,dx=\\ln|x|+C",
+    "steps": [
+      "সূত্র: \\int\\frac{1}{x}\\,dx=\\ln|x|+C",
+      "কী কাজে লাগে: ১/x এর যোগজ",
+      "চিহ্ন মনে রাখো: int, x, d, C"
+    ]
   },
   "subjects": [
     "math"

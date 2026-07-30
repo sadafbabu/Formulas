@@ -15,18 +15,38 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "a, theta, b, in",
+      "symbol": "a",
       "meaning": "a cosθ + b sinθ এর রেঞ্জ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "theta",
+      "meaning": "theta সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "in",
+      "meaning": "in সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "a cosθ + b sinθ এর রেঞ্জ",
+    "lead": "ত্রিকোণমিতিক রাশির সীমা এর মূল সম্পর্ক ও প্রয়োগ।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "a\\cos\\theta+b\\sin\\theta\\in\\big[-\\sqrt{a^2+b^2},\\sqrt{a^2+b^2}\\big]",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "ত্রিকোণমিতিক রাশির সীমা এর মূল সম্পর্ক ও প্রয়োগ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "a\\cos\\theta+b\\sin\\theta\\in\\big[-\\sqrt{a^2+b^2},\\sqrt{a^2+b^2}\\big]",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ত্রিকোণমিতিক রাশির সীমা এর সূত্রটি লেখো। (ইঙ্গিত: রেঞ্জ = [−R, R], R=√(a²+b²)।)",
+      "question": "ত্রিকোণমিতিক রাশির সীমা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "a\\cos\\theta+b\\sin\\theta\\in\\big[-\\sqrt{a^2+b^2},\\sqrt{a^2+b^2}\\big]"
     }
   ],
   "memorize": {
-    "trick": "রেঞ্জ = [−R, R], R=√(a²+b²)।",
-    "steps": []
+    "trick": "রেঞ্জ = [−R, R], R=√(a²+b²)। a cosθ + b sinθ এর রেঞ্জ",
+    "steps": [
+      "সূত্র: a\\cos\\theta+b\\sin\\theta\\in\\big[-\\sqrt{a^2+b^2},\\sqrt{a^2+b^2}\\big]",
+      "a cosθ + b sinθ এর রেঞ্জ",
+      "চিহ্ন মনে রাখো: a, theta, b, in"
+    ]
   },
   "subjects": [
     "math"

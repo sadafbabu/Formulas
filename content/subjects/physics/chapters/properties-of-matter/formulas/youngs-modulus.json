@@ -31,18 +31,28 @@
       "unit": "m²"
     },
     {
-      "symbol": "L, \\Delta L",
+      "symbol": "L",
       "meaning": "আদি দৈর্ঘ্য ও বৃদ্ধি",
+      "unit": "m"
+    },
+    {
+      "symbol": "\\Delta L",
+      "meaning": "\\Delta L সম্পর্কিত রাশি",
       "unit": "m"
     }
   ],
   "derivation": {
-    "lead": "stress/strain অনুপাতই Y।",
+    "lead": "Y = (F/A)/(ΔL/L) — দৈর্ঘ্যীয় স্থিতিস্থাপকতা",
     "steps": [
       {
-        "title": "সূত্র",
-        "latex": "Y=FL/(A\\Delta L)",
-        "note": "ইস্পাতের Y ≈ 2×10¹¹ Pa।"
+        "title": "মূল সূত্র",
+        "latex": "Y=\\dfrac{F/A}{\\Delta L/L}=\\dfrac{FL}{A\\Delta L}",
+        "note": "Y = (F/A)/(ΔL/L) — দৈর্ঘ্যীয় স্থিতিস্থাপকতা"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "Y=\\dfrac{F/A}{\\Delta L/L}=\\dfrac{FL}{A\\Delta L}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

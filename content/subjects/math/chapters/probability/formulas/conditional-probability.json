@@ -3,7 +3,7 @@
   "chapter": "probability",
   "title": "Conditional Probability",
   "titleBn": "শর্তাধীন সম্ভাব্যতা",
-  "summary": "P(A|B)",
+  "summary": "B ঘটেছে ধরে A-এর সম্ভাব্যতা; ভajra = P(A∩B)/P(B)।",
   "latex": "P(A|B)=\\frac{P(A\\cap B)}{P(B)}",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "P, A, B, cap",
-      "meaning": "P(A|B)",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "P",
+      "meaning": "P(A",
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "B)",
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "cap",
+      "meaning": "cap সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P(A|B)=\\frac{P(A\\cap B)}{P(B)}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "B ঘটেছে ধরে A-এর সম্ভাব্যতা; ভajra = P(A∩B)/P(B)।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "P(A|B)=\\frac{P(A\\cap B)}{P(B)}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শর্তাধীন সম্ভাব্যতা এর সূত্রটি লেখো। (ইঙ্গিত: B ঘটেছে ধরে A-এর সম্ভাব্যতা; ভajra = P(A∩B)/P(B)।)",
+      "question": "শর্তাধীন সম্ভাব্যতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "P(A|B)=\\frac{P(A\\cap B)}{P(B)}"
     }
   ],
   "memorize": {
     "trick": "B ঘটেছে ধরে A-এর সম্ভাব্যতা; ভajra = P(A∩B)/P(B)।",
-    "steps": []
+    "steps": [
+      "সূত্র: P(A|B)=\\frac{P(A\\cap B)}{P(B)}",
+      "কী কাজে লাগে: শর্তাধীন সম্ভাব্যতা",
+      "চিহ্ন মনে রাখো: P, A, B, cap"
+    ]
   },
   "subjects": [
     "math"

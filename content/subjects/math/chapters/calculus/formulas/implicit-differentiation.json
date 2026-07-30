@@ -3,7 +3,7 @@
   "chapter": "calculus",
   "title": "Implicit Differentiation",
   "titleBn": "অন্তর্নিহিত অন্তরীকরণ",
-  "summary": "F(x,y)=0 থেকে dy/dx",
+  "summary": "দুই পাশে d/dx; dy/dx কে আলাদা করুন।",
   "latex": "F(x,y)=0\\Rightarrow\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "F, x, y, Rightarrow",
-      "meaning": "F(x,y)=0 থেকে dy/dx",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "F",
+      "meaning": "F(x",
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "y)=0 থেকে dy/dx",
+      "unit": "—"
+    },
+    {
+      "symbol": "y",
+      "meaning": "y সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "Rightarrow",
+      "meaning": "Rightarrow সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "F(x,y)=0\\Rightarrow\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "দুই পাশে d/dx; dy/dx কে আলাদা করুন।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "F(x,y)=0\\Rightarrow\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অন্তর্নিহিত অন্তরীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: দুই পাশে d/dx; dy/dx কে আলাদা করুন।)",
+      "question": "অন্তর্নিহিত অন্তরীকরণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "F(x,y)=0\\Rightarrow\\frac{dy}{dx}=-\\frac{F_x}{F_y}"
     }
   ],
   "memorize": {
     "trick": "দুই পাশে d/dx; dy/dx কে আলাদা করুন।",
-    "steps": []
+    "steps": [
+      "সূত্র: F(x,y)=0\\Rightarrow\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
+      "কী কাজে লাগে: অন্তর্নিহিত অন্তরীকরণ",
+      "চিহ্ন মনে রাখো: F, x, y, Rightarrow"
+    ]
   },
   "subjects": [
     "math"

@@ -16,18 +16,33 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "V_p, V_s",
+      "symbol": "V_p",
       "meaning": "মুখ্য ও গৌণ কুন্ডলীর বিভব",
       "unit": "V"
     },
     {
-      "symbol": "N_p, N_s",
+      "symbol": "V_s",
+      "meaning": "V_s সম্পর্কিত রাশি",
+      "unit": "V"
+    },
+    {
+      "symbol": "N_p",
       "meaning": "মুখ্য ও গৌণ কুন্ডলীর পাক সংখ্যা",
       "unit": "সংখ্যা"
     },
     {
-      "symbol": "I_p, I_s",
+      "symbol": "N_s",
+      "meaning": "N_s সম্পর্কিত রাশি",
+      "unit": "সংখ্যা"
+    },
+    {
+      "symbol": "I_p",
       "meaning": "মুখ্য ও গৌণ কুন্ডলীর তড়িৎ প্রবাহ",
+      "unit": "A"
+    },
+    {
+      "symbol": "I_s",
+      "meaning": "I_s সম্পর্কিত রাশি",
       "unit": "A"
     }
   ],
@@ -35,9 +50,14 @@
     "lead": "আদর্শ ট্রান্সফরমারে ক্ষমতা অক্ষুণ্ণ থাকে (Pp = Ps => Vp Ip = Vs Is)।",
     "steps": [
       {
-        "title": "ক্ষমতা অক্ষুণ্ণতা নীতি",
-        "latex": "P_{\\text{in}} = P_{\\text{out}} \\implies V_p I_p = V_s I_s \\implies \\frac{V_p}{V_s} = \\frac{I_s}{I_p}",
-        "note": "স্ট্যাপ-আপ ট্রান্সফরমারে Ns > Np এবং Vs > Vp"
+        "title": "মূল সূত্র",
+        "latex": "\\frac{V_p}{V_s} = \\frac{N_p}{N_s} = \\frac{I_s}{I_p}",
+        "note": "আদর্শ ট্রান্সফরমারে ক্ষমতা অক্ষুণ্ণ থাকে (Pp = Ps => Vp Ip = Vs Is)।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\frac{V_p}{V_s} = \\frac{N_p}{N_s} = \\frac{I_s}{I_p}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -52,7 +72,12 @@
     }
   ],
   "memorize": {
-    "trick": "V_p/V_s = N_p/N_s = I_s/I_p — ভোল্টেজ ∝ কুণ্ডলী, প্রবাহ ∝ উল্টো।"
+    "trick": "V_p/V_s = N_p/N_s = I_s/I_p — ভোল্টেজ ∝ কুণ্ডলী, প্রবাহ ∝ উল্টো।",
+    "steps": [
+      "সূত্র: \\frac{V_p}{V_s} = \\frac{N_p}{N_s} = \\frac{I_s}{I_p}",
+      "মুখ্য ও গৌণ কুন্ডলীর ভোল্টেজ, পাকসংখ্যা ও প্রবাহের সম্পর্ক",
+      "চিহ্ন মনে রাখো: V_p, V_s, N_p, N_s, I_p, I_s"
+    ]
   },
   "subjects": [
     "physics"

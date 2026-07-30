@@ -3,7 +3,7 @@
   "chapter": "integration",
   "title": "∫ eˣ dx",
   "titleBn": "eˣ এর যোগজ",
-  "summary": "eˣ",
+  "summary": "eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
   "latex": "\\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "int, e, x, d",
+      "symbol": "int",
       "meaning": "eˣ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "e",
+      "meaning": "e সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "x সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "d",
+      "meaning": "d সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "eˣ নিজের যোগজ; aˣ ভাগ ln a।",
+    "lead": "eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "eˣ এর যোগজ এর সূত্রটি লেখো। (ইঙ্গিত: eˣ নিজের যোগজ; aˣ ভাগ ln a।)",
+      "question": "eˣ এর যোগজ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C"
     }
   ],
   "memorize": {
-    "trick": "eˣ নিজের যোগজ; aˣ ভাগ ln a।",
-    "steps": []
+    "trick": "eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
+    "steps": [
+      "সূত্র: \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
+      "কী কাজে লাগে: eˣ এর যোগজ",
+      "চিহ্ন মনে রাখো: int, e, x, d"
+    ]
   },
   "subjects": [
     "math"

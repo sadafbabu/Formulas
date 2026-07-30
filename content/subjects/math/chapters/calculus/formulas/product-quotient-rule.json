@@ -13,13 +13,23 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "u, v",
+      "symbol": "u",
       "meaning": "দুটি ফাংশন",
       "unit": "—"
     },
     {
-      "symbol": "u', v'",
+      "symbol": "v",
+      "meaning": "v সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "u'",
       "meaning": "অন্তরীকৃত ফাংশন",
+      "unit": "—"
+    },
+    {
+      "symbol": "v'",
+      "meaning": "v' সম্পর্কিত রাশি",
       "unit": "—"
     }
   ],
@@ -27,9 +37,14 @@
     "lead": "অন্তরীকরণের সংজ্ঞা থেকে সীমার ব্যবহারে প্রাপ্ত।",
     "steps": [
       {
-        "title": "গুণফল নিয়ম",
-        "latex": "\\frac{d}{dx}(uv) = u\\frac{dv}{dx} + v\\frac{du}{dx}",
-        "note": "ভাগফল নিয়মে হর বর্গ হয়"
+        "title": "মূল সূত্র",
+        "latex": "(uv)' = u'v + uv', \\quad \\left(\\frac{u}{v}\\right)' = \\frac{u'v - uv'}{v^2}",
+        "note": "অন্তরীকরণের সংজ্ঞা থেকে সীমার ব্যবহারে প্রাপ্ত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "(uv)' = u'v + uv', \\quad \\left(\\frac{u}{v}\\right)' = \\frac{u'v - uv'}{v^2}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

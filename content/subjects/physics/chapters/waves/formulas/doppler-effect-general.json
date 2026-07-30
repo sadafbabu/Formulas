@@ -16,8 +16,13 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "f, f'",
+      "symbol": "f",
       "meaning": "প্রকৃত ও শ্রুত কম্পাঙ্ক",
+      "unit": "Hz"
+    },
+    {
+      "symbol": "f'",
+      "meaning": "f' সম্পর্কিত রাশি",
       "unit": "Hz"
     },
     {

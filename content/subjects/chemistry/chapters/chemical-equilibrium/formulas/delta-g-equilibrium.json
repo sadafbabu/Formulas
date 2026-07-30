@@ -3,7 +3,7 @@
   "chapter": "chemical-equilibrium",
   "title": "Gibbs Energy & Equilibrium",
   "titleBn": "গিবস মুক্তশক্তি ও সাম্যাবস্থা",
-  "summary": "ΔG° ও K এর সম্পর্ক",
+  "summary": "ΔG° = −RT ln K; Q=K হলে ΔG=0। \\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q",
   "latex": "\\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q",
   "tags": [
     "hsc",
@@ -16,18 +16,38 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "Delta, G, circ, R",
+      "symbol": "Delta",
       "meaning": "ΔG° ও K এর সম্পর্ক",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "G",
+      "meaning": "G সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "circ",
+      "meaning": "circ সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "R",
+      "meaning": "R সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "ΔG° = −RT ln K; Q=K হলে ΔG=0।",
+    "lead": "ΔG° = −RT ln K; Q=K হলে ΔG=0। \\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "ΔG° = −RT ln K; Q=K হলে ΔG=0। \\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গিবস মুক্তশক্তি ও সাম্যাবস্থা এর সূত্রটি লেখো। (ইঙ্গিত: ΔG° = −RT ln K; Q=K হলে ΔG=0।)",
+      "question": "গিবস মুক্তশক্তি ও সাম্যাবস্থা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q"
     }
   ],
   "memorize": {
-    "trick": "ΔG° = −RT ln K; Q=K হলে ΔG=0।",
-    "steps": []
+    "trick": "ΔG° = −RT ln K; Q=K হলে ΔG=0। \\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q",
+    "steps": [
+      "সূত্র: \\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q",
+      "কী কাজে লাগে: গিবস মুক্তশক্তি ও সাম্যাবস্থা",
+      "চিহ্ন মনে রাখো: Delta, G, circ, R"
+    ]
   },
   "subjects": [
     "chemistry"

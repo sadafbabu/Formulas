@@ -3,7 +3,7 @@
   "chapter": "surface-chemistry",
   "title": "Freundlich Isotherm",
   "titleBn": "ফ্রয়েন্ডলিচ সমতাপরেখা",
-  "summary": "x/m = k P^(1/n)",
+  "summary": "log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।",
   "latex": "\\frac{x}{m}=k P^{1/n}\\quad(n>1)",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "x, m, k, P",
+      "symbol": "x",
       "meaning": "x/m = k P^(1/n)",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "m",
+      "meaning": "m সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "k",
+      "meaning": "k সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "P",
+      "meaning": "P সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{x}{m}=k P^{1/n}\\quad(n>1)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\frac{x}{m}=k P^{1/n}\\quad(n>1)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফ্রয়েন্ডলিচ সমতাপরেখা এর সূত্রটি লেখো। (ইঙ্গিত: log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।)",
+      "question": "ফ্রয়েন্ডলিচ সমতাপরেখা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\frac{x}{m}=k P^{1/n}\\quad(n>1)"
     }
   ],
   "memorize": {
     "trick": "log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\frac{x}{m}=k P^{1/n}\\quad(n>1)",
+      "কী কাজে লাগে: ফ্রয়েন্ডলিচ সমতাপরেখা",
+      "চিহ্ন মনে রাখো: x, m, k, P"
+    ]
   },
   "subjects": [
     "chemistry"

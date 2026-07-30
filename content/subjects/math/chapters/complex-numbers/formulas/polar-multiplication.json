@@ -13,8 +13,13 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "r, \\theta",
+      "symbol": "r",
       "meaning": "মডুলাস ও অ্যাম্প্লিটিউড",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\theta",
+      "meaning": "\\theta সম্পর্কিত রাশি",
       "unit": "—"
     }
   ],
@@ -22,9 +27,14 @@
     "lead": "অয়লার রূপ থেকে গুণফলে মডুলাস গুণ, অ্যাম্প্লিটিউড যোগ হয়।",
     "steps": [
       {
-        "title": "de Moivre সূত্র",
-        "latex": "(\\cos\\theta + i\\sin\\theta)^n = \\cos n\\theta + i\\sin n\\theta",
-        "note": "n-তম মূল নির্ণয়ে ব্যবহৃত"
+        "title": "মূল সূত্র",
+        "latex": "r_1 e^{i\\theta_1} \\cdot r_2 e^{i\\theta_2} = r_1 r_2 e^{i(\\theta_1+\\theta_2)}, \\quad (re^{i\\theta})^n = r^n e^{in\\theta}",
+        "note": "অয়লার রূপ থেকে গুণফলে মডুলাস গুণ, অ্যাম্প্লিটিউড যোগ হয়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "r_1 e^{i\\theta_1} \\cdot r_2 e^{i\\theta_2} = r_1 r_2 e^{i(\\theta_1+\\theta_2)}, \\quad (re^{i\\theta})^n = r^n e^{in\\theta}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

@@ -68,7 +68,11 @@
   ],
   "memorize": {
     "trick": "সমান্তরাল → সরল; লম্ব → বৃত্ত; কোণ → হেলিক্স। r,T-এ |q|।",
-    "steps": []
+    "steps": [
+      "সূত্র: r=\\dfrac{mv_\\perp}{|q|B},\\quad T=\\dfrac{2\\pi m}{|q|B},\\quad p=v_\\parallel T",
+      "r = mv_⊥/(|q|B); T = 2πm/(|q|B); pitch = v_∥ T",
+      "চিহ্ন মনে রাখো: v_\\perp, v_\\parallel, |q|"
+    ]
   },
   "subjects": [
     "physics"

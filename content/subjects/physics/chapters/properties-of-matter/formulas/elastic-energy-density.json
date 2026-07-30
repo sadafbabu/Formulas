@@ -3,7 +3,7 @@
   "chapter": "properties-of-matter",
   "title": "Elastic Energy Density",
   "titleBn": "স্থিতিস্থাপক শক্তি ঘনত্ব",
-  "summary": "u = ½ × stress × strain",
+  "summary": "u = ½ × stress × strain — ত্রিভুজের ক্ষেত্রফল।",
   "latex": "u=\\tfrac12\\times\\text{stress}\\times\\text{strain}=\\frac{Y(\\Delta L)^2}{2L^2}",
   "tags": [
     "hsc",
@@ -53,7 +53,11 @@
   ],
   "memorize": {
     "trick": "u = ½ × stress × strain — ত্রিভুজের ক্ষেত্রফল।",
-    "steps": []
+    "steps": [
+      "সূত্র: u=\\tfrac12\\times\\text{stress}\\times\\text{strain}=\\frac{Y(\\Delta L)^2}{2L^2}",
+      "কী কাজে লাগে: স্থিতিস্থাপক শক্তি ঘনত্ব",
+      "চিহ্ন মনে রাখো: u, Y"
+    ]
   },
   "subjects": [
     "physics"

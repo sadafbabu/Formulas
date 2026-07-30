@@ -3,7 +3,7 @@
   "chapter": "qualitative-chem",
   "title": "Empirical & Molecular Formula",
   "titleBn": "আনুভবিক ও আণবিক সংকেত",
-  "summary": "EF থেকে MF নির্ণয়",
+  "summary": "n = আণবিক ভর ÷ আনুভবিক ভর। \\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
   "latex": "\\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
   "tags": [
     "hsc",
@@ -16,18 +16,38 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "MF, EF, n, M",
+      "symbol": "MF",
       "meaning": "EF থেকে MF নির্ণয়",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "EF",
+      "meaning": "EF সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "n সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "M",
+      "meaning": "M সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "n = আণবিক ভর ÷ আনুভবিক ভর।",
+    "lead": "n = আণবিক ভর ÷ আনুভবিক ভর। \\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "n = আণবিক ভর ÷ আনুভবিক ভর। \\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আনুভবিক ও আণবিক সংকেত এর সূত্রটি লেখো। (ইঙ্গিত: n = আণবিক ভর ÷ আনুভবিক ভর।)",
+      "question": "আনুভবিক ও আণবিক সংকেত কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}"
     }
   ],
   "memorize": {
-    "trick": "n = আণবিক ভর ÷ আনুভবিক ভর।",
-    "steps": []
+    "trick": "n = আণবিক ভর ÷ আনুভবিক ভর। \\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
+    "steps": [
+      "সূত্র: \\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
+      "কী কাজে লাগে: আনুভবিক ও আণবিক সংকেত",
+      "চিহ্ন মনে রাখো: MF, EF, n, M"
+    ]
   },
   "subjects": [
     "chemistry"

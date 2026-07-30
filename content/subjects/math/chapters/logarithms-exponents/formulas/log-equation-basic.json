@@ -3,7 +3,7 @@
   "chapter": "logarithms-exponents",
   "title": "Basic Log Equation",
   "titleBn": "মৌলিক লগ সমীকরণ",
-  "summary": "log_b a = c ⇒ a=b^c",
+  "summary": "লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
   "latex": "\\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "b, a, c, iff",
+      "symbol": "b",
       "meaning": "log_b a = c ⇒ a=b^c",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "c",
+      "meaning": "c সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "iff",
+      "meaning": "iff সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "লগ সমীকরণ → ঘাত আকারে লেখো।",
+    "lead": "লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মৌলিক লগ সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: লগ সমীকরণ → ঘাত আকারে লেখো।)",
+      "question": "মৌলিক লগ সমীকরণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)"
     }
   ],
   "memorize": {
-    "trick": "লগ সমীকরণ → ঘাত আকারে লেখো।",
-    "steps": []
+    "trick": "লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
+    "steps": [
+      "সূত্র: \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
+      "কী কাজে লাগে: মৌলিক লগ সমীকরণ",
+      "চিহ্ন মনে রাখো: b, a, c, iff"
+    ]
   },
   "subjects": [
     "math"

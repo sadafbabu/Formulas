@@ -21,13 +21,23 @@
       "unit": "—"
     },
     {
-      "symbol": "h', h",
+      "symbol": "h'",
       "meaning": "প্রতিবিম্ব ও বস্তুর উচ্চতা",
       "unit": "m"
     },
     {
-      "symbol": "v, u",
+      "symbol": "h",
+      "meaning": "h সম্পর্কিত রাশি",
+      "unit": "m"
+    },
+    {
+      "symbol": "v",
       "meaning": "প্রতিবিম্ব ও বস্তুর দূরত্ব (চিহ্নসহ)",
+      "unit": "m"
+    },
+    {
+      "symbol": "u",
+      "meaning": "u সম্পর্কিত রাশি",
       "unit": "m"
     },
     {

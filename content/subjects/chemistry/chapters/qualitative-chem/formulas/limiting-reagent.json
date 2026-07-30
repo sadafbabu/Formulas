@@ -16,9 +16,24 @@
   "order": 150,
   "symbols": [
     {
-      "symbol": "n, prod, i, Big",
+      "symbol": "n",
       "meaning": "প্রোডাক্ট নির্ণয়ে সীমিত বিকারক",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "prod",
+      "meaning": "prod সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "i",
+      "meaning": "i সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "Big",
+      "meaning": "Big সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "n_{\\text{prod}}=\\min_i\\Big(\\frac{n_i}{\\nu_i}\\Big)\\times\\nu_{\\text{prod}}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "প্রোডাক্ট নির্ণয়ে সীমিত বিকারক"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "n_{\\text{prod}}=\\min_i\\Big(\\frac{n_i}{\\nu_i}\\Big)\\times\\nu_{\\text{prod}}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সীমিত বিকারক এর সূত্রটি লেখো। (ইঙ্গিত: যে বিকারকের n/ν সবচেয়ে ছোট সেটা limiting।)",
+      "question": "সীমিত বিকারক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "n_{\\text{prod}}=\\min_i\\Big(\\frac{n_i}{\\nu_i}\\Big)\\times\\nu_{\\text{prod}}"
     }
   ],
   "memorize": {
     "trick": "যে বিকারকের n/ν সবচেয়ে ছোট সেটা limiting।",
-    "steps": []
+    "steps": [
+      "সূত্র: n_{\\text{prod}}=\\min_i\\Big(\\frac{n_i}{\\nu_i}\\Big)\\times\\nu_{\\text{prod}}",
+      "প্রোডাক্ট নির্ণয়ে সীমিত বিকারক",
+      "চিহ্ন মনে রাখো: n, prod, i, Big"
+    ]
   },
   "subjects": [
     "chemistry"

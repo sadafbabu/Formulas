@@ -3,7 +3,7 @@
   "chapter": "vector-algebra",
   "title": "Dot Product",
   "titleBn": "অন্তঃগুণফল",
-  "summary": "a·b = |a||b|cosθ",
+  "summary": "লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।",
   "latex": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_xb_x+a_yb_y+a_zb_z",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "vec, a, b, theta",
-      "meaning": "a·b = |a||b|cosθ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "vec",
+      "meaning": "a·b =",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b",
+      "unit": "—"
+    },
+    {
+      "symbol": "theta",
+      "meaning": "cosθ",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_xb_x+a_yb_y+a_zb_z",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_xb_x+a_yb_y+a_zb_z",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অন্তঃগুণফল এর সূত্রটি লেখো। (ইঙ্গিত: লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।)",
+      "question": "অন্তঃগুণফল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_xb_x+a_yb_y+a_zb_z"
     }
   ],
   "memorize": {
     "trick": "লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_xb_x+a_yb_y+a_zb_z",
+      "কী কাজে লাগে: অন্তঃগুণফল",
+      "চিহ্ন মনে রাখো: vec, a, b, theta"
+    ]
   },
   "subjects": [
     "math"

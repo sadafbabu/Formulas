@@ -3,7 +3,7 @@
   "chapter": "linear-programming",
   "title": "Objective Function",
   "titleBn": "উদ্দেশ্য ফাংশন",
-  "summary": "Z = ax+by",
+  "summary": "কোণবিন্দুতে চরম মান পাওয়া যায়।",
   "latex": "Z=ax+by\\ (\\text{maximize/minimize})",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "Z, a, x, b",
+      "symbol": "Z",
       "meaning": "Z = ax+by",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "x সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "Z=ax+by\\ (\\text{maximize/minimize})",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "কোণবিন্দুতে চরম মান পাওয়া যায়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "Z=ax+by\\ (\\text{maximize/minimize})",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উদ্দেশ্য ফাংশন এর সূত্রটি লেখো। (ইঙ্গিত: কোণবিন্দুতে চরম মান পাওয়া যায়।)",
+      "question": "উদ্দেশ্য ফাংশন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "Z=ax+by\\ (\\text{maximize/minimize})"
     }
   ],
   "memorize": {
     "trick": "কোণবিন্দুতে চরম মান পাওয়া যায়।",
-    "steps": []
+    "steps": [
+      "সূত্র: Z=ax+by\\ (\\text{maximize/minimize})",
+      "কী কাজে লাগে: উদ্দেশ্য ফাংশন",
+      "চিহ্ন মনে রাখো: Z, a, x, b"
+    ]
   },
   "subjects": [
     "math"

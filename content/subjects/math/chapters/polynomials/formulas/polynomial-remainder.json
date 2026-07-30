@@ -34,9 +34,14 @@
     "lead": "Division algorithm থেকে P(x)=(x−a)Q(x)+R; x=a বসালে remainder R=P(a)।",
     "steps": [
       {
-        "title": "অবশিষ্ট উপপাদ্য",
-        "latex": "P(x)=(x-a)Q(x)+R\\Rightarrow P(a)=R",
-        "note": "P(a)=0 হলে remainder শূন্য, তাই (x−a) factor।"
+        "title": "মূল সূত্র",
+        "latex": "P(x) \\div (x - a) \\Rightarrow \\text{Remainder} = P(a), \\quad P(a) = 0 \\Rightarrow (x - a) \\text{ is a factor}",
+        "note": "Division algorithm থেকে P(x)=(x−a)Q(x)+R; x=a বসালে remainder R=P(a)।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "P(x) \\div (x - a) \\Rightarrow \\text{Remainder} = P(a), \\quad P(a) = 0 \\Rightarrow (x - a) \\text{ is a factor}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []

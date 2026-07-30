@@ -3,7 +3,7 @@
   "chapter": "nuclear-chemistry",
   "title": "Radioactive Decay Law",
   "titleBn": "তেজস্ক্রিয় ক্ষয় সূত্র",
-  "summary": "N=N₀e^(−λt)",
+  "summary": "A = λN; সক্রিয়তা ক্ষয়ের হার।",
   "latex": "N=N_0 e^{-\\lambda t},\\quad A=\\lambda N",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "N, e, lambda, t",
+      "symbol": "N",
       "meaning": "N=N₀e^(−λt)",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "e",
+      "meaning": "e সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "lambda",
+      "meaning": "lambda সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "t",
+      "meaning": "t সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "N=N_0 e^{-\\lambda t},\\quad A=\\lambda N",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "A = λN; সক্রিয়তা ক্ষয়ের হার।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "N=N_0 e^{-\\lambda t},\\quad A=\\lambda N",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "তেজস্ক্রিয় ক্ষয় সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: A = λN; সক্রিয়তা ক্ষয়ের হার।)",
+      "question": "তেজস্ক্রিয় ক্ষয় সূত্র কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "N=N_0 e^{-\\lambda t},\\quad A=\\lambda N"
     }
   ],
   "memorize": {
     "trick": "A = λN; সক্রিয়তা ক্ষয়ের হার।",
-    "steps": []
+    "steps": [
+      "সূত্র: N=N_0 e^{-\\lambda t},\\quad A=\\lambda N",
+      "কী কাজে লাগে: তেজস্ক্রিয় ক্ষয় সূত্র",
+      "চিহ্ন মনে রাখো: N, e, lambda, t"
+    ]
   },
   "subjects": [
     "chemistry"

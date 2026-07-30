@@ -40,9 +40,14 @@
     "lead": "লেঞ্জের সূত্রানুসারে আবিষ্ট প্রবাহের দিক এমন হয় যা তার সৃষ্টিকে বাধা দেয় (ঋণাত্মক চিহ্ন)।",
     "steps": [
       {
-        "title": "ফ্লাক্স পরিবর্তন হার",
-        "latex": "\\mathcal{E} = -N \\frac{\\Delta \\Phi_B}{\\Delta t} = -N A \\frac{dB}{dt}",
-        "note": "স্থির ক্ষেত্রফলে dΦ = A dB"
+        "title": "মূল সূত্র",
+        "latex": "\\overline{\\mathcal E}=-N\\frac{\\Delta\\Phi}{\\Delta t},\\quad \\mathcal E=-N\\frac{d\\Phi}{dt};\\quad A,\\theta\\ \\text{ধ্রুব হলে }\\mathcal E=-NA\\cos\\theta\\frac{dB}{dt}",
+        "note": "লেঞ্জের সূত্রানুসারে আবিষ্ট প্রবাহের দিক এমন হয় যা তার সৃষ্টিকে বাধা দেয় (ঋণাত্মক চিহ্ন)।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\overline{\\mathcal E}=-N\\frac{\\Delta\\Phi}{\\Delta t},\\quad \\mathcal E=-N\\frac{d\\Phi}{dt};\\quad A,\\theta\\ \\text{ধ্রুব হলে }\\mathcal E=-NA\\cos\\theta\\frac{dB}{dt}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

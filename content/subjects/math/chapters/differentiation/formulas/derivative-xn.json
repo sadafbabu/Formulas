@@ -3,7 +3,7 @@
   "chapter": "differentiation",
   "title": "Power Rule",
   "titleBn": "ঘাত নিয়ম",
-  "summary": "nxⁿ⁻¹",
+  "summary": "ঘাত সামনে এনে এক কমাও। \\frac{d}{dx}x^n=nx^{n-1}",
   "latex": "\\frac{d}{dx}x^n=nx^{n-1}",
   "tags": [
     "hsc",
@@ -15,9 +15,19 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "d, x, n",
+      "symbol": "d",
       "meaning": "nxⁿ⁻¹",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "x সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "n সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{d}{dx}x^n=nx^{n-1}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "nxⁿ⁻¹ — ঘাত সামনে এনে এক কমাও।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\frac{d}{dx}x^n=nx^{n-1}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +49,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ঘাত নিয়ম এর সূত্রটি লেখো। (ইঙ্গিত: ঘাত সামনে এনে এক কমাও।)",
+      "question": "ঘাত নিয়ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\frac{d}{dx}x^n=nx^{n-1}"
     }
   ],
   "memorize": {
-    "trick": "ঘাত সামনে এনে এক কমাও।",
-    "steps": []
+    "trick": "ঘাত সামনে এনে এক কমাও। \\frac{d}{dx}x^n=nx^{n-1}",
+    "steps": [
+      "সূত্র: \\frac{d}{dx}x^n=nx^{n-1}",
+      "কী কাজে লাগে: ঘাত নিয়ম",
+      "চিহ্ন মনে রাখো: d, x, n"
+    ]
   },
   "subjects": [
     "math"

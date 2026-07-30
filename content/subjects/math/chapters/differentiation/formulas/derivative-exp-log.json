@@ -3,7 +3,7 @@
   "chapter": "differentiation",
   "title": "Exp & Log Derivatives",
   "titleBn": "সূচক ও লগ অন্তরক",
-  "summary": "eˣ, ln x",
+  "summary": "eˣ নিজের অন্তরক; ln-এর অন্তরক ১/x।",
   "latex": "(e^x)'=e^x,\\quad (\\ln x)'=\\frac{1}{x},\\quad (a^x)'=a^x\\ln a",
   "tags": [
     "hsc",
@@ -15,9 +15,19 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "e, x, a",
-      "meaning": "eˣ, ln x",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "e",
+      "meaning": "eˣ",
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "ln x",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "(e^x)'=e^x,\\quad (\\ln x)'=\\frac{1}{x},\\quad (a^x)'=a^x\\ln a",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "eˣ নিজের অন্তরক; ln-এর অন্তরক ১/x।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "(e^x)'=e^x,\\quad (\\ln x)'=\\frac{1}{x},\\quad (a^x)'=a^x\\ln a",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +49,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সূচক ও লগ অন্তরক এর সূত্রটি লেখো। (ইঙ্গিত: eˣ নিজের অন্তরক; ln-এর অন্তরক ১/x।)",
+      "question": "সূচক ও লগ অন্তরক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "(e^x)'=e^x,\\quad (\\ln x)'=\\frac{1}{x},\\quad (a^x)'=a^x\\ln a"
     }
   ],
   "memorize": {
     "trick": "eˣ নিজের অন্তরক; ln-এর অন্তরক ১/x।",
-    "steps": []
+    "steps": [
+      "সূত্র: (e^x)'=e^x,\\quad (\\ln x)'=\\frac{1}{x},\\quad (a^x)'=a^x\\ln a",
+      "কী কাজে লাগে: সূচক ও লগ অন্তরক",
+      "চিহ্ন মনে রাখো: e, x, a"
+    ]
   },
   "subjects": [
     "math"

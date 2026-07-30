@@ -3,7 +3,7 @@
   "chapter": "trigonometric-equations",
   "title": "General Solution sinθ=k",
   "titleBn": "sinθ=k-এর সাধারণ সমাধান",
-  "summary": "θ=nπ+(−1)ⁿα",
+  "summary": "Principal α first; then nπ+(−1)ⁿα pattern।",
   "latex": "\\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 150,
   "symbols": [
     {
-      "symbol": "theta, n, pi, alpha",
+      "symbol": "theta",
       "meaning": "θ=nπ+(−1)ⁿα",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "n সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "pi",
+      "meaning": "pi সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "alpha",
+      "meaning": "alpha সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "Principal α first; then nπ+(−1)ⁿα pattern।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "sinθ=k-এর সাধারণ সমাধান এর সূত্রটি লেখো। (ইঙ্গিত: Principal α first; then nπ+(−1)ⁿα pattern।)",
+      "question": "sinθ=k-এর সাধারণ সমাধান কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k"
     }
   ],
   "memorize": {
     "trick": "Principal α first; then nπ+(−1)ⁿα pattern।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k",
+      "কী কাজে লাগে: sinθ=k-এর সাধারণ সমাধান",
+      "চিহ্ন মনে রাখো: theta, n, pi, alpha"
+    ]
   },
   "subjects": [
     "math"

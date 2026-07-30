@@ -16,18 +16,38 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "sum, ox. no., molecule, charge",
+      "symbol": "sum",
       "meaning": "জারণ সংখ্যা নিয়ম ও যোগফল",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "ox. no.",
+      "meaning": "ox. no. সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "molecule",
+      "meaning": "molecule সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "charge",
+      "meaning": "charge সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "জারণ সংখ্যা নিয়ম ও যোগফল",
+    "lead": "জারণ সংখ্যা এর মূল সম্পর্ক ও প্রয়োগ।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\sum(\\text{ox. no.})=0\\ (\\text{molecule}),\\quad=\\text{charge}\\ (\\text{ion})",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "জারণ সংখ্যা এর মূল সম্পর্ক ও প্রয়োগ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\sum(\\text{ox. no.})=0\\ (\\text{molecule}),\\quad=\\text{charge}\\ (\\text{ion})",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জারণ সংখ্যা এর সূত্রটি লেখো। (ইঙ্গিত: অণুতে যোগফল ০; আয়নে = চার্জ।)",
+      "question": "জারণ সংখ্যা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\sum(\\text{ox. no.})=0\\ (\\text{molecule}),\\quad=\\text{charge}\\ (\\text{ion})"
     }
   ],
   "memorize": {
-    "trick": "অণুতে যোগফল ০; আয়নে = চার্জ।",
-    "steps": []
+    "trick": "অণুতে যোগফল ০; আয়নে = চার্জ। জারণ সংখ্যা নিয়ম ও যোগফল",
+    "steps": [
+      "সূত্র: \\sum(\\text{ox. no.})=0\\ (\\text{molecule}),\\quad=\\text{charge}\\ (\\text{ion})",
+      "জারণ সংখ্যা নিয়ম ও যোগফল",
+      "চিহ্ন মনে রাখো: sum, ox. no., molecule, charge"
+    ]
   },
   "subjects": [
     "chemistry"

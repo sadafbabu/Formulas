@@ -21,13 +21,23 @@
       "unit": "Pa"
     },
     {
-      "symbol": "F, A",
+      "symbol": "F",
       "meaning": "বল ও প্রস্থচ্ছেদ",
       "unit": "N, m²"
     },
     {
-      "symbol": "\\Delta L, L",
+      "symbol": "A",
+      "meaning": "A সম্পর্কিত রাশি",
+      "unit": "N, m²"
+    },
+    {
+      "symbol": "\\Delta L",
       "meaning": "প্রসারণ ও আদি দৈর্ঘ্য",
+      "unit": "m"
+    },
+    {
+      "symbol": "L",
+      "meaning": "L সম্পর্কিত রাশি",
       "unit": "m"
     }
   ],
@@ -35,9 +45,14 @@
     "lead": "হুকের সূত্র: F = −kx; কঠিনে stress–strain রৈখিক।",
     "steps": [
       {
-        "title": "ইয়ং",
-        "latex": "Y=\\dfrac{F L}{A\\Delta L}",
-        "note": "বড় Y = কম প্রসার্য।"
+        "title": "মূল সূত্র",
+        "latex": "Y=\\dfrac{\\mathrm{stress}}{\\mathrm{strain}}=\\dfrac{F/A}{\\Delta L/L}",
+        "note": "হুকের সূত্র: F = −kx; কঠিনে stress–strain রৈখিক।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "Y=\\dfrac{\\mathrm{stress}}{\\mathrm{strain}}=\\dfrac{F/A}{\\Delta L/L}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

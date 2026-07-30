@@ -3,7 +3,7 @@
   "chapter": "solid-state-chemistry",
   "title": "Crystal Density",
   "titleBn": "স্ফটিক ঘনত্ব",
-  "summary": "ρ = ZM/(N_A a³)",
+  "summary": "Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}",
   "latex": "\\rho=\\frac{ZM}{N_A a^3}",
   "tags": [
     "hsc",
@@ -16,18 +16,38 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "rho, Z, M, N",
+      "symbol": "rho",
       "meaning": "ρ = ZM/(N_A a³)",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "Z",
+      "meaning": "Z সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "M",
+      "meaning": "M সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "N",
+      "meaning": "N সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "Z = একক কোষে কণা সংখ্যা।",
+    "lead": "Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\rho=\\frac{ZM}{N_A a^3}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\rho=\\frac{ZM}{N_A a^3}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্ফটিক ঘনত্ব এর সূত্রটি লেখো। (ইঙ্গিত: Z = একক কোষে কণা সংখ্যা।)",
+      "question": "স্ফটিক ঘনত্ব কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\rho=\\frac{ZM}{N_A a^3}"
     }
   ],
   "memorize": {
-    "trick": "Z = একক কোষে কণা সংখ্যা।",
-    "steps": []
+    "trick": "Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}",
+    "steps": [
+      "সূত্র: \\rho=\\frac{ZM}{N_A a^3}",
+      "কী কাজে লাগে: স্ফটিক ঘনত্ব",
+      "চিহ্ন মনে রাখো: rho, Z, M, N"
+    ]
   },
   "subjects": [
     "chemistry"

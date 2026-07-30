@@ -3,7 +3,7 @@
   "chapter": "work-energy",
   "title": "Instantaneous Power",
   "titleBn": "তাৎক্ষণিক ক্ষমতা",
-  "summary": "P = F·v",
+  "summary": "P = Fv — একক Watt। P=\\vec F\\cdot\\vec v=Fv\\cos\\theta",
   "latex": "P=\\vec F\\cdot\\vec v=Fv\\cos\\theta",
   "tags": [
     "hsc",
@@ -57,8 +57,12 @@
     }
   ],
   "memorize": {
-    "trick": "P = Fv — একক Watt।",
-    "steps": []
+    "trick": "P = Fv — একক Watt। P=\\vec F\\cdot\\vec v=Fv\\cos\\theta",
+    "steps": [
+      "সূত্র: P=\\vec F\\cdot\\vec v=Fv\\cos\\theta",
+      "কী কাজে লাগে: তাৎক্ষণিক ক্ষমতা",
+      "চিহ্ন মনে রাখো: P, \\vec F, \\vec v"
+    ]
   },
   "subjects": [
     "physics"

@@ -3,7 +3,7 @@
   "chapter": "calculus",
   "title": "Separable Differential Equation",
   "titleBn": "বিভাজ্য অন্তরক সমীকরণ",
-  "summary": "dy/dx = g(x)h(y)",
+  "summary": "x ও y আলাদা করে যোগজ নাও। \\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx",
   "latex": "\\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 190,
   "symbols": [
     {
-      "symbol": "d, y, x, g",
+      "symbol": "d",
       "meaning": "dy/dx = g(x)h(y)",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "y",
+      "meaning": "y সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "x সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "g",
+      "meaning": "g সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "x ও y আলাদা করে যোগজ নাও।",
+    "lead": "x ও y আলাদা করে যোগজ নাও। \\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "x ও y আলাদা করে যোগজ নাও। \\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিভাজ্য অন্তরক সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: x ও y আলাদা করে যোগজ নাও।)",
+      "question": "বিভাজ্য অন্তরক সমীকরণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx"
     }
   ],
   "memorize": {
-    "trick": "x ও y আলাদা করে যোগজ নাও।",
-    "steps": []
+    "trick": "x ও y আলাদা করে যোগজ নাও। \\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx",
+    "steps": [
+      "সূত্র: \\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx",
+      "কী কাজে লাগে: বিভাজ্য অন্তরক সমীকরণ",
+      "চিহ্ন মনে রাখো: d, y, x, g"
+    ]
   },
   "subjects": [
     "math"

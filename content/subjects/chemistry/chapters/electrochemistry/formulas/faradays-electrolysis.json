@@ -50,9 +50,14 @@
     "lead": "W ∝ Q এবং Q = It। ১ম ফ্যারাডে ধ্রুবক F = 96500 C/mol প্রতিস্থাপন করা হয়।",
     "steps": [
       {
-        "title": "তুল্যাঙ্ক সম্পর্ক",
-        "latex": "Z = \\frac{M}{n F} \\implies W = \\frac{M I t}{n F}",
-        "note": "১ মোল ইলেকট্রনের চার্জ = ৯৬৫০০ কুলম্ব"
+        "title": "মূল সূত্র",
+        "latex": "m=ZIt=\\frac{MIt}{nF},\\quad F=96500\\ \\mathrm{C\\,mol^{-1}},\\quad Z=\\frac{M}{nF}",
+        "note": "W ∝ Q এবং Q = It। ১ম ফ্যারাডে ধ্রুবক F = 96500 C/mol প্রতিস্থাপন করা হয়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "m=ZIt=\\frac{MIt}{nF},\\quad F=96500\\ \\mathrm{C\\,mol^{-1}},\\quad Z=\\frac{M}{nF}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -65,7 +70,12 @@
     }
   ],
   "memorize": {
-    "trick": "m = ZIt = MIt/(nF), তাই electrochemical equivalent Z = M/(nF)—শুধু M/n নয়। এক Faraday charge এক gram-equivalent পদার্থ জমায়।"
+    "trick": "m = ZIt = MIt/(nF), তাই electrochemical equivalent Z = M/(nF)—শুধু M/n নয়। এক Faraday charge এক gram-equivalent পদার্থ জমায়।",
+    "steps": [
+      "সূত্র: m=ZIt=\\frac{MIt}{nF},\\quad F=96500\\ \\mathrm{C\\,mol^{-1}},\\quad Z=\\frac{M}{nF}",
+      "তড়িৎ বিশ্লেষণে সঞ্চিত বা দ্রবীভূত পদার্থের ভর ও তড়িৎ পরিমাণের সম্পর্ক",
+      "চিহ্ন মনে রাখো: m, Z, I"
+    ]
   },
   "subjects": [
     "chemistry"

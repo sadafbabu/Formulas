@@ -3,7 +3,7 @@
   "chapter": "vector-algebra",
   "title": "Magnitude & Unit Vector",
   "titleBn": "মান ও একক ভেক্টর",
-  "summary": "|a|, â",
+  "summary": "একক ভেক্টর = ভেক্টর ÷ মান। |\\vec a|=\\sqrt{a_x^2+a_y^2+a_z^2},\\quad \\hat a=\\frac{\\vec a}{|\\vec a|}",
   "latex": "|\\vec a|=\\sqrt{a_x^2+a_y^2+a_z^2},\\quad \\hat a=\\frac{\\vec a}{|\\vec a|}",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "vec, a, sqrt, x",
-      "meaning": "|a|, â",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "vec",
+      "meaning": "a",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "â",
+      "unit": "—"
+    },
+    {
+      "symbol": "sqrt",
+      "meaning": "sqrt সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "x সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "একক ভেক্টর = ভেক্টর ÷ মান।",
+    "lead": "একক ভেক্টর = ভেক্টর ÷ মান। |\\vec a|=\\sqrt{a_x^2+a_y^2+a_z^2},\\quad \\hat a=\\frac{\\vec a}{|\\vec a|}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "|\\vec a|=\\sqrt{a_x^2+a_y^2+a_z^2},\\quad \\hat a=\\frac{\\vec a}{|\\vec a|}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "একক ভেক্টর = ভেক্টর ÷ মান। |\\vec a|=\\sqrt{a_x^2+a_y^2+a_z^2},\\quad \\hat a=\\frac{\\vec a}{|\\vec a|}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "|\\vec a|=\\sqrt{a_x^2+a_y^2+a_z^2},\\quad \\hat a=\\frac{\\vec a}{|\\vec a|}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মান ও একক ভেক্টর এর সূত্রটি লেখো। (ইঙ্গিত: একক ভেক্টর = ভেক্টর ÷ মান।)",
+      "question": "মান ও একক ভেক্টর কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "|\\vec a|=\\sqrt{a_x^2+a_y^2+a_z^2},\\quad \\hat a=\\frac{\\vec a}{|\\vec a|}"
     }
   ],
   "memorize": {
-    "trick": "একক ভেক্টর = ভেক্টর ÷ মান।",
-    "steps": []
+    "trick": "একক ভেক্টর = ভেক্টর ÷ মান। |\\vec a|=\\sqrt{a_x^2+a_y^2+a_z^2},\\quad \\hat a=\\frac{\\vec a}{|\\vec a|}",
+    "steps": [
+      "সূত্র: |\\vec a|=\\sqrt{a_x^2+a_y^2+a_z^2},\\quad \\hat a=\\frac{\\vec a}{|\\vec a|}",
+      "কী কাজে লাগে: মান ও একক ভেক্টর",
+      "চিহ্ন মনে রাখো: vec, a, sqrt, x"
+    ]
   },
   "subjects": [
     "math"

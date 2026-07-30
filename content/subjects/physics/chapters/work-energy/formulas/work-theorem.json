@@ -45,9 +45,14 @@
     "lead": "সাধারণভাবে W_{net}=\\int\\vec F_{net}\\cdot d\\vec r=\\int d\\vec p\\cdot\\vec v=\\Delta K।",
     "steps": [
       {
-        "title": "কাজ-শক্তি উপপাদ্য প্রমাণ",
-        "latex": "v^2 = u^2 + 2as \\implies \\frac{1}{2}mv^2 - \\frac{1}{2}mu^2 = mas = Fs = W",
-        "note": "মোট কার্য = গতিশক্তির পরিবর্তন"
+        "title": "মূল সূত্র",
+        "latex": "W = Fs\\cos\\theta, \\quad W_{net} = \\Delta KE = \\frac{1}{2}mv_f^2 - \\frac{1}{2}mv_i^2, \\quad P_{\\mathrm{avg}}=\\frac Wt,\\quad P=\\vec F\\cdot\\vec v=Fv\\cos\\theta",
+        "note": "সাধারণভাবে W_{net}=\\int\\vec F_{net}\\cdot d\\vec r=\\int d\\vec p\\cdot\\vec v=\\Delta K।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "W = Fs\\cos\\theta, \\quad W_{net} = \\Delta KE = \\frac{1}{2}mv_f^2 - \\frac{1}{2}mv_i^2, \\quad P_{\\mathrm{avg}}=\\frac Wt,\\quad P=\\vec F\\cdot\\vec v=Fv\\cos\\theta",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

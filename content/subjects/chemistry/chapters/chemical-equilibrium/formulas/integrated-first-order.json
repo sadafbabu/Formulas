@@ -3,7 +3,7 @@
   "chapter": "chemical-equilibrium",
   "title": "Integrated First-Order Rate",
   "titleBn": "সমাকলিত প্রথম ক্রম",
-  "summary": "ln([A]₀/[A])=kt",
+  "summary": "ln[A] বনাম t সরলরেখা। \\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
   "latex": "\\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 210,
   "symbols": [
     {
-      "symbol": "A, k, t, or",
+      "symbol": "A",
       "meaning": "ln([A]₀/[A])=kt",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "k",
+      "meaning": "k সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "t",
+      "meaning": "t সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "or",
+      "meaning": "or সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "ln([A]₀/[A])=kt — ln[A] বনাম t সরলরেখা।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমাকলিত প্রথম ক্রম এর সূত্রটি লেখো। (ইঙ্গিত: ln[A] বনাম t সরলরেখা।)",
+      "question": "সমাকলিত প্রথম ক্রম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}"
     }
   ],
   "memorize": {
-    "trick": "ln[A] বনাম t সরলরেখা।",
-    "steps": []
+    "trick": "ln[A] বনাম t সরলরেখা। \\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
+    "steps": [
+      "সূত্র: \\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
+      "কী কাজে লাগে: সমাকলিত প্রথম ক্রম",
+      "চিহ্ন মনে রাখো: A, k, t, or"
+    ]
   },
   "subjects": [
     "chemistry"

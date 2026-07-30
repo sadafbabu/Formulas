@@ -3,7 +3,7 @@
   "chapter": "semiconductor",
   "title": "Transistor α and β Relation",
   "titleBn": "ট্রানজিস্টর α–β সম্পর্ক",
-  "summary": "β = α/(1−α)",
+  "summary": "β = α/(1−α) — α 1-এর কাছে হলে β বড়।",
   "latex": "\\beta=\\dfrac{\\alpha}{1-\\alpha},\\quad \\alpha=\\dfrac{\\beta}{1+\\beta},\\quad I_E=I_B+I_C",
   "tags": [
     "hsc",
@@ -53,7 +53,11 @@
   ],
   "memorize": {
     "trick": "β = α/(1−α) — α 1-এর কাছে হলে β বড়।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\beta=\\dfrac{\\alpha}{1-\\alpha},\\quad \\alpha=\\dfrac{\\beta}{1+\\beta},\\quad I_E=I_B…",
+      "কী কাজে লাগে: ট্রানজিস্টর α–β সম্পর্ক",
+      "চিহ্ন মনে রাখো: \\alpha, \\beta"
+    ]
   },
   "subjects": [
     "physics"

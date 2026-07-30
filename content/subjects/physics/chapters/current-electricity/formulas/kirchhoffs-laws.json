@@ -35,9 +35,14 @@
     "lead": "KCL আধানের সংরক্ষণশীলতা নীতি এবং KVL শক্তির সংরক্ষণশীলতা নীতির ওপর প্রতিষ্ঠিত।",
     "steps": [
       {
-        "title": "সংরক্ষণশীলতা সম্পর্ক",
-        "latex": "\\text{KCL: Charge Conservation}, \\quad \\text{KVL: Energy Conservation}",
-        "note": "লুপে ঘড়ির কাটার দিকে প্রবাহকে ধনাত্মক ধরে সমাধান করা হয়"
+        "title": "মূল সূত্র",
+        "latex": "\\sum I = 0 \\quad (\\text{KCL}), \\quad \\sum E = \\sum I R \\quad (\\text{KVL})",
+        "note": "KCL আধানের সংরক্ষণশীলতা নীতি এবং KVL শক্তির সংরক্ষণশীলতা নীতির ওপর প্রতিষ্ঠিত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\sum I = 0 \\quad (\\text{KCL}), \\quad \\sum E = \\sum I R \\quad (\\text{KVL})",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

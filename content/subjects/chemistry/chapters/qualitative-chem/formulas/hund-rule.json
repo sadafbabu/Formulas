@@ -3,7 +3,7 @@
   "chapter": "qualitative-chem",
   "title": "Hund's Rule",
   "titleBn": "হান্ডের নিয়ম",
-  "summary": "maximize unpaired spins",
+  "summary": "একই শক্তির অরবিটালে আগে একক ইলেকট্রন।",
   "latex": "\\text{degenerate orbitals: maximize unpaired electrons with parallel spin}",
   "tags": [
     "hsc",
@@ -18,7 +18,7 @@
     {
       "symbol": "degenerate orbitals: maximize unpaired electrons with parallel spin",
       "meaning": "maximize unpaired spins",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +27,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{degenerate orbitals: maximize unpaired electrons with parallel spin}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "একই শক্তির অরবিটালে আগে একক ইলেকট্রন।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\text{degenerate orbitals: maximize unpaired electrons with parallel spin}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +40,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "হান্ডের নিয়ম এর সূত্রটি লেখো। (ইঙ্গিত: একই শক্তির অরবিটালে আগে একক ইলেকট্রন।)",
+      "question": "হান্ডের নিয়ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\text{degenerate orbitals: maximize unpaired electrons with parallel spin}"
     }
   ],
   "memorize": {
     "trick": "একই শক্তির অরবিটালে আগে একক ইলেকট্রন।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\text{degenerate orbitals: maximize unpaired electrons with parallel spin}",
+      "কী কাজে লাগে: হান্ডের নিয়ম",
+      "চিহ্ন মনে রাখো: degenerate orbitals: maximize unpaired electrons with parallel spin"
+    ]
   },
   "subjects": [
     "chemistry"

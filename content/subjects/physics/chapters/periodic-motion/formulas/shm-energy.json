@@ -19,8 +19,13 @@
       "unit": "J"
     },
     {
-      "symbol": "KE, PE",
+      "symbol": "KE",
       "meaning": "গতিশক্তি ও বিভবশক্তি",
+      "unit": "J"
+    },
+    {
+      "symbol": "PE",
+      "meaning": "PE সম্পর্কিত রাশি",
       "unit": "J"
     },
     {
@@ -48,9 +53,14 @@
     "lead": "SHM-এ বল F = -kx = -mω²x, তাই বিভবশক্তি ও গতিশক্তি যোগ করে মোট শক্তি ধ্রুব।",
     "steps": [
       {
-        "title": "শক্তি সংরক্ষণ",
-        "latex": "E = KE + PE = \\frac{1}{2}m\\omega^2 A^2",
-        "note": "মোট শক্তি বিস্তারের বর্গের সমানুপাতিক"
+        "title": "মূল সূত্র",
+        "latex": "E = \\frac{1}{2}m\\omega^2 A^2, \\quad KE = \\frac{1}{2}m\\omega^2(A^2 - x^2), \\quad PE = \\frac{1}{2}m\\omega^2 x^2",
+        "note": "SHM-এ বল F = -kx = -mω²x, তাই বিভবশক্তি ও গতিশক্তি যোগ করে মোট শক্তি ধ্রুব।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "E = \\frac{1}{2}m\\omega^2 A^2, \\quad KE = \\frac{1}{2}m\\omega^2(A^2 - x^2), \\quad PE = \\frac{1}{2}m\\omega^2 x^2",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

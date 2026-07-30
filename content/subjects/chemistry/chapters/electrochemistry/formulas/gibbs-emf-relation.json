@@ -39,9 +39,14 @@
     "lead": "Nernst সমীকরণ ও তাপগতিবিদ্যার সমন্বয় থেকে।",
     "steps": [
       {
-        "title": "Nernst সমীকরণ",
-        "latex": "E = E^\\circ - \\frac{RT}{nF}\\ln Q",
-        "note": "ΔG < 0 হলে কোষ স্বতঃস্ফূর্ত"
+        "title": "মূল সূত্র",
+        "latex": "\\Delta G=-nFE_{\\mathrm{cell}},\\quad \\Delta G^\\circ=-nFE^\\circ_{\\mathrm{cell}},\\quad E=E^\\circ-\\frac{RT}{nF}\\ln Q",
+        "note": "Nernst সমীকরণ ও তাপগতিবিদ্যার সমন্বয় থেকে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\Delta G=-nFE_{\\mathrm{cell}},\\quad \\Delta G^\\circ=-nFE^\\circ_{\\mathrm{cell}},\\quad E=E^\\circ-\\frac{RT}{nF}\\ln Q",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

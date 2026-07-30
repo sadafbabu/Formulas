@@ -63,7 +63,11 @@
   ],
   "memorize": {
     "trick": "ভিতরে E = 0, V = ধ্রুব (পরিবাহী)।",
-    "steps": []
+    "steps": [
+      "সূত্র: E=\\dfrac{kq}{r^2}\\ (r\\ge R);\\quad E=0\\ (r<R\\ \\text{conductor})",
+      "বাইরে বিন্দু চার্জের মতো; পরিবাহীর ভিতরে E = 0",
+      "চিহ্ন মনে রাখো: R, q, V"
+    ]
   },
   "subjects": [
     "physics"

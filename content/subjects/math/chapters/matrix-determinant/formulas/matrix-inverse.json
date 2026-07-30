@@ -3,7 +3,7 @@
   "chapter": "matrix-determinant",
   "title": "Matrix Inverse",
   "titleBn": "ম্যাট্রিক্সের ব্যস্তক",
-  "summary": "ব্যস্তক ম্যাট্রিক্স",
+  "summary": "A⁻¹ = (1/detA) adj A; det≠0 চাই।",
   "latex": "A^{-1}=\\frac{1}{\\det A}\\mathrm{adj}\\,A,\\quad AA^{-1}=I",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "A, det, adj, I",
+      "symbol": "A",
       "meaning": "ব্যস্তক ম্যাট্রিক্স",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "det",
+      "meaning": "det সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "adj",
+      "meaning": "adj সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "I",
+      "meaning": "I সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "A^{-1}=\\frac{1}{\\det A}\\mathrm{adj}\\,A,\\quad AA^{-1}=I",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "A⁻¹ = (1/detA) adj A; det≠0 চাই।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "A^{-1}=\\frac{1}{\\det A}\\mathrm{adj}\\,A,\\quad AA^{-1}=I",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ম্যাট্রিক্সের ব্যস্তক এর সূত্রটি লেখো। (ইঙ্গিত: A⁻¹ = (1/detA) adj A; det≠0 চাই।)",
+      "question": "ম্যাট্রিক্সের ব্যস্তক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "A^{-1}=\\frac{1}{\\det A}\\mathrm{adj}\\,A,\\quad AA^{-1}=I"
     }
   ],
   "memorize": {
     "trick": "A⁻¹ = (1/detA) adj A; det≠0 চাই।",
-    "steps": []
+    "steps": [
+      "সূত্র: A^{-1}=\\frac{1}{\\det A}\\mathrm{adj}\\,A,\\quad AA^{-1}=I",
+      "কী কাজে লাগে: ম্যাট্রিক্সের ব্যস্তক",
+      "চিহ্ন মনে রাখো: A, det, adj, I"
+    ]
   },
   "subjects": [
     "math"

@@ -3,7 +3,7 @@
   "chapter": "calculus",
   "title": "Integration by Parts",
   "titleBn": "অংশীয় যোগজীকরণ",
-  "summary": "∫u dv",
+  "summary": "LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u।",
   "latex": "\\int u\\,dv=uv-\\int v\\,du",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 160,
   "symbols": [
     {
-      "symbol": "int, u, d, v",
+      "symbol": "int",
       "meaning": "∫u dv",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "u",
+      "meaning": "u সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "d",
+      "meaning": "d সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "v",
+      "meaning": "v সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\int u\\,dv=uv-\\int v\\,du",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\int u\\,dv=uv-\\int v\\,du",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অংশীয় যোগজীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u।)",
+      "question": "অংশীয় যোগজীকরণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\int u\\,dv=uv-\\int v\\,du"
     }
   ],
   "memorize": {
     "trick": "LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\int u\\,dv=uv-\\int v\\,du",
+      "কী কাজে লাগে: অংশীয় যোগজীকরণ",
+      "চিহ্ন মনে রাখো: int, u, d, v"
+    ]
   },
   "subjects": [
     "math"

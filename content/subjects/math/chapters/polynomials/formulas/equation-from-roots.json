@@ -3,7 +3,7 @@
   "chapter": "polynomials",
   "title": "Equation from Roots",
   "titleBn": "মূল হতে সমীকরণ গঠন",
-  "summary": "দেওয়া মূল থেকে সমীকরণ",
+  "summary": "x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
   "latex": "(x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "x, alpha, beta, Rightarrow",
+      "symbol": "x",
       "meaning": "দেওয়া মূল থেকে সমীকরণ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "alpha",
+      "meaning": "alpha সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "beta",
+      "meaning": "beta সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "Rightarrow",
+      "meaning": "Rightarrow সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "x² − (সমষ্টি)x + (গুণফল) = ০।",
+    "lead": "x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "(x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "(x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মূল হতে সমীকরণ গঠন এর সূত্রটি লেখো। (ইঙ্গিত: x² − (সমষ্টি)x + (গুণফল) = ০।)",
+      "question": "মূল হতে সমীকরণ গঠন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "(x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0"
     }
   ],
   "memorize": {
-    "trick": "x² − (সমষ্টি)x + (গুণফল) = ০।",
-    "steps": []
+    "trick": "x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
+    "steps": [
+      "সূত্র: (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
+      "কী কাজে লাগে: মূল হতে সমীকরণ গঠন",
+      "চিহ্ন মনে রাখো: x, alpha, beta, Rightarrow"
+    ]
   },
   "subjects": [
     "math"

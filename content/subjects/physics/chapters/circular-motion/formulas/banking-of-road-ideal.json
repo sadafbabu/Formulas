@@ -63,7 +63,11 @@
   ],
   "memorize": {
     "trick": "tanθ = v²/rg — আদর্শ ব্যাংকিং।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\tan\\theta=\\dfrac{v^2}{rg},\\quad v=\\sqrt{rg\\tan\\theta}",
+      "ঘর্ষণহীন আদর্শ ব্যাংকিং: tan θ = v²/(rg)",
+      "চিহ্ন মনে রাখো: \\theta, v, r"
+    ]
   },
   "subjects": [
     "physics"

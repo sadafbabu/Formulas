@@ -30,9 +30,14 @@
     "lead": "পৃথিবীর কক্ষ ব্যাসার্ধ দেখার ভিত্তিতে ত্রিকোণমিতি।",
     "steps": [
       {
-        "title": "সূত্র",
-        "latex": "d=1/p",
-        "note": "p=1″ → d=1 pc।"
+        "title": "মূল সূত্র",
+        "latex": "d(\\mathrm{pc})=\\dfrac{1}{p^{\\prime\\prime}},\\quad 1\\,\\mathrm{pc}\\approx 3.26\\,\\mathrm{ly}",
+        "note": "পৃথিবীর কক্ষ ব্যাসার্ধ দেখার ভিত্তিতে ত্রিকোণমিতি।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "d(\\mathrm{pc})=\\dfrac{1}{p^{\\prime\\prime}},\\quad 1\\,\\mathrm{pc}\\approx 3.26\\,\\mathrm{ly}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -47,8 +52,12 @@
     }
   ],
   "memorize": {
-    "trick": "d(pc)=1/p″।",
-    "steps": []
+    "trick": "d(pc)=1/p″। d(pc) = 1/p″ — পার্সেক সংজ্ঞা",
+    "steps": [
+      "সূত্র: d(\\mathrm{pc})=\\dfrac{1}{p^{\\prime\\prime}},\\quad 1\\,\\mathrm{pc}\\approx 3.26\\,\\ma…",
+      "d(pc) = 1/p″ — পার্সেক সংজ্ঞা",
+      "চিহ্ন মনে রাখো: p^{\\prime\\prime}, d"
+    ]
   },
   "subjects": [
     "physics"

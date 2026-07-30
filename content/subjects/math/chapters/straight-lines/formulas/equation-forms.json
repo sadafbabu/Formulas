@@ -25,8 +25,13 @@
       "unit": "একক"
     },
     {
-      "symbol": "a, b",
-      "meaning": "x, y অক্ষের অন্তর্খণ্ড",
+      "symbol": "a",
+      "meaning": "x",
+      "unit": "একক"
+    },
+    {
+      "symbol": "b",
+      "meaning": "y অক্ষের অন্তর্খণ্ড",
       "unit": "একক"
     },
     {
@@ -39,9 +44,14 @@
     "lead": "দুই বিন্দু (x₁, y₁) ও (x₂, y₂) দিয়ে রেখার ঢাল m = (y₂-y₁)/(x₂-x₁)।",
     "steps": [
       {
-        "title": "সাধারণ সমীকরণ থেকে ঢাল",
-        "latex": "ax + by + c = 0 \\implies m = -\\frac{a}{b}, \\quad y\\text{-intercept} = -\\frac{c}{b}, \\quad x\\text{-intercept} = -\\frac{c}{a}",
-        "note": "দুই রেখা সমান্তরাল হলে m₁ = m₂, লম্বভাবে ছেদ করলে m₁·m₂ = -1"
+        "title": "মূল সূত্র",
+        "latex": "y = mx + c, \\quad y - y_1 = m(x - x_1), \\quad \\frac{x}{a} + \\frac{y}{b} = 1, \\quad x\\cos\\alpha + y\\sin\\alpha = p",
+        "note": "দুই বিন্দু (x₁, y₁) ও (x₂, y₂) দিয়ে রেখার ঢাল m = (y₂-y₁)/(x₂-x₁)।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "y = mx + c, \\quad y - y_1 = m(x - x_1), \\quad \\frac{x}{a} + \\frac{y}{b} = 1, \\quad x\\cos\\alpha + y\\sin\\alpha = p",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []

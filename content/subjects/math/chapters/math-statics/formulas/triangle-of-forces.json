@@ -3,7 +3,7 @@
   "chapter": "math-statics",
   "title": "Triangle of Forces",
   "titleBn": "বলের ত্রিভুজ",
-  "summary": "Lami's theorem",
+  "summary": "তিন বল সাম্য → Lami: F/sin( opposite angle )।",
   "latex": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "F, alpha, beta, gamma",
+      "symbol": "F",
       "meaning": "Lami's theorem",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "alpha",
+      "meaning": "alpha সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "beta",
+      "meaning": "beta সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "gamma",
+      "meaning": "gamma সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "তিন বল সাম্য → Lami: F/sin( opposite angle )।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বলের ত্রিভুজ এর সূত্রটি লেখো। (ইঙ্গিত: তিন বল সাম্য → Lami: F/sin( opposite angle )।)",
+      "question": "বলের ত্রিভুজ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}"
     }
   ],
   "memorize": {
     "trick": "তিন বল সাম্য → Lami: F/sin( opposite angle )।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}",
+      "কী কাজে লাগে: বলের ত্রিভুজ",
+      "চিহ্ন মনে রাখো: F, alpha, beta, gamma"
+    ]
   },
   "subjects": [
     "math"

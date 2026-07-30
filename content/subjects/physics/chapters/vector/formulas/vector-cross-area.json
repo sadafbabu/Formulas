@@ -16,8 +16,13 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "\\mathbf{A}, \\mathbf{B}",
+      "symbol": "\\mathbf{A}",
       "meaning": "দুটি সামান্তরিকের সন্নিহিত বাহুর ভেক্টর",
+      "unit": "ভেক্টর"
+    },
+    {
+      "symbol": "\\mathbf{B}",
+      "meaning": "\\mathbf{B} সম্পর্কিত রাশি",
       "unit": "ভেক্টর"
     },
     {
@@ -40,9 +45,14 @@
     "lead": "ক্রস গুণনের মান গুণফলের উচ্চতা নির্দেশ করে যা ক্ষেত্রফলের সমান।",
     "steps": [
       {
-        "title": "ক্ষেত্রফল সম্পর্ক",
-        "latex": "\\text{Base} = |\\mathbf{A}|, \\quad \\text{Height} = |\\mathbf{B}| \\sin\\theta \\implies \\text{Area} = |\\mathbf{A}| |\\mathbf{B}| \\sin\\theta = |\\mathbf{A} \\times \\mathbf{B}|",
-        "note": "কর্ণদ্বয় দেওয়া থাকলে ক্ষেত্রফল = 1/2 |d1 × d2|"
+        "title": "মূল সূত্র",
+        "latex": "\\mathbf{A} \\times \\mathbf{B} = |\\mathbf{A}||\\mathbf{B}| \\sin\\theta \\,\\hat{n}, \\quad \\text{Area} = |\\mathbf{A} \\times \\mathbf{B}|",
+        "note": "ক্রস গুণনের মান গুণফলের উচ্চতা নির্দেশ করে যা ক্ষেত্রফলের সমান।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mathbf{A} \\times \\mathbf{B} = |\\mathbf{A}||\\mathbf{B}| \\sin\\theta \\,\\hat{n}, \\quad \\text{Area} = |\\mathbf{A} \\times \\mathbf{B}|",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

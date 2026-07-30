@@ -34,9 +34,14 @@
     "lead": "(a+x)ⁿ এর মোট পদ সংখ্যা n+1। n জোড় হলে একটি মধ্যপদ, n বিজোড় হলে দুটি মধ্যপদ।",
     "steps": [
       {
-        "title": "x^k পদের সহগ নির্ণয়",
-        "latex": "\\text{In } (1+x)^n: \\text{ coefficient of } x^k = \\binom{n}{k}, \\quad \\text{sum of coefficients} = 2^n",
-        "note": "(1+x)^n এ x=1 রাখলে সহগের যোগফল = 2ⁿ, x=-1 রাখলে = 0"
+        "title": "মূল সূত্র",
+        "latex": "T_{r+1} = \\binom{n}{r} a^{n-r} x^r, \\quad \\text{Middle term (n even): } T_{\\frac{n}{2}+1}, \\quad \\text{Middle terms (n odd): } T_{\\frac{n+1}{2}}, T_{\\frac{n+3}{2}}",
+        "note": "(a+x)ⁿ এর মোট পদ সংখ্যা n+1। n জোড় হলে একটি মধ্যপদ, n বিজোড় হলে দুটি মধ্যপদ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "T_{r+1} = \\binom{n}{r} a^{n-r} x^r, \\quad \\text{Middle term (n even): } T_{\\frac{n}{2}+1}, \\quad \\text{Middle terms (n odd): } T_{\\frac{n+1}{2}}, T_{\\frac{n+3}{2}}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []

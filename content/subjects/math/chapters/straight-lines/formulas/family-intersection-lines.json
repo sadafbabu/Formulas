@@ -23,8 +23,13 @@
   ],
   "symbols": [
     {
-      "symbol": "L_1,L_2",
+      "symbol": "L_1",
       "meaning": "দুই রেখার বাম পাশের expression",
+      "unit": "—"
+    },
+    {
+      "symbol": "L_2",
+      "meaning": "L_2 সম্পর্কিত রাশি",
       "unit": "—"
     },
     {

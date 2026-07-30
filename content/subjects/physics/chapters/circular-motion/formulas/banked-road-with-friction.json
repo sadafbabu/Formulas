@@ -3,7 +3,7 @@
   "chapter": "circular-motion",
   "title": "Banked Road with Friction",
   "titleBn": "ঘর্ষণযুক্ত বাঁকানো রাস্তা",
-  "summary": "সীমাবেগের পরিসর",
+  "summary": "μ=0 → √(rg tanθ); ঘর্ষণে ±φ। v_{\\max}=\\sqrt{rg\\tan(\\theta+\\phi)},\\quad v_{\\min}=\\sqrt{rg\\tan(\\theta-\\phi)}",
   "latex": "v_{\\max}=\\sqrt{rg\\tan(\\theta+\\phi)},\\quad v_{\\min}=\\sqrt{rg\\tan(\\theta-\\phi)}",
   "tags": [
     "hsc",
@@ -57,8 +57,12 @@
     }
   ],
   "memorize": {
-    "trick": "μ=0 → √(rg tanθ); ঘর্ষণে ±φ।",
-    "steps": []
+    "trick": "μ=0 → √(rg tanθ); ঘর্ষণে ±φ। v_{\\max}=\\sqrt{rg\\tan(\\theta+\\phi)},\\quad v_{\\min}=\\sqrt{rg\\tan(\\theta-\\phi)}",
+    "steps": [
+      "সূত্র: v_{\\max}=\\sqrt{rg\\tan(\\theta+\\phi)},\\quad v_{\\min}=\\sqrt{rg\\tan(\\theta-\\phi)}",
+      "কী কাজে লাগে: ঘর্ষণযুক্ত বাঁকানো রাস্তা",
+      "চিহ্ন মনে রাখো: \\theta, \\phi, r"
+    ]
   },
   "subjects": [
     "physics"

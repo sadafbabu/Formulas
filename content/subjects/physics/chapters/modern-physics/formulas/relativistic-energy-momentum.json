@@ -3,7 +3,7 @@
   "chapter": "modern-physics",
   "title": "Relativistic Energy–Momentum",
   "titleBn": "আপেক্ষিকতাবাদী শক্তি–ভরবেগ",
-  "summary": "E² = p²c² + m²c⁴",
+  "summary": "E² = p²c² + (mc²)² — পিথাগোরাস।",
   "latex": "E^2=p^2 c^2+m^2 c^4,\\quad E=\\gamma mc^2",
   "tags": [
     "hsc",
@@ -58,7 +58,11 @@
   ],
   "memorize": {
     "trick": "E² = p²c² + (mc²)² — পিথাগোরাস।",
-    "steps": []
+    "steps": [
+      "সূত্র: E^2=p^2 c^2+m^2 c^4,\\quad E=\\gamma mc^2",
+      "কী কাজে লাগে: আপেক্ষিকতাবাদী শক্তি–ভরবেগ",
+      "চিহ্ন মনে রাখো: E, p, \\gamma"
+    ]
   },
   "subjects": [
     "physics"

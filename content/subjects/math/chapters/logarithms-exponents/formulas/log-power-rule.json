@@ -3,7 +3,7 @@
   "chapter": "logarithms-exponents",
   "title": "Log Power Rule",
   "titleBn": "লগ ঘাত সূত্র",
-  "summary": "log(a^n)=n log a",
+  "summary": "ঘাত সামনে এসে গুণক হয়। \\log_c(a^n)=n\\log_c a",
   "latex": "\\log_c(a^n)=n\\log_c a",
   "tags": [
     "hsc",
@@ -15,9 +15,19 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "c, a, n",
+      "symbol": "c",
       "meaning": "log(a^n)=n log a",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "n সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\log_c(a^n)=n\\log_c a",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "log(a^n)=n log a — ঘাত সামনে এসে গুণক হয়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\log_c(a^n)=n\\log_c a",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +49,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "লগ ঘাত সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: ঘাত সামনে এসে গুণক হয়।)",
+      "question": "লগ ঘাত সূত্র কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\log_c(a^n)=n\\log_c a"
     }
   ],
   "memorize": {
-    "trick": "ঘাত সামনে এসে গুণক হয়।",
-    "steps": []
+    "trick": "ঘাত সামনে এসে গুণক হয়। \\log_c(a^n)=n\\log_c a",
+    "steps": [
+      "সূত্র: \\log_c(a^n)=n\\log_c a",
+      "কী কাজে লাগে: লগ ঘাত সূত্র",
+      "চিহ্ন মনে রাখো: c, a, n"
+    ]
   },
   "subjects": [
     "math"

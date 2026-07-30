@@ -58,7 +58,11 @@
   ],
   "memorize": {
     "trick": "উঠলে +a, নামলে −a; মুক্তপতনে N = 0।",
-    "steps": []
+    "steps": [
+      "সূত্র: W'=m(g\\pm a)",
+      "উঠতে W′ = m(g+a), নামতে W′ = m(g−a)",
+      "চিহ্ন মনে রাখো: W', a"
+    ]
   },
   "subjects": [
     "physics"

@@ -39,8 +39,13 @@
       "unit": "m⁻³"
     },
     {
-      "symbol": "\\mu_e, \\mu_h",
+      "symbol": "\\mu_e",
       "meaning": "ইলেকট্রন ও হোলের চলনশীলতা",
+      "unit": "m²/(V·s)"
+    },
+    {
+      "symbol": "\\mu_h",
+      "meaning": "\\mu_h সম্পর্কিত রাশি",
       "unit": "m²/(V·s)"
     },
     {

@@ -3,7 +3,7 @@
   "chapter": "solid-state-chemistry",
   "title": "FCC Packing Efficiency",
   "titleBn": "FCC প্যাকিং দক্ষতা",
-  "summary": "74%",
+  "summary": "FCC/HCP সর্বোচ্চ ৭৪%। \\text{PE}=\\frac{4\\times\\tfrac43\\pi r^3}{a^3}\\times100\\%=74\\%\\quad(a=2\\sqrt2\\,r)",
   "latex": "\\text{PE}=\\frac{4\\times\\tfrac43\\pi r^3}{a^3}\\times100\\%=74\\%\\quad(a=2\\sqrt2\\,r)",
   "tags": [
     "hsc",
@@ -16,18 +16,33 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "PE, tfrac, pi, r",
+      "symbol": "PE",
       "meaning": "74%",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "pi",
+      "meaning": "pi সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "r",
+      "meaning": "r সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "74% — FCC/HCP সর্বোচ্চ ৭৪%।",
+    "lead": "FCC/HCP সর্বোচ্চ ৭৪%। \\text{PE}=\\frac{4\\times\\tfrac43\\pi r^3}{a^3}\\times100\\%=74\\%\\quad(a=2\\sqrt2\\,r)",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{PE}=\\frac{4\\times\\tfrac43\\pi r^3}{a^3}\\times100\\%=74\\%\\quad(a=2\\sqrt2\\,r)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "FCC/HCP সর্বোচ্চ ৭৪%। \\text{PE}=\\frac{4\\times\\tfrac43\\pi r^3}{a^3}\\times100\\%=74\\%\\quad(a=2\\sqrt2\\,r)"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\text{PE}=\\frac{4\\times\\tfrac43\\pi r^3}{a^3}\\times100\\%=74\\%\\quad(a=2\\sqrt2\\,r)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +50,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "FCC প্যাকিং দক্ষতা এর সূত্রটি লেখো। (ইঙ্গিত: FCC/HCP সর্বোচ্চ ৭৪%।)",
+      "question": "FCC প্যাকিং দক্ষতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\text{PE}=\\frac{4\\times\\tfrac43\\pi r^3}{a^3}\\times100\\%=74\\%\\quad(a=2\\sqrt2\\,r)"
     }
   ],
   "memorize": {
-    "trick": "FCC/HCP সর্বোচ্চ ৭৪%।",
-    "steps": []
+    "trick": "FCC/HCP সর্বোচ্চ ৭৪%। \\text{PE}=\\frac{4\\times\\tfrac43\\pi r^3}{a^3}\\times100\\%=74\\%\\quad(a=2\\sqrt2\\,r)",
+    "steps": [
+      "সূত্র: \\text{PE}=\\frac{4\\times\\tfrac43\\pi r^3}{a^3}\\times100\\%=74\\%\\quad(a=2\\sqrt2\\,r)",
+      "কী কাজে লাগে: FCC প্যাকিং দক্ষতা",
+      "চিহ্ন মনে রাখো: PE, tfrac, pi, r"
+    ]
   },
   "subjects": [
     "chemistry"

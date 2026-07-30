@@ -45,9 +45,14 @@
     "lead": "বোরের কৌণিক ভরবেগের কোয়ান্টায়নের শর্ত mvr = nh/2π থেকে স্পেকট্রাম সূত্রের উৎপত্তি।",
     "steps": [
       {
-        "title": "শক্তি স্তর লাফ দেওয়া",
-        "latex": "\\Delta E = E_2 - E_1 = h f = \\frac{h c}{\\lambda} \\implies \\frac{1}{\\lambda} = R_H \\left(\\frac{1}{n_1^2} - \\frac{1}{n_2^2}\\right)",
-        "note": "লাইম্যান সিরিজের জন্য n₁ = 1, বামার সিরিজের জন্য n₁ = 2"
+        "title": "মূল সূত্র",
+        "latex": "r_n=\\frac{n^2}{Z}a_0,\\quad E_n=-13.6\\frac{Z^2}{n^2}\\ \\mathrm{eV},\\quad \\frac1\\lambda=RZ^2\\left(\\frac1{n_1^2}-\\frac1{n_2^2}\\right)",
+        "note": "বোরের কৌণিক ভরবেগের কোয়ান্টায়নের শর্ত mvr = nh/2π থেকে স্পেকট্রাম সূত্রের উৎপত্তি।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "r_n=\\frac{n^2}{Z}a_0,\\quad E_n=-13.6\\frac{Z^2}{n^2}\\ \\mathrm{eV},\\quad \\frac1\\lambda=RZ^2\\left(\\frac1{n_1^2}-\\frac1{n_2^2}\\right)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -62,7 +67,12 @@
     }
   ],
   "memorize": {
-    "trick": "rn = n²a₀; En = -13.6/n² eV — কক্ষ n² অনুপাতিক, শক্তি 1/n² অনুপাতিক।"
+    "trick": "rn = n²a₀; En = -13.6/n² eV — কক্ষ n² অনুপাতিক, শক্তি 1/n² অনুপাতিক।",
+    "steps": [
+      "সূত্র: r_n=\\frac{n^2}{Z}a_0,\\quad E_n=-13.6\\frac{Z^2}{n^2}\\ \\mathrm{eV},\\quad \\frac1\\la…",
+      "ইলেকট্রনের কৌণিক ভরবেগ এবং বর্ণালীর তরঙ্গদৈর্ঘ্য নির্ণয়",
+      "চিহ্ন মনে রাখো: m v r, n, h"
+    ]
   },
   "subjects": [
     "chemistry"

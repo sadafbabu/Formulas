@@ -50,9 +50,14 @@
     "lead": "ক্ষুদ্র বিস্তার θ < 4° এর জন্য restoring force F = -mg sinθ ≈ -mg (x/L) হতে প্রাপ্ত।",
     "steps": [
       {
-        "title": "দোলক সূত্র রূপায়ণ",
-        "latex": "a = -\\frac{g}{L} x = -\\omega^2 x \\implies \\omega = \\sqrt{\\frac{g}{L}} \\implies T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{L}{g}}",
-        "note": "সেকেন্ড দোলকের (Second pendulum) পর্যায়কাল T = 2 sec"
+        "title": "মূল সূত্র",
+        "latex": "T = 2\\pi \\sqrt{\\frac{L}{g}}, \\quad T = 2\\pi \\sqrt{\\frac{m}{k}}, \\quad x(t) = A \\sin(\\omega t + \\delta)",
+        "note": "ক্ষুদ্র বিস্তার θ < 4° এর জন্য restoring force F = -mg sinθ ≈ -mg (x/L) হতে প্রাপ্ত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "T = 2\\pi \\sqrt{\\frac{L}{g}}, \\quad T = 2\\pi \\sqrt{\\frac{m}{k}}, \\quad x(t) = A \\sin(\\omega t + \\delta)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -67,7 +72,12 @@
     }
   ],
   "memorize": {
-    "trick": "T = 2π√(m/k) — ভর বাড়লে ধীর, স্প্রিং শক্ত (k বড়) হলে দ্রুত।"
+    "trick": "T = 2π√(m/k) — ভর বাড়লে ধীর, স্প্রিং শক্ত (k বড়) হলে দ্রুত।",
+    "steps": [
+      "সূত্র: T = 2\\pi \\sqrt{\\frac{L}{g}}, \\quad T = 2\\pi \\sqrt{\\frac{m}{k}}, \\quad x(t) = A \\…",
+      "সরল দোলক ও স্প্রিং-এর পর্যায়কাল এবং দোলন সমীকরণ",
+      "চিহ্ন মনে রাখো: T, L, g"
+    ]
   },
   "subjects": [
     "physics"

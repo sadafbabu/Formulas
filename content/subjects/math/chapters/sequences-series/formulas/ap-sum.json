@@ -3,7 +3,7 @@
   "chapter": "sequences-series",
   "title": "Sum of AP",
   "titleBn": "সমান্তর ধারার যোগফল",
-  "summary": "n/2[2a+(n−1)d]",
+  "summary": "S = n/2 × (প্রথম+শেষ)। S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)",
   "latex": "S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "S, n, a, d",
+      "symbol": "S",
       "meaning": "n/2[2a+(n−1)d]",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "n সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "d",
+      "meaning": "d সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "n/2[2a+(n−1)d] — S = n/2 × (প্রথম+শেষ)।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমান্তর ধারার যোগফল এর সূত্রটি লেখো। (ইঙ্গিত: S = n/2 × (প্রথম+শেষ)।)",
+      "question": "সমান্তর ধারার যোগফল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)"
     }
   ],
   "memorize": {
-    "trick": "S = n/2 × (প্রথম+শেষ)।",
-    "steps": []
+    "trick": "S = n/2 × (প্রথম+শেষ)। S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)",
+    "steps": [
+      "সূত্র: S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)",
+      "কী কাজে লাগে: সমান্তর ধারার যোগফল",
+      "চিহ্ন মনে রাখো: S, n, a, d"
+    ]
   },
   "subjects": [
     "math"

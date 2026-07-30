@@ -26,8 +26,13 @@
       "unit": "—"
     },
     {
-      "symbol": "E, r",
+      "symbol": "E",
       "meaning": "এক কোষের emf ও অভ্যন্তরীণ রোধ",
+      "unit": "V, Ω"
+    },
+    {
+      "symbol": "r",
+      "meaning": "r সম্পর্কিত রাশি",
       "unit": "V, Ω"
     }
   ],
@@ -58,7 +63,11 @@
   ],
   "memorize": {
     "trick": "Series: যোগ; Parallel: E এক, r ভাগ।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\text{series: }E_{\\mathrm{eq}}=nE,\\ r_{\\mathrm{eq}}=nr;\\quad\\text{parallel: }E_{…",
+      "সিরিজ: E_eq=nE, r_eq=nr; সমান্তরাল: E_eq=E, r_eq=r/m",
+      "চিহ্ন মনে রাখো: n, m, E, r"
+    ]
   },
   "subjects": [
     "physics"

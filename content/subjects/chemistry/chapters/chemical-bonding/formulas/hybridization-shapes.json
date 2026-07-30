@@ -31,8 +31,13 @@
       "unit": "সংখ্যা"
     },
     {
-      "symbol": "C, A",
+      "symbol": "C",
       "meaning": "ক্যাটায়ন ও অ্যানায়নের চার্জ",
+      "unit": "সংখ্যা"
+    },
+    {
+      "symbol": "A",
+      "meaning": "A সম্পর্কিত রাশি",
       "unit": "সংখ্যা"
     }
   ],
@@ -40,9 +45,14 @@
     "lead": "VSEPR তত্ত্ব অনুসারে নিঃসঙ্গ ইলেকট্রন জোড় (Lone Pair) এর বিকর্ষণে আকৃতি বিকৃত হয়।",
     "steps": [
       {
-        "title": "সংকরায়ন সারণী রূপায়ণ",
-        "latex": "H=2 (sp \\text{ রৈখিক}), \\quad H=3 (sp^2 \\text{ ত্রিভুজাকার}), \\quad H=4 (sp^3 \\text{ চতুস্তলকীয়})",
-        "note": "H2O এর সংকরায়ন sp³ কিন্তু ২ টি Lone Pair এর কারণে আকৃতি V-shaped বা Bent (104.5°)"
+        "title": "মূল সূত্র",
+        "latex": "sp^3\\ \\text{tetrahedral},\\ sp^2\\ \\text{trigonal planar},\\ sp\\ \\text{linear}",
+        "note": "VSEPR তত্ত্ব অনুসারে নিঃসঙ্গ ইলেকট্রন জোড় (Lone Pair) এর বিকর্ষণে আকৃতি বিকৃত হয়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "sp^3\\ \\text{tetrahedral},\\ sp^2\\ \\text{trigonal planar},\\ sp\\ \\text{linear}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []

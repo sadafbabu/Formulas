@@ -16,13 +16,23 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "v, \\omega",
+      "symbol": "v",
       "meaning": "কেন্দ্রের বেগ ও কৌণিক বেগ",
       "unit": "m/s, rad/s"
     },
     {
-      "symbol": "R, k",
+      "symbol": "\\omega",
+      "meaning": "\\omega সম্পর্কিত রাশি",
+      "unit": "m/s, rad/s"
+    },
+    {
+      "symbol": "R",
       "meaning": "ব্যাসার্ধ ও জাইরেশন ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "k",
+      "meaning": "k সম্পর্কিত রাশি",
       "unit": "m"
     },
     {

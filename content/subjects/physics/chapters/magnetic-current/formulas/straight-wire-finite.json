@@ -37,8 +37,13 @@
       "unit": "m"
     },
     {
-      "symbol": "\\phi_1, \\phi_2",
+      "symbol": "\\phi_1",
       "meaning": "তারের দুই প্রান্ত থেকে লম্বের সাথে উৎপন্ন কোণ",
+      "unit": "°"
+    },
+    {
+      "symbol": "\\phi_2",
+      "meaning": "\\phi_2 সম্পর্কিত রাশি",
       "unit": "°"
     }
   ],
@@ -46,9 +51,14 @@
     "lead": "বায়োট-সাভার্ট সূত্রে সীমা \\phi_1 থেকে \\phi_2 বসিয়ে সমাকলন:",
     "steps": [
       {
-        "title": "সীমা সমাকলন",
-        "latex": "B = \\frac{\\mu_0 I}{4\\pi r} \\int_{-\\phi_1}^{\\phi_2} \\cos \\phi d\\phi = \\frac{\\mu_0 I}{4\\pi r} (\\sin \\phi_1 + \\sin \\phi_2)",
-        "note": "অসীম তারের ক্ষেত্রে \\phi_1 = \\phi_2 = 90^\\circ বসালে B = \\frac{\\mu_0 I}{2\\pi r} হয়।"
+        "title": "মূল সূত্র",
+        "latex": "B = \\frac{\\mu_0 I}{4\\pi r} (\\sin \\phi_1 + \\sin \\phi_2)",
+        "note": "বায়োট-সাভার্ট সূত্রে সীমা \\phi_1 থেকে \\phi_2 বসিয়ে সমাকলন:"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "B = \\frac{\\mu_0 I}{4\\pi r} (\\sin \\phi_1 + \\sin \\phi_2)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

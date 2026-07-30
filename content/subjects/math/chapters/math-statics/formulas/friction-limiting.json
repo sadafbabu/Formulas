@@ -3,7 +3,7 @@
   "chapter": "math-statics",
   "title": "Limiting Friction",
   "titleBn": "সীমিত ঘর্ষণ",
-  "summary": "F=μR",
+  "summary": "λ = ঘর্ষণ কোণ; ঢালে μ = tan α।",
   "latex": "F=\\mu R,\\quad \\tan\\lambda=\\mu",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "F, mu, R, lambda",
+      "symbol": "F",
       "meaning": "F=μR",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "mu",
+      "meaning": "mu সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "R",
+      "meaning": "R সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "lambda",
+      "meaning": "lambda সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "F=\\mu R,\\quad \\tan\\lambda=\\mu",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "λ = ঘর্ষণ কোণ; ঢালে μ = tan α।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "F=\\mu R,\\quad \\tan\\lambda=\\mu",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সীমিত ঘর্ষণ এর সূত্রটি লেখো। (ইঙ্গিত: λ = ঘর্ষণ কোণ; ঢালে μ = tan α।)",
+      "question": "সীমিত ঘর্ষণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "F=\\mu R,\\quad \\tan\\lambda=\\mu"
     }
   ],
   "memorize": {
     "trick": "λ = ঘর্ষণ কোণ; ঢালে μ = tan α।",
-    "steps": []
+    "steps": [
+      "সূত্র: F=\\mu R,\\quad \\tan\\lambda=\\mu",
+      "কী কাজে লাগে: সীমিত ঘর্ষণ",
+      "চিহ্ন মনে রাখো: F, mu, R, lambda"
+    ]
   },
   "subjects": [
     "math"

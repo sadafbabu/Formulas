@@ -3,7 +3,7 @@
   "chapter": "thermodynamics",
   "title": "Area & Volume Expansion",
   "titleBn": "ক্ষেত্র ও আয়তন প্রসারণ",
-  "summary": "β ≈ 2α, γ ≈ 3α",
+  "summary": "রৈখিক α → ক্ষেত্র ২α → আয়তন ৩α।",
   "latex": "\\Delta A=\\beta A\\Delta T,\\quad \\Delta V=\\gamma V\\Delta T;\\ \\beta\\approx2\\alpha,\\ \\gamma\\approx3\\alpha",
   "tags": [
     "hsc",
@@ -57,8 +57,12 @@
     }
   ],
   "memorize": {
-    "trick": "α → 2α → 3α (লাইন–এরিয়া–ভলিউম)।",
-    "steps": []
+    "trick": "রৈখিক α → ক্ষেত্র ২α → আয়তন ৩α।",
+    "steps": [
+      "ΔL = αLΔT",
+      "β ≈ 2α",
+      "γ ≈ 3α"
+    ]
   },
   "subjects": [
     "physics"

@@ -35,9 +35,14 @@
     "lead": "টর্ক = −mgd sinθ ≈ −mgd θ → SHM।",
     "steps": [
       {
-        "title": "পর্যায়কাল",
-        "latex": "T=2\\pi\\sqrt{I/(mgd)}",
-        "note": "I=m(k²+d²)।"
+        "title": "মূল সূত্র",
+        "latex": "T=2\\pi\\sqrt{\\dfrac{I}{mgd}}=2\\pi\\sqrt{\\dfrac{k^2+d^2}{gd}}",
+        "note": "টর্ক = −mgd sinθ ≈ −mgd θ → SHM।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "T=2\\pi\\sqrt{\\dfrac{I}{mgd}}=2\\pi\\sqrt{\\dfrac{k^2+d^2}{gd}}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -46,9 +51,9 @@
   },
   "questions": [
     {
-      "examType": "Admission",
-      "question": "d=k হলে T?",
-      "answer": "T=2\\pi\\sqrt{2k/g}"
+      "examType": "HSC / Admission",
+      "question": "যৌগিক দোলক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "answer": "T=2\\pi\\sqrt{\\dfrac{I}{mgd}}=2\\pi\\sqrt{\\dfrac{k^2+d^2}{gd}}"
     }
   ],
   "memorize": {

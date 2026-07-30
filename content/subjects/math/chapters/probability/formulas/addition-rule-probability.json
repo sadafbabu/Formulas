@@ -3,7 +3,7 @@
   "chapter": "probability",
   "title": "Addition Rule",
   "titleBn": "যোগ নিয়ম",
-  "summary": "P(A∪B)",
+  "summary": "মিলিত = A+B−AB; পরস্পর বর্জন হলে AB=0।",
   "latex": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "P, A, cup, B",
+      "symbol": "P",
       "meaning": "P(A∪B)",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "A সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "cup",
+      "meaning": "cup সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "মিলিত = A+B−AB; পরস্পর বর্জন হলে AB=0।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "যোগ নিয়ম এর সূত্রটি লেখো। (ইঙ্গিত: মিলিত = A+B−AB; পরস্পর বর্জন হলে AB=0।)",
+      "question": "যোগ নিয়ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)"
     }
   ],
   "memorize": {
     "trick": "মিলিত = A+B−AB; পরস্পর বর্জন হলে AB=0।",
-    "steps": []
+    "steps": [
+      "সূত্র: P(A\\cup B)=P(A)+P(B)-P(A\\cap B)",
+      "কী কাজে লাগে: যোগ নিয়ম",
+      "চিহ্ন মনে রাখো: P, A, cup, B"
+    ]
   },
   "subjects": [
     "math"

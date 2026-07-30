@@ -3,7 +3,7 @@
   "chapter": "sequences-series",
   "title": "AM–GM–HM Inequality",
   "titleBn": "AM–GM–HM অসমতা",
-  "summary": "AM≥GM≥HM",
+  "summary": "সমানতা কেবল a=b-তে; ভর্তিতে খুব কাজে লাগে।",
   "latex": "\\frac{a+b}{2}\\ge\\sqrt{ab}\\ge\\frac{2ab}{a+b}",
   "tags": [
     "hsc",
@@ -15,9 +15,19 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "a, b, sqrt",
+      "symbol": "a",
       "meaning": "AM≥GM≥HM",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "sqrt",
+      "meaning": "sqrt সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{a+b}{2}\\ge\\sqrt{ab}\\ge\\frac{2ab}{a+b}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "সমানতা কেবল a=b-তে; ভর্তিতে খুব কাজে লাগে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\frac{a+b}{2}\\ge\\sqrt{ab}\\ge\\frac{2ab}{a+b}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +49,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "AM–GM–HM অসমতা এর সূত্রটি লেখো। (ইঙ্গিত: সমানতা কেবল a=b-তে; ভর্তিতে খুব কাজে লাগে।)",
+      "question": "AM–GM–HM অসমতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\frac{a+b}{2}\\ge\\sqrt{ab}\\ge\\frac{2ab}{a+b}"
     }
   ],
   "memorize": {
     "trick": "সমানতা কেবল a=b-তে; ভর্তিতে খুব কাজে লাগে।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\frac{a+b}{2}\\ge\\sqrt{ab}\\ge\\frac{2ab}{a+b}",
+      "কী কাজে লাগে: AM–GM–HM অসমতা",
+      "চিহ্ন মনে রাখো: a, b, sqrt"
+    ]
   },
   "subjects": [
     "math"

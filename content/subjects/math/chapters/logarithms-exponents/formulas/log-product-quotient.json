@@ -3,7 +3,7 @@
   "chapter": "logarithms-exponents",
   "title": "Log Product & Quotient",
   "titleBn": "লগ গুণ ও ভাগ",
-  "summary": "log(ab), log(a/b)",
+  "summary": "গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
   "latex": "\\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
   "tags": [
     "hsc",
@@ -15,18 +15,33 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "c, a, b",
-      "meaning": "log(ab), log(a/b)",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "c",
+      "meaning": "log(ab)",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "log(a/b)",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "গুণ → যোগ; ভাগ → বিয়োগ।",
+    "lead": "গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +49,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "লগ গুণ ও ভাগ এর সূত্রটি লেখো। (ইঙ্গিত: গুণ → যোগ; ভাগ → বিয়োগ।)",
+      "question": "লগ গুণ ও ভাগ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b"
     }
   ],
   "memorize": {
-    "trick": "গুণ → যোগ; ভাগ → বিয়োগ।",
-    "steps": []
+    "trick": "গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
+    "steps": [
+      "সূত্র: \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
+      "কী কাজে লাগে: লগ গুণ ও ভাগ",
+      "চিহ্ন মনে রাখো: c, a, b"
+    ]
   },
   "subjects": [
     "math"

@@ -28,8 +28,13 @@
       "unit": "—"
     },
     {
-      "symbol": "a_r,b_r",
+      "symbol": "a_r",
       "meaning": "series coefficients",
+      "unit": "—"
+    },
+    {
+      "symbol": "b_r",
+      "meaning": "b_r সম্পর্কিত রাশি",
       "unit": "—"
     }
   ],

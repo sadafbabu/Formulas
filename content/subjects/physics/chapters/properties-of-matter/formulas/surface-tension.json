@@ -21,13 +21,23 @@
       "unit": "N/m"
     },
     {
-      "symbol": "F, l",
+      "symbol": "F",
       "meaning": "বল ও দৈর্ঘ্য",
       "unit": "N, m"
     },
     {
-      "symbol": "W, \\Delta A",
+      "symbol": "l",
+      "meaning": "l সম্পর্কিত রাশি",
+      "unit": "N, m"
+    },
+    {
+      "symbol": "W",
       "meaning": "কাজ ও পৃষ্ঠ বৃদ্ধি",
+      "unit": "J, m²"
+    },
+    {
+      "symbol": "\\Delta A",
+      "meaning": "\\Delta A সম্পর্কিত রাশি",
       "unit": "J, m²"
     }
   ],
@@ -35,9 +45,14 @@
     "lead": "পৃষ্ঠ সংকুচিত হতে চায় — একক দৈর্ঘ্যে বল S।",
     "steps": [
       {
-        "title": "সংজ্ঞা",
-        "latex": "S=F/l",
-        "note": "সাবান ফিল্মে ২ পৃষ্ঠ → F=2Sl।"
+        "title": "মূল সূত্র",
+        "latex": "S=\\dfrac{F}{l}=\\dfrac{W}{\\Delta A}",
+        "note": "পৃষ্ঠ সংকুচিত হতে চায় — একক দৈর্ঘ্যে বল S।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "S=\\dfrac{F}{l}=\\dfrac{W}{\\Delta A}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

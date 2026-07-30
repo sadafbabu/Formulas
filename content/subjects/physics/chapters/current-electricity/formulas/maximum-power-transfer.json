@@ -3,7 +3,7 @@
   "chapter": "current-electricity",
   "title": "Maximum Power Transfer",
   "titleBn": "সর্বাধিক ক্ষমতা স্থানান্তর",
-  "summary": "R_L = r হলে P_max",
+  "summary": "R_L = r → P_max = ε²/4r। P_{\\max}=\\dfrac{\\mathcal{E}^2}{4r}\\quad(R_L=r)",
   "latex": "P_{\\max}=\\dfrac{\\mathcal{E}^2}{4r}\\quad(R_L=r)",
   "tags": [
     "hsc",
@@ -57,8 +57,12 @@
     }
   ],
   "memorize": {
-    "trick": "R_L = r → P_max = ε²/4r।",
-    "steps": []
+    "trick": "R_L = r → P_max = ε²/4r। P_{\\max}=\\dfrac{\\mathcal{E}^2}{4r}\\quad(R_L=r)",
+    "steps": [
+      "সূত্র: P_{\\max}=\\dfrac{\\mathcal{E}^2}{4r}\\quad(R_L=r)",
+      "কী কাজে লাগে: সর্বাধিক ক্ষমতা স্থানান্তর",
+      "চিহ্ন মনে রাখো: R_L, r, \\mathcal{E}"
+    ]
   },
   "subjects": [
     "physics"

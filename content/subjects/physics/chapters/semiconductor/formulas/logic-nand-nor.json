@@ -16,8 +16,13 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "A, B",
+      "symbol": "A",
       "meaning": "ইনপুট",
+      "unit": "0/1"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
       "unit": "0/1"
     },
     {
@@ -52,8 +57,12 @@
     }
   ],
   "memorize": {
-    "trick": "NAND ও NOR = universal gates।",
-    "steps": []
+    "trick": "NAND ও NOR = universal gates। NAND/NOR সার্বজনীন গেট — যেকোনো লজিক বানানো যায়",
+    "steps": [
+      "সূত্র: Y_{\\mathrm{NAND}}=\\overline{A\\cdot B},\\quad Y_{\\mathrm{NOR}}=\\overline{A+B}",
+      "NAND/NOR সার্বজনীন গেট — যেকোনো লজিক বানানো যায়",
+      "চিহ্ন মনে রাখো: A, B, Y"
+    ]
   },
   "subjects": [
     "physics"

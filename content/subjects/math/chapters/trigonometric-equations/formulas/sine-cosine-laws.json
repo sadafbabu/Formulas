@@ -23,8 +23,18 @@
   ],
   "symbols": [
     {
-      "symbol": "a,b,c",
-      "meaning": "A,B,C-এর বিপরীত বাহু",
+      "symbol": "a",
+      "meaning": "A",
+      "unit": "একক"
+    },
+    {
+      "symbol": "b",
+      "meaning": "B",
+      "unit": "একক"
+    },
+    {
+      "symbol": "c",
+      "meaning": "C-এর বিপরীত বাহু",
       "unit": "একক"
     },
     {

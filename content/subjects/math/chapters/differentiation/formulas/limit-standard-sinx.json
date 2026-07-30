@@ -3,7 +3,7 @@
   "chapter": "differentiation",
   "title": "Standard Limit sin x / x",
   "titleBn": "প্রমিত সীমা sinx/x",
-  "summary": "→1 as x→0",
+  "summary": "রেডিয়ানে সত্য; ডিগ্রিতে নয়। \\lim_{x\\to0}\\frac{\\sin x}{x}=1",
   "latex": "\\lim_{x\\to0}\\frac{\\sin x}{x}=1",
   "tags": [
     "hsc",
@@ -15,18 +15,28 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "lim, x",
+      "symbol": "lim",
       "meaning": "→1 as x→0",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "x সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "রেডিয়ানে সত্য; ডিগ্রিতে নয়।",
+    "lead": "রেডিয়ানে সত্য; ডিগ্রিতে নয়। \\lim_{x\\to0}\\frac{\\sin x}{x}=1",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\lim_{x\\to0}\\frac{\\sin x}{x}=1",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "রেডিয়ানে সত্য; ডিগ্রিতে নয়। \\lim_{x\\to0}\\frac{\\sin x}{x}=1"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\lim_{x\\to0}\\frac{\\sin x}{x}=1",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +44,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্রমিত সীমা sinx/x এর সূত্রটি লেখো। (ইঙ্গিত: রেডিয়ানে সত্য; ডিগ্রিতে নয়।)",
+      "question": "প্রমিত সীমা sinx/x কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\lim_{x\\to0}\\frac{\\sin x}{x}=1"
     }
   ],
   "memorize": {
-    "trick": "রেডিয়ানে সত্য; ডিগ্রিতে নয়।",
-    "steps": []
+    "trick": "রেডিয়ানে সত্য; ডিগ্রিতে নয়। \\lim_{x\\to0}\\frac{\\sin x}{x}=1",
+    "steps": [
+      "সূত্র: \\lim_{x\\to0}\\frac{\\sin x}{x}=1",
+      "কী কাজে লাগে: প্রমিত সীমা sinx/x",
+      "চিহ্ন মনে রাখো: lim, x"
+    ]
   },
   "subjects": [
     "math"

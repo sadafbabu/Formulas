@@ -3,7 +3,7 @@
   "chapter": "modern-physics",
   "title": "Bohr Frequency Condition",
   "titleBn": "বোরের কম্পাঙ্ক শর্ত",
-  "summary": "hf = E_i − E_f (বোর)",
+  "summary": "ফোটন শক্তি = স্তরের ফারাক: hf = ΔE — সিঁড়ি থেকে লাফ।",
   "latex": "hf=E_i-E_f=\\Delta E",
   "tags": [
     "hsc",
@@ -26,8 +26,13 @@
       "unit": "Hz"
     },
     {
-      "symbol": "E_i, E_f",
+      "symbol": "E_i",
       "meaning": "আদি ও শেষ শক্তি স্তর",
+      "unit": "eV"
+    },
+    {
+      "symbol": "E_f",
+      "meaning": "E_f সম্পর্কিত রাশি",
       "unit": "eV"
     }
   ],
@@ -35,9 +40,14 @@
     "lead": "স্তরান্তরে শক্তি পার্থক্যই ফোটন।",
     "steps": [
       {
-        "title": "শর্ত",
-        "latex": "hf=|E_i-E_f|",
-        "note": "শোষণে E বাড়ে, নির্গমনে কমে।"
+        "title": "মূল সূত্র",
+        "latex": "hf=E_i-E_f=\\Delta E",
+        "note": "স্তরান্তরে শক্তি পার্থক্যই ফোটন।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "hf=E_i-E_f=\\Delta E",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

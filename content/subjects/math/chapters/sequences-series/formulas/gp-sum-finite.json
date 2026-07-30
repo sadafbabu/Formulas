@@ -3,7 +3,7 @@
   "chapter": "sequences-series",
   "title": "Sum of Finite GP",
   "titleBn": "সসীম গুণোত্তর যোগফল",
-  "summary": "a(rⁿ−1)/(r−1)",
+  "summary": "r≠1; r=1 হলে S=na। S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)",
   "latex": "S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "S, n, a, r",
+      "symbol": "S",
       "meaning": "a(rⁿ−1)/(r−1)",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "n সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "r",
+      "meaning": "r সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "a(rⁿ−1)/(r−1) — r≠1; r=1 হলে S=na।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সসীম গুণোত্তর যোগফল এর সূত্রটি লেখো। (ইঙ্গিত: r≠1; r=1 হলে S=na।)",
+      "question": "সসীম গুণোত্তর যোগফল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)"
     }
   ],
   "memorize": {
-    "trick": "r≠1; r=1 হলে S=na।",
-    "steps": []
+    "trick": "r≠1; r=1 হলে S=na। S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)",
+    "steps": [
+      "সূত্র: S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)",
+      "কী কাজে লাগে: সসীম গুণোত্তর যোগফল",
+      "চিহ্ন মনে রাখো: S, n, a, r"
+    ]
   },
   "subjects": [
     "math"

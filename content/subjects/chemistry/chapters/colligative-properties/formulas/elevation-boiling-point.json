@@ -3,7 +3,7 @@
   "chapter": "colligative-properties",
   "title": "Elevation of Boiling Point",
   "titleBn": "স্ফুটনাঙ্কের উচ্চায়ন",
-  "summary": "ΔTb=Kbm",
+  "summary": "ΔTb = Kb × molality; Ebullioscopic constant।",
   "latex": "\\Delta T_b=K_b m",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "Delta, T, b, K",
+      "symbol": "Delta",
       "meaning": "ΔTb=Kbm",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "T",
+      "meaning": "T সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "K",
+      "meaning": "K সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta T_b=K_b m",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "ΔTb = Kb × molality; Ebullioscopic constant।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\Delta T_b=K_b m",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্ফুটনাঙ্কের উচ্চায়ন এর সূত্রটি লেখো। (ইঙ্গিত: ΔTb = Kb × molality; Ebullioscopic constant।)",
+      "question": "স্ফুটনাঙ্কের উচ্চায়ন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\Delta T_b=K_b m"
     }
   ],
   "memorize": {
     "trick": "ΔTb = Kb × molality; Ebullioscopic constant।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\Delta T_b=K_b m",
+      "কী কাজে লাগে: স্ফুটনাঙ্কের উচ্চায়ন",
+      "চিহ্ন মনে রাখো: Delta, T, b, K"
+    ]
   },
   "subjects": [
     "chemistry"

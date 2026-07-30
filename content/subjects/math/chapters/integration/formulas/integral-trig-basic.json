@@ -3,7 +3,7 @@
   "chapter": "integration",
   "title": "Basic Trig Integrals",
   "titleBn": "মৌলিক ত্রিকোণমিতিক যোগজ",
-  "summary": "sin, cos, sec²",
+  "summary": "অন্তরকের উল্টো দিক মনে রাখো। \\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
   "latex": "\\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
   "tags": [
     "hsc",
@@ -15,18 +15,28 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "int, x",
-      "meaning": "sin, cos, sec²",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "int",
+      "meaning": "sin",
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "cos",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "অন্তরকের উল্টো দিক মনে রাখো।",
+    "lead": "অন্তরকের উল্টো দিক মনে রাখো। \\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "অন্তরকের উল্টো দিক মনে রাখো। \\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +44,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মৌলিক ত্রিকোণমিতিক যোগজ এর সূত্রটি লেখো। (ইঙ্গিত: অন্তরকের উল্টো দিক মনে রাখো।)",
+      "question": "মৌলিক ত্রিকোণমিতিক যোগজ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x"
     }
   ],
   "memorize": {
-    "trick": "অন্তরকের উল্টো দিক মনে রাখো।",
-    "steps": []
+    "trick": "অন্তরকের উল্টো দিক মনে রাখো। \\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
+    "steps": [
+      "সূত্র: \\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
+      "কী কাজে লাগে: মৌলিক ত্রিকোণমিতিক যোগজ",
+      "চিহ্ন মনে রাখো: int, x"
+    ]
   },
   "subjects": [
     "math"

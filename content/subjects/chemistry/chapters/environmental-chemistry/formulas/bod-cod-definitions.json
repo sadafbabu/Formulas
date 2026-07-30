@@ -3,7 +3,7 @@
   "chapter": "environmental-chemistry",
   "title": "BOD & COD",
   "titleBn": "BOD ও COD",
-  "summary": "oxygen demand",
+  "summary": "BOD বেশি = পানি দূষিত। \\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\text{ demand}",
   "latex": "\\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\text{ demand}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "BOD, O, used by microbes, COD",
+      "symbol": "BOD",
       "meaning": "oxygen demand",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "O",
+      "meaning": "O সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "used by microbes",
+      "meaning": "used by microbes সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "COD",
+      "meaning": "COD সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\text{ demand}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "oxygen demand — BOD বেশি = পানি দূষিত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\text{ demand}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "BOD ও COD এর সূত্রটি লেখো। (ইঙ্গিত: BOD বেশি = পানি দূষিত।)",
+      "question": "BOD ও COD কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\text{ demand}"
     }
   ],
   "memorize": {
-    "trick": "BOD বেশি = পানি দূষিত।",
-    "steps": []
+    "trick": "BOD বেশি = পানি দূষিত। \\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\text{ demand}",
+    "steps": [
+      "সূত্র: \\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemica…",
+      "কী কাজে লাগে: BOD ও COD",
+      "চিহ্ন মনে রাখো: BOD, O, used by microbes, COD"
+    ]
   },
   "subjects": [
     "chemistry"

@@ -3,7 +3,7 @@
   "chapter": "semiconductor",
   "title": "Full-Wave Rectifier",
   "titleBn": "পূর্ণতরঙ্গ দিষ্টকারক",
-  "summary": "DC গড় ও দক্ষতা",
+  "summary": "পূর্ণ ≈ ৮১%; অর্ধ ≈ ৪১%। I_{\\mathrm{dc}}=\\dfrac{2I_0}{\\pi},\\quad \\eta\\approx81.2\\%",
   "latex": "I_{\\mathrm{dc}}=\\dfrac{2I_0}{\\pi},\\quad \\eta\\approx81.2\\%",
   "tags": [
     "hsc",
@@ -52,8 +52,12 @@
     }
   ],
   "memorize": {
-    "trick": "পূর্ণ ≈ ৮১%; অর্ধ ≈ ৪১%।",
-    "steps": []
+    "trick": "পূর্ণ ≈ ৮১%; অর্ধ ≈ ৪১%। I_{\\mathrm{dc}}=\\dfrac{2I_0}{\\pi},\\quad \\eta\\approx81.2\\%",
+    "steps": [
+      "সূত্র: I_{\\mathrm{dc}}=\\dfrac{2I_0}{\\pi},\\quad \\eta\\approx81.2\\%",
+      "কী কাজে লাগে: পূর্ণতরঙ্গ দিষ্টকারক",
+      "চিহ্ন মনে রাখো: I_0, \\eta"
+    ]
   },
   "subjects": [
     "physics"

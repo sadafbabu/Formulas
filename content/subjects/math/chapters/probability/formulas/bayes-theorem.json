@@ -3,7 +3,7 @@
   "chapter": "probability",
   "title": "Bayes' Theorem",
   "titleBn": "বেইজের উপপাদ্য",
-  "summary": "পosterior সম্ভাব্যতা",
+  "summary": "P(B|A)P(A)/P(B) — উল্টো শর্তাধীন সম্ভাব্যতা।",
   "latex": "P(A|B)=\\frac{P(B|A)P(A)}{P(B)}",
   "tags": [
     "hsc",
@@ -15,9 +15,19 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "P, A, B",
+      "symbol": "P",
       "meaning": "পosterior সম্ভাব্যতা",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "A সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P(A|B)=\\frac{P(B|A)P(A)}{P(B)}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "P(B|A)P(A)/P(B) — উল্টো শর্তাধীন সম্ভাব্যতা।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "P(A|B)=\\frac{P(B|A)P(A)}{P(B)}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +49,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বেইজের উপপাদ্য এর সূত্রটি লেখো। (ইঙ্গিত: P(B|A)P(A)/P(B) — উল্টো শর্তাধীন সম্ভাব্যতা।)",
+      "question": "বেইজের উপপাদ্য কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "P(A|B)=\\frac{P(B|A)P(A)}{P(B)}"
     }
   ],
   "memorize": {
     "trick": "P(B|A)P(A)/P(B) — উল্টো শর্তাধীন সম্ভাব্যতা।",
-    "steps": []
+    "steps": [
+      "সূত্র: P(A|B)=\\frac{P(B|A)P(A)}{P(B)}",
+      "কী কাজে লাগে: বেইজের উপপাদ্য",
+      "চিহ্ন মনে রাখো: P, A, B"
+    ]
   },
   "subjects": [
     "math"

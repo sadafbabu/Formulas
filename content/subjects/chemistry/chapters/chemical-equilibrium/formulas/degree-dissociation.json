@@ -33,9 +33,14 @@
     "lead": "দুর্বল এসিডের বিয়োজন সাম্য থেকে Ostwald লঘুকরণ সূত্র।",
     "steps": [
       {
-        "title": "Ostwald সূত্র",
-        "latex": "K_a = \\frac{c\\alpha^2}{1-\\alpha}",
-        "note": "α ক্ষুদ্র হলে K_a ≈ cα²"
+        "title": "মূল সূত্র",
+        "latex": "K_a = \\frac{c\\alpha^2}{1-\\alpha}, \\quad \\alpha \\ll 1 \\Rightarrow K_a \\approx c\\alpha^2",
+        "note": "দুর্বল এসিডের বিয়োজন সাম্য থেকে Ostwald লঘুকরণ সূত্র।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "K_a = \\frac{c\\alpha^2}{1-\\alpha}, \\quad \\alpha \\ll 1 \\Rightarrow K_a \\approx c\\alpha^2",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

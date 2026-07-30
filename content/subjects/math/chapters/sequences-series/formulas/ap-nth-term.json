@@ -3,7 +3,7 @@
   "chapter": "sequences-series",
   "title": "AP nth Term",
   "titleBn": "সমান্তর ধারার n-তম পদ",
-  "summary": "a+(n−1)d",
+  "summary": "প্রথম পদ a, সাধারণ অন্তর d। a_n=a+(n-1)d",
   "latex": "a_n=a+(n-1)d",
   "tags": [
     "hsc",
@@ -15,18 +15,33 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "a, n, d",
+      "symbol": "a",
       "meaning": "a+(n−1)d",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "n সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "d",
+      "meaning": "d সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "প্রথম পদ a, সাধারণ অন্তর d।",
+    "lead": "প্রথম পদ a, সাধারণ অন্তর d। a_n=a+(n-1)d",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "a_n=a+(n-1)d",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "প্রথম পদ a, সাধারণ অন্তর d। a_n=a+(n-1)d"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "a_n=a+(n-1)d",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +49,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমান্তর ধারার n-তম পদ এর সূত্রটি লেখো। (ইঙ্গিত: প্রথম পদ a, সাধারণ অন্তর d।)",
+      "question": "সমান্তর ধারার n-তম পদ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "a_n=a+(n-1)d"
     }
   ],
   "memorize": {
-    "trick": "প্রথম পদ a, সাধারণ অন্তর d।",
-    "steps": []
+    "trick": "প্রথম পদ a, সাধারণ অন্তর d। a_n=a+(n-1)d",
+    "steps": [
+      "সূত্র: a_n=a+(n-1)d",
+      "কী কাজে লাগে: সমান্তর ধারার n-তম পদ",
+      "চিহ্ন মনে রাখো: a, n, d"
+    ]
   },
   "subjects": [
     "math"

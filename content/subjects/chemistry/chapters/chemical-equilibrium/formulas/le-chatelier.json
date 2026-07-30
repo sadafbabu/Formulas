@@ -26,13 +26,23 @@
       "unit": "মাত্রাহীন"
     },
     {
-      "symbol": "[A], [B]",
+      "symbol": "[A]",
       "meaning": "বিক্রিয়কের ঘনমাত্রা",
       "unit": "mol/L"
     },
     {
-      "symbol": "[C], [D]",
+      "symbol": "[B]",
+      "meaning": "[B] সম্পর্কিত রাশি",
+      "unit": "mol/L"
+    },
+    {
+      "symbol": "[C]",
       "meaning": "উৎপাদের ঘনমাত্রা",
+      "unit": "mol/L"
+    },
+    {
+      "symbol": "[D]",
+      "meaning": "[D] সম্পর্কিত রাশি",
       "unit": "mol/L"
     }
   ],
@@ -40,9 +50,14 @@
     "lead": "লা শাতেলিয়ের নীতি: সাম্যবস্থায় বাহ্যিক পরিবর্তন করলে সাম্য সেই দিকে সরে যায় যা পরিবর্তনকে প্রতিরোধ করে।",
     "steps": [
       {
-        "title": "চাপ ও তাপমাত্রার প্রভাব",
-        "latex": "\\Delta G = \\Delta G^\\circ + RT\\ln Q, \\quad \\text{সাম্যে: } \\Delta G = 0 \\implies K = e^{-\\Delta G^\\circ / RT}",
-        "note": "আয়তন কমিয়ে চাপ বাড়ালে কম মোট gaseous stoichiometric mole-এর দিকে সাম্য সরে; Δn_gas = 0 হলে চাপের প্রভাব নেই।"
+        "title": "মূল সূত্র",
+        "latex": "Q_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}, \\quad Q_c < K_c \\Rightarrow \\ce{->}, \\quad Q_c > K_c \\Rightarrow \\ce{<-}",
+        "note": "লা শাতেলিয়ের নীতি: সাম্যবস্থায় বাহ্যিক পরিবর্তন করলে সাম্য সেই দিকে সরে যায় যা পরিবর্তনকে প্রতিরোধ করে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "Q_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}, \\quad Q_c < K_c \\Rightarrow \\ce{->}, \\quad Q_c > K_c \\Rightarrow \\ce{<-}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []

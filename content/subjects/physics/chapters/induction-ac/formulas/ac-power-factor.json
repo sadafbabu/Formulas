@@ -26,8 +26,13 @@
       "unit": "W"
     },
     {
-      "symbol": "V_{\\mathrm{rms}}, I_{\\mathrm{rms}}",
+      "symbol": "V_{\\mathrm{rms}}",
       "meaning": "rms ভোল্টেজ ও প্রবাহ",
+      "unit": "V, A"
+    },
+    {
+      "symbol": "I_{\\mathrm{rms}}",
+      "meaning": "I_{\\mathrm{rms}} সম্পর্কিত রাশি",
       "unit": "V, A"
     }
   ],

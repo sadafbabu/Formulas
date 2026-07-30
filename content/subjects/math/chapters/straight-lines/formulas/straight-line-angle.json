@@ -20,8 +20,13 @@
       "unit": "ডিগ্রী (°)"
     },
     {
-      "symbol": "m_1, m_2",
+      "symbol": "m_1",
       "meaning": "১ম ও ২য় রেখার ঢাল (Slope)",
+      "unit": "সংখ্যা"
+    },
+    {
+      "symbol": "m_2",
+      "meaning": "m_2 সম্পর্কিত রাশি",
       "unit": "সংখ্যা"
     }
   ],
@@ -29,9 +34,14 @@
     "lead": "রেখাদ্বয়ের আনতি θ1 ও θ2 হলে অন্তর্ভুক্ত কোণ θ = θ1 - θ2 থেকে প্রাপ্ত।",
     "steps": [
       {
-        "title": "ত্রিকোণমিতিক সম্পর্ক",
-        "latex": "\\tan\\theta = \\tan(\\theta_1 - \\theta_2) = \\frac{\\tan\\theta_1 - \\tan\\theta_2}{1 + \\tan\\theta_1 \\tan\\theta_2} = \\frac{m_1 - m_2}{1 + m_1 m_2}",
-        "note": "m1 · m2 = -1 হলে রেখাদ্বয় পরস্পর লম্ব"
+        "title": "মূল সূত্র",
+        "latex": "\\tan\\theta = \\left| \\frac{m_1 - m_2}{1 + m_1 m_2} \\right|, \\quad m_1 m_2 = -1 \\text{ (Perpendicular)}, \\quad m_1 = m_2 \\text{ (Parallel)}",
+        "note": "রেখাদ্বয়ের আনতি θ1 ও θ2 হলে অন্তর্ভুক্ত কোণ θ = θ1 - θ2 থেকে প্রাপ্ত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\tan\\theta = \\left| \\frac{m_1 - m_2}{1 + m_1 m_2} \\right|, \\quad m_1 m_2 = -1 \\text{ (Perpendicular)}, \\quad m_1 = m_2 \\text{ (Parallel)}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []

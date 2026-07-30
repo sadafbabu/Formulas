@@ -3,7 +3,7 @@
   "chapter": "wave-optics",
   "title": "YDSE Fringe Shift by Thin Plate",
   "titleBn": "পাতলা পাতের YDSE ডোরা সরণ",
-  "summary": "সরণ = (μ − 1)t D/d",
+  "summary": "সরণ = (μ−1)t · (D/d)। \\Delta y=\\dfrac{(\\mu-1)t\\,D}{d}",
   "latex": "\\Delta y=\\dfrac{(\\mu-1)t\\,D}{d}",
   "tags": [
     "hsc",
@@ -62,8 +62,12 @@
     }
   ],
   "memorize": {
-    "trick": "সরণ = (μ−1)t · (D/d)।",
-    "steps": []
+    "trick": "সরণ = (μ−1)t · (D/d)। \\Delta y=\\dfrac{(\\mu-1)t\\,D}{d}",
+    "steps": [
+      "সূত্র: \\Delta y=\\dfrac{(\\mu-1)t\\,D}{d}",
+      "কী কাজে লাগে: পাতলা পাতের YDSE ডোরা সরণ",
+      "চিহ্ন মনে রাখো: t, \\mu, D"
+    ]
   },
   "subjects": [
     "physics"

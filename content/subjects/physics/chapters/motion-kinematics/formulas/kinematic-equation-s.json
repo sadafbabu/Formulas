@@ -3,7 +3,7 @@
   "chapter": "motion-kinematics",
   "title": "s = ut + ½at²",
   "titleBn": "দ্বিতীয় গতি সমীকরণ",
-  "summary": "সমত্বরণে s = ut + ½at²",
+  "summary": "সরণ = আদি×সময় + অর্ধেক ত্বরণ×সময়² — ‘ut + ½at²’ গান করে মনে রাখো।",
   "latex": "s=ut+\\tfrac12 at^2",
   "tags": [
     "hsc",
@@ -26,8 +26,13 @@
       "unit": "m/s"
     },
     {
-      "symbol": "a, t",
+      "symbol": "a",
       "meaning": "ত্বরণ ও সময়",
+      "unit": "m/s², s"
+    },
+    {
+      "symbol": "t",
+      "meaning": "t সম্পর্কিত রাশি",
       "unit": "m/s², s"
     }
   ],
@@ -35,9 +40,14 @@
     "lead": "গড় বেগ (u+v)/2 × t, v=u+at বসিয়ে।",
     "steps": [
       {
-        "title": "সূত্র",
+        "title": "মূল সূত্র",
         "latex": "s=ut+\\tfrac12 at^2",
-        "note": "দ্বিতীয় গতিসমীকরণ।"
+        "note": "গড় বেগ (u+v)/2 × t, v=u+at বসিয়ে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "s=ut+\\tfrac12 at^2",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

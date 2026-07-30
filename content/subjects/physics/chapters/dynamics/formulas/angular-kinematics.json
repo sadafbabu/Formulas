@@ -16,8 +16,13 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "\\omega, \\omega_0",
+      "symbol": "\\omega",
       "meaning": "কৌণিক বেগ",
+      "unit": "rad/s"
+    },
+    {
+      "symbol": "\\omega_0",
+      "meaning": "\\omega_0 সম্পর্কিত রাশি",
       "unit": "rad/s"
     },
     {
@@ -32,7 +37,7 @@
     }
   ],
   "derivation": {
-    "lead": "v→ω, a→α, s→θ ম্যাপিং।",
+    "lead": "রৈখিক গতির ছাঁচে কৌণিক: ω=ω₀+αt ইত্যাদি",
     "steps": [
       {
         "title": "সমত্বরণ",

@@ -31,8 +31,13 @@
       "unit": "m"
     },
     {
-      "symbol": "\\omega, k",
+      "symbol": "\\omega",
       "meaning": "কৌণিক কম্পাঙ্ক ও তরঙ্গ সংখ্যা",
+      "unit": "rad/s, rad/m"
+    },
+    {
+      "symbol": "k",
+      "meaning": "k সম্পর্কিত রাশি",
       "unit": "rad/s, rad/m"
     }
   ],

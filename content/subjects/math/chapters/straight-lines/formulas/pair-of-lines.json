@@ -23,8 +23,18 @@
   ],
   "symbols": [
     {
-      "symbol": "a,b,h",
+      "symbol": "a",
       "meaning": "দ্বিঘাতের সহগ",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "h",
+      "meaning": "h সম্পর্কিত রাশি",
       "unit": "—"
     },
     {

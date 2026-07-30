@@ -44,9 +44,14 @@
     "lead": "ফোটনের জন্য E=pc ও E=hν, সঙ্গে c=νλ দিলে λ=h/p। de Broglie একই সম্পর্ক matter particle-এর জন্য postulate করেন।",
     "steps": [
       {
-        "title": "তরঙ্গদৈর্ঘ্য সূত্র",
-        "latex": "\\lambda = h/p = h/(mv)",
-        "note": "ইলেকট্রনের ক্ষেত্রে পর্যবেক্ষণযোগ্য তরঙ্গদৈর্ঘ্য"
+        "title": "মূল সূত্র",
+        "latex": "\\lambda = \\frac{h}{p} = \\frac{h}{mv}",
+        "note": "ফোটনের জন্য E=pc ও E=hν, সঙ্গে c=νλ দিলে λ=h/p। de Broglie একই সম্পর্ক matter particle-এর জন্য postulate করেন।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\lambda = \\frac{h}{p} = \\frac{h}{mv}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

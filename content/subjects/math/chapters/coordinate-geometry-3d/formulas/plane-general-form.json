@@ -3,7 +3,7 @@
   "chapter": "coordinate-geometry-3d",
   "title": "Plane General Form",
   "titleBn": "সমতলের সাধারণ রূপ",
-  "summary": "Ax+By+Cz+D=0",
+  "summary": "স্বাভাবিক (A,B,C); D দিয়ে অবস্থান নির্ধারণ।",
   "latex": "Ax+By+Cz+D=0",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "A, x, B, y",
+      "symbol": "A",
       "meaning": "Ax+By+Cz+D=0",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "x সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "y",
+      "meaning": "y সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "Ax+By+Cz+D=0",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "স্বাভাবিক (A,B,C); D দিয়ে অবস্থান নির্ধারণ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "Ax+By+Cz+D=0",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমতলের সাধারণ রূপ এর সূত্রটি লেখো। (ইঙ্গিত: স্বাভাবিক (A,B,C); D দিয়ে অবস্থান নির্ধারণ।)",
+      "question": "সমতলের সাধারণ রূপ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "Ax+By+Cz+D=0"
     }
   ],
   "memorize": {
     "trick": "স্বাভাবিক (A,B,C); D দিয়ে অবস্থান নির্ধারণ।",
-    "steps": []
+    "steps": [
+      "সূত্র: Ax+By+Cz+D=0",
+      "কী কাজে লাগে: সমতলের সাধারণ রূপ",
+      "চিহ্ন মনে রাখো: A, x, B, y"
+    ]
   },
   "subjects": [
     "math"

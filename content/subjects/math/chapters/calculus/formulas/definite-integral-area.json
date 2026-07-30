@@ -25,8 +25,13 @@
       "unit": "ফাংশন"
     },
     {
-      "symbol": "a, b",
+      "symbol": "a",
       "meaning": "সীমা (Limits of integration)",
+      "unit": "সংখ্যা"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
       "unit": "সংখ্যা"
     }
   ],
@@ -34,9 +39,14 @@
     "lead": "ক্ষুদ্র উল্লম্ব ফালি dx এর ক্ষেত্রফল dA = y dx সমাকলন করে পাওয়া যায়।",
     "steps": [
       {
-        "title": "ক্ষেত্রফল সমাকলন",
-        "latex": "A = \\lim_{\\Delta x \\to 0} \\sum y_i \\Delta x = \\int_a^b y \\, dx",
-        "note": "বৃত্ত x² + y² = r² এর ক্ষেত্রফল = 4 ∫₀ʳ √(r² - x²) dx = π r²"
+        "title": "মূল সূত্র",
+        "latex": "\\text{Area}=\\int_a^b|f(x)|\\,dx,\\quad \\text{Area between curves}=\\int_a^b|f_1(x)-f_2(x)|\\,dx",
+        "note": "ক্ষুদ্র উল্লম্ব ফালি dx এর ক্ষেত্রফল dA = y dx সমাকলন করে পাওয়া যায়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\text{Area}=\\int_a^b|f(x)|\\,dx,\\quad \\text{Area between curves}=\\int_a^b|f_1(x)-f_2(x)|\\,dx",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []

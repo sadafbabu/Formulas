@@ -16,18 +16,38 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "E, M, n, -factor",
+      "symbol": "E",
       "meaning": "তুল্যাঙ্ক ভর এবং নরমালিটি",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "M",
+      "meaning": "M সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "n সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "-factor",
+      "meaning": "-factor সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "তুল্যাঙ্ক ভর এবং নরমালিটি",
+    "lead": "তুল্যাঙ্ক ও নরমালিটি এর মূল সম্পর্ক ও প্রয়োগ।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "E=\\frac{M}{n\\text{-factor}},\\quad N=\\frac{\\text{gram-equivalent}}{V_L},\\quad N_1V_1=N_2V_2",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "তুল্যাঙ্ক ও নরমালিটি এর মূল সম্পর্ক ও প্রয়োগ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "E=\\frac{M}{n\\text{-factor}},\\quad N=\\frac{\\text{gram-equivalent}}{V_L},\\quad N_1V_1=N_2V_2",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "তুল্যাঙ্ক ও নরমালিটি এর সূত্রটি লেখো। (ইঙ্গিত: E = M/n-factor; টাইট্রেশনে N₁V₁=N₂V₂।)",
+      "question": "তুল্যাঙ্ক ও নরমালিটি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "E=\\frac{M}{n\\text{-factor}},\\quad N=\\frac{\\text{gram-equivalent}}{V_L},\\quad N_1V_1=N_2V_2"
     }
   ],
   "memorize": {
     "trick": "E = M/n-factor; টাইট্রেশনে N₁V₁=N₂V₂।",
-    "steps": []
+    "steps": [
+      "সূত্র: E=\\frac{M}{n\\text{-factor}},\\quad N=\\frac{\\text{gram-equivalent}}{V_L},\\quad N_1…",
+      "তুল্যাঙ্ক ভর এবং নরমালিটি",
+      "চিহ্ন মনে রাখো: E, M, n, -factor"
+    ]
   },
   "subjects": [
     "chemistry"

@@ -21,8 +21,13 @@
       "unit": "m/s²"
     },
     {
-      "symbol": "v, \\omega",
+      "symbol": "v",
       "meaning": "রৈখিক ও কৌণিক বেগ",
+      "unit": "m/s, rad/s"
+    },
+    {
+      "symbol": "\\omega",
+      "meaning": "\\omega সম্পর্কিত রাশি",
       "unit": "m/s, rad/s"
     },
     {
@@ -35,9 +40,14 @@
     "lead": "দিক পরিবর্তনের ত্বরণ; মান v²/r।",
     "steps": [
       {
-        "title": "সূত্র",
-        "latex": "a_c=v^2/r=\\omega^2 r",
-        "note": "দিক সবসময় কেন্দ্রের দিকে।"
+        "title": "মূল সূত্র",
+        "latex": "a_c=\\dfrac{v^2}{r}=\\omega^2 r",
+        "note": "দিক পরিবর্তনের ত্বরণ; মান v²/r।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "a_c=\\dfrac{v^2}{r}=\\omega^2 r",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

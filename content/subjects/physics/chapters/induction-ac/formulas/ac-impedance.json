@@ -62,8 +62,12 @@
     }
   ],
   "memorize": {
-    "trick": "Z=√(R²+X²); X=X_L−X_C।",
-    "steps": []
+    "trick": "Z=√(R²+X²); X=X_L−X_C। AC প্রতিবন্ধকতা Z=√(R²+(X_L−X_C)²)",
+    "steps": [
+      "সূত্র: Z=\\sqrt{R^2+(X_L-X_C)^2},\\quad X_L=\\omega L,\\ X_C=1/(\\omega C)",
+      "AC প্রতিবন্ধকতা Z=√(R²+(X_L−X_C)²)",
+      "চিহ্ন মনে রাখো: Z, R, X_L=\\omega L"
+    ]
   },
   "subjects": [
     "physics"

@@ -35,9 +35,14 @@
     "lead": "শক্তির সংরক্ষণশীলতা নীতি থেকে পাওয়া যায় যে শক্তিসমূহ রূপান্তরযোগ্য।",
     "steps": [
       {
-        "title": "শক্তি সংরক্ষণশীলতা রূপায়ণ",
-        "latex": "dQ = dU + P dV",
-        "note": "স্থির চাপে dW = P dV প্রতিস্থাপন করা হয়"
+        "title": "মূল সূত্র",
+        "latex": "\\delta Q=dU+\\delta W,\\quad \\delta W=P_{\\mathrm{ext}}dV;\\quad \\text{quasistatic হলে }P_{\\mathrm{ext}}=P",
+        "note": "শক্তির সংরক্ষণশীলতা নীতি থেকে পাওয়া যায় যে শক্তিসমূহ রূপান্তরযোগ্য।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\delta Q=dU+\\delta W,\\quad \\delta W=P_{\\mathrm{ext}}dV;\\quad \\text{quasistatic হলে }P_{\\mathrm{ext}}=P",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

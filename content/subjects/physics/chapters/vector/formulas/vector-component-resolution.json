@@ -53,7 +53,11 @@
   ],
   "memorize": {
     "trick": "কোসাইন = সংলগ্ন উপাংশ; সাইন = বিপরীত উপাংশ।",
-    "steps": []
+    "steps": [
+      "সূত্র: A_x=A\\cos\\theta,\\quad A_y=A\\sin\\theta,\\quad A=\\sqrt{A_x^2+A_y^2}",
+      "সমতলীয় ভেক্টরের x–y উপাংশ",
+      "চিহ্ন মনে রাখো: A, \\theta"
+    ]
   },
   "subjects": [
     "physics"

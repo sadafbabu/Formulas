@@ -3,7 +3,7 @@
   "chapter": "environmental-chemistry",
   "title": "Ozone Depletion by CFC",
   "titleBn": "CFC দ্বারা ওজোন ক্ষয়",
-  "summary": "Cl radical chain",
+  "summary": "এক Cl পরমাণু হাজার ওজোন ভাঙতে পারে।",
   "latex": "\\mathrm{CF_2Cl_2}\\xrightarrow{uv}\\mathrm{Cl^\\bullet},\\quad \\mathrm{Cl^\\bullet}+\\mathrm{O_3}\\to\\mathrm{ClO^\\bullet}+\\mathrm{O_2}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "CF_2Cl_2, xrightarrow, u, v",
+      "symbol": "CF_2Cl_2",
       "meaning": "Cl radical chain",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "xrightarrow",
+      "meaning": "xrightarrow সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "u",
+      "meaning": "u সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "v",
+      "meaning": "v সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{CF_2Cl_2}\\xrightarrow{uv}\\mathrm{Cl^\\bullet},\\quad \\mathrm{Cl^\\bullet}+\\mathrm{O_3}\\to\\mathrm{ClO^\\bullet}+\\mathrm{O_2}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "এক Cl পরমাণু হাজার ওজোন ভাঙতে পারে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mathrm{CF_2Cl_2}\\xrightarrow{uv}\\mathrm{Cl^\\bullet},\\quad \\mathrm{Cl^\\bullet}+\\mathrm{O_3}\\to\\mathrm{ClO^\\bullet}+\\mathrm{O_2}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "CFC দ্বারা ওজোন ক্ষয় এর সূত্রটি লেখো। (ইঙ্গিত: এক Cl পরমাণু হাজার ওজোন ভাঙতে পারে।)",
+      "question": "CFC দ্বারা ওজোন ক্ষয় কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\mathrm{CF_2Cl_2}\\xrightarrow{uv}\\mathrm{Cl^\\bullet},\\quad \\mathrm{Cl^\\bullet}+\\mathrm{O_3}\\to\\mathrm{ClO^\\bullet}+\\mathrm{O_2}"
     }
   ],
   "memorize": {
     "trick": "এক Cl পরমাণু হাজার ওজোন ভাঙতে পারে।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\mathrm{CF_2Cl_2}\\xrightarrow{uv}\\mathrm{Cl^\\bullet},\\quad \\mathrm{Cl^\\bullet}+\\…",
+      "কী কাজে লাগে: CFC দ্বারা ওজোন ক্ষয়",
+      "চিহ্ন মনে রাখো: CF_2Cl_2, xrightarrow, u, v"
+    ]
   },
   "subjects": [
     "chemistry"

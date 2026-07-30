@@ -63,7 +63,11 @@
   ],
   "memorize": {
     "trick": "আপাত = বাস্তব/μ; সরণ = t(1−1/μ)।",
-    "steps": []
+    "steps": [
+      "সূত্র: d_{\\mathrm{app}}=\\dfrac{d}{\\mu},\\quad \\text{shift}=t\\left(1-\\dfrac{1}{\\mu}\\right…",
+      "আপাত গভীরতা = বাস্তব / μ; সরণ = t(1−1/μ)",
+      "চিহ্ন মনে রাখো: d, d_{\\mathrm{app}}, \\mu"
+    ]
   },
   "subjects": [
     "physics"

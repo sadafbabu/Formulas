@@ -3,7 +3,7 @@
   "chapter": "measurement",
   "title": "Percentage Error",
   "titleBn": "শতকরা ত্রুটি",
-  "summary": "Δx/x × 100%",
+  "summary": "আপেক্ষিক ত্রুটি × 100 = শতকরা ত্রুটি।",
   "latex": "\\delta x\\%=\\frac{\\Delta x}{x}\\times 100\\%",
   "tags": [
     "hsc",
@@ -37,7 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\delta x\\%=\\frac{\\Delta x}{x}\\times 100\\%",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "আপেক্ষিক ত্রুটি × 100 = শতকরা ত্রুটি।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\delta x\\%=\\frac{\\Delta x}{x}\\times 100\\%",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -53,7 +58,11 @@
   ],
   "memorize": {
     "trick": "আপেক্ষিক ত্রুটি × 100 = শতকরা ত্রুটি।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\delta x\\%=\\frac{\\Delta x}{x}\\times 100\\%",
+      "কী কাজে লাগে: শতকরা ত্রুটি",
+      "চিহ্ন মনে রাখো: \\Delta x, x, \\delta x\\%"
+    ]
   },
   "subjects": [
     "physics"

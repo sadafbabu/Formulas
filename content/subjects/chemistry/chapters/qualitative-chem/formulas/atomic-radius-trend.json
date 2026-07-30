@@ -3,7 +3,7 @@
   "chapter": "qualitative-chem",
   "title": "Atomic Radius Trend",
   "titleBn": "পারমাণবিক ব্যাসার্ধের প্রবণতা",
-  "summary": "radius across/down",
+  "summary": "বামে→ডানে ছোট; উপরে→নিচে বড়। r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
   "latex": "r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
   "tags": [
     "hsc",
@@ -16,18 +16,38 @@
   "order": 270,
   "symbols": [
     {
-      "symbol": "r, downarrow, across period, uparrow",
+      "symbol": "r",
       "meaning": "radius across/down",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "downarrow",
+      "meaning": "downarrow সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "across period",
+      "meaning": "across period সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "uparrow",
+      "meaning": "uparrow সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "বামে→ডানে ছোট; উপরে→নিচে বড়।",
+    "lead": "বামে→ডানে ছোট; উপরে→নিচে বড়। r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "বামে→ডানে ছোট; উপরে→নিচে বড়। r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পারমাণবিক ব্যাসার্ধের প্রবণতা এর সূত্রটি লেখো। (ইঙ্গিত: বামে→ডানে ছোট; উপরে→নিচে বড়।)",
+      "question": "পারমাণবিক ব্যাসার্ধের প্রবণতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}"
     }
   ],
   "memorize": {
-    "trick": "বামে→ডানে ছোট; উপরে→নিচে বড়।",
-    "steps": []
+    "trick": "বামে→ডানে ছোট; উপরে→নিচে বড়। r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
+    "steps": [
+      "সূত্র: r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
+      "কী কাজে লাগে: পারমাণবিক ব্যাসার্ধের প্রবণতা",
+      "চিহ্ন মনে রাখো: r, downarrow, across period, uparrow"
+    ]
   },
   "subjects": [
     "chemistry"

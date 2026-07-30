@@ -21,13 +21,23 @@
       "unit": "Pa·s"
     },
     {
-      "symbol": "r, v",
+      "symbol": "r",
       "meaning": "ব্যাসার্ধ ও বেগ",
       "unit": "m, m/s"
     },
     {
-      "symbol": "\\rho, \\sigma",
+      "symbol": "v",
+      "meaning": "v সম্পর্কিত রাশি",
+      "unit": "m, m/s"
+    },
+    {
+      "symbol": "\\rho",
       "meaning": "গোলক ও তরলের ঘনত্ব",
+      "unit": "kg/m³"
+    },
+    {
+      "symbol": "\\sigma",
+      "meaning": "\\sigma সম্পর্কিত রাশি",
       "unit": "kg/m³"
     }
   ],

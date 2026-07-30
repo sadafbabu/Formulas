@@ -21,8 +21,13 @@
       "unit": "N·m²/kg²"
     },
     {
-      "symbol": "M, R",
+      "symbol": "M",
       "meaning": "গ্রহের ভর ও ব্যাসার্ধ",
+      "unit": "kg, m"
+    },
+    {
+      "symbol": "R",
+      "meaning": "R সম্পর্কিত রাশি",
       "unit": "kg, m"
     },
     {
@@ -37,7 +42,7 @@
     }
   ],
   "derivation": {
-    "lead": "mg = GMm/R² থেকে g।",
+    "lead": "পৃষ্ঠে g=GM/R²; উচ্চতায় g′=g(R/(R+h))²",
     "steps": [
       {
         "title": "পৃষ্ঠ",

@@ -40,9 +40,14 @@
     "lead": "মুক্ত শক্তি পরিবর্তন ΔG = ΔG° + RT ln Q এবং ΔG = -nFE সম্পর্ক হতে প্রাপ্ত।",
     "steps": [
       {
-        "title": "নার্নস্ট সমীকরণ রূপায়ণ",
-        "latex": "Q=\\prod_i a_i^{\\nu_i};\\quad \\ce{Zn|Zn^{2+}||Cu^{2+}|Cu}\\text{-এর জন্য }Q=\\frac{a_{\\ce{Zn^{2+}}}}{a_{\\ce{Cu^{2+}}}}",
-        "note": "Q সাধারণভাবে product activity/reactant activity; anode/cathode concentration অনুপাত সর্বজনীন নয়।"
+        "title": "মূল সূত্র",
+        "latex": "E=E^\\circ-\\frac{RT}{nF}\\ln Q;\\quad 298\\ \\mathrm K\\text{-এ }E=E^\\circ-\\frac{0.05916}{n}\\log_{10}Q",
+        "note": "মুক্ত শক্তি পরিবর্তন ΔG = ΔG° + RT ln Q এবং ΔG = -nFE সম্পর্ক হতে প্রাপ্ত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "E=E^\\circ-\\frac{RT}{nF}\\ln Q;\\quad 298\\ \\mathrm K\\text{-এ }E=E^\\circ-\\frac{0.05916}{n}\\log_{10}Q",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []

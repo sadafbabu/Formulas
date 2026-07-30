@@ -3,7 +3,7 @@
   "chapter": "permutation-combination",
   "title": "Combination Identities",
   "titleBn": "সমাবেশ অভেদ",
-  "summary": "পাস্কাল ও সমষ্টি অভেদ",
+  "summary": "C(n,r)=C(n,n−r); যোগফল 2ⁿ। {}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n",
   "latex": "{}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "n, C, r, sum",
+      "symbol": "n",
       "meaning": "পাস্কাল ও সমষ্টি অভেদ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "C",
+      "meaning": "C সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "r",
+      "meaning": "r সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "sum",
+      "meaning": "sum সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "C(n,r)=C(n,n−r); যোগফল 2ⁿ।",
+    "lead": "C(n,r)=C(n,n−r); যোগফল 2ⁿ। {}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "{}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "C(n,r)=C(n,n−r); যোগফল 2ⁿ। {}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "{}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমাবেশ অভেদ এর সূত্রটি লেখো। (ইঙ্গিত: C(n,r)=C(n,n−r); যোগফল 2ⁿ।)",
+      "question": "সমাবেশ অভেদ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "{}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n"
     }
   ],
   "memorize": {
-    "trick": "C(n,r)=C(n,n−r); যোগফল 2ⁿ।",
-    "steps": []
+    "trick": "C(n,r)=C(n,n−r); যোগফল 2ⁿ। {}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n",
+    "steps": [
+      "সূত্র: {}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_…",
+      "কী কাজে লাগে: সমাবেশ অভেদ",
+      "চিহ্ন মনে রাখো: n, C, r, sum"
+    ]
   },
   "subjects": [
     "math"

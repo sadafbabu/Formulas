@@ -3,7 +3,7 @@
   "chapter": "integration",
   "title": "Area Under Curve",
   "titleBn": "বক্ররেখার নিচের ক্ষেত্রফল",
-  "summary": "A=∫y dx",
+  "summary": "x-অক্ষের উপরের ক্ষেত্র ধনাত্মক।",
   "latex": "A=\\int_a^b y\\,dx=\\int_a^b f(x)\\,dx",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "A, int, a, b",
+      "symbol": "A",
       "meaning": "A=∫y dx",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "int",
+      "meaning": "int সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "A=\\int_a^b y\\,dx=\\int_a^b f(x)\\,dx",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "x-অক্ষের উপরের ক্ষেত্র ধনাত্মক।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "A=\\int_a^b y\\,dx=\\int_a^b f(x)\\,dx",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বক্ররেখার নিচের ক্ষেত্রফল এর সূত্রটি লেখো। (ইঙ্গিত: x-অক্ষের উপরের ক্ষেত্র ধনাত্মক।)",
+      "question": "বক্ররেখার নিচের ক্ষেত্রফল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "A=\\int_a^b y\\,dx=\\int_a^b f(x)\\,dx"
     }
   ],
   "memorize": {
     "trick": "x-অক্ষের উপরের ক্ষেত্র ধনাত্মক।",
-    "steps": []
+    "steps": [
+      "সূত্র: A=\\int_a^b y\\,dx=\\int_a^b f(x)\\,dx",
+      "কী কাজে লাগে: বক্ররেখার নিচের ক্ষেত্রফল",
+      "চিহ্ন মনে রাখো: A, int, a, b"
+    ]
   },
   "subjects": [
     "math"

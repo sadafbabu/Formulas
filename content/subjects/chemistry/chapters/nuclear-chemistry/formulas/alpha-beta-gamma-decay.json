@@ -3,7 +3,7 @@
   "chapter": "nuclear-chemistry",
   "title": "α β γ Decay",
   "titleBn": "α β γ ক্ষয়",
-  "summary": "emission changes",
+  "summary": "α = He নিউক্লিয়াস; β⁻ = নিউট্রন→প্রোটন; γ = শুধু শক্তি।",
   "latex": "\\alpha:\\,A\\!-\\!4,Z\\!-\\!2;\\quad \\beta^-:\\,Z\\!+\\!1;\\quad \\gamma:\\ \\text{no }A,Z\\text{ change}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "alpha, A, Z, beta",
+      "symbol": "alpha",
       "meaning": "emission changes",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "A সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "Z",
+      "meaning": "Z সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "beta",
+      "meaning": "beta সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\alpha:\\,A\\!-\\!4,Z\\!-\\!2;\\quad \\beta^-:\\,Z\\!+\\!1;\\quad \\gamma:\\ \\text{no }A,Z\\text{ change}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "α = He নিউক্লিয়াস; β⁻ = নিউট্রন→প্রোটন; γ = শুধু শক্তি।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\alpha:\\,A\\!-\\!4,Z\\!-\\!2;\\quad \\beta^-:\\,Z\\!+\\!1;\\quad \\gamma:\\ \\text{no }A,Z\\text{ change}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "α β γ ক্ষয় এর সূত্রটি লেখো। (ইঙ্গিত: α = He নিউক্লিয়াস; β⁻ = নিউট্রন→প্রোটন; γ = শুধু শক্তি।)",
+      "question": "α β γ ক্ষয় কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\alpha:\\,A\\!-\\!4,Z\\!-\\!2;\\quad \\beta^-:\\,Z\\!+\\!1;\\quad \\gamma:\\ \\text{no }A,Z\\text{ change}"
     }
   ],
   "memorize": {
     "trick": "α = He নিউক্লিয়াস; β⁻ = নিউট্রন→প্রোটন; γ = শুধু শক্তি।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\alpha:\\,A\\!-\\!4,Z\\!-\\!2;\\quad \\beta^-:\\,Z\\!+\\!1;\\quad \\gamma:\\ \\text{no }A,Z\\te…",
+      "কী কাজে লাগে: α β γ ক্ষয়",
+      "চিহ্ন মনে রাখো: alpha, A, Z, beta"
+    ]
   },
   "subjects": [
     "chemistry"

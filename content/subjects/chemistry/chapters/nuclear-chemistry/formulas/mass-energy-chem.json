@@ -3,7 +3,7 @@
   "chapter": "nuclear-chemistry",
   "title": "Mass–Energy Equivalence",
   "titleBn": "ভর–শক্তি সমতুল্যতা",
-  "summary": "E=mc²",
+  "summary": "ভর ক্ষতি → শক্তি নির্গত। E=(\\Delta m)c^2",
   "latex": "E=(\\Delta m)c^2",
   "tags": [
     "hsc",
@@ -16,18 +16,38 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "E, Delta, m, c",
+      "symbol": "E",
       "meaning": "E=mc²",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "Delta",
+      "meaning": "Delta সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "m",
+      "meaning": "m সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "c",
+      "meaning": "c সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "ভর ক্ষতি → শক্তি নির্গত।",
+    "lead": "ভর ক্ষতি → শক্তি নির্গত। E=(\\Delta m)c^2",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "E=(\\Delta m)c^2",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "ভর ক্ষতি → শক্তি নির্গত। E=(\\Delta m)c^2"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "E=(\\Delta m)c^2",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভর–শক্তি সমতুল্যতা এর সূত্রটি লেখো। (ইঙ্গিত: ভর ক্ষতি → শক্তি নির্গত।)",
+      "question": "ভর–শক্তি সমতুল্যতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "E=(\\Delta m)c^2"
     }
   ],
   "memorize": {
-    "trick": "ভর ক্ষতি → শক্তি নির্গত।",
-    "steps": []
+    "trick": "ভর ক্ষতি → শক্তি নির্গত। E=(\\Delta m)c^2",
+    "steps": [
+      "সূত্র: E=(\\Delta m)c^2",
+      "কী কাজে লাগে: ভর–শক্তি সমতুল্যতা",
+      "চিহ্ন মনে রাখো: E, Delta, m, c"
+    ]
   },
   "subjects": [
     "chemistry"

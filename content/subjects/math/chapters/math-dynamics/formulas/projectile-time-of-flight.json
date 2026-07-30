@@ -3,7 +3,7 @@
   "chapter": "math-dynamics",
   "title": "Time of Flight",
   "titleBn": "উড্ডয়নকাল",
-  "summary": "T=2u sinθ/g",
+  "summary": "উঠা + নামা = 2u sinθ/g। T=\\frac{2u\\sin\\theta}{g}",
   "latex": "T=\\frac{2u\\sin\\theta}{g}",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "T, u, theta, g",
+      "symbol": "T",
       "meaning": "T=2u sinθ/g",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "u",
+      "meaning": "u সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "theta",
+      "meaning": "theta সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "g",
+      "meaning": "g সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "T=\\frac{2u\\sin\\theta}{g}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "T=2u sinθ/g — উঠা + নামা = 2u sinθ/g।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "T=\\frac{2u\\sin\\theta}{g}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উড্ডয়নকাল এর সূত্রটি লেখো। (ইঙ্গিত: উঠা + নামা = 2u sinθ/g।)",
+      "question": "উড্ডয়নকাল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "T=\\frac{2u\\sin\\theta}{g}"
     }
   ],
   "memorize": {
-    "trick": "উঠা + নামা = 2u sinθ/g।",
-    "steps": []
+    "trick": "উঠা + নামা = 2u sinθ/g। T=\\frac{2u\\sin\\theta}{g}",
+    "steps": [
+      "সূত্র: T=\\frac{2u\\sin\\theta}{g}",
+      "কী কাজে লাগে: উড্ডয়নকাল",
+      "চিহ্ন মনে রাখো: T, u, theta, g"
+    ]
   },
   "subjects": [
     "math"

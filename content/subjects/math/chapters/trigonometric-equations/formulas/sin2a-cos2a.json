@@ -3,7 +3,7 @@
   "chapter": "trigonometric-equations",
   "title": "Double Angle Formulas",
   "titleBn": "দ্বিগুণ কোণ সূত্র",
-  "summary": "sin2A, cos2A",
+  "summary": "cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।",
   "latex": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A",
   "tags": [
     "hsc",
@@ -17,7 +17,7 @@
     {
       "symbol": "A",
       "meaning": "sin2A, cos2A",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +26,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +39,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দ্বিগুণ কোণ সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।)",
+      "question": "দ্বিগুণ কোণ সূত্র কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A"
     }
   ],
   "memorize": {
     "trick": "cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A",
+      "কী কাজে লাগে: দ্বিগুণ কোণ সূত্র",
+      "চিহ্ন মনে রাখো: A"
+    ]
   },
   "subjects": [
     "math"

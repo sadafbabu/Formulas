@@ -35,8 +35,13 @@
       "unit": "K"
     },
     {
-      "symbol": "V_1, V_2",
+      "symbol": "V_1",
       "meaning": "আদি ও শেষ আয়তন",
+      "unit": "m³"
+    },
+    {
+      "symbol": "V_2",
+      "meaning": "V_2 সম্পর্কিত রাশি",
       "unit": "m³"
     }
   ],
@@ -44,9 +49,14 @@
     "lead": "P = nRT / V বসিয়ে আয়তনের সাপেক্ষে সমাকলন করে কৃতকাজ পাওয়া যায়।",
     "steps": [
       {
-        "title": "কাজ সমাকলন রূপায়ণ",
-        "latex": "W = \\int_{V_1}^{V_2} P dV = nRT \\int_{V_1}^{V_2} \\frac{dV}{V} = nRT \\ln\\left(\\frac{V_2}{V_1}\\right)",
-        "note": "বয়েলের সূত্রানুসারে V₂/V₁ = P₁/P₂"
+        "title": "মূল সূত্র",
+        "latex": "W = n R T \\ln\\left(\\frac{V_2}{V_1}\\right) = n R T \\ln\\left(\\frac{P_1}{P_2}\\right)",
+        "note": "P = nRT / V বসিয়ে আয়তনের সাপেক্ষে সমাকলন করে কৃতকাজ পাওয়া যায়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "W = n R T \\ln\\left(\\frac{V_2}{V_1}\\right) = n R T \\ln\\left(\\frac{P_1}{P_2}\\right)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

@@ -3,7 +3,7 @@
   "chapter": "induction-ac",
   "title": "Energy Stored in Inductor",
   "titleBn": "আবেশকে সঞ্চিত শক্তি",
-  "summary": "U = ½ LI²",
+  "summary": "ধারক ½CV²; আবেশক ½LI²। U=\\tfrac12 L I^2",
   "latex": "U=\\tfrac12 L I^2",
   "tags": [
     "hsc",
@@ -35,9 +35,14 @@
     "lead": "ধারকের ½CV²-এর চৌম্বক প্রতিরূপ।",
     "steps": [
       {
-        "title": "শক্তি",
-        "latex": "U=\\int\\mathcal{E}I\\,dt=\\tfrac12 LI^2",
-        "note": "ε = L dI/dt।"
+        "title": "মূল সূত্র",
+        "latex": "U=\\tfrac12 L I^2",
+        "note": "ধারকের ½CV²-এর চৌম্বক প্রতিরূপ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "U=\\tfrac12 L I^2",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -52,8 +57,12 @@
     }
   ],
   "memorize": {
-    "trick": "ধারক ½CV²; আবেশক ½LI²।",
-    "steps": []
+    "trick": "ধারক ½CV²; আবেশক ½LI²। U=\\tfrac12 L I^2",
+    "steps": [
+      "সূত্র: U=\\tfrac12 L I^2",
+      "কী কাজে লাগে: আবেশকে সঞ্চিত শক্তি",
+      "চিহ্ন মনে রাখো: L, I, U"
+    ]
   },
   "subjects": [
     "physics"

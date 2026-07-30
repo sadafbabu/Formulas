@@ -40,9 +40,14 @@
     "lead": "ক্ষয়ের হার dN/dt = -λ N সমাকলন করে পাওয়া যায়।",
     "steps": [
       {
-        "title": "সমাকলন রূপায়ণ",
-        "latex": "\\int_{N_0}^N \\frac{dN}{N} = -\\lambda \\int_0^t dt \\implies \\ln\\left(\\frac{N}{N_0}\\right) = -\\lambda t \\implies N = N_0 e^{-\\lambda t}",
-        "note": "N = N0/2 বসিয়ে T1/2 = ln 2 / λ পাওয়া যায়"
+        "title": "মূল সূত্র",
+        "latex": "N(t) = N_0 e^{-\\lambda t}, \\quad T_{1/2} = \\frac{\\ln 2}{\\lambda} \\approx \\frac{0.693}{\\lambda}",
+        "note": "ক্ষয়ের হার dN/dt = -λ N সমাকলন করে পাওয়া যায়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "N(t) = N_0 e^{-\\lambda t}, \\quad T_{1/2} = \\frac{\\ln 2}{\\lambda} \\approx \\frac{0.693}{\\lambda}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -57,7 +62,12 @@
     }
   ],
   "memorize": {
-    "trick": "N = N₀e^(-λt); T½ = 0.693/λ — অর্ধায়ু = 0.693 ÷ ক্ষয় ধ্রুবক।"
+    "trick": "N = N₀e^(-λt); T½ = 0.693/λ — অর্ধায়ু = 0.693 ÷ ক্ষয় ধ্রুবক।",
+    "steps": [
+      "সূত্র: N(t) = N_0 e^{-\\lambda t}, \\quad T_{1/2} = \\frac{\\ln 2}{\\lambda} \\approx \\frac{0…",
+      "তেজস্ক্রিয় পরমাণুর ক্ষয়ের হার ও অর্ধায়ুর সমীকরণ",
+      "চিহ্ন মনে রাখো: N(t), N_0, \\lambda"
+    ]
   },
   "subjects": [
     "physics"

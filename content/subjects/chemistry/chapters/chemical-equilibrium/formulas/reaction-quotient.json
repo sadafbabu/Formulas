@@ -24,8 +24,13 @@
       "unit": "এককহীন"
     },
     {
-      "symbol": "[A],[B]",
+      "symbol": "[A]",
       "meaning": "বিক্রিয়কের ঘনমাত্রা",
+      "unit": "M"
+    },
+    {
+      "symbol": "[B]",
+      "meaning": "[B] সম্পর্কিত রাশি",
       "unit": "M"
     }
   ],
@@ -33,9 +38,14 @@
     "lead": "Law of Mass Action থেকে বিক্রিয়া ভাগফল প্রাপ্ত।",
     "steps": [
       {
-        "title": "সাম্যের দিকনির্দেশ",
-        "latex": "Q < K \\Rightarrow \\text{forward}, \\quad Q > K \\Rightarrow \\text{reverse}",
-        "note": "Q = K হলে সাম্যাবস্থা"
+        "title": "মূল সূত্র",
+        "latex": "Q_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}, \\quad Q = K \\text{ (equilibrium)}",
+        "note": "Law of Mass Action থেকে বিক্রিয়া ভাগফল প্রাপ্ত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "Q_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}, \\quad Q = K \\text{ (equilibrium)}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

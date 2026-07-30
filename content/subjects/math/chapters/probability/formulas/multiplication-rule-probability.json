@@ -3,7 +3,7 @@
   "chapter": "probability",
   "title": "Multiplication Rule",
   "titleBn": "গুণ নিয়ম",
-  "summary": "P(A∩B)",
+  "summary": "ক্রমিক ঘটনায় গুণ; স্বাধীন হলে P(B|A)=P(B)।",
   "latex": "P(A\\cap B)=P(A)\\,P(B|A)=P(B)\\,P(A|B)",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "P, A, cap, B",
+      "symbol": "P",
       "meaning": "P(A∩B)",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "A সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "cap",
+      "meaning": "cap সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P(A\\cap B)=P(A)\\,P(B|A)=P(B)\\,P(A|B)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "ক্রমিক ঘটনায় গুণ; স্বাধীন হলে P(B|A)=P(B)।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "P(A\\cap B)=P(A)\\,P(B|A)=P(B)\\,P(A|B)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গুণ নিয়ম এর সূত্রটি লেখো। (ইঙ্গিত: ক্রমিক ঘটনায় গুণ; স্বাধীন হলে P(B|A)=P(B)।)",
+      "question": "গুণ নিয়ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "P(A\\cap B)=P(A)\\,P(B|A)=P(B)\\,P(A|B)"
     }
   ],
   "memorize": {
     "trick": "ক্রমিক ঘটনায় গুণ; স্বাধীন হলে P(B|A)=P(B)।",
-    "steps": []
+    "steps": [
+      "সূত্র: P(A\\cap B)=P(A)\\,P(B|A)=P(B)\\,P(A|B)",
+      "কী কাজে লাগে: গুণ নিয়ম",
+      "চিহ্ন মনে রাখো: P, A, cap, B"
+    ]
   },
   "subjects": [
     "math"

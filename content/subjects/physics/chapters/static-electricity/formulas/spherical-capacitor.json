@@ -3,7 +3,7 @@
   "chapter": "static-electricity",
   "title": "Spherical Capacitor",
   "titleBn": "গোলীয় ধারক",
-  "summary": "C = 4πε₀ ab/(b−a)",
+  "summary": "C=4πε₀ ab/(b−a)। C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
   "latex": "C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
   "tags": [
     "hsc",
@@ -16,8 +16,13 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "a, b",
+      "symbol": "a",
       "meaning": "অভ্যন্তর ও বহিঃ ব্যাসার্ধ",
+      "unit": "m"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
       "unit": "m"
     },
     {
@@ -30,9 +35,14 @@
     "lead": "V=∫_a^b E dr, E=kq/r² → C=q/V।",
     "steps": [
       {
-        "title": "সূত্র",
-        "latex": "C=4\\pi\\varepsilon_0 ab/(b-a)",
-        "note": "b→∞ হলে বিচ্ছিন্ন গোলক C=4πε₀a।"
+        "title": "মূল সূত্র",
+        "latex": "C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
+        "note": "V=∫_a^b E dr, E=kq/r² → C=q/V।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -41,14 +51,18 @@
   },
   "questions": [
     {
-      "examType": "Admission",
-      "question": "b→∞ হলে C?",
-      "answer": "C=4\\pi\\varepsilon_0 a"
+      "examType": "HSC / Admission",
+      "question": "গোলীয় ধারক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "answer": "C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}"
     }
   ],
   "memorize": {
-    "trick": "C=4πε₀ ab/(b−a)।",
-    "steps": []
+    "trick": "C=4πε₀ ab/(b−a)। C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
+    "steps": [
+      "সূত্র: C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
+      "কী কাজে লাগে: গোলীয় ধারক",
+      "চিহ্ন মনে রাখো: a, b, C"
+    ]
   },
   "subjects": [
     "physics"

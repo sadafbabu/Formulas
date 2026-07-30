@@ -3,7 +3,7 @@
   "chapter": "vector-algebra",
   "title": "Angle Between Vectors",
   "titleBn": "দুই ভেক্টরের কোণ",
-  "summary": "cosθ = (a·b)/(|a||b|)",
+  "summary": "কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
   "latex": "\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "theta, vec, a, b",
-      "meaning": "cosθ = (a·b)/(|a||b|)",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "theta",
+      "meaning": "cosθ = (a·b)/(",
+      "unit": "—"
+    },
+    {
+      "symbol": "vec",
+      "meaning": "a",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "b",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": ")",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "কোণ বের করতে ডট ব্যবহার করো।",
+    "lead": "কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দুই ভেক্টরের কোণ এর সূত্রটি লেখো। (ইঙ্গিত: কোণ বের করতে ডট ব্যবহার করো।)",
+      "question": "দুই ভেক্টরের কোণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}"
     }
   ],
   "memorize": {
-    "trick": "কোণ বের করতে ডট ব্যবহার করো।",
-    "steps": []
+    "trick": "কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
+    "steps": [
+      "সূত্র: \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
+      "কী কাজে লাগে: দুই ভেক্টরের কোণ",
+      "চিহ্ন মনে রাখো: theta, vec, a, b"
+    ]
   },
   "subjects": [
     "math"

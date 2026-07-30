@@ -24,8 +24,13 @@
   ],
   "symbols": [
     {
-      "symbol": "A, B",
+      "symbol": "A",
       "meaning": "ইনপুট (০ বা ১)",
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
       "unit": "—"
     },
     {

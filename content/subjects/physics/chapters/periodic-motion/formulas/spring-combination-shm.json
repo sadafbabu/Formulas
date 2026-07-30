@@ -58,7 +58,11 @@
   ],
   "memorize": {
     "trick": "শ্রেণি → k কমে; সমান্তরাল → k বাড়ে।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\frac{1}{k_s}=\\frac{1}{k_1}+\\frac{1}{k_2},\\quad k_p=k_1+k_2",
+      "কার্যকর k দিয়ে T = 2π√(m/k)",
+      "চিহ্ন মনে রাখো: k_s, k_p"
+    ]
   },
   "subjects": [
     "physics"

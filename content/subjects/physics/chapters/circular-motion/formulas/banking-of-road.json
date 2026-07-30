@@ -63,7 +63,11 @@
   ],
   "memorize": {
     "trick": "আদর্শ: tanθ=v²/rg। ঘর্ষণ থাকলে গতির সীমা বাড়ে।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\tan\\theta=\\dfrac{v^2\\pm\\mu r g}{rg\\mp\\mu v^2}",
+      "ঘর্ষণসহ ব্যাংকিং: tan θ = (v²±μrg)/(rg∓μv²)",
+      "চিহ্ন মনে রাখো: \\theta, v, r"
+    ]
   },
   "subjects": [
     "physics"

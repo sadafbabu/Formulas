@@ -3,7 +3,7 @@
   "chapter": "modern-physics",
   "title": "Time Dilation & Length Contraction",
   "titleBn": "কাল দীর্ঘায়ন ও দৈর্ঘ্য সংকোচন",
-  "summary": "Δt = γ Δt₀; L = L₀/γ",
+  "summary": "চলমান ঘড়ি ধীর; চলমান দণ্ড ছোট।",
   "latex": "\\Delta t=\\gamma\\Delta t_0,\\quad L=L_0\\sqrt{1-v^2/c^2}",
   "tags": [
     "hsc",
@@ -58,7 +58,11 @@
   ],
   "memorize": {
     "trick": "চলমান ঘড়ি ধীর; চলমান দণ্ড ছোট।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\Delta t=\\gamma\\Delta t_0,\\quad L=L_0\\sqrt{1-v^2/c^2}",
+      "কী কাজে লাগে: কাল দীর্ঘায়ন ও দৈর্ঘ্য সংকোচন",
+      "চিহ্ন মনে রাখো: \\Delta t_0, L_0, v"
+    ]
   },
   "subjects": [
     "physics"

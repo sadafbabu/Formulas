@@ -63,7 +63,11 @@
   ],
   "memorize": {
     "trick": "ফ্লাক্স = Q_enc/ε₀; প্রতিসাম্য থাকলে E বের করো।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\oint\\vec E\\cdot d\\vec A=\\dfrac{Q_{\\mathrm{enc}}}{\\varepsilon_0}",
+      "∮E·dA = Q_enc/ε₀ — প্রতিসম ক্ষেত্রে E বের করার চাবিকাঠি",
+      "চিহ্ন মনে রাখো: \\vec E, d\\vec A, Q_{\\mathrm{enc}}"
+    ]
   },
   "subjects": [
     "physics"

@@ -21,8 +21,13 @@
       "unit": "J"
     },
     {
-      "symbol": "M, m",
+      "symbol": "M",
       "meaning": "দুই ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "m",
+      "meaning": "m সম্পর্কিত রাশি",
       "unit": "kg"
     },
     {
@@ -32,7 +37,7 @@
     }
   ],
   "derivation": {
-    "lead": "∞-এ U=0; আকর্ষণে U ঋণাত্মক।",
+    "lead": "অভিকর্ষজ বিভব শক্তি এর মূল সম্পর্ক ও প্রয়োগ।",
     "steps": [
       {
         "title": "সাধারণ",
@@ -51,9 +56,9 @@
   },
   "questions": [
     {
-      "examType": "HSC",
-      "question": "r→∞ হলে U?",
-      "answer": "U\\to 0"
+      "examType": "HSC / Admission",
+      "question": "অভিকর্ষজ বিভব শক্তি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "answer": "U=-\\dfrac{GMm}{r},\\quad \\Delta U\\approx mgh\\ (h\\ll R)"
     }
   ],
   "memorize": {

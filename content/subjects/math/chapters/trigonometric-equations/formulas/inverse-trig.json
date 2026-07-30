@@ -34,9 +34,14 @@
     "lead": "বিপরীত ত্রিকোণমিতিক ফাংশনের মূল সম্পর্ক: sin⁻¹x + cos⁻¹x = π/2।",
     "steps": [
       {
-        "title": "গুরুত্বপূর্ণ মান",
-        "latex": "\\sin^{-1}(1) = \\frac{\\pi}{2}, \\quad \\cos^{-1}(0) = \\frac{\\pi}{2}, \\quad \\tan^{-1}(1) = \\frac{\\pi}{4}, \\quad \\tan^{-1}(\\sqrt{3}) = \\frac{\\pi}{3}",
-        "note": "tan⁻¹x + cot⁻¹x = π/2 এবং sec⁻¹x + csc⁻¹x = π/2"
+        "title": "মূল সূত্র",
+        "latex": "\\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2}, \\quad \\tan^{-1}x + \\tan^{-1}y = \\tan^{-1}\\frac{x+y}{1-xy} \\text{ (xy<1)}",
+        "note": "বিপরীত ত্রিকোণমিতিক ফাংশনের মূল সম্পর্ক: sin⁻¹x + cos⁻¹x = π/2।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2}, \\quad \\tan^{-1}x + \\tan^{-1}y = \\tan^{-1}\\frac{x+y}{1-xy} \\text{ (xy<1)}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []

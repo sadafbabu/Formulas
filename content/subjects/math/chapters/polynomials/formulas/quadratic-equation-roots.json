@@ -15,8 +15,13 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "\\alpha, \\beta",
+      "symbol": "\\alpha",
       "meaning": "দ্বিঘাত সমীকরণের দুই মূল",
+      "unit": "সংখ্যা"
+    },
+    {
+      "symbol": "\\beta",
+      "meaning": "\\beta সম্পর্কিত রাশি",
       "unit": "সংখ্যা"
     },
     {
@@ -25,8 +30,18 @@
       "unit": "সংখ্যা"
     },
     {
-      "symbol": "a, b, c",
+      "symbol": "a",
       "meaning": "সমীকরণের সহগ ও ধ্রুবক",
+      "unit": "সংখ্যা"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "সংখ্যা"
+    },
+    {
+      "symbol": "c",
+      "meaning": "c সম্পর্কিত রাশি",
       "unit": "সংখ্যা"
     }
   ],
@@ -34,9 +49,14 @@
     "lead": "পূর্ণবর্গ প্রকাশ পদ্ধতি দ্বারা ax² + bx + c = 0 সমাধান করে মূলদ্বয়ের সম্পর্ক পাওয়া যায়।",
     "steps": [
       {
-        "title": "মূলের প্রকৃতি",
-        "latex": "D > 0 \\implies \\text{বাস্তব ও অসম}, \\quad D = 0 \\implies \\text{বাস্তব ও সমান}, \\quad D < 0 \\implies \\text{জটিল/জটিল জোড়}",
-        "note": "ত্রিঘাত সমীকরণের মূলের যোগফল S1 = -b/a, S2 = c/a, S3 = -d/a"
+        "title": "মূল সূত্র",
+        "latex": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}, \\quad \\alpha + \\beta = -\\frac{b}{a}, \\quad \\alpha \\beta = \\frac{c}{a}, \\quad D = b^2 - 4ac",
+        "note": "পূর্ণবর্গ প্রকাশ পদ্ধতি দ্বারা ax² + bx + c = 0 সমাধান করে মূলদ্বয়ের সম্পর্ক পাওয়া যায়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}, \\quad \\alpha + \\beta = -\\frac{b}{a}, \\quad \\alpha \\beta = \\frac{c}{a}, \\quad D = b^2 - 4ac",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

@@ -27,9 +27,14 @@
     "lead": "শেষফল উপপাদ্য থেকে যখন শেষফল 0 হয়।",
     "steps": [
       {
-        "title": "উৎপাদক উপপাদ্য",
-        "latex": "P(a) = 0 \\Rightarrow (x-a) \\mid P(x)",
-        "note": "শেষফল উপপাদ্যের বিশেষ রূপ"
+        "title": "মূল সূত্র",
+        "latex": "P(a) = 0 \\iff (x - a) \\text{ is a factor of } P(x)",
+        "note": "শেষফল উপপাদ্য থেকে যখন শেষফল 0 হয়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "P(a) = 0 \\iff (x - a) \\text{ is a factor of } P(x)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

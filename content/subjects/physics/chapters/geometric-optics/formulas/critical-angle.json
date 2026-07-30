@@ -21,8 +21,13 @@
       "unit": "°"
     },
     {
-      "symbol": "n_1, n_2",
+      "symbol": "n_1",
       "meaning": "ঘন ও হালকা মাধ্যমের প্রতিসরাঙ্ক",
+      "unit": "—"
+    },
+    {
+      "symbol": "n_2",
+      "meaning": "n_2 সম্পর্কিত রাশি",
       "unit": "—"
     },
     {
@@ -35,9 +40,14 @@
     "lead": "i=c হলে r=90° → Snell: n₁ sin c = n₂ · 1।",
     "steps": [
       {
-        "title": "স্নেল",
-        "latex": "n_1\\sin c=n_2\\sin90^\\circ\\Rightarrow\\sin c=\\dfrac{n_2}{n_1}",
-        "note": "i>c হলে পূর্ণ অভ্যন্তরীণ প্রতিফলন।"
+        "title": "মূল সূত্র",
+        "latex": "\\sin c=\\dfrac{n_2}{n_1}=\\dfrac{1}{\\mu}\\ (\\text{কাচ→বায়ু})",
+        "note": "i=c হলে r=90° → Snell: n₁ sin c = n₂ · 1।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\sin c=\\dfrac{n_2}{n_1}=\\dfrac{1}{\\mu}\\ (\\text{কাচ→বায়ু})",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -53,7 +63,11 @@
   ],
   "memorize": {
     "trick": "sin c = 1/μ (বায়ুতে); i>c → TIR।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\sin c=\\dfrac{n_2}{n_1}=\\dfrac{1}{\\mu}\\ (\\text{কাচ→বায়ু})",
+      "sin c = n₂/n₁ (n₁>n₂); বায়ুতে sin c = 1/μ",
+      "চিহ্ন মনে রাখো: c, n_1, n_2, \\mu"
+    ]
   },
   "subjects": [
     "physics"

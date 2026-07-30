@@ -35,9 +35,14 @@
     "lead": "তড়িৎ ক্ষেত্রের প্রাবল্যের অসীম সমাকলন থেকে বিভব পাওয়া যায়।",
     "steps": [
       {
-        "title": "সমাকলন সূত্র",
-        "latex": "V = -\\int_{\\infty}^r E dr = -\\int_{\\infty}^r \\frac{q}{4\\pi\\varepsilon_0 r^2} dr = \\frac{q}{4\\pi\\varepsilon_0 r}",
-        "note": "অসীম দূরত্বে বিভব শূন্য ধরা হয়"
+        "title": "মূল সূত্র",
+        "latex": "V = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q}{r}",
+        "note": "তড়িৎ ক্ষেত্রের প্রাবল্যের অসীম সমাকলন থেকে বিভব পাওয়া যায়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "V = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q}{r}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

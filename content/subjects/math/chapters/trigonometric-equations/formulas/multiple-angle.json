@@ -14,17 +14,32 @@
   "symbols": [
     {
       "symbol": "A",
-      "meaning": "কোণ",
-      "unit": "rad"
+      "meaning": "A রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\pm",
+      "meaning": "\\pm রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\sqrt",
+      "meaning": "\\sqrt রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
     "lead": "যৌগিক কোণ সূত্রে A = B বসালে দ্বিগুণ কোণ সূত্র পাওয়া যায়।",
     "steps": [
       {
-        "title": "দ্বিগুণ কোণ",
-        "latex": "\\sin 2A = 2\\sin A\\cos A",
-        "note": "ত্রিগুণ: sin 3A = 3 sin A - 4 sin³ A"
+        "title": "মূল সূত্র",
+        "latex": "\\sin 2A = 2\\sin A\\cos A, \\quad \\cos 2A = 2\\cos^2 A - 1, \\quad \\sin\\frac{A}{2} = \\pm\\sqrt{\\frac{1-\\cos A}{2}}",
+        "note": "যৌগিক কোণ সূত্রে A = B বসালে দ্বিগুণ কোণ সূত্র পাওয়া যায়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\sin 2A = 2\\sin A\\cos A, \\quad \\cos 2A = 2\\cos^2 A - 1, \\quad \\sin\\frac{A}{2} = \\pm\\sqrt{\\frac{1-\\cos A}{2}}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

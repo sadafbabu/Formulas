@@ -3,7 +3,7 @@
   "chapter": "motion-kinematics",
   "title": "v = u + at",
   "titleBn": "প্রথম গতি সমীকরণ",
-  "summary": "সমত্বরণে v = u + at",
+  "summary": "বেগ বাড়ে সময় দিয়ে: v = u + at — ‘আদি + ত্বরণ×সময়’।",
   "latex": "v=u+at",
   "tags": [
     "hsc",
@@ -16,8 +16,13 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "u, v",
+      "symbol": "u",
       "meaning": "আদি ও শেষ বেগ",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "v",
+      "meaning": "v সম্পর্কিত রাশি",
       "unit": "m/s"
     },
     {
@@ -32,12 +37,17 @@
     }
   ],
   "derivation": {
-    "lead": "a=dv/dt ধ্রুব → সমাকলন।",
+    "lead": "বেগ বাড়ে সময় দিয়ে: v = u + at — ‘আদি + ত্বরণ×সময়’।",
     "steps": [
       {
-        "title": "সূত্র",
+        "title": "মূল সূত্র",
         "latex": "v=u+at",
-        "note": "প্রথম গতিসমীকরণ।"
+        "note": "বেগ বাড়ে সময় দিয়ে: v = u + at — ‘আদি + ত্বরণ×সময়’।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "v=u+at",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

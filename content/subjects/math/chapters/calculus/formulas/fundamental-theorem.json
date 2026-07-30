@@ -18,8 +18,13 @@
       "unit": "—"
     },
     {
-      "symbol": "a, b",
+      "symbol": "a",
       "meaning": "যোগজীকরণ সীমা",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
       "unit": "—"
     }
   ],
@@ -27,9 +32,14 @@
     "lead": "অন্তরীকরণ ও যোগজীকরণ একে অপরের বিপরীত প্রক্রিয়া।",
     "steps": [
       {
-        "title": "মৌলিক উপপাদ্য",
-        "latex": "\\int_a^b f(x)dx = F(b) - F(a)",
-        "note": "F'(x) = f(x)"
+        "title": "মূল সূত্র",
+        "latex": "\\int_a^b f(x)\\,dx = F(b) - F(a), \\quad \\frac{d}{dx}\\int_a^x f(t)\\,dt = f(x)",
+        "note": "অন্তরীকরণ ও যোগজীকরণ একে অপরের বিপরীত প্রক্রিয়া।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\int_a^b f(x)\\,dx = F(b) - F(a), \\quad \\frac{d}{dx}\\int_a^x f(t)\\,dt = f(x)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

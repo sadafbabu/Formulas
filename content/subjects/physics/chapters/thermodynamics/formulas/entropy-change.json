@@ -45,9 +45,14 @@
     "lead": "২য় তাপগতীয় সূত্র অনুযায়ী রুদ্ধতাপীয় প্রক্রিয়ায় এনট্রপি অপরিবর্তিত থাকে (dS = 0)।",
     "steps": [
       {
-        "title": "তাপমাত্রা পরিবর্তনের এনট্রপি",
-        "latex": "dQ = m c dT \\implies \\Delta S = \\int_{T_1}^{T_2} \\frac{m c dT}{T} = m c \\ln\\left(\\frac{T_2}{T_1}\\right)",
-        "note": "অবস্থার পরিবর্তনে (গলন/বাষ্পীভবন) ΔS = mL/T"
+        "title": "মূল সূত্র",
+        "latex": "\\Delta S=\\int\\frac{\\delta Q_{\\mathrm{rev}}}{T},\\quad \\Delta S=mc\\ln\\frac{T_2}{T_1},\\quad \\Delta S=\\frac{mL}{T}",
+        "note": "২য় তাপগতীয় সূত্র অনুযায়ী রুদ্ধতাপীয় প্রক্রিয়ায় এনট্রপি অপরিবর্তিত থাকে (dS = 0)।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\Delta S=\\int\\frac{\\delta Q_{\\mathrm{rev}}}{T},\\quad \\Delta S=mc\\ln\\frac{T_2}{T_1},\\quad \\Delta S=\\frac{mL}{T}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

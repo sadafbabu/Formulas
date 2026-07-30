@@ -3,7 +3,7 @@
   "chapter": "sequences-series",
   "title": "Infinite GP Sum",
   "titleBn": "অসীম গুণোত্তর যোগফল",
-  "summary": "a/(1−r)",
+  "summary": "|r|<1 হলেই অসীম যোগফল আছে। S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)",
   "latex": "S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)",
   "tags": [
     "hsc",
@@ -15,18 +15,33 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "S, a, r",
+      "symbol": "S",
       "meaning": "a/(1−r)",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "r",
+      "meaning": "r সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "|r|<1 হলেই অসীম যোগফল আছে।",
+    "lead": "|r|<1 হলেই অসীম যোগফল আছে। S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "|r|<1 হলেই অসীম যোগফল আছে। S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +49,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অসীম গুণোত্তর যোগফল এর সূত্রটি লেখো। (ইঙ্গিত: |r|<1 হলেই অসীম যোগফল আছে।)",
+      "question": "অসীম গুণোত্তর যোগফল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)"
     }
   ],
   "memorize": {
-    "trick": "|r|<1 হলেই অসীম যোগফল আছে।",
-    "steps": []
+    "trick": "|r|<1 হলেই অসীম যোগফল আছে। S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)",
+    "steps": [
+      "সূত্র: S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)",
+      "কী কাজে লাগে: অসীম গুণোত্তর যোগফল",
+      "চিহ্ন মনে রাখো: S, a, r"
+    ]
   },
   "subjects": [
     "math"

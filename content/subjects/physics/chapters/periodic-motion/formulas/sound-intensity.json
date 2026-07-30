@@ -63,7 +63,11 @@
   ],
   "memorize": {
     "trick": "β=10 log(I/I₀); ×10 তীব্রতা = +10 dB।",
-    "steps": []
+    "steps": [
+      "সূত্র: I=\\dfrac{P}{A},\\quad \\beta=10\\log_{10}\\dfrac{I}{I_0}",
+      "I = P/A; β = 10 log₁₀(I/I₀) dB",
+      "চিহ্ন মনে রাখো: I, P, \\beta"
+    ]
   },
   "subjects": [
     "physics"

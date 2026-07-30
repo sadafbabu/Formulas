@@ -3,7 +3,7 @@
   "chapter": "integration",
   "title": "Power Integral",
   "titleBn": "ঘাতের যোগজ",
-  "summary": "∫xⁿ dx",
+  "summary": "ঘাত এক বাড়াও, নতুন ঘাত দিয়ে ভাগ।",
   "latex": "\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C\\quad(n\\ne-1)",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "int, x, n, d",
+      "symbol": "int",
       "meaning": "∫xⁿ dx",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "x সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "n সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "d",
+      "meaning": "d সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C\\quad(n\\ne-1)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "ঘাত এক বাড়াও, নতুন ঘাত দিয়ে ভাগ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C\\quad(n\\ne-1)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ঘাতের যোগজ এর সূত্রটি লেখো। (ইঙ্গিত: ঘাত এক বাড়াও, নতুন ঘাত দিয়ে ভাগ।)",
+      "question": "ঘাতের যোগজ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C\\quad(n\\ne-1)"
     }
   ],
   "memorize": {
     "trick": "ঘাত এক বাড়াও, নতুন ঘাত দিয়ে ভাগ।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C\\quad(n\\ne-1)",
+      "কী কাজে লাগে: ঘাতের যোগজ",
+      "চিহ্ন মনে রাখো: int, x, n, d"
+    ]
   },
   "subjects": [
     "math"

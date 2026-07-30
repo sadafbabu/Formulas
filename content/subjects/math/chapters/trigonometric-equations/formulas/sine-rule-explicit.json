@@ -3,7 +3,7 @@
   "chapter": "trigonometric-equations",
   "title": "Law of Sines",
   "titleBn": "সাইন সূত্র",
-  "summary": "a/sinA = 2R",
+  "summary": "২R = পরিবৃত্ত ব্যাস। \\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R",
   "latex": "\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 220,
   "symbols": [
     {
-      "symbol": "a, A, b, B",
+      "symbol": "a",
       "meaning": "a/sinA = 2R",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "A সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "a/sinA = 2R — ২R = পরিবৃত্ত ব্যাস।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সাইন সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: ২R = পরিবৃত্ত ব্যাস।)",
+      "question": "সাইন সূত্র কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R"
     }
   ],
   "memorize": {
-    "trick": "২R = পরিবৃত্ত ব্যাস।",
-    "steps": []
+    "trick": "২R = পরিবৃত্ত ব্যাস। \\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R",
+    "steps": [
+      "সূত্র: \\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R",
+      "কী কাজে লাগে: সাইন সূত্র",
+      "চিহ্ন মনে রাখো: a, A, b, B"
+    ]
   },
   "subjects": [
     "math"

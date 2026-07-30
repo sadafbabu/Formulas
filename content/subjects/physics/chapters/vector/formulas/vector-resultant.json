@@ -21,8 +21,13 @@
       "unit": "একক"
     },
     {
-      "symbol": "P, Q",
+      "symbol": "P",
       "meaning": "দুটি ভেক্টরের মান",
+      "unit": "একক"
+    },
+    {
+      "symbol": "Q",
+      "meaning": "Q সম্পর্কিত রাশি",
       "unit": "একক"
     },
     {
@@ -40,9 +45,14 @@
     "lead": "সামান্তরিকের কর্ণদ্বারা লব্ধির মান ও দিক নির্দেশিত হয়।",
     "steps": [
       {
-        "title": "পিথাগোরাসের উপপাদ্য প্রয়োগ",
-        "latex": "R^2 = (P + Q\\cos\\alpha)^2 + (Q\\sin\\alpha)^2 = P^2 + Q^2 + 2PQ\\cos\\alpha",
-        "note": "লব্ধির দিক tan θ = Q sin α / (P + Q cos α)"
+        "title": "মূল সূত্র",
+        "latex": "R = \\sqrt{P^2 + Q^2 + 2PQ\\cos\\alpha}, \\quad \\tan\\theta = \\frac{Q\\sin\\alpha}{P + Q\\cos\\alpha}",
+        "note": "সামান্তরিকের কর্ণদ্বারা লব্ধির মান ও দিক নির্দেশিত হয়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "R = \\sqrt{P^2 + Q^2 + 2PQ\\cos\\alpha}, \\quad \\tan\\theta = \\frac{Q\\sin\\alpha}{P + Q\\cos\\alpha}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

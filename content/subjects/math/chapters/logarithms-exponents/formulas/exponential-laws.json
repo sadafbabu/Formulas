@@ -3,7 +3,7 @@
   "chapter": "logarithms-exponents",
   "title": "Laws of Exponents",
   "titleBn": "ঘাতের সূত্রাবলি",
-  "summary": "a^m a^n, (a^m)^n",
+  "summary": "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
   "latex": "a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
   "tags": [
     "hsc",
@@ -15,18 +15,33 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "a, m, n",
-      "meaning": "a^m a^n, (a^m)^n",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "a",
+      "meaning": "a^m a^n",
+      "unit": "—"
+    },
+    {
+      "symbol": "m",
+      "meaning": "(a^m)^n",
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "n সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ।",
+    "lead": "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +49,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ঘাতের সূত্রাবলি এর সূত্রটি লেখো। (ইঙ্গিত: গুণে ঘাত যোগ; ঘাতের ঘাত গুণ।)",
+      "question": "ঘাতের সূত্রাবলি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}"
     }
   ],
   "memorize": {
-    "trick": "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ।",
-    "steps": []
+    "trick": "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
+    "steps": [
+      "সূত্র: a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
+      "কী কাজে লাগে: ঘাতের সূত্রাবলি",
+      "চিহ্ন মনে রাখো: a, m, n"
+    ]
   },
   "subjects": [
     "math"

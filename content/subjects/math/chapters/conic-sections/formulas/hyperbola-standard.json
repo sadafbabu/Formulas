@@ -3,7 +3,7 @@
   "chapter": "conic-sections",
   "title": "Standard Hyperbola",
   "titleBn": "মানক অধিবৃত্ত",
-  "summary": "x²/a²−y²/b²=1",
+  "summary": "c²=a²+b² (উপবৃত্তের উল্টো); e>1; শাখা x=±(b/a)y।",
   "latex": "\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "x, a, y, b",
+      "symbol": "x",
       "meaning": "x²/a²−y²/b²=1",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "y",
+      "meaning": "y সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "c²=a²+b² (উপবৃত্তের উল্টো); e>1; শাখা x=±(b/a)y।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মানক অধিবৃত্ত এর সূত্রটি লেখো। (ইঙ্গিত: c²=a²+b² (উপবৃত্তের উল্টো); e>1; শাখা x=±(b/a)y।)",
+      "question": "মানক অধিবৃত্ত কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1"
     }
   ],
   "memorize": {
     "trick": "c²=a²+b² (উপবৃত্তের উল্টো); e>1; শাখা x=±(b/a)y।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1",
+      "কী কাজে লাগে: মানক অধিবৃত্ত",
+      "চিহ্ন মনে রাখো: x, a, y, b"
+    ]
   },
   "subjects": [
     "math"

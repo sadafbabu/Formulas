@@ -3,7 +3,7 @@
   "chapter": "differentiation",
   "title": "Quotient Rule",
   "titleBn": "ভাগ নিয়ম",
-  "summary": "(vu'−uv')/v²",
+  "summary": "নিচের বর্গ ভাজক; উপরে vu′−uv′।",
   "latex": "\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}",
   "tags": [
     "hsc",
@@ -15,9 +15,14 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "u, v",
+      "symbol": "u",
       "meaning": "(vu'−uv')/v²",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "v",
+      "meaning": "v সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +31,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "নিচের বর্গ ভাজক; উপরে vu′−uv′।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +44,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভাগ নিয়ম এর সূত্রটি লেখো। (ইঙ্গিত: নিচের বর্গ ভাজক; উপরে vu′−uv′।)",
+      "question": "ভাগ নিয়ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}"
     }
   ],
   "memorize": {
     "trick": "নিচের বর্গ ভাজক; উপরে vu′−uv′।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}",
+      "কী কাজে লাগে: ভাগ নিয়ম",
+      "চিহ্ন মনে রাখো: u, v"
+    ]
   },
   "subjects": [
     "math"

@@ -3,7 +3,7 @@
   "chapter": "permutation-combination",
   "title": "ⁿCᵣ",
   "titleBn": "সমাবেশ ⁿCᵣ",
-  "summary": "n!/(r!(n−r)!)",
+  "summary": "ক্রম গুরুত্বহীন; ⁿCᵣ=ⁿCₙ₋ᵣ। {}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!",
   "latex": "{}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "n, C, r, P",
+      "symbol": "n",
       "meaning": "n!/(r!(n−r)!)",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "C",
+      "meaning": "C সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "r",
+      "meaning": "r সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "P",
+      "meaning": "P সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "ক্রম গুরুত্বহীন; ⁿCᵣ=ⁿCₙ₋ᵣ।",
+    "lead": "ক্রম গুরুত্বহীন; ⁿCᵣ=ⁿCₙ₋ᵣ। {}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "{}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "ক্রম গুরুত্বহীন; ⁿCᵣ=ⁿCₙ₋ᵣ। {}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "{}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমাবেশ ⁿCᵣ এর সূত্রটি লেখো। (ইঙ্গিত: ক্রম গুরুত্বহীন; ⁿCᵣ=ⁿCₙ₋ᵣ।)",
+      "question": "সমাবেশ ⁿCᵣ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "{}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!"
     }
   ],
   "memorize": {
-    "trick": "ক্রম গুরুত্বহীন; ⁿCᵣ=ⁿCₙ₋ᵣ।",
-    "steps": []
+    "trick": "ক্রম গুরুত্বহীন; ⁿCᵣ=ⁿCₙ₋ᵣ। {}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!",
+    "steps": [
+      "সূত্র: {}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!",
+      "কী কাজে লাগে: সমাবেশ ⁿCᵣ",
+      "চিহ্ন মনে রাখো: n, C, r, P"
+    ]
   },
   "subjects": [
     "math"

@@ -32,9 +32,14 @@
     "lead": "সম্প্রসারণ ও সমাহার থেকে প্রাপ্ত।",
     "steps": [
       {
-        "title": "সাধারণ পদ",
-        "latex": "T_{r+1} = \\binom{n}{r} a^{n-r} b^r",
-        "note": "মোট পদ সংখ্যা n+1"
+        "title": "মূল সূত্র",
+        "latex": "T_{r+1} = \\binom{n}{r} a^{n-r} b^r, \\quad \\binom{n}{r} = \\frac{n!}{r!(n-r)!}",
+        "note": "সম্প্রসারণ ও সমাহার থেকে প্রাপ্ত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "T_{r+1} = \\binom{n}{r} a^{n-r} b^r, \\quad \\binom{n}{r} = \\frac{n!}{r!(n-r)!}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

@@ -39,9 +39,14 @@
     "lead": "Schrödinger সমীকরণ থেকে প্রাপ্ত কোয়ান্টাম সংখ্যাসমূহ।",
     "steps": [
       {
-        "title": "অরবিটাল সংখ্যা",
-        "latex": "\\text{orbitals} = 2l+1",
-        "note": "s:1, p:3, d:5, f:7"
+        "title": "মূল সূত্র",
+        "latex": "n, \\ l, \\ m_l, \\ m_s; \\quad \\text{orbitals} = (2l+1), \\quad \\text{max e}^\\ominus = 2(2l+1)",
+        "note": "Schrödinger সমীকরণ থেকে প্রাপ্ত কোয়ান্টাম সংখ্যাসমূহ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "n, \\ l, \\ m_l, \\ m_s; \\quad \\text{orbitals} = (2l+1), \\quad \\text{max e}^\\ominus = 2(2l+1)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

@@ -3,7 +3,7 @@
   "chapter": "math-statics",
   "title": "Force on Inclined Plane",
   "titleBn": "ঢালু তলে বল",
-  "summary": "mg sinθ, mg cosθ",
+  "summary": "সমান্তরাল = mg sinθ; লম্ব = mg cosθ।",
   "latex": "F_{\\parallel}=mg\\sin\\theta,\\quad N=mg\\cos\\theta",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "F, parallel, m, g",
-      "meaning": "mg sinθ, mg cosθ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "F",
+      "meaning": "mg sinθ",
+      "unit": "—"
+    },
+    {
+      "symbol": "parallel",
+      "meaning": "mg cosθ",
+      "unit": "—"
+    },
+    {
+      "symbol": "m",
+      "meaning": "m সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "g",
+      "meaning": "g সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "F_{\\parallel}=mg\\sin\\theta,\\quad N=mg\\cos\\theta",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "সমান্তরাল = mg sinθ; লম্ব = mg cosθ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "F_{\\parallel}=mg\\sin\\theta,\\quad N=mg\\cos\\theta",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ঢালু তলে বল এর সূত্রটি লেখো। (ইঙ্গিত: সমান্তরাল = mg sinθ; লম্ব = mg cosθ।)",
+      "question": "ঢালু তলে বল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "F_{\\parallel}=mg\\sin\\theta,\\quad N=mg\\cos\\theta"
     }
   ],
   "memorize": {
     "trick": "সমান্তরাল = mg sinθ; লম্ব = mg cosθ।",
-    "steps": []
+    "steps": [
+      "সূত্র: F_{\\parallel}=mg\\sin\\theta,\\quad N=mg\\cos\\theta",
+      "কী কাজে লাগে: ঢালু তলে বল",
+      "চিহ্ন মনে রাখো: F, parallel, m, g"
+    ]
   },
   "subjects": [
     "math"

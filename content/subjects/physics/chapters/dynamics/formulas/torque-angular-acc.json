@@ -40,9 +40,14 @@
     "lead": "রৈখিক টর্ক ও জড়তার ভ্রামক সম্পর্ক F = ma থেকে সংজ্ঞায়িত।",
     "steps": [
       {
-        "title": "কৌণিক রূপান্তর",
-        "latex": "\\tau = r F = r (m a) = r m (r \\alpha) = (m r^2) \\alpha = I \\alpha",
-        "note": "জড়তার ভ্রামক I = m r²"
+        "title": "মূল সূত্র",
+        "latex": "\\vec\\tau=\\frac{d\\vec L}{dt};\\quad \\tau=I\\alpha\\ (\\text{স্থির principal axis});\\quad \\tau=rF\\sin\\theta",
+        "note": "রৈখিক টর্ক ও জড়তার ভ্রামক সম্পর্ক F = ma থেকে সংজ্ঞায়িত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\vec\\tau=\\frac{d\\vec L}{dt};\\quad \\tau=I\\alpha\\ (\\text{স্থির principal axis});\\quad \\tau=rF\\sin\\theta",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

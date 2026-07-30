@@ -3,7 +3,7 @@
   "chapter": "calculus",
   "title": "Volume of Revolution",
   "titleBn": "ঘূর্ণনজাত ঘনবস্তুর আয়তন",
-  "summary": "ডিস্ক পদ্ধতিতে আয়তন",
+  "summary": "V = π∫ y² dx — ডিস্ক পদ্ধতি। V=\\pi\\int_a^b [f(x)]^2\\,dx\\quad(\\text{about x-axis})",
   "latex": "V=\\pi\\int_a^b [f(x)]^2\\,dx\\quad(\\text{about x-axis})",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "V, pi, int, a",
+      "symbol": "V",
       "meaning": "ডিস্ক পদ্ধতিতে আয়তন",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "pi",
+      "meaning": "pi সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "int",
+      "meaning": "int সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "V = π∫ y² dx — ডিস্ক পদ্ধতি।",
+    "lead": "V = π∫ y² dx — ডিস্ক পদ্ধতি। V=\\pi\\int_a^b [f(x)]^2\\,dx\\quad(\\text{about x-axis})",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "V=\\pi\\int_a^b [f(x)]^2\\,dx\\quad(\\text{about x-axis})",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "V = π∫ y² dx — ডিস্ক পদ্ধতি। V=\\pi\\int_a^b [f(x)]^2\\,dx\\quad(\\text{about x-axis})"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "V=\\pi\\int_a^b [f(x)]^2\\,dx\\quad(\\text{about x-axis})",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ঘূর্ণনজাত ঘনবস্তুর আয়তন এর সূত্রটি লেখো। (ইঙ্গিত: V = π∫ y² dx — ডিস্ক পদ্ধতি।)",
+      "question": "ঘূর্ণনজাত ঘনবস্তুর আয়তন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "V=\\pi\\int_a^b [f(x)]^2\\,dx\\quad(\\text{about x-axis})"
     }
   ],
   "memorize": {
-    "trick": "V = π∫ y² dx — ডিস্ক পদ্ধতি।",
-    "steps": []
+    "trick": "V = π∫ y² dx — ডিস্ক পদ্ধতি। V=\\pi\\int_a^b [f(x)]^2\\,dx\\quad(\\text{about x-axis})",
+    "steps": [
+      "সূত্র: V=\\pi\\int_a^b [f(x)]^2\\,dx\\quad(\\text{about x-axis})",
+      "কী কাজে লাগে: ঘূর্ণনজাত ঘনবস্তুর আয়তন",
+      "চিহ্ন মনে রাখো: V, pi, int, a"
+    ]
   },
   "subjects": [
     "math"

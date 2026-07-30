@@ -38,9 +38,14 @@
     "lead": "ক্ষমতা হলো কাজের হার; সংরক্ষী বলের ক্ষেত্রে বিভবশক্তি শুধু অবস্থানের উপর নির্ভরশীল।",
     "steps": [
       {
-        "title": "ক্ষমতা সূত্র",
-        "latex": "P = Fv \\cos\\theta",
-        "note": "সংরক্ষী বলের সমবৃত্তীয় সমাকলন শূন্য"
+        "title": "মূল সূত্র",
+        "latex": "P_{\\mathrm{avg}}=\\frac Wt,\\quad P=\\vec F\\cdot\\vec v=Fv\\cos\\theta, \\quad \\eta = \\frac{P_{out}}{P_{in}} \\times 100\\%, \\quad \\oint \\vec{F}\\cdot d\\vec{r} = 0",
+        "note": "ক্ষমতা হলো কাজের হার; সংরক্ষী বলের ক্ষেত্রে বিভবশক্তি শুধু অবস্থানের উপর নির্ভরশীল।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "P_{\\mathrm{avg}}=\\frac Wt,\\quad P=\\vec F\\cdot\\vec v=Fv\\cos\\theta, \\quad \\eta = \\frac{P_{out}}{P_{in}} \\times 100\\%, \\quad \\oint \\vec{F}\\cdot d\\vec{r} = 0",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

@@ -21,8 +21,13 @@
       "unit": "g"
     },
     {
-      "symbol": "I, t",
+      "symbol": "I",
       "meaning": "প্রবাহ ও সময়",
+      "unit": "A, s"
+    },
+    {
+      "symbol": "t",
+      "meaning": "t সম্পর্কিত রাশি",
       "unit": "A, s"
     },
     {

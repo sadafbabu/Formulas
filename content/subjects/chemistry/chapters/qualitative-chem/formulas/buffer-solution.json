@@ -40,9 +40,14 @@
     "lead": "বাফার দ্রবণ pH-এর পরিবর্তন প্রতিরোধ করে। দুর্বল অম্ল + তার লবণ বা দুর্বল ক্ষার + তার লবণ দিয়ে তৈরি।",
     "steps": [
       {
-        "title": "pH সম্পর্ক",
-        "latex": "\\text{pH} = -\\log[H^+], \\quad \\text{pOH} = -\\log[OH^-], \\quad K_w = [H^+][OH^-] = 10^{-14}",
-        "note": "বিশুদ্ধ পানির pH = 7, অম্লীয় দ্রবণ: pH < 7, ক্ষারীয়: pH > 7"
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{pH}=pK_a+\\log\\frac{[A^-]}{[HA]},\\quad \\mathrm{pOH}=pK_b+\\log\\frac{[B^+]}{[BOH]},\\quad \\mathrm{pH}+\\mathrm{pOH}=14",
+        "note": "বাফার দ্রবণ pH-এর পরিবর্তন প্রতিরোধ করে। দুর্বল অম্ল + তার লবণ বা দুর্বল ক্ষার + তার লবণ দিয়ে তৈরি।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mathrm{pH}=pK_a+\\log\\frac{[A^-]}{[HA]},\\quad \\mathrm{pOH}=pK_b+\\log\\frac{[B^+]}{[BOH]},\\quad \\mathrm{pH}+\\mathrm{pOH}=14",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -57,7 +62,12 @@
     }
   ],
   "memorize": {
-    "trick": "pH = pKa + log([লবণ]/[অম্ল]) — সমান হলে pH = pKa। লবণ বাড়লে pH বাড়ে।"
+    "trick": "pH = pKa + log([লবণ]/[অম্ল]) — সমান হলে pH = pKa। লবণ বাড়লে pH বাড়ে।",
+    "steps": [
+      "সূত্র: \\mathrm{pH}=pK_a+\\log\\frac{[A^-]}{[HA]},\\quad \\mathrm{pOH}=pK_b+\\log\\frac{[B^+]}…",
+      "বাফার দ্রবণের pH নির্ণয়ের Henderson-Hasselbalch সমীকরণ",
+      "চিহ্ন মনে রাখো: \\text{pH}, K_a, [A^-]"
+    ]
   },
   "subjects": [
     "chemistry"

@@ -16,8 +16,13 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "f_0, \\lambda_0",
+      "symbol": "f_0",
       "meaning": "থ্রেশহোল্ড কম্পাঙ্ক ও তরঙ্গদৈর্ঘ্য",
+      "unit": "Hz, m"
+    },
+    {
+      "symbol": "\\lambda_0",
+      "meaning": "\\lambda_0 সম্পর্কিত রাশি",
       "unit": "Hz, m"
     },
     {
@@ -26,18 +31,28 @@
       "unit": "J বা eV"
     },
     {
-      "symbol": "h, c",
+      "symbol": "h",
       "meaning": "প্ল্যাঙ্ক ধ্রুবক ও আলোর বেগ",
+      "unit": "J·s, m/s"
+    },
+    {
+      "symbol": "c",
+      "meaning": "c সম্পর্কিত রাশি",
       "unit": "J·s, m/s"
     }
   ],
   "derivation": {
-    "lead": "K_max=0 সীমায় hf₀=φ।",
+    "lead": "f₀ = φ/h; λ₀ = hc/φ — এর নিচে কোনো নির্গমন নেই",
     "steps": [
       {
-        "title": "থ্রেশহোল্ড",
-        "latex": "hf_0=\\phi\\Rightarrow f_0=\\phi/h,\\ \\lambda_0=hc/\\phi",
-        "note": "তিব্রতা যতই বাড়ুক, f<f₀ হলে ইলেকট্রন বেরোয় না।"
+        "title": "মূল সূত্র",
+        "latex": "f_0=\\dfrac{\\phi}{h},\\quad \\lambda_0=\\dfrac{hc}{\\phi}",
+        "note": "f₀ = φ/h; λ₀ = hc/φ — এর নিচে কোনো নির্গমন নেই"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "f_0=\\dfrac{\\phi}{h},\\quad \\lambda_0=\\dfrac{hc}{\\phi}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -52,8 +67,12 @@
     }
   ],
   "memorize": {
-    "trick": "কাট-অফ: f₀=φ/h, λ₀=hc/φ।",
-    "steps": []
+    "trick": "কাট-অফ: f₀=φ/h, λ₀=hc/φ। f₀ = φ/h; λ₀ = hc/φ — এর নিচে কোনো নির্গমন নেই",
+    "steps": [
+      "সূত্র: f_0=\\dfrac{\\phi}{h},\\quad \\lambda_0=\\dfrac{hc}{\\phi}",
+      "f₀ = φ/h; λ₀ = hc/φ — এর নিচে কোনো নির্গমন নেই",
+      "চিহ্ন মনে রাখো: f_0, \\lambda_0, \\phi, h, c"
+    ]
   },
   "subjects": [
     "physics"

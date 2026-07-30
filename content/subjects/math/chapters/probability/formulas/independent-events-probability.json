@@ -3,7 +3,7 @@
   "chapter": "probability",
   "title": "Independent Events",
   "titleBn": "স্বাধীন ঘটনা",
-  "summary": "P(A∩B)=P(A)P(B)",
+  "summary": "একটির ঘটনা অন্যটিকে প্রভাবিত করে না → গুণ।",
   "latex": "P(A\\cap B)=P(A)P(B)",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "P, A, cap, B",
+      "symbol": "P",
       "meaning": "P(A∩B)=P(A)P(B)",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "A সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "cap",
+      "meaning": "cap সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P(A\\cap B)=P(A)P(B)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "একটির ঘটনা অন্যটিকে প্রভাবিত করে না → গুণ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "P(A\\cap B)=P(A)P(B)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্বাধীন ঘটনা এর সূত্রটি লেখো। (ইঙ্গিত: একটির ঘটনা অন্যটিকে প্রভাবিত করে না → গুণ।)",
+      "question": "স্বাধীন ঘটনা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "P(A\\cap B)=P(A)P(B)"
     }
   ],
   "memorize": {
     "trick": "একটির ঘটনা অন্যটিকে প্রভাবিত করে না → গুণ।",
-    "steps": []
+    "steps": [
+      "সূত্র: P(A\\cap B)=P(A)P(B)",
+      "কী কাজে লাগে: স্বাধীন ঘটনা",
+      "চিহ্ন মনে রাখো: P, A, cap, B"
+    ]
   },
   "subjects": [
     "math"

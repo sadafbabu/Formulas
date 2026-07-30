@@ -31,8 +31,13 @@
       "unit": "m"
     },
     {
-      "symbol": "a_t, \\alpha",
+      "symbol": "a_t",
       "meaning": "স্পর্শক ও কৌণিক ত্বরণ",
+      "unit": "m/s², rad/s²"
+    },
+    {
+      "symbol": "\\alpha",
+      "meaning": "\\alpha সম্পর্কিত রাশি",
       "unit": "m/s², rad/s²"
     }
   ],

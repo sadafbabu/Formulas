@@ -21,8 +21,13 @@
       "unit": "J"
     },
     {
-      "symbol": "P, \\Delta V",
+      "symbol": "P",
       "meaning": "চাপ ও আয়তন পরিবর্তন",
+      "unit": "Pa, m³"
+    },
+    {
+      "symbol": "\\Delta V",
+      "meaning": "\\Delta V সম্পর্কিত রাশি",
       "unit": "Pa, m³"
     },
     {
@@ -57,8 +62,12 @@
     }
   ],
   "memorize": {
-    "trick": "Isochor W=0; Isobar W=PΔV।",
-    "steps": []
+    "trick": "সমআয়তনে কাজ শূন্য; সমচাপে W = PΔV।",
+    "steps": [
+      "Isochor: ΔV=0 → W=0",
+      "Isobar: W=PΔV",
+      "ΔU সবসময় nC_vΔT"
+    ]
   },
   "subjects": [
     "physics"

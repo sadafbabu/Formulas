@@ -3,7 +3,7 @@
   "chapter": "properties-of-matter",
   "title": "Equation of Continuity",
   "titleBn": "ধারাবাহিকতার সমীকরণ",
-  "summary": "অসংনম্য: A₁v₁ = A₂v₂",
+  "summary": "পাইপ সরু = বেগ বেশি: Av = ধ্রুব — ‘এরিয়া×বেগ এক’।",
   "latex": "A_1 v_1=A_2 v_2",
   "tags": [
     "hsc",
@@ -30,9 +30,14 @@
     "lead": "ভর সংরক্ষণ: ρAv ধ্রুব; ρ ধ্রুব হলে Av ধ্রুব।",
     "steps": [
       {
-        "title": "সূত্র",
-        "latex": "A_1v_1=A_2v_2",
-        "note": "সরু অংশে বেগ বেশি।"
+        "title": "মূল সূত্র",
+        "latex": "A_1 v_1=A_2 v_2",
+        "note": "ভর সংরক্ষণ: ρAv ধ্রুব; ρ ধ্রুব হলে Av ধ্রুব।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "A_1 v_1=A_2 v_2",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

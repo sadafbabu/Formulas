@@ -43,9 +43,14 @@
     "lead": "Faraday-এর আবেশ সূত্র ও চুম্বকীয় ফ্লাক্স সংযোগ থেকে।",
     "steps": [
       {
-        "title": "স্বাবেশ সূত্র",
-        "latex": "\\varepsilon = -L\\frac{dI}{dt}",
-        "note": "ঋণাত্মক চিহ্ন Lenz-এর সূত্র"
+        "title": "মূল সূত্র",
+        "latex": "\\varepsilon=-L\\frac{dI}{dt},\\quad L=\\frac{\\mu N^2A}{\\ell}\\ (\\text{দীর্ঘ solenoid})",
+        "note": "Faraday-এর আবেশ সূত্র ও চুম্বকীয় ফ্লাক্স সংযোগ থেকে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\varepsilon=-L\\frac{dI}{dt},\\quad L=\\frac{\\mu N^2A}{\\ell}\\ (\\text{দীর্ঘ solenoid})",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

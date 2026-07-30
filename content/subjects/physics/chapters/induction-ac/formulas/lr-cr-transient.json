@@ -26,8 +26,13 @@
       "unit": "s"
     },
     {
-      "symbol": "i, q",
+      "symbol": "i",
       "meaning": "প্রবাহ ও চার্জ",
+      "unit": "A, C"
+    },
+    {
+      "symbol": "q",
+      "meaning": "q সম্পর্কিত রাশি",
       "unit": "A, C"
     }
   ],
@@ -57,8 +62,12 @@
     }
   ],
   "memorize": {
-    "trick": "τ_L=L/R, τ_C=RC।",
-    "steps": []
+    "trick": "τ_L=L/R, τ_C=RC। LR: τ=L/R; CR: τ=RC — সূচকীয় বৃদ্ধি/ক্ষয়",
+    "steps": [
+      "সূত্র: i=I(1-e^{-tR/L})\\ (\\mathrm{LR}),\\quad q=Qe^{-t/RC}\\ (\\mathrm{CR\\ discharge})",
+      "LR: τ=L/R; CR: τ=RC — সূচকীয় বৃদ্ধি/ক্ষয়",
+      "চিহ্ন মনে রাখো: \\tau_{L}, \\tau_{C}, i, q"
+    ]
   },
   "subjects": [
     "physics"

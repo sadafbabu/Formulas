@@ -3,7 +3,7 @@
   "chapter": "nuclear-chemistry",
   "title": "Half-Life",
   "titleBn": "অর্ধায়ু",
-  "summary": "t½=ln2/λ",
+  "summary": "অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ। t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}",
   "latex": "t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}",
   "tags": [
     "hsc",
@@ -16,18 +16,28 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "t, lambda",
+      "symbol": "t",
       "meaning": "t½=ln2/λ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "lambda",
+      "meaning": "lambda সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ।",
+    "lead": "অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ। t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ। t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +45,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অর্ধায়ু এর সূত্রটি লেখো। (ইঙ্গিত: অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ।)",
+      "question": "অর্ধায়ু কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}"
     }
   ],
   "memorize": {
-    "trick": "অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ।",
-    "steps": []
+    "trick": "অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ। t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}",
+    "steps": [
+      "সূত্র: t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}",
+      "কী কাজে লাগে: অর্ধায়ু",
+      "চিহ্ন মনে রাখো: t, lambda"
+    ]
   },
   "subjects": [
     "chemistry"

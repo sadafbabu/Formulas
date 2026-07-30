@@ -13,8 +13,13 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "A, B",
+      "symbol": "A",
       "meaning": "দুটি কোণ",
+      "unit": "rad"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
       "unit": "rad"
     }
   ],
@@ -22,9 +27,14 @@
     "lead": "একক বৃত্ত ও ঘূর্ণন ম্যাট্রিক্স থেকে প্রাপ্ত।",
     "steps": [
       {
-        "title": "যৌগিক কোণ",
-        "latex": "\\tan(A+B) = \\frac{\\tan A + \\tan B}{1 - \\tan A\\tan B}",
-        "note": "বিয়োগফলের জন্য চিহ্ন পরিবর্তন"
+        "title": "মূল সূত্র",
+        "latex": "\\sin(A\\pm B) = \\sin A\\cos B \\pm \\cos A\\sin B, \\quad \\cos(A\\pm B) = \\cos A\\cos B \\mp \\sin A\\sin B",
+        "note": "একক বৃত্ত ও ঘূর্ণন ম্যাট্রিক্স থেকে প্রাপ্ত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\sin(A\\pm B) = \\sin A\\cos B \\pm \\cos A\\sin B, \\quad \\cos(A\\pm B) = \\cos A\\cos B \\mp \\sin A\\sin B",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -41,7 +51,12 @@
     }
   ],
   "memorize": {
-    "trick": "sin(A±B) = sinA cosB ± cosA sinB; cos(A±B) = cosA cosB ∓ sinA sinB — sin মিশ্র চিহ্ন, cos বিপরীত চিহ্ন।"
+    "trick": "sin(A±B) = sinA cosB ± cosA sinB; cos(A±B) = cosA cosB ∓ sinA sinB — sin মিশ্র চিহ্ন, cos বিপরীত চিহ্ন।",
+    "steps": [
+      "সূত্র: \\sin(A\\pm B) = \\sin A\\cos B \\pm \\cos A\\sin B, \\quad \\cos(A\\pm B) = \\cos A\\cos B …",
+      "sin, cos, tan এর যোগফল ও বিয়োগফল কোণ সূত্র",
+      "চিহ্ন মনে রাখো: A, B"
+    ]
   },
   "subjects": [
     "math"

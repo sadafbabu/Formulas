@@ -3,7 +3,7 @@
   "chapter": "qualitative-chem",
   "title": "Ionization Energy Trend",
   "titleBn": "আয়নন শক্তির প্রবণতা",
-  "summary": "IE across/down",
+  "summary": "নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।",
   "latex": "\\mathrm{IE}\\uparrow\\text{ across period};\\quad \\mathrm{IE}\\downarrow\\text{ down group}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 240,
   "symbols": [
     {
-      "symbol": "IE, uparrow, across period, downarrow",
+      "symbol": "IE",
       "meaning": "IE across/down",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "uparrow",
+      "meaning": "uparrow সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "across period",
+      "meaning": "across period সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "downarrow",
+      "meaning": "downarrow সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{IE}\\uparrow\\text{ across period};\\quad \\mathrm{IE}\\downarrow\\text{ down group}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mathrm{IE}\\uparrow\\text{ across period};\\quad \\mathrm{IE}\\downarrow\\text{ down group}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আয়নন শক্তির প্রবণতা এর সূত্রটি লেখো। (ইঙ্গিত: নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।)",
+      "question": "আয়নন শক্তির প্রবণতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\mathrm{IE}\\uparrow\\text{ across period};\\quad \\mathrm{IE}\\downarrow\\text{ down group}"
     }
   ],
   "memorize": {
     "trick": "নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\mathrm{IE}\\uparrow\\text{ across period};\\quad \\mathrm{IE}\\downarrow\\text{ down …",
+      "কী কাজে লাগে: আয়নন শক্তির প্রবণতা",
+      "চিহ্ন মনে রাখো: IE, uparrow, across period, downarrow"
+    ]
   },
   "subjects": [
     "chemistry"

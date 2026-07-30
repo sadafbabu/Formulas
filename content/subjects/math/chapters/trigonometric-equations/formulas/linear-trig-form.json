@@ -15,18 +15,38 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "a, theta, b, R",
+      "symbol": "a",
       "meaning": "R cos(θ−α) রূপে রূপান্তর",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "theta",
+      "meaning": "theta সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "R",
+      "meaning": "R সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "R cos(θ−α) রূপে রূপান্তর",
+    "lead": "রৈখিক ত্রিকোণমিতিক রূপ এর মূল সম্পর্ক ও প্রয়োগ।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "a\\cos\\theta+b\\sin\\theta=R\\cos(\\theta-\\alpha),\\ R=\\sqrt{a^2+b^2},\\ \\tan\\alpha=b/a",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "রৈখিক ত্রিকোণমিতিক রূপ এর মূল সম্পর্ক ও প্রয়োগ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "a\\cos\\theta+b\\sin\\theta=R\\cos(\\theta-\\alpha),\\ R=\\sqrt{a^2+b^2},\\ \\tan\\alpha=b/a",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রৈখিক ত্রিকোণমিতিক রূপ এর সূত্রটি লেখো। (ইঙ্গিত: R=√(a²+b²); tanα=b/a।)",
+      "question": "রৈখিক ত্রিকোণমিতিক রূপ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "a\\cos\\theta+b\\sin\\theta=R\\cos(\\theta-\\alpha),\\ R=\\sqrt{a^2+b^2},\\ \\tan\\alpha=b/a"
     }
   ],
   "memorize": {
-    "trick": "R=√(a²+b²); tanα=b/a।",
-    "steps": []
+    "trick": "R=√(a²+b²); tanα=b/a। R cos(θ−α) রূপে রূপান্তর",
+    "steps": [
+      "সূত্র: a\\cos\\theta+b\\sin\\theta=R\\cos(\\theta-\\alpha),\\ R=\\sqrt{a^2+b^2},\\ \\tan\\alpha=b/a",
+      "R cos(θ−α) রূপে রূপান্তর",
+      "চিহ্ন মনে রাখো: a, theta, b, R"
+    ]
   },
   "subjects": [
     "math"

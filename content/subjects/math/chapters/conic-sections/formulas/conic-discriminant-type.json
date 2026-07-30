@@ -3,7 +3,7 @@
   "chapter": "conic-sections",
   "title": "Conic Discriminant",
   "titleBn": "কোনিক পৃথককারী",
-  "summary": "B²−4AC",
+  "summary": "Δ=B²−4AC — HSC-তে কোনিক শনাক্তকরণের মূল চাবি।",
   "latex": "\\Delta=B^2-4AC\\begin{cases}<0 & \\text{ellipse}\\\\=0 & \\text{parabola}\\\\>0 & \\text{hyperbola}\\end{cases}",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 180,
   "symbols": [
     {
-      "symbol": "Delta, B, A, C",
+      "symbol": "Delta",
       "meaning": "B²−4AC",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "A সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "C",
+      "meaning": "C সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta=B^2-4AC\\begin{cases}<0 & \\text{ellipse}\\\\=0 & \\text{parabola}\\\\>0 & \\text{hyperbola}\\end{cases}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "Δ=B²−4AC — HSC-তে কোনিক শনাক্তকরণের মূল চাবি।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\Delta=B^2-4AC\\begin{cases}<0 & \\text{ellipse}\\\\=0 & \\text{parabola}\\\\>0 & \\text{hyperbola}\\end{cases}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কোনিক পৃথককারী এর সূত্রটি লেখো। (ইঙ্গিত: Δ=B²−4AC — HSC-তে কোনিক শনাক্তকরণের মূল চাবি।)",
+      "question": "কোনিক পৃথককারী কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\Delta=B^2-4AC\\begin{cases}<0 & \\text{ellipse}\\\\=0 & \\text{parabola}\\\\>0 & \\text{hyperbola}\\end{cases}"
     }
   ],
   "memorize": {
     "trick": "Δ=B²−4AC — HSC-তে কোনিক শনাক্তকরণের মূল চাবি।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\Delta=B^2-4AC\\begin{cases}<0 & \\text{ellipse}\\\\=0 & \\text{parabola}\\\\>0 & \\text…",
+      "কী কাজে লাগে: কোনিক পৃথককারী",
+      "চিহ্ন মনে রাখো: Delta, B, A, C"
+    ]
   },
   "subjects": [
     "math"

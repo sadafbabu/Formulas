@@ -30,9 +30,14 @@
     "lead": "সীমায়ক বিক্রিয়ক দিয়ে তাত্ত্বিক উৎপাদন বের করে তুলনা।",
     "steps": [
       {
-        "title": "সূত্র",
-        "latex": "\\%\\mathrm{yield}=\\dfrac{m_{\\mathrm{act}}}{m_{\\mathrm{theo}}}\\times100",
-        "note": "সবসময় ≤100% (আদর্শ)।"
+        "title": "মূল সূত্র",
+        "latex": "\\%\\ \\mathrm{yield}=\\dfrac{\\text{actual mass}}{\\text{theoretical mass}}\\times 100",
+        "note": "সীমায়ক বিক্রিয়ক দিয়ে তাত্ত্বিক উৎপাদন বের করে তুলনা।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\%\\ \\mathrm{yield}=\\dfrac{\\text{actual mass}}{\\text{theoretical mass}}\\times 100",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

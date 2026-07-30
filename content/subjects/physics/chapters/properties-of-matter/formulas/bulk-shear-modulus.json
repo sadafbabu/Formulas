@@ -26,8 +26,13 @@
       "unit": "Pa"
     },
     {
-      "symbol": "\\Delta P, \\Delta V",
+      "symbol": "\\Delta P",
       "meaning": "চাপ ও আয়তন পরিবর্তন",
+      "unit": "Pa, m³"
+    },
+    {
+      "symbol": "\\Delta V",
+      "meaning": "\\Delta V সম্পর্কিত রাশি",
       "unit": "Pa, m³"
     }
   ],
@@ -58,7 +63,11 @@
   ],
   "memorize": {
     "trick": "B=−ΔP/(ΔV/V); শিয়ার = stress/tanθ।",
-    "steps": []
+    "steps": [
+      "সূত্র: B=-\\dfrac{\\Delta P}{\\Delta V/V},\\quad \\eta=\\dfrac{F/A}{\\tan\\theta}",
+      "B = −ΔP/(ΔV/V); η = shear stress / shear strain",
+      "চিহ্ন মনে রাখো: B, \\eta, \\Delta P, \\Delta V"
+    ]
   },
   "subjects": [
     "physics"

@@ -16,8 +16,13 @@
   "order": 150,
   "symbols": [
     {
-      "symbol": "m_1, m_2",
+      "symbol": "m_1",
       "meaning": "দুই ভর (m₁>m₂ ধরা)",
+      "unit": "kg"
+    },
+    {
+      "symbol": "m_2",
+      "meaning": "m_2 সম্পর্কিত রাশি",
       "unit": "kg"
     },
     {

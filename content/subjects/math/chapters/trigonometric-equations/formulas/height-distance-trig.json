@@ -3,7 +3,7 @@
   "chapter": "trigonometric-equations",
   "title": "Heights & Distances",
   "titleBn": "উচ্চতা ও দূরত্ব",
-  "summary": "tanθ = h/d",
+  "summary": "উন্নয়ন/অবনমন কোণে tan ব্যবহার করো।",
   "latex": "\\tan\\theta=\\frac{h}{d},\\quad \\sin\\theta=\\frac{h}{l}",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 210,
   "symbols": [
     {
-      "symbol": "theta, h, d, l",
+      "symbol": "theta",
       "meaning": "tanθ = h/d",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "h",
+      "meaning": "h সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "d",
+      "meaning": "d সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "l",
+      "meaning": "l সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\tan\\theta=\\frac{h}{d},\\quad \\sin\\theta=\\frac{h}{l}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "উন্নয়ন/অবনমন কোণে tan ব্যবহার করো।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\tan\\theta=\\frac{h}{d},\\quad \\sin\\theta=\\frac{h}{l}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উচ্চতা ও দূরত্ব এর সূত্রটি লেখো। (ইঙ্গিত: উন্নয়ন/অবনমন কোণে tan ব্যবহার করো।)",
+      "question": "উচ্চতা ও দূরত্ব কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\tan\\theta=\\frac{h}{d},\\quad \\sin\\theta=\\frac{h}{l}"
     }
   ],
   "memorize": {
     "trick": "উন্নয়ন/অবনমন কোণে tan ব্যবহার করো।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\tan\\theta=\\frac{h}{d},\\quad \\sin\\theta=\\frac{h}{l}",
+      "কী কাজে লাগে: উচ্চতা ও দূরত্ব",
+      "চিহ্ন মনে রাখো: theta, h, d, l"
+    ]
   },
   "subjects": [
     "math"

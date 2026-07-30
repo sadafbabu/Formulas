@@ -3,7 +3,7 @@
   "chapter": "motion-kinematics",
   "title": "Two-Dimensional Relative Velocity",
   "titleBn": "দ্বিমাত্রিক আপেক্ষিক বেগ",
-  "summary": "\\(\\vec v_{AB}=\\vec v_A-\\vec v_B\\)",
+  "summary": "আপেক্ষিক বেগ = নিজের − অন্যের।",
   "latex": "\\vec v_{AB}=\\vec v_A-\\vec v_B",
   "tags": [
     "hsc",
@@ -53,7 +53,11 @@
   ],
   "memorize": {
     "trick": "আপেক্ষিক বেগ = নিজের − অন্যের।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\vec v_{AB}=\\vec v_A-\\vec v_B",
+      "কী কাজে লাগে: দ্বিমাত্রিক আপেক্ষিক বেগ",
+      "চিহ্ন মনে রাখো: \\vec v_A, \\vec v_{AB}"
+    ]
   },
   "subjects": [
     "physics"

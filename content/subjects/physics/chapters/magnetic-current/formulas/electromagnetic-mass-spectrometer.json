@@ -51,9 +51,14 @@
     "lead": "তড়িৎ গতিশক্তি qV = \\frac{1}{2} m v^2 ও ব্যাসার্ধ r = mv / qB সমবায়:",
     "steps": [
       {
-        "title": "বেগ v প্রতিস্থাপন",
-        "latex": "v = \\sqrt{\\frac{2 q V}{m}} \\implies r = \\frac{m}{q B} \\sqrt{\\frac{2 q V}{m}} = \\frac{1}{B} \\sqrt{\\frac{2 m V}{q}} \\implies m = \\frac{q B^2 r^2}{2 V}",
-        "note": "আইসোটোপসমূহের ভর পার্থক্যের কারণে ফোটোগ্রাফিক প্লেটে বিভিন্ন ব্যাসার্ধ r-এ দাগ ফেলে।"
+        "title": "মূল সূত্র",
+        "latex": "m = \\frac{q B^2 r^2}{2 V}",
+        "note": "তড়িৎ গতিশক্তি qV = \\frac{1}{2} m v^2 ও ব্যাসার্ধ r = mv / qB সমবায়:"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "m = \\frac{q B^2 r^2}{2 V}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

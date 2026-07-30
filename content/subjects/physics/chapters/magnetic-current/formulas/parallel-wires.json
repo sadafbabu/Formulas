@@ -29,8 +29,13 @@
       "unit": "N/m"
     },
     {
-      "symbol": "I_1, I_2",
+      "symbol": "I_1",
       "meaning": "পরিবাহীদ্বয়ের প্রবাহ",
+      "unit": "A"
+    },
+    {
+      "symbol": "I_2",
+      "meaning": "I_2 সম্পর্কিত রাশি",
       "unit": "A"
     },
     {

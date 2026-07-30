@@ -45,9 +45,14 @@
     "lead": "IE = IB + IC সমীকরণকে ΔIC দ্বারা ভাগ করে α ও β এর সম্পর্ক পাওয়া যায়।",
     "steps": [
       {
-        "title": "গুণক সম্পর্ক রূপায়ণ",
-        "latex": "\\frac{\\Delta I_E}{\\Delta I_C} = \\frac{\\Delta I_B}{\\Delta I_C} + 1 \\implies \\frac{1}{\\alpha} = \\frac{1}{\\beta} + 1 \\implies \\beta = \\frac{\\alpha}{1 - \\alpha}",
-        "note": "α সাধারণত 0.95 থেকে 0.99 এর মধ্যে থাকে"
+        "title": "মূল সূত্র",
+        "latex": "I_E = I_B + I_C, \\quad \\alpha = \\frac{\\Delta I_C}{\\Delta I_E}, \\quad \\beta = \\frac{\\Delta I_C}{\\Delta I_B} = \\frac{\\alpha}{1 - \\alpha}",
+        "note": "IE = IB + IC সমীকরণকে ΔIC দ্বারা ভাগ করে α ও β এর সম্পর্ক পাওয়া যায়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "I_E = I_B + I_C, \\quad \\alpha = \\frac{\\Delta I_C}{\\Delta I_E}, \\quad \\beta = \\frac{\\Delta I_C}{\\Delta I_B} = \\frac{\\alpha}{1 - \\alpha}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

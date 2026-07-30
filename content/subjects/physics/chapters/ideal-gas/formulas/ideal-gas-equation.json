@@ -44,9 +44,14 @@
     "lead": "Boyle, Charles ও Avogadro-এর সূত্র সমন্বয় করে প্রাপ্ত।",
     "steps": [
       {
-        "title": "সম্মিলিত সূত্র",
-        "latex": "PV = nRT",
-        "note": "STP-তে 1 mol গ্যাসের আয়তন 22.4 L"
+        "title": "মূল সূত্র",
+        "latex": "PV = nRT, \\quad R = 8.314\\ \\text{J/(mol·K)}",
+        "note": "Boyle, Charles ও Avogadro-এর সূত্র সমন্বয় করে প্রাপ্ত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "PV = nRT, \\quad R = 8.314\\ \\text{J/(mol·K)}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

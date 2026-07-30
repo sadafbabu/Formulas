@@ -16,23 +16,33 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "s,t",
+      "symbol": "s",
       "meaning": "সরণ–সময় লেখচিত্র",
       "unit": "—"
     },
     {
-      "symbol": "v,t",
+      "symbol": "t",
+      "meaning": "t সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "v",
       "meaning": "বেগ–সময় লেখচিত্র",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "লেখচিত্র পড়ে গতি বিশ্লেষণ।",
+    "lead": "s–t ঢাল = v; v–t ঢাল = a; v–t ক্ষেত্রফল = সরণ",
     "steps": [
       {
-        "title": "ঢাল ও ক্ষেত্রফল",
-        "latex": "v=\\mathrm{slope}(s\\text{–}t),\\ s=\\mathrm{area}(v\\text{–}t)",
-        "note": "a = slope(v–t)।"
+        "title": "মূল সূত্র",
+        "latex": "v=\\dfrac{ds}{dt},\\ a=\\dfrac{dv}{dt},\\ s=\\int v\\,dt",
+        "note": "s–t ঢাল = v; v–t ঢাল = a; v–t ক্ষেত্রফল = সরণ"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "v=\\dfrac{ds}{dt},\\ a=\\dfrac{dv}{dt},\\ s=\\int v\\,dt",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

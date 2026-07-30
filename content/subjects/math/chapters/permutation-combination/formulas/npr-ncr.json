@@ -3,7 +3,7 @@
   "chapter": "permutation-combination",
   "title": "Permutations & Combinations",
   "titleBn": "ক্রমবিন্যাস ও সমাবেশ",
-  "summary": "ⁿPᵣ ও ⁿCᵣ",
+  "summary": "P = সাজাও; C = বেছে নাও = P/r!।",
   "latex": "{}^nP_r=\\frac{n!}{(n-r)!},\\quad{}^nC_r=\\frac{n!}{r!(n-r)!}=\\frac{{}^nP_r}{r!}",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "n, P, r, C",
+      "symbol": "n",
       "meaning": "ⁿPᵣ ও ⁿCᵣ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "P",
+      "meaning": "P সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "r",
+      "meaning": "r সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "C",
+      "meaning": "C সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "{}^nP_r=\\frac{n!}{(n-r)!},\\quad{}^nC_r=\\frac{n!}{r!(n-r)!}=\\frac{{}^nP_r}{r!}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "P = সাজাও; C = বেছে নাও = P/r!।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "{}^nP_r=\\frac{n!}{(n-r)!},\\quad{}^nC_r=\\frac{n!}{r!(n-r)!}=\\frac{{}^nP_r}{r!}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্রমবিন্যাস ও সমাবেশ এর সূত্রটি লেখো। (ইঙ্গিত: P = সাজাও; C = বেছে নাও = P/r!।)",
+      "question": "ক্রমবিন্যাস ও সমাবেশ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "{}^nP_r=\\frac{n!}{(n-r)!},\\quad{}^nC_r=\\frac{n!}{r!(n-r)!}=\\frac{{}^nP_r}{r!}"
     }
   ],
   "memorize": {
     "trick": "P = সাজাও; C = বেছে নাও = P/r!।",
-    "steps": []
+    "steps": [
+      "সূত্র: {}^nP_r=\\frac{n!}{(n-r)!},\\quad{}^nC_r=\\frac{n!}{r!(n-r)!}=\\frac{{}^nP_r}{r!}",
+      "কী কাজে লাগে: ক্রমবিন্যাস ও সমাবেশ",
+      "চিহ্ন মনে রাখো: n, P, r, C"
+    ]
   },
   "subjects": [
     "math"

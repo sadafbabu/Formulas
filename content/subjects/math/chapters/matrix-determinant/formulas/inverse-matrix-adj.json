@@ -3,7 +3,7 @@
   "chapter": "matrix-determinant",
   "title": "Inverse via Adjoint",
   "titleBn": "সহযোগী দিয়ে বিপরীত",
-  "summary": "A⁻¹ = (1/|A|) adj A",
+  "summary": "|A|=০ হলে বিপরীত নেই। A^{-1}=\\frac{1}{|A|}\\mathrm{adj}\\,A\\quad(|A|\\ne0)",
   "latex": "A^{-1}=\\frac{1}{|A|}\\mathrm{adj}\\,A\\quad(|A|\\ne0)",
   "tags": [
     "hsc",
@@ -15,9 +15,14 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "A, adj",
-      "meaning": "A⁻¹ = (1/|A|) adj A",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "A",
+      "meaning": "A⁻¹ = (1/",
+      "unit": "—"
+    },
+    {
+      "symbol": "adj",
+      "meaning": "A",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +31,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "A^{-1}=\\frac{1}{|A|}\\mathrm{adj}\\,A\\quad(|A|\\ne0)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "A⁻¹ = (1/|A|) adj A — |A|=০ হলে বিপরীত নেই।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "A^{-1}=\\frac{1}{|A|}\\mathrm{adj}\\,A\\quad(|A|\\ne0)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +44,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সহযোগী দিয়ে বিপরীত এর সূত্রটি লেখো। (ইঙ্গিত: |A|=০ হলে বিপরীত নেই।)",
+      "question": "সহযোগী দিয়ে বিপরীত কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "A^{-1}=\\frac{1}{|A|}\\mathrm{adj}\\,A\\quad(|A|\\ne0)"
     }
   ],
   "memorize": {
-    "trick": "|A|=০ হলে বিপরীত নেই।",
-    "steps": []
+    "trick": "|A|=০ হলে বিপরীত নেই। A^{-1}=\\frac{1}{|A|}\\mathrm{adj}\\,A\\quad(|A|\\ne0)",
+    "steps": [
+      "সূত্র: A^{-1}=\\frac{1}{|A|}\\mathrm{adj}\\,A\\quad(|A|\\ne0)",
+      "কী কাজে লাগে: সহযোগী দিয়ে বিপরীত",
+      "চিহ্ন মনে রাখো: A, adj"
+    ]
   },
   "subjects": [
     "math"

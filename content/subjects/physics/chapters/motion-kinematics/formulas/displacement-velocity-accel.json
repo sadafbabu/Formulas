@@ -32,12 +32,17 @@
     }
   ],
   "derivation": {
-    "lead": "সরণের প্রথম ও দ্বিতীয় অবকলন।",
+    "lead": "v = ds/dt; a = dv/dt = d²s/dt²",
     "steps": [
       {
-        "title": "সংজ্ঞা",
-        "latex": "v=ds/dt,\\ a=dv/dt",
-        "note": "ভেক্টর রাশি।"
+        "title": "মূল সূত্র",
+        "latex": "v=\\dfrac{ds}{dt},\\quad a=\\dfrac{dv}{dt}=\\dfrac{d^2s}{dt^2}",
+        "note": "v = ds/dt; a = dv/dt = d²s/dt²"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "v=\\dfrac{ds}{dt},\\quad a=\\dfrac{dv}{dt}=\\dfrac{d^2s}{dt^2}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

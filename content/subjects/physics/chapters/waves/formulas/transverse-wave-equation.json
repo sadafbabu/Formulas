@@ -21,8 +21,13 @@
       "unit": "m"
     },
     {
-      "symbol": "\\omega, k",
+      "symbol": "\\omega",
       "meaning": "কৌণিক কম্পাঙ্ক ও তরঙ্গসংখ্যা",
+      "unit": "rad/s, rad/m"
+    },
+    {
+      "symbol": "k",
+      "meaning": "k সম্পর্কিত রাশি",
       "unit": "rad/s, rad/m"
     },
     {
@@ -57,8 +62,12 @@
     }
   ],
   "memorize": {
-    "trick": "y=A sin(ωt−kx); v=ω/k।",
-    "steps": []
+    "trick": "y=A sin(ωt−kx); v=ω/k। y = A sin(ωt − kx) বা A sin(kx − ωt)",
+    "steps": [
+      "সূত্র: y=A\\sin(\\omega t-kx),\\quad v=\\omega/k",
+      "y = A sin(ωt − kx) বা A sin(kx − ωt)",
+      "চিহ্ন মনে রাখো: A, \\omega, k, v"
+    ]
   },
   "subjects": [
     "physics"

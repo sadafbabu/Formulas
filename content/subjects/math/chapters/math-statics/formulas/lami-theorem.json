@@ -3,7 +3,7 @@
   "chapter": "math-statics",
   "title": "Lami's Theorem",
   "titleBn": "লামির উপপাদ্য",
-  "summary": "তিন বল সাম্য",
+  "summary": "প্রতিটি বল বিপরীত কোণের sin-এ ভাগ।",
   "latex": "\\frac{P}{\\sin\\alpha}=\\frac{Q}{\\sin\\beta}=\\frac{R}{\\sin\\gamma}",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "P, alpha, Q, beta",
+      "symbol": "P",
       "meaning": "তিন বল সাম্য",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "alpha",
+      "meaning": "alpha সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "Q",
+      "meaning": "Q সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "beta",
+      "meaning": "beta সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{P}{\\sin\\alpha}=\\frac{Q}{\\sin\\beta}=\\frac{R}{\\sin\\gamma}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "প্রতিটি বল বিপরীত কোণের sin-এ ভাগ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\frac{P}{\\sin\\alpha}=\\frac{Q}{\\sin\\beta}=\\frac{R}{\\sin\\gamma}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "লামির উপপাদ্য এর সূত্রটি লেখো। (ইঙ্গিত: প্রতিটি বল বিপরীত কোণের sin-এ ভাগ।)",
+      "question": "লামির উপপাদ্য কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\frac{P}{\\sin\\alpha}=\\frac{Q}{\\sin\\beta}=\\frac{R}{\\sin\\gamma}"
     }
   ],
   "memorize": {
     "trick": "প্রতিটি বল বিপরীত কোণের sin-এ ভাগ।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\frac{P}{\\sin\\alpha}=\\frac{Q}{\\sin\\beta}=\\frac{R}{\\sin\\gamma}",
+      "কী কাজে লাগে: লামির উপপাদ্য",
+      "চিহ্ন মনে রাখো: P, alpha, Q, beta"
+    ]
   },
   "subjects": [
     "math"

@@ -50,9 +50,14 @@
     "lead": "ঘর্ষণের সূত্রসমূহ পরীক্ষামূলকভাবে প্রতিষ্ঠিত: গতীয় ঘর্ষণ সর্বদা স্থিতি ঘর্ষণের চেয়ে কম।",
     "steps": [
       {
-        "title": "হেলানো তলে ঘর্ষণ",
-        "latex": "\\text{Incline angle } \\alpha: \\quad mg\\sin\\alpha = \\mu_s mg\\cos\\alpha \\implies \\mu_s = \\tan\\alpha",
-        "note": "ঘর্ষণ কোণ θ = arctan(μ_s)"
+        "title": "মূল সূত্র",
+        "latex": "f_s \\leq \\mu_s N, \\quad f_k = \\mu_k N, \\quad \\tan\\theta = \\mu_s",
+        "note": "ঘর্ষণের সূত্রসমূহ পরীক্ষামূলকভাবে প্রতিষ্ঠিত: গতীয় ঘর্ষণ সর্বদা স্থিতি ঘর্ষণের চেয়ে কম।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "f_s \\leq \\mu_s N, \\quad f_k = \\mu_k N, \\quad \\tan\\theta = \\mu_s",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

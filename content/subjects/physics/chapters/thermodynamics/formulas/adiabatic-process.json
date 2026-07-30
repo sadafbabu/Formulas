@@ -26,12 +26,21 @@
     {
       "symbol": "\\gamma",
       "meaning": "তাপ ধারকত্ব অনুপাত = Cp/Cv",
-      "unit": "মাত্রাহীন",
-      "value": "একপরমাণুক 5/3, দ্বিপরমাণুক 7/5"
+      "unit": "মাত্রাহীন"
     },
     {
-      "symbol": "P, V, T",
-      "meaning": "চাপ, আয়তন, তাপমাত্রা",
+      "symbol": "P",
+      "meaning": "চাপ",
+      "unit": "—"
+    },
+    {
+      "symbol": "V",
+      "meaning": "আয়তন",
+      "unit": "—"
+    },
+    {
+      "symbol": "T",
+      "meaning": "তাপমাত্রা",
       "unit": "—"
     },
     {
@@ -44,9 +53,14 @@
     "lead": "রুদ্ধতাপীয় প্রক্রিয়ায় তাপ আদান-প্রদান শূন্য (Q = 0), প্রথম সূত্র থেকে dU = -dW।",
     "steps": [
       {
-        "title": "P-V সম্পর্ক",
-        "latex": "PV^{\\gamma} = \\text{const}, \\quad \\gamma = \\frac{C_p}{C_v}",
-        "note": "রুদ্ধতাপীয় প্রক্রিয়া সমতাপীয় (PV = const) থেকে দ্রুত ঘটে"
+        "title": "মূল সূত্র",
+        "latex": "PV^{\\gamma} = \\text{const}, \\quad TV^{\\gamma-1} = \\text{const}, \\quad W = \\frac{P_1 V_1 - P_2 V_2}{\\gamma - 1}",
+        "note": "রুদ্ধতাপীয় প্রক্রিয়ায় তাপ আদান-প্রদান শূন্য (Q = 0), প্রথম সূত্র থেকে dU = -dW।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "PV^{\\gamma} = \\text{const}, \\quad TV^{\\gamma-1} = \\text{const}, \\quad W = \\frac{P_1 V_1 - P_2 V_2}{\\gamma - 1}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -63,6 +77,11 @@
     }
   ],
   "memorize": {
-    "trick": "Reversible ideal-gas adiabatic-এ PV^γ, TV^{γ−1}, T^γP^{1−γ} ধ্রুব। Adiabatic মানে Q = 0—তা দ্রুতও হতে পারে, আবার ভালো insulation-এ ধীরও হতে পারে।"
+    "trick": "রুদ্ধতাপীয়: PV^γ ধ্রুব; কাজ W = (P₁V₁−P₂V₂)/(γ−1)।",
+    "steps": [
+      "তাপ আদান-প্রদান নেই (Q=0)",
+      "PV^γ, TV^{γ−1} ধ্রুব",
+      "ΔU = −W"
+    ]
   }
 }

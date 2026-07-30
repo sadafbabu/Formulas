@@ -3,7 +3,7 @@
   "chapter": "waves",
   "title": "Newton–Laplace Speed of Sound",
   "titleBn": "নিউটন–ল্যাপ্লাস শব্দের বেগ",
-  "summary": "v = √(γP/ρ)",
+  "summary": "γ যোগ করো — নিউটন থেকে ল্যাপ্লাস।",
   "latex": "v=\\sqrt{\\dfrac{\\gamma P}{\\rho}}=\\sqrt{\\dfrac{\\gamma RT}{M}}",
   "tags": [
     "hsc",
@@ -58,7 +58,11 @@
   ],
   "memorize": {
     "trick": "γ যোগ করো — নিউটন থেকে ল্যাপ্লাস।",
-    "steps": []
+    "steps": [
+      "সূত্র: v=\\sqrt{\\dfrac{\\gamma P}{\\rho}}=\\sqrt{\\dfrac{\\gamma RT}{M}}",
+      "কী কাজে লাগে: নিউটন–ল্যাপ্লাস শব্দের বেগ",
+      "চিহ্ন মনে রাখো: \\gamma, P, \\rho"
+    ]
   },
   "subjects": [
     "physics"

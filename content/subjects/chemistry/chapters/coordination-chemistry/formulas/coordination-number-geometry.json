@@ -3,7 +3,7 @@
   "chapter": "coordination-chemistry",
   "title": "CN and Geometry",
   "titleBn": "সমন্বয় সংখ্যা ও জ্যামিতি",
-  "summary": "CN 2,4,6",
+  "summary": "CN=৬ সাধারণত অষ্টতলক। \\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}",
   "latex": "\\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "CN, linear, tetrahedral/square planar, octahedral",
-      "meaning": "CN 2,4,6",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "CN",
+      "meaning": "CN 2",
+      "unit": "—"
+    },
+    {
+      "symbol": "linear",
+      "meaning": "4",
+      "unit": "—"
+    },
+    {
+      "symbol": "tetrahedral/square planar",
+      "meaning": "6",
+      "unit": "—"
+    },
+    {
+      "symbol": "octahedral",
+      "meaning": "octahedral সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "CN 2,4,6 — CN=৬ সাধারণত অষ্টতলক।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমন্বয় সংখ্যা ও জ্যামিতি এর সূত্রটি লেখো। (ইঙ্গিত: CN=৬ সাধারণত অষ্টতলক।)",
+      "question": "সমন্বয় সংখ্যা ও জ্যামিতি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}"
     }
   ],
   "memorize": {
-    "trick": "CN=৬ সাধারণত অষ্টতলক।",
-    "steps": []
+    "trick": "CN=৬ সাধারণত অষ্টতলক। \\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}",
+    "steps": [
+      "সূত্র: \\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text…",
+      "কী কাজে লাগে: সমন্বয় সংখ্যা ও জ্যামিতি",
+      "চিহ্ন মনে রাখো: CN, linear, tetrahedral/square planar, octahedral"
+    ]
   },
   "subjects": [
     "chemistry"

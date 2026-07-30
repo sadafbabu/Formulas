@@ -45,9 +45,14 @@
     "lead": "আদর্শ গ্যাসের সমীকরণ PV = nRT তিনটি পৃথক সূত্রকে একত্রিত করে।",
     "steps": [
       {
-        "title": "অ্যাভোগ্যাড্রোর সূত্র",
-        "latex": "PV = NkT, \\quad k = 1.38 \\times 10^{-23} \\text{ J/K}, \\quad N = nN_A",
-        "note": "N = মোট অণুর সংখ্যা, NA = 6.022×10²³ (অ্যাভোগ্যাড্রো সংখ্যা)"
+        "title": "মূল সূত্র",
+        "latex": "PV = \\text{const} \\text{ (Boyle)}, \\quad \\frac{V}{T} = \\text{const} \\text{ (Charles)}, \\quad \\frac{P_1V_1}{T_1} = \\frac{P_2V_2}{T_2}, \\quad PV = nRT",
+        "note": "আদর্শ গ্যাসের সমীকরণ PV = nRT তিনটি পৃথক সূত্রকে একত্রিত করে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "PV = \\text{const} \\text{ (Boyle)}, \\quad \\frac{V}{T} = \\text{const} \\text{ (Charles)}, \\quad \\frac{P_1V_1}{T_1} = \\frac{P_2V_2}{T_2}, \\quad PV = nRT",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

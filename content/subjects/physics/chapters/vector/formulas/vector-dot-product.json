@@ -21,8 +21,13 @@
       "unit": "একক"
     },
     {
-      "symbol": "A_x, B_x",
+      "symbol": "A_x",
       "meaning": "x অক্ষ বরাবর ভেক্টর উপাংশ",
+      "unit": "একক"
+    },
+    {
+      "symbol": "B_x",
+      "meaning": "B_x সম্পর্কিত রাশি",
       "unit": "একক"
     },
     {
@@ -35,9 +40,14 @@
     "lead": "ডট গুণফল থেকে মধ্যবর্তী কোণ cos θ = (A·B) / (AB) হিসাব করা হয়।",
     "steps": [
       {
-        "title": "লম্ব হওয়ার শর্ত",
-        "latex": "\\mathbf{A} \\cdot \\mathbf{B} = 0 \\iff \\theta = 90^\\circ",
-        "note": "ডট গুণফল শূন্য হলে ভেক্টরদ্বয় পরস্পর লম্ব"
+        "title": "মূল সূত্র",
+        "latex": "\\mathbf{A} \\cdot \\mathbf{B} = A_x B_x + A_y B_y + A_z B_z = AB \\cos\\theta",
+        "note": "ডট গুণফল থেকে মধ্যবর্তী কোণ cos θ = (A·B) / (AB) হিসাব করা হয়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mathbf{A} \\cdot \\mathbf{B} = A_x B_x + A_y B_y + A_z B_z = AB \\cos\\theta",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

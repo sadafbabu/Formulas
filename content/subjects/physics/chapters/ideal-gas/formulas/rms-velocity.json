@@ -45,9 +45,14 @@
     "lead": "গ্যাসের চাপ P = (1/3) ρ v_rms² সূত্র হতে প্রাপ্ত।",
     "steps": [
       {
-        "title": "RMS বেগ রূপায়ণ",
-        "latex": "P = \\frac{1}{3} \\frac{N m}{V} v_{\\text{rms}}^2 \\implies P V = \\frac{1}{3} M v_{\\text{rms}}^2 = R T \\implies v_{\\text{rms}} = \\sqrt{\\frac{3 R T}{M}}",
-        "note": "গড় বেগ c̄ = √(8RT/πM), সম্ভাব্যতম বেগ c_mp = √(2RT/M)"
+        "title": "মূল সূত্র",
+        "latex": "v_{\\mathrm{rms}}=\\sqrt{\\frac{3RT}{M}}=\\sqrt{\\frac{3P}{\\rho}},\\quad \\langle E_k\\rangle_{\\mathrm{molecule}}=\\frac32k_BT,\\quad E_{k,n\\mathrm{mol}}=\\frac32nRT",
+        "note": "গ্যাসের চাপ P = (1/3) ρ v_rms² সূত্র হতে প্রাপ্ত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "v_{\\mathrm{rms}}=\\sqrt{\\frac{3RT}{M}}=\\sqrt{\\frac{3P}{\\rho}},\\quad \\langle E_k\\rangle_{\\mathrm{molecule}}=\\frac32k_BT,\\quad E_{k,n\\mathrm{mol}}=\\frac32nRT",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

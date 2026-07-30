@@ -45,9 +45,14 @@
     "lead": "অভিলম্ব প্রতিক্রিয়ার অণুভূমিক উপাদান R sinθ কেন্দ্রমুখী বল প্রদান করে।",
     "steps": [
       {
-        "title": "বল সাম্যাবস্থা",
-        "latex": "R \\sin\\theta = \\frac{m v^2}{r}, \\quad R \\cos\\theta = m g \\implies \\tan\\theta = \\frac{v^2}{r g}",
-        "note": "ক্ষুদ্র কোণের জন্য sinθ ≈ tanθ ব্যবহার করা হয়"
+        "title": "মূল সূত্র",
+        "latex": "\\tan\\theta = \\frac{v^2}{r g}, \\quad h = d \\sin\\theta \\approx d \\tan\\theta = \\frac{d v^2}{r g}",
+        "note": "অভিলম্ব প্রতিক্রিয়ার অণুভূমিক উপাদান R sinθ কেন্দ্রমুখী বল প্রদান করে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\tan\\theta = \\frac{v^2}{r g}, \\quad h = d \\sin\\theta \\approx d \\tan\\theta = \\frac{d v^2}{r g}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

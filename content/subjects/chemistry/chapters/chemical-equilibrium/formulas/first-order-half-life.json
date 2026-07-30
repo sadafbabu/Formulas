@@ -3,7 +3,7 @@
   "chapter": "chemical-equilibrium",
   "title": "First-Order Half-Life",
   "titleBn": "প্রথম ক্রমের অর্ধায়ু",
-  "summary": "t½=0.693/k",
+  "summary": "ঘনত্ব-নির্ভর নয় — তেজস্ক্রিয় ক্ষয়ের মতো।",
   "latex": "t_{1/2}=\\frac{0.693}{k}\\quad(\\text{1st order})",
   "tags": [
     "hsc",
@@ -16,9 +16,19 @@
   "order": 200,
   "symbols": [
     {
-      "symbol": "t, k, 1st order",
+      "symbol": "t",
       "meaning": "t½=0.693/k",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "k",
+      "meaning": "k সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "1st order",
+      "meaning": "1st order সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "t_{1/2}=\\frac{0.693}{k}\\quad(\\text{1st order})",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "ঘনত্ব-নির্ভর নয় — তেজস্ক্রিয় ক্ষয়ের মতো।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "t_{1/2}=\\frac{0.693}{k}\\quad(\\text{1st order})",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +50,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্রথম ক্রমের অর্ধায়ু এর সূত্রটি লেখো। (ইঙ্গিত: ঘনত্ব-নির্ভর নয় — তেজস্ক্রিয় ক্ষয়ের মতো।)",
+      "question": "প্রথম ক্রমের অর্ধায়ু কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "t_{1/2}=\\frac{0.693}{k}\\quad(\\text{1st order})"
     }
   ],
   "memorize": {
     "trick": "ঘনত্ব-নির্ভর নয় — তেজস্ক্রিয় ক্ষয়ের মতো।",
-    "steps": []
+    "steps": [
+      "সূত্র: t_{1/2}=\\frac{0.693}{k}\\quad(\\text{1st order})",
+      "কী কাজে লাগে: প্রথম ক্রমের অর্ধায়ু",
+      "চিহ্ন মনে রাখো: t, k, 1st order"
+    ]
   },
   "subjects": [
     "chemistry"

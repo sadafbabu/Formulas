@@ -28,8 +28,18 @@
       "unit": "রেডিয়ান/°"
     },
     {
-      "symbol": "\\sin, \\cos, \\tan",
+      "symbol": "\\sin",
       "meaning": "ত্রিকোণমিতিক অনুপাত",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "\\cos",
+      "meaning": "\\cos সম্পর্কিত রাশি",
+      "unit": "মাত্রাহীন"
+    },
+    {
+      "symbol": "\\tan",
+      "meaning": "\\tan সম্পর্কিত রাশি",
       "unit": "মাত্রাহীন"
     }
   ],
@@ -37,9 +47,14 @@
     "lead": "একক বৃত্তে কোণ θ-এর সাপেক্ষে পিথাগোরাস উপপাদ্য প্রয়োগ করে।",
     "steps": [
       {
-        "title": "অভেদ সমূহ",
-        "latex": "\\sin^2\\theta + \\cos^2\\theta = 1; \\quad \\sec^2\\theta - \\tan^2\\theta = 1; \\quad \\csc^2\\theta - \\cot^2\\theta = 1",
-        "note": "ভাগ করে পাওয়া যায়: cos²θ দ্বারা → 1+tan²θ=sec²θ; sin²θ দ্বারা → 1+cot²θ=csc²θ"
+        "title": "মূল সূত্র",
+        "latex": "\\sin^2\\theta + \\cos^2\\theta = 1, \\quad 1 + \\tan^2\\theta = \\sec^2\\theta, \\quad 1 + \\cot^2\\theta = \\csc^2\\theta",
+        "note": "একক বৃত্তে কোণ θ-এর সাপেক্ষে পিথাগোরাস উপপাদ্য প্রয়োগ করে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\sin^2\\theta + \\cos^2\\theta = 1, \\quad 1 + \\tan^2\\theta = \\sec^2\\theta, \\quad 1 + \\cot^2\\theta = \\csc^2\\theta",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -56,6 +71,11 @@
     }
   ],
   "memorize": {
-    "trick": "sin² + cos² = 1 — এটাই মূল। ভাগ করে বাকি দুটো পাওয়া যায়: 1+tan²=sec², 1+cot²=csc²।"
+    "trick": "sin² + cos² = 1 — এটাই মূল। ভাগ করে বাকি দুটো পাওয়া যায়: 1+tan²=sec², 1+cot²=csc²।",
+    "steps": [
+      "সূত্র: \\sin^2\\theta + \\cos^2\\theta = 1, \\quad 1 + \\tan^2\\theta = \\sec^2\\theta, \\quad 1 …",
+      "মৌলিক ত্রিকোণমিতিক অভেদ ও তাদের প্রয়োগ",
+      "চিহ্ন মনে রাখো: \\theta, \\sin, \\cos, \\tan"
+    ]
   }
 }

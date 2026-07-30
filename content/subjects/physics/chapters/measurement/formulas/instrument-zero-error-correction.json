@@ -48,7 +48,11 @@
   ],
   "memorize": {
     "trick": "ধনাত্মক শূন্য ত্রুটি বিয়োগ; ঋণাত্মক হলে যোগ।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\text{corrected reading}=\\text{observed}-(\\pm e_0)",
+      "সংশোধিত পাঠ = পরিমাপিত পাঠ − শূন্য ত্রুটি",
+      "চিহ্ন মনে রাখো: e_0"
+    ]
   },
   "subjects": [
     "physics"
