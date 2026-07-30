@@ -8,7 +8,7 @@ import {
   getChapter,
   subjectsList,
 } from '../data/catalog'
-import { formulaDetailPath } from '../utils/bookLinks'
+import { formulaDetailPath, memorizePath } from '../utils/bookLinks'
 import {
   SEARCH_SUGGESTIONS,
   matchFormula,
@@ -218,6 +218,18 @@ export function NavMenu({
 
           {!q ? (
             <div className="nav-suggest">
+              <Link
+                className="nav-memorize-link"
+                to={memorizePath({
+                  chapter: chapterId,
+                  tag: params.get('tag'),
+                  importance: 3,
+                })}
+                onClick={() => setOpen(false)}
+              >
+                মুখস্থ ড্রিল
+                <span>৩★ ফ্ল্যাশকার্ড</span>
+              </Link>
               <span className="nav-suggest-label">দ্রুত খোঁজ</span>
               <div className="nav-suggest-row">
                 {SEARCH_SUGGESTIONS.map((s) => (

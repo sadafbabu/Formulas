@@ -5,7 +5,7 @@ import { MathOrText } from '../components/MathOrText'
 import { NavMenu } from '../components/NavMenu'
 import { TagChip } from '../components/TagChip'
 import { defaultChapterId, getChapter, getFormula } from '../data/catalog'
-import { bookReturnPath, formulaDetailPath } from '../utils/bookLinks'
+import { bookReturnPath, formulaDetailPath, memorizePath } from '../utils/bookLinks'
 import { stripDollarMath, toLatexSymbol } from '../utils/mathText'
 
 export function FormulaDetailPage() {
@@ -175,6 +175,16 @@ export function FormulaDetailPage() {
                   ))}
                 </ol>
               ) : null}
+              <Link
+                className="detail-memorize-drill"
+                to={memorizePath({
+                  chapter: formula.chapter,
+                  tag: params.get('tag'),
+                  importance: (formula.importance as 1 | 2 | 3) ?? 3,
+                })}
+              >
+                এই অধ্যায়ে মুখস্থ ড্রিল →
+              </Link>
             </aside>
           ) : null}
 

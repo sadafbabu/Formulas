@@ -109,6 +109,7 @@ export function SampleBookPage() {
         query={query}
         onQueryChange={setQuery}
         onOpenMenuSearch={() => setMenuOpenSignal((n) => n + 1)}
+        chapterId={chapterId}
         menuSlot={
           <NavMenu
             query={query}

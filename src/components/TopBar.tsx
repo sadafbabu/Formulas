@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react'
+import { Link } from 'react-router-dom'
 import { tags } from '../data/catalog'
 import type { TagId } from '../data/types'
+import { memorizePath } from '../utils/bookLinks'
 
 interface TopBarProps {
   activeTag: TagId | null
@@ -13,6 +15,7 @@ interface TopBarProps {
   query?: string
   onQueryChange?: (value: string) => void
   onOpenMenuSearch?: () => void
+  chapterId?: string
 }
 
 export function TopBar({
@@ -26,6 +29,7 @@ export function TopBar({
   query = '',
   onQueryChange,
   onOpenMenuSearch,
+  chapterId,
 }: TopBarProps) {
   const tagsRef = useRef<HTMLDivElement>(null)
   const searchRef = useRef<HTMLInputElement>(null)
@@ -112,6 +116,19 @@ export function TopBar({
           <span>ওভারভিউ</span>
         </button>
         {menuSlot}
+        {viewMode === 'book' && chapterId ? (
+          <Link
+            className="home-nav-btn memorize-nav-btn"
+            to={memorizePath({
+              chapter: chapterId,
+              tag: activeTag,
+              importance: 3,
+            })}
+            title="এই অধ্যায়ের মুখস্থ ড্রিল"
+          >
+            মুখস্থ
+          </Link>
+        ) : null}
       </div>
 
       {onQueryChange ? (

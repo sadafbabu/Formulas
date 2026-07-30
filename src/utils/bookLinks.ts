@@ -37,3 +37,17 @@ export function bookReturnPath(opts: {
   }
   return `/?${p.toString()}`
 }
+
+/** Memorize drill session URL with optional chapter/tag/importance filters. */
+export function memorizePath(opts: {
+  chapter?: string | null
+  tag?: string | null
+  importance?: 1 | 2 | 3 | null
+}): string {
+  const p = new URLSearchParams()
+  if (opts.chapter) p.set('chapter', opts.chapter)
+  if (opts.tag) p.set('tag', opts.tag)
+  if (opts.importance != null) p.set('importance', String(opts.importance))
+  const qs = p.toString()
+  return qs ? `/memorize?${qs}` : '/memorize'
+}

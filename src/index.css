@@ -2290,6 +2290,226 @@ button:focus-visible,
   }
 }
 
+/* —— Memorize drill —— */
+.memorize-shell .nav-fab {
+  z-index: 40;
+}
+
+.memorize-scroll {
+  height: 100dvh;
+  overflow: auto;
+  padding: calc(3.8rem + var(--safe-top)) calc(1.1rem + var(--safe-right))
+    calc(2rem + var(--safe-bottom)) calc(1.1rem + var(--safe-left));
+  display: flex;
+  justify-content: center;
+  -webkit-overflow-scrolling: touch;
+}
+
+.memorize-panel {
+  width: min(36rem, 100%);
+  animation: slide-enter 400ms var(--ease-slide) both;
+}
+
+.memorize-title {
+  margin: 0.35rem 0 0.15rem;
+  font-size: clamp(1.4rem, 3vw, 1.85rem);
+  color: var(--ink-bright);
+  letter-spacing: -0.03em;
+}
+
+.memorize-sub {
+  margin: 0 0 1rem;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.memorize-filters {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.55rem;
+  margin-bottom: 1.1rem;
+}
+
+.memorize-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.memorize-filter select {
+  min-height: var(--touch-min);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-panel);
+  color: var(--ink-bright);
+  padding: 0.35rem 0.55rem;
+  font-size: 0.88rem;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.memorize-card,
+.memorize-done,
+.memorize-empty {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--bg-elevated);
+  padding: 1.15rem 1.1rem 1.25rem;
+}
+
+.memorize-card-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: var(--ink-faint);
+  margin-bottom: 0.65rem;
+}
+
+.memorize-card-title {
+  margin: 0;
+  font-size: 1.25rem;
+  color: var(--ink-bright);
+}
+
+.memorize-card-en {
+  margin: 0.2rem 0 1rem;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+  font-weight: 300;
+}
+
+.memorize-reveal {
+  width: 100%;
+  min-height: 3.2rem;
+  border: 1px dashed rgba(255, 255, 255, 0.22);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--ink-bright);
+  font-size: 1rem;
+}
+
+.memorize-reveal:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.memorize-latex {
+  font-size: 1.35rem;
+  overflow-x: auto;
+  padding: 0.4rem 0 0.7rem;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 0.75rem;
+  color: var(--ink-bright);
+}
+
+.memorize-card-trick {
+  margin: 0 0 0.55rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.memorize-card-steps {
+  margin: 0 0 1rem;
+  padding-left: 1.15rem;
+  color: var(--ink-soft);
+  line-height: 1.45;
+}
+
+.memorize-card-steps li + li {
+  margin-top: 0.25rem;
+}
+
+.memorize-actions {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.memorize-btn {
+  flex: 1;
+  min-height: var(--touch-min);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line-strong);
+  border-radius: 10px;
+  padding: 0.55rem 0.9rem;
+  color: var(--ink-bright);
+  text-decoration: none;
+  background: transparent;
+}
+
+.memorize-btn-primary {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.memorize-btn-again {
+  border-color: rgba(255, 255, 255, 0.16);
+  color: var(--ink-soft);
+}
+
+.memorize-done h2,
+.memorize-empty p {
+  margin: 0 0 0.75rem;
+  color: var(--ink-bright);
+}
+
+.memorize-done p {
+  margin: 0 0 1rem;
+  color: var(--ink-soft);
+}
+
+.nav-memorize-link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  margin-bottom: 0.85rem;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 10px;
+  color: var(--ink-bright);
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.nav-memorize-link span {
+  font-size: 0.75rem;
+  color: var(--ink-faint);
+}
+
+.nav-memorize-link:hover {
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.memorize-nav-btn {
+  margin-left: 0.25rem;
+}
+
+.detail-memorize-drill {
+  display: inline-flex;
+  margin-top: 0.75rem;
+  color: var(--ink-bright);
+  font-size: 0.88rem;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+@media (max-width: 640px) {
+  .memorize-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .memorize-latex {
+    font-size: 1.15rem;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
