@@ -49,7 +49,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমাবেশের সমষ্টি এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "সমাবেশের সমষ্টি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\binom{n}{0}+\\binom{n}{1}+\\cdots+\\binom{n}{n}=2^n"
     },
     {
@@ -62,8 +62,8 @@
     "trick": "Binomial row sum = 2^n; Pascal's triangle।",
     "steps": [
       "Binomial row sum = 2^n; Pascal's triangle।",
-      "প্রশ্নে সমাবেশের সমষ্টি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: binom, n, cdots — একক যাচাই করো"
+      "কাজ: Binomial row sum = 2^n; Pascal's triangle।",
+      "চিহ্ন ঠিক আছে তো? binom, n, cdots"
     ]
   },
   "subjects": [

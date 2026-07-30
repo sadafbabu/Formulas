@@ -62,8 +62,8 @@
     "trick": "V = π∫ y² dx — ডিস্ক পদ্ধতি। V=\\pi\\int_a^b [f(x)]^2\\,dx\\quad(\\text{about x-axis})",
     "steps": [
       "V = π∫ y² dx — ডিস্ক পদ্ধতি। V=\\pi\\int_a^b [f(x)]^2\\,dx\\quad(\\text{about x-axis})",
-      "প্রশ্নে ঘূর্ণনজাত ঘনবস্তুর আয়তন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: V, pi, int — একক যাচাই করো"
+      "কাজ: V = π∫ y² dx — ডিস্ক পদ্ধতি। V=\\pi\\int_a^b [f(x)]^2\\,dx\\quad(\\text{about x-axis})",
+      "চিহ্ন ঠিক আছে তো? V, pi, int"
     ]
   },
   "subjects": [

@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সলভে পদ্ধতি এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "সলভে পদ্ধতি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\ce{2NaCl + CaCO3 -> Na2CO3 + CaCl2}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "NH₃ + CO₂ + brine → NaHCO₃ → Na₂CO₃; byproduct CaCl₂।",
     "steps": [
       "NH₃ + CO₂ + brine → NaHCO₃ → Na₂CO₃; byproduct CaCl₂।",
-      "প্রশ্নে সলভে পদ্ধতি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: ce, N, a — একক যাচাই করো"
+      "কাজ: NH₃ + CO₂ + brine → NaHCO₃ → Na₂CO₃; byproduct CaCl₂।",
+      "চিহ্ন ঠিক আছে তো? ce, N, a"
     ]
   },
   "subjects": [

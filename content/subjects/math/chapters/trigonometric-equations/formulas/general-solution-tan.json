@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "tanθ=k-এর সাধারণ সমাধান এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "tanθ=k-এর সাধারণ সমাধান এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "Period π (not 2π) for tan; simpler than sin/cos।",
     "steps": [
       "Period π (not 2π) for tan; simpler than sin/cos।",
-      "প্রশ্নে tanθ=k-এর সাধারণ সমাধান প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: theta, n, pi — একক যাচাই করো"
+      "কাজ: Period π (not 2π) for tan; simpler than sin/cos।",
+      "চিহ্ন ঠিক আছে তো? theta, n, pi"
     ]
   },
   "subjects": [

@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সীমাবদ্ধতা অসমতা এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "সীমাবদ্ধতা অসমতা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "ax+by\\le c"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "≤ → origin side feasible (coefficients positive হলে)।",
     "steps": [
       "≤ → origin side feasible (coefficients positive হলে)।",
-      "প্রশ্নে সীমাবদ্ধতা অসমতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: a, x, b — একক যাচাই করো"
+      "কাজ: ≤ → origin side feasible (coefficients positive হলে)।",
+      "চিহ্ন ঠিক আছে তো? a, x, b"
     ]
   },
   "subjects": [

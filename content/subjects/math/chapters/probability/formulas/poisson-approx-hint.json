@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পোয়াসোঁ আনুমানিক এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "পোয়াসোঁ আনুমানিক এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "n বড়, p ছোট হলে binomial → Poisson।",
     "steps": [
       "n বড়, p ছোট হলে binomial → Poisson।",
-      "প্রশ্নে পোয়াসোঁ আনুমানিক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: P, X, k — একক যাচাই করো"
+      "কাজ: n বড়, p ছোট হলে binomial → Poisson।",
+      "চিহ্ন ঠিক আছে তো? P, X, k"
     ]
   },
   "subjects": [

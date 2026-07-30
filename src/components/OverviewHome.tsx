@@ -206,24 +206,17 @@ export function OverviewHome({
             const paper = papers.find((p) => p.id === ch.paperId)
 
             return (
-              <article
+              <button
                 key={ch.id}
+                type="button"
                 className={`chapter-card${ch.isReady ? ' is-ready' : ' is-locked'}`}
-                role={ch.isReady ? 'button' : undefined}
-                tabIndex={ch.isReady ? 0 : undefined}
+                disabled={!ch.isReady}
                 aria-label={
                   ch.isReady
                     ? `${ch.nameBn} অধ্যায় খুলুন`
                     : `${ch.nameBn} — শীঘ্রই আসছে`
                 }
                 onClick={() => ch.isReady && onSelectChapter(ch.id)}
-                onKeyDown={(e) => {
-                  if (!ch.isReady) return
-                  if (e.key === 'Enter' || e.key === ' ') {
-                    e.preventDefault()
-                    onSelectChapter(ch.id)
-                  }
-                }}
               >
                 <div className="card-top">
                   <span className="card-badge">
@@ -245,7 +238,7 @@ export function OverviewHome({
                     {ch.isReady ? 'বই খুলুন →' : 'প্রস্তুত হচ্ছে'}
                   </span>
                 </div>
-              </article>
+              </button>
             )
           })
         )}

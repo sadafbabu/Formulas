@@ -155,7 +155,7 @@ export function NavMenu({
       <button
         type="button"
         className={`nav-fab${open ? ' is-open' : ''}`}
-        aria-label="Open navigation"
+        aria-label="নেভিগেশন খুলুন"
         aria-expanded={open}
         aria-controls={panelId}
         onClick={() => setOpen((v) => !v)}
@@ -168,7 +168,7 @@ export function NavMenu({
       </button>
 
       {open && (
-        <nav id={panelId} className="nav-panel" aria-label="Book navigation">
+        <nav id={panelId} className="nav-panel" aria-label="বই নেভিগেশন">
           <div className="nav-panel-head">
             <div>
               <div className="nav-brand">Formulas</div>

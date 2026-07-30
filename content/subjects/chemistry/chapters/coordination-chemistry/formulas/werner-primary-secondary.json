@@ -40,7 +40,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভার্নারের তত্ত্ব এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "ভার্নারের তত্ত্ব এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\text{Primary valence = ionizable; Secondary = non-ionizable}"
     },
     {
@@ -53,8 +53,8 @@
     "trick": "Primary = oxidation state; Secondary = coordination।",
     "steps": [
       "Primary = oxidation state; Secondary = coordination।",
-      "প্রশ্নে ভার্নারের তত্ত্ব প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: Primary valence = ionizable; Secondary = non-ionizable — একক যাচাই করো"
+      "কাজ: Primary = oxidation state; Secondary = coordination।",
+      "চিহ্ন ঠিক আছে তো? Primary valence = ionizable; Secondary = non-ionizable"
     ]
   },
   "subjects": [

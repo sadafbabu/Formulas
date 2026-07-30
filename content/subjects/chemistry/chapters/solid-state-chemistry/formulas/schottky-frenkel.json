@@ -45,7 +45,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শটকি ও ফ্রেনকেল ত্রুটি এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "শটকি ও ফ্রেনকেল ত্রুটি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\text{Schottky: cation+anion vacancy};\\ \\text{Frenkel: ion displaced to interstitial}"
     },
     {
@@ -58,8 +58,8 @@
     "trick": "শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।",
     "steps": [
       "শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।",
-      "প্রশ্নে শটকি ও ফ্রেনকেল ত্রুটি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: Schottky: cation+anion vacancy, Frenkel: ion displaced to interstitial — একক যাচাই করো"
+      "কাজ: শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।",
+      "চিহ্ন ঠিক আছে তো? Schottky: cation+anion vacancy, Frenkel: ion displaced to interstitial"
     ]
   },
   "subjects": [

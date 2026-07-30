@@ -57,8 +57,8 @@
     "trick": "(cosθ + i sinθ)^n = cos(nθ) + i sin(nθ)—modulus-এর n-th power, argument n গুণ; single-valued identity-তে n পূর্ণসংখ্যা।",
     "steps": [
       "(cosθ + i sinθ)^n = cos(nθ) + i sin(nθ)—modulus-এর n-th power, argument n গুণ; single-valued identity-তে n …",
-      "প্রশ্নে দ্য ময়ভারের উপপাদ্য ও জটিল সংখ্যার ঘাত প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: i, \\theta, n — একক যাচাই করো"
+      "কাজ: জটিল সংখ্যার মেরু রূপ এবং দ্য ময়ভারের উপপাদ্য প্রয়োগ",
+      "চিহ্ন ঠিক আছে তো? i, \\theta, n"
     ]
   },
   "subjects": [

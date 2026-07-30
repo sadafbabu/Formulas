@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "চল কুণ্ডলী গ্যালভানোমিটার এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "চল কুণ্ডলী গ্যালভানোমিটার এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta"
     }
   ],
@@ -63,8 +63,8 @@
     "trick": "বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
     "steps": [
       "বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
-      "প্রশ্নে চল কুণ্ডলী গ্যালভানোমিটার প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: N, I, A — একক যাচাই করো"
+      "কাজ: বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
+      "চিহ্ন ঠিক আছে তো? N, I, A"
     ]
   },
   "subjects": [

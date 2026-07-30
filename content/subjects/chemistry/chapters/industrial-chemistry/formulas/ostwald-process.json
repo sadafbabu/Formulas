@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অস্টওয়াল্ড পদ্ধতি এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "অস্টওয়াল্ড পদ্ধতি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\ce{4NH3 + 5O2 -> 4NO + 6H2O};\\quad \\ce{NO -> NO2 -> HNO3}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।",
     "steps": [
       "Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।",
-      "প্রশ্নে অস্টওয়াল্ড পদ্ধতি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: ce, N, H — একক যাচাই করো"
+      "কাজ: Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।",
+      "চিহ্ন ঠিক আছে তো? ce, N, H"
     ]
   },
   "subjects": [

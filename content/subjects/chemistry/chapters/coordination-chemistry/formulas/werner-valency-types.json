@@ -45,7 +45,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ওয়ার্নার প্রাথমিক ও মাধ্যমিক যোজনী এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "ওয়ার্নার প্রাথমিক ও মাধ্যমিক যোজনী এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\text{primary = oxidation number};\\quad \\text{secondary = coordination number}"
     },
     {
@@ -58,8 +58,8 @@
     "trick": "প্রাথমিক আয়নীয়; মাধ্যমিক দিকনির্দেশক।",
     "steps": [
       "প্রাথমিক আয়নীয়; মাধ্যমিক দিকনির্দেশক।",
-      "প্রশ্নে ওয়ার্নার প্রাথমিক ও মাধ্যমিক যোজনী প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: primary = oxidation number, secondary = coordination number — একক যাচাই করো"
+      "কাজ: প্রাথমিক আয়নীয়; মাধ্যমিক দিকনির্দেশক।",
+      "চিহ্ন ঠিক আছে তো? primary = oxidation number, secondary = coordination number"
     ]
   },
   "subjects": [

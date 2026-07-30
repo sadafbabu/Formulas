@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "BOD ও COD এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "BOD ও COD এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\text{BOD}=\\text{O}_2\\text{ used by microbes (5 days)};\\quad \\text{COD}=\\text{chemical O}_2\\text{ demand}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।",
     "steps": [
       "BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।",
-      "প্রশ্নে BOD ও COD প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: BOD, O, used by microbes (5 days) — একক যাচাই করো"
+      "কাজ: BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।",
+      "চিহ্ন ঠিক আছে তো? BOD, O, used by microbes (5 days)"
     ]
   },
   "subjects": [

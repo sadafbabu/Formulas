@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিভাজন ও সংযোজন এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "বিভাজন ও সংযোজন এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\text{heavier}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।",
     "steps": [
       "বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।",
-      "প্রশ্নে বিভাজন ও সংযোজন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: fission: heavy, lighter, energy — একক যাচাই করো"
+      "কাজ: বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।",
+      "চিহ্ন ঠিক আছে তো? fission: heavy, lighter, energy"
     ]
   },
   "subjects": [

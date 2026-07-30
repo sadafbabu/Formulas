@@ -62,8 +62,8 @@
     "trick": "√(1−x²) ও (1+x²) মুখস্থ রাখো। \\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}",
     "steps": [
       "√(1−x²) ও (1+x²) মুখস্থ রাখো। \\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\fra…",
-      "প্রশ্নে arcsin/arctan এর অন্তরক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: d, x, arcsin — একক যাচাই করো"
+      "কাজ: √(1−x²) ও (1+x²) মুখস্থ রাখো। \\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1",
+      "চিহ্ন ঠিক আছে তো? d, x, arcsin"
     ]
   },
   "subjects": [

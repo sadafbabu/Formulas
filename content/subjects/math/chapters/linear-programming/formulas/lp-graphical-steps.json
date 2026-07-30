@@ -44,7 +44,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "লেখচিত্র পদ্ধতির ধাপ এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "লেখচিত্র পদ্ধতির ধাপ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\text{1) lines 2) shade 3) corners 4) evaluate }Z"
     },
     {
@@ -57,8 +57,8 @@
     "trick": "দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z",
     "steps": [
       "দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z",
-      "প্রশ্নে লেখচিত্র পদ্ধতির ধাপ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: 1) lines 2) shade 3) corners 4) evaluate, Z — একক যাচাই করো"
+      "কাজ: দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z",
+      "চিহ্ন ঠিক আছে তো? 1) lines 2) shade 3) corners 4) evaluate, Z"
     ]
   },
   "subjects": [

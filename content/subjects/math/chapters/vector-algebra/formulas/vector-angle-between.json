@@ -67,8 +67,8 @@
     "trick": "কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
     "steps": [
       "কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
-      "প্রশ্নে দুই ভেক্টরের কোণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: theta, vec, a — একক যাচাই করো"
+      "কাজ: কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
+      "চিহ্ন ঠিক আছে তো? theta, vec, a"
     ]
   },
   "subjects": [

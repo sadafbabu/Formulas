@@ -65,8 +65,8 @@
     "trick": "B=−ΔP/(ΔV/V); শিয়ার = stress/tanθ।",
     "steps": [
       "B=−ΔP/(ΔV/V); শিয়ার = stress/tanθ।",
-      "প্রশ্নে আয়তন ও পার্শ্ব গুণাঙ্ক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: B, \\eta, \\Delta P — একক যাচাই করো"
+      "কাজ: B = −ΔP/(ΔV/V); η = shear stress / shear strain",
+      "চিহ্ন ঠিক আছে তো? B, \\eta, \\Delta P"
     ]
   },
   "subjects": [

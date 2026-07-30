@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "XOR গেট এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "XOR গেট এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "A\\oplus B=A\\overline{B}+\\overline{A}B"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B",
     "steps": [
       "একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B",
-      "প্রশ্নে XOR গেট প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: A, oplus, B — একক যাচাই করো"
+      "কাজ: একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B",
+      "চিহ্ন ঠিক আছে তো? A, oplus, B"
     ]
   },
   "subjects": [

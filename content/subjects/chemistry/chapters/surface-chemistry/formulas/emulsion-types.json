@@ -45,7 +45,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ইমালশনের প্রকার এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "ইমালশনের প্রকার এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}"
     }
   ],
@@ -53,8 +53,8 @@
     "trick": "দুধ = O/W; মাখন = W/O। \\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
     "steps": [
       "দুধ = O/W; মাখন = W/O। \\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
-      "প্রশ্নে ইমালশনের প্রকার প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: O/W (oil in water), W/O (water in oil) — একক যাচাই করো"
+      "কাজ: দুধ = O/W; মাখন = W/O। \\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
+      "চিহ্ন ঠিক আছে তো? O/W (oil in water), W/O (water in oil)"
     ]
   },
   "subjects": [

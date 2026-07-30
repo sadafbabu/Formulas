@@ -45,7 +45,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শতকরা সংযুক্তি এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "শতকরা সংযুক্তি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100"
     }
   ],
@@ -53,8 +53,8 @@
     "trick": "যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
     "steps": [
       "যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
-      "প্রশ্নে শতকরা সংযুক্তি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: mass of element in formula, molar mass — একক যাচাই করো"
+      "কাজ: যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
+      "চিহ্ন ঠিক আছে তো? mass of element in formula, molar mass"
     ]
   },
   "subjects": [

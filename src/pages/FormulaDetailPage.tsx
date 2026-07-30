@@ -186,7 +186,24 @@ export function FormulaDetailPage() {
                 এই অধ্যায়ে মুখস্থ ড্রিল →
               </Link>
             </aside>
-          ) : null}
+          ) : (
+            <aside className="assumptions detail-memorize">
+              <h4>মুখস্থ ড্রিল</h4>
+              <p className="memorize-trick">
+                এই অধ্যায়ের সূত্রগুলো ফ্ল্যাশকার্ড দিয়ে অনুশীলন করো।
+              </p>
+              <Link
+                className="detail-memorize-drill"
+                to={memorizePath({
+                  chapter: formula.chapter,
+                  tag: params.get('tag'),
+                  importance: (formula.importance as 1 | 2 | 3) ?? 3,
+                })}
+              >
+                মুখস্থ ড্রিল শুরু →
+              </Link>
+            </aside>
+          )}
 
           {questions.length > 0 && (
             <section className="detail-questions">

@@ -54,8 +54,8 @@
     "trick": "sin(A±B) = sinA cosB ± cosA sinB; cos(A±B) = cosA cosB ∓ sinA sinB — sin মিশ্র চিহ্ন, cos বিপরীত চিহ্ন।",
     "steps": [
       "sin(A±B) = sinA cosB ± cosA sinB; cos(A±B) = cosA cosB ∓ sinA sinB — sin মিশ্র চিহ্ন, cos বিপরীত চিহ্ন।",
-      "প্রশ্নে যৌগিক কোণের সূত্র প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: A, B — একক যাচাই করো"
+      "কাজ: sin, cos, tan এর যোগফল ও বিয়োগফল কোণ সূত্র",
+      "চিহ্ন ঠিক আছে তো? A, B"
     ]
   },
   "subjects": [

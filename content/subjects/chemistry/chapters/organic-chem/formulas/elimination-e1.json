@@ -60,7 +60,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "E1 বিলোপন এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "E1 বিলোপন এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\text{E1: two-step, carbocation intermediate, rate}=k[\\mathrm{RX}]"
     },
     {
@@ -73,8 +73,8 @@
     "trick": "E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।",
     "steps": [
       "E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।",
-      "প্রশ্নে E1 বিলোপন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: E1: two-step, carbocation intermediate, rate — একক যাচাই করো"
+      "কাজ: E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।",
+      "চিহ্ন ঠিক আছে তো? E1: two-step, carbocation intermediate, rate"
     ]
   },
   "subjects": [

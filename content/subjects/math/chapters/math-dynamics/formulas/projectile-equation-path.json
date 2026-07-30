@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্ষিপ্ত পথের সমীকরণ এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "ক্ষিপ্ত পথের সমীকরণ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "y=x\\tan\\theta-\\frac{gx^2}{2u^2\\cos^2\\theta}"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "x elim করে parabolic path; g/2u²cos²θ coefficient।",
     "steps": [
       "x elim করে parabolic path; g/2u²cos²θ coefficient।",
-      "প্রশ্নে ক্ষিপ্ত পথের সমীকরণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: y, x, theta — একক যাচাই করো"
+      "কাজ: x elim করে parabolic path; g/2u²cos²θ coefficient।",
+      "চিহ্ন ঠিক আছে তো? y, x, theta"
     ]
   },
   "subjects": [

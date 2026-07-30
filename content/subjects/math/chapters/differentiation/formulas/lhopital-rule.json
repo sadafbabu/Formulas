@@ -49,7 +49,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ল'হোপিটালের নিয়ম এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "ল'হোপিটালের নিয়ম এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})"
     }
   ],
@@ -57,8 +57,8 @@
     "trick": "অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
     "steps": [
       "অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
-      "প্রশ্নে ল'হোপিটালের নিয়ম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: lim, f, g — একক যাচাই করো"
+      "কাজ: অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
+      "চিহ্ন ঠিক আছে তো? lim, f, g"
     ]
   },
   "subjects": [

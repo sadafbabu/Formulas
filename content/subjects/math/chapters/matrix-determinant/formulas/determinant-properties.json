@@ -49,7 +49,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "নির্ণায়কের ধর্ম এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "নির্ণায়কের ধর্ম এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "|A^T|=|A|;\\quad |AB|=|A||B|"
     },
     {
@@ -62,8 +62,8 @@
     "trick": "Row swap → sign change; two equal rows → det=0।",
     "steps": [
       "Row swap → sign change; two equal rows → det=0।",
-      "প্রশ্নে নির্ণায়কের ধর্ম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: A, T, B — একক যাচাই করো"
+      "কাজ: Row swap → sign change; two equal rows → det=0।",
+      "চিহ্ন ঠিক আছে তো? A, T, B"
     ]
   },
   "subjects": [

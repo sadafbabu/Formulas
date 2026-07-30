@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফেলিং পরীক্ষা এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "ফেলিং পরীক্ষা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\ce{RCHO + 2Cu(OH)2 -> RCOOH + Cu2O + 2H2O}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "Aldehyde → red Cu₂O precipitate; ketone negative।",
     "steps": [
       "Aldehyde → red Cu₂O precipitate; ketone negative।",
-      "প্রশ্নে ফেলিং পরীক্ষা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: ce, R, C — একক যাচাই করো"
+      "কাজ: Aldehyde → red Cu₂O precipitate; ketone negative।",
+      "চিহ্ন ঠিক আছে তো? ce, R, C"
     ]
   },
   "subjects": [

@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "BCC প্যাকিং দক্ষতা এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "BCC প্যাকিং দক্ষতা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\text{PE}=68\\%\\quad(a\\sqrt3=4r)"
     }
   ],
@@ -63,8 +63,8 @@
     "trick": "BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
     "steps": [
       "BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
-      "প্রশ্নে BCC প্যাকিং দক্ষতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: PE, a, sqrt — একক যাচাই করো"
+      "কাজ: BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
+      "চিহ্ন ঠিক আছে তো? PE, a, sqrt"
     ]
   },
   "subjects": [

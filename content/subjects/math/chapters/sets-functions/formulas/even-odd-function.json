@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জোড় ও বিজোড় ফাংশন এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "জোড় ও বিজোড় ফাংশন এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "f(-x)=f(x)\\text{ (even)};\\quad f(-x)=-f(x)\\text{ (odd)}"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "Even → y-axis symmetry; Odd → origin symmetry।",
     "steps": [
       "Even → y-axis symmetry; Odd → origin symmetry।",
-      "প্রশ্নে জোড় ও বিজোড় ফাংশন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: f, x, (even) — একক যাচাই করো"
+      "কাজ: Even → y-axis symmetry; Odd → origin symmetry।",
+      "চিহ্ন ঠিক আছে তো? f, x, (even)"
     ]
   },
   "subjects": [

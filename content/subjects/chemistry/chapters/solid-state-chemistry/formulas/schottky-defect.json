@@ -40,7 +40,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শটকি ত্রুটি এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "শটকি ত্রুটি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\text{Schottky: equal cation and anion vacancies}"
     },
     {
@@ -53,8 +53,8 @@
     "trick": "Ionic solid-এ দুই vacancy; density decreases।",
     "steps": [
       "Ionic solid-এ দুই vacancy; density decreases।",
-      "প্রশ্নে শটকি ত্রুটি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: Schottky: equal cation and anion vacancies — একক যাচাই করো"
+      "কাজ: Ionic solid-এ দুই vacancy; density decreases।",
+      "চিহ্ন ঠিক আছে তো? Schottky: equal cation and anion vacancies"
     ]
   },
   "subjects": [

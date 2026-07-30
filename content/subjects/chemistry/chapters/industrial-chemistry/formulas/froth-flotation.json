@@ -40,7 +40,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফেন ভাসান পদ্ধতি এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "ফেন ভাসান পদ্ধতি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\text{sulphide ore particles attach to froth; gangue sinks}"
     },
     {
@@ -53,8 +53,8 @@
     "trick": "সালফাইড আকরিক নির্বাচনী ভাসান।",
     "steps": [
       "সালফাইড আকরিক নির্বাচনী ভাসান।",
-      "প্রশ্নে ফেন ভাসান পদ্ধতি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: sulphide ore particles attach to froth; gangue sinks — একক যাচাই করো"
+      "কাজ: সালফাইড আকরিক নির্বাচনী ভাসান।",
+      "চিহ্ন ঠিক আছে তো? sulphide ore particles attach to froth; gangue sinks"
     ]
   },
   "subjects": [

@@ -60,8 +60,8 @@
     "trick": "μ=0 → √(rg tanθ); ঘর্ষণে ±φ। v_{\\max}=\\sqrt{rg\\tan(\\theta+\\phi)},\\quad v_{\\min}=\\sqrt{rg\\tan(\\theta-\\phi)}",
     "steps": [
       "μ=0 → √(rg tanθ); ঘর্ষণে ±φ। v_{\\max}=\\sqrt{rg\\tan(\\theta+\\phi)},\\quad v_{\\min}=\\sqrt{rg\\tan(\\theta-\\phi)}",
-      "প্রশ্নে ঘর্ষণযুক্ত বাঁকানো রাস্তা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: \\theta, \\phi, r — একক যাচাই করো"
+      "কাজ: μ=0 → √(rg tanθ); ঘর্ষণে ±φ। v_{\\max}=\\sqrt{rg\\tan(\\theta+\\phi)},\\quad v_{\\min}=\\sqrt{rg\\tan(\\theta-\\phi)}",
+      "চিহ্ন ঠিক আছে তো? \\theta, \\phi, r"
     ]
   },
   "subjects": [

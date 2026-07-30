@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সলভে বাইকার্বোনেট ধাপ এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "সলভে বাইকার্বোনেট ধাপ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+\\mathrm{NH_4Cl}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "NaHCO₃ তাপে Na₂CO₃ দেয়। \\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+\\mathrm{NH_4Cl}",
     "steps": [
       "NaHCO₃ তাপে Na₂CO₃ দেয়। \\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarr…",
-      "প্রশ্নে সলভে বাইকার্বোনেট ধাপ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: NaCl, NH_3, CO_2 — একক যাচাই করো"
+      "কাজ: NaHCO₃ তাপে Na₂CO₃ দেয়। \\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+",
+      "চিহ্ন ঠিক আছে তো? NaCl, NH_3, CO_2"
     ]
   },
   "subjects": [

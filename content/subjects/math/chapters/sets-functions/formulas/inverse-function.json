@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিপরীত ফাংশন এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "বিপরীত ফাংশন এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "f⁻¹ exists iff f one-to-one; graph = mirror y=x।",
     "steps": [
       "f⁻¹ exists iff f one-to-one; graph = mirror y=x।",
-      "প্রশ্নে বিপরীত ফাংশন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: f, x, and — একক যাচাই করো"
+      "কাজ: f⁻¹ exists iff f one-to-one; graph = mirror y=x।",
+      "চিহ্ন ঠিক আছে তো? f, x, and"
     ]
   },
   "subjects": [

@@ -62,8 +62,8 @@
     "trick": "২×২: প্রধান−অপ্রধান কর্ণ। \\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
     "steps": [
       "২×২: প্রধান−অপ্রধান কর্ণ। \\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
-      "প্রশ্নে ২×২ নির্ণায়ক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: v, m, a — একক যাচাই করো"
+      "কাজ: ২×২: প্রধান−অপ্রধান কর্ণ। \\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
+      "চিহ্ন ঠিক আছে তো? v, m, a"
     ]
   },
   "subjects": [

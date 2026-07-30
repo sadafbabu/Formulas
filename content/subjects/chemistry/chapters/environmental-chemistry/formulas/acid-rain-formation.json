@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অ্যাসিড বৃষ্টি এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "অ্যাসিড বৃষ্টি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}"
     }
   ],
@@ -63,8 +63,8 @@
     "trick": "pH < ৫.৬ হলে অ্যাসিড বৃষ্টি। \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}",
     "steps": [
       "pH < ৫.৬ হলে অ্যাসিড বৃষ্টি। \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2…",
-      "প্রশ্নে অ্যাসিড বৃষ্টি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: SO_2, H_2O, H_2SO_3 — একক যাচাই করো"
+      "কাজ: pH < ৫.৬ হলে অ্যাসিড বৃষ্টি। \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\",
+      "চিহ্ন ঠিক আছে তো? SO_2, H_2O, H_2SO_3"
     ]
   },
   "subjects": [

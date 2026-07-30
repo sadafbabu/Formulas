@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফাংশনের সংজ্ঞা এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "ফাংশনের সংজ্ঞা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "প্রতিটি input-এ exactly এক output — MCQ-তে function test।",
     "steps": [
       "প্রতিটি input-এ exactly এক output — MCQ-তে function test।",
-      "প্রশ্নে ফাংশনের সংজ্ঞা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: f, A, B — একক যাচাই করো"
+      "কাজ: প্রতিটি input-এ exactly এক output — MCQ-তে function test।",
+      "চিহ্ন ঠিক আছে তো? f, A, B"
     ]
   },
   "subjects": [

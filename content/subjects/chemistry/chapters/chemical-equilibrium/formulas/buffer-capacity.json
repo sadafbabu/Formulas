@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বাফার ক্ষমতা এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "বাফার ক্ষমতা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\mathrm{pH}=pK_a+\\log\\frac{[\\mathrm{salt}]}{[\\mathrm{acid}]},\\quad\\beta=\\frac{dn}{d(\\mathrm{pH})}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "Henderson + capacity β = dn/d(pH)।",
     "steps": [
       "Henderson + capacity β = dn/d(pH)।",
-      "প্রশ্নে বাফার ক্ষমতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: pH, p, K — একক যাচাই করো"
+      "কাজ: Henderson + capacity β = dn/d(pH)।",
+      "চিহ্ন ঠিক আছে তো? pH, p, K"
     ]
   },
   "subjects": [

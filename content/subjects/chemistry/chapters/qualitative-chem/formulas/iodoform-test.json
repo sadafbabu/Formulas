@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আয়োডোফর্ম পরীক্ষা এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "আয়োডোফর্ম পরীক্ষা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\ce{CH3CO-R + 3I2 + 4NaOH -> CHI3 + RCOONa + 3NaI + 2H2O}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "Methyl ketone or CH₃CH(OH)− → yellow CHI₃ precipitate।",
     "steps": [
       "Methyl ketone or CH₃CH(OH)− → yellow CHI₃ precipitate।",
-      "প্রশ্নে আয়োডোফর্ম পরীক্ষা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: ce, C, H — একক যাচাই করো"
+      "কাজ: Methyl ketone or CH₃CH(OH)− → yellow CHI₃ precipitate।",
+      "চিহ্ন ঠিক আছে তো? ce, C, H"
     ]
   },
   "subjects": [

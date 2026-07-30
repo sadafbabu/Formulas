@@ -49,7 +49,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "বৃত্তাকার ক্রম এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "P_{\\text{circular}}=(n-1)!"
     },
     {
@@ -62,8 +62,8 @@
     "trick": "Linear n! → Circular (n−1)!; one fixed point।",
     "steps": [
       "Linear n! → Circular (n−1)!; one fixed point।",
-      "প্রশ্নে বৃত্তাকার ক্রম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: P, circular, n — একক যাচাই করো"
+      "কাজ: Linear n! → Circular (n−1)!; one fixed point।",
+      "চিহ্ন ঠিক আছে তো? P, circular, n"
     ]
   },
   "subjects": [

@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ঢাল-ছেদ রূপ এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "ঢাল-ছেদ রূপ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "y=mx+c"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "m=slope, c=y-intercept; quick graphing।",
     "steps": [
       "m=slope, c=y-intercept; quick graphing।",
-      "প্রশ্নে ঢাল-ছেদ রূপ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: y, m, x — একক যাচাই করো"
+      "কাজ: m=slope, c=y-intercept; quick graphing।",
+      "চিহ্ন ঠিক আছে তো? y, m, x"
     ]
   },
   "subjects": [

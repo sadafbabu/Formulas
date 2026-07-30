@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্রিস্টাল ক্ষেত্র বিভাজন এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "ক্রিস্টাল ক্ষেত্র বিভাজন এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\Delta_0=\\text{energy gap between }e_g\\text{ and }t_{2g}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "Octahedral: eg vs t2g; color from d-d transition।",
     "steps": [
       "Octahedral: eg vs t2g; color from d-d transition।",
-      "প্রশ্নে ক্রিস্টাল ক্ষেত্র বিভাজন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: Delta, energy gap between, e — একক যাচাই করো"
+      "কাজ: Octahedral: eg vs t2g; color from d-d transition।",
+      "চিহ্ন ঠিক আছে তো? Delta, energy gap between, e"
     ]
   },
   "subjects": [

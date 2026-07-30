@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্যাকিং দক্ষতা এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "প্যাকিং দক্ষতা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\text{PE}=\\frac{\\text{volume of atoms}}{\\text{volume of unit cell}}\\times100\\%"
     }
   ],
@@ -58,8 +58,8 @@
     "trick": "SC=52%, BCC=68%, FCC/HCP=74% — memorize।",
     "steps": [
       "SC=52%, BCC=68%, FCC/HCP=74% — memorize।",
-      "প্রশ্নে প্যাকিং দক্ষতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: PE, volume of atoms, volume of unit cell — একক যাচাই করো"
+      "কাজ: SC=52%, BCC=68%, FCC/HCP=74% — memorize।",
+      "চিহ্ন ঠিক আছে তো? PE, volume of atoms, volume of unit cell"
     ]
   },
   "subjects": [

@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ডি মরগানের সূত্র (সেট) এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "ডি মরগানের সূত্র (সেট) এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "(A\\cup B)'=A'\\cap B'\\quad;(A\\cap B)'=A'\\cup B'"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "Union↔Intersection উল্টো; complement বাইরে।",
     "steps": [
       "Union↔Intersection উল্টো; complement বাইরে।",
-      "প্রশ্নে ডি মরগানের সূত্র (সেট) প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: A, cup, B — একক যাচাই করো"
+      "কাজ: Union↔Intersection উল্টো; complement বাইরে।",
+      "চিহ্ন ঠিক আছে তো? A, cup, B"
     ]
   },
   "subjects": [

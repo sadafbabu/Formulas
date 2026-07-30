@@ -60,8 +60,8 @@
     "trick": "R_L = r → P_max = ε²/4r। P_{\\max}=\\dfrac{\\mathcal{E}^2}{4r}\\quad(R_L=r)",
     "steps": [
       "R_L = r → P_max = ε²/4r। P_{\\max}=\\dfrac{\\mathcal{E}^2}{4r}\\quad(R_L=r)",
-      "প্রশ্নে সর্বাধিক ক্ষমতা স্থানান্তর প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: R_L, r, \\mathcal{E} — একক যাচাই করো"
+      "কাজ: R_L = r → P_max = ε²/4r। P_{\\max}=\\dfrac{\\mathcal{E}^2}{4r}\\quad(R_L=r)",
+      "চিহ্ন ঠিক আছে তো? R_L, r, \\mathcal{E}"
     ]
   },
   "subjects": [

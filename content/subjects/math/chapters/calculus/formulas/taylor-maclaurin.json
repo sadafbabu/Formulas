@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "টেলর ও ম্যাকলরিন শ্রেণি এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "টেলর ও ম্যাকলরিন শ্রেণি এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}"
     }
   ],
@@ -62,8 +62,8 @@
     "trick": "Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
     "steps": [
       "Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
-      "প্রশ্নে টেলর ও ম্যাকলরিন শ্রেণি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: f, x, sum — একক যাচাই করো"
+      "কাজ: Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
+      "চিহ্ন ঠিক আছে তো? f, x, sum"
     ]
   },
   "subjects": [

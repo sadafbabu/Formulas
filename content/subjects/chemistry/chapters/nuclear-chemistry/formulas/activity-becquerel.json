@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সক্রিয়তার একক এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "সক্রিয়তার একক এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}"
     }
   ],
@@ -58,8 +58,8 @@
     "trick": "SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
     "steps": [
       "SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
-      "প্রশ্নে সক্রিয়তার একক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: Bq, s^{-1, Ci — একক যাচাই করো"
+      "কাজ: SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
+      "চিহ্ন ঠিক আছে তো? Bq, s^{-1, Ci"
     ]
   },
   "subjects": [

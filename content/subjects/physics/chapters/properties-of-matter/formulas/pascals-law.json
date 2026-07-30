@@ -44,7 +44,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্যাসকেলের সূত্র এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "প্যাসকেলের সূত্র এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}"
     },
     {
@@ -57,8 +57,8 @@
     "trick": "Hydraulic lift: small force × large distance = large force × small distance।",
     "steps": [
       "Hydraulic lift: small force × large distance = large force × small distance।",
-      "প্রশ্নে প্যাসকেলের সূত্র প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: F, A — একক যাচাই করো"
+      "কাজ: Hydraulic lift: small force × large distance = large force × small distance।",
+      "চিহ্ন ঠিক আছে তো? F, A"
     ]
   },
   "subjects": [

@@ -179,7 +179,7 @@ export function TopBar({
           ref={tagsRef}
           className="top-bar-tags"
           role="toolbar"
-          aria-label="Filter by exam tag"
+          aria-label="পরীক্ষার ট্যাগ দিয়ে ফিল্টার"
         >
           <button
             type="button"
@@ -187,7 +187,7 @@ export function TopBar({
             onClick={() => onTagChange(null)}
             aria-pressed={!activeTag}
           >
-            All
+            সব
           </button>
           {examTags.map((tag) => (
             <button

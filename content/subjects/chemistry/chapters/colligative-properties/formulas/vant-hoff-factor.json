@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভ্যান't হফ গুণক এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "ভ্যান't হফ গুণক এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "i=\\frac{\\text{observed colligative property}}{\\text{calculated (no dissociation)}}"
     },
     {
@@ -63,8 +63,8 @@
     "trick": "Electrolyte-এ i>1; association-এ i<1।",
     "steps": [
       "Electrolyte-এ i>1; association-এ i<1।",
-      "প্রশ্নে ভ্যান't হফ গুণক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: i, observed colligative property, calculated (no dissociation) — একক যাচাই করো"
+      "কাজ: Electrolyte-এ i>1; association-এ i<1।",
+      "চিহ্ন ঠিক আছে তো? i, observed colligative property, calculated (no dissociation)"
     ]
   },
   "subjects": [

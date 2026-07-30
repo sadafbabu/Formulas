@@ -39,7 +39,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ত্রিগুণ কোণ এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "ত্রিগুণ কোণ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A"
     }
   ],
@@ -47,8 +47,8 @@
     "trick": "sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
     "steps": [
       "sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
-      "প্রশ্নে ত্রিগুণ কোণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: A — একক যাচাই করো"
+      "কাজ: sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
+      "চিহ্ন ঠিক আছে তো? A"
     ]
   },
   "subjects": [

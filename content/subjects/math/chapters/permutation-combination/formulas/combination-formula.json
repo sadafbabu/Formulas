@@ -62,8 +62,8 @@
     "trick": "nCr = nPr/r!; order doesn't matter।",
     "steps": [
       "nCr = nPr/r!; order doesn't matter।",
-      "প্রশ্নে সমাবেশ সূত্র প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: binom, n, r — একক যাচাই করো"
+      "কাজ: nCr = nPr/r!; order doesn't matter।",
+      "চিহ্ন ঠিক আছে তো? binom, n, r"
     ]
   },
   "subjects": [

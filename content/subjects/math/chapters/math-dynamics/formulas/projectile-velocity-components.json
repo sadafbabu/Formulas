@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বেগের উপাদিসমূহ এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "বেগের উপাদিসমূহ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "v_x=u\\cos\\theta,\\quad v_y=u\\sin\\theta-gt"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "Horizontal = constant; vertical = u sinθ − gt।",
     "steps": [
       "Horizontal = constant; vertical = u sinθ − gt।",
-      "প্রশ্নে বেগের উপাদিসমূহ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: v, x, u — একক যাচাই করো"
+      "কাজ: Horizontal = constant; vertical = u sinθ − gt।",
+      "চিহ্ন ঠিক আছে তো? v, x, u"
     ]
   },
   "subjects": [

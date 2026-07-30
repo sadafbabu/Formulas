@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ppm ও ppb এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "ppm ও ppb এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\mathrm{ppm}=\\frac{\\text{mass solute}}{\\text{mass solution}}\\times10^6"
     },
     {
@@ -63,8 +63,8 @@
     "trick": "জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।",
     "steps": [
       "জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।",
-      "প্রশ্নে ppm ও ppb প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: ppm, mass solute, mass solution — একক যাচাই করো"
+      "কাজ: জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।",
+      "চিহ্ন ঠিক আছে তো? ppm, mass solute, mass solution"
     ]
   },
   "subjects": [

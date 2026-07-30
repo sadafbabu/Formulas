@@ -39,7 +39,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সম্ভাব্য অঞ্চল এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "সম্ভাব্য অঞ্চল এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\text{feasible region = intersection of all constraints}"
     },
     {
@@ -52,8 +52,8 @@
     "trick": "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।",
     "steps": [
       "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।",
-      "প্রশ্নে সম্ভাব্য অঞ্চল প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: feasible region = intersection of all constraints — একক যাচাই করো"
+      "কাজ: বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।",
+      "চিহ্ন ঠিক আছে তো? feasible region = intersection of all constraints"
     ]
   },
   "subjects": [

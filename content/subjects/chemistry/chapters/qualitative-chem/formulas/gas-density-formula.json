@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্যাসের ঘনত্ব এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "গ্যাসের ঘনত্ব এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "d=\\frac{PM}{RT}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "From PV=nRT → d=PM/RT; compare molar masses at same P,T।",
     "steps": [
       "From PV=nRT → d=PM/RT; compare molar masses at same P,T।",
-      "প্রশ্নে গ্যাসের ঘনত্ব প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: d, P, M — একক যাচাই করো"
+      "কাজ: From PV=nRT → d=PM/RT; compare molar masses at same P,T।",
+      "চিহ্ন ঠিক আছে তো? d, P, M"
     ]
   },
   "subjects": [

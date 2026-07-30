@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কার্তesian গুণফল এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "কার্তesian গুণফল এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "|A×B|=|A|·|B|; ordered pair। A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
     "steps": [
       "|A×B|=|A|·|B|; ordered pair। A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
-      "প্রশ্নে কার্তesian গুণফল প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: A, B, a — একক যাচাই করো"
+      "কাজ: |A×B|=|A|·|B|; ordered pair। A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
+      "চিহ্ন ঠিক আছে তো? A, B, a"
     ]
   },
   "subjects": [

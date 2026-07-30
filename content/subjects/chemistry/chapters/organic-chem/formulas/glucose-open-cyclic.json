@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্লুকোজ মুক্ত ও চক্রাকার রূপ এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "গ্লুকোজ মুক্ত ও চক্রাকার রূপ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}"
     },
     {
@@ -63,8 +63,8 @@
     "trick": "D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
     "steps": [
       "D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
-      "প্রশ্নে গ্লুকোজ মুক্ত ও চক্রাকার রূপ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: open-chain aldehyde, rightleftharpoons, cyclic hemiacetal (pyranose) — একক যাচাই করো"
+      "কাজ: D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
+      "চিহ্ন ঠিক আছে তো? open-chain aldehyde, rightleftharpoons, cyclic hemiacetal (pyranose)"
     ]
   },
   "subjects": [

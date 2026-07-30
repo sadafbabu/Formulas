@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আংশিক ভগ্নাংশ এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "আংশিক ভগ্নাংশ এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\frac{P(x)}{Q(x)}=\\sum\\frac{A_i}{(x-a_i)^{n_i}}"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "Denominator factor → A/(x−a) terms; then integrate।",
     "steps": [
       "Denominator factor → A/(x−a) terms; then integrate।",
-      "প্রশ্নে আংশিক ভগ্নাংশ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: P, x, Q — একক যাচাই করো"
+      "কাজ: Denominator factor → A/(x−a) terms; then integrate।",
+      "চিহ্ন ঠিক আছে তো? P, x, Q"
     ]
   },
   "subjects": [

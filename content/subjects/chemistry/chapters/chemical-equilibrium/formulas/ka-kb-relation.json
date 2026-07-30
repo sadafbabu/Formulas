@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "Ka·Kb=Kw এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "Ka·Kb=Kw এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
     "steps": [
       "কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
-      "প্রশ্নে Ka·Kb=Kw প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: K, a, b — একক যাচাই করো"
+      "কাজ: কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
+      "চিহ্ন ঠিক আছে তো? K, a, b"
     ]
   },
   "subjects": [

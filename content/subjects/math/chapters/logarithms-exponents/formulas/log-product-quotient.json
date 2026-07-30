@@ -57,8 +57,8 @@
     "trick": "গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
     "steps": [
       "গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
-      "প্রশ্নে লগ গুণ ও ভাগ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: c, a, b — একক যাচাই করো"
+      "কাজ: গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
+      "চিহ্ন ঠিক আছে তো? c, a, b"
     ]
   },
   "subjects": [

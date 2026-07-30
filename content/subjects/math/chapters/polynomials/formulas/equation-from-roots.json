@@ -67,8 +67,8 @@
     "trick": "x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
     "steps": [
       "x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
-      "প্রশ্নে মূল হতে সমীকরণ গঠন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: x, alpha, beta — একক যাচাই করো"
+      "কাজ: x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
+      "চিহ্ন ঠিক আছে তো? x, alpha, beta"
     ]
   },
   "subjects": [

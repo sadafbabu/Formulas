@@ -1668,12 +1668,20 @@ button:focus-visible,
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  width: 100%;
+  text-align: left;
   background: rgba(18, 18, 18, 0.7);
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 12px;
   padding: 1.25rem;
   transition: all 0.2s ease;
   position: relative;
+  color: inherit;
+  font: inherit;
+}
+
+.chapter-card:disabled {
+  cursor: not-allowed;
 }
 
 .chapter-card.is-ready {
@@ -2366,6 +2374,12 @@ button:focus-visible,
   color: var(--ink-faint);
 }
 
+@media (pointer: coarse) {
+  .memorize-keys {
+    display: none;
+  }
+}
+
 .memorize-unknown-toggle {
   display: flex;
   align-items: center;
@@ -2380,6 +2394,13 @@ button:focus-visible,
   width: 1.05rem;
   height: 1.05rem;
   accent-color: #e2e8f0;
+}
+
+.memorize-filters {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.55rem;
+  margin-bottom: 0.85rem;
 }
 
 .memorize-filter {

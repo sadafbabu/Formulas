@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অ্যাডজয়েন্টের ধর্ম এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "অ্যাডজয়েন্টের ধর্ম এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I"
     },
     {
@@ -67,8 +67,8 @@
     "trick": "A·adjA = (detA)I। A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
     "steps": [
       "A·adjA = (detA)I। A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
-      "প্রশ্নে অ্যাডজয়েন্টের ধর্ম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: A, adj, det — একক যাচাই করো"
+      "কাজ: A·adjA = (detA)I। A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
+      "চিহ্ন ঠিক আছে তো? A, adj, det"
     ]
   },
   "subjects": [

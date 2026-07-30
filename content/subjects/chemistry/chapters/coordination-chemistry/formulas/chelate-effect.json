@@ -40,7 +40,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কিলেট প্রভাব এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "কিলেট প্রভাব এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\text{chelate complexes more stable than similar non-chelates}"
     },
     {
@@ -53,8 +53,8 @@
     "trick": "এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল।",
     "steps": [
       "এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল।",
-      "প্রশ্নে কিলেট প্রভাব প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: chelate complexes more stable than similar non-chelates — একক যাচাই করো"
+      "কাজ: এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল।",
+      "চিহ্ন ঠিক আছে তো? chelate complexes more stable than similar non-chelates"
     ]
   },
   "subjects": [

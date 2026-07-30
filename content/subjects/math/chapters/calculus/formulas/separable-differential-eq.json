@@ -67,8 +67,8 @@
     "trick": "x ও y আলাদা করে যোগজ নাও। \\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx",
     "steps": [
       "x ও y আলাদা করে যোগজ নাও। \\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx",
-      "প্রশ্নে বিভাজ্য অন্তরক সমীকরণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: d, y, x — একক যাচাই করো"
+      "কাজ: x ও y আলাদা করে যোগজ নাও। \\frac{dy}{dx}=g(x)h(y)\\Rightarrow \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx",
+      "চিহ্ন ঠিক আছে তো? d, y, x"
     ]
   },
   "subjects": [

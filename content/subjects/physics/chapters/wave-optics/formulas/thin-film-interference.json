@@ -49,7 +49,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অপাতল স্তরে ব্যতিচার এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "অপাতল স্তরে ব্যতিচার এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda"
     },
     {
@@ -62,8 +62,8 @@
     "trick": "Phase reversal at one surface → half wavelength path difference।",
     "steps": [
       "Phase reversal at one surface → half wavelength path difference।",
-      "প্রশ্নে অপাতল স্তরে ব্যতিচার প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: n, t, m — একক যাচাই করো"
+      "কাজ: Phase reversal at one surface → half wavelength path difference।",
+      "চিহ্ন ঠিক আছে তো? n, t, m"
     ]
   },
   "subjects": [

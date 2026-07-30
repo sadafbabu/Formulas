@@ -50,7 +50,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "টিনডাল প্রভাব এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "টিনডাল প্রভাব এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}"
     },
     {
@@ -63,8 +63,8 @@
     "trick": "সমাধান করে না; কলয়েড করে — পথ দেখা যায়।",
     "steps": [
       "সমাধান করে না; কলয়েড করে — পথ দেখা যায়।",
-      "প্রশ্নে টিনডাল প্রভাব প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: colloidal particles scatter light, Rightarrow, Tyndall cone — একক যাচাই করো"
+      "কাজ: সমাধান করে না; কলয়েড করে — পথ দেখা যায়।",
+      "চিহ্ন ঠিক আছে তো? colloidal particles scatter light, Rightarrow, Tyndall cone"
     ]
   },
   "subjects": [

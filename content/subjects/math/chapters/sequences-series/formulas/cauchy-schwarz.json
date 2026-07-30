@@ -54,7 +54,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কোশি–শ্বারজ অসমতা এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "কোশি–শ্বারজ অসমতা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2"
     }
   ],
@@ -62,8 +62,8 @@
     "trick": "সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
     "steps": [
       "সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
-      "প্রশ্নে কোশি–শ্বারজ অসমতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: Big, sum, a — একক যাচাই করো"
+      "কাজ: সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
+      "চিহ্ন ঠিক আছে তো? Big, sum, a"
     ]
   },
   "subjects": [

@@ -40,7 +40,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জোন পরিশোধন এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "জোন পরিশোধন এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\text{impurities concentrate in molten zone and are swept away}"
     },
     {
@@ -53,8 +53,8 @@
     "trick": "Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।",
     "steps": [
       "Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।",
-      "প্রশ্নে জোন পরিশোধন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: impurities concentrate in molten zone and are swept away — একক যাচাই করো"
+      "কাজ: Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।",
+      "চিহ্ন ঠিক আছে তো? impurities concentrate in molten zone and are swept away"
     ]
   },
   "subjects": [

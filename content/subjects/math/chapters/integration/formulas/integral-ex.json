@@ -62,8 +62,8 @@
     "trick": "eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
     "steps": [
       "eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
-      "প্রশ্নে eˣ এর যোগজ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: int, e, x — একক যাচাই করো"
+      "কাজ: eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
+      "চিহ্ন ঠিক আছে তো? int, e, x"
     ]
   },
   "subjects": [

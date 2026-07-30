@@ -55,7 +55,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কার্যকর পরমাণু সংখ্যা এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "কার্যকর পরমাণু সংখ্যা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}"
     },
     {
@@ -68,8 +68,8 @@
     "trick": "EAN ≈ next noble gas (18 or 36) → stable complex।",
     "steps": [
       "EAN ≈ next noble gas (18 or 36) → stable complex।",
-      "প্রশ্নে কার্যকর পরমাণু সংখ্যা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: EAN, Z, oxidation state — একক যাচাই করো"
+      "কাজ: EAN ≈ next noble gas (18 or 36) → stable complex।",
+      "চিহ্ন ঠিক আছে তো? EAN, Z, oxidation state"
     ]
   },
   "subjects": [

@@ -45,7 +45,7 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জৈব জারণ–বিজারণ ধারণা এর মূল সূত্র কী? কোন ধরনের সমস্যায় এটি লাগে?",
+      "question": "জৈব জারণ–বিজারণ ধারণা এর মূল সূত্র কী? সংক্ষেপে কী কাজে লাগে?",
       "answer": "\\text{oxidation: gain O / lose H};\\quad \\text{reduction: gain H / lose O}"
     },
     {
@@ -58,8 +58,8 @@
     "trick": "অ্যালকোহল→অ্যালডিহাইড→অ্যাসিড = জারণ।",
     "steps": [
       "অ্যালকোহল→অ্যালডিহাইড→অ্যাসিড = জারণ।",
-      "প্রশ্নে জৈব জারণ–বিজারণ ধারণা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
-      "রাশি মিলিয়ে নাও: oxidation: gain O / lose H, reduction: gain H / lose O — একক যাচাই করো"
+      "কাজ: অ্যালকোহল→অ্যালডিহাইড→অ্যাসিড = জারণ।",
+      "চিহ্ন ঠিক আছে তো? oxidation: gain O / lose H, reduction: gain H / lose O"
     ]
   },
   "subjects": [

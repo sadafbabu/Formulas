@@ -213,9 +213,10 @@ function passesTag(formula: Formula, activeTag?: TagId | null): boolean {
 }
 
 function starMatch(q: string, imp: number): boolean | null {
-  if (q === '3' || q === '3 star' || q === '3star' || q === '***') return imp === 3
-  if (q === '2' || q === '2 star' || q === '2star' || q === '**') return imp === 2
-  if (q === '1' || q === '1 star' || q === '1star' || q === '*') return imp === 1
+  // Avoid hijacking bare "1"/"2"/"3" / "*" as importance filters
+  if (q === '3 star' || q === '3star' || q === '***' || q === '৩★') return imp === 3
+  if (q === '2 star' || q === '2star' || q === '**' || q === '২★') return imp === 2
+  if (q === '1 star' || q === '1star' || q === '১★') return imp === 1
   return null
 }
 
