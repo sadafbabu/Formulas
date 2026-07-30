@@ -14,16 +14,19 @@ import { bookReturnPath } from '../utils/bookLinks'
 import {
   buildDrillQueue,
   filterDrillFormulas,
+  isStarTag,
   loadMemorizeProgress,
   markFormulaSeen,
   type MemorizeProgress,
 } from '../utils/memorizeSession'
 
-const validTagIds = new Set(tags.map((t) => t.id))
+const examTagIds = new Set(
+  tags.filter((t) => t.category !== 'importance').map((t) => t.id),
+)
 
 export function MemorizeDrillPage() {
   const [params, setParams] = useSearchParams()
-  const [query, setQuery] = useState('')
+  const [query, setQuery] = useState(() => params.get('q') ?? '')
   const [progress, setProgress] = useState<MemorizeProgress>(() =>
     loadMemorizeProgress(),
   )
@@ -36,14 +39,32 @@ export function MemorizeDrillPage() {
   const rawChapter = params.get('chapter')
   const chapterId =
     rawChapter && getChapter(rawChapter) ? rawChapter : defaultChapterId
+
+  // Star tags in URL become importance, never exam filters
   const rawTag = params.get('tag')
-  const activeTag =
-    rawTag && validTagIds.has(rawTag as TagId) ? (rawTag as TagId) : null
+  const activeTag: TagId | null =
+    rawTag && examTagIds.has(rawTag as TagId) ? (rawTag as TagId) : null
+
   const rawImp = params.get('importance')
+  // Missing importance = all levels (null). Only 1/2/3 are filters.
+  // First-entry default (3) is set by memorizePath when linking in.
   const importance: 1 | 2 | 3 | null =
     rawImp === '1' || rawImp === '2' || rawImp === '3'
       ? (Number(rawImp) as 1 | 2 | 3)
-      : 3
+      : null
+
+  const unknownOnly = params.get('unknown') === '1'
+
+  // Migrate accidental star tags out of `tag`
+  useEffect(() => {
+    if (!rawTag || !isStarTag(rawTag)) return
+    const next = new URLSearchParams(params)
+    next.delete('tag')
+    if (!next.get('importance')) {
+      next.set('importance', rawTag[0])
+    }
+    setParams(next, { replace: true })
+  }, [rawTag, params, setParams])
 
   const pool = useMemo(
     () =>
@@ -55,41 +76,59 @@ export function MemorizeDrillPage() {
     [chapterId, activeTag, importance],
   )
 
-  const [queue, setQueue] = useState(() => buildDrillQueue(pool, progress))
+  const [queue, setQueue] = useState<typeof pool>([])
 
   useEffect(() => {
     const prog = loadMemorizeProgress()
     setProgress(prog)
-    setQueue(buildDrillQueue(pool, prog))
+    const filtered = unknownOnly
+      ? pool.filter((f) => !prog[f.id]?.known)
+      : pool
+    setQueue(buildDrillQueue(filtered, prog, unknownOnly))
     setIndex(0)
     setRevealed(false)
-    setDone(pool.length === 0)
+    setDone(filtered.length === 0)
     setSessionKnown(0)
     setSessionAgain(0)
-  }, [pool])
+  }, [pool, unknownOnly])
+
+  const visibleCount = unknownOnly
+    ? pool.filter((f) => !progress[f.id]?.known).length
+    : pool.length
 
   const current = !done && queue.length > 0 ? queue[index] : undefined
   const chapterMeta = getChapter(chapterId)
   const remaining = Math.max(0, queue.length - index)
 
-  const setChapterId = (id: string) => {
+  const patchParams = (mutate: (next: URLSearchParams) => void) => {
     const next = new URLSearchParams(params)
-    next.set('chapter', id)
+    mutate(next)
     setParams(next, { replace: true })
+  }
+
+  const setChapterId = (id: string) => {
+    patchParams((next) => next.set('chapter', id))
   }
 
   const setImportance = (value: 1 | 2 | 3 | null) => {
-    const next = new URLSearchParams(params)
-    if (value == null) next.delete('importance')
-    else next.set('importance', String(value))
-    setParams(next, { replace: true })
+    patchParams((next) => {
+      if (value == null) next.delete('importance')
+      else next.set('importance', String(value))
+    })
   }
 
   const setTag = (tag: TagId | null) => {
-    const next = new URLSearchParams(params)
-    if (tag) next.set('tag', tag)
-    else next.delete('tag')
-    setParams(next, { replace: true })
+    patchParams((next) => {
+      if (tag) next.set('tag', tag)
+      else next.delete('tag')
+    })
+  }
+
+  const setUnknownOnly = (value: boolean) => {
+    patchParams((next) => {
+      if (value) next.set('unknown', '1')
+      else next.delete('unknown')
+    })
   }
 
   const advance = (known: boolean) => {
@@ -109,21 +148,49 @@ export function MemorizeDrillPage() {
       return
     }
 
-    // Again: move card to end of remaining queue
+    // Again: move current card to end; keep showing the card that slides into place.
+    // If it was the last card, stay on the (new) last index — never jump to 0.
     setQueue((prev) => {
+      if (prev.length <= 1) return prev
       const copy = [...prev]
       const [card] = copy.splice(index, 1)
       copy.push(card)
       return copy
     })
     setRevealed(false)
-    // index stays pointing at the next card that slid into place;
-    // if this was the last item, wrap to same index (now the reshuffled one)
     if (index >= queue.length - 1) {
-      // only one card left — keep drilling it
-      setIndex(0)
+      // Was last (or only): after move-to-end, keep drilling at end index
+      setIndex(Math.max(0, queue.length - 1))
     }
+    // else: index now points at the next card that filled the gap — correct
   }
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement | null
+      if (target?.closest('input, textarea, select, [contenteditable="true"]')) {
+        return
+      }
+      if (done || visibleCount === 0) return
+
+      if (!revealed && (e.key === ' ' || e.key === 'Enter')) {
+        e.preventDefault()
+        setRevealed(true)
+        return
+      }
+      if (!revealed || !current) return
+      if (e.key === '1' || e.key === 'a' || e.key === 'A') {
+        e.preventDefault()
+        advance(false)
+      } else if (e.key === '2' || e.key === 'k' || e.key === 'K') {
+        e.preventDefault()
+        advance(true)
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+    // advance closes over current/index/queue — rebind when those change
+  })
 
   const backTo = bookReturnPath({
     chapter: chapterId,
@@ -132,6 +199,20 @@ export function MemorizeDrillPage() {
   })
 
   const examTags = tags.filter((t) => t.category !== 'importance')
+
+  const restart = () => {
+    const prog = loadMemorizeProgress()
+    setProgress(prog)
+    const filtered = unknownOnly
+      ? pool.filter((f) => !prog[f.id]?.known)
+      : pool
+    setQueue(buildDrillQueue(filtered, prog, unknownOnly))
+    setIndex(0)
+    setSessionKnown(0)
+    setSessionAgain(0)
+    setDone(filtered.length === 0)
+    setRevealed(false)
+  }
 
   return (
     <div className="book-shell detail-shell memorize-shell">
@@ -152,9 +233,13 @@ export function MemorizeDrillPage() {
             <h1 className="memorize-title">মুখস্থ ড্রিল</h1>
             <p className="memorize-sub">
               {chapterMeta?.nameBn ?? 'অধ্যায়'}
-              {importance ? ` · ${importance}★` : ''}
+              {importance ? ` · ${importance}★` : ' · সব ★'}
               {activeTag ? ` · ${activeTag}` : ''}
-              {pool.length ? ` · ${pool.length} সূত্র` : ''}
+              {unknownOnly ? ' · শুধু অজানা' : ''}
+              {visibleCount ? ` · ${visibleCount} সূত্র` : ''}
+            </p>
+            <p className="memorize-keys">
+              কীবোর্ড: Space দেখাও · 1/A আবার · 2/K জানি
             </p>
           </div>
 
@@ -205,12 +290,36 @@ export function MemorizeDrillPage() {
             </label>
           </div>
 
-          {pool.length === 0 ? (
+          <label className="memorize-unknown-toggle">
+            <input
+              type="checkbox"
+              checked={unknownOnly}
+              onChange={(e) => setUnknownOnly(e.target.checked)}
+            />
+            শুধু অজানা / নতুন সূত্র
+          </label>
+
+          {visibleCount === 0 ? (
             <div className="memorize-empty">
-              <p>এই ফিল্টারে কোনো সূত্র নেই। অধ্যায় বা ট্যাগ বদলে দেখো।</p>
-              <Link className="memorize-btn memorize-btn-primary" to={backTo}>
-                বইয়ে যাও
-              </Link>
+              <p>
+                {unknownOnly
+                  ? 'এই ফিল্টারে অজানা সূত্র নেই — সব জানা হয়ে গেছে, অথবা ফিল্টার বদলাও।'
+                  : 'এই ফিল্টারে কোনো সূত্র নেই। অধ্যায় বা ট্যাগ বদলে দেখো।'}
+              </p>
+              <div className="memorize-actions">
+                {unknownOnly ? (
+                  <button
+                    type="button"
+                    className="memorize-btn memorize-btn-primary"
+                    onClick={() => setUnknownOnly(false)}
+                  >
+                    সব সূত্র দেখাও
+                  </button>
+                ) : null}
+                <Link className="memorize-btn memorize-btn-primary" to={backTo}>
+                  বইয়ে যাও
+                </Link>
+              </div>
             </div>
           ) : done ? (
             <div className="memorize-done">
@@ -223,15 +332,7 @@ export function MemorizeDrillPage() {
                 <button
                   type="button"
                   className="memorize-btn memorize-btn-primary"
-                  onClick={() => {
-                    setQueue(buildDrillQueue(pool, loadMemorizeProgress()))
-                    setProgress(loadMemorizeProgress())
-                    setIndex(0)
-                    setSessionKnown(0)
-                    setSessionAgain(0)
-                    setDone(false)
-                    setRevealed(false)
-                  }}
+                  onClick={restart}
                 >
                   আবার শুরু
                 </button>
@@ -267,7 +368,8 @@ export function MemorizeDrillPage() {
                   {current.memorize?.trick ? (
                     <p className="memorize-card-trick">{current.memorize.trick}</p>
                   ) : null}
-                  {current.memorize?.steps && current.memorize.steps.length > 0 ? (
+                  {current.memorize?.steps &&
+                  current.memorize.steps.length > 0 ? (
                     <ol className="memorize-card-steps">
                       {current.memorize.steps.map((step, i) => (
                         <li key={`${step}-${i}`}>{step}</li>
@@ -293,7 +395,18 @@ export function MemorizeDrillPage() {
                 </div>
               )}
             </section>
-          ) : null}
+          ) : (
+            <div className="memorize-empty">
+              <p>কার্ড লোড হচ্ছে না — আবার শুরু করো।</p>
+              <button
+                type="button"
+                className="memorize-btn memorize-btn-primary"
+                onClick={restart}
+              >
+                আবার শুরু
+              </button>
+            </div>
+          )}
         </div>
       </main>
     </div>

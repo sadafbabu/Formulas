@@ -47,19 +47,41 @@ export function markFormulaSeen(
   return next
 }
 
+/** Map book star tags to numeric importance; ignore non-star tags. */
+export function importanceFromTag(
+  tag: string | null | undefined,
+): 1 | 2 | 3 | null {
+  if (tag === '1-star') return 1
+  if (tag === '2-star') return 2
+  if (tag === '3-star') return 3
+  return null
+}
+
+export function isStarTag(tag: string | null | undefined): boolean {
+  return tag === '1-star' || tag === '2-star' || tag === '3-star'
+}
+
 export function filterDrillFormulas(
   all: Formula[],
   opts: {
     chapter?: string | null
     tag?: TagId | null
     importance?: 1 | 2 | 3 | null
+    unknownOnly?: boolean
+    progress?: MemorizeProgress
   },
 ): Formula[] {
+  const examTag =
+    opts.tag && !isStarTag(opts.tag) ? opts.tag : null
   return all.filter((f) => {
     if (opts.chapter && f.chapter !== opts.chapter) return false
-    if (opts.tag && !f.tags.includes(opts.tag)) return false
+    if (examTag && !f.tags.includes(examTag)) return false
     if (opts.importance != null && (f.importance ?? 2) !== opts.importance) {
       return false
+    }
+    if (opts.unknownOnly && opts.progress) {
+      const entry = opts.progress[f.id]
+      if (entry?.known) return false
     }
     return true
   })
@@ -67,17 +89,19 @@ export function filterDrillFormulas(
 
 /** Build a practice queue: unknown first, then unreviewed, then known last. */
 export function buildDrillQueue(
-  formulas: Formula[],
+  list: Formula[],
   progress: MemorizeProgress,
+  unknownOnly = false,
 ): Formula[] {
   const unknown: Formula[] = []
   const fresh: Formula[] = []
   const known: Formula[] = []
-  for (const f of formulas) {
+  for (const f of list) {
     const entry = progress[f.id]
     if (!entry) fresh.push(f)
     else if (entry.known) known.push(f)
     else unknown.push(f)
   }
+  if (unknownOnly) return [...unknown, ...fresh]
   return [...unknown, ...fresh, ...known]
 }

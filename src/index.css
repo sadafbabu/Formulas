@@ -2324,11 +2324,26 @@ button:focus-visible,
   font-weight: 300;
 }
 
-.memorize-filters {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.55rem;
-  margin-bottom: 1.1rem;
+.memorize-keys {
+  margin: 0 0 0.85rem;
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+}
+
+.memorize-unknown-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  min-height: var(--touch-min);
+}
+
+.memorize-unknown-toggle input {
+  width: 1.05rem;
+  height: 1.05rem;
+  accent-color: #e2e8f0;
 }
 
 .memorize-filter {

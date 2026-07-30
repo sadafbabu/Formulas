@@ -223,12 +223,11 @@ export function NavMenu({
                 to={memorizePath({
                   chapter: chapterId,
                   tag: params.get('tag'),
-                  importance: 3,
                 })}
                 onClick={() => setOpen(false)}
               >
                 মুখস্থ ড্রিল
-                <span>৩★ ফ্ল্যাশকার্ড</span>
+                <span>ফ্ল্যাশকার্ড সেশন</span>
               </Link>
               <span className="nav-suggest-label">দ্রুত খোঁজ</span>
               <div className="nav-suggest-row">

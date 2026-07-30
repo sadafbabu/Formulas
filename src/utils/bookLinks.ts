@@ -38,16 +38,37 @@ export function bookReturnPath(opts: {
   return `/?${p.toString()}`
 }
 
-/** Memorize drill session URL with optional chapter/tag/importance filters. */
+/**
+ * Memorize drill URL.
+ * Star tags (`1-star`/`2-star`/`3-star`) map to `importance`, not `tag`.
+ * Pass `importance: null` explicitly for “all levels” (omit param).
+ * Omit `importance` to default to 3★ on first entry.
+ */
 export function memorizePath(opts: {
   chapter?: string | null
   tag?: string | null
   importance?: 1 | 2 | 3 | null
+  unknownOnly?: boolean
 }): string {
   const p = new URLSearchParams()
   if (opts.chapter) p.set('chapter', opts.chapter)
-  if (opts.tag) p.set('tag', opts.tag)
-  if (opts.importance != null) p.set('importance', String(opts.importance))
+
+  const tag = opts.tag
+  if (tag === '1-star' || tag === '2-star' || tag === '3-star') {
+    const fromTag = Number(tag[0]) as 1 | 2 | 3
+    p.set('importance', String(opts.importance ?? fromTag))
+  } else {
+    if (tag) p.set('tag', tag)
+    if (opts.importance === null) {
+      // all levels — leave importance unset
+    } else if (opts.importance != null) {
+      p.set('importance', String(opts.importance))
+    } else {
+      p.set('importance', '3')
+    }
+  }
+
+  if (opts.unknownOnly) p.set('unknown', '1')
   const qs = p.toString()
   return qs ? `/memorize?${qs}` : '/memorize'
 }

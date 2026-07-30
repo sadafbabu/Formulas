@@ -122,7 +122,6 @@ export function TopBar({
             to={memorizePath({
               chapter: chapterId,
               tag: activeTag,
-              importance: 3,
             })}
             title="এই অধ্যায়ের মুখস্থ ড্রিল"
           >
