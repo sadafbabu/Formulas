@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)",
-        "note": "বিকিরণ ও শোষণ দুটোই চলে — নিট = পার্থক্য।"
+        "note": "নিট তাপীয় বিকিরণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "T⁴ − T₀⁴ — শুধু T⁴ নয়। P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)"
       }
     ],
     "assumptions": [
@@ -59,9 +59,9 @@
   "memorize": {
     "trick": "T⁴ − T₀⁴ — শুধু T⁴ নয়। P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)",
     "steps": [
-      "সূত্র: P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)",
-      "কী কাজে লাগে: নিট তাপীয় বিকিরণ",
-      "চিহ্ন মনে রাখো: T, T_0, e"
+      "T⁴ − T₀⁴ — শুধু T⁴ নয়। P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)",
+      "প্রশ্নে নিট তাপীয় বিকিরণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: T, T_0, e — একক যাচাই করো"
     ]
   },
   "subjects": [

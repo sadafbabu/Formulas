@@ -19,8 +19,8 @@
     },
     {
       "symbol": "\\theta",
-      "meaning": "\\theta সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কোণ",
+      "unit": "rad"
     }
   ],
   "derivation": {
@@ -29,12 +29,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "r_1 e^{i\\theta_1} \\cdot r_2 e^{i\\theta_2} = r_1 r_2 e^{i(\\theta_1+\\theta_2)}, \\quad (re^{i\\theta})^n = r^n e^{in\\theta}",
-        "note": "অয়লার রূপ থেকে গুণফলে মডুলাস গুণ, অ্যাম্প্লিটিউড যোগ হয়।"
+        "note": "পোলার রূপে গুণ ও ঘাত এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "r_1 e^{i\\theta_1} \\cdot r_2 e^{i\\theta_2} = r_1 r_2 e^{i(\\theta_1+\\theta_2)}, \\quad (re^{i\\theta})^n = r^n e^{in\\theta}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "পোলার রূপে গুণ = 'মান গুণ, কোণ যোগ'; ভাগ = 'মান ভাগ, কোণ বিয়োগ'; ঘাত = 'মান-এ ঘাত, কোণ-এ গুণ'। এজন্যই পোলার রূপে হিসাব "
       }
     ],
     "assumptions": [

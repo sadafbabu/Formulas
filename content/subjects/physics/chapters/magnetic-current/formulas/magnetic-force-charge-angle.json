@@ -48,12 +48,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "R = \\frac{m v \\sin \\theta}{|q| B}, \\quad P = \\frac{2\\pi m v \\cos \\theta}{|q| B}",
-        "note": "বেগ উপাংশ বিভাজন v_{\\perp} = v \\sin\\theta ও v_{\\parallel} = v \\cos\\theta:"
+        "note": "তির্যক আধানের সর্পিল (Helix) গতিপথ ও পিচ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "R = \\frac{m v \\sin \\theta}{|q| B}, \\quad P = \\frac{2\\pi m v \\cos \\theta}{|q| B}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "তির্যক প্রবেশ = সর্পিল পথ। লম্ব উপাংশ (v sinθ) বৃত্ত বানায় → R, সমান্তরাল উপাংশ (v cosθ) সামনে ঠেলে → পিচ।"
       }
     ],
     "assumptions": [

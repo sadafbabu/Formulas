@@ -22,17 +22,17 @@
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     },
     {
       "symbol": "ell",
-      "meaning": "ell সম্পর্কিত রাশি",
+      "meaning": "ell (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "rule)",
-      "meaning": "rule) সম্পর্কিত রাশি",
+      "meaning": "rule) (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{electrons fill orbitals in order of increasing energy (}n+\\ell\\text{ rule)}",
-        "note": "n+ℓ ছোট আগে; সমান হলে ছোট n আগে।"
+        "note": "আউফবাউ নীতি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{electrons fill orbitals in order of increasing energy (}n+\\ell\\text{ rule)}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "n+ℓ ছোট আগে; সমান হলে ছোট n আগে।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আউফবাউ নীতি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\text{electrons fill orbitals in order of increasing energy (}n+\\ell\\text{ rule)}"
+      "question": "আউফবাউ নীতি এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\text{electrons fill orbitals in order of increasing energy (}n+\\ell\\text{ rule)}\\text{ — }n+ℓ ছোট আগে; সমান হলে ছোট n আগে।"
+    },
+    {
+      "examType": "Concept",
+      "question": "আউফবাউ নীতি দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{n+ℓ ছোট আগে; সমান হলে ছোট n আগে।}"
     }
   ],
   "memorize": {
     "trick": "n+ℓ ছোট আগে; সমান হলে ছোট n আগে।",
     "steps": [
-      "সূত্র: \\text{electrons fill orbitals in order of increasing energy (}n+\\ell\\text{ rule)…",
-      "কী কাজে লাগে: আউফবাউ নীতি",
-      "চিহ্ন মনে রাখো: electrons fill orbitals in order of increasing energy (, n, ell, rule)"
+      "n+ℓ ছোট আগে; সমান হলে ছোট n আগে।",
+      "প্রশ্নে আউফবাউ নীতি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: electrons fill orbitals in order of increasing energy (, n, ell — একক যাচাই করো"
     ]
   },
   "subjects": [

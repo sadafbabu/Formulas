@@ -21,13 +21,13 @@
     },
     {
       "symbol": "y",
-      "meaning": "y সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান",
+      "unit": "m"
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{d^2y}{dx^2}=\\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)",
-        "note": "বাঁক/উত্তলতা ও maxima-minima পরীক্ষায়।"
+        "note": "দ্বিতীয় অন্তরক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{d^2y}{dx^2}=\\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "বাঁক/উত্তলতা ও maxima-minima পরীক্ষায়।"
       }
     ],
     "assumptions": []
@@ -49,16 +49,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দ্বিতীয় অন্তরক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "দ্বিতীয় অন্তরক এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\frac{d^2y}{dx^2}=\\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)"
+    },
+    {
+      "examType": "Concept",
+      "question": "দ্বিতীয় অন্তরক দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{বাঁক/উত্তলতা ও maxima-minima পরীক্ষায়।}"
     }
   ],
   "memorize": {
     "trick": "বাঁক/উত্তলতা ও maxima-minima পরীক্ষায়।",
     "steps": [
-      "সূত্র: \\frac{d^2y}{dx^2}=\\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)",
-      "কী কাজে লাগে: দ্বিতীয় অন্তরক",
-      "চিহ্ন মনে রাখো: d, y, x"
+      "বাঁক/উত্তলতা ও maxima-minima পরীক্ষায়।",
+      "প্রশ্নে দ্বিতীয় অন্তরক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: d, y, x — একক যাচাই করো"
     ]
   },
   "subjects": [

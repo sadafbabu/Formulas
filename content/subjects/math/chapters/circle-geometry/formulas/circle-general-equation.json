@@ -21,18 +21,18 @@
     },
     {
       "symbol": "y",
-      "meaning": "y সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান",
+      "unit": "m"
     },
     {
       "symbol": "g",
-      "meaning": "g সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "f",
-      "meaning": "f সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কম্পাঙ্ক / বল (প্রসঙ্গমতে)",
+      "unit": "Hz বা N"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "x^2+y^2+2gx+2fy+c=0,\\quad \\text{centre }(-g,-f),\\ r=\\sqrt{g^2+f^2-c}",
-        "note": "কেন্দ্র (−g,−f); r²=g²+f²−c>0 চাই।"
+        "note": "বৃত্তের সাধারণ সমীকরণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "x^2+y^2+2gx+2fy+c=0,\\quad \\text{centre }(-g,-f),\\ r=\\sqrt{g^2+f^2-c}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "কেন্দ্র (−g,−f); r²=g²+f²−c>0 চাই।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তের সাধারণ সমীকরণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "x^2+y^2+2gx+2fy+c=0,\\quad \\text{centre }(-g,-f),\\ r=\\sqrt{g^2+f^2-c}"
+      "question": "বৃত্তের সাধারণ সমীকরণ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "x^2+y^2+2gx+2fy+c=0,\\quad \\text{centre }(-g,-f),\\ r=\\sqrt{g^2+f^2-c}\\text{ — }কেন্দ্র (−g,−f); r²=g²+f²−c>0 চাই।"
+    },
+    {
+      "examType": "Concept",
+      "question": "বৃত্তের সাধারণ সমীকরণ দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{কেন্দ্র (g,f); r=g+fc>0 চাই।}"
     }
   ],
   "memorize": {
     "trick": "কেন্দ্র (−g,−f); r²=g²+f²−c>0 চাই।",
     "steps": [
-      "সূত্র: x^2+y^2+2gx+2fy+c=0,\\quad \\text{centre }(-g,-f),\\ r=\\sqrt{g^2+f^2-c}",
-      "কী কাজে লাগে: বৃত্তের সাধারণ সমীকরণ",
-      "চিহ্ন মনে রাখো: x, y, g, f"
+      "কেন্দ্র (−g,−f); r²=g²+f²−c>0 চাই।",
+      "প্রশ্নে বৃত্তের সাধারণ সমীকরণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: x, y, g — একক যাচাই করো"
     ]
   },
   "subjects": [

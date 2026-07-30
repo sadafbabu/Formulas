@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\sin\\theta = \\sin\\alpha \\implies \\theta = n\\pi + (-1)^n \\alpha, \\quad \\cos\\theta = \\cos\\alpha \\implies \\theta = 2n\\pi \\pm \\alpha, \\quad \\tan\\theta = \\tan\\alpha \\implies \\theta = n\\pi + \\alpha",
-        "note": "ত্রিকোণমিতিক ফাংশনের পর্যায়বৃত্ততা (Periodicity 2π ও π) থেকে সাধারণ সমাধান পাওয়া যায়।"
+        "note": "ত্রিকোণমিতিক সমীকরণের সাধারণ সমাধান এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\sin\\theta = \\sin\\alpha \\implies \\theta = n\\pi + (-1)^n \\alpha, \\quad \\cos\\theta = \\cos\\alpha \\implies \\theta = 2n\\pi \\pm \\alpha, \\quad \\tan\\theta = \\tan\\alpha \\implies \\theta = n\\pi + \\alpha",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "sin θ = 0 → nπ; sin θ = 1 → (4n+1)π/2; cos θ = 0 → (2n+1)π/2; tan θ = 0 → nπ।"
       }
     ],
     "assumptions": []

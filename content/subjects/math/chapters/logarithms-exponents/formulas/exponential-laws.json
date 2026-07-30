@@ -26,8 +26,8 @@
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     }
   ],
   "derivation": {
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
-        "note": "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}"
+        "note": "ঘাতের সূত্রাবলি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}"
       }
     ],
     "assumptions": []
@@ -49,16 +49,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ঘাতের সূত্রাবলি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ঘাতের সূত্রাবলি এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
       "answer": "a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}"
     }
   ],
   "memorize": {
     "trick": "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
     "steps": [
-      "সূত্র: a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
-      "কী কাজে লাগে: ঘাতের সূত্রাবলি",
-      "চিহ্ন মনে রাখো: a, m, n"
+      "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
+      "প্রশ্নে ঘাতের সূত্রাবলি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: a, m, n — একক যাচাই করো"
     ]
   },
   "subjects": [

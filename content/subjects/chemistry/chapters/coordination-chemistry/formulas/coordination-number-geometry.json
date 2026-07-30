@@ -22,17 +22,17 @@
     },
     {
       "symbol": "linear",
-      "meaning": "4",
+      "meaning": "linear (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "tetrahedral/square planar",
-      "meaning": "6",
+      "meaning": "tetrahedral/square planar (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "octahedral",
-      "meaning": "octahedral সম্পর্কিত রাশি",
+      "meaning": "octahedral (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}",
-        "note": "CN 2,4,6 — CN=৬ সাধারণত অষ্টতলক।"
+        "note": "সমন্বয় সংখ্যা ও জ্যামিতি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "CN=৬ সাধারণত অষ্টতলক। \\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমন্বয় সংখ্যা ও জ্যামিতি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সমন্বয় সংখ্যা ও জ্যামিতি এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
       "answer": "\\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সমন্বয় সংখ্যা ও জ্যামিতি দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{mathrm CN =2 to text linear ; 4 to text tetrahedral/square planar ; 6 to text octahedral}"
     }
   ],
   "memorize": {
     "trick": "CN=৬ সাধারণত অষ্টতলক। \\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}",
     "steps": [
-      "সূত্র: \\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text…",
-      "কী কাজে লাগে: সমন্বয় সংখ্যা ও জ্যামিতি",
-      "চিহ্ন মনে রাখো: CN, linear, tetrahedral/square planar, octahedral"
+      "CN=৬ সাধারণত অষ্টতলক। \\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octa…",
+      "প্রশ্নে সমন্বয় সংখ্যা ও জ্যামিতি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: CN, linear, tetrahedral/square planar — একক যাচাই করো"
     ]
   },
   "subjects": [

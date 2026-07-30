@@ -22,13 +22,13 @@
     },
     {
       "symbol": "lambda",
-      "meaning": "lambda সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তরঙ্গদৈর্ঘ্য / ক্ষয় ধ্রুবক",
+      "unit": "m বা 1/s"
     },
     {
       "symbol": "t",
-      "meaning": "t সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "সময়",
+      "unit": "s"
     }
   ],
   "derivation": {
@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}",
-        "note": "গড় আয়ু > অর্ধায়ু। \\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}"
+        "note": "গড় আয়ু এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "গড় আয়ু > অর্ধায়ু। \\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}"
       }
     ],
     "assumptions": []
@@ -50,16 +50,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গড় আয়ু কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "গড় আয়ু এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}"
     }
   ],
   "memorize": {
     "trick": "গড় আয়ু > অর্ধায়ু। \\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}",
     "steps": [
-      "সূত্র: \\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}",
-      "কী কাজে লাগে: গড় আয়ু",
-      "চিহ্ন মনে রাখো: tau, lambda, t"
+      "গড় আয়ু > অর্ধায়ু। \\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}",
+      "প্রশ্নে গড় আয়ু প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: tau, lambda, t — একক যাচাই করো"
     ]
   },
   "subjects": [

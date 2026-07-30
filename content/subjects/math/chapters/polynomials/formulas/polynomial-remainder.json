@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P(x) \\div (x - a) \\Rightarrow \\text{Remainder} = P(a), \\quad P(a) = 0 \\Rightarrow (x - a) \\text{ is a factor}",
-        "note": "Division algorithm থেকে P(x)=(x−a)Q(x)+R; x=a বসালে remainder R=P(a)।"
+        "note": "অবশিষ্ট উপপাদ্য ও গুণনীয় উপপাদ্য এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "P(x) \\div (x - a) \\Rightarrow \\text{Remainder} = P(a), \\quad P(a) = 0 \\Rightarrow (x - a) \\text{ is a factor}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "(x − a) দিয়ে ভাগ করলে ভাগশেষ = P(a) — ভাগই করতে হয় না, শুধু বসিয়ে দিন। ভাগশেষ শূন্য হলে সেটিই উৎপাদক উপপাদ্য।"
       }
     ],
     "assumptions": []

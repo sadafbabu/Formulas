@@ -22,18 +22,18 @@
     },
     {
       "symbol": "L",
-      "meaning": "L সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "দৈর্ঘ্য / আবেশ / ল্যাটেন্ট",
+      "unit": "m বা H"
     },
     {
       "symbol": "g",
-      "meaning": "g সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "v",
-      "meaning": "v সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "বেগ",
+      "unit": "m/s"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "T=2\\pi\\sqrt{\\frac{L\\cos\\theta}{g}},\\quad \\tan\\theta=\\frac{v^2}{rg}",
-        "note": "উল্লম্ব উপাংশ ভারসাম্য; অনুভূমিক = কেন্দ্রমুখী।"
+        "note": "শঙ্কু দোলক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "T=2\\pi\\sqrt{\\frac{L\\cos\\theta}{g}},\\quad \\tan\\theta=\\frac{v^2}{rg}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "উল্লম্ব উপাংশ ভারসাম্য; অনুভূমিক = কেন্দ্রমুখী।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শঙ্কু দোলক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "শঙ্কু দোলক এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "T=2\\pi\\sqrt{\\frac{L\\cos\\theta}{g}},\\quad \\tan\\theta=\\frac{v^2}{rg}"
+    },
+    {
+      "examType": "Concept",
+      "question": "শঙ্কু দোলক দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{উল্লম্ব উপাংশ ভারসাম্য; অনুভূমিক = কেন্দ্রমুখী।}"
     }
   ],
   "memorize": {
     "trick": "উল্লম্ব উপাংশ ভারসাম্য; অনুভূমিক = কেন্দ্রমুখী।",
     "steps": [
-      "সূত্র: T=2\\pi\\sqrt{\\frac{L\\cos\\theta}{g}},\\quad \\tan\\theta=\\frac{v^2}{rg}",
-      "কী কাজে লাগে: শঙ্কু দোলক",
-      "চিহ্ন মনে রাখো: T, L, g, v"
+      "উল্লম্ব উপাংশ ভারসাম্য; অনুভূমিক = কেন্দ্রমুখী।",
+      "প্রশ্নে শঙ্কু দোলক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: T, L, g — একক যাচাই করো"
     ]
   },
   "subjects": [

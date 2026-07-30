@@ -32,12 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{flocculating power}\\propto |z|^n\\ (\\text{বিপরীত আয়ন})",
-        "note": "As₂S₃ (−) কয়ালয়েডে Al³⁺ > Ba²⁺ > Na⁺ শক্তি।"
+        "note": "হার্ডি–শুলজে নিয়ম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{flocculating power}\\propto |z|^n\\ (\\text{বিপরীত আয়ন})",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "বিপরীত চার্জ↑ → জমাট ক্ষমতা↑ — Hardy–Schulze।"
       }
     ],
     "assumptions": [
@@ -54,9 +54,9 @@
   "memorize": {
     "trick": "বিপরীত চার্জ↑ → জমাট ক্ষমতা↑ — Hardy–Schulze।",
     "steps": [
-      "সূত্র: \\text{flocculating power}\\propto |z|^n\\ (\\text{বিপরীত আয়ন})",
-      "কয়ালয়েড অধঃক্ষেপণ ক্ষমতা ∝ বিপরীত আয়নের চার্জের ঘাত",
-      "চিহ্ন মনে রাখো: z, \\text{flocculation}"
+      "বিপরীত চার্জ↑ → জমাট ক্ষমতা↑ — Hardy–Schulze।",
+      "প্রশ্নে হার্ডি–শুলজে নিয়ম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: z, \\text{flocculation} — একক যাচাই করো"
     ]
   },
   "subjects": [

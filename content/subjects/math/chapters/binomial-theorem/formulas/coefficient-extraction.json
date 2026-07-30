@@ -34,8 +34,8 @@
     },
     {
       "symbol": "b_r",
-      "meaning": "b_r সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     }
   ],
   "derivation": {

@@ -22,17 +22,17 @@
     },
     {
       "symbol": "ox. no.",
-      "meaning": "ox. no. সম্পর্কিত রাশি",
+      "meaning": "ox. no. (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "molecule",
-      "meaning": "molecule সম্পর্কিত রাশি",
+      "meaning": "molecule (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "charge",
-      "meaning": "charge সম্পর্কিত রাশি",
+      "meaning": "charge (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\sum(\\text{ox. no.})=0\\ (\\text{molecule}),\\quad=\\text{charge}\\ (\\text{ion})",
-        "note": "জারণ সংখ্যা এর মূল সম্পর্ক ও প্রয়োগ।"
+        "note": "জারণ সংখ্যা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\sum(\\text{ox. no.})=0\\ (\\text{molecule}),\\quad=\\text{charge}\\ (\\text{ion})",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "অণুতে যোগফল ০; আয়নে = চার্জ। জারণ সংখ্যা নিয়ম ও যোগফল"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জারণ সংখ্যা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\sum(\\text{ox. no.})=0\\ (\\text{molecule}),\\quad=\\text{charge}\\ (\\text{ion})"
+      "question": "জারণ সংখ্যা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\sum(\\text{ox. no.})=0\\ (\\text{molecule}),\\quad=\\text{charge}\\ (\\text{ion})\\text{ — }অণুতে যোগফল ০; আয়নে = চার্জ। জারণ সংখ্যা নিয়ম ও যোগফল"
+    },
+    {
+      "examType": "Concept",
+      "question": "জারণ সংখ্যা দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{জারণ সংখ্যা নিয়ম ও যোগফল}"
     }
   ],
   "memorize": {
     "trick": "অণুতে যোগফল ০; আয়নে = চার্জ। জারণ সংখ্যা নিয়ম ও যোগফল",
     "steps": [
-      "সূত্র: \\sum(\\text{ox. no.})=0\\ (\\text{molecule}),\\quad=\\text{charge}\\ (\\text{ion})",
-      "জারণ সংখ্যা নিয়ম ও যোগফল",
-      "চিহ্ন মনে রাখো: sum, ox. no., molecule, charge"
+      "অণুতে যোগফল ০; আয়নে = চার্জ। জারণ সংখ্যা নিয়ম ও যোগফল",
+      "প্রশ্নে জারণ সংখ্যা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: sum, ox. no., molecule — একক যাচাই করো"
     ]
   },
   "subjects": [

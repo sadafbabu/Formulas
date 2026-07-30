@@ -17,7 +17,7 @@
   "symbols": [
     {
       "symbol": "SO_2",
-      "meaning": "SO₂",
+      "meaning": "SO_2 (সূত্রের রাশি)",
       "unit": "—"
     },
     {
@@ -27,12 +27,12 @@
     },
     {
       "symbol": "H_2SO_3",
-      "meaning": "H_2SO_3 সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র / এনথ্যালপি",
+      "unit": "A/m বা J"
     },
     {
       "symbol": "NO_2",
-      "meaning": "NO_2 সম্পর্কিত রাশি",
+      "meaning": "NO_2 (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}",
-        "note": "pH < ৫.৬ হলে অ্যাসিড বৃষ্টি। \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{"
+        "note": "অ্যাসিড বৃষ্টি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "pH < ৫.৬ হলে অ্যাসিড বৃষ্টি। \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{"
       }
     ],
     "assumptions": []
@@ -55,16 +55,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অ্যাসিড বৃষ্টি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "অ্যাসিড বৃষ্টি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}"
     }
   ],
   "memorize": {
     "trick": "pH < ৫.৬ হলে অ্যাসিড বৃষ্টি। \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}",
     "steps": [
-      "সূত্র: \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}…",
-      "কী কাজে লাগে: অ্যাসিড বৃষ্টি",
-      "চিহ্ন মনে রাখো: SO_2, H_2O, H_2SO_3, NO_2"
+      "pH < ৫.৬ হলে অ্যাসিড বৃষ্টি। \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2…",
+      "প্রশ্নে অ্যাসিড বৃষ্টি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: SO_2, H_2O, H_2SO_3 — একক যাচাই করো"
     ]
   },
   "subjects": [

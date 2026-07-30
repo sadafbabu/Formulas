@@ -21,12 +21,12 @@
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     },
     {
       "symbol": "cdots",
-      "meaning": "cdots সম্পর্কিত রাশি",
+      "meaning": "cdots (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\binom{n}{0}+\\binom{n}{1}+\\cdots+\\binom{n}{n}=2^n",
-        "note": "Binomial row sum = 2^n; Pascal's triangle।"
+        "note": "সমাবেশের সমষ্টি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\binom{n}{0}+\\binom{n}{1}+\\cdots+\\binom{n}{n}=2^n",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Binomial row sum = 2^n; Pascal's triangle।"
       }
     ],
     "assumptions": []
@@ -49,16 +49,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমাবেশের সমষ্টি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সমাবেশের সমষ্টি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\binom{n}{0}+\\binom{n}{1}+\\cdots+\\binom{n}{n}=2^n"
+    },
+    {
+      "examType": "Concept",
+      "question": "সমাবেশের সমষ্টি দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Binomial row sum = 2 n; Pascal's triangle।}"
     }
   ],
   "memorize": {
     "trick": "Binomial row sum = 2^n; Pascal's triangle।",
     "steps": [
-      "সূত্র: \\binom{n}{0}+\\binom{n}{1}+\\cdots+\\binom{n}{n}=2^n",
-      "কী কাজে লাগে: সমাবেশের সমষ্টি",
-      "চিহ্ন মনে রাখো: binom, n, cdots"
+      "Binomial row sum = 2^n; Pascal's triangle।",
+      "প্রশ্নে সমাবেশের সমষ্টি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: binom, n, cdots — একক যাচাই করো"
     ]
   },
   "subjects": [

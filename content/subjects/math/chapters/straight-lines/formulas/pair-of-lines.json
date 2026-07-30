@@ -29,13 +29,13 @@
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "h",
-      "meaning": "h সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "উচ্চতা / প্ল্যাঙ্ক ধ্রুবক",
+      "unit": "m বা J·s"
     },
     {
       "symbol": "\\theta",

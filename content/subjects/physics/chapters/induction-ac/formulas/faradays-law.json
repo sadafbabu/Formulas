@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\overline{\\mathcal E}=-N\\frac{\\Delta\\Phi}{\\Delta t},\\quad \\mathcal E=-N\\frac{d\\Phi}{dt};\\quad A,\\theta\\ \\text{ধ্রুব হলে }\\mathcal E=-NA\\cos\\theta\\frac{dB}{dt}",
-        "note": "লেঞ্জের সূত্রানুসারে আবিষ্ট প্রবাহের দিক এমন হয় যা তার সৃষ্টিকে বাধা দেয় (ঋণাত্মক চিহ্ন)।"
+        "note": "ফ্যারাডে ও লেঞ্জের আবেশ সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\overline{\\mathcal E}=-N\\frac{\\Delta\\Phi}{\\Delta t},\\quad \\mathcal E=-N\\frac{d\\Phi}{dt};\\quad A,\\theta\\ \\text{ধ্রুব হলে }\\mathcal E=-NA\\cos\\theta\\frac{dB}{dt}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ε = −N dΦ/dt — ঋণাত্মক চিহ্নই লেঞ্জের সূত্র: 'আবিষ্ট প্রবাহ পরিবর্তনকে বাধা দেয়'। ফ্লাক্স স্থির থাকলে যত বড়ই হোক, emf "
       }
     ],
     "assumptions": [

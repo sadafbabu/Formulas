@@ -21,18 +21,18 @@
     },
     {
       "symbol": "cup",
-      "meaning": "cup সম্পর্কিত রাশি",
+      "meaning": "cup (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "C",
-      "meaning": "C সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ধারণক্ষমতা / ধারকত্ব",
+      "unit": "F বা J/K"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
-        "note": "যোগ − জোড় ছেদ + তিনের ছেদ। |A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|"
+        "note": "তিন সেটের অন্তর্ভুক্তি–বর্জন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "যোগ − জোড় ছেদ + তিনের ছেদ। |A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "তিন সেটের অন্তর্ভুক্তি–বর্জন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "তিন সেটের অন্তর্ভুক্তি–বর্জন এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|"
+    },
+    {
+      "examType": "Concept",
+      "question": "তিন সেটের অন্তর্ভুক্তি–বর্জন দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{যোগ  জোড় ছেদ + তিনের ছেদ। |Acup Bcup C|=|A|+|B|+|C|-|Acap B|-|Bcap C|-|Ccap A|+|Acap Bcap C|}"
     }
   ],
   "memorize": {
     "trick": "যোগ − জোড় ছেদ + তিনের ছেদ। |A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
     "steps": [
-      "সূত্র: |A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
-      "কী কাজে লাগে: তিন সেটের অন্তর্ভুক্তি–বর্জন",
-      "চিহ্ন মনে রাখো: A, cup, B, C"
+      "যোগ − জোড় ছেদ + তিনের ছেদ। |A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
+      "প্রশ্নে তিন সেটের অন্তর্ভুক্তি–বর্জন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A, cup, B — একক যাচাই করো"
     ]
   },
   "subjects": [

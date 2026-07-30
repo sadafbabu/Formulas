@@ -29,12 +29,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\omega=e^{2\\pi i/n},\\quad \\omega_k=e^{2\\pi ik/n},\\ k=0,\\ldots,n-1;\\quad 1+\\omega+\\cdots+\\omega^{n-1}=0\\ (n\\ge2)",
-        "note": "z^n = 1 সমীকরণ থেকে অয়লার রূপে প্রাপ্ত।"
+        "note": "একের n-তম মূলসমূহ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\omega=e^{2\\pi i/n},\\quad \\omega_k=e^{2\\pi ik/n},\\ k=0,\\ldots,n-1;\\quad 1+\\omega+\\cdots+\\omega^{n-1}=0\\ (n\\ge2)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "একের n-তম মূলগুলো একক বৃত্তে সমদূরত্বে বসে — n-বাহু সুষম বহুভুজের শীর্ষ। তাই তাদের যোগফল সর্বদা শূন্য (প্রতিসাম্যে বাতিল"
       }
     ],
     "assumptions": [

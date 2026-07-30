@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "|z|=r=\\sqrt{a^2+b^2},\\quad \\operatorname{Arg}(z)=\\operatorname{atan2}(b,a)\\ (z\\ne0),\\quad (\\cos\\theta+i\\sin\\theta)^n=\\cos n\\theta+i\\sin n\\theta",
-        "note": "আর্গাঁ চিত্রে (Argand Diagram) কার্তেসীয় স্থানাঙ্ক (a, b) কে পোলার স্থানাঙ্ক (r, θ) এ রূপান্তর করে প্রাপ্ত।"
+        "note": "জটিল সংখ্যার পরমমান, নতি ও ডিময়ভারের উপপাদ্য এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "|z|=r=\\sqrt{a^2+b^2},\\quad \\operatorname{Arg}(z)=\\operatorname{atan2}(b,a)\\ (z\\ne0),\\quad (\\cos\\theta+i\\sin\\theta)^n=\\cos n\\theta+i\\sin n\\theta",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "|z| = √(a² + b²) হলো মূলবিন্দু থেকে দূরত্ব, Arg(z) = tan⁻¹(b/a) হলো কোণ — অর্থাৎ জটিল সংখ্যা মানে সমতলে একটি বিন্দু। ডিম"
       }
     ],
     "assumptions": [

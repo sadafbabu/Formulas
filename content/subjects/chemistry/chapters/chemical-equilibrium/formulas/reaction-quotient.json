@@ -30,7 +30,7 @@
     },
     {
       "symbol": "[B]",
-      "meaning": "[B] সম্পর্কিত রাশি",
+      "meaning": "[B] (সূত্রের রাশি)",
       "unit": "M"
     }
   ],
@@ -40,12 +40,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "Q_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}, \\quad Q = K \\text{ (equilibrium)}",
-        "note": "Law of Mass Action থেকে বিক্রিয়া ভাগফল প্রাপ্ত।"
+        "note": "বিক্রিয়া ভাগফল ও সাম্যাবস্থা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "Q_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}, \\quad Q = K \\text{ (equilibrium)}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Q আর K-এর গঠন এক, তফাত কেবল সময়ে: Q যেকোনো মুহূর্তে, K কেবল সাম্যাবস্থায়। Q < K হলে সামনে এগোবে, Q > K হলে পিছনে, Q = "
       }
     ],
     "assumptions": [

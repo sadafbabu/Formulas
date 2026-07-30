@@ -21,13 +21,13 @@
     },
     {
       "symbol": "f",
-      "meaning": "f সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কম্পাঙ্ক / বল (প্রসঙ্গমতে)",
+      "unit": "Hz বা N"
     },
     {
       "symbol": "g",
-      "meaning": "g সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²"
     }
   ],
   "derivation": {
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
-        "note": "অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})"
+        "note": "ল'হোপিটালের নিয়ম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})"
       }
     ],
     "assumptions": []
@@ -49,16 +49,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ল'হোপিটালের নিয়ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ল'হোপিটালের নিয়ম এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})"
     }
   ],
   "memorize": {
     "trick": "অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
     "steps": [
-      "সূত্র: \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty}…",
-      "কী কাজে লাগে: ল'হোপিটালের নিয়ম",
-      "চিহ্ন মনে রাখো: lim, f, g, tfrac"
+      "অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
+      "প্রশ্নে ল'হোপিটালের নিয়ম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: lim, f, g — একক যাচাই করো"
     ]
   },
   "subjects": [

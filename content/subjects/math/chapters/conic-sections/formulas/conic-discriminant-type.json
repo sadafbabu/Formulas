@@ -21,18 +21,18 @@
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "A",
-      "meaning": "A সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ক্ষেত্রফল / বিস্তার",
+      "unit": "m²"
     },
     {
       "symbol": "C",
-      "meaning": "C সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ধারণক্ষমতা / ধারকত্ব",
+      "unit": "F বা J/K"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta=B^2-4AC\\begin{cases}<0 & \\text{ellipse}\\\\=0 & \\text{parabola}\\\\>0 & \\text{hyperbola}\\end{cases}",
-        "note": "Δ=B²−4AC — HSC-তে কোনিক শনাক্তকরণের মূল চাবি।"
+        "note": "কোনিক পৃথককারী এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\Delta=B^2-4AC\\begin{cases}<0 & \\text{ellipse}\\\\=0 & \\text{parabola}\\\\>0 & \\text{hyperbola}\\end{cases}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Δ=B²−4AC — HSC-তে কোনিক শনাক্তকরণের মূল চাবি।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কোনিক পৃথককারী কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\Delta=B^2-4AC\\begin{cases}<0 & \\text{ellipse}\\\\=0 & \\text{parabola}\\\\>0 & \\text{hyperbola}\\end{cases}"
+      "question": "কোনিক পৃথককারী এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\Delta=B^2-4AC\\begin{cases}<0 & \\text{ellipse}\\\\=0 & \\text{parabola}\\\\>0 & \\text{hyperbola}\\end{cases}\\text{ — }Δ=B²−4AC — HSC-তে কোনিক শনাক্তকরণের মূল চাবি।"
+    },
+    {
+      "examType": "Concept",
+      "question": "কোনিক পৃথককারী দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{Δ=B4AC  HSC-তে কোনিক শনাক্তকরণের মূল চাবি।}"
     }
   ],
   "memorize": {
     "trick": "Δ=B²−4AC — HSC-তে কোনিক শনাক্তকরণের মূল চাবি।",
     "steps": [
-      "সূত্র: \\Delta=B^2-4AC\\begin{cases}<0 & \\text{ellipse}\\\\=0 & \\text{parabola}\\\\>0 & \\text…",
-      "কী কাজে লাগে: কোনিক পৃথককারী",
-      "চিহ্ন মনে রাখো: Delta, B, A, C"
+      "Δ=B²−4AC — HSC-তে কোনিক শনাক্তকরণের মূল চাবি।",
+      "প্রশ্নে কোনিক পৃথককারী প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: Delta, B, A — একক যাচাই করো"
     ]
   },
   "subjects": [

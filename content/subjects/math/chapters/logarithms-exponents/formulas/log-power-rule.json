@@ -21,13 +21,13 @@
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     }
   ],
   "derivation": {
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\log_c(a^n)=n\\log_c a",
-        "note": "log(a^n)=n log a — ঘাত সামনে এসে গুণক হয়।"
+        "note": "লগ ঘাত সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\log_c(a^n)=n\\log_c a",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ঘাত সামনে এসে গুণক হয়। \\log_c(a^n)=n\\log_c a"
       }
     ],
     "assumptions": []
@@ -49,16 +49,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "লগ ঘাত সূত্র কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\log_c(a^n)=n\\log_c a"
+      "question": "লগ ঘাত সূত্র এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\log_c(a^n)=n\\log_c a\\text{ — }ঘাত সামনে এসে গুণক হয়। \\log_c(a^n)=n\\log_c a"
+    },
+    {
+      "examType": "Concept",
+      "question": "লগ ঘাত সূত্র দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{log c(a n)=n log c a}"
     }
   ],
   "memorize": {
     "trick": "ঘাত সামনে এসে গুণক হয়। \\log_c(a^n)=n\\log_c a",
     "steps": [
-      "সূত্র: \\log_c(a^n)=n\\log_c a",
-      "কী কাজে লাগে: লগ ঘাত সূত্র",
-      "চিহ্ন মনে রাখো: c, a, n"
+      "ঘাত সামনে এসে গুণক হয়। \\log_c(a^n)=n\\log_c a",
+      "প্রশ্নে লগ ঘাত সূত্র প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: c, a, n — একক যাচাই করো"
     ]
   },
   "subjects": [

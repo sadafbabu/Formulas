@@ -27,12 +27,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{degenerate orbitals: maximize unpaired electrons with parallel spin}",
-        "note": "একই শক্তির অরবিটালে আগে একক ইলেকট্রন।"
+        "note": "হান্ডের নিয়ম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{degenerate orbitals: maximize unpaired electrons with parallel spin}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "একই শক্তির অরবিটালে আগে একক ইলেকট্রন।"
       }
     ],
     "assumptions": []
@@ -40,16 +40,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "হান্ডের নিয়ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\text{degenerate orbitals: maximize unpaired electrons with parallel spin}"
+      "question": "হান্ডের নিয়ম এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\text{degenerate orbitals: maximize unpaired electrons with parallel spin}\\text{ — }একই শক্তির অরবিটালে আগে একক ইলেকট্রন।"
+    },
+    {
+      "examType": "Concept",
+      "question": "হান্ডের নিয়ম দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{একই শক্তির অরবিটালে আগে একক ইলেকট্রন।}"
     }
   ],
   "memorize": {
     "trick": "একই শক্তির অরবিটালে আগে একক ইলেকট্রন।",
     "steps": [
-      "সূত্র: \\text{degenerate orbitals: maximize unpaired electrons with parallel spin}",
-      "কী কাজে লাগে: হান্ডের নিয়ম",
-      "চিহ্ন মনে রাখো: degenerate orbitals: maximize unpaired electrons with parallel spin"
+      "একই শক্তির অরবিটালে আগে একক ইলেকট্রন।",
+      "প্রশ্নে হান্ডের নিয়ম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: degenerate orbitals: maximize unpaired electrons with parallel spin — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -26,7 +26,7 @@
     },
     {
       "symbol": "v",
-      "meaning": "v সম্পর্কিত রাশি",
+      "meaning": "বেগ",
       "unit": "ফাংশন"
     }
   ],
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x), \\quad \\frac{d}{dx}[u \\cdot v] = u \\frac{dv}{dx} + v \\frac{du}{dx}",
-        "note": "ক্ষুদ্র বৃদ্ধি Δx -> 0 এর জন্য সংজ্ঞার সাহায্যে অন্তরজ (First Principle) হতে প্রমানিত।"
+        "note": "পর্যায়ক্রমিক অন্তরীকরণ ও সংযোজিত ফাংশন সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x), \\quad \\frac{d}{dx}[u \\cdot v] = u \\frac{dv}{dx} + v \\frac{du}{dx}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "dy/dx = (dy/du)(du/dx) — যৌগিক ফাংশনে বহিঃস্থ ও অন্তঃস্থ অবকলনের গুণফল।"
       }
     ],
     "assumptions": []
@@ -56,9 +56,9 @@
   "memorize": {
     "trick": "dy/dx = (dy/du)(du/dx) — যৌগিক ফাংশনে বহিঃস্থ ও অন্তঃস্থ অবকলনের গুণফল।",
     "steps": [
-      "সূত্র: \\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x), \\quad \\frac{d}{dx}[u \\cdot v] = u …",
-      "সংযোজিত ফাংশন (Chain Rule) এবং গুণফল (Product Rule) এর অন্তরীকরণ",
-      "চিহ্ন মনে রাখো: f(g(x)), u, v"
+      "dy/dx = (dy/du)(du/dx) — যৌগিক ফাংশনে বহিঃস্থ ও অন্তঃস্থ অবকলনের গুণফল।",
+      "প্রশ্নে পর্যায়ক্রমিক অন্তরীকরণ ও সংযোজিত ফাংশন সূত্র প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: f(g(x)), u, v — একক যাচাই করো"
     ]
   },
   "subjects": [

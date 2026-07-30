@@ -21,18 +21,18 @@
     },
     {
       "symbol": "C",
-      "meaning": "C সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ধারণক্ষমতা / ধারকত্ব",
+      "unit": "F বা J/K"
     },
     {
       "symbol": "r",
-      "meaning": "r সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ব্যাসার্ধ / দূরত্ব",
+      "unit": "m"
     },
     {
       "symbol": "P",
-      "meaning": "P সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চাপ / ক্ষমতা",
+      "unit": "Pa বা W"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "{}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!",
-        "note": "ক্রম গুরুত্বহীন; ⁿCᵣ=ⁿCₙ₋ᵣ। {}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!"
+        "note": "সমাবেশ ⁿCᵣ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "{}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ক্রম গুরুত্বহীন; ⁿCᵣ=ⁿCₙ₋ᵣ। {}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমাবেশ ⁿCᵣ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "{}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!"
+      "question": "সমাবেশ ⁿCᵣ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "{}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!\\text{ — }ক্রম গুরুত্বহীন; ⁿCᵣ=ⁿCₙ₋ᵣ। {}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!"
+    },
+    {
+      "examType": "Concept",
+      "question": "সমাবেশ ⁿCᵣ দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{n C r = frac n! r!(n-r)! = n P r /r!}"
     }
   ],
   "memorize": {
     "trick": "ক্রম গুরুত্বহীন; ⁿCᵣ=ⁿCₙ₋ᵣ। {}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!",
     "steps": [
-      "সূত্র: {}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!",
-      "কী কাজে লাগে: সমাবেশ ⁿCᵣ",
-      "চিহ্ন মনে রাখো: n, C, r, P"
+      "ক্রম গুরুত্বহীন; ⁿCᵣ=ⁿCₙ₋ᵣ। {}^{n}C_{r}=\\frac{n!}{r!(n-r)!}={}^{n}P_{r}/r!",
+      "প্রশ্নে সমাবেশ ⁿCᵣ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: n, C, r — একক যাচাই করো"
     ]
   },
   "subjects": [

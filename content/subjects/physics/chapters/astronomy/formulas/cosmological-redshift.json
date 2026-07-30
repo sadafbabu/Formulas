@@ -54,9 +54,9 @@
   "memorize": {
     "trick": "z ≈ v/c; বয়স ≈ 1/H₀। z=\\dfrac{\\Delta\\lambda}{\\lambda}\\approx\\dfrac{v}{c},\\quad t_H\\approx\\dfrac{1}{H_0}",
     "steps": [
-      "সূত্র: z=\\dfrac{\\Delta\\lambda}{\\lambda}\\approx\\dfrac{v}{c},\\quad t_H\\approx\\dfrac{1}{H_…",
-      "কী কাজে লাগে: মহাজাগতিক লোহিত সরণ ও হাবল বয়স",
-      "চিহ্ন মনে রাখো: z, H_0"
+      "z ≈ v/c; বয়স ≈ 1/H₀। z=\\dfrac{\\Delta\\lambda}{\\lambda}\\approx\\dfrac{v}{c},\\quad t_H\\approx\\dfrac{1}{H_0}",
+      "প্রশ্নে মহাজাগতিক লোহিত সরণ ও হাবল বয়স প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: z, H_0 — একক যাচাই করো"
     ]
   },
   "subjects": [

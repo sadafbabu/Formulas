@@ -31,7 +31,7 @@
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
+      "meaning": "চৌম্বক ক্ষেত্র",
       "unit": "সংখ্যা"
     }
   ],
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{Area}=\\int_a^b|f(x)|\\,dx,\\quad \\text{Area between curves}=\\int_a^b|f_1(x)-f_2(x)|\\,dx",
-        "note": "ক্ষুদ্র উল্লম্ব ফালি dx এর ক্ষেত্রফল dA = y dx সমাকলন করে পাওয়া যায়।"
+        "note": "নির্দিষ্ট যোগজ ও বক্ররেখা দ্বারা আবদ্ধ ক্ষেত্রফল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{Area}=\\int_a^b|f(x)|\\,dx,\\quad \\text{Area between curves}=\\int_a^b|f_1(x)-f_2(x)|\\,dx",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ক্ষেত্রফল = ∫(উপরের বক্ররেখা − নিচের বক্ররেখা)dx — 'উপর বাদ নিচ', তাই ফল সর্বদা ধনাত্মক। x-অক্ষের নিচে থাকলে যোগজ ঋণাত্ম"
       }
     ],
     "assumptions": []

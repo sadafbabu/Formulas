@@ -27,7 +27,7 @@
     },
     {
       "symbol": "\\omega",
-      "meaning": "\\omega সম্পর্কিত রাশি",
+      "meaning": "কৌণিক বেগ",
       "unit": "m/s, rad/s"
     },
     {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "a_c=\\dfrac{v^2}{r}=\\omega^2 r",
-        "note": "দিক পরিবর্তনের ত্বরণ; মান v²/r।"
+        "note": "কেন্দ্রমুখী ত্বরণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "a_c=\\dfrac{v^2}{r}=\\omega^2 r",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "কেন্দ্রে টানে: a_c = v²/r = ω²r — বড় বেগ/ছোট r = বেশি টান।"
       }
     ],
     "assumptions": [

@@ -14,22 +14,22 @@
   "symbols": [
     {
       "symbol": "A",
-      "meaning": "কোণ",
+      "meaning": "ক্ষেত্রফল / বিস্তার",
       "unit": "rad"
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
+      "meaning": "চৌম্বক ক্ষেত্র",
       "unit": "rad"
     },
     {
       "symbol": "C",
-      "meaning": "C সম্পর্কিত রাশি",
+      "meaning": "ধারণক্ষমতা / ধারকত্ব",
       "unit": "rad"
     },
     {
       "symbol": "D",
-      "meaning": "D সম্পর্কিত রাশি",
+      "meaning": "দূরত্ব / তড়িৎ সরণ",
       "unit": "rad"
     }
   ],
@@ -39,12 +39,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "2\\sin A\\cos B = \\sin(A+B)+\\sin(A-B), \\quad \\sin C + \\sin D = 2\\sin\\tfrac{C+D}{2}\\cos\\tfrac{C-D}{2}",
-        "note": "যৌগিক কোণ সূত্র যোগ-বিয়োগ থেকে গুণফল-যোগফল সূত্র।"
+        "note": "গুণফল-যোগফল ও যোগফল-গুণফল সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "2\\sin A\\cos B = \\sin(A+B)+\\sin(A-B), \\quad \\sin C + \\sin D = 2\\sin\\tfrac{C+D}{2}\\cos\\tfrac{C-D}{2}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "গুণফল→যোগফলে '2' সামনে বসে: 2sinAcosB = sin(A+B) + sin(A−B)। যোগফল→গুণফলে অর্ধেক কোণ আসে: sinC + sinD = 2 sin[(C+D)/2] c"
       }
     ],
     "assumptions": [

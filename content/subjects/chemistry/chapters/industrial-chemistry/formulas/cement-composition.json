@@ -17,7 +17,7 @@
   "symbols": [
     {
       "symbol": "main:",
-      "meaning": "CaO",
+      "meaning": "main: (সূত্রের রাশি)",
       "unit": "—"
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "Al_2O_3",
-      "meaning": "Al_2O_3 সম্পর্কিত রাশি",
+      "meaning": "Al_2O_3 (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
-        "note": "জলযোগে সেটিং — হাইড্রেশন। \\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}"
+        "note": "পোর্টল্যান্ড সিমেন্ট এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "জলযোগে সেটিং — হাইড্রেশন। \\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পোর্টল্যান্ড সিমেন্ট কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "পোর্টল্যান্ড সিমেন্ট এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}"
+    },
+    {
+      "examType": "Concept",
+      "question": "পোর্টল্যান্ড সিমেন্ট দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{জলযোগে সেটিং  হাইড্রেশন। textmain: mathrmCaO,mathrmSiO 2,mathrmAl 2O 3,mathrmFe 2O 3}"
     }
   ],
   "memorize": {
     "trick": "জলযোগে সেটিং — হাইড্রেশন। \\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
     "steps": [
-      "সূত্র: \\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
-      "কী কাজে লাগে: পোর্টল্যান্ড সিমেন্ট",
-      "চিহ্ন মনে রাখো: main:, CaO, SiO_2, Al_2O_3"
+      "জলযোগে সেটিং — হাইড্রেশন। \\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
+      "প্রশ্নে পোর্টল্যান্ড সিমেন্ট প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: main:, CaO, SiO_2 — একক যাচাই করো"
     ]
   },
   "subjects": [

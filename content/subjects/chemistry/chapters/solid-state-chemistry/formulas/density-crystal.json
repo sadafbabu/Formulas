@@ -22,18 +22,18 @@
     },
     {
       "symbol": "Z",
-      "meaning": "Z সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "পারমাণবিক সংখ্যা / প্রতিবন্ধকতা",
+      "unit": "1 বা Ω"
     },
     {
       "symbol": "M",
-      "meaning": "M সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর / মোলার ভর",
+      "unit": "kg বা g/mol"
     },
     {
       "symbol": "N",
-      "meaning": "N সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কণা সংখ্যা",
+      "unit": "1"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\rho=\\frac{ZM}{N_A a^3}",
-        "note": "Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}"
+        "note": "স্ফটিক ঘনত্ব এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\rho=\\frac{ZM}{N_A a^3}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্ফটিক ঘনত্ব কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\rho=\\frac{ZM}{N_A a^3}"
+      "question": "স্ফটিক ঘনত্ব এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\rho=\\frac{ZM}{N_A a^3}\\text{ — }Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}"
+    },
+    {
+      "examType": "Concept",
+      "question": "স্ফটিক ঘনত্ব দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{rho= frac ZM N A a 3}"
     }
   ],
   "memorize": {
     "trick": "Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}",
     "steps": [
-      "সূত্র: \\rho=\\frac{ZM}{N_A a^3}",
-      "কী কাজে লাগে: স্ফটিক ঘনত্ব",
-      "চিহ্ন মনে রাখো: rho, Z, M, N"
+      "Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}",
+      "প্রশ্নে স্ফটিক ঘনত্ব প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: rho, Z, M — একক যাচাই করো"
     ]
   },
   "subjects": [

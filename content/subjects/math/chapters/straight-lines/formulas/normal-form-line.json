@@ -21,18 +21,18 @@
     },
     {
       "symbol": "alpha",
-      "meaning": "alpha সম্পর্কিত রাশি",
+      "meaning": "কোণ / প্রসারণ গুণাঙ্ক",
       "unit": "—"
     },
     {
       "symbol": "y",
-      "meaning": "y সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান",
+      "unit": "m"
     },
     {
       "symbol": "p",
-      "meaning": "p সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভরবেগ / চাপ",
+      "unit": "kg·m/s বা Pa"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "x\\cos\\alpha+y\\sin\\alpha=p",
-        "note": "p = perpendicular from origin; α = angle with x-axis।"
+        "note": "রেখার লম্ব রূপ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "x\\cos\\alpha+y\\sin\\alpha=p",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "p = perpendicular from origin; α = angle with x-axis।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রেখার লম্ব রূপ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "রেখার লম্ব রূপ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "x\\cos\\alpha+y\\sin\\alpha=p"
+    },
+    {
+      "examType": "Concept",
+      "question": "রেখার লম্ব রূপ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{p = perpendicular from origin; α = angle with x-axis।}"
     }
   ],
   "memorize": {
     "trick": "p = perpendicular from origin; α = angle with x-axis।",
     "steps": [
-      "সূত্র: x\\cos\\alpha+y\\sin\\alpha=p",
-      "কী কাজে লাগে: রেখার লম্ব রূপ",
-      "চিহ্ন মনে রাখো: x, alpha, y, p"
+      "p = perpendicular from origin; α = angle with x-axis।",
+      "প্রশ্নে রেখার লম্ব রূপ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: x, alpha, y — একক যাচাই করো"
     ]
   },
   "subjects": [

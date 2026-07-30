@@ -49,12 +49,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P_{avg} = V_{rms} I_{rms} \\cos\\phi, \\quad \\cos\\phi = \\frac{R}{Z}, \\quad Z = \\sqrt{R^2 + (X_L - X_C)^2}",
-        "note": "AC বর্তনীতে কেবল রোধী উপাংশই ক্ষমতা গ্রহণ করে; প্রতিবাধক ও ধারক গড়ে ক্ষমতা গ্রহণ করে না।"
+        "note": "AC ক্ষমতা ও পাওয়ার ফ্যাক্টর এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "P_{avg} = V_{rms} I_{rms} \\cos\\phi, \\quad \\cos\\phi = \\frac{R}{Z}, \\quad Z = \\sqrt{R^2 + (X_L - X_C)^2}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "গড় ক্ষমতা P = Vᵣₘₛ Iᵣₘₛ cos φ। পাওয়ার ফ্যাক্টর cos φ = R/Z। অনুনাদে cos φ = 1।"
       }
     ],
     "assumptions": [
@@ -72,9 +72,9 @@
   "memorize": {
     "trick": "গড় ক্ষমতা P = Vᵣₘₛ Iᵣₘₛ cos φ। পাওয়ার ফ্যাক্টর cos φ = R/Z। অনুনাদে cos φ = 1।",
     "steps": [
-      "সূত্র: P_{avg} = V_{rms} I_{rms} \\cos\\phi, \\quad \\cos\\phi = \\frac{R}{Z}, \\quad Z = \\sqr…",
-      "AC বর্তনীতে গড় ক্ষমতা, পাওয়ার ফ্যাক্টর ও শক্তি সংরক্ষণ",
-      "চিহ্ন মনে রাখো: P_{avg}, \\cos\\phi, Z"
+      "গড় ক্ষমতা P = Vᵣₘₛ Iᵣₘₛ cos φ। পাওয়ার ফ্যাক্টর cos φ = R/Z। অনুনাদে cos φ = 1।",
+      "প্রশ্নে AC ক্ষমতা ও পাওয়ার ফ্যাক্টর প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: P_{avg}, \\cos\\phi, Z — একক যাচাই করো"
     ]
   }
 }

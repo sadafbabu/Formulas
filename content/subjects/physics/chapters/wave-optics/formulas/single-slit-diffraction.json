@@ -39,12 +39,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "d \\sin\\theta = n\\lambda \\text{ (dark)}, \\quad \\sin\\theta = \\frac{\\lambda}{d} \\text{ (1st min)}",
-        "note": "চিরের দুই প্রান্তের রশ্মির পথ পার্থক্য থেকে ধ্বংসাত্মক অপবর্তন শর্ত প্রাপ্ত।"
+        "note": "একক চিরের অপবর্তন প্রসরণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "d \\sin\\theta = n\\lambda \\text{ (dark)}, \\quad \\sin\\theta = \\frac{\\lambda}{d} \\text{ (1st min)}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "একক চিরে d sinθ = nλ দেয় অন্ধকার ডোরা (দ্বি-চিরে ঠিক উল্টো — ওখানে nλ মানে উজ্জ্বল)। এই উল্টোটাই সবচেয়ে বেশি ভুল হয়।"
       }
     ],
     "assumptions": [

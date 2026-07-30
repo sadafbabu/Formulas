@@ -22,18 +22,18 @@
     },
     {
       "symbol": "A",
-      "meaning": "A সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ক্ষেত্রফল / বিস্তার",
+      "unit": "m²"
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{V_A}{V_B}=\\frac{a}{b}\\quad(\\text{same }T,P)",
-        "note": "একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।"
+        "note": "গ্যাস আয়তন stoichiometry এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{V_A}{V_B}=\\frac{a}{b}\\quad(\\text{same }T,P)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্যাস আয়তন stoichiometry কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "গ্যাস আয়তন stoichiometry এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\frac{V_A}{V_B}=\\frac{a}{b}\\quad(\\text{same }T,P)"
+    },
+    {
+      "examType": "Concept",
+      "question": "গ্যাস আয়তন stoichiometry দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।}"
     }
   ],
   "memorize": {
     "trick": "একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।",
     "steps": [
-      "সূত্র: \\frac{V_A}{V_B}=\\frac{a}{b}\\quad(\\text{same }T,P)",
-      "কী কাজে লাগে: গ্যাস আয়তন stoichiometry",
-      "চিহ্ন মনে রাখো: V, A, B, a"
+      "একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।",
+      "প্রশ্নে গ্যাস আয়তন stoichiometry প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: V, A, B — একক যাচাই করো"
     ]
   },
   "subjects": [

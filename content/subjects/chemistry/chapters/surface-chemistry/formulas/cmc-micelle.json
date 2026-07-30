@@ -27,12 +27,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{CMC = concentration where micelles form}",
-        "note": "সাবানের পরিষ্কার ক্ষমতা CMC-এর উপরে কার্যকর।"
+        "note": "CMC ও মাইকেল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{CMC = concentration where micelles form}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "সাবানের পরিষ্কার ক্ষমতা CMC-এর উপরে কার্যকর।"
       }
     ],
     "assumptions": []
@@ -40,16 +40,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "CMC ও মাইকেল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "CMC ও মাইকেল এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{CMC = concentration where micelles form}"
+    },
+    {
+      "examType": "Concept",
+      "question": "CMC ও মাইকেল দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{সাবানের পরিষ্কার ক্ষমতা CMC-এর উপরে কার্যকর।}"
     }
   ],
   "memorize": {
     "trick": "সাবানের পরিষ্কার ক্ষমতা CMC-এর উপরে কার্যকর।",
     "steps": [
-      "সূত্র: \\text{CMC = concentration where micelles form}",
-      "কী কাজে লাগে: CMC ও মাইকেল",
-      "চিহ্ন মনে রাখো: CMC = concentration where micelles form"
+      "সাবানের পরিষ্কার ক্ষমতা CMC-এর উপরে কার্যকর।",
+      "প্রশ্নে CMC ও মাইকেল প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: CMC = concentration where micelles form — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -22,8 +22,8 @@
     },
     {
       "symbol": "t",
-      "meaning": "t সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "সময়",
+      "unit": "s"
     },
     {
       "symbol": "v",
@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "v=\\dfrac{ds}{dt},\\ a=\\dfrac{dv}{dt},\\ s=\\int v\\,dt",
-        "note": "s–t ঢাল = v; v–t ঢাল = a; v–t ক্ষেত্রফল = সরণ"
+        "note": "গতি লেখচিত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "v=\\dfrac{ds}{dt},\\ a=\\dfrac{dv}{dt},\\ s=\\int v\\,dt",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "s–t ঢাল=বেগ; v–t ঢাল=ত্বরণ; v–t ক্ষেত্রফল=সরণ।"
       }
     ],
     "assumptions": [

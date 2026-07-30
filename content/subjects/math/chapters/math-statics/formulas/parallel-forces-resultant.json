@@ -21,18 +21,18 @@
     },
     {
       "symbol": "sum",
-      "meaning": "sum সম্পর্কিত রাশি",
+      "meaning": "sum (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "F",
-      "meaning": "F সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "বল",
+      "unit": "N"
     },
     {
       "symbol": "i",
-      "meaning": "i সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তড়িৎ প্রবাহ / জড়তার ভ্রামক",
+      "unit": "A বা kg·m²"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "R=\\sum F_i,\\quad \\bar{x}=\\frac{\\sum F_i x_i}{\\sum F_i}",
-        "note": "লব্ধি = যোগ; moment arm দিয়ে অবস্থান।"
+        "note": "সমান্তরাল বলের লব্ধি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "R=\\sum F_i,\\quad \\bar{x}=\\frac{\\sum F_i x_i}{\\sum F_i}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "লব্ধি = যোগ; moment arm দিয়ে অবস্থান।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমান্তরাল বলের লব্ধি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সমান্তরাল বলের লব্ধি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "R=\\sum F_i,\\quad \\bar{x}=\\frac{\\sum F_i x_i}{\\sum F_i}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সমান্তরাল বলের লব্ধি দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{লব্ধি = যোগ; moment arm দিয়ে অবস্থান।}"
     }
   ],
   "memorize": {
     "trick": "লব্ধি = যোগ; moment arm দিয়ে অবস্থান।",
     "steps": [
-      "সূত্র: R=\\sum F_i,\\quad \\bar{x}=\\frac{\\sum F_i x_i}{\\sum F_i}",
-      "কী কাজে লাগে: সমান্তরাল বলের লব্ধি",
-      "চিহ্ন মনে রাখো: R, sum, F, i"
+      "লব্ধি = যোগ; moment arm দিয়ে অবস্থান।",
+      "প্রশ্নে সমান্তরাল বলের লব্ধি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: R, sum, F — একক যাচাই করো"
     ]
   },
   "subjects": [

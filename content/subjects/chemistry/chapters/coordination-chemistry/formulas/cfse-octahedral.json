@@ -22,8 +22,8 @@
     },
     {
       "symbol": "n_{e_g}",
-      "meaning": "n_{e_g} সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     },
     {
       "symbol": "\\Delta_o",

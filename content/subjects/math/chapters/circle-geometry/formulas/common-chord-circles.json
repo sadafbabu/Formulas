@@ -21,7 +21,7 @@
     },
     {
       "symbol": "intersecting circles",
-      "meaning": "intersecting circles সম্পর্কিত রাশি",
+      "meaning": "intersecting circles (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -31,12 +31,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "S_1-S_2=0\\quad(\\text{intersecting circles})",
-        "note": "ছেদকারী বৃত্তে radical axis = সাধারণ জ্যা।"
+        "note": "সাধারণ জ্যা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "S_1-S_2=0\\quad(\\text{intersecting circles})",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ছেদকারী বৃত্তে radical axis = সাধারণ জ্যা।"
       }
     ],
     "assumptions": []
@@ -44,16 +44,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সাধারণ জ্যা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সাধারণ জ্যা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "S_1-S_2=0\\quad(\\text{intersecting circles})"
+    },
+    {
+      "examType": "Concept",
+      "question": "সাধারণ জ্যা দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{ছেদকারী বৃত্তে radical axis = সাধারণ জ্যা।}"
     }
   ],
   "memorize": {
     "trick": "ছেদকারী বৃত্তে radical axis = সাধারণ জ্যা।",
     "steps": [
-      "সূত্র: S_1-S_2=0\\quad(\\text{intersecting circles})",
-      "কী কাজে লাগে: সাধারণ জ্যা",
-      "চিহ্ন মনে রাখো: S, intersecting circles"
+      "ছেদকারী বৃত্তে radical axis = সাধারণ জ্যা।",
+      "প্রশ্নে সাধারণ জ্যা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: S, intersecting circles — একক যাচাই করো"
     ]
   },
   "subjects": [

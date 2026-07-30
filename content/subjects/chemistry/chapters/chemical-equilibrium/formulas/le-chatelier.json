@@ -32,7 +32,7 @@
     },
     {
       "symbol": "[B]",
-      "meaning": "[B] সম্পর্কিত রাশি",
+      "meaning": "[B] (সূত্রের রাশি)",
       "unit": "mol/L"
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "symbol": "[D]",
-      "meaning": "[D] সম্পর্কিত রাশি",
+      "meaning": "[D] (সূত্রের রাশি)",
       "unit": "mol/L"
     }
   ],
@@ -52,12 +52,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "Q_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}, \\quad Q_c < K_c \\Rightarrow \\ce{->}, \\quad Q_c > K_c \\Rightarrow \\ce{<-}",
-        "note": "লা শাতেলিয়ের নীতি: সাম্যবস্থায় বাহ্যিক পরিবর্তন করলে সাম্য সেই দিকে সরে যায় যা পরিবর্তনকে প্রতিরোধ করে।"
+        "note": "লা শাতেলিয়ের নীতি ও বিক্রিয়া ভাগফল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "Q_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}, \\quad Q_c < K_c \\Rightarrow \\ce{->}, \\quad Q_c > K_c \\Rightarrow \\ce{<-}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "চাপ দিলে সাম্য চাপ কমায় যেদিকে — Le Chatelier ‘বিরোধিতা’ করে।"
       }
     ],
     "assumptions": []

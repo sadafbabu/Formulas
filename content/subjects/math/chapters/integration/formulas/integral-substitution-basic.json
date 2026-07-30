@@ -21,18 +21,18 @@
     },
     {
       "symbol": "f",
-      "meaning": "f সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কম্পাঙ্ক / বল (প্রসঙ্গমতে)",
+      "unit": "Hz বা N"
     },
     {
       "symbol": "g",
-      "meaning": "g সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
-        "note": "ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du"
+        "note": "প্রতিস্থাপন পদ্ধতি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্রতিস্থাপন পদ্ধতি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du"
+      "question": "প্রতিস্থাপন পদ্ধতি এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du\\text{ — }ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du"
+    },
+    {
+      "examType": "Concept",
+      "question": "প্রতিস্থাপন পদ্ধতি দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{int f(g(x))g'(x) ,dx= int f(u) ,du}"
     }
   ],
   "memorize": {
     "trick": "ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
     "steps": [
-      "সূত্র: \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
-      "কী কাজে লাগে: প্রতিস্থাপন পদ্ধতি",
-      "চিহ্ন মনে রাখো: int, f, g, x"
+      "ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
+      "প্রশ্নে প্রতিস্থাপন পদ্ধতি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: int, f, g — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -22,17 +22,17 @@
     },
     {
       "symbol": "uparrow",
-      "meaning": "uparrow সম্পর্কিত রাশি",
+      "meaning": "uparrow (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "across period",
-      "meaning": "across period সম্পর্কিত রাশি",
+      "meaning": "across period (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "downarrow",
-      "meaning": "downarrow সম্পর্কিত রাশি",
+      "meaning": "downarrow (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}",
-        "note": "F > O > N/Cl — মুখস্থ ক্রম। \\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\tex"
+        "note": "পলিং তড়িৎঋণাত্মকতা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "F > O > N/Cl — মুখস্থ ক্রম। \\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\tex"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পলিং তড়িৎঋণাত্মকতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "পলিং তড়িৎঋণাত্মকতা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
       "answer": "\\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}"
+    },
+    {
+      "examType": "Concept",
+      "question": "পলিং তড়িৎঋণাত্মকতা দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{chi uparrow text across period ; chi downarrow text down group ; chi mathrm F text highest}"
     }
   ],
   "memorize": {
     "trick": "F > O > N/Cl — মুখস্থ ক্রম। \\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}",
     "steps": [
-      "সূত্র: \\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\ma…",
-      "কী কাজে লাগে: পলিং তড়িৎঋণাত্মকতা",
-      "চিহ্ন মনে রাখো: chi, uparrow, across period, downarrow"
+      "F > O > N/Cl — মুখস্থ ক্রম। \\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\m…",
+      "প্রশ্নে পলিং তড়িৎঋণাত্মকতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: chi, uparrow, across period — একক যাচাই করো"
     ]
   },
   "subjects": [

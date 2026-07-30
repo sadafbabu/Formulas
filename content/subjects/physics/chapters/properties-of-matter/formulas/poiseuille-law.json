@@ -32,7 +32,7 @@
     },
     {
       "symbol": "L",
-      "meaning": "L সম্পর্কিত রাশি",
+      "meaning": "দৈর্ঘ্য / আবেশ / ল্যাটেন্ট",
       "unit": "m"
     },
     {
@@ -47,12 +47,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "Q=\\dfrac{\\pi\\Delta P r^4}{8\\eta L}",
-        "note": "লমিনার প্রবাহে r⁴ নির্ভরতা — সামান্য r বৃদ্ধিতে Q বহুগুণ।"
+        "note": "পয়সেইয়ের সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "Q=\\dfrac{\\pi\\Delta P r^4}{8\\eta L}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Q∝r⁴ — নল একটু চওড়া হলে প্রবাহ অনেক বাড়ে।"
       }
     ],
     "assumptions": [

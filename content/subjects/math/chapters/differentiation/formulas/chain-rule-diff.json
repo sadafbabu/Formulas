@@ -21,18 +21,18 @@
     },
     {
       "symbol": "y",
-      "meaning": "y সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান",
+      "unit": "m"
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     },
     {
       "symbol": "u",
-      "meaning": "u সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "আদি বেগ",
+      "unit": "m/s"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{dy}{dx}=\\frac{dy}{du}\\cdot\\frac{du}{dx}",
-        "note": "বাইরের অন্তরক × ভিতরের অন্তরক।"
+        "note": "শৃঙ্খল নিয়ম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{dy}{dx}=\\frac{dy}{du}\\cdot\\frac{du}{dx}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "বাইরের অন্তরক × ভিতরের অন্তরক।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শৃঙ্খল নিয়ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\frac{dy}{dx}=\\frac{dy}{du}\\cdot\\frac{du}{dx}"
+      "question": "শৃঙ্খল নিয়ম এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\frac{dy}{dx}=\\frac{dy}{du}\\cdot\\frac{du}{dx}\\text{ — }বাইরের অন্তরক × ভিতরের অন্তরক।"
+    },
+    {
+      "examType": "Concept",
+      "question": "শৃঙ্খল নিয়ম দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{বাইরের অন্তরক  ভিতরের অন্তরক।}"
     }
   ],
   "memorize": {
     "trick": "বাইরের অন্তরক × ভিতরের অন্তরক।",
     "steps": [
-      "সূত্র: \\frac{dy}{dx}=\\frac{dy}{du}\\cdot\\frac{du}{dx}",
-      "কী কাজে লাগে: শৃঙ্খল নিয়ম",
-      "চিহ্ন মনে রাখো: d, y, x, u"
+      "বাইরের অন্তরক × ভিতরের অন্তরক।",
+      "প্রশ্নে শৃঙ্খল নিয়ম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: d, y, x — একক যাচাই করো"
     ]
   },
   "subjects": [

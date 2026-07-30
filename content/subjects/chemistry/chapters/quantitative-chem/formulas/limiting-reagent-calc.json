@@ -22,17 +22,17 @@
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     },
     {
       "symbol": "i",
-      "meaning": "i সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তড়িৎ প্রবাহ / জড়তার ভ্রামক",
+      "unit": "A বা kg·m²"
     },
     {
       "symbol": "nu",
-      "meaning": "nu সম্পর্কিত রাশি",
+      "meaning": "nu (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{limiting}=\\min\\left(\\frac{n_i}{\\nu_i}\\right)",
-        "note": "প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।"
+        "note": "সীমিত বিকারক গণনা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{limiting}=\\min\\left(\\frac{n_i}{\\nu_i}\\right)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সীমিত বিকারক গণনা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\text{limiting}=\\min\\left(\\frac{n_i}{\\nu_i}\\right)"
+      "question": "সীমিত বিকারক গণনা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\text{limiting}=\\min\\left(\\frac{n_i}{\\nu_i}\\right)\\text{ — }প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।"
+    },
+    {
+      "examType": "Concept",
+      "question": "সীমিত বিকারক গণনা দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।}"
     }
   ],
   "memorize": {
     "trick": "প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।",
     "steps": [
-      "সূত্র: \\text{limiting}=\\min\\left(\\frac{n_i}{\\nu_i}\\right)",
-      "কী কাজে লাগে: সীমিত বিকারক গণনা",
-      "চিহ্ন মনে রাখো: limiting, n, i, nu"
+      "প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।",
+      "প্রশ্নে সীমিত বিকারক গণনা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: limiting, n, i — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -21,17 +21,17 @@
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "c",
-      "meaning": "c সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "আলোর বেগ / আপেক্ষিক তাপ",
+      "unit": "m/s বা J/(kg·K)"
     },
     {
       "symbol": "in HP",
-      "meaning": "in HP সম্পর্কিত রাশি",
+      "meaning": "in HP (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}",
-        "note": "HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।"
+        "note": "হারমোনিক ধারা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "হারমোনিক ধারা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "হারমোনিক ধারা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}"
+    },
+    {
+      "examType": "Concept",
+      "question": "হারমোনিক ধারা দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{HP-এর ব্যস্তক AP  এই ট্রিকই যথেষ্ট।}"
     }
   ],
   "memorize": {
     "trick": "HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।",
     "steps": [
-      "সূত্র: a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}",
-      "কী কাজে লাগে: হারমোনিক ধারা",
-      "চিহ্ন মনে রাখো: a, b, c, in HP"
+      "HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।",
+      "প্রশ্নে হারমোনিক ধারা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: a, b, c — একক যাচাই করো"
     ]
   },
   "subjects": [

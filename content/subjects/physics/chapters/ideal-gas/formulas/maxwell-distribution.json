@@ -34,12 +34,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "f(v) = 4\\pi\\left(\\frac{m}{2\\pi kT}\\right)^{3/2} v^2 e^{-mv^2/2kT}, \\quad v_p = \\sqrt{\\frac{2kT}{m}}",
-        "note": "গ্যাস অণুর বেগ পরিসংখ্যান থেকে Maxwell-Boltzmann বিন্যাস।"
+        "note": "ম্যাক্সওয়েল বেগ বিন্যাস এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "f(v) = 4\\pi\\left(\\frac{m}{2\\pi kT}\\right)^{3/2} v^2 e^{-mv^2/2kT}, \\quad v_p = \\sqrt{\\frac{2kT}{m}}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "বিন্যাস লেখচিত্র মনে রাখুন: তাপমাত্রা বাড়লে চূড়া ডানে সরে ও চ্যাপ্টা হয়। সর্বাধিক সম্ভাব্য বেগ v_p = √(2kT/m) — এখানে"
       }
     ],
     "assumptions": [

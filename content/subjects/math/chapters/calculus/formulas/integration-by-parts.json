@@ -21,18 +21,18 @@
     },
     {
       "symbol": "u",
-      "meaning": "u সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "আদি বেগ",
+      "unit": "m/s"
     },
     {
       "symbol": "d",
-      "meaning": "d সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "দূরত্ব / ব্যাস",
+      "unit": "m"
     },
     {
       "symbol": "v",
-      "meaning": "v সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "বেগ",
+      "unit": "m/s"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\int u\\,dv=uv-\\int v\\,du",
-        "note": "LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u।"
+        "note": "অংশীয় যোগজীকরণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\int u\\,dv=uv-\\int v\\,du",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অংশীয় যোগজীকরণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\int u\\,dv=uv-\\int v\\,du"
+      "question": "অংশীয় যোগজীকরণ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\int u\\,dv=uv-\\int v\\,du\\text{ — }LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u।"
+    },
+    {
+      "examType": "Concept",
+      "question": "অংশীয় যোগজীকরণ দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{LIATE: Log, Inverse, Algebraic, Trig, Exp  choose u।}"
     }
   ],
   "memorize": {
     "trick": "LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u।",
     "steps": [
-      "সূত্র: \\int u\\,dv=uv-\\int v\\,du",
-      "কী কাজে লাগে: অংশীয় যোগজীকরণ",
-      "চিহ্ন মনে রাখো: int, u, d, v"
+      "LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u।",
+      "প্রশ্নে অংশীয় যোগজীকরণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: int, u, d — একক যাচাই করো"
     ]
   },
   "subjects": [

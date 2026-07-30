@@ -21,12 +21,12 @@
     },
     {
       "symbol": "i",
-      "meaning": "i সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তড়িৎ প্রবাহ / জড়তার ভ্রামক",
+      "unit": "A বা kg·m²"
     },
     {
       "symbol": "Delta",
-      "meaning": "Delta সম্পর্কিত রাশি",
+      "meaning": "পরিবর্তন",
       "unit": "—"
     }
   ],
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "x_i=\\frac{\\Delta_i}{\\Delta}\\quad(\\Delta\\ne0)",
-        "note": "প্রতি চলকের জন্য স্তম্ভ বদলাও।"
+        "note": "ক্রেমারের সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "x_i=\\frac{\\Delta_i}{\\Delta}\\quad(\\Delta\\ne0)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "প্রতি চলকের জন্য স্তম্ভ বদলাও।"
       }
     ],
     "assumptions": []
@@ -49,16 +49,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্রেমারের সূত্র কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ক্রেমারের সূত্র এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "x_i=\\frac{\\Delta_i}{\\Delta}\\quad(\\Delta\\ne0)"
+    },
+    {
+      "examType": "Concept",
+      "question": "ক্রেমারের সূত্র দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{প্রতি চলকের জন্য স্তম্ভ বদলাও।}"
     }
   ],
   "memorize": {
     "trick": "প্রতি চলকের জন্য স্তম্ভ বদলাও।",
     "steps": [
-      "সূত্র: x_i=\\frac{\\Delta_i}{\\Delta}\\quad(\\Delta\\ne0)",
-      "কী কাজে লাগে: ক্রেমারের সূত্র",
-      "চিহ্ন মনে রাখো: x, i, Delta"
+      "প্রতি চলকের জন্য স্তম্ভ বদলাও।",
+      "প্রশ্নে ক্রেমারের সূত্র প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: x, i, Delta — একক যাচাই করো"
     ]
   },
   "subjects": [

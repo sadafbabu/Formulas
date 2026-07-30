@@ -22,13 +22,13 @@
     },
     {
       "symbol": "A",
-      "meaning": "A সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ক্ষেত্রফল / বিস্তার",
+      "unit": "m²"
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     }
   ],
   "derivation": {
@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\overline{A+B}=\\bar A\\cdot\\bar B,\\quad\\overline{A\\cdot B}=\\bar A+\\bar B",
-        "note": "ডি মরগানের সূত্র এর মূল সম্পর্ক ও প্রয়োগ।"
+        "note": "ডি মরগানের সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\overline{A+B}=\\bar A\\cdot\\bar B,\\quad\\overline{A\\cdot B}=\\bar A+\\bar B",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "বার ভাঙলে OR↔AND বদলায়। বুলিয়ান বীজগণিতের ডি মরগান"
       }
     ],
     "assumptions": []
@@ -50,16 +50,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ডি মরগানের সূত্র কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ডি মরগানের সূত্র এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\overline{A+B}=\\bar A\\cdot\\bar B,\\quad\\overline{A\\cdot B}=\\bar A+\\bar B"
+    },
+    {
+      "examType": "Concept",
+      "question": "ডি মরগানের সূত্র দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{বার ভাঙলে OR↔AND বদলায়। বুলিয়ান বীজগণিতের ডি মরগান}"
     }
   ],
   "memorize": {
     "trick": "বার ভাঙলে OR↔AND বদলায়। বুলিয়ান বীজগণিতের ডি মরগান",
     "steps": [
-      "সূত্র: \\overline{A+B}=\\bar A\\cdot\\bar B,\\quad\\overline{A\\cdot B}=\\bar A+\\bar B",
-      "বুলিয়ান বীজগণিতের ডি মরগান",
-      "চিহ্ন মনে রাখো: overline, A, B"
+      "বার ভাঙলে OR↔AND বদলায়। বুলিয়ান বীজগণিতের ডি মরগান",
+      "প্রশ্নে ডি মরগানের সূত্র প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: overline, A, B — একক যাচাই করো"
     ]
   },
   "subjects": [

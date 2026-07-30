@@ -26,12 +26,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A",
-        "note": "cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।"
+        "note": "দ্বিগুণ কোণ সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।"
       }
     ],
     "assumptions": []
@@ -39,16 +39,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দ্বিগুণ কোণ সূত্র কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A"
+      "question": "দ্বিগুণ কোণ সূত্র এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A\\text{ — }cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।"
+    },
+    {
+      "examType": "Concept",
+      "question": "দ্বিগুণ কোণ সূত্র দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{cos2A-এর তিন রূপ  sin/cos একা থাকলে কাজে লাগে।}"
     }
   ],
   "memorize": {
     "trick": "cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।",
     "steps": [
-      "সূত্র: \\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A",
-      "কী কাজে লাগে: দ্বিগুণ কোণ সূত্র",
-      "চিহ্ন মনে রাখো: A"
+      "cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।",
+      "প্রশ্নে দ্বিগুণ কোণ সূত্র প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A — একক যাচাই করো"
     ]
   },
   "subjects": [

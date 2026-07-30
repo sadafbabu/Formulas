@@ -27,12 +27,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{chelate complexes more stable than similar non-chelates}",
-        "note": "এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল।"
+        "note": "কিলেট প্রভাব এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{chelate complexes more stable than similar non-chelates}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল।"
       }
     ],
     "assumptions": []
@@ -40,16 +40,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কিলেট প্রভাব কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "কিলেট প্রভাব এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{chelate complexes more stable than similar non-chelates}"
+    },
+    {
+      "examType": "Concept",
+      "question": "কিলেট প্রভাব দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল।}"
     }
   ],
   "memorize": {
     "trick": "এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল।",
     "steps": [
-      "সূত্র: \\text{chelate complexes more stable than similar non-chelates}",
-      "কী কাজে লাগে: কিলেট প্রভাব",
-      "চিহ্ন মনে রাখো: chelate complexes more stable than similar non-chelates"
+      "এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল।",
+      "প্রশ্নে কিলেট প্রভাব প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: chelate complexes more stable than similar non-chelates — একক যাচাই করো"
     ]
   },
   "subjects": [

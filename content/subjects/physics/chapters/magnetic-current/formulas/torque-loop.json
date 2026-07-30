@@ -48,12 +48,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\tau = M B \\sin \\theta",
-        "note": "কুণ্ডলীর তল B-এর সমান্তরাল হলে area normal তথা M ⟂ B, তাই টর্ক সর্বোচ্চ; M ∥ B হলে টর্ক শূন্য।"
+        "note": "কুণ্ডলীতে টর্ক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\tau = M B \\sin \\theta",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "τ = MB sinθ — তলের সমতলে B থাকলে (θ = 90°) টর্ক সর্বোচ্চ, তলের লম্বে থাকলে (θ = 0) টর্ক শূন্য।"
       }
     ],
     "assumptions": [

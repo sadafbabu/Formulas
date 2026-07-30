@@ -22,17 +22,17 @@
     },
     {
       "symbol": "N",
-      "meaning": "N সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কণা সংখ্যা",
+      "unit": "1"
     },
     {
       "symbol": "H",
-      "meaning": "H সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র / এনথ্যালপি",
+      "unit": "A/m বা J"
     },
     {
       "symbol": "O",
-      "meaning": "O সম্পর্কিত রাশি",
+      "meaning": "O (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\ce{4NH3 + 5O2 -> 4NO + 6H2O};\\quad \\ce{NO -> NO2 -> HNO3}",
-        "note": "Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।"
+        "note": "অস্টওয়াল্ড পদ্ধতি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\ce{4NH3 + 5O2 -> 4NO + 6H2O};\\quad \\ce{NO -> NO2 -> HNO3}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অস্টওয়াল্ড পদ্ধতি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "অস্টওয়াল্ড পদ্ধতি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\ce{4NH3 + 5O2 -> 4NO + 6H2O};\\quad \\ce{NO -> NO2 -> HNO3}"
+    },
+    {
+      "examType": "Concept",
+      "question": "অস্টওয়াল্ড পদ্ধতি দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।}"
     }
   ],
   "memorize": {
     "trick": "Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।",
     "steps": [
-      "সূত্র: \\ce{4NH3 + 5O2 -> 4NO + 6H2O};\\quad \\ce{NO -> NO2 -> HNO3}",
-      "কী কাজে লাগে: অস্টওয়াল্ড পদ্ধতি",
-      "চিহ্ন মনে রাখো: ce, N, H, O"
+      "Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।",
+      "প্রশ্নে অস্টওয়াল্ড পদ্ধতি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: ce, N, H — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta G=-nFE_{\\mathrm{cell}},\\quad \\Delta G^\\circ=-nFE^\\circ_{\\mathrm{cell}},\\quad E=E^\\circ-\\frac{RT}{nF}\\ln Q",
-        "note": "Nernst সমীকরণ ও তাপগতিবিদ্যার সমন্বয় থেকে।"
+        "note": "গিবস মুক্ত শক্তি ও কোষ EMF এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\Delta G=-nFE_{\\mathrm{cell}},\\quad \\Delta G^\\circ=-nFE^\\circ_{\\mathrm{cell}},\\quad E=E^\\circ-\\frac{RT}{nF}\\ln Q",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ΔG = −nFE — ঋণাত্মক চিহ্নটাই আসল: E ধনাত্মক হলে ΔG ঋণাত্মক, অর্থাৎ বিক্রিয়া স্বতঃস্ফূর্ত। 'ধনাত্মক EMF = কোষ কাজ করবে'।"
       }
     ],
     "assumptions": [

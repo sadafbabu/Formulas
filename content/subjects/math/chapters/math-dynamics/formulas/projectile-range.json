@@ -21,18 +21,18 @@
     },
     {
       "symbol": "u",
-      "meaning": "u সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "আদি বেগ",
+      "unit": "m/s"
     },
     {
       "symbol": "theta",
-      "meaning": "theta সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কোণ",
+      "unit": "rad"
     },
     {
       "symbol": "g",
-      "meaning": "g সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "R=\\frac{u^2\\sin 2\\theta}{g}",
-        "note": "45°-এ max range; R=u²sin2θ/g — HSC favorite।"
+        "note": "ক্ষিপ্ত বস্তুর পালা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "R=\\frac{u^2\\sin 2\\theta}{g}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "45°-এ max range; R=u²sin2θ/g — HSC favorite।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্ষিপ্ত বস্তুর পালা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "R=\\frac{u^2\\sin 2\\theta}{g}"
+      "question": "ক্ষিপ্ত বস্তুর পালা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "R=\\frac{u^2\\sin 2\\theta}{g}\\text{ — }45°-এ max range; R=u²sin2θ/g — HSC favorite।"
+    },
+    {
+      "examType": "Concept",
+      "question": "ক্ষিপ্ত বস্তুর পালা দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{45-এ max range; R=usin2θ/g  HSC favorite।}"
     }
   ],
   "memorize": {
     "trick": "45°-এ max range; R=u²sin2θ/g — HSC favorite।",
     "steps": [
-      "সূত্র: R=\\frac{u^2\\sin 2\\theta}{g}",
-      "কী কাজে লাগে: ক্ষিপ্ত বস্তুর পালা",
-      "চিহ্ন মনে রাখো: R, u, theta, g"
+      "45°-এ max range; R=u²sin2θ/g — HSC favorite।",
+      "প্রশ্নে ক্ষিপ্ত বস্তুর পালা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: R, u, theta — একক যাচাই করো"
     ]
   },
   "subjects": [

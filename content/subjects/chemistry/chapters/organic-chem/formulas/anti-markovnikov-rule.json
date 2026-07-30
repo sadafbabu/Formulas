@@ -22,17 +22,17 @@
     },
     {
       "symbol": "HBr",
-      "meaning": "HBr সম্পর্কিত রাশি",
+      "meaning": "HBr (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "xrightarrow",
-      "meaning": "xrightarrow সম্পর্কিত রাশি",
+      "meaning": "xrightarrow (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "ROOR",
-      "meaning": "ROOR সম্পর্কিত রাশি",
+      "meaning": "ROOR (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{RCH=CH_2}+\\mathrm{HBr}\\xrightarrow{\\mathrm{ROOR}}\\mathrm{RCH_2CH_2Br}",
-        "note": "পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।"
+        "note": "অ্যান্টি-মার্কোভনিকভ যোজন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{RCH=CH_2}+\\mathrm{HBr}\\xrightarrow{\\mathrm{ROOR}}\\mathrm{RCH_2CH_2Br}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অ্যান্টি-মার্কোভনিকভ যোজন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\mathrm{RCH=CH_2}+\\mathrm{HBr}\\xrightarrow{\\mathrm{ROOR}}\\mathrm{RCH_2CH_2Br}"
+      "question": "অ্যান্টি-মার্কোভনিকভ যোজন এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\mathrm{RCH=CH_2}+\\mathrm{HBr}\\xrightarrow{\\mathrm{ROOR}}\\mathrm{RCH_2CH_2Br}\\text{ — }পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।"
+    },
+    {
+      "examType": "Concept",
+      "question": "অ্যান্টি-মার্কোভনিকভ যোজন দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।}"
     }
   ],
   "memorize": {
     "trick": "পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।",
     "steps": [
-      "সূত্র: \\mathrm{RCH=CH_2}+\\mathrm{HBr}\\xrightarrow{\\mathrm{ROOR}}\\mathrm{RCH_2CH_2Br}",
-      "কী কাজে লাগে: অ্যান্টি-মার্কোভনিকভ যোজন",
-      "চিহ্ন মনে রাখো: RCH=CH_2, HBr, xrightarrow, ROOR"
+      "পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।",
+      "প্রশ্নে অ্যান্টি-মার্কোভনিকভ যোজন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: RCH=CH_2, HBr, xrightarrow — একক যাচাই করো"
     ]
   },
   "subjects": [

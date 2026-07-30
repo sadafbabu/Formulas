@@ -22,18 +22,18 @@
     },
     {
       "symbol": "EF",
-      "meaning": "EF সম্পর্কিত রাশি",
+      "meaning": "EF (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     },
     {
       "symbol": "M",
-      "meaning": "M সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর / মোলার ভর",
+      "unit": "kg বা g/mol"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
-        "note": "n = আণবিক ভর ÷ আনুভবিক ভর। \\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}"
+        "note": "আনুভবিক ও আণবিক সংকেত এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "n = আণবিক ভর ÷ আনুভবিক ভর। \\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}"
       }
     ],
     "assumptions": []
@@ -55,16 +55,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আনুভবিক ও আণবিক সংকেত কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "আনুভবিক ও আণবিক সংকেত এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
       "answer": "\\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}"
     }
   ],
   "memorize": {
     "trick": "n = আণবিক ভর ÷ আনুভবিক ভর। \\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
     "steps": [
-      "সূত্র: \\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
-      "কী কাজে লাগে: আনুভবিক ও আণবিক সংকেত",
-      "চিহ্ন মনে রাখো: MF, EF, n, M"
+      "n = আণবিক ভর ÷ আনুভবিক ভর। \\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
+      "প্রশ্নে আনুভবিক ও আণবিক সংকেত প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: MF, EF, n — একক যাচাই করো"
     ]
   },
   "subjects": [

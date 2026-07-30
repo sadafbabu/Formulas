@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\sum I = 0 \\quad (\\text{KCL}), \\quad \\sum E = \\sum I R \\quad (\\text{KVL})",
-        "note": "KCL আধানের সংরক্ষণশীলতা নীতি এবং KVL শক্তির সংরক্ষণশীলতা নীতির ওপর প্রতিষ্ঠিত।"
+        "note": "কার্শফের তড়িৎ প্রবাহ ও বিভব সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\sum I = 0 \\quad (\\text{KCL}), \\quad \\sum E = \\sum I R \\quad (\\text{KVL})",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "দুই সূত্র = দুই নিত্যতা। KCL (ΣI = 0) হলো আধানের নিত্যতা — 'যত ঢোকে, তত বেরোয়'। KVL (ΣE = ΣIR) হলো শক্তির নিত্যতা — 'বদ"
       }
     ],
     "assumptions": [

@@ -34,13 +34,13 @@
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "c",
-      "meaning": "c সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "আলোর বেগ / আপেক্ষিক তাপ",
+      "unit": "m/s বা J/(kg·K)"
     }
   ],
   "derivation": {

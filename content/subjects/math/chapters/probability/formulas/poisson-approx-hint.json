@@ -21,18 +21,18 @@
     },
     {
       "symbol": "X",
-      "meaning": "X সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "রিয়েক্ট্যান্স",
+      "unit": "Ω"
     },
     {
       "symbol": "k",
-      "meaning": "k সম্পর্কিত রাশি",
+      "meaning": "বল ধ্রুবক / বোল্টজম্যান / তরঙ্গ সংখ্যা",
       "unit": "—"
     },
     {
       "symbol": "e",
-      "meaning": "e সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ইলেকট্রন চার্জ / ভিত্তি",
+      "unit": "C"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np",
-        "note": "n বড়, p ছোট হলে binomial → Poisson।"
+        "note": "পোয়াসোঁ আনুমানিক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "n বড়, p ছোট হলে binomial → Poisson।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পোয়াসোঁ আনুমানিক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "পোয়াসোঁ আনুমানিক এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np"
+    },
+    {
+      "examType": "Concept",
+      "question": "পোয়াসোঁ আনুমানিক দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{n বড়, p ছোট হলে binomial → Poisson।}"
     }
   ],
   "memorize": {
     "trick": "n বড়, p ছোট হলে binomial → Poisson।",
     "steps": [
-      "সূত্র: P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np",
-      "কী কাজে লাগে: পোয়াসোঁ আনুমানিক",
-      "চিহ্ন মনে রাখো: P, X, k, e"
+      "n বড়, p ছোট হলে binomial → Poisson।",
+      "প্রশ্নে পোয়াসোঁ আনুমানিক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: P, X, k — একক যাচাই করো"
     ]
   },
   "subjects": [

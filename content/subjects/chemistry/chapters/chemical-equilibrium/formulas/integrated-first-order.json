@@ -22,17 +22,17 @@
     },
     {
       "symbol": "k",
-      "meaning": "k সম্পর্কিত রাশি",
+      "meaning": "বল ধ্রুবক / বোল্টজম্যান / তরঙ্গ সংখ্যা",
       "unit": "—"
     },
     {
       "symbol": "t",
-      "meaning": "t সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "সময়",
+      "unit": "s"
     },
     {
       "symbol": "or",
-      "meaning": "or সম্পর্কিত রাশি",
+      "meaning": "or (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
-        "note": "ln([A]₀/[A])=kt — ln[A] বনাম t সরলরেখা।"
+        "note": "সমাকলিত প্রথম ক্রম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ln[A] বনাম t সরলরেখা। \\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}"
       }
     ],
     "assumptions": []
@@ -55,16 +55,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমাকলিত প্রথম ক্রম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সমাকলিত প্রথম ক্রম এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
       "answer": "\\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}"
     }
   ],
   "memorize": {
     "trick": "ln[A] বনাম t সরলরেখা। \\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
     "steps": [
-      "সূত্র: \\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
-      "কী কাজে লাগে: সমাকলিত প্রথম ক্রম",
-      "চিহ্ন মনে রাখো: A, k, t, or"
+      "ln[A] বনাম t সরলরেখা। \\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
+      "প্রশ্নে সমাকলিত প্রথম ক্রম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A, k, t — একক যাচাই করো"
     ]
   },
   "subjects": [

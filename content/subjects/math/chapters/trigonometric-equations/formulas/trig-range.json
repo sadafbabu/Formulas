@@ -21,17 +21,17 @@
     },
     {
       "symbol": "theta",
-      "meaning": "theta সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কোণ",
+      "unit": "rad"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "in",
-      "meaning": "in সম্পর্কিত রাশি",
+      "meaning": "in (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "a\\cos\\theta+b\\sin\\theta\\in\\big[-\\sqrt{a^2+b^2},\\sqrt{a^2+b^2}\\big]",
-        "note": "ত্রিকোণমিতিক রাশির সীমা এর মূল সম্পর্ক ও প্রয়োগ।"
+        "note": "ত্রিকোণমিতিক রাশির সীমা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "a\\cos\\theta+b\\sin\\theta\\in\\big[-\\sqrt{a^2+b^2},\\sqrt{a^2+b^2}\\big]",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "রেঞ্জ = [−R, R], R=√(a²+b²)। a cosθ + b sinθ এর রেঞ্জ"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ত্রিকোণমিতিক রাশির সীমা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "a\\cos\\theta+b\\sin\\theta\\in\\big[-\\sqrt{a^2+b^2},\\sqrt{a^2+b^2}\\big]"
+      "question": "ত্রিকোণমিতিক রাশির সীমা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "a\\cos\\theta+b\\sin\\theta\\in\\big[-\\sqrt{a^2+b^2},\\sqrt{a^2+b^2}\\big]\\text{ — }রেঞ্জ = [−R, R], R=√(a²+b²)। a cosθ + b sinθ এর রেঞ্জ"
+    },
+    {
+      "examType": "Concept",
+      "question": "ত্রিকোণমিতিক রাশির সীমা দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{a cosθ + b sinθ এর রেঞ্জ}"
     }
   ],
   "memorize": {
     "trick": "রেঞ্জ = [−R, R], R=√(a²+b²)। a cosθ + b sinθ এর রেঞ্জ",
     "steps": [
-      "সূত্র: a\\cos\\theta+b\\sin\\theta\\in\\big[-\\sqrt{a^2+b^2},\\sqrt{a^2+b^2}\\big]",
-      "a cosθ + b sinθ এর রেঞ্জ",
-      "চিহ্ন মনে রাখো: a, theta, b, in"
+      "রেঞ্জ = [−R, R], R=√(a²+b²)। a cosθ + b sinθ এর রেঞ্জ",
+      "প্রশ্নে ত্রিকোণমিতিক রাশির সীমা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: a, theta, b — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -22,7 +22,7 @@
     },
     {
       "symbol": "Frenkel: ion displaced to interstitial",
-      "meaning": "Frenkel: ion displaced to interstitial সম্পর্কিত রাশি",
+      "meaning": "Frenkel: ion displaced to interstitial (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -32,12 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{Schottky: cation+anion vacancy};\\ \\text{Frenkel: ion displaced to interstitial}",
-        "note": "শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।"
+        "note": "শটকি ও ফ্রেনকেল ত্রুটি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{Schottky: cation+anion vacancy};\\ \\text{Frenkel: ion displaced to interstitial}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।"
       }
     ],
     "assumptions": []
@@ -45,16 +45,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শটকি ও ফ্রেনকেল ত্রুটি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "শটকি ও ফ্রেনকেল ত্রুটি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{Schottky: cation+anion vacancy};\\ \\text{Frenkel: ion displaced to interstitial}"
+    },
+    {
+      "examType": "Concept",
+      "question": "শটকি ও ফ্রেনকেল ত্রুটি দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।}"
     }
   ],
   "memorize": {
     "trick": "শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।",
     "steps": [
-      "সূত্র: \\text{Schottky: cation+anion vacancy};\\ \\text{Frenkel: ion displaced to intersti…",
-      "কী কাজে লাগে: শটকি ও ফ্রেনকেল ত্রুটি",
-      "চিহ্ন মনে রাখো: Schottky: cation+anion vacancy, Frenkel: ion displaced to interstitial"
+      "শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।",
+      "প্রশ্নে শটকি ও ফ্রেনকেল ত্রুটি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: Schottky: cation+anion vacancy, Frenkel: ion displaced to interstitial — একক যাচাই করো"
     ]
   },
   "subjects": [

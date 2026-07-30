@@ -22,7 +22,7 @@
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
+      "meaning": "চৌম্বক ক্ষেত্র",
       "unit": "m"
     },
     {
@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
-        "note": "V=∫_a^b E dr, E=kq/r² → C=q/V।"
+        "note": "গোলীয় ধারক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "C=4πε₀ ab/(b−a)। C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}"
       }
     ],
     "assumptions": [
@@ -52,16 +52,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গোলীয় ধারক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}"
+      "question": "গোলীয় ধারক এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}\\text{ — }C=4πε₀ ab/(b−a)। C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}"
+    },
+    {
+      "examType": "Concept",
+      "question": "গোলীয় ধারক দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{C=4 pi varepsilon 0 dfrac ab b-a}"
     }
   ],
   "memorize": {
     "trick": "C=4πε₀ ab/(b−a)। C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
     "steps": [
-      "সূত্র: C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
-      "কী কাজে লাগে: গোলীয় ধারক",
-      "চিহ্ন মনে রাখো: a, b, C"
+      "C=4πε₀ ab/(b−a)। C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
+      "প্রশ্নে গোলীয় ধারক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: a, b, C — একক যাচাই করো"
     ]
   },
   "subjects": [

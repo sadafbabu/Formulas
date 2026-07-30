@@ -22,7 +22,7 @@
     },
     {
       "symbol": "v",
-      "meaning": "v সম্পর্কিত রাশি",
+      "meaning": "বেগ",
       "unit": "m/s"
     },
     {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "v=u+at",
-        "note": "বেগ বাড়ে সময় দিয়ে: v = u + at — ‘আদি + ত্বরণ×সময়’।"
+        "note": "প্রথম গতি সমীকরণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "v=u+at",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "বেগ বাড়ে সময় দিয়ে: v = u + at — ‘আদি + ত্বরণ×সময়’।"
       }
     ],
     "assumptions": [

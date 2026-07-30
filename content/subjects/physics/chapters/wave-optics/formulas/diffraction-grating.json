@@ -39,12 +39,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "(a+b)\\sin\\theta = n\\lambda, \\quad N = \\frac{1}{a+b}",
-        "note": "একাধিক সমান্তরাল চিরের থেকে নির্গত রশ্মির গঠনমূলক অপবর্তন শর্ত।"
+        "note": "অপবর্তন গ্রেটিং সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "(a+b)\\sin\\theta = n\\lambda, \\quad N = \\frac{1}{a+b}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "(a+b)sinθ = nλ — এখানে (a+b) হলো গ্রেটিং ধ্রুবক, আর N = 1/(a+b) হলো প্রতি একক দৈর্ঘ্যে দাগের সংখ্যা।"
       }
     ],
     "assumptions": [

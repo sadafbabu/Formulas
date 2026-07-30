@@ -22,7 +22,7 @@
     },
     {
       "symbol": "reduction: gain H / lose O",
-      "meaning": "reduction: gain H / lose O সম্পর্কিত রাশি",
+      "meaning": "reduction: gain H / lose O (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -32,12 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{oxidation: gain O / lose H};\\quad \\text{reduction: gain H / lose O}",
-        "note": "অ্যালকোহল→অ্যালডিহাইড→অ্যাসিড = জারণ।"
+        "note": "জৈব জারণ–বিজারণ ধারণা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{oxidation: gain O / lose H};\\quad \\text{reduction: gain H / lose O}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "অ্যালকোহল→অ্যালডিহাইড→অ্যাসিড = জারণ।"
       }
     ],
     "assumptions": []
@@ -45,16 +45,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জৈব জারণ–বিজারণ ধারণা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "জৈব জারণ–বিজারণ ধারণা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{oxidation: gain O / lose H};\\quad \\text{reduction: gain H / lose O}"
+    },
+    {
+      "examType": "Concept",
+      "question": "জৈব জারণ–বিজারণ ধারণা দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{অ্যালকোহল→অ্যালডিহাইড→অ্যাসিড = জারণ।}"
     }
   ],
   "memorize": {
     "trick": "অ্যালকোহল→অ্যালডিহাইড→অ্যাসিড = জারণ।",
     "steps": [
-      "সূত্র: \\text{oxidation: gain O / lose H};\\quad \\text{reduction: gain H / lose O}",
-      "কী কাজে লাগে: জৈব জারণ–বিজারণ ধারণা",
-      "চিহ্ন মনে রাখো: oxidation: gain O / lose H, reduction: gain H / lose O"
+      "অ্যালকোহল→অ্যালডিহাইড→অ্যাসিড = জারণ।",
+      "প্রশ্নে জৈব জারণ–বিজারণ ধারণা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: oxidation: gain O / lose H, reduction: gain H / lose O — একক যাচাই করো"
     ]
   },
   "subjects": [

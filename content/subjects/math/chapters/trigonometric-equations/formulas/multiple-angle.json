@@ -34,12 +34,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\sin 2A = 2\\sin A\\cos A, \\quad \\cos 2A = 2\\cos^2 A - 1, \\quad \\sin\\frac{A}{2} = \\pm\\sqrt{\\frac{1-\\cos A}{2}}",
-        "note": "যৌগিক কোণ সূত্রে A = B বসালে দ্বিগুণ কোণ সূত্র পাওয়া যায়।"
+        "note": "গুণিতক ও উপগুণিতক কোণ সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\sin 2A = 2\\sin A\\cos A, \\quad \\cos 2A = 2\\cos^2 A - 1, \\quad \\sin\\frac{A}{2} = \\pm\\sqrt{\\frac{1-\\cos A}{2}}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "sin2A = 2sinAcosA ('দুই সাইন কস'), cos2A-এর তিন রূপ: 1 − 2sin²A, 2cos²A − 1, cos²A − sin²A — যেটা দরকার সেটা বাছুন। আর t"
       }
     ],
     "assumptions": [
@@ -52,7 +52,7 @@
     {
       "examType": "HSC",
       "question": "\\sin 2A এর মান কী?",
-      "answer": "\\sin 2A = 2\\sin A\\cos A"
+      "answer": "\\sin 2A = 2\\sin A\\cos A, \\quad \\cos 2A = 2\\cos^2 A - 1, \\quad \\sin\\frac{A}{2} = \\pm\\sqrt{\\frac{1-\\cos A}{2}}"
     }
   ],
   "memorize": {

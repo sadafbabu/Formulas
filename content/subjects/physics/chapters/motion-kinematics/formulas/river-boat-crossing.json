@@ -22,18 +22,18 @@
     },
     {
       "symbol": "d",
-      "meaning": "d সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "দূরত্ব / ব্যাস",
+      "unit": "m"
     },
     {
       "symbol": "v",
-      "meaning": "v সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "বেগ",
+      "unit": "m/s"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "t=\\frac{d}{\\sqrt{v_b^2-v_r^2}}\\ (\\perp),\\quad t_{\\min}=\\frac{d}{v_b}",
-        "note": "লম্ব পথ: drift কাটতে কাত; কম সময়ে সোজা তীরের দিকে।"
+        "note": "নদী পারাপার এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "t=\\frac{d}{\\sqrt{v_b^2-v_r^2}}\\ (\\perp),\\quad t_{\\min}=\\frac{d}{v_b}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "লম্ব পথ: drift কাটতে কাত; কম সময়ে সোজা তীরের দিকে।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "নদী পারাপার কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "নদী পারাপার এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "t=\\frac{d}{\\sqrt{v_b^2-v_r^2}}\\ (\\perp),\\quad t_{\\min}=\\frac{d}{v_b}"
+    },
+    {
+      "examType": "Concept",
+      "question": "নদী পারাপার দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{লম্ব পথ: drift কাটতে কাত; কম সময়ে সোজা তীরের দিকে।}"
     }
   ],
   "memorize": {
     "trick": "লম্ব পথ: drift কাটতে কাত; কম সময়ে সোজা তীরের দিকে।",
     "steps": [
-      "সূত্র: t=\\frac{d}{\\sqrt{v_b^2-v_r^2}}\\ (\\perp),\\quad t_{\\min}=\\frac{d}{v_b}",
-      "কী কাজে লাগে: নদী পারাপার",
-      "চিহ্ন মনে রাখো: t, d, v, b"
+      "লম্ব পথ: drift কাটতে কাত; কম সময়ে সোজা তীরের দিকে।",
+      "প্রশ্নে নদী পারাপার প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: t, d, v — একক যাচাই করো"
     ]
   },
   "subjects": [

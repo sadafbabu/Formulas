@@ -15,12 +15,12 @@
   "symbols": [
     {
       "symbol": "l",
-      "meaning": "x",
+      "meaning": "দৈর্ঘ্য / আবেশ / ল্যাটেন্ট",
       "unit": "এককহীন"
     },
     {
       "symbol": "m",
-      "meaning": "y",
+      "meaning": "ভর",
       "unit": "এককহীন"
     },
     {
@@ -35,12 +35,12 @@
     },
     {
       "symbol": "\\beta",
-      "meaning": "\\beta সম্পর্কিত রাশি",
+      "meaning": "কোণ / ক্ষেত্র প্রসারণ",
       "unit": "°"
     },
     {
       "symbol": "\\gamma",
-      "meaning": "\\gamma সম্পর্কিত রাশি",
+      "meaning": "আয়তন প্রসারণ / আপেক্ষিকতা",
       "unit": "°"
     }
   ],
@@ -50,12 +50,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "l^2 + m^2 + n^2 = 1, \\quad \\cos\\alpha = \\frac{a_x}{|\\vec{a}|}",
-        "note": "একক ভেক্টরের উপাংশ হলো দিক কোসাইন।"
+        "note": "দিক কোসাইন ও অনুপাত এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "l^2 + m^2 + n^2 = 1, \\quad \\cos\\alpha = \\frac{a_x}{|\\vec{a}|}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "l² + m² + n² = 1 — তিন দিক কোসাইনের বর্গের যোগফল সর্বদা ১। প্রতিটি = সংশ্লিষ্ট উপাংশ ÷ ভেক্টরের মান।"
       }
     ],
     "assumptions": [
@@ -66,9 +66,14 @@
   "chapter": "vector",
   "questions": [
     {
-      "examType": "HSC",
-      "question": "দিক কোসাইনের মূল সম্পর্ক কী?",
-      "answer": "l^2+m^2+n^2=1"
+      "examType": "HSC / Admission",
+      "question": "দিক কোসাইন ও অনুপাত এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
+      "answer": "l^2 + m^2 + n^2 = 1, \\quad \\cos\\alpha = \\frac{a_x}{|\\vec{a}|}"
+    },
+    {
+      "examType": "Concept",
+      "question": "দিক কোসাইন ও অনুপাত দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{l + m + n = 1  তিন দিক কোসাইনের বর্গের যোগফল সর্বদা ১। প্রতিটি = সংশ্লিষ্ট উপাংশ ÷ ভেক্টরের মান।}"
     }
   ],
   "memorize": {

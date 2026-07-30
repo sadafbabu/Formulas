@@ -22,7 +22,7 @@
     },
     {
       "symbol": "generally increases across a period (more negative)",
-      "meaning": "generally increases across a period (more negative) সম্পর্কিত রাশি",
+      "meaning": "generally increases across a period (more negative) (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -32,12 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{EA}\\text{ generally increases across a period (more negative)}",
-        "note": "হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।"
+        "note": "ইলেকট্রন আসক্তির প্রবণতা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{EA}\\text{ generally increases across a period (more negative)}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।"
       }
     ],
     "assumptions": []
@@ -45,16 +45,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ইলেকট্রন আসক্তির প্রবণতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ইলেকট্রন আসক্তির প্রবণতা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\mathrm{EA}\\text{ generally increases across a period (more negative)}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ইলেকট্রন আসক্তির প্রবণতা দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।}"
     }
   ],
   "memorize": {
     "trick": "হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।",
     "steps": [
-      "সূত্র: \\mathrm{EA}\\text{ generally increases across a period (more negative)}",
-      "কী কাজে লাগে: ইলেকট্রন আসক্তির প্রবণতা",
-      "চিহ্ন মনে রাখো: EA, generally increases across a period (more negative)"
+      "হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।",
+      "প্রশ্নে ইলেকট্রন আসক্তির প্রবণতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: EA, generally increases across a period (more negative) — একক যাচাই করো"
     ]
   },
   "subjects": [

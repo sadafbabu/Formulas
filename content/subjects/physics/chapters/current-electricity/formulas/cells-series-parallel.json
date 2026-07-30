@@ -32,7 +32,7 @@
     },
     {
       "symbol": "r",
-      "meaning": "r সম্পর্কিত রাশি",
+      "meaning": "ব্যাসার্ধ / দূরত্ব",
       "unit": "V, Ω"
     }
   ],
@@ -64,9 +64,9 @@
   "memorize": {
     "trick": "Series: যোগ; Parallel: E এক, r ভাগ।",
     "steps": [
-      "সূত্র: \\text{series: }E_{\\mathrm{eq}}=nE,\\ r_{\\mathrm{eq}}=nr;\\quad\\text{parallel: }E_{…",
-      "সিরিজ: E_eq=nE, r_eq=nr; সমান্তরাল: E_eq=E, r_eq=r/m",
-      "চিহ্ন মনে রাখো: n, m, E, r"
+      "Series: যোগ; Parallel: E এক, r ভাগ।",
+      "প্রশ্নে কোষের শ্রেণী ও সমান্তরাল সংযোগ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: n, m, E — একক যাচাই করো"
     ]
   },
   "subjects": [

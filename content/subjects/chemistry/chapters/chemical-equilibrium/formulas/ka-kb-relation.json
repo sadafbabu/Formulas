@@ -22,18 +22,18 @@
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "w",
-      "meaning": "w সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর / কোণীয়",
+      "unit": "kg"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
-        "note": "কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})"
+        "note": "Ka·Kb=Kw এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "Ka·Kb=Kw কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "Ka·Kb=Kw এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})"
+    },
+    {
+      "examType": "Concept",
+      "question": "Ka·Kb=Kw দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{কনজুগেট জোড়ায় KaKb=Kw। K acdot K b=K w=10 -14 (25 circmathrmC)}"
     }
   ],
   "memorize": {
     "trick": "কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
     "steps": [
-      "সূত্র: K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
-      "কী কাজে লাগে: Ka·Kb=Kw",
-      "চিহ্ন মনে রাখো: K, a, b, w"
+      "কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
+      "প্রশ্নে Ka·Kb=Kw প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: K, a, b — একক যাচাই করো"
     ]
   },
   "subjects": [

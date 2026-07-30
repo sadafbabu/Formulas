@@ -26,13 +26,13 @@
     },
     {
       "symbol": "u",
-      "meaning": "u সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "আদি বেগ",
+      "unit": "m/s"
     },
     {
       "symbol": "theta",
-      "meaning": "theta সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কোণ",
+      "unit": "rad"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "v_x=u\\cos\\theta,\\quad v_y=u\\sin\\theta-gt",
-        "note": "Horizontal = constant; vertical = u sinθ − gt।"
+        "note": "বেগের উপাদিসমূহ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "v_x=u\\cos\\theta,\\quad v_y=u\\sin\\theta-gt",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Horizontal = constant; vertical = u sinθ − gt।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বেগের উপাদিসমূহ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "বেগের উপাদিসমূহ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "v_x=u\\cos\\theta,\\quad v_y=u\\sin\\theta-gt"
+    },
+    {
+      "examType": "Concept",
+      "question": "বেগের উপাদিসমূহ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Horizontal = constant; vertical = u sinθ  gt।}"
     }
   ],
   "memorize": {
     "trick": "Horizontal = constant; vertical = u sinθ − gt।",
     "steps": [
-      "সূত্র: v_x=u\\cos\\theta,\\quad v_y=u\\sin\\theta-gt",
-      "কী কাজে লাগে: বেগের উপাদিসমূহ",
-      "চিহ্ন মনে রাখো: v, x, u, theta"
+      "Horizontal = constant; vertical = u sinθ − gt।",
+      "প্রশ্নে বেগের উপাদিসমূহ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: v, x, u — একক যাচাই করো"
     ]
   },
   "subjects": [

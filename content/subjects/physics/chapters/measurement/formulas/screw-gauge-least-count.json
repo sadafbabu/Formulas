@@ -22,18 +22,18 @@
     },
     {
       "symbol": "C",
-      "meaning": "C সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ধারণক্ষমতা / ধারকত্ব",
+      "unit": "F বা J/K"
     },
     {
       "symbol": "p",
-      "meaning": "p সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভরবেগ / চাপ",
+      "unit": "kg·m/s বা Pa"
     },
     {
       "symbol": "i",
-      "meaning": "i সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তড়িৎ প্রবাহ / জড়তার ভ্রামক",
+      "unit": "A বা kg·m²"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{LC}=\\frac{\\text{pitch}}{\\text{circular scale divisions}}",
-        "note": "Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।"
+        "note": "স্ক্রু গেজ লঘিষ্ঠ পাঠ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{LC}=\\frac{\\text{pitch}}{\\text{circular scale divisions}}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্ক্রু গেজ লঘিষ্ঠ পাঠ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "স্ক্রু গেজ লঘিষ্ঠ পাঠ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\mathrm{LC}=\\frac{\\text{pitch}}{\\text{circular scale divisions}}"
+    },
+    {
+      "examType": "Concept",
+      "question": "স্ক্রু গেজ লঘিষ্ঠ পাঠ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।}"
     }
   ],
   "memorize": {
     "trick": "Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।",
     "steps": [
-      "সূত্র: \\mathrm{LC}=\\frac{\\text{pitch}}{\\text{circular scale divisions}}",
-      "কী কাজে লাগে: স্ক্রু গেজ লঘিষ্ঠ পাঠ",
-      "চিহ্ন মনে রাখো: L, C, p, i"
+      "Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।",
+      "প্রশ্নে স্ক্রু গেজ লঘিষ্ঠ পাঠ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: L, C, p — একক যাচাই করো"
     ]
   },
   "subjects": [

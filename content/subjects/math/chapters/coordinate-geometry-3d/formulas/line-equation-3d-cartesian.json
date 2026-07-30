@@ -21,18 +21,18 @@
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "y",
-      "meaning": "y সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান",
+      "unit": "m"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{x-x_1}{a}=\\frac{y-y_1}{b}=\\frac{z-z_1}{c}",
-        "note": "DR (a,b,c) এবং বিন্দু (x₁,y₁,z₁)।"
+        "note": "রেখার কার্টেসীয় রূপ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{x-x_1}{a}=\\frac{y-y_1}{b}=\\frac{z-z_1}{c}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "DR (a,b,c) এবং বিন্দু (x₁,y₁,z₁)।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রেখার কার্টেসীয় রূপ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\frac{x-x_1}{a}=\\frac{y-y_1}{b}=\\frac{z-z_1}{c}"
+      "question": "রেখার কার্টেসীয় রূপ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\frac{x-x_1}{a}=\\frac{y-y_1}{b}=\\frac{z-z_1}{c}\\text{ — }DR (a,b,c) এবং বিন্দু (x₁,y₁,z₁)।"
+    },
+    {
+      "examType": "Concept",
+      "question": "রেখার কার্টেসীয় রূপ দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{DR (a,b,c) এবং বিন্দু (x₁,y₁,z₁)।}"
     }
   ],
   "memorize": {
     "trick": "DR (a,b,c) এবং বিন্দু (x₁,y₁,z₁)।",
     "steps": [
-      "সূত্র: \\frac{x-x_1}{a}=\\frac{y-y_1}{b}=\\frac{z-z_1}{c}",
-      "কী কাজে লাগে: রেখার কার্টেসীয় রূপ",
-      "চিহ্ন মনে রাখো: x, a, y, b"
+      "DR (a,b,c) এবং বিন্দু (x₁,y₁,z₁)।",
+      "প্রশ্নে রেখার কার্টেসীয় রূপ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: x, a, y — একক যাচাই করো"
     ]
   },
   "subjects": [

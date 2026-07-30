@@ -47,12 +47,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "v_o = \\sqrt{\\frac{G M}{R + h}}, \\quad T = \\frac{2\\pi (R+h)}{v_o} = 2\\pi \\sqrt{\\frac{(R+h)^3}{G M}}",
-        "note": "মহাকর্ষ বলই কেন্দ্রমুখী বলের যোগান দেয় (GMm/(R+h)² = m vo²/(R+h))।"
+        "note": "কৃত্রিম উপগ্রহের আবর্তন বেগ ও পর্যায়কাল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "v_o = \\sqrt{\\frac{G M}{R + h}}, \\quad T = \\frac{2\\pi (R+h)}{v_o} = 2\\pi \\sqrt{\\frac{(R+h)^3}{G M}}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "v₀ = √(GM/r) — 'উপরে GM, নিচে ব্যাসার্ধ, পুরোটার বর্গমূল'। নিচের কক্ষে দ্রুত, উঁচু কক্ষে ধীর।"
       }
     ],
     "assumptions": [

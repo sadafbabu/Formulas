@@ -22,18 +22,18 @@
     },
     {
       "symbol": "d",
-      "meaning": "d সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "দূরত্ব / ব্যাস",
+      "unit": "m"
     },
     {
       "symbol": "Q",
-      "meaning": "Q সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তাপ / চার্জ",
+      "unit": "J বা C"
     },
     {
       "symbol": "r",
-      "meaning": "r সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ব্যাসার্ধ / দূরত্ব",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta S=\\int\\frac{dQ_{rev}}{T},\\quad\\eta=1-\\frac{T_2}{T_1},\\quad\\Delta S_{univ}\\ge 0",
-        "note": "এনট্রপি পরিবর্তন এবং কার্নো দক্ষতা"
+        "note": "কার্নো চক্র ও এনট্রপি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\Delta S=\\int\\frac{dQ_{rev}}{T},\\quad\\eta=1-\\frac{T_2}{T_1},\\quad\\Delta S_{univ}\\ge 0",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "এনট্রপি = Q_rev/T; কার্নো η কেবল দুই তাপমাত্রায়।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কার্নো চক্র ও এনট্রপি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "কার্নো চক্র ও এনট্রপি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\Delta S=\\int\\frac{dQ_{rev}}{T},\\quad\\eta=1-\\frac{T_2}{T_1},\\quad\\Delta S_{univ}\\ge 0"
+    },
+    {
+      "examType": "Concept",
+      "question": "কার্নো চক্র ও এনট্রপি দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{এনট্রপি = Q rev/T; কার্নো η কেবল দুই তাপমাত্রায়।}"
     }
   ],
   "memorize": {
     "trick": "এনট্রপি = Q_rev/T; কার্নো η কেবল দুই তাপমাত্রায়।",
     "steps": [
-      "সূত্র: \\Delta S=\\int\\frac{dQ_{rev}}{T},\\quad\\eta=1-\\frac{T_2}{T_1},\\quad\\Delta S_{univ}…",
-      "এনট্রপি পরিবর্তন এবং কার্নো দক্ষতা",
-      "চিহ্ন মনে রাখো: S, d, Q, r"
+      "এনট্রপি = Q_rev/T; কার্নো η কেবল দুই তাপমাত্রায়।",
+      "প্রশ্নে কার্নো চক্র ও এনট্রপি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: S, d, Q — একক যাচাই করো"
     ]
   },
   "subjects": [

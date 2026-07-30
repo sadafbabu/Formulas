@@ -27,7 +27,7 @@
     },
     {
       "symbol": "\\mathrm{p}K_{a2}",
-      "meaning": "\\mathrm{p}K_{a2} সম্পর্কিত রাশি",
+      "meaning": "\\mathrm{p}K_{a2} (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{pI}=\\dfrac{\\mathrm{p}K_{a1}+\\mathrm{p}K_{a2}}{2}",
-        "note": "pH = pI হলে অ্যামিনো অ্যাসিড জুইটারআয়ন, নেট চার্জ ০ — তড়িৎপ্রবাহে স্থির।"
+        "note": "আইসোইলেকট্রিক বিন্দু এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{pI}=\\dfrac{\\mathrm{p}K_{a1}+\\mathrm{p}K_{a2}}{2}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "pI = দুই প্রাসঙ্গিক pKa-এর গড় — এখানে নেট চার্জ শূন্য।"
       }
     ],
     "assumptions": [

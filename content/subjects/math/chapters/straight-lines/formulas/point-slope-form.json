@@ -21,13 +21,13 @@
     },
     {
       "symbol": "m",
-      "meaning": "m সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর",
+      "unit": "kg"
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "y-y_1=m(x-x_1)",
-        "note": "One point + slope → line equation।"
+        "note": "বিন্দু-ঢাল রূপ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "y-y_1=m(x-x_1)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "One point + slope → line equation।"
       }
     ],
     "assumptions": []
@@ -49,16 +49,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিন্দু-ঢাল রূপ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "বিন্দু-ঢাল রূপ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "y-y_1=m(x-x_1)"
+    },
+    {
+      "examType": "Concept",
+      "question": "বিন্দু-ঢাল রূপ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{One point + slope → line equation।}"
     }
   ],
   "memorize": {
     "trick": "One point + slope → line equation।",
     "steps": [
-      "সূত্র: y-y_1=m(x-x_1)",
-      "কী কাজে লাগে: বিন্দু-ঢাল রূপ",
-      "চিহ্ন মনে রাখো: y, m, x"
+      "One point + slope → line equation।",
+      "প্রশ্নে বিন্দু-ঢাল রূপ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: y, m, x — একক যাচাই করো"
     ]
   },
   "subjects": [

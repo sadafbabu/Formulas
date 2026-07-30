@@ -22,17 +22,17 @@
     },
     {
       "symbol": "sqrt",
-      "meaning": "sqrt সম্পর্কিত রাশি",
+      "meaning": "sqrt (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     },
     {
       "symbol": "BM",
-      "meaning": "BM সম্পর্কিত রাশি",
+      "meaning": "BM (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mu=\\sqrt{n(n+2)}\\ \\text{BM}",
-        "note": "n=unpaired electrons; √n(n+2) BM formula।"
+        "note": "স্পিন-মাত্র চৌম্বক মুহূর্ত এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mu=\\sqrt{n(n+2)}\\ \\text{BM}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "n=unpaired electrons; √n(n+2) BM formula।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্পিন-মাত্র চৌম্বক মুহূর্ত কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\mu=\\sqrt{n(n+2)}\\ \\text{BM}"
+      "question": "স্পিন-মাত্র চৌম্বক মুহূর্ত এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\mu=\\sqrt{n(n+2)}\\ \\text{BM}\\text{ — }n=unpaired electrons; √n(n+2) BM formula।"
+    },
+    {
+      "examType": "Concept",
+      "question": "স্পিন-মাত্র চৌম্বক মুহূর্ত দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{n=unpaired electrons; √n(n+2) BM formula।}"
     }
   ],
   "memorize": {
     "trick": "n=unpaired electrons; √n(n+2) BM formula।",
     "steps": [
-      "সূত্র: \\mu=\\sqrt{n(n+2)}\\ \\text{BM}",
-      "কী কাজে লাগে: স্পিন-মাত্র চৌম্বক মুহূর্ত",
-      "চিহ্ন মনে রাখো: mu, sqrt, n, BM"
+      "n=unpaired electrons; √n(n+2) BM formula।",
+      "প্রশ্নে স্পিন-মাত্র চৌম্বক মুহূর্ত প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: mu, sqrt, n — একক যাচাই করো"
     ]
   },
   "subjects": [

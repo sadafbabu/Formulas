@@ -22,18 +22,18 @@
     },
     {
       "symbol": "T",
-      "meaning": "T সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "পর্যায়কাল / তাপমাত্রা",
+      "unit": "s বা K"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "K",
-      "meaning": "K সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "গতিশক্তি / ধ্রুবক",
+      "unit": "J"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta T_b=K_b m",
-        "note": "ΔTb = Kb × molality; Ebullioscopic constant।"
+        "note": "স্ফুটনাঙ্কের উচ্চায়ন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\Delta T_b=K_b m",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ΔTb = Kb × molality; Ebullioscopic constant।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্ফুটনাঙ্কের উচ্চায়ন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\Delta T_b=K_b m"
+      "question": "স্ফুটনাঙ্কের উচ্চায়ন এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\Delta T_b=K_b m\\text{ — }ΔTb = Kb × molality; Ebullioscopic constant।"
+    },
+    {
+      "examType": "Concept",
+      "question": "স্ফুটনাঙ্কের উচ্চায়ন দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{ΔTb = Kb  molality; Ebullioscopic constant।}"
     }
   ],
   "memorize": {
     "trick": "ΔTb = Kb × molality; Ebullioscopic constant।",
     "steps": [
-      "সূত্র: \\Delta T_b=K_b m",
-      "কী কাজে লাগে: স্ফুটনাঙ্কের উচ্চায়ন",
-      "চিহ্ন মনে রাখো: Delta, T, b, K"
+      "ΔTb = Kb × molality; Ebullioscopic constant।",
+      "প্রশ্নে স্ফুটনাঙ্কের উচ্চায়ন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: Delta, T, b — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -22,8 +22,8 @@
     },
     {
       "symbol": "lambda",
-      "meaning": "lambda সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তরঙ্গদৈর্ঘ্য / ক্ষয় ধ্রুবক",
+      "unit": "m বা 1/s"
     }
   ],
   "derivation": {
@@ -32,12 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}",
-        "note": "অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ। t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}"
+        "note": "অর্ধায়ু এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ। t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}"
       }
     ],
     "assumptions": []
@@ -45,16 +45,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অর্ধায়ু কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}"
+      "question": "অর্ধায়ু এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}\\text{ — }অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ। t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}"
+    },
+    {
+      "examType": "Concept",
+      "question": "অর্ধায়ু দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{t 1/2 = frac ln 2 lambda = frac 0.693 lambda}"
     }
   ],
   "memorize": {
     "trick": "অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ। t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}",
     "steps": [
-      "সূত্র: t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}",
-      "কী কাজে লাগে: অর্ধায়ু",
-      "চিহ্ন মনে রাখো: t, lambda"
+      "অর্ধায়ু = ০.৬৯৩/λ — মুখস্থ। t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{\\lambda}",
+      "প্রশ্নে অর্ধায়ু প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: t, lambda — একক যাচাই করো"
     ]
   },
   "subjects": [

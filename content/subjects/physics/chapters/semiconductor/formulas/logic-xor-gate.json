@@ -22,17 +22,17 @@
     },
     {
       "symbol": "oplus",
-      "meaning": "oplus সম্পর্কিত রাশি",
+      "meaning": "oplus (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "overline",
-      "meaning": "overline সম্পর্কিত রাশি",
+      "meaning": "overline (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "A\\oplus B=A\\overline{B}+\\overline{A}B",
-        "note": "একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B"
+        "note": "XOR গেট এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "A\\oplus B=A\\overline{B}+\\overline{A}B",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "XOR গেট কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "XOR গেট এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "A\\oplus B=A\\overline{B}+\\overline{A}B"
+    },
+    {
+      "examType": "Concept",
+      "question": "XOR গেট দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{একই হলে ০; ভিন্ন হলে ১। Aoplus B=AoverlineB+overlineAB}"
     }
   ],
   "memorize": {
     "trick": "একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B",
     "steps": [
-      "সূত্র: A\\oplus B=A\\overline{B}+\\overline{A}B",
-      "কী কাজে লাগে: XOR গেট",
-      "চিহ্ন মনে রাখো: A, oplus, B, overline"
+      "একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B",
+      "প্রশ্নে XOR গেট প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A, oplus, B — একক যাচাই করো"
     ]
   },
   "subjects": [

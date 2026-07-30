@@ -32,7 +32,7 @@
     },
     {
       "symbol": "I_{\\mathrm{rms}}",
-      "meaning": "I_{\\mathrm{rms}} সম্পর্কিত রাশি",
+      "meaning": "তড়িৎ প্রবাহ / জড়তার ভ্রামক",
       "unit": "V, A"
     }
   ],

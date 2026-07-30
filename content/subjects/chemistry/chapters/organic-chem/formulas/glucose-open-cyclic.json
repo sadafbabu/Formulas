@@ -22,12 +22,12 @@
     },
     {
       "symbol": "rightleftharpoons",
-      "meaning": "rightleftharpoons সম্পর্কিত রাশি",
+      "meaning": "rightleftharpoons (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "cyclic hemiacetal (pyranose)",
-      "meaning": "cyclic hemiacetal (pyranose) সম্পর্কিত রাশি",
+      "meaning": "cyclic hemiacetal (pyranose) (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
-        "note": "D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}"
+        "note": "গ্লুকোজ মুক্ত ও চক্রাকার রূপ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}"
       }
     ],
     "assumptions": []
@@ -50,16 +50,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্লুকোজ মুক্ত ও চক্রাকার রূপ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "গ্লুকোজ মুক্ত ও চক্রাকার রূপ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}"
+    },
+    {
+      "examType": "Concept",
+      "question": "গ্লুকোজ মুক্ত ও চক্রাকার রূপ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{D-গ্লুকোজ মূলত পাইরানোজ। textopen-chain aldehyderightleftharpoons textcyclic hemiacetal (pyranose)}"
     }
   ],
   "memorize": {
     "trick": "D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
     "steps": [
-      "সূত্র: \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
-      "কী কাজে লাগে: গ্লুকোজ মুক্ত ও চক্রাকার রূপ",
-      "চিহ্ন মনে রাখো: open-chain aldehyde, rightleftharpoons, cyclic hemiacetal (pyranose)"
+      "D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
+      "প্রশ্নে গ্লুকোজ মুক্ত ও চক্রাকার রূপ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: open-chain aldehyde, rightleftharpoons, cyclic hemiacetal (pyranose) — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -51,12 +51,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "E^\\circ_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}}, \\quad \\Delta G^\\circ = -nFE^\\circ_{\\text{cell}}",
-        "note": "তড়িৎ রাসায়নিক ধারায় উপরে হ্রাস বিভব বেশি ক্যাথোড, নিচে কম অ্যানোড। কোষ বিভব = ক্যাথোড − অ্যানোড।"
+        "note": "তড়িৎ রাসায়নিক ধারা ও আদর্শ বিভব এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "E^\\circ_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}}, \\quad \\Delta G^\\circ = -nFE^\\circ_{\\text{cell}}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "কোষ বিভব = ক্যাথোড − অ্যানোড। ধনাত্মক হলে স্বতঃস্ফূর্ত। ΔG° = −nFE°।"
       }
     ],
     "assumptions": [
@@ -67,15 +67,15 @@
     {
       "examType": "BUET Admission",
       "question": "Daniel কোষে Zn (E° = -0.76 V) অ্যানোড, Cu (E° = +0.34 V) ক্যাথোড। কোষ বিভব কত?",
-      "answer": "E^\\circ_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}} = 0.34 - (-0.76) = 1.10\\ \\text{V}"
+      "answer": "E^\\circ_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}}, \\quad \\Delta G^\\circ = -nFE^\\circ_{\\text{cell}}"
     }
   ],
   "memorize": {
     "trick": "কোষ বিভব = ক্যাথোড − অ্যানোড। ধনাত্মক হলে স্বতঃস্ফূর্ত। ΔG° = −nFE°।",
     "steps": [
-      "সূত্র: E^\\circ_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}}, \\quad…",
-      "মানক হ্রাস বিভব অনুসারে ধাতু/আয়ন সাজানো ও কোষ বিভব নির্ণয়",
-      "চিহ্ন মনে রাখো: E^\\circ, \\Delta G^\\circ, F"
+      "কোষ বিভব = ক্যাথোড − অ্যানোড। ধনাত্মক হলে স্বতঃস্ফূর্ত। ΔG° = −nFE°।",
+      "প্রশ্নে তড়িৎ রাসায়নিক ধারা ও আদর্শ বিভব প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: E^\\circ, \\Delta G^\\circ, F — একক যাচাই করো"
     ]
   }
 }

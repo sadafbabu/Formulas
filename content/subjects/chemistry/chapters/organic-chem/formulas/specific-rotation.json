@@ -22,17 +22,17 @@
     },
     {
       "symbol": "l",
-      "meaning": "l সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "দৈর্ঘ্য / আবেশ / ল্যাটেন্ট",
+      "unit": "m বা H"
     },
     {
       "symbol": "c",
-      "meaning": "c সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "আলোর বেগ / আপেক্ষিক তাপ",
+      "unit": "m/s বা J/(kg·K)"
     },
     {
       "symbol": "ee",
-      "meaning": "ee সম্পর্কিত রাশি",
+      "meaning": "ee (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "[\\alpha]=\\frac{\\alpha}{l\\cdot c},\\quad\\mathrm{ee}=\\frac{[\\alpha]_{obs}}{[\\alpha]_{pure}}\\times100\\%",
-        "note": "আপেক্ষিক ঘূর্ণন এর মূল সম্পর্ক ও প্রয়োগ।"
+        "note": "আপেক্ষিক ঘূর্ণন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "[\\alpha]=\\frac{\\alpha}{l\\cdot c},\\quad\\mathrm{ee}=\\frac{[\\alpha]_{obs}}{[\\alpha]_{pure}}\\times100\\%",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "[α]=α/(l·c); ee অনুপাতে বিশুদ্ধতা।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আপেক্ষিক ঘূর্ণন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "আপেক্ষিক ঘূর্ণন এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "[\\alpha]=\\frac{\\alpha}{l\\cdot c},\\quad\\mathrm{ee}=\\frac{[\\alpha]_{obs}}{[\\alpha]_{pure}}\\times100\\%"
+    },
+    {
+      "examType": "Concept",
+      "question": "আপেক্ষিক ঘূর্ণন দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{[α]=α/(lc); ee অনুপাতে বিশুদ্ধতা।}"
     }
   ],
   "memorize": {
     "trick": "[α]=α/(l·c); ee অনুপাতে বিশুদ্ধতা।",
     "steps": [
-      "সূত্র: [\\alpha]=\\frac{\\alpha}{l\\cdot c},\\quad\\mathrm{ee}=\\frac{[\\alpha]_{obs}}{[\\alpha]…",
-      "অপটিক্যাল অ্যাকটিভিটির পরিমাপ",
-      "চিহ্ন মনে রাখো: alpha, l, c, ee"
+      "[α]=α/(l·c); ee অনুপাতে বিশুদ্ধতা।",
+      "প্রশ্নে আপেক্ষিক ঘূর্ণন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: alpha, l, c — একক যাচাই করো"
     ]
   },
   "subjects": [

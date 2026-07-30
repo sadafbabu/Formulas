@@ -21,18 +21,18 @@
     },
     {
       "symbol": "A",
-      "meaning": "A সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ক্ষেত্রফল / বিস্তার",
+      "unit": "m²"
     },
     {
       "symbol": "cap",
-      "meaning": "cap সম্পর্কিত রাশি",
+      "meaning": "cap (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P(A\\cap B)=0\\Rightarrow P(A\\cup B)=P(A)+P(B)",
-        "note": "একসাথে ঘটতে পারে না → সরাসরি যোগ।"
+        "note": "পরস্পর বর্জন ঘটনা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "P(A\\cap B)=0\\Rightarrow P(A\\cup B)=P(A)+P(B)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "একসাথে ঘটতে পারে না → সরাসরি যোগ।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরস্পর বর্জন ঘটনা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "পরস্পর বর্জন ঘটনা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "P(A\\cap B)=0\\Rightarrow P(A\\cup B)=P(A)+P(B)"
+    },
+    {
+      "examType": "Concept",
+      "question": "পরস্পর বর্জন ঘটনা দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{একসাথে ঘটতে পারে না → সরাসরি যোগ।}"
     }
   ],
   "memorize": {
     "trick": "একসাথে ঘটতে পারে না → সরাসরি যোগ।",
     "steps": [
-      "সূত্র: P(A\\cap B)=0\\Rightarrow P(A\\cup B)=P(A)+P(B)",
-      "কী কাজে লাগে: পরস্পর বর্জন ঘটনা",
-      "চিহ্ন মনে রাখো: P, A, cap, B"
+      "একসাথে ঘটতে পারে না → সরাসরি যোগ।",
+      "প্রশ্নে পরস্পর বর্জন ঘটনা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: P, A, cap — একক যাচাই করো"
     ]
   },
   "subjects": [

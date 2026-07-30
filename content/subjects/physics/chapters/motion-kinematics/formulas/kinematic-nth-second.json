@@ -22,13 +22,13 @@
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     },
     {
       "symbol": "u",
-      "meaning": "u সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "আদি বেগ",
+      "unit": "m/s"
     }
   ],
   "derivation": {
@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "s_n=u+\\tfrac12 a(2n-1)",
-        "note": "n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)"
+        "note": "n-তম সেকেন্ডে সরণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "s_n=u+\\tfrac12 a(2n-1)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)"
       }
     ],
     "assumptions": []
@@ -50,16 +50,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "n-তম সেকেন্ডে সরণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "n-তম সেকেন্ডে সরণ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "s_n=u+\\tfrac12 a(2n-1)"
+    },
+    {
+      "examType": "Concept",
+      "question": "n-তম সেকেন্ডে সরণ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{n-তম সেকেন্ড = u + a(2n1)/2। s n=u+tfrac12 a(2n-1)}"
     }
   ],
   "memorize": {
     "trick": "n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)",
     "steps": [
-      "সূত্র: s_n=u+\\tfrac12 a(2n-1)",
-      "কী কাজে লাগে: n-তম সেকেন্ডে সরণ",
-      "চিহ্ন মনে রাখো: s, n, u, tfrac"
+      "n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)",
+      "প্রশ্নে n-তম সেকেন্ডে সরণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: s, n, u — একক যাচাই করো"
     ]
   },
   "subjects": [

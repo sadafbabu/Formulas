@@ -22,18 +22,18 @@
     },
     {
       "symbol": "e",
-      "meaning": "e সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ইলেকট্রন চার্জ / ভিত্তি",
+      "unit": "C"
     },
     {
       "symbol": "G",
-      "meaning": "G সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মহাকর্ষ ধ্রুবক",
+      "unit": "N·m²/kg²"
     },
     {
       "symbol": "M",
-      "meaning": "M সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর / মোলার ভর",
+      "unit": "kg বা g/mol"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "v_e=\\sqrt{\\frac{2GM}{R}}",
-        "note": "পৃথিবী ≈ 11.2 km/s; কৃষ্ণগহ্বরের event horizon সংজ্ঞায়।"
+        "note": "গ্রহ থেকে মুক্তি বেগ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "v_e=\\sqrt{\\frac{2GM}{R}}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "পৃথিবী ≈ 11.2 km/s; কৃষ্ণগহ্বরের event horizon সংজ্ঞায়।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্রহ থেকে মুক্তি বেগ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "গ্রহ থেকে মুক্তি বেগ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "v_e=\\sqrt{\\frac{2GM}{R}}"
+    },
+    {
+      "examType": "Concept",
+      "question": "গ্রহ থেকে মুক্তি বেগ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{পৃথিবী ≈ 11.2 km/s; কৃষ্ণগহ্বরের event horizon সংজ্ঞায়।}"
     }
   ],
   "memorize": {
     "trick": "পৃথিবী ≈ 11.2 km/s; কৃষ্ণগহ্বরের event horizon সংজ্ঞায়।",
     "steps": [
-      "সূত্র: v_e=\\sqrt{\\frac{2GM}{R}}",
-      "কী কাজে লাগে: গ্রহ থেকে মুক্তি বেগ",
-      "চিহ্ন মনে রাখো: v, e, G, M"
+      "পৃথিবী ≈ 11.2 km/s; কৃষ্ণগহ্বরের event horizon সংজ্ঞায়।",
+      "প্রশ্নে গ্রহ থেকে মুক্তি বেগ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: v, e, G — একক যাচাই করো"
     ]
   },
   "subjects": [

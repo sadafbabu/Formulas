@@ -32,12 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\%\\ \\mathrm{AE}=\\dfrac{M_{\\mathrm{desired}}}{\\sum M_{\\mathrm{reactants}}}\\times100",
-        "note": "সবুজ রসায়ন: কতটা পরমাণু কাজে লাগে, কতটা বর্জ্য।"
+        "note": "পরমাণু মিতব্যয়িতা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\%\\ \\mathrm{AE}=\\dfrac{M_{\\mathrm{desired}}}{\\sum M_{\\mathrm{reactants}}}\\times100",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "কাঙ্ক্ষিত / মোট বিক্রিয়ক × 100 — বর্জ্য কম = AE বেশি।"
       }
     ],
     "assumptions": [
@@ -54,9 +54,9 @@
   "memorize": {
     "trick": "কাঙ্ক্ষিত / মোট বিক্রিয়ক × 100 — বর্জ্য কম = AE বেশি।",
     "steps": [
-      "সূত্র: \\%\\ \\mathrm{AE}=\\dfrac{M_{\\mathrm{desired}}}{\\sum M_{\\mathrm{reactants}}}\\times1…",
-      "% atom economy = (কাঙ্ক্ষিত উৎপাদনের মোলার ভর / মোট বিক্রিয়কের মোলার ভর) × 100",
-      "চিহ্ন মনে রাখো: M_{\\mathrm{desired}}, \\sum M_{\\mathrm{reactants}}"
+      "কাঙ্ক্ষিত / মোট বিক্রিয়ক × 100 — বর্জ্য কম = AE বেশি।",
+      "প্রশ্নে পরমাণু মিতব্যয়িতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: M_{\\mathrm{desired}}, \\sum M_{\\mathrm{reactants}} — একক যাচাই করো"
     ]
   },
   "subjects": [

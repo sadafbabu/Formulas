@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "I_{\\mathrm{rms}} = \\frac{I_0}{\\sqrt{2}} \\approx 0.707 I_0, \\quad V_{\\mathrm{rms}} = \\frac{V_0}{\\sqrt{2}} \\approx 0.707 V_0",
-        "note": "এক পূর্ণ চক্রে তাৎক্ষণিক মানের বর্গের গড়ের বর্গমূল নিলে RMS বা কার্যকর মান পাওয়া যায়।"
+        "note": "পর্যায়বৃত্ত প্রবাহের RMS মান এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "I_{\\mathrm{rms}} = \\frac{I_0}{\\sqrt{2}} \\approx 0.707 I_0, \\quad V_{\\mathrm{rms}} = \\frac{V_0}{\\sqrt{2}} \\approx 0.707 V_0",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "RMS = শীর্ষমান ÷ √2 ≈ 0.707 × শীর্ষমান। বাসার ২২০ V হলো RMS; শীর্ষমান আসলে ২২০√2 ≈ ৩১১ V। আর গড় মান = 0.637 × শীর্ষমান।"
       }
     ],
     "assumptions": [

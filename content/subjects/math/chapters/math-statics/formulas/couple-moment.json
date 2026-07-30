@@ -21,13 +21,13 @@
     },
     {
       "symbol": "F",
-      "meaning": "F সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "বল",
+      "unit": "N"
     },
     {
       "symbol": "d",
-      "meaning": "d সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "দূরত্ব / ব্যাস",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "M=F\\,d",
-        "note": "দুই সমান বিপরীত বল; moment = F×distance between।"
+        "note": "দম্পতি বলের ভ্রাম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "M=F\\,d",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "দুই সমান বিপরীত বল; moment = F×distance between।"
       }
     ],
     "assumptions": []
@@ -49,16 +49,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দম্পতি বলের ভ্রাম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "দম্পতি বলের ভ্রাম এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "M=F\\,d"
+    },
+    {
+      "examType": "Concept",
+      "question": "দম্পতি বলের ভ্রাম দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{দুই সমান বিপরীত বল; moment = Fdistance between।}"
     }
   ],
   "memorize": {
     "trick": "দুই সমান বিপরীত বল; moment = F×distance between।",
     "steps": [
-      "সূত্র: M=F\\,d",
-      "কী কাজে লাগে: দম্পতি বলের ভ্রাম",
-      "চিহ্ন মনে রাখো: M, F, d"
+      "দুই সমান বিপরীত বল; moment = F×distance between।",
+      "প্রশ্নে দম্পতি বলের ভ্রাম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: M, F, d — একক যাচাই করো"
     ]
   },
   "subjects": [

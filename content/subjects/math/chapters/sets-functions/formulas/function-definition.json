@@ -21,17 +21,17 @@
     },
     {
       "symbol": "A",
-      "meaning": "A সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ক্ষেত্রফল / বিস্তার",
+      "unit": "m²"
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "forall",
-      "meaning": "forall সম্পর্কিত রাশি",
+      "meaning": "forall (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b",
-        "note": "প্রতিটি input-এ exactly এক output — MCQ-তে function test।"
+        "note": "ফাংশনের সংজ্ঞা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "প্রতিটি input-এ exactly এক output — MCQ-তে function test।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফাংশনের সংজ্ঞা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ফাংশনের সংজ্ঞা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b"
+    },
+    {
+      "examType": "Concept",
+      "question": "ফাংশনের সংজ্ঞা দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{প্রতিটি input-এ exactly এক output  MCQ-তে function test।}"
     }
   ],
   "memorize": {
     "trick": "প্রতিটি input-এ exactly এক output — MCQ-তে function test।",
     "steps": [
-      "সূত্র: f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b",
-      "কী কাজে লাগে: ফাংশনের সংজ্ঞা",
-      "চিহ্ন মনে রাখো: f, A, B, forall"
+      "প্রতিটি input-এ exactly এক output — MCQ-তে function test।",
+      "প্রশ্নে ফাংশনের সংজ্ঞা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: f, A, B — একক যাচাই করো"
     ]
   },
   "subjects": [

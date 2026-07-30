@@ -22,8 +22,8 @@
     },
     {
       "symbol": "f",
-      "meaning": "f সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কম্পাঙ্ক / বল (প্রসঙ্গমতে)",
+      "unit": "Hz বা N"
     }
   ],
   "derivation": {
@@ -32,12 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
-        "note": "ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f"
+        "note": "পর্যায়কাল ও কম্পাঙ্ক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f"
       }
     ],
     "assumptions": []
@@ -45,16 +45,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পর্যায়কাল ও কম্পাঙ্ক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "পর্যায়কাল ও কম্পাঙ্ক এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f"
     }
   ],
   "memorize": {
     "trick": "ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
     "steps": [
-      "সূত্র: T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
-      "কী কাজে লাগে: পর্যায়কাল ও কম্পাঙ্ক",
-      "চিহ্ন মনে রাখো: T, f"
+      "ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
+      "প্রশ্নে পর্যায়কাল ও কম্পাঙ্ক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: T, f — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -27,12 +27,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{no two electrons in an atom share all four quantum numbers}",
-        "note": "এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।"
+        "note": "পাউলির বর্জন নীতি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{no two electrons in an atom share all four quantum numbers}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।"
       }
     ],
     "assumptions": []
@@ -40,16 +40,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পাউলির বর্জন নীতি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\text{no two electrons in an atom share all four quantum numbers}"
+      "question": "পাউলির বর্জন নীতি এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\text{no two electrons in an atom share all four quantum numbers}\\text{ — }এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।"
+    },
+    {
+      "examType": "Concept",
+      "question": "পাউলির বর্জন নীতি দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।}"
     }
   ],
   "memorize": {
     "trick": "এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।",
     "steps": [
-      "সূত্র: \\text{no two electrons in an atom share all four quantum numbers}",
-      "কী কাজে লাগে: পাউলির বর্জন নীতি",
-      "চিহ্ন মনে রাখো: no two electrons in an atom share all four quantum numbers"
+      "এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।",
+      "প্রশ্নে পাউলির বর্জন নীতি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: no two electrons in an atom share all four quantum numbers — একক যাচাই করো"
     ]
   },
   "subjects": [

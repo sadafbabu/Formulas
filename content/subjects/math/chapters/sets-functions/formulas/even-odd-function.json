@@ -21,17 +21,17 @@
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     },
     {
       "symbol": "(even)",
-      "meaning": "(even) সম্পর্কিত রাশি",
+      "meaning": "(even) (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "(odd)",
-      "meaning": "(odd) সম্পর্কিত রাশি",
+      "meaning": "(odd) (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "f(-x)=f(x)\\text{ (even)};\\quad f(-x)=-f(x)\\text{ (odd)}",
-        "note": "Even → y-axis symmetry; Odd → origin symmetry।"
+        "note": "জোড় ও বিজোড় ফাংশন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "f(-x)=f(x)\\text{ (even)};\\quad f(-x)=-f(x)\\text{ (odd)}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Even → y-axis symmetry; Odd → origin symmetry।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জোড় ও বিজোড় ফাংশন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "জোড় ও বিজোড় ফাংশন এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "f(-x)=f(x)\\text{ (even)};\\quad f(-x)=-f(x)\\text{ (odd)}"
+    },
+    {
+      "examType": "Concept",
+      "question": "জোড় ও বিজোড় ফাংশন দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Even → y-axis symmetry; Odd → origin symmetry।}"
     }
   ],
   "memorize": {
     "trick": "Even → y-axis symmetry; Odd → origin symmetry।",
     "steps": [
-      "সূত্র: f(-x)=f(x)\\text{ (even)};\\quad f(-x)=-f(x)\\text{ (odd)}",
-      "কী কাজে লাগে: জোড় ও বিজোড় ফাংশন",
-      "চিহ্ন মনে রাখো: f, x, (even), (odd)"
+      "Even → y-axis symmetry; Odd → origin symmetry।",
+      "প্রশ্নে জোড় ও বিজোড় ফাংশন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: f, x, (even) — একক যাচাই করো"
     ]
   },
   "subjects": [

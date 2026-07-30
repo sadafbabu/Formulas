@@ -22,7 +22,7 @@
     },
     {
       "symbol": "\\mathbf{B}",
-      "meaning": "\\mathbf{B} সম্পর্কিত রাশি",
+      "meaning": "\\mathbf{B} (সূত্রের রাশি)",
       "unit": "ভেক্টর"
     },
     {
@@ -47,12 +47,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathbf{A} \\times \\mathbf{B} = |\\mathbf{A}||\\mathbf{B}| \\sin\\theta \\,\\hat{n}, \\quad \\text{Area} = |\\mathbf{A} \\times \\mathbf{B}|",
-        "note": "ক্রস গুণনের মান গুণফলের উচ্চতা নির্দেশ করে যা ক্ষেত্রফলের সমান।"
+        "note": "ভেক্টর ক্রস গুণন ও সামান্তরিকের ক্ষেত্রফল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathbf{A} \\times \\mathbf{B} = |\\mathbf{A}||\\mathbf{B}| \\sin\\theta \\,\\hat{n}, \\quad \\text{Area} = |\\mathbf{A} \\times \\mathbf{B}|",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "|A×B| = AB sinθ = সামান্তরিকের ক্ষেত্রফল; ত্রিভুজের জন্য অর্ধেক। দিক ডান হাতের নিয়মে, তাই A×B = −(B×A) — ক্রমে ক্রস উল্"
       }
     ],
     "assumptions": [

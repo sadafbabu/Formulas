@@ -22,7 +22,7 @@
     },
     {
       "symbol": "\\omega_0",
-      "meaning": "\\omega_0 সম্পর্কিত রাশি",
+      "meaning": "কৌণিক বেগ",
       "unit": "rad/s"
     },
     {

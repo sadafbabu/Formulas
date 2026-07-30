@@ -22,18 +22,18 @@
     },
     {
       "symbol": "k",
-      "meaning": "k সম্পর্কিত রাশি",
+      "meaning": "বল ধ্রুবক / বোল্টজম্যান / তরঙ্গ সংখ্যা",
       "unit": "—"
     },
     {
       "symbol": "g",
-      "meaning": "g সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "s",
-      "meaning": "s সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "সরণ",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{m},\\ \\mathrm{kg},\\ \\mathrm{s},\\ \\mathrm{A},\\ \\mathrm{K},\\ \\mathrm{mol},\\ \\mathrm{cd}",
-        "note": "দৈর্ঘ্য–ভর–সময়–বিদ্যুৎ–তাপমাত্রা–মোল–ক্যান্ডেলা।"
+        "note": "SI মৌলিক একক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{m},\\ \\mathrm{kg},\\ \\mathrm{s},\\ \\mathrm{A},\\ \\mathrm{K},\\ \\mathrm{mol},\\ \\mathrm{cd}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "দৈর্ঘ্য–ভর–সময়–বিদ্যুৎ–তাপমাত্রা–মোল–ক্যান্ডেলা।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "SI মৌলিক একক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "SI মৌলিক একক এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\mathrm{m},\\ \\mathrm{kg},\\ \\mathrm{s},\\ \\mathrm{A},\\ \\mathrm{K},\\ \\mathrm{mol},\\ \\mathrm{cd}"
+    },
+    {
+      "examType": "Concept",
+      "question": "SI মৌলিক একক দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{দৈর্ঘ্যভরসময়বিদ্যুৎতাপমাত্রামোলক্যান্ডেলা।}"
     }
   ],
   "memorize": {
     "trick": "দৈর্ঘ্য–ভর–সময়–বিদ্যুৎ–তাপমাত্রা–মোল–ক্যান্ডেলা।",
     "steps": [
-      "সূত্র: \\mathrm{m},\\ \\mathrm{kg},\\ \\mathrm{s},\\ \\mathrm{A},\\ \\mathrm{K},\\ \\mathrm{mol},\\…",
-      "কী কাজে লাগে: SI মৌলিক একক",
-      "চিহ্ন মনে রাখো: m, k, g, s"
+      "দৈর্ঘ্য–ভর–সময়–বিদ্যুৎ–তাপমাত্রা–মোল–ক্যান্ডেলা।",
+      "প্রশ্নে SI মৌলিক একক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: m, k, g — একক যাচাই করো"
     ]
   },
   "subjects": [

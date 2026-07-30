@@ -16,17 +16,17 @@
   "symbols": [
     {
       "symbol": "A",
-      "meaning": "A'",
-      "unit": "—"
+      "meaning": "ক্ষেত্রফল / বিস্তার",
+      "unit": "m²"
     },
     {
       "symbol": "U",
-      "meaning": "U সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "বিভব শক্তি",
+      "unit": "J"
     },
     {
       "symbol": "setminus",
-      "meaning": "setminus সম্পর্কিত রাশি",
+      "meaning": "setminus (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "A'=U\\setminus A",
-        "note": "Universal set-এ যা A-তে নেই = A'।"
+        "note": "পরিপূরক সেট এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "A'=U\\setminus A",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Universal set-এ যা A-তে নেই = A'।"
       }
     ],
     "assumptions": []
@@ -49,16 +49,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরিপূরক সেট কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "পরিপূরক সেট এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "A'=U\\setminus A"
+    },
+    {
+      "examType": "Concept",
+      "question": "পরিপূরক সেট দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Universal set-এ যা A-তে নেই = A'।}"
     }
   ],
   "memorize": {
     "trick": "Universal set-এ যা A-তে নেই = A'।",
     "steps": [
-      "সূত্র: A'=U\\setminus A",
-      "কী কাজে লাগে: পরিপূরক সেট",
-      "চিহ্ন মনে রাখো: A, U, setminus"
+      "Universal set-এ যা A-তে নেই = A'।",
+      "প্রশ্নে পরিপূরক সেট প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A, U, setminus — একক যাচাই করো"
     ]
   },
   "subjects": [

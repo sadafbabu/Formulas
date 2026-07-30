@@ -22,17 +22,17 @@
     },
     {
       "symbol": "v",
-      "meaning": "v সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "বেগ",
+      "unit": "m/s"
     },
     {
       "symbol": "t",
-      "meaning": "t সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "সময়",
+      "unit": "s"
     },
     {
       "symbol": "Rightarrow",
-      "meaning": "Rightarrow সম্পর্কিত রাশি",
+      "meaning": "Rightarrow (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
-        "note": "যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}"
+        "note": "প্রতিধ্বনি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}"
       }
     ],
     "assumptions": []
@@ -55,16 +55,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্রতিধ্বনি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "প্রতিধ্বনি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}"
     }
   ],
   "memorize": {
     "trick": "যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
     "steps": [
-      "সূত্র: 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
-      "কী কাজে লাগে: প্রতিধ্বনি",
-      "চিহ্ন মনে রাখো: d, v, t, Rightarrow"
+      "যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
+      "প্রশ্নে প্রতিধ্বনি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: d, v, t — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -47,12 +47,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "PV = \\text{const} \\text{ (Boyle)}, \\quad \\frac{V}{T} = \\text{const} \\text{ (Charles)}, \\quad \\frac{P_1V_1}{T_1} = \\frac{P_2V_2}{T_2}, \\quad PV = nRT",
-        "note": "আদর্শ গ্যাসের সমীকরণ PV = nRT তিনটি পৃথক সূত্রকে একত্রিত করে।"
+        "note": "গ্যাসের সূত্রসমূহ: বয়েল, চার্লস ও সম্মিলিত এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "PV = \\text{const} \\text{ (Boyle)}, \\quad \\frac{V}{T} = \\text{const} \\text{ (Charles)}, \\quad \\frac{P_1V_1}{T_1} = \\frac{P_2V_2}{T_2}, \\quad PV = nRT",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "বয়েল = তাপমাত্রা স্থির (PV ধ্রুব), চার্লস = চাপ স্থির (V/T ধ্রুব), গে-লুসাক = আয়তন স্থির (P/T ধ্রুব)। 'বয়েলে T আটকানো"
       }
     ],
     "assumptions": [

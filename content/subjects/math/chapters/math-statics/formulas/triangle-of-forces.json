@@ -21,17 +21,17 @@
     },
     {
       "symbol": "alpha",
-      "meaning": "alpha সম্পর্কিত রাশি",
+      "meaning": "কোণ / প্রসারণ গুণাঙ্ক",
       "unit": "—"
     },
     {
       "symbol": "beta",
-      "meaning": "beta সম্পর্কিত রাশি",
+      "meaning": "কোণ / ক্ষেত্র প্রসারণ",
       "unit": "—"
     },
     {
       "symbol": "gamma",
-      "meaning": "gamma সম্পর্কিত রাশি",
+      "meaning": "আয়তন প্রসারণ / আপেক্ষিকতা",
       "unit": "—"
     }
   ],
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}",
-        "note": "তিন বল সাম্য → Lami: F/sin( opposite angle )।"
+        "note": "বলের ত্রিভুজ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "তিন বল সাম্য → Lami: F/sin( opposite angle )।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বলের ত্রিভুজ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}"
+      "question": "বলের ত্রিভুজ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}\\text{ — }তিন বল সাম্য → Lami: F/sin( opposite angle )।"
+    },
+    {
+      "examType": "Concept",
+      "question": "বলের ত্রিভুজ দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{তিন বল সাম্য → Lami: F/sin( opposite angle )।}"
     }
   ],
   "memorize": {
     "trick": "তিন বল সাম্য → Lami: F/sin( opposite angle )।",
     "steps": [
-      "সূত্র: \\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}",
-      "কী কাজে লাগে: বলের ত্রিভুজ",
-      "চিহ্ন মনে রাখো: F, alpha, beta, gamma"
+      "তিন বল সাম্য → Lami: F/sin( opposite angle )।",
+      "প্রশ্নে বলের ত্রিভুজ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: F, alpha, beta — একক যাচাই করো"
     ]
   },
   "subjects": [

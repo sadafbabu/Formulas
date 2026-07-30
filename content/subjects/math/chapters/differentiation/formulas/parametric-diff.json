@@ -21,18 +21,18 @@
     },
     {
       "symbol": "y",
-      "meaning": "y সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান",
+      "unit": "m"
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     },
     {
       "symbol": "t",
-      "meaning": "t সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "সময়",
+      "unit": "s"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
-        "note": "dy/dx=(dy/dt)/(dx/dt) — t বাদ না দিয়েই ঢাল।"
+        "note": "প্যারামিতিক অন্তরীকরণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "t বাদ না দিয়েই ঢাল। \\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}"
       }
     ],
     "assumptions": []
@@ -54,16 +54,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্যারামিতিক অন্তরীকরণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "প্যারামিতিক অন্তরীকরণ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}"
     }
   ],
   "memorize": {
     "trick": "t বাদ না দিয়েই ঢাল। \\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
     "steps": [
-      "সূত্র: \\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
-      "কী কাজে লাগে: প্যারামিতিক অন্তরীকরণ",
-      "চিহ্ন মনে রাখো: d, y, x, t"
+      "t বাদ না দিয়েই ঢাল। \\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
+      "প্রশ্নে প্যারামিতিক অন্তরীকরণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: d, y, x — একক যাচাই করো"
     ]
   },
   "subjects": [

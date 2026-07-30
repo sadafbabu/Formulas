@@ -26,12 +26,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}",
-        "note": "ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।"
+        "note": "tan ২A এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।"
       }
     ],
     "assumptions": []
@@ -39,16 +39,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "tan ২A কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "tan ২A এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}"
+    },
+    {
+      "examType": "Concept",
+      "question": "tan ২A দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{ভাজকে ১tanA; শূন্য হলে অসংজ্ঞাত।}"
     }
   ],
   "memorize": {
     "trick": "ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।",
     "steps": [
-      "সূত্র: \\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}",
-      "কী কাজে লাগে: tan ২A",
-      "চিহ্ন মনে রাখো: A"
+      "ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।",
+      "প্রশ্নে tan ২A প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A — একক যাচাই করো"
     ]
   },
   "subjects": [

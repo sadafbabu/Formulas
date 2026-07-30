@@ -22,18 +22,18 @@
     },
     {
       "symbol": "h",
-      "meaning": "h সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "উচ্চতা / প্ল্যাঙ্ক ধ্রুবক",
+      "unit": "m বা J·s"
     },
     {
       "symbol": "v",
-      "meaning": "v সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "বেগ",
+      "unit": "m/s"
     },
     {
       "symbol": "u",
-      "meaning": "u সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "আদি বেগ",
+      "unit": "m/s"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "m=\\frac{h'}{h}=-\\frac{v}{u}",
-        "note": "ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}"
+        "note": "বিবর্ধন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "m=\\frac{h'}{h}=-\\frac{v}{u}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}"
       }
     ],
     "assumptions": []
@@ -55,16 +55,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিবর্ধন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "বিবর্ধন এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "m=\\frac{h'}{h}=-\\frac{v}{u}"
     }
   ],
   "memorize": {
     "trick": "ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}",
     "steps": [
-      "সূত্র: m=\\frac{h'}{h}=-\\frac{v}{u}",
-      "কী কাজে লাগে: বিবর্ধন",
-      "চিহ্ন মনে রাখো: m, h, v, u"
+      "ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}",
+      "প্রশ্নে বিবর্ধন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: m, h, v — একক যাচাই করো"
     ]
   },
   "subjects": [

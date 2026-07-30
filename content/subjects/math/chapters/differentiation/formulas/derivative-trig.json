@@ -26,12 +26,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "(\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
-        "note": "sin→cos; cos→−sin; tan→sec²। (\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x"
+        "note": "ত্রিকোণমিতিক অন্তরক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "(\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "sin→cos; cos→−sin; tan→sec²। (\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x"
       }
     ],
     "assumptions": []
@@ -39,16 +39,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ত্রিকোণমিতিক অন্তরক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ত্রিকোণমিতিক অন্তরক এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
       "answer": "(\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x"
+    },
+    {
+      "examType": "Concept",
+      "question": "ত্রিকোণমিতিক অন্তরক দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{( sin x)'= cos x, ( cos x)'=- sin x, ( tan x)'= sec 2 x}"
     }
   ],
   "memorize": {
     "trick": "sin→cos; cos→−sin; tan→sec²। (\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
     "steps": [
-      "সূত্র: (\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
-      "কী কাজে লাগে: ত্রিকোণমিতিক অন্তরক",
-      "চিহ্ন মনে রাখো: x"
+      "sin→cos; cos→−sin; tan→sec²। (\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
+      "প্রশ্নে ত্রিকোণমিতিক অন্তরক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: x — একক যাচাই করো"
     ]
   },
   "subjects": [

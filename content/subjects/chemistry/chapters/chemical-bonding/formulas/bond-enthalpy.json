@@ -22,18 +22,18 @@
     },
     {
       "symbol": "H",
-      "meaning": "H সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র / এনথ্যালপি",
+      "unit": "A/m বা J"
     },
     {
       "symbol": "sum",
-      "meaning": "sum সম্পর্কিত রাশি",
+      "meaning": "sum (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "E",
-      "meaning": "E সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "শক্তি / তড়িৎক্ষেত্র",
+      "unit": "J বা N/C"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta H=\\sum E_{\\text{broken}}-\\sum E_{\\text{formed}}",
-        "note": "ভাঙা − গঠন = ΔH (এন্ডো ধনাত্মক)।"
+        "note": "বন্ধন এনথালপি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\Delta H=\\sum E_{\\text{broken}}-\\sum E_{\\text{formed}}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ভাঙা − গঠন = ΔH (এন্ডো ধনাত্মক)।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বন্ধন এনথালপি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\Delta H=\\sum E_{\\text{broken}}-\\sum E_{\\text{formed}}"
+      "question": "বন্ধন এনথালপি এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\Delta H=\\sum E_{\\text{broken}}-\\sum E_{\\text{formed}}\\text{ — }ভাঙা − গঠন = ΔH (এন্ডো ধনাত্মক)।"
+    },
+    {
+      "examType": "Concept",
+      "question": "বন্ধন এনথালপি দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{ভাঙা  গঠন = ΔH (এন্ডো ধনাত্মক)।}"
     }
   ],
   "memorize": {
     "trick": "ভাঙা − গঠন = ΔH (এন্ডো ধনাত্মক)।",
     "steps": [
-      "সূত্র: \\Delta H=\\sum E_{\\text{broken}}-\\sum E_{\\text{formed}}",
-      "কী কাজে লাগে: বন্ধন এনথালপি",
-      "চিহ্ন মনে রাখো: Delta, H, sum, E"
+      "ভাঙা − গঠন = ΔH (এন্ডো ধনাত্মক)।",
+      "প্রশ্নে বন্ধন এনথালপি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: Delta, H, sum — একক যাচাই করো"
     ]
   },
   "subjects": [

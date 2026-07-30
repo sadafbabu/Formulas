@@ -40,12 +40,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac12m\\langle v^2\\rangle=\\frac12m v_{\\mathrm{rms}}^2=\\frac32kT",
-        "note": "গতিতত্ত্ব থেকে গ্যাসের চাপ P = (1/3)ρv̄² ও PV = (2/3)N(KE) থেকে প্রাপ্ত।"
+        "note": "গ্যাস অণুর গড় গতিশক্তি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac12m\\langle v^2\\rangle=\\frac12m v_{\\mathrm{rms}}^2=\\frac32kT",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "গড় গতিশক্তি = (3/2)kT — কেবল তাপমাত্রার উপর নির্ভর করে, গ্যাস কোনটা তা লাগে না! 'প্রতি স্বাধীনতার মাত্রায় ½kT, তিন মাত"
       }
     ],
     "assumptions": [

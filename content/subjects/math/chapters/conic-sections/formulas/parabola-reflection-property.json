@@ -21,12 +21,12 @@
     },
     {
       "symbol": "parallel",
-      "meaning": "parallel সম্পর্কিত রাশি",
+      "meaning": "parallel (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "axis reflects through focus",
-      "meaning": "axis reflects through focus সম্পর্কিত রাশি",
+      "meaning": "axis reflects through focus (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{ray }\\parallel\\text{ axis reflects through focus}",
-        "note": "অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায় — স্যাটেলাইট ডিশ।"
+        "note": "পরাবৃত্তের প্রতিফলন ধর্ম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{ray }\\parallel\\text{ axis reflects through focus}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায় — স্যাটেলাইট ডিশ।"
       }
     ],
     "assumptions": []
@@ -49,16 +49,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরাবৃত্তের প্রতিফলন ধর্ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "পরাবৃত্তের প্রতিফলন ধর্ম এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{ray }\\parallel\\text{ axis reflects through focus}"
+    },
+    {
+      "examType": "Concept",
+      "question": "পরাবৃত্তের প্রতিফলন ধর্ম দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায়  স্যাটেলাইট ডিশ।}"
     }
   ],
   "memorize": {
     "trick": "অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায় — স্যাটেলাইট ডিশ।",
     "steps": [
-      "সূত্র: \\text{ray }\\parallel\\text{ axis reflects through focus}",
-      "কী কাজে লাগে: পরাবৃত্তের প্রতিফলন ধর্ম",
-      "চিহ্ন মনে রাখো: ray, parallel, axis reflects through focus"
+      "অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায় — স্যাটেলাইট ডিশ।",
+      "প্রশ্নে পরাবৃত্তের প্রতিফলন ধর্ম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: ray, parallel, axis reflects through focus — একক যাচাই করো"
     ]
   },
   "subjects": [

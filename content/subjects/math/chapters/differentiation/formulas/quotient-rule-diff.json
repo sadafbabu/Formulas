@@ -21,8 +21,8 @@
     },
     {
       "symbol": "v",
-      "meaning": "v সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "বেগ",
+      "unit": "m/s"
     }
   ],
   "derivation": {
@@ -31,12 +31,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}",
-        "note": "নিচের বর্গ ভাজক; উপরে vu′−uv′।"
+        "note": "ভাগ নিয়ম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "নিচের বর্গ ভাজক; উপরে vu′−uv′।"
       }
     ],
     "assumptions": []
@@ -44,16 +44,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভাগ নিয়ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}"
+      "question": "ভাগ নিয়ম এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\text{ — }নিচের বর্গ ভাজক; উপরে vu′−uv′।"
+    },
+    {
+      "examType": "Concept",
+      "question": "ভাগ নিয়ম দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{নিচের বর্গ ভাজক; উপরে vu′uv′।}"
     }
   ],
   "memorize": {
     "trick": "নিচের বর্গ ভাজক; উপরে vu′−uv′।",
     "steps": [
-      "সূত্র: \\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}",
-      "কী কাজে লাগে: ভাগ নিয়ম",
-      "চিহ্ন মনে রাখো: u, v"
+      "নিচের বর্গ ভাজক; উপরে vu′−uv′।",
+      "প্রশ্নে ভাগ নিয়ম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: u, v — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -66,9 +66,9 @@
   "memorize": {
     "trick": "Triangle half-angle-এ sin(A/2)-এর numerator-এ A-এর পাশ বাদ দিয়ে (s−b)(s−c); cos(A/2)-এ s(s−a)। আর tan(A/2)=r/(s−a)।",
     "steps": [
-      "সূত্র: \\sin\\frac A2=\\sqrt{\\frac{(s-b)(s-c)}{bc}},\\quad \\cos\\frac A2=\\sqrt{\\frac{s(s-a)}…",
-      "Side ও semiperimeter থেকে sin(A/2), cos(A/2), tan(A/2) এবং inradius relations।",
-      "চিহ্ন মনে রাখো: s, r"
+      "Triangle half-angle-এ sin(A/2)-এর numerator-এ A-এর পাশ বাদ দিয়ে (s−b)(s−c); cos(A/2)-এ s(s−a)। আর tan(A/2)…",
+      "প্রশ্নে ত্রিভুজে অর্ধকোণের সূত্র প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: s, r — একক যাচাই করো"
     ]
   }
 }

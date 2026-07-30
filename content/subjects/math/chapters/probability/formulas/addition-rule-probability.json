@@ -21,18 +21,18 @@
     },
     {
       "symbol": "A",
-      "meaning": "A সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ক্ষেত্রফল / বিস্তার",
+      "unit": "m²"
     },
     {
       "symbol": "cup",
-      "meaning": "cup সম্পর্কিত রাশি",
+      "meaning": "cup (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)",
-        "note": "মিলিত = A+B−AB; পরস্পর বর্জন হলে AB=0।"
+        "note": "যোগ নিয়ম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "মিলিত = A+B−AB; পরস্পর বর্জন হলে AB=0।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "যোগ নিয়ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)"
+      "question": "যোগ নিয়ম এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)\\text{ — }মিলিত = A+B−AB; পরস্পর বর্জন হলে AB=0।"
+    },
+    {
+      "examType": "Concept",
+      "question": "যোগ নিয়ম দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{মিলিত = A+BAB; পরস্পর বর্জন হলে AB=0।}"
     }
   ],
   "memorize": {
     "trick": "মিলিত = A+B−AB; পরস্পর বর্জন হলে AB=0।",
     "steps": [
-      "সূত্র: P(A\\cup B)=P(A)+P(B)-P(A\\cap B)",
-      "কী কাজে লাগে: যোগ নিয়ম",
-      "চিহ্ন মনে রাখো: P, A, cup, B"
+      "মিলিত = A+B−AB; পরস্পর বর্জন হলে AB=0।",
+      "প্রশ্নে যোগ নিয়ম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: P, A, cup — একক যাচাই করো"
     ]
   },
   "subjects": [

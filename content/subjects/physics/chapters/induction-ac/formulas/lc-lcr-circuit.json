@@ -39,7 +39,7 @@
     },
     {
       "symbol": "X_C",
-      "meaning": "X_C সম্পর্কিত রাশি",
+      "meaning": "রিয়েক্ট্যান্স",
       "unit": "Ω"
     }
   ],
@@ -49,12 +49,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "T = 2\\pi\\sqrt{LC}, \\quad f_0 = \\frac{1}{2\\pi\\sqrt{LC}}, \\quad Z = \\sqrt{R^2 + (X_L - X_C)^2}",
-        "note": "শক্তি সংরক্ষণ থেকে LC দোলন ও কিরখফের সূত্র থেকে LCR সমীকরণ।"
+        "note": "LC ও LCR সার্কিট অনুনাদ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "T = 2\\pi\\sqrt{LC}, \\quad f_0 = \\frac{1}{2\\pi\\sqrt{LC}}, \\quad Z = \\sqrt{R^2 + (X_L - X_C)^2}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "f₀ = 1/(2π√LC) — অনুনাদে X_L = X_C, তাই Z সর্বনিম্ন = R এবং প্রবাহ সর্বোচ্চ। 'অনুনাদে সার্কিট শুধু রোধের মতো আচরণ করে'।"
       }
     ],
     "assumptions": [

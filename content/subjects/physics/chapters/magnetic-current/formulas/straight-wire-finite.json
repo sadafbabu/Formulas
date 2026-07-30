@@ -43,7 +43,7 @@
     },
     {
       "symbol": "\\phi_2",
-      "meaning": "\\phi_2 সম্পর্কিত রাশি",
+      "meaning": "দশা / ফ্লাক্স",
       "unit": "°"
     }
   ],
@@ -53,12 +53,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "B = \\frac{\\mu_0 I}{4\\pi r} (\\sin \\phi_1 + \\sin \\phi_2)",
-        "note": "বায়োট-সাভার্ট সূত্রে সীমা \\phi_1 থেকে \\phi_2 বসিয়ে সমাকলন:"
+        "note": "সসীম দৈর্ঘ্যের তারের চৌম্বক ক্ষেত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "B = \\frac{\\mu_0 I}{4\\pi r} (\\sin \\phi_1 + \\sin \\phi_2)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "সসীম তার = অসীম তারের সূত্রে '৪' আর দুই কোণের sine। B = μ₀I(sin φ₁ + sin φ₂)/(4πr) — দুই প্রান্ত দুই sine দেয়।"
       }
     ],
     "assumptions": [

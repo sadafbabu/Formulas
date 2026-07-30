@@ -22,17 +22,17 @@
     },
     {
       "symbol": "M",
-      "meaning": "M সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর / মোলার ভর",
+      "unit": "kg বা g/mol"
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     },
     {
       "symbol": "factor",
-      "meaning": "factor সম্পর্কিত রাশি",
+      "meaning": "factor (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "N=M\\times n_{\\text{factor}},\\quad N_1V_1=N_2V_2",
-        "note": "অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।"
+        "note": "নরমালিটি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "N=M\\times n_{\\text{factor}},\\quad N_1V_1=N_2V_2",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "নরমালিটি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "N=M\\times n_{\\text{factor}},\\quad N_1V_1=N_2V_2"
+      "question": "নরমালিটি এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "N=M\\times n_{\\text{factor}},\\quad N_1V_1=N_2V_2\\text{ — }অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।"
+    },
+    {
+      "examType": "Concept",
+      "question": "নরমালিটি দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।}"
     }
   ],
   "memorize": {
     "trick": "অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।",
     "steps": [
-      "সূত্র: N=M\\times n_{\\text{factor}},\\quad N_1V_1=N_2V_2",
-      "কী কাজে লাগে: নরমালিটি",
-      "চিহ্ন মনে রাখো: N, M, n, factor"
+      "অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।",
+      "প্রশ্নে নরমালিটি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: N, M, n — একক যাচাই করো"
     ]
   },
   "subjects": [

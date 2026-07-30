@@ -27,7 +27,7 @@
     },
     {
       "symbol": "A",
-      "meaning": "A সম্পর্কিত রাশি",
+      "meaning": "ক্ষেত্রফল / বিস্তার",
       "unit": "N, m²"
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "symbol": "L",
-      "meaning": "L সম্পর্কিত রাশি",
+      "meaning": "দৈর্ঘ্য / আবেশ / ল্যাটেন্ট",
       "unit": "m"
     }
   ],
@@ -47,12 +47,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "Y=\\dfrac{\\mathrm{stress}}{\\mathrm{strain}}=\\dfrac{F/A}{\\Delta L/L}",
-        "note": "হুকের সূত্র: F = −kx; কঠিনে stress–strain রৈখিক।"
+        "note": "হুকের সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "Y=\\dfrac{\\mathrm{stress}}{\\mathrm{strain}}=\\dfrac{F/A}{\\Delta L/L}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "স্থিতিস্থাপক সীমায় stress∝strain; Y=stress/strain।"
       }
     ],
     "assumptions": [

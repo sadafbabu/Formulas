@@ -21,18 +21,18 @@
     },
     {
       "symbol": "u",
-      "meaning": "u সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "আদি বেগ",
+      "unit": "m/s"
     },
     {
       "symbol": "theta",
-      "meaning": "theta সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কোণ",
+      "unit": "rad"
     },
     {
       "symbol": "g",
-      "meaning": "g সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "H=\\frac{u^2\\sin^2\\theta}{2g}",
-        "note": "শুধু vertical component u sinθ; H=v²/2g।"
+        "note": "সর্বোচ্চ উচ্চতা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "H=\\frac{u^2\\sin^2\\theta}{2g}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "শুধু vertical component u sinθ; H=v²/2g।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সর্বোচ্চ উচ্চতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "H=\\frac{u^2\\sin^2\\theta}{2g}"
+      "question": "সর্বোচ্চ উচ্চতা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "H=\\frac{u^2\\sin^2\\theta}{2g}\\text{ — }শুধু vertical component u sinθ; H=v²/2g।"
+    },
+    {
+      "examType": "Concept",
+      "question": "সর্বোচ্চ উচ্চতা দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{শুধু vertical component u sinθ; H=v/2g।}"
     }
   ],
   "memorize": {
     "trick": "শুধু vertical component u sinθ; H=v²/2g।",
     "steps": [
-      "সূত্র: H=\\frac{u^2\\sin^2\\theta}{2g}",
-      "কী কাজে লাগে: সর্বোচ্চ উচ্চতা",
-      "চিহ্ন মনে রাখো: H, u, theta, g"
+      "শুধু vertical component u sinθ; H=v²/2g।",
+      "প্রশ্নে সর্বোচ্চ উচ্চতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: H, u, theta — একক যাচাই করো"
     ]
   },
   "subjects": [

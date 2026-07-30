@@ -27,7 +27,7 @@
     },
     {
       "symbol": "\\Delta S",
-      "meaning": "\\Delta S সম্পর্কিত রাশি",
+      "meaning": "\\Delta S (সূত্রের রাশি)",
       "unit": "J/mol, J/(mol·K)"
     },
     {

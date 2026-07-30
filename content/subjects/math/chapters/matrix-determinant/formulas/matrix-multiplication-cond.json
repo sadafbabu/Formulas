@@ -21,18 +21,18 @@
     },
     {
       "symbol": "m",
-      "meaning": "m সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর",
+      "unit": "kg"
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "A_{m\\times n}B_{n\\times p}=C_{m\\times p}",
-        "note": "মধ্যের দুই মাত্রা সমান হতে হবে।"
+        "note": "ম্যাট্রিক্স গুণের শর্ত এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "A_{m\\times n}B_{n\\times p}=C_{m\\times p}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "মধ্যের দুই মাত্রা সমান হতে হবে।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ম্যাট্রিক্স গুণের শর্ত কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "A_{m\\times n}B_{n\\times p}=C_{m\\times p}"
+      "question": "ম্যাট্রিক্স গুণের শর্ত এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "A_{m\\times n}B_{n\\times p}=C_{m\\times p}\\text{ — }মধ্যের দুই মাত্রা সমান হতে হবে।"
+    },
+    {
+      "examType": "Concept",
+      "question": "ম্যাট্রিক্স গুণের শর্ত দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{মধ্যের দুই মাত্রা সমান হতে হবে।}"
     }
   ],
   "memorize": {
     "trick": "মধ্যের দুই মাত্রা সমান হতে হবে।",
     "steps": [
-      "সূত্র: A_{m\\times n}B_{n\\times p}=C_{m\\times p}",
-      "কী কাজে লাগে: ম্যাট্রিক্স গুণের শর্ত",
-      "চিহ্ন মনে রাখো: A, m, n, B"
+      "মধ্যের দুই মাত্রা সমান হতে হবে।",
+      "প্রশ্নে ম্যাট্রিক্স গুণের শর্ত প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A, m, n — একক যাচাই করো"
     ]
   },
   "subjects": [

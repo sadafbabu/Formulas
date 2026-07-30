@@ -59,9 +59,9 @@
   "memorize": {
     "trick": "P = Fv — একক Watt। P=\\vec F\\cdot\\vec v=Fv\\cos\\theta",
     "steps": [
-      "সূত্র: P=\\vec F\\cdot\\vec v=Fv\\cos\\theta",
-      "কী কাজে লাগে: তাৎক্ষণিক ক্ষমতা",
-      "চিহ্ন মনে রাখো: P, \\vec F, \\vec v"
+      "P = Fv — একক Watt। P=\\vec F\\cdot\\vec v=Fv\\cos\\theta",
+      "প্রশ্নে তাৎক্ষণিক ক্ষমতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: P, \\vec F, \\vec v — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -25,7 +25,7 @@
     },
     {
       "symbol": "PE",
-      "meaning": "PE সম্পর্কিত রাশি",
+      "meaning": "PE (সূত্রের রাশি)",
       "unit": "J"
     },
     {
@@ -45,7 +45,7 @@
     },
     {
       "symbol": "x",
-      "meaning": "সরণ",
+      "meaning": "অবস্থান / অজানা",
       "unit": "m"
     }
   ],
@@ -55,12 +55,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "E = \\frac{1}{2}m\\omega^2 A^2, \\quad KE = \\frac{1}{2}m\\omega^2(A^2 - x^2), \\quad PE = \\frac{1}{2}m\\omega^2 x^2",
-        "note": "SHM-এ বল F = -kx = -mω²x, তাই বিভবশক্তি ও গতিশক্তি যোগ করে মোট শক্তি ধ্রুব।"
+        "note": "সরল ছন্দিত স্পন্দনের মোট শক্তি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "E = \\frac{1}{2}m\\omega^2 A^2, \\quad KE = \\frac{1}{2}m\\omega^2(A^2 - x^2), \\quad PE = \\frac{1}{2}m\\omega^2 x^2",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "মোট শক্তি E = ½mω²A² — ধ্রুব, সর্বত্র একই। প্রান্তে সব PE, কেন্দ্রে সব KE। 'KE-তে (A² − x²), PE-তে x²' — যোগ করলেই A²।"
       }
     ],
     "assumptions": [

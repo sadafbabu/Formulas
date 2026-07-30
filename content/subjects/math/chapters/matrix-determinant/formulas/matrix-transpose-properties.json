@@ -21,13 +21,13 @@
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "T",
-      "meaning": "T সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "পর্যায়কাল / তাপমাত্রা",
+      "unit": "s বা K"
     }
   ],
   "derivation": {
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "(AB)^T=B^TA^T,\\quad (A^T)^T=A",
-        "note": "গুণের ট্রান্সপোজে ক্রম উল্টো। (AB)^T=B^TA^T,\\quad (A^T)^T=A"
+        "note": "ট্রান্সপোজ ধর্ম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "(AB)^T=B^TA^T,\\quad (A^T)^T=A",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "গুণের ট্রান্সপোজে ক্রম উল্টো। (AB)^T=B^TA^T,\\quad (A^T)^T=A"
       }
     ],
     "assumptions": []
@@ -49,16 +49,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ট্রান্সপোজ ধর্ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ট্রান্সপোজ ধর্ম এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "(AB)^T=B^TA^T,\\quad (A^T)^T=A"
     }
   ],
   "memorize": {
     "trick": "গুণের ট্রান্সপোজে ক্রম উল্টো। (AB)^T=B^TA^T,\\quad (A^T)^T=A",
     "steps": [
-      "সূত্র: (AB)^T=B^TA^T,\\quad (A^T)^T=A",
-      "কী কাজে লাগে: ট্রান্সপোজ ধর্ম",
-      "চিহ্ন মনে রাখো: A, B, T"
+      "গুণের ট্রান্সপোজে ক্রম উল্টো। (AB)^T=B^TA^T,\\quad (A^T)^T=A",
+      "প্রশ্নে ট্রান্সপোজ ধর্ম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A, B, T — একক যাচাই করো"
     ]
   },
   "subjects": [

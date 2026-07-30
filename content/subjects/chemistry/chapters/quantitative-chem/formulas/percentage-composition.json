@@ -22,7 +22,7 @@
     },
     {
       "symbol": "molar mass",
-      "meaning": "molar mass সম্পর্কিত রাশি",
+      "meaning": "molar mass (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -32,12 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
-        "note": "যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100"
+        "note": "শতকরা সংযুক্তি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100"
       }
     ],
     "assumptions": []
@@ -45,16 +45,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শতকরা সংযুক্তি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "শতকরা সংযুক্তি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100"
     }
   ],
   "memorize": {
     "trick": "যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
     "steps": [
-      "সূত্র: \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
-      "কী কাজে লাগে: শতকরা সংযুক্তি",
-      "চিহ্ন মনে রাখো: mass of element in formula, molar mass"
+      "যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
+      "প্রশ্নে শতকরা সংযুক্তি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: mass of element in formula, molar mass — একক যাচাই করো"
     ]
   },
   "subjects": [

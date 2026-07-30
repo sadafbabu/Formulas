@@ -22,18 +22,18 @@
     },
     {
       "symbol": "Delta",
-      "meaning": "Delta সম্পর্কিত রাশি",
+      "meaning": "পরিবর্তন",
       "unit": "—"
     },
     {
       "symbol": "m",
-      "meaning": "m সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর",
+      "unit": "kg"
     },
     {
       "symbol": "c",
-      "meaning": "c সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "আলোর বেগ / আপেক্ষিক তাপ",
+      "unit": "m/s বা J/(kg·K)"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "E=(\\Delta m)c^2",
-        "note": "ভর ক্ষতি → শক্তি নির্গত। E=(\\Delta m)c^2"
+        "note": "ভর–শক্তি সমতুল্যতা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "E=(\\Delta m)c^2",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ভর ক্ষতি → শক্তি নির্গত। E=(\\Delta m)c^2"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভর–শক্তি সমতুল্যতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "E=(\\Delta m)c^2"
+      "question": "ভর–শক্তি সমতুল্যতা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "E=(\\Delta m)c^2\\text{ — }ভর ক্ষতি → শক্তি নির্গত। E=(\\Delta m)c^2"
+    },
+    {
+      "examType": "Concept",
+      "question": "ভর–শক্তি সমতুল্যতা দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{E=( Delta m)c 2}"
     }
   ],
   "memorize": {
     "trick": "ভর ক্ষতি → শক্তি নির্গত। E=(\\Delta m)c^2",
     "steps": [
-      "সূত্র: E=(\\Delta m)c^2",
-      "কী কাজে লাগে: ভর–শক্তি সমতুল্যতা",
-      "চিহ্ন মনে রাখো: E, Delta, m, c"
+      "ভর ক্ষতি → শক্তি নির্গত। E=(\\Delta m)c^2",
+      "প্রশ্নে ভর–শক্তি সমতুল্যতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: E, Delta, m — একক যাচাই করো"
     ]
   },
   "subjects": [

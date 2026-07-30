@@ -22,18 +22,18 @@
     },
     {
       "symbol": "S",
-      "meaning": "S সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "এনট্রপি / পৃষ্ঠটান",
+      "unit": "J/K বা N/m"
     },
     {
       "symbol": "O",
-      "meaning": "O সম্পর্কিত রাশি",
+      "meaning": "O (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "H",
-      "meaning": "H সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র / এনথ্যালপি",
+      "unit": "A/m বা J"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\ce{SO2 + H2O -> H2SO3};\\quad \\ce{NO2 + H2O -> HNO3}",
-        "note": "SO₂/NO₂ → অম্ল; pH ৫.৬-এর নিচে = অম্ল বৃষ্টি।"
+        "note": "অম্ল বৃষ্টি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\ce{SO2 + H2O -> H2SO3};\\quad \\ce{NO2 + H2O -> HNO3}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "SO₂/NO₂ → অম্ল; pH ৫.৬-এর নিচে = অম্ল বৃষ্টি।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অম্ল বৃষ্টি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "অম্ল বৃষ্টি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\ce{SO2 + H2O -> H2SO3};\\quad \\ce{NO2 + H2O -> HNO3}"
+    },
+    {
+      "examType": "Concept",
+      "question": "অম্ল বৃষ্টি দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{SO₂/NO₂ → অম্ল; pH ৫.৬-এর নিচে = অম্ল বৃষ্টি।}"
     }
   ],
   "memorize": {
     "trick": "SO₂/NO₂ → অম্ল; pH ৫.৬-এর নিচে = অম্ল বৃষ্টি।",
     "steps": [
-      "সূত্র: \\ce{SO2 + H2O -> H2SO3};\\quad \\ce{NO2 + H2O -> HNO3}",
-      "কী কাজে লাগে: অম্ল বৃষ্টি",
-      "চিহ্ন মনে রাখো: ce, S, O, H"
+      "SO₂/NO₂ → অম্ল; pH ৫.৬-এর নিচে = অম্ল বৃষ্টি।",
+      "প্রশ্নে অম্ল বৃষ্টি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: ce, S, O — একক যাচাই করো"
     ]
   },
   "subjects": [

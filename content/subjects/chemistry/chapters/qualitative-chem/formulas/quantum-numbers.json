@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "n, \\ l, \\ m_l, \\ m_s; \\quad \\text{orbitals} = (2l+1), \\quad \\text{max e}^\\ominus = 2(2l+1)",
-        "note": "Schrödinger সমীকরণ থেকে প্রাপ্ত কোয়ান্টাম সংখ্যাসমূহ।"
+        "note": "কোয়ান্টাম সংখ্যা ও অরবিটাল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "n, \\ l, \\ m_l, \\ m_s; \\quad \\text{orbitals} = (2l+1), \\quad \\text{max e}^\\ominus = 2(2l+1)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "চারটি কোয়ান্টাম সংখ্যা = ইলেকট্রনের ঠিকানা। n = বাড়ি (শক্তিস্তর), l = তলা (উপস্তর), m_l = ঘর (অরবিটাল), m_s = ঘুরন (±½"
       }
     ],
     "assumptions": [

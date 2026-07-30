@@ -16,23 +16,23 @@
   "symbols": [
     {
       "symbol": "vec",
-      "meaning": "a×b",
+      "meaning": "vec (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "theta",
-      "meaning": "theta সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কোণ",
+      "unit": "rad"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\vec a\\times\\vec b=|\\vec a||\\vec b|\\sin\\theta\\,\\hat n=\\begin{vmatrix}\\hat i&\\hat j&\\hat k\\\\a_x&a_y&a_z\\\\b_x&b_y&b_z\\end{vmatrix}",
-        "note": "ডানহস্ত নিয়ম; সমান্তরালে ক্রস = ০।"
+        "note": "বহির্গুণফল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\vec a\\times\\vec b=|\\vec a||\\vec b|\\sin\\theta\\,\\hat n=\\begin{vmatrix}\\hat i&\\hat j&\\hat k\\\\a_x&a_y&a_z\\\\b_x&b_y&b_z\\end{vmatrix}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ডানহস্ত নিয়ম; সমান্তরালে ক্রস = ০।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বহির্গুণফল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\vec a\\times\\vec b=|\\vec a||\\vec b|\\sin\\theta\\,\\hat n=\\begin{vmatrix}\\hat i&\\hat j&\\hat k\\\\a_x&a_y&a_z\\\\b_x&b_y&b_z\\end{vmatrix}"
+      "question": "বহির্গুণফল এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\vec a\\times\\vec b=|\\vec a||\\vec b|\\sin\\theta\\,\\hat n=\\begin{vmatrix}\\hat i&\\hat j&\\hat k\\\\a_x&a_y&a_z\\\\b_x&b_y&b_z\\end{vmatrix}\\text{ — }ডানহস্ত নিয়ম; সমান্তরালে ক্রস = ০।"
+    },
+    {
+      "examType": "Concept",
+      "question": "বহির্গুণফল দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{ডানহস্ত নিয়ম; সমান্তরালে ক্রস = ০।}"
     }
   ],
   "memorize": {
     "trick": "ডানহস্ত নিয়ম; সমান্তরালে ক্রস = ০।",
     "steps": [
-      "সূত্র: \\vec a\\times\\vec b=|\\vec a||\\vec b|\\sin\\theta\\,\\hat n=\\begin{vmatrix}\\hat i&\\hat…",
-      "কী কাজে লাগে: বহির্গুণফল",
-      "চিহ্ন মনে রাখো: vec, a, b, theta"
+      "ডানহস্ত নিয়ম; সমান্তরালে ক্রস = ০।",
+      "প্রশ্নে বহির্গুণফল প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: vec, a, b — একক যাচাই করো"
     ]
   },
   "subjects": [

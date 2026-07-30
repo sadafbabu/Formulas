@@ -26,13 +26,13 @@
     },
     {
       "symbol": "m",
-      "meaning": "m সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর",
+      "unit": "kg"
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\cos\\theta=|l_1l_2+m_1m_2+n_1n_2|",
-        "note": "DC-এর dot product; DR দিয়ে সহজ।"
+        "note": "৩D-এ রেখার মধ্যবর্তী কোণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\cos\\theta=|l_1l_2+m_1m_2+n_1n_2|",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "DC-এর dot product; DR দিয়ে সহজ।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "৩D-এ রেখার মধ্যবর্তী কোণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "৩D-এ রেখার মধ্যবর্তী কোণ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\cos\\theta=|l_1l_2+m_1m_2+n_1n_2|"
+    },
+    {
+      "examType": "Concept",
+      "question": "৩D-এ রেখার মধ্যবর্তী কোণ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{DC-এর dot product; DR দিয়ে সহজ।}"
     }
   ],
   "memorize": {
     "trick": "DC-এর dot product; DR দিয়ে সহজ।",
     "steps": [
-      "সূত্র: \\cos\\theta=|l_1l_2+m_1m_2+n_1n_2|",
-      "কী কাজে লাগে: ৩D-এ রেখার মধ্যবর্তী কোণ",
-      "চিহ্ন মনে রাখো: theta, l, m, n"
+      "DC-এর dot product; DR দিয়ে সহজ।",
+      "প্রশ্নে ৩D-এ রেখার মধ্যবর্তী কোণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: theta, l, m — একক যাচাই করো"
     ]
   },
   "subjects": [

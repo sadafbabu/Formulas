@@ -27,12 +27,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{Schottky: equal cation and anion vacancies}",
-        "note": "Ionic solid-এ দুই vacancy; density decreases।"
+        "note": "শটকি ত্রুটি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{Schottky: equal cation and anion vacancies}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Ionic solid-এ দুই vacancy; density decreases।"
       }
     ],
     "assumptions": []
@@ -40,16 +40,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শটকি ত্রুটি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "শটকি ত্রুটি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{Schottky: equal cation and anion vacancies}"
+    },
+    {
+      "examType": "Concept",
+      "question": "শটকি ত্রুটি দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Ionic solid-এ দুই vacancy; density decreases।}"
     }
   ],
   "memorize": {
     "trick": "Ionic solid-এ দুই vacancy; density decreases।",
     "steps": [
-      "সূত্র: \\text{Schottky: equal cation and anion vacancies}",
-      "কী কাজে লাগে: শটকি ত্রুটি",
-      "চিহ্ন মনে রাখো: Schottky: equal cation and anion vacancies"
+      "Ionic solid-এ দুই vacancy; density decreases।",
+      "প্রশ্নে শটকি ত্রুটি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: Schottky: equal cation and anion vacancies — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -22,18 +22,18 @@
     },
     {
       "symbol": "Br^-",
-      "meaning": "Br^- সম্পর্কিত রাশি",
+      "meaning": "Br^- (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "Cl^-",
-      "meaning": "Cl^- সম্পর্কিত রাশি",
+      "meaning": "Cl^- (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "F^-",
-      "meaning": "F^- সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "বল",
+      "unit": "N"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{I^-}<\\mathrm{Br^-}<\\mathrm{Cl^-}<\\mathrm{F^-}<\\mathrm{OH^-}<\\mathrm{H_2O}<\\mathrm{NH_3}<\\mathrm{en}<\\mathrm{CN^-}",
-        "note": "CN⁻ শক্তিশালী ক্ষেত্র লিগ্যান্ড।"
+        "note": "বর্ণালি রাসায়নিক শ্রেণি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{I^-}<\\mathrm{Br^-}<\\mathrm{Cl^-}<\\mathrm{F^-}<\\mathrm{OH^-}<\\mathrm{H_2O}<\\mathrm{NH_3}<\\mathrm{en}<\\mathrm{CN^-}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "CN⁻ শক্তিশালী ক্ষেত্র লিগ্যান্ড।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বর্ণালি রাসায়নিক শ্রেণি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "বর্ণালি রাসায়নিক শ্রেণি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\mathrm{I^-}<\\mathrm{Br^-}<\\mathrm{Cl^-}<\\mathrm{F^-}<\\mathrm{OH^-}<\\mathrm{H_2O}<\\mathrm{NH_3}<\\mathrm{en}<\\mathrm{CN^-}"
+    },
+    {
+      "examType": "Concept",
+      "question": "বর্ণালি রাসায়নিক শ্রেণি দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{CN⁻ শক্তিশালী ক্ষেত্র লিগ্যান্ড।}"
     }
   ],
   "memorize": {
     "trick": "CN⁻ শক্তিশালী ক্ষেত্র লিগ্যান্ড।",
     "steps": [
-      "সূত্র: \\mathrm{I^-}<\\mathrm{Br^-}<\\mathrm{Cl^-}<\\mathrm{F^-}<\\mathrm{OH^-}<\\mathrm{H_2O…",
-      "কী কাজে লাগে: বর্ণালি রাসায়নিক শ্রেণি",
-      "চিহ্ন মনে রাখো: I^-, Br^-, Cl^-, F^-"
+      "CN⁻ শক্তিশালী ক্ষেত্র লিগ্যান্ড।",
+      "প্রশ্নে বর্ণালি রাসায়নিক শ্রেণি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: I^-, Br^-, Cl^- — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -35,12 +35,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "S=N_{\\sigma}+N_{\\mathrm{lone}},\\quad H=\\frac{V+M-C+A}{2}\\ \\text{(সীমিত shortcut)}",
-        "note": "ইলেকট্রন জোড় পরস্পরকে বিকর্ষণ করে, সর্বনিম্ন বিকর্ষণ কোণ নির্ধারণ জ্যামিতি।"
+        "note": "VSEPR জ্যামিতি ও একাকী জোড় এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "S=N_{\\sigma}+N_{\\mathrm{lone}},\\quad H=\\frac{V+M-C+A}{2}\\ \\text{(সীমিত shortcut)}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "মোট ইলেকট্রন যুগল গণনা করুন (বন্ধন + একাকী): ২ = সরলরৈখিক, ৩ = ত্রিকোণীয়, ৪ = চতুস্তলকীয়, ৫ = ত্রিকোণীয় দ্বিপিরামিড, "
       }
     ],
     "assumptions": [

@@ -17,8 +17,8 @@
   "symbols": [
     {
       "symbol": "n",
-      "meaning": "মোল",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     },
     {
       "symbol": "m",
@@ -27,13 +27,13 @@
     },
     {
       "symbol": "M",
-      "meaning": "M সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর / মোলার ভর",
+      "unit": "kg বা g/mol"
     },
     {
       "symbol": "N",
-      "meaning": "N সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কণা সংখ্যা",
+      "unit": "1"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "n=\\frac{m}{M}=\\frac{N}{N_A},\\quad N_A=6.022\\times10^{23}\\,\\mathrm{mol^{-1}}",
-        "note": "মোল ধারণা ও অ্যাভোগাড্রো সংখ্যা এর মূল সম্পর্ক ও প্রয়োগ।"
+        "note": "মোল ধারণা ও অ্যাভোগাড্রো সংখ্যা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "n=\\frac{m}{M}=\\frac{N}{N_A},\\quad N_A=6.022\\times10^{23}\\,\\mathrm{mol^{-1}}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "n = m/M = N/N_A — তিন রাস্তায় মোল।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মোল ধারণা ও অ্যাভোগাড্রো সংখ্যা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "n=\\frac{m}{M}=\\frac{N}{N_A},\\quad N_A=6.022\\times10^{23}\\,\\mathrm{mol^{-1}}"
+      "question": "মোল ধারণা ও অ্যাভোগাড্রো সংখ্যা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "n=\\frac{m}{M}=\\frac{N}{N_A},\\quad N_A=6.022\\times10^{23}\\,\\mathrm{mol^{-1}}\\text{ — }n = m/M = N/N_A — তিন রাস্তায় মোল।"
+    },
+    {
+      "examType": "Concept",
+      "question": "মোল ধারণা ও অ্যাভোগাড্রো সংখ্যা দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{মোল, কণা সংখ্যা ও মোলার ভর}"
     }
   ],
   "memorize": {
     "trick": "n = m/M = N/N_A — তিন রাস্তায় মোল।",
     "steps": [
-      "সূত্র: n=\\frac{m}{M}=\\frac{N}{N_A},\\quad N_A=6.022\\times10^{23}\\,\\mathrm{mol^{-1}}",
-      "মোল, কণা সংখ্যা ও মোলার ভর",
-      "চিহ্ন মনে রাখো: n, m, M, N"
+      "n = m/M = N/N_A — তিন রাস্তায় মোল।",
+      "প্রশ্নে মোল ধারণা ও অ্যাভোগাড্রো সংখ্যা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: n, m, M — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -17,23 +17,23 @@
   "symbols": [
     {
       "symbol": "PE",
-      "meaning": "68%",
+      "meaning": "PE (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "sqrt",
-      "meaning": "sqrt সম্পর্কিত রাশি",
+      "meaning": "sqrt (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "r",
-      "meaning": "r সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ব্যাসার্ধ / দূরত্ব",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
-        "note": "BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)"
+        "note": "BCC প্যাকিং দক্ষতা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)"
       }
     ],
     "assumptions": []
@@ -55,16 +55,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "BCC প্যাকিং দক্ষতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "BCC প্যাকিং দক্ষতা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{PE}=68\\%\\quad(a\\sqrt3=4r)"
     }
   ],
   "memorize": {
     "trick": "BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
     "steps": [
-      "সূত্র: \\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
-      "কী কাজে লাগে: BCC প্যাকিং দক্ষতা",
-      "চিহ্ন মনে রাখো: PE, a, sqrt, r"
+      "BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
+      "প্রশ্নে BCC প্যাকিং দক্ষতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: PE, a, sqrt — একক যাচাই করো"
     ]
   },
   "subjects": [

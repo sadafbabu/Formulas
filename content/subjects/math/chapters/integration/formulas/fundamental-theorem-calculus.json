@@ -21,18 +21,18 @@
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     },
     {
       "symbol": "int",
-      "meaning": "int সম্পর্কিত রাশি",
+      "meaning": "int (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
-        "note": "যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)"
+        "note": "ক্যালকুলাসের মৌলিক উপপাদ্য এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্যালকুলাসের মৌলিক উপপাদ্য কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)"
+      "question": "ক্যালকুলাসের মৌলিক উপপাদ্য এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)\\text{ — }যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)"
+    },
+    {
+      "examType": "Concept",
+      "question": "ক্যালকুলাসের মৌলিক উপপাদ্য দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{frac d dx int a x f(t) ,dt=f(x)}"
     }
   ],
   "memorize": {
     "trick": "যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
     "steps": [
-      "সূত্র: \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
-      "কী কাজে লাগে: ক্যালকুলাসের মৌলিক উপপাদ্য",
-      "চিহ্ন মনে রাখো: d, x, int, a"
+      "যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
+      "প্রশ্নে ক্যালকুলাসের মৌলিক উপপাদ্য প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: d, x, int — একক যাচাই করো"
     ]
   },
   "subjects": [

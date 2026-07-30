@@ -22,18 +22,18 @@
     },
     {
       "symbol": "A",
-      "meaning": "A সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ক্ষেত্রফল / বিস্তার",
+      "unit": "m²"
     },
     {
       "symbol": "E",
-      "meaning": "E সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "শক্তি / তড়িৎক্ষেত্র",
+      "unit": "J বা N/C"
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\ln k=\\ln A-\\frac{E_a}{RT}",
-        "note": "ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}"
+        "note": "আরেনিয়াস প্লট এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\ln k=\\ln A-\\frac{E_a}{RT}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}"
       }
     ],
     "assumptions": []
@@ -55,16 +55,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আরেনিয়াস প্লট কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "আরেনিয়াস প্লট এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\ln k=\\ln A-\\frac{E_a}{RT}"
     }
   ],
   "memorize": {
     "trick": "ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}",
     "steps": [
-      "সূত্র: \\ln k=\\ln A-\\frac{E_a}{RT}",
-      "কী কাজে লাগে: আরেনিয়াস প্লট",
-      "চিহ্ন মনে রাখো: k, A, E, a"
+      "ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}",
+      "প্রশ্নে আরেনিয়াস প্লট প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: k, A, E — একক যাচাই করো"
     ]
   },
   "subjects": [

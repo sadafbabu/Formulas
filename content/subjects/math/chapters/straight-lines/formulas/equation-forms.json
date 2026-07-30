@@ -46,12 +46,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "y = mx + c, \\quad y - y_1 = m(x - x_1), \\quad \\frac{x}{a} + \\frac{y}{b} = 1, \\quad x\\cos\\alpha + y\\sin\\alpha = p",
-        "note": "দুই বিন্দু (x₁, y₁) ও (x₂, y₂) দিয়ে রেখার ঢাল m = (y₂-y₁)/(x₂-x₁)।"
+        "note": "সরলরেখার সমীকরণের বিভিন্ন রূপ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "y = mx + c, \\quad y - y_1 = m(x - x_1), \\quad \\frac{x}{a} + \\frac{y}{b} = 1, \\quad x\\cos\\alpha + y\\sin\\alpha = p",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "চার রূপ, চার পরিস্থিতি: ঢাল-ছেদ y = mx + c (ঢাল ও ছেদ জানা), এক বিন্দু y − y₁ = m(x − x₁) (বিন্দু ও ঢাল), ছেদ x/a + y/b "
       }
     ],
     "assumptions": []

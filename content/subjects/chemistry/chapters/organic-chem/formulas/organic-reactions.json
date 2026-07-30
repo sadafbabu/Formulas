@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\ce{CH3CH=CH2 + HBr -> CH3CHBrCH3} \\quad \\text{(Markovnikov)}",
-        "note": "মার্কনিকভের নীতি: অসমতুল্য অ্যালকিনে HX যোগ হলে H পরমাণু বেশি H যুক্ত কার্বনে যোগ হয়।"
+        "note": "অ্যালকিন যোজন (মার্কনিকভ) এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\ce{CH3CH=CH2 + HBr -> CH3CHBrCH3} \\quad \\text{(Markovnikov)}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "তিন ধরনের বিকারক চিনুন: ইলেকট্রোফাইল (ইলেকট্রন-প্রেমী, যেমন NO₂⁺), নিউক্লিওফাইল (নিউক্লিয়াস-প্রেমী, যেমন OH⁻), মুক্ত মূ"
       }
     ],
     "assumptions": []

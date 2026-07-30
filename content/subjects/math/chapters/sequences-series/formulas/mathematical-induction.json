@@ -21,17 +21,17 @@
     },
     {
       "symbol": "true and",
-      "meaning": "true and সম্পর্কিত রাশি",
+      "meaning": "true and (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "k",
-      "meaning": "k সম্পর্কিত রাশি",
+      "meaning": "বল ধ্রুবক / বোল্টজম্যান / তরঙ্গ সংখ্যা",
       "unit": "—"
     },
     {
       "symbol": "Rightarrow",
-      "meaning": "Rightarrow সম্পর্কিত রাশি",
+      "meaning": "Rightarrow (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P(1)\\text{ true and }P(k)\\Rightarrow P(k+1)\\Rightarrow P(n)\\ \\forall n\\in\\mathbb{N}",
-        "note": "ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।"
+        "note": "গাণিতিক আরোহ পদ্ধতি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "P(1)\\text{ true and }P(k)\\Rightarrow P(k+1)\\Rightarrow P(n)\\ \\forall n\\in\\mathbb{N}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গাণিতিক আরোহ পদ্ধতি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "P(1)\\text{ true and }P(k)\\Rightarrow P(k+1)\\Rightarrow P(n)\\ \\forall n\\in\\mathbb{N}"
+      "question": "গাণিতিক আরোহ পদ্ধতি এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "P(1)\\text{ true and }P(k)\\Rightarrow P(k+1)\\Rightarrow P(n)\\ \\forall n\\in\\mathbb{N}\\text{ — }ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।"
+    },
+    {
+      "examType": "Concept",
+      "question": "গাণিতিক আরোহ পদ্ধতি দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।}"
     }
   ],
   "memorize": {
     "trick": "ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।",
     "steps": [
-      "সূত্র: P(1)\\text{ true and }P(k)\\Rightarrow P(k+1)\\Rightarrow P(n)\\ \\forall n\\in\\mathbb…",
-      "কী কাজে লাগে: গাণিতিক আরোহ পদ্ধতি",
-      "চিহ্ন মনে রাখো: P, true and, k, Rightarrow"
+      "ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।",
+      "প্রশ্নে গাণিতিক আরোহ পদ্ধতি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: P, true and, k — একক যাচাই করো"
     ]
   },
   "subjects": [

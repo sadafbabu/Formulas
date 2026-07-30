@@ -52,7 +52,7 @@
     {
       "examType": "HSC",
       "question": "অ্যালকেনের সাধারণ সূত্র কী?",
-      "answer": "\\mathrm{C_nH_{2n+2}}"
+      "answer": "\\mathrm{C_nH_{2n+2}}\\ (\\text{alkane}),\\quad \\Delta=\\mathrm{CH_2}"
     },
     {
       "examType": "Admission",

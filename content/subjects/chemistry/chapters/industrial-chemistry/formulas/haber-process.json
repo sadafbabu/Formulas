@@ -22,17 +22,17 @@
     },
     {
       "symbol": "N",
-      "meaning": "N সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কণা সংখ্যা",
+      "unit": "1"
     },
     {
       "symbol": "H",
-      "meaning": "H সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র / এনথ্যালপি",
+      "unit": "A/m বা J"
     },
     {
       "symbol": "Delta",
-      "meaning": "Delta সম্পর্কিত রাশি",
+      "meaning": "পরিবর্তন",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\ce{N2 + 3H2 <=> 2NH3};\\quad \\Delta H=-92\\ \\text{kJ/mol}",
-        "note": "450°C, 200 atm, Fe catalyst; exothermic → low T favors product।"
+        "note": "হ্যাবার পদ্ধতি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\ce{N2 + 3H2 <=> 2NH3};\\quad \\Delta H=-92\\ \\text{kJ/mol}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "450°C, 200 atm, Fe catalyst; exothermic → low T favors product।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "হ্যাবার পদ্ধতি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\ce{N2 + 3H2 <=> 2NH3};\\quad \\Delta H=-92\\ \\text{kJ/mol}"
+      "question": "হ্যাবার পদ্ধতি এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\ce{N2 + 3H2 <=> 2NH3};\\quad \\Delta H=-92\\ \\text{kJ/mol}\\text{ — }450°C, 200 atm, Fe catalyst; exothermic → low T favors product।"
+    },
+    {
+      "examType": "Concept",
+      "question": "হ্যাবার পদ্ধতি দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{450C, 200 atm, Fe catalyst; exothermic → low T favors product।}"
     }
   ],
   "memorize": {
     "trick": "450°C, 200 atm, Fe catalyst; exothermic → low T favors product।",
     "steps": [
-      "সূত্র: \\ce{N2 + 3H2 <=> 2NH3};\\quad \\Delta H=-92\\ \\text{kJ/mol}",
-      "কী কাজে লাগে: হ্যাবার পদ্ধতি",
-      "চিহ্ন মনে রাখো: ce, N, H, Delta"
+      "450°C, 200 atm, Fe catalyst; exothermic → low T favors product।",
+      "প্রশ্নে হ্যাবার পদ্ধতি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: ce, N, H — একক যাচাই করো"
     ]
   },
   "subjects": [

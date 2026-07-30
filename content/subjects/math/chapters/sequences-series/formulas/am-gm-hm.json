@@ -21,12 +21,12 @@
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "sqrt",
-      "meaning": "sqrt সম্পর্কিত রাশি",
+      "meaning": "sqrt (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{a+b}{2}\\ge\\sqrt{ab}\\ge\\frac{2ab}{a+b}",
-        "note": "সমানতা কেবল a=b-তে; ভর্তিতে খুব কাজে লাগে।"
+        "note": "AM–GM–HM অসমতা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{a+b}{2}\\ge\\sqrt{ab}\\ge\\frac{2ab}{a+b}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "সমানতা কেবল a=b-তে; ভর্তিতে খুব কাজে লাগে।"
       }
     ],
     "assumptions": []
@@ -49,16 +49,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "AM–GM–HM অসমতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\frac{a+b}{2}\\ge\\sqrt{ab}\\ge\\frac{2ab}{a+b}"
+      "question": "AM–GM–HM অসমতা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\frac{a+b}{2}\\ge\\sqrt{ab}\\ge\\frac{2ab}{a+b}\\text{ — }সমানতা কেবল a=b-তে; ভর্তিতে খুব কাজে লাগে।"
+    },
+    {
+      "examType": "Concept",
+      "question": "AM–GM–HM অসমতা দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{সমানতা কেবল a=b-তে; ভর্তিতে খুব কাজে লাগে।}"
     }
   ],
   "memorize": {
     "trick": "সমানতা কেবল a=b-তে; ভর্তিতে খুব কাজে লাগে।",
     "steps": [
-      "সূত্র: \\frac{a+b}{2}\\ge\\sqrt{ab}\\ge\\frac{2ab}{a+b}",
-      "কী কাজে লাগে: AM–GM–HM অসমতা",
-      "চিহ্ন মনে রাখো: a, b, sqrt"
+      "সমানতা কেবল a=b-তে; ভর্তিতে খুব কাজে লাগে।",
+      "প্রশ্নে AM–GM–HM অসমতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: a, b, sqrt — একক যাচাই করো"
     ]
   },
   "subjects": [

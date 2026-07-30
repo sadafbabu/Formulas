@@ -32,12 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta H(T_2)=\\Delta H(T_1)+\\Delta C_p(T_2-T_1)",
-        "note": "তাপমাত্রা বদলালে ΔH-এর সংশোধন — ΔC_p দিয়ে।"
+        "note": "কির্চফের সূত্র (এনথ্যালপি) এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\Delta H(T_2)=\\Delta H(T_1)+\\Delta C_p(T_2-T_1)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ΔH বদলাতে চাইলে ΔC_p×ΔT যোগ করো।"
       }
     ],
     "assumptions": [
@@ -54,9 +54,9 @@
   "memorize": {
     "trick": "ΔH বদলাতে চাইলে ΔC_p×ΔT যোগ করো।",
     "steps": [
-      "সূত্র: \\Delta H(T_2)=\\Delta H(T_1)+\\Delta C_p(T_2-T_1)",
-      "ΔH(T₂)=ΔH(T₁)+ΔC_p (T₂−T₁)",
-      "চিহ্ন মনে রাখো: \\Delta H, \\Delta C_p"
+      "ΔH বদলাতে চাইলে ΔC_p×ΔT যোগ করো।",
+      "প্রশ্নে কির্চফের সূত্র (এনথ্যালপি) প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: \\Delta H, \\Delta C_p — একক যাচাই করো"
     ]
   },
   "subjects": [

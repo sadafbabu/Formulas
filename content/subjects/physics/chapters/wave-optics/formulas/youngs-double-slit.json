@@ -47,12 +47,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\beta = \\frac{\\lambda D}{d}, \\quad \\Delta x = \\frac{\\lambda D}{2 d}, \\quad y_n = n \\frac{\\lambda D}{d} \\text{ (Bright)}",
-        "note": "পথ পার্থক্য ΔS = d sinθ ≈ d (y/D) = n λ গঠনমূলক ব্যতিচারের শর্ত হতে প্রাপ্ত।"
+        "note": "ইয়ং-এর দ্বি-চির পরীক্ষায় ডোরার ব্যবধান এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\beta = \\frac{\\lambda D}{d}, \\quad \\Delta x = \\frac{\\lambda D}{2 d}, \\quad y_n = n \\frac{\\lambda D}{d} \\text{ (Bright)}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "β = λD/d — 'ডোরার ব্যবধান = তরঙ্গদৈর্ঘ্য × দূরত্ব ÷ চির ব্যবধান'। পর্দা দূরে সরালে ডোরা চওড়া, চির দুটো কাছে আনলেও চওড়া"
       }
     ],
     "assumptions": [

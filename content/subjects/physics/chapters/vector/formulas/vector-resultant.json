@@ -27,7 +27,7 @@
     },
     {
       "symbol": "Q",
-      "meaning": "Q সম্পর্কিত রাশি",
+      "meaning": "তাপ / চার্জ",
       "unit": "একক"
     },
     {
@@ -47,12 +47,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "R = \\sqrt{P^2 + Q^2 + 2PQ\\cos\\alpha}, \\quad \\tan\\theta = \\frac{Q\\sin\\alpha}{P + Q\\cos\\alpha}",
-        "note": "সামান্তরিকের কর্ণদ্বারা লব্ধির মান ও দিক নির্দেশিত হয়।"
+        "note": "দুটি ভেক্টরের লব্ধি মান ও দিক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "R = \\sqrt{P^2 + Q^2 + 2PQ\\cos\\alpha}, \\quad \\tan\\theta = \\frac{Q\\sin\\alpha}{P + Q\\cos\\alpha}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "R = √(P² + Q² + 2PQcosα) — কোসাইন সূত্রের ছাঁচ, তবে '+2PQcosα' (ত্রিভুজে −)। α = 0 এ R = P+Q সর্বোচ্চ, α = 180° এ R = |P"
       }
     ],
     "assumptions": [

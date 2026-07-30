@@ -21,13 +21,13 @@
     },
     {
       "symbol": "Delta",
-      "meaning": "Delta সম্পর্কিত রাশি",
+      "meaning": "পরিবর্তন",
       "unit": "—"
     },
     {
       "symbol": "y",
-      "meaning": "y সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "x=\\frac{\\Delta_x}{\\Delta},\\quad y=\\frac{\\Delta_y}{\\Delta}",
-        "note": "Δ=main determinant; Δx = x-column replace।"
+        "note": "ক্রেমারের নিয়ম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "x=\\frac{\\Delta_x}{\\Delta},\\quad y=\\frac{\\Delta_y}{\\Delta}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Δ=main determinant; Δx = x-column replace।"
       }
     ],
     "assumptions": []
@@ -49,16 +49,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্রেমারের নিয়ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ক্রেমারের নিয়ম এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "x=\\frac{\\Delta_x}{\\Delta},\\quad y=\\frac{\\Delta_y}{\\Delta}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ক্রেমারের নিয়ম দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Δ=main determinant; Δx = x-column replace।}"
     }
   ],
   "memorize": {
     "trick": "Δ=main determinant; Δx = x-column replace।",
     "steps": [
-      "সূত্র: x=\\frac{\\Delta_x}{\\Delta},\\quad y=\\frac{\\Delta_y}{\\Delta}",
-      "কী কাজে লাগে: ক্রেমারের নিয়ম",
-      "চিহ্ন মনে রাখো: x, Delta, y"
+      "Δ=main determinant; Δx = x-column replace।",
+      "প্রশ্নে ক্রেমারের নিয়ম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: x, Delta, y — একক যাচাই করো"
     ]
   },
   "subjects": [

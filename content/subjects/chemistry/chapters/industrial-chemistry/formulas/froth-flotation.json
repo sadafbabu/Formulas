@@ -27,12 +27,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{sulphide ore particles attach to froth; gangue sinks}",
-        "note": "সালফাইড আকরিক নির্বাচনী ভাসান।"
+        "note": "ফেন ভাসান পদ্ধতি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{sulphide ore particles attach to froth; gangue sinks}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "সালফাইড আকরিক নির্বাচনী ভাসান।"
       }
     ],
     "assumptions": []
@@ -40,16 +40,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফেন ভাসান পদ্ধতি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ফেন ভাসান পদ্ধতি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{sulphide ore particles attach to froth; gangue sinks}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ফেন ভাসান পদ্ধতি দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{সালফাইড আকরিক নির্বাচনী ভাসান।}"
     }
   ],
   "memorize": {
     "trick": "সালফাইড আকরিক নির্বাচনী ভাসান।",
     "steps": [
-      "সূত্র: \\text{sulphide ore particles attach to froth; gangue sinks}",
-      "কী কাজে লাগে: ফেন ভাসান পদ্ধতি",
-      "চিহ্ন মনে রাখো: sulphide ore particles attach to froth; gangue sinks"
+      "সালফাইড আকরিক নির্বাচনী ভাসান।",
+      "প্রশ্নে ফেন ভাসান পদ্ধতি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: sulphide ore particles attach to froth; gangue sinks — একক যাচাই করো"
     ]
   },
   "subjects": [

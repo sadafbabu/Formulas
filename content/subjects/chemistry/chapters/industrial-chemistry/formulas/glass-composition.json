@@ -27,12 +27,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{Na_2O\\cdot CaO\\cdot 6SiO_2}",
-        "note": "সাধারণ কাচ = সোডা + চুন + বালি।"
+        "note": "সোডা-লাইম কাচ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{Na_2O\\cdot CaO\\cdot 6SiO_2}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "সাধারণ কাচ = সোডা + চুন + বালি।"
       }
     ],
     "assumptions": []
@@ -40,16 +40,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সোডা-লাইম কাচ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সোডা-লাইম কাচ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\mathrm{Na_2O\\cdot CaO\\cdot 6SiO_2}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সোডা-লাইম কাচ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{সাধারণ কাচ = সোডা + চুন + বালি।}"
     }
   ],
   "memorize": {
     "trick": "সাধারণ কাচ = সোডা + চুন + বালি।",
     "steps": [
-      "সূত্র: \\mathrm{Na_2O\\cdot CaO\\cdot 6SiO_2}",
-      "কী কাজে লাগে: সোডা-লাইম কাচ",
-      "চিহ্ন মনে রাখো: Na_2O\\cdot CaO\\cdot 6SiO_2"
+      "সাধারণ কাচ = সোডা + চুন + বালি।",
+      "প্রশ্নে সোডা-লাইম কাচ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: Na_2O\\cdot CaO\\cdot 6SiO_2 — একক যাচাই করো"
     ]
   },
   "subjects": [

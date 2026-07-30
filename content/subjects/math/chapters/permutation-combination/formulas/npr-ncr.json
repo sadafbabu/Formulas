@@ -21,18 +21,18 @@
     },
     {
       "symbol": "P",
-      "meaning": "P সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চাপ / ক্ষমতা",
+      "unit": "Pa বা W"
     },
     {
       "symbol": "r",
-      "meaning": "r সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ব্যাসার্ধ / দূরত্ব",
+      "unit": "m"
     },
     {
       "symbol": "C",
-      "meaning": "C সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ধারণক্ষমতা / ধারকত্ব",
+      "unit": "F বা J/K"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "{}^nP_r=\\frac{n!}{(n-r)!},\\quad{}^nC_r=\\frac{n!}{r!(n-r)!}=\\frac{{}^nP_r}{r!}",
-        "note": "P = সাজাও; C = বেছে নাও = P/r!।"
+        "note": "ক্রমবিন্যাস ও সমাবেশ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "{}^nP_r=\\frac{n!}{(n-r)!},\\quad{}^nC_r=\\frac{n!}{r!(n-r)!}=\\frac{{}^nP_r}{r!}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "P = সাজাও; C = বেছে নাও = P/r!।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্রমবিন্যাস ও সমাবেশ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "{}^nP_r=\\frac{n!}{(n-r)!},\\quad{}^nC_r=\\frac{n!}{r!(n-r)!}=\\frac{{}^nP_r}{r!}"
+      "question": "ক্রমবিন্যাস ও সমাবেশ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "{}^nP_r=\\frac{n!}{(n-r)!},\\quad{}^nC_r=\\frac{n!}{r!(n-r)!}=\\frac{{}^nP_r}{r!}\\text{ — }P = সাজাও; C = বেছে নাও = P/r!।"
+    },
+    {
+      "examType": "Concept",
+      "question": "ক্রমবিন্যাস ও সমাবেশ দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{P = সাজাও; C = বেছে নাও = P/r!।}"
     }
   ],
   "memorize": {
     "trick": "P = সাজাও; C = বেছে নাও = P/r!।",
     "steps": [
-      "সূত্র: {}^nP_r=\\frac{n!}{(n-r)!},\\quad{}^nC_r=\\frac{n!}{r!(n-r)!}=\\frac{{}^nP_r}{r!}",
-      "কী কাজে লাগে: ক্রমবিন্যাস ও সমাবেশ",
-      "চিহ্ন মনে রাখো: n, P, r, C"
+      "P = সাজাও; C = বেছে নাও = P/r!।",
+      "প্রশ্নে ক্রমবিন্যাস ও সমাবেশ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: n, P, r — একক যাচাই করো"
     ]
   },
   "subjects": [

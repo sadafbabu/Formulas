@@ -22,18 +22,18 @@
     },
     {
       "symbol": "V",
-      "meaning": "V সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "বিভব / আয়তন",
+      "unit": "V বা m³"
     },
     {
       "symbol": "K",
-      "meaning": "K সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "গতিশক্তি / ধ্রুবক",
+      "unit": "J"
     },
     {
       "symbol": "h",
-      "meaning": "h সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "উচ্চতা / প্ল্যাঙ্ক ধ্রুবক",
+      "unit": "m বা J·s"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "eV_0=K_{\\max}=hf-\\phi",
-        "note": "V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi"
+        "note": "রোধ বিভব এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "eV_0=K_{\\max}=hf-\\phi",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রোধ বিভব কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "রোধ বিভব এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "eV_0=K_{\\max}=hf-\\phi"
+    },
+    {
+      "examType": "Concept",
+      "question": "রোধ বিভব দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{V₀ দিয়ে K max মাপা যায়। eV 0=K max=hf-phi}"
     }
   ],
   "memorize": {
     "trick": "V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi",
     "steps": [
-      "সূত্র: eV_0=K_{\\max}=hf-\\phi",
-      "কী কাজে লাগে: রোধ বিভব",
-      "চিহ্ন মনে রাখো: e, V, K, h"
+      "V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi",
+      "প্রশ্নে রোধ বিভব প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: e, V, K — একক যাচাই করো"
     ]
   },
   "subjects": [

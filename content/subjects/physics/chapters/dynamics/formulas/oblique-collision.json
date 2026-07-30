@@ -22,7 +22,7 @@
     },
     {
       "symbol": "v_{it}",
-      "meaning": "v_{it} সম্পর্কিত রাশি",
+      "meaning": "বেগ",
       "unit": "m/s"
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "v_{in}",
-      "meaning": "v_{in} সম্পর্কিত রাশি",
+      "meaning": "বেগ",
       "unit": "m/s"
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "symbol": "m_2",
-      "meaning": "m_2 সম্পর্কিত রাশি",
+      "meaning": "ভর",
       "unit": "kg"
     },
     {
@@ -84,9 +84,9 @@
   "memorize": {
     "trick": "Tangent একই থাকে; Normal-এ 1D collision + e।",
     "steps": [
-      "সূত্র: v_{1t}=u_{1t},\\ v_{2t}=u_{2t};\\quad m_1u_{1n}+m_2u_{2n}=m_1v_{1n}+m_2v_{2n}",
-      "স্পর্শক উপাংশ অপরিবর্তিত; অভিলম্ব বরাবর 1D সংঘর্ষ",
-      "চিহ্ন মনে রাখো: u_{it}, v_{it}, u_{in}, v_{in}, m_1, m_2"
+      "Tangent একই থাকে; Normal-এ 1D collision + e।",
+      "প্রশ্নে তির্যক সংঘর্ষ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: u_{it}, v_{it}, u_{in} — একক যাচাই করো"
     ]
   },
   "subjects": [

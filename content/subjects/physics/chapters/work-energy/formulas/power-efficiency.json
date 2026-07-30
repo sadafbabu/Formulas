@@ -40,12 +40,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P_{\\mathrm{avg}}=\\frac Wt,\\quad P=\\vec F\\cdot\\vec v=Fv\\cos\\theta, \\quad \\eta = \\frac{P_{out}}{P_{in}} \\times 100\\%, \\quad \\oint \\vec{F}\\cdot d\\vec{r} = 0",
-        "note": "ক্ষমতা হলো কাজের হার; সংরক্ষী বলের ক্ষেত্রে বিভবশক্তি শুধু অবস্থানের উপর নির্ভরশীল।"
+        "note": "ক্ষমতা, দক্ষতা ও সংরক্ষী বল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "P_{\\mathrm{avg}}=\\frac Wt,\\quad P=\\vec F\\cdot\\vec v=Fv\\cos\\theta, \\quad \\eta = \\frac{P_{out}}{P_{in}} \\times 100\\%, \\quad \\oint \\vec{F}\\cdot d\\vec{r} = 0",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "P = W/t = Fv, আর দক্ষতা η = আউটপুট/ইনপুট × ১০০%। সংরক্ষী বলের চিহ্ন: বদ্ধ পথে মোট কাজ শূন্য (∮F·dr = 0)।"
       }
     ],
     "assumptions": [

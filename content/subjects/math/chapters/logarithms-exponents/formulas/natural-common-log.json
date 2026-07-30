@@ -21,8 +21,8 @@
     },
     {
       "symbol": "e",
-      "meaning": "e সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ইলেকট্রন চার্জ / ভিত্তি",
+      "unit": "C"
     }
   ],
   "derivation": {
@@ -31,12 +31,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
-        "note": "প্রাকৃতিক লগ ভিত্তি e≈2.718। \\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}"
+        "note": "ln ও সাধারণ লগ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "প্রাকৃতিক লগ ভিত্তি e≈2.718। \\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}"
       }
     ],
     "assumptions": []
@@ -44,16 +44,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ln ও সাধারণ লগ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ln ও সাধারণ লগ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}"
     }
   ],
   "memorize": {
     "trick": "প্রাকৃতিক লগ ভিত্তি e≈2.718। \\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
     "steps": [
-      "সূত্র: \\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
-      "কী কাজে লাগে: ln ও সাধারণ লগ",
-      "চিহ্ন মনে রাখো: x, e"
+      "প্রাকৃতিক লগ ভিত্তি e≈2.718। \\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
+      "প্রশ্নে ln ও সাধারণ লগ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: x, e — একক যাচাই করো"
     ]
   },
   "subjects": [

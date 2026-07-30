@@ -22,18 +22,18 @@
     },
     {
       "symbol": "circ",
-      "meaning": "circ সম্পর্কিত রাশি",
+      "meaning": "circ (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{P^\\circ-P}{P^\\circ}=x_B=\\frac{n_B}{n_A+n_B}",
-        "note": "ΔP/P° = mole fraction of solute; Raoult's law base।"
+        "note": "বাষ্পচাপের আপেক্ষিক হ্রাস এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{P^\\circ-P}{P^\\circ}=x_B=\\frac{n_B}{n_A+n_B}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ΔP/P° = mole fraction of solute; Raoult's law base।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বাষ্পচাপের আপেক্ষিক হ্রাস কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\frac{P^\\circ-P}{P^\\circ}=x_B=\\frac{n_B}{n_A+n_B}"
+      "question": "বাষ্পচাপের আপেক্ষিক হ্রাস এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\frac{P^\\circ-P}{P^\\circ}=x_B=\\frac{n_B}{n_A+n_B}\\text{ — }ΔP/P° = mole fraction of solute; Raoult's law base।"
+    },
+    {
+      "examType": "Concept",
+      "question": "বাষ্পচাপের আপেক্ষিক হ্রাস দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{ΔP/P = mole fraction of solute; Raoult's law base।}"
     }
   ],
   "memorize": {
     "trick": "ΔP/P° = mole fraction of solute; Raoult's law base।",
     "steps": [
-      "সূত্র: \\frac{P^\\circ-P}{P^\\circ}=x_B=\\frac{n_B}{n_A+n_B}",
-      "কী কাজে লাগে: বাষ্পচাপের আপেক্ষিক হ্রাস",
-      "চিহ্ন মনে রাখো: P, circ, x, B"
+      "ΔP/P° = mole fraction of solute; Raoult's law base।",
+      "প্রশ্নে বাষ্পচাপের আপেক্ষিক হ্রাস প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: P, circ, x — একক যাচাই করো"
     ]
   },
   "subjects": [

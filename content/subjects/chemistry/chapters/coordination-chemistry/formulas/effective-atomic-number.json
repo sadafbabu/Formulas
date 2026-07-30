@@ -22,17 +22,17 @@
     },
     {
       "symbol": "Z",
-      "meaning": "Z সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "পারমাণবিক সংখ্যা / প্রতিবন্ধকতা",
+      "unit": "1 বা Ω"
     },
     {
       "symbol": "oxidation state",
-      "meaning": "oxidation state সম্পর্কিত রাশি",
+      "meaning": "oxidation state (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "CN",
-      "meaning": "CN সম্পর্কিত রাশি",
+      "meaning": "CN (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}",
-        "note": "EAN ≈ next noble gas (18 or 36) → stable complex।"
+        "note": "কার্যকর পরমাণু সংখ্যা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "EAN ≈ next noble gas (18 or 36) → stable complex।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কার্যকর পরমাণু সংখ্যা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "কার্যকর পরমাণু সংখ্যা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}"
+    },
+    {
+      "examType": "Concept",
+      "question": "কার্যকর পরমাণু সংখ্যা দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{EAN ≈ next noble gas (18 or 36) → stable complex।}"
     }
   ],
   "memorize": {
     "trick": "EAN ≈ next noble gas (18 or 36) → stable complex।",
     "steps": [
-      "সূত্র: \\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}",
-      "কী কাজে লাগে: কার্যকর পরমাণু সংখ্যা",
-      "চিহ্ন মনে রাখো: EAN, Z, oxidation state, CN"
+      "EAN ≈ next noble gas (18 or 36) → stable complex।",
+      "প্রশ্নে কার্যকর পরমাণু সংখ্যা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: EAN, Z, oxidation state — একক যাচাই করো"
     ]
   },
   "subjects": [

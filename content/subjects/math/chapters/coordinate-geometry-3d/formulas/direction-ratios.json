@@ -16,23 +16,23 @@
   "symbols": [
     {
       "symbol": "l",
-      "meaning": "a",
-      "unit": "—"
+      "meaning": "দৈর্ঘ্য / আবেশ / ল্যাটেন্ট",
+      "unit": "m বা H"
     },
     {
       "symbol": "a",
-      "meaning": "b",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "m",
-      "meaning": "c",
-      "unit": "—"
+      "meaning": "ভর",
+      "unit": "kg"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{l}{a}=\\frac{m}{b}=\\frac{n}{c}",
-        "note": "DR (a,b,c) → DC l=a/√(a²+b²+c²)।"
+        "note": "দিক্‌অনুপাত এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{l}{a}=\\frac{m}{b}=\\frac{n}{c}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "DR (a,b,c) → DC l=a/√(a²+b²+c²)।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দিক্‌অনুপাত কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "দিক্‌অনুপাত এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\frac{l}{a}=\\frac{m}{b}=\\frac{n}{c}"
+    },
+    {
+      "examType": "Concept",
+      "question": "দিক্‌অনুপাত দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{DR (a,b,c) → DC l=a/√(a+b+c)।}"
     }
   ],
   "memorize": {
     "trick": "DR (a,b,c) → DC l=a/√(a²+b²+c²)।",
     "steps": [
-      "সূত্র: \\frac{l}{a}=\\frac{m}{b}=\\frac{n}{c}",
-      "কী কাজে লাগে: দিক্‌অনুপাত",
-      "চিহ্ন মনে রাখো: l, a, m, b"
+      "DR (a,b,c) → DC l=a/√(a²+b²+c²)।",
+      "প্রশ্নে দিক্‌অনুপাত প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: l, a, m — একক যাচাই করো"
     ]
   },
   "subjects": [

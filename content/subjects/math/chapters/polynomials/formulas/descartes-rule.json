@@ -21,18 +21,18 @@
     },
     {
       "symbol": "sign changes in",
-      "meaning": "sign changes in সম্পর্কিত রাশি",
+      "meaning": "sign changes in (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "f",
-      "meaning": "f সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কম্পাঙ্ক / বল (প্রসঙ্গমতে)",
+      "unit": "Hz বা N"
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\#\\{\\text{positive roots}\\}\\le\\#\\{\\text{sign changes in }f(x)\\}",
-        "note": "দেকার্তের চিহ্ন নিয়ম এর মূল সম্পর্ক ও প্রয়োগ।"
+        "note": "দেকার্তের চিহ্ন নিয়ম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\#\\{\\text{positive roots}\\}\\le\\#\\{\\text{sign changes in }f(x)\\}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "চিহ্ন বদলের সংখ্যা = ধনাত্মক মূলের উপরের সীমা।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দেকার্তের চিহ্ন নিয়ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "দেকার্তের চিহ্ন নিয়ম এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\#\\{\\text{positive roots}\\}\\le\\#\\{\\text{sign changes in }f(x)\\}"
+    },
+    {
+      "examType": "Concept",
+      "question": "দেকার্তের চিহ্ন নিয়ম দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{চিহ্ন বদলের সংখ্যা = ধনাত্মক মূলের উপরের সীমা।}"
     }
   ],
   "memorize": {
     "trick": "চিহ্ন বদলের সংখ্যা = ধনাত্মক মূলের উপরের সীমা।",
     "steps": [
-      "সূত্র: \\#\\{\\text{positive roots}\\}\\le\\#\\{\\text{sign changes in }f(x)\\}",
-      "ধনাত্মক মূলের সম্ভাব্য সংখ্যা",
-      "চিহ্ন মনে রাখো: positive roots, sign changes in, f, x"
+      "চিহ্ন বদলের সংখ্যা = ধনাত্মক মূলের উপরের সীমা।",
+      "প্রশ্নে দেকার্তের চিহ্ন নিয়ম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: positive roots, sign changes in, f — একক যাচাই করো"
     ]
   },
   "subjects": [

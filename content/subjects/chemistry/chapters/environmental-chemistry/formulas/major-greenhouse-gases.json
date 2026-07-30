@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{CO_2},\\mathrm{CH_4},\\mathrm{N_2O},\\mathrm{O_3},\\mathrm{CFCs}",
-        "note": "CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।"
+        "note": "গ্রিনহাউস গ্যাস এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{CO_2},\\mathrm{CH_4},\\mathrm{N_2O},\\mathrm{O_3},\\mathrm{CFCs}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্রিনহাউস গ্যাস কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "গ্রিনহাউস গ্যাস এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\mathrm{CO_2},\\mathrm{CH_4},\\mathrm{N_2O},\\mathrm{O_3},\\mathrm{CFCs}"
+    },
+    {
+      "examType": "Concept",
+      "question": "গ্রিনহাউস গ্যাস দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।}"
     }
   ],
   "memorize": {
     "trick": "CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।",
     "steps": [
-      "সূত্র: \\mathrm{CO_2},\\mathrm{CH_4},\\mathrm{N_2O},\\mathrm{O_3},\\mathrm{CFCs}",
-      "কী কাজে লাগে: গ্রিনহাউস গ্যাস",
-      "চিহ্ন মনে রাখো: CO_2, CH_4, N_2O, O_3"
+      "CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।",
+      "প্রশ্নে গ্রিনহাউস গ্যাস প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: CO_2, CH_4, N_2O — একক যাচাই করো"
     ]
   },
   "subjects": [

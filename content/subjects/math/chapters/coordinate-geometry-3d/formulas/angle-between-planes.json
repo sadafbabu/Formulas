@@ -21,18 +21,18 @@
     },
     {
       "symbol": "A",
-      "meaning": "A সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ক্ষেত্রফল / বিস্তার",
+      "unit": "m²"
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "C",
-      "meaning": "C সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ধারণক্ষমতা / ধারকত্ব",
+      "unit": "F বা J/K"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\cos\\theta=\\frac{|A_1A_2+B_1B_2+C_1C_2|}{\\sqrt{A_1^2+B_1^2+C_1^2}\\sqrt{A_2^2+B_2^2+C_2^2}}",
-        "note": "স্বাভাবিক ভেক্টরের dot product।"
+        "note": "সমতলের মধ্যবর্তী কোণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\cos\\theta=\\frac{|A_1A_2+B_1B_2+C_1C_2|}{\\sqrt{A_1^2+B_1^2+C_1^2}\\sqrt{A_2^2+B_2^2+C_2^2}}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "স্বাভাবিক ভেক্টরের dot product।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমতলের মধ্যবর্তী কোণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সমতলের মধ্যবর্তী কোণ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\cos\\theta=\\frac{|A_1A_2+B_1B_2+C_1C_2|}{\\sqrt{A_1^2+B_1^2+C_1^2}\\sqrt{A_2^2+B_2^2+C_2^2}}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সমতলের মধ্যবর্তী কোণ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{স্বাভাবিক ভেক্টরের dot product।}"
     }
   ],
   "memorize": {
     "trick": "স্বাভাবিক ভেক্টরের dot product।",
     "steps": [
-      "সূত্র: \\cos\\theta=\\frac{|A_1A_2+B_1B_2+C_1C_2|}{\\sqrt{A_1^2+B_1^2+C_1^2}\\sqrt{A_2^2+B_2…",
-      "কী কাজে লাগে: সমতলের মধ্যবর্তী কোণ",
-      "চিহ্ন মনে রাখো: theta, A, B, C"
+      "স্বাভাবিক ভেক্টরের dot product।",
+      "প্রশ্নে সমতলের মধ্যবর্তী কোণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: theta, A, B — একক যাচাই করো"
     ]
   },
   "subjects": [

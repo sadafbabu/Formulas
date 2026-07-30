@@ -47,12 +47,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "I_E = I_B + I_C, \\quad \\alpha = \\frac{\\Delta I_C}{\\Delta I_E}, \\quad \\beta = \\frac{\\Delta I_C}{\\Delta I_B} = \\frac{\\alpha}{1 - \\alpha}",
-        "note": "IE = IB + IC সমীকরণকে ΔIC দ্বারা ভাগ করে α ও β এর সম্পর্ক পাওয়া যায়।"
+        "note": "ট্রানজিস্টরের প্রবাহ লাভ (Alpha ও Beta) এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "I_E = I_B + I_C, \\quad \\alpha = \\frac{\\Delta I_C}{\\Delta I_E}, \\quad \\beta = \\frac{\\Delta I_C}{\\Delta I_B} = \\frac{\\alpha}{1 - \\alpha}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "I_E = I_B + I_C — 'ইমিটারই সবচেয়ে বড়'। α = I_C/I_E সামান্য ১-এর কম (≈0.98), β = I_C/I_B অনেক বড় (৫০–৩০০)। সেতু: β = α"
       }
     ],
     "assumptions": [

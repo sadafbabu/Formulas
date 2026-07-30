@@ -37,7 +37,7 @@
     },
     {
       "symbol": "A",
-      "meaning": "A সম্পর্কিত রাশি",
+      "meaning": "ক্ষেত্রফল / বিস্তার",
       "unit": "সংখ্যা"
     }
   ],
@@ -47,12 +47,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "sp^3\\ \\text{tetrahedral},\\ sp^2\\ \\text{trigonal planar},\\ sp\\ \\text{linear}",
-        "note": "VSEPR তত্ত্ব অনুসারে নিঃসঙ্গ ইলেকট্রন জোড় (Lone Pair) এর বিকর্ষণে আকৃতি বিকৃত হয়।"
+        "note": "সংকরায়ন, স্টেরিক নম্বর ও অণুর জ্যামিতিক গঠন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "sp^3\\ \\text{tetrahedral},\\ sp^2\\ \\text{trigonal planar},\\ sp\\ \\text{linear}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "H = ½(V+M-C+A) — ২=sp(রৈখিক), ৩=sp²(ত্রিভুজ), ৪=sp³(চতুস্তলকীয়), ৫=sp³d, ৬=sp³d²।"
       }
     ],
     "assumptions": []

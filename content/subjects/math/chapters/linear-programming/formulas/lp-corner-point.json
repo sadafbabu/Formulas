@@ -21,7 +21,7 @@
     },
     {
       "symbol": "at a corner point of feasible region",
-      "meaning": "at a corner point of feasible region সম্পর্কিত রাশি",
+      "meaning": "at a corner point of feasible region (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -31,12 +31,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "Z_{\\max/\\min}\\text{ at a corner point of feasible region}",
-        "note": "Optimum ALWAYS at corner — graph-এ vertex-গুলোতে Z বসাও।"
+        "note": "কোণ বিন্দু পদ্ধতি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "Z_{\\max/\\min}\\text{ at a corner point of feasible region}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Optimum ALWAYS at corner — graph-এ vertex-গুলোতে Z বসাও।"
       }
     ],
     "assumptions": []
@@ -44,16 +44,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কোণ বিন্দু পদ্ধতি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "Z_{\\max/\\min}\\text{ at a corner point of feasible region}"
+      "question": "কোণ বিন্দু পদ্ধতি এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "Z_{\\max/\\min}\\text{ at a corner point of feasible region}\\text{ — }Optimum ALWAYS at corner — graph-এ vertex-গুলোতে Z বসাও।"
+    },
+    {
+      "examType": "Concept",
+      "question": "কোণ বিন্দু পদ্ধতি দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{Optimum ALWAYS at corner  graph-এ vertex-গুলোতে Z বসাও।}"
     }
   ],
   "memorize": {
     "trick": "Optimum ALWAYS at corner — graph-এ vertex-গুলোতে Z বসাও।",
     "steps": [
-      "সূত্র: Z_{\\max/\\min}\\text{ at a corner point of feasible region}",
-      "কী কাজে লাগে: কোণ বিন্দু পদ্ধতি",
-      "চিহ্ন মনে রাখো: Z, at a corner point of feasible region"
+      "Optimum ALWAYS at corner — graph-এ vertex-গুলোতে Z বসাও।",
+      "প্রশ্নে কোণ বিন্দু পদ্ধতি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: Z, at a corner point of feasible region — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -21,18 +21,18 @@
     },
     {
       "symbol": "u",
-      "meaning": "u সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "আদি বেগ",
+      "unit": "m/s"
     },
     {
       "symbol": "theta",
-      "meaning": "theta সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কোণ",
+      "unit": "rad"
     },
     {
       "symbol": "g",
-      "meaning": "g সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "T=\\frac{2u\\sin\\theta}{g}",
-        "note": "T=2u sinθ/g — উঠা + নামা = 2u sinθ/g।"
+        "note": "উড্ডয়নকাল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "T=\\frac{2u\\sin\\theta}{g}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "উঠা + নামা = 2u sinθ/g। T=\\frac{2u\\sin\\theta}{g}"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উড্ডয়নকাল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "T=\\frac{2u\\sin\\theta}{g}"
+      "question": "উড্ডয়নকাল এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "T=\\frac{2u\\sin\\theta}{g}\\text{ — }উঠা + নামা = 2u sinθ/g। T=\\frac{2u\\sin\\theta}{g}"
+    },
+    {
+      "examType": "Concept",
+      "question": "উড্ডয়নকাল দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{T= frac 2u sin theta g}"
     }
   ],
   "memorize": {
     "trick": "উঠা + নামা = 2u sinθ/g। T=\\frac{2u\\sin\\theta}{g}",
     "steps": [
-      "সূত্র: T=\\frac{2u\\sin\\theta}{g}",
-      "কী কাজে লাগে: উড্ডয়নকাল",
-      "চিহ্ন মনে রাখো: T, u, theta, g"
+      "উঠা + নামা = 2u sinθ/g। T=\\frac{2u\\sin\\theta}{g}",
+      "প্রশ্নে উড্ডয়নকাল প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: T, u, theta — একক যাচাই করো"
     ]
   },
   "subjects": [

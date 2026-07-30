@@ -22,18 +22,18 @@
     },
     {
       "symbol": "r",
-      "meaning": "r সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ব্যাসার্ধ / দূরত্ব",
+      "unit": "m"
     },
     {
       "symbol": "o",
-      "meaning": "o সম্পর্কিত রাশি",
+      "meaning": "o (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "j",
-      "meaning": "j সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তড়িৎ ঘনত্ব",
+      "unit": "A/m²"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad a_\\parallel=|\\vec a|\\cos\\theta",
-        "note": "এক ভেক্টরের অন্য ভেক্টরের উপর প্রক্ষেপ"
+        "note": "ভেক্টর প্রক্ষেপ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad a_\\parallel=|\\vec a|\\cos\\theta",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "প্রক্ষেপ = ডট গুণফল ÷ |b| — কোসাইন দিয়েও a cosθ।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভেক্টর প্রক্ষেপ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ভেক্টর প্রক্ষেপ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad a_\\parallel=|\\vec a|\\cos\\theta"
+    },
+    {
+      "examType": "Concept",
+      "question": "ভেক্টর প্রক্ষেপ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{প্রক্ষেপ = ডট গুণফল ÷ |b|  কোসাইন দিয়েও a cosθ।}"
     }
   ],
   "memorize": {
     "trick": "প্রক্ষেপ = ডট গুণফল ÷ |b| — কোসাইন দিয়েও a cosθ।",
     "steps": [
-      "সূত্র: \\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad a_…",
-      "এক ভেক্টরের অন্য ভেক্টরের উপর প্রক্ষেপ",
-      "চিহ্ন মনে রাখো: p, r, o, j"
+      "প্রক্ষেপ = ডট গুণফল ÷ |b| — কোসাইন দিয়েও a cosθ।",
+      "প্রশ্নে ভেক্টর প্রক্ষেপ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: p, r, o — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -27,12 +27,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "R_f=\\dfrac{\\text{distance moved by spot}}{\\text{distance moved by solvent}}",
-        "note": "পেপার/টিএলসি-তে যৌগ শনাক্তকরণের তুলনামূলক মান।"
+        "note": "ক্রোমাটোগ্রাফি R_f মান এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "R_f=\\dfrac{\\text{distance moved by spot}}{\\text{distance moved by solvent}}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "R_f = স্পট/সলভেন্ট — ১-এর বেশি হয় না।"
       }
     ],
     "assumptions": [
@@ -49,9 +49,9 @@
   "memorize": {
     "trick": "R_f = স্পট/সলভেন্ট — ১-এর বেশি হয় না।",
     "steps": [
-      "সূত্র: R_f=\\dfrac{\\text{distance moved by spot}}{\\text{distance moved by solvent}}",
-      "R_f = স্পটের দূরত্ব / দ্রাবকের দূরত্ব",
-      "চিহ্ন মনে রাখো: R_f"
+      "R_f = স্পট/সলভেন্ট — ১-এর বেশি হয় না।",
+      "প্রশ্নে ক্রোমাটোগ্রাফি R_f মান প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: R_f — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "V = -\\frac{Gm}{r}, \\quad U = -\\frac{Gm_1 m_2}{r}, \\quad g = \\frac{Gm}{r^2}",
-        "note": "মহাকর্ষ বল থেকে বিভব শক্তি সমাকলনে প্রাপ্ত।"
+        "note": "মহাকর্ষীয় বিভব ও ক্ষেত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "V = -\\frac{Gm}{r}, \\quad U = -\\frac{Gm_1 m_2}{r}, \\quad g = \\frac{Gm}{r^2}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "অসীমে শূন্য বিভব ধরলে বিন্দু-ভরের V = −GM/r এবং দুই ভরের U = −GMm/r। ঋণাত্মক চিহ্ন bound attractive system বোঝায়; kinet"
       }
     ],
     "assumptions": [

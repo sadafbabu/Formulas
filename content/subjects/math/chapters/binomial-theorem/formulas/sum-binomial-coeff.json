@@ -24,12 +24,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\sum_{r=0}^{n} \\binom{n}{r} = 2^n, \\quad \\sum_{r=0}^{n} (-1)^r \\binom{n}{r} = 0, \\quad \\binom{n}{r} = \\binom{n}{n-r}",
-        "note": "(1+1)^n ও (1-1)^n এ বিশেষ মান বসালে সহগের যোগফল।"
+        "note": "দ্বিপদী সহগের সমষ্টি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\sum_{r=0}^{n} \\binom{n}{r} = 2^n, \\quad \\sum_{r=0}^{n} (-1)^r \\binom{n}{r} = 0, \\quad \\binom{n}{r} = \\binom{n}{n-r}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "সব সহগের যোগফল = 2ⁿ (x = 1 বসান), পর্যায়ক্রমে চিহ্ন দিলে যোগফল = 0 (x = −1 বসান)। আর C(n,r) = C(n,n−r) — সহগ প্রতিসম, ত"
       }
     ],
     "assumptions": [

@@ -22,7 +22,7 @@
     },
     {
       "symbol": "W/O (water in oil)",
-      "meaning": "W/O (water in oil) সম্পর্কিত রাশি",
+      "meaning": "W/O (water in oil) (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -32,12 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
-        "note": "O/W and W/O — দুধ = O/W; মাখন = W/O।"
+        "note": "ইমালশনের প্রকার এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "দুধ = O/W; মাখন = W/O। \\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}"
       }
     ],
     "assumptions": []
@@ -45,16 +45,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ইমালশনের প্রকার কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ইমালশনের প্রকার এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}"
     }
   ],
   "memorize": {
     "trick": "দুধ = O/W; মাখন = W/O। \\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
     "steps": [
-      "সূত্র: \\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
-      "কী কাজে লাগে: ইমালশনের প্রকার",
-      "চিহ্ন মনে রাখো: O/W (oil in water), W/O (water in oil)"
+      "দুধ = O/W; মাখন = W/O। \\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
+      "প্রশ্নে ইমালশনের প্রকার প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: O/W (oil in water), W/O (water in oil) — একক যাচাই করো"
     ]
   },
   "subjects": [

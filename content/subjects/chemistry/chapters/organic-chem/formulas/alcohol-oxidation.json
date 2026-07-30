@@ -25,12 +25,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\ce{R-CH2OH ->[PCC] R-CHO ->[K2Cr2O7/H+] R-COOH}",
-        "note": "অ্যালকোহলের স্তর অনুযায়ী জারণ পণ্য ভিন্ন।"
+        "note": "অ্যালকোহল জারণ স্তর এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\ce{R-CH2OH ->[PCC] R-CHO ->[K2Cr2O7/H+] R-COOH}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "জারণ সিঁড়ি: ১° অ্যালকোহল → অ্যালডিহাইড → কার্বক্সিলিক অ্যাসিড। PCC দিলে মাঝপথে (অ্যালডিহাইডে) থামে, K₂Cr₂O₇/KMnO₄ দিলে "
       }
     ],
     "assumptions": [

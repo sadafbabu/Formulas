@@ -22,8 +22,8 @@
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -32,12 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
-        "note": "এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x"
+        "note": "কলারূপ ও পথ পার্থক্য এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x"
       }
     ],
     "assumptions": []
@@ -45,16 +45,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কলারূপ ও পথ পার্থক্য কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "কলারূপ ও পথ পার্থক্য এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x"
     }
   ],
   "memorize": {
     "trick": "এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
     "steps": [
-      "সূত্র: \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
-      "কী কাজে লাগে: কলারূপ ও পথ পার্থক্য",
-      "চিহ্ন মনে রাখো: lambda, x"
+      "এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
+      "প্রশ্নে কলারূপ ও পথ পার্থক্য প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: lambda, x — একক যাচাই করো"
     ]
   },
   "subjects": [

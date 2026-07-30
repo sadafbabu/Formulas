@@ -21,17 +21,17 @@
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "c",
-      "meaning": "c সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "আলোর বেগ / আপেক্ষিক তাপ",
+      "unit": "m/s বা J/(kg·K)"
     },
     {
       "symbol": "iff",
-      "meaning": "iff সম্পর্কিত রাশি",
+      "meaning": "iff (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
-        "note": "লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)"
+        "note": "মৌলিক লগ সমীকরণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)"
       }
     ],
     "assumptions": []
@@ -54,16 +54,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মৌলিক লগ সমীকরণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)"
+      "question": "মৌলিক লগ সমীকরণ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)\\text{ — }লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)"
     }
   ],
   "memorize": {
     "trick": "লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
     "steps": [
-      "সূত্র: \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
-      "কী কাজে লাগে: মৌলিক লগ সমীকরণ",
-      "চিহ্ন মনে রাখো: b, a, c, iff"
+      "লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
+      "প্রশ্নে মৌলিক লগ সমীকরণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: b, a, c — একক যাচাই করো"
     ]
   },
   "subjects": [

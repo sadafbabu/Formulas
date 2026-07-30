@@ -22,7 +22,7 @@
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
+      "meaning": "চৌম্বক ক্ষেত্র",
       "unit": "0/1"
     },
     {
@@ -59,9 +59,9 @@
   "memorize": {
     "trick": "NAND ও NOR = universal gates। NAND/NOR সার্বজনীন গেট — যেকোনো লজিক বানানো যায়",
     "steps": [
-      "সূত্র: Y_{\\mathrm{NAND}}=\\overline{A\\cdot B},\\quad Y_{\\mathrm{NOR}}=\\overline{A+B}",
-      "NAND/NOR সার্বজনীন গেট — যেকোনো লজিক বানানো যায়",
-      "চিহ্ন মনে রাখো: A, B, Y"
+      "NAND ও NOR = universal gates। NAND/NOR সার্বজনীন গেট — যেকোনো লজিক বানানো যায়",
+      "প্রশ্নে NAND ও NOR গেট প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A, B, Y — একক যাচাই করো"
     ]
   },
   "subjects": [

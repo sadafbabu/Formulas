@@ -22,13 +22,13 @@
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     },
     {
       "symbol": "lambda",
-      "meaning": "lambda সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তরঙ্গদৈর্ঘ্য / ক্ষয় ধ্রুবক",
+      "unit": "m বা 1/s"
     }
   ],
   "derivation": {
@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "2d\\sin\\theta=n\\lambda",
-        "note": "ব্র্যাগের সূত্র এর মূল সম্পর্ক ও প্রয়োগ।"
+        "note": "ব্র্যাগের সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "2d\\sin\\theta=n\\lambda",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "2d sinθ = nλ — পথপার্থক্য দুই স্তরে।"
       }
     ],
     "assumptions": []
@@ -50,16 +50,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ব্র্যাগের সূত্র কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ব্র্যাগের সূত্র এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "2d\\sin\\theta=n\\lambda"
+    },
+    {
+      "examType": "Concept",
+      "question": "ব্র্যাগের সূত্র দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{2d sinθ = n  পথপার্থক্য দুই স্তরে।}"
     }
   ],
   "memorize": {
     "trick": "2d sinθ = nλ — পথপার্থক্য দুই স্তরে।",
     "steps": [
-      "সূত্র: 2d\\sin\\theta=n\\lambda",
-      "স্ফটিক থেকে এক্স-রে অপবর্তন",
-      "চিহ্ন মনে রাখো: d, n, lambda"
+      "2d sinθ = nλ — পথপার্থক্য দুই স্তরে।",
+      "প্রশ্নে ব্র্যাগের সূত্র প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: d, n, lambda — একক যাচাই করো"
     ]
   },
   "subjects": [

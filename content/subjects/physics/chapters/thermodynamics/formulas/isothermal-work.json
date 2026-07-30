@@ -41,7 +41,7 @@
     },
     {
       "symbol": "V_2",
-      "meaning": "V_2 সম্পর্কিত রাশি",
+      "meaning": "বিভব / আয়তন",
       "unit": "m³"
     }
   ],
@@ -51,12 +51,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "W = n R T \\ln\\left(\\frac{V_2}{V_1}\\right) = n R T \\ln\\left(\\frac{P_1}{P_2}\\right)",
-        "note": "P = nRT / V বসিয়ে আয়তনের সাপেক্ষে সমাকলন করে কৃতকাজ পাওয়া যায়।"
+        "note": "সমোষ্ণ প্রক্রিয়ায় কৃতকাজ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "W = n R T \\ln\\left(\\frac{V_2}{V_1}\\right) = n R T \\ln\\left(\\frac{P_1}{P_2}\\right)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "সমোষ্ণে কাজে 'লগ' থাকে: W = nRT ln(V₂/V₁)। মনে রাখুন — সমোষ্ণে ln, রুদ্ধতাপে ঘাত (γ)।"
       }
     ],
     "assumptions": [

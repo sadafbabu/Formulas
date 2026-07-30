@@ -34,12 +34,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\lambda = \\frac{1}{\\sqrt{2}\\,\\pi d^2 n}, \\quad \\lambda = \\frac{kT}{\\sqrt{2}\\,\\pi d^2 P}",
-        "note": "অণুর আপেক্ষিক গতি ও সংঘর্ষ প্রস্থছেদ থেকে।"
+        "note": "গ্যাস অণুর গড় মুক্ত পথ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\lambda = \\frac{1}{\\sqrt{2}\\,\\pi d^2 n}, \\quad \\lambda = \\frac{kT}{\\sqrt{2}\\,\\pi d^2 P}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "λ = kT/(√2 πd²P) — 'চাপ বাড়লে পথ কমে, তাপ বাড়লে পথ বাড়ে'। হরে √2 ও d² (ব্যাসের বর্গ) — মোটা অণুর পথ ছোট।"
       }
     ],
     "assumptions": [

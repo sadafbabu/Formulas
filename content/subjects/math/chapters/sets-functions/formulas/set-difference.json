@@ -16,23 +16,23 @@
   "symbols": [
     {
       "symbol": "A",
-      "meaning": "A−B",
-      "unit": "—"
+      "meaning": "ক্ষেত্রফল / বিস্তার",
+      "unit": "m²"
     },
     {
       "symbol": "setminus",
-      "meaning": "setminus সম্পর্কিত রাশি",
+      "meaning": "setminus (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
-        "note": "A-তে আছে কিন্তু B-তে নেই। A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}"
+        "note": "সেটের পার্থক্য এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "A-তে আছে কিন্তু B-তে নেই। A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সেটের পার্থক্য কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সেটের পার্থক্য এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সেটের পার্থক্য দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{A-তে আছে কিন্তু B-তে নেই। Asetminus B=x:xin A, xnotin B}"
     }
   ],
   "memorize": {
     "trick": "A-তে আছে কিন্তু B-তে নেই। A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
     "steps": [
-      "সূত্র: A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
-      "কী কাজে লাগে: সেটের পার্থক্য",
-      "চিহ্ন মনে রাখো: A, setminus, B, x"
+      "A-তে আছে কিন্তু B-তে নেই। A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
+      "প্রশ্নে সেটের পার্থক্য প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A, setminus, B — একক যাচাই করো"
     ]
   },
   "subjects": [

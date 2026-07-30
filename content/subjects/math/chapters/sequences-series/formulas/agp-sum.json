@@ -21,18 +21,18 @@
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "d",
-      "meaning": "d সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "দূরত্ব / ব্যাস",
+      "unit": "m"
     },
     {
       "symbol": "r",
-      "meaning": "r সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ব্যাসার্ধ / দূরত্ব",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "S=a+(a+d)r+(a+2d)r^2+\\cdots",
-        "note": "Σ n rⁿ — S − rS করে GP বের করো।"
+        "note": "সমান্তর-গুণোত্তর ধারা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "S=a+(a+d)r+(a+2d)r^2+\\cdots",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "S − rS করে GP বের করো। S=a+(a+d)r+(a+2d)r^2+\\cdots"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমান্তর-গুণোত্তর ধারা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সমান্তর-গুণোত্তর ধারা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "S=a+(a+d)r+(a+2d)r^2+\\cdots"
+    },
+    {
+      "examType": "Concept",
+      "question": "সমান্তর-গুণোত্তর ধারা দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{S  rS করে GP বের করো। S=a+(a+d)r+(a+2d)r 2+cdots}"
     }
   ],
   "memorize": {
     "trick": "S − rS করে GP বের করো। S=a+(a+d)r+(a+2d)r^2+\\cdots",
     "steps": [
-      "সূত্র: S=a+(a+d)r+(a+2d)r^2+\\cdots",
-      "কী কাজে লাগে: সমান্তর-গুণোত্তর ধারা",
-      "চিহ্ন মনে রাখো: S, a, d, r"
+      "S − rS করে GP বের করো। S=a+(a+d)r+(a+2d)r^2+\\cdots",
+      "প্রশ্নে সমান্তর-গুণোত্তর ধারা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: S, a, d — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -21,18 +21,18 @@
     },
     {
       "symbol": "adj",
-      "meaning": "adj সম্পর্কিত রাশি",
+      "meaning": "adj (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "det",
-      "meaning": "det সম্পর্কিত রাশি",
+      "meaning": "det (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "I",
-      "meaning": "I সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তড়িৎ প্রবাহ / জড়তার ভ্রামক",
+      "unit": "A বা kg·m²"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
-        "note": "adj ও det সম্পর্ক — A·adjA = (detA)I।"
+        "note": "অ্যাডজয়েন্টের ধর্ম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "A·adjA = (detA)I। A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অ্যাডজয়েন্টের ধর্ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "অ্যাডজয়েন্টের ধর্ম এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I"
+    },
+    {
+      "examType": "Concept",
+      "question": "অ্যাডজয়েন্টের ধর্ম দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{AadjA = (detA)I। A(mathrmadj A)=(mathrmadj A)A=(det A)I}"
     }
   ],
   "memorize": {
     "trick": "A·adjA = (detA)I। A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
     "steps": [
-      "সূত্র: A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
-      "কী কাজে লাগে: অ্যাডজয়েন্টের ধর্ম",
-      "চিহ্ন মনে রাখো: A, adj, det, I"
+      "A·adjA = (detA)I। A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
+      "প্রশ্নে অ্যাডজয়েন্টের ধর্ম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A, adj, det — একক যাচাই করো"
     ]
   },
   "subjects": [

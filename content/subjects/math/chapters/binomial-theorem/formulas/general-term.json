@@ -34,12 +34,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "T_{r+1} = \\binom{n}{r} a^{n-r} b^r, \\quad \\binom{n}{r} = \\frac{n!}{r!(n-r)!}",
-        "note": "সম্প্রসারণ ও সমাহার থেকে প্রাপ্ত।"
+        "note": "দ্বিপদী বিস্তারের সাধারণ পদ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "T_{r+1} = \\binom{n}{r} a^{n-r} b^r, \\quad \\binom{n}{r} = \\frac{n!}{r!(n-r)!}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "T_{r+1} = C(n,r)·a^{n−r}·b^r — 'r+1 তম পদে r ঘাত b-তে'। এক ধাপ পিছিয়ে থাকা সূচকটাই সবচেয়ে বড় ভুলের জায়গা: ৫ম পদ চাইল"
       }
     ],
     "assumptions": [

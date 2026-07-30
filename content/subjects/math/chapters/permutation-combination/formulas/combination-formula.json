@@ -16,18 +16,18 @@
   "symbols": [
     {
       "symbol": "binom",
-      "meaning": "nCr",
+      "meaning": "binom (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     },
     {
       "symbol": "r",
-      "meaning": "r সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ব্যাসার্ধ / দূরত্ব",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\binom{n}{r}=\\frac{n!}{r!(n-r)!}",
-        "note": "nCr = nPr/r!; order doesn't matter।"
+        "note": "সমাবেশ সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\binom{n}{r}=\\frac{n!}{r!(n-r)!}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "nCr = nPr/r!; order doesn't matter।"
       }
     ],
     "assumptions": []
@@ -49,16 +49,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমাবেশ সূত্র কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\binom{n}{r}=\\frac{n!}{r!(n-r)!}"
+      "question": "সমাবেশ সূত্র এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\binom{n}{r}=\\frac{n!}{r!(n-r)!}\\text{ — }nCr = nPr/r!; order doesn't matter।"
+    },
+    {
+      "examType": "Concept",
+      "question": "সমাবেশ সূত্র দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{nCr = nPr/r!; order doesn't matter।}"
     }
   ],
   "memorize": {
     "trick": "nCr = nPr/r!; order doesn't matter।",
     "steps": [
-      "সূত্র: \\binom{n}{r}=\\frac{n!}{r!(n-r)!}",
-      "কী কাজে লাগে: সমাবেশ সূত্র",
-      "চিহ্ন মনে রাখো: binom, n, r"
+      "nCr = nPr/r!; order doesn't matter।",
+      "প্রশ্নে সমাবেশ সূত্র প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: binom, n, r — একক যাচাই করো"
     ]
   },
   "subjects": [

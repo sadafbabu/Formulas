@@ -17,12 +17,12 @@
   "symbols": [
     {
       "symbol": "Z",
-      "meaning": "Z=?",
-      "unit": "—"
+      "meaning": "পারমাণবিক সংখ্যা / প্রতিবন্ধকতা",
+      "unit": "1 বা Ω"
     },
     {
       "symbol": "contribution from all corner/face/edge atoms",
-      "meaning": "contribution from all corner/face/edge atoms সম্পর্কিত রাশি",
+      "meaning": "contribution from all corner/face/edge atoms (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -32,12 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "Z=\\text{contribution from all corner/face/edge atoms}",
-        "note": "Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।"
+        "note": "একক কোষে পরমাণু এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "Z=\\text{contribution from all corner/face/edge atoms}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।"
       }
     ],
     "assumptions": []
@@ -45,16 +45,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "একক কোষে পরমাণু কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "Z=\\text{contribution from all corner/face/edge atoms}"
+      "question": "একক কোষে পরমাণু এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "Z=\\text{contribution from all corner/face/edge atoms}\\text{ — }Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।"
+    },
+    {
+      "examType": "Concept",
+      "question": "একক কোষে পরমাণু দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{Corner=1/8, Face=1/2, Edge=1/4, Body=1  add up।}"
     }
   ],
   "memorize": {
     "trick": "Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।",
     "steps": [
-      "সূত্র: Z=\\text{contribution from all corner/face/edge atoms}",
-      "কী কাজে লাগে: একক কোষে পরমাণু",
-      "চিহ্ন মনে রাখো: Z, contribution from all corner/face/edge atoms"
+      "Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।",
+      "প্রশ্নে একক কোষে পরমাণু প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: Z, contribution from all corner/face/edge atoms — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -24,8 +24,8 @@
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     }
   ],
   "derivation": {
@@ -34,12 +34,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\int_a^b f(x)\\,dx = F(b) - F(a), \\quad \\frac{d}{dx}\\int_a^x f(t)\\,dt = f(x)",
-        "note": "অন্তরীকরণ ও যোগজীকরণ একে অপরের বিপরীত প্রক্রিয়া।"
+        "note": "ক্যালকুলাসের মৌলিক উপপাদ্য এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\int_a^b f(x)\\,dx = F(b) - F(a), \\quad \\frac{d}{dx}\\int_a^x f(t)\\,dt = f(x)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "যোগজ ও অবকলন পরস্পরের বিপরীত — এটাই মৌলিক উপপাদ্য। ∫ₐᵇf = F(b) − F(a) ('উপরে বসিয়ে নিচে বসানো বাদ'), আর d/dx∫ₐˣf(t)dt ="
       }
     ],
     "assumptions": [

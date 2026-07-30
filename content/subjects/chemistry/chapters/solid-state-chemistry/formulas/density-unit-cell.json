@@ -22,18 +22,18 @@
     },
     {
       "symbol": "Z",
-      "meaning": "Z সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "পারমাণবিক সংখ্যা / প্রতিবন্ধকতা",
+      "unit": "1 বা Ω"
     },
     {
       "symbol": "M",
-      "meaning": "M সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর / মোলার ভর",
+      "unit": "kg বা g/mol"
     },
     {
       "symbol": "N",
-      "meaning": "N সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কণা সংখ্যা",
+      "unit": "1"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "d=\\frac{ZM}{N_A a^3}",
-        "note": "Z=atoms/cell, M=molar mass, a=edge length।"
+        "note": "একক কোষ থেকে ঘনত্ব এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "d=\\frac{ZM}{N_A a^3}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Z=atoms/cell, M=molar mass, a=edge length।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "একক কোষ থেকে ঘনত্ব কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "d=\\frac{ZM}{N_A a^3}"
+      "question": "একক কোষ থেকে ঘনত্ব এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "d=\\frac{ZM}{N_A a^3}\\text{ — }Z=atoms/cell, M=molar mass, a=edge length।"
+    },
+    {
+      "examType": "Concept",
+      "question": "একক কোষ থেকে ঘনত্ব দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{Z=atoms/cell, M=molar mass, a=edge length।}"
     }
   ],
   "memorize": {
     "trick": "Z=atoms/cell, M=molar mass, a=edge length।",
     "steps": [
-      "সূত্র: d=\\frac{ZM}{N_A a^3}",
-      "কী কাজে লাগে: একক কোষ থেকে ঘনত্ব",
-      "চিহ্ন মনে রাখো: d, Z, M, N"
+      "Z=atoms/cell, M=molar mass, a=edge length।",
+      "প্রশ্নে একক কোষ থেকে ঘনত্ব প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: d, Z, M — একক যাচাই করো"
     ]
   },
   "subjects": [

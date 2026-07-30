@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_xb_x+a_yb_y+a_zb_z",
-        "note": "লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।"
+        "note": "অন্তঃগুণফল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_xb_x+a_yb_y+a_zb_z",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অন্তঃগুণফল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_xb_x+a_yb_y+a_zb_z"
+      "question": "অন্তঃগুণফল এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_xb_x+a_yb_y+a_zb_z\\text{ — }লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।"
+    },
+    {
+      "examType": "Concept",
+      "question": "অন্তঃগুণফল দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{লম্ব হলে ডট = ০; সমান্তরালে |a||b|।}"
     }
   ],
   "memorize": {
     "trick": "লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।",
     "steps": [
-      "সূত্র: \\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_xb_x+a_yb_y+a_zb_z",
-      "কী কাজে লাগে: অন্তঃগুণফল",
-      "চিহ্ন মনে রাখো: vec, a, b, theta"
+      "লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।",
+      "প্রশ্নে অন্তঃগুণফল প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: vec, a, b — একক যাচাই করো"
     ]
   },
   "subjects": [

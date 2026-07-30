@@ -22,13 +22,13 @@
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     },
     {
       "symbol": "y",
-      "meaning": "y সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y)",
-        "note": "গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।"
+        "note": "গুণ/ভাগে ত্রুটি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।"
       }
     ],
     "assumptions": []
@@ -50,16 +50,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গুণ/ভাগে ত্রুটি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "গুণ/ভাগে ত্রুটি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y)"
+    },
+    {
+      "examType": "Concept",
+      "question": "গুণ/ভাগে ত্রুটি দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।}"
     }
   ],
   "memorize": {
     "trick": "গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।",
     "steps": [
-      "সূত্র: \\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y…",
-      "কী কাজে লাগে: গুণ/ভাগে ত্রুটি",
-      "চিহ্ন মনে রাখো: z, x, y"
+      "গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।",
+      "প্রশ্নে গুণ/ভাগে ত্রুটি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: z, x, y — একক যাচাই করো"
     ]
   },
   "subjects": [

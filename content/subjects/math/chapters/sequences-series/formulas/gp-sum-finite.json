@@ -21,18 +21,18 @@
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "r",
-      "meaning": "r সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ব্যাসার্ধ / দূরত্ব",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)",
-        "note": "a(rⁿ−1)/(r−1) — r≠1; r=1 হলে S=na।"
+        "note": "সসীম গুণোত্তর যোগফল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "r≠1; r=1 হলে S=na। S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সসীম গুণোত্তর যোগফল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)"
+      "question": "সসীম গুণোত্তর যোগফল এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)\\text{ — }r≠1; r=1 হলে S=na। S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)"
+    },
+    {
+      "examType": "Concept",
+      "question": "সসীম গুণোত্তর যোগফল দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{S n=a frac r n-1 r-1 (r ne1)}"
     }
   ],
   "memorize": {
     "trick": "r≠1; r=1 হলে S=na। S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)",
     "steps": [
-      "সূত্র: S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)",
-      "কী কাজে লাগে: সসীম গুণোত্তর যোগফল",
-      "চিহ্ন মনে রাখো: S, n, a, r"
+      "r≠1; r=1 হলে S=na। S_n=a\\frac{r^n-1}{r-1}\\ (r\\ne1)",
+      "প্রশ্নে সসীম গুণোত্তর যোগফল প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: S, n, a — একক যাচাই করো"
     ]
   },
   "subjects": [

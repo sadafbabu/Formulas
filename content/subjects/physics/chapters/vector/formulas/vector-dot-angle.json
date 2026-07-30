@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathbf{A} \\cdot \\mathbf{B} = |\\mathbf{A}||\\mathbf{B}| \\cos\\theta = A_x B_x + A_y B_y + A_z B_z, \\quad \\cos\\theta = \\frac{A_x B_x + A_y B_y + A_z B_z}{|\\mathbf{A}||\\mathbf{B}|}",
-        "note": "স্কেলার গুণনের সংজ্ঞা হতে লম্ব অভিক্ষেপ A cosθ এর মাধ্যমে প্রাপ্ত।"
+        "note": "ভেক্টর ডট গুণন ও অন্তর্ভুক্ত কোণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathbf{A} \\cdot \\mathbf{B} = |\\mathbf{A}||\\mathbf{B}| \\cos\\theta = A_x B_x + A_y B_y + A_z B_z, \\quad \\cos\\theta = \\frac{A_x B_x + A_y B_y + A_z B_z}{|\\mathbf{A}||\\mathbf{B}|}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "cosθ = (A·B)/(|A||B|) — দুই ভেক্টরের মধ্যবর্তী কোণ বের করার একমাত্র সূত্র। উপরে ডট গুণফল, নিচে মানের গুণফল।"
       }
     ],
     "assumptions": [

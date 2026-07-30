@@ -21,13 +21,13 @@
     },
     {
       "symbol": "circular",
-      "meaning": "circular সম্পর্কিত রাশি",
+      "meaning": "circular (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     }
   ],
   "derivation": {
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P_{\\text{circular}}=(n-1)!",
-        "note": "Linear n! → Circular (n−1)!; one fixed point।"
+        "note": "বৃত্তাকার ক্রম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "P_{\\text{circular}}=(n-1)!",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Linear n! → Circular (n−1)!; one fixed point।"
       }
     ],
     "assumptions": []
@@ -49,16 +49,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "বৃত্তাকার ক্রম এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "P_{\\text{circular}}=(n-1)!"
+    },
+    {
+      "examType": "Concept",
+      "question": "বৃত্তাকার ক্রম দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Linear n! → Circular (n1)!; one fixed point।}"
     }
   ],
   "memorize": {
     "trick": "Linear n! → Circular (n−1)!; one fixed point।",
     "steps": [
-      "সূত্র: P_{\\text{circular}}=(n-1)!",
-      "কী কাজে লাগে: বৃত্তাকার ক্রম",
-      "চিহ্ন মনে রাখো: P, circular, n"
+      "Linear n! → Circular (n−1)!; one fixed point।",
+      "প্রশ্নে বৃত্তাকার ক্রম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: P, circular, n — একক যাচাই করো"
     ]
   },
   "subjects": [

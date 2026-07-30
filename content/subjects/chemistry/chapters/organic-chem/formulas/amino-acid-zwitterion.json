@@ -22,18 +22,18 @@
     },
     {
       "symbol": "C",
-      "meaning": "C সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ধারণক্ষমতা / ধারকত্ব",
+      "unit": "F বা J/K"
     },
     {
       "symbol": "H",
-      "meaning": "H সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র / এনথ্যালপি",
+      "unit": "A/m বা J"
     },
     {
       "symbol": "R",
-      "meaning": "R সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "রোধ / গ্যাস ধ্রুবক / ব্যাসার্ধ",
+      "unit": "Ω বা J/(mol·K) বা m"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{H_2N{-}CHR{-}COOH}\\rightleftharpoons \\mathrm{^{+}H_3N{-}CHR{-}COO^{-}}",
-        "note": "আইসোইলেকট্রিক বিন্দুতে জুইটারআয়ন।"
+        "note": "অ্যামিনো অ্যাসিড জুইটারআয়ন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{H_2N{-}CHR{-}COOH}\\rightleftharpoons \\mathrm{^{+}H_3N{-}CHR{-}COO^{-}}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "আইসোইলেকট্রিক বিন্দুতে জুইটারআয়ন।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অ্যামিনো অ্যাসিড জুইটারআয়ন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "অ্যামিনো অ্যাসিড জুইটারআয়ন এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\mathrm{H_2N{-}CHR{-}COOH}\\rightleftharpoons \\mathrm{^{+}H_3N{-}CHR{-}COO^{-}}"
+    },
+    {
+      "examType": "Concept",
+      "question": "অ্যামিনো অ্যাসিড জুইটারআয়ন দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{আইসোইলেকট্রিক বিন্দুতে জুইটারআয়ন।}"
     }
   ],
   "memorize": {
     "trick": "আইসোইলেকট্রিক বিন্দুতে জুইটারআয়ন।",
     "steps": [
-      "সূত্র: \\mathrm{H_2N{-}CHR{-}COOH}\\rightleftharpoons \\mathrm{^{+}H_3N{-}CHR{-}COO^{-}}",
-      "কী কাজে লাগে: অ্যামিনো অ্যাসিড জুইটারআয়ন",
-      "চিহ্ন মনে রাখো: H_2N{-, C, H, R"
+      "আইসোইলেকট্রিক বিন্দুতে জুইটারআয়ন।",
+      "প্রশ্নে অ্যামিনো অ্যাসিড জুইটারআয়ন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: H_2N{-, C, H — একক যাচাই করো"
     ]
   },
   "subjects": [

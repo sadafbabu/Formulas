@@ -27,12 +27,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{impurities concentrate in molten zone and are swept away}",
-        "note": "Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।"
+        "note": "জোন পরিশোধন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{impurities concentrate in molten zone and are swept away}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।"
       }
     ],
     "assumptions": []
@@ -40,16 +40,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জোন পরিশোধন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "জোন পরিশোধন এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{impurities concentrate in molten zone and are swept away}"
+    },
+    {
+      "examType": "Concept",
+      "question": "জোন পরিশোধন দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।}"
     }
   ],
   "memorize": {
     "trick": "Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।",
     "steps": [
-      "সূত্র: \\text{impurities concentrate in molten zone and are swept away}",
-      "কী কাজে লাগে: জোন পরিশোধন",
-      "চিহ্ন মনে রাখো: impurities concentrate in molten zone and are swept away"
+      "Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।",
+      "প্রশ্নে জোন পরিশোধন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: impurities concentrate in molten zone and are swept away — একক যাচাই করো"
     ]
   },
   "subjects": [

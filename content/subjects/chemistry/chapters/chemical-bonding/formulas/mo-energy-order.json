@@ -22,18 +22,18 @@
     },
     {
       "symbol": "sigma",
-      "meaning": "sigma সম্পর্কিত রাশি",
+      "meaning": "স্ট্রেস / স্টেফান ধ্রুবক / পরিবাহিতা",
       "unit": "—"
     },
     {
       "symbol": "s",
-      "meaning": "s সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "সরণ",
+      "unit": "m"
     },
     {
       "symbol": "pi",
-      "meaning": "pi সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "পাই",
+      "unit": "1"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\sigma^*2s\\,\\sigma2p\\,\\pi2p\\,\\pi^*",
-        "note": "N₂-তে π আগে σ2p; O₂-তে σ2p আগে।"
+        "note": "আণবিক অরবিটাল শক্তি ক্রম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\sigma^*2s\\,\\sigma2p\\,\\pi2p\\,\\pi^*",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "N₂-তে π আগে σ2p; O₂-তে σ2p আগে।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আণবিক অরবিটাল শক্তি ক্রম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "আণবিক অরবিটাল শক্তি ক্রম এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\sigma^*2s\\,\\sigma2p\\,\\pi2p\\,\\pi^*"
+    },
+    {
+      "examType": "Concept",
+      "question": "আণবিক অরবিটাল শক্তি ক্রম দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{N₂-তে π আগে σ2p; O₂-তে σ2p আগে।}"
     }
   ],
   "memorize": {
     "trick": "N₂-তে π আগে σ2p; O₂-তে σ2p আগে।",
     "steps": [
-      "সূত্র: \\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\…",
-      "কী কাজে লাগে: আণবিক অরবিটাল শক্তি ক্রম",
-      "চিহ্ন মনে রাখো: N_2, sigma, s, pi"
+      "N₂-তে π আগে σ2p; O₂-তে σ2p আগে।",
+      "প্রশ্নে আণবিক অরবিটাল শক্তি ক্রম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: N_2, sigma, s — একক যাচাই করো"
     ]
   },
   "subjects": [

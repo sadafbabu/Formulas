@@ -22,17 +22,17 @@
     },
     {
       "symbol": "lighter",
-      "meaning": "lighter সম্পর্কিত রাশি",
+      "meaning": "lighter (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "energy",
-      "meaning": "energy সম্পর্কিত রাশি",
+      "meaning": "energy (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "fusion: light",
-      "meaning": "fusion: light সম্পর্কিত রাশি",
+      "meaning": "fusion: light (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\text{heavier}",
-        "note": "বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।"
+        "note": "বিভাজন ও সংযোজন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\text{heavier}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিভাজন ও সংযোজন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "বিভাজন ও সংযোজন এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\text{heavier}"
+    },
+    {
+      "examType": "Concept",
+      "question": "বিভাজন ও সংযোজন দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।}"
     }
   ],
   "memorize": {
     "trick": "বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।",
     "steps": [
-      "সূত্র: \\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\t…",
-      "কী কাজে লাগে: বিভাজন ও সংযোজন",
-      "চিহ্ন মনে রাখো: fission: heavy, lighter, energy, fusion: light"
+      "বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।",
+      "প্রশ্নে বিভাজন ও সংযোজন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: fission: heavy, lighter, energy — একক যাচাই করো"
     ]
   },
   "subjects": [

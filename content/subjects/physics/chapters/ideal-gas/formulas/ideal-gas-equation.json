@@ -46,12 +46,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "PV = nRT, \\quad R = 8.314\\ \\text{J/(mol·K)}",
-        "note": "Boyle, Charles ও Avogadro-এর সূত্র সমন্বয় করে প্রাপ্ত।"
+        "note": "আদর্শ গ্যাস সমীকরণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "PV = nRT, \\quad R = 8.314\\ \\text{J/(mol·K)}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "PV = nRT — 'পিভি নরত'। R = 8.314 J/(mol·K) মুখস্থ রাখুন; T সর্বদা কেলভিনে।"
       }
     ],
     "assumptions": [

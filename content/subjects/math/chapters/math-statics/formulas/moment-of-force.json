@@ -21,18 +21,18 @@
     },
     {
       "symbol": "F",
-      "meaning": "F সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "বল",
+      "unit": "N"
     },
     {
       "symbol": "d",
-      "meaning": "d সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "দূরত্ব / ব্যাস",
+      "unit": "m"
     },
     {
       "symbol": "theta",
-      "meaning": "theta সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কোণ",
+      "unit": "rad"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\tau=F\\,d\\,\\sin\\theta",
-        "note": "τ = F × ⊥ distance; d⊥ = d sinθ।"
+        "note": "বলের ভ্রাম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\tau=F\\,d\\,\\sin\\theta",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "τ = F × ⊥ distance; d⊥ = d sinθ।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বলের ভ্রাম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "বলের ভ্রাম এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\tau=F\\,d\\,\\sin\\theta"
+    },
+    {
+      "examType": "Concept",
+      "question": "বলের ভ্রাম দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{τ = F  ⊥ distance; d⊥ = d sinθ।}"
     }
   ],
   "memorize": {
     "trick": "τ = F × ⊥ distance; d⊥ = d sinθ।",
     "steps": [
-      "সূত্র: \\tau=F\\,d\\,\\sin\\theta",
-      "কী কাজে লাগে: বলের ভ্রাম",
-      "চিহ্ন মনে রাখো: tau, F, d, theta"
+      "τ = F × ⊥ distance; d⊥ = d sinθ।",
+      "প্রশ্নে বলের ভ্রাম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: tau, F, d — একক যাচাই করো"
     ]
   },
   "subjects": [

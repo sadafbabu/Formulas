@@ -22,17 +22,17 @@
     },
     {
       "symbol": "uparrow",
-      "meaning": "uparrow সম্পর্কিত রাশি",
+      "meaning": "uparrow (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "across period",
-      "meaning": "across period সম্পর্কিত রাশি",
+      "meaning": "across period (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "downarrow",
-      "meaning": "downarrow সম্পর্কিত রাশি",
+      "meaning": "downarrow (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{IE}\\uparrow\\text{ across period};\\quad \\mathrm{IE}\\downarrow\\text{ down group}",
-        "note": "নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।"
+        "note": "আয়নন শক্তির প্রবণতা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{IE}\\uparrow\\text{ across period};\\quad \\mathrm{IE}\\downarrow\\text{ down group}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আয়নন শক্তির প্রবণতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\mathrm{IE}\\uparrow\\text{ across period};\\quad \\mathrm{IE}\\downarrow\\text{ down group}"
+      "question": "আয়নন শক্তির প্রবণতা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\mathrm{IE}\\uparrow\\text{ across period};\\quad \\mathrm{IE}\\downarrow\\text{ down group}\\text{ — }নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।"
+    },
+    {
+      "examType": "Concept",
+      "question": "আয়নন শক্তির প্রবণতা দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।}"
     }
   ],
   "memorize": {
     "trick": "নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।",
     "steps": [
-      "সূত্র: \\mathrm{IE}\\uparrow\\text{ across period};\\quad \\mathrm{IE}\\downarrow\\text{ down …",
-      "কী কাজে লাগে: আয়নন শক্তির প্রবণতা",
-      "চিহ্ন মনে রাখো: IE, uparrow, across period, downarrow"
+      "নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।",
+      "প্রশ্নে আয়নন শক্তির প্রবণতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: IE, uparrow, across period — একক যাচাই করো"
     ]
   },
   "subjects": [

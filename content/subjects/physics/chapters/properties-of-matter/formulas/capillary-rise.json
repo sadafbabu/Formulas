@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "h=\\dfrac{2S\\cos\\theta}{\\rho g r}",
-        "note": "উর্ধ্ব বল 2πr S cosθ = ওজন πr²hρg।"
+        "note": "কৈশিক উত্থান এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "h=\\dfrac{2S\\cos\\theta}{\\rho g r}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "সরু নল = বেশি উঠে: h = 2S cosθ/(ρgr) — r ছোট h বড়।"
       }
     ],
     "assumptions": [

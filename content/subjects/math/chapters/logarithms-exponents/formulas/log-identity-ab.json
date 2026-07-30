@@ -21,8 +21,8 @@
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     }
   ],
   "derivation": {
@@ -31,12 +31,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\log_b a\\cdot\\log_a b=1",
-        "note": "একটি জানলে অন্যটি উল্টো। \\log_b a\\cdot\\log_a b=1"
+        "note": "বিপরীত লগ গুণফল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\log_b a\\cdot\\log_a b=1",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "একটি জানলে অন্যটি উল্টো। \\log_b a\\cdot\\log_a b=1"
       }
     ],
     "assumptions": []
@@ -44,16 +44,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিপরীত লগ গুণফল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "বিপরীত লগ গুণফল এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\log_b a\\cdot\\log_a b=1"
+    },
+    {
+      "examType": "Concept",
+      "question": "বিপরীত লগ গুণফল দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{একটি জানলে অন্যটি উল্টো। log b acdotlog a b=1}"
     }
   ],
   "memorize": {
     "trick": "একটি জানলে অন্যটি উল্টো। \\log_b a\\cdot\\log_a b=1",
     "steps": [
-      "সূত্র: \\log_b a\\cdot\\log_a b=1",
-      "কী কাজে লাগে: বিপরীত লগ গুণফল",
-      "চিহ্ন মনে রাখো: b, a"
+      "একটি জানলে অন্যটি উল্টো। \\log_b a\\cdot\\log_a b=1",
+      "প্রশ্নে বিপরীত লগ গুণফল প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: b, a — একক যাচাই করো"
     ]
   },
   "subjects": [

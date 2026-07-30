@@ -26,12 +26,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{feasible region = intersection of all constraints}",
-        "note": "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।"
+        "note": "সম্ভাব্য অঞ্চল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{feasible region = intersection of all constraints}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।"
       }
     ],
     "assumptions": []
@@ -39,16 +39,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সম্ভাব্য অঞ্চল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সম্ভাব্য অঞ্চল এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{feasible region = intersection of all constraints}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সম্ভাব্য অঞ্চল দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।}"
     }
   ],
   "memorize": {
     "trick": "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।",
     "steps": [
-      "সূত্র: \\text{feasible region = intersection of all constraints}",
-      "কী কাজে লাগে: সম্ভাব্য অঞ্চল",
-      "চিহ্ন মনে রাখো: feasible region = intersection of all constraints"
+      "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।",
+      "প্রশ্নে সম্ভাব্য অঞ্চল প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: feasible region = intersection of all constraints — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -22,17 +22,17 @@
     },
     {
       "symbol": "r",
-      "meaning": "r সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ব্যাসার্ধ / দূরত্ব",
+      "unit": "m"
     },
     {
       "symbol": "f",
-      "meaning": "f সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কম্পাঙ্ক / বল (প্রসঙ্গমতে)",
+      "unit": "Hz বা N"
     },
     {
       "symbol": "o",
-      "meaning": "o সম্পর্কিত রাশি",
+      "meaning": "o (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "h_{\\min}=\\frac{5r}{2}\\quad\\text{(from bottom of loop)}",
-        "note": "লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।"
+        "note": "লুপ দিয়ে ঘূর্ণন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "h_{\\min}=\\frac{5r}{2}\\quad\\text{(from bottom of loop)}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "লুপ দিয়ে ঘূর্ণন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "লুপ দিয়ে ঘূর্ণন এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "h_{\\min}=\\frac{5r}{2}\\quad\\text{(from bottom of loop)}"
+    },
+    {
+      "examType": "Concept",
+      "question": "লুপ দিয়ে ঘূর্ণন দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।}"
     }
   ],
   "memorize": {
     "trick": "লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।",
     "steps": [
-      "সূত্র: h_{\\min}=\\frac{5r}{2}\\quad\\text{(from bottom of loop)}",
-      "কী কাজে লাগে: লুপ দিয়ে ঘূর্ণন",
-      "চিহ্ন মনে রাখো: h, r, f, o"
+      "লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।",
+      "প্রশ্নে লুপ দিয়ে ঘূর্ণন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: h, r, f — একক যাচাই করো"
     ]
   },
   "subjects": [

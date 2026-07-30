@@ -22,18 +22,18 @@
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "g",
-      "meaning": "g সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "v_{\\text{avg}}=\\frac{\\Delta x}{\\Delta t},\\quad v=\\lim_{\\Delta t\\to0}\\frac{\\Delta x}{\\Delta t}",
-        "note": "গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।"
+        "note": "গড় ও তাৎক্ষণিক বেগ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "v_{\\text{avg}}=\\frac{\\Delta x}{\\Delta t},\\quad v=\\lim_{\\Delta t\\to0}\\frac{\\Delta x}{\\Delta t}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গড় ও তাৎক্ষণিক বেগ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "গড় ও তাৎক্ষণিক বেগ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "v_{\\text{avg}}=\\frac{\\Delta x}{\\Delta t},\\quad v=\\lim_{\\Delta t\\to0}\\frac{\\Delta x}{\\Delta t}"
+    },
+    {
+      "examType": "Concept",
+      "question": "গড় ও তাৎক্ষণিক বেগ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।}"
     }
   ],
   "memorize": {
     "trick": "গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।",
     "steps": [
-      "সূত্র: v_{\\text{avg}}=\\frac{\\Delta x}{\\Delta t},\\quad v=\\lim_{\\Delta t\\to0}\\frac{\\Delta…",
-      "কী কাজে লাগে: গড় ও তাৎক্ষণিক বেগ",
-      "চিহ্ন মনে রাখো: v, a, g, x"
+      "গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।",
+      "প্রশ্নে গড় ও তাৎক্ষণিক বেগ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: v, a, g — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -21,18 +21,18 @@
     },
     {
       "symbol": "vec",
-      "meaning": "vec সম্পর্কিত রাশি",
+      "meaning": "vec (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "d=\\frac{|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|}{|\\vec b_1\\times\\vec b_2|}",
-        "note": "cross × dot; পরস্পর ছেদ করে না → skew।"
+        "note": "অসন্মিল রেখার লম্ব দূরত্ব এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "d=\\frac{|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|}{|\\vec b_1\\times\\vec b_2|}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "cross × dot; পরস্পর ছেদ করে না → skew।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অসন্মিল রেখার লম্ব দূরত্ব কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "অসন্মিল রেখার লম্ব দূরত্ব এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "d=\\frac{|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|}{|\\vec b_1\\times\\vec b_2|}"
+    },
+    {
+      "examType": "Concept",
+      "question": "অসন্মিল রেখার লম্ব দূরত্ব দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{cross  dot; পরস্পর ছেদ করে না → skew।}"
     }
   ],
   "memorize": {
     "trick": "cross × dot; পরস্পর ছেদ করে না → skew।",
     "steps": [
-      "সূত্র: d=\\frac{|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|}{|\\vec b_1\\times\\vec …",
-      "কী কাজে লাগে: অসন্মিল রেখার লম্ব দূরত্ব",
-      "চিহ্ন মনে রাখো: d, vec, b, a"
+      "cross × dot; পরস্পর ছেদ করে না → skew।",
+      "প্রশ্নে অসন্মিল রেখার লম্ব দূরত্ব প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: d, vec, b — একক যাচাই করো"
     ]
   },
   "subjects": [

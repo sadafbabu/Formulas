@@ -22,18 +22,18 @@
     },
     {
       "symbol": "top",
-      "meaning": "top সম্পর্কিত রাশি",
+      "meaning": "top (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "g",
-      "meaning": "g সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "r",
-      "meaning": "r সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ব্যাসার্ধ / দূরত্ব",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
-        "note": "top/bottom — শীর্ষে ন্যূনতম √(gr)।"
+        "note": "উল্লম্ব বৃত্তের চরম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "শীর্ষে ন্যূনতম √(gr)। v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})"
       }
     ],
     "assumptions": []
@@ -55,16 +55,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উল্লম্ব বৃত্তের চরম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "উল্লম্ব বৃত্তের চরম এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})"
     }
   ],
   "memorize": {
     "trick": "শীর্ষে ন্যূনতম √(gr)। v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
     "steps": [
-      "সূত্র: v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
-      "কী কাজে লাগে: উল্লম্ব বৃত্তের চরম",
-      "চিহ্ন মনে রাখো: v, top, g, r"
+      "শীর্ষে ন্যূনতম √(gr)। v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
+      "প্রশ্নে উল্লম্ব বৃত্তের চরম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: v, top, g — একক যাচাই করো"
     ]
   },
   "subjects": [

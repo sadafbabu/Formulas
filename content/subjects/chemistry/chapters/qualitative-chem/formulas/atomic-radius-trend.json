@@ -22,17 +22,17 @@
     },
     {
       "symbol": "downarrow",
-      "meaning": "downarrow সম্পর্কিত রাশি",
+      "meaning": "downarrow (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "across period",
-      "meaning": "across period সম্পর্কিত রাশি",
+      "meaning": "across period (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "uparrow",
-      "meaning": "uparrow সম্পর্কিত রাশি",
+      "meaning": "uparrow (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
-        "note": "বামে→ডানে ছোট; উপরে→নিচে বড়। r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}"
+        "note": "পারমাণবিক ব্যাসার্ধের প্রবণতা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "বামে→ডানে ছোট; উপরে→নিচে বড়। r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}"
       }
     ],
     "assumptions": []
@@ -55,16 +55,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পারমাণবিক ব্যাসার্ধের প্রবণতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "পারমাণবিক ব্যাসার্ধের প্রবণতা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
       "answer": "r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}"
     }
   ],
   "memorize": {
     "trick": "বামে→ডানে ছোট; উপরে→নিচে বড়। r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
     "steps": [
-      "সূত্র: r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
-      "কী কাজে লাগে: পারমাণবিক ব্যাসার্ধের প্রবণতা",
-      "চিহ্ন মনে রাখো: r, downarrow, across period, uparrow"
+      "বামে→ডানে ছোট; উপরে→নিচে বড়। r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
+      "প্রশ্নে পারমাণবিক ব্যাসার্ধের প্রবণতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: r, downarrow, across period — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -21,8 +21,8 @@
     },
     {
       "symbol": "Z",
-      "meaning": "Z সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "পারমাণবিক সংখ্যা / প্রতিবন্ধকতা",
+      "unit": "1 বা Ω"
     }
   ],
   "derivation": {
@@ -31,12 +31,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{1) lines 2) shade 3) corners 4) evaluate }Z",
-        "note": "দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z"
+        "note": "লেখচিত্র পদ্ধতির ধাপ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{1) lines 2) shade 3) corners 4) evaluate }Z",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z"
       }
     ],
     "assumptions": []
@@ -44,16 +44,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "লেখচিত্র পদ্ধতির ধাপ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "লেখচিত্র পদ্ধতির ধাপ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{1) lines 2) shade 3) corners 4) evaluate }Z"
+    },
+    {
+      "examType": "Concept",
+      "question": "লেখচিত্র পদ্ধতির ধাপ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{দুই চলকের LP গ্রাফে সহজ। text1) lines 2) shade 3) corners 4) evaluate Z}"
     }
   ],
   "memorize": {
     "trick": "দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z",
     "steps": [
-      "সূত্র: \\text{1) lines 2) shade 3) corners 4) evaluate }Z",
-      "কী কাজে লাগে: লেখচিত্র পদ্ধতির ধাপ",
-      "চিহ্ন মনে রাখো: 1) lines 2) shade 3) corners 4) evaluate, Z"
+      "দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z",
+      "প্রশ্নে লেখচিত্র পদ্ধতির ধাপ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: 1) lines 2) shade 3) corners 4) evaluate, Z — একক যাচাই করো"
     ]
   },
   "subjects": [

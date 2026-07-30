@@ -22,7 +22,7 @@
     },
     {
       "symbol": "heterogeneous: different phase",
-      "meaning": "heterogeneous: different phase সম্পর্কিত রাশি",
+      "meaning": "heterogeneous: different phase (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -32,12 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{homogeneous: same phase};\\quad \\text{heterogeneous: different phase}",
-        "note": "Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।"
+        "note": "সম ও অসম সংঘটক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{homogeneous: same phase};\\quad \\text{heterogeneous: different phase}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।"
       }
     ],
     "assumptions": []
@@ -45,16 +45,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সম ও অসম সংঘটক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সম ও অসম সংঘটক এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{homogeneous: same phase};\\quad \\text{heterogeneous: different phase}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সম ও অসম সংঘটক দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।}"
     }
   ],
   "memorize": {
     "trick": "Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।",
     "steps": [
-      "সূত্র: \\text{homogeneous: same phase};\\quad \\text{heterogeneous: different phase}",
-      "কী কাজে লাগে: সম ও অসম সংঘটক",
-      "চিহ্ন মনে রাখো: homogeneous: same phase, heterogeneous: different phase"
+      "Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।",
+      "প্রশ্নে সম ও অসম সংঘটক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: homogeneous: same phase, heterogeneous: different phase — একক যাচাই করো"
     ]
   },
   "subjects": [

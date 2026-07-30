@@ -22,13 +22,13 @@
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{\\Delta z}{z}=|n|\\frac{\\Delta x}{x}\\quad(z=x^n)",
-        "note": "ঘাত n হলে আপেক্ষিক ত্রুটি n গুণ।"
+        "note": "ঘাতে ত্রুটি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{\\Delta z}{z}=|n|\\frac{\\Delta x}{x}\\quad(z=x^n)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ঘাত n হলে আপেক্ষিক ত্রুটি n গুণ।"
       }
     ],
     "assumptions": []
@@ -50,16 +50,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ঘাতে ত্রুটি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ঘাতে ত্রুটি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\frac{\\Delta z}{z}=|n|\\frac{\\Delta x}{x}\\quad(z=x^n)"
+    },
+    {
+      "examType": "Concept",
+      "question": "ঘাতে ত্রুটি দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{ঘাত n হলে আপেক্ষিক ত্রুটি n গুণ।}"
     }
   ],
   "memorize": {
     "trick": "ঘাত n হলে আপেক্ষিক ত্রুটি n গুণ।",
     "steps": [
-      "সূত্র: \\frac{\\Delta z}{z}=|n|\\frac{\\Delta x}{x}\\quad(z=x^n)",
-      "কী কাজে লাগে: ঘাতে ত্রুটি",
-      "চিহ্ন মনে রাখো: z, n, x"
+      "ঘাত n হলে আপেক্ষিক ত্রুটি n গুণ।",
+      "প্রশ্নে ঘাতে ত্রুটি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: z, n, x — একক যাচাই করো"
     ]
   },
   "subjects": [

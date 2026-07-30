@@ -22,18 +22,18 @@
     },
     {
       "symbol": "I",
-      "meaning": "I সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তড়িৎ প্রবাহ / জড়তার ভ্রামক",
+      "unit": "A বা kg·m²"
     },
     {
       "symbol": "A",
-      "meaning": "A সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ক্ষেত্রফল / বিস্তার",
+      "unit": "m²"
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
-        "note": "বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta"
+        "note": "চল কুণ্ডলী গ্যালভানোমিটার এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta"
       }
     ],
     "assumptions": []
@@ -55,16 +55,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "চল কুণ্ডলী গ্যালভানোমিটার কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "চল কুণ্ডলী গ্যালভানোমিটার এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta"
     }
   ],
   "memorize": {
     "trick": "বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
     "steps": [
-      "সূত্র: NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
-      "কী কাজে লাগে: চল কুণ্ডলী গ্যালভানোমিটার",
-      "চিহ্ন মনে রাখো: N, I, A, B"
+      "বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
+      "প্রশ্নে চল কুণ্ডলী গ্যালভানোমিটার প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: N, I, A — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -21,13 +21,13 @@
     },
     {
       "symbol": "t",
-      "meaning": "t সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "সময়",
+      "unit": "s"
     },
     {
       "symbol": "m",
-      "meaning": "m সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর",
+      "unit": "kg"
     }
   ],
   "derivation": {
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda",
-        "note": "Phase reversal at one surface → half wavelength path difference।"
+        "note": "অপাতল স্তরে ব্যতিচার এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Phase reversal at one surface → half wavelength path difference।"
       }
     ],
     "assumptions": []
@@ -49,16 +49,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অপাতল স্তরে ব্যতিচার কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "অপাতল স্তরে ব্যতিচার এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda"
+    },
+    {
+      "examType": "Concept",
+      "question": "অপাতল স্তরে ব্যতিচার দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Phase reversal at one surface → half wavelength path difference।}"
     }
   ],
   "memorize": {
     "trick": "Phase reversal at one surface → half wavelength path difference।",
     "steps": [
-      "সূত্র: 2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda",
-      "কী কাজে লাগে: অপাতল স্তরে ব্যতিচার",
-      "চিহ্ন মনে রাখো: n, t, m, tfrac"
+      "Phase reversal at one surface → half wavelength path difference।",
+      "প্রশ্নে অপাতল স্তরে ব্যতিচার প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: n, t, m — একক যাচাই করো"
     ]
   },
   "subjects": [

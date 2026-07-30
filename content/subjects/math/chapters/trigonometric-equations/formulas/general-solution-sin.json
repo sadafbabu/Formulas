@@ -21,17 +21,17 @@
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     },
     {
       "symbol": "pi",
-      "meaning": "pi সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "পাই",
+      "unit": "1"
     },
     {
       "symbol": "alpha",
-      "meaning": "alpha সম্পর্কিত রাশি",
+      "meaning": "কোণ / প্রসারণ গুণাঙ্ক",
       "unit": "—"
     }
   ],
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k",
-        "note": "Principal α first; then nπ+(−1)ⁿα pattern।"
+        "note": "sinθ=k-এর সাধারণ সমাধান এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Principal α first; then nπ+(−1)ⁿα pattern।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "sinθ=k-এর সাধারণ সমাধান কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k"
+      "question": "sinθ=k-এর সাধারণ সমাধান এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k\\text{ — }Principal α first; then nπ+(−1)ⁿα pattern।"
+    },
+    {
+      "examType": "Concept",
+      "question": "sinθ=k-এর সাধারণ সমাধান দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{Principal α first; then nπ+(1)ⁿα pattern।}"
     }
   ],
   "memorize": {
     "trick": "Principal α first; then nπ+(−1)ⁿα pattern।",
     "steps": [
-      "সূত্র: \\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k",
-      "কী কাজে লাগে: sinθ=k-এর সাধারণ সমাধান",
-      "চিহ্ন মনে রাখো: theta, n, pi, alpha"
+      "Principal α first; then nπ+(−1)ⁿα pattern।",
+      "প্রশ্নে sinθ=k-এর সাধারণ সমাধান প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: theta, n, pi — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -22,18 +22,18 @@
     },
     {
       "symbol": "r",
-      "meaning": "r সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ব্যাসার্ধ / দূরত্ব",
+      "unit": "m"
     },
     {
       "symbol": "G",
-      "meaning": "G সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মহাকর্ষ ধ্রুবক",
+      "unit": "N·m²/kg²"
     },
     {
       "symbol": "M",
-      "meaning": "M সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর / মোলার ভর",
+      "unit": "kg বা g/mol"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "T=2\\pi\\sqrt{\\frac{r^3}{GM}},\\quad r=R+h",
-        "note": "বৃত্তাকার কক্ষের কেপলারীয় পর্যায়কাল"
+        "note": "উপগ্রহের পর্যায়কাল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "T=2\\pi\\sqrt{\\frac{r^3}{GM}},\\quad r=R+h",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "T² ∝ r³ — কেপলার ৩য়; r = R+h।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উপগ্রহের পর্যায়কাল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "উপগ্রহের পর্যায়কাল এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "T=2\\pi\\sqrt{\\frac{r^3}{GM}},\\quad r=R+h"
+    },
+    {
+      "examType": "Concept",
+      "question": "উপগ্রহের পর্যায়কাল দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{T ∝ r³  কেপলার ৩য়; r = R+h।}"
     }
   ],
   "memorize": {
     "trick": "T² ∝ r³ — কেপলার ৩য়; r = R+h।",
     "steps": [
-      "সূত্র: T=2\\pi\\sqrt{\\frac{r^3}{GM}},\\quad r=R+h",
-      "বৃত্তাকার কক্ষের কেপলারীয় পর্যায়কাল",
-      "চিহ্ন মনে রাখো: T, r, G, M"
+      "T² ∝ r³ — কেপলার ৩য়; r = R+h।",
+      "প্রশ্নে উপগ্রহের পর্যায়কাল প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: T, r, G — একক যাচাই করো"
     ]
   },
   "subjects": [

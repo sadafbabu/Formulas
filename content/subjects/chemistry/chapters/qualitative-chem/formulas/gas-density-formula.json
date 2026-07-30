@@ -22,18 +22,18 @@
     },
     {
       "symbol": "P",
-      "meaning": "P সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চাপ / ক্ষমতা",
+      "unit": "Pa বা W"
     },
     {
       "symbol": "M",
-      "meaning": "M সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর / মোলার ভর",
+      "unit": "kg বা g/mol"
     },
     {
       "symbol": "R",
-      "meaning": "R সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "রোধ / গ্যাস ধ্রুবক / ব্যাসার্ধ",
+      "unit": "Ω বা J/(mol·K) বা m"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "d=\\frac{PM}{RT}",
-        "note": "From PV=nRT → d=PM/RT; compare molar masses at same P,T।"
+        "note": "গ্যাসের ঘনত্ব এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "d=\\frac{PM}{RT}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "From PV=nRT → d=PM/RT; compare molar masses at same P,T।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্যাসের ঘনত্ব কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "গ্যাসের ঘনত্ব এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "d=\\frac{PM}{RT}"
+    },
+    {
+      "examType": "Concept",
+      "question": "গ্যাসের ঘনত্ব দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{From PV=nRT → d=PM/RT; compare molar masses at same P,T।}"
     }
   ],
   "memorize": {
     "trick": "From PV=nRT → d=PM/RT; compare molar masses at same P,T।",
     "steps": [
-      "সূত্র: d=\\frac{PM}{RT}",
-      "কী কাজে লাগে: গ্যাসের ঘনত্ব",
-      "চিহ্ন মনে রাখো: d, P, M, R"
+      "From PV=nRT → d=PM/RT; compare molar masses at same P,T।",
+      "প্রশ্নে গ্যাসের ঘনত্ব প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: d, P, M — একক যাচাই করো"
     ]
   },
   "subjects": [

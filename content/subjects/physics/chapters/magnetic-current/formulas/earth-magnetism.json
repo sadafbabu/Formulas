@@ -47,12 +47,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "B_H = B \\cos \\delta, \\quad B_V = B \\sin \\delta, \\quad \\tan \\delta = \\frac{B_V}{B_H}",
-        "note": "ভেক্টর বিভাজন ও পিথাগোরাস প্রয়োগ:"
+        "note": "ভূ-চৌম্বক উপাংশ ও বিনতি কোণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "B_H = B \\cos \\delta, \\quad B_V = B \\sin \\delta, \\quad \\tan \\delta = \\frac{B_V}{B_H}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "B-এর দুই উপাংশ: অনুভূমিক B_H = B cosδ, উল্লম্ব B_V = B sinδ। 'কোসাইন শোয়া (অনুভূমিক), সাইন খাড়া (উল্লম্ব)'।"
       }
     ],
     "assumptions": [

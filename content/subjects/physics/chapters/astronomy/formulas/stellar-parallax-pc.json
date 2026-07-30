@@ -32,12 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "d(\\mathrm{pc})=\\dfrac{1}{p^{\\prime\\prime}},\\quad 1\\,\\mathrm{pc}\\approx 3.26\\,\\mathrm{ly}",
-        "note": "পৃথিবীর কক্ষ ব্যাসার্ধ দেখার ভিত্তিতে ত্রিকোণমিতি।"
+        "note": "প্যারালাক্স দূরত্ব এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "d(\\mathrm{pc})=\\dfrac{1}{p^{\\prime\\prime}},\\quad 1\\,\\mathrm{pc}\\approx 3.26\\,\\mathrm{ly}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "d(pc)=1/p″। d(pc) = 1/p″ — পার্সেক সংজ্ঞা"
       }
     ],
     "assumptions": [
@@ -54,9 +54,9 @@
   "memorize": {
     "trick": "d(pc)=1/p″। d(pc) = 1/p″ — পার্সেক সংজ্ঞা",
     "steps": [
-      "সূত্র: d(\\mathrm{pc})=\\dfrac{1}{p^{\\prime\\prime}},\\quad 1\\,\\mathrm{pc}\\approx 3.26\\,\\ma…",
-      "d(pc) = 1/p″ — পার্সেক সংজ্ঞা",
-      "চিহ্ন মনে রাখো: p^{\\prime\\prime}, d"
+      "d(pc)=1/p″। d(pc) = 1/p″ — পার্সেক সংজ্ঞা",
+      "প্রশ্নে প্যারালাক্স দূরত্ব প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: p^{\\prime\\prime}, d — একক যাচাই করো"
     ]
   },
   "subjects": [

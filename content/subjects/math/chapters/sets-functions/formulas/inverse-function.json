@@ -16,23 +16,23 @@
   "symbols": [
     {
       "symbol": "f",
-      "meaning": "f⁻¹",
-      "unit": "—"
+      "meaning": "কম্পাঙ্ক / বল (প্রসঙ্গমতে)",
+      "unit": "Hz বা N"
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     },
     {
       "symbol": "and",
-      "meaning": "and সম্পর্কিত রাশি",
+      "meaning": "and (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "y",
-      "meaning": "y সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y",
-        "note": "f⁻¹ exists iff f one-to-one; graph = mirror y=x।"
+        "note": "বিপরীত ফাংশন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "f⁻¹ exists iff f one-to-one; graph = mirror y=x।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিপরীত ফাংশন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "বিপরীত ফাংশন এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y"
+    },
+    {
+      "examType": "Concept",
+      "question": "বিপরীত ফাংশন দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{f⁻¹ exists iff f one-to-one; graph = mirror y=x।}"
     }
   ],
   "memorize": {
     "trick": "f⁻¹ exists iff f one-to-one; graph = mirror y=x।",
     "steps": [
-      "সূত্র: f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y",
-      "কী কাজে লাগে: বিপরীত ফাংশন",
-      "চিহ্ন মনে রাখো: f, x, and, y"
+      "f⁻¹ exists iff f one-to-one; graph = mirror y=x।",
+      "প্রশ্নে বিপরীত ফাংশন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: f, x, and — একক যাচাই করো"
     ]
   },
   "subjects": [

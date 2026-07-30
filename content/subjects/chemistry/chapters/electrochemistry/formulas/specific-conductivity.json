@@ -22,18 +22,18 @@
     },
     {
       "symbol": "rho",
-      "meaning": "rho সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ঘনত্ব / রোধাঙ্ক",
+      "unit": "kg/m³ বা Ω·m"
     },
     {
       "symbol": "Lambda",
-      "meaning": "Lambda সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তরঙ্গদৈর্ঘ্য / ক্ষয় ধ্রুবক",
+      "unit": "m বা 1/s"
     },
     {
       "symbol": "m",
-      "meaning": "m সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর",
+      "unit": "kg"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\kappa=\\frac{1}{\\rho},\\quad\\Lambda_m=\\frac{\\kappa\\times1000}{C},\\quad G=\\kappa\\frac{A}{l}",
-        "note": "Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।"
+        "note": "আপেক্ষিক ও মোলার পরিবাহিতা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\kappa=\\frac{1}{\\rho},\\quad\\Lambda_m=\\frac{\\kappa\\times1000}{C},\\quad G=\\kappa\\frac{A}{l}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আপেক্ষিক ও মোলার পরিবাহিতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\kappa=\\frac{1}{\\rho},\\quad\\Lambda_m=\\frac{\\kappa\\times1000}{C},\\quad G=\\kappa\\frac{A}{l}"
+      "question": "আপেক্ষিক ও মোলার পরিবাহিতা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\kappa=\\frac{1}{\\rho},\\quad\\Lambda_m=\\frac{\\kappa\\times1000}{C},\\quad G=\\kappa\\frac{A}{l}\\text{ — }Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।"
     }
   ],
   "memorize": {
     "trick": "Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।",
     "steps": [
-      "সূত্র: \\kappa=\\frac{1}{\\rho},\\quad\\Lambda_m=\\frac{\\kappa\\times1000}{C},\\quad G=\\kappa\\f…",
-      "কী কাজে লাগে: আপেক্ষিক ও মোলার পরিবাহিতা",
-      "চিহ্ন মনে রাখো: kappa, rho, Lambda, m"
+      "Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।",
+      "প্রশ্নে আপেক্ষিক ও মোলার পরিবাহিতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: kappa, rho, Lambda — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -35,12 +35,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "K_a = \\frac{c\\alpha^2}{1-\\alpha}, \\quad \\alpha \\ll 1 \\Rightarrow K_a \\approx c\\alpha^2",
-        "note": "দুর্বল এসিডের বিয়োজন সাম্য থেকে Ostwald লঘুকরণ সূত্র।"
+        "note": "বিয়োজন মাত্রা ও অস্টভাল্ড এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "K_a = \\frac{c\\alpha^2}{1-\\alpha}, \\quad \\alpha \\ll 1 \\Rightarrow K_a \\approx c\\alpha^2",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "অস্টভাল্ডের লঘুকরণ সূত্র: K_a = cα²/(1 − α)। দুর্বল তড়িৎবিশ্লেষ্যে α ≪ 1, তাই K_a ≈ cα² → α = √(K_a/c) — 'লঘু করলে বিয়"
       }
     ],
     "assumptions": [

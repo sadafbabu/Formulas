@@ -22,18 +22,18 @@
     },
     {
       "symbol": "T",
-      "meaning": "T সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "পর্যায়কাল / তাপমাত্রা",
+      "unit": "s বা K"
     },
     {
       "symbol": "f",
-      "meaning": "f সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কম্পাঙ্ক / বল (প্রসঙ্গমতে)",
+      "unit": "Hz বা N"
     },
     {
       "symbol": "K",
-      "meaning": "K সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "গতিশক্তি / ধ্রুবক",
+      "unit": "J"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta T_f=K_f m",
-        "note": "ΔTf = Kf × m; Cryoscopic constant।"
+        "note": "স্থাযোগাঙ্কের অবনমন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\Delta T_f=K_f m",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ΔTf = Kf × m; Cryoscopic constant।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্থাযোগাঙ্কের অবনমন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\Delta T_f=K_f m"
+      "question": "স্থাযোগাঙ্কের অবনমন এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\Delta T_f=K_f m\\text{ — }ΔTf = Kf × m; Cryoscopic constant।"
+    },
+    {
+      "examType": "Concept",
+      "question": "স্থাযোগাঙ্কের অবনমন দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{ΔTf = Kf  m; Cryoscopic constant।}"
     }
   ],
   "memorize": {
     "trick": "ΔTf = Kf × m; Cryoscopic constant।",
     "steps": [
-      "সূত্র: \\Delta T_f=K_f m",
-      "কী কাজে লাগে: স্থাযোগাঙ্কের অবনমন",
-      "চিহ্ন মনে রাখো: Delta, T, f, K"
+      "ΔTf = Kf × m; Cryoscopic constant।",
+      "প্রশ্নে স্থাযোগাঙ্কের অবনমন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: Delta, T, f — একক যাচাই করো"
     ]
   },
   "subjects": [

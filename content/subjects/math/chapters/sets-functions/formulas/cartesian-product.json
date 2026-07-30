@@ -16,23 +16,23 @@
   "symbols": [
     {
       "symbol": "A",
-      "meaning": "A×B",
-      "unit": "—"
+      "meaning": "ক্ষেত্রফল / বিস্তার",
+      "unit": "m²"
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
-        "note": "|A×B|=|A|·|B|; ordered pair। A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}"
+        "note": "কার্তesian গুণফল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "|A×B|=|A|·|B|; ordered pair। A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কার্তesian গুণফল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "কার্তesian গুণফল এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}"
+    },
+    {
+      "examType": "Concept",
+      "question": "কার্তesian গুণফল দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{|AB|=|A||B|; ordered pair। Atimes B=(a,b):ain A, bin B}"
     }
   ],
   "memorize": {
     "trick": "|A×B|=|A|·|B|; ordered pair। A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
     "steps": [
-      "সূত্র: A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
-      "কী কাজে লাগে: কার্তesian গুণফল",
-      "চিহ্ন মনে রাখো: A, B, a, b"
+      "|A×B|=|A|·|B|; ordered pair। A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
+      "প্রশ্নে কার্তesian গুণফল প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A, B, a — একক যাচাই করো"
     ]
   },
   "subjects": [

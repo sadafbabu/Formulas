@@ -53,12 +53,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "E_k = \\frac{1}{2} m v^2 = \\frac{q^2 B^2 r^2}{2m}",
-        "note": "ব্যাসার্ধ r থেকে বেগ v প্রতিস্থাপন:"
+        "note": "গতিশীল আধানের গতিশক্তি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "E_k = \\frac{1}{2} m v^2 = \\frac{q^2 B^2 r^2}{2m}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "E = q²B²r²/(2m) — r = mv/(qB) থেকে v বের করে ½mv²-এ বসালেই আসে। উপরে সব বর্গ (q², B², r²), নিচে 2m।"
       }
     ],
     "assumptions": [

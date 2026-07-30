@@ -22,12 +22,12 @@
     },
     {
       "symbol": "Rightarrow",
-      "meaning": "Rightarrow সম্পর্কিত রাশি",
+      "meaning": "Rightarrow (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "Tyndall cone",
-      "meaning": "Tyndall cone সম্পর্কিত রাশি",
+      "meaning": "Tyndall cone (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}",
-        "note": "সমাধান করে না; কলয়েড করে — পথ দেখা যায়।"
+        "note": "টিনডাল প্রভাব এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "সমাধান করে না; কলয়েড করে — পথ দেখা যায়।"
       }
     ],
     "assumptions": []
@@ -50,16 +50,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "টিনডাল প্রভাব কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "টিনডাল প্রভাব এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}"
+    },
+    {
+      "examType": "Concept",
+      "question": "টিনডাল প্রভাব দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{সমাধান করে না; কলয়েড করে  পথ দেখা যায়।}"
     }
   ],
   "memorize": {
     "trick": "সমাধান করে না; কলয়েড করে — পথ দেখা যায়।",
     "steps": [
-      "সূত্র: \\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}",
-      "কী কাজে লাগে: টিনডাল প্রভাব",
-      "চিহ্ন মনে রাখো: colloidal particles scatter light, Rightarrow, Tyndall cone"
+      "সমাধান করে না; কলয়েড করে — পথ দেখা যায়।",
+      "প্রশ্নে টিনডাল প্রভাব প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: colloidal particles scatter light, Rightarrow, Tyndall cone — একক যাচাই করো"
     ]
   },
   "subjects": [

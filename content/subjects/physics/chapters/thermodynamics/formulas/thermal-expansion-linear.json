@@ -22,8 +22,8 @@
     },
     {
       "symbol": "T",
-      "meaning": "T সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "পর্যায়কাল / তাপমাত্রা",
+      "unit": "s বা K"
     }
   ],
   "derivation": {
@@ -32,12 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta L=\\alpha L\\Delta T,\\quad \\gamma=3\\alpha",
-        "note": "γ = 3α; আয়তন প্রসারণ তিনগুণ রৈখিক।"
+        "note": "রৈখিক প্রসারণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\Delta L=\\alpha L\\Delta T,\\quad \\gamma=3\\alpha",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "γ = 3α; আয়তন প্রসারণ তিনগুণ রৈখিক।"
       }
     ],
     "assumptions": []
@@ -45,16 +45,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রৈখিক প্রসারণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "রৈখিক প্রসারণ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\Delta L=\\alpha L\\Delta T,\\quad \\gamma=3\\alpha"
+    },
+    {
+      "examType": "Concept",
+      "question": "রৈখিক প্রসারণ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{γ = 3α; আয়তন প্রসারণ তিনগুণ রৈখিক।}"
     }
   ],
   "memorize": {
     "trick": "γ = 3α; আয়তন প্রসারণ তিনগুণ রৈখিক।",
     "steps": [
-      "সূত্র: \\Delta L=\\alpha L\\Delta T,\\quad \\gamma=3\\alpha",
-      "কী কাজে লাগে: রৈখিক প্রসারণ",
-      "চিহ্ন মনে রাখো: L, T"
+      "γ = 3α; আয়তন প্রসারণ তিনগুণ রৈখিক।",
+      "প্রশ্নে রৈখিক প্রসারণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: L, T — একক যাচাই করো"
     ]
   },
   "subjects": [

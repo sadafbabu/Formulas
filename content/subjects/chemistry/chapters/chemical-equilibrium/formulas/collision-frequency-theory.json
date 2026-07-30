@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "k=PZ\\,e^{-E_a/RT}",
-        "note": "কার্যকর সংঘর্ষ = সঠিক দিক (P) × যথেষ্ট শক্তি (e^(−Ea/RT))।"
+        "note": "সংঘর্ষ তত্ত্ব ও হার ধ্রুবক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "k=PZ\\,e^{-E_a/RT}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "হার = সংঘর্ষ × দিক × e^(−Ea/RT)।"
       }
     ],
     "assumptions": [

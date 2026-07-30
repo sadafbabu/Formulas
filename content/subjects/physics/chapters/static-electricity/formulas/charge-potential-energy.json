@@ -34,7 +34,7 @@
     },
     {
       "symbol": "q_j",
-      "meaning": "q_j সম্পর্কিত রাশি",
+      "meaning": "চার্জ",
       "unit": "C"
     },
     {
@@ -71,7 +71,7 @@
     {
       "examType": "HSC",
       "question": "দুই সমান q চার্জ r দূরে থাকলে U কত?",
-      "answer": "U=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{q^2}{r}"
+      "answer": "U=\\dfrac{1}{4\\pi\\varepsilon_0}\\sum_{i<j}\\dfrac{q_i q_j}{r_{ij}}"
     }
   ],
   "memorize": {

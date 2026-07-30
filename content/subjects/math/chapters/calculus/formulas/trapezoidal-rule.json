@@ -21,18 +21,18 @@
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "f",
-      "meaning": "f সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কম্পাঙ্ক / বল (প্রসঙ্গমতে)",
+      "unit": "Hz বা N"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\int_a^b f(x)\\,dx\\approx\\frac{h}{2}[y_0+2(y_1+\\cdots+y_{n-1})+y_n]",
-        "note": "h=(b−a)/n; end points once, middle twice।"
+        "note": "টrapezoidal নিয়ম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\int_a^b f(x)\\,dx\\approx\\frac{h}{2}[y_0+2(y_1+\\cdots+y_{n-1})+y_n]",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "h=(b−a)/n; end points once, middle twice।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "টrapezoidal নিয়ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "টrapezoidal নিয়ম এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\int_a^b f(x)\\,dx\\approx\\frac{h}{2}[y_0+2(y_1+\\cdots+y_{n-1})+y_n]"
+    },
+    {
+      "examType": "Concept",
+      "question": "টrapezoidal নিয়ম দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{h=(ba)/n; end points once, middle twice।}"
     }
   ],
   "memorize": {
     "trick": "h=(b−a)/n; end points once, middle twice।",
     "steps": [
-      "সূত্র: \\int_a^b f(x)\\,dx\\approx\\frac{h}{2}[y_0+2(y_1+\\cdots+y_{n-1})+y_n]",
-      "কী কাজে লাগে: টrapezoidal নিয়ম",
-      "চিহ্ন মনে রাখো: int, a, b, f"
+      "h=(b−a)/n; end points once, middle twice।",
+      "প্রশ্নে টrapezoidal নিয়ম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: int, a, b — একক যাচাই করো"
     ]
   },
   "subjects": [

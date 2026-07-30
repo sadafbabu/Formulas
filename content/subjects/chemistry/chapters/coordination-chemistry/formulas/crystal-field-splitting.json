@@ -17,23 +17,23 @@
   "symbols": [
     {
       "symbol": "Delta",
-      "meaning": "Δ₀",
+      "meaning": "পরিবর্তন",
       "unit": "—"
     },
     {
       "symbol": "energy gap between",
-      "meaning": "energy gap between সম্পর্কিত রাশি",
+      "meaning": "energy gap between (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "e",
-      "meaning": "e সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ইলেকট্রন চার্জ / ভিত্তি",
+      "unit": "C"
     },
     {
       "symbol": "g",
-      "meaning": "g সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta_0=\\text{energy gap between }e_g\\text{ and }t_{2g}",
-        "note": "Octahedral: eg vs t2g; color from d-d transition।"
+        "note": "ক্রিস্টাল ক্ষেত্র বিভাজন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\Delta_0=\\text{energy gap between }e_g\\text{ and }t_{2g}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Octahedral: eg vs t2g; color from d-d transition।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্রিস্টাল ক্ষেত্র বিভাজন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ক্রিস্টাল ক্ষেত্র বিভাজন এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\Delta_0=\\text{energy gap between }e_g\\text{ and }t_{2g}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ক্রিস্টাল ক্ষেত্র বিভাজন দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Octahedral: eg vs t2g; color from d-d transition।}"
     }
   ],
   "memorize": {
     "trick": "Octahedral: eg vs t2g; color from d-d transition।",
     "steps": [
-      "সূত্র: \\Delta_0=\\text{energy gap between }e_g\\text{ and }t_{2g}",
-      "কী কাজে লাগে: ক্রিস্টাল ক্ষেত্র বিভাজন",
-      "চিহ্ন মনে রাখো: Delta, energy gap between, e, g"
+      "Octahedral: eg vs t2g; color from d-d transition।",
+      "প্রশ্নে ক্রিস্টাল ক্ষেত্র বিভাজন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: Delta, energy gap between, e — একক যাচাই করো"
     ]
   },
   "subjects": [

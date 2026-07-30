@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "E=E^\\circ-\\frac{RT}{nF}\\ln Q;\\quad 298\\ \\mathrm K\\text{-এ }E=E^\\circ-\\frac{0.05916}{n}\\log_{10}Q",
-        "note": "মুক্ত শক্তি পরিবর্তন ΔG = ΔG° + RT ln Q এবং ΔG = -nFE সম্পর্ক হতে প্রাপ্ত।"
+        "note": "নার্নস্টের সমীকরণ ও কোশের তড়িৎচালক বল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "E=E^\\circ-\\frac{RT}{nF}\\ln Q;\\quad 298\\ \\mathrm K\\text{-এ }E=E^\\circ-\\frac{0.05916}{n}\\log_{10}Q",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "২৫°C-এ E = E° − (0.059/n) log Q — Q বাড়লে E কমে।"
       }
     ],
     "assumptions": []

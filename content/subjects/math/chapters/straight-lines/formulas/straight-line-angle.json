@@ -26,7 +26,7 @@
     },
     {
       "symbol": "m_2",
-      "meaning": "m_2 সম্পর্কিত রাশি",
+      "meaning": "ভর",
       "unit": "সংখ্যা"
     }
   ],
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\tan\\theta = \\left| \\frac{m_1 - m_2}{1 + m_1 m_2} \\right|, \\quad m_1 m_2 = -1 \\text{ (Perpendicular)}, \\quad m_1 = m_2 \\text{ (Parallel)}",
-        "note": "রেখাদ্বয়ের আনতি θ1 ও θ2 হলে অন্তর্ভুক্ত কোণ θ = θ1 - θ2 থেকে প্রাপ্ত।"
+        "note": "দুইটি সরলরেখার অন্তর্ভুক্ত কোণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\tan\\theta = \\left| \\frac{m_1 - m_2}{1 + m_1 m_2} \\right|, \\quad m_1 m_2 = -1 \\text{ (Perpendicular)}, \\quad m_1 = m_2 \\text{ (Parallel)}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "tanθ = |(m₁ − m₂)/(1 + m₁m₂)| — 'উপরে বিয়োগ, নিচে যোগ'। লম্ব হলে হর শূন্য (m₁m₂ = −1), সমান্তরাল হলে লব শূন্য (m₁ = m₂)"
       }
     ],
     "assumptions": []

@@ -22,18 +22,18 @@
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "q",
-      "meaning": "q সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চার্জ",
+      "unit": "C"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "W_{a\\to b}=q(V_a-V_b),\\quad\\vec E=-\\nabla V,\\quad W_{eq}=0",
-        "note": "সমবিভব তল ও কাজ এর মূল সম্পর্ক ও প্রয়োগ।"
+        "note": "সমবিভব তল ও কাজ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "W_{a\\to b}=q(V_a-V_b),\\quad\\vec E=-\\nabla V,\\quad W_{eq}=0",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "সমবিভব তলে চললে কাজ শূন্য; E অভিলম্ব।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমবিভব তল ও কাজ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সমবিভব তল ও কাজ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "W_{a\\to b}=q(V_a-V_b),\\quad\\vec E=-\\nabla V,\\quad W_{eq}=0"
+    },
+    {
+      "examType": "Concept",
+      "question": "সমবিভব তল ও কাজ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{সমবিভব তলে চললে কাজ শূন্য; E অভিলম্ব।}"
     }
   ],
   "memorize": {
     "trick": "সমবিভব তলে চললে কাজ শূন্য; E অভিলম্ব।",
     "steps": [
-      "সূত্র: W_{a\\to b}=q(V_a-V_b),\\quad\\vec E=-\\nabla V,\\quad W_{eq}=0",
-      "সমবিভবে কাজ শূন্য এবং E=-∇V",
-      "চিহ্ন মনে রাখো: W, a, b, q"
+      "সমবিভব তলে চললে কাজ শূন্য; E অভিলম্ব।",
+      "প্রশ্নে সমবিভব তল ও কাজ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: W, a, b — একক যাচাই করো"
     ]
   },
   "subjects": [

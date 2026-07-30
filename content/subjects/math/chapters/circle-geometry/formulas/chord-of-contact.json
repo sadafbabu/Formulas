@@ -21,17 +21,17 @@
     },
     {
       "symbol": "y",
-      "meaning": "y সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান",
+      "unit": "m"
     },
     {
       "symbol": "r",
-      "meaning": "r সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ব্যাসার্ধ / দূরত্ব",
+      "unit": "m"
     },
     {
       "symbol": "(from",
-      "meaning": "(from সম্পর্কিত রাশি",
+      "meaning": "(from (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "xx_1+yy_1=r^2\\quad\\text{(from }(x_1,y_1)\\text{)}",
-        "note": "বহিঃস্থ বিন্দু থেকে দুই স্পর্শকের সংযোগ জ্যা = chord of contact।"
+        "note": "স্পর্শকদ্বয়ের জ্যা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "xx_1+yy_1=r^2\\quad\\text{(from }(x_1,y_1)\\text{)}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "বহিঃস্থ বিন্দু থেকে দুই স্পর্শকের সংযোগ জ্যা = chord of contact।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্পর্শকদ্বয়ের জ্যা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "স্পর্শকদ্বয়ের জ্যা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "xx_1+yy_1=r^2\\quad\\text{(from }(x_1,y_1)\\text{)}"
+    },
+    {
+      "examType": "Concept",
+      "question": "স্পর্শকদ্বয়ের জ্যা দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{বহিঃস্থ বিন্দু থেকে দুই স্পর্শকের সংযোগ জ্যা = chord of contact।}"
     }
   ],
   "memorize": {
     "trick": "বহিঃস্থ বিন্দু থেকে দুই স্পর্শকের সংযোগ জ্যা = chord of contact।",
     "steps": [
-      "সূত্র: xx_1+yy_1=r^2\\quad\\text{(from }(x_1,y_1)\\text{)}",
-      "কী কাজে লাগে: স্পর্শকদ্বয়ের জ্যা",
-      "চিহ্ন মনে রাখো: x, y, r, (from"
+      "বহিঃস্থ বিন্দু থেকে দুই স্পর্শকের সংযোগ জ্যা = chord of contact।",
+      "প্রশ্নে স্পর্শকদ্বয়ের জ্যা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: x, y, r — একক যাচাই করো"
     ]
   },
   "subjects": [

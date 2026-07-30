@@ -27,12 +27,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{continuous random motion of colloidal particles}",
-        "note": "কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।"
+        "note": "ব্রাউনীয় গতি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{continuous random motion of colloidal particles}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।"
       }
     ],
     "assumptions": []
@@ -40,16 +40,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ব্রাউনীয় গতি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ব্রাউনীয় গতি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{continuous random motion of colloidal particles}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ব্রাউনীয় গতি দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{কলয়েড স্থিতিশীলতার প্রমাণ  কণা থেমে যায় না।}"
     }
   ],
   "memorize": {
     "trick": "কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।",
     "steps": [
-      "সূত্র: \\text{continuous random motion of colloidal particles}",
-      "কী কাজে লাগে: ব্রাউনীয় গতি",
-      "চিহ্ন মনে রাখো: continuous random motion of colloidal particles"
+      "কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।",
+      "প্রশ্নে ব্রাউনীয় গতি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: continuous random motion of colloidal particles — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
-        "note": "কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}"
+        "note": "দুই ভেক্টরের কোণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দুই ভেক্টরের কোণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "দুই ভেক্টরের কোণ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
       "answer": "\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}"
+    },
+    {
+      "examType": "Concept",
+      "question": "দুই ভেক্টরের কোণ দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{cos theta= frac vec a cdot vec b | vec a|| vec b|}"
     }
   ],
   "memorize": {
     "trick": "কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
     "steps": [
-      "সূত্র: \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
-      "কী কাজে লাগে: দুই ভেক্টরের কোণ",
-      "চিহ্ন মনে রাখো: theta, vec, a, b"
+      "কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
+      "প্রশ্নে দুই ভেক্টরের কোণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: theta, vec, a — একক যাচাই করো"
     ]
   },
   "subjects": [

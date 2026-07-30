@@ -29,12 +29,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P(a) = 0 \\iff (x - a) \\text{ is a factor of } P(x)",
-        "note": "শেষফল উপপাদ্য থেকে যখন শেষফল 0 হয়।"
+        "note": "উৎপাদক উপপাদ্য এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "P(a) = 0 \\iff (x - a) \\text{ is a factor of } P(x)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "P(a) = 0 ⟺ (x − a) উৎপাদক — 'শূন্য বসালে শূন্য হলেই উৎপাদক'। চিহ্নে সতর্ক: উৎপাদক (x + 2) হলে বসাতে হবে x = −2।"
       }
     ],
     "assumptions": [

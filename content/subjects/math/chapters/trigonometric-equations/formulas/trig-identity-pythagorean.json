@@ -34,12 +34,12 @@
     },
     {
       "symbol": "\\cos",
-      "meaning": "\\cos সম্পর্কিত রাশি",
+      "meaning": "\\cos (সূত্রের রাশি)",
       "unit": "মাত্রাহীন"
     },
     {
       "symbol": "\\tan",
-      "meaning": "\\tan সম্পর্কিত রাশি",
+      "meaning": "\\tan (সূত্রের রাশি)",
       "unit": "মাত্রাহীন"
     }
   ],
@@ -49,12 +49,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\sin^2\\theta + \\cos^2\\theta = 1, \\quad 1 + \\tan^2\\theta = \\sec^2\\theta, \\quad 1 + \\cot^2\\theta = \\csc^2\\theta",
-        "note": "একক বৃত্তে কোণ θ-এর সাপেক্ষে পিথাগোরাস উপপাদ্য প্রয়োগ করে।"
+        "note": "পিথাগোরাসীয় ও যোগফল ত্রিকোণমিতিক অভেদ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\sin^2\\theta + \\cos^2\\theta = 1, \\quad 1 + \\tan^2\\theta = \\sec^2\\theta, \\quad 1 + \\cot^2\\theta = \\csc^2\\theta",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "sin² + cos² = 1 — এটাই মূল। ভাগ করে বাকি দুটো পাওয়া যায়: 1+tan²=sec², 1+cot²=csc²।"
       }
     ],
     "assumptions": [
@@ -73,9 +73,9 @@
   "memorize": {
     "trick": "sin² + cos² = 1 — এটাই মূল। ভাগ করে বাকি দুটো পাওয়া যায়: 1+tan²=sec², 1+cot²=csc²।",
     "steps": [
-      "সূত্র: \\sin^2\\theta + \\cos^2\\theta = 1, \\quad 1 + \\tan^2\\theta = \\sec^2\\theta, \\quad 1 …",
-      "মৌলিক ত্রিকোণমিতিক অভেদ ও তাদের প্রয়োগ",
-      "চিহ্ন মনে রাখো: \\theta, \\sin, \\cos, \\tan"
+      "sin² + cos² = 1 — এটাই মূল। ভাগ করে বাকি দুটো পাওয়া যায়: 1+tan²=sec², 1+cot²=csc²।",
+      "প্রশ্নে পিথাগোরাসীয় ও যোগফল ত্রিকোণমিতিক অভেদ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: \\theta, \\sin, \\cos — একক যাচাই করো"
     ]
   }
 }

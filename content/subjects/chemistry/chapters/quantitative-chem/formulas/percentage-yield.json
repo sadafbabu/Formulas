@@ -32,12 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\%\\ \\mathrm{yield}=\\dfrac{\\text{actual mass}}{\\text{theoretical mass}}\\times 100",
-        "note": "সীমায়ক বিক্রিয়ক দিয়ে তাত্ত্বিক উৎপাদন বের করে তুলনা।"
+        "note": "শতকরা উৎপাদন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\%\\ \\mathrm{yield}=\\dfrac{\\text{actual mass}}{\\text{theoretical mass}}\\times 100",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "% yield = যা পেয়েছ / যা পাওয়ার কথা × 100।"
       }
     ],
     "assumptions": [

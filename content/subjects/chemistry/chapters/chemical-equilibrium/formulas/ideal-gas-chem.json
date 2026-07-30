@@ -22,7 +22,7 @@
     },
     {
       "symbol": "V",
-      "meaning": "V সম্পর্কিত রাশি",
+      "meaning": "বিভব / আয়তন",
       "unit": "atm, L"
     },
     {
@@ -47,12 +47,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "PV=nRT",
-        "note": "মোল, চাপ, আয়তন, তাপমাত্রা এক সূত্রে — টাইট্রেশন/গ্যাস স্টয়কিওমেট্রিতে।"
+        "note": "আদর্শ গ্যাস সমীকরণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "PV=nRT",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "PV=nRT — STP-তে ১ মোল ≈ ২২.৪ L।"
       }
     ],
     "assumptions": [

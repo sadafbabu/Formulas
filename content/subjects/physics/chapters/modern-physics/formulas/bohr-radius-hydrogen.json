@@ -35,7 +35,7 @@
     },
     {
       "symbol": "n_2",
-      "meaning": "n_2 সম্পর্কিত রাশি",
+      "meaning": "মোল সংখ্যা / কোটি",
       "unit": "পূর্ণসংখ্যা"
     }
   ],
@@ -45,12 +45,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "r_n = \\frac{n^2 h^2}{4\\pi^2 m k e^2} = n^2 a_0, \\quad \\frac{1}{\\lambda} = R\\left(\\frac{1}{n_1^2} - \\frac{1}{n_2^2}\\right)",
-        "note": "কৌণিক ভরবেগের কোয়ান্টায়ন ও Coulomb বলের সমন্বয় থেকে।"
+        "note": "বোর ব্যাসার্ধ ও হাইড্রোজেন বর্ণালী এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "r_n = \\frac{n^2 h^2}{4\\pi^2 m k e^2} = n^2 a_0, \\quad \\frac{1}{\\lambda} = R\\left(\\frac{1}{n_1^2} - \\frac{1}{n_2^2}\\right)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "r_n = n²a₀ — ব্যাসার্ধ n বর্গ হারে বাড়ে (a₀ = 0.529 Å)। আর শক্তি E_n = −13.6/n² eV — 'ব্যাসার্ধে n², শক্তিতে 1/n²'।"
       }
     ],
     "assumptions": [

@@ -34,12 +34,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "V_{out} = V_Z, \\quad I_Z = I_{in} - I_L, \\quad R_S = \\frac{V_{in} - V_Z}{I_{in}}",
-        "note": "জেনার ডায়োড বিপরীত বায়াসে নির্দিষ্ট বিভবে ব্রেকডাউন দেয়।"
+        "note": "জেনার ডায়োড বিভব নিয়ন্ত্রক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "V_{out} = V_Z, \\quad I_Z = I_{in} - I_L, \\quad R_S = \\frac{V_{in} - V_Z}{I_{in}}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Voltage regulator হিসেবে Zener diode reverse-breakdown অঞ্চলে চালানো হয়; I_Z,min ≤ I_Z ≤ I_Z,max এবং power rating মানলে"
       }
     ],
     "assumptions": [

@@ -22,17 +22,17 @@
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     },
     {
       "symbol": "C",
-      "meaning": "C সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ধারণক্ষমতা / ধারকত্ব",
+      "unit": "F বা J/K"
     },
     {
       "symbol": "circ",
-      "meaning": "circ সম্পর্কিত রাশি",
+      "meaning": "circ (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "E=\\frac{0.059}{n}\\log\\frac{C_2}{C_1}\\ (25^\\circ\\mathrm{C})",
-        "note": "একই ইলেকট্রোডে ঘনমাত্রা পার্থক্য থেকে emf"
+        "note": "ঘনমাত্রা কোষ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "E=\\frac{0.059}{n}\\log\\frac{C_2}{C_1}\\ (25^\\circ\\mathrm{C})",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "E = (0.059/n) log(C₂/C₁) — বেশি ঘন দিকে বিজারিত।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ঘনমাত্রা কোষ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "E=\\frac{0.059}{n}\\log\\frac{C_2}{C_1}\\ (25^\\circ\\mathrm{C})"
+      "question": "ঘনমাত্রা কোষ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "E=\\frac{0.059}{n}\\log\\frac{C_2}{C_1}\\ (25^\\circ\\mathrm{C})\\text{ — }E = (0.059/n) log(C₂/C₁) — বেশি ঘন দিকে বিজারিত।"
+    },
+    {
+      "examType": "Concept",
+      "question": "ঘনমাত্রা কোষ দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{একই ইলেকট্রোডে ঘনমাত্রা পার্থক্য থেকে emf}"
     }
   ],
   "memorize": {
     "trick": "E = (0.059/n) log(C₂/C₁) — বেশি ঘন দিকে বিজারিত।",
     "steps": [
-      "সূত্র: E=\\frac{0.059}{n}\\log\\frac{C_2}{C_1}\\ (25^\\circ\\mathrm{C})",
-      "একই ইলেকট্রোডে ঘনমাত্রা পার্থক্য থেকে emf",
-      "চিহ্ন মনে রাখো: E, n, C, circ"
+      "E = (0.059/n) log(C₂/C₁) — বেশি ঘন দিকে বিজারিত।",
+      "প্রশ্নে ঘনমাত্রা কোষ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: E, n, C — একক যাচাই করো"
     ]
   },
   "subjects": [

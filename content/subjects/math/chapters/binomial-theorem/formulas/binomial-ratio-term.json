@@ -21,18 +21,18 @@
     },
     {
       "symbol": "r",
-      "meaning": "r সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ব্যাসার্ধ / দূরত্ব",
+      "unit": "m"
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
-        "note": "অনুপাত ≥1 থেকে বৃহত্তম পদ। \\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}"
+        "note": "পরপর পদের অনুপাত এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "অনুপাত ≥1 থেকে বৃহত্তম পদ। \\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}"
       }
     ],
     "assumptions": []
@@ -54,16 +54,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরপর পদের অনুপাত কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "পরপর পদের অনুপাত এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}"
     }
   ],
   "memorize": {
     "trick": "অনুপাত ≥1 থেকে বৃহত্তম পদ। \\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
     "steps": [
-      "সূত্র: \\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
-      "কী কাজে লাগে: পরপর পদের অনুপাত",
-      "চিহ্ন মনে রাখো: T, r, n, b"
+      "অনুপাত ≥1 থেকে বৃহত্তম পদ। \\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
+      "প্রশ্নে পরপর পদের অনুপাত প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: T, r, n — একক যাচাই করো"
     ]
   },
   "subjects": [

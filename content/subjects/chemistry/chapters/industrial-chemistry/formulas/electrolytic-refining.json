@@ -22,12 +22,12 @@
     },
     {
       "symbol": "rightarrow",
-      "meaning": "rightarrow সম্পর্কিত রাশি",
+      "meaning": "rightarrow (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "pure metal cathode",
-      "meaning": "pure metal cathode সম্পর্কিত রাশি",
+      "meaning": "pure metal cathode (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{impure metal anode}\\\\rightarrow\\text{pure metal cathode}",
-        "note": "Cu পরিশোধনে অ্যানোড মাডে Au/Ag।"
+        "note": "তড়িৎ পরিশোধন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{impure metal anode}\\\\rightarrow\\text{pure metal cathode}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Cu পরিশোধনে অ্যানোড মাডে Au/Ag।"
       }
     ],
     "assumptions": []
@@ -50,16 +50,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "তড়িৎ পরিশোধন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "তড়িৎ পরিশোধন এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{impure metal anode}\\\\rightarrow\\text{pure metal cathode}"
+    },
+    {
+      "examType": "Concept",
+      "question": "তড়িৎ পরিশোধন দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Cu পরিশোধনে অ্যানোড মাডে Au/Ag।}"
     }
   ],
   "memorize": {
     "trick": "Cu পরিশোধনে অ্যানোড মাডে Au/Ag।",
     "steps": [
-      "সূত্র: \\text{impure metal anode}\\\\rightarrow\\text{pure metal cathode}",
-      "কী কাজে লাগে: তড়িৎ পরিশোধন",
-      "চিহ্ন মনে রাখো: impure metal anode, rightarrow, pure metal cathode"
+      "Cu পরিশোধনে অ্যানোড মাডে Au/Ag।",
+      "প্রশ্নে তড়িৎ পরিশোধন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: impure metal anode, rightarrow, pure metal cathode — একক যাচাই করো"
     ]
   },
   "subjects": [

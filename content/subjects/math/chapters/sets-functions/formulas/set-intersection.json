@@ -16,23 +16,23 @@
   "symbols": [
     {
       "symbol": "A",
-      "meaning": "A∩B",
-      "unit": "—"
+      "meaning": "ক্ষেত্রফল / বিস্তার",
+      "unit": "m²"
     },
     {
       "symbol": "cap",
-      "meaning": "cap সম্পর্কিত রাশি",
+      "meaning": "cap (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "A\\cap B=\\{x:x\\in A\\text{ and }x\\in B\\}",
-        "note": "∩ = intersection = ছেদ; common elements।"
+        "note": "সেটের ছেদ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "A\\cap B=\\{x:x\\in A\\text{ and }x\\in B\\}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "∩ = intersection = ছেদ; common elements।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সেটের ছেদ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সেটের ছেদ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "A\\cap B=\\{x:x\\in A\\text{ and }x\\in B\\}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সেটের ছেদ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{∩ = intersection = ছেদ; common elements।}"
     }
   ],
   "memorize": {
     "trick": "∩ = intersection = ছেদ; common elements।",
     "steps": [
-      "সূত্র: A\\cap B=\\{x:x\\in A\\text{ and }x\\in B\\}",
-      "কী কাজে লাগে: সেটের ছেদ",
-      "চিহ্ন মনে রাখো: A, cap, B, x"
+      "∩ = intersection = ছেদ; common elements।",
+      "প্রশ্নে সেটের ছেদ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A, cap, B — একক যাচাই করো"
     ]
   },
   "subjects": [

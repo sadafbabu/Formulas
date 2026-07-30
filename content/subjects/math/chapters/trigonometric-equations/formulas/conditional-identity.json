@@ -21,18 +21,18 @@
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "C",
-      "meaning": "C সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ধারণক্ষমতা / ধারকত্ব",
+      "unit": "F বা J/K"
     },
     {
       "symbol": "pi",
-      "meaning": "pi সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "পাই",
+      "unit": "1"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "A+B+C=\\pi\\Rightarrow\\tan A+\\tan B+\\tan C=\\tan A\\tan B\\tan C",
-        "note": "কোণের যোগ π হলে tan সমষ্টি = tan গুণফল।"
+        "note": "ত্রিভুজে শর্তাধীন অভেদ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "A+B+C=\\pi\\Rightarrow\\tan A+\\tan B+\\tan C=\\tan A\\tan B\\tan C",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "কোণের যোগ π হলে tan সমষ্টি = tan গুণফল।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ত্রিভুজে শর্তাধীন অভেদ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ত্রিভুজে শর্তাধীন অভেদ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "A+B+C=\\pi\\Rightarrow\\tan A+\\tan B+\\tan C=\\tan A\\tan B\\tan C"
+    },
+    {
+      "examType": "Concept",
+      "question": "ত্রিভুজে শর্তাধীন অভেদ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{কোণের যোগ π হলে tan সমষ্টি = tan গুণফল।}"
     }
   ],
   "memorize": {
     "trick": "কোণের যোগ π হলে tan সমষ্টি = tan গুণফল।",
     "steps": [
-      "সূত্র: A+B+C=\\pi\\Rightarrow\\tan A+\\tan B+\\tan C=\\tan A\\tan B\\tan C",
-      "কী কাজে লাগে: ত্রিভুজে শর্তাধীন অভেদ",
-      "চিহ্ন মনে রাখো: A, B, C, pi"
+      "কোণের যোগ π হলে tan সমষ্টি = tan গুণফল।",
+      "প্রশ্নে ত্রিভুজে শর্তাধীন অভেদ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A, B, C — একক যাচাই করো"
     ]
   },
   "subjects": [

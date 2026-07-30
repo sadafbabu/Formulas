@@ -37,7 +37,7 @@
     },
     {
       "symbol": "3^\\circ",
-      "meaning": "3^\\circ সম্পর্কিত রাশি",
+      "meaning": "3^\\circ (সূত্রের রাশি)",
       "unit": "শ্রেণী"
     }
   ],
@@ -47,12 +47,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\ce{R-MgX + HCHO ->[dry\\ ether] R-CH2O-MgX ->[H3O+] R-CH2OH\\ (1^\\circ)},\\quad \\ce{R-MgX + R'CHO ->[dry\\ ether] R-CH(OMgX)-R' ->[H3O+] R-CH(OH)-R'\\ (2^\\circ)}",
-        "note": "R-MgX এর অ্যালকাইল অংশ কার্বোনাইল কার্বনে নিউক্লিওফিলিক সংযোজন ঘটায়।"
+        "note": "গ্রিগনার্ড বিকারক ও অ্যালকোহল সংস্লেষণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\ce{R-MgX + HCHO ->[dry\\ ether] R-CH2O-MgX ->[H3O+] R-CH2OH\\ (1^\\circ)},\\quad \\ce{R-MgX + R'CHO ->[dry\\ ether] R-CH(OMgX)-R' ->[H3O+] R-CH(OH)-R'\\ (2^\\circ)}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "গ্রিগনার্ড কার্বনাইলে বসে অ্যালকোহল দেয় — আর কোন অ্যালকোহল তা নির্ভর করে কার্বনাইলের উপর: ফরম্যালডিহাইড → ১°, অন্য অ্যা"
       }
     ],
     "assumptions": [

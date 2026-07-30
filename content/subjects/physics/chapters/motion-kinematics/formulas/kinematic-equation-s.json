@@ -32,7 +32,7 @@
     },
     {
       "symbol": "t",
-      "meaning": "t সম্পর্কিত রাশি",
+      "meaning": "সময়",
       "unit": "m/s², s"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "s=ut+\\tfrac12 at^2",
-        "note": "গড় বেগ (u+v)/2 × t, v=u+at বসিয়ে।"
+        "note": "দ্বিতীয় গতি সমীকরণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "s=ut+\\tfrac12 at^2",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "সরণ = আদি×সময় + অর্ধেক ত্বরণ×সময়² — ‘ut + ½at²’ গান করে মনে রাখো।"
       }
     ],
     "assumptions": [

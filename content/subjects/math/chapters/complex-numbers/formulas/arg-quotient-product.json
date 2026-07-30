@@ -21,8 +21,8 @@
     },
     {
       "symbol": "z",
-      "meaning": "z সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -31,12 +31,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\arg(z_1z_2)=\\arg z_1+\\arg z_2,\\quad\\arg(z_1/z_2)=\\arg z_1-\\arg z_2",
-        "note": "গুণে arg যোগ; ভাগে arg বিয়োগ।"
+        "note": "গুণফল-ভাগফলের আরগুমেন্ট এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\arg(z_1z_2)=\\arg z_1+\\arg z_2,\\quad\\arg(z_1/z_2)=\\arg z_1-\\arg z_2",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "গুণে arg যোগ; ভাগে arg বিয়োগ।"
       }
     ],
     "assumptions": []
@@ -44,16 +44,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গুণফল-ভাগফলের আরগুমেন্ট কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "গুণফল-ভাগফলের আরগুমেন্ট এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\arg(z_1z_2)=\\arg z_1+\\arg z_2,\\quad\\arg(z_1/z_2)=\\arg z_1-\\arg z_2"
+    },
+    {
+      "examType": "Concept",
+      "question": "গুণফল-ভাগফলের আরগুমেন্ট দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{গুণে arg যোগ; ভাগে arg বিয়োগ।}"
     }
   ],
   "memorize": {
     "trick": "গুণে arg যোগ; ভাগে arg বিয়োগ।",
     "steps": [
-      "সূত্র: \\arg(z_1z_2)=\\arg z_1+\\arg z_2,\\quad\\arg(z_1/z_2)=\\arg z_1-\\arg z_2",
-      "কী কাজে লাগে: গুণফল-ভাগফলের আরগুমেন্ট",
-      "চিহ্ন মনে রাখো: arg, z"
+      "গুণে arg যোগ; ভাগে arg বিয়োগ।",
+      "প্রশ্নে গুণফল-ভাগফলের আরগুমেন্ট প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: arg, z — একক যাচাই করো"
     ]
   },
   "subjects": [

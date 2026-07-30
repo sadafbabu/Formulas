@@ -22,18 +22,18 @@
     },
     {
       "symbol": "R",
-      "meaning": "R সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "রোধ / গ্যাস ধ্রুবক / ব্যাসার্ধ",
+      "unit": "Ω বা J/(mol·K) বা m"
     },
     {
       "symbol": "C",
-      "meaning": "C সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ধারণক্ষমতা / ধারকত্ব",
+      "unit": "F বা J/K"
     },
     {
       "symbol": "H",
-      "meaning": "H সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র / এনথ্যালপি",
+      "unit": "A/m বা J"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\ce{RCHO + 2Ag(NH3)2+ + 3OH- -> RCOO- + 2Ag + 4NH3 + 2H2O}",
-        "note": "Aldehyde → silver mirror; distinguishes from ketone।"
+        "note": "টollen's পরীক্ষা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\ce{RCHO + 2Ag(NH3)2+ + 3OH- -> RCOO- + 2Ag + 4NH3 + 2H2O}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Aldehyde → silver mirror; distinguishes from ketone।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "টollen's পরীক্ষা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "টollen's পরীক্ষা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\ce{RCHO + 2Ag(NH3)2+ + 3OH- -> RCOO- + 2Ag + 4NH3 + 2H2O}"
+    },
+    {
+      "examType": "Concept",
+      "question": "টollen's পরীক্ষা দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Aldehyde → silver mirror; distinguishes from ketone।}"
     }
   ],
   "memorize": {
     "trick": "Aldehyde → silver mirror; distinguishes from ketone।",
     "steps": [
-      "সূত্র: \\ce{RCHO + 2Ag(NH3)2+ + 3OH- -> RCOO- + 2Ag + 4NH3 + 2H2O}",
-      "কী কাজে লাগে: টollen's পরীক্ষা",
-      "চিহ্ন মনে রাখো: ce, R, C, H"
+      "Aldehyde → silver mirror; distinguishes from ketone।",
+      "প্রশ্নে টollen's পরীক্ষা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: ce, R, C — একক যাচাই করো"
     ]
   },
   "subjects": [

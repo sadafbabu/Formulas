@@ -52,12 +52,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "v = f\\lambda, \\quad y = A\\sin(\\omega t - kx), \\quad \\omega = 2\\pi f, \\quad k = \\frac{2\\pi}{\\lambda}, \\quad v = \\sqrt{\\frac{T}{\\mu}}",
-        "note": "তরঙ্গের গতিবেগ v = fλ সকল তরঙ্গের ক্ষেত্রে প্রযোজ্য।"
+        "note": "তরঙ্গ সমীকরণ ও তরঙ্গের বৈশিষ্ট্য এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "v = f\\lambda, \\quad y = A\\sin(\\omega t - kx), \\quad \\omega = 2\\pi f, \\quad k = \\frac{2\\pi}{\\lambda}, \\quad v = \\sqrt{\\frac{T}{\\mu}}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "v = fλ — তরঙ্গের প্রাণ। আর y = A sin(ωt − kx): ω = 2πf (সময়ের সাথে), k = 2π/λ (দূরত্বের সাথে) — 'দুটোতেই ২π, একটায় f এ"
       }
     ],
     "assumptions": [

@@ -34,12 +34,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mu = q \\times d, \\quad \\%\\ \\text{ionic} = \\frac{\\mu_{obs}}{\\mu_{ionic}} \\times 100",
-        "note": "পোলার বন্ধনে আধান পৃথকীকরণ থেকে দ্বিরোলক ভ্রামক।"
+        "note": "পোলার বন্ধনের দ্বিরোলক ভ্রামক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mu = q \\times d, \\quad \\%\\ \\text{ionic} = \\frac{\\mu_{obs}}{\\mu_{ionic}} \\times 100",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "μ = q × d — একক ডিবাই (D)। মূল কথা: বন্ধন পোলার হলেও অণু অপোলার হতে পারে, যদি জ্যামিতি প্রতিসম হয় (CO₂, CCl₄ — ভ্রামক ব"
       }
     ],
     "assumptions": [

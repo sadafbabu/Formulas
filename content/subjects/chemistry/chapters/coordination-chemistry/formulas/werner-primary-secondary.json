@@ -27,12 +27,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{Primary valence = ionizable; Secondary = non-ionizable}",
-        "note": "Primary = oxidation state; Secondary = coordination।"
+        "note": "ভার্নারের তত্ত্ব এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{Primary valence = ionizable; Secondary = non-ionizable}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Primary = oxidation state; Secondary = coordination।"
       }
     ],
     "assumptions": []
@@ -40,16 +40,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভার্নারের তত্ত্ব কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ভার্নারের তত্ত্ব এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{Primary valence = ionizable; Secondary = non-ionizable}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ভার্নারের তত্ত্ব দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Primary = oxidation state; Secondary = coordination।}"
     }
   ],
   "memorize": {
     "trick": "Primary = oxidation state; Secondary = coordination।",
     "steps": [
-      "সূত্র: \\text{Primary valence = ionizable; Secondary = non-ionizable}",
-      "কী কাজে লাগে: ভার্নারের তত্ত্ব",
-      "চিহ্ন মনে রাখো: Primary valence = ionizable; Secondary = non-ionizable"
+      "Primary = oxidation state; Secondary = coordination।",
+      "প্রশ্নে ভার্নারের তত্ত্ব প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: Primary valence = ionizable; Secondary = non-ionizable — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -47,12 +47,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\tan\\theta = \\frac{v^2}{r g}, \\quad h = d \\sin\\theta \\approx d \\tan\\theta = \\frac{d v^2}{r g}",
-        "note": "অভিলম্ব প্রতিক্রিয়ার অণুভূমিক উপাদান R sinθ কেন্দ্রমুখী বল প্রদান করে।"
+        "note": "রাস্তার ব্যাংকিং ও নিরাপদ বেগ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\tan\\theta = \\frac{v^2}{r g}, \\quad h = d \\sin\\theta \\approx d \\tan\\theta = \\frac{d v^2}{r g}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "tanθ = v²/(rg) — 'বেগের বর্গ ভাগ ব্যাসার্ধ-অভিকর্ষ'। ভর নেই! তাই বাঁকের নিরাপদ বেগ বাস আর মোটরসাইকেলে একই।"
       }
     ],
     "assumptions": [

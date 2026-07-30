@@ -21,18 +21,18 @@
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "Z=ax+by\\ (\\text{maximize/minimize})",
-        "note": "কোণবিন্দুতে চরম মান পাওয়া যায়।"
+        "note": "উদ্দেশ্য ফাংশন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "Z=ax+by\\ (\\text{maximize/minimize})",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "কোণবিন্দুতে চরম মান পাওয়া যায়।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উদ্দেশ্য ফাংশন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "Z=ax+by\\ (\\text{maximize/minimize})"
+      "question": "উদ্দেশ্য ফাংশন এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "Z=ax+by\\ (\\text{maximize/minimize})\\text{ — }কোণবিন্দুতে চরম মান পাওয়া যায়।"
+    },
+    {
+      "examType": "Concept",
+      "question": "উদ্দেশ্য ফাংশন দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{কোণবিন্দুতে চরম মান পাওয়া যায়।}"
     }
   ],
   "memorize": {
     "trick": "কোণবিন্দুতে চরম মান পাওয়া যায়।",
     "steps": [
-      "সূত্র: Z=ax+by\\ (\\text{maximize/minimize})",
-      "কী কাজে লাগে: উদ্দেশ্য ফাংশন",
-      "চিহ্ন মনে রাখো: Z, a, x, b"
+      "কোণবিন্দুতে চরম মান পাওয়া যায়।",
+      "প্রশ্নে উদ্দেশ্য ফাংশন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: Z, a, x — একক যাচাই করো"
     ]
   },
   "subjects": [

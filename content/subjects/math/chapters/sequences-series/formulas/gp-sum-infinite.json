@@ -21,13 +21,13 @@
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "r",
-      "meaning": "r সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ব্যাসার্ধ / দূরত্ব",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)",
-        "note": "|r|<1 হলেই অসীম যোগফল আছে। S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)"
+        "note": "অসীম গুণোত্তর যোগফল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "|r|<1 হলেই অসীম যোগফল আছে। S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)"
       }
     ],
     "assumptions": []
@@ -49,16 +49,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অসীম গুণোত্তর যোগফল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)"
+      "question": "অসীম গুণোত্তর যোগফল এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)\\text{ — }|r|<1 হলেই অসীম যোগফল আছে। S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)"
     }
   ],
   "memorize": {
     "trick": "|r|<1 হলেই অসীম যোগফল আছে। S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)",
     "steps": [
-      "সূত্র: S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)",
-      "কী কাজে লাগে: অসীম গুণোত্তর যোগফল",
-      "চিহ্ন মনে রাখো: S, a, r"
+      "|r|<1 হলেই অসীম যোগফল আছে। S_\\infty=\\frac{a}{1-r}\\quad(|r|<1)",
+      "প্রশ্নে অসীম গুণোত্তর যোগফল প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: S, a, r — একক যাচাই করো"
     ]
   },
   "subjects": [

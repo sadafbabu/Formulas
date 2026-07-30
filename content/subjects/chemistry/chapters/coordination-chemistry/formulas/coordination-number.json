@@ -22,7 +22,7 @@
     },
     {
       "symbol": "number of donor atoms bonded to central metal",
-      "meaning": "number of donor atoms bonded to central metal সম্পর্কিত রাশি",
+      "meaning": "number of donor atoms bonded to central metal (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -32,12 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{CN}=\\text{number of donor atoms bonded to central metal}",
-        "note": "Ligand donor atoms count; common CN=4,6।"
+        "note": "সমন্বয় সংখ্যা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{CN}=\\text{number of donor atoms bonded to central metal}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Ligand donor atoms count; common CN=4,6।"
       }
     ],
     "assumptions": []
@@ -45,16 +45,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমন্বয় সংখ্যা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সমন্বয় সংখ্যা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{CN}=\\text{number of donor atoms bonded to central metal}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সমন্বয় সংখ্যা দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Ligand donor atoms count; common CN=4,6।}"
     }
   ],
   "memorize": {
     "trick": "Ligand donor atoms count; common CN=4,6।",
     "steps": [
-      "সূত্র: \\text{CN}=\\text{number of donor atoms bonded to central metal}",
-      "কী কাজে লাগে: সমন্বয় সংখ্যা",
-      "চিহ্ন মনে রাখো: CN, number of donor atoms bonded to central metal"
+      "Ligand donor atoms count; common CN=4,6।",
+      "প্রশ্নে সমন্বয় সংখ্যা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: CN, number of donor atoms bonded to central metal — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -21,18 +21,18 @@
     },
     {
       "symbol": "det",
-      "meaning": "det সম্পর্কিত রাশি",
+      "meaning": "det (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "adj",
-      "meaning": "adj সম্পর্কিত রাশি",
+      "meaning": "adj (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "I",
-      "meaning": "I সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তড়িৎ প্রবাহ / জড়তার ভ্রামক",
+      "unit": "A বা kg·m²"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "A^{-1}=\\frac{1}{\\det A}\\mathrm{adj}\\,A,\\quad AA^{-1}=I",
-        "note": "A⁻¹ = (1/detA) adj A; det≠0 চাই।"
+        "note": "ম্যাট্রিক্সের ব্যস্তক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "A^{-1}=\\frac{1}{\\det A}\\mathrm{adj}\\,A,\\quad AA^{-1}=I",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "A⁻¹ = (1/detA) adj A; det≠0 চাই।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ম্যাট্রিক্সের ব্যস্তক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "A^{-1}=\\frac{1}{\\det A}\\mathrm{adj}\\,A,\\quad AA^{-1}=I"
+      "question": "ম্যাট্রিক্সের ব্যস্তক এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "A^{-1}=\\frac{1}{\\det A}\\mathrm{adj}\\,A,\\quad AA^{-1}=I\\text{ — }A⁻¹ = (1/detA) adj A; det≠0 চাই।"
     }
   ],
   "memorize": {
     "trick": "A⁻¹ = (1/detA) adj A; det≠0 চাই।",
     "steps": [
-      "সূত্র: A^{-1}=\\frac{1}{\\det A}\\mathrm{adj}\\,A,\\quad AA^{-1}=I",
-      "কী কাজে লাগে: ম্যাট্রিক্সের ব্যস্তক",
-      "চিহ্ন মনে রাখো: A, det, adj, I"
+      "A⁻¹ = (1/detA) adj A; det≠0 চাই।",
+      "প্রশ্নে ম্যাট্রিক্সের ব্যস্তক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A, det, adj — একক যাচাই করো"
     ]
   },
   "subjects": [

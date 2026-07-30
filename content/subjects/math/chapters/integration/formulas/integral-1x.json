@@ -16,23 +16,23 @@
   "symbols": [
     {
       "symbol": "int",
-      "meaning": "ln",
+      "meaning": "int (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "x",
-      "meaning": "x",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     },
     {
       "symbol": "d",
-      "meaning": "d সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "দূরত্ব / ব্যাস",
+      "unit": "m"
     },
     {
       "symbol": "C",
-      "meaning": "C সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ধারণক্ষমতা / ধারকত্ব",
+      "unit": "F বা J/K"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\int\\frac{1}{x}\\,dx=\\ln|x|+C",
-        "note": "ln|x| — n=−1 ব্যতিক্রম → ln|x|।"
+        "note": "১/x এর যোগজ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\int\\frac{1}{x}\\,dx=\\ln|x|+C",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "n=−1 ব্যতিক্রম → ln|x|। \\int\\frac{1}{x}\\,dx=\\ln|x|+C"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "১/x এর যোগজ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\int\\frac{1}{x}\\,dx=\\ln|x|+C"
+      "question": "১/x এর যোগজ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\int\\frac{1}{x}\\,dx=\\ln|x|+C\\text{ — }n=−1 ব্যতিক্রম → ln|x|। \\int\\frac{1}{x}\\,dx=\\ln|x|+C"
+    },
+    {
+      "examType": "Concept",
+      "question": "১/x এর যোগজ দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{int frac 1 x ,dx= ln|x|+C}"
     }
   ],
   "memorize": {
     "trick": "n=−1 ব্যতিক্রম → ln|x|। \\int\\frac{1}{x}\\,dx=\\ln|x|+C",
     "steps": [
-      "সূত্র: \\int\\frac{1}{x}\\,dx=\\ln|x|+C",
-      "কী কাজে লাগে: ১/x এর যোগজ",
-      "চিহ্ন মনে রাখো: int, x, d, C"
+      "n=−1 ব্যতিক্রম → ln|x|। \\int\\frac{1}{x}\\,dx=\\ln|x|+C",
+      "প্রশ্নে ১/x এর যোগজ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: int, x, d — একক যাচাই করো"
     ]
   },
   "subjects": [

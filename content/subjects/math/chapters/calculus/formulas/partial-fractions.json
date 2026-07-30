@@ -21,17 +21,17 @@
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     },
     {
       "symbol": "Q",
-      "meaning": "Q সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তাপ / চার্জ",
+      "unit": "J বা C"
     },
     {
       "symbol": "sum",
-      "meaning": "sum সম্পর্কিত রাশি",
+      "meaning": "sum (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{P(x)}{Q(x)}=\\sum\\frac{A_i}{(x-a_i)^{n_i}}",
-        "note": "Denominator factor → A/(x−a) terms; then integrate।"
+        "note": "আংশিক ভগ্নাংশ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{P(x)}{Q(x)}=\\sum\\frac{A_i}{(x-a_i)^{n_i}}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Denominator factor → A/(x−a) terms; then integrate।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আংশিক ভগ্নাংশ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "আংশিক ভগ্নাংশ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\frac{P(x)}{Q(x)}=\\sum\\frac{A_i}{(x-a_i)^{n_i}}"
+    },
+    {
+      "examType": "Concept",
+      "question": "আংশিক ভগ্নাংশ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Denominator factor → A/(xa) terms; then integrate।}"
     }
   ],
   "memorize": {
     "trick": "Denominator factor → A/(x−a) terms; then integrate।",
     "steps": [
-      "সূত্র: \\frac{P(x)}{Q(x)}=\\sum\\frac{A_i}{(x-a_i)^{n_i}}",
-      "কী কাজে লাগে: আংশিক ভগ্নাংশ",
-      "চিহ্ন মনে রাখো: P, x, Q, sum"
+      "Denominator factor → A/(x−a) terms; then integrate।",
+      "প্রশ্নে আংশিক ভগ্নাংশ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: P, x, Q — একক যাচাই করো"
     ]
   },
   "subjects": [

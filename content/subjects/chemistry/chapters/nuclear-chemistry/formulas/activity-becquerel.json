@@ -22,12 +22,12 @@
     },
     {
       "symbol": "s^{-1",
-      "meaning": "s^{-1 সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "সরণ",
+      "unit": "m"
     },
     {
       "symbol": "Ci",
-      "meaning": "Ci সম্পর্কিত রাশি",
+      "meaning": "Ci (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
-        "note": "SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}"
+        "note": "সক্রিয়তার একক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}"
       }
     ],
     "assumptions": []
@@ -50,16 +50,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সক্রিয়তার একক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সক্রিয়তার একক এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}"
     }
   ],
   "memorize": {
     "trick": "SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
     "steps": [
-      "সূত্র: 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm…",
-      "কী কাজে লাগে: সক্রিয়তার একক",
-      "চিহ্ন মনে রাখো: Bq, s^{-1, Ci"
+      "SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
+      "প্রশ্নে সক্রিয়তার একক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: Bq, s^{-1, Ci — একক যাচাই করো"
     ]
   },
   "subjects": [

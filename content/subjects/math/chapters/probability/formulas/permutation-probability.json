@@ -21,13 +21,13 @@
     },
     {
       "symbol": "favourable permutations",
-      "meaning": "favourable permutations সম্পর্কিত রাশি",
+      "meaning": "favourable permutations (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     }
   ],
   "derivation": {
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P=\\frac{\\text{favourable permutations}}{n!}",
-        "note": "ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।"
+        "note": "ক্রমবিন্যাসে সম্ভাব্যতা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "P=\\frac{\\text{favourable permutations}}{n!}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।"
       }
     ],
     "assumptions": []
@@ -49,16 +49,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্রমবিন্যাসে সম্ভাব্যতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ক্রমবিন্যাসে সম্ভাব্যতা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "P=\\frac{\\text{favourable permutations}}{n!}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ক্রমবিন্যাসে সম্ভাব্যতা দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।}"
     }
   ],
   "memorize": {
     "trick": "ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।",
     "steps": [
-      "সূত্র: P=\\frac{\\text{favourable permutations}}{n!}",
-      "কী কাজে লাগে: ক্রমবিন্যাসে সম্ভাব্যতা",
-      "চিহ্ন মনে রাখো: P, favourable permutations, n"
+      "ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।",
+      "প্রশ্নে ক্রমবিন্যাসে সম্ভাব্যতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: P, favourable permutations, n — একক যাচাই করো"
     ]
   },
   "subjects": [

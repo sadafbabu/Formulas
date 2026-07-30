@@ -22,12 +22,12 @@
     },
     {
       "symbol": "mass solute",
-      "meaning": "mass solute সম্পর্কিত রাশি",
+      "meaning": "mass solute (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "mass solution",
-      "meaning": "mass solution সম্পর্কিত রাশি",
+      "meaning": "mass solution (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{ppm}=\\frac{\\text{mass solute}}{\\text{mass solution}}\\times10^6",
-        "note": "জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।"
+        "note": "ppm ও ppb এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{ppm}=\\frac{\\text{mass solute}}{\\text{mass solution}}\\times10^6",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।"
       }
     ],
     "assumptions": []
@@ -50,16 +50,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ppm ও ppb কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ppm ও ppb এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\mathrm{ppm}=\\frac{\\text{mass solute}}{\\text{mass solution}}\\times10^6"
+    },
+    {
+      "examType": "Concept",
+      "question": "ppm ও ppb দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।}"
     }
   ],
   "memorize": {
     "trick": "জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।",
     "steps": [
-      "সূত্র: \\mathrm{ppm}=\\frac{\\text{mass solute}}{\\text{mass solution}}\\times10^6",
-      "কী কাজে লাগে: ppm ও ppb",
-      "চিহ্ন মনে রাখো: ppm, mass solute, mass solution"
+      "জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।",
+      "প্রশ্নে ppm ও ppb প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: ppm, mass solute, mass solution — একক যাচাই করো"
     ]
   },
   "subjects": [

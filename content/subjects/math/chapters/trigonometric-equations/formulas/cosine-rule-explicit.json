@@ -21,18 +21,18 @@
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "C",
-      "meaning": "C সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ধারণক্ষমতা / ধারকত্ব",
+      "unit": "F বা J/K"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "c^2=a^2+b^2-2ab\\cos C",
-        "note": "কোণ জানা থাকলে তৃতীয় বাহু। c^2=a^2+b^2-2ab\\cos C"
+        "note": "কসাইন সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "c^2=a^2+b^2-2ab\\cos C",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "কোণ জানা থাকলে তৃতীয় বাহু। c^2=a^2+b^2-2ab\\cos C"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কসাইন সূত্র কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "c^2=a^2+b^2-2ab\\cos C"
+      "question": "কসাইন সূত্র এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "c^2=a^2+b^2-2ab\\cos C\\text{ — }কোণ জানা থাকলে তৃতীয় বাহু। c^2=a^2+b^2-2ab\\cos C"
+    },
+    {
+      "examType": "Concept",
+      "question": "কসাইন সূত্র দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{c 2=a 2+b 2-2ab cos C}"
     }
   ],
   "memorize": {
     "trick": "কোণ জানা থাকলে তৃতীয় বাহু। c^2=a^2+b^2-2ab\\cos C",
     "steps": [
-      "সূত্র: c^2=a^2+b^2-2ab\\cos C",
-      "কী কাজে লাগে: কসাইন সূত্র",
-      "চিহ্ন মনে রাখো: c, a, b, C"
+      "কোণ জানা থাকলে তৃতীয় বাহু। c^2=a^2+b^2-2ab\\cos C",
+      "প্রশ্নে কসাইন সূত্র প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: c, a, b — একক যাচাই করো"
     ]
   },
   "subjects": [

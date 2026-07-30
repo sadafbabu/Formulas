@@ -17,7 +17,7 @@
   "symbols": [
     {
       "symbol": "physisorption:",
-      "meaning": "ΔH",
+      "meaning": "physisorption: (সূত্রের রাশি)",
       "unit": "—"
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "symbol": "sim",
-      "meaning": "sim সম্পর্কিত রাশি",
+      "meaning": "sim (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{physisorption: }|\\Delta H|\\sim 20\\!-\\!40\\,\\mathrm{kJ/mol};\\ \\text{chemisorption: }|\\Delta H|\\sim 80\\!-\\!240\\,\\mathrm{kJ/mol}",
-        "note": "ভৌত = বহুস্তর, উল্টানো যায়; রাসায়নিক = একস্তর, শক্তিশালী।"
+        "note": "ভৌত ও রাসায়নিক অধিশোষণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{physisorption: }|\\Delta H|\\sim 20\\!-\\!40\\,\\mathrm{kJ/mol};\\ \\text{chemisorption: }|\\Delta H|\\sim 80\\!-\\!240\\,\\mathrm{kJ/mol}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ভৌত = বহুস্তর, উল্টানো যায়; রাসায়নিক = একস্তর, শক্তিশালী।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভৌত ও রাসায়নিক অধিশোষণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\text{physisorption: }|\\Delta H|\\sim 20\\!-\\!40\\,\\mathrm{kJ/mol};\\ \\text{chemisorption: }|\\Delta H|\\sim 80\\!-\\!240\\,\\mathrm{kJ/mol}"
+      "question": "ভৌত ও রাসায়নিক অধিশোষণ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\text{physisorption: }|\\Delta H|\\sim 20\\!-\\!40\\,\\mathrm{kJ/mol};\\ \\text{chemisorption: }|\\Delta H|\\sim 80\\!-\\!240\\,\\mathrm{kJ/mol}\\text{ — }ভৌত = বহুস্তর, উল্টানো যায়; রাসায়নিক = একস্তর, শক্তিশালী।"
+    },
+    {
+      "examType": "Concept",
+      "question": "ভৌত ও রাসায়নিক অধিশোষণ দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{ভৌত = বহুস্তর, উল্টানো যায়; রাসায়নিক = একস্তর, শক্তিশালী।}"
     }
   ],
   "memorize": {
     "trick": "ভৌত = বহুস্তর, উল্টানো যায়; রাসায়নিক = একস্তর, শক্তিশালী।",
     "steps": [
-      "সূত্র: \\text{physisorption: }|\\Delta H|\\sim 20\\!-\\!40\\,\\mathrm{kJ/mol};\\ \\text{chemisor…",
-      "কী কাজে লাগে: ভৌত ও রাসায়নিক অধিশোষণ",
-      "চিহ্ন মনে রাখো: physisorption:, Delta, H, sim"
+      "ভৌত = বহুস্তর, উল্টানো যায়; রাসায়নিক = একস্তর, শক্তিশালী।",
+      "প্রশ্নে ভৌত ও রাসায়নিক অধিশোষণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: physisorption:, Delta, H — একক যাচাই করো"
     ]
   },
   "subjects": [

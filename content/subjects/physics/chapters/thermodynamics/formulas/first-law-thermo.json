@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\delta Q=dU+\\delta W,\\quad \\delta W=P_{\\mathrm{ext}}dV;\\quad \\text{quasistatic হলে }P_{\\mathrm{ext}}=P",
-        "note": "শক্তির সংরক্ষণশীলতা নীতি থেকে পাওয়া যায় যে শক্তিসমূহ রূপান্তরযোগ্য।"
+        "note": "তাপগতিবিদ্যার ১ম সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\delta Q=dU+\\delta W,\\quad \\delta W=P_{\\mathrm{ext}}dV;\\quad \\text{quasistatic হলে }P_{\\mathrm{ext}}=P",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "dQ = dU + dW — 'দেওয়া তাপ = ভিতরে জমা + বাইরে কাজ'। এটি শক্তির নিত্যতা সূত্রেরই তাপীয় রূপ।"
       }
     ],
     "assumptions": [

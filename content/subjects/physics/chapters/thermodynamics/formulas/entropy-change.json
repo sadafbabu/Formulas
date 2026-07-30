@@ -47,12 +47,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta S=\\int\\frac{\\delta Q_{\\mathrm{rev}}}{T},\\quad \\Delta S=mc\\ln\\frac{T_2}{T_1},\\quad \\Delta S=\\frac{mL}{T}",
-        "note": "২য় তাপগতীয় সূত্র অনুযায়ী রুদ্ধতাপীয় প্রক্রিয়ায় এনট্রপি অপরিবর্তিত থাকে (dS = 0)।"
+        "note": "এনট্রপির পরিবর্তন ও বিশৃঙ্খলা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\Delta S=\\int\\frac{\\delta Q_{\\mathrm{rev}}}{T},\\quad \\Delta S=mc\\ln\\frac{T_2}{T_1},\\quad \\Delta S=\\frac{mL}{T}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ΔS = Q/T — 'বিশৃঙ্খলার হিসাব'। তাপ ঢুকলে S বাড়ে, বেরোলে কমে। অবস্থা পরিবর্তনে (গলন/বাষ্পীভবন) ΔS = mL/T, তাপমাত্রা পাল্"
       }
     ],
     "assumptions": [

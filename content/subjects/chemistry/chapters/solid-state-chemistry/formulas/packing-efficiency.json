@@ -22,12 +22,12 @@
     },
     {
       "symbol": "volume of atoms",
-      "meaning": "volume of atoms সম্পর্কিত রাশি",
+      "meaning": "volume of atoms (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "volume of unit cell",
-      "meaning": "volume of unit cell সম্পর্কিত রাশি",
+      "meaning": "volume of unit cell (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{PE}=\\frac{\\text{volume of atoms}}{\\text{volume of unit cell}}\\times100\\%",
-        "note": "SC=52%, BCC=68%, FCC/HCP=74% — memorize।"
+        "note": "প্যাকিং দক্ষতা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{PE}=\\frac{\\text{volume of atoms}}{\\text{volume of unit cell}}\\times100\\%",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "SC=52%, BCC=68%, FCC/HCP=74% — memorize।"
       }
     ],
     "assumptions": []
@@ -50,16 +50,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্যাকিং দক্ষতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "প্যাকিং দক্ষতা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{PE}=\\frac{\\text{volume of atoms}}{\\text{volume of unit cell}}\\times100\\%"
     }
   ],
   "memorize": {
     "trick": "SC=52%, BCC=68%, FCC/HCP=74% — memorize।",
     "steps": [
-      "সূত্র: \\text{PE}=\\frac{\\text{volume of atoms}}{\\text{volume of unit cell}}\\times100\\%",
-      "কী কাজে লাগে: প্যাকিং দক্ষতা",
-      "চিহ্ন মনে রাখো: PE, volume of atoms, volume of unit cell"
+      "SC=52%, BCC=68%, FCC/HCP=74% — memorize।",
+      "প্রশ্নে প্যাকিং দক্ষতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: PE, volume of atoms, volume of unit cell — একক যাচাই করো"
     ]
   },
   "subjects": [

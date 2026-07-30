@@ -32,7 +32,7 @@
     },
     {
       "symbol": "\\Delta V",
-      "meaning": "\\Delta V সম্পর্কিত রাশি",
+      "meaning": "\\Delta V (সূত্রের রাশি)",
       "unit": "Pa, m³"
     }
   ],
@@ -64,9 +64,9 @@
   "memorize": {
     "trick": "B=−ΔP/(ΔV/V); শিয়ার = stress/tanθ।",
     "steps": [
-      "সূত্র: B=-\\dfrac{\\Delta P}{\\Delta V/V},\\quad \\eta=\\dfrac{F/A}{\\tan\\theta}",
-      "B = −ΔP/(ΔV/V); η = shear stress / shear strain",
-      "চিহ্ন মনে রাখো: B, \\eta, \\Delta P, \\Delta V"
+      "B=−ΔP/(ΔV/V); শিয়ার = stress/tanθ।",
+      "প্রশ্নে আয়তন ও পার্শ্ব গুণাঙ্ক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: B, \\eta, \\Delta P — একক যাচাই করো"
     ]
   },
   "subjects": [

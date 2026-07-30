@@ -21,7 +21,7 @@
     },
     {
       "symbol": "\\beta",
-      "meaning": "\\beta সম্পর্কিত রাশি",
+      "meaning": "কোণ / ক্ষেত্র প্রসারণ",
       "unit": "সংখ্যা"
     },
     {
@@ -36,12 +36,12 @@
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
+      "meaning": "চৌম্বক ক্ষেত্র",
       "unit": "সংখ্যা"
     },
     {
       "symbol": "c",
-      "meaning": "c সম্পর্কিত রাশি",
+      "meaning": "আলোর বেগ / আপেক্ষিক তাপ",
       "unit": "সংখ্যা"
     }
   ],
@@ -51,12 +51,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}, \\quad \\alpha + \\beta = -\\frac{b}{a}, \\quad \\alpha \\beta = \\frac{c}{a}, \\quad D = b^2 - 4ac",
-        "note": "পূর্ণবর্গ প্রকাশ পদ্ধতি দ্বারা ax² + bx + c = 0 সমাধান করে মূলদ্বয়ের সম্পর্ক পাওয়া যায়।"
+        "note": "দ্বিঘাত সমীকরণের মূল ও নিশ্চায়ক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}, \\quad \\alpha + \\beta = -\\frac{b}{a}, \\quad \\alpha \\beta = \\frac{c}{a}, \\quad D = b^2 - 4ac",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "x = (-b ± √(b²-4ac))/2a — ঋণাত্মক b, বর্গমূল বিচ্ছিন্নকারক, 2a ভাজক।"
       }
     ],
     "assumptions": [

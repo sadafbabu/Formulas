@@ -22,18 +22,18 @@
     },
     {
       "symbol": "m",
-      "meaning": "m সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর",
+      "unit": "kg"
     },
     {
       "symbol": "e",
-      "meaning": "e সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ইলেকট্রন চার্জ / ভিত্তি",
+      "unit": "C"
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta x=|x_{\\text{meas}}-x_{\\text{true}}|,\\quad \\frac{\\Delta x}{x}",
-        "note": "পরম = পার্থক্য; আপেক্ষিক = পরম/মান।"
+        "note": "পরম ও আপেক্ষিক ত্রুটি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\Delta x=|x_{\\text{meas}}-x_{\\text{true}}|,\\quad \\frac{\\Delta x}{x}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "পরম = পার্থক্য; আপেক্ষিক = পরম/মান।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরম ও আপেক্ষিক ত্রুটি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "পরম ও আপেক্ষিক ত্রুটি এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\Delta x=|x_{\\text{meas}}-x_{\\text{true}}|,\\quad \\frac{\\Delta x}{x}"
+    },
+    {
+      "examType": "Concept",
+      "question": "পরম ও আপেক্ষিক ত্রুটি দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{পরম = পার্থক্য; আপেক্ষিক = পরম/মান।}"
     }
   ],
   "memorize": {
     "trick": "পরম = পার্থক্য; আপেক্ষিক = পরম/মান।",
     "steps": [
-      "সূত্র: \\Delta x=|x_{\\text{meas}}-x_{\\text{true}}|,\\quad \\frac{\\Delta x}{x}",
-      "কী কাজে লাগে: পরম ও আপেক্ষিক ত্রুটি",
-      "চিহ্ন মনে রাখো: x, m, e, a"
+      "পরম = পার্থক্য; আপেক্ষিক = পরম/মান।",
+      "প্রশ্নে পরম ও আপেক্ষিক ত্রুটি প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: x, m, e — একক যাচাই করো"
     ]
   },
   "subjects": [

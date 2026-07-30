@@ -21,18 +21,18 @@
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     },
     {
       "symbol": "theta",
-      "meaning": "theta সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কোণ",
+      "unit": "rad"
     },
     {
       "symbol": "g",
-      "meaning": "g সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "y=x\\tan\\theta-\\frac{gx^2}{2u^2\\cos^2\\theta}",
-        "note": "x elim করে parabolic path; g/2u²cos²θ coefficient।"
+        "note": "ক্ষিপ্ত পথের সমীকরণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "y=x\\tan\\theta-\\frac{gx^2}{2u^2\\cos^2\\theta}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "x elim করে parabolic path; g/2u²cos²θ coefficient।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্ষিপ্ত পথের সমীকরণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ক্ষিপ্ত পথের সমীকরণ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "y=x\\tan\\theta-\\frac{gx^2}{2u^2\\cos^2\\theta}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ক্ষিপ্ত পথের সমীকরণ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{x elim করে parabolic path; g/2ucosθ coefficient।}"
     }
   ],
   "memorize": {
     "trick": "x elim করে parabolic path; g/2u²cos²θ coefficient।",
     "steps": [
-      "সূত্র: y=x\\tan\\theta-\\frac{gx^2}{2u^2\\cos^2\\theta}",
-      "কী কাজে লাগে: ক্ষিপ্ত পথের সমীকরণ",
-      "চিহ্ন মনে রাখো: y, x, theta, g"
+      "x elim করে parabolic path; g/2u²cos²θ coefficient।",
+      "প্রশ্নে ক্ষিপ্ত পথের সমীকরণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: y, x, theta — একক যাচাই করো"
     ]
   },
   "subjects": [

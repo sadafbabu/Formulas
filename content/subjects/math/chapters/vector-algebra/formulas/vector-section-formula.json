@@ -21,18 +21,18 @@
     },
     {
       "symbol": "r",
-      "meaning": "r সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ব্যাসার্ধ / দূরত্ব",
+      "unit": "m"
     },
     {
       "symbol": "m",
-      "meaning": "m সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর",
+      "unit": "kg"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
-        "note": "m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)"
+        "note": "অনুপাত বিভাজন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)"
       }
     ],
     "assumptions": []
@@ -54,16 +54,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অনুপাত বিভাজন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "অনুপাত বিভাজন এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)"
     }
   ],
   "memorize": {
     "trick": "m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
     "steps": [
-      "সূত্র: \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
-      "কী কাজে লাগে: অনুপাত বিভাজন",
-      "চিহ্ন মনে রাখো: vec, r, m, b"
+      "m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
+      "প্রশ্নে অনুপাত বিভাজন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: vec, r, m — একক যাচাই করো"
     ]
   },
   "subjects": [

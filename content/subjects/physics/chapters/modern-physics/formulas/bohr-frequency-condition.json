@@ -32,7 +32,7 @@
     },
     {
       "symbol": "E_f",
-      "meaning": "E_f সম্পর্কিত রাশি",
+      "meaning": "শক্তি / তড়িৎক্ষেত্র",
       "unit": "eV"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "hf=E_i-E_f=\\Delta E",
-        "note": "স্তরান্তরে শক্তি পার্থক্যই ফোটন।"
+        "note": "বোরের কম্পাঙ্ক শর্ত এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "hf=E_i-E_f=\\Delta E",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ফোটন শক্তি = স্তরের ফারাক: hf = ΔE — সিঁড়ি থেকে লাফ।"
       }
     ],
     "assumptions": [

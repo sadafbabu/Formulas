@@ -21,12 +21,12 @@
     },
     {
       "symbol": "Z",
-      "meaning": "Z সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "পারমাণবিক সংখ্যা / প্রতিবন্ধকতা",
+      "unit": "1 বা Ω"
     },
     {
       "symbol": "occurs at a corner of the feasible region",
-      "meaning": "occurs at a corner of the feasible region সম্পর্কিত রাশি",
+      "meaning": "occurs at a corner of the feasible region (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{optimal }Z\\text{ occurs at a corner of the feasible region}",
-        "note": "সব কোণে Z হিসাব করে বড়/ছোট নাও।"
+        "note": "কোণবিন্দু উপপাদ্য এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{optimal }Z\\text{ occurs at a corner of the feasible region}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "সব কোণে Z হিসাব করে বড়/ছোট নাও।"
       }
     ],
     "assumptions": []
@@ -49,16 +49,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কোণবিন্দু উপপাদ্য কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\text{optimal }Z\\text{ occurs at a corner of the feasible region}"
+      "question": "কোণবিন্দু উপপাদ্য এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\text{optimal }Z\\text{ occurs at a corner of the feasible region}\\text{ — }সব কোণে Z হিসাব করে বড়/ছোট নাও।"
+    },
+    {
+      "examType": "Concept",
+      "question": "কোণবিন্দু উপপাদ্য দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{সব কোণে Z হিসাব করে বড়/ছোট নাও।}"
     }
   ],
   "memorize": {
     "trick": "সব কোণে Z হিসাব করে বড়/ছোট নাও।",
     "steps": [
-      "সূত্র: \\text{optimal }Z\\text{ occurs at a corner of the feasible region}",
-      "কী কাজে লাগে: কোণবিন্দু উপপাদ্য",
-      "চিহ্ন মনে রাখো: optimal, Z, occurs at a corner of the feasible region"
+      "সব কোণে Z হিসাব করে বড়/ছোট নাও।",
+      "প্রশ্নে কোণবিন্দু উপপাদ্য প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: optimal, Z, occurs at a corner of the feasible region — একক যাচাই করো"
     ]
   },
   "subjects": [

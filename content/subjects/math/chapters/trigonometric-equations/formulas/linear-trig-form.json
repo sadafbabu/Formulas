@@ -21,18 +21,18 @@
     },
     {
       "symbol": "theta",
-      "meaning": "theta সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কোণ",
+      "unit": "rad"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "R",
-      "meaning": "R সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "রোধ / গ্যাস ধ্রুবক / ব্যাসার্ধ",
+      "unit": "Ω বা J/(mol·K) বা m"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "a\\cos\\theta+b\\sin\\theta=R\\cos(\\theta-\\alpha),\\ R=\\sqrt{a^2+b^2},\\ \\tan\\alpha=b/a",
-        "note": "রৈখিক ত্রিকোণমিতিক রূপ এর মূল সম্পর্ক ও প্রয়োগ।"
+        "note": "রৈখিক ত্রিকোণমিতিক রূপ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "a\\cos\\theta+b\\sin\\theta=R\\cos(\\theta-\\alpha),\\ R=\\sqrt{a^2+b^2},\\ \\tan\\alpha=b/a",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "R=√(a²+b²); tanα=b/a। R cos(θ−α) রূপে রূপান্তর"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রৈখিক ত্রিকোণমিতিক রূপ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "a\\cos\\theta+b\\sin\\theta=R\\cos(\\theta-\\alpha),\\ R=\\sqrt{a^2+b^2},\\ \\tan\\alpha=b/a"
+      "question": "রৈখিক ত্রিকোণমিতিক রূপ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "a\\cos\\theta+b\\sin\\theta=R\\cos(\\theta-\\alpha),\\ R=\\sqrt{a^2+b^2},\\ \\tan\\alpha=b/a\\text{ — }R=√(a²+b²); tanα=b/a। R cos(θ−α) রূপে রূপান্তর"
+    },
+    {
+      "examType": "Concept",
+      "question": "রৈখিক ত্রিকোণমিতিক রূপ দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{R cos(θα) রূপে রূপান্তর}"
     }
   ],
   "memorize": {
     "trick": "R=√(a²+b²); tanα=b/a। R cos(θ−α) রূপে রূপান্তর",
     "steps": [
-      "সূত্র: a\\cos\\theta+b\\sin\\theta=R\\cos(\\theta-\\alpha),\\ R=\\sqrt{a^2+b^2},\\ \\tan\\alpha=b/a",
-      "R cos(θ−α) রূপে রূপান্তর",
-      "চিহ্ন মনে রাখো: a, theta, b, R"
+      "R=√(a²+b²); tanα=b/a। R cos(θ−α) রূপে রূপান্তর",
+      "প্রশ্নে রৈখিক ত্রিকোণমিতিক রূপ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: a, theta, b — একক যাচাই করো"
     ]
   },
   "subjects": [

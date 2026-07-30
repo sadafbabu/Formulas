@@ -45,12 +45,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{pH}=-\\log[H^+],\\quad \\mathrm{pOH}=-\\log[OH^-],\\quad K_w=[H^+][OH^-]=10^{-14},\\quad \\mathrm{pH}+\\mathrm{pOH}=14",
-        "note": "পানির আয়নীকরণ: \\ce{H2O <=> H^+ + OH^-}। 25°C তে [H⁺][OH⁻] = 10⁻¹⁴।"
+        "note": "pH, pOH ও পানির আয়ন গুণফল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{pH}=-\\log[H^+],\\quad \\mathrm{pOH}=-\\log[OH^-],\\quad K_w=[H^+][OH^-]=10^{-14},\\quad \\mathrm{pH}+\\mathrm{pOH}=14",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "pH + pOH = 14 (25°C তে)। pH < 7 অম্ল, pH = 7 প্রশম, pH > 7 ক্ষার। পানির K_w = 10⁻¹⁴।"
       }
     ],
     "assumptions": [
@@ -67,9 +67,9 @@
   "memorize": {
     "trick": "pH + pOH = 14 (25°C তে)। pH < 7 অম্ল, pH = 7 প্রশম, pH > 7 ক্ষার। পানির K_w = 10⁻¹⁴।",
     "steps": [
-      "সূত্র: \\mathrm{pH}=-\\log[H^+],\\quad \\mathrm{pOH}=-\\log[OH^-],\\quad K_w=[H^+][OH^-]=10^{…",
-      "অম্ল-ক্ষার মাত্রা পরিমাপ, পানির আয়নীকরণ ধ্রুবক ও সম্পর্ক",
-      "চিহ্ন মনে রাখো: \\mathrm{pH}, \\mathrm{pOH}, K_w"
+      "pH + pOH = 14 (25°C তে)। pH < 7 অম্ল, pH = 7 প্রশম, pH > 7 ক্ষার। পানির K_w = 10⁻¹⁴।",
+      "প্রশ্নে pH, pOH ও পানির আয়ন গুণফল প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: \\mathrm{pH}, \\mathrm{pOH}, K_w — একক যাচাই করো"
     ]
   }
 }

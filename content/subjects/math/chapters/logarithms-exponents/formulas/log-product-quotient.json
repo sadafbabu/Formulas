@@ -26,8 +26,8 @@
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     }
   ],
   "derivation": {
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
-        "note": "গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b"
+        "note": "লগ গুণ ও ভাগ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b"
       }
     ],
     "assumptions": []
@@ -49,16 +49,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "লগ গুণ ও ভাগ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "লগ গুণ ও ভাগ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
       "answer": "\\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b"
     }
   ],
   "memorize": {
     "trick": "গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
     "steps": [
-      "সূত্র: \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
-      "কী কাজে লাগে: লগ গুণ ও ভাগ",
-      "চিহ্ন মনে রাখো: c, a, b"
+      "গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
+      "প্রশ্নে লগ গুণ ও ভাগ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: c, a, b — একক যাচাই করো"
     ]
   },
   "subjects": [

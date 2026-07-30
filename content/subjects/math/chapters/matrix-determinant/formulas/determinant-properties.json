@@ -21,13 +21,13 @@
     },
     {
       "symbol": "T",
-      "meaning": "T সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "পর্যায়কাল / তাপমাত্রা",
+      "unit": "s বা K"
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     }
   ],
   "derivation": {
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "|A^T|=|A|;\\quad |AB|=|A||B|",
-        "note": "Row swap → sign change; two equal rows → det=0।"
+        "note": "নির্ণায়কের ধর্ম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "|A^T|=|A|;\\quad |AB|=|A||B|",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Row swap → sign change; two equal rows → det=0।"
       }
     ],
     "assumptions": []
@@ -49,16 +49,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "নির্ণায়কের ধর্ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "নির্ণায়কের ধর্ম এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "|A^T|=|A|;\\quad |AB|=|A||B|"
+    },
+    {
+      "examType": "Concept",
+      "question": "নির্ণায়কের ধর্ম দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Row swap → sign change; two equal rows → det=0।}"
     }
   ],
   "memorize": {
     "trick": "Row swap → sign change; two equal rows → det=0।",
     "steps": [
-      "সূত্র: |A^T|=|A|;\\quad |AB|=|A||B|",
-      "কী কাজে লাগে: নির্ণায়কের ধর্ম",
-      "চিহ্ন মনে রাখো: A, T, B"
+      "Row swap → sign change; two equal rows → det=0।",
+      "প্রশ্নে নির্ণায়কের ধর্ম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A, T, B — একক যাচাই করো"
     ]
   },
   "subjects": [

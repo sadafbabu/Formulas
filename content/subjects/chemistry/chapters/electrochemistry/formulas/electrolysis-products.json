@@ -22,17 +22,17 @@
     },
     {
       "symbol": "E",
-      "meaning": "E সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "শক্তি / তড়িৎক্ষেত্র",
+      "unit": "J বা N/C"
     },
     {
       "symbol": "circ",
-      "meaning": "circ সম্পর্কিত রাশি",
+      "meaning": "circ (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "first",
-      "meaning": "first সম্পর্কিত রাশি",
+      "meaning": "first (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{cathode: higher }E^\\circ\\text{ first};\\quad\\text{anode: dilute }OH^-/\\text{halide rules}",
-        "note": "ইলেকট্রোলাইসিসে কোন আয়ন নিঃসৃত হয়"
+        "note": "অগ্রাধিকার নিঃসরণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{cathode: higher }E^\\circ\\text{ first};\\quad\\text{anode: dilute }OH^-/\\text{halide rules}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ক্যাথোডে সহজে বিজারিত (উচ্চ E°) আগে।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অগ্রাধিকার নিঃসরণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "অগ্রাধিকার নিঃসরণ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{cathode: higher }E^\\circ\\text{ first};\\quad\\text{anode: dilute }OH^-/\\text{halide rules}"
+    },
+    {
+      "examType": "Concept",
+      "question": "অগ্রাধিকার নিঃসরণ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{ক্যাথোডে সহজে বিজারিত (উচ্চ E) আগে।}"
     }
   ],
   "memorize": {
     "trick": "ক্যাথোডে সহজে বিজারিত (উচ্চ E°) আগে।",
     "steps": [
-      "সূত্র: \\text{cathode: higher }E^\\circ\\text{ first};\\quad\\text{anode: dilute }OH^-/\\text…",
-      "ইলেকট্রোলাইসিসে কোন আয়ন নিঃসৃত হয়",
-      "চিহ্ন মনে রাখো: cathode: higher, E, circ, first"
+      "ক্যাথোডে সহজে বিজারিত (উচ্চ E°) আগে।",
+      "প্রশ্নে অগ্রাধিকার নিঃসরণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: cathode: higher, E, circ — একক যাচাই করো"
     ]
   },
   "subjects": [

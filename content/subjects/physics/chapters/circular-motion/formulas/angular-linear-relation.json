@@ -37,7 +37,7 @@
     },
     {
       "symbol": "\\alpha",
-      "meaning": "\\alpha সম্পর্কিত রাশি",
+      "meaning": "কোণ / প্রসারণ গুণাঙ্ক",
       "unit": "m/s², rad/s²"
     }
   ],

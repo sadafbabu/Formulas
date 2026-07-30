@@ -76,7 +76,7 @@
     {
       "examType": "Medical Admission",
       "question": "০.৫ T ক্ষেত্রে ২০ cm লম্বা একটি দণ্ড ১০ m/s বেগে লম্বভাবে চললে আবিষ্ট emf কত?",
-      "answer": "\\varepsilon = B\\ell v = 0.5 \\times 0.2 \\times 10 = 1\\ \\text{V}"
+      "answer": "\\varepsilon = B\\ell v\\sin\\theta, \\quad \\varepsilon_{\\text{ঘূর্ণায়মান দণ্ড}} = \\tfrac{1}{2}B\\omega \\ell^2"
     }
   ],
   "memorize": {

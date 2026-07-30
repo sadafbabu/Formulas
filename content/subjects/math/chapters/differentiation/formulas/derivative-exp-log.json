@@ -16,8 +16,8 @@
   "symbols": [
     {
       "symbol": "e",
-      "meaning": "eˣ",
-      "unit": "—"
+      "meaning": "ইলেকট্রন চার্জ / ভিত্তি",
+      "unit": "C"
     },
     {
       "symbol": "x",
@@ -26,8 +26,8 @@
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     }
   ],
   "derivation": {
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "(e^x)'=e^x,\\quad (\\ln x)'=\\frac{1}{x},\\quad (a^x)'=a^x\\ln a",
-        "note": "eˣ নিজের অন্তরক; ln-এর অন্তরক ১/x।"
+        "note": "সূচক ও লগ অন্তরক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "(e^x)'=e^x,\\quad (\\ln x)'=\\frac{1}{x},\\quad (a^x)'=a^x\\ln a",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "eˣ নিজের অন্তরক; ln-এর অন্তরক ১/x।"
       }
     ],
     "assumptions": []
@@ -49,16 +49,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সূচক ও লগ অন্তরক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "(e^x)'=e^x,\\quad (\\ln x)'=\\frac{1}{x},\\quad (a^x)'=a^x\\ln a"
+      "question": "সূচক ও লগ অন্তরক এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "(e^x)'=e^x,\\quad (\\ln x)'=\\frac{1}{x},\\quad (a^x)'=a^x\\ln a\\text{ — }eˣ নিজের অন্তরক; ln-এর অন্তরক ১/x।"
+    },
+    {
+      "examType": "Concept",
+      "question": "সূচক ও লগ অন্তরক দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{eˣ নিজের অন্তরক; ln-এর অন্তরক ১/x।}"
     }
   ],
   "memorize": {
     "trick": "eˣ নিজের অন্তরক; ln-এর অন্তরক ১/x।",
     "steps": [
-      "সূত্র: (e^x)'=e^x,\\quad (\\ln x)'=\\frac{1}{x},\\quad (a^x)'=a^x\\ln a",
-      "কী কাজে লাগে: সূচক ও লগ অন্তরক",
-      "চিহ্ন মনে রাখো: e, x, a"
+      "eˣ নিজের অন্তরক; ln-এর অন্তরক ১/x।",
+      "প্রশ্নে সূচক ও লগ অন্তরক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: e, x, a — একক যাচাই করো"
     ]
   },
   "subjects": [

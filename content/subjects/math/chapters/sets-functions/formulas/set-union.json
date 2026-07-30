@@ -16,23 +16,23 @@
   "symbols": [
     {
       "symbol": "A",
-      "meaning": "A∪B",
-      "unit": "—"
+      "meaning": "ক্ষেত্রফল / বিস্তার",
+      "unit": "m²"
     },
     {
       "symbol": "cup",
-      "meaning": "cup সম্পর্কিত রাশি",
+      "meaning": "cup (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "A\\cup B=\\{x:x\\in A\\text{ or }x\\in B\\}",
-        "note": "∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।"
+        "note": "সেটের যোগ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "A\\cup B=\\{x:x\\in A\\text{ or }x\\in B\\}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সেটের যোগ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সেটের যোগ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "A\\cup B=\\{x:x\\in A\\text{ or }x\\in B\\}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সেটের যোগ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।}"
     }
   ],
   "memorize": {
     "trick": "∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।",
     "steps": [
-      "সূত্র: A\\cup B=\\{x:x\\in A\\text{ or }x\\in B\\}",
-      "কী কাজে লাগে: সেটের যোগ",
-      "চিহ্ন মনে রাখো: A, cup, B, x"
+      "∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।",
+      "প্রশ্নে সেটের যোগ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A, cup, B — একক যাচাই করো"
     ]
   },
   "subjects": [

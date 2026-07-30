@@ -32,12 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{Fat}+3\\mathrm{NaOH}\\rightarrow 3\\mathrm{RCOONa}+\\mathrm{glycerol}",
-        "note": "এস্টারের ক্ষারীয় জলবিশ্লেষণ — শিল্প ও HSC জৈব।"
+        "note": "সাবান তৈরি (স্যপোনিফিকেশন) এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{Fat}+3\\mathrm{NaOH}\\rightarrow 3\\mathrm{RCOONa}+\\mathrm{glycerol}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ফ্যাট + ক্ষার = সাবান + গ্লিসারল।"
       }
     ],
     "assumptions": [
@@ -54,9 +54,9 @@
   "memorize": {
     "trick": "ফ্যাট + ক্ষার = সাবান + গ্লিসারল।",
     "steps": [
-      "সূত্র: \\mathrm{Fat}+3\\mathrm{NaOH}\\rightarrow 3\\mathrm{RCOONa}+\\mathrm{glycerol}",
-      "ফ্যাট/অয়েল + NaOH → সাবান (RCOONa) + গ্লিসারল",
-      "চিহ্ন মনে রাখো: RCOONa, \\mathrm{NaOH}"
+      "ফ্যাট + ক্ষার = সাবান + গ্লিসারল।",
+      "প্রশ্নে সাবান তৈরি (স্যপোনিফিকেশন) প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: RCOONa, \\mathrm{NaOH} — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -21,18 +21,18 @@
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "f",
-      "meaning": "f সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কম্পাঙ্ক / বল (প্রসঙ্গমতে)",
+      "unit": "Hz বা N"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\int_a^b f=-\\int_b^a f,\\quad \\int_a^a f=0,\\quad \\int_a^b f=\\int_a^c f+\\int_c^b f",
-        "note": "সীমা উল্টালে ঋণাত্মক; মাঝের বিন্দু ভাঙা যায়।"
+        "note": "নির্দিষ্ট যোগজের ধর্ম এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\int_a^b f=-\\int_b^a f,\\quad \\int_a^a f=0,\\quad \\int_a^b f=\\int_a^c f+\\int_c^b f",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "সীমা উল্টালে ঋণাত্মক; মাঝের বিন্দু ভাঙা যায়।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "নির্দিষ্ট যোগজের ধর্ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "নির্দিষ্ট যোগজের ধর্ম এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\int_a^b f=-\\int_b^a f,\\quad \\int_a^a f=0,\\quad \\int_a^b f=\\int_a^c f+\\int_c^b f"
+    },
+    {
+      "examType": "Concept",
+      "question": "নির্দিষ্ট যোগজের ধর্ম দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{সীমা উল্টালে ঋণাত্মক; মাঝের বিন্দু ভাঙা যায়।}"
     }
   ],
   "memorize": {
     "trick": "সীমা উল্টালে ঋণাত্মক; মাঝের বিন্দু ভাঙা যায়।",
     "steps": [
-      "সূত্র: \\int_a^b f=-\\int_b^a f,\\quad \\int_a^a f=0,\\quad \\int_a^b f=\\int_a^c f+\\int_c^b f",
-      "কী কাজে লাগে: নির্দিষ্ট যোগজের ধর্ম",
-      "চিহ্ন মনে রাখো: int, a, b, f"
+      "সীমা উল্টালে ঋণাত্মক; মাঝের বিন্দু ভাঙা যায়।",
+      "প্রশ্নে নির্দিষ্ট যোগজের ধর্ম প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: int, a, b — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -21,18 +21,18 @@
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "y",
-      "meaning": "y সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "ax+by\\le c",
-        "note": "≤ → origin side feasible (coefficients positive হলে)।"
+        "note": "সীমাবদ্ধতা অসমতা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "ax+by\\le c",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "≤ → origin side feasible (coefficients positive হলে)।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সীমাবদ্ধতা অসমতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সীমাবদ্ধতা অসমতা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "ax+by\\le c"
+    },
+    {
+      "examType": "Concept",
+      "question": "সীমাবদ্ধতা অসমতা দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{≤ → origin side feasible (coefficients positive হলে)।}"
     }
   ],
   "memorize": {
     "trick": "≤ → origin side feasible (coefficients positive হলে)।",
     "steps": [
-      "সূত্র: ax+by\\le c",
-      "কী কাজে লাগে: সীমাবদ্ধতা অসমতা",
-      "চিহ্ন মনে রাখো: a, x, b, y"
+      "≤ → origin side feasible (coefficients positive হলে)।",
+      "প্রশ্নে সীমাবদ্ধতা অসমতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: a, x, b — একক যাচাই করো"
     ]
   },
   "subjects": [

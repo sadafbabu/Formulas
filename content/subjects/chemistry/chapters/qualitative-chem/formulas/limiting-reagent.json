@@ -22,17 +22,17 @@
     },
     {
       "symbol": "prod",
-      "meaning": "prod সম্পর্কিত রাশি",
+      "meaning": "prod (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "i",
-      "meaning": "i সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তড়িৎ প্রবাহ / জড়তার ভ্রামক",
+      "unit": "A বা kg·m²"
     },
     {
       "symbol": "Big",
-      "meaning": "Big সম্পর্কিত রাশি",
+      "meaning": "Big (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "n_{\\text{prod}}=\\min_i\\Big(\\frac{n_i}{\\nu_i}\\Big)\\times\\nu_{\\text{prod}}",
-        "note": "প্রোডাক্ট নির্ণয়ে সীমিত বিকারক"
+        "note": "সীমিত বিকারক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "n_{\\text{prod}}=\\min_i\\Big(\\frac{n_i}{\\nu_i}\\Big)\\times\\nu_{\\text{prod}}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "যে বিকারকের n/ν সবচেয়ে ছোট সেটা limiting।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সীমিত বিকারক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "n_{\\text{prod}}=\\min_i\\Big(\\frac{n_i}{\\nu_i}\\Big)\\times\\nu_{\\text{prod}}"
+      "question": "সীমিত বিকারক এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "n_{\\text{prod}}=\\min_i\\Big(\\frac{n_i}{\\nu_i}\\Big)\\times\\nu_{\\text{prod}}\\text{ — }যে বিকারকের n/ν সবচেয়ে ছোট সেটা limiting।"
+    },
+    {
+      "examType": "Concept",
+      "question": "সীমিত বিকারক দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{প্রোডাক্ট নির্ণয়ে সীমিত বিকারক}"
     }
   ],
   "memorize": {
     "trick": "যে বিকারকের n/ν সবচেয়ে ছোট সেটা limiting।",
     "steps": [
-      "সূত্র: n_{\\text{prod}}=\\min_i\\Big(\\frac{n_i}{\\nu_i}\\Big)\\times\\nu_{\\text{prod}}",
-      "প্রোডাক্ট নির্ণয়ে সীমিত বিকারক",
-      "চিহ্ন মনে রাখো: n, prod, i, Big"
+      "যে বিকারকের n/ν সবচেয়ে ছোট সেটা limiting।",
+      "প্রশ্নে সীমিত বিকারক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: n, prod, i — একক যাচাই করো"
     ]
   },
   "subjects": [

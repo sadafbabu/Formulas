@@ -22,17 +22,17 @@
     },
     {
       "symbol": "O_2",
-      "meaning": "O_2 সম্পর্কিত রাশি",
+      "meaning": "O_2 (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "rightleftharpoons",
-      "meaning": "rightleftharpoons সম্পর্কিত রাশি",
+      "meaning": "rightleftharpoons (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "SO_3",
-      "meaning": "SO_3 সম্পর্কিত রাশি",
+      "meaning": "SO_3 (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "2\\mathrm{SO_2}+\\mathrm{O_2}\\rightleftharpoons 2\\mathrm{SO_3}\\ (\\mathrm{V_2O_5})",
-        "note": "V₂O₅ সংঘটক; ওলিয়াম হয়ে H₂SO₄।"
+        "note": "কন্টাক্ট মূল ধাপ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "2\\mathrm{SO_2}+\\mathrm{O_2}\\rightleftharpoons 2\\mathrm{SO_3}\\ (\\mathrm{V_2O_5})",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "V₂O₅ সংঘটক; ওলিয়াম হয়ে H₂SO₄।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কন্টাক্ট মূল ধাপ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "2\\mathrm{SO_2}+\\mathrm{O_2}\\rightleftharpoons 2\\mathrm{SO_3}\\ (\\mathrm{V_2O_5})"
+      "question": "কন্টাক্ট মূল ধাপ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "2\\mathrm{SO_2}+\\mathrm{O_2}\\rightleftharpoons 2\\mathrm{SO_3}\\ (\\mathrm{V_2O_5})\\text{ — }V₂O₅ সংঘটক; ওলিয়াম হয়ে H₂SO₄।"
+    },
+    {
+      "examType": "Concept",
+      "question": "কন্টাক্ট মূল ধাপ দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{V₂O₅ সংঘটক; ওলিয়াম হয়ে H₂SO₄।}"
     }
   ],
   "memorize": {
     "trick": "V₂O₅ সংঘটক; ওলিয়াম হয়ে H₂SO₄।",
     "steps": [
-      "সূত্র: 2\\mathrm{SO_2}+\\mathrm{O_2}\\rightleftharpoons 2\\mathrm{SO_3}\\ (\\mathrm{V_2O_5})",
-      "কী কাজে লাগে: কন্টাক্ট মূল ধাপ",
-      "চিহ্ন মনে রাখো: SO_2, O_2, rightleftharpoons, SO_3"
+      "V₂O₅ সংঘটক; ওলিয়াম হয়ে H₂SO₄।",
+      "প্রশ্নে কন্টাক্ট মূল ধাপ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: SO_2, O_2, rightleftharpoons — একক যাচাই করো"
     ]
   },
   "subjects": [

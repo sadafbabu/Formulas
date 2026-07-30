@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "v=\\dfrac{ds}{dt},\\quad a=\\dfrac{dv}{dt}=\\dfrac{d^2s}{dt^2}",
-        "note": "v = ds/dt; a = dv/dt = d²s/dt²"
+        "note": "বেগ ও ত্বরণের সংজ্ঞা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "v=\\dfrac{ds}{dt},\\quad a=\\dfrac{dv}{dt}=\\dfrac{d^2s}{dt^2}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "সরণ→বেগ→ত্বরণ = একবার করে অবকলন: v=ds/dt, a=dv/dt।"
       }
     ],
     "assumptions": [

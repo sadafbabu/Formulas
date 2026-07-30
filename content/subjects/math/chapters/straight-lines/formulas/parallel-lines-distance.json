@@ -21,18 +21,18 @@
     },
     {
       "symbol": "c",
-      "meaning": "c সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "আলোর বেগ / আপেক্ষিক তাপ",
+      "unit": "m/s বা J/(kg·K)"
     },
     {
       "symbol": "sqrt",
-      "meaning": "sqrt সম্পর্কিত রাশি",
+      "meaning": "sqrt (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "d=\\frac{|c_1-c_2|}{\\sqrt{a^2+b^2}}\\quad(ax+by+c_i=0)",
-        "note": "সমান্তরাল রেখার দূরত্ব এর মূল সম্পর্ক ও প্রয়োগ।"
+        "note": "সমান্তরাল রেখার দূরত্ব এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "d=\\frac{|c_1-c_2|}{\\sqrt{a^2+b^2}}\\quad(ax+by+c_i=0)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "d = |c₁−c₂|/√(a²+b²) — a,b একই রাখুন।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমান্তরাল রেখার দূরত্ব কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "d=\\frac{|c_1-c_2|}{\\sqrt{a^2+b^2}}\\quad(ax+by+c_i=0)"
+      "question": "সমান্তরাল রেখার দূরত্ব এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "d=\\frac{|c_1-c_2|}{\\sqrt{a^2+b^2}}\\quad(ax+by+c_i=0)\\text{ — }d = |c₁−c₂|/√(a²+b²) — a,b একই রাখুন।"
+    },
+    {
+      "examType": "Concept",
+      "question": "সমান্তরাল রেখার দূরত্ব দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{দুই সমান্তরাল রেখার দূরত্ব}"
     }
   ],
   "memorize": {
     "trick": "d = |c₁−c₂|/√(a²+b²) — a,b একই রাখুন।",
     "steps": [
-      "সূত্র: d=\\frac{|c_1-c_2|}{\\sqrt{a^2+b^2}}\\quad(ax+by+c_i=0)",
-      "দুই সমান্তরাল রেখার দূরত্ব",
-      "চিহ্ন মনে রাখো: d, c, sqrt, a"
+      "d = |c₁−c₂|/√(a²+b²) — a,b একই রাখুন।",
+      "প্রশ্নে সমান্তরাল রেখার দূরত্ব প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: d, c, sqrt — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -21,18 +21,18 @@
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "d",
-      "meaning": "d সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "দূরত্ব / ব্যাস",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)",
-        "note": "n/2[2a+(n−1)d] — S = n/2 × (প্রথম+শেষ)।"
+        "note": "সমান্তর ধারার যোগফল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "S = n/2 × (প্রথম+শেষ)। S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমান্তর ধারার যোগফল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)"
+      "question": "সমান্তর ধারার যোগফল এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)\\text{ — }S = n/2 × (প্রথম+শেষ)। S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)"
+    },
+    {
+      "examType": "Concept",
+      "question": "সমান্তর ধারার যোগফল দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{S n= frac n 2 [2a+(n-1)d]= frac n 2 (a+l)}"
     }
   ],
   "memorize": {
     "trick": "S = n/2 × (প্রথম+শেষ)। S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)",
     "steps": [
-      "সূত্র: S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)",
-      "কী কাজে লাগে: সমান্তর ধারার যোগফল",
-      "চিহ্ন মনে রাখো: S, n, a, d"
+      "S = n/2 × (প্রথম+শেষ)। S_n=\\frac{n}{2}[2a+(n-1)d]=\\frac{n}{2}(a+l)",
+      "প্রশ্নে সমান্তর ধারার যোগফল প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: S, n, a — একক যাচাই করো"
     ]
   },
   "subjects": [

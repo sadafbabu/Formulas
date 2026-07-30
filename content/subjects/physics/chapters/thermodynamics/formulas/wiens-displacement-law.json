@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\lambda_{\\max} T=b\\approx2.90\\times10^{-3}\\ \\text{m·K}",
-        "note": "গরম হলে বিকিরণের চূড়া ছোট তরঙ্গদৈর্ঘ্যে সরে।"
+        "note": "ভিয়েনের স্থানচ্যুতি সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\lambda_{\\max} T=b\\approx2.90\\times10^{-3}\\ \\text{m·K}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "গরম হলে নীলচে (λ ছোট), ঠান্ডা হলে লালচে — λ_max T = ধ্রুবক b।"
       }
     ],
     "assumptions": [

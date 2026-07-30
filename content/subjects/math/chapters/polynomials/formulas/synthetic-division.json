@@ -29,12 +29,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{P(x)}{x-a}: \\quad P(a) = R \\text{ (remainder)}",
-        "note": "শেষফল উপপাদ্য থেকে শর্কুন ভাগ পদ্ধতি।"
+        "note": "কৃত্রিম ভাগ ও শেষফল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{P(x)}{x-a}: \\quad P(a) = R \\text{ (remainder)}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "কৃত্রিম ভাগ = কেবল সহগ নিয়ে কাজ, x লেখার দরকার নেই। 'নামাও, গুণ করো, যোগ করো' — এই তিন ধাপ পুনরাবৃত্তি; শেষ সংখ্যাটাই ভ"
       }
     ],
     "assumptions": [

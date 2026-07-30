@@ -48,12 +48,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "T = 2\\pi \\sqrt{\\frac{I_{\\text{mom}}}{M B_H}}",
-        "note": "প্রত্যয়নী টর্ক \\tau = -M B_H \\theta থেকে সরল ছন্দিত স্পন্দন সমীকরণ:"
+        "note": "কম্পন চৌম্বকমান যন্ত্রের পর্যায়কাল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "T = 2\\pi \\sqrt{\\frac{I_{\\text{mom}}}{M B_H}}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "T = 2π√(I/MB_H) — দোলকের T = 2π√(l/g)-এর মতোই ছাঁচ: উপরে জাড্য, নিচে ফেরানো প্রভাব।"
       }
     ],
     "assumptions": [

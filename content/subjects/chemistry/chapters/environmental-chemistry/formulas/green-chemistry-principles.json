@@ -22,12 +22,12 @@
     },
     {
       "symbol": "mass of desired product",
-      "meaning": "mass of desired product সম্পর্কিত রাশি",
+      "meaning": "mass of desired product (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "mass of all reactants",
-      "meaning": "mass of all reactants সম্পর্কিত রাশি",
+      "meaning": "mass of all reactants (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{Atom economy}=\\frac{\\text{mass of desired product}}{\\text{mass of all reactants}}\\times100\\%",
-        "note": "কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।"
+        "note": "সবুজ রসায়ন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{Atom economy}=\\frac{\\text{mass of desired product}}{\\text{mass of all reactants}}\\times100\\%",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।"
       }
     ],
     "assumptions": []
@@ -50,16 +50,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সবুজ রসায়ন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সবুজ রসায়ন এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{Atom economy}=\\frac{\\text{mass of desired product}}{\\text{mass of all reactants}}\\times100\\%"
+    },
+    {
+      "examType": "Concept",
+      "question": "সবুজ রসায়ন দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।}"
     }
   ],
   "memorize": {
     "trick": "কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।",
     "steps": [
-      "সূত্র: \\text{Atom economy}=\\frac{\\text{mass of desired product}}{\\text{mass of all reac…",
-      "কী কাজে লাগে: সবুজ রসায়ন",
-      "চিহ্ন মনে রাখো: Atom economy, mass of desired product, mass of all reactants"
+      "কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।",
+      "প্রশ্নে সবুজ রসায়ন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: Atom economy, mass of desired product, mass of all reactants — একক যাচাই করো"
     ]
   },
   "subjects": [

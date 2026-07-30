@@ -21,18 +21,18 @@
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "i",
-      "meaning": "i সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তড়িৎ প্রবাহ / জড়তার ভ্রামক",
+      "unit": "A বা kg·m²"
     },
     {
       "symbol": "j",
-      "meaning": "j সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তড়িৎ ঘনত্ব",
+      "unit": "A/m²"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "(AB)_{ij}=\\sum_k a_{ik}b_{kj}",
-        "note": "সারি·কলাম; সাধারণত AB≠BA। (AB)_{ij}=\\sum_k a_{ik}b_{kj}"
+        "note": "ম্যাট্রিক্স গুণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "(AB)_{ij}=\\sum_k a_{ik}b_{kj}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "সারি·কলাম; সাধারণত AB≠BA। (AB)_{ij}=\\sum_k a_{ik}b_{kj}"
       }
     ],
     "assumptions": []
@@ -54,16 +54,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ম্যাট্রিক্স গুণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ম্যাট্রিক্স গুণ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "(AB)_{ij}=\\sum_k a_{ik}b_{kj}"
     }
   ],
   "memorize": {
     "trick": "সারি·কলাম; সাধারণত AB≠BA। (AB)_{ij}=\\sum_k a_{ik}b_{kj}",
     "steps": [
-      "সূত্র: (AB)_{ij}=\\sum_k a_{ik}b_{kj}",
-      "কী কাজে লাগে: ম্যাট্রিক্স গুণ",
-      "চিহ্ন মনে রাখো: A, B, i, j"
+      "সারি·কলাম; সাধারণত AB≠BA। (AB)_{ij}=\\sum_k a_{ik}b_{kj}",
+      "প্রশ্নে ম্যাট্রিক্স গুণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A, B, i — একক যাচাই করো"
     ]
   },
   "subjects": [

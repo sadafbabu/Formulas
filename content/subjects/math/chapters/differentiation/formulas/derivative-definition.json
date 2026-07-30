@@ -21,18 +21,18 @@
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     },
     {
       "symbol": "lim",
-      "meaning": "lim সম্পর্কিত রাশি",
+      "meaning": "lim (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "h",
-      "meaning": "h সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "উচ্চতা / প্ল্যাঙ্ক ধ্রুবক",
+      "unit": "m বা J·s"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
-        "note": "lim h→0 — ঢালের সীমা = অন্তরক।"
+        "note": "অন্তরকের সংজ্ঞা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ঢালের সীমা = অন্তরক। f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অন্তরকের সংজ্ঞা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}"
+      "question": "অন্তরকের সংজ্ঞা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}\\text{ — }ঢালের সীমা = অন্তরক। f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}"
+    },
+    {
+      "examType": "Concept",
+      "question": "অন্তরকের সংজ্ঞা দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{f'(x)= lim h to0 frac f(x+h)-f(x) h}"
     }
   ],
   "memorize": {
     "trick": "ঢালের সীমা = অন্তরক। f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
     "steps": [
-      "সূত্র: f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
-      "কী কাজে লাগে: অন্তরকের সংজ্ঞা",
-      "চিহ্ন মনে রাখো: f, x, lim, h"
+      "ঢালের সীমা = অন্তরক। f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}",
+      "প্রশ্নে অন্তরকের সংজ্ঞা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: f, x, lim — একক যাচাই করো"
     ]
   },
   "subjects": [

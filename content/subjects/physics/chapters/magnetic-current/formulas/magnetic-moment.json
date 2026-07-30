@@ -48,12 +48,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "M = N I A",
-        "note": "কুণ্ডলীর চৌম্বক দ্বিমেরু সমতা:"
+        "note": "চৌম্বক ভ্রামক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "M = N I A",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "M = NIA — 'নিয়া' (NIA) মনে রাখুন: N পাক, I প্রবাহ, A ক্ষেত্রফল।"
       }
     ],
     "assumptions": [

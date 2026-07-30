@@ -25,18 +25,18 @@
     },
     {
       "symbol": "p",
-      "meaning": "p সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভরবেগ / চাপ",
+      "unit": "kg·m/s বা Pa"
     },
     {
       "symbol": "d",
-      "meaning": "d সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "দূরত্ব / ব্যাস",
+      "unit": "m"
     },
     {
       "symbol": "f",
-      "meaning": "f সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কম্পাঙ্ক / বল (প্রসঙ্গমতে)",
+      "unit": "Hz বা N"
     }
   ],
   "derivation": {
@@ -45,12 +45,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10}, \\quad (n+l)\\ \\text{rule}",
-        "note": "Aufbau নীতি (নিম্ন শক্তি আগে), Hund-এর নিয়ম (সর্বোচ্চ অযুগল), Pauli বর্জন নীতি।"
+        "note": "ইলেকট্রন বিন্যাস নিয়মাবলি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10}, \\quad (n+l)\\ \\text{rule}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "(n+l) নিয়ম: যার (n+l) কম, সে আগে ভরে; সমান হলে ছোট n আগে। এজন্যই 4s (4+0=4) ভরে 3d (3+2=5)-এর আগে — এটাই সবচেয়ে বড় ধা"
       }
     ],
     "assumptions": [

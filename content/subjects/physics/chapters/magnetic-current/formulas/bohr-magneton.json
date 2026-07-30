@@ -57,12 +57,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mu_B = \\frac{e h}{4\\pi m_e}, \\quad M = \\frac{e v r}{2} = n \\mu_B",
-        "note": "ইলেকট্রনের ঘূর্ণন প্রবাহ I = e/T বসিয়ে ভ্রামক নির্ণয়:"
+        "note": "বোর ম্যাগনেটন ও অর্বিটাল চৌম্বক ভ্রামক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mu_B = \\frac{e h}{4\\pi m_e}, \\quad M = \\frac{e v r}{2} = n \\mu_B",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "μ_B = eh/(4πm_e) — চৌম্বক ভ্রামকের ক্ষুদ্রতম একক (৯.২৭×১০⁻²⁴ A·m²)। মনে রাখুন: '৪ পাই ভাগে ইলেকট্রন'।"
       }
     ],
     "assumptions": [

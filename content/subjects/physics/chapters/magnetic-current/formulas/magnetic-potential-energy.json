@@ -48,12 +48,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "U = -\\vec{M} \\cdot \\vec{B} = -M B \\cos \\theta",
-        "note": "টর্কের বিরুদ্ধে কৃতকাজ থেকে বিভব শক্তি:"
+        "note": "চৌম্বক বিভব শক্তি এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "U = -\\vec{M} \\cdot \\vec{B} = -M B \\cos \\theta",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "U = −M·B — ঋণাত্মক চিহ্নই আসল। B-এর দিকে সাজানো (θ = 0) হলে U সর্বনিম্ন = −MB (স্থিতিশীল), উল্টো (180°) হলে +MB (অস্থিতি"
       }
     ],
     "assumptions": [

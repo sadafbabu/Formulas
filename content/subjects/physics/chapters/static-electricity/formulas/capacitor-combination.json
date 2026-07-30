@@ -20,7 +20,7 @@
     },
     {
       "symbol": "C_p",
-      "meaning": "C_p সম্পর্কিত রাশি",
+      "meaning": "ধারণক্ষমতা / ধারকত্ব",
       "unit": "F"
     },
     {
@@ -40,12 +40,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{1}{C_s} = \\sum \\frac{1}{C_i}, \\quad C_p = \\sum C_i, \\quad u = \\frac{1}{2}\\varepsilon_0 E^2",
-        "note": "ধারকের বিভব সংযোজন নীতি থেকে শ্রেণী/সমান্তরাল সূত্র।"
+        "note": "ধারকের সংযোজন ও শক্তি ঘনত্ব এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{1}{C_s} = \\sum \\frac{1}{C_i}, \\quad C_p = \\sum C_i, \\quad u = \\frac{1}{2}\\varepsilon_0 E^2",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ধারকের সংযোজন রোধের উল্টো! শ্রেণীতে বিপরীতের যোগ (1/C_s = Σ1/C), সমান্তরালে সরল যোগ (C_p = ΣC)। 'রোধে যা শ্রেণী, ধারকে ত"
       }
     ],
     "assumptions": [

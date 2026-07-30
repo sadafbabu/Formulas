@@ -27,7 +27,7 @@
     },
     {
       "symbol": "k",
-      "meaning": "k সম্পর্কিত রাশি",
+      "meaning": "বল ধ্রুবক / বোল্টজম্যান / তরঙ্গ সংখ্যা",
       "unit": "rad/s, rad/m"
     },
     {
@@ -64,9 +64,9 @@
   "memorize": {
     "trick": "y=A sin(ωt−kx); v=ω/k। y = A sin(ωt − kx) বা A sin(kx − ωt)",
     "steps": [
-      "সূত্র: y=A\\sin(\\omega t-kx),\\quad v=\\omega/k",
-      "y = A sin(ωt − kx) বা A sin(kx − ωt)",
-      "চিহ্ন মনে রাখো: A, \\omega, k, v"
+      "y=A sin(ωt−kx); v=ω/k। y = A sin(ωt − kx) বা A sin(kx − ωt)",
+      "প্রশ্নে অগ্রগামী তরঙ্গ সমীকরণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A, \\omega, k — একক যাচাই করো"
     ]
   },
   "subjects": [

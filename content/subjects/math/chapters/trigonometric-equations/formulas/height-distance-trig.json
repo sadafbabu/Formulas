@@ -21,18 +21,18 @@
     },
     {
       "symbol": "h",
-      "meaning": "h সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "উচ্চতা / প্ল্যাঙ্ক ধ্রুবক",
+      "unit": "m বা J·s"
     },
     {
       "symbol": "d",
-      "meaning": "d সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "দূরত্ব / ব্যাস",
+      "unit": "m"
     },
     {
       "symbol": "l",
-      "meaning": "l সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "দৈর্ঘ্য / আবেশ / ল্যাটেন্ট",
+      "unit": "m বা H"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\tan\\theta=\\frac{h}{d},\\quad \\sin\\theta=\\frac{h}{l}",
-        "note": "উন্নয়ন/অবনমন কোণে tan ব্যবহার করো।"
+        "note": "উচ্চতা ও দূরত্ব এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\tan\\theta=\\frac{h}{d},\\quad \\sin\\theta=\\frac{h}{l}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "উন্নয়ন/অবনমন কোণে tan ব্যবহার করো।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উচ্চতা ও দূরত্ব কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\tan\\theta=\\frac{h}{d},\\quad \\sin\\theta=\\frac{h}{l}"
+      "question": "উচ্চতা ও দূরত্ব এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\tan\\theta=\\frac{h}{d},\\quad \\sin\\theta=\\frac{h}{l}\\text{ — }উন্নয়ন/অবনমন কোণে tan ব্যবহার করো।"
+    },
+    {
+      "examType": "Concept",
+      "question": "উচ্চতা ও দূরত্ব দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{উন্নয়ন/অবনমন কোণে tan ব্যবহার করো।}"
     }
   ],
   "memorize": {
     "trick": "উন্নয়ন/অবনমন কোণে tan ব্যবহার করো।",
     "steps": [
-      "সূত্র: \\tan\\theta=\\frac{h}{d},\\quad \\sin\\theta=\\frac{h}{l}",
-      "কী কাজে লাগে: উচ্চতা ও দূরত্ব",
-      "চিহ্ন মনে রাখো: theta, h, d, l"
+      "উন্নয়ন/অবনমন কোণে tan ব্যবহার করো।",
+      "প্রশ্নে উচ্চতা ও দূরত্ব প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: theta, h, d — একক যাচাই করো"
     ]
   },
   "subjects": [

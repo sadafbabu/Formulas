@@ -46,12 +46,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\lambda = \\frac{h}{p} = \\frac{h}{mv}",
-        "note": "ফোটনের জন্য E=pc ও E=hν, সঙ্গে c=νλ দিলে λ=h/p। de Broglie একই সম্পর্ক matter particle-এর জন্য postulate করেন।"
+        "note": "দ্য ব্রোগলি তরঙ্গদৈর্ঘ্য এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\lambda = \\frac{h}{p} = \\frac{h}{mv}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "λ = h/p = h/(mv) — 'ভারী বা দ্রুত কণার তরঙ্গদৈর্ঘ্য ছোট'। এজন্যই ক্রিকেট বলের তরঙ্গধর্ম দেখা যায় না, কিন্তু ইলেকট্রনের "
       }
     ],
     "assumptions": [
@@ -64,7 +64,7 @@
     {
       "examType": "Medical / Eng",
       "question": "ভরবেগ p এর কণার ডি-ব্রগলি তরঙ্গদৈর্ঘ্য কী?",
-      "answer": "\\lambda = \\frac{h}{p}"
+      "answer": "\\lambda = \\frac{h}{p} = \\frac{h}{mv}"
     }
   ],
   "memorize": {

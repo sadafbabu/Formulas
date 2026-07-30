@@ -22,18 +22,18 @@
     },
     {
       "symbol": "y",
-      "meaning": "y সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান",
+      "unit": "m"
     },
     {
       "symbol": "m",
-      "meaning": "m সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর",
+      "unit": "kg"
     },
     {
       "symbol": "A",
-      "meaning": "A সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ক্ষেত্রফল / বিস্তার",
+      "unit": "m²"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "1\\,\\mathrm{ly}=9.46\\times10^{15}\\,\\mathrm{m},\\quad 1\\,\\mathrm{AU}=1.496\\times10^{11}\\,\\mathrm{m}",
-        "note": "AU = পৃথিবী–সূর্য গড় দূরত্ব; ly = আলোর ১ বছরের পথ।"
+        "note": "আলোকবর্ষ ও AU এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "1\\,\\mathrm{ly}=9.46\\times10^{15}\\,\\mathrm{m},\\quad 1\\,\\mathrm{AU}=1.496\\times10^{11}\\,\\mathrm{m}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "AU = পৃথিবী–সূর্য গড় দূরত্ব; ly = আলোর ১ বছরের পথ।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আলোকবর্ষ ও AU কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "আলোকবর্ষ ও AU এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "1\\,\\mathrm{ly}=9.46\\times10^{15}\\,\\mathrm{m},\\quad 1\\,\\mathrm{AU}=1.496\\times10^{11}\\,\\mathrm{m}"
+    },
+    {
+      "examType": "Concept",
+      "question": "আলোকবর্ষ ও AU দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{AU = পৃথিবীসূর্য গড় দূরত্ব; ly = আলোর ১ বছরের পথ।}"
     }
   ],
   "memorize": {
     "trick": "AU = পৃথিবী–সূর্য গড় দূরত্ব; ly = আলোর ১ বছরের পথ।",
     "steps": [
-      "সূত্র: 1\\,\\mathrm{ly}=9.46\\times10^{15}\\,\\mathrm{m},\\quad 1\\,\\mathrm{AU}=1.496\\times10^…",
-      "কী কাজে লাগে: আলোকবর্ষ ও AU",
-      "চিহ্ন মনে রাখো: l, y, m, A"
+      "AU = পৃথিবী–সূর্য গড় দূরত্ব; ly = আলোর ১ বছরের পথ।",
+      "প্রশ্নে আলোকবর্ষ ও AU প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: l, y, m — একক যাচাই করো"
     ]
   },
   "subjects": [

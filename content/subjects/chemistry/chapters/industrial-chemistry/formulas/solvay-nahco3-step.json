@@ -22,18 +22,18 @@
     },
     {
       "symbol": "NH_3",
-      "meaning": "NH_3 সম্পর্কিত রাশি",
+      "meaning": "NH_3 (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "CO_2",
-      "meaning": "CO_2 সম্পর্কিত রাশি",
+      "meaning": "CO_2 (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "H_2O",
-      "meaning": "H_2O সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র / এনথ্যালপি",
+      "unit": "A/m বা J"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+\\mathrm{NH_4Cl}",
-        "note": "NaHCO₃ তাপে Na₂CO₃ দেয়। \\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+\\mathrm{NH"
+        "note": "সলভে বাইকার্বোনেট ধাপ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+\\mathrm{NH_4Cl}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "NaHCO₃ তাপে Na₂CO₃ দেয়। \\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+\\mathrm{NH"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সলভে বাইকার্বোনেট ধাপ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সলভে বাইকার্বোনেট ধাপ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+\\mathrm{NH_4Cl}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সলভে বাইকার্বোনেট ধাপ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{NaHCO₃ তাপে Na₂CO₃ দেয়। mathrmNaCl+mathrmNH 3+mathrmCO 2+mathrmH 2OtomathrmNaHCO 3downarrow+mathrmN}"
     }
   ],
   "memorize": {
     "trick": "NaHCO₃ তাপে Na₂CO₃ দেয়। \\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+\\mathrm{NH_4Cl}",
     "steps": [
-      "সূত্র: \\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downa…",
-      "কী কাজে লাগে: সলভে বাইকার্বোনেট ধাপ",
-      "চিহ্ন মনে রাখো: NaCl, NH_3, CO_2, H_2O"
+      "NaHCO₃ তাপে Na₂CO₃ দেয়। \\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarr…",
+      "প্রশ্নে সলভে বাইকার্বোনেট ধাপ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: NaCl, NH_3, CO_2 — একক যাচাই করো"
     ]
   },
   "subjects": [

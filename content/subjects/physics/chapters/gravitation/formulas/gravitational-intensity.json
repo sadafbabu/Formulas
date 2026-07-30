@@ -22,18 +22,18 @@
     },
     {
       "symbol": "G",
-      "meaning": "G সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মহাকর্ষ ধ্রুবক",
+      "unit": "N·m²/kg²"
     },
     {
       "symbol": "M",
-      "meaning": "M সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর / মোলার ভর",
+      "unit": "kg বা g/mol"
     },
     {
       "symbol": "r",
-      "meaning": "r সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ব্যাসার্ধ / দূরত্ব",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\vec g=-\\frac{GM}{r^2}\\hat r,\\quad\\vec F=m\\vec g,\\quad g=-\\frac{dV}{dr}",
-        "note": "মহাকর্ষ ক্ষেত্র ও বিভবের সম্পর্ক"
+        "note": "মহাকর্ষ ক্ষেত্র প্রাবল্য এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\vec g=-\\frac{GM}{r^2}\\hat r,\\quad\\vec F=m\\vec g,\\quad g=-\\frac{dV}{dr}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "g = F/m; V এর ঋণাত্মক ঢাল = g।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মহাকর্ষ ক্ষেত্র প্রাবল্য কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "মহাকর্ষ ক্ষেত্র প্রাবল্য এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\vec g=-\\frac{GM}{r^2}\\hat r,\\quad\\vec F=m\\vec g,\\quad g=-\\frac{dV}{dr}"
+    },
+    {
+      "examType": "Concept",
+      "question": "মহাকর্ষ ক্ষেত্র প্রাবল্য দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{g = F/m; V এর ঋণাত্মক ঢাল = g।}"
     }
   ],
   "memorize": {
     "trick": "g = F/m; V এর ঋণাত্মক ঢাল = g।",
     "steps": [
-      "সূত্র: \\vec g=-\\frac{GM}{r^2}\\hat r,\\quad\\vec F=m\\vec g,\\quad g=-\\frac{dV}{dr}",
-      "মহাকর্ষ ক্ষেত্র ও বিভবের সম্পর্ক",
-      "চিহ্ন মনে রাখো: g, G, M, r"
+      "g = F/m; V এর ঋণাত্মক ঢাল = g।",
+      "প্রশ্নে মহাকর্ষ ক্ষেত্র প্রাবল্য প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: g, G, M — একক যাচাই করো"
     ]
   },
   "subjects": [

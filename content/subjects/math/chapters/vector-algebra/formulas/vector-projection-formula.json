@@ -21,18 +21,18 @@
     },
     {
       "symbol": "vec",
-      "meaning": "vec সম্পর্কিত রাশি",
+      "meaning": "vec (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad \\mathrm{comp}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|}",
-        "note": "অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।"
+        "note": "a-এর b-এর উপর অভিক্ষেপ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad \\mathrm{comp}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "a-এর b-এর উপর অভিক্ষেপ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "a-এর b-এর উপর অভিক্ষেপ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad \\mathrm{comp}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|}"
+    },
+    {
+      "examType": "Concept",
+      "question": "a-এর b-এর উপর অভিক্ষেপ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।}"
     }
   ],
   "memorize": {
     "trick": "অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।",
     "steps": [
-      "সূত্র: \\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad \\m…",
-      "কী কাজে লাগে: a-এর b-এর উপর অভিক্ষেপ",
-      "চিহ্ন মনে রাখো: proj, vec, b, a"
+      "অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।",
+      "প্রশ্নে a-এর b-এর উপর অভিক্ষেপ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: proj, vec, b — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -22,18 +22,18 @@
     },
     {
       "symbol": "K",
-      "meaning": "K সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "গতিশক্তি / ধ্রুবক",
+      "unit": "J"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "w",
-      "meaning": "w সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর / কোণীয়",
+      "unit": "kg"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "M=\\frac{K_b w_B}{\\Delta T_b w_A}",
-        "note": "ΔTb বা π দিয়ে molar mass — HSC numerical favorite।"
+        "note": "সম্মিল গুণ থেকে mol ভর এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "M=\\frac{K_b w_B}{\\Delta T_b w_A}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ΔTb বা π দিয়ে molar mass — HSC numerical favorite।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সম্মিল গুণ থেকে mol ভর কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সম্মিল গুণ থেকে mol ভর এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "M=\\frac{K_b w_B}{\\Delta T_b w_A}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সম্মিল গুণ থেকে mol ভর দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{ΔTb বা π দিয়ে molar mass  HSC numerical favorite।}"
     }
   ],
   "memorize": {
     "trick": "ΔTb বা π দিয়ে molar mass — HSC numerical favorite।",
     "steps": [
-      "সূত্র: M=\\frac{K_b w_B}{\\Delta T_b w_A}",
-      "কী কাজে লাগে: সম্মিল গুণ থেকে mol ভর",
-      "চিহ্ন মনে রাখো: M, K, b, w"
+      "ΔTb বা π দিয়ে molar mass — HSC numerical favorite।",
+      "প্রশ্নে সম্মিল গুণ থেকে mol ভর প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: M, K, b — একক যাচাই করো"
     ]
   },
   "subjects": [

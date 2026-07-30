@@ -16,8 +16,8 @@
   "symbols": [
     {
       "symbol": "F",
-      "meaning": "F(x",
-      "unit": "—"
+      "meaning": "বল",
+      "unit": "N"
     },
     {
       "symbol": "x",
@@ -26,12 +26,12 @@
     },
     {
       "symbol": "y",
-      "meaning": "y সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান",
+      "unit": "m"
     },
     {
       "symbol": "Rightarrow",
-      "meaning": "Rightarrow সম্পর্কিত রাশি",
+      "meaning": "Rightarrow (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "F(x,y)=0\\Rightarrow\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
-        "note": "দুই পাশে d/dx; dy/dx কে আলাদা করুন।"
+        "note": "অন্তর্নিহিত অন্তরীকরণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "F(x,y)=0\\Rightarrow\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "দুই পাশে d/dx; dy/dx কে আলাদা করুন।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অন্তর্নিহিত অন্তরীকরণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "F(x,y)=0\\Rightarrow\\frac{dy}{dx}=-\\frac{F_x}{F_y}"
+      "question": "অন্তর্নিহিত অন্তরীকরণ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "F(x,y)=0\\Rightarrow\\frac{dy}{dx}=-\\frac{F_x}{F_y}\\text{ — }দুই পাশে d/dx; dy/dx কে আলাদা করুন।"
+    },
+    {
+      "examType": "Concept",
+      "question": "অন্তর্নিহিত অন্তরীকরণ দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{দুই পাশে d/dx; dy/dx কে আলাদা করুন।}"
     }
   ],
   "memorize": {
     "trick": "দুই পাশে d/dx; dy/dx কে আলাদা করুন।",
     "steps": [
-      "সূত্র: F(x,y)=0\\Rightarrow\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
-      "কী কাজে লাগে: অন্তর্নিহিত অন্তরীকরণ",
-      "চিহ্ন মনে রাখো: F, x, y, Rightarrow"
+      "দুই পাশে d/dx; dy/dx কে আলাদা করুন।",
+      "প্রশ্নে অন্তর্নিহিত অন্তরীকরণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: F, x, y — একক যাচাই করো"
     ]
   },
   "subjects": [

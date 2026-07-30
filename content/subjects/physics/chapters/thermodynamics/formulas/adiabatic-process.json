@@ -55,12 +55,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "PV^{\\gamma} = \\text{const}, \\quad TV^{\\gamma-1} = \\text{const}, \\quad W = \\frac{P_1 V_1 - P_2 V_2}{\\gamma - 1}",
-        "note": "রুদ্ধতাপীয় প্রক্রিয়ায় তাপ আদান-প্রদান শূন্য (Q = 0), প্রথম সূত্র থেকে dU = -dW।"
+        "note": "রুদ্ধতাপীয় প্রক্রিয়া সম্পর্ক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "PV^{\\gamma} = \\text{const}, \\quad TV^{\\gamma-1} = \\text{const}, \\quad W = \\frac{P_1 V_1 - P_2 V_2}{\\gamma - 1}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "রুদ্ধতাপীয়: PV^γ ধ্রুব; কাজ W = (P₁V₁−P₂V₂)/(γ−1)।"
       }
     ],
     "assumptions": [

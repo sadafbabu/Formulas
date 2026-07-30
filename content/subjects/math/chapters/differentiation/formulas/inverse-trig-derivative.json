@@ -26,12 +26,12 @@
     },
     {
       "symbol": "arcsin",
-      "meaning": "arcsin সম্পর্কিত রাশি",
+      "meaning": "arcsin (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "sqrt",
-      "meaning": "sqrt সম্পর্কিত রাশি",
+      "meaning": "sqrt (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}",
-        "note": "√(1−x²) ও (1+x²) মুখস্থ রাখো। \\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}"
+        "note": "arcsin/arctan এর অন্তরক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "√(1−x²) ও (1+x²) মুখস্থ রাখো। \\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}"
       }
     ],
     "assumptions": []
@@ -54,16 +54,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "arcsin/arctan এর অন্তরক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}"
+      "question": "arcsin/arctan এর অন্তরক এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}\\text{ — }√(1−x²) ও (1+x²) মুখস্থ রাখো। \\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad"
     }
   ],
   "memorize": {
     "trick": "√(1−x²) ও (1+x²) মুখস্থ রাখো। \\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}",
     "steps": [
-      "সূত্র: \\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1…",
-      "কী কাজে লাগে: arcsin/arctan এর অন্তরক",
-      "চিহ্ন মনে রাখো: d, x, arcsin, sqrt"
+      "√(1−x²) ও (1+x²) মুখস্থ রাখো। \\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\fra…",
+      "প্রশ্নে arcsin/arctan এর অন্তরক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: d, x, arcsin — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -22,17 +22,17 @@
     },
     {
       "symbol": "O_2",
-      "meaning": "O_2 সম্পর্কিত রাশি",
+      "meaning": "O_2 (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "xrightarrow",
-      "meaning": "xrightarrow সম্পর্কিত রাশি",
+      "meaning": "xrightarrow (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "Pt",
-      "meaning": "Pt সম্পর্কিত রাশি",
+      "meaning": "Pt (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "4\\mathrm{NH_3}+5\\mathrm{O_2}\\xrightarrow{\\mathrm{Pt}}4\\mathrm{NO}+6\\mathrm{H_2O}",
-        "note": "অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।"
+        "note": "অস্টওয়াল্ড NH₃ জারণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "4\\mathrm{NH_3}+5\\mathrm{O_2}\\xrightarrow{\\mathrm{Pt}}4\\mathrm{NO}+6\\mathrm{H_2O}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অস্টওয়াল্ড NH₃ জারণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "অস্টওয়াল্ড NH₃ জারণ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "4\\mathrm{NH_3}+5\\mathrm{O_2}\\xrightarrow{\\mathrm{Pt}}4\\mathrm{NO}+6\\mathrm{H_2O}"
+    },
+    {
+      "examType": "Concept",
+      "question": "অস্টওয়াল্ড NH₃ জারণ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।}"
     }
   ],
   "memorize": {
     "trick": "অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।",
     "steps": [
-      "সূত্র: 4\\mathrm{NH_3}+5\\mathrm{O_2}\\xrightarrow{\\mathrm{Pt}}4\\mathrm{NO}+6\\mathrm{H_2O}",
-      "কী কাজে লাগে: অস্টওয়াল্ড NH₃ জারণ",
-      "চিহ্ন মনে রাখো: NH_3, O_2, xrightarrow, Pt"
+      "অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।",
+      "প্রশ্নে অস্টওয়াল্ড NH₃ জারণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: NH_3, O_2, xrightarrow — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -21,12 +21,12 @@
     },
     {
       "symbol": "favourable length/area",
-      "meaning": "favourable length/area সম্পর্কিত রাশি",
+      "meaning": "favourable length/area (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "total length/area",
-      "meaning": "total length/area সম্পর্কিত রাশি",
+      "meaning": "total length/area (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P=\\frac{\\text{favourable length/area}}{\\text{total length/area}}",
-        "note": "এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।"
+        "note": "জ্যামিতিক সম্ভাব্যতা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "P=\\frac{\\text{favourable length/area}}{\\text{total length/area}}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।"
       }
     ],
     "assumptions": []
@@ -49,16 +49,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জ্যামিতিক সম্ভাব্যতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "জ্যামিতিক সম্ভাব্যতা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "P=\\frac{\\text{favourable length/area}}{\\text{total length/area}}"
+    },
+    {
+      "examType": "Concept",
+      "question": "জ্যামিতিক সম্ভাব্যতা দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।}"
     }
   ],
   "memorize": {
     "trick": "এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।",
     "steps": [
-      "সূত্র: P=\\frac{\\text{favourable length/area}}{\\text{total length/area}}",
-      "কী কাজে লাগে: জ্যামিতিক সম্ভাব্যতা",
-      "চিহ্ন মনে রাখো: P, favourable length/area, total length/area"
+      "এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।",
+      "প্রশ্নে জ্যামিতিক সম্ভাব্যতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: P, favourable length/area, total length/area — একক যাচাই করো"
     ]
   },
   "subjects": [

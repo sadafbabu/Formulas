@@ -22,18 +22,18 @@
     },
     {
       "symbol": "M",
-      "meaning": "M সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর / মোলার ভর",
+      "unit": "kg বা g/mol"
     },
     {
       "symbol": "d",
-      "meaning": "d সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "দূরত্ব / ব্যাস",
+      "unit": "m"
     },
     {
       "symbol": "i",
-      "meaning": "i সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তড়িৎ প্রবাহ / জড়তার ভ্রামক",
+      "unit": "A বা kg·m²"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
-        "note": "m−M=5log(d/10) — m=আপাত, M=পরম মান।"
+        "note": "দূরত্ব মডুলাস এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "m=আপাত, M=পরম মান। m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})"
       }
     ],
     "assumptions": []
@@ -55,16 +55,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দূরত্ব মডুলাস কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "দূরত্ব মডুলাস এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})"
     }
   ],
   "memorize": {
     "trick": "m=আপাত, M=পরম মান। m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
     "steps": [
-      "সূত্র: m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
-      "কী কাজে লাগে: দূরত্ব মডুলাস",
-      "চিহ্ন মনে রাখো: m, M, d, i"
+      "m=আপাত, M=পরম মান। m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
+      "প্রশ্নে দূরত্ব মডুলাস প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: m, M, d — একক যাচাই করো"
     ]
   },
   "subjects": [

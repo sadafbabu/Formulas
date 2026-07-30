@@ -21,17 +21,17 @@
     },
     {
       "symbol": "alpha",
-      "meaning": "alpha সম্পর্কিত রাশি",
+      "meaning": "কোণ / প্রসারণ গুণাঙ্ক",
       "unit": "—"
     },
     {
       "symbol": "Q",
-      "meaning": "Q সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তাপ / চার্জ",
+      "unit": "J বা C"
     },
     {
       "symbol": "beta",
-      "meaning": "beta সম্পর্কিত রাশি",
+      "meaning": "কোণ / ক্ষেত্র প্রসারণ",
       "unit": "—"
     }
   ],
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{P}{\\sin\\alpha}=\\frac{Q}{\\sin\\beta}=\\frac{R}{\\sin\\gamma}",
-        "note": "প্রতিটি বল বিপরীত কোণের sin-এ ভাগ।"
+        "note": "লামির উপপাদ্য এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{P}{\\sin\\alpha}=\\frac{Q}{\\sin\\beta}=\\frac{R}{\\sin\\gamma}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "প্রতিটি বল বিপরীত কোণের sin-এ ভাগ।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "লামির উপপাদ্য কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\frac{P}{\\sin\\alpha}=\\frac{Q}{\\sin\\beta}=\\frac{R}{\\sin\\gamma}"
+      "question": "লামির উপপাদ্য এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\frac{P}{\\sin\\alpha}=\\frac{Q}{\\sin\\beta}=\\frac{R}{\\sin\\gamma}\\text{ — }প্রতিটি বল বিপরীত কোণের sin-এ ভাগ।"
+    },
+    {
+      "examType": "Concept",
+      "question": "লামির উপপাদ্য দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{প্রতিটি বল বিপরীত কোণের sin-এ ভাগ।}"
     }
   ],
   "memorize": {
     "trick": "প্রতিটি বল বিপরীত কোণের sin-এ ভাগ।",
     "steps": [
-      "সূত্র: \\frac{P}{\\sin\\alpha}=\\frac{Q}{\\sin\\beta}=\\frac{R}{\\sin\\gamma}",
-      "কী কাজে লাগে: লামির উপপাদ্য",
-      "চিহ্ন মনে রাখো: P, alpha, Q, beta"
+      "প্রতিটি বল বিপরীত কোণের sin-এ ভাগ।",
+      "প্রশ্নে লামির উপপাদ্য প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: P, alpha, Q — একক যাচাই করো"
     ]
   },
   "subjects": [

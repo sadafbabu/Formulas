@@ -22,18 +22,18 @@
     },
     {
       "symbol": "ce",
-      "meaning": "ce সম্পর্কিত রাশি",
+      "meaning": "ce (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "C",
-      "meaning": "C সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ধারণক্ষমতা / ধারকত্ব",
+      "unit": "F বা J/K"
     },
     {
       "symbol": "H",
-      "meaning": "H সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র / এনথ্যালপি",
+      "unit": "A/m বা J"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "n\\,\\ce{CH2=CH2 -> [-CH2-CH2-]_n}",
-        "note": "Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।"
+        "note": "পলিমারাইজেশন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "n\\,\\ce{CH2=CH2 -> [-CH2-CH2-]_n}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পলিমারাইজেশন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "পলিমারাইজেশন এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "n\\,\\ce{CH2=CH2 -> [-CH2-CH2-]_n}"
+    },
+    {
+      "examType": "Concept",
+      "question": "পলিমারাইজেশন দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।}"
     }
   ],
   "memorize": {
     "trick": "Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।",
     "steps": [
-      "সূত্র: n\\,\\ce{CH2=CH2 -> [-CH2-CH2-]_n}",
-      "কী কাজে লাগে: পলিমারাইজেশন",
-      "চিহ্ন মনে রাখো: n, ce, C, H"
+      "Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।",
+      "প্রশ্নে পলিমারাইজেশন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: n, ce, C — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -22,18 +22,18 @@
     },
     {
       "symbol": "f",
-      "meaning": "f সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কম্পাঙ্ক / বল (প্রসঙ্গমতে)",
+      "unit": "Hz বা N"
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "l",
-      "meaning": "l সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "দৈর্ঘ্য / আবেশ / ল্যাটেন্ট",
+      "unit": "m বা H"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{s.f. = all certain digits + first uncertain digit}",
-        "note": "গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।"
+        "note": "সার্থক অঙ্ক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{s.f. = all certain digits + first uncertain digit}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সার্থক অঙ্ক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সার্থক অঙ্ক এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{s.f. = all certain digits + first uncertain digit}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সার্থক অঙ্ক দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।}"
     }
   ],
   "memorize": {
     "trick": "গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।",
     "steps": [
-      "সূত্র: \\text{s.f. = all certain digits + first uncertain digit}",
-      "কী কাজে লাগে: সার্থক অঙ্ক",
-      "চিহ্ন মনে রাখো: s, f, a, l"
+      "গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।",
+      "প্রশ্নে সার্থক অঙ্ক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: s, f, a — একক যাচাই করো"
     ]
   },
   "subjects": [

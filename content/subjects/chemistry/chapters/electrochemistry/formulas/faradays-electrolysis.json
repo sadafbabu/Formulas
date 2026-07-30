@@ -52,12 +52,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "m=ZIt=\\frac{MIt}{nF},\\quad F=96500\\ \\mathrm{C\\,mol^{-1}},\\quad Z=\\frac{M}{nF}",
-        "note": "W ∝ Q এবং Q = It। ১ম ফ্যারাডে ধ্রুবক F = 96500 C/mol প্রতিস্থাপন করা হয়।"
+        "note": "ফ্যারাডের তড়িৎ বিশ্লেষণ সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "m=ZIt=\\frac{MIt}{nF},\\quad F=96500\\ \\mathrm{C\\,mol^{-1}},\\quad Z=\\frac{M}{nF}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "m = ZIt = MIt/(nF), তাই electrochemical equivalent Z = M/(nF)—শুধু M/n নয়। এক Faraday charge এক gram-equivalent পদার্থ "
       }
     ],
     "assumptions": []
@@ -72,9 +72,9 @@
   "memorize": {
     "trick": "m = ZIt = MIt/(nF), তাই electrochemical equivalent Z = M/(nF)—শুধু M/n নয়। এক Faraday charge এক gram-equivalent পদার্থ জমায়।",
     "steps": [
-      "সূত্র: m=ZIt=\\frac{MIt}{nF},\\quad F=96500\\ \\mathrm{C\\,mol^{-1}},\\quad Z=\\frac{M}{nF}",
-      "তড়িৎ বিশ্লেষণে সঞ্চিত বা দ্রবীভূত পদার্থের ভর ও তড়িৎ পরিমাণের সম্পর্ক",
-      "চিহ্ন মনে রাখো: m, Z, I"
+      "m = ZIt = MIt/(nF), তাই electrochemical equivalent Z = M/(nF)—শুধু M/n নয়। এক Faraday charge এক gram-equiv…",
+      "প্রশ্নে ফ্যারাডের তড়িৎ বিশ্লেষণ সূত্র প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: m, Z, I — একক যাচাই করো"
     ]
   },
   "subjects": [

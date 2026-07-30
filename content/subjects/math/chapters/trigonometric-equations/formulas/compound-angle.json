@@ -19,7 +19,7 @@
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
+      "meaning": "চৌম্বক ক্ষেত্র",
       "unit": "rad"
     }
   ],
@@ -29,12 +29,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\sin(A\\pm B) = \\sin A\\cos B \\pm \\cos A\\sin B, \\quad \\cos(A\\pm B) = \\cos A\\cos B \\mp \\sin A\\sin B",
-        "note": "একক বৃত্ত ও ঘূর্ণন ম্যাট্রিক্স থেকে প্রাপ্ত।"
+        "note": "যৌগিক কোণের সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\sin(A\\pm B) = \\sin A\\cos B \\pm \\cos A\\sin B, \\quad \\cos(A\\pm B) = \\cos A\\cos B \\mp \\sin A\\sin B",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "sin(A±B) = sinA cosB ± cosA sinB; cos(A±B) = cosA cosB ∓ sinA sinB — sin মিশ্র চিহ্ন, cos বিপরীত চিহ্ন।"
       }
     ],
     "assumptions": [
@@ -53,9 +53,9 @@
   "memorize": {
     "trick": "sin(A±B) = sinA cosB ± cosA sinB; cos(A±B) = cosA cosB ∓ sinA sinB — sin মিশ্র চিহ্ন, cos বিপরীত চিহ্ন।",
     "steps": [
-      "সূত্র: \\sin(A\\pm B) = \\sin A\\cos B \\pm \\cos A\\sin B, \\quad \\cos(A\\pm B) = \\cos A\\cos B …",
-      "sin, cos, tan এর যোগফল ও বিয়োগফল কোণ সূত্র",
-      "চিহ্ন মনে রাখো: A, B"
+      "sin(A±B) = sinA cosB ± cosA sinB; cos(A±B) = cosA cosB ∓ sinA sinB — sin মিশ্র চিহ্ন, cos বিপরীত চিহ্ন।",
+      "প্রশ্নে যৌগিক কোণের সূত্র প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A, B — একক যাচাই করো"
     ]
   },
   "subjects": [

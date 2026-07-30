@@ -21,18 +21,18 @@
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "c",
-      "meaning": "c সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "আলোর বেগ / আপেক্ষিক তাপ",
+      "unit": "m/s বা J/(kg·K)"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "[\\vec a\\,\\vec b\\,\\vec c]=\\vec a\\cdot(\\vec b\\times\\vec c)=\\begin{vmatrix}a_x&a_y&a_z\\\\b_x&b_y&b_z\\\\c_x&c_y&c_z\\end{vmatrix}",
-        "note": "আয়তন = |[a b c]|; সমতলীয় হলে ০।"
+        "note": "স্কালার ত্রিগুণফল এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "[\\vec a\\,\\vec b\\,\\vec c]=\\vec a\\cdot(\\vec b\\times\\vec c)=\\begin{vmatrix}a_x&a_y&a_z\\\\b_x&b_y&b_z\\\\c_x&c_y&c_z\\end{vmatrix}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "আয়তন = |[a b c]|; সমতলীয় হলে ০।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্কালার ত্রিগুণফল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "স্কালার ত্রিগুণফল এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "[\\vec a\\,\\vec b\\,\\vec c]=\\vec a\\cdot(\\vec b\\times\\vec c)=\\begin{vmatrix}a_x&a_y&a_z\\\\b_x&b_y&b_z\\\\c_x&c_y&c_z\\end{vmatrix}"
+    },
+    {
+      "examType": "Concept",
+      "question": "স্কালার ত্রিগুণফল দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{আয়তন = |[a b c]|; সমতলীয় হলে ০।}"
     }
   ],
   "memorize": {
     "trick": "আয়তন = |[a b c]|; সমতলীয় হলে ০।",
     "steps": [
-      "সূত্র: [\\vec a\\,\\vec b\\,\\vec c]=\\vec a\\cdot(\\vec b\\times\\vec c)=\\begin{vmatrix}a_x&a_y&…",
-      "কী কাজে লাগে: স্কালার ত্রিগুণফল",
-      "চিহ্ন মনে রাখো: vec, a, b, c"
+      "আয়তন = |[a b c]|; সমতলীয় হলে ০।",
+      "প্রশ্নে স্কালার ত্রিগুণফল প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: vec, a, b — একক যাচাই করো"
     ]
   },
   "subjects": [

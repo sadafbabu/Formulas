@@ -21,17 +21,17 @@
     },
     {
       "symbol": "u",
-      "meaning": "u সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "আদি বেগ",
+      "unit": "m/s"
     },
     {
       "symbol": "g",
-      "meaning": "g সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অভিকর্ষজ ত্বরণ",
+      "unit": "m/s²"
     },
     {
       "symbol": "at",
-      "meaning": "at সম্পর্কিত রাশি",
+      "meaning": "at (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "R_{\\max}=\\frac{u^2}{g}\\quad\\text{at }\\theta=45^\\circ",
-        "note": "sin2θ max at 45°; same level থেকে ছোড়লে।"
+        "note": "সর্বোচ্চ পালার কোণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "R_{\\max}=\\frac{u^2}{g}\\quad\\text{at }\\theta=45^\\circ",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "sin2θ max at 45°; same level থেকে ছোড়লে।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সর্বোচ্চ পালার কোণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "সর্বোচ্চ পালার কোণ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "R_{\\max}=\\frac{u^2}{g}\\quad\\text{at }\\theta=45^\\circ"
+    },
+    {
+      "examType": "Concept",
+      "question": "সর্বোচ্চ পালার কোণ দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{sin2θ max at 45; same level থেকে ছোড়লে।}"
     }
   ],
   "memorize": {
     "trick": "sin2θ max at 45°; same level থেকে ছোড়লে।",
     "steps": [
-      "সূত্র: R_{\\max}=\\frac{u^2}{g}\\quad\\text{at }\\theta=45^\\circ",
-      "কী কাজে লাগে: সর্বোচ্চ পালার কোণ",
-      "চিহ্ন মনে রাখো: R, u, g, at"
+      "sin2θ max at 45°; same level থেকে ছোড়লে।",
+      "প্রশ্নে সর্বোচ্চ পালার কোণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: R, u, g — একক যাচাই করো"
     ]
   },
   "subjects": [

@@ -22,17 +22,17 @@
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     },
     {
       "symbol": "p",
-      "meaning": "p সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভরবেগ / চাপ",
+      "unit": "kg·m/s বা Pa"
     },
     {
       "symbol": "light",
-      "meaning": "light সম্পর্কিত রাশি",
+      "meaning": "light (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{stable }n/p\\approx1\\ (\\text{light})\\to\\approx1.5\\ (\\text{heavy})",
-        "note": "ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।"
+        "note": "n/p স্থিতিশীলতা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{stable }n/p\\approx1\\ (\\text{light})\\to\\approx1.5\\ (\\text{heavy})",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "n/p স্থিতিশীলতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "n/p স্থিতিশীলতা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{stable }n/p\\approx1\\ (\\text{light})\\to\\approx1.5\\ (\\text{heavy})"
+    },
+    {
+      "examType": "Concept",
+      "question": "n/p স্থিতিশীলতা দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।}"
     }
   ],
   "memorize": {
     "trick": "ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।",
     "steps": [
-      "সূত্র: \\text{stable }n/p\\approx1\\ (\\text{light})\\to\\approx1.5\\ (\\text{heavy})",
-      "কী কাজে লাগে: n/p স্থিতিশীলতা",
-      "চিহ্ন মনে রাখো: stable, n, p, light"
+      "ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।",
+      "প্রশ্নে n/p স্থিতিশীলতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: stable, n, p — একক যাচাই করো"
     ]
   },
   "subjects": [

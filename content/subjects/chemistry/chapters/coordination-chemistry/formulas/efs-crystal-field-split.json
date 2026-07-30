@@ -22,18 +22,18 @@
     },
     {
       "symbol": "o",
-      "meaning": "o সম্পর্কিত রাশি",
+      "meaning": "o (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "octahedral",
-      "meaning": "octahedral সম্পর্কিত রাশি",
+      "meaning": "octahedral (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "t",
-      "meaning": "t সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "সময়",
+      "unit": "s"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta_o\\ (\\text{octahedral}),\\quad \\Delta_t=\\tfrac45\\Delta_o\\ (\\text{approx. for tetrahedral})",
-        "note": "বড় Δ → নিম্ন স্পিন; ছোট Δ → উচ্চ স্পিন।"
+        "note": "স্ফটিক ক্ষেত্র বিভাজন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\Delta_o\\ (\\text{octahedral}),\\quad \\Delta_t=\\tfrac45\\Delta_o\\ (\\text{approx. for tetrahedral})",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "বড় Δ → নিম্ন স্পিন; ছোট Δ → উচ্চ স্পিন।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্ফটিক ক্ষেত্র বিভাজন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "স্ফটিক ক্ষেত্র বিভাজন এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\Delta_o\\ (\\text{octahedral}),\\quad \\Delta_t=\\tfrac45\\Delta_o\\ (\\text{approx. for tetrahedral})"
+    },
+    {
+      "examType": "Concept",
+      "question": "স্ফটিক ক্ষেত্র বিভাজন দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{বড় Δ → নিম্ন স্পিন; ছোট Δ → উচ্চ স্পিন।}"
     }
   ],
   "memorize": {
     "trick": "বড় Δ → নিম্ন স্পিন; ছোট Δ → উচ্চ স্পিন।",
     "steps": [
-      "সূত্র: \\Delta_o\\ (\\text{octahedral}),\\quad \\Delta_t=\\tfrac45\\Delta_o\\ (\\text{approx. fo…",
-      "কী কাজে লাগে: স্ফটিক ক্ষেত্র বিভাজন",
-      "চিহ্ন মনে রাখো: Delta, o, octahedral, t"
+      "বড় Δ → নিম্ন স্পিন; ছোট Δ → উচ্চ স্পিন।",
+      "প্রশ্নে স্ফটিক ক্ষেত্র বিভাজন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: Delta, o, octahedral — একক যাচাই করো"
     ]
   },
   "subjects": [

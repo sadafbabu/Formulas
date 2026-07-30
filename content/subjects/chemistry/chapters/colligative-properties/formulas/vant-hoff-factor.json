@@ -22,12 +22,12 @@
     },
     {
       "symbol": "observed colligative property",
-      "meaning": "observed colligative property সম্পর্কিত রাশি",
+      "meaning": "observed colligative property (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "calculated (no dissociation)",
-      "meaning": "calculated (no dissociation) সম্পর্কিত রাশি",
+      "meaning": "calculated (no dissociation) (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -37,12 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "i=\\frac{\\text{observed colligative property}}{\\text{calculated (no dissociation)}}",
-        "note": "Electrolyte-এ i>1; association-এ i<1।"
+        "note": "ভ্যান't হফ গুণক এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "i=\\frac{\\text{observed colligative property}}{\\text{calculated (no dissociation)}}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Electrolyte-এ i>1; association-এ i<1।"
       }
     ],
     "assumptions": []
@@ -50,16 +50,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভ্যান't হফ গুণক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ভ্যান't হফ গুণক এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "i=\\frac{\\text{observed colligative property}}{\\text{calculated (no dissociation)}}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ভ্যান't হফ গুণক দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Electrolyte-এ i>1; association-এ i<1।}"
     }
   ],
   "memorize": {
     "trick": "Electrolyte-এ i>1; association-এ i<1।",
     "steps": [
-      "সূত্র: i=\\frac{\\text{observed colligative property}}{\\text{calculated (no dissociation)…",
-      "কী কাজে লাগে: ভ্যান't হফ গুণক",
-      "চিহ্ন মনে রাখো: i, observed colligative property, calculated (no dissociation)"
+      "Electrolyte-এ i>1; association-এ i<1।",
+      "প্রশ্নে ভ্যান't হফ গুণক প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: i, observed colligative property, calculated (no dissociation) — একক যাচাই করো"
     ]
   },
   "subjects": [

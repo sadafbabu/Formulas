@@ -21,8 +21,8 @@
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     }
   ],
   "derivation": {
@@ -31,12 +31,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\lim_{x\\to0}\\frac{\\sin x}{x}=1",
-        "note": "রেডিয়ানে সত্য; ডিগ্রিতে নয়। \\lim_{x\\to0}\\frac{\\sin x}{x}=1"
+        "note": "প্রমিত সীমা sinx/x এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\lim_{x\\to0}\\frac{\\sin x}{x}=1",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "রেডিয়ানে সত্য; ডিগ্রিতে নয়। \\lim_{x\\to0}\\frac{\\sin x}{x}=1"
       }
     ],
     "assumptions": []
@@ -44,16 +44,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্রমিত সীমা sinx/x কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\lim_{x\\to0}\\frac{\\sin x}{x}=1"
+      "question": "প্রমিত সীমা sinx/x এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\lim_{x\\to0}\\frac{\\sin x}{x}=1\\text{ — }রেডিয়ানে সত্য; ডিগ্রিতে নয়। \\lim_{x\\to0}\\frac{\\sin x}{x}=1"
+    },
+    {
+      "examType": "Concept",
+      "question": "প্রমিত সীমা sinx/x দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{lim x to0 frac sin x x =1}"
     }
   ],
   "memorize": {
     "trick": "রেডিয়ানে সত্য; ডিগ্রিতে নয়। \\lim_{x\\to0}\\frac{\\sin x}{x}=1",
     "steps": [
-      "সূত্র: \\lim_{x\\to0}\\frac{\\sin x}{x}=1",
-      "কী কাজে লাগে: প্রমিত সীমা sinx/x",
-      "চিহ্ন মনে রাখো: lim, x"
+      "রেডিয়ানে সত্য; ডিগ্রিতে নয়। \\lim_{x\\to0}\\frac{\\sin x}{x}=1",
+      "প্রশ্নে প্রমিত সীমা sinx/x প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: lim, x — একক যাচাই করো"
     ]
   },
   "subjects": [

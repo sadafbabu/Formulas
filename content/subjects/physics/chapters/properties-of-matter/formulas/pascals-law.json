@@ -21,8 +21,8 @@
     },
     {
       "symbol": "A",
-      "meaning": "A সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ক্ষেত্রফল / বিস্তার",
+      "unit": "m²"
     }
   ],
   "derivation": {
@@ -31,12 +31,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}",
-        "note": "Hydraulic lift: small force × large distance = large force × small distance।"
+        "note": "প্যাসকেলের সূত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Hydraulic lift: small force × large distance = large force × small distance।"
       }
     ],
     "assumptions": []
@@ -44,16 +44,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্যাসকেলের সূত্র কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "প্যাসকেলের সূত্র এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}"
+    },
+    {
+      "examType": "Concept",
+      "question": "প্যাসকেলের সূত্র দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Hydraulic lift: small force  large distance = large force  small distance।}"
     }
   ],
   "memorize": {
     "trick": "Hydraulic lift: small force × large distance = large force × small distance।",
     "steps": [
-      "সূত্র: \\frac{F_1}{A_1}=\\frac{F_2}{A_2}",
-      "কী কাজে লাগে: প্যাসকেলের সূত্র",
-      "চিহ্ন মনে রাখো: F, A"
+      "Hydraulic lift: small force × large distance = large force × small distance।",
+      "প্রশ্নে প্যাসকেলের সূত্র প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: F, A — একক যাচাই করো"
     ]
   },
   "subjects": [

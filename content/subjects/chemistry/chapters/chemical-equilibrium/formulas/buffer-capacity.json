@@ -22,18 +22,18 @@
     },
     {
       "symbol": "p",
-      "meaning": "p সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভরবেগ / চাপ",
+      "unit": "kg·m/s বা Pa"
     },
     {
       "symbol": "K",
-      "meaning": "K সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "গতিশক্তি / ধ্রুবক",
+      "unit": "J"
     },
     {
       "symbol": "a",
-      "meaning": "a সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ত্বরণ",
+      "unit": "m/s²"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{pH}=pK_a+\\log\\frac{[\\mathrm{salt}]}{[\\mathrm{acid}]},\\quad\\beta=\\frac{dn}{d(\\mathrm{pH})}",
-        "note": "Henderson + capacity β = dn/d(pH)।"
+        "note": "বাফার ক্ষমতা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\mathrm{pH}=pK_a+\\log\\frac{[\\mathrm{salt}]}{[\\mathrm{acid}]},\\quad\\beta=\\frac{dn}{d(\\mathrm{pH})}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Henderson + capacity β = dn/d(pH)।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বাফার ক্ষমতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "বাফার ক্ষমতা এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\mathrm{pH}=pK_a+\\log\\frac{[\\mathrm{salt}]}{[\\mathrm{acid}]},\\quad\\beta=\\frac{dn}{d(\\mathrm{pH})}"
+    },
+    {
+      "examType": "Concept",
+      "question": "বাফার ক্ষমতা দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Henderson + capacity β = dn/d(pH)।}"
     }
   ],
   "memorize": {
     "trick": "Henderson + capacity β = dn/d(pH)।",
     "steps": [
-      "সূত্র: \\mathrm{pH}=pK_a+\\log\\frac{[\\mathrm{salt}]}{[\\mathrm{acid}]},\\quad\\beta=\\frac{dn…",
-      "কী কাজে লাগে: বাফার ক্ষমতা",
-      "চিহ্ন মনে রাখো: pH, p, K, a"
+      "Henderson + capacity β = dn/d(pH)।",
+      "প্রশ্নে বাফার ক্ষমতা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: pH, p, K — একক যাচাই করো"
     ]
   },
   "subjects": [

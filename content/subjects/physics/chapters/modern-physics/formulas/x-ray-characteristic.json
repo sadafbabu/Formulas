@@ -35,12 +35,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\lambda_{min} = \\frac{hc}{eV}, \\quad \\frac{1}{\\lambda} = R(Z-\\sigma)^2\\left(\\frac{1}{n_1^2}-\\frac{1}{n_2^2}\\right)",
-        "note": "ইলেকট্রনের সম্পূর্ণ গতিশক্তি একটি ফোটনে রূপান্তর হলে সর্বনিম্ন তরঙ্গদৈর্ঘ্য।"
+        "note": "এক্স-রশ্মির বৈশিষ্ট্যমূলক বর্ণালি ও সীমা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\lambda_{min} = \\frac{hc}{eV}, \\quad \\frac{1}{\\lambda} = R(Z-\\sigma)^2\\left(\\frac{1}{n_1^2}-\\frac{1}{n_2^2}\\right)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "λ_min = hc/(eV) ≈ 12400/V Å — সর্বনিম্ন তরঙ্গদৈর্ঘ্য কেবল ভোল্টেজের উপর নির্ভর করে, টার্গেট পদার্থে নয়। বৈশিষ্ট্যমূলক র"
       }
     ],
     "assumptions": [

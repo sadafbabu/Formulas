@@ -22,17 +22,17 @@
     },
     {
       "symbol": "O",
-      "meaning": "O সম্পর্কিত রাশি",
+      "meaning": "O (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "used by microbes (5 days)",
-      "meaning": "used by microbes (5 days) সম্পর্কিত রাশি",
+      "meaning": "used by microbes (5 days) (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "COD",
-      "meaning": "COD সম্পর্কিত রাশি",
+      "meaning": "COD (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{BOD}=\\text{O}_2\\text{ used by microbes (5 days)};\\quad \\text{COD}=\\text{chemical O}_2\\text{ demand}",
-        "note": "BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।"
+        "note": "BOD ও COD এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{BOD}=\\text{O}_2\\text{ used by microbes (5 days)};\\quad \\text{COD}=\\text{chemical O}_2\\text{ demand}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "BOD ও COD কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "BOD ও COD এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{BOD}=\\text{O}_2\\text{ used by microbes (5 days)};\\quad \\text{COD}=\\text{chemical O}_2\\text{ demand}"
+    },
+    {
+      "examType": "Concept",
+      "question": "BOD ও COD দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।}"
     }
   ],
   "memorize": {
     "trick": "BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।",
     "steps": [
-      "সূত্র: \\text{BOD}=\\text{O}_2\\text{ used by microbes (5 days)};\\quad \\text{COD}=\\text{ch…",
-      "কী কাজে লাগে: BOD ও COD",
-      "চিহ্ন মনে রাখো: BOD, O, used by microbes (5 days), COD"
+      "BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।",
+      "প্রশ্নে BOD ও COD প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: BOD, O, used by microbes (5 days) — একক যাচাই করো"
     ]
   },
   "subjects": [

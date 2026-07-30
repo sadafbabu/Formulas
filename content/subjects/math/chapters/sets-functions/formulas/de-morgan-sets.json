@@ -21,17 +21,17 @@
     },
     {
       "symbol": "cup",
-      "meaning": "cup সম্পর্কিত রাশি",
+      "meaning": "cup (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "B",
-      "meaning": "B সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     },
     {
       "symbol": "cap",
-      "meaning": "cap সম্পর্কিত রাশি",
+      "meaning": "cap (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "(A\\cup B)'=A'\\cap B'\\quad;(A\\cap B)'=A'\\cup B'",
-        "note": "Union↔Intersection উল্টো; complement বাইরে।"
+        "note": "ডি মরগানের সূত্র (সেট) এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "(A\\cup B)'=A'\\cap B'\\quad;(A\\cap B)'=A'\\cup B'",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "Union↔Intersection উল্টো; complement বাইরে।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ডি মরগানের সূত্র (সেট) কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ডি মরগানের সূত্র (সেট) এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "(A\\cup B)'=A'\\cap B'\\quad;(A\\cap B)'=A'\\cup B'"
+    },
+    {
+      "examType": "Concept",
+      "question": "ডি মরগানের সূত্র (সেট) দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{Union↔Intersection উল্টো; complement বাইরে।}"
     }
   ],
   "memorize": {
     "trick": "Union↔Intersection উল্টো; complement বাইরে।",
     "steps": [
-      "সূত্র: (A\\cup B)'=A'\\cap B'\\quad;(A\\cap B)'=A'\\cup B'",
-      "কী কাজে লাগে: ডি মরগানের সূত্র (সেট)",
-      "চিহ্ন মনে রাখো: A, cup, B, cap"
+      "Union↔Intersection উল্টো; complement বাইরে।",
+      "প্রশ্নে ডি মরগানের সূত্র (সেট) প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: A, cup, B — একক যাচাই করো"
     ]
   },
   "subjects": [

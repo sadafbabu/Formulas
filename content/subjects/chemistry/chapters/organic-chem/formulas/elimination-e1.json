@@ -22,22 +22,22 @@
     },
     {
       "symbol": "carbocation intermediate",
-      "meaning": "carbocation intermediate সম্পর্কিত রাশি",
+      "meaning": "carbocation intermediate (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "rate",
-      "meaning": "rate সম্পর্কিত রাশি",
+      "meaning": "rate (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "k",
-      "meaning": "k সম্পর্কিত রাশি",
+      "meaning": "বল ধ্রুবক / বোল্টজম্যান / তরঙ্গ সংখ্যা",
       "unit": "—"
     },
     {
       "symbol": "RX",
-      "meaning": "RX সম্পর্কিত রাশি",
+      "meaning": "RX (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -47,12 +47,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{E1: two-step, carbocation intermediate, rate}=k[\\mathrm{RX}]",
-        "note": "E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।"
+        "note": "E1 বিলোপন এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\text{E1: two-step, carbocation intermediate, rate}=k[\\mathrm{RX}]",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।"
       }
     ],
     "assumptions": []
@@ -60,16 +60,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "E1 বিলোপন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "E1 বিলোপন এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\text{E1: two-step, carbocation intermediate, rate}=k[\\mathrm{RX}]"
+    },
+    {
+      "examType": "Concept",
+      "question": "E1 বিলোপন দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "answer": "\\text{E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।}"
     }
   ],
   "memorize": {
     "trick": "E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।",
     "steps": [
-      "সূত্র: \\text{E1: two-step, carbocation intermediate, rate}=k[\\mathrm{RX}]",
-      "কী কাজে লাগে: E1 বিলোপন",
-      "চিহ্ন মনে রাখো: E1: two-step, carbocation intermediate, rate, k, RX"
+      "E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।",
+      "প্রশ্নে E1 বিলোপন প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: E1: two-step, carbocation intermediate, rate — একক যাচাই করো"
     ]
   },
   "subjects": [

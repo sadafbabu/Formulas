@@ -22,18 +22,18 @@
     },
     {
       "symbol": "s",
-      "meaning": "s সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "সরণ",
+      "unit": "m"
     },
     {
       "symbol": "p",
-      "meaning": "p সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভরবেগ / চাপ",
+      "unit": "kg·m/s বা Pa"
     },
     {
       "symbol": "N",
-      "meaning": "N সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "কণা সংখ্যা",
+      "unit": "1"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
-        "note": "Vs/Vp = Ns/Np — স্টেপ-আপ: Ns>Np।"
+        "note": "ট্রান্সফরমার সমীকরণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "স্টেপ-আপ: Ns>Np। \\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}"
       }
     ],
     "assumptions": []
@@ -55,16 +55,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ট্রান্সফরমার সমীকরণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "ট্রান্সফরমার সমীকরণ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}"
     }
   ],
   "memorize": {
     "trick": "স্টেপ-আপ: Ns>Np। \\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
     "steps": [
-      "সূত্র: \\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
-      "কী কাজে লাগে: ট্রান্সফরমার সমীকরণ",
-      "চিহ্ন মনে রাখো: V, s, p, N"
+      "স্টেপ-আপ: Ns>Np। \\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
+      "প্রশ্নে ট্রান্সফরমার সমীকরণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: V, s, p — একক যাচাই করো"
     ]
   },
   "subjects": [

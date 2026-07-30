@@ -16,8 +16,8 @@
   "symbols": [
     {
       "symbol": "d",
-      "meaning": "F(x",
-      "unit": "—"
+      "meaning": "দূরত্ব / ব্যাস",
+      "unit": "m"
     },
     {
       "symbol": "y",
@@ -26,13 +26,13 @@
     },
     {
       "symbol": "x",
-      "meaning": "x সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "অবস্থান / অজানা",
+      "unit": "m"
     },
     {
       "symbol": "F",
-      "meaning": "F সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "বল",
+      "unit": "N"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
-        "note": "দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}"
+        "note": "অন্তর্নিহিত অন্তরীকরণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}"
       }
     ],
     "assumptions": []
@@ -54,16 +54,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অন্তর্নিহিত অন্তরীকরণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
+      "question": "অন্তর্নিহিত অন্তরীকরণ এর মূল সূত্রটি লেখো। কোন ধরনের সমস্যায় এটি লাগে?",
       "answer": "\\frac{dy}{dx}=-\\frac{F_x}{F_y}"
     }
   ],
   "memorize": {
     "trick": "দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}",
     "steps": [
-      "সূত্র: \\frac{dy}{dx}=-\\frac{F_x}{F_y}",
-      "কী কাজে লাগে: অন্তর্নিহিত অন্তরীকরণ",
-      "চিহ্ন মনে রাখো: d, y, x, F"
+      "দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}",
+      "প্রশ্নে অন্তর্নিহিত অন্তরীকরণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: d, y, x — একক যাচাই করো"
     ]
   },
   "subjects": [

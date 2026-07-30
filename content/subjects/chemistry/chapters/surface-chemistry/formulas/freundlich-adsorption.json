@@ -22,18 +22,18 @@
     },
     {
       "symbol": "m",
-      "meaning": "m সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ভর",
+      "unit": "kg"
     },
     {
       "symbol": "k",
-      "meaning": "k সম্পর্কিত রাশি",
+      "meaning": "বল ধ্রুবক / বোল্টজম্যান / তরঙ্গ সংখ্যা",
       "unit": "—"
     },
     {
       "symbol": "P",
-      "meaning": "P সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চাপ / ক্ষমতা",
+      "unit": "Pa বা W"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{x}{m}=k P^{1/n}\\quad(n>1)",
-        "note": "log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।"
+        "note": "ফ্রয়েন্ডলিচ সমতাপরেখা এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\frac{x}{m}=k P^{1/n}\\quad(n>1)",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফ্রয়েন্ডলিচ সমতাপরেখা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\frac{x}{m}=k P^{1/n}\\quad(n>1)"
+      "question": "ফ্রয়েন্ডলিচ সমতাপরেখা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\frac{x}{m}=k P^{1/n}\\quad(n>1)\\text{ — }log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।"
+    },
+    {
+      "examType": "Concept",
+      "question": "ফ্রয়েন্ডলিচ সমতাপরেখা দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{log(x/m)=log k+(1/n)log P  সরলরেখার ঢাল ১/n।}"
     }
   ],
   "memorize": {
     "trick": "log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।",
     "steps": [
-      "সূত্র: \\frac{x}{m}=k P^{1/n}\\quad(n>1)",
-      "কী কাজে লাগে: ফ্রয়েন্ডলিচ সমতাপরেখা",
-      "চিহ্ন মনে রাখো: x, m, k, P"
+      "log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।",
+      "প্রশ্নে ফ্রয়েন্ডলিচ সমতাপরেখা প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: x, m, k — একক যাচাই করো"
     ]
   },
   "subjects": [

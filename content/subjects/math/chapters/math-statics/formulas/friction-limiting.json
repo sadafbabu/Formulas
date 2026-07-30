@@ -21,18 +21,18 @@
     },
     {
       "symbol": "mu",
-      "meaning": "mu সম্পর্কিত রাশি",
+      "meaning": "প্রতিসরাঙ্ক / চৌম্বক ভ্রামক",
       "unit": "—"
     },
     {
       "symbol": "R",
-      "meaning": "R সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "রোধ / গ্যাস ধ্রুবক / ব্যাসার্ধ",
+      "unit": "Ω বা J/(mol·K) বা m"
     },
     {
       "symbol": "lambda",
-      "meaning": "lambda সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "তরঙ্গদৈর্ঘ্য / ক্ষয় ধ্রুবক",
+      "unit": "m বা 1/s"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "F=\\mu R,\\quad \\tan\\lambda=\\mu",
-        "note": "λ = ঘর্ষণ কোণ; ঢালে μ = tan α।"
+        "note": "সীমিত ঘর্ষণ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "F=\\mu R,\\quad \\tan\\lambda=\\mu",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "λ = ঘর্ষণ কোণ; ঢালে μ = tan α।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সীমিত ঘর্ষণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "F=\\mu R,\\quad \\tan\\lambda=\\mu"
+      "question": "সীমিত ঘর্ষণ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "F=\\mu R,\\quad \\tan\\lambda=\\mu\\text{ — }λ = ঘর্ষণ কোণ; ঢালে μ = tan α।"
+    },
+    {
+      "examType": "Concept",
+      "question": "সীমিত ঘর্ষণ দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{= ঘর্ষণ কোণ; ঢালে μ = tan α।}"
     }
   ],
   "memorize": {
     "trick": "λ = ঘর্ষণ কোণ; ঢালে μ = tan α।",
     "steps": [
-      "সূত্র: F=\\mu R,\\quad \\tan\\lambda=\\mu",
-      "কী কাজে লাগে: সীমিত ঘর্ষণ",
-      "চিহ্ন মনে রাখো: F, mu, R, lambda"
+      "λ = ঘর্ষণ কোণ; ঢালে μ = tan α।",
+      "প্রশ্নে সীমিত ঘর্ষণ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: F, mu, R — একক যাচাই করো"
     ]
   },
   "subjects": [

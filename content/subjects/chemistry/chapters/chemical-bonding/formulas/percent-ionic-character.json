@@ -22,18 +22,18 @@
     },
     {
       "symbol": "mu",
-      "meaning": "mu সম্পর্কিত রাশি",
+      "meaning": "প্রতিসরাঙ্ক / চৌম্বক ভ্রামক",
       "unit": "—"
     },
     {
       "symbol": "o",
-      "meaning": "o সম্পর্কিত রাশি",
+      "meaning": "o (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "b",
-      "meaning": "b সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "চৌম্বক ক্ষেত্র",
+      "unit": "T"
     }
   ],
   "derivation": {
@@ -42,12 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\%\\text{ionic}=\\frac{\\mu_{obs}}{\\mu_{ionic}}\\times 100,\\quad\\mu_{ionic}=e\\cdot d",
-        "note": "দ্বিমেরু ভ্রামক থেকে আয়নিক শতাংশ"
+        "note": "শতকরা আয়নিক চরিত্র এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\%\\text{ionic}=\\frac{\\mu_{obs}}{\\mu_{ionic}}\\times 100,\\quad\\mu_{ionic}=e\\cdot d",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "%ionic = μ_obs/μ_ionic × 100। দ্বিমেরু ভ্রামক থেকে আয়নিক শতাংশ"
       }
     ],
     "assumptions": []
@@ -55,16 +55,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শতকরা আয়নিক চরিত্র কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "\\%\\text{ionic}=\\frac{\\mu_{obs}}{\\mu_{ionic}}\\times 100,\\quad\\mu_{ionic}=e\\cdot d"
+      "question": "শতকরা আয়নিক চরিত্র এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "\\%\\text{ionic}=\\frac{\\mu_{obs}}{\\mu_{ionic}}\\times 100,\\quad\\mu_{ionic}=e\\cdot d\\text{ — }%ionic = μ_obs/μ_ionic × 100। দ্বিমেরু ভ্রামক থেকে আয়নিক শতাংশ"
+    },
+    {
+      "examType": "Concept",
+      "question": "শতকরা আয়নিক চরিত্র দিয়ে কী নির্ণয় করা যায়?",
+      "answer": "\\text{দ্বিমেরু ভ্রামক থেকে আয়নিক শতাংশ}"
     }
   ],
   "memorize": {
     "trick": "%ionic = μ_obs/μ_ionic × 100। দ্বিমেরু ভ্রামক থেকে আয়নিক শতাংশ",
     "steps": [
-      "সূত্র: \\%\\text{ionic}=\\frac{\\mu_{obs}}{\\mu_{ionic}}\\times 100,\\quad\\mu_{ionic}=e\\cdot d",
-      "দ্বিমেরু ভ্রামক থেকে আয়নিক শতাংশ",
-      "চিহ্ন মনে রাখো: ionic, mu, o, b"
+      "%ionic = μ_obs/μ_ionic × 100। দ্বিমেরু ভ্রামক থেকে আয়নিক শতাংশ",
+      "প্রশ্নে শতকরা আয়নিক চরিত্র প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: ionic, mu, o — একক যাচাই করো"
     ]
   },
   "subjects": [

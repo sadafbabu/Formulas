@@ -21,18 +21,18 @@
     },
     {
       "symbol": "r",
-      "meaning": "r সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "ব্যাসার্ধ / দূরত্ব",
+      "unit": "m"
     },
     {
       "symbol": "binom",
-      "meaning": "binom সম্পর্কিত রাশি",
+      "meaning": "binom (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "n",
-      "meaning": "n সম্পর্কিত রাশি",
-      "unit": "—"
+      "meaning": "মোল সংখ্যা / কোটি",
+      "unit": "mol"
     }
   ],
   "derivation": {
@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "T_{r+1}=\\binom{n}{r}a^{n-r}b^r;\\quad\\text{set power of }x=0",
-        "note": "স্বাধীন বা ধ্রুবক পদ এর মূল সম্পর্ক ও প্রয়োগ।"
+        "note": "স্বাধীন বা ধ্রুবক পদ এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "T_{r+1}=\\binom{n}{r}a^{n-r}b^r;\\quad\\text{set power of }x=0",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "T_{r+1}-এর x-এর ঘাত = ০ করে r বের করুন।"
       }
     ],
     "assumptions": []
@@ -54,16 +54,16 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্বাধীন বা ধ্রুবক পদ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
-      "answer": "T_{r+1}=\\binom{n}{r}a^{n-r}b^r;\\quad\\text{set power of }x=0"
+      "question": "স্বাধীন বা ধ্রুবক পদ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "answer": "T_{r+1}=\\binom{n}{r}a^{n-r}b^r;\\quad\\text{set power of }x=0\\text{ — }T_{r+1}-এর x-এর ঘাত = ০ করে r বের করুন।"
     }
   ],
   "memorize": {
     "trick": "T_{r+1}-এর x-এর ঘাত = ০ করে r বের করুন।",
     "steps": [
-      "সূত্র: T_{r+1}=\\binom{n}{r}a^{n-r}b^r;\\quad\\text{set power of }x=0",
-      "বিস্তৃতিতে x^0 পদ নির্ণয়",
-      "চিহ্ন মনে রাখো: T, r, binom, n"
+      "T_{r+1}-এর x-এর ঘাত = ০ করে r বের করুন।",
+      "প্রশ্নে স্বাধীন বা ধ্রুবক পদ প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: T, r, binom — একক যাচাই করো"
     ]
   },
   "subjects": [

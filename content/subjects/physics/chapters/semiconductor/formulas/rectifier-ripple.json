@@ -38,12 +38,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\gamma = \\sqrt{\\frac{V_{rms}^2 - V_{dc}^2}{V_{dc}^2}}, \\quad \\eta = \\frac{P_{dc}}{P_{ac}} \\times 100\\%",
-        "note": "অর্ধ-তরঙ্গ ও পূর্ণ-তরঙ্গ দিষ্টকারণের শক্তি বিশ্লেষণ থেকে।"
+        "note": "পূর্ণ তরঙ্গ দিষ্টকারী ও রিপল ফ্যাক্টর এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "\\gamma = \\sqrt{\\frac{V_{rms}^2 - V_{dc}^2}{V_{dc}^2}}, \\quad \\eta = \\frac{P_{dc}}{P_{ac}} \\times 100\\%",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "রিপল ফ্যাক্টর = AC অংশ ÷ DC অংশ — যত ছোট, তত ভালো DC। মুখস্থ: অর্ধতরঙ্গে ১.২১, পূর্ণতরঙ্গে ০.৪৮।"
       }
     ],
     "assumptions": [

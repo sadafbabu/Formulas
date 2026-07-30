@@ -36,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "(\\cos\\theta + i\\sin\\theta)^n = \\cos(n\\theta) + i\\sin(n\\theta), \\quad e^{i\\theta} = \\cos\\theta + i\\sin\\theta",
-        "note": "z = r(cosθ + i sinθ) মেরু রূপ। এটি Euler সূত্র e^(iθ) = cosθ + i sinθ থেকে প্রাপ্ত।"
+        "note": "দ্য ময়ভারের উপপাদ্য ও জটিল সংখ্যার ঘাত এর প্রাথমিক রূপ।"
       },
       {
-        "title": "প্রয়োগ",
-        "latex": "(\\cos\\theta + i\\sin\\theta)^n = \\cos(n\\theta) + i\\sin(n\\theta), \\quad e^{i\\theta} = \\cos\\theta + i\\sin\\theta",
-        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
+        "title": "মনে রাখা ও প্রয়োগ",
+        "latex": "\\text{identify quantities } \\rightarrow \\text{ substitute}",
+        "note": "(cosθ + i sinθ)^n = cos(nθ) + i sin(nθ)—modulus-এর n-th power, argument n গুণ; single-valued identity-তে n পূর্ণসংখ্যা।"
       }
     ],
     "assumptions": []
@@ -56,9 +56,9 @@
   "memorize": {
     "trick": "(cosθ + i sinθ)^n = cos(nθ) + i sin(nθ)—modulus-এর n-th power, argument n গুণ; single-valued identity-তে n পূর্ণসংখ্যা।",
     "steps": [
-      "সূত্র: (\\cos\\theta + i\\sin\\theta)^n = \\cos(n\\theta) + i\\sin(n\\theta), \\quad e^{i\\theta}…",
-      "জটিল সংখ্যার মেরু রূপ এবং দ্য ময়ভারের উপপাদ্য প্রয়োগ",
-      "চিহ্ন মনে রাখো: i, \\theta, n"
+      "(cosθ + i sinθ)^n = cos(nθ) + i sin(nθ)—modulus-এর n-th power, argument n গুণ; single-valued identity-তে n …",
+      "প্রশ্নে দ্য ময়ভারের উপপাদ্য ও জটিল সংখ্যার ঘাত প্রসঙ্গ দেখলে এই সম্পর্ক বসাও",
+      "রাশি মিলিয়ে নাও: i, \\theta, n — একক যাচাই করো"
     ]
   },
   "subjects": [
