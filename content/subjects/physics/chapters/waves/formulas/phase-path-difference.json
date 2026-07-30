@@ -3,7 +3,7 @@
   "chapter": "waves",
   "title": "Phase & Path Difference",
   "titleBn": "কলারূপ ও পথ পার্থক্য",
-  "summary": "Δφ=2π/λ · Δx",
+  "summary": "এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
   "latex": "\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
   "tags": [
     "hsc",
@@ -16,18 +16,28 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "lambda, x",
+      "symbol": "lambda",
       "meaning": "কলারূপ ও পথ পার্থক্য",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "x সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "এক λ = 2π কলা; Δx দিয়ে Δφ।",
+    "lead": "এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +45,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কলারূপ ও পথ পার্থক্য সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: এক λ = 2π কলা; Δx দিয়ে Δφ।)",
+      "question": "কলারূপ ও পথ পার্থক্য কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x"
     }
   ],
   "memorize": {
-    "trick": "এক λ = 2π কলা; Δx দিয়ে Δφ।",
-    "steps": []
+    "trick": "এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
+    "steps": [
+      "সূত্র: \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
+      "কী কাজে লাগে: কলারূপ ও পথ পার্থক্য",
+      "চিহ্ন মনে রাখো: lambda, x"
+    ]
   },
   "subjects": [
     "physics"

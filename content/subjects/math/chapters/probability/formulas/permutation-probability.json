@@ -3,7 +3,7 @@
   "chapter": "probability",
   "title": "Permutation in Probability",
   "titleBn": "ক্রমবিন্যাসে সম্ভাব্যতা",
-  "summary": "n!/(n−r)!",
+  "summary": "ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।",
   "latex": "P=\\frac{\\text{favourable permutations}}{n!}",
   "tags": [
     "hsc",
@@ -15,9 +15,19 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "P, favourable permutations, n",
+      "symbol": "P",
       "meaning": "n!/(n−r)!",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "favourable permutations",
+      "meaning": "favourable permutations সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "n সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P=\\frac{\\text{favourable permutations}}{n!}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "P=\\frac{\\text{favourable permutations}}{n!}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +49,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্রমবিন্যাসে সম্ভাব্যতা এর সূত্রটি লেখো। (ইঙ্গিত: ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।)",
+      "question": "ক্রমবিন্যাসে সম্ভাব্যতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "P=\\frac{\\text{favourable permutations}}{n!}"
     }
   ],
   "memorize": {
     "trick": "ক্রম গুরুত্বপূর্ণ হলে nCr নয় nPr।",
-    "steps": []
+    "steps": [
+      "সূত্র: P=\\frac{\\text{favourable permutations}}{n!}",
+      "কী কাজে লাগে: ক্রমবিন্যাসে সম্ভাব্যতা",
+      "চিহ্ন মনে রাখো: P, favourable permutations, n"
+    ]
   },
   "subjects": [
     "math"

@@ -26,8 +26,13 @@
       "unit": "0.511 MeV"
     },
     {
-      "symbol": "e^-, e^+",
+      "symbol": "e^-",
       "meaning": "ইলেকট্রন–পজিট্রন জোড়",
+      "unit": "—"
+    },
+    {
+      "symbol": "e^+",
+      "meaning": "e^+ সম্পর্কিত রাশি",
       "unit": "—"
     }
   ],
@@ -58,7 +63,11 @@
   ],
   "memorize": {
     "trick": "১.০২২ MeV = দুই ইলেকট্রনের বিশ্রাম শক্তি; পরে annihilation → ২γ।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\gamma\\to e^-+e^+,\\quad E_\\gamma\\ge 2m_ec^2=1.022\\,\\mathrm{MeV}",
+      "γ → e⁻ + e⁺; ন্যূনতম Eγ = 2m_e c² = 1.022 MeV (নিউক্লিয়াসের কাছে)",
+      "চিহ্ন মনে রাখো: E_\\gamma, m_e c^2, e^-, e^+"
+    ]
   },
   "subjects": [
     "physics"

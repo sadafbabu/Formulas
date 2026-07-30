@@ -58,7 +58,11 @@
   ],
   "memorize": {
     "trick": "Re = ρvd/η — সান্দ্রতা বাড়লে Re কমে।",
-    "steps": []
+    "steps": [
+      "সূত্র: R_e=\\dfrac{\\rho vd}{\\eta}",
+      "প্রবাহ স্তরিত না বিশৃঙ্খল নির্দেশক",
+      "চিহ্ন মনে রাখো: R_e, \\eta, d"
+    ]
   },
   "subjects": [
     "physics"

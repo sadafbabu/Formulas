@@ -3,7 +3,7 @@
   "chapter": "measurement",
   "title": "Significant Figures",
   "titleBn": "সার্থক অঙ্ক",
-  "summary": "নির্ভুল অঙ্ক গণনা",
+  "summary": "গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।",
   "latex": "\\text{s.f. = all certain digits + first uncertain digit}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "s, f, a, l",
+      "symbol": "s",
       "meaning": "সার্থক অঙ্ক",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "f",
+      "meaning": "f সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "l",
+      "meaning": "l সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{s.f. = all certain digits + first uncertain digit}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\text{s.f. = all certain digits + first uncertain digit}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সার্থক অঙ্ক সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।)",
+      "question": "সার্থক অঙ্ক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\text{s.f. = all certain digits + first uncertain digit}"
     }
   ],
   "memorize": {
     "trick": "গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\text{s.f. = all certain digits + first uncertain digit}",
+      "কী কাজে লাগে: সার্থক অঙ্ক",
+      "চিহ্ন মনে রাখো: s, f, a, l"
+    ]
   },
   "subjects": [
     "physics"

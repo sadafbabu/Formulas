@@ -31,8 +31,13 @@
       "unit": "—"
     },
     {
-      "symbol": "E, r",
+      "symbol": "E",
       "meaning": "প্রতি কোষের emf ও অভ্যন্তরীণ রোধ",
+      "unit": "V, Ω"
+    },
+    {
+      "symbol": "r",
+      "meaning": "r সম্পর্কিত রাশি",
       "unit": "V, Ω"
     },
     {
@@ -68,7 +73,11 @@
   ],
   "memorize": {
     "trick": "ম্যাচ করো: R = nr/m। সিরিজ বেশি → r_eq বাড়ে।",
-    "steps": []
+    "steps": [
+      "সূত্র: P_{\\max}\\ \\text{when}\\ R=r_{\\mathrm{eq}}=\\dfrac{nr}{m}\\ (N=mn),\\quad I=\\dfrac{nE…",
+      "সর্বোচ্চ পাওয়ার যখন R = r_eq; m×n কোষে r_eq = nr/m",
+      "চিহ্ন মনে রাখো: n, m, N=mn"
+    ]
   },
   "subjects": [
     "physics"

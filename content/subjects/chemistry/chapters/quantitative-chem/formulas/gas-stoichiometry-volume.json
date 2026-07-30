@@ -3,7 +3,7 @@
   "chapter": "quantitative-chem",
   "title": "Gas Volume Stoichiometry",
   "titleBn": "গ্যাস আয়তন stoichiometry",
-  "summary": "Avogadro volume ratio",
+  "summary": "একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।",
   "latex": "\\frac{V_A}{V_B}=\\frac{a}{b}\\quad(\\text{same }T,P)",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "V, A, B, a",
+      "symbol": "V",
       "meaning": "Avogadro volume ratio",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "A সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{V_A}{V_B}=\\frac{a}{b}\\quad(\\text{same }T,P)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\frac{V_A}{V_B}=\\frac{a}{b}\\quad(\\text{same }T,P)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্যাস আয়তন stoichiometry এর সূত্রটি লেখো। (ইঙ্গিত: একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।)",
+      "question": "গ্যাস আয়তন stoichiometry কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\frac{V_A}{V_B}=\\frac{a}{b}\\quad(\\text{same }T,P)"
     }
   ],
   "memorize": {
     "trick": "একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\frac{V_A}{V_B}=\\frac{a}{b}\\quad(\\text{same }T,P)",
+      "কী কাজে লাগে: গ্যাস আয়তন stoichiometry",
+      "চিহ্ন মনে রাখো: V, A, B, a"
+    ]
   },
   "subjects": [
     "chemistry"

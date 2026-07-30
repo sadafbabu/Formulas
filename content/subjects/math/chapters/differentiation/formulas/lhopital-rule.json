@@ -3,7 +3,7 @@
   "chapter": "differentiation",
   "title": "L'Hôpital's Rule",
   "titleBn": "ল'হোপিটালের নিয়ম",
-  "summary": "0/0 or ∞/∞",
+  "summary": "অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
   "latex": "\\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
   "tags": [
     "hsc",
@@ -15,18 +15,33 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "lim, f, g, tfrac",
+      "symbol": "lim",
       "meaning": "0/0 or ∞/∞",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "f",
+      "meaning": "f সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "g",
+      "meaning": "g সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "অনির্ণেয় আকারে অন্তরক নাও।",
+    "lead": "অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +49,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ল'হোপিটালের নিয়ম এর সূত্রটি লেখো। (ইঙ্গিত: অনির্ণেয় আকারে অন্তরক নাও।)",
+      "question": "ল'হোপিটালের নিয়ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})"
     }
   ],
   "memorize": {
-    "trick": "অনির্ণেয় আকারে অন্তরক নাও।",
-    "steps": []
+    "trick": "অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
+    "steps": [
+      "সূত্র: \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty}…",
+      "কী কাজে লাগে: ল'হোপিটালের নিয়ম",
+      "চিহ্ন মনে রাখো: lim, f, g, tfrac"
+    ]
   },
   "subjects": [
     "math"

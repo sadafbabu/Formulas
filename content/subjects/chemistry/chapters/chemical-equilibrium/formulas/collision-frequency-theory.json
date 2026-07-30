@@ -3,7 +3,7 @@
   "chapter": "chemical-equilibrium",
   "title": "Collision Theory Rate Constant",
   "titleBn": "সংঘর্ষ তত্ত্ব ও হার ধ্রুবক",
-  "summary": "k = P Z e^(−E_a/RT)",
+  "summary": "হার = সংঘর্ষ × দিক × e^(−Ea/RT)।",
   "latex": "k=PZ\\,e^{-E_a/RT}",
   "tags": [
     "hsc",
@@ -35,9 +35,14 @@
     "lead": "কার্যকর সংঘর্ষ = সঠিক দিক (P) × যথেষ্ট শক্তি (e^(−Ea/RT))।",
     "steps": [
       {
-        "title": "সূত্র",
-        "latex": "k=PZe^{-E_a/RT}",
-        "note": "Arrhenius-এর সাথে মিল: A≈PZ।"
+        "title": "মূল সূত্র",
+        "latex": "k=PZ\\,e^{-E_a/RT}",
+        "note": "কার্যকর সংঘর্ষ = সঠিক দিক (P) × যথেষ্ট শক্তি (e^(−Ea/RT))।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "k=PZ\\,e^{-E_a/RT}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

@@ -37,9 +37,14 @@
     "lead": "আলোকীয় পথ = প্রতিসরাঙ্ক × জ্যামিতিক পথ।",
     "steps": [
       {
-        "title": "দশা পার্থক্য",
-        "latex": "\\Delta\\phi = \\frac{2\\pi}{\\lambda}\\mu x",
-        "note": "ব্যাতিচারে দশা পার্থক্য থেকে ডোরা তৈরি"
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{OPL}=\\mu x,\\quad \\Delta\\phi=\\frac{2\\pi}{\\lambda_0}\\Delta(\\mathrm{OPL})",
+        "note": "আলোকীয় পথ = প্রতিসরাঙ্ক × জ্যামিতিক পথ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mathrm{OPL}=\\mu x,\\quad \\Delta\\phi=\\frac{2\\pi}{\\lambda_0}\\Delta(\\mathrm{OPL})",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

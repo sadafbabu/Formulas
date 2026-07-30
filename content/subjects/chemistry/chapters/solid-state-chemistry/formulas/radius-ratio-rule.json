@@ -16,8 +16,13 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "r_+, r_-",
+      "symbol": "r_+",
       "meaning": "ক্যাটায়ন ও অ্যানায়ন ব্যাসার্ধ",
+      "unit": "pm"
+    },
+    {
+      "symbol": "r_-",
+      "meaning": "r_- সম্পর্কিত রাশি",
       "unit": "pm"
     },
     {

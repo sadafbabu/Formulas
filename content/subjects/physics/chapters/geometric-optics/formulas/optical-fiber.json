@@ -68,7 +68,11 @@
   ],
   "memorize": {
     "trick": "বড় NA = বেশি আলো ধরে; বায়ুতে NA=sin i_a।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\mathrm{NA}=\\sqrt{n_1^2-n_2^2}=n_0\\sin i_a",
+      "NA = √(n₁²−n₂²) = n₀ sin i_a (বায়ুতে n₀=1 → NA=sin i_a)",
+      "চিহ্ন মনে রাখো: n_1, n_2, n_0"
+    ]
   },
   "subjects": [
     "physics"

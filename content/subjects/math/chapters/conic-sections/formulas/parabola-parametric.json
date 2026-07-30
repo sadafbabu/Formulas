@@ -3,7 +3,7 @@
   "chapter": "conic-sections",
   "title": "Parametric Parabola",
   "titleBn": "পরামিতিক পরাবৃত্ত",
-  "summary": "x=at², y=2at",
+  "summary": "t = tan(θ/2) ধরে স্পর্শরেখা সহজ।",
   "latex": "x=at^2,\\quad y=2at",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "x, a, t, y",
-      "meaning": "x=at², y=2at",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "x",
+      "meaning": "x=at²",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "y=2at",
+      "unit": "—"
+    },
+    {
+      "symbol": "t",
+      "meaning": "t সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "y",
+      "meaning": "y সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "x=at^2,\\quad y=2at",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "t = tan(θ/2) ধরে স্পর্শরেখা সহজ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "x=at^2,\\quad y=2at",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরামিতিক পরাবৃত্ত এর সূত্রটি লেখো। (ইঙ্গিত: t = tan(θ/2) ধরে স্পর্শরেখা সহজ।)",
+      "question": "পরামিতিক পরাবৃত্ত কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "x=at^2,\\quad y=2at"
     }
   ],
   "memorize": {
     "trick": "t = tan(θ/2) ধরে স্পর্শরেখা সহজ।",
-    "steps": []
+    "steps": [
+      "সূত্র: x=at^2,\\quad y=2at",
+      "কী কাজে লাগে: পরামিতিক পরাবৃত্ত",
+      "চিহ্ন মনে রাখো: x, a, t, y"
+    ]
   },
   "subjects": [
     "math"

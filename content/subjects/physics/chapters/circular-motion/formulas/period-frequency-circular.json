@@ -3,7 +3,7 @@
   "chapter": "circular-motion",
   "title": "Period & Frequency",
   "titleBn": "পর্যায়কাল ও কম্পাঙ্ক",
-  "summary": "T=2π/ω",
+  "summary": "ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
   "latex": "T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
   "tags": [
     "hsc",
@@ -16,18 +16,28 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "T, f",
+      "symbol": "T",
       "meaning": "পর্যায়কাল ও কম্পাঙ্ক",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "f",
+      "meaning": "f সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "T=2π/ω — ω = 2πf; T = 1/f।",
+    "lead": "ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +45,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পর্যায়কাল ও কম্পাঙ্ক সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: ω = 2πf; T = 1/f।)",
+      "question": "পর্যায়কাল ও কম্পাঙ্ক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f"
     }
   ],
   "memorize": {
-    "trick": "ω = 2πf; T = 1/f।",
-    "steps": []
+    "trick": "ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
+    "steps": [
+      "সূত্র: T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
+      "কী কাজে লাগে: পর্যায়কাল ও কম্পাঙ্ক",
+      "চিহ্ন মনে রাখো: T, f"
+    ]
   },
   "subjects": [
     "physics"

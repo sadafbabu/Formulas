@@ -3,7 +3,7 @@
   "chapter": "geometric-optics",
   "title": "Dispersive Power of Prism",
   "titleBn": "প্রিজমের বিচ্ছুরণ ক্ষমতা",
-  "summary": "ω = (μv − μr)/(μy − 1)",
+  "summary": "(μv−μr) ÷ (μ−1) — উপাদানের ধর্ম।",
   "latex": "\\omega=\\dfrac{\\mu_v-\\mu_r}{\\mu-1}=\\dfrac{\\delta_v-\\delta_r}{\\delta}",
   "tags": [
     "hsc",
@@ -16,8 +16,13 @@
   "order": 180,
   "symbols": [
     {
-      "symbol": "\\mu_v,\\mu_r",
+      "symbol": "\\mu_v",
       "meaning": "বেগুনি ও লালের প্রতিসরাঙ্ক",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\mu_r",
+      "meaning": "\\mu_r সম্পর্কিত রাশি",
       "unit": "—"
     },
     {
@@ -53,7 +58,11 @@
   ],
   "memorize": {
     "trick": "(μv−μr) ÷ (μ−1) — উপাদানের ধর্ম।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\omega=\\dfrac{\\mu_v-\\mu_r}{\\mu-1}=\\dfrac{\\delta_v-\\delta_r}{\\delta}",
+      "কী কাজে লাগে: প্রিজমের বিচ্ছুরণ ক্ষমতা",
+      "চিহ্ন মনে রাখো: \\mu_v,\\mu_r, \\omega"
+    ]
   },
   "subjects": [
     "physics"

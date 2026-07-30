@@ -13,8 +13,18 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "n, r, k",
+      "symbol": "n",
       "meaning": "অঋণাত্মক পূর্ণসংখ্যা",
+      "unit": "—"
+    },
+    {
+      "symbol": "r",
+      "meaning": "r সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "k",
+      "meaning": "k সম্পর্কিত রাশি",
       "unit": "—"
     }
   ],
@@ -22,9 +32,14 @@
     "lead": "সংমিশ্রণ সংজ্ঞা থেকে পাস্কাল অভেদ।",
     "steps": [
       {
-        "title": "পাস্কাল অভেদ",
-        "latex": "\\binom{n}{r}+\\binom{n}{r+1} = \\binom{n+1}{r+1}",
-        "note": "পাস্কাল ত্রিভুজ নির্মাণের ভিত্তি"
+        "title": "মূল সূত্র",
+        "latex": "\\binom{n}{r} + \\binom{n}{r+1} = \\binom{n+1}{r+1}, \\quad \\binom{n}{r}\\binom{r}{k} = \\binom{n}{k}\\binom{n-k}{r-k}",
+        "note": "সংমিশ্রণ সংজ্ঞা থেকে পাস্কাল অভেদ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\binom{n}{r} + \\binom{n}{r+1} = \\binom{n+1}{r+1}, \\quad \\binom{n}{r}\\binom{r}{k} = \\binom{n}{k}\\binom{n-k}{r-k}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

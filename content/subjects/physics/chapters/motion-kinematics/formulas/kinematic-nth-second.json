@@ -3,7 +3,7 @@
   "chapter": "motion-kinematics",
   "title": "Distance in nth Second",
   "titleBn": "n-তম সেকেন্ডে সরণ",
-  "summary": "s_n",
+  "summary": "n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)",
   "latex": "s_n=u+\\tfrac12 a(2n-1)",
   "tags": [
     "hsc",
@@ -16,18 +16,33 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "s, n, u, tfrac",
+      "symbol": "s",
       "meaning": "n-তম সেকেন্ডে সরণ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "n সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "u",
+      "meaning": "u সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "n-তম সেকেন্ড = u + a(2n−1)/2।",
+    "lead": "n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "s_n=u+\\tfrac12 a(2n-1)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "s_n=u+\\tfrac12 a(2n-1)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +50,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "n-তম সেকেন্ডে সরণ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: n-তম সেকেন্ড = u + a(2n−1)/2।)",
+      "question": "n-তম সেকেন্ডে সরণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "s_n=u+\\tfrac12 a(2n-1)"
     }
   ],
   "memorize": {
-    "trick": "n-তম সেকেন্ড = u + a(2n−1)/2।",
-    "steps": []
+    "trick": "n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)",
+    "steps": [
+      "সূত্র: s_n=u+\\tfrac12 a(2n-1)",
+      "কী কাজে লাগে: n-তম সেকেন্ডে সরণ",
+      "চিহ্ন মনে রাখো: s, n, u, tfrac"
+    ]
   },
   "subjects": [
     "physics"

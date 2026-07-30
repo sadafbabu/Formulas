@@ -13,8 +13,23 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "A, B, C, D",
+      "symbol": "A",
       "meaning": "কোণ",
+      "unit": "rad"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
+      "unit": "rad"
+    },
+    {
+      "symbol": "C",
+      "meaning": "C সম্পর্কিত রাশি",
+      "unit": "rad"
+    },
+    {
+      "symbol": "D",
+      "meaning": "D সম্পর্কিত রাশি",
       "unit": "rad"
     }
   ],
@@ -22,9 +37,14 @@
     "lead": "যৌগিক কোণ সূত্র যোগ-বিয়োগ থেকে গুণফল-যোগফল সূত্র।",
     "steps": [
       {
-        "title": "যোগফল-গুণফল",
-        "latex": "\\sin C + \\sin D = 2\\sin\\frac{C+D}{2}\\cos\\frac{C-D}{2}",
-        "note": "যোগফল সমীকরণ সমাধানে সহায়ক"
+        "title": "মূল সূত্র",
+        "latex": "2\\sin A\\cos B = \\sin(A+B)+\\sin(A-B), \\quad \\sin C + \\sin D = 2\\sin\\tfrac{C+D}{2}\\cos\\tfrac{C-D}{2}",
+        "note": "যৌগিক কোণ সূত্র যোগ-বিয়োগ থেকে গুণফল-যোগফল সূত্র।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "2\\sin A\\cos B = \\sin(A+B)+\\sin(A-B), \\quad \\sin C + \\sin D = 2\\sin\\tfrac{C+D}{2}\\cos\\tfrac{C-D}{2}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

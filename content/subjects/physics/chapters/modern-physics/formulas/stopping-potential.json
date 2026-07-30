@@ -3,7 +3,7 @@
   "chapter": "modern-physics",
   "title": "Stopping Potential",
   "titleBn": "রোধ বিভব",
-  "summary": "eV₀=K_max",
+  "summary": "V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi",
   "latex": "eV_0=K_{\\max}=hf-\\phi",
   "tags": [
     "hsc",
@@ -16,18 +16,38 @@
   "order": 150,
   "symbols": [
     {
-      "symbol": "e, V, K, h",
+      "symbol": "e",
       "meaning": "রোধ বিভব",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "V",
+      "meaning": "V সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "K",
+      "meaning": "K সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "h",
+      "meaning": "h সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "V₀ দিয়ে K_max মাপা যায়।",
+    "lead": "V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "eV_0=K_{\\max}=hf-\\phi",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "eV_0=K_{\\max}=hf-\\phi",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রোধ বিভব সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: V₀ দিয়ে K_max মাপা যায়।)",
+      "question": "রোধ বিভব কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "eV_0=K_{\\max}=hf-\\phi"
     }
   ],
   "memorize": {
-    "trick": "V₀ দিয়ে K_max মাপা যায়।",
-    "steps": []
+    "trick": "V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi",
+    "steps": [
+      "সূত্র: eV_0=K_{\\max}=hf-\\phi",
+      "কী কাজে লাগে: রোধ বিভব",
+      "চিহ্ন মনে রাখো: e, V, K, h"
+    ]
   },
   "subjects": [
     "physics"

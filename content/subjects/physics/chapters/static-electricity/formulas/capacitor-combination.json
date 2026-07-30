@@ -14,8 +14,13 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "C_s, C_p",
+      "symbol": "C_s",
       "meaning": "শ্রেণী ও সমান্তরাল সমতুল্য ধারকত্ব",
+      "unit": "F"
+    },
+    {
+      "symbol": "C_p",
+      "meaning": "C_p সম্পর্কিত রাশি",
       "unit": "F"
     },
     {
@@ -33,9 +38,14 @@
     "lead": "ধারকের বিভব সংযোজন নীতি থেকে শ্রেণী/সমান্তরাল সূত্র।",
     "steps": [
       {
-        "title": "শক্তি ঘনত্ব",
-        "latex": "u = \\frac{1}{2}\\varepsilon_0 E^2",
-        "note": "মোট শক্তি u আয়তন দ্বারা গুণ"
+        "title": "মূল সূত্র",
+        "latex": "\\frac{1}{C_s} = \\sum \\frac{1}{C_i}, \\quad C_p = \\sum C_i, \\quad u = \\frac{1}{2}\\varepsilon_0 E^2",
+        "note": "ধারকের বিভব সংযোজন নীতি থেকে শ্রেণী/সমান্তরাল সূত্র।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\frac{1}{C_s} = \\sum \\frac{1}{C_i}, \\quad C_p = \\sum C_i, \\quad u = \\frac{1}{2}\\varepsilon_0 E^2",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

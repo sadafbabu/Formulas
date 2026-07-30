@@ -46,9 +46,14 @@
     "lead": "প্রত্যয়নী টর্ক \\tau = -M B_H \\theta থেকে সরল ছন্দিত স্পন্দন সমীকরণ:",
     "steps": [
       {
-        "title": "কৌণিক স্পন্দন সমীকরণ",
-        "latex": "I_{\\text{mom}} \\frac{d^2\\theta}{dt^2} = -M B_H \\theta \\implies \\omega = \\sqrt{\\frac{M B_H}{I_{\\text{mom}}}} \\implies T = 2\\pi \\sqrt{\\frac{I_{\\text{mom}}}{M B_H}}",
-        "note": "দুই স্থানে পর্যায়কাল তুলনা করে B_H উপাংশ নির্ণয় করা যায় (T_1^2 / T_2^2 = B_{H2} / B_{H1})।"
+        "title": "মূল সূত্র",
+        "latex": "T = 2\\pi \\sqrt{\\frac{I_{\\text{mom}}}{M B_H}}",
+        "note": "প্রত্যয়নী টর্ক \\tau = -M B_H \\theta থেকে সরল ছন্দিত স্পন্দন সমীকরণ:"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "T = 2\\pi \\sqrt{\\frac{I_{\\text{mom}}}{M B_H}}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

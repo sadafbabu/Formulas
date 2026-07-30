@@ -55,9 +55,14 @@
     "lead": "ইলেকট্রনের ঘূর্ণন প্রবাহ I = e/T বসিয়ে ভ্রামক নির্ণয়:",
     "steps": [
       {
-        "title": "কৌণিক ভরবেগ সমতা",
-        "latex": "M = I A = \\left(\\frac{e v}{2\\pi r}\\right) (\\pi r^2) = \\frac{e v r}{2} = \\frac{e}{2m_e} L = n \\left(\\frac{e h}{4\\pi m_e}\\right)",
-        "note": "বোর কণিক ভরবেগ L = n h / 2\\pi প্রতিস্থাপন করা হয়।"
+        "title": "মূল সূত্র",
+        "latex": "\\mu_B = \\frac{e h}{4\\pi m_e}, \\quad M = \\frac{e v r}{2} = n \\mu_B",
+        "note": "ইলেকট্রনের ঘূর্ণন প্রবাহ I = e/T বসিয়ে ভ্রামক নির্ণয়:"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mu_B = \\frac{e h}{4\\pi m_e}, \\quad M = \\frac{e v r}{2} = n \\mu_B",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

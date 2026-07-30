@@ -3,7 +3,7 @@
   "chapter": "organic-chem",
   "title": "Hoffmann Bromamide",
   "titleBn": "হফম্যান ব্রোমামাইড",
-  "summary": "amide → amine (−1C)",
+  "summary": "অ্যামাইড থেকে ১ কার্বন কম প্রাথমিক অ্যামিন।",
   "latex": "\\ce{RCONH2 + Br2 + 4KOH -> RNH2 + K2CO3 + 2KBr + 2H2O}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 210,
   "symbols": [
     {
-      "symbol": "ce, R, C, O",
+      "symbol": "ce",
       "meaning": "amide → amine (−1C)",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "R",
+      "meaning": "R সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "C",
+      "meaning": "C সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "O",
+      "meaning": "O সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\ce{RCONH2 + Br2 + 4KOH -> RNH2 + K2CO3 + 2KBr + 2H2O}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "অ্যামাইড থেকে ১ কার্বন কম প্রাথমিক অ্যামিন।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\ce{RCONH2 + Br2 + 4KOH -> RNH2 + K2CO3 + 2KBr + 2H2O}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "হফম্যান ব্রোমামাইড এর সূত্রটি লেখো। (ইঙ্গিত: অ্যামাইড থেকে ১ কার্বন কম প্রাথমিক অ্যামিন।)",
+      "question": "হফম্যান ব্রোমামাইড কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\ce{RCONH2 + Br2 + 4KOH -> RNH2 + K2CO3 + 2KBr + 2H2O}"
     }
   ],
   "memorize": {
     "trick": "অ্যামাইড থেকে ১ কার্বন কম প্রাথমিক অ্যামিন।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\ce{RCONH2 + Br2 + 4KOH -> RNH2 + K2CO3 + 2KBr + 2H2O}",
+      "কী কাজে লাগে: হফম্যান ব্রোমামাইড",
+      "চিহ্ন মনে রাখো: ce, R, C, O"
+    ]
   },
   "subjects": [
     "chemistry"

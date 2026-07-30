@@ -3,7 +3,7 @@
   "chapter": "vector-algebra",
   "title": "Area of Parallelogram",
   "titleBn": "সামান্তরিকের ক্ষেত্রফল",
-  "summary": "|a×b|",
+  "summary": "ক্রসের মান = সামান্তরিক ক্ষেত্রফল।",
   "latex": "A=|\\vec a\\times\\vec b|",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "A, vec, a, b",
-      "meaning": "|a×b|",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "A",
+      "meaning": "a×b",
+      "unit": "—"
+    },
+    {
+      "symbol": "vec",
+      "meaning": "vec সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "A=|\\vec a\\times\\vec b|",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "ক্রসের মান = সামান্তরিক ক্ষেত্রফল।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "A=|\\vec a\\times\\vec b|",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সামান্তরিকের ক্ষেত্রফল এর সূত্রটি লেখো। (ইঙ্গিত: ক্রসের মান = সামান্তরিক ক্ষেত্রফল।)",
+      "question": "সামান্তরিকের ক্ষেত্রফল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "A=|\\vec a\\times\\vec b|"
     }
   ],
   "memorize": {
     "trick": "ক্রসের মান = সামান্তরিক ক্ষেত্রফল।",
-    "steps": []
+    "steps": [
+      "সূত্র: A=|\\vec a\\times\\vec b|",
+      "কী কাজে লাগে: সামান্তরিকের ক্ষেত্রফল",
+      "চিহ্ন মনে রাখো: A, vec, a, b"
+    ]
   },
   "subjects": [
     "math"

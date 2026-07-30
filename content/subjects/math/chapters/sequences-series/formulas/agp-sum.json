@@ -3,7 +3,7 @@
   "chapter": "sequences-series",
   "title": "Arithmetico-Geometric Series",
   "titleBn": "সমান্তর-গুণোত্তর ধারা",
-  "summary": "Σ n rⁿ",
+  "summary": "S − rS করে GP বের করো। S=a+(a+d)r+(a+2d)r^2+\\cdots",
   "latex": "S=a+(a+d)r+(a+2d)r^2+\\cdots",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "S, a, d, r",
+      "symbol": "S",
       "meaning": "Σ n rⁿ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "d",
+      "meaning": "d সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "r",
+      "meaning": "r সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "S=a+(a+d)r+(a+2d)r^2+\\cdots",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "Σ n rⁿ — S − rS করে GP বের করো।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "S=a+(a+d)r+(a+2d)r^2+\\cdots",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমান্তর-গুণোত্তর ধারা এর সূত্রটি লেখো। (ইঙ্গিত: S − rS করে GP বের করো।)",
+      "question": "সমান্তর-গুণোত্তর ধারা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "S=a+(a+d)r+(a+2d)r^2+\\cdots"
     }
   ],
   "memorize": {
-    "trick": "S − rS করে GP বের করো।",
-    "steps": []
+    "trick": "S − rS করে GP বের করো। S=a+(a+d)r+(a+2d)r^2+\\cdots",
+    "steps": [
+      "সূত্র: S=a+(a+d)r+(a+2d)r^2+\\cdots",
+      "কী কাজে লাগে: সমান্তর-গুণোত্তর ধারা",
+      "চিহ্ন মনে রাখো: S, a, d, r"
+    ]
   },
   "subjects": [
     "math"

@@ -3,7 +3,7 @@
   "chapter": "organic-chem",
   "title": "Organic Redox Idea",
   "titleBn": "জৈব জারণ–বিজারণ ধারণা",
-  "summary": "gain/loss of H/O",
+  "summary": "অ্যালকোহল→অ্যালডিহাইড→অ্যাসিড = জারণ।",
   "latex": "\\text{oxidation: gain O / lose H};\\quad \\text{reduction: gain H / lose O}",
   "tags": [
     "hsc",
@@ -16,9 +16,14 @@
   "order": 250,
   "symbols": [
     {
-      "symbol": "oxidation: gain O / lose H, reduction: gain H / lose O",
+      "symbol": "oxidation: gain O / lose H",
       "meaning": "gain/loss of H/O",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "reduction: gain H / lose O",
+      "meaning": "reduction: gain H / lose O সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{oxidation: gain O / lose H};\\quad \\text{reduction: gain H / lose O}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "অ্যালকোহল→অ্যালডিহাইড→অ্যাসিড = জারণ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\text{oxidation: gain O / lose H};\\quad \\text{reduction: gain H / lose O}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +45,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জৈব জারণ–বিজারণ ধারণা এর সূত্রটি লেখো। (ইঙ্গিত: অ্যালকোহল→অ্যালডিহাইড→অ্যাসিড = জারণ।)",
+      "question": "জৈব জারণ–বিজারণ ধারণা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\text{oxidation: gain O / lose H};\\quad \\text{reduction: gain H / lose O}"
     }
   ],
   "memorize": {
     "trick": "অ্যালকোহল→অ্যালডিহাইড→অ্যাসিড = জারণ।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\text{oxidation: gain O / lose H};\\quad \\text{reduction: gain H / lose O}",
+      "কী কাজে লাগে: জৈব জারণ–বিজারণ ধারণা",
+      "চিহ্ন মনে রাখো: oxidation: gain O / lose H, reduction: gain H / lose O"
+    ]
   },
   "subjects": [
     "chemistry"

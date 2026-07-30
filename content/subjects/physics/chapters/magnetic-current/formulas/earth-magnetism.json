@@ -45,9 +45,14 @@
     "lead": "ভেক্টর বিভাজন ও পিথাগোরাস প্রয়োগ:",
     "steps": [
       {
-        "title": "লব্ধি ক্ষেত্র সমীকরণ",
-        "latex": "B = \\sqrt{B_H^2 + B_V^2}, \\quad \\tan \\delta = \\frac{B_V}{B_H}",
-        "note": "বিষুবরেখায় \\delta = 0^\\circ (B_V = 0) এবং মেরুতে \\delta = 90^\\circ (B_H = 0) হয়।"
+        "title": "মূল সূত্র",
+        "latex": "B_H = B \\cos \\delta, \\quad B_V = B \\sin \\delta, \\quad \\tan \\delta = \\frac{B_V}{B_H}",
+        "note": "ভেক্টর বিভাজন ও পিথাগোরাস প্রয়োগ:"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "B_H = B \\cos \\delta, \\quad B_V = B \\sin \\delta, \\quad \\tan \\delta = \\frac{B_V}{B_H}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

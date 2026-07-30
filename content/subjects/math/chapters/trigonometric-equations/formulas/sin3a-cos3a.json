@@ -3,7 +3,7 @@
   "chapter": "trigonometric-equations",
   "title": "Triple Angle",
   "titleBn": "ত্রিগুণ কোণ",
-  "summary": "sin3A, cos3A",
+  "summary": "sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
   "latex": "\\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
   "tags": [
     "hsc",
@@ -17,16 +17,21 @@
     {
       "symbol": "A",
       "meaning": "sin3A, cos3A",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "sin3A: 3s−4s³; cos3A: 4c³−3c।",
+    "lead": "sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +39,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ত্রিগুণ কোণ এর সূত্রটি লেখো। (ইঙ্গিত: sin3A: 3s−4s³; cos3A: 4c³−3c।)",
+      "question": "ত্রিগুণ কোণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A"
     }
   ],
   "memorize": {
-    "trick": "sin3A: 3s−4s³; cos3A: 4c³−3c।",
-    "steps": []
+    "trick": "sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
+    "steps": [
+      "সূত্র: \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
+      "কী কাজে লাগে: ত্রিগুণ কোণ",
+      "চিহ্ন মনে রাখো: A"
+    ]
   },
   "subjects": [
     "math"

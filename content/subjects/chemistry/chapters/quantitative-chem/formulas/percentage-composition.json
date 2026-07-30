@@ -3,7 +3,7 @@
   "chapter": "quantitative-chem",
   "title": "Percentage Composition",
   "titleBn": "শতকরা সংযুক্তি",
-  "summary": "% element",
+  "summary": "যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
   "latex": "\\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
   "tags": [
     "hsc",
@@ -16,18 +16,28 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "mass of element in formula, molar mass",
+      "symbol": "mass of element in formula",
       "meaning": "% element",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "molar mass",
+      "meaning": "molar mass সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "যৌগে মৌলের ভর অনুপাত × ১০০।",
+    "lead": "যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +45,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শতকরা সংযুক্তি এর সূত্রটি লেখো। (ইঙ্গিত: যৌগে মৌলের ভর অনুপাত × ১০০।)",
+      "question": "শতকরা সংযুক্তি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100"
     }
   ],
   "memorize": {
-    "trick": "যৌগে মৌলের ভর অনুপাত × ১০০।",
-    "steps": []
+    "trick": "যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
+    "steps": [
+      "সূত্র: \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
+      "কী কাজে লাগে: শতকরা সংযুক্তি",
+      "চিহ্ন মনে রাখো: mass of element in formula, molar mass"
+    ]
   },
   "subjects": [
     "chemistry"

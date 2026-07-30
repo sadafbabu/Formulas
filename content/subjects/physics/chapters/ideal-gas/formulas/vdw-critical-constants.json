@@ -52,8 +52,12 @@
     }
   ],
   "memorize": {
-    "trick": "Vc = 3b; Tc-তে 8a/(27Rb)।",
-    "steps": []
+    "trick": "Vc = 3b; Tc-তে 8a/(27Rb)। Tc, Pc, Vc এবং a, b সম্পর্ক",
+    "steps": [
+      "সূত্র: T_c=\\dfrac{8a}{27Rb},\\quad P_c=\\dfrac{a}{27b^2},\\quad V_c=3b",
+      "Tc, Pc, Vc এবং a, b সম্পর্ক",
+      "চিহ্ন মনে রাখো: a, b"
+    ]
   },
   "subjects": [
     "physics"

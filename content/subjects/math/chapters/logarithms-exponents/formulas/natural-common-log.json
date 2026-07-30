@@ -3,7 +3,7 @@
   "chapter": "logarithms-exponents",
   "title": "ln and log₁₀",
   "titleBn": "ln ও সাধারণ লগ",
-  "summary": "ln = log_e",
+  "summary": "প্রাকৃতিক লগ ভিত্তি e≈2.718। \\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
   "latex": "\\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
   "tags": [
     "hsc",
@@ -15,18 +15,28 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "x, e",
+      "symbol": "x",
       "meaning": "ln = log_e",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "e",
+      "meaning": "e সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "প্রাকৃতিক লগ ভিত্তি e≈2.718।",
+    "lead": "প্রাকৃতিক লগ ভিত্তি e≈2.718। \\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "প্রাকৃতিক লগ ভিত্তি e≈2.718। \\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +44,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ln ও সাধারণ লগ এর সূত্রটি লেখো। (ইঙ্গিত: প্রাকৃতিক লগ ভিত্তি e≈2.718।)",
+      "question": "ln ও সাধারণ লগ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}"
     }
   ],
   "memorize": {
-    "trick": "প্রাকৃতিক লগ ভিত্তি e≈2.718।",
-    "steps": []
+    "trick": "প্রাকৃতিক লগ ভিত্তি e≈2.718। \\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
+    "steps": [
+      "সূত্র: \\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
+      "কী কাজে লাগে: ln ও সাধারণ লগ",
+      "চিহ্ন মনে রাখো: x, e"
+    ]
   },
   "subjects": [
     "math"

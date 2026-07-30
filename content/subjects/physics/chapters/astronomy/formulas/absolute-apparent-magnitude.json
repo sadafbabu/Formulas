@@ -3,7 +3,7 @@
   "chapter": "astronomy",
   "title": "Distance Modulus",
   "titleBn": "দূরত্ব মডুলাস",
-  "summary": "m−M=5log(d/10)",
+  "summary": "m=আপাত, M=পরম মান। m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
   "latex": "m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "m, M, d, i",
+      "symbol": "m",
       "meaning": "দূরত্ব মডুলাস",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "M",
+      "meaning": "M সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "d",
+      "meaning": "d সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "i",
+      "meaning": "i সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "m−M=5log(d/10) — m=আপাত, M=পরম মান।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দূরত্ব মডুলাস সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: m=আপাত, M=পরম মান।)",
+      "question": "দূরত্ব মডুলাস কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})"
     }
   ],
   "memorize": {
-    "trick": "m=আপাত, M=পরম মান।",
-    "steps": []
+    "trick": "m=আপাত, M=পরম মান। m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
+    "steps": [
+      "সূত্র: m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
+      "কী কাজে লাগে: দূরত্ব মডুলাস",
+      "চিহ্ন মনে রাখো: m, M, d, i"
+    ]
   },
   "subjects": [
     "physics"

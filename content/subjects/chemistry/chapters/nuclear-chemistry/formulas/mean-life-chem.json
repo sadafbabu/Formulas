@@ -3,7 +3,7 @@
   "chapter": "nuclear-chemistry",
   "title": "Mean Life",
   "titleBn": "গড় আয়ু",
-  "summary": "τ=1/λ",
+  "summary": "গড় আয়ু > অর্ধায়ু। \\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}",
   "latex": "\\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}",
   "tags": [
     "hsc",
@@ -16,18 +16,33 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "tau, lambda, t",
+      "symbol": "tau",
       "meaning": "τ=1/λ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "lambda",
+      "meaning": "lambda সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "t",
+      "meaning": "t সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "τ=1/λ — গড় আয়ু > অর্ধায়ু।",
+    "lead": "গড় আয়ু > অর্ধায়ু। \\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "গড় আয়ু > অর্ধায়ু। \\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +50,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গড় আয়ু এর সূত্রটি লেখো। (ইঙ্গিত: গড় আয়ু > অর্ধায়ু।)",
+      "question": "গড় আয়ু কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}"
     }
   ],
   "memorize": {
-    "trick": "গড় আয়ু > অর্ধায়ু।",
-    "steps": []
+    "trick": "গড় আয়ু > অর্ধায়ু। \\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}",
+    "steps": [
+      "সূত্র: \\tau=\\frac{1}{\\lambda}=\\frac{t_{1/2}}{0.693}",
+      "কী কাজে লাগে: গড় আয়ু",
+      "চিহ্ন মনে রাখো: tau, lambda, t"
+    ]
   },
   "subjects": [
     "chemistry"

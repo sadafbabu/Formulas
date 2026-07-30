@@ -3,7 +3,7 @@
   "chapter": "qualitative-chem",
   "title": "Electron Affinity Trend",
   "titleBn": "ইলেকট্রন আসক্তির প্রবণতা",
-  "summary": "EA trends",
+  "summary": "হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।",
   "latex": "\\mathrm{EA}\\text{ generally increases across a period (more negative)}",
   "tags": [
     "hsc",
@@ -16,9 +16,14 @@
   "order": 250,
   "symbols": [
     {
-      "symbol": "EA, generally increases across a period (more negative)",
+      "symbol": "EA",
       "meaning": "EA trends",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "generally increases across a period (more negative)",
+      "meaning": "generally increases across a period (more negative) সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{EA}\\text{ generally increases across a period (more negative)}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mathrm{EA}\\text{ generally increases across a period (more negative)}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +45,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ইলেকট্রন আসক্তির প্রবণতা এর সূত্রটি লেখো। (ইঙ্গিত: হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।)",
+      "question": "ইলেকট্রন আসক্তির প্রবণতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\mathrm{EA}\\text{ generally increases across a period (more negative)}"
     }
   ],
   "memorize": {
     "trick": "হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\mathrm{EA}\\text{ generally increases across a period (more negative)}",
+      "কী কাজে লাগে: ইলেকট্রন আসক্তির প্রবণতা",
+      "চিহ্ন মনে রাখো: EA, generally increases across a period (more negative)"
+    ]
   },
   "subjects": [
     "chemistry"

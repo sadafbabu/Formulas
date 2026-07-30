@@ -3,7 +3,7 @@
   "chapter": "induction-ac",
   "title": "Eddy Current",
   "titleBn": "এডি কারেন্ট",
-  "summary": "laminated core",
+  "summary": "পাতলা স্তরে কোর কাটো → এডি লস কমে।",
   "latex": "P_{\\text{eddy}}\\propto B^2f^2t^2",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "P, e, d, y",
+      "symbol": "P",
       "meaning": "এডি কারেন্ট",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "e",
+      "meaning": "e সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "d",
+      "meaning": "d সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "y",
+      "meaning": "y সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P_{\\text{eddy}}\\propto B^2f^2t^2",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "পাতলা স্তরে কোর কাটো → এডি লস কমে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "P_{\\text{eddy}}\\propto B^2f^2t^2",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "এডি কারেন্ট সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: পাতলা স্তরে কোর কাটো → এডি লস কমে।)",
+      "question": "এডি কারেন্ট কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "P_{\\text{eddy}}\\propto B^2f^2t^2"
     }
   ],
   "memorize": {
     "trick": "পাতলা স্তরে কোর কাটো → এডি লস কমে।",
-    "steps": []
+    "steps": [
+      "সূত্র: P_{\\text{eddy}}\\propto B^2f^2t^2",
+      "কী কাজে লাগে: এডি কারেন্ট",
+      "চিহ্ন মনে রাখো: P, e, d, y"
+    ]
   },
   "subjects": [
     "physics"

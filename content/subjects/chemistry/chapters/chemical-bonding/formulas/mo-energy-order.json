@@ -3,7 +3,7 @@
   "chapter": "chemical-bonding",
   "title": "MO Energy Order",
   "titleBn": "আণবিক অরবিটাল শক্তি ক্রম",
-  "summary": "N₂ ও O₂ এর MO ক্রম",
+  "summary": "N₂-তে π আগে σ2p; O₂-তে σ2p আগে।",
   "latex": "\\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\sigma^*2s\\,\\sigma2p\\,\\pi2p\\,\\pi^*",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "N_2, sigma, s, pi",
+      "symbol": "N_2",
       "meaning": "N₂ ও O₂ এর MO ক্রম",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "sigma",
+      "meaning": "sigma সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "s",
+      "meaning": "s সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "pi",
+      "meaning": "pi সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\sigma^*2s\\,\\sigma2p\\,\\pi2p\\,\\pi^*",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "N₂-তে π আগে σ2p; O₂-তে σ2p আগে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\sigma^*2s\\,\\sigma2p\\,\\pi2p\\,\\pi^*",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আণবিক অরবিটাল শক্তি ক্রম এর সূত্রটি লেখো। (ইঙ্গিত: N₂-তে π আগে σ2p; O₂-তে σ2p আগে।)",
+      "question": "আণবিক অরবিটাল শক্তি ক্রম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\sigma^*2s\\,\\sigma2p\\,\\pi2p\\,\\pi^*"
     }
   ],
   "memorize": {
     "trick": "N₂-তে π আগে σ2p; O₂-তে σ2p আগে।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\…",
+      "কী কাজে লাগে: আণবিক অরবিটাল শক্তি ক্রম",
+      "চিহ্ন মনে রাখো: N_2, sigma, s, pi"
+    ]
   },
   "subjects": [
     "chemistry"

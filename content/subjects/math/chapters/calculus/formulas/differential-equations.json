@@ -28,8 +28,13 @@
       "unit": "—"
     },
     {
-      "symbol": "P,Q",
+      "symbol": "P",
       "meaning": "x-এর function",
+      "unit": "—"
+    },
+    {
+      "symbol": "Q",
+      "meaning": "Q সম্পর্কিত রাশি",
       "unit": "—"
     },
     {

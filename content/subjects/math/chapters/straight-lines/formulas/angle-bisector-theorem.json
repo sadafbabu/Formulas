@@ -3,7 +3,7 @@
   "chapter": "straight-lines",
   "title": "Angle Bisector Theorem",
   "titleBn": "কোণ সমদ্বিখণ্ডক উপপাদ্য",
-  "summary": "divides opposite side",
+  "summary": "সমদ্বিখণ্ডক বিপরীত বাহুকে বাহুর অনুপাতে ভাগ করে।",
   "latex": "\\frac{BD}{DC}=\\frac{AB}{AC}",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 170,
   "symbols": [
     {
-      "symbol": "B, D, C, A",
+      "symbol": "B",
       "meaning": "divides opposite side",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "D",
+      "meaning": "D সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "C",
+      "meaning": "C সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "A সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{BD}{DC}=\\frac{AB}{AC}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "সমদ্বিখণ্ডক বিপরীত বাহুকে বাহুর অনুপাতে ভাগ করে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\frac{BD}{DC}=\\frac{AB}{AC}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কোণ সমদ্বিখণ্ডক উপপাদ্য এর সূত্রটি লেখো। (ইঙ্গিত: সমদ্বিখণ্ডক বিপরীত বাহুকে বাহুর অনুপাতে ভাগ করে।)",
+      "question": "কোণ সমদ্বিখণ্ডক উপপাদ্য কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\frac{BD}{DC}=\\frac{AB}{AC}"
     }
   ],
   "memorize": {
     "trick": "সমদ্বিখণ্ডক বিপরীত বাহুকে বাহুর অনুপাতে ভাগ করে।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\frac{BD}{DC}=\\frac{AB}{AC}",
+      "কী কাজে লাগে: কোণ সমদ্বিখণ্ডক উপপাদ্য",
+      "চিহ্ন মনে রাখো: B, D, C, A"
+    ]
   },
   "subjects": [
     "math"

@@ -3,7 +3,7 @@
   "chapter": "circular-motion",
   "title": "Loop-the-Loop",
   "titleBn": "লুপ দিয়ে ঘূর্ণন",
-  "summary": "height 5r/2",
+  "summary": "লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।",
   "latex": "h_{\\min}=\\frac{5r}{2}\\quad\\text{(from bottom of loop)}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "h, r, f, o",
+      "symbol": "h",
       "meaning": "লুপ দিয়ে ঘূর্ণন",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "r",
+      "meaning": "r সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "f",
+      "meaning": "f সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "o",
+      "meaning": "o সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "h_{\\min}=\\frac{5r}{2}\\quad\\text{(from bottom of loop)}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "h_{\\min}=\\frac{5r}{2}\\quad\\text{(from bottom of loop)}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "লুপ দিয়ে ঘূর্ণন সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।)",
+      "question": "লুপ দিয়ে ঘূর্ণন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "h_{\\min}=\\frac{5r}{2}\\quad\\text{(from bottom of loop)}"
     }
   ],
   "memorize": {
     "trick": "লুপ সম্পূর্ণ করতে উচ্চতা ≥ 5r/2।",
-    "steps": []
+    "steps": [
+      "সূত্র: h_{\\min}=\\frac{5r}{2}\\quad\\text{(from bottom of loop)}",
+      "কী কাজে লাগে: লুপ দিয়ে ঘূর্ণন",
+      "চিহ্ন মনে রাখো: h, r, f, o"
+    ]
   },
   "subjects": [
     "physics"

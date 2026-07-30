@@ -3,7 +3,7 @@
   "chapter": "trigonometric-equations",
   "title": "General Solution tanθ=k",
   "titleBn": "tanθ=k-এর সাধারণ সমাধান",
-  "summary": "θ=nπ+α",
+  "summary": "Period π (not 2π) for tan; simpler than sin/cos।",
   "latex": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 170,
   "symbols": [
     {
-      "symbol": "theta, n, pi, alpha",
+      "symbol": "theta",
       "meaning": "θ=nπ+α",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "n সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "pi",
+      "meaning": "pi সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "alpha",
+      "meaning": "alpha সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "Period π (not 2π) for tan; simpler than sin/cos।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "tanθ=k-এর সাধারণ সমাধান এর সূত্রটি লেখো। (ইঙ্গিত: Period π (not 2π) for tan; simpler than sin/cos।)",
+      "question": "tanθ=k-এর সাধারণ সমাধান কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k"
     }
   ],
   "memorize": {
     "trick": "Period π (not 2π) for tan; simpler than sin/cos।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k",
+      "কী কাজে লাগে: tanθ=k-এর সাধারণ সমাধান",
+      "চিহ্ন মনে রাখো: theta, n, pi, alpha"
+    ]
   },
   "subjects": [
     "math"

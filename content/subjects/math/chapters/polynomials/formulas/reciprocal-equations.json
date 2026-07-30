@@ -28,8 +28,18 @@
       "unit": "—"
     },
     {
-      "symbol": "a,b,c",
+      "symbol": "a",
       "meaning": "palindromic coefficients",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "c",
+      "meaning": "c সম্পর্কিত রাশি",
       "unit": "—"
     }
   ],

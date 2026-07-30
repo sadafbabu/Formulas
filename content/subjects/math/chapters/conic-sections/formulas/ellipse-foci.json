@@ -3,7 +3,7 @@
   "chapter": "conic-sections",
   "title": "Ellipse Foci",
   "titleBn": "উপবৃত্তের ফোকাস",
-  "summary": "ফোকাস (±c,0)",
+  "summary": "PF₁+PF₂=2a — উপবৃত্তের সংজ্ঞা; e=c/a।",
   "latex": "c^2=a^2-b^2,\\ \\text{Foci }(\\pm c,0)",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "c, a, b, Foci",
-      "meaning": "ফোকাস (±c,0)",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "c",
+      "meaning": "ফোকাস (±c",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "0)",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "Foci",
+      "meaning": "Foci সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "c^2=a^2-b^2,\\ \\text{Foci }(\\pm c,0)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "PF₁+PF₂=2a — উপবৃত্তের সংজ্ঞা; e=c/a।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "c^2=a^2-b^2,\\ \\text{Foci }(\\pm c,0)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উপবৃত্তের ফোকাস এর সূত্রটি লেখো। (ইঙ্গিত: PF₁+PF₂=2a — উপবৃত্তের সংজ্ঞা; e=c/a।)",
+      "question": "উপবৃত্তের ফোকাস কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "c^2=a^2-b^2,\\ \\text{Foci }(\\pm c,0)"
     }
   ],
   "memorize": {
     "trick": "PF₁+PF₂=2a — উপবৃত্তের সংজ্ঞা; e=c/a।",
-    "steps": []
+    "steps": [
+      "সূত্র: c^2=a^2-b^2,\\ \\text{Foci }(\\pm c,0)",
+      "কী কাজে লাগে: উপবৃত্তের ফোকাস",
+      "চিহ্ন মনে রাখো: c, a, b, Foci"
+    ]
   },
   "subjects": [
     "math"

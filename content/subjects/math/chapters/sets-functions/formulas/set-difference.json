@@ -3,7 +3,7 @@
   "chapter": "sets-functions",
   "title": "Set Difference",
   "titleBn": "সেটের পার্থক্য",
-  "summary": "A−B",
+  "summary": "A-তে আছে কিন্তু B-তে নেই। A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
   "latex": "A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "A, setminus, B, x",
+      "symbol": "A",
       "meaning": "A−B",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "setminus",
+      "meaning": "setminus সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "x সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "A-তে আছে কিন্তু B-তে নেই।",
+    "lead": "A-তে আছে কিন্তু B-তে নেই। A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "A-তে আছে কিন্তু B-তে নেই। A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সেটের পার্থক্য এর সূত্রটি লেখো। (ইঙ্গিত: A-তে আছে কিন্তু B-তে নেই।)",
+      "question": "সেটের পার্থক্য কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}"
     }
   ],
   "memorize": {
-    "trick": "A-তে আছে কিন্তু B-তে নেই।",
-    "steps": []
+    "trick": "A-তে আছে কিন্তু B-তে নেই। A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
+    "steps": [
+      "সূত্র: A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
+      "কী কাজে লাগে: সেটের পার্থক্য",
+      "চিহ্ন মনে রাখো: A, setminus, B, x"
+    ]
   },
   "subjects": [
     "math"

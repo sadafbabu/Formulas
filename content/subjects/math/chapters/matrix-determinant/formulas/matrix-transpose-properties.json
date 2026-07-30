@@ -3,7 +3,7 @@
   "chapter": "matrix-determinant",
   "title": "Transpose Properties",
   "titleBn": "ট্রান্সপোজ ধর্ম",
-  "summary": "(AB)ᵀ=BᵀAᵀ",
+  "summary": "গুণের ট্রান্সপোজে ক্রম উল্টো। (AB)^T=B^TA^T,\\quad (A^T)^T=A",
   "latex": "(AB)^T=B^TA^T,\\quad (A^T)^T=A",
   "tags": [
     "hsc",
@@ -15,18 +15,33 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "A, B, T",
+      "symbol": "A",
       "meaning": "(AB)ᵀ=BᵀAᵀ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "T",
+      "meaning": "T সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "গুণের ট্রান্সপোজে ক্রম উল্টো।",
+    "lead": "গুণের ট্রান্সপোজে ক্রম উল্টো। (AB)^T=B^TA^T,\\quad (A^T)^T=A",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "(AB)^T=B^TA^T,\\quad (A^T)^T=A",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "গুণের ট্রান্সপোজে ক্রম উল্টো। (AB)^T=B^TA^T,\\quad (A^T)^T=A"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "(AB)^T=B^TA^T,\\quad (A^T)^T=A",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +49,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ট্রান্সপোজ ধর্ম এর সূত্রটি লেখো। (ইঙ্গিত: গুণের ট্রান্সপোজে ক্রম উল্টো।)",
+      "question": "ট্রান্সপোজ ধর্ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "(AB)^T=B^TA^T,\\quad (A^T)^T=A"
     }
   ],
   "memorize": {
-    "trick": "গুণের ট্রান্সপোজে ক্রম উল্টো।",
-    "steps": []
+    "trick": "গুণের ট্রান্সপোজে ক্রম উল্টো। (AB)^T=B^TA^T,\\quad (A^T)^T=A",
+    "steps": [
+      "সূত্র: (AB)^T=B^TA^T,\\quad (A^T)^T=A",
+      "কী কাজে লাগে: ট্রান্সপোজ ধর্ম",
+      "চিহ্ন মনে রাখো: A, B, T"
+    ]
   },
   "subjects": [
     "math"

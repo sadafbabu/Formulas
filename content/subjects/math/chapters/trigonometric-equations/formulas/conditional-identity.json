@@ -3,7 +3,7 @@
   "chapter": "trigonometric-equations",
   "title": "Conditional Triangle Identities",
   "titleBn": "ত্রিভুজে শর্তাধীন অভেদ",
-  "summary": "A+B+C=π হলে tan অভেদ",
+  "summary": "কোণের যোগ π হলে tan সমষ্টি = tan গুণফল।",
   "latex": "A+B+C=\\pi\\Rightarrow\\tan A+\\tan B+\\tan C=\\tan A\\tan B\\tan C",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "A, B, C, pi",
+      "symbol": "A",
       "meaning": "A+B+C=π হলে tan অভেদ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "C",
+      "meaning": "C সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "pi",
+      "meaning": "pi সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "A+B+C=\\pi\\Rightarrow\\tan A+\\tan B+\\tan C=\\tan A\\tan B\\tan C",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "কোণের যোগ π হলে tan সমষ্টি = tan গুণফল।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "A+B+C=\\pi\\Rightarrow\\tan A+\\tan B+\\tan C=\\tan A\\tan B\\tan C",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ত্রিভুজে শর্তাধীন অভেদ এর সূত্রটি লেখো। (ইঙ্গিত: কোণের যোগ π হলে tan সমষ্টি = tan গুণফল।)",
+      "question": "ত্রিভুজে শর্তাধীন অভেদ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "A+B+C=\\pi\\Rightarrow\\tan A+\\tan B+\\tan C=\\tan A\\tan B\\tan C"
     }
   ],
   "memorize": {
     "trick": "কোণের যোগ π হলে tan সমষ্টি = tan গুণফল।",
-    "steps": []
+    "steps": [
+      "সূত্র: A+B+C=\\pi\\Rightarrow\\tan A+\\tan B+\\tan C=\\tan A\\tan B\\tan C",
+      "কী কাজে লাগে: ত্রিভুজে শর্তাধীন অভেদ",
+      "চিহ্ন মনে রাখো: A, B, C, pi"
+    ]
   },
   "subjects": [
     "math"

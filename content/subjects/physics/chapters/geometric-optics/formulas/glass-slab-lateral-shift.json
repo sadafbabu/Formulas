@@ -21,8 +21,13 @@
       "unit": "m"
     },
     {
-      "symbol": "i, r",
+      "symbol": "i",
       "meaning": "আপতন ও প্রতিসরণ কোণ",
+      "unit": "rad বা °"
+    },
+    {
+      "symbol": "r",
+      "meaning": "r সম্পর্কিত রাশি",
       "unit": "rad বা °"
     },
     {
@@ -63,7 +68,11 @@
   ],
   "memorize": {
     "trick": "লম্বে সরণ ০; আনুমানিক d ≈ t(1−1/n)sin i — sin i ভুলো না।",
-    "steps": []
+    "steps": [
+      "সূত্র: d=t\\,\\dfrac{\\sin(i-r)}{\\cos r}\\approx t\\left(1-\\dfrac{1}{n}\\right)\\sin i",
+      "d = t sin(i−r)/cos r; ক্ষুদ্র কোণে d ≈ t(1−1/n) sin i",
+      "চিহ্ন মনে রাখো: t, i, r, n"
+    ]
   },
   "subjects": [
     "physics"

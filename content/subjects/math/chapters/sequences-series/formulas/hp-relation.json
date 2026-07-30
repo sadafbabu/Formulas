@@ -3,7 +3,7 @@
   "chapter": "sequences-series",
   "title": "Harmonic Progression",
   "titleBn": "হারমোনিক ধারা",
-  "summary": "1/a_n is AP",
+  "summary": "HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।",
   "latex": "a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "a, b, c, in HP",
+      "symbol": "a",
       "meaning": "1/a_n is AP",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "c",
+      "meaning": "c সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "in HP",
+      "meaning": "in HP সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "হারমোনিক ধারা এর সূত্রটি লেখো। (ইঙ্গিত: HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।)",
+      "question": "হারমোনিক ধারা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}"
     }
   ],
   "memorize": {
     "trick": "HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।",
-    "steps": []
+    "steps": [
+      "সূত্র: a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}",
+      "কী কাজে লাগে: হারমোনিক ধারা",
+      "চিহ্ন মনে রাখো: a, b, c, in HP"
+    ]
   },
   "subjects": [
     "math"

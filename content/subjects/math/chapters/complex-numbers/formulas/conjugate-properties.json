@@ -13,8 +13,13 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "z, \\overline{z}",
+      "symbol": "z",
       "meaning": "জটিল সংখ্যা ও তার অন্বয়ী",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\overline{z}",
+      "meaning": "\\overline{z} সম্পর্কিত রাশি",
       "unit": "—"
     },
     {
@@ -27,9 +32,14 @@
     "lead": "জটিল সংখ্যার বীজগণিতীয় ধর্ম থেকে অন্বয়ী ও মডুলাস সম্পর্ক।",
     "steps": [
       {
-        "title": "মডুলাস ধর্ম",
-        "latex": "|z_1 z_2| = |z_1||z_2|",
-        "note": "ভাগফলের জন্য |z₁/z₂| = |z₁|/|z₂|"
+        "title": "মূল সূত্র",
+        "latex": "|z_1 z_2| = |z_1||z_2|, \\quad \\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2}, \\quad |z|^2 = z\\,\\overline{z}",
+        "note": "জটিল সংখ্যার বীজগণিতীয় ধর্ম থেকে অন্বয়ী ও মডুলাস সম্পর্ক।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "|z_1 z_2| = |z_1||z_2|, \\quad \\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2}, \\quad |z|^2 = z\\,\\overline{z}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

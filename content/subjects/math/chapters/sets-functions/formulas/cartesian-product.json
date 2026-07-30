@@ -3,7 +3,7 @@
   "chapter": "sets-functions",
   "title": "Cartesian Product",
   "titleBn": "কার্তesian গুণফল",
-  "summary": "A×B",
+  "summary": "|A×B|=|A|·|B|; ordered pair। A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
   "latex": "A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "A, B, a, b",
+      "symbol": "A",
       "meaning": "A×B",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "|A×B|=|A|·|B|; ordered pair।",
+    "lead": "|A×B|=|A|·|B|; ordered pair। A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "|A×B|=|A|·|B|; ordered pair। A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কার্তesian গুণফল এর সূত্রটি লেখো। (ইঙ্গিত: |A×B|=|A|·|B|; ordered pair।)",
+      "question": "কার্তesian গুণফল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}"
     }
   ],
   "memorize": {
-    "trick": "|A×B|=|A|·|B|; ordered pair।",
-    "steps": []
+    "trick": "|A×B|=|A|·|B|; ordered pair। A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
+    "steps": [
+      "সূত্র: A\\times B=\\{(a,b):a\\in A,\\ b\\in B\\}",
+      "কী কাজে লাগে: কার্তesian গুণফল",
+      "চিহ্ন মনে রাখো: A, B, a, b"
+    ]
   },
   "subjects": [
     "math"

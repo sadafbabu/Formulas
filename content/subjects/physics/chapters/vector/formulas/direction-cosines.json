@@ -14,13 +14,33 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "l, m, n",
-      "meaning": "x, y, z অক্ষের সাথে দিক কোসাইন",
+      "symbol": "l",
+      "meaning": "x",
       "unit": "এককহীন"
     },
     {
-      "symbol": "\\alpha, \\beta, \\gamma",
+      "symbol": "m",
+      "meaning": "y",
+      "unit": "এককহীন"
+    },
+    {
+      "symbol": "n",
+      "meaning": "z অক্ষের সাথে দিক কোসাইন",
+      "unit": "এককহীন"
+    },
+    {
+      "symbol": "\\alpha",
       "meaning": "অক্ষের সাথে কোণ",
+      "unit": "°"
+    },
+    {
+      "symbol": "\\beta",
+      "meaning": "\\beta সম্পর্কিত রাশি",
+      "unit": "°"
+    },
+    {
+      "symbol": "\\gamma",
+      "meaning": "\\gamma সম্পর্কিত রাশি",
       "unit": "°"
     }
   ],
@@ -28,9 +48,14 @@
     "lead": "একক ভেক্টরের উপাংশ হলো দিক কোসাইন।",
     "steps": [
       {
-        "title": "দিক কোসাইন",
-        "latex": "l = \\cos\\alpha, \\quad l^2+m^2+n^2=1",
-        "note": "দিক অনুপাত = l:m:n"
+        "title": "মূল সূত্র",
+        "latex": "l^2 + m^2 + n^2 = 1, \\quad \\cos\\alpha = \\frac{a_x}{|\\vec{a}|}",
+        "note": "একক ভেক্টরের উপাংশ হলো দিক কোসাইন।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "l^2 + m^2 + n^2 = 1, \\quad \\cos\\alpha = \\frac{a_x}{|\\vec{a}|}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

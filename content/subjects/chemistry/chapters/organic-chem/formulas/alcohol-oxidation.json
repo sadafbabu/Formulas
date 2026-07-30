@@ -23,9 +23,14 @@
     "lead": "অ্যালকোহলের স্তর অনুযায়ী জারণ পণ্য ভিন্ন।",
     "steps": [
       {
-        "title": "জারণ স্তর",
-        "latex": "1° \\to \\text{RCHO} \\to \\text{RCOOH}, \\quad 2° \\to \\text{RCOR'}",
-        "note": "3° অ্যালকোহল সাধারণ অবস্থায় জারিত হয় না"
+        "title": "মূল সূত্র",
+        "latex": "\\ce{R-CH2OH ->[PCC] R-CHO ->[K2Cr2O7/H+] R-COOH}",
+        "note": "অ্যালকোহলের স্তর অনুযায়ী জারণ পণ্য ভিন্ন।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\ce{R-CH2OH ->[PCC] R-CHO ->[K2Cr2O7/H+] R-COOH}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

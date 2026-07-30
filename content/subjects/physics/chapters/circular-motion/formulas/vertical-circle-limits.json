@@ -3,7 +3,7 @@
   "chapter": "circular-motion",
   "title": "Vertical Circle Extremes",
   "titleBn": "উল্লম্ব বৃত্তের চরম",
-  "summary": "top/bottom",
+  "summary": "শীর্ষে ন্যূনতম √(gr)। v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
   "latex": "v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "v, top, g, r",
+      "symbol": "v",
       "meaning": "উল্লম্ব বৃত্তের চরম",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "top",
+      "meaning": "top সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "g",
+      "meaning": "g সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "r",
+      "meaning": "r সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "top/bottom — শীর্ষে ন্যূনতম √(gr)।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উল্লম্ব বৃত্তের চরম সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: শীর্ষে ন্যূনতম √(gr)।)",
+      "question": "উল্লম্ব বৃত্তের চরম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})"
     }
   ],
   "memorize": {
-    "trick": "শীর্ষে ন্যূনতম √(gr)।",
-    "steps": []
+    "trick": "শীর্ষে ন্যূনতম √(gr)। v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
+    "steps": [
+      "সূত্র: v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
+      "কী কাজে লাগে: উল্লম্ব বৃত্তের চরম",
+      "চিহ্ন মনে রাখো: v, top, g, r"
+    ]
   },
   "subjects": [
     "physics"

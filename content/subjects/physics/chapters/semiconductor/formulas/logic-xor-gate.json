@@ -3,7 +3,7 @@
   "chapter": "semiconductor",
   "title": "XOR Gate",
   "titleBn": "XOR গেট",
-  "summary": "A⊕B",
+  "summary": "একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B",
   "latex": "A\\oplus B=A\\overline{B}+\\overline{A}B",
   "tags": [
     "hsc",
@@ -16,18 +16,38 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "A, oplus, B, overline",
+      "symbol": "A",
       "meaning": "XOR গেট",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "oplus",
+      "meaning": "oplus সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "overline",
+      "meaning": "overline সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "A⊕B — একই হলে ০; ভিন্ন হলে ১।",
+    "lead": "একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "A\\oplus B=A\\overline{B}+\\overline{A}B",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "A\\oplus B=A\\overline{B}+\\overline{A}B",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "XOR গেট সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: একই হলে ০; ভিন্ন হলে ১।)",
+      "question": "XOR গেট কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "A\\oplus B=A\\overline{B}+\\overline{A}B"
     }
   ],
   "memorize": {
-    "trick": "একই হলে ০; ভিন্ন হলে ১।",
-    "steps": []
+    "trick": "একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B",
+    "steps": [
+      "সূত্র: A\\oplus B=A\\overline{B}+\\overline{A}B",
+      "কী কাজে লাগে: XOR গেট",
+      "চিহ্ন মনে রাখো: A, oplus, B, overline"
+    ]
   },
   "subjects": [
     "physics"

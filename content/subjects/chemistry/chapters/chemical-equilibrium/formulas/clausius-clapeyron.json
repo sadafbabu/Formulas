@@ -16,8 +16,13 @@
   "order": 330,
   "symbols": [
     {
-      "symbol": "P_1, P_2",
+      "symbol": "P_1",
       "meaning": "দুই তাপমাত্রায় বাষ্পচাপ",
+      "unit": "Pa"
+    },
+    {
+      "symbol": "P_2",
+      "meaning": "P_2 সম্পর্কিত রাশি",
       "unit": "Pa"
     },
     {
@@ -35,9 +40,14 @@
     "lead": "তরল–বাষ্প সাম্যে চাপের তাপমাত্রা নির্ভরতা।",
     "steps": [
       {
-        "title": "দ্বি-বিন্দু রূপ",
-        "latex": "\\ln(P_2/P_1)=-\\dfrac{\\Delta H_v}{R}(1/T_2-1/T_1)",
-        "note": "T↑ → P↑।"
+        "title": "মূল সূত্র",
+        "latex": "\\ln\\dfrac{P_2}{P_1}=-\\dfrac{\\Delta H_v}{R}\\left(\\dfrac{1}{T_2}-\\dfrac{1}{T_1}\\right)",
+        "note": "তরল–বাষ্প সাম্যে চাপের তাপমাত্রা নির্ভরতা।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\ln\\dfrac{P_2}{P_1}=-\\dfrac{\\Delta H_v}{R}\\left(\\dfrac{1}{T_2}-\\dfrac{1}{T_1}\\right)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -54,7 +64,9 @@
   "memorize": {
     "trick": "গরম করলে বাষ্পচাপ বাড়ে — ln P বনাম 1/T সরলরেখা, ঢাল −ΔH/R।",
     "steps": [
-      "ln(P₂/P₁) = −(ΔH/R)(1/T₂−1/T₁)"
+      "সূত্র: \\ln\\dfrac{P_2}{P_1}=-\\dfrac{\\Delta H_v}{R}\\left(\\dfrac{1}{T_2}-\\dfrac{1}{T_1}\\ri…",
+      "বাষ্পচাপ–তাপমাত্রা: ln(P₂/P₁)=−(ΔH_v/R)(1/T₂−1/T₁)",
+      "চিহ্ন মনে রাখো: P_1, P_2, \\Delta H_v, T"
     ]
   },
   "subjects": [

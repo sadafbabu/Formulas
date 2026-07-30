@@ -3,7 +3,7 @@
   "chapter": "linear-programming",
   "title": "Feasible Region",
   "titleBn": "সম্ভাব্য অঞ্চল",
-  "summary": "constraints-এর ছেদ",
+  "summary": "সব constraint একসাথে plot → bounded/unbounded region।",
   "latex": "\\text{Feasible region = intersection of constraint half-planes}",
   "tags": [
     "hsc",
@@ -17,7 +17,7 @@
     {
       "symbol": "Feasible region = intersection of constraint half-planes",
       "meaning": "constraints-এর ছেদ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +26,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{Feasible region = intersection of constraint half-planes}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "সব constraint একসাথে plot → bounded/unbounded region।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\text{Feasible region = intersection of constraint half-planes}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +39,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সম্ভাব্য অঞ্চল এর সূত্রটি লেখো। (ইঙ্গিত: সব constraint একসাথে plot → bounded/unbounded region।)",
+      "question": "সম্ভাব্য অঞ্চল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\text{Feasible region = intersection of constraint half-planes}"
     }
   ],
   "memorize": {
     "trick": "সব constraint একসাথে plot → bounded/unbounded region।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\text{Feasible region = intersection of constraint half-planes}",
+      "কী কাজে লাগে: সম্ভাব্য অঞ্চল",
+      "চিহ্ন মনে রাখো: Feasible region = intersection of constraint half-planes"
+    ]
   },
   "subjects": [
     "math"

@@ -3,7 +3,7 @@
   "chapter": "chemical-equilibrium",
   "title": "Ka × Kb = Kw",
   "titleBn": "Ka·Kb=Kw",
-  "summary": "conjugate pair",
+  "summary": "কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
   "latex": "K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
   "tags": [
     "hsc",
@@ -16,18 +16,38 @@
   "order": 190,
   "symbols": [
     {
-      "symbol": "K, a, b, w",
+      "symbol": "K",
       "meaning": "conjugate pair",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "w",
+      "meaning": "w সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "কনজুগেট জোড়ায় Ka×Kb=Kw।",
+    "lead": "কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "Ka·Kb=Kw এর সূত্রটি লেখো। (ইঙ্গিত: কনজুগেট জোড়ায় Ka×Kb=Kw।)",
+      "question": "Ka·Kb=Kw কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})"
     }
   ],
   "memorize": {
-    "trick": "কনজুগেট জোড়ায় Ka×Kb=Kw।",
-    "steps": []
+    "trick": "কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
+    "steps": [
+      "সূত্র: K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
+      "কী কাজে লাগে: Ka·Kb=Kw",
+      "চিহ্ন মনে রাখো: K, a, b, w"
+    ]
   },
   "subjects": [
     "chemistry"

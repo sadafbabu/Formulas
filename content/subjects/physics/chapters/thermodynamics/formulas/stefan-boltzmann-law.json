@@ -3,7 +3,7 @@
   "chapter": "thermodynamics",
   "title": "Stefan-Boltzmann Law",
   "titleBn": "স্টিফান-বোল্টজম্যান সূত্র",
-  "summary": "P=σAT⁴",
+  "summary": "বিকিরণ ক্ষমতা ∝ T⁴ — দ্বিগুণ তাপমাত্রায় ১৬ গুণ শক্তি।",
   "latex": "P=\\sigma A T^4",
   "tags": [
     "hsc",
@@ -15,9 +15,19 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "P, A, T",
+      "symbol": "P",
       "meaning": "স্টিফান-বোল্টজম্যান সূত্র",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "A সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "T",
+      "meaning": "T সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P=\\sigma A T^4",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "Radiated power ∝ T⁴; σ=5.67×10⁻⁸ W/m²K⁴।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "P=\\sigma A T^4",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +49,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্টিফান-বোল্টজম্যান সূত্র সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: Radiated power ∝ T⁴; σ=5.67×10⁻⁸ W/m²K⁴।)",
+      "question": "স্টিফান-বোল্টজম্যান সূত্র কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "P=\\sigma A T^4"
     }
   ],
   "memorize": {
-    "trick": "Radiated power ∝ T⁴; σ=5.67×10⁻⁸ W/m²K⁴।",
-    "steps": []
+    "trick": "বিকিরণ ক্ষমতা ∝ T⁴ — দ্বিগুণ তাপমাত্রায় ১৬ গুণ শক্তি।",
+    "steps": [
+      "P = σAT⁴",
+      "σ = 5.67×10⁻⁸",
+      "নেট: σA(T⁴−T₀⁴)"
+    ]
   },
   "subjects": [
     "physics"

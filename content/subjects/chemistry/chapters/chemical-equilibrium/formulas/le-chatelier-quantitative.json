@@ -23,9 +23,14 @@
     "lead": "সাম্যে বাধা দিলে সাম্য বাধা কমানো দিকে সরে যায়।",
     "steps": [
       {
-        "title": "সাধারণ আয়ন",
-        "latex": "\\text{common ion} \\Rightarrow \\text{less } \\alpha",
-        "note": "দ্রবতা গুণফল সাম্যে কেবল তাপের উপর নির্ভরশীল"
+        "title": "মূল সূত্র",
+        "latex": "Q + \\text{stress} \\to \\text{shift}, \\quad K_{sp} = [A^+][B^-]",
+        "note": "সাম্যে বাধা দিলে সাম্য বাধা কমানো দিকে সরে যায়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "Q + \\text{stress} \\to \\text{shift}, \\quad K_{sp} = [A^+][B^-]",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

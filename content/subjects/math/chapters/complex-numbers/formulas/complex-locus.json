@@ -71,7 +71,9 @@
   "memorize": {
     "trick": "|z−a| মানে distance। এক point থেকে distance fixed ⇒ circle; দুই point থেকে distance equal ⇒ perpendicular bisector; distance ratio fixed ⇒ Apollonius circle।",
     "steps": [
-      "arg((z−z₁)/(z−z₂)) fixed ⇒ segment z₁z₂ যে fixed angle subtend করে সেই arc।"
+      "সূত্র: |z-z_0|=r\\Rightarrow\\text{বৃত্ত},\\quad |z-z_1|=|z-z_2|\\Rightarrow\\text{লম্বদ্বিখ…",
+      "Modulus ও argument condition-কে straight line, circle, ellipse ও angle locus-এ রূপান্তর।",
+      "চিহ্ন মনে রাখো: z, z_0, r"
     ]
   }
 }

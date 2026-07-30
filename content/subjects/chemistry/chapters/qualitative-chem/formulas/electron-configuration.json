@@ -19,8 +19,23 @@
       "unit": "—"
     },
     {
-      "symbol": "s,p,d,f",
+      "symbol": "s",
       "meaning": "অরবিটাল প্রকার",
+      "unit": "—"
+    },
+    {
+      "symbol": "p",
+      "meaning": "p সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "d",
+      "meaning": "d সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "f",
+      "meaning": "f সম্পর্কিত রাশি",
       "unit": "—"
     }
   ],
@@ -28,9 +43,14 @@
     "lead": "Aufbau নীতি (নিম্ন শক্তি আগে), Hund-এর নিয়ম (সর্বোচ্চ অযুগল), Pauli বর্জন নীতি।",
     "steps": [
       {
-        "title": "(n+l) নিয়ম",
-        "latex": "\\text{lower } (n+l) \\Rightarrow \\text{lower energy}",
-        "note": "n+l সমান হলে ছোট n আগে পূর্ণ হয়"
+        "title": "মূল সূত্র",
+        "latex": "1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10}, \\quad (n+l)\\ \\text{rule}",
+        "note": "Aufbau নীতি (নিম্ন শক্তি আগে), Hund-এর নিয়ম (সর্বোচ্চ অযুগল), Pauli বর্জন নীতি।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10}, \\quad (n+l)\\ \\text{rule}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

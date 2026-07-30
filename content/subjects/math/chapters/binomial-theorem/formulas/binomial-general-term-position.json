@@ -3,7 +3,7 @@
   "chapter": "binomial-theorem",
   "title": "General Term Position",
   "titleBn": "সাধারণ পদের অবস্থান",
-  "summary": "T_{r+1}",
+  "summary": "(r+1)-তম পদ; r=0 থেকে শুরু। T_{r+1}=\\binom{n}{r}a^{n-r}b^r",
   "latex": "T_{r+1}=\\binom{n}{r}a^{n-r}b^r",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "T, r, binom, n",
+      "symbol": "T",
       "meaning": "T_{r+1}",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "r",
+      "meaning": "r সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "binom",
+      "meaning": "binom সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "n সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "(r+1)-তম পদ; r=0 থেকে শুরু।",
+    "lead": "(r+1)-তম পদ; r=0 থেকে শুরু। T_{r+1}=\\binom{n}{r}a^{n-r}b^r",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "T_{r+1}=\\binom{n}{r}a^{n-r}b^r",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "(r+1)-তম পদ; r=0 থেকে শুরু। T_{r+1}=\\binom{n}{r}a^{n-r}b^r"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "T_{r+1}=\\binom{n}{r}a^{n-r}b^r",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সাধারণ পদের অবস্থান এর সূত্রটি লেখো। (ইঙ্গিত: (r+1)-তম পদ; r=0 থেকে শুরু।)",
+      "question": "সাধারণ পদের অবস্থান কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "T_{r+1}=\\binom{n}{r}a^{n-r}b^r"
     }
   ],
   "memorize": {
-    "trick": "(r+1)-তম পদ; r=0 থেকে শুরু।",
-    "steps": []
+    "trick": "(r+1)-তম পদ; r=0 থেকে শুরু। T_{r+1}=\\binom{n}{r}a^{n-r}b^r",
+    "steps": [
+      "সূত্র: T_{r+1}=\\binom{n}{r}a^{n-r}b^r",
+      "কী কাজে লাগে: সাধারণ পদের অবস্থান",
+      "চিহ্ন মনে রাখো: T, r, binom, n"
+    ]
   },
   "subjects": [
     "math"

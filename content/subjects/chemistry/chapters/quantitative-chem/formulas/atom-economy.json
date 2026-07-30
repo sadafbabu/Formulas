@@ -30,9 +30,14 @@
     "lead": "সবুজ রসায়ন: কতটা পরমাণু কাজে লাগে, কতটা বর্জ্য।",
     "steps": [
       {
-        "title": "সূত্র",
-        "latex": "\\%\\mathrm{AE}=\\dfrac{M_{\\mathrm{product}}}{\\sum M_{\\mathrm{reactants}}}\\times100",
-        "note": "যোগ বিক্রিয়ায় AE≈100%।"
+        "title": "মূল সূত্র",
+        "latex": "\\%\\ \\mathrm{AE}=\\dfrac{M_{\\mathrm{desired}}}{\\sum M_{\\mathrm{reactants}}}\\times100",
+        "note": "সবুজ রসায়ন: কতটা পরমাণু কাজে লাগে, কতটা বর্জ্য।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\%\\ \\mathrm{AE}=\\dfrac{M_{\\mathrm{desired}}}{\\sum M_{\\mathrm{reactants}}}\\times100",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -49,7 +54,9 @@
   "memorize": {
     "trick": "কাঙ্ক্ষিত / মোট বিক্রিয়ক × 100 — বর্জ্য কম = AE বেশি।",
     "steps": [
-      "AE = desired MM / total reactant MM"
+      "সূত্র: \\%\\ \\mathrm{AE}=\\dfrac{M_{\\mathrm{desired}}}{\\sum M_{\\mathrm{reactants}}}\\times1…",
+      "% atom economy = (কাঙ্ক্ষিত উৎপাদনের মোলার ভর / মোট বিক্রিয়কের মোলার ভর) × 100",
+      "চিহ্ন মনে রাখো: M_{\\mathrm{desired}}, \\sum M_{\\mathrm{reactants}}"
     ]
   },
   "subjects": [

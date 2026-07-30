@@ -46,9 +46,14 @@
     "lead": "দুই লম্ব চৌম্বক ক্ষেত্র B ও B_H এর ট্যানজেন্ট সূত্র সমতা:",
     "steps": [
       {
-        "title": "ট্যানজেন্ট সমতা",
-        "latex": "B = B_H \\tan \\theta \\implies \\frac{\\mu_0 N I}{2r} = B_H \\tan \\theta \\implies I = \\left(\\frac{2 r B_H}{\\mu_0 N}\\right) \\tan \\theta",
-        "note": "বিক্ষেপ \\theta = 45^\\circ হলে পরিমাপের নির্ভুলতা সর্বোচ্চ হয়।"
+        "title": "মূল সূত্র",
+        "latex": "I = K \\tan \\theta, \\quad K = \\frac{2 r B_H}{\\mu_0 N}",
+        "note": "দুই লম্ব চৌম্বক ক্ষেত্র B ও B_H এর ট্যানজেন্ট সূত্র সমতা:"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "I = K \\tan \\theta, \\quad K = \\frac{2 r B_H}{\\mu_0 N}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

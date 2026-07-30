@@ -3,7 +3,7 @@
   "chapter": "calculus",
   "title": "Rolle's Theorem",
   "titleBn": "রোলের উপপাদ্য",
-  "summary": "f(a)=f(b) ⇒ f'(c)=0",
+  "summary": "মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
   "latex": "f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 180,
   "symbols": [
     {
-      "symbol": "f, a, b, Rightarrow",
+      "symbol": "f",
       "meaning": "f(a)=f(b) ⇒ f'(c)=0",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "Rightarrow",
+      "meaning": "Rightarrow সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "মধ্যমান উপপাদ্যের বিশেষ রূপ।",
+    "lead": "মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রোলের উপপাদ্য এর সূত্রটি লেখো। (ইঙ্গিত: মধ্যমান উপপাদ্যের বিশেষ রূপ।)",
+      "question": "রোলের উপপাদ্য কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0"
     }
   ],
   "memorize": {
-    "trick": "মধ্যমান উপপাদ্যের বিশেষ রূপ।",
-    "steps": []
+    "trick": "মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
+    "steps": [
+      "সূত্র: f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
+      "কী কাজে লাগে: রোলের উপপাদ্য",
+      "চিহ্ন মনে রাখো: f, a, b, Rightarrow"
+    ]
   },
   "subjects": [
     "math"

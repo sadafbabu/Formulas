@@ -3,7 +3,7 @@
   "chapter": "astronomy",
   "title": "Light Year & AU",
   "titleBn": "আলোকবর্ষ ও AU",
-  "summary": "1 ly, 1 AU",
+  "summary": "AU = পৃথিবী–সূর্য গড় দূরত্ব; ly = আলোর ১ বছরের পথ।",
   "latex": "1\\,\\mathrm{ly}=9.46\\times10^{15}\\,\\mathrm{m},\\quad 1\\,\\mathrm{AU}=1.496\\times10^{11}\\,\\mathrm{m}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "l, y, m, A",
+      "symbol": "l",
       "meaning": "আলোকবর্ষ ও AU",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "y",
+      "meaning": "y সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "m",
+      "meaning": "m সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "A সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "1\\,\\mathrm{ly}=9.46\\times10^{15}\\,\\mathrm{m},\\quad 1\\,\\mathrm{AU}=1.496\\times10^{11}\\,\\mathrm{m}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "AU = পৃথিবী–সূর্য গড় দূরত্ব; ly = আলোর ১ বছরের পথ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "1\\,\\mathrm{ly}=9.46\\times10^{15}\\,\\mathrm{m},\\quad 1\\,\\mathrm{AU}=1.496\\times10^{11}\\,\\mathrm{m}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আলোকবর্ষ ও AU সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: AU = পৃথিবী–সূর্য গড় দূরত্ব; ly = আলোর ১ বছরের পথ।)",
+      "question": "আলোকবর্ষ ও AU কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "1\\,\\mathrm{ly}=9.46\\times10^{15}\\,\\mathrm{m},\\quad 1\\,\\mathrm{AU}=1.496\\times10^{11}\\,\\mathrm{m}"
     }
   ],
   "memorize": {
     "trick": "AU = পৃথিবী–সূর্য গড় দূরত্ব; ly = আলোর ১ বছরের পথ।",
-    "steps": []
+    "steps": [
+      "সূত্র: 1\\,\\mathrm{ly}=9.46\\times10^{15}\\,\\mathrm{m},\\quad 1\\,\\mathrm{AU}=1.496\\times10^…",
+      "কী কাজে লাগে: আলোকবর্ষ ও AU",
+      "চিহ্ন মনে রাখো: l, y, m, A"
+    ]
   },
   "subjects": [
     "physics"

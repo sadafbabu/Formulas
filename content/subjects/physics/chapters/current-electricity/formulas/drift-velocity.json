@@ -38,9 +38,14 @@
     "lead": "মুক্ত ইলেকট্রনের পরিবহন বিশ্লেষণ থেকে।",
     "steps": [
       {
-        "title": "অপবেগ সূত্র",
-        "latex": "v_d = \\frac{eE\\tau}{m}",
-        "note": "τ হলো শিথিলকাল (relaxation time)"
+        "title": "মূল সূত্র",
+        "latex": "v_d = \\frac{I}{nAe}, \\quad J = \\frac{I}{A} = nev_d",
+        "note": "মুক্ত ইলেকট্রনের পরিবহন বিশ্লেষণ থেকে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "v_d = \\frac{I}{nAe}, \\quad J = \\frac{I}{A} = nev_d",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

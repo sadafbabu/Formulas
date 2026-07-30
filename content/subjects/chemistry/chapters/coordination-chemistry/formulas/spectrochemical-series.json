@@ -3,7 +3,7 @@
   "chapter": "coordination-chemistry",
   "title": "Spectrochemical Series",
   "titleBn": "বর্ণালি রাসায়নিক শ্রেণি",
-  "summary": "ligand field strength",
+  "summary": "CN⁻ শক্তিশালী ক্ষেত্র লিগ্যান্ড।",
   "latex": "\\mathrm{I^-}<\\mathrm{Br^-}<\\mathrm{Cl^-}<\\mathrm{F^-}<\\mathrm{OH^-}<\\mathrm{H_2O}<\\mathrm{NH_3}<\\mathrm{en}<\\mathrm{CN^-}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "I^-, Br^-, Cl^-, F^-",
+      "symbol": "I^-",
       "meaning": "ligand field strength",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "Br^-",
+      "meaning": "Br^- সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "Cl^-",
+      "meaning": "Cl^- সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "F^-",
+      "meaning": "F^- সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{I^-}<\\mathrm{Br^-}<\\mathrm{Cl^-}<\\mathrm{F^-}<\\mathrm{OH^-}<\\mathrm{H_2O}<\\mathrm{NH_3}<\\mathrm{en}<\\mathrm{CN^-}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "CN⁻ শক্তিশালী ক্ষেত্র লিগ্যান্ড।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mathrm{I^-}<\\mathrm{Br^-}<\\mathrm{Cl^-}<\\mathrm{F^-}<\\mathrm{OH^-}<\\mathrm{H_2O}<\\mathrm{NH_3}<\\mathrm{en}<\\mathrm{CN^-}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বর্ণালি রাসায়নিক শ্রেণি এর সূত্রটি লেখো। (ইঙ্গিত: CN⁻ শক্তিশালী ক্ষেত্র লিগ্যান্ড।)",
+      "question": "বর্ণালি রাসায়নিক শ্রেণি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\mathrm{I^-}<\\mathrm{Br^-}<\\mathrm{Cl^-}<\\mathrm{F^-}<\\mathrm{OH^-}<\\mathrm{H_2O}<\\mathrm{NH_3}<\\mathrm{en}<\\mathrm{CN^-}"
     }
   ],
   "memorize": {
     "trick": "CN⁻ শক্তিশালী ক্ষেত্র লিগ্যান্ড।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\mathrm{I^-}<\\mathrm{Br^-}<\\mathrm{Cl^-}<\\mathrm{F^-}<\\mathrm{OH^-}<\\mathrm{H_2O…",
+      "কী কাজে লাগে: বর্ণালি রাসায়নিক শ্রেণি",
+      "চিহ্ন মনে রাখো: I^-, Br^-, Cl^-, F^-"
+    ]
   },
   "subjects": [
     "chemistry"

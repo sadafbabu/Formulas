@@ -16,9 +16,24 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "g, G, M, r",
+      "symbol": "g",
       "meaning": "মহাকর্ষ ক্ষেত্র প্রাবল্য",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "G",
+      "meaning": "G সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "M",
+      "meaning": "M সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "r",
+      "meaning": "r সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\vec g=-\\frac{GM}{r^2}\\hat r,\\quad\\vec F=m\\vec g,\\quad g=-\\frac{dV}{dr}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "মহাকর্ষ ক্ষেত্র ও বিভবের সম্পর্ক"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\vec g=-\\frac{GM}{r^2}\\hat r,\\quad\\vec F=m\\vec g,\\quad g=-\\frac{dV}{dr}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মহাকর্ষ ক্ষেত্র প্রাবল্য সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: g = F/m; V এর ঋণাত্মক ঢাল = g।)",
+      "question": "মহাকর্ষ ক্ষেত্র প্রাবল্য কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\vec g=-\\frac{GM}{r^2}\\hat r,\\quad\\vec F=m\\vec g,\\quad g=-\\frac{dV}{dr}"
     }
   ],
   "memorize": {
     "trick": "g = F/m; V এর ঋণাত্মক ঢাল = g।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\vec g=-\\frac{GM}{r^2}\\hat r,\\quad\\vec F=m\\vec g,\\quad g=-\\frac{dV}{dr}",
+      "মহাকর্ষ ক্ষেত্র ও বিভবের সম্পর্ক",
+      "চিহ্ন মনে রাখো: g, G, M, r"
+    ]
   },
   "subjects": [
     "physics"

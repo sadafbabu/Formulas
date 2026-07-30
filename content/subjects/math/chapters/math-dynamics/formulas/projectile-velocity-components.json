@@ -3,7 +3,7 @@
   "chapter": "math-dynamics",
   "title": "Velocity Components",
   "titleBn": "বেগের উপাদিসমূহ",
-  "summary": "u cosθ, u sinθ",
+  "summary": "Horizontal = constant; vertical = u sinθ − gt।",
   "latex": "v_x=u\\cos\\theta,\\quad v_y=u\\sin\\theta-gt",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "v, x, u, theta",
-      "meaning": "u cosθ, u sinθ",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "v",
+      "meaning": "u cosθ",
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "u sinθ",
+      "unit": "—"
+    },
+    {
+      "symbol": "u",
+      "meaning": "u সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "theta",
+      "meaning": "theta সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "v_x=u\\cos\\theta,\\quad v_y=u\\sin\\theta-gt",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "Horizontal = constant; vertical = u sinθ − gt।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "v_x=u\\cos\\theta,\\quad v_y=u\\sin\\theta-gt",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বেগের উপাদিসমূহ এর সূত্রটি লেখো। (ইঙ্গিত: Horizontal = constant; vertical = u sinθ − gt।)",
+      "question": "বেগের উপাদিসমূহ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "v_x=u\\cos\\theta,\\quad v_y=u\\sin\\theta-gt"
     }
   ],
   "memorize": {
     "trick": "Horizontal = constant; vertical = u sinθ − gt।",
-    "steps": []
+    "steps": [
+      "সূত্র: v_x=u\\cos\\theta,\\quad v_y=u\\sin\\theta-gt",
+      "কী কাজে লাগে: বেগের উপাদিসমূহ",
+      "চিহ্ন মনে রাখো: v, x, u, theta"
+    ]
   },
   "subjects": [
     "math"

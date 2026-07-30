@@ -3,7 +3,7 @@
   "chapter": "thermodynamics",
   "title": "Net Radiation Exchange",
   "titleBn": "নিট তাপীয় বিকিরণ",
-  "summary": "P_net = εσA(T⁴ − T₀⁴)",
+  "summary": "T⁴ − T₀⁴ — শুধু T⁴ নয়। P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)",
   "latex": "P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)",
   "tags": [
     "hsc",
@@ -35,9 +35,14 @@
     "lead": "বিকিরণ ও শোষণ দুটোই চলে — নিট = পার্থক্য।",
     "steps": [
       {
-        "title": "নিট ক্ষমতা",
-        "latex": "P=e\\sigma A(T^4-T_0^4)",
-        "note": "T > T₀ হলে শীতল হয়।"
+        "title": "মূল সূত্র",
+        "latex": "P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)",
+        "note": "বিকিরণ ও শোষণ দুটোই চলে — নিট = পার্থক্য।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -52,8 +57,12 @@
     }
   ],
   "memorize": {
-    "trick": "T⁴ − T₀⁴ — শুধু T⁴ নয়।",
-    "steps": []
+    "trick": "T⁴ − T₀⁴ — শুধু T⁴ নয়। P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)",
+    "steps": [
+      "সূত্র: P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)",
+      "কী কাজে লাগে: নিট তাপীয় বিকিরণ",
+      "চিহ্ন মনে রাখো: T, T_0, e"
+    ]
   },
   "subjects": [
     "physics"

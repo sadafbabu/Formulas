@@ -14,8 +14,13 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "K_1, K_2",
+      "symbol": "K_1",
       "meaning": "T₁ ও T₂ তাপমাত্রায় সাম্য ধ্রুবক",
+      "unit": "—"
+    },
+    {
+      "symbol": "K_2",
+      "meaning": "K_2 সম্পর্কিত রাশি",
       "unit": "—"
     },
     {
@@ -26,17 +31,21 @@
     {
       "symbol": "R",
       "meaning": "গ্যাস ধ্রুবক",
-      "unit": "J/(mol·K)",
-      "value": "8.314"
+      "unit": "J/(mol·K)"
     }
   ],
   "derivation": {
     "lead": "Gibbs-Helmholtz সমীকরণ থেকে প্রাপ্ত।",
     "steps": [
       {
-        "title": "ভান্ট হফ সমীকরণ",
-        "latex": "\\frac{d\\ln K}{dT} = \\frac{\\Delta H^\\circ}{RT^2}",
-        "note": "এক্সোথার্মিক হলে T বাড়লে K কমে"
+        "title": "মূল সূত্র",
+        "latex": "\\ln\\frac{K_2}{K_1} = \\frac{\\Delta H^\\circ}{R}\\left(\\frac{1}{T_1} - \\frac{1}{T_2}\\right)",
+        "note": "Gibbs-Helmholtz সমীকরণ থেকে প্রাপ্ত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\ln\\frac{K_2}{K_1} = \\frac{\\Delta H^\\circ}{R}\\left(\\frac{1}{T_1} - \\frac{1}{T_2}\\right)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

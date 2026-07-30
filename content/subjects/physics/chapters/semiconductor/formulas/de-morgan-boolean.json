@@ -16,18 +16,33 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "overline, A, B",
+      "symbol": "overline",
       "meaning": "ডি মরগানের সূত্র",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "A সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "বুলিয়ান বীজগণিতের ডি মরগান",
+    "lead": "ডি মরগানের সূত্র এর মূল সম্পর্ক ও প্রয়োগ।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\overline{A+B}=\\bar A\\cdot\\bar B,\\quad\\overline{A\\cdot B}=\\bar A+\\bar B",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "ডি মরগানের সূত্র এর মূল সম্পর্ক ও প্রয়োগ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\overline{A+B}=\\bar A\\cdot\\bar B,\\quad\\overline{A\\cdot B}=\\bar A+\\bar B",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +50,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ডি মরগানের সূত্র সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: বার ভাঙলে OR↔AND বদলায়।)",
+      "question": "ডি মরগানের সূত্র কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\overline{A+B}=\\bar A\\cdot\\bar B,\\quad\\overline{A\\cdot B}=\\bar A+\\bar B"
     }
   ],
   "memorize": {
-    "trick": "বার ভাঙলে OR↔AND বদলায়।",
-    "steps": []
+    "trick": "বার ভাঙলে OR↔AND বদলায়। বুলিয়ান বীজগণিতের ডি মরগান",
+    "steps": [
+      "সূত্র: \\overline{A+B}=\\bar A\\cdot\\bar B,\\quad\\overline{A\\cdot B}=\\bar A+\\bar B",
+      "বুলিয়ান বীজগণিতের ডি মরগান",
+      "চিহ্ন মনে রাখো: overline, A, B"
+    ]
   },
   "subjects": [
     "physics"

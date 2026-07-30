@@ -3,7 +3,7 @@
   "chapter": "math-dynamics",
   "title": "Work–Energy Theorem",
   "titleBn": "কাজ–শক্তি উপপাদ্য",
-  "summary": "W=ΔKE",
+  "summary": "মোট কাজ = গতিশক্তির পরিবর্তন। W=\\frac12 m(v^2-u^2)",
   "latex": "W=\\frac12 m(v^2-u^2)",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "W, m, v, u",
+      "symbol": "W",
       "meaning": "W=ΔKE",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "m",
+      "meaning": "m সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "v",
+      "meaning": "v সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "u",
+      "meaning": "u সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "মোট কাজ = গতিশক্তির পরিবর্তন।",
+    "lead": "মোট কাজ = গতিশক্তির পরিবর্তন। W=\\frac12 m(v^2-u^2)",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "W=\\frac12 m(v^2-u^2)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "মোট কাজ = গতিশক্তির পরিবর্তন। W=\\frac12 m(v^2-u^2)"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "W=\\frac12 m(v^2-u^2)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কাজ–শক্তি উপপাদ্য এর সূত্রটি লেখো। (ইঙ্গিত: মোট কাজ = গতিশক্তির পরিবর্তন।)",
+      "question": "কাজ–শক্তি উপপাদ্য কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "W=\\frac12 m(v^2-u^2)"
     }
   ],
   "memorize": {
-    "trick": "মোট কাজ = গতিশক্তির পরিবর্তন।",
-    "steps": []
+    "trick": "মোট কাজ = গতিশক্তির পরিবর্তন। W=\\frac12 m(v^2-u^2)",
+    "steps": [
+      "সূত্র: W=\\frac12 m(v^2-u^2)",
+      "কী কাজে লাগে: কাজ–শক্তি উপপাদ্য",
+      "চিহ্ন মনে রাখো: W, m, v, u"
+    ]
   },
   "subjects": [
     "math"

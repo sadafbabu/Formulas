@@ -46,9 +46,14 @@
     "lead": "স্কেলার ডট গুণন ও গাউসের নীতি:",
     "steps": [
       {
-        "title": "ফ্লাক্স ডট গুণন",
-        "latex": "\\Phi_B = \\int \\vec{B} \\cdot d\\vec{A} = B A \\cos \\theta",
-        "note": "চৌম্বক একক মেরু (Magnetic monopole) প্রকৃতিতে এককভাবে সম্ভব নয়, তাই বন্ধ তলে ফ্লাক্স শূন্য।"
+        "title": "মূল সূত্র",
+        "latex": "\\Phi_B = \\vec{B} \\cdot \\vec{A} = B A \\cos \\theta, \\quad \\oint \\vec{B} \\cdot d\\vec{A} = 0",
+        "note": "স্কেলার ডট গুণন ও গাউসের নীতি:"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\Phi_B = \\vec{B} \\cdot \\vec{A} = B A \\cos \\theta, \\quad \\oint \\vec{B} \\cdot d\\vec{A} = 0",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

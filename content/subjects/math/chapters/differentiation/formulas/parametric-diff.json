@@ -3,7 +3,7 @@
   "chapter": "differentiation",
   "title": "Parametric Differentiation",
   "titleBn": "প্যারামিতিক অন্তরীকরণ",
-  "summary": "dy/dx=(dy/dt)/(dx/dt)",
+  "summary": "t বাদ না দিয়েই ঢাল। \\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
   "latex": "\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "d, y, x, t",
+      "symbol": "d",
       "meaning": "dy/dx=(dy/dt)/(dx/dt)",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "y",
+      "meaning": "y সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "x সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "t",
+      "meaning": "t সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "dy/dx=(dy/dt)/(dx/dt) — t বাদ না দিয়েই ঢাল।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্যারামিতিক অন্তরীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: t বাদ না দিয়েই ঢাল।)",
+      "question": "প্যারামিতিক অন্তরীকরণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}"
     }
   ],
   "memorize": {
-    "trick": "t বাদ না দিয়েই ঢাল।",
-    "steps": []
+    "trick": "t বাদ না দিয়েই ঢাল। \\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
+    "steps": [
+      "সূত্র: \\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
+      "কী কাজে লাগে: প্যারামিতিক অন্তরীকরণ",
+      "চিহ্ন মনে রাখো: d, y, x, t"
+    ]
   },
   "subjects": [
     "math"

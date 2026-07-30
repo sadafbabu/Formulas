@@ -3,7 +3,7 @@
   "chapter": "current-electricity",
   "title": "Shunt & Multiplier",
   "titleBn": "শাণ্ট ও মাল্টিপ্লায়ার",
-  "summary": "Ammeter/Voltmeter",
+  "summary": "অ্যামিটারে সমান্তরাল শাণ্ট; ভোল্টমিটারে সিরিজ রোধ।",
   "latex": "S=\\frac{I_g G}{I-I_g},\\quad R=\\frac{V}{I_g}-G",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "S, I, g, G",
+      "symbol": "S",
       "meaning": "শাণ্ট ও মাল্টিপ্লায়ার",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "I",
+      "meaning": "I সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "g",
+      "meaning": "g সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "G",
+      "meaning": "G সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "S=\\frac{I_g G}{I-I_g},\\quad R=\\frac{V}{I_g}-G",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "অ্যামিটারে সমান্তরাল শাণ্ট; ভোল্টমিটারে সিরিজ রোধ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "S=\\frac{I_g G}{I-I_g},\\quad R=\\frac{V}{I_g}-G",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শাণ্ট ও মাল্টিপ্লায়ার সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: অ্যামিটারে সমান্তরাল শাণ্ট; ভোল্টমিটারে সিরিজ রোধ।)",
+      "question": "শাণ্ট ও মাল্টিপ্লায়ার কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "S=\\frac{I_g G}{I-I_g},\\quad R=\\frac{V}{I_g}-G"
     }
   ],
   "memorize": {
     "trick": "অ্যামিটারে সমান্তরাল শাণ্ট; ভোল্টমিটারে সিরিজ রোধ।",
-    "steps": []
+    "steps": [
+      "সূত্র: S=\\frac{I_g G}{I-I_g},\\quad R=\\frac{V}{I_g}-G",
+      "কী কাজে লাগে: শাণ্ট ও মাল্টিপ্লায়ার",
+      "চিহ্ন মনে রাখো: S, I, g, G"
+    ]
   },
   "subjects": [
     "physics"

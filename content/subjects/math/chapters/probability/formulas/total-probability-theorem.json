@@ -3,7 +3,7 @@
   "chapter": "probability",
   "title": "Total Probability",
   "titleBn": "মোট সম্ভাব্যতা উপপাদ্য",
-  "summary": "P(B)=ΣP(Aᵢ)P(B|Aᵢ)",
+  "summary": "বিভাজিত নমুনা ক্ষেত্র; Bayes-এর সাথে জোড়া।",
   "latex": "P(B)=\\sum_i P(A_i)P(B|A_i)",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "P, B, sum, i",
-      "meaning": "P(B)=ΣP(Aᵢ)P(B|Aᵢ)",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "P",
+      "meaning": "P(B)=ΣP(Aᵢ)P(B",
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "Aᵢ)",
+      "unit": "—"
+    },
+    {
+      "symbol": "sum",
+      "meaning": "sum সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "i",
+      "meaning": "i সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P(B)=\\sum_i P(A_i)P(B|A_i)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "বিভাজিত নমুনা ক্ষেত্র; Bayes-এর সাথে জোড়া।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "P(B)=\\sum_i P(A_i)P(B|A_i)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মোট সম্ভাব্যতা উপপাদ্য এর সূত্রটি লেখো। (ইঙ্গিত: বিভাজিত নমুনা ক্ষেত্র; Bayes-এর সাথে জোড়া।)",
+      "question": "মোট সম্ভাব্যতা উপপাদ্য কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "P(B)=\\sum_i P(A_i)P(B|A_i)"
     }
   ],
   "memorize": {
     "trick": "বিভাজিত নমুনা ক্ষেত্র; Bayes-এর সাথে জোড়া।",
-    "steps": []
+    "steps": [
+      "সূত্র: P(B)=\\sum_i P(A_i)P(B|A_i)",
+      "কী কাজে লাগে: মোট সম্ভাব্যতা উপপাদ্য",
+      "চিহ্ন মনে রাখো: P, B, sum, i"
+    ]
   },
   "subjects": [
     "math"

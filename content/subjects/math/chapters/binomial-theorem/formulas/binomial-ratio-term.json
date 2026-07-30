@@ -3,7 +3,7 @@
   "chapter": "binomial-theorem",
   "title": "Ratio of Consecutive Terms",
   "titleBn": "পরপর পদের অনুপাত",
-  "summary": "দ্বিপদী পদ অনুপাত",
+  "summary": "অনুপাত ≥1 থেকে বৃহত্তম পদ। \\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
   "latex": "\\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "T, r, n, b",
+      "symbol": "T",
       "meaning": "দ্বিপদী পদ অনুপাত",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "r",
+      "meaning": "r সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "n সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "অনুপাত ≥1 থেকে বৃহত্তম পদ।",
+    "lead": "অনুপাত ≥1 থেকে বৃহত্তম পদ। \\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "অনুপাত ≥1 থেকে বৃহত্তম পদ। \\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরপর পদের অনুপাত এর সূত্রটি লেখো। (ইঙ্গিত: অনুপাত ≥1 থেকে বৃহত্তম পদ।)",
+      "question": "পরপর পদের অনুপাত কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}"
     }
   ],
   "memorize": {
-    "trick": "অনুপাত ≥1 থেকে বৃহত্তম পদ।",
-    "steps": []
+    "trick": "অনুপাত ≥1 থেকে বৃহত্তম পদ। \\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
+    "steps": [
+      "সূত্র: \\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
+      "কী কাজে লাগে: পরপর পদের অনুপাত",
+      "চিহ্ন মনে রাখো: T, r, n, b"
+    ]
   },
   "subjects": [
     "math"

@@ -3,7 +3,7 @@
   "chapter": "geometric-optics",
   "title": "Magnification",
   "titleBn": "বিবর্ধন",
-  "summary": "m=h'/h=−v/u",
+  "summary": "ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}",
   "latex": "m=\\frac{h'}{h}=-\\frac{v}{u}",
   "tags": [
     "hsc",
@@ -16,18 +16,38 @@
   "order": 150,
   "symbols": [
     {
-      "symbol": "m, h, v, u",
+      "symbol": "m",
       "meaning": "বিবর্ধন",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "h",
+      "meaning": "h সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "v",
+      "meaning": "v সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "u",
+      "meaning": "u সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "ঋণাত্মক m = উল্টো প্রতিবিম্ব।",
+    "lead": "ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "m=\\frac{h'}{h}=-\\frac{v}{u}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "m=\\frac{h'}{h}=-\\frac{v}{u}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিবর্ধন সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: ঋণাত্মক m = উল্টো প্রতিবিম্ব।)",
+      "question": "বিবর্ধন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "m=\\frac{h'}{h}=-\\frac{v}{u}"
     }
   ],
   "memorize": {
-    "trick": "ঋণাত্মক m = উল্টো প্রতিবিম্ব।",
-    "steps": []
+    "trick": "ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}",
+    "steps": [
+      "সূত্র: m=\\frac{h'}{h}=-\\frac{v}{u}",
+      "কী কাজে লাগে: বিবর্ধন",
+      "চিহ্ন মনে রাখো: m, h, v, u"
+    ]
   },
   "subjects": [
     "physics"

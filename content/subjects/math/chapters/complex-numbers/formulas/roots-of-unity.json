@@ -27,9 +27,14 @@
     "lead": "z^n = 1 সমীকরণ থেকে অয়লার রূপে প্রাপ্ত।",
     "steps": [
       {
-        "title": "মূলের সূত্র",
-        "latex": "\\omega_k = e^{2\\pi i k/n}",
-        "note": "মূলগুলো একক বৃত্তে সমদূরবর্তী"
+        "title": "মূল সূত্র",
+        "latex": "\\omega=e^{2\\pi i/n},\\quad \\omega_k=e^{2\\pi ik/n},\\ k=0,\\ldots,n-1;\\quad 1+\\omega+\\cdots+\\omega^{n-1}=0\\ (n\\ge2)",
+        "note": "z^n = 1 সমীকরণ থেকে অয়লার রূপে প্রাপ্ত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\omega=e^{2\\pi i/n},\\quad \\omega_k=e^{2\\pi ik/n},\\ k=0,\\ldots,n-1;\\quad 1+\\omega+\\cdots+\\omega^{n-1}=0\\ (n\\ge2)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

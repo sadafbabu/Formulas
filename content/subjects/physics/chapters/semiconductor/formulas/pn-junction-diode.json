@@ -43,9 +43,14 @@
     "lead": "Shockley সমীকরণ, সংখ্যাগরিষ্ঠ বাহকের প্রবাহ থেকে প্রাপ্ত।",
     "steps": [
       {
-        "title": "ডায়োড সমীকরণ",
-        "latex": "I = I_0(e^{V/V_T} - 1)",
-        "note": "সম্মুখ বিভবে প্রবাহ সূচকীয়ভাবে বাড়ে"
+        "title": "মূল সূত্র",
+        "latex": "I=I_0\\left(e^{eV/(\\eta kT)}-1\\right),\\quad V_T=\\frac{kT}{e}\\approx26\\ \\mathrm{mV}\\ (300\\ \\mathrm K)",
+        "note": "Shockley সমীকরণ, সংখ্যাগরিষ্ঠ বাহকের প্রবাহ থেকে প্রাপ্ত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "I=I_0\\left(e^{eV/(\\eta kT)}-1\\right),\\quad V_T=\\frac{kT}{e}\\approx26\\ \\mathrm{mV}\\ (300\\ \\mathrm K)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

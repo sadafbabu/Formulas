@@ -3,7 +3,7 @@
   "chapter": "astronomy",
   "title": "Planetary Escape Speed",
   "titleBn": "গ্রহ থেকে মুক্তি বেগ",
-  "summary": "√(2GM/R)",
+  "summary": "পৃথিবী ≈ 11.2 km/s; কৃষ্ণগহ্বরের event horizon সংজ্ঞায়।",
   "latex": "v_e=\\sqrt{\\frac{2GM}{R}}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "v, e, G, M",
+      "symbol": "v",
       "meaning": "গ্রহ থেকে মুক্তি বেগ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "e",
+      "meaning": "e সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "G",
+      "meaning": "G সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "M",
+      "meaning": "M সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "v_e=\\sqrt{\\frac{2GM}{R}}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "পৃথিবী ≈ 11.2 km/s; কৃষ্ণগহ্বরের event horizon সংজ্ঞায়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "v_e=\\sqrt{\\frac{2GM}{R}}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্রহ থেকে মুক্তি বেগ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: পৃথিবী ≈ 11.2 km/s; কৃষ্ণগহ্বরের event horizon সংজ্ঞায়।)",
+      "question": "গ্রহ থেকে মুক্তি বেগ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "v_e=\\sqrt{\\frac{2GM}{R}}"
     }
   ],
   "memorize": {
     "trick": "পৃথিবী ≈ 11.2 km/s; কৃষ্ণগহ্বরের event horizon সংজ্ঞায়।",
-    "steps": []
+    "steps": [
+      "সূত্র: v_e=\\sqrt{\\frac{2GM}{R}}",
+      "কী কাজে লাগে: গ্রহ থেকে মুক্তি বেগ",
+      "চিহ্ন মনে রাখো: v, e, G, M"
+    ]
   },
   "subjects": [
     "physics"

@@ -3,7 +3,7 @@
   "chapter": "nuclear-chemistry",
   "title": "Fission & Fusion",
   "titleBn": "বিভাজন ও সংযোজন",
-  "summary": "heavy split / light join",
+  "summary": "বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।",
   "latex": "\\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\text{heavier}",
   "tags": [
     "hsc",
@@ -16,18 +16,38 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "fission: heavy, lighter, energy, fusion: light",
+      "symbol": "fission: heavy",
       "meaning": "heavy split / light join",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "lighter",
+      "meaning": "lighter সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "energy",
+      "meaning": "energy সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "fusion: light",
+      "meaning": "fusion: light সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "heavy split / light join",
+    "lead": "বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\text{heavier}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\text{heavier}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিভাজন ও সংযোজন এর সূত্রটি লেখো। (ইঙ্গিত: বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।)",
+      "question": "বিভাজন ও সংযোজন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\text{heavier}"
     }
   ],
   "memorize": {
     "trick": "বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\t…",
+      "কী কাজে লাগে: বিভাজন ও সংযোজন",
+      "চিহ্ন মনে রাখো: fission: heavy, lighter, energy, fusion: light"
+    ]
   },
   "subjects": [
     "chemistry"

@@ -16,18 +16,28 @@
   "order": 140,
   "symbols": [
     {
-      "symbol": "Zn, Cu",
-      "meaning": "anode|anode||cathode|cathode",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "Zn",
+      "meaning": "anode",
+      "unit": "—"
+    },
+    {
+      "symbol": "Cu",
+      "meaning": "anode",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "anode|anode||cathode|cathode",
+    "lead": "কোষ প্রতীক এর মূল সম্পর্ক ও প্রয়োগ।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{Zn}|\\text{Zn}^{2+}\\|\\text{Cu}^{2+}|\\text{Cu}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "কোষ প্রতীক এর মূল সম্পর্ক ও প্রয়োগ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\text{Zn}|\\text{Zn}^{2+}\\|\\text{Cu}^{2+}|\\text{Cu}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +45,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কোষ প্রতীক এর সূত্রটি লেখো। (ইঙ্গিত: বামে জারণ (অ্যানোড); ডানে বিজারণ (ক্যাথোড)।)",
+      "question": "কোষ প্রতীক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\text{Zn}|\\text{Zn}^{2+}\\|\\text{Cu}^{2+}|\\text{Cu}"
     }
   ],
   "memorize": {
     "trick": "বামে জারণ (অ্যানোড); ডানে বিজারণ (ক্যাথোড)।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\text{Zn}|\\text{Zn}^{2+}\\|\\text{Cu}^{2+}|\\text{Cu}",
+      "anode|anode||cathode|cathode",
+      "চিহ্ন মনে রাখো: Zn, Cu"
+    ]
   },
   "subjects": [
     "chemistry"

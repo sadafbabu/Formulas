@@ -33,9 +33,14 @@
     "lead": "ফোটন-ইলেকট্রন সংঘর্ষে ভরবেগ ও শক্তি সংরক্ষণ।",
     "steps": [
       {
-        "title": "কম্পটন সূত্র",
-        "latex": "\\Delta\\lambda = \\lambda_C(1-\\cos\\theta)",
-        "note": "ফোটনের কণা প্রকৃতির প্রমাণ"
+        "title": "মূল সূত্র",
+        "latex": "\\Delta\\lambda = \\frac{h}{m_e c}(1 - \\cos\\theta), \\quad \\lambda_C = 2.43\\times 10^{-12}\\ \\text{m}",
+        "note": "ফোটন-ইলেকট্রন সংঘর্ষে ভরবেগ ও শক্তি সংরক্ষণ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\Delta\\lambda = \\frac{h}{m_e c}(1 - \\cos\\theta), \\quad \\lambda_C = 2.43\\times 10^{-12}\\ \\text{m}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

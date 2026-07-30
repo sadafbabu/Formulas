@@ -3,7 +3,7 @@
   "chapter": "induction-ac",
   "title": "Transformer Equation",
   "titleBn": "ট্রান্সফরমার সমীকরণ",
-  "summary": "Vs/Vp = Ns/Np",
+  "summary": "স্টেপ-আপ: Ns>Np। \\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
   "latex": "\\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 170,
   "symbols": [
     {
-      "symbol": "V, s, p, N",
+      "symbol": "V",
       "meaning": "ট্রান্সফরমার সমীকরণ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "s",
+      "meaning": "s সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "p",
+      "meaning": "p সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "N",
+      "meaning": "N সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "Vs/Vp = Ns/Np — স্টেপ-আপ: Ns>Np।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ট্রান্সফরমার সমীকরণ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: স্টেপ-আপ: Ns>Np।)",
+      "question": "ট্রান্সফরমার সমীকরণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}"
     }
   ],
   "memorize": {
-    "trick": "স্টেপ-আপ: Ns>Np।",
-    "steps": []
+    "trick": "স্টেপ-আপ: Ns>Np। \\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
+    "steps": [
+      "সূত্র: \\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
+      "কী কাজে লাগে: ট্রান্সফরমার সমীকরণ",
+      "চিহ্ন মনে রাখো: V, s, p, N"
+    ]
   },
   "subjects": [
     "physics"

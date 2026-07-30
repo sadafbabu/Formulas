@@ -3,7 +3,7 @@
   "chapter": "surface-chemistry",
   "title": "Emulsion Types",
   "titleBn": "ইমালশনের প্রকার",
-  "summary": "O/W and W/O",
+  "summary": "দুধ = O/W; মাখন = W/O। \\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
   "latex": "\\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
   "tags": [
     "hsc",
@@ -16,9 +16,14 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "O/W (oil in water), W/O (water in oil)",
+      "symbol": "O/W (oil in water)",
       "meaning": "O/W and W/O",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "W/O (water in oil)",
+      "meaning": "W/O (water in oil) সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "O/W and W/O — দুধ = O/W; মাখন = W/O।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +45,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ইমালশনের প্রকার এর সূত্রটি লেখো। (ইঙ্গিত: দুধ = O/W; মাখন = W/O।)",
+      "question": "ইমালশনের প্রকার কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}"
     }
   ],
   "memorize": {
-    "trick": "দুধ = O/W; মাখন = W/O।",
-    "steps": []
+    "trick": "দুধ = O/W; মাখন = W/O। \\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
+    "steps": [
+      "সূত্র: \\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
+      "কী কাজে লাগে: ইমালশনের প্রকার",
+      "চিহ্ন মনে রাখো: O/W (oil in water), W/O (water in oil)"
+    ]
   },
   "subjects": [
     "chemistry"

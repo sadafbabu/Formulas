@@ -3,7 +3,7 @@
   "chapter": "calculus",
   "title": "Taylor & Maclaurin Series",
   "titleBn": "টেলর ও ম্যাকলরিন শ্রেণি",
-  "summary": "ফাংশনের শ্রেণি বিস্তৃতি",
+  "summary": "Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
   "latex": "f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 150,
   "symbols": [
     {
-      "symbol": "f, x, sum, n",
+      "symbol": "f",
       "meaning": "ফাংশনের শ্রেণি বিস্তৃতি",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "x সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "sum",
+      "meaning": "sum সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "n সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "Maclaurin = Taylor at a=0।",
+    "lead": "Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "টেলর ও ম্যাকলরিন শ্রেণি এর সূত্রটি লেখো। (ইঙ্গিত: Maclaurin = Taylor at a=0।)",
+      "question": "টেলর ও ম্যাকলরিন শ্রেণি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}"
     }
   ],
   "memorize": {
-    "trick": "Maclaurin = Taylor at a=0।",
-    "steps": []
+    "trick": "Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
+    "steps": [
+      "সূত্র: f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!…",
+      "কী কাজে লাগে: টেলর ও ম্যাকলরিন শ্রেণি",
+      "চিহ্ন মনে রাখো: f, x, sum, n"
+    ]
   },
   "subjects": [
     "math"

@@ -3,7 +3,7 @@
   "chapter": "magnetic-current",
   "title": "Moving Coil Galvanometer",
   "titleBn": "চল কুণ্ডলী গ্যালভানোমিটার",
-  "summary": "NIAB = kθ",
+  "summary": "বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
   "latex": "NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
   "tags": [
     "hsc",
@@ -16,18 +16,38 @@
   "order": 211,
   "symbols": [
     {
-      "symbol": "N, I, A, B",
+      "symbol": "N",
       "meaning": "চল কুণ্ডলী গ্যালভানোমিটার",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "I",
+      "meaning": "I সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "A সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "বিচ্যুতি প্রবাহের সমানুপাতিক।",
+    "lead": "বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "চল কুণ্ডলী গ্যালভানোমিটার সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: বিচ্যুতি প্রবাহের সমানুপাতিক।)",
+      "question": "চল কুণ্ডলী গ্যালভানোমিটার কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta"
     }
   ],
   "memorize": {
-    "trick": "বিচ্যুতি প্রবাহের সমানুপাতিক।",
-    "steps": []
+    "trick": "বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
+    "steps": [
+      "সূত্র: NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
+      "কী কাজে লাগে: চল কুণ্ডলী গ্যালভানোমিটার",
+      "চিহ্ন মনে রাখো: N, I, A, B"
+    ]
   },
   "subjects": [
     "physics"

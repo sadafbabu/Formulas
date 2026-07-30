@@ -3,7 +3,7 @@
   "chapter": "industrial-chemistry",
   "title": "Contact Process",
   "titleBn": "কন্টাক্ট পদ্ধতি",
-  "summary": "SO₂→SO₃→H₂SO₄",
+  "summary": "V₂O₅ catalyst; oleum intermediate H₂S₂O₇।",
   "latex": "\\ce{2SO2 + O2 <=> 2SO3};\\quad \\ce{SO3 + H2SO4 -> H2S2O7 -> 2H2SO4}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "ce, S, O, H",
+      "symbol": "ce",
       "meaning": "SO₂→SO₃→H₂SO₄",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "S",
+      "meaning": "S সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "O",
+      "meaning": "O সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "H",
+      "meaning": "H সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\ce{2SO2 + O2 <=> 2SO3};\\quad \\ce{SO3 + H2SO4 -> H2S2O7 -> 2H2SO4}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "V₂O₅ catalyst; oleum intermediate H₂S₂O₇।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\ce{2SO2 + O2 <=> 2SO3};\\quad \\ce{SO3 + H2SO4 -> H2S2O7 -> 2H2SO4}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কন্টাক্ট পদ্ধতি এর সূত্রটি লেখো। (ইঙ্গিত: V₂O₅ catalyst; oleum intermediate H₂S₂O₇।)",
+      "question": "কন্টাক্ট পদ্ধতি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\ce{2SO2 + O2 <=> 2SO3};\\quad \\ce{SO3 + H2SO4 -> H2S2O7 -> 2H2SO4}"
     }
   ],
   "memorize": {
     "trick": "V₂O₅ catalyst; oleum intermediate H₂S₂O₇।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\ce{2SO2 + O2 <=> 2SO3};\\quad \\ce{SO3 + H2SO4 -> H2S2O7 -> 2H2SO4}",
+      "কী কাজে লাগে: কন্টাক্ট পদ্ধতি",
+      "চিহ্ন মনে রাখো: ce, S, O, H"
+    ]
   },
   "subjects": [
     "chemistry"

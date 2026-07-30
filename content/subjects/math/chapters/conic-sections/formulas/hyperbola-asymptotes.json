@@ -3,7 +3,7 @@
   "chapter": "conic-sections",
   "title": "Hyperbola Asymptotes",
   "titleBn": "অধিবৃত্তের লঘুগামী",
-  "summary": "y=±(b/a)x",
+  "summary": "লঘুগামী x²/a²−y²/b²=0; কেন্দ্রে মিলে।",
   "latex": "y=\\pm\\frac{b}{a}x",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "y, b, a, x",
+      "symbol": "y",
       "meaning": "y=±(b/a)x",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "x সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "y=\\pm\\frac{b}{a}x",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "লঘুগামী x²/a²−y²/b²=0; কেন্দ্রে মিলে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "y=\\pm\\frac{b}{a}x",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অধিবৃত্তের লঘুগামী এর সূত্রটি লেখো। (ইঙ্গিত: লঘুগামী x²/a²−y²/b²=0; কেন্দ্রে মিলে।)",
+      "question": "অধিবৃত্তের লঘুগামী কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "y=\\pm\\frac{b}{a}x"
     }
   ],
   "memorize": {
     "trick": "লঘুগামী x²/a²−y²/b²=0; কেন্দ্রে মিলে।",
-    "steps": []
+    "steps": [
+      "সূত্র: y=\\pm\\frac{b}{a}x",
+      "কী কাজে লাগে: অধিবৃত্তের লঘুগামী",
+      "চিহ্ন মনে রাখো: y, b, a, x"
+    ]
   },
   "subjects": [
     "math"

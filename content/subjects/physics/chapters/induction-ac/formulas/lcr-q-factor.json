@@ -3,7 +3,7 @@
   "chapter": "induction-ac",
   "title": "Q Factor & Bandwidth of LCR",
   "titleBn": "LCR-এর Q গুণক ও ব্যান্ডউইডথ",
-  "summary": "Q = ω₀L/R; Δω = R/L",
+  "summary": "Q বাড়লে অনুরণন তীক্ষ্ণ, ব্যান্ড সরু।",
   "latex": "Q=\\dfrac{\\omega_0 L}{R}=\\dfrac{1}{R}\\sqrt{\\dfrac{L}{C}},\\quad \\Delta\\omega=\\dfrac{R}{L}",
   "tags": [
     "hsc",
@@ -53,7 +53,11 @@
   ],
   "memorize": {
     "trick": "Q বাড়লে অনুরণন তীক্ষ্ণ, ব্যান্ড সরু।",
-    "steps": []
+    "steps": [
+      "সূত্র: Q=\\dfrac{\\omega_0 L}{R}=\\dfrac{1}{R}\\sqrt{\\dfrac{L}{C}},\\quad \\Delta\\omega=\\dfra…",
+      "কী কাজে লাগে: LCR-এর Q গুণক ও ব্যান্ডউইডথ",
+      "চিহ্ন মনে রাখো: Q, \\Delta\\omega"
+    ]
   },
   "subjects": [
     "physics"

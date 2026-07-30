@@ -3,7 +3,7 @@
   "chapter": "conic-sections",
   "title": "Rectangular Hyperbola",
   "titleBn": "সমকোণী অধিবৃত্ত",
-  "summary": "xy=c²",
+  "summary": "xy=c²-এ লঘুগামী y=±x; e=√2 স্থির।",
   "latex": "xy=c^2,\\quad e=\\sqrt{2}",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 150,
   "symbols": [
     {
-      "symbol": "x, y, c, e",
+      "symbol": "x",
       "meaning": "xy=c²",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "y",
+      "meaning": "y সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "c",
+      "meaning": "c সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "e",
+      "meaning": "e সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "xy=c^2,\\quad e=\\sqrt{2}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "xy=c²-এ লঘুগামী y=±x; e=√2 স্থির।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "xy=c^2,\\quad e=\\sqrt{2}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমকোণী অধিবৃত্ত এর সূত্রটি লেখো। (ইঙ্গিত: xy=c²-এ লঘুগামী y=±x; e=√2 স্থির।)",
+      "question": "সমকোণী অধিবৃত্ত কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "xy=c^2,\\quad e=\\sqrt{2}"
     }
   ],
   "memorize": {
     "trick": "xy=c²-এ লঘুগামী y=±x; e=√2 স্থির।",
-    "steps": []
+    "steps": [
+      "সূত্র: xy=c^2,\\quad e=\\sqrt{2}",
+      "কী কাজে লাগে: সমকোণী অধিবৃত্ত",
+      "চিহ্ন মনে রাখো: x, y, c, e"
+    ]
   },
   "subjects": [
     "math"

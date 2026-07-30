@@ -3,7 +3,7 @@
   "chapter": "wave-optics",
   "title": "Central Maximum Width (Single Slit)",
   "titleBn": "একক স্লিটে কেন্দ্রীয় চূড়ার প্রস্থ",
-  "summary": "β₀ = 2λD/a",
+  "summary": "কেন্দ্রীয় = ২ × (λD/a)। \\beta_0=\\dfrac{2\\lambda D}{a}",
   "latex": "\\beta_0=\\dfrac{2\\lambda D}{a}",
   "tags": [
     "hsc",
@@ -52,8 +52,12 @@
     }
   ],
   "memorize": {
-    "trick": "কেন্দ্রীয় = ২ × (λD/a)।",
-    "steps": []
+    "trick": "কেন্দ্রীয় = ২ × (λD/a)। \\beta_0=\\dfrac{2\\lambda D}{a}",
+    "steps": [
+      "সূত্র: \\beta_0=\\dfrac{2\\lambda D}{a}",
+      "কী কাজে লাগে: একক স্লিটে কেন্দ্রীয় চূড়ার প্রস্থ",
+      "চিহ্ন মনে রাখো: a, \\beta_0"
+    ]
   },
   "subjects": [
     "physics"

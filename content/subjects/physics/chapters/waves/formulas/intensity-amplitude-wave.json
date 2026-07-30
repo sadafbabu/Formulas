@@ -3,7 +3,7 @@
   "chapter": "waves",
   "title": "Intensity ∝ A²",
   "titleBn": "তীব্রতা ও প্রশস্ততা",
-  "summary": "I∝A²",
+  "summary": "প্রশস্ততা দ্বিগুণ → তীব্রতা চারগুণ; বিন্দু উৎসে 1/r²।",
   "latex": "I\\propto A^2,\\quad I\\propto \\frac{1}{r^2}\\ (\\text{point source})",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "I, A, r, p",
+      "symbol": "I",
       "meaning": "তীব্রতা ও প্রশস্ততা",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "A সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "r",
+      "meaning": "r সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "p",
+      "meaning": "p সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "I\\propto A^2,\\quad I\\propto \\frac{1}{r^2}\\ (\\text{point source})",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "প্রশস্ততা দ্বিগুণ → তীব্রতা চারগুণ; বিন্দু উৎসে 1/r²।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "I\\propto A^2,\\quad I\\propto \\frac{1}{r^2}\\ (\\text{point source})",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "তীব্রতা ও প্রশস্ততা সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: প্রশস্ততা দ্বিগুণ → তীব্রতা চারগুণ; বিন্দু উৎসে 1/r²।)",
+      "question": "তীব্রতা ও প্রশস্ততা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "I\\propto A^2,\\quad I\\propto \\frac{1}{r^2}\\ (\\text{point source})"
     }
   ],
   "memorize": {
     "trick": "প্রশস্ততা দ্বিগুণ → তীব্রতা চারগুণ; বিন্দু উৎসে 1/r²।",
-    "steps": []
+    "steps": [
+      "সূত্র: I\\propto A^2,\\quad I\\propto \\frac{1}{r^2}\\ (\\text{point source})",
+      "কী কাজে লাগে: তীব্রতা ও প্রশস্ততা",
+      "চিহ্ন মনে রাখো: I, A, r, p"
+    ]
   },
   "subjects": [
     "physics"

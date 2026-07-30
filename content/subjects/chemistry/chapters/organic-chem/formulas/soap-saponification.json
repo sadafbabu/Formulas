@@ -30,9 +30,14 @@
     "lead": "এস্টারের ক্ষারীয় জলবিশ্লেষণ — শিল্প ও HSC জৈব।",
     "steps": [
       {
-        "title": "বিক্রিয়া",
-        "latex": "\\mathrm{RCOOR}'+\\mathrm{NaOH}\\rightarrow\\mathrm{RCOONa}+\\mathrm{R}'OH",
-        "note": "ট্রাইগ্লিসারাইডে তিন এস্টার।"
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{Fat}+3\\mathrm{NaOH}\\rightarrow 3\\mathrm{RCOONa}+\\mathrm{glycerol}",
+        "note": "এস্টারের ক্ষারীয় জলবিশ্লেষণ — শিল্প ও HSC জৈব।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mathrm{Fat}+3\\mathrm{NaOH}\\rightarrow 3\\mathrm{RCOONa}+\\mathrm{glycerol}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -49,7 +54,9 @@
   "memorize": {
     "trick": "ফ্যাট + ক্ষার = সাবান + গ্লিসারল।",
     "steps": [
-      "ক্ষারীয় hydrolysis = saponification"
+      "সূত্র: \\mathrm{Fat}+3\\mathrm{NaOH}\\rightarrow 3\\mathrm{RCOONa}+\\mathrm{glycerol}",
+      "ফ্যাট/অয়েল + NaOH → সাবান (RCOONa) + গ্লিসারল",
+      "চিহ্ন মনে রাখো: RCOONa, \\mathrm{NaOH}"
     ]
   },
   "subjects": [

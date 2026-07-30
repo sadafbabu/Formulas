@@ -3,7 +3,7 @@
   "chapter": "environmental-chemistry",
   "title": "Acid Rain",
   "titleBn": "অ্যাসিড বৃষ্টি",
-  "summary": "SO₂, NOₓ → acids",
+  "summary": "pH < ৫.৬ হলে অ্যাসিড বৃষ্টি। \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}",
   "latex": "\\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}",
   "tags": [
     "hsc",
@@ -16,18 +16,38 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "SO_2, H_2O, H_2SO_3, NO_2",
-      "meaning": "SO₂, NOₓ → acids",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "SO_2",
+      "meaning": "SO₂",
+      "unit": "—"
+    },
+    {
+      "symbol": "H_2O",
+      "meaning": "NOₓ → acids",
+      "unit": "—"
+    },
+    {
+      "symbol": "H_2SO_3",
+      "meaning": "H_2SO_3 সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "NO_2",
+      "meaning": "NO_2 সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "pH < ৫.৬ হলে অ্যাসিড বৃষ্টি।",
+    "lead": "pH < ৫.৬ হলে অ্যাসিড বৃষ্টি। \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "pH < ৫.৬ হলে অ্যাসিড বৃষ্টি। \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অ্যাসিড বৃষ্টি এর সূত্রটি লেখো। (ইঙ্গিত: pH < ৫.৬ হলে অ্যাসিড বৃষ্টি।)",
+      "question": "অ্যাসিড বৃষ্টি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}"
     }
   ],
   "memorize": {
-    "trick": "pH < ৫.৬ হলে অ্যাসিড বৃষ্টি।",
-    "steps": []
+    "trick": "pH < ৫.৬ হলে অ্যাসিড বৃষ্টি। \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}",
+    "steps": [
+      "সূত্র: \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}…",
+      "কী কাজে লাগে: অ্যাসিড বৃষ্টি",
+      "চিহ্ন মনে রাখো: SO_2, H_2O, H_2SO_3, NO_2"
+    ]
   },
   "subjects": [
     "chemistry"

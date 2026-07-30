@@ -13,8 +13,18 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "\\vec{a},\\vec{b},\\vec{c}",
+      "symbol": "\\vec{a}",
       "meaning": "তিনটি ভেক্টর",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\vec{b}",
+      "meaning": "\\vec{b} সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\vec{c}",
+      "meaning": "\\vec{c} সম্পর্কিত রাশি",
       "unit": "—"
     }
   ],
@@ -22,9 +32,14 @@
     "lead": "দুই ক্রস গুণফলের সম্প্রসারণ থেকে BAC-CAB নিয়ম।",
     "steps": [
       {
-        "title": "BAC নিয়ম",
+        "title": "মূল সূত্র",
         "latex": "\\vec{a}\\times(\\vec{b}\\times\\vec{c}) = \\vec{b}(\\vec{a}\\cdot\\vec{c}) - \\vec{c}(\\vec{a}\\cdot\\vec{b})",
-        "note": "লব্ধি ভেক্টর b, c সমতলে অবস্থান করে"
+        "note": "দুই ক্রস গুণফলের সম্প্রসারণ থেকে BAC-CAB নিয়ম।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\vec{a}\\times(\\vec{b}\\times\\vec{c}) = \\vec{b}(\\vec{a}\\cdot\\vec{c}) - \\vec{c}(\\vec{a}\\cdot\\vec{b})",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

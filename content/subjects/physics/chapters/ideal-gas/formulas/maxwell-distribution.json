@@ -32,9 +32,14 @@
     "lead": "গ্যাস অণুর বেগ পরিসংখ্যান থেকে Maxwell-Boltzmann বিন্যাস।",
     "steps": [
       {
-        "title": "বেগ সম্পর্ক",
-        "latex": "v_{rms} : \\bar{v} : v_p = \\sqrt{3} : \\sqrt{8/\\pi} : \\sqrt{2}",
-        "note": "সবগুলো √(kT/m) এর গুণিতক"
+        "title": "মূল সূত্র",
+        "latex": "f(v) = 4\\pi\\left(\\frac{m}{2\\pi kT}\\right)^{3/2} v^2 e^{-mv^2/2kT}, \\quad v_p = \\sqrt{\\frac{2kT}{m}}",
+        "note": "গ্যাস অণুর বেগ পরিসংখ্যান থেকে Maxwell-Boltzmann বিন্যাস।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "f(v) = 4\\pi\\left(\\frac{m}{2\\pi kT}\\right)^{3/2} v^2 e^{-mv^2/2kT}, \\quad v_p = \\sqrt{\\frac{2kT}{m}}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

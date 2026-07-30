@@ -32,9 +32,14 @@
     "lead": "পোলার বন্ধনে আধান পৃথকীকরণ থেকে দ্বিরোলক ভ্রামক।",
     "steps": [
       {
-        "title": "দ্বিরোলক ভ্রামক",
-        "latex": "\\mu = q \\cdot d",
-        "note": "1 D = 3.336×10⁻³⁰ C·m"
+        "title": "মূল সূত্র",
+        "latex": "\\mu = q \\times d, \\quad \\%\\ \\text{ionic} = \\frac{\\mu_{obs}}{\\mu_{ionic}} \\times 100",
+        "note": "পোলার বন্ধনে আধান পৃথকীকরণ থেকে দ্বিরোলক ভ্রামক।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mu = q \\times d, \\quad \\%\\ \\text{ionic} = \\frac{\\mu_{obs}}{\\mu_{ionic}} \\times 100",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

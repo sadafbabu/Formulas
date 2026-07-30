@@ -3,7 +3,7 @@
   "chapter": "solid-state-chemistry",
   "title": "Bragg's Equation",
   "titleBn": "ব্র্যাগের সমীকরণ",
-  "summary": "nλ=2d sinθ",
+  "summary": "X-ray diffraction; n=order, d=interplanar spacing।",
   "latex": "n\\lambda=2d\\sin\\theta",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "n, lambda, d, theta",
+      "symbol": "n",
       "meaning": "nλ=2d sinθ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "lambda",
+      "meaning": "lambda সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "d",
+      "meaning": "d সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "theta",
+      "meaning": "theta সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "n\\lambda=2d\\sin\\theta",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "X-ray diffraction; n=order, d=interplanar spacing।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "n\\lambda=2d\\sin\\theta",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ব্র্যাগের সমীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: X-ray diffraction; n=order, d=interplanar spacing।)",
+      "question": "ব্র্যাগের সমীকরণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "n\\lambda=2d\\sin\\theta"
     }
   ],
   "memorize": {
     "trick": "X-ray diffraction; n=order, d=interplanar spacing।",
-    "steps": []
+    "steps": [
+      "সূত্র: n\\lambda=2d\\sin\\theta",
+      "কী কাজে লাগে: ব্র্যাগের সমীকরণ",
+      "চিহ্ন মনে রাখো: n, lambda, d, theta"
+    ]
   },
   "subjects": [
     "chemistry"

@@ -3,7 +3,7 @@
   "chapter": "sequences-series",
   "title": "Cauchy–Schwarz Inequality",
   "titleBn": "কোশি–শ্বারজ অসমতা",
-  "summary": "(Σa²)(Σb²)≥(Σab)²",
+  "summary": "সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
   "latex": "\\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "Big, sum, a, i",
+      "symbol": "Big",
       "meaning": "(Σa²)(Σb²)≥(Σab)²",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "sum",
+      "meaning": "sum সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "i",
+      "meaning": "i সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "সমানতা যখন a ও b সমানুপাতিক।",
+    "lead": "সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কোশি–শ্বারজ অসমতা এর সূত্রটি লেখো। (ইঙ্গিত: সমানতা যখন a ও b সমানুপাতিক।)",
+      "question": "কোশি–শ্বারজ অসমতা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2"
     }
   ],
   "memorize": {
-    "trick": "সমানতা যখন a ও b সমানুপাতিক।",
-    "steps": []
+    "trick": "সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
+    "steps": [
+      "সূত্র: \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
+      "কী কাজে লাগে: কোশি–শ্বারজ অসমতা",
+      "চিহ্ন মনে রাখো: Big, sum, a, i"
+    ]
   },
   "subjects": [
     "math"

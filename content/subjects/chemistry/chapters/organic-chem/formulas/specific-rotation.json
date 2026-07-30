@@ -16,18 +16,38 @@
   "order": 180,
   "symbols": [
     {
-      "symbol": "alpha, l, c, ee",
+      "symbol": "alpha",
       "meaning": "অপটিক্যাল অ্যাকটিভিটির পরিমাপ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "l",
+      "meaning": "l সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "c",
+      "meaning": "c সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "ee",
+      "meaning": "ee সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "অপটিক্যাল অ্যাকটিভিটির পরিমাপ",
+    "lead": "আপেক্ষিক ঘূর্ণন এর মূল সম্পর্ক ও প্রয়োগ।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "[\\alpha]=\\frac{\\alpha}{l\\cdot c},\\quad\\mathrm{ee}=\\frac{[\\alpha]_{obs}}{[\\alpha]_{pure}}\\times100\\%",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "আপেক্ষিক ঘূর্ণন এর মূল সম্পর্ক ও প্রয়োগ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "[\\alpha]=\\frac{\\alpha}{l\\cdot c},\\quad\\mathrm{ee}=\\frac{[\\alpha]_{obs}}{[\\alpha]_{pure}}\\times100\\%",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আপেক্ষিক ঘূর্ণন এর সূত্রটি লেখো। (ইঙ্গিত: [α]=α/(l·c); ee অনুপাতে বিশুদ্ধতা।)",
+      "question": "আপেক্ষিক ঘূর্ণন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "[\\alpha]=\\frac{\\alpha}{l\\cdot c},\\quad\\mathrm{ee}=\\frac{[\\alpha]_{obs}}{[\\alpha]_{pure}}\\times100\\%"
     }
   ],
   "memorize": {
     "trick": "[α]=α/(l·c); ee অনুপাতে বিশুদ্ধতা।",
-    "steps": []
+    "steps": [
+      "সূত্র: [\\alpha]=\\frac{\\alpha}{l\\cdot c},\\quad\\mathrm{ee}=\\frac{[\\alpha]_{obs}}{[\\alpha]…",
+      "অপটিক্যাল অ্যাকটিভিটির পরিমাপ",
+      "চিহ্ন মনে রাখো: alpha, l, c, ee"
+    ]
   },
   "subjects": [
     "chemistry"

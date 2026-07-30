@@ -3,7 +3,7 @@
   "chapter": "probability",
   "title": "Binomial Mean & Variance",
   "titleBn": "দ্বিপদী গড় ও বিচ্যুতি",
-  "summary": "μ=np, σ²=npq",
+  "summary": "গড়=np; বিচ্যুতি=npq — সূত্র মুখস্থ।",
   "latex": "\\mu=np,\\quad \\sigma^2=np(1-p)",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "mu, n, p, sigma",
-      "meaning": "μ=np, σ²=npq",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "mu",
+      "meaning": "μ=np",
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "σ²=npq",
+      "unit": "—"
+    },
+    {
+      "symbol": "p",
+      "meaning": "p সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "sigma",
+      "meaning": "sigma সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mu=np,\\quad \\sigma^2=np(1-p)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "গড়=np; বিচ্যুতি=npq — সূত্র মুখস্থ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mu=np,\\quad \\sigma^2=np(1-p)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দ্বিপদী গড় ও বিচ্যুতি এর সূত্রটি লেখো। (ইঙ্গিত: গড়=np; বিচ্যুতি=npq — সূত্র মুখস্থ।)",
+      "question": "দ্বিপদী গড় ও বিচ্যুতি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\mu=np,\\quad \\sigma^2=np(1-p)"
     }
   ],
   "memorize": {
     "trick": "গড়=np; বিচ্যুতি=npq — সূত্র মুখস্থ।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\mu=np,\\quad \\sigma^2=np(1-p)",
+      "কী কাজে লাগে: দ্বিপদী গড় ও বিচ্যুতি",
+      "চিহ্ন মনে রাখো: mu, n, p, sigma"
+    ]
   },
   "subjects": [
     "math"

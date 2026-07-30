@@ -3,7 +3,7 @@
   "chapter": "waves",
   "title": "Echo",
   "titleBn": "প্রতিধ্বনি",
-  "summary": "2d=vt",
+  "summary": "যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
   "latex": "2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
   "tags": [
     "hsc",
@@ -16,18 +16,38 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "d, v, t, Rightarrow",
+      "symbol": "d",
       "meaning": "প্রতিধ্বনি",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "v",
+      "meaning": "v সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "t",
+      "meaning": "t সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "Rightarrow",
+      "meaning": "Rightarrow সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "যাওয়া+ফেরা = 2d; d = vt/2।",
+    "lead": "যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্রতিধ্বনি সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: যাওয়া+ফেরা = 2d; d = vt/2।)",
+      "question": "প্রতিধ্বনি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}"
     }
   ],
   "memorize": {
-    "trick": "যাওয়া+ফেরা = 2d; d = vt/2।",
-    "steps": []
+    "trick": "যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
+    "steps": [
+      "সূত্র: 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
+      "কী কাজে লাগে: প্রতিধ্বনি",
+      "চিহ্ন মনে রাখো: d, v, t, Rightarrow"
+    ]
   },
   "subjects": [
     "physics"

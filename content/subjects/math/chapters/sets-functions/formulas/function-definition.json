@@ -3,7 +3,7 @@
   "chapter": "sets-functions",
   "title": "Function Definition",
   "titleBn": "ফাংশনের সংজ্ঞা",
-  "summary": "f:A→B",
+  "summary": "প্রতিটি input-এ exactly এক output — MCQ-তে function test।",
   "latex": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "f, A, B, forall",
+      "symbol": "f",
       "meaning": "f:A→B",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "A সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "forall",
+      "meaning": "forall সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "প্রতিটি input-এ exactly এক output — MCQ-তে function test।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফাংশনের সংজ্ঞা এর সূত্রটি লেখো। (ইঙ্গিত: প্রতিটি input-এ exactly এক output — MCQ-তে function test।)",
+      "question": "ফাংশনের সংজ্ঞা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b"
     }
   ],
   "memorize": {
     "trick": "প্রতিটি input-এ exactly এক output — MCQ-তে function test।",
-    "steps": []
+    "steps": [
+      "সূত্র: f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b",
+      "কী কাজে লাগে: ফাংশনের সংজ্ঞা",
+      "চিহ্ন মনে রাখো: f, A, B, forall"
+    ]
   },
   "subjects": [
     "math"

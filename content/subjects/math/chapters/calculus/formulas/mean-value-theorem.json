@@ -3,7 +3,7 @@
   "chapter": "calculus",
   "title": "Mean Value Theorem",
   "titleBn": "মধ্যমান উপপাদ্য",
-  "summary": "f'(c)=(f(b)−f(a))/(b−a)",
+  "summary": "কোনো c-তে স্পর্শক জ্যা-এর সমান্তরাল।",
   "latex": "f'(c)=\\frac{f(b)-f(a)}{b-a}",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 175,
   "symbols": [
     {
-      "symbol": "f, c, b, a",
+      "symbol": "f",
       "meaning": "f'(c)=(f(b)−f(a))/(b−a)",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "c",
+      "meaning": "c সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "f'(c)=\\frac{f(b)-f(a)}{b-a}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "কোনো c-তে স্পর্শক জ্যা-এর সমান্তরাল।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "f'(c)=\\frac{f(b)-f(a)}{b-a}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মধ্যমান উপপাদ্য এর সূত্রটি লেখো। (ইঙ্গিত: কোনো c-তে স্পর্শক জ্যা-এর সমান্তরাল।)",
+      "question": "মধ্যমান উপপাদ্য কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "f'(c)=\\frac{f(b)-f(a)}{b-a}"
     }
   ],
   "memorize": {
     "trick": "কোনো c-তে স্পর্শক জ্যা-এর সমান্তরাল।",
-    "steps": []
+    "steps": [
+      "সূত্র: f'(c)=\\frac{f(b)-f(a)}{b-a}",
+      "কী কাজে লাগে: মধ্যমান উপপাদ্য",
+      "চিহ্ন মনে রাখো: f, c, b, a"
+    ]
   },
   "subjects": [
     "math"

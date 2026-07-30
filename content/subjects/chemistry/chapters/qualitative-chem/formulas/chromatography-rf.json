@@ -25,9 +25,14 @@
     "lead": "পেপার/টিএলসি-তে যৌগ শনাক্তকরণের তুলনামূলক মান।",
     "steps": [
       {
-        "title": "সূত্র",
-        "latex": "R_f=d_{\\mathrm{spot}}/d_{\\mathrm{solvent}}",
-        "note": "সবসময় ≤1।"
+        "title": "মূল সূত্র",
+        "latex": "R_f=\\dfrac{\\text{distance moved by spot}}{\\text{distance moved by solvent}}",
+        "note": "পেপার/টিএলসি-তে যৌগ শনাক্তকরণের তুলনামূলক মান।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "R_f=\\dfrac{\\text{distance moved by spot}}{\\text{distance moved by solvent}}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -44,7 +49,9 @@
   "memorize": {
     "trick": "R_f = স্পট/সলভেন্ট — ১-এর বেশি হয় না।",
     "steps": [
-      "R_f = spot / solvent front"
+      "সূত্র: R_f=\\dfrac{\\text{distance moved by spot}}{\\text{distance moved by solvent}}",
+      "R_f = স্পটের দূরত্ব / দ্রাবকের দূরত্ব",
+      "চিহ্ন মনে রাখো: R_f"
     ]
   },
   "subjects": [

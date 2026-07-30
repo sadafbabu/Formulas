@@ -3,7 +3,7 @@
   "chapter": "nuclear-chemistry",
   "title": "Activity Units",
   "titleBn": "সক্রিয়তার একক",
-  "summary": "Bq and Ci",
+  "summary": "SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
   "latex": "1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
   "tags": [
     "hsc",
@@ -16,18 +16,33 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "Bq, s^{-1, Ci",
+      "symbol": "Bq",
       "meaning": "Bq and Ci",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "s^{-1",
+      "meaning": "s^{-1 সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "Ci",
+      "meaning": "Ci সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "Bq and Ci — SI একক বেকেরেল।",
+    "lead": "SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +50,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সক্রিয়তার একক এর সূত্রটি লেখো। (ইঙ্গিত: SI একক বেকেরেল।)",
+      "question": "সক্রিয়তার একক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}"
     }
   ],
   "memorize": {
-    "trick": "SI একক বেকেরেল।",
-    "steps": []
+    "trick": "SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
+    "steps": [
+      "সূত্র: 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm…",
+      "কী কাজে লাগে: সক্রিয়তার একক",
+      "চিহ্ন মনে রাখো: Bq, s^{-1, Ci"
+    ]
   },
   "subjects": [
     "chemistry"

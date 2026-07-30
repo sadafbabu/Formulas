@@ -3,7 +3,7 @@
   "chapter": "dynamics",
   "title": "Connected Bodies on Incline",
   "titleBn": "আনত তলে সংযুক্ত বস্তু",
-  "summary": "দুই ভরের ত্বরণ ও টান",
+  "summary": "Atwood-এর মতো: নেট (mg sinθ) / মোট m।",
   "latex": "a=\\frac{(m_1\\sin\\theta_1-m_2\\sin\\theta_2)g}{m_1+m_2}",
   "tags": [
     "hsc",
@@ -16,8 +16,13 @@
   "order": 190,
   "symbols": [
     {
-      "symbol": "m_1,m_2",
+      "symbol": "m_1",
       "meaning": "দুই বস্তুর ভর",
+      "unit": "kg"
+    },
+    {
+      "symbol": "m_2",
+      "meaning": "m_2 সম্পর্কিত রাশি",
       "unit": "kg"
     },
     {
@@ -58,7 +63,11 @@
   ],
   "memorize": {
     "trick": "Atwood-এর মতো: নেট (mg sinθ) / মোট m।",
-    "steps": []
+    "steps": [
+      "সূত্র: a=\\frac{(m_1\\sin\\theta_1-m_2\\sin\\theta_2)g}{m_1+m_2}",
+      "কী কাজে লাগে: আনত তলে সংযুক্ত বস্তু",
+      "চিহ্ন মনে রাখো: m_1,m_2, \\theta, T"
+    ]
   },
   "subjects": [
     "physics"

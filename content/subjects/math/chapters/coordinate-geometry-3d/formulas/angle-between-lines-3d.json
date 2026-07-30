@@ -3,7 +3,7 @@
   "chapter": "coordinate-geometry-3d",
   "title": "Angle Between Lines 3D",
   "titleBn": "৩D-এ রেখার মধ্যবর্তী কোণ",
-  "summary": "cosθ=|l₁l₂+m₁m₂+n₁n₂|",
+  "summary": "DC-এর dot product; DR দিয়ে সহজ।",
   "latex": "\\cos\\theta=|l_1l_2+m_1m_2+n_1n_2|",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "theta, l, m, n",
-      "meaning": "cosθ=|l₁l₂+m₁m₂+n₁n₂|",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "theta",
+      "meaning": "cosθ=",
+      "unit": "—"
+    },
+    {
+      "symbol": "l",
+      "meaning": "l₁l₂+m₁m₂+n₁n₂",
+      "unit": "—"
+    },
+    {
+      "symbol": "m",
+      "meaning": "m সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "n সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\cos\\theta=|l_1l_2+m_1m_2+n_1n_2|",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "DC-এর dot product; DR দিয়ে সহজ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\cos\\theta=|l_1l_2+m_1m_2+n_1n_2|",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "৩D-এ রেখার মধ্যবর্তী কোণ এর সূত্রটি লেখো। (ইঙ্গিত: DC-এর dot product; DR দিয়ে সহজ।)",
+      "question": "৩D-এ রেখার মধ্যবর্তী কোণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\cos\\theta=|l_1l_2+m_1m_2+n_1n_2|"
     }
   ],
   "memorize": {
     "trick": "DC-এর dot product; DR দিয়ে সহজ।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\cos\\theta=|l_1l_2+m_1m_2+n_1n_2|",
+      "কী কাজে লাগে: ৩D-এ রেখার মধ্যবর্তী কোণ",
+      "চিহ্ন মনে রাখো: theta, l, m, n"
+    ]
   },
   "subjects": [
     "math"

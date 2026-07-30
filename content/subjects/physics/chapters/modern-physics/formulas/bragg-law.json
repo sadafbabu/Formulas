@@ -16,18 +16,33 @@
   "order": 130,
   "symbols": [
     {
-      "symbol": "d, n, lambda",
+      "symbol": "d",
       "meaning": "ব্র্যাগের সূত্র",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "n",
+      "meaning": "n সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "lambda",
+      "meaning": "lambda সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "স্ফটিক থেকে এক্স-রে অপবর্তন",
+    "lead": "ব্র্যাগের সূত্র এর মূল সম্পর্ক ও প্রয়োগ।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "2d\\sin\\theta=n\\lambda",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "ব্র্যাগের সূত্র এর মূল সম্পর্ক ও প্রয়োগ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "2d\\sin\\theta=n\\lambda",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +50,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ব্র্যাগের সূত্র সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: 2d sinθ = nλ — পথপার্থক্য দুই স্তরে।)",
+      "question": "ব্র্যাগের সূত্র কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "2d\\sin\\theta=n\\lambda"
     }
   ],
   "memorize": {
     "trick": "2d sinθ = nλ — পথপার্থক্য দুই স্তরে।",
-    "steps": []
+    "steps": [
+      "সূত্র: 2d\\sin\\theta=n\\lambda",
+      "স্ফটিক থেকে এক্স-রে অপবর্তন",
+      "চিহ্ন মনে রাখো: d, n, lambda"
+    ]
   },
   "subjects": [
     "physics"

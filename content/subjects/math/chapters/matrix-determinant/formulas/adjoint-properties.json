@@ -3,7 +3,7 @@
   "chapter": "matrix-determinant",
   "title": "Adjoint Properties",
   "titleBn": "অ্যাডজয়েন্টের ধর্ম",
-  "summary": "adj ও det সম্পর্ক",
+  "summary": "A·adjA = (detA)I। A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
   "latex": "A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "A, adj, det, I",
+      "symbol": "A",
       "meaning": "adj ও det সম্পর্ক",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "adj",
+      "meaning": "adj সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "det",
+      "meaning": "det সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "I",
+      "meaning": "I সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "adj ও det সম্পর্ক — A·adjA = (detA)I।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অ্যাডজয়েন্টের ধর্ম এর সূত্রটি লেখো। (ইঙ্গিত: A·adjA = (detA)I।)",
+      "question": "অ্যাডজয়েন্টের ধর্ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I"
     }
   ],
   "memorize": {
-    "trick": "A·adjA = (detA)I।",
-    "steps": []
+    "trick": "A·adjA = (detA)I। A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
+    "steps": [
+      "সূত্র: A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
+      "কী কাজে লাগে: অ্যাডজয়েন্টের ধর্ম",
+      "চিহ্ন মনে রাখো: A, adj, det, I"
+    ]
   },
   "subjects": [
     "math"

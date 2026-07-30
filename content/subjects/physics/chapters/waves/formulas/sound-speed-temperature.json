@@ -3,7 +3,7 @@
   "chapter": "waves",
   "title": "Sound Speed vs Temperature",
   "titleBn": "তাপমাত্রায় শব্দের বেগ",
-  "summary": "v ∝ √T",
+  "summary": "তাপমাত্রা দ্বিগুণ (K) → বেগ √2 গুণ।",
   "latex": "\\dfrac{v_2}{v_1}=\\sqrt{\\dfrac{T_2}{T_1}},\\quad v_t=v_0\\sqrt{1+\\dfrac{t}{273}}",
   "tags": [
     "hsc",
@@ -53,7 +53,11 @@
   ],
   "memorize": {
     "trick": "তাপমাত্রা দ্বিগুণ (K) → বেগ √2 গুণ।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\dfrac{v_2}{v_1}=\\sqrt{\\dfrac{T_2}{T_1}},\\quad v_t=v_0\\sqrt{1+\\dfrac{t}{273}}",
+      "কী কাজে লাগে: তাপমাত্রায় শব্দের বেগ",
+      "চিহ্ন মনে রাখো: T, t"
+    ]
   },
   "subjects": [
     "physics"

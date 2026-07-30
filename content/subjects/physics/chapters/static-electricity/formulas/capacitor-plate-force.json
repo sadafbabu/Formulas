@@ -3,7 +3,7 @@
   "chapter": "static-electricity",
   "title": "Force between Capacitor Plates",
   "titleBn": "ধারকের পাতদ্বয়ের আকর্ষণ বল",
-  "summary": "F = Q²/(2ε₀A)",
+  "summary": "F = Q²/(2ε₀A) — চার্জ বাড়লে বল বাড়ে।",
   "latex": "F=\\dfrac{Q^2}{2\\varepsilon_0 A}=\\tfrac12 QE",
   "tags": [
     "hsc",
@@ -58,7 +58,11 @@
   ],
   "memorize": {
     "trick": "F = Q²/(2ε₀A) — চার্জ বাড়লে বল বাড়ে।",
-    "steps": []
+    "steps": [
+      "সূত্র: F=\\dfrac{Q^2}{2\\varepsilon_0 A}=\\tfrac12 QE",
+      "কী কাজে লাগে: ধারকের পাতদ্বয়ের আকর্ষণ বল",
+      "চিহ্ন মনে রাখো: Q, A, F"
+    ]
   },
   "subjects": [
     "physics"

@@ -3,7 +3,7 @@
   "chapter": "probability",
   "title": "Poisson Approximation Hint",
   "titleBn": "পোয়াসোঁ আনুমানিক",
-  "summary": "λ=np",
+  "summary": "n বড়, p ছোট হলে binomial → Poisson।",
   "latex": "P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 150,
   "symbols": [
     {
-      "symbol": "P, X, k, e",
+      "symbol": "P",
       "meaning": "λ=np",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "X",
+      "meaning": "X সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "k",
+      "meaning": "k সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "e",
+      "meaning": "e সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "n বড়, p ছোট হলে binomial → Poisson।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পোয়াসোঁ আনুমানিক এর সূত্রটি লেখো। (ইঙ্গিত: n বড়, p ছোট হলে binomial → Poisson।)",
+      "question": "পোয়াসোঁ আনুমানিক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np"
     }
   ],
   "memorize": {
     "trick": "n বড়, p ছোট হলে binomial → Poisson।",
-    "steps": []
+    "steps": [
+      "সূত্র: P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np",
+      "কী কাজে লাগে: পোয়াসোঁ আনুমানিক",
+      "চিহ্ন মনে রাখো: P, X, k, e"
+    ]
   },
   "subjects": [
     "math"

@@ -3,7 +3,7 @@
   "chapter": "vector-algebra",
   "title": "Section Formula",
   "titleBn": "অনুপাত বিভাজন",
-  "summary": "internal division",
+  "summary": "m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
   "latex": "\\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "vec, r, m, b",
+      "symbol": "vec",
       "meaning": "internal division",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "r",
+      "meaning": "r সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "m",
+      "meaning": "m সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "m:n অভ্যন্তরে — ওজনিত গড়।",
+    "lead": "m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অনুপাত বিভাজন এর সূত্রটি লেখো। (ইঙ্গিত: m:n অভ্যন্তরে — ওজনিত গড়।)",
+      "question": "অনুপাত বিভাজন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)"
     }
   ],
   "memorize": {
-    "trick": "m:n অভ্যন্তরে — ওজনিত গড়।",
-    "steps": []
+    "trick": "m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
+    "steps": [
+      "সূত্র: \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
+      "কী কাজে লাগে: অনুপাত বিভাজন",
+      "চিহ্ন মনে রাখো: vec, r, m, b"
+    ]
   },
   "subjects": [
     "math"

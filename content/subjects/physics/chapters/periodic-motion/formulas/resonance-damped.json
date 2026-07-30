@@ -32,9 +32,14 @@
     "lead": "মান বল ও প্রতিরোধী বল সহ দোলন সমীকরণ থেকে প্রাপ্ত।",
     "steps": [
       {
-        "title": "ক্ষতিগ্রস্ত দোলন",
-        "latex": "m\\ddot{x} + b\\dot{x} + kx = 0",
-        "note": "অবনমন বেশি হলে দোলন শীঘ্রই থেমে যায়"
+        "title": "মূল সূত্র",
+        "latex": "x=Ae^{-\\gamma t}\\cos(\\omega_dt+\\phi),\\quad \\omega_d=\\sqrt{\\omega_0^2-\\gamma^2}",
+        "note": "মান বল ও প্রতিরোধী বল সহ দোলন সমীকরণ থেকে প্রাপ্ত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "x=Ae^{-\\gamma t}\\cos(\\omega_dt+\\phi),\\quad \\omega_d=\\sqrt{\\omega_0^2-\\gamma^2}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

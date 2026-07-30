@@ -3,7 +3,7 @@
   "chapter": "organic-chem",
   "title": "Polymerization",
   "titleBn": "পলিমারাইজেশন",
-  "summary": "যোজন ও ঘনীভবন পলিমার",
+  "summary": "Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।",
   "latex": "n\\,\\ce{CH2=CH2 -> [-CH2-CH2-]_n}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 170,
   "symbols": [
     {
-      "symbol": "n, ce, C, H",
+      "symbol": "n",
       "meaning": "যোজন ও ঘনীভবন পলিমার",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "ce",
+      "meaning": "ce সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "C",
+      "meaning": "C সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "H",
+      "meaning": "H সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "n\\,\\ce{CH2=CH2 -> [-CH2-CH2-]_n}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "n\\,\\ce{CH2=CH2 -> [-CH2-CH2-]_n}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পলিমারাইজেশন এর সূত্রটি লেখো। (ইঙ্গিত: Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়)",
+      "question": "পলিমারাইজেশন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "n\\,\\ce{CH2=CH2 -> [-CH2-CH2-]_n}"
     }
   ],
   "memorize": {
     "trick": "Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।",
-    "steps": []
+    "steps": [
+      "সূত্র: n\\,\\ce{CH2=CH2 -> [-CH2-CH2-]_n}",
+      "কী কাজে লাগে: পলিমারাইজেশন",
+      "চিহ্ন মনে রাখো: n, ce, C, H"
+    ]
   },
   "subjects": [
     "chemistry"

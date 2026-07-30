@@ -3,7 +3,7 @@
   "chapter": "matrix-determinant",
   "title": "Cramer's Rule",
   "titleBn": "ক্রেমারের সূত্র",
-  "summary": "x=Δx/Δ",
+  "summary": "প্রতি চলকের জন্য স্তম্ভ বদলাও।",
   "latex": "x_i=\\frac{\\Delta_i}{\\Delta}\\quad(\\Delta\\ne0)",
   "tags": [
     "hsc",
@@ -15,9 +15,19 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "x, i, Delta",
+      "symbol": "x",
       "meaning": "x=Δx/Δ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "i",
+      "meaning": "i সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "Delta",
+      "meaning": "Delta সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "x_i=\\frac{\\Delta_i}{\\Delta}\\quad(\\Delta\\ne0)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "প্রতি চলকের জন্য স্তম্ভ বদলাও।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "x_i=\\frac{\\Delta_i}{\\Delta}\\quad(\\Delta\\ne0)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +49,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্রেমারের সূত্র এর সূত্রটি লেখো। (ইঙ্গিত: প্রতি চলকের জন্য স্তম্ভ বদলাও।)",
+      "question": "ক্রেমারের সূত্র কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "x_i=\\frac{\\Delta_i}{\\Delta}\\quad(\\Delta\\ne0)"
     }
   ],
   "memorize": {
     "trick": "প্রতি চলকের জন্য স্তম্ভ বদলাও।",
-    "steps": []
+    "steps": [
+      "সূত্র: x_i=\\frac{\\Delta_i}{\\Delta}\\quad(\\Delta\\ne0)",
+      "কী কাজে লাগে: ক্রেমারের সূত্র",
+      "চিহ্ন মনে রাখো: x, i, Delta"
+    ]
   },
   "subjects": [
     "math"

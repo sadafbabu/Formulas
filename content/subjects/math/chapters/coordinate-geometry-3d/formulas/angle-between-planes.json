@@ -3,7 +3,7 @@
   "chapter": "coordinate-geometry-3d",
   "title": "Angle Between Planes",
   "titleBn": "সমতলের মধ্যবর্তী কোণ",
-  "summary": "cosθ",
+  "summary": "স্বাভাবিক ভেক্টরের dot product।",
   "latex": "\\cos\\theta=\\frac{|A_1A_2+B_1B_2+C_1C_2|}{\\sqrt{A_1^2+B_1^2+C_1^2}\\sqrt{A_2^2+B_2^2+C_2^2}}",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "theta, A, B, C",
+      "symbol": "theta",
       "meaning": "cosθ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "A সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "B",
+      "meaning": "B সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "C",
+      "meaning": "C সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\cos\\theta=\\frac{|A_1A_2+B_1B_2+C_1C_2|}{\\sqrt{A_1^2+B_1^2+C_1^2}\\sqrt{A_2^2+B_2^2+C_2^2}}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "স্বাভাবিক ভেক্টরের dot product।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\cos\\theta=\\frac{|A_1A_2+B_1B_2+C_1C_2|}{\\sqrt{A_1^2+B_1^2+C_1^2}\\sqrt{A_2^2+B_2^2+C_2^2}}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমতলের মধ্যবর্তী কোণ এর সূত্রটি লেখো। (ইঙ্গিত: স্বাভাবিক ভেক্টরের dot product।)",
+      "question": "সমতলের মধ্যবর্তী কোণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\cos\\theta=\\frac{|A_1A_2+B_1B_2+C_1C_2|}{\\sqrt{A_1^2+B_1^2+C_1^2}\\sqrt{A_2^2+B_2^2+C_2^2}}"
     }
   ],
   "memorize": {
     "trick": "স্বাভাবিক ভেক্টরের dot product।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\cos\\theta=\\frac{|A_1A_2+B_1B_2+C_1C_2|}{\\sqrt{A_1^2+B_1^2+C_1^2}\\sqrt{A_2^2+B_2…",
+      "কী কাজে লাগে: সমতলের মধ্যবর্তী কোণ",
+      "চিহ্ন মনে রাখো: theta, A, B, C"
+    ]
   },
   "subjects": [
     "math"

@@ -3,7 +3,7 @@
   "chapter": "measurement",
   "title": "SI Base Units",
   "titleBn": "SI মৌলিক একক",
-  "summary": "৭টি মৌলিক একক",
+  "summary": "দৈর্ঘ্য–ভর–সময়–বিদ্যুৎ–তাপমাত্রা–মোল–ক্যান্ডেলা।",
   "latex": "\\mathrm{m},\\ \\mathrm{kg},\\ \\mathrm{s},\\ \\mathrm{A},\\ \\mathrm{K},\\ \\mathrm{mol},\\ \\mathrm{cd}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "m, k, g, s",
+      "symbol": "m",
       "meaning": "SI মৌলিক একক",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "k",
+      "meaning": "k সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "g",
+      "meaning": "g সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "s",
+      "meaning": "s সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{m},\\ \\mathrm{kg},\\ \\mathrm{s},\\ \\mathrm{A},\\ \\mathrm{K},\\ \\mathrm{mol},\\ \\mathrm{cd}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "দৈর্ঘ্য–ভর–সময়–বিদ্যুৎ–তাপমাত্রা–মোল–ক্যান্ডেলা।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mathrm{m},\\ \\mathrm{kg},\\ \\mathrm{s},\\ \\mathrm{A},\\ \\mathrm{K},\\ \\mathrm{mol},\\ \\mathrm{cd}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "SI মৌলিক একক সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: দৈর্ঘ্য–ভর–সময়–বিদ্যুৎ–তাপমাত্রা–মোল–ক্যান্ডেলা।)",
+      "question": "SI মৌলিক একক কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\mathrm{m},\\ \\mathrm{kg},\\ \\mathrm{s},\\ \\mathrm{A},\\ \\mathrm{K},\\ \\mathrm{mol},\\ \\mathrm{cd}"
     }
   ],
   "memorize": {
     "trick": "দৈর্ঘ্য–ভর–সময়–বিদ্যুৎ–তাপমাত্রা–মোল–ক্যান্ডেলা।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\mathrm{m},\\ \\mathrm{kg},\\ \\mathrm{s},\\ \\mathrm{A},\\ \\mathrm{K},\\ \\mathrm{mol},\\…",
+      "কী কাজে লাগে: SI মৌলিক একক",
+      "চিহ্ন মনে রাখো: m, k, g, s"
+    ]
   },
   "subjects": [
     "physics"

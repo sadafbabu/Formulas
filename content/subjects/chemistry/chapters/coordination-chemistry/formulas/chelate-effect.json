@@ -3,7 +3,7 @@
   "chapter": "coordination-chemistry",
   "title": "Chelate Effect",
   "titleBn": "কিলেট প্রভাব",
-  "summary": "polydentate stability",
+  "summary": "এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল।",
   "latex": "\\text{chelate complexes more stable than similar non-chelates}",
   "tags": [
     "hsc",
@@ -18,7 +18,7 @@
     {
       "symbol": "chelate complexes more stable than similar non-chelates",
       "meaning": "polydentate stability",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +27,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{chelate complexes more stable than similar non-chelates}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\text{chelate complexes more stable than similar non-chelates}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +40,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কিলেট প্রভাব এর সূত্রটি লেখো। (ইঙ্গিত: এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল।)",
+      "question": "কিলেট প্রভাব কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\text{chelate complexes more stable than similar non-chelates}"
     }
   ],
   "memorize": {
     "trick": "এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\text{chelate complexes more stable than similar non-chelates}",
+      "কী কাজে লাগে: কিলেট প্রভাব",
+      "চিহ্ন মনে রাখো: chelate complexes more stable than similar non-chelates"
+    ]
   },
   "subjects": [
     "chemistry"

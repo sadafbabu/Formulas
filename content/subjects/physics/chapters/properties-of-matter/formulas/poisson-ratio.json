@@ -53,7 +53,11 @@
   ],
   "memorize": {
     "trick": "পার্শ্ব ÷ দৈর্ঘ্য — সাধারণত 0.2–0.4।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\sigma=-\\dfrac{\\text{lateral strain}}{\\text{longitudinal strain}}",
+      "পার্শ্বীয় বিকৃতি / দৈর্ঘ্যিক বিকৃতি",
+      "চিহ্ন মনে রাখো: \\sigma, \\Delta D/D"
+    ]
   },
   "subjects": [
     "physics"

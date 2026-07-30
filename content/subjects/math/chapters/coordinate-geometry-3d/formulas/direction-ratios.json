@@ -3,7 +3,7 @@
   "chapter": "coordinate-geometry-3d",
   "title": "Direction Ratios",
   "titleBn": "দিক্‌অনুপাত",
-  "summary": "a,b,c",
+  "summary": "DR (a,b,c) → DC l=a/√(a²+b²+c²)।",
   "latex": "\\frac{l}{a}=\\frac{m}{b}=\\frac{n}{c}",
   "tags": [
     "hsc",
@@ -15,9 +15,24 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "l, a, m, b",
-      "meaning": "a,b,c",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "l",
+      "meaning": "a",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "b",
+      "unit": "—"
+    },
+    {
+      "symbol": "m",
+      "meaning": "c",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{l}{a}=\\frac{m}{b}=\\frac{n}{c}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "DR (a,b,c) → DC l=a/√(a²+b²+c²)।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\frac{l}{a}=\\frac{m}{b}=\\frac{n}{c}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দিক্‌অনুপাত এর সূত্রটি লেখো। (ইঙ্গিত: DR (a,b,c) → DC l=a/√(a²+b²+c²)।)",
+      "question": "দিক্‌অনুপাত কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\frac{l}{a}=\\frac{m}{b}=\\frac{n}{c}"
     }
   ],
   "memorize": {
     "trick": "DR (a,b,c) → DC l=a/√(a²+b²+c²)।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\frac{l}{a}=\\frac{m}{b}=\\frac{n}{c}",
+      "কী কাজে লাগে: দিক্‌অনুপাত",
+      "চিহ্ন মনে রাখো: l, a, m, b"
+    ]
   },
   "subjects": [
     "math"

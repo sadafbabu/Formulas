@@ -3,7 +3,7 @@
   "chapter": "organic-chem",
   "title": "Fehling's Test",
   "titleBn": "ফেলিং পরীক্ষা",
-  "summary": "aldehyde detection",
+  "summary": "Aldehyde → red Cu₂O precipitate; ketone negative।",
   "latex": "\\ce{RCHO + 2Cu(OH)2 -> RCOOH + Cu2O + 2H2O}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 190,
   "symbols": [
     {
-      "symbol": "ce, R, C, H",
+      "symbol": "ce",
       "meaning": "aldehyde detection",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "R",
+      "meaning": "R সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "C",
+      "meaning": "C সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "H",
+      "meaning": "H সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\ce{RCHO + 2Cu(OH)2 -> RCOOH + Cu2O + 2H2O}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "Aldehyde → red Cu₂O precipitate; ketone negative।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\ce{RCHO + 2Cu(OH)2 -> RCOOH + Cu2O + 2H2O}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফেলিং পরীক্ষা এর সূত্রটি লেখো। (ইঙ্গিত: Aldehyde → red Cu₂O precipitate; ketone negative।)",
+      "question": "ফেলিং পরীক্ষা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\ce{RCHO + 2Cu(OH)2 -> RCOOH + Cu2O + 2H2O}"
     }
   ],
   "memorize": {
     "trick": "Aldehyde → red Cu₂O precipitate; ketone negative।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\ce{RCHO + 2Cu(OH)2 -> RCOOH + Cu2O + 2H2O}",
+      "কী কাজে লাগে: ফেলিং পরীক্ষা",
+      "চিহ্ন মনে রাখো: ce, R, C, H"
+    ]
   },
   "subjects": [
     "chemistry"

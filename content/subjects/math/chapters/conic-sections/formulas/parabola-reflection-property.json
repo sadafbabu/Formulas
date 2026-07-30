@@ -3,7 +3,7 @@
   "chapter": "conic-sections",
   "title": "Parabola Reflection Property",
   "titleBn": "পরাবৃত্তের প্রতিফলন ধর্ম",
-  "summary": "focus-directrix path",
+  "summary": "অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায় — স্যাটেলাইট ডিশ।",
   "latex": "\\text{ray }\\parallel\\text{ axis reflects through focus}",
   "tags": [
     "hsc",
@@ -15,9 +15,19 @@
   "order": 190,
   "symbols": [
     {
-      "symbol": "ray, parallel, axis reflects through focus",
+      "symbol": "ray",
       "meaning": "focus-directrix path",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "parallel",
+      "meaning": "parallel সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "axis reflects through focus",
+      "meaning": "axis reflects through focus সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{ray }\\parallel\\text{ axis reflects through focus}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায় — স্যাটেলাইট ডিশ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\text{ray }\\parallel\\text{ axis reflects through focus}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +49,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরাবৃত্তের প্রতিফলন ধর্ম এর সূত্রটি লেখো। (ইঙ্গিত: অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায় — স্যাটেলাইট ডিশ।)",
+      "question": "পরাবৃত্তের প্রতিফলন ধর্ম কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\text{ray }\\parallel\\text{ axis reflects through focus}"
     }
   ],
   "memorize": {
     "trick": "অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায় — স্যাটেলাইট ডিশ।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\text{ray }\\parallel\\text{ axis reflects through focus}",
+      "কী কাজে লাগে: পরাবৃত্তের প্রতিফলন ধর্ম",
+      "চিহ্ন মনে রাখো: ray, parallel, axis reflects through focus"
+    ]
   },
   "subjects": [
     "math"

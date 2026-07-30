@@ -28,8 +28,13 @@
       "unit": "J"
     },
     {
-      "symbol": "q_i,q_j",
+      "symbol": "q_i",
       "meaning": "চার্জদ্বয়",
+      "unit": "C"
+    },
+    {
+      "symbol": "q_j",
+      "meaning": "q_j সম্পর্কিত রাশি",
       "unit": "C"
     },
     {

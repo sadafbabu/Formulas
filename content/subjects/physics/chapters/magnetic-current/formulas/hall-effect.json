@@ -56,9 +56,14 @@
     "lead": "হল তড়িৎ ক্ষেত্র ও চৌম্বক বলের সাম্যাবস্থা:",
     "steps": [
       {
-        "title": "বল সমতা ও হল বিভব",
-        "latex": "q E_H = q v_d B \\implies E_H = v_d B \\implies \\frac{V_H}{w} = \\frac{I}{n q w d} B \\implies V_H = \\frac{I B}{n q d}",
-        "note": "হল প্রভাবের মাধ্যমে আধান বাহকের প্রকৃতি (p-type বা n-type) নির্ণয় করা যায়।"
+        "title": "মূল সূত্র",
+        "latex": "V_H = \\frac{I B}{n q d}",
+        "note": "হল তড়িৎ ক্ষেত্র ও চৌম্বক বলের সাম্যাবস্থা:"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "V_H = \\frac{I B}{n q d}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

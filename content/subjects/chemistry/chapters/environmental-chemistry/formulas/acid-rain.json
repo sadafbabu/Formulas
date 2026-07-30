@@ -3,7 +3,7 @@
   "chapter": "environmental-chemistry",
   "title": "Acid Rain",
   "titleBn": "অম্ল বৃষ্টি",
-  "summary": "pH < 5.6",
+  "summary": "SO₂/NO₂ → অম্ল; pH ৫.৬-এর নিচে = অম্ল বৃষ্টি।",
   "latex": "\\ce{SO2 + H2O -> H2SO3};\\quad \\ce{NO2 + H2O -> HNO3}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "ce, S, O, H",
+      "symbol": "ce",
       "meaning": "pH < 5.6",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "S",
+      "meaning": "S সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "O",
+      "meaning": "O সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "H",
+      "meaning": "H সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\ce{SO2 + H2O -> H2SO3};\\quad \\ce{NO2 + H2O -> HNO3}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "SO₂/NO₂ → অম্ল; pH ৫.৬-এর নিচে = অম্ল বৃষ্টি।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\ce{SO2 + H2O -> H2SO3};\\quad \\ce{NO2 + H2O -> HNO3}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অম্ল বৃষ্টি এর সূত্রটি লেখো। (ইঙ্গিত: SO₂/NO₂ → অম্ল; pH ৫.৬-এর নিচে = অম্ল বৃষ্টি।)",
+      "question": "অম্ল বৃষ্টি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\ce{SO2 + H2O -> H2SO3};\\quad \\ce{NO2 + H2O -> HNO3}"
     }
   ],
   "memorize": {
     "trick": "SO₂/NO₂ → অম্ল; pH ৫.৬-এর নিচে = অম্ল বৃষ্টি।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\ce{SO2 + H2O -> H2SO3};\\quad \\ce{NO2 + H2O -> HNO3}",
+      "কী কাজে লাগে: অম্ল বৃষ্টি",
+      "চিহ্ন মনে রাখো: ce, S, O, H"
+    ]
   },
   "subjects": [
     "chemistry"

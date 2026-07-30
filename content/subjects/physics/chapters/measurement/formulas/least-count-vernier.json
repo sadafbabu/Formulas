@@ -3,7 +3,7 @@
   "chapter": "measurement",
   "title": "Vernier Least Count",
   "titleBn": "ভার্নিয়ার লঘিষ্ঠ পাঠ",
-  "summary": "LC = 1 MSD − 1 VSD",
+  "summary": "n ভাগে ভাগ করলে LC = MSD/n। \\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
   "latex": "\\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
   "tags": [
     "hsc",
@@ -16,18 +16,38 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "L, C, M, S",
+      "symbol": "L",
       "meaning": "ভার্নিয়ার লঘিষ্ঠ পাঠ",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "C",
+      "meaning": "C সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "M",
+      "meaning": "M সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "S",
+      "meaning": "S সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "n ভাগে ভাগ করলে LC = MSD/n।",
+    "lead": "n ভাগে ভাগ করলে LC = MSD/n। \\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "n ভাগে ভাগ করলে LC = MSD/n। \\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভার্নিয়ার লঘিষ্ঠ পাঠ সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: n ভাগে ভাগ করলে LC = MSD/n।)",
+      "question": "ভার্নিয়ার লঘিষ্ঠ পাঠ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}"
     }
   ],
   "memorize": {
-    "trick": "n ভাগে ভাগ করলে LC = MSD/n।",
-    "steps": []
+    "trick": "n ভাগে ভাগ করলে LC = MSD/n। \\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
+    "steps": [
+      "সূত্র: \\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
+      "কী কাজে লাগে: ভার্নিয়ার লঘিষ্ঠ পাঠ",
+      "চিহ্ন মনে রাখো: L, C, M, S"
+    ]
   },
   "subjects": [
     "physics"

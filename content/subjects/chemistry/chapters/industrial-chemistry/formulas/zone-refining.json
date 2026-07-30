@@ -3,7 +3,7 @@
   "chapter": "industrial-chemistry",
   "title": "Zone Refining",
   "titleBn": "জোন পরিশোধন",
-  "summary": "ultrapure semiconductors",
+  "summary": "Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।",
   "latex": "\\text{impurities concentrate in molten zone and are swept away}",
   "tags": [
     "hsc",
@@ -18,7 +18,7 @@
     {
       "symbol": "impurities concentrate in molten zone and are swept away",
       "meaning": "ultrapure semiconductors",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +27,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{impurities concentrate in molten zone and are swept away}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\text{impurities concentrate in molten zone and are swept away}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +40,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জোন পরিশোধন এর সূত্রটি লেখো। (ইঙ্গিত: Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।)",
+      "question": "জোন পরিশোধন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\text{impurities concentrate in molten zone and are swept away}"
     }
   ],
   "memorize": {
     "trick": "Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\text{impurities concentrate in molten zone and are swept away}",
+      "কী কাজে লাগে: জোন পরিশোধন",
+      "চিহ্ন মনে রাখো: impurities concentrate in molten zone and are swept away"
+    ]
   },
   "subjects": [
     "chemistry"

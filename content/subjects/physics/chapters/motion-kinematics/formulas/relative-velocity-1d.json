@@ -16,8 +16,13 @@
   "order": 70,
   "symbols": [
     {
-      "symbol": "v_A, v_B",
+      "symbol": "v_A",
       "meaning": "ভূমি সাপেক্ষে বেগ (চিহ্নসহ)",
+      "unit": "m/s"
+    },
+    {
+      "symbol": "v_B",
+      "meaning": "v_B সম্পর্কিত রাশি",
       "unit": "m/s"
     },
     {
@@ -53,7 +58,11 @@
   ],
   "memorize": {
     "trick": "আপেক্ষিক = নিজের − অন্যের (একই চিহ্ন নিয়মে)।",
-    "steps": []
+    "steps": [
+      "সূত্র: v_{AB}=v_A-v_B\\quad(\\text{1D, চিহ্নসহ})",
+      "একই রেখায়: v_AB = v_A − v_B (চিহ্নসহ)",
+      "চিহ্ন মনে রাখো: v_A, v_B, v_{AB}"
+    ]
   },
   "subjects": [
     "physics"

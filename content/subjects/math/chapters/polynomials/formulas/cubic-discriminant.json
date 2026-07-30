@@ -28,8 +28,23 @@
       "unit": "—"
     },
     {
-      "symbol": "a,b,c,d",
+      "symbol": "a",
       "meaning": "সমীকরণের সহগ",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "c",
+      "meaning": "c সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "d",
+      "meaning": "d সম্পর্কিত রাশি",
       "unit": "—"
     }
   ],

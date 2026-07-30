@@ -3,7 +3,7 @@
   "chapter": "environmental-chemistry",
   "title": "Ozone Depletion",
   "titleBn": "ওজোন ক্ষয়",
-  "summary": "CFC + O₃",
+  "summary": "Cl· মুক্ত মূলক ওজোন ভাঙে; এক Cl হাজার ওজোন নষ্ট করতে পারে।",
   "latex": "\\ce{CF2Cl2 ->[h\\nu] Cl*}\\ ;\\ \\ce{Cl* + O3 -> ClO* + O2}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "ce, C, F, l",
+      "symbol": "ce",
       "meaning": "CFC + O₃",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "C",
+      "meaning": "C সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "F",
+      "meaning": "F সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "l",
+      "meaning": "l সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\ce{CF2Cl2 ->[h\\nu] Cl*}\\ ;\\ \\ce{Cl* + O3 -> ClO* + O2}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "Cl· মুক্ত মূলক ওজোন ভাঙে; এক Cl হাজার ওজোন নষ্ট করতে পারে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\ce{CF2Cl2 ->[h\\nu] Cl*}\\ ;\\ \\ce{Cl* + O3 -> ClO* + O2}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ওজোন ক্ষয় এর সূত্রটি লেখো। (ইঙ্গিত: Cl· মুক্ত মূলক ওজোন ভাঙে; এক Cl হাজার ওজোন নষ্ট করতে পারে।)",
+      "question": "ওজোন ক্ষয় কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\ce{CF2Cl2 ->[h\\nu] Cl*}\\ ;\\ \\ce{Cl* + O3 -> ClO* + O2}"
     }
   ],
   "memorize": {
     "trick": "Cl· মুক্ত মূলক ওজোন ভাঙে; এক Cl হাজার ওজোন নষ্ট করতে পারে।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\ce{CF2Cl2 ->[h\\nu] Cl*}\\ ;\\ \\ce{Cl* + O3 -> ClO* + O2}",
+      "কী কাজে লাগে: ওজোন ক্ষয়",
+      "চিহ্ন মনে রাখো: ce, C, F, l"
+    ]
   },
   "subjects": [
     "chemistry"

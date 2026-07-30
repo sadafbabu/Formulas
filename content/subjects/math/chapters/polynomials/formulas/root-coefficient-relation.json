@@ -13,13 +13,38 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "x_1,x_2,x_3",
+      "symbol": "x_1",
       "meaning": "ঘন সমীকরণের মূল",
       "unit": "—"
     },
     {
-      "symbol": "a,b,c,d",
+      "symbol": "x_2",
+      "meaning": "x_2 সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "x_3",
+      "meaning": "x_3 সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
       "meaning": "ঘন বহুপদীর সহগ",
+      "unit": "—"
+    },
+    {
+      "symbol": "b",
+      "meaning": "b সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "c",
+      "meaning": "c সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "d",
+      "meaning": "d সম্পর্কিত রাশি",
       "unit": "—"
     }
   ],
@@ -27,9 +52,14 @@
     "lead": "বহুপদীকে উৎপাদক আকারে লিখে সহগ তুলনা থেকে Vieta-র সাধারণ রূপ।",
     "steps": [
       {
-        "title": "ঘন Vieta",
-        "latex": "\\sum x_i = -b/a, \\quad \\sum x_i x_j = c/a, \\quad \\prod x_i = -d/a",
-        "note": "n-তম ক্রমের জন্য সাধারণীকরণ সম্ভব"
+        "title": "মূল সূত্র",
+        "latex": "x_1+x_2+x_3 = -\\frac{b}{a}, \\quad \\sum x_i x_j = \\frac{c}{a}, \\quad x_1 x_2 x_3 = -\\frac{d}{a}",
+        "note": "বহুপদীকে উৎপাদক আকারে লিখে সহগ তুলনা থেকে Vieta-র সাধারণ রূপ।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "x_1+x_2+x_3 = -\\frac{b}{a}, \\quad \\sum x_i x_j = \\frac{c}{a}, \\quad x_1 x_2 x_3 = -\\frac{d}{a}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

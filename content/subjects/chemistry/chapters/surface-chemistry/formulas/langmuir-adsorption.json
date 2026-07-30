@@ -3,7 +3,7 @@
   "chapter": "surface-chemistry",
   "title": "Langmuir Isotherm",
   "titleBn": "ল্যাংমুইর সমতাপরেখা",
-  "summary": "θ = KP/(1+KP)",
+  "summary": "একস্তর অধিশোষণ; উচ্চ P-তে θ→1।",
   "latex": "\\theta=\\frac{KP}{1+KP},\\quad \\frac{P}{x/m}=\\frac{1}{k_1k_2}+\\frac{P}{k_1}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "theta, K, P, x",
+      "symbol": "theta",
       "meaning": "θ = KP/(1+KP)",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "K",
+      "meaning": "K সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "P",
+      "meaning": "P সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "x সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\theta=\\frac{KP}{1+KP},\\quad \\frac{P}{x/m}=\\frac{1}{k_1k_2}+\\frac{P}{k_1}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "একস্তর অধিশোষণ; উচ্চ P-তে θ→1।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\theta=\\frac{KP}{1+KP},\\quad \\frac{P}{x/m}=\\frac{1}{k_1k_2}+\\frac{P}{k_1}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ল্যাংমুইর সমতাপরেখা এর সূত্রটি লেখো। (ইঙ্গিত: একস্তর অধিশোষণ; উচ্চ P-তে θ→1।)",
+      "question": "ল্যাংমুইর সমতাপরেখা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\theta=\\frac{KP}{1+KP},\\quad \\frac{P}{x/m}=\\frac{1}{k_1k_2}+\\frac{P}{k_1}"
     }
   ],
   "memorize": {
     "trick": "একস্তর অধিশোষণ; উচ্চ P-তে θ→1।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\theta=\\frac{KP}{1+KP},\\quad \\frac{P}{x/m}=\\frac{1}{k_1k_2}+\\frac{P}{k_1}",
+      "কী কাজে লাগে: ল্যাংমুইর সমতাপরেখা",
+      "চিহ্ন মনে রাখো: theta, K, P, x"
+    ]
   },
   "subjects": [
     "chemistry"

@@ -3,7 +3,7 @@
   "chapter": "qualitative-chem",
   "title": "Gas Density",
   "titleBn": "গ্যাসের ঘনত্ব",
-  "summary": "d=PM/RT",
+  "summary": "From PV=nRT → d=PM/RT; compare molar masses at same P,T।",
   "latex": "d=\\frac{PM}{RT}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 170,
   "symbols": [
     {
-      "symbol": "d, P, M, R",
+      "symbol": "d",
       "meaning": "d=PM/RT",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "P",
+      "meaning": "P সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "M",
+      "meaning": "M সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "R",
+      "meaning": "R সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "d=\\frac{PM}{RT}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "From PV=nRT → d=PM/RT; compare molar masses at same P,T।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "d=\\frac{PM}{RT}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্যাসের ঘনত্ব এর সূত্রটি লেখো। (ইঙ্গিত: From PV=nRT → d=PM/RT; compare molar masses at same P,T।)",
+      "question": "গ্যাসের ঘনত্ব কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "d=\\frac{PM}{RT}"
     }
   ],
   "memorize": {
     "trick": "From PV=nRT → d=PM/RT; compare molar masses at same P,T।",
-    "steps": []
+    "steps": [
+      "সূত্র: d=\\frac{PM}{RT}",
+      "কী কাজে লাগে: গ্যাসের ঘনত্ব",
+      "চিহ্ন মনে রাখো: d, P, M, R"
+    ]
   },
   "subjects": [
     "chemistry"

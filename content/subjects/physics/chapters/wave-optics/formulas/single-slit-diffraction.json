@@ -37,9 +37,14 @@
     "lead": "চিরের দুই প্রান্তের রশ্মির পথ পার্থক্য থেকে ধ্বংসাত্মক অপবর্তন শর্ত প্রাপ্ত।",
     "steps": [
       {
-        "title": "অন্ধকার ডোরার শর্ত",
-        "latex": "d \\sin\\theta = n\\lambda",
-        "note": "কেন্দ্রীয় উজ্জ্বল ডোরার প্রস্থ 2λD/d"
+        "title": "মূল সূত্র",
+        "latex": "d \\sin\\theta = n\\lambda \\text{ (dark)}, \\quad \\sin\\theta = \\frac{\\lambda}{d} \\text{ (1st min)}",
+        "note": "চিরের দুই প্রান্তের রশ্মির পথ পার্থক্য থেকে ধ্বংসাত্মক অপবর্তন শর্ত প্রাপ্ত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "d \\sin\\theta = n\\lambda \\text{ (dark)}, \\quad \\sin\\theta = \\frac{\\lambda}{d} \\text{ (1st min)}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

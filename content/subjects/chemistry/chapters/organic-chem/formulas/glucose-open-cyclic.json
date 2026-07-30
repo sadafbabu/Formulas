@@ -3,7 +3,7 @@
   "chapter": "organic-chem",
   "title": "Glucose Open ↔ Cyclic",
   "titleBn": "গ্লুকোজ মুক্ত ও চক্রাকার রূপ",
-  "summary": "pyranose/furanose",
+  "summary": "D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
   "latex": "\\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
   "tags": [
     "hsc",
@@ -16,18 +16,33 @@
   "order": 270,
   "symbols": [
     {
-      "symbol": "open-chain aldehyde, rightleftharpoons, cyclic hemiacetal (pyranose)",
+      "symbol": "open-chain aldehyde",
       "meaning": "pyranose/furanose",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "rightleftharpoons",
+      "meaning": "rightleftharpoons সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "cyclic hemiacetal (pyranose)",
+      "meaning": "cyclic hemiacetal (pyranose) সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "D-গ্লুকোজ মূলত পাইরানোজ।",
+    "lead": "D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +50,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্লুকোজ মুক্ত ও চক্রাকার রূপ এর সূত্রটি লেখো। (ইঙ্গিত: D-গ্লুকোজ মূলত পাইরানোজ।)",
+      "question": "গ্লুকোজ মুক্ত ও চক্রাকার রূপ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}"
     }
   ],
   "memorize": {
-    "trick": "D-গ্লুকোজ মূলত পাইরানোজ।",
-    "steps": []
+    "trick": "D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
+    "steps": [
+      "সূত্র: \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
+      "কী কাজে লাগে: গ্লুকোজ মুক্ত ও চক্রাকার রূপ",
+      "চিহ্ন মনে রাখো: open-chain aldehyde, rightleftharpoons, cyclic hemiacetal (pyranose)"
+    ]
   },
   "subjects": [
     "chemistry"

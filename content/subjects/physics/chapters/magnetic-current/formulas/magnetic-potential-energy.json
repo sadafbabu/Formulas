@@ -46,9 +46,14 @@
     "lead": "টর্কের বিরুদ্ধে কৃতকাজ থেকে বিভব শক্তি:",
     "steps": [
       {
-        "title": "কাজ ও শক্তি সমতা",
-        "latex": "U = \\int_{90^\\circ}^{\\theta} \\tau d\\theta = \\int_{90^\\circ}^{\\theta} M B \\sin \\theta d\\theta = -M B \\cos \\theta",
-        "note": "সাম্যাবস্থায় (\\theta = 0^\\circ) বিভব শক্তি সর্বনিম্ন (-MB) এবং সর্বাপেক্ষা অস্থিতিশীল অবস্থায় (\\theta = 180^\\circ) সর্বোচ্চ (+MB) হয়।"
+        "title": "মূল সূত্র",
+        "latex": "U = -\\vec{M} \\cdot \\vec{B} = -M B \\cos \\theta",
+        "note": "টর্কের বিরুদ্ধে কৃতকাজ থেকে বিভব শক্তি:"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "U = -\\vec{M} \\cdot \\vec{B} = -M B \\cos \\theta",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

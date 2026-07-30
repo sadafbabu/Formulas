@@ -3,7 +3,7 @@
   "chapter": "organic-chem",
   "title": "Peptide Bond",
   "titleBn": "পেপটাইড বন্ধন",
-  "summary": "amide link",
+  "summary": "অ্যামিনো অ্যাসিড জোড়ায় –CONH–।",
   "latex": "\\mathrm{{-CO{-}NH{-}}}\\ \\text{(peptide/amide bond)}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 280,
   "symbols": [
     {
-      "symbol": "{-CO{-, N, H, (peptide/amide bond)",
+      "symbol": "{-CO{-",
       "meaning": "amide link",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "N",
+      "meaning": "N সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "H",
+      "meaning": "H সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "(peptide/amide bond)",
+      "meaning": "(peptide/amide bond) সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{{-CO{-}NH{-}}}\\ \\text{(peptide/amide bond)}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "অ্যামিনো অ্যাসিড জোড়ায় –CONH–।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mathrm{{-CO{-}NH{-}}}\\ \\text{(peptide/amide bond)}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পেপটাইড বন্ধন এর সূত্রটি লেখো। (ইঙ্গিত: অ্যামিনো অ্যাসিড জোড়ায় –CONH–।)",
+      "question": "পেপটাইড বন্ধন কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\mathrm{{-CO{-}NH{-}}}\\ \\text{(peptide/amide bond)}"
     }
   ],
   "memorize": {
     "trick": "অ্যামিনো অ্যাসিড জোড়ায় –CONH–।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\mathrm{{-CO{-}NH{-}}}\\ \\text{(peptide/amide bond)}",
+      "কী কাজে লাগে: পেপটাইড বন্ধন",
+      "চিহ্ন মনে রাখো: {-CO{-, N, H, (peptide/amide bond)"
+    ]
   },
   "subjects": [
     "chemistry"

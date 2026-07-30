@@ -3,7 +3,7 @@
   "chapter": "trigonometric-equations",
   "title": "tan 2A",
   "titleBn": "tan ২A",
-  "summary": "2tanA/(1−tan²A)",
+  "summary": "ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।",
   "latex": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}",
   "tags": [
     "hsc",
@@ -17,7 +17,7 @@
     {
       "symbol": "A",
       "meaning": "2tanA/(1−tan²A)",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +26,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +39,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "tan ২A এর সূত্রটি লেখো। (ইঙ্গিত: ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।)",
+      "question": "tan ২A কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}"
     }
   ],
   "memorize": {
     "trick": "ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}",
+      "কী কাজে লাগে: tan ২A",
+      "চিহ্ন মনে রাখো: A"
+    ]
   },
   "subjects": [
     "math"

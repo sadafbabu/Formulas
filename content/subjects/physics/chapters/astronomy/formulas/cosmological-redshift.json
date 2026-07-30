@@ -3,7 +3,7 @@
   "chapter": "astronomy",
   "title": "Cosmological Redshift & Hubble Age",
   "titleBn": "মহাজাগতিক লোহিত সরণ ও হাবল বয়স",
-  "summary": "z ≈ v/c; t_H ≈ 1/H₀",
+  "summary": "z ≈ v/c; বয়স ≈ 1/H₀। z=\\dfrac{\\Delta\\lambda}{\\lambda}\\approx\\dfrac{v}{c},\\quad t_H\\approx\\dfrac{1}{H_0}",
   "latex": "z=\\dfrac{\\Delta\\lambda}{\\lambda}\\approx\\dfrac{v}{c},\\quad t_H\\approx\\dfrac{1}{H_0}",
   "tags": [
     "hsc",
@@ -52,8 +52,12 @@
     }
   ],
   "memorize": {
-    "trick": "z ≈ v/c; বয়স ≈ 1/H₀।",
-    "steps": []
+    "trick": "z ≈ v/c; বয়স ≈ 1/H₀। z=\\dfrac{\\Delta\\lambda}{\\lambda}\\approx\\dfrac{v}{c},\\quad t_H\\approx\\dfrac{1}{H_0}",
+    "steps": [
+      "সূত্র: z=\\dfrac{\\Delta\\lambda}{\\lambda}\\approx\\dfrac{v}{c},\\quad t_H\\approx\\dfrac{1}{H_…",
+      "কী কাজে লাগে: মহাজাগতিক লোহিত সরণ ও হাবল বয়স",
+      "চিহ্ন মনে রাখো: z, H_0"
+    ]
   },
   "subjects": [
     "physics"

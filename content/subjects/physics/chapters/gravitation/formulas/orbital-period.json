@@ -16,9 +16,24 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "T, r, G, M",
+      "symbol": "T",
       "meaning": "উপগ্রহের পর্যায়কাল",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "r",
+      "meaning": "r সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "G",
+      "meaning": "G সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "M",
+      "meaning": "M সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "T=2\\pi\\sqrt{\\frac{r^3}{GM}},\\quad r=R+h",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "বৃত্তাকার কক্ষের কেপলারীয় পর্যায়কাল"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "T=2\\pi\\sqrt{\\frac{r^3}{GM}},\\quad r=R+h",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উপগ্রহের পর্যায়কাল সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: T² ∝ r³ — কেপলার ৩য়; r = R+h।)",
+      "question": "উপগ্রহের পর্যায়কাল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "T=2\\pi\\sqrt{\\frac{r^3}{GM}},\\quad r=R+h"
     }
   ],
   "memorize": {
     "trick": "T² ∝ r³ — কেপলার ৩য়; r = R+h।",
-    "steps": []
+    "steps": [
+      "সূত্র: T=2\\pi\\sqrt{\\frac{r^3}{GM}},\\quad r=R+h",
+      "বৃত্তাকার কক্ষের কেপলারীয় পর্যায়কাল",
+      "চিহ্ন মনে রাখো: T, r, G, M"
+    ]
   },
   "subjects": [
     "physics"

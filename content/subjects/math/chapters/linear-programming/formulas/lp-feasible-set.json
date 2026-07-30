@@ -3,7 +3,7 @@
   "chapter": "linear-programming",
   "title": "Feasible Region",
   "titleBn": "সম্ভাব্য অঞ্চল",
-  "summary": "intersection of half-planes",
+  "summary": "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।",
   "latex": "\\text{feasible region = intersection of all constraints}",
   "tags": [
     "hsc",
@@ -17,7 +17,7 @@
     {
       "symbol": "feasible region = intersection of all constraints",
       "meaning": "intersection of half-planes",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +26,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{feasible region = intersection of all constraints}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\text{feasible region = intersection of all constraints}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +39,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সম্ভাব্য অঞ্চল এর সূত্রটি লেখো। (ইঙ্গিত: বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।)",
+      "question": "সম্ভাব্য অঞ্চল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\text{feasible region = intersection of all constraints}"
     }
   ],
   "memorize": {
     "trick": "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\text{feasible region = intersection of all constraints}",
+      "কী কাজে লাগে: সম্ভাব্য অঞ্চল",
+      "চিহ্ন মনে রাখো: feasible region = intersection of all constraints"
+    ]
   },
   "subjects": [
     "math"

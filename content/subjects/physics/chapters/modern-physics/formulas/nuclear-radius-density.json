@@ -53,7 +53,11 @@
   ],
   "memorize": {
     "trick": "R ∝ A^(1/3) — ঘনত্ব প্রায় ধ্রুব।",
-    "steps": []
+    "steps": [
+      "সূত্র: R=R_0 A^{1/3},\\quad \\rho\\approx\\text{constant}",
+      "R = R₀ A^(1/3); ঘনত্ব প্রায় ধ্রুব",
+      "চিহ্ন মনে রাখো: A, R_0"
+    ]
   },
   "subjects": [
     "physics"

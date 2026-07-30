@@ -3,7 +3,7 @@
   "chapter": "surface-chemistry",
   "title": "Tyndall Effect",
   "titleBn": "টিনডাল প্রভাব",
-  "summary": "light scattering",
+  "summary": "সমাধান করে না; কলয়েড করে — পথ দেখা যায়।",
   "latex": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}",
   "tags": [
     "hsc",
@@ -16,9 +16,19 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "colloidal particles scatter light, Rightarrow, Tyndall cone",
+      "symbol": "colloidal particles scatter light",
       "meaning": "light scattering",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "Rightarrow",
+      "meaning": "Rightarrow সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "Tyndall cone",
+      "meaning": "Tyndall cone সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "সমাধান করে না; কলয়েড করে — পথ দেখা যায়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +50,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "টিনডাল প্রভাব এর সূত্রটি লেখো। (ইঙ্গিত: সমাধান করে না; কলয়েড করে — পথ দেখা যায়।)",
+      "question": "টিনডাল প্রভাব কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}"
     }
   ],
   "memorize": {
     "trick": "সমাধান করে না; কলয়েড করে — পথ দেখা যায়।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}",
+      "কী কাজে লাগে: টিনডাল প্রভাব",
+      "চিহ্ন মনে রাখো: colloidal particles scatter light, Rightarrow, Tyndall cone"
+    ]
   },
   "subjects": [
     "chemistry"

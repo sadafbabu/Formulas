@@ -30,9 +30,14 @@
     "lead": "তাপমাত্রা বদলালে ΔH-এর সংশোধন — ΔC_p দিয়ে।",
     "steps": [
       {
-        "title": "সূত্র",
-        "latex": "\\Delta H_2=\\Delta H_1+\\Delta C_p\\Delta T",
-        "note": "ΔC_p=ΣC_p(prod)−ΣC_p(react)।"
+        "title": "মূল সূত্র",
+        "latex": "\\Delta H(T_2)=\\Delta H(T_1)+\\Delta C_p(T_2-T_1)",
+        "note": "তাপমাত্রা বদলালে ΔH-এর সংশোধন — ΔC_p দিয়ে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\Delta H(T_2)=\\Delta H(T_1)+\\Delta C_p(T_2-T_1)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [
@@ -49,7 +54,9 @@
   "memorize": {
     "trick": "ΔH বদলাতে চাইলে ΔC_p×ΔT যোগ করো।",
     "steps": [
-      "ΔH₂ = ΔH₁ + ΔC_p ΔT"
+      "সূত্র: \\Delta H(T_2)=\\Delta H(T_1)+\\Delta C_p(T_2-T_1)",
+      "ΔH(T₂)=ΔH(T₁)+ΔC_p (T₂−T₁)",
+      "চিহ্ন মনে রাখো: \\Delta H, \\Delta C_p"
     ]
   },
   "subjects": [

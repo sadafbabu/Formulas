@@ -3,7 +3,7 @@
   "chapter": "environmental-chemistry",
   "title": "Greenhouse Gases",
   "titleBn": "গ্রিনহাউস গ্যাস",
-  "summary": "CO₂, CH₄, N₂O, O₃",
+  "summary": "CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।",
   "latex": "\\mathrm{CO_2},\\mathrm{CH_4},\\mathrm{N_2O},\\mathrm{O_3},\\mathrm{CFCs}",
   "tags": [
     "hsc",
@@ -16,9 +16,24 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "CO_2, CH_4, N_2O, O_3",
-      "meaning": "CO₂, CH₄, N₂O, O₃",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "CO_2",
+      "meaning": "CO₂",
+      "unit": "—"
+    },
+    {
+      "symbol": "CH_4",
+      "meaning": "CH₄",
+      "unit": "—"
+    },
+    {
+      "symbol": "N_2O",
+      "meaning": "N₂O",
+      "unit": "—"
+    },
+    {
+      "symbol": "O_3",
+      "meaning": "O₃",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +42,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{CO_2},\\mathrm{CH_4},\\mathrm{N_2O},\\mathrm{O_3},\\mathrm{CFCs}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mathrm{CO_2},\\mathrm{CH_4},\\mathrm{N_2O},\\mathrm{O_3},\\mathrm{CFCs}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্রিনহাউস গ্যাস এর সূত্রটি লেখো। (ইঙ্গিত: CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।)",
+      "question": "গ্রিনহাউস গ্যাস কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\mathrm{CO_2},\\mathrm{CH_4},\\mathrm{N_2O},\\mathrm{O_3},\\mathrm{CFCs}"
     }
   ],
   "memorize": {
     "trick": "CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\mathrm{CO_2},\\mathrm{CH_4},\\mathrm{N_2O},\\mathrm{O_3},\\mathrm{CFCs}",
+      "কী কাজে লাগে: গ্রিনহাউস গ্যাস",
+      "চিহ্ন মনে রাখো: CO_2, CH_4, N_2O, O_3"
+    ]
   },
   "subjects": [
     "chemistry"

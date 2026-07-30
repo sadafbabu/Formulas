@@ -3,7 +3,7 @@
   "chapter": "logarithms-exponents",
   "title": "log_b a · log_a b = 1",
   "titleBn": "বিপরীত লগ গুণফল",
-  "summary": "reciprocal logs",
+  "summary": "একটি জানলে অন্যটি উল্টো। \\log_b a\\cdot\\log_a b=1",
   "latex": "\\log_b a\\cdot\\log_a b=1",
   "tags": [
     "hsc",
@@ -15,18 +15,28 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "b, a",
+      "symbol": "b",
       "meaning": "reciprocal logs",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "একটি জানলে অন্যটি উল্টো।",
+    "lead": "একটি জানলে অন্যটি উল্টো। \\log_b a\\cdot\\log_a b=1",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\log_b a\\cdot\\log_a b=1",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "একটি জানলে অন্যটি উল্টো। \\log_b a\\cdot\\log_a b=1"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\log_b a\\cdot\\log_a b=1",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +44,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিপরীত লগ গুণফল এর সূত্রটি লেখো। (ইঙ্গিত: একটি জানলে অন্যটি উল্টো।)",
+      "question": "বিপরীত লগ গুণফল কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\log_b a\\cdot\\log_a b=1"
     }
   ],
   "memorize": {
-    "trick": "একটি জানলে অন্যটি উল্টো।",
-    "steps": []
+    "trick": "একটি জানলে অন্যটি উল্টো। \\log_b a\\cdot\\log_a b=1",
+    "steps": [
+      "সূত্র: \\log_b a\\cdot\\log_a b=1",
+      "কী কাজে লাগে: বিপরীত লগ গুণফল",
+      "চিহ্ন মনে রাখো: b, a"
+    ]
   },
   "subjects": [
     "math"

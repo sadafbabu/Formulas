@@ -3,7 +3,7 @@
   "chapter": "measurement",
   "title": "Error in Product/Quotient",
   "titleBn": "গুণ/ভাগে ত্রুটি",
-  "summary": "যোগ আপেক্ষিক ত্রুটি",
+  "summary": "গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।",
   "latex": "\\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y)",
   "tags": [
     "hsc",
@@ -16,9 +16,19 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "z, x, y",
+      "symbol": "z",
       "meaning": "গুণ/ভাগে ত্রুটি",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "x সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "y",
+      "meaning": "y সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +37,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y)",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y)",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +50,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গুণ/ভাগে ত্রুটি সম্পর্কিত একটি সাধারণ প্রয়োগ লেখো। (ইঙ্গিত: গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।)",
+      "question": "গুণ/ভাগে ত্রুটি কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y)"
     }
   ],
   "memorize": {
     "trick": "গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y…",
+      "কী কাজে লাগে: গুণ/ভাগে ত্রুটি",
+      "চিহ্ন মনে রাখো: z, x, y"
+    ]
   },
   "subjects": [
     "physics"

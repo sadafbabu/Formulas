@@ -21,8 +21,13 @@
       "unit": "—"
     },
     {
-      "symbol": "\\mathrm{p}K_{a1}, \\mathrm{p}K_{a2}",
+      "symbol": "\\mathrm{p}K_{a1}",
       "meaning": "দ্বিমেরু আয়নের সংশ্লিষ্ট pKa",
+      "unit": "—"
+    },
+    {
+      "symbol": "\\mathrm{p}K_{a2}",
+      "meaning": "\\mathrm{p}K_{a2} সম্পর্কিত রাশি",
       "unit": "—"
     }
   ],
@@ -30,9 +35,14 @@
     "lead": "pH = pI হলে অ্যামিনো অ্যাসিড জুইটারআয়ন, নেট চার্জ ০ — তড়িৎপ্রবাহে স্থির।",
     "steps": [
       {
-        "title": "নিস্তারক অ্যামিনো অ্যাসিড",
-        "latex": "\\mathrm{pI}=(\\mathrm{p}K_a(\\mathrm{COOH})+\\mathrm{p}K_a(\\mathrm{NH}_3^+))/2",
-        "note": "অম্লীয়/ক্ষারীয় পাশে ভিন্ন জোড়া।"
+        "title": "মূল সূত্র",
+        "latex": "\\mathrm{pI}=\\dfrac{\\mathrm{p}K_{a1}+\\mathrm{p}K_{a2}}{2}",
+        "note": "pH = pI হলে অ্যামিনো অ্যাসিড জুইটারআয়ন, নেট চার্জ ০ — তড়িৎপ্রবাহে স্থির।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\mathrm{pI}=\\dfrac{\\mathrm{p}K_{a1}+\\mathrm{p}K_{a2}}{2}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

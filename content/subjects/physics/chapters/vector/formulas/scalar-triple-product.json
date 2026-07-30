@@ -23,8 +23,18 @@
   ],
   "symbols": [
     {
-      "symbol": "[\\vec{a}\\,\\vec{b}\\,\\vec{c}]",
+      "symbol": "[\\vec{a}\\",
       "meaning": "স্কেলার ত্রৈগুণিক গুণফল",
+      "unit": "a, b ও c-এর এককের গুণফল"
+    },
+    {
+      "symbol": "\\vec{b}\\",
+      "meaning": "\\vec{b}\\ সম্পর্কিত রাশি",
+      "unit": "a, b ও c-এর এককের গুণফল"
+    },
+    {
+      "symbol": "\\vec{c}]",
+      "meaning": "\\vec{c}] সম্পর্কিত রাশি",
       "unit": "a, b ও c-এর এককের গুণফল"
     },
     {

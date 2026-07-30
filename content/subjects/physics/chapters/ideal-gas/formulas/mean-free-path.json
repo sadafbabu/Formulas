@@ -32,9 +32,14 @@
     "lead": "অণুর আপেক্ষিক গতি ও সংঘর্ষ প্রস্থছেদ থেকে।",
     "steps": [
       {
-        "title": "গড় মুক্ত পথ",
-        "latex": "\\lambda = \\frac{kT}{\\sqrt{2}\\pi d^2 P}",
-        "note": "চাপ বাড়লে মুক্ত পথ কমে"
+        "title": "মূল সূত্র",
+        "latex": "\\lambda = \\frac{1}{\\sqrt{2}\\,\\pi d^2 n}, \\quad \\lambda = \\frac{kT}{\\sqrt{2}\\,\\pi d^2 P}",
+        "note": "অণুর আপেক্ষিক গতি ও সংঘর্ষ প্রস্থছেদ থেকে।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\lambda = \\frac{1}{\\sqrt{2}\\,\\pi d^2 n}, \\quad \\lambda = \\frac{kT}{\\sqrt{2}\\,\\pi d^2 P}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": [

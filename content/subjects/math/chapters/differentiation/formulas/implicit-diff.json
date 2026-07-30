@@ -3,7 +3,7 @@
   "chapter": "differentiation",
   "title": "Implicit Differentiation",
   "titleBn": "অন্তর্নিহিত অন্তরীকরণ",
-  "summary": "F(x,y)=0",
+  "summary": "দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}",
   "latex": "\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
   "tags": [
     "hsc",
@@ -15,18 +15,38 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "d, y, x, F",
-      "meaning": "F(x,y)=0",
-      "unit": "সূত্রানুযায়ী"
+      "symbol": "d",
+      "meaning": "F(x",
+      "unit": "—"
+    },
+    {
+      "symbol": "y",
+      "meaning": "y)=0",
+      "unit": "—"
+    },
+    {
+      "symbol": "x",
+      "meaning": "x সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "F",
+      "meaning": "F সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "দুই পাশে d/dx; y′ আলাদা করো।",
+    "lead": "দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +54,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অন্তর্নিহিত অন্তরীকরণ এর সূত্রটি লেখো। (ইঙ্গিত: দুই পাশে d/dx; y′ আলাদা করো।)",
+      "question": "অন্তর্নিহিত অন্তরীকরণ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\frac{dy}{dx}=-\\frac{F_x}{F_y}"
     }
   ],
   "memorize": {
-    "trick": "দুই পাশে d/dx; y′ আলাদা করো।",
-    "steps": []
+    "trick": "দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}",
+    "steps": [
+      "সূত্র: \\frac{dy}{dx}=-\\frac{F_x}{F_y}",
+      "কী কাজে লাগে: অন্তর্নিহিত অন্তরীকরণ",
+      "চিহ্ন মনে রাখো: d, y, x, F"
+    ]
   },
   "subjects": [
     "math"

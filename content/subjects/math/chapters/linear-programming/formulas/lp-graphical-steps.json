@@ -3,7 +3,7 @@
   "chapter": "linear-programming",
   "title": "Graphical Method Steps",
   "titleBn": "লেখচিত্র পদ্ধতির ধাপ",
-  "summary": "draw → shade → evaluate",
+  "summary": "দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z",
   "latex": "\\text{1) lines 2) shade 3) corners 4) evaluate }Z",
   "tags": [
     "hsc",
@@ -15,18 +15,28 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "1) lines 2) shade 3) corners 4) evaluate, Z",
+      "symbol": "1) lines 2) shade 3) corners 4) evaluate",
       "meaning": "draw → shade → evaluate",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "Z",
+      "meaning": "Z সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "দুই চলকের LP গ্রাফে সহজ।",
+    "lead": "দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{1) lines 2) shade 3) corners 4) evaluate }Z",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\text{1) lines 2) shade 3) corners 4) evaluate }Z",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +44,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "লেখচিত্র পদ্ধতির ধাপ এর সূত্রটি লেখো। (ইঙ্গিত: দুই চলকের LP গ্রাফে সহজ।)",
+      "question": "লেখচিত্র পদ্ধতির ধাপ কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\text{1) lines 2) shade 3) corners 4) evaluate }Z"
     }
   ],
   "memorize": {
-    "trick": "দুই চলকের LP গ্রাফে সহজ।",
-    "steps": []
+    "trick": "দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z",
+    "steps": [
+      "সূত্র: \\text{1) lines 2) shade 3) corners 4) evaluate }Z",
+      "কী কাজে লাগে: লেখচিত্র পদ্ধতির ধাপ",
+      "চিহ্ন মনে রাখো: 1) lines 2) shade 3) corners 4) evaluate, Z"
+    ]
   },
   "subjects": [
     "math"

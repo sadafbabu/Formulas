@@ -42,8 +42,13 @@
       "unit": "Hz"
     },
     {
-      "symbol": "\\oint H\\,dB",
+      "symbol": "\\oint H\\",
       "meaning": "B–H লুপের ক্ষেত্রফল",
+      "unit": "J/m³"
+    },
+    {
+      "symbol": "dB",
+      "meaning": "dB সম্পর্কিত রাশি",
       "unit": "J/m³"
     }
   ],
@@ -74,6 +79,10 @@
   ],
   "memorize": {
     "trick": "অপচয় শক্তি/চক্র = V×লুপ; ক্ষমতা = f×তা। চিকন লুপ = কম অপচয়।",
-    "steps": []
+    "steps": [
+      "সূত্র: U_{\\mathrm{cycle}}=V\\oint H\\,dB,\\quad P_{\\mathrm{hys}}=f\\,V\\times(\\text{B–H loop…",
+      "প্রতি চক্রে শক্তি = V×(B–H loop area); ক্ষমতা = f গুণ",
+      "চিহ্ন মনে রাখো: U_{\\mathrm{cycle}}, P_{\\mathrm{hys}}, V"
+    ]
   }
 }

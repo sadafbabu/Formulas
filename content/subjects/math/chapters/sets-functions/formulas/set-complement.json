@@ -3,7 +3,7 @@
   "chapter": "sets-functions",
   "title": "Set Complement",
   "titleBn": "পরিপূরক সেট",
-  "summary": "A'",
+  "summary": "Universal set-এ যা A-তে নেই = A'।",
   "latex": "A'=U\\setminus A",
   "tags": [
     "hsc",
@@ -15,9 +15,19 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "A, U, setminus",
+      "symbol": "A",
       "meaning": "A'",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "U",
+      "meaning": "U সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "setminus",
+      "meaning": "setminus সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -26,7 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "A'=U\\setminus A",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "Universal set-এ যা A-তে নেই = A'।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "A'=U\\setminus A",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -34,13 +49,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরিপূরক সেট এর সূত্রটি লেখো। (ইঙ্গিত: Universal set-এ যা A-তে নেই = A'।)",
+      "question": "পরিপূরক সেট কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "A'=U\\setminus A"
     }
   ],
   "memorize": {
     "trick": "Universal set-এ যা A-তে নেই = A'।",
-    "steps": []
+    "steps": [
+      "সূত্র: A'=U\\setminus A",
+      "কী কাজে লাগে: পরিপূরক সেট",
+      "চিহ্ন মনে রাখো: A, U, setminus"
+    ]
   },
   "subjects": [
     "math"

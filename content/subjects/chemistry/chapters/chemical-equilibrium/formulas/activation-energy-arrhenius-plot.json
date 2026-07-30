@@ -3,7 +3,7 @@
   "chapter": "chemical-equilibrium",
   "title": "Arrhenius Plot",
   "titleBn": "আরেনিয়াস প্লট",
-  "summary": "ln k vs 1/T",
+  "summary": "ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}",
   "latex": "\\ln k=\\ln A-\\frac{E_a}{RT}",
   "tags": [
     "hsc",
@@ -16,18 +16,38 @@
   "order": 220,
   "symbols": [
     {
-      "symbol": "k, A, E, a",
+      "symbol": "k",
       "meaning": "ln k vs 1/T",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "A",
+      "meaning": "A সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "E",
+      "meaning": "E সম্পর্কিত রাশি",
+      "unit": "—"
+    },
+    {
+      "symbol": "a",
+      "meaning": "a সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "ln k vs 1/T — ঢাল = −E_a/R।",
+    "lead": "ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\ln k=\\ln A-\\frac{E_a}{RT}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\ln k=\\ln A-\\frac{E_a}{RT}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +55,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আরেনিয়াস প্লট এর সূত্রটি লেখো। (ইঙ্গিত: ঢাল = −E_a/R।)",
+      "question": "আরেনিয়াস প্লট কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\ln k=\\ln A-\\frac{E_a}{RT}"
     }
   ],
   "memorize": {
-    "trick": "ঢাল = −E_a/R।",
-    "steps": []
+    "trick": "ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}",
+    "steps": [
+      "সূত্র: \\ln k=\\ln A-\\frac{E_a}{RT}",
+      "কী কাজে লাগে: আরেনিয়াস প্লট",
+      "চিহ্ন মনে রাখো: k, A, E, a"
+    ]
   },
   "subjects": [
     "chemistry"

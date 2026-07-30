@@ -61,7 +61,9 @@
   "memorize": {
     "trick": "Multinomial term-এ exponent-গুলোর যোগ n এবং coefficient = n! ভাগ প্রতিটি exponent-এর factorial। প্রশ্নে term দেওয়া থাকলে এক লাইনের হিসাব।",
     "steps": [
-      "(x+y+z)^n-এর মোট আলাদা term = (n+1)(n+2)/2।"
+      "সূত্র: (x_1+\\cdots+x_m)^n=\\sum_{r_1+\\cdots+r_m=n}\\frac{n!}{r_1!\\cdots r_m!}x_1^{r_1}\\cd…",
+      "(x₁+…+xₘ)^n-এর সাধারণ পদ ও coefficient; তিন বা ততোধিক পদের expansion।",
+      "চিহ্ন মনে রাখো: r_i, \\frac{n!}{\\prod r_i!}"
     ]
   }
 }

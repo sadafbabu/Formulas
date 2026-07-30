@@ -3,7 +3,7 @@
   "chapter": "coordination-chemistry",
   "title": "Coordination Number",
   "titleBn": "সমন্বয় সংখ্যা",
-  "summary": "CN=?",
+  "summary": "Ligand donor atoms count; common CN=4,6।",
   "latex": "\\text{CN}=\\text{number of donor atoms bonded to central metal}",
   "tags": [
     "hsc",
@@ -16,9 +16,14 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "CN, number of donor atoms bonded to central metal",
+      "symbol": "CN",
       "meaning": "CN=?",
-      "unit": "সূত্রানুযায়ী"
+      "unit": "—"
+    },
+    {
+      "symbol": "number of donor atoms bonded to central metal",
+      "meaning": "number of donor atoms bonded to central metal সম্পর্কিত রাশি",
+      "unit": "—"
     }
   ],
   "derivation": {
@@ -27,7 +32,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{CN}=\\text{number of donor atoms bonded to central metal}",
-        "note": "HSC ও ভর্তি পরীক্ষায় সরাসরি প্রয়োগযোগ্য রূপ।"
+        "note": "Ligand donor atoms count; common CN=4,6।"
+      },
+      {
+        "title": "প্রয়োগ",
+        "latex": "\\text{CN}=\\text{number of donor atoms bonded to central metal}",
+        "note": "রাশি চিনে সূত্রে বসাও; একক মিলিয়ে যাচাই করো।"
       }
     ],
     "assumptions": []
@@ -35,13 +45,17 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমন্বয় সংখ্যা এর সূত্রটি লেখো। (ইঙ্গিত: Ligand donor atoms count; common CN=4,6।)",
+      "question": "সমন্বয় সংখ্যা কখন ব্যবহার করবে? মূল সম্পর্ক কী?",
       "answer": "\\text{CN}=\\text{number of donor atoms bonded to central metal}"
     }
   ],
   "memorize": {
     "trick": "Ligand donor atoms count; common CN=4,6।",
-    "steps": []
+    "steps": [
+      "সূত্র: \\text{CN}=\\text{number of donor atoms bonded to central metal}",
+      "কী কাজে লাগে: সমন্বয় সংখ্যা",
+      "চিহ্ন মনে রাখো: CN, number of donor atoms bonded to central metal"
+    ]
   },
   "subjects": [
     "chemistry"
