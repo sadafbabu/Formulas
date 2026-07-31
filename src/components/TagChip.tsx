@@ -17,6 +17,8 @@ export function TagChip({ id, active, chapterId }: TagChipProps) {
   const next = new URLSearchParams(params)
   next.set('tag', tag.id)
   next.set('view', 'book')
+  // Always start a tag filter on page 1 (don't keep a stale book page).
+  next.delete('page')
   const chapter = chapterId || params.get('chapter')
   if (chapter) next.set('chapter', chapter)
 
@@ -24,7 +26,7 @@ export function TagChip({ id, active, chapterId }: TagChipProps) {
     <Link
       to={`/?${next.toString()}`}
       className={`tag${active ? ' is-active' : ''}`}
-      title={`${tag.labelBn} — শুধু এই tag`}
+      title={`${tag.labelBn} — শুধু এই ট্যাগ`}
       onClick={(e) => e.stopPropagation()}
     >
       {tag.label}

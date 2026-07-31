@@ -57,10 +57,19 @@ export function SpreadViewer({
   const pagerRef = useRef<HTMLDivElement>(null)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
 
+  const pagePropRef = useRef(page)
+  const onPageChangeRef = useRef(onPageChange)
+  pagePropRef.current = page
+  onPageChangeRef.current = onPageChange
+
   useEffect(() => {
     setPageIndex(0)
     setDir('none')
     setAnimKey((k) => k + 1)
+    // Filter/chapter changes must reset the URL page too — otherwise a stale
+    // pageIndex can write page=N back before the reset settles.
+    const notify = onPageChangeRef.current
+    if (notify && pagePropRef.current !== 1) notify(1)
   }, [activeTag, query, chapterId, mode])
 
   useEffect(() => {

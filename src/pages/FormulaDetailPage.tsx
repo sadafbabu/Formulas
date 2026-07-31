@@ -18,7 +18,13 @@ export function FormulaDetailPage() {
     params.get('chapter') || formula?.chapter || defaultChapterId
 
   const setChapterId = (nextId: string) => {
-    navigate(`/?chapter=${encodeURIComponent(nextId)}&view=book`)
+    navigate(
+      bookReturnPath({
+        chapter: nextId,
+        tag: params.get('tag'),
+        query: params.get('q'),
+      }),
+    )
   }
 
   const backTo = bookReturnPath({
@@ -180,6 +186,8 @@ export function FormulaDetailPage() {
                 to={memorizePath({
                   chapter: formula.chapter,
                   tag: params.get('tag'),
+                  // Chapter-wide drill (all ★) so the formula you were reading is included.
+                  importance: null,
                 })}
               >
                 এই অধ্যায়ে মুখস্থ ড্রিল →
@@ -196,6 +204,7 @@ export function FormulaDetailPage() {
                 to={memorizePath({
                   chapter: formula.chapter,
                   tag: params.get('tag'),
+                  importance: null,
                 })}
               >
                 মুখস্থ ড্রিল শুরু →

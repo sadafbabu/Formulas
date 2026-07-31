@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { Katex } from '../components/Katex'
 import { NavMenu } from '../components/NavMenu'
@@ -35,6 +35,7 @@ export function MemorizeDrillPage() {
   const [sessionKnown, setSessionKnown] = useState(0)
   const [sessionAgain, setSessionAgain] = useState(0)
   const [done, setDone] = useState(false)
+  const advancingRef = useRef(false)
 
   const rawChapter = params.get('chapter')
   const chapterId =
@@ -65,6 +66,14 @@ export function MemorizeDrillPage() {
     }
     setParams(next, { replace: true })
   }, [rawTag, params, setParams])
+
+  // Normalize invalid chapter ids in the URL (same as book page).
+  useEffect(() => {
+    if (!rawChapter || getChapter(rawChapter)) return
+    const next = new URLSearchParams(params)
+    next.set('chapter', defaultChapterId)
+    setParams(next, { replace: true })
+  }, [rawChapter, params, setParams])
 
   const pool = useMemo(
     () =>
@@ -132,7 +141,8 @@ export function MemorizeDrillPage() {
   }
 
   const advance = (known: boolean) => {
-    if (!current) return
+    if (!current || advancingRef.current) return
+    advancingRef.current = true
     setProgress((prev) => markFormulaSeen(prev, current.id, known))
     if (known) setSessionKnown((n) => n + 1)
     else setSessionAgain((n) => n + 1)
@@ -141,15 +151,22 @@ export function MemorizeDrillPage() {
       if (index + 1 >= queue.length) {
         setDone(true)
         setRevealed(false)
+        window.setTimeout(() => {
+          advancingRef.current = false
+        }, 0)
         return
       }
       setIndex((i) => i + 1)
       setRevealed(false)
+      window.setTimeout(() => {
+        advancingRef.current = false
+      }, 0)
       return
     }
 
     // Again: move current card to the end. Index stays so the next card slides in.
     // If it was the last card, wrap to 0 (otherwise we'd re-show the same card).
+    const atEnd = index >= queue.length - 1
     setQueue((prev) => {
       if (prev.length <= 1) return prev
       const copy = [...prev]
@@ -158,9 +175,10 @@ export function MemorizeDrillPage() {
       return copy
     })
     setRevealed(false)
-    if (index >= queue.length - 1) {
-      setIndex(0)
-    }
+    if (atEnd) setIndex(0)
+    window.setTimeout(() => {
+      advancingRef.current = false
+    }, 0)
   }
 
   useEffect(() => {

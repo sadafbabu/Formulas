@@ -129,6 +129,7 @@ export function SampleBookPage() {
         />
       ) : (
         <SpreadViewer
+          key={`${chapterId}::${activeTag ?? ''}::${query}`}
           activeTag={activeTag}
           query={query}
           chapterId={chapterId}
