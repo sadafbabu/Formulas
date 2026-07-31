@@ -3,7 +3,7 @@
   "chapter": "surface-chemistry",
   "title": "Tyndall Effect",
   "titleBn": "টিনডাল প্রভাব",
-  "summary": "সমাধান করে না; কলয়েড করে — পথ দেখা যায়।",
+  "summary": "টিনডাল প্রভাব: সমাধান করে না; কলয়েড করে — পথ দেখা যায়।",
   "latex": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}",
   "tags": [
     "hsc",
@@ -16,55 +16,48 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "colloidal particles scatter light",
-      "meaning": "light scattering",
-      "unit": "—"
-    },
-    {
-      "symbol": "Rightarrow",
-      "meaning": "Rightarrow (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
       "symbol": "Tyndall cone",
       "meaning": "Tyndall cone (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "সমাধান করে না; কলয়েড করে — পথ দেখা যায়।",
+    "lead": "টিনডাল প্রভাব প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}",
-        "note": "টিনডাল প্রভাব এর প্রাথমিক রূপ।"
+        "note": "টিনডাল প্রভাব: সমাধান করে না; কলয়েড করে — পথ দেখা যায়।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "সমাধান করে না; কলয়েড করে — পথ দেখা যায়।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "টিনডাল প্রভাব লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}"
+      "question": "টিনডাল প্রভাব কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}\\text{ — }সমাধান করে না; কলয়েড করে — পথ দেখা যায়।"
     },
     {
       "examType": "Concept",
-      "question": "টিনডাল প্রভাব দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{সমাধান করে না; কলয়েড করে  পথ দেখা যায়।}"
+      "question": "টিনডাল প্রভাব কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{colloidal particles scatter light}\\Rightarrow\\text{Tyndall cone}\\text{ — }সমাধান করে না; কলয়েড করে — পথ দেখা যায়।"
     }
   ],
   "memorize": {
     "trick": "সমাধান করে না; কলয়েড করে — পথ দেখা যায়।",
     "steps": [
       "সমাধান করে না; কলয়েড করে — পথ দেখা যায়।",
-      "মনে রাখো — সমাধান করে না; কলয়েড করে — পথ দেখা যায়।",
-      "চিহ্ন চেক: colloidal particles scatter light, Rightarrow, Tyndall cone"
+      "প্রশ্নে টিনডাল প্রভাব বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "একক, চিহ্ন ও সীমাবদ্ধতা যাচাই করে উত্তর লেখো।"
     ]
   },
   "subjects": [

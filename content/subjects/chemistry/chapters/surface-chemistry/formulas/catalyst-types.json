@@ -3,7 +3,7 @@
   "chapter": "surface-chemistry",
   "title": "Homogeneous & Heterogeneous Catalysis",
   "titleBn": "সম ও অসম সংঘটক",
-  "summary": "Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।",
+  "summary": "সম ও অসম সংঘটক: Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।",
   "latex": "\\text{homogeneous: same phase};\\quad \\text{heterogeneous: different phase}",
   "tags": [
     "hsc",
@@ -16,50 +16,48 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "homogeneous: same phase",
-      "meaning": "same/different phase",
-      "unit": "—"
-    },
-    {
-      "symbol": "heterogeneous: different phase",
-      "meaning": "heterogeneous: different phase (সূত্রের রাশি)",
+      "symbol": "\\text{key}",
+      "meaning": "সম ও অসম সংঘটক এর মূল রাশি",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।",
+    "lead": "সম ও অসম সংঘটক প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{homogeneous: same phase};\\quad \\text{heterogeneous: different phase}",
-        "note": "সম ও অসম সংঘটক এর প্রাথমিক রূপ।"
+        "note": "সম ও অসম সংঘটক: Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{homogeneous: same phase};\\quad \\text{heterogeneous: different phase}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সম ও অসম সংঘটক লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{homogeneous: same phase};\\quad \\text{heterogeneous: different phase}"
+      "question": "সম ও অসম সংঘটক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{homogeneous: same phase};\\quad \\text{heterogeneous: different phase}\\text{ — }Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।"
     },
     {
       "examType": "Concept",
-      "question": "সম ও অসম সংঘটক দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।}"
+      "question": "সম ও অসম সংঘটক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{homogeneous: same phase};\\quad \\text{heterogeneous: different phase}\\text{ — }Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।"
     }
   ],
   "memorize": {
     "trick": "Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।",
     "steps": [
       "Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।",
-      "মনে রাখো — Fe Haber প্রক্রিয়ায় অসম; ইনভার্টেজ সম সংঘটক।",
-      "চিহ্ন চেক: homogeneous: same phase, heterogeneous: different phase"
+      "প্রশ্নে সম ও অসম সংঘটক বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "একক, চিহ্ন ও সীমাবদ্ধতা যাচাই করে উত্তর লেখো।"
     ]
   },
   "subjects": [

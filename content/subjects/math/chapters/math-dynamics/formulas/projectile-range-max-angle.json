@@ -3,7 +3,7 @@
   "chapter": "math-dynamics",
   "title": "Max Range Angle",
   "titleBn": "সর্বোচ্চ পালার কোণ",
-  "summary": "sin2θ max at 45°; same level থেকে ছোড়লে।",
+  "summary": "সর্বোচ্চ পালার কোণ: sin2θ max at 45°; same level থেকে ছোড়লে।",
   "latex": "R_{\\max}=\\frac{u^2}{g}\\quad\\text{at }\\theta=45^\\circ",
   "tags": [
     "hsc",
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "sin2θ max at 45°; same level থেকে ছোড়লে।",
+    "lead": "সর্বোচ্চ পালার কোণ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "R_{\\max}=\\frac{u^2}{g}\\quad\\text{at }\\theta=45^\\circ",
-        "note": "সর্বোচ্চ পালার কোণ এর প্রাথমিক রূপ।"
+        "note": "সর্বোচ্চ পালার কোণ: sin2θ max at 45°; same level থেকে ছোড়লে।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "R_{\\max}=\\frac{u^2}{g}\\quad\\text{at }\\theta=45^\\circ",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "sin2θ max at 45°; same level থেকে ছোড়লে।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "সর্বোচ্চ পালার কোণ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সর্বোচ্চ পালার কোণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "R_{\\max}=\\frac{u^2}{g}\\quad\\text{at }\\theta=45^\\circ"
+      "question": "সর্বোচ্চ পালার কোণ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "R_{\\max}=\\frac{u^2}{g}\\quad\\text{at }\\theta=45^\\circ\\text{ — }sin2θ max at 45°; same level থেকে ছোড়লে।"
     },
     {
       "examType": "Concept",
-      "question": "সর্বোচ্চ পালার কোণ দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{sin2θ max at 45; same level থেকে ছোড়লে।}"
+      "question": "সর্বোচ্চ পালার কোণ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "R_{\\max}=\\frac{u^2}{g}\\quad\\text{at }\\theta=45^\\circ\\text{ — }sin2θ max at 45°; same level থেকে ছোড়লে।"
     }
   ],
   "memorize": {
     "trick": "sin2θ max at 45°; same level থেকে ছোড়লে।",
     "steps": [
       "sin2θ max at 45°; same level থেকে ছোড়লে।",
-      "মনে রাখো — sin2θ max at 45°; same level থেকে ছোড়লে।",
-      "চিহ্ন চেক: R, u, g"
+      "প্রশ্নে সর্বোচ্চ পালার কোণ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: R=θ=45°, u=আদি বেগ।"
     ]
   },
   "subjects": [

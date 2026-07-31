@@ -73,6 +73,11 @@
       "examType": "Varsity Admission",
       "question": "৫৮৯ nm আলোয় R = 1 m লেন্স ব্যবহার করলে ৪র্থ অনুজ্জ্বল বলয়ের ব্যাসার্ধ কত?",
       "answer": "r_4 = \\sqrt{4 \\times 589\\times10^{-9} \\times 1} = \\sqrt{2.356\\times10^{-6}} \\approx 1.535\\ \\text{mm}"
+    },
+    {
+      "examType": "Concept",
+      "question": "নিউটনের বলয় ও পাতলা পর্দার ব্যতিচার দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "2\\mu t\\cos r = n\\lambda\\ (\\text{অনুজ্জ্বল}), \\quad r_n = \\sqrt{n\\lambda R}\\ (\\text{অনুজ্জ্বল বলয়})"
     }
   ],
   "memorize": {

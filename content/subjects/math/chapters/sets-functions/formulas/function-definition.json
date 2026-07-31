@@ -3,7 +3,7 @@
   "chapter": "sets-functions",
   "title": "Function Definition",
   "titleBn": "ফাংশনের সংজ্ঞা",
-  "summary": "প্রতিটি input-এ exactly এক output — MCQ-তে function test।",
+  "summary": "ফাংশনের সংজ্ঞা: প্রতিটি input-এ exactly এক output — MCQ-তে function test।",
   "latex": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b",
   "tags": [
     "hsc",
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "প্রতিটি input-এ exactly এক output — MCQ-তে function test।",
+    "lead": "ফাংশনের সংজ্ঞা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b",
-        "note": "ফাংশনের সংজ্ঞা এর প্রাথমিক রূপ।"
+        "note": "ফাংশনের সংজ্ঞা: প্রতিটি input-এ exactly এক output — MCQ-তে function test।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "প্রতিটি input-এ exactly এক output — MCQ-তে function test।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "ফাংশনের সংজ্ঞা এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফাংশনের সংজ্ঞা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b"
+      "question": "ফাংশনের সংজ্ঞা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b\\text{ — }প্রতিটি input-এ exactly এক output — MCQ-তে function test।"
     },
     {
       "examType": "Concept",
-      "question": "ফাংশনের সংজ্ঞা দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{প্রতিটি input-এ exactly এক output  MCQ-তে function test।}"
+      "question": "ফাংশনের সংজ্ঞা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "f:A\\to B,\\quad \\forall a\\in A\\ \\exists!\\ b\\in B\\text{ s.t. }f(a)=b\\text{ — }প্রতিটি input-এ exactly এক output — MCQ-তে function test।"
     }
   ],
   "memorize": {
     "trick": "প্রতিটি input-এ exactly এক output — MCQ-তে function test।",
     "steps": [
       "প্রতিটি input-এ exactly এক output — MCQ-তে function test।",
-      "মনে রাখো — প্রতিটি input-এ exactly এক output — MCQ-তে function test।",
-      "চিহ্ন চেক: f, A, B"
+      "প্রশ্নে ফাংশনের সংজ্ঞা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: f=f:A→B, A=ক্ষেত্রফল / বিস্তার।"
     ]
   },
   "subjects": [

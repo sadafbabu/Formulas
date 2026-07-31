@@ -77,6 +77,11 @@
       "examType": "Medical Admission",
       "question": "০.৫ T ক্ষেত্রে ২০ cm লম্বা একটি দণ্ড ১০ m/s বেগে লম্বভাবে চললে আবিষ্ট emf কত?",
       "answer": "\\varepsilon = B\\ell v\\sin\\theta, \\quad \\varepsilon_{\\text{ঘূর্ণায়মান দণ্ড}} = \\tfrac{1}{2}B\\omega \\ell^2"
+    },
+    {
+      "examType": "Concept",
+      "question": "চলন তড়িৎচালক বল দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{সোজা চললে ε = Bℓv, কিন্তু এক প্রান্ত ধরে ঘোরালে ε = ½Bωℓ² — \"ঘুরলে অর্ধেক ও ℓ বর্গ\", কারণ প্রতিটি অংশের বেগ আলাদা (v = ω}"
     }
   ],
   "memorize": {

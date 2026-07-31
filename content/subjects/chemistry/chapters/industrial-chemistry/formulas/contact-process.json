@@ -3,7 +3,7 @@
   "chapter": "industrial-chemistry",
   "title": "Contact Process",
   "titleBn": "কন্টাক্ট পদ্ধতি",
-  "summary": "V₂O₅ catalyst; oleum intermediate H₂S₂O₇।",
+  "summary": "কন্টাক্ট পদ্ধতি: V₂O₅ catalyst; oleum intermediate H₂S₂O₇।",
   "latex": "\\ce{2SO2 + O2 <=> 2SO3};\\quad \\ce{SO3 + H2SO4 -> H2S2O7 -> 2H2SO4}",
   "tags": [
     "hsc",
@@ -32,35 +32,38 @@
     },
     {
       "symbol": "H",
-      "meaning": "চৌম্বক ক্ষেত্র / এনথ্যালপি",
-      "unit": "A/m বা J"
+      "meaning": "এনথ্যালপি",
+      "unit": "J বা kJ"
     }
   ],
   "derivation": {
-    "lead": "V₂O₅ catalyst; oleum intermediate H₂S₂O₇।",
+    "lead": "কন্টাক্ট পদ্ধতি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\ce{2SO2 + O2 <=> 2SO3};\\quad \\ce{SO3 + H2SO4 -> H2S2O7 -> 2H2SO4}",
-        "note": "কন্টাক্ট পদ্ধতি এর প্রাথমিক রূপ।"
+        "note": "কন্টাক্ট পদ্ধতি: V₂O₅ catalyst; oleum intermediate H₂S₂O₇।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\ce{2SO2 + O2 <=> 2SO3};\\quad \\ce{SO3 + H2SO4 -> H2S2O7 -> 2H2SO4}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "V₂O₅ catalyst; oleum intermediate H₂S₂O₇।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কন্টাক্ট পদ্ধতি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\ce{2SO2 + O2 <=> 2SO3};\\quad \\ce{SO3 + H2SO4 -> H2S2O7 -> 2H2SO4}"
+      "question": "কন্টাক্ট পদ্ধতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{V₂O₅ catalyst; oleum intermediate H₂S₂O₇।}"
     },
     {
       "examType": "Concept",
-      "question": "কন্টাক্ট পদ্ধতি দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "question": "কন্টাক্ট পদ্ধতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\text{V₂O₅ catalyst; oleum intermediate H₂S₂O₇।}"
     }
   ],
@@ -68,8 +71,8 @@
     "trick": "V₂O₅ catalyst; oleum intermediate H₂S₂O₇।",
     "steps": [
       "V₂O₅ catalyst; oleum intermediate H₂S₂O₇।",
-      "মনে রাখো — V₂O₅ catalyst; oleum intermediate H₂S₂O₇।",
-      "চিহ্ন চেক: ce, S, O"
+      "প্রশ্নে কন্টাক্ট পদ্ধতি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: ce=SO₂→SO₃→H₂SO₄, S=এনট্রপি / পৃষ্ঠটান।"
     ]
   },
   "subjects": [

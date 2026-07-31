@@ -27,7 +27,7 @@
     },
     {
       "symbol": "\\mathrm{p}K_{a2}",
-      "meaning": "\\mathrm{p}K_{a2} (সূত্রের রাশি)",
+      "meaning": "\\mathrm{p}K_{a2} (রাসায়নিক রাশি)",
       "unit": "—"
     }
   ],
@@ -37,11 +37,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{pI}=\\dfrac{\\mathrm{p}K_{a1}+\\mathrm{p}K_{a2}}{2}",
-        "note": "আইসোইলেকট্রিক বিন্দু এর প্রাথমিক রূপ।"
+        "note": "pI = (pKa₁ + pKa₂)/2 — অ্যামিনো অ্যাসিডের নেট চার্জ শূন্য"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\mathrm{pI}=\\dfrac{\\mathrm{p}K_{a1}+\\mathrm{p}K_{a2}}{2}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "pI = দুই প্রাসঙ্গিক pKa-এর গড় — এখানে নেট চার্জ শূন্য।"
       }
     ],
@@ -54,6 +54,11 @@
       "examType": "Medical",
       "question": "pH = pI হলে নেট চার্জ কত?",
       "answer": "0"
+    },
+    {
+      "examType": "Concept",
+      "question": "আইসোইলেকট্রিক বিন্দু দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{pI = দুই প্রাসঙ্গিক pKa-এর গড় — এখানে নেট চার্জ শূন্য।}"
     }
   ],
   "memorize": {

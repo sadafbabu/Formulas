@@ -27,7 +27,7 @@
     },
     {
       "symbol": "\\Delta S",
-      "meaning": "\\Delta S (সূত্রের রাশি)",
+      "meaning": "Delta S (সূত্রের রাশি)",
       "unit": "J/mol, J/(mol·K)"
     },
     {
@@ -59,6 +59,11 @@
       "examType": "Admission",
       "question": "ΔG° ঋণাত্মক হলে K কেমন?",
       "answer": "K>1"
+    },
+    {
+      "examType": "Concept",
+      "question": "গিবসের মুক্ত শক্তি দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{ΔG=ΔH−TΔS; ΔG°=−RT ln K — ঋণাত্মক ΔG মানে চলে।}"
     }
   ],
   "memorize": {

@@ -3,7 +3,7 @@
   "chapter": "industrial-chemistry",
   "title": "Soda-Lime Glass",
   "titleBn": "সোডা-লাইম কাচ",
-  "summary": "সাধারণ কাচ = সোডা + চুন + বালি।",
+  "summary": "সোডা-লাইম কাচ: সাধারণ কাচ = সোডা + চুন + বালি।",
   "latex": "\\mathrm{Na_2O\\cdot CaO\\cdot 6SiO_2}",
   "tags": [
     "hsc",
@@ -16,45 +16,48 @@
   "order": 90,
   "symbols": [
     {
-      "symbol": "Na_2O\\cdot CaO\\cdot 6SiO_2",
-      "meaning": "Na₂O·CaO·6SiO₂",
+      "symbol": "\\text{key}",
+      "meaning": "সোডা-লাইম কাচ এর মূল রাশি",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "সাধারণ কাচ = সোডা + চুন + বালি।",
+    "lead": "সোডা-লাইম কাচ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{Na_2O\\cdot CaO\\cdot 6SiO_2}",
-        "note": "সোডা-লাইম কাচ এর প্রাথমিক রূপ।"
+        "note": "সোডা-লাইম কাচ: সাধারণ কাচ = সোডা + চুন + বালি।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\mathrm{Na_2O\\cdot CaO\\cdot 6SiO_2}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "সাধারণ কাচ = সোডা + চুন + বালি।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সোডা-লাইম কাচ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\mathrm{Na_2O\\cdot CaO\\cdot 6SiO_2}"
+      "question": "সোডা-লাইম কাচ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{Na_2O\\cdot CaO\\cdot 6SiO_2}\\text{ — }সাধারণ কাচ = সোডা + চুন + বালি।"
     },
     {
       "examType": "Concept",
-      "question": "সোডা-লাইম কাচ দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{সাধারণ কাচ = সোডা + চুন + বালি।}"
+      "question": "সোডা-লাইম কাচ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{Na_2O\\cdot CaO\\cdot 6SiO_2}\\text{ — }সাধারণ কাচ = সোডা + চুন + বালি।"
     }
   ],
   "memorize": {
     "trick": "সাধারণ কাচ = সোডা + চুন + বালি।",
     "steps": [
       "সাধারণ কাচ = সোডা + চুন + বালি।",
-      "মনে রাখো — সাধারণ কাচ = সোডা + চুন + বালি।",
-      "চিহ্ন চেক: Na_2O\\cdot CaO\\cdot 6SiO_2"
+      "প্রশ্নে সোডা-লাইম কাচ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "একক, চিহ্ন ও সীমাবদ্ধতা যাচাই করে উত্তর লেখো।"
     ]
   },
   "subjects": [

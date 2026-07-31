@@ -29,11 +29,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\sin(A\\pm B) = \\sin A\\cos B \\pm \\cos A\\sin B, \\quad \\cos(A\\pm B) = \\cos A\\cos B \\mp \\sin A\\sin B",
-        "note": "যৌগিক কোণের সূত্র এর প্রাথমিক রূপ।"
+        "note": "sin, cos, tan এর যোগফল ও বিয়োগফল কোণ সূত্র"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\sin(A\\pm B) = \\sin A\\cos B \\pm \\cos A\\sin B, \\quad \\cos(A\\pm B) = \\cos A\\cos B \\mp \\sin A\\sin B",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "sin(A±B) = sinA cosB ± cosA sinB; cos(A±B) = cosA cosB ∓ sinA sinB — sin মিশ্র চিহ্ন, cos বিপরীত চিহ্ন।"
       }
     ],
@@ -48,14 +48,19 @@
       "examType": "HSC / Varsity",
       "question": "\\sin(A+B) এর সূত্র লেখো।",
       "answer": "\\sin(A+B)=\\sin A\\cos B + \\cos A\\sin B"
+    },
+    {
+      "examType": "Concept",
+      "question": "যৌগিক কোণের সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{sin(A±B) = sinA cosB ± cosA sinB; cos(A±B) = cosA cosB ∓ sinA sinB — sin মিশ্র চিহ্ন, cos বিপরীত চিহ্ন।}"
     }
   ],
   "memorize": {
     "trick": "sin(A±B) = sinA cosB ± cosA sinB; cos(A±B) = cosA cosB ∓ sinA sinB — sin মিশ্র চিহ্ন, cos বিপরীত চিহ্ন।",
     "steps": [
       "sin(A±B) = sinA cosB ± cosA sinB; cos(A±B) = cosA cosB ∓ sinA sinB — sin মিশ্র চিহ্ন, cos বিপরীত চিহ্ন।",
-      "মনে রাখো — sin, cos, tan এর যোগফল ও বিয়োগফল কোণ সূত্র",
-      "চিহ্ন চেক: A, B"
+      "প্রশ্নে যৌগিক কোণের সূত্র বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: A=দুটি কোণ, B=চৌম্বক ক্ষেত্র।"
     ]
   },
   "subjects": [

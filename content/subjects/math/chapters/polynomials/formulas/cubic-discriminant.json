@@ -71,6 +71,11 @@
       "examType": "Varsity Admission",
       "question": "x^3-3x+2=0-এর repeated root আছে কি?",
       "answer": "(x-1)^2(x+2)=0;\\ \\Delta=0,\\ \\text{তাই }x=1\\text{ repeated।}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ঘন সমীকরণের নিশ্চায়ক ও মূলের প্রকৃতি দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Cubic discriminant-এর বিশাল formula-এর চেয়ে sign interpretation বেশি জরুরি: Δ>0 তিন real; Δ<0 এক real; Δ=0 repeated।}"
     }
   ],
   "memorize": {

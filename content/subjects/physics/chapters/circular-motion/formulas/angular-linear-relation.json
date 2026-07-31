@@ -64,6 +64,11 @@
       "examType": "HSC",
       "question": "ω=10 rad/s, r=0.5 m। v?",
       "answer": "v=5\\,\\mathrm{m/s}"
+    },
+    {
+      "examType": "Concept",
+      "question": "রৈখিক–কৌণিক সম্পর্ক দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{v=ωr — চাকা বড় হলে একই ω-তে প্রান্ত দ্রুত।}"
     }
   ],
   "memorize": {

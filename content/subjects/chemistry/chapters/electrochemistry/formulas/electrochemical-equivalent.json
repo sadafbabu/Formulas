@@ -68,6 +68,11 @@
       "examType": "Medical Admission",
       "question": "2 A প্রবাহ 965 s ধরে \\ce{CuSO4} দ্রবণে চালালে Cu কত জমবে? (M=63.5, n=2)",
       "answer": "m=\\frac{63.5\\times2\\times965}{2\\times96500}=0.635\\ \\mathrm g"
+    },
+    {
+      "examType": "Concept",
+      "question": "তড়িৎ রাসায়নিক তুল্যাঙ্ক ও তড়িৎ বিশ্লেষণের হিসাব দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{এক ফ্যারাডে (96500 C) এক gram-equivalent পদার্থ জমায়। সরাসরি m = MIt/(nF)—M উপরে, electron সংখ্যা n নিচে।}"
     }
   ],
   "memorize": {

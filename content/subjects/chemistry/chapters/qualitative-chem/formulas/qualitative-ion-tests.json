@@ -66,7 +66,12 @@
     {
       "examType": "Medical Admission",
       "question": "AgNO₃ যোগে cream অধঃক্ষেপ হয় এবং ঘন NH₃-তে দ্রবীভূত হয়—অ্যানায়নটি কী?",
-      "answer": "\\ce{Br^-};\\ \\ce{AgBr}\\ \\text{cream অধঃক্ষেপ।}"
+      "answer": "\\text{Silver halide রং: Cl সাদা, Br cream, I হলুদ—‘সাদা থেকে হলুদ, নিচে নামলে গাঢ়’। শিখা: Na হলুদ, K বেগুনি, Ca ইট-}"
+    },
+    {
+      "examType": "Concept",
+      "question": "গুণগত বিশ্লেষণে আয়ন শনাক্তকরণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Silver halide রং: Cl সাদা, Br cream, I হলুদ—‘সাদা থেকে হলুদ, নিচে নামলে গাঢ়’। শিখা: Na হলুদ, K বেগুনি, Ca ইট-লাল, Cu নী}"
     }
   ],
   "memorize": {

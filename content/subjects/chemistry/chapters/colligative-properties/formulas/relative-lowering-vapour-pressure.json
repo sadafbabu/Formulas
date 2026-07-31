@@ -3,7 +3,7 @@
   "chapter": "colligative-properties",
   "title": "Relative Lowering of V.P.",
   "titleBn": "বাষ্পচাপের আপেক্ষিক হ্রাস",
-  "summary": "ΔP/P° = mole fraction of solute; Raoult's law base।",
+  "summary": "বাষ্পচাপের আপেক্ষিক হ্রাস: ΔP/P° = mole fraction of solute; Raoult's law base।",
   "latex": "\\frac{P^\\circ-P}{P^\\circ}=x_B=\\frac{n_B}{n_A+n_B}",
   "tags": [
     "hsc",
@@ -32,44 +32,47 @@
     },
     {
       "symbol": "B",
-      "meaning": "চৌম্বক ক্ষেত্র",
+      "meaning": "B (সূত্রের রাশি)",
       "unit": "T"
     }
   ],
   "derivation": {
-    "lead": "ΔP/P° = mole fraction of solute; Raoult's law base।",
+    "lead": "বাষ্পচাপের আপেক্ষিক হ্রাস প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{P^\\circ-P}{P^\\circ}=x_B=\\frac{n_B}{n_A+n_B}",
-        "note": "বাষ্পচাপের আপেক্ষিক হ্রাস এর প্রাথমিক রূপ।"
+        "note": "বাষ্পচাপের আপেক্ষিক হ্রাস: ΔP/P° = mole fraction of solute; Raoult's law base।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\frac{P^\\circ-P}{P^\\circ}=x_B=\\frac{n_B}{n_A+n_B}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "ΔP/P° = mole fraction of solute; Raoult's law base।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বাষ্পচাপের আপেক্ষিক হ্রাস এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "বাষ্পচাপের আপেক্ষিক হ্রাস কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\frac{P^\\circ-P}{P^\\circ}=x_B=\\frac{n_B}{n_A+n_B}\\text{ — }ΔP/P° = mole fraction of solute; Raoult's law base।"
     },
     {
       "examType": "Concept",
-      "question": "বাষ্পচাপের আপেক্ষিক হ্রাস দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{ΔP/P = mole fraction of solute; Raoult's law base।}"
+      "question": "বাষ্পচাপের আপেক্ষিক হ্রাস কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{P^\\circ-P}{P^\\circ}=x_B=\\frac{n_B}{n_A+n_B}\\text{ — }ΔP/P° = mole fraction of solute; Raoult's law base।"
     }
   ],
   "memorize": {
     "trick": "ΔP/P° = mole fraction of solute; Raoult's law base।",
     "steps": [
       "ΔP/P° = mole fraction of solute; Raoult's law base।",
-      "মনে রাখো — ΔP/P° = mole fraction of solute; Raoult's law base।",
-      "চিহ্ন চেক: P, circ, x"
+      "প্রশ্নে বাষ্পচাপের আপেক্ষিক হ্রাস বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: P=(P°−P)/P°, x=অবস্থান / অজানা।"
     ]
   },
   "subjects": [

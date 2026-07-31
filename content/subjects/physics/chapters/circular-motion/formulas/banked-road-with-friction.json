@@ -54,14 +54,19 @@
       "examType": "BUET",
       "question": "ঘর্ষণহীন বাঁকানো রাস্তায় নিরাপদ বেগের সূত্র কী?",
       "answer": "v=\\sqrt{rg\\tan\\theta}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ঘর্ষণযুক্ত বাঁকানো রাস্তা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "v_{\\max}=\\sqrt{rg\\tan(\\theta+\\phi)},\\quad v_{\\min}=\\sqrt{rg\\tan(\\theta-\\phi)}"
     }
   ],
   "memorize": {
     "trick": "μ=0 → √(rg tanθ); ঘর্ষণে ±φ। v_{\\max}=\\sqrt{rg\\tan(\\theta+\\phi)},\\quad v_{\\min}=\\sqrt{rg\\tan(\\theta-\\phi)}",
     "steps": [
       "μ=0 → √(rg tanθ); ঘর্ষণে ±φ। v_{\\max}=\\sqrt{rg\\tan(\\theta+\\phi)},\\quad v_{\\min}=\\sqrt{rg\\tan(\\theta-\\phi)}",
-      "মনে রাখো — μ=0 → √(rg tanθ); ঘর্ষণে ±φ। v_{\\max}=\\sqrt{rg\\tan(\\theta+\\phi)},\\quad v_{\\min}=\\sqrt{rg\\tan(\\theta-\\phi)}",
-      "চিহ্ন চেক: \\theta, \\phi, r"
+      "প্রশ্নে ঘর্ষণযুক্ত বাঁকানো রাস্তা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: \\theta=ব্যাংকিং কোণ, \\phi=ঘর্ষণ কোণ (\\(\\tan\\phi=\\mu\\))।"
     ]
   },
   "subjects": [

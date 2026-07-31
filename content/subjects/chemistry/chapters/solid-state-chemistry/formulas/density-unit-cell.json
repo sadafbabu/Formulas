@@ -3,7 +3,7 @@
   "chapter": "solid-state-chemistry",
   "title": "Density from Unit Cell",
   "titleBn": "একক কোষ থেকে ঘনত্ব",
-  "summary": "Z=atoms/cell, M=molar mass, a=edge length।",
+  "summary": "একক কোষ থেকে ঘনত্ব: Z=atoms/cell, M=molar mass, a=edge length।",
   "latex": "d=\\frac{ZM}{N_A a^3}",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "Z=atoms/cell, M=molar mass, a=edge length।",
+    "lead": "একক কোষ থেকে ঘনত্ব প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "d=\\frac{ZM}{N_A a^3}",
-        "note": "একক কোষ থেকে ঘনত্ব এর প্রাথমিক রূপ।"
+        "note": "একক কোষ থেকে ঘনত্ব: Z=atoms/cell, M=molar mass, a=edge length।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "d=\\frac{ZM}{N_A a^3}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Z=atoms/cell, M=molar mass, a=edge length।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "একক কোষ থেকে ঘনত্ব এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "একক কোষ থেকে ঘনত্ব কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "d=\\frac{ZM}{N_A a^3}\\text{ — }Z=atoms/cell, M=molar mass, a=edge length।"
     },
     {
       "examType": "Concept",
-      "question": "একক কোষ থেকে ঘনত্ব দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{Z=atoms/cell, M=molar mass, a=edge length।}"
+      "question": "একক কোষ থেকে ঘনত্ব কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "d=\\frac{ZM}{N_A a^3}\\text{ — }Z=atoms/cell, M=molar mass, a=edge length।"
     }
   ],
   "memorize": {
     "trick": "Z=atoms/cell, M=molar mass, a=edge length।",
     "steps": [
       "Z=atoms/cell, M=molar mass, a=edge length।",
-      "মনে রাখো — Z=atoms/cell, M=molar mass, a=edge length।",
-      "চিহ্ন চেক: d, Z, M"
+      "প্রশ্নে একক কোষ থেকে ঘনত্ব বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: d=d=ZM/Na³, Z=পারমাণবিক সংখ্যা / প্রতিবন্ধকতা।"
     ]
   },
   "subjects": [

@@ -54,6 +54,11 @@
       "examType": "Admission",
       "question": "R=2.5 m, g=10। উপরে ন্যূনতম v?",
       "answer": "v=\\sqrt{25}=5\\mathrm{m/s}"
+    },
+    {
+      "examType": "Concept",
+      "question": "শীর্ষে ন্যূনতম বেগ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{উপরে √(gR), নিচে √(5gR) — ‘১ আর ৫’ মনে রাখো।}"
     }
   ],
   "memorize": {

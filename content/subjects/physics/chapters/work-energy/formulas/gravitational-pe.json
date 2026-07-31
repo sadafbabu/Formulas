@@ -57,13 +57,13 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অভিকর্ষজ বিভব শক্তি এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "অভিকর্ষজ বিভব শক্তি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "U=-\\dfrac{GMm}{r},\\quad \\Delta U\\approx mgh\\ (h\\ll R)\\text{ — }∞-এ শূন্য, কাছে ঋণাত্মক: U=−GMm/r; ছোট উচ্চতায় mgh।"
     },
     {
       "examType": "Concept",
-      "question": "অভিকর্ষজ বিভব শক্তি দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{U = GMm/r; পৃষ্ঠের কাছে mgh}"
+      "question": "অভিকর্ষজ বিভব শক্তি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "U=-\\dfrac{GMm}{r},\\quad \\Delta U\\approx mgh\\ (h\\ll R)\\text{ — }∞-এ শূন্য, কাছে ঋণাত্মক: U=−GMm/r; ছোট উচ্চতায় mgh।"
     }
   ],
   "memorize": {

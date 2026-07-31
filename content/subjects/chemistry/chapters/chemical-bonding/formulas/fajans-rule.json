@@ -61,7 +61,12 @@
     {
       "examType": "Eng Admission",
       "question": "\\ce{LiF}, \\ce{LiCl}, \\ce{LiBr}, \\ce{LiI}—কোনটির সমযোজী চরিত্র সর্বাধিক?",
-      "answer": "\\ce{LiI};\\ \\ce{I^-}\\ \\text{সবচেয়ে বড় ও সবচেয়ে polarizable।}"
+      "answer": "\\text{Covalent character}\\uparrow:\\quad \\frac{z_+}{r_+}\\uparrow,\\quad r_-\\uparrow,\\quad z_-\\uparrow"
+    },
+    {
+      "examType": "Concept",
+      "question": "ফাজানের নীতি ও সমযোজী চরিত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{‘ছোট positive + বড় negative = বেশি covalent’। ক্যাটায়ন ছোট/আধান বেশি, অ্যানায়ন বড়/আধান বেশি হলে polarization বাড়ে।}"
     }
   ],
   "memorize": {

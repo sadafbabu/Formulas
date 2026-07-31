@@ -32,11 +32,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "d(\\mathrm{pc})=\\dfrac{1}{p^{\\prime\\prime}},\\quad 1\\,\\mathrm{pc}\\approx 3.26\\,\\mathrm{ly}",
-        "note": "প্যারালাক্স দূরত্ব এর প্রাথমিক রূপ।"
+        "note": "d(pc) = 1/p″ — পার্সেক সংজ্ঞা"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "d(\\mathrm{pc})=\\dfrac{1}{p^{\\prime\\prime}},\\quad 1\\,\\mathrm{pc}\\approx 3.26\\,\\mathrm{ly}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "d(pc)=1/p″। d(pc) = 1/p″ — পার্সেক সংজ্ঞা"
       }
     ],
@@ -49,14 +49,19 @@
       "examType": "HSC",
       "question": "p=0.1″ হলে d?",
       "answer": "d=10\\,\\mathrm{pc}"
+    },
+    {
+      "examType": "Concept",
+      "question": "প্যারালাক্স দূরত্ব দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{d(pc)=1/p″। d(pc) = 1/p″ — পার্সেক সংজ্ঞা}"
     }
   ],
   "memorize": {
     "trick": "d(pc)=1/p″। d(pc) = 1/p″ — পার্সেক সংজ্ঞা",
     "steps": [
       "d(pc)=1/p″। d(pc) = 1/p″ — পার্সেক সংজ্ঞা",
-      "মনে রাখো — d(pc) = 1/p″ — পার্সেক সংজ্ঞা",
-      "চিহ্ন চেক: p^{\\prime\\prime}, d"
+      "প্রশ্নে প্যারালাক্স দূরত্ব বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: p^{\\prime\\prime}=প্যারাল্যাক্স কোণ (আর্কসেকেন্ড), d=দূরত্ব।"
     ]
   },
   "subjects": [

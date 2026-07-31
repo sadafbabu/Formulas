@@ -3,7 +3,7 @@
   "chapter": "permutation-combination",
   "title": "Combination Formula",
   "titleBn": "সমাবেশ সূত্র",
-  "summary": "nCr = nPr/r!; order doesn't matter।",
+  "summary": "সমাবেশ সূত্র: nCr = nPr/r!; order doesn't matter।",
   "latex": "\\binom{n}{r}=\\frac{n!}{r!(n-r)!}",
   "tags": [
     "hsc",
@@ -31,39 +31,42 @@
     }
   ],
   "derivation": {
-    "lead": "nCr = nPr/r!; order doesn't matter।",
+    "lead": "সমাবেশ সূত্র প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\binom{n}{r}=\\frac{n!}{r!(n-r)!}",
-        "note": "সমাবেশ সূত্র এর প্রাথমিক রূপ।"
+        "note": "সমাবেশ সূত্র: nCr = nPr/r!; order doesn't matter।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\binom{n}{r}=\\frac{n!}{r!(n-r)!}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "nCr = nPr/r!; order doesn't matter।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "সমাবেশ সূত্র এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমাবেশ সূত্র এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "সমাবেশ সূত্র কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\binom{n}{r}=\\frac{n!}{r!(n-r)!}\\text{ — }nCr = nPr/r!; order doesn't matter।"
     },
     {
       "examType": "Concept",
-      "question": "সমাবেশ সূত্র দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{nCr = nPr/r!; order doesn't matter।}"
+      "question": "সমাবেশ সূত্র কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\binom{n}{r}=\\frac{n!}{r!(n-r)!}\\text{ — }nCr = nPr/r!; order doesn't matter।"
     }
   ],
   "memorize": {
     "trick": "nCr = nPr/r!; order doesn't matter।",
     "steps": [
       "nCr = nPr/r!; order doesn't matter।",
-      "মনে রাখো — nCr = nPr/r!; order doesn't matter।",
-      "চিহ্ন চেক: binom, n, r"
+      "প্রশ্নে সমাবেশ সূত্র বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: n=মোল সংখ্যা / কোটি, r=ব্যাসার্ধ / দূরত্ব।"
     ]
   },
   "subjects": [

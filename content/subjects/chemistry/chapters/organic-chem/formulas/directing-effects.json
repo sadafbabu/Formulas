@@ -66,7 +66,12 @@
     {
       "examType": "Medical Admission",
       "question": "Nitrobenzene-এর bromination-এ প্রধান product কী?",
-      "answer": "\\ce{m-bromonitrobenzene};\\ \\ce{-NO2}\\ \\text{strong meta director।}"
+      "answer": "\\text{সহজ ভাগ: electron donor → ortho/para; electron withdrawer → meta। একমাত্র বড় exception halogen—deactivating হ}"
+    },
+    {
+      "examType": "Concept",
+      "question": "বেনজিনে নির্দেশক প্রভাব: ortho/para ও meta দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{সহজ ভাগ: electron donor → ortho/para; electron withdrawer → meta। একমাত্র বড় exception halogen—deactivating হলেও ortho/}"
     }
   ],
   "memorize": {

@@ -3,7 +3,7 @@
   "chapter": "motion-kinematics",
   "title": "Distance in nth Second",
   "titleBn": "n-তম সেকেন্ডে সরণ",
-  "summary": "n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)",
+  "summary": "n-তম সেকেন্ডে সরণ: n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)",
   "latex": "s_n=u+\\tfrac12 a(2n-1)",
   "tags": [
     "hsc",
@@ -32,39 +32,42 @@
     }
   ],
   "derivation": {
-    "lead": "n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)",
+    "lead": "n-তম সেকেন্ডে সরণ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "s_n=u+\\tfrac12 a(2n-1)",
-        "note": "n-তম সেকেন্ডে সরণ এর প্রাথমিক রূপ।"
+        "note": "n-তম সেকেন্ডে সরণ: n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "s_n=u+\\tfrac12 a(2n-1)",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "n-তম সেকেন্ডে সরণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "s_n=u+\\tfrac12 a(2n-1)"
+      "question": "n-তম সেকেন্ডে সরণ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "s_n=u+\\tfrac12 a(2n-1)\\text{ — }n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)"
     },
     {
       "examType": "Concept",
-      "question": "n-তম সেকেন্ডে সরণ দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{n-তম সেকেন্ড = u + a(2n1)/2। s n=u+tfrac12 a(2n-1)}"
+      "question": "n-তম সেকেন্ডে সরণ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "s_n=u+\\tfrac12 a(2n-1)\\text{ — }n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)"
     }
   ],
   "memorize": {
     "trick": "n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)",
     "steps": [
       "n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)",
-      "মনে রাখো — n-তম সেকেন্ড = u + a(2n−1)/2। s_n=u+\\tfrac12 a(2n-1)",
-      "চিহ্ন চেক: s, n, u"
+      "প্রশ্নে n-তম সেকেন্ডে সরণ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: s=n-তম সেকেন্ডে সরণ, n=মোল সংখ্যা / কোটি।"
     ]
   },
   "subjects": [

@@ -3,7 +3,7 @@
   "chapter": "trigonometric-equations",
   "title": "Triple Angle",
   "titleBn": "ত্রিগুণ কোণ",
-  "summary": "sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
+  "summary": "ত্রিগুণ কোণ: sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
   "latex": "\\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
   "tags": [
     "hsc",
@@ -21,25 +21,33 @@
     }
   ],
   "derivation": {
-    "lead": "sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
+    "lead": "ত্রিগুণ কোণ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
-        "note": "ত্রিগুণ কোণ এর প্রাথমিক রূপ।"
+        "note": "ত্রিগুণ কোণ: sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "ত্রিগুণ কোণ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ত্রিগুণ কোণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "ত্রিগুণ কোণ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A"
+    },
+    {
+      "examType": "Concept",
+      "question": "ত্রিগুণ কোণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "\\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A"
     }
   ],
@@ -47,8 +55,8 @@
     "trick": "sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
     "steps": [
       "sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
-      "মনে রাখো — sin3A: 3s−4s³; cos3A: 4c³−3c। \\sin3A=3\\sin A-4\\sin^3 A,\\quad \\cos3A=4\\cos^3 A-3\\cos A",
-      "চিহ্ন চেক: A"
+      "প্রশ্নে ত্রিগুণ কোণ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: A=sin3A, cos3A।"
     ]
   },
   "subjects": [

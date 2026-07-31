@@ -3,7 +3,7 @@
   "chapter": "organic-chem",
   "title": "Anti-Markovnikov Addition",
   "titleBn": "অ্যান্টি-মার্কোভনিকভ যোজন",
-  "summary": "পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।",
+  "summary": "অ্যান্টি-মার্কোভনিকভ যোজন: পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।",
   "latex": "\\mathrm{RCH=CH_2}+\\mathrm{HBr}\\xrightarrow{\\mathrm{ROOR}}\\mathrm{RCH_2CH_2Br}",
   "tags": [
     "hsc",
@@ -26,50 +26,48 @@
       "unit": "—"
     },
     {
-      "symbol": "xrightarrow",
-      "meaning": "xrightarrow (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
       "symbol": "ROOR",
       "meaning": "ROOR (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।",
+    "lead": "অ্যান্টি-মার্কোভনিকভ যোজন প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{RCH=CH_2}+\\mathrm{HBr}\\xrightarrow{\\mathrm{ROOR}}\\mathrm{RCH_2CH_2Br}",
-        "note": "অ্যান্টি-মার্কোভনিকভ যোজন এর প্রাথমিক রূপ।"
+        "note": "অ্যান্টি-মার্কোভনিকভ যোজন: পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\mathrm{RCH=CH_2}+\\mathrm{HBr}\\xrightarrow{\\mathrm{ROOR}}\\mathrm{RCH_2CH_2Br}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অ্যান্টি-মার্কোভনিকভ যোজন এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "অ্যান্টি-মার্কোভনিকভ যোজন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\mathrm{RCH=CH_2}+\\mathrm{HBr}\\xrightarrow{\\mathrm{ROOR}}\\mathrm{RCH_2CH_2Br}\\text{ — }পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।"
     },
     {
       "examType": "Concept",
-      "question": "অ্যান্টি-মার্কোভনিকভ যোজন দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।}"
+      "question": "অ্যান্টি-মার্কোভনিকভ যোজন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{RCH=CH_2}+\\mathrm{HBr}\\xrightarrow{\\mathrm{ROOR}}\\mathrm{RCH_2CH_2Br}\\text{ — }পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।"
     }
   ],
   "memorize": {
     "trick": "পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।",
     "steps": [
       "পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।",
-      "মনে রাখো — পারক্সাইডে HBr অ্যান্টি-মার্কোভনিকভ।",
-      "চিহ্ন চেক: RCH=CH_2, HBr, xrightarrow"
+      "প্রশ্নে অ্যান্টি-মার্কোভনিকভ যোজন বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: RCH=CH_2=HBr + peroxide।"
     ]
   },
   "subjects": [

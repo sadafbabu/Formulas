@@ -3,7 +3,7 @@
   "chapter": "vector-algebra",
   "title": "Projection of a on b",
   "titleBn": "a-এর b-এর উপর অভিক্ষেপ",
-  "summary": "অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।",
+  "summary": "a-এর b-এর উপর অভিক্ষেপ: অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।",
   "latex": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad \\mathrm{comp}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|}",
   "tags": [
     "hsc",
@@ -31,44 +31,47 @@
     },
     {
       "symbol": "a",
-      "meaning": "ত্বরণ",
+      "meaning": "সহগ / ধ্রুবক",
       "unit": "m/s²"
     }
   ],
   "derivation": {
-    "lead": "অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।",
+    "lead": "a-এর b-এর উপর অভিক্ষেপ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad \\mathrm{comp}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|}",
-        "note": "a-এর b-এর উপর অভিক্ষেপ এর প্রাথমিক রূপ।"
+        "note": "a-এর b-এর উপর অভিক্ষেপ: অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad \\mathrm{comp}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "a-এর b-এর উপর অভিক্ষেপ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "a-এর b-এর উপর অভিক্ষেপ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad \\mathrm{comp}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|}"
+      "question": "a-এর b-এর উপর অভিক্ষেপ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad \\mathrm{comp}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|}\\text{ — }অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।"
     },
     {
       "examType": "Concept",
-      "question": "a-এর b-এর উপর অভিক্ষেপ দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।}"
+      "question": "a-এর b-এর উপর অভিক্ষেপ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{proj}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|^2}\\vec b,\\quad \\mathrm{comp}_{\\vec b}\\vec a=\\frac{\\vec a\\cdot\\vec b}{|\\vec b|}\\text{ — }অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।"
     }
   ],
   "memorize": {
     "trick": "অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।",
     "steps": [
       "অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।",
-      "মনে রাখো — অভিক্ষেপ ভেক্টর; কম্পোনেন্ট স্কেলার।",
-      "চিহ্ন চেক: proj, vec, b"
+      "প্রশ্নে a-এর b-এর উপর অভিক্ষেপ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: proj=proj_b a, b=চৌম্বক ক্ষেত্র।"
     ]
   },
   "subjects": [

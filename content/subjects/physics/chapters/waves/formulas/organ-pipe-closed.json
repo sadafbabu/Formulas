@@ -59,6 +59,11 @@
       "examType": "HSC",
       "question": "একই L ও v-তে বন্ধ পাইপের f₁ খোলা পাইপের f₁-এর কতগুণ?",
       "answer": "f_{1,\\mathrm{closed}}=v/4L=\\tfrac12 f_{1,\\mathrm{open}}"
+    },
+    {
+      "examType": "Concept",
+      "question": "বন্ধ অর্গান পাইপ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{বন্ধ পাইপ: শুধু বিজোড়; f₁=v/(4L) — খোলার অর্ধেক।}"
     }
   ],
   "memorize": {

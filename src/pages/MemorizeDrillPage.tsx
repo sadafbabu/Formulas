@@ -10,7 +10,7 @@ import {
   tags,
 } from '../data/catalog'
 import type { TagId } from '../data/types'
-import { bookReturnPath } from '../utils/bookLinks'
+import { bookReturnPath, formulaDetailPath } from '../utils/bookLinks'
 import {
   buildDrillQueue,
   filterDrillFormulas,
@@ -36,6 +36,7 @@ export function MemorizeDrillPage() {
   const [sessionAgain, setSessionAgain] = useState(0)
   const [done, setDone] = useState(false)
   const advancingRef = useRef(false)
+  const advanceRef = useRef<(known: boolean) => void>(() => {})
 
   const rawChapter = params.get('chapter')
   const chapterId =
@@ -55,6 +56,7 @@ export function MemorizeDrillPage() {
       : null
 
   const unknownOnly = params.get('unknown') === '1'
+  const startId = params.get('start')
 
   // Migrate accidental star tags out of `tag`
   useEffect(() => {
@@ -93,13 +95,13 @@ export function MemorizeDrillPage() {
     const filtered = unknownOnly
       ? pool.filter((f) => !prog[f.id]?.known)
       : pool
-    setQueue(buildDrillQueue(filtered, prog, unknownOnly))
+    setQueue(buildDrillQueue(filtered, prog, unknownOnly, startId))
     setIndex(0)
     setRevealed(false)
     setDone(filtered.length === 0)
     setSessionKnown(0)
     setSessionAgain(0)
-  }, [pool, unknownOnly])
+  }, [pool, unknownOnly, startId])
 
   const visibleCount = unknownOnly
     ? pool.filter((f) => !progress[f.id]?.known).length
@@ -113,6 +115,15 @@ export function MemorizeDrillPage() {
     const next = new URLSearchParams(params)
     mutate(next)
     setParams(next, { replace: true })
+  }
+
+  const setQuerySynced = (value: string) => {
+    setQuery(value)
+    patchParams((next) => {
+      const trimmed = value.trim()
+      if (trimmed) next.set('q', trimmed)
+      else next.delete('q')
+    })
   }
 
   const setChapterId = (id: string) => {
@@ -180,6 +191,7 @@ export function MemorizeDrillPage() {
       advancingRef.current = false
     }, 0)
   }
+  advanceRef.current = advance
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -194,24 +206,23 @@ export function MemorizeDrillPage() {
         setRevealed(true)
         return
       }
-      if (!revealed || !current) return
+      if (!revealed) return
       if (e.key === '1' || e.key === 'a' || e.key === 'A') {
         e.preventDefault()
-        advance(false)
+        advanceRef.current(false)
       } else if (e.key === '2' || e.key === 'k' || e.key === 'K') {
         e.preventDefault()
-        advance(true)
+        advanceRef.current(true)
       }
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-    // advance closes over current/index/queue — rebind when those change
-  })
+  }, [done, visibleCount, revealed])
 
   const backTo = bookReturnPath({
     chapter: chapterId,
     tag: activeTag,
-    query: params.get('q'),
+    query: params.get('q') ?? query,
   })
 
   const examTags = tags.filter((t) => t.category !== 'importance')
@@ -222,7 +233,7 @@ export function MemorizeDrillPage() {
     const filtered = unknownOnly
       ? pool.filter((f) => !prog[f.id]?.known)
       : pool
-    setQueue(buildDrillQueue(filtered, prog, unknownOnly))
+    setQueue(buildDrillQueue(filtered, prog, unknownOnly, startId))
     setIndex(0)
     setSessionKnown(0)
     setSessionAgain(0)
@@ -235,7 +246,7 @@ export function MemorizeDrillPage() {
       <NavMenu
         floating
         query={query}
-        onQueryChange={setQuery}
+        onQueryChange={setQuerySynced}
         chapterId={chapterId}
         onChapterChange={setChapterId}
       />
@@ -392,6 +403,16 @@ export function MemorizeDrillPage() {
                       ))}
                     </ol>
                   ) : null}
+                  <Link
+                    className="memorize-detail-link"
+                    to={formulaDetailPath(current.id, {
+                      chapter: current.chapter,
+                      tag: activeTag,
+                      query: params.get('q') ?? query,
+                    })}
+                  >
+                    বিস্তারিত দেখুন →
+                  </Link>
                   <div className="memorize-actions">
                     <button
                       type="button"

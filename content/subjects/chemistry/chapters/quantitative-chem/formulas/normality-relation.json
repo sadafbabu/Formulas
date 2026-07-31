@@ -3,7 +3,7 @@
   "chapter": "quantitative-chem",
   "title": "Normality",
   "titleBn": "নরমালিটি",
-  "summary": "অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।",
+  "summary": "নরমালিটি: অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।",
   "latex": "N=M\\times n_{\\text{factor}},\\quad N_1V_1=N_2V_2",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।",
+    "lead": "নরমালিটি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "N=M\\times n_{\\text{factor}},\\quad N_1V_1=N_2V_2",
-        "note": "নরমালিটি এর প্রাথমিক রূপ।"
+        "note": "নরমালিটি: অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "N=M\\times n_{\\text{factor}},\\quad N_1V_1=N_2V_2",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "নরমালিটি এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "নরমালিটি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "N=M\\times n_{\\text{factor}},\\quad N_1V_1=N_2V_2\\text{ — }অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।"
     },
     {
       "examType": "Concept",
-      "question": "নরমালিটি দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।}"
+      "question": "নরমালিটি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "N=M\\times n_{\\text{factor}},\\quad N_1V_1=N_2V_2\\text{ — }অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।"
     }
   ],
   "memorize": {
     "trick": "অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।",
     "steps": [
       "অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।",
-      "মনে রাখো — অম্ল/ক্ষারের n-factor = H⁺/OH⁻ সংখ্যা; টাইট্রেশনে N₁V₁=N₂V₂।",
-      "চিহ্ন চেক: N, M, n"
+      "প্রশ্নে নরমালিটি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: N=N=M×n-factor, M=ভর / মোলার ভর।"
     ]
   },
   "subjects": [

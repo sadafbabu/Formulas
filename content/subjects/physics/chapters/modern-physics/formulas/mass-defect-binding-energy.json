@@ -72,6 +72,11 @@
       "examType": "BUET Admission",
       "question": "হিলিয়াম নিউক্লিয়াসের (\\ce{^4_2He}) ভরত্রুটি ০.০৩০৪ u হলে বন্ধন শক্তি ও প্রতি নিউক্লিয়নে বন্ধন শক্তি কত?",
       "answer": "E_b = 0.0304 \\times 931.5 = 28.3\\ \\text{MeV}, \\quad \\frac{E_b}{A} = \\frac{28.3}{4} = 7.08\\ \\text{MeV}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ভরত্রুটি, বন্ধন শক্তি ও নিউক্লিয়াসের স্থিতিশীলতা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{১ u = 931.5 MeV। প্রতি nucleon binding energy Fe/Ni অঞ্চলে সর্বোচ্চ—Ni-62 measured maximum, Fe-56 খুব কাছাকাছি; এই অঞ্চল}"
     }
   ],
   "memorize": {

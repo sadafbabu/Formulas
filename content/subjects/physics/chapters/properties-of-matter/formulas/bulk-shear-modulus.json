@@ -32,7 +32,7 @@
     },
     {
       "symbol": "\\Delta V",
-      "meaning": "\\Delta V (সূত্রের রাশি)",
+      "meaning": "Delta V (সূত্রের রাশি)",
       "unit": "Pa, m³"
     }
   ],
@@ -59,14 +59,19 @@
       "examType": "HSC",
       "question": "তরলে শিয়ার মডুলাস কেন ≈০?",
       "answer": "\\text{স্থির শিয়ার সহ্য করে না}"
+    },
+    {
+      "examType": "Concept",
+      "question": "আয়তন ও পার্শ্ব গুণাঙ্ক দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{B=−ΔP/(ΔV/V); শিয়ার = stress/tanθ।}"
     }
   ],
   "memorize": {
     "trick": "B=−ΔP/(ΔV/V); শিয়ার = stress/tanθ।",
     "steps": [
       "B=−ΔP/(ΔV/V); শিয়ার = stress/tanθ।",
-      "মনে রাখো — B = −ΔP/(ΔV/V); η = shear stress / shear strain",
-      "চিহ্ন চেক: B, \\eta, \\Delta P"
+      "প্রশ্নে আয়তন ও পার্শ্ব গুণাঙ্ক বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: B=বাল্ক মডুলাস, \\eta=শিয়ার মডুলাস।"
     ]
   },
   "subjects": [

@@ -3,7 +3,7 @@
   "chapter": "math-dynamics",
   "title": "Maximum Height",
   "titleBn": "সর্বোচ্চ উচ্চতা",
-  "summary": "শুধু vertical component u sinθ; H=v²/2g।",
+  "summary": "সর্বোচ্চ উচ্চতা: শুধু vertical component u sinθ; H=v²/2g।",
   "latex": "H=\\frac{u^2\\sin^2\\theta}{2g}",
   "tags": [
     "hsc",
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "শুধু vertical component u sinθ; H=v²/2g।",
+    "lead": "সর্বোচ্চ উচ্চতা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "H=\\frac{u^2\\sin^2\\theta}{2g}",
-        "note": "সর্বোচ্চ উচ্চতা এর প্রাথমিক রূপ।"
+        "note": "সর্বোচ্চ উচ্চতা: শুধু vertical component u sinθ; H=v²/2g।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "H=\\frac{u^2\\sin^2\\theta}{2g}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "শুধু vertical component u sinθ; H=v²/2g।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "সর্বোচ্চ উচ্চতা এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সর্বোচ্চ উচ্চতা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "সর্বোচ্চ উচ্চতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "H=\\frac{u^2\\sin^2\\theta}{2g}\\text{ — }শুধু vertical component u sinθ; H=v²/2g।"
     },
     {
       "examType": "Concept",
-      "question": "সর্বোচ্চ উচ্চতা দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{শুধু vertical component u sinθ; H=v/2g।}"
+      "question": "সর্বোচ্চ উচ্চতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "H=\\frac{u^2\\sin^2\\theta}{2g}\\text{ — }শুধু vertical component u sinθ; H=v²/2g।"
     }
   ],
   "memorize": {
     "trick": "শুধু vertical component u sinθ; H=v²/2g।",
     "steps": [
       "শুধু vertical component u sinθ; H=v²/2g।",
-      "মনে রাখো — শুধু vertical component u sinθ; H=v²/2g।",
-      "চিহ্ন চেক: H, u, theta"
+      "প্রশ্নে সর্বোচ্চ উচ্চতা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: H=H=u²sin²θ/2g, u=আদি বেগ।"
     ]
   },
   "subjects": [

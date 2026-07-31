@@ -3,7 +3,7 @@
   "chapter": "differentiation",
   "title": "Derivative of arcsin/arctan",
   "titleBn": "arcsin/arctan এর অন্তরক",
-  "summary": "√(1−x²) ও (1+x²) মুখস্থ রাখো। \\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}",
+  "summary": "arcsin/arctan এর অন্তরক: √(1−x²) ও (1+x²) মুখস্থ রাখো। \\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}",
   "latex": "\\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}",
   "tags": [
     "hsc",
@@ -36,34 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "√(1−x²) ও (1+x²) মুখস্থ রাখো। \\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}",
+    "lead": "arcsin/arctan এর অন্তরক প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}",
-        "note": "arcsin/arctan এর অন্তরক এর প্রাথমিক রূপ।"
+        "note": "arcsin/arctan এর অন্তরক: √(1−x²) ও (1+x²) মুখস্থ রাখো। \\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "√(1−x²) ও (1+x²) মুখস্থ রাখো। \\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "arcsin/arctan এর অন্তরক এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "arcsin/arctan এর অন্তরক এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "arcsin/arctan এর অন্তরক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}\\text{ — }√(1−x²) ও (1+x²) মুখস্থ রাখো। \\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad"
+    },
+    {
+      "examType": "Concept",
+      "question": "arcsin/arctan এর অন্তরক দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}"
     }
   ],
   "memorize": {
     "trick": "√(1−x²) ও (1+x²) মুখস্থ রাখো। \\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1}{1+x^2}",
     "steps": [
       "√(1−x²) ও (1+x²) মুখস্থ রাখো। \\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\fra…",
-      "মনে রাখো — √(1−x²) ও (1+x²) মুখস্থ রাখো। \\frac{d}{dx}\\arcsin x=\\frac{1}{\\sqrt{1-x^2}},\\quad \\frac{d}{dx}\\arctan x=\\frac{1",
-      "চিহ্ন চেক: d, x, arcsin"
+      "প্রশ্নে arcsin/arctan এর অন্তরক বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: d=1/√(1−x²), x=1/(1+x²)।"
     ]
   },
   "subjects": [

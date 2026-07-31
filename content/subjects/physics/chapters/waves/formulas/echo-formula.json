@@ -3,7 +3,7 @@
   "chapter": "waves",
   "title": "Echo",
   "titleBn": "প্রতিধ্বনি",
-  "summary": "যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
+  "summary": "প্রতিধ্বনি: যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
   "latex": "2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
   "tags": [
     "hsc",
@@ -29,42 +29,45 @@
       "symbol": "t",
       "meaning": "সময়",
       "unit": "s"
-    },
-    {
-      "symbol": "Rightarrow",
-      "meaning": "Rightarrow (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
+    "lead": "প্রতিধ্বনি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
-        "note": "প্রতিধ্বনি এর প্রাথমিক রূপ।"
+        "note": "প্রতিধ্বনি: যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্রতিধ্বনি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}"
+      "question": "প্রতিধ্বনি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}\\text{ — }যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}"
+    },
+    {
+      "examType": "Concept",
+      "question": "প্রতিধ্বনি দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{যাওয়া+ফেরা = 2d; d = vt/2। 2d=vtquadRightarrowquad d=fracvt2}"
     }
   ],
   "memorize": {
     "trick": "যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
     "steps": [
       "যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
-      "মনে রাখো — যাওয়া+ফেরা = 2d; d = vt/2। 2d=vt\\quad\\Rightarrow\\quad d=\\frac{vt}{2}",
-      "চিহ্ন চেক: d, v, t"
+      "প্রশ্নে প্রতিধ্বনি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: d=প্রতিধ্বনি, v=বেগ।"
     ]
   },
   "subjects": [

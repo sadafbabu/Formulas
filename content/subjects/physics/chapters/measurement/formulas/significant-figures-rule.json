@@ -3,7 +3,7 @@
   "chapter": "measurement",
   "title": "Significant Figures",
   "titleBn": "সার্থক অঙ্ক",
-  "summary": "গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।",
+  "summary": "সার্থক অঙ্ক: গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।",
   "latex": "\\text{s.f. = all certain digits + first uncertain digit}",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।",
+    "lead": "সার্থক অঙ্ক প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{s.f. = all certain digits + first uncertain digit}",
-        "note": "সার্থক অঙ্ক এর প্রাথমিক রূপ।"
+        "note": "সার্থক অঙ্ক: গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{s.f. = all certain digits + first uncertain digit}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সার্থক অঙ্ক লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{s.f. = all certain digits + first uncertain digit}"
+      "question": "সার্থক অঙ্ক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{s.f. = all certain digits + first uncertain digit}\\text{ — }গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।"
     },
     {
       "examType": "Concept",
-      "question": "সার্থক অঙ্ক দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।}"
+      "question": "সার্থক অঙ্ক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{s.f. = all certain digits + first uncertain digit}\\text{ — }গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।"
     }
   ],
   "memorize": {
     "trick": "গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।",
     "steps": [
       "গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।",
-      "মনে রাখো — গুণে ফল = কম s.f. ওয়ালার মতো; যোগে দশমিক স্থান মেলাও।",
-      "চিহ্ন চেক: s, f, a"
+      "প্রশ্নে সার্থক অঙ্ক বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: s=সার্থক অঙ্ক, f=কম্পাঙ্ক / বল (প্রসঙ্গমতে)।"
     ]
   },
   "subjects": [

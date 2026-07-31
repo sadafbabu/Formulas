@@ -3,8 +3,8 @@
   "chapter": "organic-chem",
   "title": "Glucose Open ↔ Cyclic",
   "titleBn": "গ্লুকোজ মুক্ত ও চক্রাকার রূপ",
-  "summary": "D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
-  "latex": "\\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
+  "summary": "D-গ্লুকোজ মুক্ত অ্যালডিহাইড ও চক্রাকার পাইরানোজ রূপে সাম্যে থাকে।",
+  "latex": "\\text{open-chain aldehyde} \\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,55 +16,48 @@
   "order": 270,
   "symbols": [
     {
-      "symbol": "open-chain aldehyde",
-      "meaning": "pyranose/furanose",
-      "unit": "—"
-    },
-    {
-      "symbol": "rightleftharpoons",
-      "meaning": "rightleftharpoons (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
-      "symbol": "cyclic hemiacetal (pyranose)",
-      "meaning": "cyclic hemiacetal (pyranose) (সূত্রের রাশি)",
+      "symbol": "\\mathrm{CHO}",
+      "meaning": "অ্যালডিহাইড গ্রুপ (মুক্ত শিকল)",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
+    "lead": "অ্যালডিহাইডের সাথে OH যুক্ত হয়ে চক্রাকার হেমিঅ্যাসিটাল গঠিত হয়।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
-        "note": "গ্লুকোজ মুক্ত ও চক্রাকার রূপ এর প্রাথমিক রূপ।"
+        "title": "সাম্য",
+        "latex": "\\text{open-chain} \\rightleftharpoons \\text{pyranose}",
+        "note": "দ্রবণে দুই রূপ সহাবস্থান করে।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
-        "note": "D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}"
+        "title": "মনে রাখা",
+        "latex": "\\text{D-glucose mainly pyranose}",
+        "note": "HSC/মেডিকেলে পাইরানোজই প্রধান রূপ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "জলে দ্রবীভূত অবস্থা",
+      "প্রমিত তাপমাত্রা"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্লুকোজ মুক্ত ও চক্রাকার রূপ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}"
+      "question": "গ্লুকোজের মুক্ত ও চক্রাকার রূপের সম্পর্ক কী?",
+      "answer": "\\text{open-chain aldehyde} \\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}"
     },
     {
       "examType": "Concept",
-      "question": "গ্লুকোজ মুক্ত ও চক্রাকার রূপ দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{D-গ্লুকোজ মূলত পাইরানোজ। textopen-chain aldehyderightleftharpoons textcyclic hemiacetal (pyranose)}"
+      "question": "D-গ্লুকোজ দ্রবণে কোন রূপ প্রধান?",
+      "answer": "\\text{pyranose (six-membered cyclic hemiacetal)}"
     }
   ],
   "memorize": {
-    "trick": "D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
+    "trick": "D-গ্লুকোজ মূলত পাইরানোজ; মুক্ত↔চক্রাকার সাম্য।",
     "steps": [
-      "D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
-      "মনে রাখো — D-গ্লুকোজ মূলত পাইরানোজ। \\text{open-chain aldehyde}\\rightleftharpoons \\text{cyclic hemiacetal (pyranose)}",
-      "চিহ্ন চেক: open-chain aldehyde, rightleftharpoons, cyclic hemiacetal (pyranose)"
+      "মুক্ত অ্যালডিহাইড ও চক্রাকার হেমিঅ্যাসিটাল সাম্যে থাকে।",
+      "প্রশ্নে গ্লুকোজ গঠন/মিউটারোটেশন দেখলে এই সাম্য মনে রাখো।",
+      "পাইরানোজ = ছয় সদস্য; ফিউরানোজ = পাঁচ সদস্য।"
     ]
   },
   "subjects": [

@@ -3,7 +3,7 @@
   "chapter": "vector-algebra",
   "title": "Dot Product",
   "titleBn": "অন্তঃগুণফল",
-  "summary": "লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।",
+  "summary": "অন্তঃগুণফল: লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।",
   "latex": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_xb_x+a_yb_y+a_zb_z",
   "tags": [
     "hsc",
@@ -21,12 +21,12 @@
     },
     {
       "symbol": "a",
-      "meaning": "a",
+      "meaning": "সহগ / ধ্রুবক",
       "unit": "—"
     },
     {
       "symbol": "b",
-      "meaning": "b",
+      "meaning": "সহগ / ধ্রুবক",
       "unit": "—"
     },
     {
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।",
+    "lead": "অন্তঃগুণফল প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_xb_x+a_yb_y+a_zb_z",
-        "note": "অন্তঃগুণফল এর প্রাথমিক রূপ।"
+        "note": "অন্তঃগুণফল: লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_xb_x+a_yb_y+a_zb_z",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "অন্তঃগুণফল এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অন্তঃগুণফল এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "অন্তঃগুণফল কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_xb_x+a_yb_y+a_zb_z\\text{ — }লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।"
     },
     {
       "examType": "Concept",
-      "question": "অন্তঃগুণফল দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{লম্ব হলে ডট = ০; সমান্তরালে |a||b|।}"
+      "question": "অন্তঃগুণফল কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta=a_xb_x+a_yb_y+a_zb_z\\text{ — }লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।"
     }
   ],
   "memorize": {
     "trick": "লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।",
     "steps": [
       "লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।",
-      "মনে রাখো — লম্ব হলে ডট = ০; সমান্তরালে ±|a||b|।",
-      "চিহ্ন চেক: vec, a, b"
+      "প্রশ্নে অন্তঃগুণফল বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: vec=a·b =, a=সহগ / ধ্রুবক।"
     ]
   },
   "subjects": [

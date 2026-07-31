@@ -41,34 +41,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "a\\cos\\theta+b\\sin\\theta\\in\\big[-\\sqrt{a^2+b^2},\\sqrt{a^2+b^2}\\big]",
-        "note": "ত্রিকোণমিতিক রাশির সীমা এর প্রাথমিক রূপ।"
+        "note": "a cosθ + b sinθ এর রেঞ্জ"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "a\\cos\\theta+b\\sin\\theta\\in\\big[-\\sqrt{a^2+b^2},\\sqrt{a^2+b^2}\\big]",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "রেঞ্জ = [−R, R], R=√(a²+b²)। a cosθ + b sinθ এর রেঞ্জ"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "ত্রিকোণমিতিক রাশির সীমা এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ত্রিকোণমিতিক রাশির সীমা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "ত্রিকোণমিতিক রাশির সীমা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "a\\cos\\theta+b\\sin\\theta\\in\\big[-\\sqrt{a^2+b^2},\\sqrt{a^2+b^2}\\big]\\text{ — }রেঞ্জ = [−R, R], R=√(a²+b²)। a cosθ + b sinθ এর রেঞ্জ"
     },
     {
       "examType": "Concept",
-      "question": "ত্রিকোণমিতিক রাশির সীমা দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{a cosθ + b sinθ এর রেঞ্জ}"
+      "question": "ত্রিকোণমিতিক রাশির সীমা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "a\\cos\\theta+b\\sin\\theta\\in\\big[-\\sqrt{a^2+b^2},\\sqrt{a^2+b^2}\\big]\\text{ — }রেঞ্জ = [−R, R], R=√(a²+b²)। a cosθ + b sinθ এর রেঞ্জ"
     }
   ],
   "memorize": {
     "trick": "রেঞ্জ = [−R, R], R=√(a²+b²)। a cosθ + b sinθ এর রেঞ্জ",
     "steps": [
       "রেঞ্জ = [−R, R], R=√(a²+b²)। a cosθ + b sinθ এর রেঞ্জ",
-      "মনে রাখো — a cosθ + b sinθ এর রেঞ্জ",
-      "চিহ্ন চেক: a, theta, b"
+      "প্রশ্নে ত্রিকোণমিতিক রাশির সীমা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: a=a cosθ + b sinθ এর রেঞ্জ, theta=কোণ।"
     ]
   },
   "subjects": [

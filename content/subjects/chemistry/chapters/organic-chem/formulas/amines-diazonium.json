@@ -61,7 +61,12 @@
     {
       "examType": "Eng Admission",
       "question": "Aniline থেকে phenol তৈরির reagent sequence কী?",
-      "answer": "\\ce{C6H5NH2 ->[NaNO2/HCl,\\ 0-5^\\circ C] C6H5N2+Cl- ->[H2O,\\Delta] C6H5OH}"
+      "answer": "\\text{Aniline→diazonium করতে NaNO₂/HCl এবং ০–৫ C বাধ্যতামূলক। Diazonium হলো conversion hub: CuCl→Cl, CuCN→CN, H₂O/he}"
+    },
+    {
+      "examType": "Concept",
+      "question": "অ্যামিনের ক্ষারত্ব, ডায়াজোনিয়াম লবণ ও azo coupling দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Aniline→diazonium করতে NaNO₂/HCl এবং ০–৫°C বাধ্যতামূলক। Diazonium হলো conversion hub: CuCl→Cl, CuCN→CN, H₂O/heat→OH, H₃P}"
     }
   ],
   "memorize": {

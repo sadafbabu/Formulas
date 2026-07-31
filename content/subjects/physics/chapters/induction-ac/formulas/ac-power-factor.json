@@ -59,6 +59,11 @@
       "examType": "HSC",
       "question": "R=Z হলে পাওয়ার ফ্যাক্টর কত?",
       "answer": "\\cos\\phi=1"
+    },
+    {
+      "examType": "Concept",
+      "question": "ক্ষমতা গুণাঙ্ক দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{cosφ = R/Z — শুধু রোধ কাজ করে; P=VI cosφ।}"
     }
   ],
   "memorize": {

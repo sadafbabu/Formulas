@@ -55,7 +55,10 @@
         "note": "STP আনুমানিক: \\(n=V/22.4\\,\\mathrm{L}\\) (পুরনো STP)।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
@@ -67,6 +70,11 @@
       "examType": "Admission",
       "question": "0.5\\,\\mathrm{mol}-এ অণু সংখ্যা?",
       "answer": "3.011\\times10^{23}"
+    },
+    {
+      "examType": "Concept",
+      "question": "মোল ধারণা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "n = \\dfrac{m}{M} = \\dfrac{N}{N_A}"
     }
   ],
   "memorize": {

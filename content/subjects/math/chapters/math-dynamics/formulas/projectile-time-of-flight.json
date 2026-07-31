@@ -41,34 +41,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "T=\\frac{2u\\sin\\theta}{g}",
-        "note": "উড্ডয়নকাল এর প্রাথমিক রূপ।"
+        "note": "উড্ডয়নকাল এর মূল সম্পর্ক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "T=\\frac{2u\\sin\\theta}{g}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "উঠা + নামা = 2u sinθ/g। T=\\frac{2u\\sin\\theta}{g}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "উড্ডয়নকাল এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উড্ডয়নকাল এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "উড্ডয়নকাল কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "T=\\frac{2u\\sin\\theta}{g}\\text{ — }উঠা + নামা = 2u sinθ/g। T=\\frac{2u\\sin\\theta}{g}"
     },
     {
       "examType": "Concept",
-      "question": "উড্ডয়নকাল দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{T= frac 2u sin theta g}"
+      "question": "উড্ডয়নকাল কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "T=\\frac{2u\\sin\\theta}{g}\\text{ — }উঠা + নামা = 2u sinθ/g। T=\\frac{2u\\sin\\theta}{g}"
     }
   ],
   "memorize": {
     "trick": "উঠা + নামা = 2u sinθ/g। T=\\frac{2u\\sin\\theta}{g}",
     "steps": [
       "উঠা + নামা = 2u sinθ/g। T=\\frac{2u\\sin\\theta}{g}",
-      "মনে রাখো — উঠা + নামা = 2u sinθ/g। T=\\frac{2u\\sin\\theta}{g}",
-      "চিহ্ন চেক: T, u, theta"
+      "প্রশ্নে উড্ডয়নকাল বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: T=T=2u sinθ/g, u=আদি বেগ।"
     ]
   },
   "subjects": [

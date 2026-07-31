@@ -26,7 +26,7 @@
     },
     {
       "symbol": "v",
-      "meaning": "বেগ",
+      "meaning": "v (সূত্রের রাশি)",
       "unit": "ফাংশন"
     }
   ],
@@ -36,29 +36,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x), \\quad \\frac{d}{dx}[u \\cdot v] = u \\frac{dv}{dx} + v \\frac{du}{dx}",
-        "note": "পর্যায়ক্রমিক অন্তরীকরণ ও সংযোজিত ফাংশন সূত্র এর প্রাথমিক রূপ।"
+        "note": "সংযোজিত ফাংশন (Chain Rule) এবং গুণফল (Product Rule) এর অন্তরীকরণ"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x), \\quad \\frac{d}{dx}[u \\cdot v] = u \\frac{dv}{dx} + v \\frac{du}{dx}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "dy/dx = (dy/du)(du/dx) — যৌগিক ফাংশনে বহিঃস্থ ও অন্তঃস্থ অবকলনের গুণফল।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "পর্যায়ক্রমিক অন্তরীকরণ ও সংযোজিত ফাংশন সূত্র এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "BUET Admission Hard",
       "question": "y = sin(ln(x² + 1)) হলে dy/dx এর মান কত?",
       "answer": "\\frac{dy}{dx} = \\cos(\\ln(x^2 + 1)) \\cdot \\frac{d}{dx}[\\ln(x^2 + 1)] = \\cos(\\ln(x^2 + 1)) \\cdot \\frac{1}{x^2 + 1} \\cdot (2x) = \\frac{2x \\cos(\\ln(x^2 + 1))}{x^2 + 1}"
+    },
+    {
+      "examType": "Concept",
+      "question": "পর্যায়ক্রমিক অন্তরীকরণ ও সংযোজিত ফাংশন সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{dy/dx = (dy/du)(du/dx) — যৌগিক ফাংশনে বহিঃস্থ ও অন্তঃস্থ অবকলনের গুণফল।}"
     }
   ],
   "memorize": {
     "trick": "dy/dx = (dy/du)(du/dx) — যৌগিক ফাংশনে বহিঃস্থ ও অন্তঃস্থ অবকলনের গুণফল।",
     "steps": [
       "dy/dx = (dy/du)(du/dx) — যৌগিক ফাংশনে বহিঃস্থ ও অন্তঃস্থ অবকলনের গুণফল।",
-      "মনে রাখো — সংযোজিত ফাংশন (Chain Rule) এবং গুণফল (Product Rule) এর অন্তরীকরণ",
-      "চিহ্ন চেক: f(g(x)), u, v"
+      "প্রশ্নে পর্যায়ক্রমিক অন্তরীকরণ ও সংযোজিত ফাংশন সূত্র বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: f(g(x))=সংযোজিত ফাংশন (Composite Function), u=x এর দুটি স্বতন্ত্র ফাংশন।"
     ]
   },
   "subjects": [

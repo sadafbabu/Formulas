@@ -68,7 +68,12 @@
     {
       "examType": "Medical Admission",
       "question": "0.10 M \\ce{CH3COOH}-এর Kₐ = 1.8×10⁻⁵ হলে pH কত?",
-      "answer": "[\\ce{H+}]=\\sqrt{1.8\\times10^{-5}\\times0.10}=1.34\\times10^{-3};\\quad \\mathrm{pH}=2.87"
+      "answer": "\\text{দুর্বল acid/base-এ concentration-এর বর্গমূল: [H⁺]= (KₐC), [OH⁻]= (K bC)। আর conjugate pair-এ pKₐ+pK b=14।}"
+    },
+    {
+      "examType": "Concept",
+      "question": "অম্ল–ক্ষার সাম্য, Ka/Kb ও দুর্বল অম্লের pH দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{দুর্বল acid/base-এ concentration-এর বর্গমূল: [H⁺]= (KₐC), [OH⁻]= (K bC)। আর conjugate pair-এ pKₐ+pK b=14।}"
     }
   ],
   "memorize": {

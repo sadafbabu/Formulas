@@ -47,11 +47,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "v_{\\mathrm{rms}}=\\sqrt{\\frac{3RT}{M}}=\\sqrt{\\frac{3P}{\\rho}},\\quad \\langle E_k\\rangle_{\\mathrm{molecule}}=\\frac32k_BT,\\quad E_{k,n\\mathrm{mol}}=\\frac32nRT",
-        "note": "গ্যাসের বর্গমূল গড় বর্গ বেগ ও গড় গতিশক্তি এর প্রাথমিক রূপ।"
+        "note": "গ্যাস অণুর RMS বেগ এবং ১ অণু ও ১ মোলের মোট গতিশক্তি"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "v_{\\mathrm{rms}}=\\sqrt{\\frac{3RT}{M}}=\\sqrt{\\frac{3P}{\\rho}},\\quad \\langle E_k\\rangle_{\\mathrm{molecule}}=\\frac32k_BT,\\quad E_{k,n\\mathrm{mol}}=\\frac32nRT",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "v_rms = √(3RT/M) = √(3P/ρ) — 'তিন' মনে রাখুন। তিন বেগের ক্রম: v_p < v_avg < v_rms (√2 < √2.55 < √3)।"
       }
     ],
@@ -64,6 +64,11 @@
       "examType": "BUET Admission Hard",
       "question": "27°C তাপমাত্রায় অক্সিজেন (O₂) অণুর RMS বেগ কত?",
       "answer": "M = 32 \\times 10^{-3}\\text{ kg/mol}, \\, T = 300\\text{ K} \\implies v_{\\text{rms}} = \\sqrt{\\frac{3 \\times 8.314 \\times 300}{32 \\times 10^{-3}}} = \\sqrt{\\frac{7482.6}{0.032}} = \\sqrt{233831.25} \\approx 483.56\\text{ m/s}"
+    },
+    {
+      "examType": "Concept",
+      "question": "গ্যাসের বর্গমূল গড় বর্গ বেগ ও গড় গতিশক্তি দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "v_{\\mathrm{rms}}=\\sqrt{\\frac{3RT}{M}}=\\sqrt{\\frac{3P}{\\rho}},\\quad \\langle E_k\\rangle_{\\mathrm{molecule}}=\\frac32k_BT,\\quad E_{k,n\\mathrm{mol}}=\\frac32nRT"
     }
   ],
   "memorize": {

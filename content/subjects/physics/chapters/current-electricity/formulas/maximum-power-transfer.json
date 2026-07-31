@@ -54,14 +54,19 @@
       "examType": "HSC",
       "question": "ε = 12 V, r = 2 Ω। সর্বোচ্চ ক্ষমতা কত?",
       "answer": "P_{\\max}=12^2/(4\\times2)=18\\ \\text{W}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সর্বাধিক ক্ষমতা স্থানান্তর দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "P_{\\max}=\\dfrac{\\mathcal{E}^2}{4r}\\quad(R_L=r)"
     }
   ],
   "memorize": {
     "trick": "R_L = r → P_max = ε²/4r। P_{\\max}=\\dfrac{\\mathcal{E}^2}{4r}\\quad(R_L=r)",
     "steps": [
       "R_L = r → P_max = ε²/4r। P_{\\max}=\\dfrac{\\mathcal{E}^2}{4r}\\quad(R_L=r)",
-      "মনে রাখো — R_L = r → P_max = ε²/4r। P_{\\max}=\\dfrac{\\mathcal{E}^2}{4r}\\quad(R_L=r)",
-      "চিহ্ন চেক: R_L, r, \\mathcal{E}"
+      "প্রশ্নে সর্বাধিক ক্ষমতা স্থানান্তর বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: R_L=লোড রোধ, r=অভ্যন্তরীণ রোধ।"
     ]
   },
   "subjects": [

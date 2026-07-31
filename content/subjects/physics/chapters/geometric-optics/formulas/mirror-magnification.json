@@ -3,7 +3,7 @@
   "chapter": "geometric-optics",
   "title": "Magnification",
   "titleBn": "বিবর্ধন",
-  "summary": "ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}",
+  "summary": "বিবর্ধন: ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}",
   "latex": "m=\\frac{h'}{h}=-\\frac{v}{u}",
   "tags": [
     "hsc",
@@ -37,34 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}",
+    "lead": "বিবর্ধন প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "m=\\frac{h'}{h}=-\\frac{v}{u}",
-        "note": "বিবর্ধন এর প্রাথমিক রূপ।"
+        "note": "বিবর্ধন: ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "m=\\frac{h'}{h}=-\\frac{v}{u}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিবর্ধন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "m=\\frac{h'}{h}=-\\frac{v}{u}"
+      "question": "বিবর্ধন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "m=\\frac{h'}{h}=-\\frac{v}{u}\\text{ — }ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}"
+    },
+    {
+      "examType": "Concept",
+      "question": "বিবর্ধন দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=frach'h=-fracvu}"
     }
   ],
   "memorize": {
     "trick": "ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}",
     "steps": [
       "ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}",
-      "মনে রাখো — ঋণাত্মক m = উল্টো প্রতিবিম্ব। m=\\frac{h'}{h}=-\\frac{v}{u}",
-      "চিহ্ন চেক: m, h, v"
+      "প্রশ্নে বিবর্ধন বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: m=বিবর্ধন, h=উচ্চতা / প্ল্যাঙ্ক ধ্রুবক।"
     ]
   },
   "subjects": [

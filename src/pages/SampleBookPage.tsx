@@ -17,7 +17,7 @@ const validTagIds = new Set(tags.map((t) => t.id))
 
 export function SampleBookPage() {
   const [params, setParams] = useSearchParams()
-  const [menuOpenSignal, setMenuOpenSignal] = useState(0)
+  const [menuOpenSignal] = useState(0)
   const rawTag = params.get('tag')
   const activeTag =
     rawTag && validTagIds.has(rawTag as TagId) ? (rawTag as TagId) : null
@@ -62,9 +62,13 @@ export function SampleBookPage() {
     next.set('chapter', id)
     next.set('view', 'book')
     next.delete('page')
+    // Menu chapter switches clear tag to avoid empty incompatible filters.
+    // Overview path also clears q via clearFilters.
     if (options?.clearFilters) {
       next.delete('tag')
       next.delete('q')
+    } else {
+      next.delete('tag')
     }
     setParams(next)
   }
@@ -108,7 +112,6 @@ export function SampleBookPage() {
         onGoHome={handleGoHome}
         query={query}
         onQueryChange={setQuery}
-        onOpenMenuSearch={() => setMenuOpenSignal((n) => n + 1)}
         chapterId={chapterId}
         menuSlot={
           <NavMenu

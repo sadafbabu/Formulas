@@ -52,29 +52,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "m=ZIt=\\frac{MIt}{nF},\\quad F=96500\\ \\mathrm{C\\,mol^{-1}},\\quad Z=\\frac{M}{nF}",
-        "note": "ফ্যারাডের তড়িৎ বিশ্লেষণ সূত্র এর প্রাথমিক রূপ।"
+        "note": "তড়িৎ বিশ্লেষণে সঞ্চিত বা দ্রবীভূত পদার্থের ভর ও তড়িৎ পরিমাণের সম্পর্ক"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "m=ZIt=\\frac{MIt}{nF},\\quad F=96500\\ \\mathrm{C\\,mol^{-1}},\\quad Z=\\frac{M}{nF}",
-        "note": "m = ZIt = MIt/(nF), তাই electrochemical equivalent Z = M/(nF)—শুধু M/n নয়। এক Faraday charge এক gram-equivalent পদার্থ "
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "note": "m = ZIt = MIt/(nF), তাই electrochemical equivalent Z = M/(nF)—শুধু M/n নয়। এক Faraday charge এক gram-equivalent পদার্থ জমায়।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "BUET Admission Hard",
       "question": "CuSO4 দ্রবণে 5 A প্রবাহ 30 min চালনা করলে ক্যাথোডে কত গ্রাম তামা (Cu) জমা হবে? [Cu = 63.5]",
       "answer": "W = \\frac{63.5 \\times 5 \\times (30 \\times 60)}{2 \\times 96500} = \\frac{571500}{193000} = 2.961\\text{ g}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ফ্যারাডের তড়িৎ বিশ্লেষণ সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{m = ZIt = MIt/(nF), তাই electrochemical equivalent Z = M/(nF)—শুধু M/n নয়। এক Faraday charge এক gram-equivalent পদার্থ }"
     }
   ],
   "memorize": {
     "trick": "m = ZIt = MIt/(nF), তাই electrochemical equivalent Z = M/(nF)—শুধু M/n নয়। এক Faraday charge এক gram-equivalent পদার্থ জমায়।",
     "steps": [
       "m = ZIt = MIt/(nF), তাই electrochemical equivalent Z = M/(nF)—শুধু M/n নয়। এক Faraday charge এক gram-equiv…",
-      "মনে রাখো — তড়িৎ বিশ্লেষণে সঞ্চিত বা দ্রবীভূত পদার্থের ভর ও তড়িৎ পরিমাণের সম্পর্ক",
-      "চিহ্ন চেক: m, Z, I"
+      "প্রশ্নে ফ্যারাডের তড়িৎ বিশ্লেষণ সূত্র বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: m=জমা/মুক্ত পদার্থের ভর, Z=তড়িৎ রাসায়নিক তুল্যাঙ্ক।"
     ]
   },
   "subjects": [

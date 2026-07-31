@@ -3,7 +3,7 @@
   "chapter": "industrial-chemistry",
   "title": "Haber Optimum Conditions",
   "titleBn": "হেবার অনুকূল শর্ত",
-  "summary": "উচ্চ চাপ + মধ্যম তাপ + Fe সংঘটক।",
+  "summary": "হেবার অনুকূল শর্ত: উচ্চ চাপ + মধ্যম তাপ + Fe সংঘটক।",
   "latex": "P\\sim 200\\!-\\!300\\,\\mathrm{atm},\\ T\\sim 400\\!-\\!450^\\circ\\mathrm{C},\\ \\mathrm{Fe\\ catalyst}",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "উচ্চ চাপ + মধ্যম তাপ + Fe সংঘটক।",
+    "lead": "হেবার অনুকূল শর্ত প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "P\\sim 200\\!-\\!300\\,\\mathrm{atm},\\ T\\sim 400\\!-\\!450^\\circ\\mathrm{C},\\ \\mathrm{Fe\\ catalyst}",
-        "note": "হেবার অনুকূল শর্ত এর প্রাথমিক রূপ।"
+        "note": "হেবার অনুকূল শর্ত: উচ্চ চাপ + মধ্যম তাপ + Fe সংঘটক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "P\\sim 200\\!-\\!300\\,\\mathrm{atm},\\ T\\sim 400\\!-\\!450^\\circ\\mathrm{C},\\ \\mathrm{Fe\\ catalyst}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "উচ্চ চাপ + মধ্যম তাপ + Fe সংঘটক।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "হেবার অনুকূল শর্ত এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "হেবার অনুকূল শর্ত কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "P\\sim 200\\!-\\!300\\,\\mathrm{atm},\\ T\\sim 400\\!-\\!450^\\circ\\mathrm{C},\\ \\mathrm{Fe\\ catalyst}\\text{ — }উচ্চ চাপ + মধ্যম তাপ + Fe সংঘটক।"
     },
     {
       "examType": "Concept",
-      "question": "হেবার অনুকূল শর্ত দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{উচ্চ চাপ + মধ্যম তাপ + Fe সংঘটক।}"
+      "question": "হেবার অনুকূল শর্ত কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "P\\sim 200\\!-\\!300\\,\\mathrm{atm},\\ T\\sim 400\\!-\\!450^\\circ\\mathrm{C},\\ \\mathrm{Fe\\ catalyst}\\text{ — }উচ্চ চাপ + মধ্যম তাপ + Fe সংঘটক।"
     }
   ],
   "memorize": {
     "trick": "উচ্চ চাপ + মধ্যম তাপ + Fe সংঘটক।",
     "steps": [
       "উচ্চ চাপ + মধ্যম তাপ + Fe সংঘটক।",
-      "মনে রাখো — উচ্চ চাপ + মধ্যম তাপ + Fe সংঘটক।",
-      "চিহ্ন চেক: P, sim, atm"
+      "প্রশ্নে হেবার অনুকূল শর্ত বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: P=pressure temperature catalyst, T=পর্যায়কাল / তাপমাত্রা।"
     ]
   },
   "subjects": [

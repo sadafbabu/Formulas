@@ -3,7 +3,7 @@
   "chapter": "semiconductor",
   "title": "XOR Gate",
   "titleBn": "XOR গেট",
-  "summary": "একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B",
+  "summary": "XOR গেট: একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B",
   "latex": "A\\oplus B=A\\overline{B}+\\overline{A}B",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B",
+    "lead": "XOR গেট প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "A\\oplus B=A\\overline{B}+\\overline{A}B",
-        "note": "XOR গেট এর প্রাথমিক রূপ।"
+        "note": "XOR গেট: একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "A\\oplus B=A\\overline{B}+\\overline{A}B",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "XOR গেট লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "A\\oplus B=A\\overline{B}+\\overline{A}B"
+      "question": "XOR গেট কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "A\\oplus B=A\\overline{B}+\\overline{A}B\\text{ — }একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B"
     },
     {
       "examType": "Concept",
-      "question": "XOR গেট দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{একই হলে ০; ভিন্ন হলে ১। Aoplus B=AoverlineB+overlineAB}"
+      "question": "XOR গেট কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "A\\oplus B=A\\overline{B}+\\overline{A}B\\text{ — }একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B"
     }
   ],
   "memorize": {
     "trick": "একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B",
     "steps": [
       "একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B",
-      "মনে রাখো — একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B",
-      "চিহ্ন চেক: A, oplus, B"
+      "প্রশ্নে XOR গেট বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: A=XOR গেট, B=চৌম্বক ক্ষেত্র।"
     ]
   },
   "subjects": [

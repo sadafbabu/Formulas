@@ -74,6 +74,11 @@
       "examType": "BUET Admission",
       "question": "৫০ Hz-এ ০.১ H ইন্ডাক্টর ও ১০০ μF ধারকের বিক্রিয়া কত?",
       "answer": "X_L = 2\\pi(50)(0.1) = 31.4\\ \\Omega, \\quad X_C = \\frac{1}{2\\pi(50)(100\\times10^{-6})} = 31.8\\ \\Omega"
+    },
+    {
+      "examType": "Concept",
+      "question": "পৃথক L, C ও R বর্তনীতে AC এবং দশা সম্পর্ক দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "X_L = 2\\pi fL, \\quad X_C = \\frac{1}{2\\pi fC}, \\quad \\tan\\phi = \\frac{X_L - X_C}{R}"
     }
   ],
   "memorize": {

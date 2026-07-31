@@ -35,11 +35,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta\\lambda = \\frac{h}{m_e c}(1 - \\cos\\theta), \\quad \\lambda_C = 2.43\\times 10^{-12}\\ \\text{m}",
-        "note": "কম্পটন বিক্ষেপ এর প্রাথমিক রূপ।"
+        "note": "ফোটন ও ইলেকট্রন সংঘর্ষে তরঙ্গদৈর্ঘ্য পরিবর্তন"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\Delta\\lambda = \\frac{h}{m_e c}(1 - \\cos\\theta), \\quad \\lambda_C = 2.43\\times 10^{-12}\\ \\text{m}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Δλ = (h/m_ec)(1 − cosθ) — বিক্ষিপ্ত ফোটনের তরঙ্গদৈর্ঘ্য সর্বদা বাড়ে (শক্তি হারায়)। θ = 180° এ সর্বোচ্চ বৃদ্ধি = 2λ_C।"
       }
     ],
@@ -54,6 +54,11 @@
       "examType": "Eng / Medical",
       "question": "কম্পটন শিফটের সূত্র কী?",
       "answer": "\\Delta\\lambda=\\frac{h}{m_e c}(1-\\cos\\theta)"
+    },
+    {
+      "examType": "Concept",
+      "question": "কম্পটন বিক্ষেপ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\Delta\\lambda = \\frac{h}{m_e c}(1 - \\cos\\theta), \\quad \\lambda_C = 2.43\\times 10^{-12}\\ \\text{m}"
     }
   ],
   "memorize": {

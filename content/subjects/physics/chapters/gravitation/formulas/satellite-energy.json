@@ -34,11 +34,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "v_o = \\sqrt{\\frac{GM}{r}}, \\quad v_e = \\sqrt{2}\\,v_o, \\quad E = -\\frac{GMm}{2r}",
-        "note": "উপগ্রহের কক্ষীয় ও মুক্তি শক্তি এর প্রাথমিক রূপ।"
+        "note": "কক্ষীয় বেগ, মুক্তি বেগ ও মোট শক্তি সম্পর্ক"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "v_o = \\sqrt{\\frac{GM}{r}}, \\quad v_e = \\sqrt{2}\\,v_o, \\quad E = -\\frac{GMm}{2r}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "v_e = √2·v₀ — মুক্তিবেগ কক্ষীয় বেগের ঠিক √2 (≈১.৪১) গুণ। আর মোট শক্তি E = −GMm/(2r) — ঋণাত্মক মানেই বদ্ধ কক্ষপথ।"
       }
     ],
@@ -53,6 +53,11 @@
       "examType": "Eng / HSC",
       "question": "বৃত্তাকার কক্ষে উপগ্রহের মোট শক্তি E কী?",
       "answer": "E=-\\dfrac{GMm}{2r}"
+    },
+    {
+      "examType": "Concept",
+      "question": "উপগ্রহের কক্ষীয় ও মুক্তি শক্তি দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "v_o = \\sqrt{\\frac{GM}{r}}, \\quad v_e = \\sqrt{2}\\,v_o, \\quad E = -\\frac{GMm}{2r}"
     }
   ],
   "memorize": {

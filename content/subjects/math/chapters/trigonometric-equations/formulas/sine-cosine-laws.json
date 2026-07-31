@@ -24,12 +24,12 @@
   "symbols": [
     {
       "symbol": "a",
-      "meaning": "A",
+      "meaning": "সহগ / ধ্রুবক",
       "unit": "একক"
     },
     {
       "symbol": "b",
-      "meaning": "B",
+      "meaning": "সহগ / ধ্রুবক",
       "unit": "একক"
     },
     {
@@ -71,6 +71,11 @@
       "examType": "HSC Board",
       "question": "b=5, c=7 এবং A=60° হলে a কত?",
       "answer": "a^2=25+49-2(5)(7)\\cos60^\\circ=74-35=39\\Rightarrow a=\\sqrt{39}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ত্রিভুজের sine, cosine ও projection সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Sine rule-এ side/তার বিপরীত angle; cosine rule-এ target side-এর বিপরীত angle-এর cos। Cosine rule হলো generalized Pythago}"
     }
   ],
   "memorize": {

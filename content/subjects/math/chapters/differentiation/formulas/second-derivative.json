@@ -3,7 +3,7 @@
   "chapter": "differentiation",
   "title": "Second Derivative",
   "titleBn": "দ্বিতীয় অন্তরক",
-  "summary": "বাঁক/উত্তলতা ও maxima-minima পরীক্ষায়।",
+  "summary": "দ্বিতীয় অন্তরক: বাঁক/উত্তলতা ও maxima-minima পরীক্ষায়।",
   "latex": "\\frac{d^2y}{dx^2}=\\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)",
   "tags": [
     "hsc",
@@ -31,39 +31,42 @@
     }
   ],
   "derivation": {
-    "lead": "বাঁক/উত্তলতা ও maxima-minima পরীক্ষায়।",
+    "lead": "দ্বিতীয় অন্তরক প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{d^2y}{dx^2}=\\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)",
-        "note": "দ্বিতীয় অন্তরক এর প্রাথমিক রূপ।"
+        "note": "দ্বিতীয় অন্তরক: বাঁক/উত্তলতা ও maxima-minima পরীক্ষায়।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\frac{d^2y}{dx^2}=\\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "বাঁক/উত্তলতা ও maxima-minima পরীক্ষায়।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "দ্বিতীয় অন্তরক এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দ্বিতীয় অন্তরক লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\frac{d^2y}{dx^2}=\\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)"
+      "question": "দ্বিতীয় অন্তরক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{d^2y}{dx^2}=\\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)\\text{ — }বাঁক/উত্তলতা ও maxima-minima পরীক্ষায়।"
     },
     {
       "examType": "Concept",
-      "question": "দ্বিতীয় অন্তরক দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{বাঁক/উত্তলতা ও maxima-minima পরীক্ষায়।}"
+      "question": "দ্বিতীয় অন্তরক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{d^2y}{dx^2}=\\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)\\text{ — }বাঁক/উত্তলতা ও maxima-minima পরীক্ষায়।"
     }
   ],
   "memorize": {
     "trick": "বাঁক/উত্তলতা ও maxima-minima পরীক্ষায়।",
     "steps": [
       "বাঁক/উত্তলতা ও maxima-minima পরীক্ষায়।",
-      "মনে রাখো — বাঁক/উত্তলতা ও maxima-minima পরীক্ষায়।",
-      "চিহ্ন চেক: d, y, x"
+      "প্রশ্নে দ্বিতীয় অন্তরক বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: d=d²y/dx², y=অবস্থান।"
     ]
   },
   "subjects": [

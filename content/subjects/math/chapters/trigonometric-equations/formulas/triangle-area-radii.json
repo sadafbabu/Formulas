@@ -71,6 +71,11 @@
       "examType": "Eng Admission",
       "question": "3-4-5 ত্রিভুজের r ও R কত?",
       "answer": "\\Delta=6,\\ s=6;\\ r=\\Delta/s=1,\\quad R=abc/(4\\Delta)=60/24=2.5"
+    },
+    {
+      "examType": "Concept",
+      "question": "ত্রিভুজের ক্ষেত্রফল, অন্তর্বৃত্ত ও পরিবৃত্তের ব্যাসার্ধ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{এক লাইনের master formula: Δ = ½bc sinA = √[s(s−a)(s−b)(s−c)] = rs = abc/(4R)। Data অনুযায়ী অংশটি বেছে নিন।}"
     }
   ],
   "memorize": {

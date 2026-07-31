@@ -3,7 +3,7 @@
   "chapter": "solid-state-chemistry",
   "title": "Schottky Defect",
   "titleBn": "শটকি ত্রুটি",
-  "summary": "Ionic solid-এ দুই vacancy; density decreases।",
+  "summary": "শটকি ত্রুটি: Ionic solid-এ দুই vacancy; density decreases।",
   "latex": "\\text{Schottky: equal cation and anion vacancies}",
   "tags": [
     "hsc",
@@ -16,45 +16,48 @@
   "order": 50,
   "symbols": [
     {
-      "symbol": "Schottky: equal cation and anion vacancies",
-      "meaning": "cation+anion vacancy",
+      "symbol": "\\text{key}",
+      "meaning": "শটকি ত্রুটি এর মূল রাশি",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "Ionic solid-এ দুই vacancy; density decreases।",
+    "lead": "শটকি ত্রুটি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{Schottky: equal cation and anion vacancies}",
-        "note": "শটকি ত্রুটি এর প্রাথমিক রূপ।"
+        "note": "শটকি ত্রুটি: Ionic solid-এ দুই vacancy; density decreases।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{Schottky: equal cation and anion vacancies}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Ionic solid-এ দুই vacancy; density decreases।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শটকি ত্রুটি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{Schottky: equal cation and anion vacancies}"
+      "question": "শটকি ত্রুটি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{Schottky: equal cation and anion vacancies}\\text{ — }Ionic solid-এ দুই vacancy; density decreases।"
     },
     {
       "examType": "Concept",
-      "question": "শটকি ত্রুটি দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Ionic solid-এ দুই vacancy; density decreases।}"
+      "question": "শটকি ত্রুটি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{Schottky: equal cation and anion vacancies}\\text{ — }Ionic solid-এ দুই vacancy; density decreases।"
     }
   ],
   "memorize": {
     "trick": "Ionic solid-এ দুই vacancy; density decreases।",
     "steps": [
       "Ionic solid-এ দুই vacancy; density decreases।",
-      "মনে রাখো — Ionic solid-এ দুই vacancy; density decreases।",
-      "চিহ্ন চেক: Schottky: equal cation and anion vacancies"
+      "প্রশ্নে শটকি ত্রুটি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "একক, চিহ্ন ও সীমাবদ্ধতা যাচাই করে উত্তর লেখো।"
     ]
   },
   "subjects": [

@@ -3,7 +3,7 @@
   "chapter": "linear-programming",
   "title": "Constraint Inequality",
   "titleBn": "সীমাবদ্ধতা অসমতা",
-  "summary": "≤ → origin side feasible (coefficients positive হলে)।",
+  "summary": "সীমাবদ্ধতা অসমতা: ≤ → origin side feasible (coefficients positive হলে)।",
   "latex": "ax+by\\le c",
   "tags": [
     "hsc",
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "≤ → origin side feasible (coefficients positive হলে)।",
+    "lead": "সীমাবদ্ধতা অসমতা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "ax+by\\le c",
-        "note": "সীমাবদ্ধতা অসমতা এর প্রাথমিক রূপ।"
+        "note": "সীমাবদ্ধতা অসমতা: ≤ → origin side feasible (coefficients positive হলে)।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "ax+by\\le c",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "≤ → origin side feasible (coefficients positive হলে)।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "সীমাবদ্ধতা অসমতা এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সীমাবদ্ধতা অসমতা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "ax+by\\le c"
+      "question": "সীমাবদ্ধতা অসমতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "ax+by\\le c\\text{ — }≤ → origin side feasible (coefficients positive হলে)।"
     },
     {
       "examType": "Concept",
-      "question": "সীমাবদ্ধতা অসমতা দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{≤ → origin side feasible (coefficients positive হলে)।}"
+      "question": "সীমাবদ্ধতা অসমতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "ax+by\\le c\\text{ — }≤ → origin side feasible (coefficients positive হলে)।"
     }
   ],
   "memorize": {
     "trick": "≤ → origin side feasible (coefficients positive হলে)।",
     "steps": [
       "≤ → origin side feasible (coefficients positive হলে)।",
-      "মনে রাখো — ≤ → origin side feasible (coefficients positive হলে)।",
-      "চিহ্ন চেক: a, x, b"
+      "প্রশ্নে সীমাবদ্ধতা অসমতা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: a=ax+by≤c, x=অবস্থান / অজানা।"
     ]
   },
   "subjects": [

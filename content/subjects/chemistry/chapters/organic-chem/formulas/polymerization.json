@@ -3,7 +3,7 @@
   "chapter": "organic-chem",
   "title": "Polymerization",
   "titleBn": "পলিমারাইজেশন",
-  "summary": "Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।",
+  "summary": "পলিমারাইজেশন: Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।",
   "latex": "n\\,\\ce{CH2=CH2 -> [-CH2-CH2-]_n}",
   "tags": [
     "hsc",
@@ -32,35 +32,38 @@
     },
     {
       "symbol": "H",
-      "meaning": "চৌম্বক ক্ষেত্র / এনথ্যালপি",
-      "unit": "A/m বা J"
+      "meaning": "এনথ্যালপি",
+      "unit": "J বা kJ"
     }
   ],
   "derivation": {
-    "lead": "Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।",
+    "lead": "পলিমারাইজেশন প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "n\\,\\ce{CH2=CH2 -> [-CH2-CH2-]_n}",
-        "note": "পলিমারাইজেশন এর প্রাথমিক রূপ।"
+        "note": "পলিমারাইজেশন: Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "n\\,\\ce{CH2=CH2 -> [-CH2-CH2-]_n}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পলিমারাইজেশন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "n\\,\\ce{CH2=CH2 -> [-CH2-CH2-]_n}"
+      "question": "পলিমারাইজেশন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।}"
     },
     {
       "examType": "Concept",
-      "question": "পলিমারাইজেশন দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "question": "পলিমারাইজেশন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\text{Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।}"
     }
   ],
@@ -68,8 +71,8 @@
     "trick": "Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।",
     "steps": [
       "Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।",
-      "মনে রাখো — Addition: দ্বিবন্ধন খুলে জোড়া; Condensation: ছোট অণু বেরোয়।",
-      "চিহ্ন চেক: n, ce, C"
+      "প্রশ্নে পলিমারাইজেশন বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: n=যোজন ও ঘনীভবন পলিমার, C=ধারণক্ষমতা / ধারকত্ব।"
     ]
   },
   "subjects": [

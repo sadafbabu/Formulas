@@ -54,6 +54,11 @@
       "examType": "HSC",
       "question": "[HA]=[A⁻], pKa=4.7 হলে pH?",
       "answer": "4.7"
+    },
+    {
+      "examType": "Concept",
+      "question": "হেন্ডারসন–হাসেলবাল্ক সমীকরণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{বাফারে pH ≈ pKa যখন acid = salt; HH: pH = pKa + log(salt/acid)।}"
     }
   ],
   "memorize": {

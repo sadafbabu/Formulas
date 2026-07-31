@@ -19,12 +19,12 @@
     },
     {
       "symbol": "\\vec{b}",
-      "meaning": "\\vec{b} (সূত্রের রাশি)",
+      "meaning": "vecb (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "\\vec{c}",
-      "meaning": "\\vec{c} (সূত্রের রাশি)",
+      "meaning": "vecc (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -34,11 +34,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\vec{a}\\times(\\vec{b}\\times\\vec{c}) = \\vec{b}(\\vec{a}\\cdot\\vec{c}) - \\vec{c}(\\vec{a}\\cdot\\vec{b})",
-        "note": "ভেক্টর ত্রৈগুণিক গুণফল (BAC নিয়ম) এর প্রাথমিক রূপ।"
+        "note": "তিন ভেক্টরের ত্রৈগুণিক গুণফল ও BAC-CAB নিয়ম"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\vec{a}\\times(\\vec{b}\\times\\vec{c}) = \\vec{b}(\\vec{a}\\cdot\\vec{c}) - \\vec{c}(\\vec{a}\\cdot\\vec{b})",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "BAC মাইনাস CAB নিয়ম: a×(b×c) = b(a·c) − c(a·b)। মনে রাখুন 'ব্যাক-ক্যাব' (BAC − CAB) — মাঝেরটা আগে আসে।"
       }
     ],
@@ -53,6 +53,11 @@
       "examType": "HSC / Varsity",
       "question": "ভেক্টর ট্রিপল প্রোডাক্ট আইডেন্টিটি কী?",
       "answer": "\\vec a\\times(\\vec b\\times\\vec c)=(\\vec a\\cdot\\vec c)\\vec b-(\\vec a\\cdot\\vec b)\\vec c"
+    },
+    {
+      "examType": "Concept",
+      "question": "ভেক্টর ত্রৈগুণিক গুণফল (BAC নিয়ম) দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{BAC মাইনাস CAB নিয়ম: a×(b×c) = b(a·c) − c(a·b)। মনে রাখুন 'ব্যাক-ক্যাব' (BAC − CAB) — মাঝেরটা আগে আসে।}"
     }
   ],
   "memorize": {

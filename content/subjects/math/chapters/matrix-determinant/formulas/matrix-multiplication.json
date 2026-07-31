@@ -3,7 +3,7 @@
   "chapter": "matrix-determinant",
   "title": "Matrix Multiplication",
   "titleBn": "ম্যাট্রিক্স গুণ",
-  "summary": "সারি·কলাম; সাধারণত AB≠BA। (AB)_{ij}=\\sum_k a_{ik}b_{kj}",
+  "summary": "ম্যাট্রিক্স গুণ: সারি·কলাম; সাধারণত AB≠BA। (AB)_{ij}=\\sum_k a_{ik}b_{kj}",
   "latex": "(AB)_{ij}=\\sum_k a_{ik}b_{kj}",
   "tags": [
     "hsc",
@@ -36,25 +36,33 @@
     }
   ],
   "derivation": {
-    "lead": "সারি·কলাম; সাধারণত AB≠BA। (AB)_{ij}=\\sum_k a_{ik}b_{kj}",
+    "lead": "ম্যাট্রিক্স গুণ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "(AB)_{ij}=\\sum_k a_{ik}b_{kj}",
-        "note": "ম্যাট্রিক্স গুণ এর প্রাথমিক রূপ।"
+        "note": "ম্যাট্রিক্স গুণ: সারি·কলাম; সাধারণত AB≠BA। (AB)_{ij}=\\sum_k a_{ik}b_{kj}"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "(AB)_{ij}=\\sum_k a_{ik}b_{kj}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "সারি·কলাম; সাধারণত AB≠BA। (AB)_{ij}=\\sum_k a_{ik}b_{kj}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "ম্যাট্রিক্স গুণ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ম্যাট্রিক্স গুণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "ম্যাট্রিক্স গুণ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "(AB)_{ij}=\\sum_k a_{ik}b_{kj}\\text{ — }সারি·কলাম; সাধারণত AB≠BA। (AB)_{ij}=\\sum_k a_{ik}b_{kj}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ম্যাট্রিক্স গুণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "(AB)_{ij}=\\sum_k a_{ik}b_{kj}"
     }
   ],
@@ -62,8 +70,8 @@
     "trick": "সারি·কলাম; সাধারণত AB≠BA। (AB)_{ij}=\\sum_k a_{ik}b_{kj}",
     "steps": [
       "সারি·কলাম; সাধারণত AB≠BA। (AB)_{ij}=\\sum_k a_{ik}b_{kj}",
-      "মনে রাখো — সারি·কলাম; সাধারণত AB≠BA। (AB)_{ij}=\\sum_k a_{ik}b_{kj}",
-      "চিহ্ন চেক: A, B, i"
+      "প্রশ্নে ম্যাট্রিক্স গুণ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: A=সারি×কলাম গুণফল, B=চৌম্বক ক্ষেত্র।"
     ]
   },
   "subjects": [

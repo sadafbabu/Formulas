@@ -3,7 +3,7 @@
   "chapter": "sets-functions",
   "title": "Set Complement",
   "titleBn": "পরিপূরক সেট",
-  "summary": "Universal set-এ যা A-তে নেই = A'।",
+  "summary": "পরিপূরক সেট: Universal set-এ যা A-তে নেই = A'।",
   "latex": "A'=U\\setminus A",
   "tags": [
     "hsc",
@@ -31,39 +31,42 @@
     }
   ],
   "derivation": {
-    "lead": "Universal set-এ যা A-তে নেই = A'।",
+    "lead": "পরিপূরক সেট প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "A'=U\\setminus A",
-        "note": "পরিপূরক সেট এর প্রাথমিক রূপ।"
+        "note": "পরিপূরক সেট: Universal set-এ যা A-তে নেই = A'।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "A'=U\\setminus A",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Universal set-এ যা A-তে নেই = A'।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "পরিপূরক সেট এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরিপূরক সেট লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "A'=U\\setminus A"
+      "question": "পরিপূরক সেট কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "A'=U\\setminus A\\text{ — }Universal set-এ যা A-তে নেই = A'।"
     },
     {
       "examType": "Concept",
-      "question": "পরিপূরক সেট দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Universal set-এ যা A-তে নেই = A'।}"
+      "question": "পরিপূরক সেট কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "A'=U\\setminus A\\text{ — }Universal set-এ যা A-তে নেই = A'।"
     }
   ],
   "memorize": {
     "trick": "Universal set-এ যা A-তে নেই = A'।",
     "steps": [
       "Universal set-এ যা A-তে নেই = A'।",
-      "মনে রাখো — Universal set-এ যা A-তে নেই = A'।",
-      "চিহ্ন চেক: A, U, setminus"
+      "প্রশ্নে পরিপূরক সেট বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: A=ক্ষেত্রফল / বিস্তার, U=বিভব শক্তি।"
     ]
   },
   "subjects": [

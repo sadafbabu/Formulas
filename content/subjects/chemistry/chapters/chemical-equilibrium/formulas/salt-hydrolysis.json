@@ -66,7 +66,12 @@
     {
       "examType": "Varsity Admission",
       "question": "0.10 M \\ce{CH3COONa}-এর pH প্রকৃতি কী?",
-      "answer": "\\ce{CH3COO-}\\ \\text{hydrolysis করে }\\ce{OH-}\\ \\text{দেয়; তাই }\\mathrm{pH}>7\\ \\text{(ক্ষারীয়)}"
+      "answer": "K_h=\\frac{K_w}{K_a}\\ (\\text{দুর্বল acid-এর লবণ}),\\quad \\mathrm{pH}=7+\\tfrac12(pK_a+\\log C)"
+    },
+    {
+      "examType": "Concept",
+      "question": "লবণের আর্দ্রবিশ্লেষণ ও দ্রবণের pH দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{লবণের pH বের করতে ‘যে parent দুর্বল, তার ion hydrolyze করে’। Weak acid + strong base ⇒ basic; weak base + strong acid ⇒ }"
     }
   ],
   "memorize": {

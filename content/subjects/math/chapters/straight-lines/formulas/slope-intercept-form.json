@@ -3,7 +3,7 @@
   "chapter": "straight-lines",
   "title": "Slope-Intercept Form",
   "titleBn": "ঢাল-ছেদ রূপ",
-  "summary": "m=slope, c=y-intercept; quick graphing।",
+  "summary": "ঢাল-ছেদ রূপ: m=slope, c=y-intercept; quick graphing।",
   "latex": "y=mx+c",
   "tags": [
     "hsc",
@@ -21,7 +21,7 @@
     },
     {
       "symbol": "m",
-      "meaning": "ভর",
+      "meaning": "সারি / ঘাত",
       "unit": "kg"
     },
     {
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "m=slope, c=y-intercept; quick graphing।",
+    "lead": "ঢাল-ছেদ রূপ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "y=mx+c",
-        "note": "ঢাল-ছেদ রূপ এর প্রাথমিক রূপ।"
+        "note": "ঢাল-ছেদ রূপ: m=slope, c=y-intercept; quick graphing।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "y=mx+c",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "m=slope, c=y-intercept; quick graphing।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "ঢাল-ছেদ রূপ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ঢাল-ছেদ রূপ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "y=mx+c"
+      "question": "ঢাল-ছেদ রূপ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "y=mx+c\\text{ — }m=slope, c=y-intercept; quick graphing।"
     },
     {
       "examType": "Concept",
-      "question": "ঢাল-ছেদ রূপ দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{m=slope, c=y-intercept; quick graphing।}"
+      "question": "ঢাল-ছেদ রূপ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "y=mx+c\\text{ — }m=slope, c=y-intercept; quick graphing।"
     }
   ],
   "memorize": {
     "trick": "m=slope, c=y-intercept; quick graphing।",
     "steps": [
       "m=slope, c=y-intercept; quick graphing।",
-      "মনে রাখো — m=slope, c=y-intercept; quick graphing।",
-      "চিহ্ন চেক: y, m, x"
+      "প্রশ্নে ঢাল-ছেদ রূপ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: y=y=mx+c, m=সারি / ঘাত।"
     ]
   },
   "subjects": [

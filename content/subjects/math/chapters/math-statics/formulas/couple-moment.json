@@ -3,7 +3,7 @@
   "chapter": "math-statics",
   "title": "Couple Moment",
   "titleBn": "দম্পতি বলের ভ্রাম",
-  "summary": "দুই সমান বিপরীত বল; moment = F×distance between।",
+  "summary": "দম্পতি বলের ভ্রাম: দুই সমান বিপরীত বল; moment = F×distance between।",
   "latex": "M=F\\,d",
   "tags": [
     "hsc",
@@ -21,7 +21,7 @@
     },
     {
       "symbol": "F",
-      "meaning": "বল",
+      "meaning": "ফাংশন",
       "unit": "N"
     },
     {
@@ -31,39 +31,42 @@
     }
   ],
   "derivation": {
-    "lead": "দুই সমান বিপরীত বল; moment = F×distance between।",
+    "lead": "দম্পতি বলের ভ্রাম প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "M=F\\,d",
-        "note": "দম্পতি বলের ভ্রাম এর প্রাথমিক রূপ।"
+        "note": "দম্পতি বলের ভ্রাম: দুই সমান বিপরীত বল; moment = F×distance between।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "M=F\\,d",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "দুই সমান বিপরীত বল; moment = F×distance between।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "দম্পতি বলের ভ্রাম এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দম্পতি বলের ভ্রাম লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "M=F\\,d"
+      "question": "দম্পতি বলের ভ্রাম কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "M=F\\,d\\text{ — }দুই সমান বিপরীত বল; moment = F×distance between।"
     },
     {
       "examType": "Concept",
-      "question": "দম্পতি বলের ভ্রাম দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{দুই সমান বিপরীত বল; moment = Fdistance between।}"
+      "question": "দম্পতি বলের ভ্রাম কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "M=F\\,d\\text{ — }দুই সমান বিপরীত বল; moment = F×distance between।"
     }
   ],
   "memorize": {
     "trick": "দুই সমান বিপরীত বল; moment = F×distance between।",
     "steps": [
       "দুই সমান বিপরীত বল; moment = F×distance between।",
-      "মনে রাখো — দুই সমান বিপরীত বল; moment = F×distance between।",
-      "চিহ্ন চেক: M, F, d"
+      "প্রশ্নে দম্পতি বলের ভ্রাম বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: M=M=Fd, F=ফাংশন।"
     ]
   },
   "subjects": [

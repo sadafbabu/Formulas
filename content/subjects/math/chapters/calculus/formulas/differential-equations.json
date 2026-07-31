@@ -72,6 +72,11 @@
       "examType": "Varsity Admission",
       "question": "\\frac{dy}{dx}=2xy,\\ y(0)=3 সমাধান করুন।",
       "answer": "\\frac{dy}{y}=2x\\,dx\\Rightarrow\\ln y=x^2+C;\\ y=Ce^{x^2};\\ C=3\\Rightarrow y=3e^{x^2}"
+    },
+    {
+      "examType": "Concept",
+      "question": "প্রথম ক্রমের অন্তরক সমীকরণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\frac{dy}{dx}=f(x)g(y)\\Rightarrow\\int\\frac{dy}{g(y)}=\\int f(x)dx,\\quad \\frac{dy}{dx}+Py=Q,\\ IF=e^{\\int Pdx}"
     }
   ],
   "memorize": {

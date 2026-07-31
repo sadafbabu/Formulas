@@ -24,7 +24,7 @@ export function A5Page({
   return (
     <section
       className={`a5-page ${sideClass}${sparse ? ' is-sparse' : ''}`}
-      aria-label={`Page ${page.pageNumber}`}
+      aria-label={`পৃষ্ঠা ${page.pageNumber}`}
     >
       <header className="page-header">
         <div className="page-header-main">

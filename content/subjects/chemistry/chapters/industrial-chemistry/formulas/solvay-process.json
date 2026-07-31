@@ -3,7 +3,7 @@
   "chapter": "industrial-chemistry",
   "title": "Solvay Process",
   "titleBn": "সলভে পদ্ধতি",
-  "summary": "NH₃ + CO₂ + brine → NaHCO₃ → Na₂CO₃; byproduct CaCl₂।",
+  "summary": "সলভে পদ্ধতি: NH₃ + CO₂ + brine → NaHCO₃ → Na₂CO₃; byproduct CaCl₂।",
   "latex": "\\ce{2NaCl + CaCO3 -> Na2CO3 + CaCl2}",
   "tags": [
     "hsc",
@@ -37,30 +37,33 @@
     }
   ],
   "derivation": {
-    "lead": "NH₃ + CO₂ + brine → NaHCO₃ → Na₂CO₃; byproduct CaCl₂।",
+    "lead": "সলভে পদ্ধতি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\ce{2NaCl + CaCO3 -> Na2CO3 + CaCl2}",
-        "note": "সলভে পদ্ধতি এর প্রাথমিক রূপ।"
+        "note": "সলভে পদ্ধতি: NH₃ + CO₂ + brine → NaHCO₃ → Na₂CO₃; byproduct CaCl₂।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\ce{2NaCl + CaCO3 -> Na2CO3 + CaCl2}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "NH₃ + CO₂ + brine → NaHCO₃ → Na₂CO₃; byproduct CaCl₂।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সলভে পদ্ধতি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\ce{2NaCl + CaCO3 -> Na2CO3 + CaCl2}"
+      "question": "সলভে পদ্ধতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{NH₃ + CO₂ + brine → NaHCO₃ → Na₂CO₃; byproduct CaCl₂।}"
     },
     {
       "examType": "Concept",
-      "question": "সলভে পদ্ধতি দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "question": "সলভে পদ্ধতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\text{NH₃ + CO₂ + brine → NaHCO₃ → Na₂CO₃; byproduct CaCl₂।}"
     }
   ],
@@ -68,8 +71,8 @@
     "trick": "NH₃ + CO₂ + brine → NaHCO₃ → Na₂CO₃; byproduct CaCl₂।",
     "steps": [
       "NH₃ + CO₂ + brine → NaHCO₃ → Na₂CO₃; byproduct CaCl₂।",
-      "মনে রাখো — NH₃ + CO₂ + brine → NaHCO₃ → Na₂CO₃; byproduct CaCl₂।",
-      "চিহ্ন চেক: ce, N, a"
+      "প্রশ্নে সলভে পদ্ধতি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: ce=Na₂CO₃ production, N=কণা সংখ্যা।"
     ]
   },
   "subjects": [

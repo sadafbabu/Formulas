@@ -3,7 +3,7 @@
   "chapter": "coordination-chemistry",
   "title": "Crystal Field Splitting",
   "titleBn": "ক্রিস্টাল ক্ষেত্র বিভাজন",
-  "summary": "Octahedral: eg vs t2g; color from d-d transition।",
+  "summary": "ক্রিস্টাল ক্ষেত্র বিভাজন: Octahedral: eg vs t2g; color from d-d transition।",
   "latex": "\\Delta_0=\\text{energy gap between }e_g\\text{ and }t_{2g}",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "Octahedral: eg vs t2g; color from d-d transition।",
+    "lead": "ক্রিস্টাল ক্ষেত্র বিভাজন প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta_0=\\text{energy gap between }e_g\\text{ and }t_{2g}",
-        "note": "ক্রিস্টাল ক্ষেত্র বিভাজন এর প্রাথমিক রূপ।"
+        "note": "ক্রিস্টাল ক্ষেত্র বিভাজন: Octahedral: eg vs t2g; color from d-d transition।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\Delta_0=\\text{energy gap between }e_g\\text{ and }t_{2g}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Octahedral: eg vs t2g; color from d-d transition।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্রিস্টাল ক্ষেত্র বিভাজন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\Delta_0=\\text{energy gap between }e_g\\text{ and }t_{2g}"
+      "question": "ক্রিস্টাল ক্ষেত্র বিভাজন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\Delta_0=\\text{energy gap between }e_g\\text{ and }t_{2g}\\text{ — }Octahedral: eg vs t2g; color from d-d transition।"
     },
     {
       "examType": "Concept",
-      "question": "ক্রিস্টাল ক্ষেত্র বিভাজন দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Octahedral: eg vs t2g; color from d-d transition।}"
+      "question": "ক্রিস্টাল ক্ষেত্র বিভাজন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\Delta_0=\\text{energy gap between }e_g\\text{ and }t_{2g}\\text{ — }Octahedral: eg vs t2g; color from d-d transition।"
     }
   ],
   "memorize": {
     "trick": "Octahedral: eg vs t2g; color from d-d transition।",
     "steps": [
       "Octahedral: eg vs t2g; color from d-d transition।",
-      "মনে রাখো — Octahedral: eg vs t2g; color from d-d transition।",
-      "চিহ্ন চেক: Delta, energy gap between, e"
+      "প্রশ্নে ক্রিস্টাল ক্ষেত্র বিভাজন বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: Delta=পরিবর্তন, e=ইলেকট্রন চার্জ / ভিত্তি।"
     ]
   },
   "subjects": [

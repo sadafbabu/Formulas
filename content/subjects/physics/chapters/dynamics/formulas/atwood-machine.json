@@ -64,6 +64,11 @@
       "examType": "Admission",
       "question": "m₁=5 kg, m₂=3 kg। a ও T কত? (g=10)",
       "answer": "a=\\dfrac{2}{8}\\cdot10=2.5\\mathrm{m/s^2},\\ T=\\dfrac{2\\cdot5\\cdot3}{8}\\cdot10=37.5\\mathrm{N}"
+    },
+    {
+      "examType": "Concept",
+      "question": "অ্যাটউড যন্ত্র ও সংযুক্ত বস্তু দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{a = Δm·g/Σm; T = 2m₁m₂g/(m₁+m₂) — পার্থক্য ত্বরণ, গুণফল টান।}"
     }
   ],
   "memorize": {

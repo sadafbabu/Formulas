@@ -3,7 +3,7 @@
   "chapter": "measurement",
   "title": "Error in Product/Quotient",
   "titleBn": "গুণ/ভাগে ত্রুটি",
-  "summary": "গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।",
+  "summary": "গুণ/ভাগে ত্রুটি: গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।",
   "latex": "\\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y)",
   "tags": [
     "hsc",
@@ -32,39 +32,42 @@
     }
   ],
   "derivation": {
-    "lead": "গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।",
+    "lead": "গুণ/ভাগে ত্রুটি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y)",
-        "note": "গুণ/ভাগে ত্রুটি এর প্রাথমিক রূপ।"
+        "note": "গুণ/ভাগে ত্রুটি: গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y)",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গুণ/ভাগে ত্রুটি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y)"
+      "question": "গুণ/ভাগে ত্রুটি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y)\\text{ — }গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।"
     },
     {
       "examType": "Concept",
-      "question": "গুণ/ভাগে ত্রুটি দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।}"
+      "question": "গুণ/ভাগে ত্রুটি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{\\Delta z}{z}=\\frac{\\Delta x}{x}+\\frac{\\Delta y}{y}\\quad(z=xy\\text{ বা }x/y)\\text{ — }গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।"
     }
   ],
   "memorize": {
     "trick": "গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।",
     "steps": [
       "গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।",
-      "মনে রাখো — গুণ বা ভাগে আপেক্ষিক ত্রুটি যোগ হয়।",
-      "চিহ্ন চেক: z, x, y"
+      "প্রশ্নে গুণ/ভাগে ত্রুটি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: z=গুণ/ভাগে ত্রুটি, x=অবস্থান / অজানা।"
     ]
   },
   "subjects": [

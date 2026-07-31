@@ -16,8 +16,8 @@
   "order": 110,
   "symbols": [
     {
-      "symbol": "sulphide ore particles attach to froth; gangue sinks",
-      "meaning": "sulphide ore concentration",
+      "symbol": "\\text{key}",
+      "meaning": "ফেন ভাসান পদ্ধতি এর মূল রাশি",
       "unit": "—"
     }
   ],
@@ -27,34 +27,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{sulphide ore particles attach to froth; gangue sinks}",
-        "note": "ফেন ভাসান পদ্ধতি এর প্রাথমিক রূপ।"
+        "note": "সালফাইড আকরিক নির্বাচনী ভাসান।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{sulphide ore particles attach to froth; gangue sinks}",
-        "note": "সালফাইড আকরিক নির্বাচনী ভাসান।"
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "note": "সালফাইড আকরিক নির্বাচনী ভাসান। — ফেন ভাসান পদ্ধতি মনে রাখার চাবিকাঠি।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফেন ভাসান পদ্ধতি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{sulphide ore particles attach to froth; gangue sinks}"
+      "question": "ফেন ভাসান পদ্ধতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{sulphide ore particles attach to froth; gangue sinks}\\text{ — }সালফাইড আকরিক নির্বাচনী ভাসান। — ফেন ভাসান পদ্ধতি মনে রাখার চাবিকাঠি।"
     },
     {
       "examType": "Concept",
-      "question": "ফেন ভাসান পদ্ধতি দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{সালফাইড আকরিক নির্বাচনী ভাসান।}"
+      "question": "ফেন ভাসান পদ্ধতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{sulphide ore particles attach to froth; gangue sinks}\\text{ — }সালফাইড আকরিক নির্বাচনী ভাসান। — ফেন ভাসান পদ্ধতি মনে রাখার চাবিকাঠি।"
     }
   ],
   "memorize": {
     "trick": "সালফাইড আকরিক নির্বাচনী ভাসান। — ফেন ভাসান পদ্ধতি মনে রাখার চাবিকাঠি।",
     "steps": [
-      "সালফাইড আকরিক নির্বাচনী ভাসান।",
-      "মনে রাখো — সালফাইড আকরিক নির্বাচনী ভাসান।",
-      "চিহ্ন চেক: sulphide ore particles attach to froth; gangue sinks"
+      "সালফাইড আকরিক নির্বাচনী ভাসান। — ফেন ভাসান পদ্ধতি মনে রাখার চাবিকাঠি।",
+      "প্রশ্নে ফেন ভাসান পদ্ধতি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "একক, চিহ্ন ও সীমাবদ্ধতা যাচাই করে উত্তর লেখো।"
     ]
   },
   "subjects": [

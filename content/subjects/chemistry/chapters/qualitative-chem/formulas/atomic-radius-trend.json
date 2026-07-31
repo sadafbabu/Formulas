@@ -3,7 +3,7 @@
   "chapter": "qualitative-chem",
   "title": "Atomic Radius Trend",
   "titleBn": "পারমাণবিক ব্যাসার্ধের প্রবণতা",
-  "summary": "বামে→ডানে ছোট; উপরে→নিচে বড়। r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
+  "summary": "পারমাণবিক ব্যাসার্ধের প্রবণতা: বামে→ডানে ছোট; উপরে→নিচে বড়। r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
   "latex": "r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
   "tags": [
     "hsc",
@@ -37,34 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "বামে→ডানে ছোট; উপরে→নিচে বড়। r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
+    "lead": "পারমাণবিক ব্যাসার্ধের প্রবণতা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
-        "note": "পারমাণবিক ব্যাসার্ধের প্রবণতা এর প্রাথমিক রূপ।"
+        "note": "পারমাণবিক ব্যাসার্ধের প্রবণতা: বামে→ডানে ছোট; উপরে→নিচে বড়। r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "বামে→ডানে ছোট; উপরে→নিচে বড়। r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পারমাণবিক ব্যাসার্ধের প্রবণতা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "পারমাণবিক ব্যাসার্ধের প্রবণতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}"
+    },
+    {
+      "examType": "Concept",
+      "question": "পারমাণবিক ব্যাসার্ধের প্রবণতা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{বামে→ডানে ছোট; উপরে→নিচে বড়। rdownarrowtext across period;quad ruparrowtext down group}"
     }
   ],
   "memorize": {
     "trick": "বামে→ডানে ছোট; উপরে→নিচে বড়। r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
     "steps": [
       "বামে→ডানে ছোট; উপরে→নিচে বড়। r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
-      "মনে রাখো — বামে→ডানে ছোট; উপরে→নিচে বড়। r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}",
-      "চিহ্ন চেক: r, downarrow, across period"
+      "প্রশ্নে পারমাণবিক ব্যাসার্ধের প্রবণতা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: r=radius across/down।"
     ]
   },
   "subjects": [

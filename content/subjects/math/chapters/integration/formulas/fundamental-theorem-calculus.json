@@ -3,7 +3,7 @@
   "chapter": "integration",
   "title": "Fundamental Theorem of Calculus",
   "titleBn": "ক্যালকুলাসের মৌলিক উপপাদ্য",
-  "summary": "যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
+  "summary": "ক্যালকুলাসের মৌলিক উপপাদ্য: যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
   "latex": "\\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
   "tags": [
     "hsc",
@@ -25,50 +25,48 @@
       "unit": "m"
     },
     {
-      "symbol": "int",
-      "meaning": "int (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
       "symbol": "a",
-      "meaning": "ত্বরণ",
+      "meaning": "সহগ / ধ্রুবক",
       "unit": "m/s²"
     }
   ],
   "derivation": {
-    "lead": "যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
+    "lead": "ক্যালকুলাসের মৌলিক উপপাদ্য প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
-        "note": "ক্যালকুলাসের মৌলিক উপপাদ্য এর প্রাথমিক রূপ।"
+        "note": "ক্যালকুলাসের মৌলিক উপপাদ্য: যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "ক্যালকুলাসের মৌলিক উপপাদ্য এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্যালকুলাসের মৌলিক উপপাদ্য এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "ক্যালকুলাসের মৌলিক উপপাদ্য কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)\\text{ — }যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)"
     },
     {
       "examType": "Concept",
-      "question": "ক্যালকুলাসের মৌলিক উপপাদ্য দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{frac d dx int a x f(t) ,dt=f(x)}"
+      "question": "ক্যালকুলাসের মৌলিক উপপাদ্য কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)\\text{ — }যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)"
     }
   ],
   "memorize": {
     "trick": "যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
     "steps": [
       "যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
-      "মনে রাখো — যোগজের অন্তরক = মূল ফাংশন। \\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)",
-      "চিহ্ন চেক: d, x, int"
+      "প্রশ্নে ক্যালকুলাসের মৌলিক উপপাদ্য বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: d=d/dx ∫_a^x f = f(x), x=অবস্থান / অজানা।"
     ]
   },
   "subjects": [

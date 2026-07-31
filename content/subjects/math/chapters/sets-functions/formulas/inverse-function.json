@@ -3,7 +3,7 @@
   "chapter": "sets-functions",
   "title": "Inverse Function",
   "titleBn": "বিপরীত ফাংশন",
-  "summary": "f⁻¹ exists iff f one-to-one; graph = mirror y=x।",
+  "summary": "বিপরীত ফাংশন: f⁻¹ exists iff f one-to-one; graph = mirror y=x।",
   "latex": "f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y",
   "tags": [
     "hsc",
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "f⁻¹ exists iff f one-to-one; graph = mirror y=x।",
+    "lead": "বিপরীত ফাংশন প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y",
-        "note": "বিপরীত ফাংশন এর প্রাথমিক রূপ।"
+        "note": "বিপরীত ফাংশন: f⁻¹ exists iff f one-to-one; graph = mirror y=x।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "f⁻¹ exists iff f one-to-one; graph = mirror y=x।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "বিপরীত ফাংশন এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিপরীত ফাংশন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y"
+      "question": "বিপরীত ফাংশন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y\\text{ — }f⁻¹ exists iff f one-to-one; graph = mirror y=x।"
     },
     {
       "examType": "Concept",
-      "question": "বিপরীত ফাংশন দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{f⁻¹ exists iff f one-to-one; graph = mirror y=x।}"
+      "question": "বিপরীত ফাংশন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "f^{-1}(f(x))=x\\quad\\text{and}\\quad f(f^{-1}(y))=y\\text{ — }f⁻¹ exists iff f one-to-one; graph = mirror y=x।"
     }
   ],
   "memorize": {
     "trick": "f⁻¹ exists iff f one-to-one; graph = mirror y=x।",
     "steps": [
       "f⁻¹ exists iff f one-to-one; graph = mirror y=x।",
-      "মনে রাখো — f⁻¹ exists iff f one-to-one; graph = mirror y=x।",
-      "চিহ্ন চেক: f, x, and"
+      "প্রশ্নে বিপরীত ফাংশন বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: f=কম্পাঙ্ক / বল (প্রসঙ্গমতে), x=অবস্থান / অজানা।"
     ]
   },
   "subjects": [

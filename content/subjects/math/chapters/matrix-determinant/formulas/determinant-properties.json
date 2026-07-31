@@ -3,7 +3,7 @@
   "chapter": "matrix-determinant",
   "title": "Determinant Properties",
   "titleBn": "নির্ণায়কের ধর্ম",
-  "summary": "Row swap → sign change; two equal rows → det=0।",
+  "summary": "নির্ণায়কের ধর্ম: Row swap → sign change; two equal rows → det=0।",
   "latex": "|A^T|=|A|;\\quad |AB|=|A||B|",
   "tags": [
     "hsc",
@@ -31,39 +31,42 @@
     }
   ],
   "derivation": {
-    "lead": "Row swap → sign change; two equal rows → det=0।",
+    "lead": "নির্ণায়কের ধর্ম প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "|A^T|=|A|;\\quad |AB|=|A||B|",
-        "note": "নির্ণায়কের ধর্ম এর প্রাথমিক রূপ।"
+        "note": "নির্ণায়কের ধর্ম: Row swap → sign change; two equal rows → det=0।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "|A^T|=|A|;\\quad |AB|=|A||B|",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Row swap → sign change; two equal rows → det=0।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "নির্ণায়কের ধর্ম এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "নির্ণায়কের ধর্ম লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "|A^T|=|A|;\\quad |AB|=|A||B|"
+      "question": "নির্ণায়কের ধর্ম কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "|A^T|=|A|;\\quad |AB|=|A||B|\\text{ — }Row swap → sign change; two equal rows → det=0।"
     },
     {
       "examType": "Concept",
-      "question": "নির্ণায়কের ধর্ম দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Row swap → sign change; two equal rows → det=0।}"
+      "question": "নির্ণায়কের ধর্ম কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "|A^T|=|A|;\\quad |AB|=|A||B|\\text{ — }Row swap → sign change; two equal rows → det=0।"
     }
   ],
   "memorize": {
     "trick": "Row swap → sign change; two equal rows → det=0।",
     "steps": [
       "Row swap → sign change; two equal rows → det=0।",
-      "মনে রাখো — Row swap → sign change; two equal rows → det=0।",
-      "চিহ্ন চেক: A, T, B"
+      "প্রশ্নে নির্ণায়কের ধর্ম বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: A=row interchange, T=পর্যায়কাল / তাপমাত্রা।"
     ]
   },
   "subjects": [

@@ -3,7 +3,7 @@
   "chapter": "permutation-combination",
   "title": "Sum of Combinations",
   "titleBn": "সমাবেশের সমষ্টি",
-  "summary": "Binomial row sum = 2^n; Pascal's triangle।",
+  "summary": "সমাবেশের সমষ্টি: Binomial row sum = 2^n; Pascal's triangle।",
   "latex": "\\binom{n}{0}+\\binom{n}{1}+\\cdots+\\binom{n}{n}=2^n",
   "tags": [
     "hsc",
@@ -23,47 +23,45 @@
       "symbol": "n",
       "meaning": "মোল সংখ্যা / কোটি",
       "unit": "mol"
-    },
-    {
-      "symbol": "cdots",
-      "meaning": "cdots (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "Binomial row sum = 2^n; Pascal's triangle।",
+    "lead": "সমাবেশের সমষ্টি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\binom{n}{0}+\\binom{n}{1}+\\cdots+\\binom{n}{n}=2^n",
-        "note": "সমাবেশের সমষ্টি এর প্রাথমিক রূপ।"
+        "note": "সমাবেশের সমষ্টি: Binomial row sum = 2^n; Pascal's triangle।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\binom{n}{0}+\\binom{n}{1}+\\cdots+\\binom{n}{n}=2^n",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Binomial row sum = 2^n; Pascal's triangle।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "সমাবেশের সমষ্টি এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমাবেশের সমষ্টি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\binom{n}{0}+\\binom{n}{1}+\\cdots+\\binom{n}{n}=2^n"
+      "question": "সমাবেশের সমষ্টি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\binom{n}{0}+\\binom{n}{1}+\\cdots+\\binom{n}{n}=2^n\\text{ — }Binomial row sum = 2^n; Pascal's triangle।"
     },
     {
       "examType": "Concept",
-      "question": "সমাবেশের সমষ্টি দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Binomial row sum = 2 n; Pascal's triangle।}"
+      "question": "সমাবেশের সমষ্টি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\binom{n}{0}+\\binom{n}{1}+\\cdots+\\binom{n}{n}=2^n\\text{ — }Binomial row sum = 2^n; Pascal's triangle।"
     }
   ],
   "memorize": {
     "trick": "Binomial row sum = 2^n; Pascal's triangle।",
     "steps": [
       "Binomial row sum = 2^n; Pascal's triangle।",
-      "মনে রাখো — Binomial row sum = 2^n; Pascal's triangle।",
-      "চিহ্ন চেক: binom, n, cdots"
+      "প্রশ্নে সমাবেশের সমষ্টি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: binom=nC0+nC1+..., n=মোল সংখ্যা / কোটি।"
     ]
   },
   "subjects": [

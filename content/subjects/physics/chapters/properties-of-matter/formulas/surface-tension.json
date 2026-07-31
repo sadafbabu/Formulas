@@ -37,7 +37,7 @@
     },
     {
       "symbol": "\\Delta A",
-      "meaning": "\\Delta A (সূত্রের রাশি)",
+      "meaning": "Delta A (সূত্রের রাশি)",
       "unit": "J, m²"
     }
   ],
@@ -47,11 +47,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "S=\\dfrac{F}{l}=\\dfrac{W}{\\Delta A}",
-        "note": "পৃষ্ঠটান এর প্রাথমিক রূপ।"
+        "note": "S = F/l = W/ΔA — পৃষ্ঠ টান"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "S=\\dfrac{F}{l}=\\dfrac{W}{\\Delta A}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "S=F/l; সাবান ফিল্মে দুই পৃষ্ঠ → F=2Sl।"
       }
     ],
@@ -64,6 +64,11 @@
       "examType": "HSC",
       "question": "সাবান ফিল্মের দৈর্ঘ্য l-এ বল?",
       "answer": "F=2Sl"
+    },
+    {
+      "examType": "Concept",
+      "question": "পৃষ্ঠটান দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{S=F/l; সাবান ফিল্মে দুই পৃষ্ঠ → F=2Sl।}"
     }
   ],
   "memorize": {

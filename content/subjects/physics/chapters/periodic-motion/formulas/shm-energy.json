@@ -55,11 +55,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "E = \\frac{1}{2}m\\omega^2 A^2, \\quad KE = \\frac{1}{2}m\\omega^2(A^2 - x^2), \\quad PE = \\frac{1}{2}m\\omega^2 x^2",
-        "note": "সরল ছন্দিত স্পন্দনের মোট শক্তি এর প্রাথমিক রূপ।"
+        "note": "SHM-এর গতিশক্তি, বিভবশক্তি ও মোট শক্তি"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "E = \\frac{1}{2}m\\omega^2 A^2, \\quad KE = \\frac{1}{2}m\\omega^2(A^2 - x^2), \\quad PE = \\frac{1}{2}m\\omega^2 x^2",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "মোট শক্তি E = ½mω²A² — ধ্রুব, সর্বত্র একই। প্রান্তে সব PE, কেন্দ্রে সব KE। 'KE-তে (A² − x²), PE-তে x²' — যোগ করলেই A²।"
       }
     ],
@@ -74,6 +74,11 @@
       "examType": "HSC / Medical",
       "question": "SHM-এ মোট শক্তি E কী?",
       "answer": "E=\\tfrac12 m\\omega^2 A^2"
+    },
+    {
+      "examType": "Concept",
+      "question": "সরল ছন্দিত স্পন্দনের মোট শক্তি দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{মোট শক্তি E = ½mω²A² — ধ্রুব, সর্বত্র একই। প্রান্তে সব PE, কেন্দ্রে সব KE। 'KE-তে (A² − x²), PE-তে x²' — যোগ করলেই A²।}"
     }
   ],
   "memorize": {

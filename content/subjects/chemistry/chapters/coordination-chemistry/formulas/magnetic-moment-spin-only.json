@@ -3,7 +3,7 @@
   "chapter": "coordination-chemistry",
   "title": "Spin-Only Magnetic Moment",
   "titleBn": "স্পিন-মাত্র চৌম্বক মুহূর্ত",
-  "summary": "n=unpaired electrons; √n(n+2) BM formula।",
+  "summary": "স্পিন-মাত্র চৌম্বক মুহূর্ত: n=unpaired electrons; √n(n+2) BM formula।",
   "latex": "\\mu=\\sqrt{n(n+2)}\\ \\text{BM}",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "n=unpaired electrons; √n(n+2) BM formula।",
+    "lead": "স্পিন-মাত্র চৌম্বক মুহূর্ত প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\mu=\\sqrt{n(n+2)}\\ \\text{BM}",
-        "note": "স্পিন-মাত্র চৌম্বক মুহূর্ত এর প্রাথমিক রূপ।"
+        "note": "স্পিন-মাত্র চৌম্বক মুহূর্ত: n=unpaired electrons; √n(n+2) BM formula।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\mu=\\sqrt{n(n+2)}\\ \\text{BM}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "n=unpaired electrons; √n(n+2) BM formula।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্পিন-মাত্র চৌম্বক মুহূর্ত এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "স্পিন-মাত্র চৌম্বক মুহূর্ত কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\mu=\\sqrt{n(n+2)}\\ \\text{BM}\\text{ — }n=unpaired electrons; √n(n+2) BM formula।"
     },
     {
       "examType": "Concept",
-      "question": "স্পিন-মাত্র চৌম্বক মুহূর্ত দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{n=unpaired electrons; √n(n+2) BM formula।}"
+      "question": "স্পিন-মাত্র চৌম্বক মুহূর্ত কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mu=\\sqrt{n(n+2)}\\ \\text{BM}\\text{ — }n=unpaired electrons; √n(n+2) BM formula।"
     }
   ],
   "memorize": {
     "trick": "n=unpaired electrons; √n(n+2) BM formula।",
     "steps": [
       "n=unpaired electrons; √n(n+2) BM formula।",
-      "মনে রাখো — n=unpaired electrons; √n(n+2) BM formula।",
-      "চিহ্ন চেক: mu, sqrt, n"
+      "প্রশ্নে স্পিন-মাত্র চৌম্বক মুহূর্ত বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: mu=μ=√n(n+2) BM, n=মোল সংখ্যা / কোটি।"
     ]
   },
   "subjects": [

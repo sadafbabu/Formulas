@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { Katex } from '../components/Katex'
 import { MathOrText } from '../components/MathOrText'
@@ -11,18 +11,30 @@ import { stripDollarMath, toLatexSymbol } from '../utils/mathText'
 export function FormulaDetailPage() {
   const { id } = useParams()
   const formula = id ? getFormula(id) : undefined
-  const [params] = useSearchParams()
+  const [params, setParams] = useSearchParams()
   const [query, setQuery] = useState(() => params.get('q') ?? '')
   const navigate = useNavigate()
   const chapterId =
     params.get('chapter') || formula?.chapter || defaultChapterId
 
+  useEffect(() => {
+    setQuery(params.get('q') ?? '')
+  }, [params])
+
+  const setQuerySynced = (value: string) => {
+    setQuery(value)
+    const next = new URLSearchParams(params)
+    const trimmed = value.trim()
+    if (trimmed) next.set('q', trimmed)
+    else next.delete('q')
+    setParams(next, { replace: true })
+  }
+
   const setChapterId = (nextId: string) => {
     navigate(
       bookReturnPath({
         chapter: nextId,
-        tag: params.get('tag'),
-        query: params.get('q'),
+        query: params.get('q') ?? query,
       }),
     )
   }
@@ -30,7 +42,7 @@ export function FormulaDetailPage() {
   const backTo = bookReturnPath({
     chapter: chapterId,
     tag: params.get('tag'),
-    query: params.get('q'),
+    query: params.get('q') ?? query,
     page: params.get('page'),
   })
 
@@ -40,7 +52,7 @@ export function FormulaDetailPage() {
         <NavMenu
           floating
           query={query}
-          onQueryChange={setQuery}
+          onQueryChange={setQuerySynced}
           chapterId={chapterId}
           onChapterChange={setChapterId}
         />
@@ -75,7 +87,7 @@ export function FormulaDetailPage() {
       <NavMenu
         floating
         query={query}
-        onQueryChange={setQuery}
+        onQueryChange={setQuerySynced}
         chapterId={chapterId}
         onChapterChange={setChapterId}
       />

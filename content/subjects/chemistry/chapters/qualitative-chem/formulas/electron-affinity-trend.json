@@ -19,11 +19,6 @@
       "symbol": "EA",
       "meaning": "EA trends",
       "unit": "—"
-    },
-    {
-      "symbol": "generally increases across a period (more negative)",
-      "meaning": "generally increases across a period (more negative) (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
@@ -32,34 +27,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{EA}\\text{ generally increases across a period (more negative)}",
-        "note": "ইলেকট্রন আসক্তির প্রবণতা এর প্রাথমিক রূপ।"
+        "note": "হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\mathrm{EA}\\text{ generally increases across a period (more negative)}",
-        "note": "হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।"
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "note": "হ্যালোজেনে EA সবচেয়ে ঋণাত্মক। — ইলেকট্রন আসক্তির প্রবণতা মনে রাখার চাবিকাঠি।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ইলেকট্রন আসক্তির প্রবণতা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\mathrm{EA}\\text{ generally increases across a period (more negative)}"
+      "question": "ইলেকট্রন আসক্তির প্রবণতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{EA}\\text{ generally increases across a period (more negative)}\\text{ — }হ্যালোজেনে EA সবচেয়ে ঋণাত্মক। — ইলেকট্রন আসক্তির প্রবণতা মনে রাখার চাবিকাঠি।"
     },
     {
       "examType": "Concept",
-      "question": "ইলেকট্রন আসক্তির প্রবণতা দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।}"
+      "question": "ইলেকট্রন আসক্তির প্রবণতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{EA}\\text{ generally increases across a period (more negative)}\\text{ — }হ্যালোজেনে EA সবচেয়ে ঋণাত্মক। — ইলেকট্রন আসক্তির প্রবণতা মনে রাখার চাবিকাঠি।"
     }
   ],
   "memorize": {
     "trick": "হ্যালোজেনে EA সবচেয়ে ঋণাত্মক। — ইলেকট্রন আসক্তির প্রবণতা মনে রাখার চাবিকাঠি।",
     "steps": [
-      "হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।",
-      "মনে রাখো — হ্যালোজেনে EA সবচেয়ে ঋণাত্মক।",
-      "চিহ্ন চেক: EA, generally increases across a period (more negative)"
+      "হ্যালোজেনে EA সবচেয়ে ঋণাত্মক। — ইলেকট্রন আসক্তির প্রবণতা মনে রাখার চাবিকাঠি।",
+      "প্রশ্নে ইলেকট্রন আসক্তির প্রবণতা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: EA=EA trends।"
     ]
   },
   "subjects": [

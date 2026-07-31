@@ -3,7 +3,7 @@
   "chapter": "trigonometric-equations",
   "title": "tan 2A",
   "titleBn": "tan ২A",
-  "summary": "ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।",
+  "summary": "tan ২A: ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।",
   "latex": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}",
   "tags": [
     "hsc",
@@ -21,39 +21,42 @@
     }
   ],
   "derivation": {
-    "lead": "ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।",
+    "lead": "tan ২A প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}",
-        "note": "tan ২A এর প্রাথমিক রূপ।"
+        "note": "tan ২A: ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "tan ২A এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "tan ২A লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}"
+      "question": "tan ২A কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}\\text{ — }ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।"
     },
     {
       "examType": "Concept",
-      "question": "tan ২A দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{ভাজকে ১tanA; শূন্য হলে অসংজ্ঞাত।}"
+      "question": "tan ২A কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2 A}\\text{ — }ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।"
     }
   ],
   "memorize": {
     "trick": "ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।",
     "steps": [
       "ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।",
-      "মনে রাখো — ভাজকে ১−tan²A; শূন্য হলে অসংজ্ঞাত।",
-      "চিহ্ন চেক: A"
+      "প্রশ্নে tan ২A বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: A=2tanA/(1−tan²A)।"
     ]
   },
   "subjects": [

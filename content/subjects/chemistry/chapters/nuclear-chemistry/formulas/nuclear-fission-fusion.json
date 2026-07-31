@@ -3,7 +3,7 @@
   "chapter": "nuclear-chemistry",
   "title": "Fission & Fusion",
   "titleBn": "বিভাজন ও সংযোজন",
-  "summary": "বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।",
+  "summary": "বিভাজন ও সংযোজন: বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।",
   "latex": "\\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\text{heavier}",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।",
+    "lead": "বিভাজন ও সংযোজন প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\text{heavier}",
-        "note": "বিভাজন ও সংযোজন এর প্রাথমিক রূপ।"
+        "note": "বিভাজন ও সংযোজন: বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\text{heavier}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বিভাজন ও সংযোজন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\text{heavier}"
+      "question": "বিভাজন ও সংযোজন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\text{heavier}\\text{ — }বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।"
     },
     {
       "examType": "Concept",
-      "question": "বিভাজন ও সংযোজন দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।}"
+      "question": "বিভাজন ও সংযোজন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{fission: heavy}\\to\\text{lighter}+\\text{energy};\\ \\text{fusion: light}\\to\\text{heavier}\\text{ — }বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।"
     }
   ],
   "memorize": {
     "trick": "বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।",
     "steps": [
       "বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।",
-      "মনে রাখো — বিভাজন ইউরেনিয়াম; সংযোজন সূর্যের শক্তি।",
-      "চিহ্ন চেক: fission: heavy, lighter, energy"
+      "প্রশ্নে বিভাজন ও সংযোজন বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: fission: heavy=heavy split / light join।"
     ]
   },
   "subjects": [

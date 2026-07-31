@@ -3,7 +3,7 @@
   "chapter": "calculus",
   "title": "Implicit Differentiation",
   "titleBn": "অন্তর্নিহিত অন্তরীকরণ",
-  "summary": "দুই পাশে d/dx; dy/dx কে আলাদা করুন।",
+  "summary": "অন্তর্নিহিত অন্তরীকরণ: দুই পাশে d/dx; dy/dx কে আলাদা করুন।",
   "latex": "F(x,y)=0\\Rightarrow\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
   "tags": [
     "hsc",
@@ -16,7 +16,7 @@
   "symbols": [
     {
       "symbol": "F",
-      "meaning": "বল",
+      "meaning": "ফাংশন",
       "unit": "N"
     },
     {
@@ -28,47 +28,45 @@
       "symbol": "y",
       "meaning": "অবস্থান",
       "unit": "m"
-    },
-    {
-      "symbol": "Rightarrow",
-      "meaning": "Rightarrow (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "দুই পাশে d/dx; dy/dx কে আলাদা করুন।",
+    "lead": "অন্তর্নিহিত অন্তরীকরণ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "F(x,y)=0\\Rightarrow\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
-        "note": "অন্তর্নিহিত অন্তরীকরণ এর প্রাথমিক রূপ।"
+        "note": "অন্তর্নিহিত অন্তরীকরণ: দুই পাশে d/dx; dy/dx কে আলাদা করুন।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "F(x,y)=0\\Rightarrow\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "দুই পাশে d/dx; dy/dx কে আলাদা করুন।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "অন্তর্নিহিত অন্তরীকরণ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অন্তর্নিহিত অন্তরীকরণ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "অন্তর্নিহিত অন্তরীকরণ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "F(x,y)=0\\Rightarrow\\frac{dy}{dx}=-\\frac{F_x}{F_y}\\text{ — }দুই পাশে d/dx; dy/dx কে আলাদা করুন।"
     },
     {
       "examType": "Concept",
-      "question": "অন্তর্নিহিত অন্তরীকরণ দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{দুই পাশে d/dx; dy/dx কে আলাদা করুন।}"
+      "question": "অন্তর্নিহিত অন্তরীকরণ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "F(x,y)=0\\Rightarrow\\frac{dy}{dx}=-\\frac{F_x}{F_y}\\text{ — }দুই পাশে d/dx; dy/dx কে আলাদা করুন।"
     }
   ],
   "memorize": {
     "trick": "দুই পাশে d/dx; dy/dx কে আলাদা করুন।",
     "steps": [
       "দুই পাশে d/dx; dy/dx কে আলাদা করুন।",
-      "মনে রাখো — দুই পাশে d/dx; dy/dx কে আলাদা করুন।",
-      "চিহ্ন চেক: F, x, y"
+      "প্রশ্নে অন্তর্নিহিত অন্তরীকরণ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: F=ফাংশন, x=y)=0 থেকে dy/dx।"
     ]
   },
   "subjects": [

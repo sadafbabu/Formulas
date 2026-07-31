@@ -3,7 +3,7 @@
   "chapter": "qualitative-chem",
   "title": "Iodoform Test",
   "titleBn": "আয়োডোফর্ম পরীক্ষা",
-  "summary": "Methyl ketone or CH₃CH(OH)− → yellow CHI₃ precipitate।",
+  "summary": "আয়োডোফর্ম পরীক্ষা: Methyl ketone or CH₃CH(OH)− → yellow CHI₃ precipitate।",
   "latex": "\\ce{CH3CO-R + 3I2 + 4NaOH -> CHI3 + RCOONa + 3NaI + 2H2O}",
   "tags": [
     "hsc",
@@ -27,8 +27,8 @@
     },
     {
       "symbol": "H",
-      "meaning": "চৌম্বক ক্ষেত্র / এনথ্যালপি",
-      "unit": "A/m বা J"
+      "meaning": "এনথ্যালপি",
+      "unit": "J বা kJ"
     },
     {
       "symbol": "O",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "Methyl ketone or CH₃CH(OH)− → yellow CHI₃ precipitate।",
+    "lead": "আয়োডোফর্ম পরীক্ষা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\ce{CH3CO-R + 3I2 + 4NaOH -> CHI3 + RCOONa + 3NaI + 2H2O}",
-        "note": "আয়োডোফর্ম পরীক্ষা এর প্রাথমিক রূপ।"
+        "note": "আয়োডোফর্ম পরীক্ষা: Methyl ketone or CH₃CH(OH)− → yellow CHI₃ precipitate।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\ce{CH3CO-R + 3I2 + 4NaOH -> CHI3 + RCOONa + 3NaI + 2H2O}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Methyl ketone or CH₃CH(OH)− → yellow CHI₃ precipitate।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আয়োডোফর্ম পরীক্ষা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\ce{CH3CO-R + 3I2 + 4NaOH -> CHI3 + RCOONa + 3NaI + 2H2O}"
+      "question": "আয়োডোফর্ম পরীক্ষা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{Methyl ketone or CH₃CH(OH)− → yellow CHI₃ precipitate।}"
     },
     {
       "examType": "Concept",
-      "question": "আয়োডোফর্ম পরীক্ষা দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Methyl ketone or CH₃CH(OH) → yellow CHI₃ precipitate।}"
+      "question": "আয়োডোফর্ম পরীক্ষা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{Methyl ketone or CH₃CH(OH)− → yellow CHI₃ precipitate।}"
     }
   ],
   "memorize": {
     "trick": "Methyl ketone or CH₃CH(OH)− → yellow CHI₃ precipitate।",
     "steps": [
       "Methyl ketone or CH₃CH(OH)− → yellow CHI₃ precipitate।",
-      "মনে রাখো — Methyl ketone or CH₃CH(OH)− → yellow CHI₃ precipitate।",
-      "চিহ্ন চেক: ce, C, H"
+      "প্রশ্নে আয়োডোফর্ম পরীক্ষা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: ce=CH₃CO− group, C=ধারণক্ষমতা / ধারকত্ব।"
     ]
   },
   "subjects": [

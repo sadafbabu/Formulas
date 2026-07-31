@@ -60,6 +60,11 @@
       "examType": "HSC",
       "question": "c=0.1\\,\\mathrm{mol\\,L^{-1}}, T=300\\,\\mathrm{K}, R=0.082\\,\\mathrm{L\\,atm\\,K^{-1}\\,mol^{-1}} হলে \\Pi?",
       "answer": "2.46\\,\\mathrm{atm}"
+    },
+    {
+      "examType": "Concept",
+      "question": "প্রস্বেদ চাপ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{অসমোসিস ≈ আদর্শ গ্যাস: ΠV = nRT → Π = cRT।}"
     }
   ],
   "memorize": {

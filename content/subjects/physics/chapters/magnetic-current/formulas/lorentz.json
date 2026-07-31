@@ -70,6 +70,11 @@
       "examType": "BUET Admission Special (Hard)",
       "question": "একটি প্রোটন (q = 1.6 × 10⁻¹⁹ C) 2 × 10⁶ m/s বেগে x-অক্ষ বরাবর যাচ্ছে। এটি E = 10⁴ V/m (y-অক্ষ) ও B = 0.5 T (z-অক্ষ) সমবায় অঞ্চলে প্রবেশ করলে প্রোটনের ওপর লব্ধি লরেঞ্জ বলের মান ও দিক কত?",
       "answer": "F_e = 1.6 \\times 10^{-15} \\text{ N (y-অক্ষ)}, \\quad F_m = q v B = 1.6 \\times 10^{-19} \\times 2 \\times 10^6 \\times 0.5 = 1.6 \\times 10^{-13} \\text{ N (-y অক্ষ)}. \\quad F_{\\text{net}} = 1.584 \\times 10^{-13} \\text{ N (-y দিক)।}"
+    },
+    {
+      "examType": "Concept",
+      "question": "লরেঞ্জ বল দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{লরেঞ্জ = তড়িৎ + চৌম্বক। F = q(E + v×B) — E-তে বেগ লাগে না, B-তে বেগ লাগে।}"
     }
   ],
   "memorize": {

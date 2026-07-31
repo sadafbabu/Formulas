@@ -83,6 +83,11 @@
       "examType": "HSC Board",
       "question": "৫ cm বিস্তার ও ২ s পর্যায়কালের SHM-এ সাম্য অবস্থান থেকে ৩ cm দূরে বেগ কত?",
       "answer": "\\omega = \\frac{2\\pi}{2} = \\pi, \\quad v = \\pi\\sqrt{25-9} = 4\\pi \\approx 12.57\\ \\text{cm/s}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সরল ছন্দিত স্পন্দনের সরণ, বেগ ও ত্বরণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "x=A\\sin(\\omega t+\\phi),\\quad v=A\\omega\\cos(\\omega t+\\phi)=\\pm\\omega\\sqrt{A^2-x^2},\\quad a=-\\omega^2x"
     }
   ],
   "memorize": {

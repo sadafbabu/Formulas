@@ -59,6 +59,11 @@
       "examType": "HSC",
       "question": "F=10 N, s=2 m, θ=60°। W?",
       "answer": "W=10\\cdot2\\cdot\\tfrac12=10\\,\\mathrm{J}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ধ্রুব বলের কাজ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{W=Fs cosθ — লম্ব বল কাজ করে না (θ=90°→0)।}"
     }
   ],
   "memorize": {

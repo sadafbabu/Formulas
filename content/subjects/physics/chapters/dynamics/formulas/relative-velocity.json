@@ -71,6 +71,11 @@
       "examType": "Eng Admission",
       "question": "৪ m/s বেগে চলা নৌকা ৩ m/s স্রোতের ১০০ m চওড়া নদীতে সোজা বিপরীত পাড়ে যেতে নদীর লম্ব থেকে upstream-এর দিকে কত কোণে চালাতে হবে এবং কত সময় লাগবে?",
       "answer": "\\sin\\theta = 3/4 \\Rightarrow \\theta = 48.6^\\circ, \\quad t = \\frac{100}{\\sqrt{16-9}} = \\frac{100}{2.65} \\approx 37.8\\ \\text{s}"
+    },
+    {
+      "examType": "Concept",
+      "question": "আপেক্ষিক বেগ ও নদী-নৌকা সমস্যা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\vec v_{AB}=\\vec v_A-\\vec v_B,\\quad t_{\\min}=\\frac d{v_b},\\quad \\theta_{\\text{normal}}=\\sin^{-1}\\!\\left(\\frac{v_r}{v_b}\\right)"
     }
   ],
   "memorize": {

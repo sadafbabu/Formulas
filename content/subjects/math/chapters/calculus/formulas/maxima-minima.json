@@ -61,6 +61,11 @@
       "examType": "HSC Board",
       "question": "f(x)=x^3-3x^2+2-এর local extrema নির্ণয় করুন।",
       "answer": "f'=3x(x-2)=0\\Rightarrow x=0,2;\\ f''=6x-6;\\ x=0:\\max f=2,\\ x=2:\\min f=-2"
+    },
+    {
+      "examType": "Concept",
+      "question": "সর্বোচ্চ-সর্বনিম্ন, স্পর্শক ও normal দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{প্রথম derivative শূন্যে candidate; দ্বিতীয় derivative positive মানে cup (minimum), negative মানে cap (maximum)—‘+ cup, }"
     }
   ],
   "memorize": {

@@ -3,8 +3,8 @@
   "chapter": "industrial-chemistry",
   "title": "Portland Cement",
   "titleBn": "পোর্টল্যান্ড সিমেন্ট",
-  "summary": "জলযোগে সেটিং — হাইড্রেশন। \\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
-  "latex": "\\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
+  "summary": "পোর্টল্যান্ড সিমেন্টের প্রধান অক্সাইড: CaO, SiO₂, Al₂O₃, Fe₂O₃।",
+  "latex": "\\mathrm{CaO},\\,\\mathrm{SiO_2},\\,\\mathrm{Al_2O_3},\\,\\mathrm{Fe_2O_3}",
   "tags": [
     "hsc",
     "eng-admission",
@@ -16,60 +16,62 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "main:",
-      "meaning": "main: (সূত্রের রাশি)",
+      "symbol": "\\mathrm{CaO}",
+      "meaning": "ক্যালসিয়াম অক্সাইড",
       "unit": "—"
     },
     {
-      "symbol": "CaO",
-      "meaning": "SiO₂",
+      "symbol": "\\mathrm{SiO_2}",
+      "meaning": "সিলিকা",
       "unit": "—"
     },
     {
-      "symbol": "SiO_2",
-      "meaning": "Al₂O₃",
+      "symbol": "\\mathrm{Al_2O_3}",
+      "meaning": "অ্যালুমিনা",
       "unit": "—"
     },
     {
-      "symbol": "Al_2O_3",
-      "meaning": "Al_2O_3 (সূত্রের রাশি)",
+      "symbol": "\\mathrm{Fe_2O_3}",
+      "meaning": "আয়রন অক্সাইড",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "জলযোগে সেটিং — হাইড্রেশন। \\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
+    "lead": "কাঁচামাল তাপজাত হয়ে এই অক্সাইডগুলো দেয়।",
     "steps": [
       {
-        "title": "মূল সূত্র",
-        "latex": "\\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
-        "note": "পোর্টল্যান্ড সিমেন্ট এর প্রাথমিক রূপ।"
+        "title": "প্রধান উপাদান",
+        "latex": "\\mathrm{CaO},\\,\\mathrm{SiO_2},\\,\\mathrm{Al_2O_3},\\,\\mathrm{Fe_2O_3}",
+        "note": "পোর্টল্যান্ড সিমেন্টের মূল অক্সাইডসমূহ।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
-        "note": "জলযোগে সেটিং — হাইড্রেশন। \\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}"
+        "title": "প্রয়োগ",
+        "latex": "\\text{hydration} \\rightarrow \\text{setting}",
+        "note": "জলযোগে সেটিং ও হাইড্রেশন।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "সাধারণ পোর্টল্যান্ড সিমেন্ট"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পোর্টল্যান্ড সিমেন্ট লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}"
+      "question": "পোর্টল্যান্ড সিমেন্টের প্রধান অক্সাইডগুলো কী কী?",
+      "answer": "\\mathrm{CaO},\\,\\mathrm{SiO_2},\\,\\mathrm{Al_2O_3},\\,\\mathrm{Fe_2O_3}"
     },
     {
       "examType": "Concept",
-      "question": "পোর্টল্যান্ড সিমেন্ট দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{জলযোগে সেটিং  হাইড্রেশন। textmain: mathrmCaO,mathrmSiO 2,mathrmAl 2O 3,mathrmFe 2O 3}"
+      "question": "সিমেন্টে জল যোগ করলে কী ঘটে?",
+      "answer": "\\text{hydration এবং setting শুরু হয়}"
     }
   ],
   "memorize": {
-    "trick": "জলযোগে সেটিং — হাইড্রেশন। \\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
+    "trick": "CaO + SiO₂ + Al₂O₃ + Fe₂O₃ — সিমেন্টের মূল অক্সাইড।",
     "steps": [
-      "জলযোগে সেটিং — হাইড্রেশন। \\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
-      "মনে রাখো — জলযোগে সেটিং — হাইড্রেশন। \\text{main: }\\mathrm{CaO},\\mathrm{SiO_2},\\mathrm{Al_2O_3},\\mathrm{Fe_2O_3}",
-      "চিহ্ন চেক: main:, CaO, SiO_2"
+      "প্রধান চার অক্সাইড মনে রাখো: Ca–Si–Al–Fe।",
+      "জলযোগে হাইড্রেশন → সেটিং ও শক্তি বৃদ্ধি।",
+      "অনুপাত বদলালে সেটিং সময় ও শক্তি বদলায়।"
     ]
   },
   "subjects": [

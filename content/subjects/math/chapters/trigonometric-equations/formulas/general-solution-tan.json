@@ -3,7 +3,7 @@
   "chapter": "trigonometric-equations",
   "title": "General Solution tanθ=k",
   "titleBn": "tanθ=k-এর সাধারণ সমাধান",
-  "summary": "Period π (not 2π) for tan; simpler than sin/cos।",
+  "summary": "tanθ=k-এর সাধারণ সমাধান: Period π (not 2π) for tan; simpler than sin/cos।",
   "latex": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k",
   "tags": [
     "hsc",
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "Period π (not 2π) for tan; simpler than sin/cos।",
+    "lead": "tanθ=k-এর সাধারণ সমাধান প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k",
-        "note": "tanθ=k-এর সাধারণ সমাধান এর প্রাথমিক রূপ।"
+        "note": "tanθ=k-এর সাধারণ সমাধান: Period π (not 2π) for tan; simpler than sin/cos।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Period π (not 2π) for tan; simpler than sin/cos।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "tanθ=k-এর সাধারণ সমাধান এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "tanθ=k-এর সাধারণ সমাধান লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k"
+      "question": "tanθ=k-এর সাধারণ সমাধান কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k\\text{ — }Period π (not 2π) for tan; simpler than sin/cos।"
     },
     {
       "examType": "Concept",
-      "question": "tanθ=k-এর সাধারণ সমাধান দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Period π (not 2π) for tan; simpler than sin/cos।}"
+      "question": "tanθ=k-এর সাধারণ সমাধান কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\theta=n\\pi+\\alpha,\\quad \\tan\\alpha=k\\text{ — }Period π (not 2π) for tan; simpler than sin/cos।"
     }
   ],
   "memorize": {
     "trick": "Period π (not 2π) for tan; simpler than sin/cos।",
     "steps": [
       "Period π (not 2π) for tan; simpler than sin/cos।",
-      "মনে রাখো — Period π (not 2π) for tan; simpler than sin/cos।",
-      "চিহ্ন চেক: theta, n, pi"
+      "প্রশ্নে tanθ=k-এর সাধারণ সমাধান বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: theta=θ=nπ+α, n=মোল সংখ্যা / কোটি।"
     ]
   },
   "subjects": [

@@ -41,34 +41,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R",
-        "note": "সাইন সূত্র এর প্রাথমিক রূপ।"
+        "note": "সাইন সূত্র এর মূল সম্পর্ক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "২R = পরিবৃত্ত ব্যাস। \\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "সাইন সূত্র এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সাইন সূত্র এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "সাইন সূত্র কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R\\text{ — }২R = পরিবৃত্ত ব্যাস। \\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R"
     },
     {
       "examType": "Concept",
-      "question": "সাইন সূত্র দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{frac a sin A = frac b sin B = frac c sin C =2R}"
+      "question": "সাইন সূত্র কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R\\text{ — }২R = পরিবৃত্ত ব্যাস। \\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R"
     }
   ],
   "memorize": {
     "trick": "২R = পরিবৃত্ত ব্যাস। \\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R",
     "steps": [
       "২R = পরিবৃত্ত ব্যাস। \\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R",
-      "মনে রাখো — ২R = পরিবৃত্ত ব্যাস। \\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}=2R",
-      "চিহ্ন চেক: a, A, b"
+      "প্রশ্নে সাইন সূত্র বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: a=a/sinA = 2R, A=ক্ষেত্রফল / বিস্তার।"
     ]
   },
   "subjects": [

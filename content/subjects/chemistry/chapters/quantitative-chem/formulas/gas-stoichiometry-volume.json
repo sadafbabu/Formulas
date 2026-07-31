@@ -3,7 +3,7 @@
   "chapter": "quantitative-chem",
   "title": "Gas Volume Stoichiometry",
   "titleBn": "গ্যাস আয়তন stoichiometry",
-  "summary": "একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।",
+  "summary": "গ্যাস আয়তন stoichiometry: একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।",
   "latex": "\\frac{V_A}{V_B}=\\frac{a}{b}\\quad(\\text{same }T,P)",
   "tags": [
     "hsc",
@@ -27,7 +27,7 @@
     },
     {
       "symbol": "B",
-      "meaning": "চৌম্বক ক্ষেত্র",
+      "meaning": "B (সূত্রের রাশি)",
       "unit": "T"
     },
     {
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।",
+    "lead": "গ্যাস আয়তন stoichiometry প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{V_A}{V_B}=\\frac{a}{b}\\quad(\\text{same }T,P)",
-        "note": "গ্যাস আয়তন stoichiometry এর প্রাথমিক রূপ।"
+        "note": "গ্যাস আয়তন stoichiometry: একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\frac{V_A}{V_B}=\\frac{a}{b}\\quad(\\text{same }T,P)",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্যাস আয়তন stoichiometry লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\frac{V_A}{V_B}=\\frac{a}{b}\\quad(\\text{same }T,P)"
+      "question": "গ্যাস আয়তন stoichiometry কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{V_A}{V_B}=\\frac{a}{b}\\quad(\\text{same }T,P)\\text{ — }একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।"
     },
     {
       "examType": "Concept",
-      "question": "গ্যাস আয়তন stoichiometry দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।}"
+      "question": "গ্যাস আয়তন stoichiometry কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{V_A}{V_B}=\\frac{a}{b}\\quad(\\text{same }T,P)\\text{ — }একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।"
     }
   ],
   "memorize": {
     "trick": "একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।",
     "steps": [
       "একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।",
-      "মনে রাখো — একই T,P-তে গ্যাসের আয়তন অনুপাত = মোল অনুপাত।",
-      "চিহ্ন চেক: V, A, B"
+      "প্রশ্নে গ্যাস আয়তন stoichiometry বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: V=Avogadro volume ratio, A=ক্ষেত্রফল / বিস্তার।"
     ]
   },
   "subjects": [

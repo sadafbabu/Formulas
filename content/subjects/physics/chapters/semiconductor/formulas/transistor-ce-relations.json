@@ -42,20 +42,28 @@
       {
         "title": "মূল সূত্র",
         "latex": "I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}",
-        "note": "CE ট্রানজিস্টর প্রবাহ সম্পর্ক এর প্রাথমিক রূপ।"
+        "note": "CE ট্রানজিস্টর প্রবাহ সম্পর্ক এর মূল সম্পর্ক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "IE=IB+IC; β≈α/(1−α)। I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "CE ট্রানজিস্টর প্রবাহ সম্পর্ক লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "CE ট্রানজিস্টর প্রবাহ সম্পর্ক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}"
+    },
+    {
+      "examType": "Concept",
+      "question": "CE ট্রানজিস্টর প্রবাহ সম্পর্ক দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}"
     }
   ],
@@ -63,8 +71,8 @@
     "trick": "IE=IB+IC; β≈α/(1−α)। I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}",
     "steps": [
       "IE=IB+IC; β≈α/(1−α)। I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}",
-      "মনে রাখো — IE=IB+IC; β≈α/(1−α)। I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}",
-      "চিহ্ন চেক: I, E, B"
+      "প্রশ্নে CE ট্রানজিস্টর প্রবাহ সম্পর্ক বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: I=CE ট্রানজিস্টর প্রবাহ সম্পর্ক, E=শক্তি / তড়িৎক্ষেত্র।"
     ]
   },
   "subjects": [

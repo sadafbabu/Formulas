@@ -41,12 +41,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "V = -\\frac{Gm}{r}, \\quad U = -\\frac{Gm_1 m_2}{r}, \\quad g = \\frac{Gm}{r^2}",
-        "note": "মহাকর্ষীয় বিভব ও ক্ষেত্র এর প্রাথমিক রূপ।"
+        "note": "মহাকর্ষীয় বিভব শক্তি ও বিভব সূত্র"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "V = -\\frac{Gm}{r}, \\quad U = -\\frac{Gm_1 m_2}{r}, \\quad g = \\frac{Gm}{r^2}",
-        "note": "অসীমে শূন্য বিভব ধরলে বিন্দু-ভরের V = −GM/r এবং দুই ভরের U = −GMm/r। ঋণাত্মক চিহ্ন bound attractive system বোঝায়; kinet"
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "note": "অসীমে শূন্য বিভব ধরলে বিন্দু-ভরের V = −GM/r এবং দুই ভরের U = −GMm/r। ঋণাত্মক চিহ্ন bound attractive system বোঝায়; kinetic বা unbound total "
       }
     ],
     "assumptions": [
@@ -60,6 +60,11 @@
       "examType": "HSC / Eng",
       "question": "পৃষ্ঠ থেকে R দূরত্বে V কত (ভর M)?",
       "answer": "V=-\\frac{GM}{R}"
+    },
+    {
+      "examType": "Concept",
+      "question": "মহাকর্ষীয় বিভব ও ক্ষেত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{অসীমে শূন্য বিভব ধরলে বিন্দু-ভরের V = −GM/r এবং দুই ভরের U = −GMm/r। ঋণাত্মক চিহ্ন bound attractive system বোঝায়; kinet}"
     }
   ],
   "memorize": {

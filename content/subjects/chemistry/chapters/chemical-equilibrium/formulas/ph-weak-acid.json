@@ -54,6 +54,11 @@
       "examType": "Admission",
       "question": "K_a=10⁻⁵, c=0.1 M। pH?",
       "answer": "[\\mathrm{H}^+]=\\sqrt{K_a c},\\quad\\mathrm{pH}=-\\tfrac12\\log(K_a c)"
+    },
+    {
+      "examType": "Concept",
+      "question": "দুর্বল অ্যাসিডের pH দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "[\\mathrm{H}^+]=\\sqrt{K_a c},\\quad\\mathrm{pH}=-\\tfrac12\\log(K_a c)"
     }
   ],
   "memorize": {

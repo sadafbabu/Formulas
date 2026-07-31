@@ -67,6 +67,11 @@
       "examType": "HSC Board",
       "question": "১২ V, ৫০ Ah battery-এর আদর্শ শক্তি ধারণক্ষমতা কত?",
       "answer": "E=VQ=12\\times50=600\\ \\mathrm{Wh}=0.60\\ \\mathrm{kWh}"
+    },
+    {
+      "examType": "Concept",
+      "question": "প্রাথমিক, গৌণ ব্যাটারি ও হাইড্রোজেন ফুয়েল সেল দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Primary cell recharge হয় না; secondary recharge হয়; fuel cell-এ reactant বাইরে থেকে চলতেই থাকে। Lead battery: ২ V প্রত}"
     }
   ],
   "memorize": {

@@ -3,7 +3,7 @@
   "chapter": "sets-functions",
   "title": "Inclusion–Exclusion (3 sets)",
   "titleBn": "তিন সেটের অন্তর্ভুক্তি–বর্জন",
-  "summary": "যোগ − জোড় ছেদ + তিনের ছেদ। |A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
+  "summary": "তিন সেটের অন্তর্ভুক্তি–বর্জন: যোগ − জোড় ছেদ + তিনের ছেদ। |A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
   "latex": "|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
   "tags": [
     "hsc",
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "যোগ − জোড় ছেদ + তিনের ছেদ। |A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
+    "lead": "তিন সেটের অন্তর্ভুক্তি–বর্জন প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
-        "note": "তিন সেটের অন্তর্ভুক্তি–বর্জন এর প্রাথমিক রূপ।"
+        "note": "তিন সেটের অন্তর্ভুক্তি–বর্জন: যোগ − জোড় ছেদ + তিনের ছেদ। |A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "যোগ − জোড় ছেদ + তিনের ছেদ। |A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "তিন সেটের অন্তর্ভুক্তি–বর্জন এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "তিন সেটের অন্তর্ভুক্তি–বর্জন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "তিন সেটের অন্তর্ভুক্তি–বর্জন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|"
     },
     {
       "examType": "Concept",
-      "question": "তিন সেটের অন্তর্ভুক্তি–বর্জন দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{যোগ  জোড় ছেদ + তিনের ছেদ। |Acup Bcup C|=|A|+|B|+|C|-|Acap B|-|Bcap C|-|Ccap A|+|Acap Bcap C|}"
+      "question": "তিন সেটের অন্তর্ভুক্তি–বর্জন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|"
     }
   ],
   "memorize": {
     "trick": "যোগ − জোড় ছেদ + তিনের ছেদ। |A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
     "steps": [
       "যোগ − জোড় ছেদ + তিনের ছেদ। |A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
-      "মনে রাখো — যোগ − জোড় ছেদ + তিনের ছেদ। |A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|B\\cap C|-|C\\cap A|+|A\\cap B\\cap C|",
-      "চিহ্ন চেক: A, cup, B"
+      "প্রশ্নে তিন সেটের অন্তর্ভুক্তি–বর্জন বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: A=A∪B∪C, B=চৌম্বক ক্ষেত্র।"
     ]
   },
   "subjects": [

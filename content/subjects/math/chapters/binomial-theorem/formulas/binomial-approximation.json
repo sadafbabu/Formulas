@@ -61,6 +61,11 @@
       "examType": "Eng Admission",
       "question": "√1.04-কে x² পর্যন্ত (তিন পদে) আনুমানিক নির্ণয় করুন।",
       "answer": "(1+0.04)^{1/2}\\approx1+\\frac12(0.04)-\\frac18(0.04)^2=1.0198"
+    },
+    {
+      "examType": "Concept",
+      "question": "দ্বিপদী সন্নিকটীকরণ ও শতকরা ত্রুটি দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "(1+x)^n\\approx1+nx+\\frac{n(n-1)}2x^2,\\quad |x|\\ll1"
     }
   ],
   "memorize": {

@@ -64,6 +64,11 @@
       "examType": "HSC",
       "question": "উৎস 340 Hz, v=340 m/s, v_s=20 m/s কাছে আসছে। f′?",
       "answer": "f'=340\\cdot\\dfrac{340}{340-20}=340\\cdot\\dfrac{340}{320}=361.25\\mathrm{Hz}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ডপলার প্রভাব দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{কাছে এলে কম্পাঙ্ক বাড়ে: লবে পর্যবেক্ষক +, হরে উৎস −।}"
     }
   ],
   "memorize": {

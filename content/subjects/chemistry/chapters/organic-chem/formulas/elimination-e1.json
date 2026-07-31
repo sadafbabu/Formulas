@@ -21,11 +21,6 @@
       "unit": "—"
     },
     {
-      "symbol": "carbocation intermediate",
-      "meaning": "carbocation intermediate (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
       "symbol": "rate",
       "meaning": "rate (সূত্রের রাশি)",
       "unit": "—"
@@ -47,34 +42,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{E1: two-step, carbocation intermediate, rate}=k[\\mathrm{RX}]",
-        "note": "E1 বিলোপন এর প্রাথমিক রূপ।"
+        "note": "E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{E1: two-step, carbocation intermediate, rate}=k[\\mathrm{RX}]",
-        "note": "E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।"
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "note": "E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি। — E1 বিলোপন মনে রাখার চাবিকাঠি।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "E1 বিলোপন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{E1: two-step, carbocation intermediate, rate}=k[\\mathrm{RX}]"
+      "question": "E1 বিলোপন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{E1: two-step, carbocation intermediate, rate}=k[\\mathrm{RX}]\\text{ — }E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি। — E1 বিলোপন মনে রাখার চাবিকাঠি।"
     },
     {
       "examType": "Concept",
-      "question": "E1 বিলোপন দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।}"
+      "question": "E1 বিলোপন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{E1: two-step, carbocation intermediate, rate}=k[\\mathrm{RX}]\\text{ — }E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি। — E1 বিলোপন মনে রাখার চাবিকাঠি।"
     }
   ],
   "memorize": {
     "trick": "E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি। — E1 বিলোপন মনে রাখার চাবিকাঠি।",
     "steps": [
-      "E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।",
-      "মনে রাখো — E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি।",
-      "চিহ্ন চেক: E1: two-step, carbocation intermediate, rate"
+      "E1 ≈ SN1 পরিবেশ; দ্বিবন্ধন তৈরি। — E1 বিলোপন মনে রাখার চাবিকাঠি।",
+      "প্রশ্নে E1 বিলোপন বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: E1: two-step=unimolecular elimination, k=বল ধ্রুবক / বোল্টজম্যান / তরঙ্গ সংখ্যা।"
     ]
   },
   "subjects": [

@@ -66,6 +66,11 @@
       "examType": "Eng Admission",
       "question": "x^4+3x^3+4x^2+3x+1=0-কে t=x+1/x দিয়ে reduce করুন।",
       "answer": "x^2+\\frac1{x^2}+3\\left(x+\\frac1x\\right)+4=0\\Rightarrow t^2+3t+2=0"
+    },
+    {
+      "examType": "Concept",
+      "question": "ব্যুত্ক্রমিক সমীকরণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Coefficients সামনে-পেছনে এক হলে reciprocal equation। মধ্যঘাত দিয়ে ভাগ করে t=x+1/x নিন; x²+1/x²=t²−2। Degree অর্ধেক হয়ে}"
     }
   ],
   "memorize": {

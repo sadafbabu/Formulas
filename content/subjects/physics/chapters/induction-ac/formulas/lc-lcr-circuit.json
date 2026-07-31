@@ -49,11 +49,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "T = 2\\pi\\sqrt{LC}, \\quad f_0 = \\frac{1}{2\\pi\\sqrt{LC}}, \\quad Z = \\sqrt{R^2 + (X_L - X_C)^2}",
-        "note": "LC ও LCR সার্কিট অনুনাদ এর প্রাথমিক রূপ।"
+        "note": "LC দোলনের পর্যায়কাল ও LCR সার্কিটে অনুনাদ কম্পাঙ্ক"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "T = 2\\pi\\sqrt{LC}, \\quad f_0 = \\frac{1}{2\\pi\\sqrt{LC}}, \\quad Z = \\sqrt{R^2 + (X_L - X_C)^2}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "f₀ = 1/(2π√LC) — অনুনাদে X_L = X_C, তাই Z সর্বনিম্ন = R এবং প্রবাহ সর্বোচ্চ। 'অনুনাদে সার্কিট শুধু রোধের মতো আচরণ করে'।"
       }
     ],
@@ -68,6 +68,11 @@
       "examType": "Eng / HSC",
       "question": "LC বর্তনীর resonant angular frequency কী?",
       "answer": "\\omega_0 = \\frac{1}{\\sqrt{LC}}"
+    },
+    {
+      "examType": "Concept",
+      "question": "LC ও LCR সার্কিট অনুনাদ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "T = 2\\pi\\sqrt{LC}, \\quad f_0 = \\frac{1}{2\\pi\\sqrt{LC}}, \\quad Z = \\sqrt{R^2 + (X_L - X_C)^2}"
     }
   ],
   "memorize": {

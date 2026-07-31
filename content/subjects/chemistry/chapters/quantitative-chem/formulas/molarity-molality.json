@@ -45,7 +45,10 @@
         "note": "কলেগেটিভ ধর্মে সুবিধাজনক—ভর তাপমাত্রায় বদলায় না।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
@@ -57,6 +60,11 @@
       "examType": "Admission",
       "question": "0.2\\,\\mathrm{mol} দ্রব 500\\,\\mathrm{g} দ্রবকে—মোলালিটি?",
       "answer": "0.4\\,\\mathrm{mol\\,kg^{-1}}"
+    },
+    {
+      "examType": "Concept",
+      "question": "মোলারিটি ও মোলালিটি দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{M → Litre of Solution; m → mass (kg) of solvent।}"
     }
   ],
   "memorize": {

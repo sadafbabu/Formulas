@@ -37,34 +37,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\overline{A+B}=\\bar A\\cdot\\bar B,\\quad\\overline{A\\cdot B}=\\bar A+\\bar B",
-        "note": "ডি মরগানের সূত্র এর প্রাথমিক রূপ।"
+        "note": "বুলিয়ান বীজগণিতের ডি মরগান"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\overline{A+B}=\\bar A\\cdot\\bar B,\\quad\\overline{A\\cdot B}=\\bar A+\\bar B",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "বার ভাঙলে OR↔AND বদলায়। বুলিয়ান বীজগণিতের ডি মরগান"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ডি মরগানের সূত্র লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\overline{A+B}=\\bar A\\cdot\\bar B,\\quad\\overline{A\\cdot B}=\\bar A+\\bar B"
+      "question": "ডি মরগানের সূত্র কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\overline{A+B}=\\bar A\\cdot\\bar B,\\quad\\overline{A\\cdot B}=\\bar A+\\bar B\\text{ — }বার ভাঙলে OR↔AND বদলায়। বুলিয়ান বীজগণিতের ডি মরগান"
     },
     {
       "examType": "Concept",
-      "question": "ডি মরগানের সূত্র দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{বার ভাঙলে OR↔AND বদলায়। বুলিয়ান বীজগণিতের ডি মরগান}"
+      "question": "ডি মরগানের সূত্র কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\overline{A+B}=\\bar A\\cdot\\bar B,\\quad\\overline{A\\cdot B}=\\bar A+\\bar B\\text{ — }বার ভাঙলে OR↔AND বদলায়। বুলিয়ান বীজগণিতের ডি মরগান"
     }
   ],
   "memorize": {
     "trick": "বার ভাঙলে OR↔AND বদলায়। বুলিয়ান বীজগণিতের ডি মরগান",
     "steps": [
       "বার ভাঙলে OR↔AND বদলায়। বুলিয়ান বীজগণিতের ডি মরগান",
-      "মনে রাখো — বুলিয়ান বীজগণিতের ডি মরগান",
-      "চিহ্ন চেক: overline, A, B"
+      "প্রশ্নে ডি মরগানের সূত্র বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: overline=ডি মরগানের সূত্র, A=ক্ষেত্রফল / বিস্তার।"
     ]
   },
   "subjects": [

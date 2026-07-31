@@ -54,6 +54,11 @@
       "examType": "HSC",
       "question": "L=1 H, C=1 μF। প্রায় f₀?",
       "answer": "f_0\\approx 159\\,\\mathrm{Hz}"
+    },
+    {
+      "examType": "Concept",
+      "question": "LC অনুরণন কম্পাঙ্ক দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{অনুরণন: f₀ = 1/(2π√LC) — L·C গুণের বর্গমূল ভাগ।}"
     }
   ],
   "memorize": {

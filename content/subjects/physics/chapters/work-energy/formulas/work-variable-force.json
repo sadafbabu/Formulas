@@ -70,6 +70,11 @@
       "examType": "BUET Admission",
       "question": "F = (3x² + 2x) N বল একটি বস্তুকে x = 0 থেকে x = 2 m পর্যন্ত সরাল। কৃতকাজ কত?",
       "answer": "W = \\int_0^2 (3x^2 + 2x)dx = [x^3 + x^2]_0^2 = 8 + 4 = 12\\ \\text{J}"
+    },
+    {
+      "examType": "Concept",
+      "question": "পরিবর্তনশীল বলের কাজ ও শক্তির লেখচিত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "W = \\int_{x_1}^{x_2} F\\,dx = \\int \\vec{F}\\cdot d\\vec{r}, \\quad F = -\\frac{dU}{dx}"
     }
   ],
   "memorize": {

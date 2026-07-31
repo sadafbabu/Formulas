@@ -69,6 +69,11 @@
       "examType": "Eng Admission",
       "question": "ভূস্থির উপগ্রহের কক্ষীয় বেগ কত? (R + h = 42400 km, T = 24 h)",
       "answer": "v = \\frac{2\\pi(R+h)}{T} = \\frac{2\\pi \\times 4.24\\times10^7}{86400} \\approx 3.08\\ \\text{km/s}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ভূস্থির উপগ্রহ ও কক্ষপথের উচ্চতা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{ভূস্থির উপগ্রহের period এক sidereal day ≈ ২৩ h ৫৬ min, orbital radius ≈ ৪২১৬৪ km, উচ্চতা ≈ ৩৫৭৮৬ km; স্কুলের হিসাবে প্রা}"
     }
   ],
   "memorize": {

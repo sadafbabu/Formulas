@@ -52,12 +52,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "v = f\\lambda, \\quad y = A\\sin(\\omega t - kx), \\quad \\omega = 2\\pi f, \\quad k = \\frac{2\\pi}{\\lambda}, \\quad v = \\sqrt{\\frac{T}{\\mu}}",
-        "note": "তরঙ্গ সমীকরণ ও তরঙ্গের বৈশিষ্ট্য এর প্রাথমিক রূপ।"
+        "note": "তরঙ্গের গতি, কম্পাঙ্ক, তরঙ্গদৈর্ঘ্য এবং তরঙ্গ সমীকরণ"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "v = f\\lambda, \\quad y = A\\sin(\\omega t - kx), \\quad \\omega = 2\\pi f, \\quad k = \\frac{2\\pi}{\\lambda}, \\quad v = \\sqrt{\\frac{T}{\\mu}}",
-        "note": "v = fλ — তরঙ্গের প্রাণ। আর y = A sin(ωt − kx): ω = 2πf (সময়ের সাথে), k = 2π/λ (দূরত্বের সাথে) — 'দুটোতেই ২π, একটায় f এ"
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "note": "v = fλ — তরঙ্গের প্রাণ। আর y = A sin(ωt − kx): ω = 2πf (সময়ের সাথে), k = 2π/λ (দূরত্বের সাথে) — 'দুটোতেই ২π, একটায় f একটায় λ'।"
       }
     ],
     "assumptions": [
@@ -69,6 +69,11 @@
       "examType": "Board Exam",
       "question": "340 m/s বেগে শব্দ তরঙ্গের কম্পাঙ্ক 1700 Hz হলে তরঙ্গদৈর্ঘ্য কত?",
       "answer": "\\lambda = \\frac{v}{f} = \\frac{340}{1700} = 0.2 \\text{ m} = 20 \\text{ cm}"
+    },
+    {
+      "examType": "Concept",
+      "question": "তরঙ্গ সমীকরণ ও তরঙ্গের বৈশিষ্ট্য দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{v = fλ — তরঙ্গের প্রাণ। আর y = A sin(ωt − kx): ω = 2πf (সময়ের সাথে), k = 2π/λ (দূরত্বের সাথে) — 'দুটোতেই ২π, একটায় f এ}"
     }
   ],
   "memorize": {

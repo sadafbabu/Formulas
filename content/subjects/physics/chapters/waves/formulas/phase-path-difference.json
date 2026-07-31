@@ -3,7 +3,7 @@
   "chapter": "waves",
   "title": "Phase & Path Difference",
   "titleBn": "কলারূপ ও পথ পার্থক্য",
-  "summary": "এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
+  "summary": "কলারূপ ও পথ পার্থক্য: এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
   "latex": "\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
   "tags": [
     "hsc",
@@ -27,34 +27,42 @@
     }
   ],
   "derivation": {
-    "lead": "এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
+    "lead": "কলারূপ ও পথ পার্থক্য প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
-        "note": "কলারূপ ও পথ পার্থক্য এর প্রাথমিক রূপ।"
+        "note": "কলারূপ ও পথ পার্থক্য: এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কলারূপ ও পথ পার্থক্য লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x"
+      "question": "কলারূপ ও পথ পার্থক্য কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x\\text{ — }এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x"
+    },
+    {
+      "examType": "Concept",
+      "question": "কলারূপ ও পথ পার্থক্য দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{এক λ = 2π কলা; Δx দিয়ে Δφ। Deltaphi=frac2pilambdaDelta x}"
     }
   ],
   "memorize": {
     "trick": "এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
     "steps": [
       "এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
-      "মনে রাখো — এক λ = 2π কলা; Δx দিয়ে Δφ। \\Delta\\phi=\\frac{2\\pi}{\\lambda}\\Delta x",
-      "চিহ্ন চেক: lambda, x"
+      "প্রশ্নে কলারূপ ও পথ পার্থক্য বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: lambda=কলারূপ ও পথ পার্থক্য, x=অবস্থান / অজানা।"
     ]
   },
   "subjects": [

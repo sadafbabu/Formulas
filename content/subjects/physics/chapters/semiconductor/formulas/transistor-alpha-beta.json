@@ -47,12 +47,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "I_E = I_B + I_C, \\quad \\alpha = \\frac{\\Delta I_C}{\\Delta I_E}, \\quad \\beta = \\frac{\\Delta I_C}{\\Delta I_B} = \\frac{\\alpha}{1 - \\alpha}",
-        "note": "ট্রানজিস্টরের প্রবাহ লাভ (Alpha ও Beta) এর প্রাথমিক রূপ।"
+        "note": "ট্রানজিস্টরের নিঃসারক, পিঠ ও সংগ্রাহক প্রবাহ এবং α ও β এর সম্পর্ক"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "I_E = I_B + I_C, \\quad \\alpha = \\frac{\\Delta I_C}{\\Delta I_E}, \\quad \\beta = \\frac{\\Delta I_C}{\\Delta I_B} = \\frac{\\alpha}{1 - \\alpha}",
-        "note": "I_E = I_B + I_C — 'ইমিটারই সবচেয়ে বড়'। α = I_C/I_E সামান্য ১-এর কম (≈0.98), β = I_C/I_B অনেক বড় (৫০–৩০০)। সেতু: β = α"
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "note": "I_E = I_B + I_C — 'ইমিটারই সবচেয়ে বড়'। α = I_C/I_E সামান্য ১-এর কম (≈0.98), β = I_C/I_B অনেক বড় (৫০–৩০০)। সেতু: β = α/(1 − α)।"
       }
     ],
     "assumptions": [
@@ -64,6 +64,11 @@
       "examType": "BUET Admission Hard",
       "question": "একটি ট্রানজিস্টরের α = 0.98 এবং I_E = 5 mA হলে I_B ও β এর মান কত?",
       "answer": "\\beta = \\frac{0.98}{1 - 0.98} = \\frac{0.98}{0.02} = 49, \\quad I_C = \\alpha I_E = 0.98 \\times 5 = 4.9\\text{ mA} \\implies I_B = I_E - I_C = 5 - 4.9 = 0.1\\text{ mA} = 100\\,\\mu\\text{A}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ট্রানজিস্টরের প্রবাহ লাভ (Alpha ও Beta) দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "I_E = I_B + I_C, \\quad \\alpha = \\frac{\\Delta I_C}{\\Delta I_E}, \\quad \\beta = \\frac{\\Delta I_C}{\\Delta I_B} = \\frac{\\alpha}{1 - \\alpha}"
     }
   ],
   "memorize": {

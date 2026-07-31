@@ -3,7 +3,7 @@
   "chapter": "environmental-chemistry",
   "title": "Green Chemistry Idea",
   "titleBn": "সবুজ রসায়ন",
-  "summary": "কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।",
+  "summary": "সবুজ রসায়ন: কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।",
   "latex": "\\text{Atom economy}=\\frac{\\text{mass of desired product}}{\\text{mass of all reactants}}\\times100\\%",
   "tags": [
     "hsc",
@@ -19,52 +19,45 @@
       "symbol": "Atom economy",
       "meaning": "atom economy",
       "unit": "—"
-    },
-    {
-      "symbol": "mass of desired product",
-      "meaning": "mass of desired product (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
-      "symbol": "mass of all reactants",
-      "meaning": "mass of all reactants (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।",
+    "lead": "সবুজ রসায়ন প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{Atom economy}=\\frac{\\text{mass of desired product}}{\\text{mass of all reactants}}\\times100\\%",
-        "note": "সবুজ রসায়ন এর প্রাথমিক রূপ।"
+        "note": "সবুজ রসায়ন: কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{Atom economy}=\\frac{\\text{mass of desired product}}{\\text{mass of all reactants}}\\times100\\%",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সবুজ রসায়ন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{Atom economy}=\\frac{\\text{mass of desired product}}{\\text{mass of all reactants}}\\times100\\%"
+      "question": "সবুজ রসায়ন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{Atom economy}=\\frac{\\text{mass of desired product}}{\\text{mass of all reactants}}\\times100\\%\\text{ — }কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।"
     },
     {
       "examType": "Concept",
-      "question": "সবুজ রসায়ন দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।}"
+      "question": "সবুজ রসায়ন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{Atom economy}=\\frac{\\text{mass of desired product}}{\\text{mass of all reactants}}\\times100\\%\\text{ — }কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।"
     }
   ],
   "memorize": {
     "trick": "কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।",
     "steps": [
       "কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।",
-      "মনে রাখো — কম বর্জ্য, উচ্চ atom economy = সবুজ প্রক্রিয়া।",
-      "চিহ্ন চেক: Atom economy, mass of desired product, mass of all reactants"
+      "প্রশ্নে সবুজ রসায়ন বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: Atom economy=atom economy।"
     ]
   },
   "subjects": [

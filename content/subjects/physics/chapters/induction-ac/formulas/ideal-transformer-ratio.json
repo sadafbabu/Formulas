@@ -42,20 +42,28 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
-        "note": "ট্রান্সফরমার সমীকরণ এর প্রাথমিক রূপ।"
+        "note": "ট্রান্সফরমার সমীকরণ এর মূল সম্পর্ক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "স্টেপ-আপ: Ns>Np। \\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ট্রান্সফরমার সমীকরণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "ট্রান্সফরমার সমীকরণ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}\\text{ — }স্টেপ-আপ: Ns>Np। \\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ট্রান্সফরমার সমীকরণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "\\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}"
     }
   ],
@@ -63,8 +71,8 @@
     "trick": "স্টেপ-আপ: Ns>Np। \\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
     "steps": [
       "স্টেপ-আপ: Ns>Np। \\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
-      "মনে রাখো — স্টেপ-আপ: Ns>Np। \\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
-      "চিহ্ন চেক: V, s, p"
+      "প্রশ্নে ট্রান্সফরমার সমীকরণ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: V=ট্রান্সফরমার সমীকরণ, s=সরণ।"
     ]
   },
   "subjects": [

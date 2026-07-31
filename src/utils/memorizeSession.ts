@@ -92,6 +92,7 @@ export function buildDrillQueue(
   list: Formula[],
   progress: MemorizeProgress,
   unknownOnly = false,
+  startId?: string | null,
 ): Formula[] {
   const unknown: Formula[] = []
   const fresh: Formula[] = []
@@ -102,6 +103,10 @@ export function buildDrillQueue(
     else if (entry.known) known.push(f)
     else unknown.push(f)
   }
-  if (unknownOnly) return [...unknown, ...fresh]
-  return [...unknown, ...fresh, ...known]
+  const base = unknownOnly ? [...unknown, ...fresh] : [...unknown, ...fresh, ...known]
+  if (!startId) return base
+  const idx = base.findIndex((f) => f.id === startId)
+  if (idx <= 0) return base
+  const pinned = base[idx]
+  return [pinned, ...base.slice(0, idx), ...base.slice(idx + 1)]
 }

@@ -3,7 +3,7 @@
   "chapter": "linear-programming",
   "title": "Graphical Method Steps",
   "titleBn": "লেখচিত্র পদ্ধতির ধাপ",
-  "summary": "দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z",
+  "summary": "লেখচিত্র পদ্ধতির ধাপ: দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z",
   "latex": "\\text{1) lines 2) shade 3) corners 4) evaluate }Z",
   "tags": [
     "hsc",
@@ -15,50 +15,48 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "1) lines 2) shade 3) corners 4) evaluate",
-      "meaning": "draw → shade → evaluate",
-      "unit": "—"
-    },
-    {
       "symbol": "Z",
       "meaning": "পারমাণবিক সংখ্যা / প্রতিবন্ধকতা",
       "unit": "1 বা Ω"
     }
   ],
   "derivation": {
-    "lead": "দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z",
+    "lead": "লেখচিত্র পদ্ধতির ধাপ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{1) lines 2) shade 3) corners 4) evaluate }Z",
-        "note": "লেখচিত্র পদ্ধতির ধাপ এর প্রাথমিক রূপ।"
+        "note": "লেখচিত্র পদ্ধতির ধাপ: দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{1) lines 2) shade 3) corners 4) evaluate }Z",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "লেখচিত্র পদ্ধতির ধাপ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "লেখচিত্র পদ্ধতির ধাপ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{1) lines 2) shade 3) corners 4) evaluate }Z"
+      "question": "লেখচিত্র পদ্ধতির ধাপ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{1) lines 2) shade 3) corners 4) evaluate }Z\\text{ — }দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z"
     },
     {
       "examType": "Concept",
-      "question": "লেখচিত্র পদ্ধতির ধাপ দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{দুই চলকের LP গ্রাফে সহজ। text1) lines 2) shade 3) corners 4) evaluate Z}"
+      "question": "লেখচিত্র পদ্ধতির ধাপ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{1) lines 2) shade 3) corners 4) evaluate }Z\\text{ — }দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z"
     }
   ],
   "memorize": {
     "trick": "দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z",
     "steps": [
       "দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z",
-      "মনে রাখো — দুই চলকের LP গ্রাফে সহজ। \\text{1) lines 2) shade 3) corners 4) evaluate }Z",
-      "চিহ্ন চেক: 1) lines 2) shade 3) corners 4) evaluate, Z"
+      "প্রশ্নে লেখচিত্র পদ্ধতির ধাপ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: Z=পারমাণবিক সংখ্যা / প্রতিবন্ধকতা।"
     ]
   },
   "subjects": [

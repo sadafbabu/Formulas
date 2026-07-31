@@ -268,19 +268,19 @@ export function SpreadViewer({
         key={`page-${animKey}`}
         ref={pagerRef}
         className={`single-pager ${slideClass}`}
-        aria-label="Book page"
+        aria-label="বইয়ের পৃষ্ঠা"
       >
         <button
           type="button"
           className="edge-zone is-left"
-          aria-label="Previous edge"
+          aria-label="আগের প্রান্ত"
           disabled={atStart}
           onClick={goPrev}
         />
         <button
           type="button"
           className="edge-zone is-right"
-          aria-label="Next edge"
+          aria-label="পরের প্রান্ত"
           disabled={atEnd}
           onClick={goNext}
         />
@@ -305,7 +305,7 @@ export function SpreadViewer({
             <button
               type="button"
               className="page-turn"
-              aria-label="Previous page"
+              aria-label="আগের পৃষ্ঠা"
               disabled={atStart}
               onClick={goPrev}
             >
@@ -319,7 +319,7 @@ export function SpreadViewer({
             <button
               type="button"
               className="page-turn"
-              aria-label="Next page"
+              aria-label="পরের পৃষ্ঠা"
               disabled={atEnd}
               onClick={goNext}
             >

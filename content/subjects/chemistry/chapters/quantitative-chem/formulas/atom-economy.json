@@ -19,11 +19,6 @@
       "symbol": "M_{\\mathrm{desired}}",
       "meaning": "কাঙ্ক্ষিত উৎপাদনের মোলার ভর",
       "unit": "g/mol"
-    },
-    {
-      "symbol": "\\sum M_{\\mathrm{reactants}}",
-      "meaning": "সব বিক্রিয়কের মোট মোলার ভর",
-      "unit": "g/mol"
     }
   ],
   "derivation": {
@@ -32,11 +27,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\%\\ \\mathrm{AE}=\\dfrac{M_{\\mathrm{desired}}}{\\sum M_{\\mathrm{reactants}}}\\times100",
-        "note": "পরমাণু মিতব্যয়িতা এর প্রাথমিক রূপ।"
+        "note": "% atom economy = (কাঙ্ক্ষিত উৎপাদনের মোলার ভর / মোট বিক্রিয়কের মোলার ভর) × 100"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\%\\ \\mathrm{AE}=\\dfrac{M_{\\mathrm{desired}}}{\\sum M_{\\mathrm{reactants}}}\\times100",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "কাঙ্ক্ষিত / মোট বিক্রিয়ক × 100 — বর্জ্য কম = AE বেশি।"
       }
     ],
@@ -49,14 +44,19 @@
       "examType": "HSC",
       "question": "যোগ বিক্রিয়ায় atom economy সাধারণত কেমন?",
       "answer": "\\approx 100\\%"
+    },
+    {
+      "examType": "Concept",
+      "question": "পরমাণু মিতব্যয়িতা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{কাঙ্ক্ষিত / মোট বিক্রিয়ক × 100 — বর্জ্য কম = AE বেশি।}"
     }
   ],
   "memorize": {
     "trick": "কাঙ্ক্ষিত / মোট বিক্রিয়ক × 100 — বর্জ্য কম = AE বেশি।",
     "steps": [
       "কাঙ্ক্ষিত / মোট বিক্রিয়ক × 100 — বর্জ্য কম = AE বেশি।",
-      "মনে রাখো — % atom economy = (কাঙ্ক্ষিত উৎপাদনের মোলার ভর / মোট বিক্রিয়কের মোলার ভর) × 100",
-      "চিহ্ন চেক: M_{\\mathrm{desired}}, \\sum M_{\\mathrm{reactants}}"
+      "প্রশ্নে পরমাণু মিতব্যয়িতা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: M_{\\mathrm{desired}}=কাঙ্ক্ষিত উৎপাদনের মোলার ভর।"
     ]
   },
   "subjects": [

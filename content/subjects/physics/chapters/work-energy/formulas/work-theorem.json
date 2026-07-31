@@ -47,12 +47,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "W = Fs\\cos\\theta, \\quad W_{net} = \\Delta KE = \\frac{1}{2}mv_f^2 - \\frac{1}{2}mv_i^2, \\quad P_{\\mathrm{avg}}=\\frac Wt,\\quad P=\\vec F\\cdot\\vec v=Fv\\cos\\theta",
-        "note": "কাজ-শক্তি উপপাদ্য ও ক্ষমতা এর প্রাথমিক রূপ।"
+        "note": "কাজের সংজ্ঞা, কাজ-শক্তি উপপাদ্য এবং ক্ষমতার সূত্র"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "W = Fs\\cos\\theta, \\quad W_{net} = \\Delta KE = \\frac{1}{2}mv_f^2 - \\frac{1}{2}mv_i^2, \\quad P_{\\mathrm{avg}}=\\frac Wt,\\quad P=\\vec F\\cdot\\vec v=Fv\\cos\\theta",
-        "note": "W = Fs cosθ — বল ও সরণ লম্ব হলে কাজ শূন্য (তাই বোঝা মাথায় নিয়ে সমান্তরালে হাঁটলে কাজ নেই)। আর W_net = ΔKE — 'মোট কাজই "
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "note": "W = Fs cosθ — বল ও সরণ লম্ব হলে কাজ শূন্য (তাই বোঝা মাথায় নিয়ে সমান্তরালে হাঁটলে কাজ নেই)। আর W_net = ΔKE — 'মোট কাজই গতিশক্তির পরিবর্তন'।"
       }
     ],
     "assumptions": [
@@ -64,6 +64,11 @@
       "examType": "BUET Admission",
       "question": "30° কোণে 10 N বল প্রয়োগ করে 5 m সরণে কাজ কত?",
       "answer": "W = Fs\\cos\\theta = 10 \\times 5 \\times \\cos30° = 50 \\times \\frac{\\sqrt{3}}{2} = 25\\sqrt{3} \\approx 43.3 \\text{ J}"
+    },
+    {
+      "examType": "Concept",
+      "question": "কাজ-শক্তি উপপাদ্য ও ক্ষমতা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "W = Fs\\cos\\theta, \\quad W_{net} = \\Delta KE = \\frac{1}{2}mv_f^2 - \\frac{1}{2}mv_i^2, \\quad P_{\\mathrm{avg}}=\\frac Wt,\\quad P=\\vec F\\cdot\\vec v=Fv\\cos\\theta"
     }
   ],
   "memorize": {

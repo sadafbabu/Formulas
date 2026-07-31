@@ -61,7 +61,12 @@
     {
       "examType": "Medical Admission",
       "question": "Galvanized iron-এ coating আঁচড়ালেও কেন লোহা সহজে মরিচা ধরে না?",
-      "answer": "\\ce{Zn}\\ \\text{লোহার চেয়ে বেশি সক্রিয়; sacrificial anode হয়ে নিজে জারিত হয়ে Fe-কে cathodic রাখে।}"
+      "answer": "\\text{মরিচার জন্য দুটোই লাগে: পানি + oxygen। Zinc coating শুধু barrier নয়—sacrificial anode; নিজে ক্ষয় হয়ে লোহাকে}"
+    },
+    {
+      "examType": "Concept",
+      "question": "তড়িৎ রাসায়নিক ক্ষয় ও মরিচা প্রতিরোধ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{মরিচার জন্য দুটোই লাগে: পানি + oxygen। Zinc coating শুধু barrier নয়—sacrificial anode; নিজে ক্ষয় হয়ে লোহাকে বাঁচায়। }"
     }
   ],
   "memorize": {

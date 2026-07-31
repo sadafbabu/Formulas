@@ -69,6 +69,11 @@
       "examType": "Admission",
       "question": "φ=2 eV, λ=400 nm। K_max? (hc≈1240 eV·nm)",
       "answer": "hf=1240/400=3.1\\mathrm{eV};\\ K_{\\max}=3.1-2=1.1\\mathrm{eV}"
+    },
+    {
+      "examType": "Concept",
+      "question": "আইনস্টাইনের ফটোইলেকট্রিক সমীকরণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "K_{\\max}=hf-\\phi=h(f-f_0)=eV_0"
     }
   ],
   "memorize": {

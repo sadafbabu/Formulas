@@ -3,7 +3,7 @@
   "chapter": "quantitative-chem",
   "title": "Stoichiometric Mass Relation",
   "titleBn": "stoichiometry ভর সম্পর্ক",
-  "summary": "সমীকরণের মোল অনুপাত দিয়ে ভর বের করো।",
+  "summary": "stoichiometry ভর সম্পর্ক: সমীকরণের মোল অনুপাত দিয়ে ভর বের করো।",
   "latex": "\\frac{m_A}{aM_A}=\\frac{m_B}{bM_B}\\quad(aA\\to bB)",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "সমীকরণের মোল অনুপাত দিয়ে ভর বের করো।",
+    "lead": "stoichiometry ভর সম্পর্ক প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{m_A}{aM_A}=\\frac{m_B}{bM_B}\\quad(aA\\to bB)",
-        "note": "stoichiometry ভর সম্পর্ক এর প্রাথমিক রূপ।"
+        "note": "stoichiometry ভর সম্পর্ক: সমীকরণের মোল অনুপাত দিয়ে ভর বের করো।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\frac{m_A}{aM_A}=\\frac{m_B}{bM_B}\\quad(aA\\to bB)",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "সমীকরণের মোল অনুপাত দিয়ে ভর বের করো।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "stoichiometry ভর সম্পর্ক এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "stoichiometry ভর সম্পর্ক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\frac{m_A}{aM_A}=\\frac{m_B}{bM_B}\\quad(aA\\to bB)\\text{ — }সমীকরণের মোল অনুপাত দিয়ে ভর বের করো।"
     },
     {
       "examType": "Concept",
-      "question": "stoichiometry ভর সম্পর্ক দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{সমীকরণের মোল অনুপাত দিয়ে ভর বের করো।}"
+      "question": "stoichiometry ভর সম্পর্ক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{m_A}{aM_A}=\\frac{m_B}{bM_B}\\quad(aA\\to bB)\\text{ — }সমীকরণের মোল অনুপাত দিয়ে ভর বের করো।"
     }
   ],
   "memorize": {
     "trick": "সমীকরণের মোল অনুপাত দিয়ে ভর বের করো।",
     "steps": [
       "সমীকরণের মোল অনুপাত দিয়ে ভর বের করো।",
-      "মনে রাখো — সমীকরণের মোল অনুপাত দিয়ে ভর বের করো।",
-      "চিহ্ন চেক: m, A, a"
+      "প্রশ্নে stoichiometry ভর সম্পর্ক বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: m=mole ratio, A=ক্ষেত্রফল / বিস্তার।"
     ]
   },
   "subjects": [

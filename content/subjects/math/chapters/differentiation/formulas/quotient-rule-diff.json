@@ -3,7 +3,7 @@
   "chapter": "differentiation",
   "title": "Quotient Rule",
   "titleBn": "ভাগ নিয়ম",
-  "summary": "নিচের বর্গ ভাজক; উপরে vu′−uv′।",
+  "summary": "ভাগ নিয়ম: নিচের বর্গ ভাজক; উপরে vu′−uv′।",
   "latex": "\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}",
   "tags": [
     "hsc",
@@ -21,44 +21,47 @@
     },
     {
       "symbol": "v",
-      "meaning": "বেগ",
+      "meaning": "v (সূত্রের রাশি)",
       "unit": "m/s"
     }
   ],
   "derivation": {
-    "lead": "নিচের বর্গ ভাজক; উপরে vu′−uv′।",
+    "lead": "ভাগ নিয়ম প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}",
-        "note": "ভাগ নিয়ম এর প্রাথমিক রূপ।"
+        "note": "ভাগ নিয়ম: নিচের বর্গ ভাজক; উপরে vu′−uv′।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "নিচের বর্গ ভাজক; উপরে vu′−uv′।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "ভাগ নিয়ম এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভাগ নিয়ম এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "ভাগ নিয়ম কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\text{ — }নিচের বর্গ ভাজক; উপরে vu′−uv′।"
     },
     {
       "examType": "Concept",
-      "question": "ভাগ নিয়ম দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{নিচের বর্গ ভাজক; উপরে vu′uv′।}"
+      "question": "ভাগ নিয়ম কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\text{ — }নিচের বর্গ ভাজক; উপরে vu′−uv′।"
     }
   ],
   "memorize": {
     "trick": "নিচের বর্গ ভাজক; উপরে vu′−uv′।",
     "steps": [
       "নিচের বর্গ ভাজক; উপরে vu′−uv′।",
-      "মনে রাখো — নিচের বর্গ ভাজক; উপরে vu′−uv′।",
-      "চিহ্ন চেক: u, v"
+      "প্রশ্নে ভাগ নিয়ম বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: u=(vu'−uv')/v²।"
     ]
   },
   "subjects": [

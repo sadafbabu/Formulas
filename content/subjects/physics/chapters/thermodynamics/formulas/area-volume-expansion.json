@@ -54,6 +54,11 @@
       "examType": "HSC",
       "question": "α = 1.2×10⁻⁵ /°C হলে γ কত?",
       "answer": "\\gamma=3\\alpha=3.6\\times10^{-5}/^\\circ\\text{C}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ক্ষেত্র ও আয়তন প্রসারণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{রৈখিক α → ক্ষেত্র ২α → আয়তন ৩α।}"
     }
   ],
   "memorize": {

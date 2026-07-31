@@ -59,6 +59,11 @@
       "examType": "Admission",
       "question": "ρ = 0.5 হলে সম্ভাব্য CN?",
       "answer": "6\\ (\\text{অষ্টতলকীয়})"
+    },
+    {
+      "examType": "Concept",
+      "question": "ব্যাসার্ধ অনুপাত নিয়ম দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{ρ ছোট = কম CN; ρ বড় = বেশি CN।}"
     }
   ],
   "memorize": {

@@ -3,7 +3,7 @@
   "chapter": "sequences-series",
   "title": "Mathematical Induction",
   "titleBn": "গাণিতিক আরোহ পদ্ধতি",
-  "summary": "ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।",
+  "summary": "গাণিতিক আরোহ পদ্ধতি: ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।",
   "latex": "P(1)\\text{ true and }P(k)\\Rightarrow P(k+1)\\Rightarrow P(n)\\ \\forall n\\in\\mathbb{N}",
   "tags": [
     "hsc",
@@ -28,47 +28,45 @@
       "symbol": "k",
       "meaning": "বল ধ্রুবক / বোল্টজম্যান / তরঙ্গ সংখ্যা",
       "unit": "—"
-    },
-    {
-      "symbol": "Rightarrow",
-      "meaning": "Rightarrow (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।",
+    "lead": "গাণিতিক আরোহ পদ্ধতি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "P(1)\\text{ true and }P(k)\\Rightarrow P(k+1)\\Rightarrow P(n)\\ \\forall n\\in\\mathbb{N}",
-        "note": "গাণিতিক আরোহ পদ্ধতি এর প্রাথমিক রূপ।"
+        "note": "গাণিতিক আরোহ পদ্ধতি: ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "P(1)\\text{ true and }P(k)\\Rightarrow P(k+1)\\Rightarrow P(n)\\ \\forall n\\in\\mathbb{N}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "গাণিতিক আরোহ পদ্ধতি এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গাণিতিক আরোহ পদ্ধতি এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "গাণিতিক আরোহ পদ্ধতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "P(1)\\text{ true and }P(k)\\Rightarrow P(k+1)\\Rightarrow P(n)\\ \\forall n\\in\\mathbb{N}\\text{ — }ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।"
     },
     {
       "examType": "Concept",
-      "question": "গাণিতিক আরোহ পদ্ধতি দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।}"
+      "question": "গাণিতিক আরোহ পদ্ধতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "P(1)\\text{ true and }P(k)\\Rightarrow P(k+1)\\Rightarrow P(n)\\ \\forall n\\in\\mathbb{N}\\text{ — }ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।"
     }
   ],
   "memorize": {
     "trick": "ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।",
     "steps": [
       "ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।",
-      "মনে রাখো — ভিত্তি ধাপ + আরোহ ধাপ দুটোই লাগে।",
-      "চিহ্ন চেক: P, true and, k"
+      "প্রশ্নে গাণিতিক আরোহ পদ্ধতি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: P=base + inductive step, k=বল ধ্রুবক / বোল্টজম্যান / তরঙ্গ সংখ্যা।"
     ]
   },
   "subjects": [

@@ -42,21 +42,29 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\Lambda_m = \\frac{\\kappa \\times 1000}{M}, \\quad \\Lambda_m^\\circ = \\nu_+ \\lambda_+^\\circ + \\nu_- \\lambda_-^\\circ",
-        "note": "মোলার পরিবাহিতাও কোলরাউশের সূত্র এর প্রাথমিক রূপ।"
+        "note": "তড়িৎ বিশ্লেষ্যের মোলার পরিবাহিতা ও অসীম লঘুতায় মোলার পরিবাহিতা"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\Lambda_m = \\frac{\\kappa \\times 1000}{M}, \\quad \\Lambda_m^\\circ = \\nu_+ \\lambda_+^\\circ + \\nu_- \\lambda_-^\\circ",
-        "note": "Λ_m = κ×1000/M — লঘু করলে মোলার পরিবাহিতা বাড়ে (আয়ন স্বাধীনভাবে চলে)। কোলরাউশ: অসীম লঘুতায় মোট পরিবাহিতা = ক্যাটায়ন "
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "note": "Λ_m = κ×1000/M — লঘু করলে মোলার পরিবাহিতা বাড়ে (আয়ন স্বাধীনভাবে চলে)। কোলরাউশ: অসীম লঘুতায় মোট পরিবাহিতা = ক্যাটায়ন ও অ্যানায়নের আলাদা "
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "BUET Admission Hard",
       "question": "0.1 M HCl দ্রবণের আপেক্ষিক পরিবাহিতা 0.04 S/cm হলে এর মোলার পরিবাহিতা (Λm) কত?",
       "answer": "\\Lambda_m = \\frac{0.04 \\times 1000}{0.1} = \\frac{40}{0.1} = 400\\text{ S}\\cdot\\text{cm}^2/\\text{mol}"
+    },
+    {
+      "examType": "Concept",
+      "question": "মোলার পরিবাহিতাও কোলরাউশের সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\Lambda_m = \\frac{\\kappa \\times 1000}{M}, \\quad \\Lambda_m^\\circ = \\nu_+ \\lambda_+^\\circ + \\nu_- \\lambda_-^\\circ"
     }
   ],
   "memorize": {

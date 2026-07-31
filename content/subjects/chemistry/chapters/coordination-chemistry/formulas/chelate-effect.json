@@ -16,8 +16,8 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "chelate complexes more stable than similar non-chelates",
-      "meaning": "polydentate stability",
+      "symbol": "\\text{key}",
+      "meaning": "কিলেট প্রভাব এর মূল রাশি",
       "unit": "—"
     }
   ],
@@ -27,34 +27,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{chelate complexes more stable than similar non-chelates}",
-        "note": "কিলেট প্রভাব এর প্রাথমিক রূপ।"
+        "note": "এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{chelate complexes more stable than similar non-chelates}",
-        "note": "এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল।"
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "note": "এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল। — কিলেট প্রভাব মনে রাখার চাবিকাঠি।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কিলেট প্রভাব লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{chelate complexes more stable than similar non-chelates}"
+      "question": "কিলেট প্রভাব কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{chelate complexes more stable than similar non-chelates}\\text{ — }এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল। — কিলেট প্রভাব মনে রাখার চাবিকাঠি।"
     },
     {
       "examType": "Concept",
-      "question": "কিলেট প্রভাব দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল।}"
+      "question": "কিলেট প্রভাব কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{chelate complexes more stable than similar non-chelates}\\text{ — }এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল। — কিলেট প্রভাব মনে রাখার চাবিকাঠি।"
     }
   ],
   "memorize": {
     "trick": "এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল। — কিলেট প্রভাব মনে রাখার চাবিকাঠি।",
     "steps": [
-      "এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল।",
-      "মনে রাখো — এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল।",
-      "চিহ্ন চেক: chelate complexes more stable than similar non-chelates"
+      "এন্ট্রপি বাড়ে বলে কিলেট স্থিতিশীল। — কিলেট প্রভাব মনে রাখার চাবিকাঠি।",
+      "প্রশ্নে কিলেট প্রভাব বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "একক, চিহ্ন ও সীমাবদ্ধতা যাচাই করে উত্তর লেখো।"
     ]
   },
   "subjects": [

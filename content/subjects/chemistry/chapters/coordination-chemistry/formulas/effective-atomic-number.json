@@ -3,7 +3,7 @@
   "chapter": "coordination-chemistry",
   "title": "Effective Atomic Number",
   "titleBn": "কার্যকর পরমাণু সংখ্যা",
-  "summary": "EAN ≈ next noble gas (18 or 36) → stable complex।",
+  "summary": "কার্যকর পরমাণু সংখ্যা: EAN ≈ next noble gas (18 or 36) → stable complex।",
   "latex": "\\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "EAN ≈ next noble gas (18 or 36) → stable complex।",
+    "lead": "কার্যকর পরমাণু সংখ্যা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}",
-        "note": "কার্যকর পরমাণু সংখ্যা এর প্রাথমিক রূপ।"
+        "note": "কার্যকর পরমাণু সংখ্যা: EAN ≈ next noble gas (18 or 36) → stable complex।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "EAN ≈ next noble gas (18 or 36) → stable complex।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কার্যকর পরমাণু সংখ্যা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}"
+      "question": "কার্যকর পরমাণু সংখ্যা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}\\text{ — }EAN ≈ next noble gas (18 or 36) → stable complex।"
     },
     {
       "examType": "Concept",
-      "question": "কার্যকর পরমাণু সংখ্যা দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{EAN ≈ next noble gas (18 or 36) → stable complex।}"
+      "question": "কার্যকর পরমাণু সংখ্যা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{EAN}=Z-\\text{oxidation state}+2\\times\\text{CN}\\text{ — }EAN ≈ next noble gas (18 or 36) → stable complex।"
     }
   ],
   "memorize": {
     "trick": "EAN ≈ next noble gas (18 or 36) → stable complex।",
     "steps": [
       "EAN ≈ next noble gas (18 or 36) → stable complex।",
-      "মনে রাখো — EAN ≈ next noble gas (18 or 36) → stable complex।",
-      "চিহ্ন চেক: EAN, Z, oxidation state"
+      "প্রশ্নে কার্যকর পরমাণু সংখ্যা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: EAN=EAN rule, Z=পারমাণবিক সংখ্যা / প্রতিবন্ধকতা।"
     ]
   },
   "subjects": [

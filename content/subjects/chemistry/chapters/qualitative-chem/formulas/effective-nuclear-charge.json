@@ -62,6 +62,11 @@
       "examType": "Varsity Admission",
       "question": "Z = 17 ও আনুমানিক আড়াল ধ্রুবক S = 10 হলে কার্যকর নিউক্লীয় আধান কত?",
       "answer": "Z_{\\mathrm{eff}}=17-10=7"
+    },
+    {
+      "examType": "Concept",
+      "question": "কার্যকর নিউক্লীয় আধান ও আড়াল প্রভাব দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "Z_{\\mathrm{eff}}=Z-S,\\quad E_n\\approx-13.6\\frac{Z_{\\mathrm{eff}}^2}{n^2}\\ \\mathrm{eV}"
     }
   ],
   "memorize": {

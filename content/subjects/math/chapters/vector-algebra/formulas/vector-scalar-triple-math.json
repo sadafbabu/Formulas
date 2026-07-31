@@ -3,7 +3,7 @@
   "chapter": "vector-algebra",
   "title": "Scalar Triple Product",
   "titleBn": "স্কালার ত্রিগুণফল",
-  "summary": "আয়তন = |[a b c]|; সমতলীয় হলে ০।",
+  "summary": "স্কালার ত্রিগুণফল: আয়তন = |[a b c]|; সমতলীয় হলে ০।",
   "latex": "[\\vec a\\,\\vec b\\,\\vec c]=\\vec a\\cdot(\\vec b\\times\\vec c)=\\begin{vmatrix}a_x&a_y&a_z\\\\b_x&b_y&b_z\\\\c_x&c_y&c_z\\end{vmatrix}",
   "tags": [
     "hsc",
@@ -21,7 +21,7 @@
     },
     {
       "symbol": "a",
-      "meaning": "ত্বরণ",
+      "meaning": "সহগ / ধ্রুবক",
       "unit": "m/s²"
     },
     {
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "আয়তন = |[a b c]|; সমতলীয় হলে ০।",
+    "lead": "স্কালার ত্রিগুণফল প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "[\\vec a\\,\\vec b\\,\\vec c]=\\vec a\\cdot(\\vec b\\times\\vec c)=\\begin{vmatrix}a_x&a_y&a_z\\\\b_x&b_y&b_z\\\\c_x&c_y&c_z\\end{vmatrix}",
-        "note": "স্কালার ত্রিগুণফল এর প্রাথমিক রূপ।"
+        "note": "স্কালার ত্রিগুণফল: আয়তন = |[a b c]|; সমতলীয় হলে ০।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "[\\vec a\\,\\vec b\\,\\vec c]=\\vec a\\cdot(\\vec b\\times\\vec c)=\\begin{vmatrix}a_x&a_y&a_z\\\\b_x&b_y&b_z\\\\c_x&c_y&c_z\\end{vmatrix}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "আয়তন = |[a b c]|; সমতলীয় হলে ০।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "স্কালার ত্রিগুণফল এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্কালার ত্রিগুণফল লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "[\\vec a\\,\\vec b\\,\\vec c]=\\vec a\\cdot(\\vec b\\times\\vec c)=\\begin{vmatrix}a_x&a_y&a_z\\\\b_x&b_y&b_z\\\\c_x&c_y&c_z\\end{vmatrix}"
+      "question": "স্কালার ত্রিগুণফল কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "[\\vec a\\,\\vec b\\,\\vec c]=\\vec a\\cdot(\\vec b\\times\\vec c)=\\begin{vmatrix}a_x&a_y&a_z\\\\b_x&b_y&b_z\\\\c_x&c_y&c_z\\end{vmatrix}\\text{ — }আয়তন = |[a b c]|; সমতলীয় হলে ০।"
     },
     {
       "examType": "Concept",
-      "question": "স্কালার ত্রিগুণফল দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{আয়তন = |[a b c]|; সমতলীয় হলে ০।}"
+      "question": "স্কালার ত্রিগুণফল কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "[\\vec a\\,\\vec b\\,\\vec c]=\\vec a\\cdot(\\vec b\\times\\vec c)=\\begin{vmatrix}a_x&a_y&a_z\\\\b_x&b_y&b_z\\\\c_x&c_y&c_z\\end{vmatrix}\\text{ — }আয়তন = |[a b c]|; সমতলীয় হলে ০।"
     }
   ],
   "memorize": {
     "trick": "আয়তন = |[a b c]|; সমতলীয় হলে ০।",
     "steps": [
       "আয়তন = |[a b c]|; সমতলীয় হলে ০।",
-      "মনে রাখো — আয়তন = |[a b c]|; সমতলীয় হলে ০।",
-      "চিহ্ন চেক: vec, a, b"
+      "প্রশ্নে স্কালার ত্রিগুণফল বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: vec=[a b c], a=সহগ / ধ্রুবক।"
     ]
   },
   "subjects": [

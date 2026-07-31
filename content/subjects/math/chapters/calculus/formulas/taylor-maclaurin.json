@@ -3,7 +3,7 @@
   "chapter": "calculus",
   "title": "Taylor & Maclaurin Series",
   "titleBn": "টেলর ও ম্যাকলরিন শ্রেণি",
-  "summary": "Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
+  "summary": "টেলর ও ম্যাকলরিন শ্রেণি: Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
   "latex": "f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
   "tags": [
     "hsc",
@@ -25,36 +25,39 @@
       "unit": "m"
     },
     {
-      "symbol": "sum",
-      "meaning": "sum (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
       "symbol": "n",
       "meaning": "মোল সংখ্যা / কোটি",
       "unit": "mol"
     }
   ],
   "derivation": {
-    "lead": "Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
+    "lead": "টেলর ও ম্যাকলরিন শ্রেণি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
-        "note": "টেলর ও ম্যাকলরিন শ্রেণি এর প্রাথমিক রূপ।"
+        "note": "টেলর ও ম্যাকলরিন শ্রেণি: Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "টেলর ও ম্যাকলরিন শ্রেণি এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "টেলর ও ম্যাকলরিন শ্রেণি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "টেলর ও ম্যাকলরিন শ্রেণি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}\\text{ — }Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,"
+    },
+    {
+      "examType": "Concept",
+      "question": "টেলর ও ম্যাকলরিন শ্রেণি দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}"
     }
   ],
@@ -62,8 +65,8 @@
     "trick": "Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
     "steps": [
       "Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
-      "মনে রাখো — Maclaurin = Taylor at a=0। f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(a)}{n!}(x-a)^n,\\quad e^x=\\sum\\frac{x^n}{n!}",
-      "চিহ্ন চেক: f, x, sum"
+      "প্রশ্নে টেলর ও ম্যাকলরিন শ্রেণি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: f=ফাংশনের শ্রেণি বিস্তৃতি, x=অবস্থান / অজানা।"
     ]
   },
   "subjects": [

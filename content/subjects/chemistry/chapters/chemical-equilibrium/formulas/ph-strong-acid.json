@@ -49,6 +49,11 @@
       "examType": "HSC",
       "question": "0.01\\,\\mathrm{M} \\mathrm{HCl}-এর pH?",
       "answer": "2"
+    },
+    {
+      "examType": "Concept",
+      "question": "সবল অম্লের pH দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{সবল অ্যাসিড: pH = −log C। সবল অ্যাসিডে [H⁺] ≈ C; pH = −log C (তনু, সম্পূর্ণ আয়নিত)।}"
     }
   ],
   "memorize": {

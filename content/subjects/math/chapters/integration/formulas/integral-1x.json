@@ -15,11 +15,6 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "int",
-      "meaning": "int (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
       "symbol": "x",
       "meaning": "অবস্থান / অজানা",
       "unit": "m"
@@ -41,34 +36,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\int\\frac{1}{x}\\,dx=\\ln|x|+C",
-        "note": "১/x এর যোগজ এর প্রাথমিক রূপ।"
+        "note": "১/x এর যোগজ এর মূল সম্পর্ক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\int\\frac{1}{x}\\,dx=\\ln|x|+C",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "n=−1 ব্যতিক্রম → ln|x|। \\int\\frac{1}{x}\\,dx=\\ln|x|+C"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "১/x এর যোগজ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "১/x এর যোগজ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "১/x এর যোগজ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\int\\frac{1}{x}\\,dx=\\ln|x|+C\\text{ — }n=−1 ব্যতিক্রম → ln|x|। \\int\\frac{1}{x}\\,dx=\\ln|x|+C"
     },
     {
       "examType": "Concept",
-      "question": "১/x এর যোগজ দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{int frac 1 x ,dx= ln|x|+C}"
+      "question": "১/x এর যোগজ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\int\\frac{1}{x}\\,dx=\\ln|x|+C\\text{ — }n=−1 ব্যতিক্রম → ln|x|। \\int\\frac{1}{x}\\,dx=\\ln|x|+C"
     }
   ],
   "memorize": {
     "trick": "n=−1 ব্যতিক্রম → ln|x|। \\int\\frac{1}{x}\\,dx=\\ln|x|+C",
     "steps": [
       "n=−1 ব্যতিক্রম → ln|x|। \\int\\frac{1}{x}\\,dx=\\ln|x|+C",
-      "মনে রাখো — n=−1 ব্যতিক্রম → ln|x|। \\int\\frac{1}{x}\\,dx=\\ln|x|+C",
-      "চিহ্ন চেক: int, x, d"
+      "প্রশ্নে ১/x এর যোগজ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: x=অবস্থান / অজানা, d=দূরত্ব / ব্যাস।"
     ]
   },
   "subjects": [

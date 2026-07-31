@@ -66,6 +66,11 @@
       "examType": "Varsity Admission",
       "question": "x^2-5xy+6y^2=0 রেখা-জোড়টি factor করুন।",
       "answer": "(x-2y)(x-3y)=0;\\quad m=\\frac12,\\frac13"
+    },
+    {
+      "examType": "Concept",
+      "question": "দ্বিঘাত সমীকরণে সরলরেখা-জোড় দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{ax²+2hxy+by²-এ xy-এর coefficient হলো 2h—h নয়। বাস্তব pair: h²≥ab; perpendicular pair: a+b=0। y=mx বসালেই সব পরিষ্কার।}"
     }
   ],
   "memorize": {

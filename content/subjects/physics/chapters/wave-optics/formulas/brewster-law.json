@@ -73,6 +73,11 @@
       "examType": "Eng Admission",
       "question": "কাচের (μ = 1.5) সমবর্তন কোণ কত এবং সেই সময় প্রতিসরণ কোণ কত?",
       "answer": "\\theta_p = \\tan^{-1}(1.5) = 56.3^\\circ, \\quad \\theta_r = 90 - 56.3 = 33.7^\\circ"
+    },
+    {
+      "examType": "Concept",
+      "question": "ব্রুস্টারের সূত্র ও বিভেদন ক্ষমতা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\frac{n_2}{n_1}=\\tan\\theta_B,\\quad \\theta_B+\theta_r=90^\\circ,\\quad \\theta_{\\min}=\\frac{1.22\\lambda}{D}"
     }
   ],
   "memorize": {

@@ -74,6 +74,11 @@
       "examType": "BUET Admission",
       "question": "২×১০⁻⁹ C·m ভ্রামকের দ্বিপোল ৫×১০⁴ N/C ক্ষেত্রে ৩০° কোণে থাকলে টর্ক কত?",
       "answer": "\\tau = pE\\sin\\theta = 2\\times10^{-9} \\times 5\\times10^4 \\times 0.5 = 5\\times10^{-5}\\ \\text{N·m}"
+    },
+    {
+      "examType": "Concept",
+      "question": "তড়িৎ দ্বিপোল: ক্ষেত্র, টর্ক ও বিভব শক্তি দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "p=q(2a),\\quad E_{\\mathrm{axis}}=\\frac{2kp}{r^3},\\quad \\vec E_{\\mathrm{eq}}=-\\frac{kp}{r^3}\\hat p,\\quad \\tau=pE\\sin\\theta"
     }
   ],
   "memorize": {

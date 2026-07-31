@@ -42,20 +42,28 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
-        "note": "সমাকলিত প্রথম ক্রম এর প্রাথমিক রূপ।"
+        "note": "সমাকলিত প্রথম ক্রম এর মূল সম্পর্ক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "ln[A] বনাম t সরলরেখা। \\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমাকলিত প্রথম ক্রম এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "সমাকলিত প্রথম ক্রম কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সমাকলিত প্রথম ক্রম দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "\\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}"
     }
   ],
@@ -63,8 +71,8 @@
     "trick": "ln[A] বনাম t সরলরেখা। \\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
     "steps": [
       "ln[A] বনাম t সরলরেখা। \\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
-      "মনে রাখো — ln[A] বনাম t সরলরেখা। \\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
-      "চিহ্ন চেক: A, k, t"
+      "প্রশ্নে সমাকলিত প্রথম ক্রম বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: A=ln([A]₀/[A])=kt, k=বল ধ্রুবক / বোল্টজম্যান / তরঙ্গ সংখ্যা।"
     ]
   },
   "subjects": [

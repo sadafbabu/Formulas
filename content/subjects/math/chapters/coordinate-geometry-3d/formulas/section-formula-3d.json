@@ -3,7 +3,7 @@
   "chapter": "coordinate-geometry-3d",
   "title": "Section Formula 3D",
   "titleBn": "অংশন সূত্র (৩D)",
-  "summary": "2D section formula-এ z যোগ করলেই হয়।",
+  "summary": "অংশন সূত্র (৩D): 2D section formula-এ z যোগ করলেই হয়।",
   "latex": "\\left(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n},\\frac{mz_2+nz_1}{m+n}\\right)",
   "tags": [
     "hsc",
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "2D section formula-এ z যোগ করলেই হয়।",
+    "lead": "অংশন সূত্র (৩D) প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\left(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n},\\frac{mz_2+nz_1}{m+n}\\right)",
-        "note": "অংশন সূত্র (৩D) এর প্রাথমিক রূপ।"
+        "note": "অংশন সূত্র (৩D): 2D section formula-এ z যোগ করলেই হয়।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\left(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n},\\frac{mz_2+nz_1}{m+n}\\right)",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "2D section formula-এ z যোগ করলেই হয়।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "অংশন সূত্র (৩D) এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অংশন সূত্র (৩D) লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\left(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n},\\frac{mz_2+nz_1}{m+n}\\right)"
+      "question": "অংশন সূত্র (৩D) কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\left(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n},\\frac{mz_2+nz_1}{m+n}\\right)\\text{ — }2D section formula-এ z যোগ করলেই হয়।"
     },
     {
       "examType": "Concept",
-      "question": "অংশন সূত্র (৩D) দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{2D section formula-এ z যোগ করলেই হয়।}"
+      "question": "অংশন সূত্র (৩D) কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\left(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n},\\frac{mz_2+nz_1}{m+n}\\right)\\text{ — }2D section formula-এ z যোগ করলেই হয়।"
     }
   ],
   "memorize": {
     "trick": "2D section formula-এ z যোগ করলেই হয়।",
     "steps": [
       "2D section formula-এ z যোগ করলেই হয়।",
-      "মনে রাখো — 2D section formula-এ z যোগ করলেই হয়।",
-      "চিহ্ন চেক: m, x, n"
+      "প্রশ্নে অংশন সূত্র (৩D) বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: m=m:n অনুপাতে, x=অবস্থান / অজানা।"
     ]
   },
   "subjects": [

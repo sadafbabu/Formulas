@@ -57,6 +57,11 @@
       "examType": "HSC Board",
       "question": "\\sqrt{3+4i} নির্ণয় করুন।",
       "answer": "r=5;\\ \\sqrt{3+4i}=\\pm\\left(\\sqrt4+i\\sqrt1\\right)=\\pm(2+i)"
+    },
+    {
+      "examType": "Concept",
+      "question": "জটিল সংখ্যার বর্গমূল দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Square root-এ modulus-এর root, argument অর্ধেক। Cartesian formula-এ (r+a)/2 real অংশে, (r−a)/2 imaginary অংশে; b-এর চিহ্}"
     }
   ],
   "memorize": {

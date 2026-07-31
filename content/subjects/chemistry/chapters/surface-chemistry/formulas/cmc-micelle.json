@@ -3,7 +3,7 @@
   "chapter": "surface-chemistry",
   "title": "CMC & Micelle",
   "titleBn": "CMC ও মাইকেল",
-  "summary": "সাবানের পরিষ্কার ক্ষমতা CMC-এর উপরে কার্যকর।",
+  "summary": "CMC ও মাইকেল: সাবানের পরিষ্কার ক্ষমতা CMC-এর উপরে কার্যকর।",
   "latex": "\\text{CMC = concentration where micelles form}",
   "tags": [
     "hsc",
@@ -16,45 +16,48 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "CMC = concentration where micelles form",
-      "meaning": "critical micelle concentration",
+      "symbol": "\\text{key}",
+      "meaning": "CMC ও মাইকেল এর মূল রাশি",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "সাবানের পরিষ্কার ক্ষমতা CMC-এর উপরে কার্যকর।",
+    "lead": "CMC ও মাইকেল প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{CMC = concentration where micelles form}",
-        "note": "CMC ও মাইকেল এর প্রাথমিক রূপ।"
+        "note": "CMC ও মাইকেল: সাবানের পরিষ্কার ক্ষমতা CMC-এর উপরে কার্যকর।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{CMC = concentration where micelles form}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "সাবানের পরিষ্কার ক্ষমতা CMC-এর উপরে কার্যকর।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "CMC ও মাইকেল লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{CMC = concentration where micelles form}"
+      "question": "CMC ও মাইকেল কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{CMC = concentration where micelles form}\\text{ — }সাবানের পরিষ্কার ক্ষমতা CMC-এর উপরে কার্যকর।"
     },
     {
       "examType": "Concept",
-      "question": "CMC ও মাইকেল দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{সাবানের পরিষ্কার ক্ষমতা CMC-এর উপরে কার্যকর।}"
+      "question": "CMC ও মাইকেল কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{CMC = concentration where micelles form}\\text{ — }সাবানের পরিষ্কার ক্ষমতা CMC-এর উপরে কার্যকর।"
     }
   ],
   "memorize": {
     "trick": "সাবানের পরিষ্কার ক্ষমতা CMC-এর উপরে কার্যকর।",
     "steps": [
       "সাবানের পরিষ্কার ক্ষমতা CMC-এর উপরে কার্যকর।",
-      "মনে রাখো — সাবানের পরিষ্কার ক্ষমতা CMC-এর উপরে কার্যকর।",
-      "চিহ্ন চেক: CMC = concentration where micelles form"
+      "প্রশ্নে CMC ও মাইকেল বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "একক, চিহ্ন ও সীমাবদ্ধতা যাচাই করে উত্তর লেখো।"
     ]
   },
   "subjects": [

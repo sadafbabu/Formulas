@@ -69,14 +69,19 @@
       "examType": "HSC",
       "question": "R = r_eq হলে বাহ্যিক রোধে ক্ষমতা কেন সর্বোচ্চ?",
       "answer": "P=I^2R;\\ I=\\dfrac{E_{\\mathrm{eq}}}{r_{\\mathrm{eq}}+R}\\Rightarrow P\\ \\max\\ \\text{at}\\ R=r_{\\mathrm{eq}}"
+    },
+    {
+      "examType": "Concept",
+      "question": "কোষ বিন্যাস ও সর্বোচ্চ ক্ষমতা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "P_{\\max}\\ \\text{when}\\ R=r_{\\mathrm{eq}}=\\dfrac{nr}{m}\\ (N=mn),\\quad I=\\dfrac{nE}{nr+mR}"
     }
   ],
   "memorize": {
     "trick": "ম্যাচ করো: R = nr/m। সিরিজ বেশি → r_eq বাড়ে।",
     "steps": [
       "ম্যাচ করো: R = nr/m। সিরিজ বেশি → r_eq বাড়ে।",
-      "মনে রাখো — সর্বোচ্চ পাওয়ার যখন R = r_eq; m×n কোষে r_eq = nr/m",
-      "চিহ্ন চেক: n, m, N=mn"
+      "প্রশ্নে কোষ বিন্যাস ও সর্বোচ্চ ক্ষমতা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: n=প্রতি সারিতে সিরিজ কোষ, m=সমান্তরাল সারির সংখ্যা।"
     ]
   },
   "subjects": [

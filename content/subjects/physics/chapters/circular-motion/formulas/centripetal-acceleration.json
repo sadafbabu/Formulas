@@ -42,11 +42,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "a_c=\\dfrac{v^2}{r}=\\omega^2 r",
-        "note": "কেন্দ্রমুখী ত্বরণ এর প্রাথমিক রূপ।"
+        "note": "a_c = v²/r = ω²r — কেন্দ্রের দিকে"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "a_c=\\dfrac{v^2}{r}=\\omega^2 r",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "কেন্দ্রে টানে: a_c = v²/r = ω²r — বড় বেগ/ছোট r = বেশি টান।"
       }
     ],
@@ -59,6 +59,11 @@
       "examType": "HSC",
       "question": "v=10 m/s, r=5 m। a_c?",
       "answer": "a_c=20\\,\\mathrm{m/s^2}"
+    },
+    {
+      "examType": "Concept",
+      "question": "কেন্দ্রমুখী ত্বরণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "a_c=\\dfrac{v^2}{r}=\\omega^2 r"
     }
   ],
   "memorize": {

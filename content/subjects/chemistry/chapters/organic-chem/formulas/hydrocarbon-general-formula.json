@@ -58,6 +58,11 @@
       "examType": "Admission",
       "question": "\\mathrm{C_5H_{10}} কোন শ্রেণি?",
       "answer": "\\text{অ্যালকিন }(\\mathrm{C_nH_{2n}})"
+    },
+    {
+      "examType": "Concept",
+      "question": "হাইড্রোকার্বনের সাধারণ সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{+2 saturated; 2n এক দ্বিবন্ধন; 2n−2 এক ত্রিবন্ধন।}"
     }
   ],
   "memorize": {

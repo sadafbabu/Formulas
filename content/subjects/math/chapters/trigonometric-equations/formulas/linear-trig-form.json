@@ -41,34 +41,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "a\\cos\\theta+b\\sin\\theta=R\\cos(\\theta-\\alpha),\\ R=\\sqrt{a^2+b^2},\\ \\tan\\alpha=b/a",
-        "note": "রৈখিক ত্রিকোণমিতিক রূপ এর প্রাথমিক রূপ।"
+        "note": "R cos(θ−α) রূপে রূপান্তর"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "a\\cos\\theta+b\\sin\\theta=R\\cos(\\theta-\\alpha),\\ R=\\sqrt{a^2+b^2},\\ \\tan\\alpha=b/a",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "R=√(a²+b²); tanα=b/a। R cos(θ−α) রূপে রূপান্তর"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "রৈখিক ত্রিকোণমিতিক রূপ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রৈখিক ত্রিকোণমিতিক রূপ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "রৈখিক ত্রিকোণমিতিক রূপ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "a\\cos\\theta+b\\sin\\theta=R\\cos(\\theta-\\alpha),\\ R=\\sqrt{a^2+b^2},\\ \\tan\\alpha=b/a\\text{ — }R=√(a²+b²); tanα=b/a। R cos(θ−α) রূপে রূপান্তর"
     },
     {
       "examType": "Concept",
-      "question": "রৈখিক ত্রিকোণমিতিক রূপ দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{R cos(θα) রূপে রূপান্তর}"
+      "question": "রৈখিক ত্রিকোণমিতিক রূপ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "a\\cos\\theta+b\\sin\\theta=R\\cos(\\theta-\\alpha),\\ R=\\sqrt{a^2+b^2},\\ \\tan\\alpha=b/a\\text{ — }R=√(a²+b²); tanα=b/a। R cos(θ−α) রূপে রূপান্তর"
     }
   ],
   "memorize": {
     "trick": "R=√(a²+b²); tanα=b/a। R cos(θ−α) রূপে রূপান্তর",
     "steps": [
       "R=√(a²+b²); tanα=b/a। R cos(θ−α) রূপে রূপান্তর",
-      "মনে রাখো — R cos(θ−α) রূপে রূপান্তর",
-      "চিহ্ন চেক: a, theta, b"
+      "প্রশ্নে রৈখিক ত্রিকোণমিতিক রূপ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: a=R cos(θ−α) রূপে রূপান্তর, theta=কোণ।"
     ]
   },
   "subjects": [

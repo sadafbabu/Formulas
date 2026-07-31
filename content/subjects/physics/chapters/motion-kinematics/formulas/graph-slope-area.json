@@ -37,11 +37,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "v=\\dfrac{ds}{dt},\\ a=\\dfrac{dv}{dt},\\ s=\\int v\\,dt",
-        "note": "গতি লেখচিত্র এর প্রাথমিক রূপ।"
+        "note": "s–t ঢাল = v; v–t ঢাল = a; v–t ক্ষেত্রফল = সরণ"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "v=\\dfrac{ds}{dt},\\ a=\\dfrac{dv}{dt},\\ s=\\int v\\,dt",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "s–t ঢাল=বেগ; v–t ঢাল=ত্বরণ; v–t ক্ষেত্রফল=সরণ।"
       }
     ],
@@ -54,6 +54,11 @@
       "examType": "HSC",
       "question": "v–t তে আয়তক্ষেত্রের ক্ষেত্রফল কী দেয়?",
       "answer": "\\text{সরণ }s"
+    },
+    {
+      "examType": "Concept",
+      "question": "গতি লেখচিত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{s–t ঢাল=বেগ; v–t ঢাল=ত্বরণ; v–t ক্ষেত্রফল=সরণ।}"
     }
   ],
   "memorize": {

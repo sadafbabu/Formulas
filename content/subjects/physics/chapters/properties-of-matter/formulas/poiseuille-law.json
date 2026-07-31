@@ -47,11 +47,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "Q=\\dfrac{\\pi\\Delta P r^4}{8\\eta L}",
-        "note": "পয়সেইয়ের সূত্র এর প্রাথমিক রূপ।"
+        "note": "নলে আয়তন হার Q = πΔP r⁴ / (8ηL)"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "Q=\\dfrac{\\pi\\Delta P r^4}{8\\eta L}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Q∝r⁴ — নল একটু চওড়া হলে প্রবাহ অনেক বাড়ে।"
       }
     ],
@@ -64,6 +64,11 @@
       "examType": "Admission",
       "question": "r দ্বিগুণ হলে Q?",
       "answer": "Q\\to 16Q"
+    },
+    {
+      "examType": "Concept",
+      "question": "পয়সেইয়ের সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Q∝r⁴ — নল একটু চওড়া হলে প্রবাহ অনেক বাড়ে।}"
     }
   ],
   "memorize": {

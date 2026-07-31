@@ -3,7 +3,7 @@
   "chapter": "sets-functions",
   "title": "Set Difference",
   "titleBn": "সেটের পার্থক্য",
-  "summary": "A-তে আছে কিন্তু B-তে নেই। A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
+  "summary": "সেটের পার্থক্য: A-তে আছে কিন্তু B-তে নেই। A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
   "latex": "A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
   "tags": [
     "hsc",
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "A-তে আছে কিন্তু B-তে নেই। A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
+    "lead": "সেটের পার্থক্য প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
-        "note": "সেটের পার্থক্য এর প্রাথমিক রূপ।"
+        "note": "সেটের পার্থক্য: A-তে আছে কিন্তু B-তে নেই। A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "A-তে আছে কিন্তু B-তে নেই। A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "সেটের পার্থক্য এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সেটের পার্থক্য লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}"
+      "question": "সেটের পার্থক্য কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}\\text{ — }A-তে আছে কিন্তু B-তে নেই। A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}"
     },
     {
       "examType": "Concept",
-      "question": "সেটের পার্থক্য দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{A-তে আছে কিন্তু B-তে নেই। Asetminus B=x:xin A, xnotin B}"
+      "question": "সেটের পার্থক্য কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}\\text{ — }A-তে আছে কিন্তু B-তে নেই। A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}"
     }
   ],
   "memorize": {
     "trick": "A-তে আছে কিন্তু B-তে নেই। A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
     "steps": [
       "A-তে আছে কিন্তু B-তে নেই। A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
-      "মনে রাখো — A-তে আছে কিন্তু B-তে নেই। A\\setminus B=\\{x:x\\in A,\\ x\\notin B\\}",
-      "চিহ্ন চেক: A, setminus, B"
+      "প্রশ্নে সেটের পার্থক্য বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: A=ক্ষেত্রফল / বিস্তার, B=চৌম্বক ক্ষেত্র।"
     ]
   },
   "subjects": [

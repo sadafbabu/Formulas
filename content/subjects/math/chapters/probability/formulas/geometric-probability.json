@@ -3,7 +3,7 @@
   "chapter": "probability",
   "title": "Geometric Probability",
   "titleBn": "জ্যামিতিক সম্ভাব্যতা",
-  "summary": "এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।",
+  "summary": "জ্যামিতিক সম্ভাব্যতা: এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।",
   "latex": "P=\\frac{\\text{favourable length/area}}{\\text{total length/area}}",
   "tags": [
     "hsc",
@@ -20,50 +20,48 @@
       "unit": "—"
     },
     {
-      "symbol": "favourable length/area",
-      "meaning": "favourable length/area (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
       "symbol": "total length/area",
       "meaning": "total length/area (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।",
+    "lead": "জ্যামিতিক সম্ভাব্যতা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "P=\\frac{\\text{favourable length/area}}{\\text{total length/area}}",
-        "note": "জ্যামিতিক সম্ভাব্যতা এর প্রাথমিক রূপ।"
+        "note": "জ্যামিতিক সম্ভাব্যতা: এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "P=\\frac{\\text{favourable length/area}}{\\text{total length/area}}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "জ্যামিতিক সম্ভাব্যতা এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জ্যামিতিক সম্ভাব্যতা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "P=\\frac{\\text{favourable length/area}}{\\text{total length/area}}"
+      "question": "জ্যামিতিক সম্ভাব্যতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "P=\\frac{\\text{favourable length/area}}{\\text{total length/area}}\\text{ — }এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।"
     },
     {
       "examType": "Concept",
-      "question": "জ্যামিতিক সম্ভাব্যতা দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।}"
+      "question": "জ্যামিতিক সম্ভাব্যতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "P=\\frac{\\text{favourable length/area}}{\\text{total length/area}}\\text{ — }এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।"
     }
   ],
   "memorize": {
     "trick": "এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।",
     "steps": [
       "এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।",
-      "মনে রাখো — এক সমান সম্ভাব্য বিন্দু → দৈর্ঘ্য/ক্ষেত্রফল অনুপাত।",
-      "চিহ্ন চেক: P, favourable length/area, total length/area"
+      "প্রশ্নে জ্যামিতিক সম্ভাব্যতা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: P=অঞ্চলের অনুপাত।"
     ]
   },
   "subjects": [

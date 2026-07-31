@@ -3,7 +3,7 @@
   "chapter": "wave-optics",
   "title": "Fresnel Biprism",
   "titleBn": "ফ্রেসনেল বাইপ্রিজম",
-  "summary": "YDS-এর মতো β=λD/d; d প্রিজম থেকে।",
+  "summary": "ফ্রেসনেল বাইপ্রিজম: YDS-এর মতো β=λD/d; d প্রিজম থেকে।",
   "latex": "\\beta=\\frac{\\lambda D}{d},\\quad d=2a(\\mu-1)\\alpha",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "YDS-এর মতো β=λD/d; d প্রিজম থেকে।",
+    "lead": "ফ্রেসনেল বাইপ্রিজম প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\beta=\\frac{\\lambda D}{d},\\quad d=2a(\\mu-1)\\alpha",
-        "note": "ফ্রেসনেল বাইপ্রিজম এর প্রাথমিক রূপ।"
+        "note": "ফ্রেসনেল বাইপ্রিজম: YDS-এর মতো β=λD/d; d প্রিজম থেকে।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\beta=\\frac{\\lambda D}{d},\\quad d=2a(\\mu-1)\\alpha",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "YDS-এর মতো β=λD/d; d প্রিজম থেকে।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফ্রেসনেল বাইপ্রিজম লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\beta=\\frac{\\lambda D}{d},\\quad d=2a(\\mu-1)\\alpha"
+      "question": "ফ্রেসনেল বাইপ্রিজম কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\beta=\\frac{\\lambda D}{d},\\quad d=2a(\\mu-1)\\alpha\\text{ — }YDS-এর মতো β=λD/d; d প্রিজম থেকে।"
     },
     {
       "examType": "Concept",
-      "question": "ফ্রেসনেল বাইপ্রিজম দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{YDS-এর মতো β=D/d; d প্রিজম থেকে।}"
+      "question": "ফ্রেসনেল বাইপ্রিজম কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\beta=\\frac{\\lambda D}{d},\\quad d=2a(\\mu-1)\\alpha\\text{ — }YDS-এর মতো β=λD/d; d প্রিজম থেকে।"
     }
   ],
   "memorize": {
     "trick": "YDS-এর মতো β=λD/d; d প্রিজম থেকে।",
     "steps": [
       "YDS-এর মতো β=λD/d; d প্রিজম থেকে।",
-      "মনে রাখো — YDS-এর মতো β=λD/d; d প্রিজম থেকে।",
-      "চিহ্ন চেক: lambda, D, d"
+      "প্রশ্নে ফ্রেসনেল বাইপ্রিজম বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: lambda=ফ্রেসনেল বাইপ্রিজম, D=দূরত্ব / তড়িৎ সরণ।"
     ]
   },
   "subjects": [

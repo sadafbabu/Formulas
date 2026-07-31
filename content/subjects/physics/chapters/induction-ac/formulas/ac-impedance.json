@@ -59,14 +59,19 @@
       "examType": "HSC",
       "question": "R=30 Ω, X_L=40 Ω, X_C=0। Z কত?",
       "answer": "Z=\\sqrt{30^2+40^2}=50\\,\\Omega"
+    },
+    {
+      "examType": "Concept",
+      "question": "প্রতিবন্ধকতা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "Z=\\sqrt{R^2+(X_L-X_C)^2},\\quad X_L=\\omega L,\\ X_C=1/(\\omega C)"
     }
   ],
   "memorize": {
     "trick": "Z=√(R²+X²); X=X_L−X_C। AC প্রতিবন্ধকতা Z=√(R²+(X_L−X_C)²)",
     "steps": [
       "Z=√(R²+X²); X=X_L−X_C। AC প্রতিবন্ধকতা Z=√(R²+(X_L−X_C)²)",
-      "মনে রাখো — AC প্রতিবন্ধকতা Z=√(R²+(X_L−X_C)²)",
-      "চিহ্ন চেক: Z, R, X_L=\\omega L"
+      "প্রশ্নে প্রতিবন্ধকতা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: Z=প্রতিবন্ধকতা, R=রোধ।"
     ]
   },
   "subjects": [

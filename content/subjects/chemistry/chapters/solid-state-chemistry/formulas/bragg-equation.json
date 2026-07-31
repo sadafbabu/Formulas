@@ -3,7 +3,7 @@
   "chapter": "solid-state-chemistry",
   "title": "Bragg's Equation",
   "titleBn": "ব্র্যাগের সমীকরণ",
-  "summary": "X-ray diffraction; n=order, d=interplanar spacing।",
+  "summary": "ব্র্যাগের সমীকরণ: X-ray diffraction; n=order, d=interplanar spacing।",
   "latex": "n\\lambda=2d\\sin\\theta",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "X-ray diffraction; n=order, d=interplanar spacing।",
+    "lead": "ব্র্যাগের সমীকরণ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "n\\lambda=2d\\sin\\theta",
-        "note": "ব্র্যাগের সমীকরণ এর প্রাথমিক রূপ।"
+        "note": "ব্র্যাগের সমীকরণ: X-ray diffraction; n=order, d=interplanar spacing।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "n\\lambda=2d\\sin\\theta",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "X-ray diffraction; n=order, d=interplanar spacing।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ব্র্যাগের সমীকরণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "n\\lambda=2d\\sin\\theta"
+      "question": "ব্র্যাগের সমীকরণ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "n\\lambda=2d\\sin\\theta\\text{ — }X-ray diffraction; n=order, d=interplanar spacing।"
     },
     {
       "examType": "Concept",
-      "question": "ব্র্যাগের সমীকরণ দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{X-ray diffraction; n=order, d=interplanar spacing।}"
+      "question": "ব্র্যাগের সমীকরণ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "n\\lambda=2d\\sin\\theta\\text{ — }X-ray diffraction; n=order, d=interplanar spacing।"
     }
   ],
   "memorize": {
     "trick": "X-ray diffraction; n=order, d=interplanar spacing।",
     "steps": [
       "X-ray diffraction; n=order, d=interplanar spacing।",
-      "মনে রাখো — X-ray diffraction; n=order, d=interplanar spacing।",
-      "চিহ্ন চেক: n, lambda, d"
+      "প্রশ্নে ব্র্যাগের সমীকরণ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: n=nλ=2d sinθ, lambda=তরঙ্গদৈর্ঘ্য / ক্ষয় ধ্রুবক।"
     ]
   },
   "subjects": [

@@ -3,7 +3,7 @@
   "chapter": "permutation-combination",
   "title": "Permutation Formula",
   "titleBn": "ক্রমবিন্যাস সূত্র",
-  "summary": "Order matters → nPr; n!/(n−r)!।",
+  "summary": "ক্রমবিন্যাস সূত্র: Order matters → nPr; n!/(n−r)!।",
   "latex": "P(n,r)=\\frac{n!}{(n-r)!}",
   "tags": [
     "hsc",
@@ -31,39 +31,42 @@
     }
   ],
   "derivation": {
-    "lead": "Order matters → nPr; n!/(n−r)!।",
+    "lead": "ক্রমবিন্যাস সূত্র প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "P(n,r)=\\frac{n!}{(n-r)!}",
-        "note": "ক্রমবিন্যাস সূত্র এর প্রাথমিক রূপ।"
+        "note": "ক্রমবিন্যাস সূত্র: Order matters → nPr; n!/(n−r)!।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "P(n,r)=\\frac{n!}{(n-r)!}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Order matters → nPr; n!/(n−r)!।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "ক্রমবিন্যাস সূত্র এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্রমবিন্যাস সূত্র এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "ক্রমবিন্যাস সূত্র কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "P(n,r)=\\frac{n!}{(n-r)!}\\text{ — }Order matters → nPr; n!/(n−r)!।"
     },
     {
       "examType": "Concept",
-      "question": "ক্রমবিন্যাস সূত্র দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{Order matters → nPr; n!/(nr)!।}"
+      "question": "ক্রমবিন্যাস সূত্র কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "P(n,r)=\\frac{n!}{(n-r)!}\\text{ — }Order matters → nPr; n!/(n−r)!।"
     }
   ],
   "memorize": {
     "trick": "Order matters → nPr; n!/(n−r)!।",
     "steps": [
       "Order matters → nPr; n!/(n−r)!।",
-      "মনে রাখো — Order matters → nPr; n!/(n−r)!।",
-      "চিহ্ন চেক: P, n, r"
+      "প্রশ্নে ক্রমবিন্যাস সূত্র বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: P=চাপ / ক্ষমতা, n=মোল সংখ্যা / কোটি।"
     ]
   },
   "subjects": [

@@ -3,7 +3,7 @@
   "chapter": "integration",
   "title": "∫ eˣ dx",
   "titleBn": "eˣ এর যোগজ",
-  "summary": "eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
+  "summary": "eˣ এর যোগজ: eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
   "latex": "\\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
   "tags": [
     "hsc",
@@ -14,11 +14,6 @@
   "importance": 3,
   "order": 30,
   "symbols": [
-    {
-      "symbol": "int",
-      "meaning": "int (সূত্রের রাশি)",
-      "unit": "—"
-    },
     {
       "symbol": "e",
       "meaning": "ইলেকট্রন চার্জ / ভিত্তি",
@@ -36,25 +31,33 @@
     }
   ],
   "derivation": {
-    "lead": "eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
+    "lead": "eˣ এর যোগজ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
-        "note": "eˣ এর যোগজ এর প্রাথমিক রূপ।"
+        "note": "eˣ এর যোগজ: eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "eˣ এর যোগজ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "eˣ এর যোগজ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "eˣ এর যোগজ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C"
+    },
+    {
+      "examType": "Concept",
+      "question": "eˣ এর যোগজ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "\\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C"
     }
   ],
@@ -62,8 +65,8 @@
     "trick": "eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
     "steps": [
       "eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
-      "মনে রাখো — eˣ নিজের যোগজ; aˣ ভাগ ln a। \\int e^x\\,dx=e^x+C,\\quad \\int a^x\\,dx=\\frac{a^x}{\\ln a}+C",
-      "চিহ্ন চেক: int, e, x"
+      "প্রশ্নে eˣ এর যোগজ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: e=ইলেকট্রন চার্জ / ভিত্তি, x=অবস্থান / অজানা।"
     ]
   },
   "subjects": [

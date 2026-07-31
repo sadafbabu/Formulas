@@ -3,7 +3,7 @@
   "chapter": "environmental-chemistry",
   "title": "Greenhouse Gases",
   "titleBn": "গ্রিনহাউস গ্যাস",
-  "summary": "CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।",
+  "summary": "গ্রিনহাউস গ্যাস: CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।",
   "latex": "\\mathrm{CO_2},\\mathrm{CH_4},\\mathrm{N_2O},\\mathrm{O_3},\\mathrm{CFCs}",
   "tags": [
     "hsc",
@@ -32,44 +32,47 @@
     },
     {
       "symbol": "O_3",
-      "meaning": "O₃",
+      "meaning": "O (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।",
+    "lead": "গ্রিনহাউস গ্যাস প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{CO_2},\\mathrm{CH_4},\\mathrm{N_2O},\\mathrm{O_3},\\mathrm{CFCs}",
-        "note": "গ্রিনহাউস গ্যাস এর প্রাথমিক রূপ।"
+        "note": "গ্রিনহাউস গ্যাস: CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\mathrm{CO_2},\\mathrm{CH_4},\\mathrm{N_2O},\\mathrm{O_3},\\mathrm{CFCs}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্রিনহাউস গ্যাস লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\mathrm{CO_2},\\mathrm{CH_4},\\mathrm{N_2O},\\mathrm{O_3},\\mathrm{CFCs}"
+      "question": "গ্রিনহাউস গ্যাস কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{CO_2},\\mathrm{CH_4},\\mathrm{N_2O},\\mathrm{O_3},\\mathrm{CFCs}\\text{ — }CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।"
     },
     {
       "examType": "Concept",
-      "question": "গ্রিনহাউস গ্যাস দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।}"
+      "question": "গ্রিনহাউস গ্যাস কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{CO_2},\\mathrm{CH_4},\\mathrm{N_2O},\\mathrm{O_3},\\mathrm{CFCs}\\text{ — }CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।"
     }
   ],
   "memorize": {
     "trick": "CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।",
     "steps": [
       "CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।",
-      "মনে রাখো — CH₄ CO₂-এর চেয়ে শক্তিশালী গ্রিনহাউস গ্যাস।",
-      "চিহ্ন চেক: CO_2, CH_4, N_2O"
+      "প্রশ্নে গ্রিনহাউস গ্যাস বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: CO_2=CO₂, CH_4=CH₄।"
     ]
   },
   "subjects": [

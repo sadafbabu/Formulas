@@ -41,11 +41,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta G=-nFE_{\\mathrm{cell}},\\quad \\Delta G^\\circ=-nFE^\\circ_{\\mathrm{cell}},\\quad E=E^\\circ-\\frac{RT}{nF}\\ln Q",
-        "note": "গিবস মুক্ত শক্তি ও কোষ EMF এর প্রাথমিক রূপ।"
+        "note": "কোষের EMF ও গিবস মুক্ত শক্তি পরিবর্তন সম্পর্ক"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\Delta G=-nFE_{\\mathrm{cell}},\\quad \\Delta G^\\circ=-nFE^\\circ_{\\mathrm{cell}},\\quad E=E^\\circ-\\frac{RT}{nF}\\ln Q",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "ΔG = −nFE — ঋণাত্মক চিহ্নটাই আসল: E ধনাত্মক হলে ΔG ঋণাত্মক, অর্থাৎ বিক্রিয়া স্বতঃস্ফূর্ত। 'ধনাত্মক EMF = কোষ কাজ করবে'।"
       }
     ],
@@ -60,6 +60,11 @@
       "examType": "Eng / HSC",
       "question": "\\Delta G ও EMF এর সম্পর্ক কী?",
       "answer": "\\Delta G = -nFE"
+    },
+    {
+      "examType": "Concept",
+      "question": "গিবস মুক্ত শক্তি ও কোষ EMF দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{ΔG = −nFE — ঋণাত্মক চিহ্নটাই আসল: E ধনাত্মক হলে ΔG ঋণাত্মক, অর্থাৎ বিক্রিয়া স্বতঃস্ফূর্ত। 'ধনাত্মক EMF = কোষ কাজ করবে'।}"
     }
   ],
   "memorize": {

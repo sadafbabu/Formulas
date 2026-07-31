@@ -3,7 +3,7 @@
   "chapter": "integration",
   "title": "Substitution Method",
   "titleBn": "প্রতিস্থাপন পদ্ধতি",
-  "summary": "ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
+  "summary": "প্রতিস্থাপন পদ্ধতি: ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
   "latex": "\\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
   "tags": [
     "hsc",
@@ -14,11 +14,6 @@
   "importance": 3,
   "order": 50,
   "symbols": [
-    {
-      "symbol": "int",
-      "meaning": "u=g(x)",
-      "unit": "—"
-    },
     {
       "symbol": "f",
       "meaning": "কম্পাঙ্ক / বল (প্রসঙ্গমতে)",
@@ -36,39 +31,42 @@
     }
   ],
   "derivation": {
-    "lead": "ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
+    "lead": "প্রতিস্থাপন পদ্ধতি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
-        "note": "প্রতিস্থাপন পদ্ধতি এর প্রাথমিক রূপ।"
+        "note": "প্রতিস্থাপন পদ্ধতি: ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "প্রতিস্থাপন পদ্ধতি এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্রতিস্থাপন পদ্ধতি এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "প্রতিস্থাপন পদ্ধতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du\\text{ — }ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du"
     },
     {
       "examType": "Concept",
-      "question": "প্রতিস্থাপন পদ্ধতি দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{int f(g(x))g'(x) ,dx= int f(u) ,du}"
+      "question": "প্রতিস্থাপন পদ্ধতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du\\text{ — }ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du"
     }
   ],
   "memorize": {
     "trick": "ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
     "steps": [
       "ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
-      "মনে রাখো — ভিতরের অন্তরক দেখলেই u ধরো। \\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du",
-      "চিহ্ন চেক: int, f, g"
+      "প্রশ্নে প্রতিস্থাপন পদ্ধতি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: f=কম্পাঙ্ক / বল (প্রসঙ্গমতে), g=অভিকর্ষজ ত্বরণ।"
     ]
   },
   "subjects": [

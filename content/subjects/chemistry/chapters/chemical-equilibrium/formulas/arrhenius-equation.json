@@ -63,6 +63,11 @@
       "examType": "BUET Admission",
       "question": "ln k বনাম 1/T লেখের ঢাল −6000 K হলে activation energy কত?",
       "answer": "E_a=-R(\\text{slope})=8.314\\times6000=49.9\\ \\mathrm{kJ/mol}"
+    },
+    {
+      "examType": "Concept",
+      "question": "আরহেনিয়াস সমীকরণ ও সক্রিয়ণ শক্তি দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Arrhenius plot: ln k বনাম 1/T—ঢাল ঋণাত্মক = −Eₐ/R। তাপ বাড়লে 1/T কমে কিন্তু k বাড়ে। Catalyst Eₐ কমায়, equilibrium সরা}"
     }
   ],
   "memorize": {

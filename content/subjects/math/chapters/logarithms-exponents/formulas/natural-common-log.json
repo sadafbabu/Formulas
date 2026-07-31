@@ -3,7 +3,7 @@
   "chapter": "logarithms-exponents",
   "title": "ln and log₁₀",
   "titleBn": "ln ও সাধারণ লগ",
-  "summary": "প্রাকৃতিক লগ ভিত্তি e≈2.718। \\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
+  "summary": "ln ও সাধারণ লগ: প্রাকৃতিক লগ ভিত্তি e≈2.718। \\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
   "latex": "\\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
   "tags": [
     "hsc",
@@ -26,25 +26,33 @@
     }
   ],
   "derivation": {
-    "lead": "প্রাকৃতিক লগ ভিত্তি e≈2.718। \\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
+    "lead": "ln ও সাধারণ লগ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
-        "note": "ln ও সাধারণ লগ এর প্রাথমিক রূপ।"
+        "note": "ln ও সাধারণ লগ: প্রাকৃতিক লগ ভিত্তি e≈2.718। \\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "প্রাকৃতিক লগ ভিত্তি e≈2.718। \\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "ln ও সাধারণ লগ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ln ও সাধারণ লগ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "ln ও সাধারণ লগ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ln ও সাধারণ লগ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "\\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}"
     }
   ],
@@ -52,8 +60,8 @@
     "trick": "প্রাকৃতিক লগ ভিত্তি e≈2.718। \\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
     "steps": [
       "প্রাকৃতিক লগ ভিত্তি e≈2.718। \\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
-      "মনে রাখো — প্রাকৃতিক লগ ভিত্তি e≈2.718। \\ln x=\\log_e x,\\quad \\log_{10}x=\\frac{\\ln x}{\\ln 10}",
-      "চিহ্ন চেক: x, e"
+      "প্রশ্নে ln ও সাধারণ লগ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: x=ln = log_e, e=ইলেকট্রন চার্জ / ভিত্তি।"
     ]
   },
   "subjects": [

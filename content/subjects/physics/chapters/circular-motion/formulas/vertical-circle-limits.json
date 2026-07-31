@@ -42,20 +42,28 @@
       {
         "title": "মূল সূত্র",
         "latex": "v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
-        "note": "উল্লম্ব বৃত্তের চরম এর প্রাথমিক রূপ।"
+        "note": "উল্লম্ব বৃত্তের চরম এর মূল সম্পর্ক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "শীর্ষে ন্যূনতম √(gr)। v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "উল্লম্ব বৃত্তের চরম লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "উল্লম্ব বৃত্তের চরম কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})"
+    },
+    {
+      "examType": "Concept",
+      "question": "উল্লম্ব বৃত্তের চরম দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})"
     }
   ],
@@ -63,8 +71,8 @@
     "trick": "শীর্ষে ন্যূনতম √(gr)। v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
     "steps": [
       "শীর্ষে ন্যূনতম √(gr)। v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
-      "মনে রাখো — শীর্ষে ন্যূনতম √(gr)। v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
-      "চিহ্ন চেক: v, top, g"
+      "প্রশ্নে উল্লম্ব বৃত্তের চরম বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: v=উল্লম্ব বৃত্তের চরম, g=অভিকর্ষজ ত্বরণ।"
     ]
   },
   "subjects": [

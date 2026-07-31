@@ -3,7 +3,7 @@
   "chapter": "properties-of-matter",
   "title": "Pascal's Law",
   "titleBn": "প্যাসকেলের সূত্র",
-  "summary": "Hydraulic lift: small force × large distance = large force × small distance।",
+  "summary": "প্যাসকেলের সূত্র: Hydraulic lift: small force × large distance = large force × small distance।",
   "latex": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}",
   "tags": [
     "hsc",
@@ -26,39 +26,42 @@
     }
   ],
   "derivation": {
-    "lead": "Hydraulic lift: small force × large distance = large force × small distance।",
+    "lead": "প্যাসকেলের সূত্র প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}",
-        "note": "প্যাসকেলের সূত্র এর প্রাথমিক রূপ।"
+        "note": "প্যাসকেলের সূত্র: Hydraulic lift: small force × large distance = large force × small distance।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Hydraulic lift: small force × large distance = large force × small distance।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্যাসকেলের সূত্র লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}"
+      "question": "প্যাসকেলের সূত্র কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}\\text{ — }Hydraulic lift: small force × large distance = large force × small distance।"
     },
     {
       "examType": "Concept",
-      "question": "প্যাসকেলের সূত্র দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Hydraulic lift: small force  large distance = large force  small distance।}"
+      "question": "প্যাসকেলের সূত্র কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{F_1}{A_1}=\\frac{F_2}{A_2}\\text{ — }Hydraulic lift: small force × large distance = large force × small distance।"
     }
   ],
   "memorize": {
     "trick": "Hydraulic lift: small force × large distance = large force × small distance।",
     "steps": [
       "Hydraulic lift: small force × large distance = large force × small distance।",
-      "মনে রাখো — Hydraulic lift: small force × large distance = large force × small distance।",
-      "চিহ্ন চেক: F, A"
+      "প্রশ্নে প্যাসকেলের সূত্র বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: F=প্যাসকেলের সূত্র, A=ক্ষেত্রফল / বিস্তার।"
     ]
   },
   "subjects": [

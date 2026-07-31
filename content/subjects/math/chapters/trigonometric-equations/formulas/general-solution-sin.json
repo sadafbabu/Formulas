@@ -3,7 +3,7 @@
   "chapter": "trigonometric-equations",
   "title": "General Solution sinθ=k",
   "titleBn": "sinθ=k-এর সাধারণ সমাধান",
-  "summary": "Principal α first; then nπ+(−1)ⁿα pattern।",
+  "summary": "sinθ=k-এর সাধারণ সমাধান: Principal α first; then nπ+(−1)ⁿα pattern।",
   "latex": "\\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k",
   "tags": [
     "hsc",
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "Principal α first; then nπ+(−1)ⁿα pattern।",
+    "lead": "sinθ=k-এর সাধারণ সমাধান প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k",
-        "note": "sinθ=k-এর সাধারণ সমাধান এর প্রাথমিক রূপ।"
+        "note": "sinθ=k-এর সাধারণ সমাধান: Principal α first; then nπ+(−1)ⁿα pattern।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Principal α first; then nπ+(−1)ⁿα pattern।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "sinθ=k-এর সাধারণ সমাধান এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "sinθ=k-এর সাধারণ সমাধান এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "sinθ=k-এর সাধারণ সমাধান কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k\\text{ — }Principal α first; then nπ+(−1)ⁿα pattern।"
     },
     {
       "examType": "Concept",
-      "question": "sinθ=k-এর সাধারণ সমাধান দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{Principal α first; then nπ+(1)ⁿα pattern।}"
+      "question": "sinθ=k-এর সাধারণ সমাধান কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\theta=n\\pi+(-1)^n\\alpha,\\quad \\sin\\alpha=k\\text{ — }Principal α first; then nπ+(−1)ⁿα pattern।"
     }
   ],
   "memorize": {
     "trick": "Principal α first; then nπ+(−1)ⁿα pattern।",
     "steps": [
       "Principal α first; then nπ+(−1)ⁿα pattern।",
-      "মনে রাখো — Principal α first; then nπ+(−1)ⁿα pattern।",
-      "চিহ্ন চেক: theta, n, pi"
+      "প্রশ্নে sinθ=k-এর সাধারণ সমাধান বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: theta=θ=nπ+(−1)ⁿα, n=মোল সংখ্যা / কোটি।"
     ]
   },
   "subjects": [

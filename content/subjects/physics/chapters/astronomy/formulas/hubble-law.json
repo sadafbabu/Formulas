@@ -55,6 +55,11 @@
       "examType": "HSC",
       "question": "H₀ = 70 km/s/Mpc ও d = 10 Mpc হলে v কত?",
       "answer": "v=70\\times10=700\\ \\text{km/s}"
+    },
+    {
+      "examType": "Concept",
+      "question": "হাবলের সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{দূরত্ব বাড়লে প্রত্যাগমন বেগ বাড়ে — v = H₀d।}"
     }
   ],
   "memorize": {

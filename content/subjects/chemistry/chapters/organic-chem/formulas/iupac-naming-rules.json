@@ -63,6 +63,11 @@
       "examType": "Admission",
       "question": "\\mathrm{CH_3CH_2CH_3} এর IUPAC নাম?",
       "answer": "\\text{propane / প্রোপেন}"
+    },
+    {
+      "examType": "Concept",
+      "question": "IUPAC নামকরণ (মৌলিক) দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Longest chain → number low → prefixes ABC → suffix for main group।}"
     }
   ],
   "memorize": {

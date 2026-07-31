@@ -66,6 +66,11 @@
       "examType": "HSC Board",
       "question": "x^2-5x+6=0-এর মূল থেকে 2 বেশি মূলবিশিষ্ট equation কী?",
       "answer": "x=y-2:\\ (y-2)^2-5(y-2)+6=0\\Rightarrow y^2-9y+20=0"
+    },
+    {
+      "examType": "Concept",
+      "question": "সমীকরণের মূলের রূপান্তর দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{নতুন root y = পুরনো x + h হলে equation-এ x = y − h বসে—চিহ্ন উল্টো। Reciprocal roots চাইলে coefficients reverse হয়।}"
     }
   ],
   "memorize": {

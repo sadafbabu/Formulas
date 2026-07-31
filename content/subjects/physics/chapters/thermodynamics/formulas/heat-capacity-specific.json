@@ -42,11 +42,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "Q=mc\\Delta T,\\quad c=\\dfrac{Q}{m\\Delta T}",
-        "note": "আপেক্ষিক তাপ এর প্রাথমিক রূপ।"
+        "note": "Q = mcΔT; s = c (আপেক্ষিক তাপ)"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "Q=mc\\Delta T,\\quad c=\\dfrac{Q}{m\\Delta T}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Q = mcΔT — ‘মোল নয়, ভর×c×তাপমাত্রা’। পানি c≈4200।"
       }
     ],
@@ -59,6 +59,11 @@
       "examType": "HSC",
       "question": "m=1 kg, c=4200, ΔT=10। Q?",
       "answer": "Q=4.2\\times10^4\\,\\mathrm{J}"
+    },
+    {
+      "examType": "Concept",
+      "question": "আপেক্ষিক তাপ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Q = mcΔT — ‘মোল নয়, ভর×c×তাপমাত্রা’। পানি c≈4200।}"
     }
   ],
   "memorize": {

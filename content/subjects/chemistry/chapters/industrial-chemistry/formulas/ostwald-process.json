@@ -3,7 +3,7 @@
   "chapter": "industrial-chemistry",
   "title": "Ostwald Process",
   "titleBn": "অস্টওয়াল্ড পদ্ধতি",
-  "summary": "Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।",
+  "summary": "অস্টওয়াল্ড পদ্ধতি: Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।",
   "latex": "\\ce{4NH3 + 5O2 -> 4NO + 6H2O};\\quad \\ce{NO -> NO2 -> HNO3}",
   "tags": [
     "hsc",
@@ -27,8 +27,8 @@
     },
     {
       "symbol": "H",
-      "meaning": "চৌম্বক ক্ষেত্র / এনথ্যালপি",
-      "unit": "A/m বা J"
+      "meaning": "এনথ্যালপি",
+      "unit": "J বা kJ"
     },
     {
       "symbol": "O",
@@ -37,30 +37,33 @@
     }
   ],
   "derivation": {
-    "lead": "Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।",
+    "lead": "অস্টওয়াল্ড পদ্ধতি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\ce{4NH3 + 5O2 -> 4NO + 6H2O};\\quad \\ce{NO -> NO2 -> HNO3}",
-        "note": "অস্টওয়াল্ড পদ্ধতি এর প্রাথমিক রূপ।"
+        "note": "অস্টওয়াল্ড পদ্ধতি: Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\ce{4NH3 + 5O2 -> 4NO + 6H2O};\\quad \\ce{NO -> NO2 -> HNO3}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অস্টওয়াল্ড পদ্ধতি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\ce{4NH3 + 5O2 -> 4NO + 6H2O};\\quad \\ce{NO -> NO2 -> HNO3}"
+      "question": "অস্টওয়াল্ড পদ্ধতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।}"
     },
     {
       "examType": "Concept",
-      "question": "অস্টওয়াল্ড পদ্ধতি দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "question": "অস্টওয়াল্ড পদ্ধতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\text{Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।}"
     }
   ],
@@ -68,8 +71,8 @@
     "trick": "Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।",
     "steps": [
       "Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।",
-      "মনে রাখো — Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।",
-      "চিহ্ন চেক: ce, N, H"
+      "প্রশ্নে অস্টওয়াল্ড পদ্ধতি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: ce=NH₃→HNO₃, N=কণা সংখ্যা।"
     ]
   },
   "subjects": [

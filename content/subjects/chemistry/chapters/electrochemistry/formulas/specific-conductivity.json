@@ -3,7 +3,7 @@
   "chapter": "electrochemistry",
   "title": "Specific & Molar Conductivity",
   "titleBn": "আপেক্ষিক ও মোলার পরিবাহিতা",
-  "summary": "Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।",
+  "summary": "আপেক্ষিক ও মোলার পরিবাহিতা: Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।",
   "latex": "\\kappa=\\frac{1}{\\rho},\\quad\\Lambda_m=\\frac{\\kappa\\times1000}{C},\\quad G=\\kappa\\frac{A}{l}",
   "tags": [
     "hsc",
@@ -37,34 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।",
+    "lead": "আপেক্ষিক ও মোলার পরিবাহিতা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\kappa=\\frac{1}{\\rho},\\quad\\Lambda_m=\\frac{\\kappa\\times1000}{C},\\quad G=\\kappa\\frac{A}{l}",
-        "note": "আপেক্ষিক ও মোলার পরিবাহিতা এর প্রাথমিক রূপ।"
+        "note": "আপেক্ষিক ও মোলার পরিবাহিতা: Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\kappa=\\frac{1}{\\rho},\\quad\\Lambda_m=\\frac{\\kappa\\times1000}{C},\\quad G=\\kappa\\frac{A}{l}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আপেক্ষিক ও মোলার পরিবাহিতা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "আপেক্ষিক ও মোলার পরিবাহিতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\kappa=\\frac{1}{\\rho},\\quad\\Lambda_m=\\frac{\\kappa\\times1000}{C},\\quad G=\\kappa\\frac{A}{l}\\text{ — }Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।"
+    },
+    {
+      "examType": "Concept",
+      "question": "আপেক্ষিক ও মোলার পরিবাহিতা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\kappa=\\frac{1}{\\rho},\\quad\\Lambda_m=\\frac{\\kappa\\times1000}{C},\\quad G=\\kappa\\frac{A}{l}"
     }
   ],
   "memorize": {
     "trick": "Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।",
     "steps": [
       "Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।",
-      "মনে রাখো — Λ_m = κ×1000/C; লঘু হলে Λ_m বাড়ে।",
-      "চিহ্ন চেক: kappa, rho, Lambda"
+      "প্রশ্নে আপেক্ষিক ও মোলার পরিবাহিতা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: kappa=κ এবং Λ_m, rho=ঘনত্ব / রোধাঙ্ক।"
     ]
   },
   "subjects": [

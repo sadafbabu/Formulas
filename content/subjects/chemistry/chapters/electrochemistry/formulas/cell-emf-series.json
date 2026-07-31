@@ -49,6 +49,11 @@
       "examType": "HSC",
       "question": "Zn (−0.76 V) ও Cu (+0.34 V)। E°_cell?",
       "answer": "E^\\circ=0.34-(-0.76)=1.10\\,\\mathrm{V}"
+    },
+    {
+      "examType": "Concept",
+      "question": "তড়িৎ রাসায়নিক শ্রেণি থেকে কোশ EMF দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "E^\\circ_{\\mathrm{cell}}=E^\\circ_{\\mathrm{cathode}}-E^\\circ_{\\mathrm{anode}}"
     }
   ],
   "memorize": {

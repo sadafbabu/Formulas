@@ -71,6 +71,11 @@
       "examType": "BUET Admission",
       "question": "x^2+y^2=25 বৃত্তের (3,4) বিন্দুতে tangent কী?",
       "answer": "3x+4y=25"
+    },
+    {
+      "examType": "Concept",
+      "question": "বৃত্তের স্পর্শক, chord of contact ও radical axis দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Circle tangent-এর magic substitution: x²→xx₁, y²→yy₁, 2gx→g(x+x₁), 2fy→f(y+y₁)—ফল T=0। Tangent length = √S₁।}"
     }
   ],
   "memorize": {

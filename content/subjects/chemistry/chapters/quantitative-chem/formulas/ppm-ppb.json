@@ -3,7 +3,7 @@
   "chapter": "quantitative-chem",
   "title": "ppm & ppb",
   "titleBn": "ppm ও ppb",
-  "summary": "জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।",
+  "summary": "ppm ও ppb: জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।",
   "latex": "\\mathrm{ppm}=\\frac{\\text{mass solute}}{\\text{mass solution}}\\times10^6",
   "tags": [
     "hsc",
@@ -32,39 +32,42 @@
     }
   ],
   "derivation": {
-    "lead": "জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।",
+    "lead": "ppm ও ppb প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{ppm}=\\frac{\\text{mass solute}}{\\text{mass solution}}\\times10^6",
-        "note": "ppm ও ppb এর প্রাথমিক রূপ।"
+        "note": "ppm ও ppb: জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\mathrm{ppm}=\\frac{\\text{mass solute}}{\\text{mass solution}}\\times10^6",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ppm ও ppb লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\mathrm{ppm}=\\frac{\\text{mass solute}}{\\text{mass solution}}\\times10^6"
+      "question": "ppm ও ppb কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{ppm}=\\frac{\\text{mass solute}}{\\text{mass solution}}\\times10^6\\text{ — }জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।"
     },
     {
       "examType": "Concept",
-      "question": "ppm ও ppb দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।}"
+      "question": "ppm ও ppb কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{ppm}=\\frac{\\text{mass solute}}{\\text{mass solution}}\\times10^6\\text{ — }জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।"
     }
   ],
   "memorize": {
     "trick": "জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।",
     "steps": [
       "জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।",
-      "মনে রাখো — জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।",
-      "চিহ্ন চেক: ppm, mass solute, mass solution"
+      "প্রশ্নে ppm ও ppb বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: ppm=parts per million।"
     ]
   },
   "subjects": [

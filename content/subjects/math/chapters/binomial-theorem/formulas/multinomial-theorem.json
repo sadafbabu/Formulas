@@ -26,11 +26,6 @@
       "symbol": "r_i",
       "meaning": "i-তম পদের ঘাত",
       "unit": "অঋণাত্মক পূর্ণসংখ্যা"
-    },
-    {
-      "symbol": "\\frac{n!}{\\prod r_i!}",
-      "meaning": "multinomial coefficient",
-      "unit": "—"
     }
   ],
   "derivation": {
@@ -56,14 +51,19 @@
       "examType": "HSC Board",
       "question": "(x+y+z)^5-এ x^2y^2z-এর coefficient কত?",
       "answer": "\\frac{5!}{2!2!1!}=30"
+    },
+    {
+      "examType": "Concept",
+      "question": "বহুপদী উপপাদ্য দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Multinomial term-এ exponent-গুলোর যোগ n এবং coefficient = n! ভাগ প্রতিটি exponent-এর factorial। প্রশ্নে term দেওয়া থাকল}"
     }
   ],
   "memorize": {
     "trick": "Multinomial term-এ exponent-গুলোর যোগ n এবং coefficient = n! ভাগ প্রতিটি exponent-এর factorial। প্রশ্নে term দেওয়া থাকলে এক লাইনের হিসাব।",
     "steps": [
       "Multinomial term-এ exponent-গুলোর যোগ n এবং coefficient = n! ভাগ প্রতিটি exponent-এর factorial। প্রশ্নে ter…",
-      "মনে রাখো — (x₁+…+xₘ)^n-এর সাধারণ পদ ও coefficient; তিন বা ততোধিক পদের expansion।",
-      "চিহ্ন চেক: r_i, \\frac{n!}{\\prod r_i!}"
+      "প্রশ্নে বহুপদী উপপাদ্য বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: r_i=i-তম পদের ঘাত।"
     ]
   }
 }

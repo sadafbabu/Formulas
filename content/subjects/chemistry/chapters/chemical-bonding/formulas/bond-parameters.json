@@ -61,7 +61,12 @@
     {
       "examType": "Varsity Admission",
       "question": "\\ce{O2}, \\ce{O2+}, \\ce{O2-} এর মধ্যে কোনটির বন্ধন দৈর্ঘ্য সবচেয়ে কম?",
-      "answer": "\\ce{O2+};\\ BO=2.5\\ \\text{সর্বোচ্চ, তাই দৈর্ঘ্য সর্বনিম্ন।}"
+      "answer": "\\text{Bond order}\\uparrow\\Rightarrow E_{\\mathrm{bond}}\\uparrow,\\ r_{\\mathrm{bond}}\\downarrow;\\quad E_{\\mathrm{res}}=E_{\\mathrm{best\\ Lewis}}-E_{\\mathrm{hybrid}}>0"
+    },
+    {
+      "examType": "Concept",
+      "question": "বন্ধন দৈর্ঘ্য, শক্তি, ক্রম ও অনুরণন দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{বন্ধন ক্রম বাড়লে শক্তি বাড়ে, দৈর্ঘ্য কমে—‘order ও energy বন্ধু, length শত্রু’। অনুরণনে প্রকৃত বন্ধন দৈর্ঘ্য দুই সীমার }"
     }
   ],
   "memorize": {

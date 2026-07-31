@@ -61,14 +61,19 @@
       "examType": "Varsity Admission",
       "question": "3-4-5 ত্রিভুজে 5-এর বিপরীত A=90° হলে tan(A/2) যাচাই করুন।",
       "answer": "s=6,\\ r=1,\\ s-a=1\\Rightarrow\\tan(A/2)=1;\\ A/2=45^\\circ"
+    },
+    {
+      "examType": "Concept",
+      "question": "ত্রিভুজে অর্ধকোণের সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Triangle half-angle-এ sin(A/2)-এর numerator-এ A-এর পাশ বাদ দিয়ে (s−b)(s−c); cos(A/2)-এ s(s−a)। আর tan(A/2)=r/(s−a)।}"
     }
   ],
   "memorize": {
     "trick": "Triangle half-angle-এ sin(A/2)-এর numerator-এ A-এর পাশ বাদ দিয়ে (s−b)(s−c); cos(A/2)-এ s(s−a)। আর tan(A/2)=r/(s−a)।",
     "steps": [
       "Triangle half-angle-এ sin(A/2)-এর numerator-এ A-এর পাশ বাদ দিয়ে (s−b)(s−c); cos(A/2)-এ s(s−a)। আর tan(A/2)…",
-      "মনে রাখো — Side ও semiperimeter থেকে sin(A/2), cos(A/2), tan(A/2) এবং inradius relations।",
-      "চিহ্ন চেক: s, r"
+      "প্রশ্নে ত্রিভুজে অর্ধকোণের সূত্র বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: s=অর্ধপরিসীমা, r=inradius।"
     ]
   }
 }

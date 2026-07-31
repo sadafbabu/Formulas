@@ -37,11 +37,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "T=2\\pi\\sqrt{\\dfrac{I}{mgd}}=2\\pi\\sqrt{\\dfrac{k^2+d^2}{gd}}",
-        "note": "যৌগিক দোলক এর প্রাথমিক রূপ।"
+        "note": "T = 2π√(I/(mgd)); সমতুল্য সরল L_eq = I/(md)"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "T=2\\pi\\sqrt{\\dfrac{I}{mgd}}=2\\pi\\sqrt{\\dfrac{k^2+d^2}{gd}}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "T=2π√(I/mgd) — সরল দোলকের L_eq=I/(md)।"
       }
     ],
@@ -52,8 +52,13 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "যৌগিক দোলক এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "যৌগিক দোলক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "T=2\\pi\\sqrt{\\dfrac{I}{mgd}}=2\\pi\\sqrt{\\dfrac{k^2+d^2}{gd}}\\text{ — }T=2π√(I/mgd) — সরল দোলকের L_eq=I/(md)।"
+    },
+    {
+      "examType": "Concept",
+      "question": "যৌগিক দোলক দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "T=2\\pi\\sqrt{\\dfrac{I}{mgd}}=2\\pi\\sqrt{\\dfrac{k^2+d^2}{gd}}"
     }
   ],
   "memorize": {

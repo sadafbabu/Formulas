@@ -66,6 +66,11 @@
       "examType": "BUET Admission",
       "question": "(1+x)^3(1+x)^4-এ x^5-এর coefficient কত?",
       "answer": "(1+x)^7\\Rightarrow [x^5]=\\binom75=21"
+    },
+    {
+      "examType": "Concept",
+      "question": "নির্দিষ্ট ঘাতের সহগ ও ধ্রুব পদ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Coefficient question মানে exponent match। Product-এ exponent যোগ হয়ে target k; constant term-এ মোট exponent 0। একই base}"
     }
   ],
   "memorize": {

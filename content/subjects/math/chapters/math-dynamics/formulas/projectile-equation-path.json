@@ -3,7 +3,7 @@
   "chapter": "math-dynamics",
   "title": "Projectile Path",
   "titleBn": "ক্ষিপ্ত পথের সমীকরণ",
-  "summary": "x elim করে parabolic path; g/2u²cos²θ coefficient।",
+  "summary": "ক্ষিপ্ত পথের সমীকরণ: x elim করে parabolic path; g/2u²cos²θ coefficient।",
   "latex": "y=x\\tan\\theta-\\frac{gx^2}{2u^2\\cos^2\\theta}",
   "tags": [
     "hsc",
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "x elim করে parabolic path; g/2u²cos²θ coefficient।",
+    "lead": "ক্ষিপ্ত পথের সমীকরণ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "y=x\\tan\\theta-\\frac{gx^2}{2u^2\\cos^2\\theta}",
-        "note": "ক্ষিপ্ত পথের সমীকরণ এর প্রাথমিক রূপ।"
+        "note": "ক্ষিপ্ত পথের সমীকরণ: x elim করে parabolic path; g/2u²cos²θ coefficient।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "y=x\\tan\\theta-\\frac{gx^2}{2u^2\\cos^2\\theta}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "x elim করে parabolic path; g/2u²cos²θ coefficient।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "ক্ষিপ্ত পথের সমীকরণ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্ষিপ্ত পথের সমীকরণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "y=x\\tan\\theta-\\frac{gx^2}{2u^2\\cos^2\\theta}"
+      "question": "ক্ষিপ্ত পথের সমীকরণ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "y=x\\tan\\theta-\\frac{gx^2}{2u^2\\cos^2\\theta}\\text{ — }x elim করে parabolic path; g/2u²cos²θ coefficient।"
     },
     {
       "examType": "Concept",
-      "question": "ক্ষিপ্ত পথের সমীকরণ দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{x elim করে parabolic path; g/2ucosθ coefficient।}"
+      "question": "ক্ষিপ্ত পথের সমীকরণ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "y=x\\tan\\theta-\\frac{gx^2}{2u^2\\cos^2\\theta}\\text{ — }x elim করে parabolic path; g/2u²cos²θ coefficient।"
     }
   ],
   "memorize": {
     "trick": "x elim করে parabolic path; g/2u²cos²θ coefficient।",
     "steps": [
       "x elim করে parabolic path; g/2u²cos²θ coefficient।",
-      "মনে রাখো — x elim করে parabolic path; g/2u²cos²θ coefficient।",
-      "চিহ্ন চেক: y, x, theta"
+      "প্রশ্নে ক্ষিপ্ত পথের সমীকরণ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: y=y=x tanθ−..., x=অবস্থান / অজানা।"
     ]
   },
   "subjects": [

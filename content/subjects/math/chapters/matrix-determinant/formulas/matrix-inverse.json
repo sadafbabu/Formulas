@@ -3,7 +3,7 @@
   "chapter": "matrix-determinant",
   "title": "Matrix Inverse",
   "titleBn": "ম্যাট্রিক্সের ব্যস্তক",
-  "summary": "A⁻¹ = (1/detA) adj A; det≠0 চাই।",
+  "summary": "ম্যাট্রিক্সের ব্যস্তক: A⁻¹ = (1/detA) adj A; det≠0 চাই।",
   "latex": "A^{-1}=\\frac{1}{\\det A}\\mathrm{adj}\\,A,\\quad AA^{-1}=I",
   "tags": [
     "hsc",
@@ -36,34 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "A⁻¹ = (1/detA) adj A; det≠0 চাই।",
+    "lead": "ম্যাট্রিক্সের ব্যস্তক প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "A^{-1}=\\frac{1}{\\det A}\\mathrm{adj}\\,A,\\quad AA^{-1}=I",
-        "note": "ম্যাট্রিক্সের ব্যস্তক এর প্রাথমিক রূপ।"
+        "note": "ম্যাট্রিক্সের ব্যস্তক: A⁻¹ = (1/detA) adj A; det≠0 চাই।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "A^{-1}=\\frac{1}{\\det A}\\mathrm{adj}\\,A,\\quad AA^{-1}=I",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "A⁻¹ = (1/detA) adj A; det≠0 চাই।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "ম্যাট্রিক্সের ব্যস্তক এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ম্যাট্রিক্সের ব্যস্তক এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "ম্যাট্রিক্সের ব্যস্তক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "A^{-1}=\\frac{1}{\\det A}\\mathrm{adj}\\,A,\\quad AA^{-1}=I\\text{ — }A⁻¹ = (1/detA) adj A; det≠0 চাই।"
+    },
+    {
+      "examType": "Concept",
+      "question": "ম্যাট্রিক্সের ব্যস্তক দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "A^{-1}=\\frac{1}{\\det A}\\mathrm{adj}\\,A,\\quad AA^{-1}=I"
     }
   ],
   "memorize": {
     "trick": "A⁻¹ = (1/detA) adj A; det≠0 চাই।",
     "steps": [
       "A⁻¹ = (1/detA) adj A; det≠0 চাই।",
-      "মনে রাখো — A⁻¹ = (1/detA) adj A; det≠0 চাই।",
-      "চিহ্ন চেক: A, det, adj"
+      "প্রশ্নে ম্যাট্রিক্সের ব্যস্তক বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: A=ব্যস্তক ম্যাট্রিক্স, I=তড়িৎ প্রবাহ / জড়তার ভ্রামক।"
     ]
   },
   "subjects": [

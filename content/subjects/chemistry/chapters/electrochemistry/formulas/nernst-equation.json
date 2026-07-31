@@ -42,21 +42,29 @@
       {
         "title": "মূল সূত্র",
         "latex": "E=E^\\circ-\\frac{RT}{nF}\\ln Q;\\quad 298\\ \\mathrm K\\text{-এ }E=E^\\circ-\\frac{0.05916}{n}\\log_{10}Q",
-        "note": "নার্নস্টের সমীকরণ ও কোশের তড়িৎচালক বল এর প্রাথমিক রূপ।"
+        "note": "ঘনমাত্রা ও তাপমাত্রার পরিবর্তনে গ্যালভানিক কোশের EMF নির্ণয়"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "E=E^\\circ-\\frac{RT}{nF}\\ln Q;\\quad 298\\ \\mathrm K\\text{-এ }E=E^\\circ-\\frac{0.05916}{n}\\log_{10}Q",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "২৫°C-এ E = E° − (0.059/n) log Q — Q বাড়লে E কমে।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "BUET Admission Hard",
       "question": "Zn | Zn²⁺(0.1 M) || Cu²⁺(1.0 M) | Cu কোশের 25°C এ EMF কত? [E°_cell = 1.10 V]",
       "answer": "E = 1.10 - \\frac{0.0591}{2} \\log_{10} \\left(\\frac{0.1}{1.0}\\right) = 1.10 - 0.02955 \\times (-1) = 1.10 + 0.02955 = 1.12955\\text{ V}"
+    },
+    {
+      "examType": "Concept",
+      "question": "নার্নস্টের সমীকরণ ও কোশের তড়িৎচালক বল দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{২৫°C-এ E = E° − (0.059/n) log Q — Q বাড়লে E কমে।}"
     }
   ],
   "memorize": {

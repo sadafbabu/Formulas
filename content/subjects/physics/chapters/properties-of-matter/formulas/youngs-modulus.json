@@ -37,7 +37,7 @@
     },
     {
       "symbol": "\\Delta L",
-      "meaning": "\\Delta L (সূত্রের রাশি)",
+      "meaning": "Delta L (সূত্রের রাশি)",
       "unit": "m"
     }
   ],
@@ -47,11 +47,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "Y=\\dfrac{F/A}{\\Delta L/L}=\\dfrac{FL}{A\\Delta L}",
-        "note": "ইয়ং-এর গুণাঙ্ক এর প্রাথমিক রূপ।"
+        "note": "Y = (F/A)/(ΔL/L) — দৈর্ঘ্যীয় স্থিতিস্থাপকতা"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "Y=\\dfrac{F/A}{\\Delta L/L}=\\dfrac{FL}{A\\Delta L}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Y = FL/(AΔL) — ‘বল×দৈর্ঘ্য / ক্ষেত্র×প্রসারণ’; ইস্পাত শক্ত = Y বড়।"
       }
     ],
@@ -64,6 +64,11 @@
       "examType": "Admission",
       "question": "F=100 N, A=1 mm², L=1 m, ΔL=0.5 mm। Y?",
       "answer": "Y=\\dfrac{100\\cdot1}{10^{-6}\\cdot5\\times10^{-4}}=2\\times10^{11}\\,\\mathrm{Pa}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ইয়ং-এর গুণাঙ্ক দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Y = FL/(AΔL) — ‘বল×দৈর্ঘ্য / ক্ষেত্র×প্রসারণ’; ইস্পাত শক্ত = Y বড়।}"
     }
   ],
   "memorize": {

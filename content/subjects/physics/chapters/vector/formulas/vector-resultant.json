@@ -47,12 +47,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "R = \\sqrt{P^2 + Q^2 + 2PQ\\cos\\alpha}, \\quad \\tan\\theta = \\frac{Q\\sin\\alpha}{P + Q\\cos\\alpha}",
-        "note": "দুটি ভেক্টরের লব্ধি মান ও দিক এর প্রাথমিক রূপ।"
+        "note": "সামান্তরিক সূত্রের সাহায্যে দুটি ভেক্টরের লব্ধি নির্ণয়"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "R = \\sqrt{P^2 + Q^2 + 2PQ\\cos\\alpha}, \\quad \\tan\\theta = \\frac{Q\\sin\\alpha}{P + Q\\cos\\alpha}",
-        "note": "R = √(P² + Q² + 2PQcosα) — কোসাইন সূত্রের ছাঁচ, তবে '+2PQcosα' (ত্রিভুজে −)। α = 0 এ R = P+Q সর্বোচ্চ, α = 180° এ R = |P"
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "note": "R = √(P² + Q² + 2PQcosα) — কোসাইন সূত্রের ছাঁচ, তবে '+2PQcosα' (ত্রিভুজে −)। α = 0 এ R = P+Q সর্বোচ্চ, α = 180° এ R = |P−Q| সর্বনিম্ন, α = 9"
       }
     ],
     "assumptions": [
@@ -64,6 +64,11 @@
       "examType": "BUET Admission Hard",
       "question": "দুটি সমান বল P এবং P কোন কোণে ক্রিয়া করলে তাদের লব্ধি বলের মান P এর সমান হবে?",
       "answer": "P^2 = P^2 + P^2 + 2P^2 \\cos\\alpha \\implies \\cos\\alpha = -0.5 \\implies \\alpha = 120^\\circ"
+    },
+    {
+      "examType": "Concept",
+      "question": "দুটি ভেক্টরের লব্ধি মান ও দিক দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{R = √(P² + Q² + 2PQcosα) — কোসাইন সূত্রের ছাঁচ, তবে '+2PQcosα' (ত্রিভুজে −)। α = 0 এ R = P+Q সর্বোচ্চ, α = 180° এ R = |P}"
     }
   ],
   "memorize": {

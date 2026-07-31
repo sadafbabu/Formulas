@@ -37,11 +37,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\delta Q=dU+\\delta W,\\quad \\delta W=P_{\\mathrm{ext}}dV;\\quad \\text{quasistatic হলে }P_{\\mathrm{ext}}=P",
-        "note": "তাপগতিবিদ্যার ১ম সূত্র এর প্রাথমিক রূপ।"
+        "note": "সিস্টেমে প্রদত্ত তাপ অভ্যন্তরীণ শক্তি বৃদ্ধি ও বাহ্যিক কাজে ব্যবহৃত হয়"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\delta Q=dU+\\delta W,\\quad \\delta W=P_{\\mathrm{ext}}dV;\\quad \\text{quasistatic হলে }P_{\\mathrm{ext}}=P",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "dQ = dU + dW — 'দেওয়া তাপ = ভিতরে জমা + বাইরে কাজ'। এটি শক্তির নিত্যতা সূত্রেরই তাপীয় রূপ।"
       }
     ],
@@ -54,6 +54,11 @@
       "examType": "BUET Admission Hard",
       "question": "একটি সিস্টেমে ৫০০ J তাপ প্রদান করায় অভ্যন্তরীণ শক্তি ২০০ J বৃদ্ধি পেল। সিস্টেম কর্তৃক সম্পাদিত কাজ কত?",
       "answer": "dW = dQ - dU = 500 - 200 = 300\\text{ J}"
+    },
+    {
+      "examType": "Concept",
+      "question": "তাপগতিবিদ্যার ১ম সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{dQ = dU + dW — 'দেওয়া তাপ = ভিতরে জমা + বাইরে কাজ'। এটি শক্তির নিত্যতা সূত্রেরই তাপীয় রূপ।}"
     }
   ],
   "memorize": {

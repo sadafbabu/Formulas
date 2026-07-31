@@ -3,7 +3,7 @@
   "chapter": "nuclear-chemistry",
   "title": "Activity Units",
   "titleBn": "সক্রিয়তার একক",
-  "summary": "SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
+  "summary": "সক্রিয়তার একক: SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
   "latex": "1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
   "tags": [
     "hsc",
@@ -32,25 +32,33 @@
     }
   ],
   "derivation": {
-    "lead": "SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
+    "lead": "সক্রিয়তার একক প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
-        "note": "সক্রিয়তার একক এর প্রাথমিক রূপ।"
+        "note": "সক্রিয়তার একক: SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সক্রিয়তার একক লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "সক্রিয়তার একক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}\\text{ — }SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times"
+    },
+    {
+      "examType": "Concept",
+      "question": "সক্রিয়তার একক দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}"
     }
   ],
@@ -58,8 +66,8 @@
     "trick": "SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
     "steps": [
       "SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
-      "মনে রাখো — SI একক বেকেরেল। 1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}},\\quad 1\\,\\mathrm{Ci}=3.7\\times10^{10}\\,\\mathrm{Bq}",
-      "চিহ্ন চেক: Bq, s^{-1, Ci"
+      "প্রশ্নে সক্রিয়তার একক বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: Bq=Bq and Ci, s^{-1=সরণ।"
     ]
   },
   "subjects": [

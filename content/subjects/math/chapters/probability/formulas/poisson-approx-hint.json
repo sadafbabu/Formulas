@@ -3,7 +3,7 @@
   "chapter": "probability",
   "title": "Poisson Approximation Hint",
   "titleBn": "পোয়াসোঁ আনুমানিক",
-  "summary": "n বড়, p ছোট হলে binomial → Poisson।",
+  "summary": "পোয়াসোঁ আনুমানিক: n বড়, p ছোট হলে binomial → Poisson।",
   "latex": "P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np",
   "tags": [
     "hsc",
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "n বড়, p ছোট হলে binomial → Poisson।",
+    "lead": "পোয়াসোঁ আনুমানিক প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np",
-        "note": "পোয়াসোঁ আনুমানিক এর প্রাথমিক রূপ।"
+        "note": "পোয়াসোঁ আনুমানিক: n বড়, p ছোট হলে binomial → Poisson।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "n বড়, p ছোট হলে binomial → Poisson।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "পোয়াসোঁ আনুমানিক এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পোয়াসোঁ আনুমানিক লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np"
+      "question": "পোয়াসোঁ আনুমানিক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np\\text{ — }n বড়, p ছোট হলে binomial → Poisson।"
     },
     {
       "examType": "Concept",
-      "question": "পোয়াসোঁ আনুমানিক দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{n বড়, p ছোট হলে binomial → Poisson।}"
+      "question": "পোয়াসোঁ আনুমানিক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "P(X=k)\\approx e^{-\\lambda}\\frac{\\lambda^k}{k!},\\quad \\lambda=np\\text{ — }n বড়, p ছোট হলে binomial → Poisson।"
     }
   ],
   "memorize": {
     "trick": "n বড়, p ছোট হলে binomial → Poisson।",
     "steps": [
       "n বড়, p ছোট হলে binomial → Poisson।",
-      "মনে রাখো — n বড়, p ছোট হলে binomial → Poisson।",
-      "চিহ্ন চেক: P, X, k"
+      "প্রশ্নে পোয়াসোঁ আনুমানিক বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: P=λ=np, X=রিয়েক্ট্যান্স।"
     ]
   },
   "subjects": [

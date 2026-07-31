@@ -66,7 +66,12 @@
     {
       "examType": "Varsity Admission",
       "question": "\\ce{CH3CH2COONa} soda lime-এর সাথে গরম করলে কী hydrocarbon হবে?",
-      "answer": "\\ce{CH3CH3};\\ \\text{decarboxylation-এ এক carbon কমে।}"
+      "answer": "\\text{Soda-lime decarboxylation-এ carbon এক কমে। Esterification: acid + alcohol ⇌ ester + water। Derivative reactivi}"
+    },
+    {
+      "examType": "Concept",
+      "question": "কার্বক্সিলিক অ্যাসিড, esterification ও অম্লজাতক দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Soda-lime decarboxylation-এ carbon এক কমে। Esterification: acid + alcohol ⇌ ester + water। Derivative reactivity: acid c}"
     }
   ],
   "memorize": {

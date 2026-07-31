@@ -3,7 +3,7 @@
   "chapter": "polynomials",
   "title": "Equation from Roots",
   "titleBn": "মূল হতে সমীকরণ গঠন",
-  "summary": "x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
+  "summary": "মূল হতে সমীকরণ গঠন: x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
   "latex": "(x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
   "tags": [
     "hsc",
@@ -28,47 +28,45 @@
       "symbol": "beta",
       "meaning": "কোণ / ক্ষেত্র প্রসারণ",
       "unit": "—"
-    },
-    {
-      "symbol": "Rightarrow",
-      "meaning": "Rightarrow (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
+    "lead": "মূল হতে সমীকরণ গঠন প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "(x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
-        "note": "মূল হতে সমীকরণ গঠন এর প্রাথমিক রূপ।"
+        "note": "মূল হতে সমীকরণ গঠন: x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "(x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "মূল হতে সমীকরণ গঠন এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মূল হতে সমীকরণ গঠন এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "মূল হতে সমীকরণ গঠন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "(x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0\\text{ — }x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta"
     },
     {
       "examType": "Concept",
-      "question": "মূল হতে সমীকরণ গঠন দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{(x- alpha)(x- beta)=0 Rightarrow x 2-( alpha+ beta)x+ alpha beta=0}"
+      "question": "মূল হতে সমীকরণ গঠন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "(x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0\\text{ — }x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta"
     }
   ],
   "memorize": {
     "trick": "x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
     "steps": [
       "x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
-      "মনে রাখো — x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0",
-      "চিহ্ন চেক: x, alpha, beta"
+      "প্রশ্নে মূল হতে সমীকরণ গঠন বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: x=দেওয়া মূল থেকে সমীকরণ, alpha=কোণ / প্রসারণ গুণাঙ্ক।"
     ]
   },
   "subjects": [

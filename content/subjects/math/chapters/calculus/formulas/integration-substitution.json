@@ -61,6 +61,11 @@
       "examType": "Eng Admission",
       "question": "\\int\\frac{2x}{1+x^2}\\,dx",
       "answer": "u=1+x^2,\\ du=2x\\,dx\\Rightarrow \\int\\frac{du}{u}=\\ln(1+x^2)+C"
+    },
+    {
+      "examType": "Concept",
+      "question": "প্রতিস্থাপন পদ্ধতি ও ত্রিকোণমিতিক যোগজ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Numerator denominator-এর derivative দেখলেই ln। Radical substitution: a²−x²→a sinθ; a²+x²→a tanθ; x²−a²→a secθ—‘minus sin}"
     }
   ],
   "memorize": {

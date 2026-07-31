@@ -3,7 +3,7 @@
   "chapter": "math-statics",
   "title": "Force on Inclined Plane",
   "titleBn": "ঢালু তলে বল",
-  "summary": "সমান্তরাল = mg sinθ; লম্ব = mg cosθ।",
+  "summary": "ঢালু তলে বল: সমান্তরাল = mg sinθ; লম্ব = mg cosθ।",
   "latex": "F_{\\parallel}=mg\\sin\\theta,\\quad N=mg\\cos\\theta",
   "tags": [
     "hsc",
@@ -26,7 +26,7 @@
     },
     {
       "symbol": "m",
-      "meaning": "ভর",
+      "meaning": "সারি / ঘাত",
       "unit": "kg"
     },
     {
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "সমান্তরাল = mg sinθ; লম্ব = mg cosθ।",
+    "lead": "ঢালু তলে বল প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "F_{\\parallel}=mg\\sin\\theta,\\quad N=mg\\cos\\theta",
-        "note": "ঢালু তলে বল এর প্রাথমিক রূপ।"
+        "note": "ঢালু তলে বল: সমান্তরাল = mg sinθ; লম্ব = mg cosθ।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "F_{\\parallel}=mg\\sin\\theta,\\quad N=mg\\cos\\theta",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "সমান্তরাল = mg sinθ; লম্ব = mg cosθ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "ঢালু তলে বল এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ঢালু তলে বল এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "ঢালু তলে বল কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "F_{\\parallel}=mg\\sin\\theta,\\quad N=mg\\cos\\theta\\text{ — }সমান্তরাল = mg sinθ; লম্ব = mg cosθ।"
     },
     {
       "examType": "Concept",
-      "question": "ঢালু তলে বল দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{সমান্তরাল = mg sinθ; লম্ব = mg cosθ।}"
+      "question": "ঢালু তলে বল কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "F_{\\parallel}=mg\\sin\\theta,\\quad N=mg\\cos\\theta\\text{ — }সমান্তরাল = mg sinθ; লম্ব = mg cosθ।"
     }
   ],
   "memorize": {
     "trick": "সমান্তরাল = mg sinθ; লম্ব = mg cosθ।",
     "steps": [
       "সমান্তরাল = mg sinθ; লম্ব = mg cosθ।",
-      "মনে রাখো — সমান্তরাল = mg sinθ; লম্ব = mg cosθ।",
-      "চিহ্ন চেক: F, parallel, m"
+      "প্রশ্নে ঢালু তলে বল বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: F=mg sinθ, parallel=mg cosθ।"
     ]
   },
   "subjects": [

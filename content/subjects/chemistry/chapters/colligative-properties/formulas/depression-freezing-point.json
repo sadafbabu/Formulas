@@ -3,7 +3,7 @@
   "chapter": "colligative-properties",
   "title": "Depression of Freezing Point",
   "titleBn": "স্থাযোগাঙ্কের অবনমন",
-  "summary": "ΔTf = Kf × m; Cryoscopic constant।",
+  "summary": "স্থাযোগাঙ্কের অবনমন: ΔTf = Kf × m; Cryoscopic constant।",
   "latex": "\\Delta T_f=K_f m",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "ΔTf = Kf × m; Cryoscopic constant।",
+    "lead": "স্থাযোগাঙ্কের অবনমন প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta T_f=K_f m",
-        "note": "স্থাযোগাঙ্কের অবনমন এর প্রাথমিক রূপ।"
+        "note": "স্থাযোগাঙ্কের অবনমন: ΔTf = Kf × m; Cryoscopic constant।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\Delta T_f=K_f m",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "ΔTf = Kf × m; Cryoscopic constant।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্থাযোগাঙ্কের অবনমন এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "স্থাযোগাঙ্কের অবনমন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\Delta T_f=K_f m\\text{ — }ΔTf = Kf × m; Cryoscopic constant।"
     },
     {
       "examType": "Concept",
-      "question": "স্থাযোগাঙ্কের অবনমন দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{ΔTf = Kf  m; Cryoscopic constant।}"
+      "question": "স্থাযোগাঙ্কের অবনমন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\Delta T_f=K_f m\\text{ — }ΔTf = Kf × m; Cryoscopic constant।"
     }
   ],
   "memorize": {
     "trick": "ΔTf = Kf × m; Cryoscopic constant।",
     "steps": [
       "ΔTf = Kf × m; Cryoscopic constant।",
-      "মনে রাখো — ΔTf = Kf × m; Cryoscopic constant।",
-      "চিহ্ন চেক: Delta, T, f"
+      "প্রশ্নে স্থাযোগাঙ্কের অবনমন বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: Delta=ΔTf=Kfm, T=পর্যায়কাল / তাপমাত্রা।"
     ]
   },
   "subjects": [

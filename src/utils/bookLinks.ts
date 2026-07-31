@@ -41,34 +41,38 @@ export function bookReturnPath(opts: {
 /**
  * Memorize drill URL.
  * Star tags (`1-star`/`2-star`/`3-star`) map to `importance`, not `tag`.
- * Pass `importance: null` explicitly for “all levels” (omit param).
- * Omit `importance` to default to 3★ on first entry.
+ * Pass `importance: null` explicitly for “all levels” (omit param) —
+ * this wins even when `tag` is a star.
+ * Omit `importance` to default to 3★ on first entry (or the star tag’s level).
+ * Pass `startId` to pin that formula to the front of the drill queue.
  */
 export function memorizePath(opts: {
   chapter?: string | null
   tag?: string | null
   importance?: 1 | 2 | 3 | null
   unknownOnly?: boolean
+  startId?: string | null
 }): string {
   const p = new URLSearchParams()
   if (opts.chapter) p.set('chapter', opts.chapter)
 
   const tag = opts.tag
-  if (tag === '1-star' || tag === '2-star' || tag === '3-star') {
-    const fromTag = Number(tag[0]) as 1 | 2 | 3
-    p.set('importance', String(opts.importance ?? fromTag))
+  const isStar = tag === '1-star' || tag === '2-star' || tag === '3-star'
+
+  if (opts.importance === null) {
+    // all levels — leave importance unset (even if tag was a star)
+  } else if (opts.importance != null) {
+    p.set('importance', String(opts.importance))
+  } else if (isStar) {
+    p.set('importance', tag[0])
   } else {
-    if (tag) p.set('tag', tag)
-    if (opts.importance === null) {
-      // all levels — leave importance unset
-    } else if (opts.importance != null) {
-      p.set('importance', String(opts.importance))
-    } else {
-      p.set('importance', '3')
-    }
+    p.set('importance', '3')
   }
 
+  if (tag && !isStar) p.set('tag', tag)
+
   if (opts.unknownOnly) p.set('unknown', '1')
+  if (opts.startId) p.set('start', opts.startId)
   const qs = p.toString()
   return qs ? `/memorize?${qs}` : '/memorize'
 }

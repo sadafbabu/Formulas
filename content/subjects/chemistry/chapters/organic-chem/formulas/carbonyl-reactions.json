@@ -67,6 +67,11 @@
       "examType": "HSC Board",
       "question": "Acetaldehyde ও acetone আলাদা করতে কোন পরীক্ষা এবং ফল কী?",
       "answer": "\\text{Tollens test: acetaldehyde silver mirror দেয়; acetone দেয় না।}"
+    },
+    {
+      "examType": "Concept",
+      "question": "অ্যালডিহাইড ও কিটোনের গাঠনিক বিক্রিয়া ও শনাক্তকরণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Aldehyde ‘silver mirror’ দেয়, ketone দেয় না। Reduction-এ aldehyde→১° alcohol, ketone→২° alcohol। Iodoform-এর চিহ্ন হলু}"
     }
   ],
   "memorize": {

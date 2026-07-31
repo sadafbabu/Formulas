@@ -47,11 +47,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "K_p = K_c (RT)^{\\Delta n}, \\quad \\Delta n = (\\text{gas prod} - \\text{gas reactant})",
-        "note": "সাম্যধ্রুবক Kp ও Kc এর সম্পর্ক এর প্রাথমিক রূপ।"
+        "note": "আংশিক চাপ ও মোলার ঘনমাত্রার সাহায্যে রাসায়নিক সাম্যধ্রুবক"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "K_p = K_c (RT)^{\\Delta n}, \\quad \\Delta n = (\\text{gas prod} - \\text{gas reactant})",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Kp = Kc(RT)^Δn — Δn = (গ্যাসীয় উৎপাদ - গ্যাসীয় বিক্রিয়ক) মোল। Δn=0 হলে Kp=Kc।"
       }
     ],
@@ -64,14 +64,19 @@
       "examType": "BUET Admission Hard",
       "question": "N2(g) + 3H2(g) ⇌ 2NH3(g) বিক্রিয়ার জন্য 500 K তাপমাত্রায় Kc = 0.5 M⁻² হলে Kp এর মান কত?",
       "answer": "\\Delta n = 2 - (1 + 3) = -2 \\implies K_p = 0.5 \\times (0.0821 \\times 500)^{-2} = 0.5 \\times (41.05)^{-2} = \\frac{0.5}{1685.1} \\approx 2.967 \\times 10^{-4}\\text{ atm}^{-2}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সাম্যধ্রুবক Kp ও Kc এর সম্পর্ক দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "K_p = K_c (RT)^{\\Delta n}, \\quad \\Delta n = (\\text{gas prod} - \\text{gas reactant})"
     }
   ],
   "memorize": {
     "trick": "Kp = Kc(RT)^Δn — Δn = (গ্যাসীয় উৎপাদ - গ্যাসীয় বিক্রিয়ক) মোল। Δn=0 হলে Kp=Kc।",
     "steps": [
       "Kp = Kc(RT)^Δn — Δn = (গ্যাসীয় উৎপাদ - গ্যাসীয় বিক্রিয়ক) মোল। Δn=0 হলে Kp=Kc।",
-      "মনে রাখো — আংশিক চাপ ও মোলার ঘনমাত্রার সাহায্যে রাসায়নিক সাম্যধ্রুবক",
-      "চিহ্ন চেক: K_p, K_c, R"
+      "প্রশ্নে সাম্যধ্রুবক Kp ও Kc এর সম্পর্ক বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: K_p=আংশিক চাপে সাম্যধ্রুবক, K_c=মোলার ঘনমাত্রায় সাম্যধ্রুবক।"
     ]
   },
   "subjects": [

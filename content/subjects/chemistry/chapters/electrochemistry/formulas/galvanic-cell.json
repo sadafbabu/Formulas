@@ -62,6 +62,11 @@
       "examType": "HSC Board",
       "question": "\\ce{Cu^{2+}/Cu}=+0.34 V এবং \\ce{Zn^{2+}/Zn}=-0.76 V হলে Daniell cell-এর E° কত?",
       "answer": "E^\\circ=0.34-(-0.76)=1.10\\ \\mathrm V"
+    },
+    {
+      "examType": "Concept",
+      "question": "গ্যালভানিক কোষ, কোষ সংকেত ও তড়িৎদ্বার দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{দুই ধরনের কোষেই AnOx, RedCat: anode-এ oxidation, cathode-এ reduction। Galvanic-এ anode negative, cathode positive; elect}"
     }
   ],
   "memorize": {

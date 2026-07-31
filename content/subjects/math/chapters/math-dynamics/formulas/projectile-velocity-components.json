@@ -3,7 +3,7 @@
   "chapter": "math-dynamics",
   "title": "Velocity Components",
   "titleBn": "বেগের উপাদিসমূহ",
-  "summary": "Horizontal = constant; vertical = u sinθ − gt।",
+  "summary": "বেগের উপাদিসমূহ: Horizontal = constant; vertical = u sinθ − gt।",
   "latex": "v_x=u\\cos\\theta,\\quad v_y=u\\sin\\theta-gt",
   "tags": [
     "hsc",
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "Horizontal = constant; vertical = u sinθ − gt।",
+    "lead": "বেগের উপাদিসমূহ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "v_x=u\\cos\\theta,\\quad v_y=u\\sin\\theta-gt",
-        "note": "বেগের উপাদিসমূহ এর প্রাথমিক রূপ।"
+        "note": "বেগের উপাদিসমূহ: Horizontal = constant; vertical = u sinθ − gt।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "v_x=u\\cos\\theta,\\quad v_y=u\\sin\\theta-gt",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Horizontal = constant; vertical = u sinθ − gt।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "বেগের উপাদিসমূহ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বেগের উপাদিসমূহ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "v_x=u\\cos\\theta,\\quad v_y=u\\sin\\theta-gt"
+      "question": "বেগের উপাদিসমূহ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "v_x=u\\cos\\theta,\\quad v_y=u\\sin\\theta-gt\\text{ — }Horizontal = constant; vertical = u sinθ − gt।"
     },
     {
       "examType": "Concept",
-      "question": "বেগের উপাদিসমূহ দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Horizontal = constant; vertical = u sinθ  gt।}"
+      "question": "বেগের উপাদিসমূহ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "v_x=u\\cos\\theta,\\quad v_y=u\\sin\\theta-gt\\text{ — }Horizontal = constant; vertical = u sinθ − gt।"
     }
   ],
   "memorize": {
     "trick": "Horizontal = constant; vertical = u sinθ − gt।",
     "steps": [
       "Horizontal = constant; vertical = u sinθ − gt।",
-      "মনে রাখো — Horizontal = constant; vertical = u sinθ − gt।",
-      "চিহ্ন চেক: v, x, u"
+      "প্রশ্নে বেগের উপাদিসমূহ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: v=u cosθ, x=u sinθ।"
     ]
   },
   "subjects": [

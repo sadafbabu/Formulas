@@ -47,11 +47,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "Y=\\dfrac{\\mathrm{stress}}{\\mathrm{strain}}=\\dfrac{F/A}{\\Delta L/L}",
-        "note": "হুকের সূত্র এর প্রাথমিক রূপ।"
+        "note": "stress ∝ strain; Y = stress/strain (স্থিতিস্থাপক সীমায়)"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "Y=\\dfrac{\\mathrm{stress}}{\\mathrm{strain}}=\\dfrac{F/A}{\\Delta L/L}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "স্থিতিস্থাপক সীমায় stress∝strain; Y=stress/strain।"
       }
     ],
@@ -64,6 +64,11 @@
       "examType": "HSC",
       "question": "stress=strain হলে Y কত?",
       "answer": "Y=1"
+    },
+    {
+      "examType": "Concept",
+      "question": "হুকের সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{স্থিতিস্থাপক সীমায় stress∝strain; Y=stress/strain।}"
     }
   ],
   "memorize": {

@@ -42,34 +42,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "n\\lambda=2d\\sin\\theta",
-        "note": "ব্র্যাগের সূত্র এর প্রাথমিক রূপ।"
+        "note": "ব্র্যাগের সূত্র এর মূল সম্পর্ক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "n\\lambda=2d\\sin\\theta",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "X-ray দিয়ে d নির্ণয়। n\\lambda=2d\\sin\\theta"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ব্র্যাগের সূত্র লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "n\\lambda=2d\\sin\\theta"
+      "question": "ব্র্যাগের সূত্র কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "n\\lambda=2d\\sin\\theta\\text{ — }X-ray দিয়ে d নির্ণয়। n\\lambda=2d\\sin\\theta"
     },
     {
       "examType": "Concept",
-      "question": "ব্র্যাগের সূত্র দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{X-ray দিয়ে d নির্ণয়। nlambda=2dsintheta}"
+      "question": "ব্র্যাগের সূত্র কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "n\\lambda=2d\\sin\\theta\\text{ — }X-ray দিয়ে d নির্ণয়। n\\lambda=2d\\sin\\theta"
     }
   ],
   "memorize": {
     "trick": "X-ray দিয়ে d নির্ণয়। n\\lambda=2d\\sin\\theta",
     "steps": [
       "X-ray দিয়ে d নির্ণয়। n\\lambda=2d\\sin\\theta",
-      "মনে রাখো — X-ray দিয়ে d নির্ণয়। n\\lambda=2d\\sin\\theta",
-      "চিহ্ন চেক: n, lambda, d"
+      "প্রশ্নে ব্র্যাগের সূত্র বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: n=nλ=2d sinθ, lambda=তরঙ্গদৈর্ঘ্য / ক্ষয় ধ্রুবক।"
     ]
   },
   "subjects": [

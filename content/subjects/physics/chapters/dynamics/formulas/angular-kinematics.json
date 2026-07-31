@@ -59,6 +59,11 @@
       "examType": "HSC",
       "question": "ω₀=0, α=2 rad/s², t=3 s। θ?",
       "answer": "\\theta=\\tfrac12\\cdot2\\cdot9=9\\,\\mathrm{rad}"
+    },
+    {
+      "examType": "Concept",
+      "question": "কৌণিক গতির সমীকরণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{রৈখিক সূত্রের ক্লোন: v→ω, a→α, s→θ।}"
     }
   ],
   "memorize": {

@@ -3,7 +3,7 @@
   "chapter": "integration",
   "title": "Basic Trig Integrals",
   "titleBn": "মৌলিক ত্রিকোণমিতিক যোগজ",
-  "summary": "অন্তরকের উল্টো দিক মনে রাখো। \\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
+  "summary": "মৌলিক ত্রিকোণমিতিক যোগজ: অন্তরকের উল্টো দিক মনে রাখো। \\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
   "latex": "\\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
   "tags": [
     "hsc",
@@ -15,50 +15,48 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "int",
-      "meaning": "sin",
-      "unit": "—"
-    },
-    {
       "symbol": "x",
       "meaning": "cos",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "অন্তরকের উল্টো দিক মনে রাখো। \\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
+    "lead": "মৌলিক ত্রিকোণমিতিক যোগজ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
-        "note": "মৌলিক ত্রিকোণমিতিক যোগজ এর প্রাথমিক রূপ।"
+        "note": "মৌলিক ত্রিকোণমিতিক যোগজ: অন্তরকের উল্টো দিক মনে রাখো। \\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "অন্তরকের উল্টো দিক মনে রাখো। \\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "মৌলিক ত্রিকোণমিতিক যোগজ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মৌলিক ত্রিকোণমিতিক যোগজ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "মৌলিক ত্রিকোণমিতিক যোগজ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x"
     },
     {
       "examType": "Concept",
-      "question": "মৌলিক ত্রিকোণমিতিক যোগজ দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{int sin x= - cos x, int cos x= sin x, int sec 2 x= tan x}"
+      "question": "মৌলিক ত্রিকোণমিতিক যোগজ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x"
     }
   ],
   "memorize": {
     "trick": "অন্তরকের উল্টো দিক মনে রাখো। \\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
     "steps": [
       "অন্তরকের উল্টো দিক মনে রাখো। \\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
-      "মনে রাখো — অন্তরকের উল্টো দিক মনে রাখো। \\int\\sin x= -\\cos x,\\ \\int\\cos x=\\sin x,\\ \\int\\sec^2 x=\\tan x",
-      "চিহ্ন চেক: int, x"
+      "প্রশ্নে মৌলিক ত্রিকোণমিতিক যোগজ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: x=cos।"
     ]
   },
   "subjects": [

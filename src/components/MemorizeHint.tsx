@@ -16,6 +16,7 @@ export function MemorizeHint({ formula }: MemorizeHintProps) {
     chapter: formula.chapter,
     tag: params.get('tag'),
     importance: (formula.importance as 1 | 2 | 3) ?? 3,
+    startId: formula.id,
   })
 
   return (

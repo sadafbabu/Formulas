@@ -3,7 +3,7 @@
   "chapter": "sequences-series",
   "title": "Harmonic Progression",
   "titleBn": "হারমোনিক ধারা",
-  "summary": "HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।",
+  "summary": "হারমোনিক ধারা: HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।",
   "latex": "a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}",
   "tags": [
     "hsc",
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।",
+    "lead": "হারমোনিক ধারা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}",
-        "note": "হারমোনিক ধারা এর প্রাথমিক রূপ।"
+        "note": "হারমোনিক ধারা: HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "হারমোনিক ধারা এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "হারমোনিক ধারা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}"
+      "question": "হারমোনিক ধারা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}\\text{ — }HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।"
     },
     {
       "examType": "Concept",
-      "question": "হারমোনিক ধারা দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{HP-এর ব্যস্তক AP  এই ট্রিকই যথেষ্ট।}"
+      "question": "হারমোনিক ধারা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "a,b,c\\text{ in HP}\\iff \\frac{1}{a},\\frac{1}{b},\\frac{1}{c}\\text{ in AP}\\text{ — }HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।"
     }
   ],
   "memorize": {
     "trick": "HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।",
     "steps": [
       "HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।",
-      "মনে রাখো — HP-এর ব্যস্তক AP — এই ট্রিকই যথেষ্ট।",
-      "চিহ্ন চেক: a, b, c"
+      "প্রশ্নে হারমোনিক ধারা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: a=1/a_n is AP, b=চৌম্বক ক্ষেত্র।"
     ]
   },
   "subjects": [

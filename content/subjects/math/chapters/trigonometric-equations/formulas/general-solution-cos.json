@@ -3,7 +3,7 @@
   "chapter": "trigonometric-equations",
   "title": "General Solution cosθ=k",
   "titleBn": "cosθ=k-এর সাধারণ সমাধান",
-  "summary": "±α symmetry; 2nπ period for cos।",
+  "summary": "cosθ=k-এর সাধারণ সমাধান: ±α symmetry; 2nπ period for cos।",
   "latex": "\\theta=2n\\pi\\pm\\alpha,\\quad \\cos\\alpha=k",
   "tags": [
     "hsc",
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "±α symmetry; 2nπ period for cos।",
+    "lead": "cosθ=k-এর সাধারণ সমাধান প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\theta=2n\\pi\\pm\\alpha,\\quad \\cos\\alpha=k",
-        "note": "cosθ=k-এর সাধারণ সমাধান এর প্রাথমিক রূপ।"
+        "note": "cosθ=k-এর সাধারণ সমাধান: ±α symmetry; 2nπ period for cos।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\theta=2n\\pi\\pm\\alpha,\\quad \\cos\\alpha=k",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "±α symmetry; 2nπ period for cos।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "cosθ=k-এর সাধারণ সমাধান এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "cosθ=k-এর সাধারণ সমাধান এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "cosθ=k-এর সাধারণ সমাধান কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\theta=2n\\pi\\pm\\alpha,\\quad \\cos\\alpha=k\\text{ — }±α symmetry; 2nπ period for cos।"
     },
     {
       "examType": "Concept",
-      "question": "cosθ=k-এর সাধারণ সমাধান দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{α symmetry; 2nπ period for cos।}"
+      "question": "cosθ=k-এর সাধারণ সমাধান কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\theta=2n\\pi\\pm\\alpha,\\quad \\cos\\alpha=k\\text{ — }±α symmetry; 2nπ period for cos।"
     }
   ],
   "memorize": {
     "trick": "±α symmetry; 2nπ period for cos।",
     "steps": [
       "±α symmetry; 2nπ period for cos।",
-      "মনে রাখো — ±α symmetry; 2nπ period for cos।",
-      "চিহ্ন চেক: theta, n, pi"
+      "প্রশ্নে cosθ=k-এর সাধারণ সমাধান বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: theta=θ=2nπ±α, n=মোল সংখ্যা / কোটি।"
     ]
   },
   "subjects": [

@@ -58,6 +58,11 @@
       "examType": "Admission",
       "question": "হেক্সেনের skeletal শিকলে কয়টি C?",
       "answer": "6"
+    },
+    {
+      "examType": "Concept",
+      "question": "বন্ধন-রেখা / কঙ্কাল সংকেত দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{কোণ = C, প্রান্ত = C, H লুকানো; heteroatom দেখাও।}"
     }
   ],
   "memorize": {

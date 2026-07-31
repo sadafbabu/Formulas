@@ -66,7 +66,12 @@
     {
       "examType": "Medical Admission",
       "question": "সমইলেকট্রনিক \\ce{O^{2-}}, \\ce{F^-}, \\ce{Na^+}, \\ce{Mg^{2+}} আয়নগুলোর ব্যাসার্ধের অবরোহ ক্রম কী?",
-      "answer": "\\ce{O^{2-} > F^- > Na^+ > Mg^{2+}};\\ \\text{ইলেকট্রন সমান, কিন্তু Z বাড়লে আকার কমে।}"
+      "answer": "r:\\ \\searrow_{\\text{period}},\\ \\nearrow_{\\text{group}};\\quad IE,\\chi:\\ \\nearrow_{\\text{period}},\\ \\searrow_{\\text{group}}"
+    },
+    {
+      "examType": "Concept",
+      "question": "পর্যায় সারণির ধর্মের পর্যায়বৃত্ত পরিবর্তন দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{পর্যায়ে ব্যাসার্ধ কমে কিন্তু IE ও তড়িৎঋণাত্মকতা বাড়ে; গ্রুপে ঠিক উল্টো। মনে রাখুন: “ডানে গেলে নিউক্লিয়াস জেতে, নিচে }"
     }
   ],
   "memorize": {

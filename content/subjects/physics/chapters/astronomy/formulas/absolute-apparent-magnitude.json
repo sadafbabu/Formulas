@@ -42,20 +42,28 @@
       {
         "title": "মূল সূত্র",
         "latex": "m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
-        "note": "দূরত্ব মডুলাস এর প্রাথমিক রূপ।"
+        "note": "দূরত্ব মডুলাস এর মূল সম্পর্ক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "m=আপাত, M=পরম মান। m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দূরত্ব মডুলাস লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "দূরত্ব মডুলাস কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})\\text{ — }m=আপাত, M=পরম মান। m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})"
+    },
+    {
+      "examType": "Concept",
+      "question": "দূরত্ব মডুলাস দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})"
     }
   ],
@@ -63,8 +71,8 @@
     "trick": "m=আপাত, M=পরম মান। m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
     "steps": [
       "m=আপাত, M=পরম মান। m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
-      "মনে রাখো — m=আপাত, M=পরম মান। m-M=5\\log_{10}\\frac{d}{10}\\quad(d\\text{ in pc})",
-      "চিহ্ন চেক: m, M, d"
+      "প্রশ্নে দূরত্ব মডুলাস বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: m=দূরত্ব মডুলাস, M=ভর / মোলার ভর।"
     ]
   },
   "subjects": [

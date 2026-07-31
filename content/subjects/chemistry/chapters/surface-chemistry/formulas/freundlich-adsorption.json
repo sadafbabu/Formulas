@@ -3,7 +3,7 @@
   "chapter": "surface-chemistry",
   "title": "Freundlich Isotherm",
   "titleBn": "ফ্রয়েন্ডলিচ সমতাপরেখা",
-  "summary": "log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।",
+  "summary": "ফ্রয়েন্ডলিচ সমতাপরেখা: log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।",
   "latex": "\\frac{x}{m}=k P^{1/n}\\quad(n>1)",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।",
+    "lead": "ফ্রয়েন্ডলিচ সমতাপরেখা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{x}{m}=k P^{1/n}\\quad(n>1)",
-        "note": "ফ্রয়েন্ডলিচ সমতাপরেখা এর প্রাথমিক রূপ।"
+        "note": "ফ্রয়েন্ডলিচ সমতাপরেখা: log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\frac{x}{m}=k P^{1/n}\\quad(n>1)",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফ্রয়েন্ডলিচ সমতাপরেখা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "ফ্রয়েন্ডলিচ সমতাপরেখা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\frac{x}{m}=k P^{1/n}\\quad(n>1)\\text{ — }log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।"
     },
     {
       "examType": "Concept",
-      "question": "ফ্রয়েন্ডলিচ সমতাপরেখা দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{log(x/m)=log k+(1/n)log P  সরলরেখার ঢাল ১/n।}"
+      "question": "ফ্রয়েন্ডলিচ সমতাপরেখা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{x}{m}=k P^{1/n}\\quad(n>1)\\text{ — }log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।"
     }
   ],
   "memorize": {
     "trick": "log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।",
     "steps": [
       "log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।",
-      "মনে রাখো — log(x/m)=log k+(1/n)log P — সরলরেখার ঢাল ১/n।",
-      "চিহ্ন চেক: x, m, k"
+      "প্রশ্নে ফ্রয়েন্ডলিচ সমতাপরেখা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: x=x/m = k P^(1/n), m=ভর।"
     ]
   },
   "subjects": [

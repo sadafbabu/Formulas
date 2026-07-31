@@ -22,7 +22,7 @@
     },
     {
       "symbol": "\\vec F",
-      "meaning": "বল",
+      "meaning": "vec F (সূত্রের রাশি)",
       "unit": "N"
     },
     {
@@ -54,14 +54,19 @@
       "examType": "HSC",
       "question": "20 N বল বস্তুকে 4 m/s বেগে চালালে ক্ষমতা কত? (সমরেখ)",
       "answer": "P=Fv=20\\times4=80\\ \\text{W}"
+    },
+    {
+      "examType": "Concept",
+      "question": "তাৎক্ষণিক ক্ষমতা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{P = Fv — একক Watt। P=vec Fcdotvec v=Fvcostheta}"
     }
   ],
   "memorize": {
     "trick": "P = Fv — একক Watt। P=\\vec F\\cdot\\vec v=Fv\\cos\\theta",
     "steps": [
       "P = Fv — একক Watt। P=\\vec F\\cdot\\vec v=Fv\\cos\\theta",
-      "মনে রাখো — P = Fv — একক Watt। P=\\vec F\\cdot\\vec v=Fv\\cos\\theta",
-      "চিহ্ন চেক: P, \\vec F, \\vec v"
+      "প্রশ্নে তাৎক্ষণিক ক্ষমতা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: P=ক্ষমতা, \\vec v=বেগ।"
     ]
   },
   "subjects": [

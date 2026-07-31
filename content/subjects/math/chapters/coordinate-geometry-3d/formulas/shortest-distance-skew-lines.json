@@ -3,7 +3,7 @@
   "chapter": "coordinate-geometry-3d",
   "title": "Skew Lines Distance",
   "titleBn": "অসন্মিল রেখার লম্ব দূরত্ব",
-  "summary": "cross × dot; পরস্পর ছেদ করে না → skew।",
+  "summary": "অসন্মিল রেখার লম্ব দূরত্ব: cross × dot; পরস্পর ছেদ করে না → skew।",
   "latex": "d=\\frac{|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|}{|\\vec b_1\\times\\vec b_2|}",
   "tags": [
     "hsc",
@@ -31,44 +31,47 @@
     },
     {
       "symbol": "a",
-      "meaning": "ত্বরণ",
+      "meaning": "সহগ / ধ্রুবক",
       "unit": "m/s²"
     }
   ],
   "derivation": {
-    "lead": "cross × dot; পরস্পর ছেদ করে না → skew।",
+    "lead": "অসন্মিল রেখার লম্ব দূরত্ব প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "d=\\frac{|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|}{|\\vec b_1\\times\\vec b_2|}",
-        "note": "অসন্মিল রেখার লম্ব দূরত্ব এর প্রাথমিক রূপ।"
+        "note": "অসন্মিল রেখার লম্ব দূরত্ব: cross × dot; পরস্পর ছেদ করে না → skew।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "d=\\frac{|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|}{|\\vec b_1\\times\\vec b_2|}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "cross × dot; পরস্পর ছেদ করে না → skew।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "অসন্মিল রেখার লম্ব দূরত্ব এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অসন্মিল রেখার লম্ব দূরত্ব লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "d=\\frac{|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|}{|\\vec b_1\\times\\vec b_2|}"
+      "question": "অসন্মিল রেখার লম্ব দূরত্ব কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "d=\\frac{|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|}{|\\vec b_1\\times\\vec b_2|}\\text{ — }cross × dot; পরস্পর ছেদ করে না → skew।"
     },
     {
       "examType": "Concept",
-      "question": "অসন্মিল রেখার লম্ব দূরত্ব দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{cross  dot; পরস্পর ছেদ করে না → skew।}"
+      "question": "অসন্মিল রেখার লম্ব দূরত্ব কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "d=\\frac{|(\\vec b_1\\times\\vec b_2)\\cdot(\\vec a_2-\\vec a_1)|}{|\\vec b_1\\times\\vec b_2|}\\text{ — }cross × dot; পরস্পর ছেদ করে না → skew।"
     }
   ],
   "memorize": {
     "trick": "cross × dot; পরস্পর ছেদ করে না → skew।",
     "steps": [
       "cross × dot; পরস্পর ছেদ করে না → skew।",
-      "মনে রাখো — cross × dot; পরস্পর ছেদ করে না → skew।",
-      "চিহ্ন চেক: d, vec, b"
+      "প্রশ্নে অসন্মিল রেখার লম্ব দূরত্ব বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: d=দুই অসন্মিল রেখা, b=চৌম্বক ক্ষেত্র।"
     ]
   },
   "subjects": [

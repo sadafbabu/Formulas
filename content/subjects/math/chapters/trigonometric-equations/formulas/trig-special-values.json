@@ -61,6 +61,11 @@
       "examType": "HSC Board",
       "question": "\\sin150^\\circ+\\cos120^\\circ+\\tan225^\\circ",
       "answer": "\\frac12-\\frac12+1=1"
+    },
+    {
+      "examType": "Concept",
+      "question": "বিশেষ কোণের মান ও quadrant reduction দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Sin values: √0,√1,√2,√3,√4 সব ২ দিয়ে ভাগ; cos উল্টো। Sign-এর ASTC: quadrant I All, II Sin, III Tan, IV Cos positive।}"
     }
   ],
   "memorize": {

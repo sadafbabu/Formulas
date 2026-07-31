@@ -42,11 +42,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "h=\\dfrac{2S\\cos\\theta}{\\rho g r}",
-        "note": "কৈশিক উত্থান এর প্রাথমিক রূপ।"
+        "note": "কৈশিক উত্থান এর মূল সম্পর্ক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "h=\\dfrac{2S\\cos\\theta}{\\rho g r}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "সরু নল = বেশি উঠে: h = 2S cosθ/(ρgr) — r ছোট h বড়।"
       }
     ],
@@ -59,6 +59,11 @@
       "examType": "HSC",
       "question": "r কমাতে h কী হয়?",
       "answer": "h\\propto 1/r\\Rightarrow h\\uparrow"
+    },
+    {
+      "examType": "Concept",
+      "question": "কৈশিক উত্থান দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{সরু নল = বেশি উঠে: h = 2S cosθ/(ρgr) — r ছোট h বড়।}"
     }
   ],
   "memorize": {

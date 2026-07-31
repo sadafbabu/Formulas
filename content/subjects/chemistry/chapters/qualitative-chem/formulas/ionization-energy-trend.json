@@ -3,7 +3,7 @@
   "chapter": "qualitative-chem",
   "title": "Ionization Energy Trend",
   "titleBn": "আয়নন শক্তির প্রবণতা",
-  "summary": "নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।",
+  "summary": "আয়নন শক্তির প্রবণতা: নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।",
   "latex": "\\mathrm{IE}\\uparrow\\text{ across period};\\quad \\mathrm{IE}\\downarrow\\text{ down group}",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।",
+    "lead": "আয়নন শক্তির প্রবণতা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{IE}\\uparrow\\text{ across period};\\quad \\mathrm{IE}\\downarrow\\text{ down group}",
-        "note": "আয়নন শক্তির প্রবণতা এর প্রাথমিক রূপ।"
+        "note": "আয়নন শক্তির প্রবণতা: নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\mathrm{IE}\\uparrow\\text{ across period};\\quad \\mathrm{IE}\\downarrow\\text{ down group}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আয়নন শক্তির প্রবণতা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "আয়নন শক্তির প্রবণতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\mathrm{IE}\\uparrow\\text{ across period};\\quad \\mathrm{IE}\\downarrow\\text{ down group}\\text{ — }নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।"
     },
     {
       "examType": "Concept",
-      "question": "আয়নন শক্তির প্রবণতা দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।}"
+      "question": "আয়নন শক্তির প্রবণতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{IE}\\uparrow\\text{ across period};\\quad \\mathrm{IE}\\downarrow\\text{ down group}\\text{ — }নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।"
     }
   ],
   "memorize": {
     "trick": "নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।",
     "steps": [
       "নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।",
-      "মনে রাখো — নিষ্ক্রিয় গ্যাসে IE সর্বোচ্চ; ক্ষার ধাতুতে কম।",
-      "চিহ্ন চেক: IE, uparrow, across period"
+      "প্রশ্নে আয়নন শক্তির প্রবণতা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: IE=IE across/down।"
     ]
   },
   "subjects": [

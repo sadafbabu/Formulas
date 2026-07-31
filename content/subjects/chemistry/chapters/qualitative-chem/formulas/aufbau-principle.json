@@ -3,7 +3,7 @@
   "chapter": "qualitative-chem",
   "title": "Aufbau Principle",
   "titleBn": "আউফবাউ নীতি",
-  "summary": "n+ℓ ছোট আগে; সমান হলে ছোট n আগে।",
+  "summary": "আউফবাউ নীতি: n+ℓ ছোট আগে; সমান হলে ছোট n আগে।",
   "latex": "\\text{electrons fill orbitals in order of increasing energy (}n+\\ell\\text{ rule)}",
   "tags": [
     "hsc",
@@ -15,11 +15,6 @@
   "importance": 3,
   "order": 210,
   "symbols": [
-    {
-      "symbol": "electrons fill orbitals in order of increasing energy (",
-      "meaning": "fill lowest energy first",
-      "unit": "—"
-    },
     {
       "symbol": "n",
       "meaning": "মোল সংখ্যা / কোটি",
@@ -37,39 +32,42 @@
     }
   ],
   "derivation": {
-    "lead": "n+ℓ ছোট আগে; সমান হলে ছোট n আগে।",
+    "lead": "আউফবাউ নীতি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{electrons fill orbitals in order of increasing energy (}n+\\ell\\text{ rule)}",
-        "note": "আউফবাউ নীতি এর প্রাথমিক রূপ।"
+        "note": "আউফবাউ নীতি: n+ℓ ছোট আগে; সমান হলে ছোট n আগে।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{electrons fill orbitals in order of increasing energy (}n+\\ell\\text{ rule)}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "n+ℓ ছোট আগে; সমান হলে ছোট n আগে।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আউফবাউ নীতি এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "আউফবাউ নীতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\text{electrons fill orbitals in order of increasing energy (}n+\\ell\\text{ rule)}\\text{ — }n+ℓ ছোট আগে; সমান হলে ছোট n আগে।"
     },
     {
       "examType": "Concept",
-      "question": "আউফবাউ নীতি দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{n+ℓ ছোট আগে; সমান হলে ছোট n আগে।}"
+      "question": "আউফবাউ নীতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{electrons fill orbitals in order of increasing energy (}n+\\ell\\text{ rule)}\\text{ — }n+ℓ ছোট আগে; সমান হলে ছোট n আগে।"
     }
   ],
   "memorize": {
     "trick": "n+ℓ ছোট আগে; সমান হলে ছোট n আগে।",
     "steps": [
       "n+ℓ ছোট আগে; সমান হলে ছোট n আগে।",
-      "মনে রাখো — n+ℓ ছোট আগে; সমান হলে ছোট n আগে।",
-      "চিহ্ন চেক: electrons fill orbitals in order of increasing energy (, n, ell"
+      "প্রশ্নে আউফবাউ নীতি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: n=মোল সংখ্যা / কোটি।"
     ]
   },
   "subjects": [

@@ -49,14 +49,19 @@
       "examType": "Admission",
       "question": "হাবল বয়সের সরল আনুমানিক সূত্র কী?",
       "answer": "t_H\\approx1/H_0"
+    },
+    {
+      "examType": "Concept",
+      "question": "মহাজাগতিক লোহিত সরণ ও হাবল বয়স দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "z=\\dfrac{\\Delta\\lambda}{\\lambda}\\approx\\dfrac{v}{c},\\quad t_H\\approx\\dfrac{1}{H_0}"
     }
   ],
   "memorize": {
     "trick": "z ≈ v/c; বয়স ≈ 1/H₀। z=\\dfrac{\\Delta\\lambda}{\\lambda}\\approx\\dfrac{v}{c},\\quad t_H\\approx\\dfrac{1}{H_0}",
     "steps": [
       "z ≈ v/c; বয়স ≈ 1/H₀। z=\\dfrac{\\Delta\\lambda}{\\lambda}\\approx\\dfrac{v}{c},\\quad t_H\\approx\\dfrac{1}{H_0}",
-      "মনে রাখো — z ≈ v/c; বয়স ≈ 1/H₀। z=\\dfrac{\\Delta\\lambda}{\\lambda}\\approx\\dfrac{v}{c},\\quad t_H\\approx\\dfrac{1}{H_0}",
-      "চিহ্ন চেক: z, H_0"
+      "প্রশ্নে মহাজাগতিক লোহিত সরণ ও হাবল বয়স বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: z=লোহিত সরণ, H_0=হাবল ধ্রুবক।"
     ]
   },
   "subjects": [

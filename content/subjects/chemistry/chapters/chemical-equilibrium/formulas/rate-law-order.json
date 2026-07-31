@@ -67,6 +67,11 @@
       "examType": "Medical Admission",
       "question": "প্রথম ক্রম বিক্রিয়ার k = 0.231 min⁻¹ হলে অর্ধায়ু কত?",
       "answer": "t_{1/2}=\\frac{0.693}{0.231}=3.00\\ \\mathrm{min}"
+    },
+    {
+      "examType": "Concept",
+      "question": "বিক্রিয়ার বেগ সূত্র, ক্রম ও অর্ধায়ু দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{প্রথম ক্রমের signature: t₁/₂ = 0.693/k—initial concentration লাগে না। Order বের করতে k-এর একক দেখুন: zero=M s⁻¹, first=s}"
     }
   ],
   "memorize": {

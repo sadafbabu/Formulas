@@ -16,11 +16,6 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "\\text{pH}",
-      "meaning": "হাইড্রোজেন আয়নের ঋণাত্মক লগ",
-      "unit": "মাত্রাহীন"
-    },
-    {
       "symbol": "K_a",
       "meaning": "অম্লের বিয়োজন ধ্রুবক",
       "unit": "mol/L"
@@ -42,11 +37,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{pH}=pK_a+\\log\\frac{[A^-]}{[HA]},\\quad \\mathrm{pOH}=pK_b+\\log\\frac{[B^+]}{[BOH]},\\quad \\mathrm{pH}+\\mathrm{pOH}=14",
-        "note": "বাফার দ্রবণ ও পিএইচ সূত্র এর প্রাথমিক রূপ।"
+        "note": "বাফার দ্রবণের pH নির্ণয়ের Henderson-Hasselbalch সমীকরণ"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\mathrm{pH}=pK_a+\\log\\frac{[A^-]}{[HA]},\\quad \\mathrm{pOH}=pK_b+\\log\\frac{[B^+]}{[BOH]},\\quad \\mathrm{pH}+\\mathrm{pOH}=14",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "pH = pKa + log([লবণ]/[অম্ল]) — সমান হলে pH = pKa। লবণ বাড়লে pH বাড়ে।"
       }
     ],
@@ -59,14 +54,19 @@
       "examType": "BUET Admission",
       "question": "0.1 M CH₃COOH এবং 0.1 M CH₃COONa দ্রবণের pH কত? [Ka = 1.8 × 10⁻⁵]",
       "answer": "\\text{pH} = -\\log(1.8 \\times 10^{-5}) + \\log\\frac{0.1}{0.1} = 4.74 + 0 = 4.74"
+    },
+    {
+      "examType": "Concept",
+      "question": "বাফার দ্রবণ ও পিএইচ সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{pH = pKa + log([লবণ]/[অম্ল]) — সমান হলে pH = pKa। লবণ বাড়লে pH বাড়ে।}"
     }
   ],
   "memorize": {
     "trick": "pH = pKa + log([লবণ]/[অম্ল]) — সমান হলে pH = pKa। লবণ বাড়লে pH বাড়ে।",
     "steps": [
       "pH = pKa + log([লবণ]/[অম্ল]) — সমান হলে pH = pKa। লবণ বাড়লে pH বাড়ে।",
-      "মনে রাখো — বাফার দ্রবণের pH নির্ণয়ের Henderson-Hasselbalch সমীকরণ",
-      "চিহ্ন চেক: \\text{pH}, K_a, [A^-]"
+      "প্রশ্নে বাফার দ্রবণ ও পিএইচ সূত্র বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: K_a=অম্লের বিয়োজন ধ্রুবক, [A^-]=সংযুগী ভিত্তির ঘনমাত্রা।"
     ]
   },
   "subjects": [

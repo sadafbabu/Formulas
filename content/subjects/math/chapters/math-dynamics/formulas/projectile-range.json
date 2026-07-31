@@ -3,7 +3,7 @@
   "chapter": "math-dynamics",
   "title": "Projectile Range",
   "titleBn": "ক্ষিপ্ত বস্তুর পালা",
-  "summary": "45°-এ max range; R=u²sin2θ/g — HSC favorite।",
+  "summary": "ক্ষিপ্ত বস্তুর পালা: 45°-এ max range; R=u²sin2θ/g — HSC favorite।",
   "latex": "R=\\frac{u^2\\sin 2\\theta}{g}",
   "tags": [
     "hsc",
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "45°-এ max range; R=u²sin2θ/g — HSC favorite।",
+    "lead": "ক্ষিপ্ত বস্তুর পালা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "R=\\frac{u^2\\sin 2\\theta}{g}",
-        "note": "ক্ষিপ্ত বস্তুর পালা এর প্রাথমিক রূপ।"
+        "note": "ক্ষিপ্ত বস্তুর পালা: 45°-এ max range; R=u²sin2θ/g — HSC favorite।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "R=\\frac{u^2\\sin 2\\theta}{g}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "45°-এ max range; R=u²sin2θ/g — HSC favorite।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "ক্ষিপ্ত বস্তুর পালা এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ক্ষিপ্ত বস্তুর পালা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "ক্ষিপ্ত বস্তুর পালা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "R=\\frac{u^2\\sin 2\\theta}{g}\\text{ — }45°-এ max range; R=u²sin2θ/g — HSC favorite।"
     },
     {
       "examType": "Concept",
-      "question": "ক্ষিপ্ত বস্তুর পালা দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{45-এ max range; R=usin2θ/g  HSC favorite।}"
+      "question": "ক্ষিপ্ত বস্তুর পালা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "R=\\frac{u^2\\sin 2\\theta}{g}\\text{ — }45°-এ max range; R=u²sin2θ/g — HSC favorite।"
     }
   ],
   "memorize": {
     "trick": "45°-এ max range; R=u²sin2θ/g — HSC favorite।",
     "steps": [
       "45°-এ max range; R=u²sin2θ/g — HSC favorite।",
-      "মনে রাখো — 45°-এ max range; R=u²sin2θ/g — HSC favorite।",
-      "চিহ্ন চেক: R, u, theta"
+      "প্রশ্নে ক্ষিপ্ত বস্তুর পালা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: R=R=u²sin2θ/g, u=আদি বেগ।"
     ]
   },
   "subjects": [

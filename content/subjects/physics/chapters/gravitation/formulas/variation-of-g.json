@@ -84,6 +84,11 @@
       "examType": "Medical Admission",
       "question": "ভূপৃষ্ঠ থেকে কত উচ্চতায় g-এর মান অর্ধেক হবে? (R = 6400 km)",
       "answer": "\\frac{g}{2} = g\\frac{R^2}{(R+h)^2} \\Rightarrow (R+h)^2 = 2R^2 \\Rightarrow h = R(\\sqrt{2}-1) \\approx 2651\\ \\text{km}"
+    },
+    {
+      "examType": "Concept",
+      "question": "অভিকর্ষজ ত্বরণের পরিবর্তন (উচ্চতা, গভীরতা ও অক্ষাংশ) দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "g_h = g\\frac{R^2}{(R+h)^2}, \\quad g_d = g\\!\\left(1 - \\frac{d}{R}\\right), \\quad g_\\lambda = g - \\omega^2 R\\cos^2\\lambda"
     }
   ],
   "memorize": {

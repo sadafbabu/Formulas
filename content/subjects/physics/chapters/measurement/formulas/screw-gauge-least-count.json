@@ -3,7 +3,7 @@
   "chapter": "measurement",
   "title": "Screw Gauge Least Count",
   "titleBn": "স্ক্রু গেজ লঘিষ্ঠ পাঠ",
-  "summary": "Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।",
+  "summary": "স্ক্রু গেজ লঘিষ্ঠ পাঠ: Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।",
   "latex": "\\mathrm{LC}=\\frac{\\text{pitch}}{\\text{circular scale divisions}}",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।",
+    "lead": "স্ক্রু গেজ লঘিষ্ঠ পাঠ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{LC}=\\frac{\\text{pitch}}{\\text{circular scale divisions}}",
-        "note": "স্ক্রু গেজ লঘিষ্ঠ পাঠ এর প্রাথমিক রূপ।"
+        "note": "স্ক্রু গেজ লঘিষ্ঠ পাঠ: Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\mathrm{LC}=\\frac{\\text{pitch}}{\\text{circular scale divisions}}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্ক্রু গেজ লঘিষ্ঠ পাঠ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\mathrm{LC}=\\frac{\\text{pitch}}{\\text{circular scale divisions}}"
+      "question": "স্ক্রু গেজ লঘিষ্ঠ পাঠ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{LC}=\\frac{\\text{pitch}}{\\text{circular scale divisions}}\\text{ — }Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।"
     },
     {
       "examType": "Concept",
-      "question": "স্ক্রু গেজ লঘিষ্ঠ পাঠ দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।}"
+      "question": "স্ক্রু গেজ লঘিষ্ঠ পাঠ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{LC}=\\frac{\\text{pitch}}{\\text{circular scale divisions}}\\text{ — }Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।"
     }
   ],
   "memorize": {
     "trick": "Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।",
     "steps": [
       "Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।",
-      "মনে রাখো — Pitch = এক পূর্ণ ঘূর্ণনে অগ্রগতি; LC = pitch/CSD।",
-      "চিহ্ন চেক: L, C, p"
+      "প্রশ্নে স্ক্রু গেজ লঘিষ্ঠ পাঠ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: L=স্ক্রু গেজ লঘিষ্ঠ পাঠ, C=ধারণক্ষমতা / ধারকত্ব।"
     ]
   },
   "subjects": [

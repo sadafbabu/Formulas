@@ -3,7 +3,7 @@
   "chapter": "solid-state-chemistry",
   "title": "Atoms per Unit Cell",
   "titleBn": "একক কোষে পরমাণু",
-  "summary": "Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।",
+  "summary": "একক কোষে পরমাণু: Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।",
   "latex": "Z=\\text{contribution from all corner/face/edge atoms}",
   "tags": [
     "hsc",
@@ -19,47 +19,45 @@
       "symbol": "Z",
       "meaning": "পারমাণবিক সংখ্যা / প্রতিবন্ধকতা",
       "unit": "1 বা Ω"
-    },
-    {
-      "symbol": "contribution from all corner/face/edge atoms",
-      "meaning": "contribution from all corner/face/edge atoms (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।",
+    "lead": "একক কোষে পরমাণু প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "Z=\\text{contribution from all corner/face/edge atoms}",
-        "note": "একক কোষে পরমাণু এর প্রাথমিক রূপ।"
+        "note": "একক কোষে পরমাণু: Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "Z=\\text{contribution from all corner/face/edge atoms}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "একক কোষে পরমাণু এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "একক কোষে পরমাণু কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "Z=\\text{contribution from all corner/face/edge atoms}\\text{ — }Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।"
     },
     {
       "examType": "Concept",
-      "question": "একক কোষে পরমাণু দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{Corner=1/8, Face=1/2, Edge=1/4, Body=1  add up।}"
+      "question": "একক কোষে পরমাণু কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "Z=\\text{contribution from all corner/face/edge atoms}\\text{ — }Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।"
     }
   ],
   "memorize": {
     "trick": "Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।",
     "steps": [
       "Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।",
-      "মনে রাখো — Corner=1/8, Face=1/2, Edge=1/4, Body=1 — add up।",
-      "চিহ্ন চেক: Z, contribution from all corner/face/edge atoms"
+      "প্রশ্নে একক কোষে পরমাণু বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: Z=পারমাণবিক সংখ্যা / প্রতিবন্ধকতা।"
     ]
   },
   "subjects": [

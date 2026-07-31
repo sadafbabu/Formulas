@@ -3,7 +3,7 @@
   "chapter": "calculus",
   "title": "Rolle's Theorem",
   "titleBn": "রোলের উপপাদ্য",
-  "summary": "মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
+  "summary": "রোলের উপপাদ্য: মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
   "latex": "f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
   "tags": [
     "hsc",
@@ -21,54 +21,52 @@
     },
     {
       "symbol": "a",
-      "meaning": "ত্বরণ",
+      "meaning": "সহগ / ধ্রুবক",
       "unit": "m/s²"
     },
     {
       "symbol": "b",
       "meaning": "চৌম্বক ক্ষেত্র",
       "unit": "T"
-    },
-    {
-      "symbol": "Rightarrow",
-      "meaning": "Rightarrow (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
+    "lead": "রোলের উপপাদ্য প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
-        "note": "রোলের উপপাদ্য এর প্রাথমিক রূপ।"
+        "note": "রোলের উপপাদ্য: মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "রোলের উপপাদ্য এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রোলের উপপাদ্য লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0"
+      "question": "রোলের উপপাদ্য কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0\\text{ — }মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0"
     },
     {
       "examType": "Concept",
-      "question": "রোলের উপপাদ্য দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)Rightarrow exists cin(a,b): f'(c)=0}"
+      "question": "রোলের উপপাদ্য কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0\\text{ — }মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0"
     }
   ],
   "memorize": {
     "trick": "মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
     "steps": [
       "মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
-      "মনে রাখো — মধ্যমান উপপাদ্যের বিশেষ রূপ। f(a)=f(b)\\Rightarrow \\exists c\\in(a,b):\\ f'(c)=0",
-      "চিহ্ন চেক: f, a, b"
+      "প্রশ্নে রোলের উপপাদ্য বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: f=f(a)=f(b) ⇒ f'(c)=0, a=সহগ / ধ্রুবক।"
     ]
   },
   "subjects": [

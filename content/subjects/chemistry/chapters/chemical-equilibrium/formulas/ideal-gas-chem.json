@@ -47,11 +47,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "PV=nRT",
-        "note": "আদর্শ গ্যাস সমীকরণ এর প্রাথমিক রূপ।"
+        "note": "PV = nRT — রসায়নের গ্যাস গণনার ভিত্তি"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "PV=nRT",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "PV=nRT — STP-তে ১ মোল ≈ ২২.৪ L।"
       }
     ],
@@ -64,6 +64,11 @@
       "examType": "HSC",
       "question": "n=1, P=1 atm, T=273 K। V?",
       "answer": "V\\approx 22.4\\,\\mathrm{L}"
+    },
+    {
+      "examType": "Concept",
+      "question": "আদর্শ গ্যাস সমীকরণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{PV=nRT — STP-তে ১ মোল ≈ ২২.৪ L।}"
     }
   ],
   "memorize": {

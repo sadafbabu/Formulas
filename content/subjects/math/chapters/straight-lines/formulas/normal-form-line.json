@@ -3,7 +3,7 @@
   "chapter": "straight-lines",
   "title": "Normal Form of Line",
   "titleBn": "রেখার লম্ব রূপ",
-  "summary": "p = perpendicular from origin; α = angle with x-axis।",
+  "summary": "রেখার লম্ব রূপ: p = perpendicular from origin; α = angle with x-axis।",
   "latex": "x\\cos\\alpha+y\\sin\\alpha=p",
   "tags": [
     "hsc",
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "p = perpendicular from origin; α = angle with x-axis।",
+    "lead": "রেখার লম্ব রূপ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "x\\cos\\alpha+y\\sin\\alpha=p",
-        "note": "রেখার লম্ব রূপ এর প্রাথমিক রূপ।"
+        "note": "রেখার লম্ব রূপ: p = perpendicular from origin; α = angle with x-axis।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "x\\cos\\alpha+y\\sin\\alpha=p",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "p = perpendicular from origin; α = angle with x-axis।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "রেখার লম্ব রূপ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রেখার লম্ব রূপ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "x\\cos\\alpha+y\\sin\\alpha=p"
+      "question": "রেখার লম্ব রূপ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "x\\cos\\alpha+y\\sin\\alpha=p\\text{ — }p = perpendicular from origin; α = angle with x-axis।"
     },
     {
       "examType": "Concept",
-      "question": "রেখার লম্ব রূপ দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{p = perpendicular from origin; α = angle with x-axis।}"
+      "question": "রেখার লম্ব রূপ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "x\\cos\\alpha+y\\sin\\alpha=p\\text{ — }p = perpendicular from origin; α = angle with x-axis।"
     }
   ],
   "memorize": {
     "trick": "p = perpendicular from origin; α = angle with x-axis।",
     "steps": [
       "p = perpendicular from origin; α = angle with x-axis।",
-      "মনে রাখো — p = perpendicular from origin; α = angle with x-axis।",
-      "চিহ্ন চেক: x, alpha, y"
+      "প্রশ্নে রেখার লম্ব রূপ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: x=x cosα+y sinα=p, alpha=কোণ / প্রসারণ গুণাঙ্ক।"
     ]
   },
   "subjects": [

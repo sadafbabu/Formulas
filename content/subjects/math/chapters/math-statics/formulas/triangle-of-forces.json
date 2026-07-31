@@ -3,7 +3,7 @@
   "chapter": "math-statics",
   "title": "Triangle of Forces",
   "titleBn": "বলের ত্রিভুজ",
-  "summary": "তিন বল সাম্য → Lami: F/sin( opposite angle )।",
+  "summary": "বলের ত্রিভুজ: তিন বল সাম্য → Lami: F/sin( opposite angle )।",
   "latex": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}",
   "tags": [
     "hsc",
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "তিন বল সাম্য → Lami: F/sin( opposite angle )।",
+    "lead": "বলের ত্রিভুজ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}",
-        "note": "বলের ত্রিভুজ এর প্রাথমিক রূপ।"
+        "note": "বলের ত্রিভুজ: তিন বল সাম্য → Lami: F/sin( opposite angle )।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "তিন বল সাম্য → Lami: F/sin( opposite angle )।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "বলের ত্রিভুজ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বলের ত্রিভুজ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "বলের ত্রিভুজ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}\\text{ — }তিন বল সাম্য → Lami: F/sin( opposite angle )।"
     },
     {
       "examType": "Concept",
-      "question": "বলের ত্রিভুজ দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{তিন বল সাম্য → Lami: F/sin( opposite angle )।}"
+      "question": "বলের ত্রিভুজ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{F_1}{\\sin\\alpha}=\\frac{F_2}{\\sin\\beta}=\\frac{F_3}{\\sin\\gamma}\\text{ — }তিন বল সাম্য → Lami: F/sin( opposite angle )।"
     }
   ],
   "memorize": {
     "trick": "তিন বল সাম্য → Lami: F/sin( opposite angle )।",
     "steps": [
       "তিন বল সাম্য → Lami: F/sin( opposite angle )।",
-      "মনে রাখো — তিন বল সাম্য → Lami: F/sin( opposite angle )।",
-      "চিহ্ন চেক: F, alpha, beta"
+      "প্রশ্নে বলের ত্রিভুজ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: F=Lami's theorem, alpha=কোণ / প্রসারণ গুণাঙ্ক।"
     ]
   },
   "subjects": [

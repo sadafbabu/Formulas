@@ -3,7 +3,7 @@
   "chapter": "coordinate-geometry-3d",
   "title": "Direction Ratios",
   "titleBn": "দিক্‌অনুপাত",
-  "summary": "DR (a,b,c) → DC l=a/√(a²+b²+c²)।",
+  "summary": "দিক্‌অনুপাত: DR (a,b,c) → DC l=a/√(a²+b²+c²)।",
   "latex": "\\frac{l}{a}=\\frac{m}{b}=\\frac{n}{c}",
   "tags": [
     "hsc",
@@ -21,12 +21,12 @@
     },
     {
       "symbol": "a",
-      "meaning": "ত্বরণ",
+      "meaning": "সহগ / ধ্রুবক",
       "unit": "m/s²"
     },
     {
       "symbol": "m",
-      "meaning": "ভর",
+      "meaning": "সারি / ঘাত",
       "unit": "kg"
     },
     {
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "DR (a,b,c) → DC l=a/√(a²+b²+c²)।",
+    "lead": "দিক্‌অনুপাত প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{l}{a}=\\frac{m}{b}=\\frac{n}{c}",
-        "note": "দিক্‌অনুপাত এর প্রাথমিক রূপ।"
+        "note": "দিক্‌অনুপাত: DR (a,b,c) → DC l=a/√(a²+b²+c²)।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\frac{l}{a}=\\frac{m}{b}=\\frac{n}{c}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "DR (a,b,c) → DC l=a/√(a²+b²+c²)।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "দিক্‌অনুপাত এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দিক্‌অনুপাত লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\frac{l}{a}=\\frac{m}{b}=\\frac{n}{c}"
+      "question": "দিক্‌অনুপাত কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{l}{a}=\\frac{m}{b}=\\frac{n}{c}\\text{ — }DR (a,b,c) → DC l=a/√(a²+b²+c²)।"
     },
     {
       "examType": "Concept",
-      "question": "দিক্‌অনুপাত দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{DR (a,b,c) → DC l=a/√(a+b+c)।}"
+      "question": "দিক্‌অনুপাত কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{l}{a}=\\frac{m}{b}=\\frac{n}{c}\\text{ — }DR (a,b,c) → DC l=a/√(a²+b²+c²)।"
     }
   ],
   "memorize": {
     "trick": "DR (a,b,c) → DC l=a/√(a²+b²+c²)।",
     "steps": [
       "DR (a,b,c) → DC l=a/√(a²+b²+c²)।",
-      "মনে রাখো — DR (a,b,c) → DC l=a/√(a²+b²+c²)।",
-      "চিহ্ন চেক: l, a, m"
+      "প্রশ্নে দিক্‌অনুপাত বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: l=দৈর্ঘ্য / আবেশ / ল্যাটেন্ট, a=সহগ / ধ্রুবক।"
     ]
   },
   "subjects": [

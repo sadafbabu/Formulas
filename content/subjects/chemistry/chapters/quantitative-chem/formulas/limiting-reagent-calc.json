@@ -3,7 +3,7 @@
   "chapter": "quantitative-chem",
   "title": "Limiting Reagent Calc",
   "titleBn": "সীমিত বিকারক গণনা",
-  "summary": "প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।",
+  "summary": "সীমিত বিকারক গণনা: প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।",
   "latex": "\\text{limiting}=\\min\\left(\\frac{n_i}{\\nu_i}\\right)",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।",
+    "lead": "সীমিত বিকারক গণনা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{limiting}=\\min\\left(\\frac{n_i}{\\nu_i}\\right)",
-        "note": "সীমিত বিকারক গণনা এর প্রাথমিক রূপ।"
+        "note": "সীমিত বিকারক গণনা: প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{limiting}=\\min\\left(\\frac{n_i}{\\nu_i}\\right)",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সীমিত বিকারক গণনা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "সীমিত বিকারক গণনা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\text{limiting}=\\min\\left(\\frac{n_i}{\\nu_i}\\right)\\text{ — }প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।"
     },
     {
       "examType": "Concept",
-      "question": "সীমিত বিকারক গণনা দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।}"
+      "question": "সীমিত বিকারক গণনা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{limiting}=\\min\\left(\\frac{n_i}{\\nu_i}\\right)\\text{ — }প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।"
     }
   ],
   "memorize": {
     "trick": "প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।",
     "steps": [
       "প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।",
-      "মনে রাখো — প্রতিটি বিকারকের n/গুণাঙ্ক; সবচেয়ে ছোট = limiting।",
-      "চিহ্ন চেক: limiting, n, i"
+      "প্রশ্নে সীমিত বিকারক গণনা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: limiting=smallest mole/coeff, n=মোল সংখ্যা / কোটি।"
     ]
   },
   "subjects": [

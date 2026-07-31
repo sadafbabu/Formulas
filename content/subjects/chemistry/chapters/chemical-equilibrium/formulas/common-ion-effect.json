@@ -49,6 +49,11 @@
       "examType": "HSC",
       "question": "CH₃COOH-এ CH₃COONa যোগ করলে pH কী হয়?",
       "answer": "\\mathrm{pH}\\uparrow\\ (\\text{বাফার / উভয়-আয়ন})"
+    },
+    {
+      "examType": "Concept",
+      "question": "উভয়-আয়ন প্রভাব দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{একই আয়ন যোগ = বিয়োজন/দ্রাব্যতা কমে — বাফারের চাবিকাঠি।}"
     }
   ],
   "memorize": {

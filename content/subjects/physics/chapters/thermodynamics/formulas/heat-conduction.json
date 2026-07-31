@@ -60,6 +60,11 @@
       "examType": "HSC",
       "question": "A ও ΔT দ্বিগুণ, L অপরিবর্তিত থাকলে H কতগুণ?",
       "answer": "H\\propto A\\Delta T\\Rightarrow 4\\ \\text{গুণ}"
+    },
+    {
+      "examType": "Concept",
+      "question": "তাপ পরিবহন (Fourier) দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{তাপ হার Ohm-এর মতো: H = kAΔT/L — A↑ H↑, L↑ H↓।}"
     }
   ],
   "memorize": {

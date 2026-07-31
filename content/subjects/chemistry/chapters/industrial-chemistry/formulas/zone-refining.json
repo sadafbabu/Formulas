@@ -3,7 +3,7 @@
   "chapter": "industrial-chemistry",
   "title": "Zone Refining",
   "titleBn": "জোন পরিশোধন",
-  "summary": "Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।",
+  "summary": "জোন পরিশোধন: Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।",
   "latex": "\\text{impurities concentrate in molten zone and are swept away}",
   "tags": [
     "hsc",
@@ -16,45 +16,48 @@
   "order": 120,
   "symbols": [
     {
-      "symbol": "impurities concentrate in molten zone and are swept away",
-      "meaning": "ultrapure semiconductors",
+      "symbol": "\\text{key}",
+      "meaning": "জোন পরিশোধন এর মূল রাশি",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।",
+    "lead": "জোন পরিশোধন প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{impurities concentrate in molten zone and are swept away}",
-        "note": "জোন পরিশোধন এর প্রাথমিক রূপ।"
+        "note": "জোন পরিশোধন: Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{impurities concentrate in molten zone and are swept away}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "জোন পরিশোধন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{impurities concentrate in molten zone and are swept away}"
+      "question": "জোন পরিশোধন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{impurities concentrate in molten zone and are swept away}\\text{ — }Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।"
     },
     {
       "examType": "Concept",
-      "question": "জোন পরিশোধন দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।}"
+      "question": "জোন পরিশোধন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{impurities concentrate in molten zone and are swept away}\\text{ — }Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।"
     }
   ],
   "memorize": {
     "trick": "Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।",
     "steps": [
       "Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।",
-      "মনে রাখো — Si/Ge অতি বিশুদ্ধ করতে ব্যবহৃত।",
-      "চিহ্ন চেক: impurities concentrate in molten zone and are swept away"
+      "প্রশ্নে জোন পরিশোধন বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "একক, চিহ্ন ও সীমাবদ্ধতা যাচাই করে উত্তর লেখো।"
     ]
   },
   "subjects": [

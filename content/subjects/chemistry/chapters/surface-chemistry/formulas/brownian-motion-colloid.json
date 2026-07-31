@@ -3,7 +3,7 @@
   "chapter": "surface-chemistry",
   "title": "Brownian Motion",
   "titleBn": "ব্রাউনীয় গতি",
-  "summary": "কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।",
+  "summary": "ব্রাউনীয় গতি: কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।",
   "latex": "\\text{continuous random motion of colloidal particles}",
   "tags": [
     "hsc",
@@ -16,45 +16,48 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "continuous random motion of colloidal particles",
-      "meaning": "zigzag particle motion",
+      "symbol": "\\text{key}",
+      "meaning": "ব্রাউনীয় গতি এর মূল রাশি",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।",
+    "lead": "ব্রাউনীয় গতি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{continuous random motion of colloidal particles}",
-        "note": "ব্রাউনীয় গতি এর প্রাথমিক রূপ।"
+        "note": "ব্রাউনীয় গতি: কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{continuous random motion of colloidal particles}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ব্রাউনীয় গতি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{continuous random motion of colloidal particles}"
+      "question": "ব্রাউনীয় গতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{continuous random motion of colloidal particles}\\text{ — }কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।"
     },
     {
       "examType": "Concept",
-      "question": "ব্রাউনীয় গতি দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{কলয়েড স্থিতিশীলতার প্রমাণ  কণা থেমে যায় না।}"
+      "question": "ব্রাউনীয় গতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{continuous random motion of colloidal particles}\\text{ — }কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।"
     }
   ],
   "memorize": {
     "trick": "কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।",
     "steps": [
       "কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।",
-      "মনে রাখো — কলয়েড স্থিতিশীলতার প্রমাণ — কণা থেমে যায় না।",
-      "চিহ্ন চেক: continuous random motion of colloidal particles"
+      "প্রশ্নে ব্রাউনীয় গতি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "একক, চিহ্ন ও সীমাবদ্ধতা যাচাই করে উত্তর লেখো।"
     ]
   },
   "subjects": [

@@ -3,7 +3,7 @@
   "chapter": "vector-algebra",
   "title": "Section Formula",
   "titleBn": "অনুপাত বিভাজন",
-  "summary": "m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
+  "summary": "অনুপাত বিভাজন: m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
   "latex": "\\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
   "tags": [
     "hsc",
@@ -26,7 +26,7 @@
     },
     {
       "symbol": "m",
-      "meaning": "ভর",
+      "meaning": "সারি / ঘাত",
       "unit": "kg"
     },
     {
@@ -36,34 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
+    "lead": "অনুপাত বিভাজন প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
-        "note": "অনুপাত বিভাজন এর প্রাথমিক রূপ।"
+        "note": "অনুপাত বিভাজন: m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "অনুপাত বিভাজন এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অনুপাত বিভাজন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "অনুপাত বিভাজন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)"
+    },
+    {
+      "examType": "Concept",
+      "question": "অনুপাত বিভাজন দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{m:n অভ্যন্তরে — ওজনিত গড়। vec r=fracmvec b+nvec am+nquad(textinternal m:n)}"
     }
   ],
   "memorize": {
     "trick": "m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
     "steps": [
       "m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
-      "মনে রাখো — m:n অভ্যন্তরে — ওজনিত গড়। \\vec r=\\frac{m\\vec b+n\\vec a}{m+n}\\quad(\\text{internal }m:n)",
-      "চিহ্ন চেক: vec, r, m"
+      "প্রশ্নে অনুপাত বিভাজন বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: vec=internal division, r=ব্যাসার্ধ / দূরত্ব।"
     ]
   },
   "subjects": [

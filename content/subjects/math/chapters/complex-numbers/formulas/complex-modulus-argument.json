@@ -25,11 +25,6 @@
       "unit": "একক"
     },
     {
-      "symbol": "\\text{Arg}(z)",
-      "meaning": "প্রধান আর্গুমেন্ট (-π < θ ≤ π)",
-      "unit": "রেডিয়ান/ডিগ্রী"
-    },
-    {
       "symbol": "i",
       "meaning": "কাল্পনিক একক (i² = -1)",
       "unit": "একক"
@@ -41,12 +36,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "|z|=r=\\sqrt{a^2+b^2},\\quad \\operatorname{Arg}(z)=\\operatorname{atan2}(b,a)\\ (z\\ne0),\\quad (\\cos\\theta+i\\sin\\theta)^n=\\cos n\\theta+i\\sin n\\theta",
-        "note": "জটিল সংখ্যার পরমমান, নতি ও ডিময়ভারের উপপাদ্য এর প্রাথমিক রূপ।"
+        "note": "জটিল সংখ্যা z = a + ib এর মডুলাস, আর্গুমেন্ট এবং ডিময়ভারের সূত্র"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "|z|=r=\\sqrt{a^2+b^2},\\quad \\operatorname{Arg}(z)=\\operatorname{atan2}(b,a)\\ (z\\ne0),\\quad (\\cos\\theta+i\\sin\\theta)^n=\\cos n\\theta+i\\sin n\\theta",
-        "note": "|z| = √(a² + b²) হলো মূলবিন্দু থেকে দূরত্ব, Arg(z) = tan⁻¹(b/a) হলো কোণ — অর্থাৎ জটিল সংখ্যা মানে সমতলে একটি বিন্দু। ডিম"
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "note": "|z| = √(a² + b²) হলো মূলবিন্দু থেকে দূরত্ব, Arg(z) = tan⁻¹(b/a) হলো কোণ — অর্থাৎ জটিল সংখ্যা মানে সমতলে একটি বিন্দু। ডিময়ভার: ঘাত নিতে 'মান"
       }
     ],
     "assumptions": [
@@ -58,6 +53,11 @@
       "examType": "BUET Admission Hard",
       "question": "z = 1 - i\\sqrt{3} জটিল সংখ্যার মডুলাস ও প্রধান আর্গুমেন্ট কত?",
       "answer": "a = 1, \\, b = -\\sqrt{3} (4th quadrant) \\implies |z| = \\sqrt{1^2 + (-\\sqrt{3})^2} = 2, \\quad \\text{Arg}(z) = -\\tan^{-1}\\left(\\frac{\\sqrt{3}}{1}\\right) = -\\frac{\\pi}{3} \\text{ (বা } -60^\\circ\\text{)}"
+    },
+    {
+      "examType": "Concept",
+      "question": "জটিল সংখ্যার পরমমান, নতি ও ডিময়ভারের উপপাদ্য দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{|z| = √(a² + b²) হলো মূলবিন্দু থেকে দূরত্ব, Arg(z) = tan⁻¹(b/a) হলো কোণ — অর্থাৎ জটিল সংখ্যা মানে সমতলে একটি বিন্দু। ডিম}"
     }
   ],
   "memorize": {

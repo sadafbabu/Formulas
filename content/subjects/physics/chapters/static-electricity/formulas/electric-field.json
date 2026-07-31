@@ -41,11 +41,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "E = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{r^2}, \\quad \\oint E \\cdot dA = \\frac{q_{encl}}{\\varepsilon_0}",
-        "note": "তড়িৎ ক্ষেত্র ও গাউসের সূত্র এর প্রাথমিক রূপ।"
+        "note": "বিন্দু আধানের তড়িৎ ক্ষেত্র ও গাউসের সূত্র"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "E = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{r^2}, \\quad \\oint E \\cdot dA = \\frac{q_{encl}}{\\varepsilon_0}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "E = kq/r² — বর্গ বিপরীত। আর গাউসের সূত্র ∮E·dA = q_ভিতরে/ε₀ — 'যত আধান ঘেরা, তত ফ্লাক্স'; বাইরের আধান কোনো ফল দেয় না।"
       }
     ],
@@ -60,6 +60,11 @@
       "examType": "HSC / Medical",
       "question": "বিন্দু চার্জ Q থেকে r দূরত্বে E কত?",
       "answer": "E=\\frac{1}{4\\pi\\varepsilon_0}\\frac{Q}{r^2}"
+    },
+    {
+      "examType": "Concept",
+      "question": "তড়িৎ ক্ষেত্র ও গাউসের সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "E = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{r^2}, \\quad \\oint E \\cdot dA = \\frac{q_{encl}}{\\varepsilon_0}"
     }
   ],
   "memorize": {

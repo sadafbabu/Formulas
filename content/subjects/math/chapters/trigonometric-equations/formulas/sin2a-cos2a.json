@@ -3,7 +3,7 @@
   "chapter": "trigonometric-equations",
   "title": "Double Angle Formulas",
   "titleBn": "দ্বিগুণ কোণ সূত্র",
-  "summary": "cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।",
+  "summary": "দ্বিগুণ কোণ সূত্র: cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।",
   "latex": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A",
   "tags": [
     "hsc",
@@ -21,39 +21,42 @@
     }
   ],
   "derivation": {
-    "lead": "cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।",
+    "lead": "দ্বিগুণ কোণ সূত্র প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A",
-        "note": "দ্বিগুণ কোণ সূত্র এর প্রাথমিক রূপ।"
+        "note": "দ্বিগুণ কোণ সূত্র: cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "দ্বিগুণ কোণ সূত্র এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দ্বিগুণ কোণ সূত্র এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "দ্বিগুণ কোণ সূত্র কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A\\text{ — }cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।"
     },
     {
       "examType": "Concept",
-      "question": "দ্বিগুণ কোণ সূত্র দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{cos2A-এর তিন রূপ  sin/cos একা থাকলে কাজে লাগে।}"
+      "question": "দ্বিগুণ কোণ সূত্র কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\sin2A=2\\sin A\\cos A,\\quad \\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A\\text{ — }cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।"
     }
   ],
   "memorize": {
     "trick": "cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।",
     "steps": [
       "cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।",
-      "মনে রাখো — cos2A-এর তিন রূপ — sin/cos একা থাকলে কাজে লাগে।",
-      "চিহ্ন চেক: A"
+      "প্রশ্নে দ্বিগুণ কোণ সূত্র বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: A=sin2A, cos2A।"
     ]
   },
   "subjects": [

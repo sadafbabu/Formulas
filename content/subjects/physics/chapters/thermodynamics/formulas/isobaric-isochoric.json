@@ -27,7 +27,7 @@
     },
     {
       "symbol": "\\Delta V",
-      "meaning": "\\Delta V (সূত্রের রাশি)",
+      "meaning": "Delta V (সূত্রের রাশি)",
       "unit": "Pa, m³"
     },
     {
@@ -59,6 +59,11 @@
       "examType": "HSC",
       "question": "স্থির আয়তনে কাজ কত?",
       "answer": "W=0"
+    },
+    {
+      "examType": "Concept",
+      "question": "সমচাপ ও সমআয়তন প্রক্রিয়া দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{সমআয়তনে কাজ শূন্য; সমচাপে W = PΔV।}"
     }
   ],
   "memorize": {

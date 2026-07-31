@@ -45,12 +45,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "I=I_0\\left(e^{eV/(\\eta kT)}-1\\right),\\quad V_T=\\frac{kT}{e}\\approx26\\ \\mathrm{mV}\\ (300\\ \\mathrm K)",
-        "note": "PN সংযোগ ডায়োড সমীকরণ এর প্রাথমিক রূপ।"
+        "note": "ডায়োডের বিভব-প্রবাহ সম্পর্ক ও সম্পৃক্ত বিভব"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "I=I_0\\left(e^{eV/(\\eta kT)}-1\\right),\\quad V_T=\\frac{kT}{e}\\approx26\\ \\mathrm{mV}\\ (300\\ \\mathrm K)",
-        "note": "I = I₀(e^{eV/kT} − 1) — সম্মুখ ঝোঁকে সূচকীয়ভাবে বাড়ে, বিপরীত ঝোঁকে প্রায় −I₀ তে থেমে যায়। কক্ষ তাপমাত্রায় তাপীয় ভো"
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "note": "I = I₀(e^{eV/kT} − 1) — সম্মুখ ঝোঁকে সূচকীয়ভাবে বাড়ে, বিপরীত ঝোঁকে প্রায় −I₀ তে থেমে যায়। কক্ষ তাপমাত্রায় তাপীয় ভোল্টেজ V_T = kT/e ≈ 2"
       }
     ],
     "assumptions": [
@@ -65,6 +65,11 @@
       "examType": "HSC",
       "question": "ফরওয়ার্ড বায়াসে PN জাংশনের আচরণ কী?",
       "answer": "\\text{কম রোধ, কারেন্ট প্রবাহিত}"
+    },
+    {
+      "examType": "Concept",
+      "question": "PN সংযোগ ডায়োড সমীকরণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "I=I_0\\left(e^{eV/(\\eta kT)}-1\\right),\\quad V_T=\\frac{kT}{e}\\approx26\\ \\mathrm{mV}\\ (300\\ \\mathrm K)"
     }
   ],
   "memorize": {

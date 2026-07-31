@@ -3,7 +3,7 @@
   "chapter": "differentiation",
   "title": "Implicit Differentiation",
   "titleBn": "অন্তর্নিহিত অন্তরীকরণ",
-  "summary": "দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}",
+  "summary": "অন্তর্নিহিত অন্তরীকরণ: দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}",
   "latex": "\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
   "tags": [
     "hsc",
@@ -31,30 +31,38 @@
     },
     {
       "symbol": "F",
-      "meaning": "বল",
+      "meaning": "ফাংশন",
       "unit": "N"
     }
   ],
   "derivation": {
-    "lead": "দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}",
+    "lead": "অন্তর্নিহিত অন্তরীকরণ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
-        "note": "অন্তর্নিহিত অন্তরীকরণ এর প্রাথমিক রূপ।"
+        "note": "অন্তর্নিহিত অন্তরীকরণ: দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\frac{dy}{dx}=-\\frac{F_x}{F_y}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "অন্তর্নিহিত অন্তরীকরণ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অন্তর্নিহিত অন্তরীকরণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "অন্তর্নিহিত অন্তরীকরণ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{dy}{dx}=-\\frac{F_x}{F_y}\\text{ — }দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}"
+    },
+    {
+      "examType": "Concept",
+      "question": "অন্তর্নিহিত অন্তরীকরণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "\\frac{dy}{dx}=-\\frac{F_x}{F_y}"
     }
   ],
@@ -62,8 +70,8 @@
     "trick": "দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}",
     "steps": [
       "দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}",
-      "মনে রাখো — দুই পাশে d/dx; y′ আলাদা করো। \\frac{dy}{dx}=-\\frac{F_x}{F_y}",
-      "চিহ্ন চেক: d, y, x"
+      "প্রশ্নে অন্তর্নিহিত অন্তরীকরণ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: d=দূরত্ব / ব্যাস, y=y)=0।"
     ]
   },
   "subjects": [

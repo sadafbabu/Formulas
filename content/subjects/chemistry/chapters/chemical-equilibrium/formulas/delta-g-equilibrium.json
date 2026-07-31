@@ -3,7 +3,7 @@
   "chapter": "chemical-equilibrium",
   "title": "Gibbs Energy & Equilibrium",
   "titleBn": "গিবস মুক্তশক্তি ও সাম্যাবস্থা",
-  "summary": "ΔG° = −RT ln K; Q=K হলে ΔG=0। \\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q",
+  "summary": "গিবস মুক্তশক্তি ও সাম্যাবস্থা: ΔG° = −RT ln K; Q=K হলে ΔG=0। \\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q",
   "latex": "\\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q",
   "tags": [
     "hsc",
@@ -37,25 +37,33 @@
     }
   ],
   "derivation": {
-    "lead": "ΔG° = −RT ln K; Q=K হলে ΔG=0। \\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q",
+    "lead": "গিবস মুক্তশক্তি ও সাম্যাবস্থা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q",
-        "note": "গিবস মুক্তশক্তি ও সাম্যাবস্থা এর প্রাথমিক রূপ।"
+        "note": "গিবস মুক্তশক্তি ও সাম্যাবস্থা: ΔG° = −RT ln K; Q=K হলে ΔG=0। \\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "ΔG° = −RT ln K; Q=K হলে ΔG=0। \\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গিবস মুক্তশক্তি ও সাম্যাবস্থা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "গিবস মুক্তশক্তি ও সাম্যাবস্থা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q"
+    },
+    {
+      "examType": "Concept",
+      "question": "গিবস মুক্তশক্তি ও সাম্যাবস্থা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "\\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q"
     }
   ],
@@ -63,8 +71,8 @@
     "trick": "ΔG° = −RT ln K; Q=K হলে ΔG=0। \\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q",
     "steps": [
       "ΔG° = −RT ln K; Q=K হলে ΔG=0। \\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q",
-      "মনে রাখো — ΔG° = −RT ln K; Q=K হলে ΔG=0। \\Delta G^\\circ=-RT\\ln K,\\quad\\Delta G=\\Delta G^\\circ+RT\\ln Q",
-      "চিহ্ন চেক: Delta, G, circ"
+      "প্রশ্নে গিবস মুক্তশক্তি ও সাম্যাবস্থা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: Delta=ΔG° ও K এর সম্পর্ক, G=মহাকর্ষ ধ্রুবক।"
     ]
   },
   "subjects": [

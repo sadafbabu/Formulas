@@ -59,14 +59,19 @@
       "examType": "HSC",
       "question": "L=2 H, R=10 Ω। τ?",
       "answer": "\\tau=0.2\\,\\mathrm{s}"
+    },
+    {
+      "examType": "Concept",
+      "question": "LR ও CR বর্তনীতে প্রবাহ বৃদ্ধি-ক্ষয় দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "i=I(1-e^{-tR/L})\\ (\\mathrm{LR}),\\quad q=Qe^{-t/RC}\\ (\\mathrm{CR\\ discharge})"
     }
   ],
   "memorize": {
     "trick": "τ_L=L/R, τ_C=RC। LR: τ=L/R; CR: τ=RC — সূচকীয় বৃদ্ধি/ক্ষয়",
     "steps": [
       "τ_L=L/R, τ_C=RC। LR: τ=L/R; CR: τ=RC — সূচকীয় বৃদ্ধি/ক্ষয়",
-      "মনে রাখো — LR: τ=L/R; CR: τ=RC — সূচকীয় বৃদ্ধি/ক্ষয়",
-      "চিহ্ন চেক: \\tau_{L}, \\tau_{C}, i"
+      "প্রশ্নে LR ও CR বর্তনীতে প্রবাহ বৃদ্ধি-ক্ষয় বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: \\tau_{L}=L/R সময় ধ্রুবক, \\tau_{C}=RC সময় ধ্রুবক।"
     ]
   },
   "subjects": [

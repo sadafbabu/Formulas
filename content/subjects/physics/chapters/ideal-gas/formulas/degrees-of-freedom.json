@@ -72,6 +72,11 @@
       "examType": "BUET Admission",
       "question": "দ্বিপরমাণুক গ্যাসের (f = 5) C_v, C_p ও γ কত?",
       "answer": "C_v = \\tfrac{5}{2}R = 20.8, \\quad C_p = \\tfrac{7}{2}R = 29.1\\ \\text{J/(mol·K)}, \\quad \\gamma = 1.4"
+    },
+    {
+      "examType": "Concept",
+      "question": "স্বাধীনতার মাত্রা, অন্তঃস্থ শক্তি ও γ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "U = \\frac{f}{2}nRT, \\quad C_v = \\frac{f}{2}R, \\quad \\gamma = 1 + \\frac{2}{f}"
     }
   ],
   "memorize": {

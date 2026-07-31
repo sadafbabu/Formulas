@@ -3,7 +3,7 @@
   "chapter": "solid-state-chemistry",
   "title": "BCC Packing Efficiency",
   "titleBn": "BCC প্যাকিং দক্ষতা",
-  "summary": "BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
+  "summary": "BCC প্যাকিং দক্ষতা: BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
   "latex": "\\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
   "tags": [
     "hsc",
@@ -37,25 +37,33 @@
     }
   ],
   "derivation": {
-    "lead": "BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
+    "lead": "BCC প্যাকিং দক্ষতা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
-        "note": "BCC প্যাকিং দক্ষতা এর প্রাথমিক রূপ।"
+        "note": "BCC প্যাকিং দক্ষতা: BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "BCC প্যাকিং দক্ষতা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "BCC প্যাকিং দক্ষতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{PE}=68\\%\\quad(a\\sqrt3=4r)\\text{ — }BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)"
+    },
+    {
+      "examType": "Concept",
+      "question": "BCC প্যাকিং দক্ষতা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "\\text{PE}=68\\%\\quad(a\\sqrt3=4r)"
     }
   ],
@@ -63,8 +71,8 @@
     "trick": "BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
     "steps": [
       "BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
-      "মনে রাখো — BCC-তে body diagonal = 4r। \\text{PE}=68\\%\\quad(a\\sqrt3=4r)",
-      "চিহ্ন চেক: PE, a, sqrt"
+      "প্রশ্নে BCC প্যাকিং দক্ষতা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: a=ত্বরণ, r=ব্যাসার্ধ / দূরত্ব।"
     ]
   },
   "subjects": [

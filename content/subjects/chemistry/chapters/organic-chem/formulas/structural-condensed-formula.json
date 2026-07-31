@@ -63,6 +63,11 @@
       "examType": "Admission",
       "question": "কেন \\mathrm{C_2H_6O} দিয়ে যৌগের নাম নিশ্চিত করা যায় না?",
       "answer": "\\text{আইসোমার: ইথানল }\\mathrm{CH_3CH_2OH}\\text{ ও ডাইমিথাইল ইথার }\\mathrm{CH_3OCH_3}"
+    },
+    {
+      "examType": "Concept",
+      "question": "গঠনিক ও সংক্ষিপ্ত সংকেত দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Molecular = কী আছে; Structural = কীভাবে জোড়া; Condensed = ছোট করে লেখা।}"
     }
   ],
   "memorize": {

@@ -3,7 +3,7 @@
   "chapter": "calculus",
   "title": "Trapezoidal Rule",
   "titleBn": "টrapezoidal নিয়ম",
-  "summary": "h=(b−a)/n; end points once, middle twice।",
+  "summary": "টrapezoidal নিয়ম: h=(b−a)/n; end points once, middle twice।",
   "latex": "\\int_a^b f(x)\\,dx\\approx\\frac{h}{2}[y_0+2(y_1+\\cdots+y_{n-1})+y_n]",
   "tags": [
     "hsc",
@@ -15,13 +15,8 @@
   "order": 181,
   "symbols": [
     {
-      "symbol": "int",
-      "meaning": "numerical integration",
-      "unit": "—"
-    },
-    {
       "symbol": "a",
-      "meaning": "ত্বরণ",
+      "meaning": "সহগ / ধ্রুবক",
       "unit": "m/s²"
     },
     {
@@ -36,39 +31,42 @@
     }
   ],
   "derivation": {
-    "lead": "h=(b−a)/n; end points once, middle twice।",
+    "lead": "টrapezoidal নিয়ম প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\int_a^b f(x)\\,dx\\approx\\frac{h}{2}[y_0+2(y_1+\\cdots+y_{n-1})+y_n]",
-        "note": "টrapezoidal নিয়ম এর প্রাথমিক রূপ।"
+        "note": "টrapezoidal নিয়ম: h=(b−a)/n; end points once, middle twice।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\int_a^b f(x)\\,dx\\approx\\frac{h}{2}[y_0+2(y_1+\\cdots+y_{n-1})+y_n]",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "h=(b−a)/n; end points once, middle twice।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "টrapezoidal নিয়ম এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "টrapezoidal নিয়ম লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\int_a^b f(x)\\,dx\\approx\\frac{h}{2}[y_0+2(y_1+\\cdots+y_{n-1})+y_n]"
+      "question": "টrapezoidal নিয়ম কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\int_a^b f(x)\\,dx\\approx\\frac{h}{2}[y_0+2(y_1+\\cdots+y_{n-1})+y_n]\\text{ — }h=(b−a)/n; end points once, middle twice।"
     },
     {
       "examType": "Concept",
-      "question": "টrapezoidal নিয়ম দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{h=(ba)/n; end points once, middle twice।}"
+      "question": "টrapezoidal নিয়ম কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\int_a^b f(x)\\,dx\\approx\\frac{h}{2}[y_0+2(y_1+\\cdots+y_{n-1})+y_n]\\text{ — }h=(b−a)/n; end points once, middle twice।"
     }
   ],
   "memorize": {
     "trick": "h=(b−a)/n; end points once, middle twice।",
     "steps": [
       "h=(b−a)/n; end points once, middle twice।",
-      "মনে রাখো — h=(b−a)/n; end points once, middle twice।",
-      "চিহ্ন চেক: int, a, b"
+      "প্রশ্নে টrapezoidal নিয়ম বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: a=সহগ / ধ্রুবক, b=চৌম্বক ক্ষেত্র।"
     ]
   },
   "subjects": [

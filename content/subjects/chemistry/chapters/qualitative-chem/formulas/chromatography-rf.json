@@ -27,11 +27,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "R_f=\\dfrac{\\text{distance moved by spot}}{\\text{distance moved by solvent}}",
-        "note": "ক্রোমাটোগ্রাফি R_f মান এর প্রাথমিক রূপ।"
+        "note": "R_f = স্পটের দূরত্ব / দ্রাবকের দূরত্ব"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "R_f=\\dfrac{\\text{distance moved by spot}}{\\text{distance moved by solvent}}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "R_f = স্পট/সলভেন্ট — ১-এর বেশি হয় না।"
       }
     ],
@@ -44,14 +44,19 @@
       "examType": "HSC",
       "question": "দ্রাবক 10 cm, স্পট 4 cm। R_f?",
       "answer": "R_f=0.4"
+    },
+    {
+      "examType": "Concept",
+      "question": "ক্রোমাটোগ্রাফি R_f মান দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "R_f=\\dfrac{\\text{distance moved by spot}}{\\text{distance moved by solvent}}"
     }
   ],
   "memorize": {
     "trick": "R_f = স্পট/সলভেন্ট — ১-এর বেশি হয় না।",
     "steps": [
       "R_f = স্পট/সলভেন্ট — ১-এর বেশি হয় না।",
-      "মনে রাখো — R_f = স্পটের দূরত্ব / দ্রাবকের দূরত্ব",
-      "চিহ্ন চেক: R_f"
+      "প্রশ্নে ক্রোমাটোগ্রাফি R_f মান বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: R_f=রিটেনশন ফ্যাক্টর।"
     ]
   },
   "subjects": [

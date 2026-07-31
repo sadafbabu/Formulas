@@ -61,7 +61,12 @@
     {
       "examType": "Eng Admission",
       "question": "Nitrobenzene থেকে aniline তৈরির reagent কী?",
-      "answer": "\\ce{Sn/HCl}\\ \\text{বা}\\ \\ce{Fe/HCl};\\ \\text{পরে base দিয়ে free amine।}"
+      "answer": "\\text{Benzene-এর চার reagent map: nitration HNO₃/H₂SO₄; halogenation X₂/FeX₃; alkylation RCl/AlCl₃; acylation RCOCl/}"
+    },
+    {
+      "examType": "Concept",
+      "question": "বেনজিনের ইলেকট্রোফিলিক প্রতিস্থাপন বিক্রিয়া দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Benzene-এর চার reagent map: nitration HNO₃/H₂SO₄; halogenation X₂/FeX₃; alkylation RCl/AlCl₃; acylation RCOCl/AlCl₃।}"
     }
   ],
   "memorize": {

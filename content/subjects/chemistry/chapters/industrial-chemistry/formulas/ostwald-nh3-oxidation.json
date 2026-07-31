@@ -3,7 +3,7 @@
   "chapter": "industrial-chemistry",
   "title": "Ostwald NH₃ Oxidation",
   "titleBn": "অস্টওয়াল্ড NH₃ জারণ",
-  "summary": "অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।",
+  "summary": "অস্টওয়াল্ড প্রক্রিয়ায় Pt অনুঘটকে NH₃ জারিত হয়ে NO হয়; পরে HNO₃ তৈরি।",
   "latex": "4\\mathrm{NH_3}+5\\mathrm{O_2}\\xrightarrow{\\mathrm{Pt}}4\\mathrm{NO}+6\\mathrm{H_2O}",
   "tags": [
     "hsc",
@@ -16,60 +16,63 @@
   "order": 80,
   "symbols": [
     {
-      "symbol": "NH_3",
-      "meaning": "NH₃→NO",
+      "symbol": "\\mathrm{NH_3}",
+      "meaning": "অ্যামোনিয়া",
       "unit": "—"
     },
     {
-      "symbol": "O_2",
-      "meaning": "O_2 (সূত্রের রাশি)",
+      "symbol": "\\mathrm{O_2}",
+      "meaning": "অক্সিজেন",
       "unit": "—"
     },
     {
-      "symbol": "xrightarrow",
-      "meaning": "xrightarrow (সূত্রের রাশি)",
+      "symbol": "\\mathrm{Pt}",
+      "meaning": "প্ল্যাটিনাম অনুঘটক",
       "unit": "—"
     },
     {
-      "symbol": "Pt",
-      "meaning": "Pt (সূত্রের রাশি)",
+      "symbol": "\\mathrm{NO}",
+      "meaning": "নাইট্রিক অক্সাইড",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।",
+    "lead": "অ্যামোনিয়ার অনুঘটকীয় জারণে নাইট্রিক অক্সাইড পাওয়া যায়।",
     "steps": [
       {
-        "title": "মূল সূত্র",
+        "title": "জারণ সমীকরণ",
         "latex": "4\\mathrm{NH_3}+5\\mathrm{O_2}\\xrightarrow{\\mathrm{Pt}}4\\mathrm{NO}+6\\mathrm{H_2O}",
-        "note": "অস্টওয়াল্ড NH₃ জারণ এর প্রাথমিক রূপ।"
+        "note": "অস্টওয়াল্ডের মূল ধাপ।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "4\\mathrm{NH_3}+5\\mathrm{O_2}\\xrightarrow{\\mathrm{Pt}}4\\mathrm{NO}+6\\mathrm{H_2O}",
-        "note": "অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।"
+        "title": "শিল্প প্রয়োগ",
+        "latex": "\\mathrm{NO} \\rightarrow \\mathrm{HNO_3}",
+        "note": "NO থেকে ধাপে ধাপে নাইট্রিক অ্যাসিড।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "Pt অনুঘটক",
+      "উচ্চ তাপমাত্রা"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অস্টওয়াল্ড NH₃ জারণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "অস্টওয়াল্ড প্রক্রিয়ার NH₃ জারণ সমীকরণ লেখো।",
       "answer": "4\\mathrm{NH_3}+5\\mathrm{O_2}\\xrightarrow{\\mathrm{Pt}}4\\mathrm{NO}+6\\mathrm{H_2O}"
     },
     {
       "examType": "Concept",
-      "question": "অস্টওয়াল্ড NH₃ জারণ দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।}"
+      "question": "এই জারণ শেষে শিল্পে কী উৎপাদিত হয়?",
+      "answer": "\\text{নাইট্রিক অ্যাসিড (HNO}_3\\text{)}"
     }
   ],
   "memorize": {
-    "trick": "অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।",
+    "trick": "NH₃ → NO (Pt) → পরে HNO₃ — অস্টওয়াল্ড।",
     "steps": [
-      "অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।",
-      "মনে রাখো — অ্যামোনিয়া জারণ → নাইট্রিক অ্যাসিড।",
-      "চিহ্ন চেক: NH_3, O_2, xrightarrow"
+      "৪ NH₃ + ৫ O₂ → ৪ NO + ৬ H₂O (Pt)।",
+      "নাইট্রিক অ্যাসিড শিল্পে এই ধাপই চাবিকাঠি।",
+      "অনুঘটক Pt এবং উচ্চ তাপমাত্রা মনে রাখো।"
     ]
   },
   "subjects": [

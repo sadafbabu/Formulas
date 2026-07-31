@@ -73,6 +73,11 @@
       "examType": "HSC Board",
       "question": "একটি বস্তু 60° কোণে 20 m/s বেগে নিক্ষেপ করা হলো। এর পাল্লা কত? [g = 10]",
       "answer": "R = \\frac{u^2 \\sin 2\\theta}{g} = \\frac{400 \\times \\sin 120°}{10} = \\frac{400 \\times 0.866}{10} = 34.64\\ \\text{m}"
+    },
+    {
+      "examType": "Concept",
+      "question": "প্রাসের গতি সমীকরণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{H ∝ sin²θ, T ∝ sinθ, R ∝ sin2θ — 45° তে পাল্লা সর্বোচ্চ, 90° তে উচ্চতা সর্বোচ্চ।}"
     }
   ],
   "memorize": {

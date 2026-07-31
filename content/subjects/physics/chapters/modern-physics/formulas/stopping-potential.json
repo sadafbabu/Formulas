@@ -3,7 +3,7 @@
   "chapter": "modern-physics",
   "title": "Stopping Potential",
   "titleBn": "রোধ বিভব",
-  "summary": "V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi",
+  "summary": "রোধ বিভব: V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi",
   "latex": "eV_0=K_{\\max}=hf-\\phi",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi",
+    "lead": "রোধ বিভব প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "eV_0=K_{\\max}=hf-\\phi",
-        "note": "রোধ বিভব এর প্রাথমিক রূপ।"
+        "note": "রোধ বিভব: V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "eV_0=K_{\\max}=hf-\\phi",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "রোধ বিভব লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "eV_0=K_{\\max}=hf-\\phi"
+      "question": "রোধ বিভব কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "eV_0=K_{\\max}=hf-\\phi\\text{ — }V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi"
     },
     {
       "examType": "Concept",
-      "question": "রোধ বিভব দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{V₀ দিয়ে K max মাপা যায়। eV 0=K max=hf-phi}"
+      "question": "রোধ বিভব কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "eV_0=K_{\\max}=hf-\\phi\\text{ — }V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi"
     }
   ],
   "memorize": {
     "trick": "V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi",
     "steps": [
       "V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi",
-      "মনে রাখো — V₀ দিয়ে K_max মাপা যায়। eV_0=K_{\\max}=hf-\\phi",
-      "চিহ্ন চেক: e, V, K"
+      "প্রশ্নে রোধ বিভব বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: e=রোধ বিভব, V=বিভব / আয়তন।"
     ]
   },
   "subjects": [

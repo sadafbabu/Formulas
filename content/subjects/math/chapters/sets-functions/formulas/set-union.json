@@ -3,7 +3,7 @@
   "chapter": "sets-functions",
   "title": "Set Union",
   "titleBn": "সেটের যোগ",
-  "summary": "∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।",
+  "summary": "সেটের যোগ: ∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।",
   "latex": "A\\cup B=\\{x:x\\in A\\text{ or }x\\in B\\}",
   "tags": [
     "hsc",
@@ -36,39 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।",
+    "lead": "সেটের যোগ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "A\\cup B=\\{x:x\\in A\\text{ or }x\\in B\\}",
-        "note": "সেটের যোগ এর প্রাথমিক রূপ।"
+        "note": "সেটের যোগ: ∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "A\\cup B=\\{x:x\\in A\\text{ or }x\\in B\\}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "সেটের যোগ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সেটের যোগ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "A\\cup B=\\{x:x\\in A\\text{ or }x\\in B\\}"
+      "question": "সেটের যোগ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "A\\cup B=\\{x:x\\in A\\text{ or }x\\in B\\}\\text{ — }∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।"
     },
     {
       "examType": "Concept",
-      "question": "সেটের যোগ দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।}"
+      "question": "সেটের যোগ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "A\\cup B=\\{x:x\\in A\\text{ or }x\\in B\\}\\text{ — }∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।"
     }
   ],
   "memorize": {
     "trick": "∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।",
     "steps": [
       "∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।",
-      "মনে রাখো — ∪ = union = যোগ; Venn-এ দুই বৃত্ত মিল।",
-      "চিহ্ন চেক: A, cup, B"
+      "প্রশ্নে সেটের যোগ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: A=ক্ষেত্রফল / বিস্তার, B=চৌম্বক ক্ষেত্র।"
     ]
   },
   "subjects": [

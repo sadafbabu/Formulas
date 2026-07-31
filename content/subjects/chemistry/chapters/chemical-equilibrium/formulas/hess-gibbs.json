@@ -67,6 +67,11 @@
       "examType": "Eng Admission",
       "question": "ΔH = +40 kJ/mol ও ΔS = +100 J mol⁻¹ K⁻¹ হলে বিক্রিয়া কোন তাপমাত্রার উপরে স্বতঃস্ফূর্ত?",
       "answer": "\\Delta G<0\\Rightarrow T>\\frac{\\Delta H}{\\Delta S}=\\frac{40000}{100}=400\\ \\mathrm K"
+    },
+    {
+      "examType": "Concept",
+      "question": "হেসের সূত্র, এনথালপি ও গিবস স্বতঃস্ফূর্ততা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{ΔG = ΔH − TΔS: G negative হলে ‘Go’। ΔH<0, ΔS>0 হলে সব তাপমাত্রায় spontaneous; ΔH>0, ΔS<0 হলে কখনোই নয়।}"
     }
   ],
   "memorize": {

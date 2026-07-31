@@ -3,7 +3,7 @@
   "chapter": "differentiation",
   "title": "L'Hôpital's Rule",
   "titleBn": "ল'হোপিটালের নিয়ম",
-  "summary": "অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
+  "summary": "ল'হোপিটালের নিয়ম: অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
   "latex": "\\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
   "tags": [
     "hsc",
@@ -31,34 +31,42 @@
     }
   ],
   "derivation": {
-    "lead": "অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
+    "lead": "ল'হোপিটালের নিয়ম প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
-        "note": "ল'হোপিটালের নিয়ম এর প্রাথমিক রূপ।"
+        "note": "ল'হোপিটালের নিয়ম: অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "ল'হোপিটালের নিয়ম এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ল'হোপিটালের নিয়ম লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "ল'হোপিটালের নিয়ম কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})"
+    },
+    {
+      "examType": "Concept",
+      "question": "ল'হোপিটালের নিয়ম দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{অনির্ণেয় আকারে অন্তরক নাও। limfracfg=limfracf'g'quad(tfrac00text or tfracinftyinfty)}"
     }
   ],
   "memorize": {
     "trick": "অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
     "steps": [
       "অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
-      "মনে রাখো — অনির্ণেয় আকারে অন্তরক নাও। \\lim\\frac{f}{g}=\\lim\\frac{f'}{g'}\\quad(\\tfrac00\\text{ or }\\tfrac{\\infty}{\\infty})",
-      "চিহ্ন চেক: lim, f, g"
+      "প্রশ্নে ল'হোপিটালের নিয়ম বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: lim=0/0 or ∞/∞, f=কম্পাঙ্ক / বল (প্রসঙ্গমতে)।"
     ]
   },
   "subjects": [

@@ -59,6 +59,11 @@
       "examType": "HSC",
       "question": "L=0.5 m, v=340 m/s। মূল সুর?",
       "answer": "f_1=v/(2L)=340\\mathrm{Hz}"
+    },
+    {
+      "examType": "Concept",
+      "question": "মুক্ত অর্গান পাইপ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{খোলা পাইপ: সব হারমোনিক; f₁=v/(2L)।}"
     }
   ],
   "memorize": {

@@ -37,11 +37,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
-        "note": "গোলীয় ধারক এর প্রাথমিক রূপ।"
+        "note": "গোলীয় ধারক এর মূল সম্পর্ক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "C=4πε₀ ab/(b−a)। C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}"
       }
     ],
@@ -52,21 +52,21 @@
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গোলীয় ধারক এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "গোলীয় ধারক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}\\text{ — }C=4πε₀ ab/(b−a)। C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}"
     },
     {
       "examType": "Concept",
-      "question": "গোলীয় ধারক দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{C=4 pi varepsilon 0 dfrac ab b-a}"
+      "question": "গোলীয় ধারক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}\\text{ — }C=4πε₀ ab/(b−a)। C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}"
     }
   ],
   "memorize": {
     "trick": "C=4πε₀ ab/(b−a)। C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
     "steps": [
       "C=4πε₀ ab/(b−a)। C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
-      "মনে রাখো — C=4πε₀ ab/(b−a)। C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
-      "চিহ্ন চেক: a, b, C"
+      "প্রশ্নে গোলীয় ধারক বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: a=অভ্যন্তর ও বহিঃ ব্যাসার্ধ, b=চৌম্বক ক্ষেত্র।"
     ]
   },
   "subjects": [

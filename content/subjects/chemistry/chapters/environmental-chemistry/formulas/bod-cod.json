@@ -3,7 +3,7 @@
   "chapter": "environmental-chemistry",
   "title": "BOD & COD",
   "titleBn": "BOD ও COD",
-  "summary": "BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।",
+  "summary": "BOD ও COD: BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।",
   "latex": "\\text{BOD}=\\text{O}_2\\text{ used by microbes (5 days)};\\quad \\text{COD}=\\text{chemical O}_2\\text{ demand}",
   "tags": [
     "hsc",
@@ -26,50 +26,48 @@
       "unit": "—"
     },
     {
-      "symbol": "used by microbes (5 days)",
-      "meaning": "used by microbes (5 days) (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
       "symbol": "COD",
       "meaning": "COD (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।",
+    "lead": "BOD ও COD প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{BOD}=\\text{O}_2\\text{ used by microbes (5 days)};\\quad \\text{COD}=\\text{chemical O}_2\\text{ demand}",
-        "note": "BOD ও COD এর প্রাথমিক রূপ।"
+        "note": "BOD ও COD: BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{BOD}=\\text{O}_2\\text{ used by microbes (5 days)};\\quad \\text{COD}=\\text{chemical O}_2\\text{ demand}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "BOD ও COD লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{BOD}=\\text{O}_2\\text{ used by microbes (5 days)};\\quad \\text{COD}=\\text{chemical O}_2\\text{ demand}"
+      "question": "BOD ও COD কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{BOD}=\\text{O}_2\\text{ used by microbes (5 days)};\\quad \\text{COD}=\\text{chemical O}_2\\text{ demand}\\text{ — }BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।"
     },
     {
       "examType": "Concept",
-      "question": "BOD ও COD দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।}"
+      "question": "BOD ও COD কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{BOD}=\\text{O}_2\\text{ used by microbes (5 days)};\\quad \\text{COD}=\\text{chemical O}_2\\text{ demand}\\text{ — }BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।"
     }
   ],
   "memorize": {
     "trick": "BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।",
     "steps": [
       "BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।",
-      "মনে রাখো — BOD বেশি = জল দূষিত; COD সবসময় ≥ BOD।",
-      "চিহ্ন চেক: BOD, O, used by microbes (5 days)"
+      "প্রশ্নে BOD ও COD বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: BOD=oxygen demand।"
     ]
   },
   "subjects": [

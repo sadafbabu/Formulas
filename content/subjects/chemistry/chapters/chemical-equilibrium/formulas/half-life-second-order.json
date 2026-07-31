@@ -37,11 +37,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "t_{1/2}=\\dfrac{1}{k[A]_0}\\quad(2\\text{nd order, }2A\\to\\text{prod})",
-        "note": "দ্বিতীয় ক্রমের অর্ধায়ু এর প্রাথমিক রূপ।"
+        "note": "t₁/₂ = 1/(k[A]₀) — আদি ঘনমাত্রার উপর নির্ভর করে"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "t_{1/2}=\\dfrac{1}{k[A]_0}\\quad(2\\text{nd order, }2A\\to\\text{prod})",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "2nd order: t½ = 1/(k[A]₀) — ঘনমাত্রা↑ অর্ধায়ু↓।"
       }
     ],
@@ -54,6 +54,11 @@
       "examType": "HSC",
       "question": "[A]₀ দ্বিগুণ হলে দ্বিতীয় ক্রমের t½?",
       "answer": "t_{1/2}\\ \\text{অর্ধেক}"
+    },
+    {
+      "examType": "Concept",
+      "question": "দ্বিতীয় ক্রমের অর্ধায়ু দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{2nd order: t½ = 1/(k[A]₀) — ঘনমাত্রা↑ অর্ধায়ু↓।}"
     }
   ],
   "memorize": {

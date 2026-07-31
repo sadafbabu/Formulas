@@ -14,7 +14,6 @@ interface TopBarProps {
   onGoHome: () => void
   query?: string
   onQueryChange?: (value: string) => void
-  onOpenMenuSearch?: () => void
   chapterId?: string
 }
 
@@ -28,7 +27,6 @@ export function TopBar({
   onGoHome,
   query = '',
   onQueryChange,
-  onOpenMenuSearch,
   chapterId,
 }: TopBarProps) {
   const tagsRef = useRef<HTMLDivElement>(null)
@@ -86,7 +84,7 @@ export function TopBar({
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [onOpenMenuSearch])
+  }, [])
 
   return (
     <header className="top-bar">

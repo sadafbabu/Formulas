@@ -64,6 +64,11 @@
       "examType": "Admission",
       "question": "r দ্বিগুণ হলে v_t কতগুণ?",
       "answer": "4\\ \\text{গুণ}"
+    },
+    {
+      "examType": "Concept",
+      "question": "স্টোকসের সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{সান্দ্র বল 6πηrv; প্রান্তিক বেগ ∝ r² — বড় গোলক দ্রুত পড়ে।}"
     }
   ],
   "memorize": {

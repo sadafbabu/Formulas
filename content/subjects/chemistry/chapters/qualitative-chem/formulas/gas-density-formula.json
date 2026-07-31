@@ -3,7 +3,7 @@
   "chapter": "qualitative-chem",
   "title": "Gas Density",
   "titleBn": "গ্যাসের ঘনত্ব",
-  "summary": "From PV=nRT → d=PM/RT; compare molar masses at same P,T।",
+  "summary": "গ্যাসের ঘনত্ব: From PV=nRT → d=PM/RT; compare molar masses at same P,T।",
   "latex": "d=\\frac{PM}{RT}",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "From PV=nRT → d=PM/RT; compare molar masses at same P,T।",
+    "lead": "গ্যাসের ঘনত্ব প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "d=\\frac{PM}{RT}",
-        "note": "গ্যাসের ঘনত্ব এর প্রাথমিক রূপ।"
+        "note": "গ্যাসের ঘনত্ব: From PV=nRT → d=PM/RT; compare molar masses at same P,T।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "d=\\frac{PM}{RT}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "From PV=nRT → d=PM/RT; compare molar masses at same P,T।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গ্যাসের ঘনত্ব লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "d=\\frac{PM}{RT}"
+      "question": "গ্যাসের ঘনত্ব কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "d=\\frac{PM}{RT}\\text{ — }From PV=nRT → d=PM/RT; compare molar masses at same P,T।"
     },
     {
       "examType": "Concept",
-      "question": "গ্যাসের ঘনত্ব দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{From PV=nRT → d=PM/RT; compare molar masses at same P,T।}"
+      "question": "গ্যাসের ঘনত্ব কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "d=\\frac{PM}{RT}\\text{ — }From PV=nRT → d=PM/RT; compare molar masses at same P,T।"
     }
   ],
   "memorize": {
     "trick": "From PV=nRT → d=PM/RT; compare molar masses at same P,T।",
     "steps": [
       "From PV=nRT → d=PM/RT; compare molar masses at same P,T।",
-      "মনে রাখো — From PV=nRT → d=PM/RT; compare molar masses at same P,T।",
-      "চিহ্ন চেক: d, P, M"
+      "প্রশ্নে গ্যাসের ঘনত্ব বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: d=d=PM/RT, P=চাপ / ক্ষমতা।"
     ]
   },
   "subjects": [

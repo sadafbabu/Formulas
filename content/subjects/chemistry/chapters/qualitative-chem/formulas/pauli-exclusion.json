@@ -3,7 +3,7 @@
   "chapter": "qualitative-chem",
   "title": "Pauli Exclusion Principle",
   "titleBn": "পাউলির বর্জন নীতি",
-  "summary": "এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।",
+  "summary": "পাউলির বর্জন নীতি: এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।",
   "latex": "\\text{no two electrons in an atom share all four quantum numbers}",
   "tags": [
     "hsc",
@@ -16,45 +16,48 @@
   "order": 230,
   "symbols": [
     {
-      "symbol": "no two electrons in an atom share all four quantum numbers",
-      "meaning": "unique quantum set",
+      "symbol": "\\text{key}",
+      "meaning": "পাউলির বর্জন নীতি এর মূল রাশি",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।",
+    "lead": "পাউলির বর্জন নীতি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{no two electrons in an atom share all four quantum numbers}",
-        "note": "পাউলির বর্জন নীতি এর প্রাথমিক রূপ।"
+        "note": "পাউলির বর্জন নীতি: এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{no two electrons in an atom share all four quantum numbers}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পাউলির বর্জন নীতি এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "পাউলির বর্জন নীতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\text{no two electrons in an atom share all four quantum numbers}\\text{ — }এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।"
     },
     {
       "examType": "Concept",
-      "question": "পাউলির বর্জন নীতি দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।}"
+      "question": "পাউলির বর্জন নীতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{no two electrons in an atom share all four quantum numbers}\\text{ — }এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।"
     }
   ],
   "memorize": {
     "trick": "এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।",
     "steps": [
       "এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।",
-      "মনে রাখো — এক অরবিটালে সর্বোচ্চ ২ ইলেকট্রন, বিপরীত স্পিন।",
-      "চিহ্ন চেক: no two electrons in an atom share all four quantum numbers"
+      "প্রশ্নে পাউলির বর্জন নীতি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "একক, চিহ্ন ও সীমাবদ্ধতা যাচাই করে উত্তর লেখো।"
     ]
   },
   "subjects": [

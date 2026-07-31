@@ -3,7 +3,7 @@
   "chapter": "differentiation",
   "title": "Trig Derivatives",
   "titleBn": "ত্রিকোণমিতিক অন্তরক",
-  "summary": "sin→cos; cos→−sin; tan→sec²। (\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
+  "summary": "ত্রিকোণমিতিক অন্তরক: sin→cos; cos→−sin; tan→sec²। (\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
   "latex": "(\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
   "tags": [
     "hsc",
@@ -21,39 +21,42 @@
     }
   ],
   "derivation": {
-    "lead": "sin→cos; cos→−sin; tan→sec²। (\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
+    "lead": "ত্রিকোণমিতিক অন্তরক প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "(\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
-        "note": "ত্রিকোণমিতিক অন্তরক এর প্রাথমিক রূপ।"
+        "note": "ত্রিকোণমিতিক অন্তরক: sin→cos; cos→−sin; tan→sec²। (\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "(\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "sin→cos; cos→−sin; tan→sec²। (\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "ত্রিকোণমিতিক অন্তরক এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ত্রিকোণমিতিক অন্তরক এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "ত্রিকোণমিতিক অন্তরক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "(\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x"
     },
     {
       "examType": "Concept",
-      "question": "ত্রিকোণমিতিক অন্তরক দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{( sin x)'= cos x, ( cos x)'=- sin x, ( tan x)'= sec 2 x}"
+      "question": "ত্রিকোণমিতিক অন্তরক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "(\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x"
     }
   ],
   "memorize": {
     "trick": "sin→cos; cos→−sin; tan→sec²। (\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
     "steps": [
       "sin→cos; cos→−sin; tan→sec²। (\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
-      "মনে রাখো — sin→cos; cos→−sin; tan→sec²। (\\sin x)'=\\cos x,\\ (\\cos x)'=-\\sin x,\\ (\\tan x)'=\\sec^2 x",
-      "চিহ্ন চেক: x"
+      "প্রশ্নে ত্রিকোণমিতিক অন্তরক বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: x=sin, cos, tan।"
     ]
   },
   "subjects": [

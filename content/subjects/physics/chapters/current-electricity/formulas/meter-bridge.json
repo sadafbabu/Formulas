@@ -59,6 +59,11 @@
       "examType": "HSC",
       "question": "R=2 Ω, l=40 cm হলে X কত?",
       "answer": "X=2\\cdot\\dfrac{40}{60}=\\dfrac{4}{3}\\Omega"
+    },
+    {
+      "examType": "Concept",
+      "question": "মিটার ব্রিজ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{X = R·l/(100−l) — জকির সেন্টিমিটারই অনুপাত।}"
     }
   ],
   "memorize": {

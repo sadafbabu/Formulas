@@ -3,7 +3,7 @@
   "chapter": "motion-kinematics",
   "title": "Average & Instantaneous Velocity",
   "titleBn": "গড় ও তাৎক্ষণিক বেগ",
-  "summary": "গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।",
+  "summary": "গড় ও তাৎক্ষণিক বেগ: গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।",
   "latex": "v_{\\text{avg}}=\\frac{\\Delta x}{\\Delta t},\\quad v=\\lim_{\\Delta t\\to0}\\frac{\\Delta x}{\\Delta t}",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।",
+    "lead": "গড় ও তাৎক্ষণিক বেগ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "v_{\\text{avg}}=\\frac{\\Delta x}{\\Delta t},\\quad v=\\lim_{\\Delta t\\to0}\\frac{\\Delta x}{\\Delta t}",
-        "note": "গড় ও তাৎক্ষণিক বেগ এর প্রাথমিক রূপ।"
+        "note": "গড় ও তাৎক্ষণিক বেগ: গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "v_{\\text{avg}}=\\frac{\\Delta x}{\\Delta t},\\quad v=\\lim_{\\Delta t\\to0}\\frac{\\Delta x}{\\Delta t}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "গড় ও তাৎক্ষণিক বেগ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "v_{\\text{avg}}=\\frac{\\Delta x}{\\Delta t},\\quad v=\\lim_{\\Delta t\\to0}\\frac{\\Delta x}{\\Delta t}"
+      "question": "গড় ও তাৎক্ষণিক বেগ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "v_{\\text{avg}}=\\frac{\\Delta x}{\\Delta t},\\quad v=\\lim_{\\Delta t\\to0}\\frac{\\Delta x}{\\Delta t}\\text{ — }গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।"
     },
     {
       "examType": "Concept",
-      "question": "গড় ও তাৎক্ষণিক বেগ দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।}"
+      "question": "গড় ও তাৎক্ষণিক বেগ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "v_{\\text{avg}}=\\frac{\\Delta x}{\\Delta t},\\quad v=\\lim_{\\Delta t\\to0}\\frac{\\Delta x}{\\Delta t}\\text{ — }গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।"
     }
   ],
   "memorize": {
     "trick": "গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।",
     "steps": [
       "গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।",
-      "মনে রাখো — গড় = মোট সরণ/সময়; তাৎক্ষণিক = সীমা।",
-      "চিহ্ন চেক: v, a, g"
+      "প্রশ্নে গড় ও তাৎক্ষণিক বেগ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: v=গড় ও তাৎক্ষণিক বেগ, a=ত্বরণ।"
     ]
   },
   "subjects": [

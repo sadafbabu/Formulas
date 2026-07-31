@@ -64,6 +64,11 @@
       "examType": "HSC",
       "question": "I দ্বিগুণ, t একই হলে m কী হয়?",
       "answer": "m\\ \\text{দ্বিগুণ}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ফ্যারাডের প্রথম সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{m=ZIt — চার্জ যত, জমা তত; Z=E/F।}"
     }
   ],
   "memorize": {

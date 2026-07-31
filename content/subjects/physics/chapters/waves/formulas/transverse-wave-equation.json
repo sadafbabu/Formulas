@@ -59,14 +59,19 @@
       "examType": "HSC",
       "question": "ω=10, k=2। v?",
       "answer": "v=5\\,\\mathrm{m/s}"
+    },
+    {
+      "examType": "Concept",
+      "question": "অগ্রগামী তরঙ্গ সমীকরণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{y=A sin(ωt−kx); v=ω/k। y = A sin(ωt − kx) বা A sin(kx − ωt)}"
     }
   ],
   "memorize": {
     "trick": "y=A sin(ωt−kx); v=ω/k। y = A sin(ωt − kx) বা A sin(kx − ωt)",
     "steps": [
       "y=A sin(ωt−kx); v=ω/k। y = A sin(ωt − kx) বা A sin(kx − ωt)",
-      "মনে রাখো — y = A sin(ωt − kx) বা A sin(kx − ωt)",
-      "চিহ্ন চেক: A, \\omega, k"
+      "প্রশ্নে অগ্রগামী তরঙ্গ সমীকরণ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: A=প্রশস্ততা, \\omega=কৌণিক কম্পাঙ্ক ও তরঙ্গসংখ্যা।"
     ]
   },
   "subjects": [

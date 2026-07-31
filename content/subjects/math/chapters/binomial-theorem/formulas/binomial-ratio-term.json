@@ -3,7 +3,7 @@
   "chapter": "binomial-theorem",
   "title": "Ratio of Consecutive Terms",
   "titleBn": "পরপর পদের অনুপাত",
-  "summary": "অনুপাত ≥1 থেকে বৃহত্তম পদ। \\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
+  "summary": "পরপর পদের অনুপাত: অনুপাত ≥1 থেকে বৃহত্তম পদ। \\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
   "latex": "\\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
   "tags": [
     "hsc",
@@ -36,25 +36,33 @@
     }
   ],
   "derivation": {
-    "lead": "অনুপাত ≥1 থেকে বৃহত্তম পদ। \\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
+    "lead": "পরপর পদের অনুপাত প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
-        "note": "পরপর পদের অনুপাত এর প্রাথমিক রূপ।"
+        "note": "পরপর পদের অনুপাত: অনুপাত ≥1 থেকে বৃহত্তম পদ। \\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "অনুপাত ≥1 থেকে বৃহত্তম পদ। \\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "পরপর পদের অনুপাত এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরপর পদের অনুপাত লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "পরপর পদের অনুপাত কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}\\text{ — }অনুপাত ≥1 থেকে বৃহত্তম পদ। \\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}"
+    },
+    {
+      "examType": "Concept",
+      "question": "পরপর পদের অনুপাত দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "\\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}"
     }
   ],
@@ -62,8 +70,8 @@
     "trick": "অনুপাত ≥1 থেকে বৃহত্তম পদ। \\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
     "steps": [
       "অনুপাত ≥1 থেকে বৃহত্তম পদ। \\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
-      "মনে রাখো — অনুপাত ≥1 থেকে বৃহত্তম পদ। \\frac{T_{r+1}}{T_r}=\\frac{n-r+1}{r}\\cdot\\frac{b}{a}",
-      "চিহ্ন চেক: T, r, n"
+      "প্রশ্নে পরপর পদের অনুপাত বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: T=দ্বিপদী পদ অনুপাত, r=ব্যাসার্ধ / দূরত্ব।"
     ]
   },
   "subjects": [

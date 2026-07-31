@@ -3,7 +3,7 @@
   "chapter": "colligative-properties",
   "title": "Molar Mass from Colligative",
   "titleBn": "সম্মিল গুণ থেকে mol ভর",
-  "summary": "ΔTb বা π দিয়ে molar mass — HSC numerical favorite।",
+  "summary": "সম্মিল গুণ থেকে mol ভর: ΔTb বা π দিয়ে molar mass — HSC numerical favorite।",
   "latex": "M=\\frac{K_b w_B}{\\Delta T_b w_A}",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "ΔTb বা π দিয়ে molar mass — HSC numerical favorite।",
+    "lead": "সম্মিল গুণ থেকে mol ভর প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "M=\\frac{K_b w_B}{\\Delta T_b w_A}",
-        "note": "সম্মিল গুণ থেকে mol ভর এর প্রাথমিক রূপ।"
+        "note": "সম্মিল গুণ থেকে mol ভর: ΔTb বা π দিয়ে molar mass — HSC numerical favorite।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "M=\\frac{K_b w_B}{\\Delta T_b w_A}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "ΔTb বা π দিয়ে molar mass — HSC numerical favorite।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সম্মিল গুণ থেকে mol ভর লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "M=\\frac{K_b w_B}{\\Delta T_b w_A}"
+      "question": "সম্মিল গুণ থেকে mol ভর কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "M=\\frac{K_b w_B}{\\Delta T_b w_A}\\text{ — }ΔTb বা π দিয়ে molar mass — HSC numerical favorite।"
     },
     {
       "examType": "Concept",
-      "question": "সম্মিল গুণ থেকে mol ভর দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{ΔTb বা π দিয়ে molar mass  HSC numerical favorite।}"
+      "question": "সম্মিল গুণ থেকে mol ভর কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "M=\\frac{K_b w_B}{\\Delta T_b w_A}\\text{ — }ΔTb বা π দিয়ে molar mass — HSC numerical favorite।"
     }
   ],
   "memorize": {
     "trick": "ΔTb বা π দিয়ে molar mass — HSC numerical favorite।",
     "steps": [
       "ΔTb বা π দিয়ে molar mass — HSC numerical favorite।",
-      "মনে রাখো — ΔTb বা π দিয়ে molar mass — HSC numerical favorite।",
-      "চিহ্ন চেক: M, K, b"
+      "প্রশ্নে সম্মিল গুণ থেকে mol ভর বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: M=M from ΔTb or π, K=গতিশক্তি / ধ্রুবক।"
     ]
   },
   "subjects": [

@@ -9,7 +9,7 @@ import {
 } from '../data/catalog'
 import type { PaperId, SubjectId } from '../data/types'
 import { formulaDetailPath } from '../utils/bookLinks'
-import { SEARCH_SUGGESTIONS, matchFormula, searchFormulas } from '../utils/search'
+import { matchFormula, searchFormulas } from '../utils/search'
 
 interface OverviewHomeProps {
   onSelectChapter: (chapterId: string) => void
@@ -74,43 +74,6 @@ export function OverviewHome({
           মুখস্থ ড্রিল শুরু করো
           <span>৩★ ফ্ল্যাশকার্ড · জানি / আবার</span>
         </Link>
-
-        {onQueryChange ? (
-          <label className="overview-search">
-            <span aria-hidden="true">⌕</span>
-            <input
-              value={query}
-              onChange={(e) => onQueryChange(e.target.value)}
-              placeholder="উদাহরণ: lorentz, কার্নো, YDSE, লিফট…"
-              aria-label="সূত্র বা অধ্যায় খুঁজুন"
-            />
-            {q ? (
-              <button
-                type="button"
-                className="overview-search-clear"
-                aria-label="সার্চ মুছুন"
-                onClick={() => onQueryChange('')}
-              >
-                ×
-              </button>
-            ) : null}
-          </label>
-        ) : null}
-
-        {onQueryChange && !q ? (
-          <div className="overview-suggest-row" aria-label="দ্রুত খোঁজ">
-            {SEARCH_SUGGESTIONS.map((s) => (
-              <button
-                key={s}
-                type="button"
-                className="overview-suggest-chip"
-                onClick={() => onQueryChange(s)}
-              >
-                {s}
-              </button>
-            ))}
-          </div>
-        ) : null}
 
         <div className="overview-filters">
           <div className="filter-group" role="group" aria-label="বিষয়">

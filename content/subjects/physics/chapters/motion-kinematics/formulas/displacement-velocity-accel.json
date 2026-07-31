@@ -37,11 +37,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "v=\\dfrac{ds}{dt},\\quad a=\\dfrac{dv}{dt}=\\dfrac{d^2s}{dt^2}",
-        "note": "বেগ ও ত্বরণের সংজ্ঞা এর প্রাথমিক রূপ।"
+        "note": "v = ds/dt; a = dv/dt = d²s/dt²"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "v=\\dfrac{ds}{dt},\\quad a=\\dfrac{dv}{dt}=\\dfrac{d^2s}{dt^2}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "সরণ→বেগ→ত্বরণ = একবার করে অবকলন: v=ds/dt, a=dv/dt।"
       }
     ],
@@ -54,6 +54,11 @@
       "examType": "HSC",
       "question": "s=t² হলে t=2-এ v?",
       "answer": "v=2t=4\\,\\mathrm{m/s}"
+    },
+    {
+      "examType": "Concept",
+      "question": "বেগ ও ত্বরণের সংজ্ঞা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{সরণ→বেগ→ত্বরণ = একবার করে অবকলন: v=ds/dt, a=dv/dt।}"
     }
   ],
   "memorize": {

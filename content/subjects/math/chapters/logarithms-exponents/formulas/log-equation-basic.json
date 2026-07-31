@@ -3,7 +3,7 @@
   "chapter": "logarithms-exponents",
   "title": "Basic Log Equation",
   "titleBn": "মৌলিক লগ সমীকরণ",
-  "summary": "লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
+  "summary": "মৌলিক লগ সমীকরণ: লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
   "latex": "\\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
   "tags": [
     "hsc",
@@ -21,7 +21,7 @@
     },
     {
       "symbol": "a",
-      "meaning": "ত্বরণ",
+      "meaning": "সহগ / ধ্রুবক",
       "unit": "m/s²"
     },
     {
@@ -36,34 +36,42 @@
     }
   ],
   "derivation": {
-    "lead": "লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
+    "lead": "মৌলিক লগ সমীকরণ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
-        "note": "মৌলিক লগ সমীকরণ এর প্রাথমিক রূপ।"
+        "note": "মৌলিক লগ সমীকরণ: লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "মৌলিক লগ সমীকরণ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মৌলিক লগ সমীকরণ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "মৌলিক লগ সমীকরণ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)\\text{ — }লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)"
+    },
+    {
+      "examType": "Concept",
+      "question": "মৌলিক লগ সমীকরণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)"
     }
   ],
   "memorize": {
     "trick": "লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
     "steps": [
       "লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
-      "মনে রাখো — লগ সমীকরণ → ঘাত আকারে লেখো। \\log_b a=c\\iff a=b^c\\quad(a>0,b>0,b\\ne1)",
-      "চিহ্ন চেক: b, a, c"
+      "প্রশ্নে মৌলিক লগ সমীকরণ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: b=log_b a = c ⇒ a=b^c, a=সহগ / ধ্রুবক।"
     ]
   },
   "subjects": [

@@ -35,12 +35,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "K_a = \\frac{c\\alpha^2}{1-\\alpha}, \\quad \\alpha \\ll 1 \\Rightarrow K_a \\approx c\\alpha^2",
-        "note": "বিয়োজন মাত্রা ও অস্টভাল্ড এর প্রাথমিক রূপ।"
+        "note": "দুর্বল এসিড/ক্ষারের বিয়োজন মাত্রা ও সাম্য ধ্রুবক"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "K_a = \\frac{c\\alpha^2}{1-\\alpha}, \\quad \\alpha \\ll 1 \\Rightarrow K_a \\approx c\\alpha^2",
-        "note": "অস্টভাল্ডের লঘুকরণ সূত্র: K_a = cα²/(1 − α)। দুর্বল তড়িৎবিশ্লেষ্যে α ≪ 1, তাই K_a ≈ cα² → α = √(K_a/c) — 'লঘু করলে বিয়"
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "note": "অস্টভাল্ডের লঘুকরণ সূত্র: K_a = cα²/(1 − α)। দুর্বল তড়িৎবিশ্লেষ্যে α ≪ 1, তাই K_a ≈ cα² → α = √(K_a/c) — 'লঘু করলে বিয়োজন বাড়ে'।"
       }
     ],
     "assumptions": [
@@ -54,6 +54,11 @@
       "examType": "HSC / Medical",
       "question": "দুর্বল অম্লের জন্য [H⁺] ≈ ?",
       "answer": "[H^+] \\approx \\sqrt{K_a \\cdot c}"
+    },
+    {
+      "examType": "Concept",
+      "question": "বিয়োজন মাত্রা ও অস্টভাল্ড দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "K_a = \\frac{c\\alpha^2}{1-\\alpha}, \\quad \\alpha \\ll 1 \\Rightarrow K_a \\approx c\\alpha^2"
     }
   ],
   "memorize": {

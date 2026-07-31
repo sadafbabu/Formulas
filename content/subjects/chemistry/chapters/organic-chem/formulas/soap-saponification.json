@@ -32,11 +32,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{Fat}+3\\mathrm{NaOH}\\rightarrow 3\\mathrm{RCOONa}+\\mathrm{glycerol}",
-        "note": "সাবান তৈরি (স্যপোনিফিকেশন) এর প্রাথমিক রূপ।"
+        "note": "ফ্যাট/অয়েল + NaOH → সাবান (RCOONa) + গ্লিসারল"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\mathrm{Fat}+3\\mathrm{NaOH}\\rightarrow 3\\mathrm{RCOONa}+\\mathrm{glycerol}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "ফ্যাট + ক্ষার = সাবান + গ্লিসারল।"
       }
     ],
@@ -49,14 +49,19 @@
       "examType": "HSC",
       "question": "স্যaponification-এর উপজাত কী?",
       "answer": "\\text{গ্লিসারল}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সাবান তৈরি (স্যপোনিফিকেশন) দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{ফ্যাট + ক্ষার = সাবান + গ্লিসারল।}"
     }
   ],
   "memorize": {
     "trick": "ফ্যাট + ক্ষার = সাবান + গ্লিসারল।",
     "steps": [
       "ফ্যাট + ক্ষার = সাবান + গ্লিসারল।",
-      "মনে রাখো — ফ্যাট/অয়েল + NaOH → সাবান (RCOONa) + গ্লিসারল",
-      "চিহ্ন চেক: RCOONa, \\mathrm{NaOH}"
+      "প্রশ্নে সাবান তৈরি (স্যপোনিফিকেশন) বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: RCOONa=সাবান (সোডিয়াম কার্বক্সিলেট), \\mathrm{NaOH}=ক্ষার (সাধারণত)।"
     ]
   },
   "subjects": [

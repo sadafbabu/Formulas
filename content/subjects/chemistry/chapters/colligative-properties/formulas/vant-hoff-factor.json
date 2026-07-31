@@ -3,7 +3,7 @@
   "chapter": "colligative-properties",
   "title": "van't Hoff Factor",
   "titleBn": "ভ্যান't হফ গুণক",
-  "summary": "Electrolyte-এ i>1; association-এ i<1।",
+  "summary": "ভ্যান't হফ গুণক: Electrolyte-এ i>1; association-এ i<1।",
   "latex": "i=\\frac{\\text{observed colligative property}}{\\text{calculated (no dissociation)}}",
   "tags": [
     "hsc",
@@ -19,52 +19,45 @@
       "symbol": "i",
       "meaning": "i=observed/calculated",
       "unit": "—"
-    },
-    {
-      "symbol": "observed colligative property",
-      "meaning": "observed colligative property (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
-      "symbol": "calculated (no dissociation)",
-      "meaning": "calculated (no dissociation) (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "Electrolyte-এ i>1; association-এ i<1।",
+    "lead": "ভ্যান't হফ গুণক প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "i=\\frac{\\text{observed colligative property}}{\\text{calculated (no dissociation)}}",
-        "note": "ভ্যান't হফ গুণক এর প্রাথমিক রূপ।"
+        "note": "ভ্যান't হফ গুণক: Electrolyte-এ i>1; association-এ i<1।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "i=\\frac{\\text{observed colligative property}}{\\text{calculated (no dissociation)}}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Electrolyte-এ i>1; association-এ i<1।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভ্যান't হফ গুণক লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "i=\\frac{\\text{observed colligative property}}{\\text{calculated (no dissociation)}}"
+      "question": "ভ্যান't হফ গুণক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "i=\\frac{\\text{observed colligative property}}{\\text{calculated (no dissociation)}}\\text{ — }Electrolyte-এ i>1; association-এ i<1।"
     },
     {
       "examType": "Concept",
-      "question": "ভ্যান't হফ গুণক দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Electrolyte-এ i>1; association-এ i<1।}"
+      "question": "ভ্যান't হফ গুণক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "i=\\frac{\\text{observed colligative property}}{\\text{calculated (no dissociation)}}\\text{ — }Electrolyte-এ i>1; association-এ i<1।"
     }
   ],
   "memorize": {
     "trick": "Electrolyte-এ i>1; association-এ i<1।",
     "steps": [
       "Electrolyte-এ i>1; association-এ i<1।",
-      "মনে রাখো — Electrolyte-এ i>1; association-এ i<1।",
-      "চিহ্ন চেক: i, observed colligative property, calculated (no dissociation)"
+      "প্রশ্নে ভ্যান't হফ গুণক বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: i=i=observed/calculated।"
     ]
   },
   "subjects": [

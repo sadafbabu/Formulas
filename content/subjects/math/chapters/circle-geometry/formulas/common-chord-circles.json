@@ -3,7 +3,7 @@
   "chapter": "circle-geometry",
   "title": "Common Chord",
   "titleBn": "সাধারণ জ্যা",
-  "summary": "ছেদকারী বৃত্তে radical axis = সাধারণ জ্যা।",
+  "summary": "সাধারণ জ্যা: ছেদকারী বৃত্তে radical axis = সাধারণ জ্যা।",
   "latex": "S_1-S_2=0\\quad(\\text{intersecting circles})",
   "tags": [
     "hsc",
@@ -18,47 +18,45 @@
       "symbol": "S",
       "meaning": "S1−S2=0",
       "unit": "—"
-    },
-    {
-      "symbol": "intersecting circles",
-      "meaning": "intersecting circles (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "ছেদকারী বৃত্তে radical axis = সাধারণ জ্যা।",
+    "lead": "সাধারণ জ্যা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "S_1-S_2=0\\quad(\\text{intersecting circles})",
-        "note": "সাধারণ জ্যা এর প্রাথমিক রূপ।"
+        "note": "সাধারণ জ্যা: ছেদকারী বৃত্তে radical axis = সাধারণ জ্যা।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "S_1-S_2=0\\quad(\\text{intersecting circles})",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "ছেদকারী বৃত্তে radical axis = সাধারণ জ্যা।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "সাধারণ জ্যা এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সাধারণ জ্যা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "S_1-S_2=0\\quad(\\text{intersecting circles})"
+      "question": "সাধারণ জ্যা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "S_1-S_2=0\\quad(\\text{intersecting circles})\\text{ — }ছেদকারী বৃত্তে radical axis = সাধারণ জ্যা।"
     },
     {
       "examType": "Concept",
-      "question": "সাধারণ জ্যা দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{ছেদকারী বৃত্তে radical axis = সাধারণ জ্যা।}"
+      "question": "সাধারণ জ্যা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "S_1-S_2=0\\quad(\\text{intersecting circles})\\text{ — }ছেদকারী বৃত্তে radical axis = সাধারণ জ্যা।"
     }
   ],
   "memorize": {
     "trick": "ছেদকারী বৃত্তে radical axis = সাধারণ জ্যা।",
     "steps": [
       "ছেদকারী বৃত্তে radical axis = সাধারণ জ্যা।",
-      "মনে রাখো — ছেদকারী বৃত্তে radical axis = সাধারণ জ্যা।",
-      "চিহ্ন চেক: S, intersecting circles"
+      "প্রশ্নে সাধারণ জ্যা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: S=S1−S2=0।"
     ]
   },
   "subjects": [

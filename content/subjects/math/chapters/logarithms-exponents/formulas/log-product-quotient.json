@@ -3,7 +3,7 @@
   "chapter": "logarithms-exponents",
   "title": "Log Product & Quotient",
   "titleBn": "লগ গুণ ও ভাগ",
-  "summary": "গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
+  "summary": "লগ গুণ ও ভাগ: গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
   "latex": "\\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
   "tags": [
     "hsc",
@@ -31,25 +31,33 @@
     }
   ],
   "derivation": {
-    "lead": "গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
+    "lead": "লগ গুণ ও ভাগ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
-        "note": "লগ গুণ ও ভাগ এর প্রাথমিক রূপ।"
+        "note": "লগ গুণ ও ভাগ: গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "লগ গুণ ও ভাগ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "লগ গুণ ও ভাগ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "লগ গুণ ও ভাগ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b"
+    },
+    {
+      "examType": "Concept",
+      "question": "লগ গুণ ও ভাগ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "\\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b"
     }
   ],
@@ -57,8 +65,8 @@
     "trick": "গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
     "steps": [
       "গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
-      "মনে রাখো — গুণ → যোগ; ভাগ → বিয়োগ। \\log_c(ab)=\\log_c a+\\log_c b,\\quad \\log_c\\frac{a}{b}=\\log_c a-\\log_c b",
-      "চিহ্ন চেক: c, a, b"
+      "প্রশ্নে লগ গুণ ও ভাগ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: c=log(ab), a=log(a/b)।"
     ]
   },
   "subjects": [

@@ -3,7 +3,7 @@
   "chapter": "industrial-chemistry",
   "title": "Electrolytic Refining",
   "titleBn": "তড়িৎ পরিশোধন",
-  "summary": "Cu পরিশোধনে অ্যানোড মাডে Au/Ag।",
+  "summary": "তড়িৎ পরিশোধন: Cu পরিশোধনে অ্যানোড মাডে Au/Ag।",
   "latex": "\\text{impure metal anode}\\\\rightarrow\\text{pure metal cathode}",
   "tags": [
     "hsc",
@@ -21,50 +21,48 @@
       "unit": "—"
     },
     {
-      "symbol": "rightarrow",
-      "meaning": "rightarrow (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
       "symbol": "pure metal cathode",
       "meaning": "pure metal cathode (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "Cu পরিশোধনে অ্যানোড মাডে Au/Ag।",
+    "lead": "তড়িৎ পরিশোধন প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{impure metal anode}\\\\rightarrow\\text{pure metal cathode}",
-        "note": "তড়িৎ পরিশোধন এর প্রাথমিক রূপ।"
+        "note": "তড়িৎ পরিশোধন: Cu পরিশোধনে অ্যানোড মাডে Au/Ag।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{impure metal anode}\\\\rightarrow\\text{pure metal cathode}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Cu পরিশোধনে অ্যানোড মাডে Au/Ag।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "তড়িৎ পরিশোধন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{impure metal anode}\\\\rightarrow\\text{pure metal cathode}"
+      "question": "তড়িৎ পরিশোধন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{impure metal anode}\\\\rightarrow\\text{pure metal cathode}\\text{ — }Cu পরিশোধনে অ্যানোড মাডে Au/Ag।"
     },
     {
       "examType": "Concept",
-      "question": "তড়িৎ পরিশোধন দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Cu পরিশোধনে অ্যানোড মাডে Au/Ag।}"
+      "question": "তড়িৎ পরিশোধন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{impure metal anode}\\\\rightarrow\\text{pure metal cathode}\\text{ — }Cu পরিশোধনে অ্যানোড মাডে Au/Ag।"
     }
   ],
   "memorize": {
     "trick": "Cu পরিশোধনে অ্যানোড মাডে Au/Ag।",
     "steps": [
       "Cu পরিশোধনে অ্যানোড মাডে Au/Ag।",
-      "মনে রাখো — Cu পরিশোধনে অ্যানোড মাডে Au/Ag।",
-      "চিহ্ন চেক: impure metal anode, rightarrow, pure metal cathode"
+      "প্রশ্নে তড়িৎ পরিশোধন বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: impure metal anode=anode mud।"
     ]
   },
   "subjects": [

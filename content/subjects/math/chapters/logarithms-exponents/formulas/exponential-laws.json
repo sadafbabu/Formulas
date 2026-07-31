@@ -3,7 +3,7 @@
   "chapter": "logarithms-exponents",
   "title": "Laws of Exponents",
   "titleBn": "ঘাতের সূত্রাবলি",
-  "summary": "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
+  "summary": "ঘাতের সূত্রাবলি: গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
   "latex": "a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
   "tags": [
     "hsc",
@@ -31,25 +31,33 @@
     }
   ],
   "derivation": {
-    "lead": "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
+    "lead": "ঘাতের সূত্রাবলি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
-        "note": "ঘাতের সূত্রাবলি এর প্রাথমিক রূপ।"
+        "note": "ঘাতের সূত্রাবলি: গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "ঘাতের সূত্রাবলি এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ঘাতের সূত্রাবলি এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "ঘাতের সূত্রাবলি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ঘাতের সূত্রাবলি দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}"
     }
   ],
@@ -57,8 +65,8 @@
     "trick": "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
     "steps": [
       "গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
-      "মনে রাখো — গুণে ঘাত যোগ; ঘাতের ঘাত গুণ। a^m a^n=a^{m+n},\\quad (a^m)^n=a^{mn},\\quad \\frac{a^m}{a^n}=a^{m-n}",
-      "চিহ্ন চেক: a, m, n"
+      "প্রশ্নে ঘাতের সূত্রাবলি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: a=a^m a^n, m=(a^m)^n।"
     ]
   },
   "subjects": [

@@ -59,6 +59,11 @@
       "examType": "Admission",
       "question": "পাইপ সরু হলে চাপ কী হয়?",
       "answer": "v\\uparrow\\Rightarrow P\\downarrow\\ (\\text{Bernoulli})"
+    },
+    {
+      "examType": "Concept",
+      "question": "বার্নোলির সমীকরণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{বেগ বাড়লে চাপ কমে — বিমান ডানা ও ভেঞ্চুরির একই গল্প।}"
     }
   ],
   "memorize": {

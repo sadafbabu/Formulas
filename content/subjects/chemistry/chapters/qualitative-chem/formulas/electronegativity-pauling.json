@@ -3,7 +3,7 @@
   "chapter": "qualitative-chem",
   "title": "Pauling Electronegativity",
   "titleBn": "পলিং তড়িৎঋণাত্মকতা",
-  "summary": "F > O > N/Cl — মুখস্থ ক্রম। \\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}",
+  "summary": "পলিং তড়িৎঋণাত্মকতা: F > O > N/Cl — মুখস্থ ক্রম। \\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}",
   "latex": "\\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "F > O > N/Cl — মুখস্থ ক্রম। \\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}",
+    "lead": "পলিং তড়িৎঋণাত্মকতা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}",
-        "note": "পলিং তড়িৎঋণাত্মকতা এর প্রাথমিক রূপ।"
+        "note": "পলিং তড়িৎঋণাত্মকতা: F > O > N/Cl — মুখস্থ ক্রম। \\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}",
-        "note": "F > O > N/Cl — মুখস্থ ক্রম। \\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\tex"
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "note": "F > O > N/Cl — মুখস্থ ক্রম। \\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পলিং তড়িৎঋণাত্মকতা এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "পলিং তড়িৎঋণাত্মকতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}"
     },
     {
       "examType": "Concept",
-      "question": "পলিং তড়িৎঋণাত্মকতা দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{chi uparrow text across period ; chi downarrow text down group ; chi mathrm F text highest}"
+      "question": "পলিং তড়িৎঋণাত্মকতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}"
     }
   ],
   "memorize": {
     "trick": "F > O > N/Cl — মুখস্থ ক্রম। \\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\mathrm{F}}\\text{ highest}",
     "steps": [
       "F > O > N/Cl — মুখস্থ ক্রম। \\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\m…",
-      "মনে রাখো — F > O > N/Cl — মুখস্থ ক্রম। \\chi\\uparrow\\text{ across period};\\ \\chi\\downarrow\\text{ down group};\\ \\chi_{\\math",
-      "চিহ্ন চেক: chi, uparrow, across period"
+      "প্রশ্নে পলিং তড়িৎঋণাত্মকতা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: chi=χ trends।"
     ]
   },
   "subjects": [

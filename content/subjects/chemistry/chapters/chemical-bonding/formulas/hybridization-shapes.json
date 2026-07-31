@@ -47,21 +47,29 @@
       {
         "title": "মূল সূত্র",
         "latex": "sp^3\\ \\text{tetrahedral},\\ sp^2\\ \\text{trigonal planar},\\ sp\\ \\text{linear}",
-        "note": "সংকরায়ন, স্টেরিক নম্বর ও অণুর জ্যামিতিক গঠন এর প্রাথমিক রূপ।"
+        "note": "হাইব্রিডাইজেশন থেকে আকৃতি: sp³ টেট্রাহেড্রাল, sp² ত্রিভুজাকার সমতল, sp সরলরেখিক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "sp^3\\ \\text{tetrahedral},\\ sp^2\\ \\text{trigonal planar},\\ sp\\ \\text{linear}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "H = ½(V+M-C+A) — ২=sp(রৈখিক), ৩=sp²(ত্রিভুজ), ৪=sp³(চতুস্তলকীয়), ৫=sp³d, ৬=sp³d²।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "BUET Admission Hard",
       "question": "XeF4 এবং SF4 অণুদ্বয়ের কেন্দ্রীয় পরমাণুর সংকরায়ন অবস্থা ও আকৃতি কী?",
       "answer": "XeF_4: H = \\frac{1}{2}(8 + 4) = 6 \\implies sp^3d^2 \\text{ (Square Planar, 2 Lone Pairs)}, \\quad SF_4: H = \\frac{1}{2}(6 + 4) = 5 \\implies sp^3d \\text{ (See-Saw, 1 Lone Pair)}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সংকরায়ন, স্টেরিক নম্বর ও অণুর জ্যামিতিক গঠন দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{H = ½(V+M-C+A) — ২=sp(রৈখিক), ৩=sp²(ত্রিভুজ), ৪=sp³(চতুস্তলকীয়), ৫=sp³d, ৬=sp³d²।}"
     }
   ],
   "memorize": {

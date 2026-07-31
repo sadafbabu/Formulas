@@ -56,6 +56,11 @@
       "examType": "BUET Admission",
       "question": "x^3+ax^2+bx+1-এ x=1 double root হলে a,b কত?",
       "answer": "f(1)=a+b+2=0,\\ f'(1)=3+2a+b=0\\Rightarrow a=-1,\\ b=-1"
+    },
+    {
+      "examType": "Concept",
+      "question": "পুনরাবৃত্ত মূল ও derivative-এর সাথে সাধারণ উৎপাদক দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Repeated root মানে polynomial আর তার derivative দুটোই সেই root-এ zero। Double root-এর জন্য f=0, f′=0—দুটি unknown coeffi}"
     }
   ],
   "memorize": {

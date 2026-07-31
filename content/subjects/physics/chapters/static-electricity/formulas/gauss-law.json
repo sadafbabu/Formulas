@@ -59,14 +59,19 @@
       "examType": "Admission",
       "question": "অসীম সমতল σ চার্জ ঘনত্বে E?",
       "answer": "E=\\sigma/(2\\varepsilon_0)"
+    },
+    {
+      "examType": "Concept",
+      "question": "গসের সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\oint\\vec E\\cdot d\\vec A=\\dfrac{Q_{\\mathrm{enc}}}{\\varepsilon_0}"
     }
   ],
   "memorize": {
     "trick": "ফ্লাক্স = Q_enc/ε₀; প্রতিসাম্য থাকলে E বের করো।",
     "steps": [
       "ফ্লাক্স = Q_enc/ε₀; প্রতিসাম্য থাকলে E বের করো।",
-      "মনে রাখো — ∮E·dA = Q_enc/ε₀ — প্রতিসম ক্ষেত্রে E বের করার চাবিকাঠি",
-      "চিহ্ন চেক: \\vec E, d\\vec A, Q_{\\mathrm{enc}}"
+      "প্রশ্নে গসের সূত্র বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: \\vec E=তড়িৎ ক্ষেত্র, d\\vec A=ক্ষেত্রফল উপাংশ (বাইরের দিকে)।"
     ]
   },
   "subjects": [

@@ -3,7 +3,7 @@
   "chapter": "math-statics",
   "title": "Resultant of Parallel Forces",
   "titleBn": "সমান্তরাল বলের লব্ধি",
-  "summary": "লব্ধি = যোগ; moment arm দিয়ে অবস্থান।",
+  "summary": "সমান্তরাল বলের লব্ধি: লব্ধি = যোগ; moment arm দিয়ে অবস্থান।",
   "latex": "R=\\sum F_i,\\quad \\bar{x}=\\frac{\\sum F_i x_i}{\\sum F_i}",
   "tags": [
     "hsc",
@@ -20,13 +20,8 @@
       "unit": "—"
     },
     {
-      "symbol": "sum",
-      "meaning": "sum (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
       "symbol": "F",
-      "meaning": "বল",
+      "meaning": "ফাংশন",
       "unit": "N"
     },
     {
@@ -36,39 +31,42 @@
     }
   ],
   "derivation": {
-    "lead": "লব্ধি = যোগ; moment arm দিয়ে অবস্থান।",
+    "lead": "সমান্তরাল বলের লব্ধি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "R=\\sum F_i,\\quad \\bar{x}=\\frac{\\sum F_i x_i}{\\sum F_i}",
-        "note": "সমান্তরাল বলের লব্ধি এর প্রাথমিক রূপ।"
+        "note": "সমান্তরাল বলের লব্ধি: লব্ধি = যোগ; moment arm দিয়ে অবস্থান।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "R=\\sum F_i,\\quad \\bar{x}=\\frac{\\sum F_i x_i}{\\sum F_i}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "লব্ধি = যোগ; moment arm দিয়ে অবস্থান।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "সমান্তরাল বলের লব্ধি এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমান্তরাল বলের লব্ধি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "R=\\sum F_i,\\quad \\bar{x}=\\frac{\\sum F_i x_i}{\\sum F_i}"
+      "question": "সমান্তরাল বলের লব্ধি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "R=\\sum F_i,\\quad \\bar{x}=\\frac{\\sum F_i x_i}{\\sum F_i}\\text{ — }লব্ধি = যোগ; moment arm দিয়ে অবস্থান।"
     },
     {
       "examType": "Concept",
-      "question": "সমান্তরাল বলের লব্ধি দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{লব্ধি = যোগ; moment arm দিয়ে অবস্থান।}"
+      "question": "সমান্তরাল বলের লব্ধি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "R=\\sum F_i,\\quad \\bar{x}=\\frac{\\sum F_i x_i}{\\sum F_i}\\text{ — }লব্ধি = যোগ; moment arm দিয়ে অবস্থান।"
     }
   ],
   "memorize": {
     "trick": "লব্ধি = যোগ; moment arm দিয়ে অবস্থান।",
     "steps": [
       "লব্ধি = যোগ; moment arm দিয়ে অবস্থান।",
-      "মনে রাখো — লব্ধি = যোগ; moment arm দিয়ে অবস্থান।",
-      "চিহ্ন চেক: R, sum, F"
+      "প্রশ্নে সমান্তরাল বলের লব্ধি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: R=R=ΣF, F=ফাংশন।"
     ]
   },
   "subjects": [

@@ -42,34 +42,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\vec g=-\\frac{GM}{r^2}\\hat r,\\quad\\vec F=m\\vec g,\\quad g=-\\frac{dV}{dr}",
-        "note": "মহাকর্ষ ক্ষেত্র প্রাবল্য এর প্রাথমিক রূপ।"
+        "note": "মহাকর্ষ ক্ষেত্র ও বিভবের সম্পর্ক"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\vec g=-\\frac{GM}{r^2}\\hat r,\\quad\\vec F=m\\vec g,\\quad g=-\\frac{dV}{dr}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "g = F/m; V এর ঋণাত্মক ঢাল = g।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "মহাকর্ষ ক্ষেত্র প্রাবল্য লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\vec g=-\\frac{GM}{r^2}\\hat r,\\quad\\vec F=m\\vec g,\\quad g=-\\frac{dV}{dr}"
+      "question": "মহাকর্ষ ক্ষেত্র প্রাবল্য কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\vec g=-\\frac{GM}{r^2}\\hat r,\\quad\\vec F=m\\vec g,\\quad g=-\\frac{dV}{dr}\\text{ — }g = F/m; V এর ঋণাত্মক ঢাল = g।"
     },
     {
       "examType": "Concept",
-      "question": "মহাকর্ষ ক্ষেত্র প্রাবল্য দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{g = F/m; V এর ঋণাত্মক ঢাল = g।}"
+      "question": "মহাকর্ষ ক্ষেত্র প্রাবল্য কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\vec g=-\\frac{GM}{r^2}\\hat r,\\quad\\vec F=m\\vec g,\\quad g=-\\frac{dV}{dr}\\text{ — }g = F/m; V এর ঋণাত্মক ঢাল = g।"
     }
   ],
   "memorize": {
     "trick": "g = F/m; V এর ঋণাত্মক ঢাল = g।",
     "steps": [
       "g = F/m; V এর ঋণাত্মক ঢাল = g।",
-      "মনে রাখো — মহাকর্ষ ক্ষেত্র ও বিভবের সম্পর্ক",
-      "চিহ্ন চেক: g, G, M"
+      "প্রশ্নে মহাকর্ষ ক্ষেত্র প্রাবল্য বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: g=মহাকর্ষ ক্ষেত্র প্রাবল্য, G=মহাকর্ষ ধ্রুবক।"
     ]
   },
   "subjects": [

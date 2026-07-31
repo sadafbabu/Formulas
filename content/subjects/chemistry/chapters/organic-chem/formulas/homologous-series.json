@@ -58,6 +58,11 @@
       "examType": "Admission",
       "question": "\\mathrm{C_3H_7OH} এর পরবর্তী সমগোত্র কোনটি?",
       "answer": "\\mathrm{C_4H_9OH}\\ (\\mathrm{CH_2}\\ \\text{যোগ})"
+    },
+    {
+      "examType": "Concept",
+      "question": "সমগোত্রীয় শ্রেণি দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Alkane 2n+2, Alkene 2n, Alkyne 2n−2; ব্যবধান সবসময় CH₂।}"
     }
   ],
   "memorize": {

@@ -3,7 +3,7 @@
   "chapter": "industrial-chemistry",
   "title": "Haber Process",
   "titleBn": "হ্যাবার পদ্ধতি",
-  "summary": "450°C, 200 atm, Fe catalyst; exothermic → low T favors product।",
+  "summary": "হ্যাবার পদ্ধতি: 450°C, 200 atm, Fe catalyst; exothermic → low T favors product।",
   "latex": "\\ce{N2 + 3H2 <=> 2NH3};\\quad \\Delta H=-92\\ \\text{kJ/mol}",
   "tags": [
     "hsc",
@@ -27,8 +27,8 @@
     },
     {
       "symbol": "H",
-      "meaning": "চৌম্বক ক্ষেত্র / এনথ্যালপি",
-      "unit": "A/m বা J"
+      "meaning": "এনথ্যালপি",
+      "unit": "J বা kJ"
     },
     {
       "symbol": "Delta",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "450°C, 200 atm, Fe catalyst; exothermic → low T favors product।",
+    "lead": "হ্যাবার পদ্ধতি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\ce{N2 + 3H2 <=> 2NH3};\\quad \\Delta H=-92\\ \\text{kJ/mol}",
-        "note": "হ্যাবার পদ্ধতি এর প্রাথমিক রূপ।"
+        "note": "হ্যাবার পদ্ধতি: 450°C, 200 atm, Fe catalyst; exothermic → low T favors product।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\ce{N2 + 3H2 <=> 2NH3};\\quad \\Delta H=-92\\ \\text{kJ/mol}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "450°C, 200 atm, Fe catalyst; exothermic → low T favors product।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "হ্যাবার পদ্ধতি এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
-      "answer": "\\ce{N2 + 3H2 <=> 2NH3};\\quad \\Delta H=-92\\ \\text{kJ/mol}\\text{ — }450°C, 200 atm, Fe catalyst; exothermic → low T favors product।"
+      "question": "হ্যাবার পদ্ধতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{450 C, 200 atm, Fe catalyst; exothermic → low T favors product।}"
     },
     {
       "examType": "Concept",
-      "question": "হ্যাবার পদ্ধতি দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{450C, 200 atm, Fe catalyst; exothermic → low T favors product।}"
+      "question": "হ্যাবার পদ্ধতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{450 C, 200 atm, Fe catalyst; exothermic → low T favors product।}"
     }
   ],
   "memorize": {
     "trick": "450°C, 200 atm, Fe catalyst; exothermic → low T favors product।",
     "steps": [
       "450°C, 200 atm, Fe catalyst; exothermic → low T favors product।",
-      "মনে রাখো — 450°C, 200 atm, Fe catalyst; exothermic → low T favors product।",
-      "চিহ্ন চেক: ce, N, H"
+      "প্রশ্নে হ্যাবার পদ্ধতি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: ce=N₂+3H₂⇌2NH₃, N=কণা সংখ্যা।"
     ]
   },
   "subjects": [

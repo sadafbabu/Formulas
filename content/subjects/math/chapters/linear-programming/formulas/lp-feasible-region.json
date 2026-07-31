@@ -3,7 +3,7 @@
   "chapter": "linear-programming",
   "title": "Feasible Region",
   "titleBn": "সম্ভাব্য অঞ্চল",
-  "summary": "সব constraint একসাথে plot → bounded/unbounded region।",
+  "summary": "সম্ভাব্য অঞ্চল: সব constraint একসাথে plot → bounded/unbounded region।",
   "latex": "\\text{Feasible region = intersection of constraint half-planes}",
   "tags": [
     "hsc",
@@ -15,45 +15,48 @@
   "order": 20,
   "symbols": [
     {
-      "symbol": "Feasible region = intersection of constraint half-planes",
-      "meaning": "constraints-এর ছেদ",
+      "symbol": "\\text{key}",
+      "meaning": "সম্ভাব্য অঞ্চল এর মূল রাশি",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "সব constraint একসাথে plot → bounded/unbounded region।",
+    "lead": "সম্ভাব্য অঞ্চল প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{Feasible region = intersection of constraint half-planes}",
-        "note": "সম্ভাব্য অঞ্চল এর প্রাথমিক রূপ।"
+        "note": "সম্ভাব্য অঞ্চল: সব constraint একসাথে plot → bounded/unbounded region।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{Feasible region = intersection of constraint half-planes}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "সব constraint একসাথে plot → bounded/unbounded region।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "সম্ভাব্য অঞ্চল এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সম্ভাব্য অঞ্চল লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{Feasible region = intersection of constraint half-planes}"
+      "question": "সম্ভাব্য অঞ্চল কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{Feasible region = intersection of constraint half-planes}\\text{ — }সব constraint একসাথে plot → bounded/unbounded region।"
     },
     {
       "examType": "Concept",
-      "question": "সম্ভাব্য অঞ্চল দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{সব constraint একসাথে plot → bounded/unbounded region।}"
+      "question": "সম্ভাব্য অঞ্চল কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{Feasible region = intersection of constraint half-planes}\\text{ — }সব constraint একসাথে plot → bounded/unbounded region।"
     }
   ],
   "memorize": {
     "trick": "সব constraint একসাথে plot → bounded/unbounded region।",
     "steps": [
       "সব constraint একসাথে plot → bounded/unbounded region।",
-      "মনে রাখো — সব constraint একসাথে plot → bounded/unbounded region।",
-      "চিহ্ন চেক: Feasible region = intersection of constraint half-planes"
+      "প্রশ্নে সম্ভাব্য অঞ্চল বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "একক, চিহ্ন ও সীমাবদ্ধতা যাচাই করে উত্তর লেখো।"
     ]
   },
   "subjects": [

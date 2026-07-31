@@ -3,7 +3,7 @@
   "chapter": "conic-sections",
   "title": "Parabola Reflection Property",
   "titleBn": "পরাবৃত্তের প্রতিফলন ধর্ম",
-  "summary": "অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায় — স্যাটেলাইট ডিশ।",
+  "summary": "পরাবৃত্তের প্রতিফলন ধর্ম: অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায় — স্যাটেলাইট ডিশ।",
   "latex": "\\text{ray }\\parallel\\text{ axis reflects through focus}",
   "tags": [
     "hsc",
@@ -23,47 +23,45 @@
       "symbol": "parallel",
       "meaning": "parallel (সূত্রের রাশি)",
       "unit": "—"
-    },
-    {
-      "symbol": "axis reflects through focus",
-      "meaning": "axis reflects through focus (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায় — স্যাটেলাইট ডিশ।",
+    "lead": "পরাবৃত্তের প্রতিফলন ধর্ম প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{ray }\\parallel\\text{ axis reflects through focus}",
-        "note": "পরাবৃত্তের প্রতিফলন ধর্ম এর প্রাথমিক রূপ।"
+        "note": "পরাবৃত্তের প্রতিফলন ধর্ম: অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায় — স্যাটেলাইট ডিশ।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{ray }\\parallel\\text{ axis reflects through focus}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায় — স্যাটেলাইট ডিশ।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "পরাবৃত্তের প্রতিফলন ধর্ম এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পরাবৃত্তের প্রতিফলন ধর্ম লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{ray }\\parallel\\text{ axis reflects through focus}"
+      "question": "পরাবৃত্তের প্রতিফলন ধর্ম কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{ray }\\parallel\\text{ axis reflects through focus}\\text{ — }অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায় — স্যাটেলাইট ডিশ।"
     },
     {
       "examType": "Concept",
-      "question": "পরাবৃত্তের প্রতিফলন ধর্ম দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায়  স্যাটেলাইট ডিশ।}"
+      "question": "পরাবৃত্তের প্রতিফলন ধর্ম কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{ray }\\parallel\\text{ axis reflects through focus}\\text{ — }অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায় — স্যাটেলাইট ডিশ।"
     }
   ],
   "memorize": {
     "trick": "অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায় — স্যাটেলাইট ডিশ।",
     "steps": [
       "অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায় — স্যাটেলাইট ডিশ।",
-      "মনে রাখো — অক্ষের সমান্তরাল রশ্মি ফোকাস দিয়ে যায় — স্যাটেলাইট ডিশ।",
-      "চিহ্ন চেক: ray, parallel, axis reflects through focus"
+      "প্রশ্নে পরাবৃত্তের প্রতিফলন ধর্ম বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: ray=focus-directrix path।"
     ]
   },
   "subjects": [

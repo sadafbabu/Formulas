@@ -3,7 +3,7 @@
   "chapter": "circular-motion",
   "title": "Period & Frequency",
   "titleBn": "পর্যায়কাল ও কম্পাঙ্ক",
-  "summary": "ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
+  "summary": "পর্যায়কাল ও কম্পাঙ্ক: ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
   "latex": "T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
   "tags": [
     "hsc",
@@ -27,34 +27,42 @@
     }
   ],
   "derivation": {
-    "lead": "ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
+    "lead": "পর্যায়কাল ও কম্পাঙ্ক প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
-        "note": "পর্যায়কাল ও কম্পাঙ্ক এর প্রাথমিক রূপ।"
+        "note": "পর্যায়কাল ও কম্পাঙ্ক: ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "পর্যায়কাল ও কম্পাঙ্ক লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f"
+      "question": "পর্যায়কাল ও কম্পাঙ্ক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f\\text{ — }ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f"
+    },
+    {
+      "examType": "Concept",
+      "question": "পর্যায়কাল ও কম্পাঙ্ক দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{ω = 2πf; T = 1/f। T=frac2piomega=frac1f,quad omega=2pi f}"
     }
   ],
   "memorize": {
     "trick": "ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
     "steps": [
       "ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
-      "মনে রাখো — ω = 2πf; T = 1/f। T=\\frac{2\\pi}{\\omega}=\\frac{1}{f},\\quad \\omega=2\\pi f",
-      "চিহ্ন চেক: T, f"
+      "প্রশ্নে পর্যায়কাল ও কম্পাঙ্ক বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: T=পর্যায়কাল ও কম্পাঙ্ক, f=কম্পাঙ্ক / বল (প্রসঙ্গমতে)।"
     ]
   },
   "subjects": [

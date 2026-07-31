@@ -3,7 +3,7 @@
   "chapter": "solid-state-chemistry",
   "title": "Schottky & Frenkel Defects",
   "titleBn": "শটকি ও ফ্রেনকেল ত্রুটি",
-  "summary": "শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।",
+  "summary": "শটকি ও ফ্রেনকেল ত্রুটি: শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।",
   "latex": "\\text{Schottky: cation+anion vacancy};\\ \\text{Frenkel: ion displaced to interstitial}",
   "tags": [
     "hsc",
@@ -16,50 +16,48 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "Schottky: cation+anion vacancy",
-      "meaning": "vacancy / interstitial",
-      "unit": "—"
-    },
-    {
-      "symbol": "Frenkel: ion displaced to interstitial",
-      "meaning": "Frenkel: ion displaced to interstitial (সূত্রের রাশি)",
+      "symbol": "\\text{key}",
+      "meaning": "শটকি ও ফ্রেনকেল ত্রুটি এর মূল রাশি",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।",
+    "lead": "শটকি ও ফ্রেনকেল ত্রুটি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{Schottky: cation+anion vacancy};\\ \\text{Frenkel: ion displaced to interstitial}",
-        "note": "শটকি ও ফ্রেনকেল ত্রুটি এর প্রাথমিক রূপ।"
+        "note": "শটকি ও ফ্রেনকেল ত্রুটি: শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{Schottky: cation+anion vacancy};\\ \\text{Frenkel: ion displaced to interstitial}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শটকি ও ফ্রেনকেল ত্রুটি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{Schottky: cation+anion vacancy};\\ \\text{Frenkel: ion displaced to interstitial}"
+      "question": "শটকি ও ফ্রেনকেল ত্রুটি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{Schottky: cation+anion vacancy};\\ \\text{Frenkel: ion displaced to interstitial}\\text{ — }শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।"
     },
     {
       "examType": "Concept",
-      "question": "শটকি ও ফ্রেনকেল ত্রুটি দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।}"
+      "question": "শটকি ও ফ্রেনকেল ত্রুটি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{Schottky: cation+anion vacancy};\\ \\text{Frenkel: ion displaced to interstitial}\\text{ — }শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।"
     }
   ],
   "memorize": {
     "trick": "শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।",
     "steps": [
       "শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।",
-      "মনে রাখো — শটকি ঘনত্ব কমায়; ফ্রেনকেল ঘনত্ব একই রাখে।",
-      "চিহ্ন চেক: Schottky: cation+anion vacancy, Frenkel: ion displaced to interstitial"
+      "প্রশ্নে শটকি ও ফ্রেনকেল ত্রুটি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "একক, চিহ্ন ও সীমাবদ্ধতা যাচাই করে উত্তর লেখো।"
     ]
   },
   "subjects": [

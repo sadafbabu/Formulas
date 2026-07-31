@@ -3,7 +3,7 @@
   "chapter": "matrix-determinant",
   "title": "2×2 Determinant",
   "titleBn": "২×২ নির্ণায়ক",
-  "summary": "২×২: প্রধান−অপ্রধান কর্ণ। \\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
+  "summary": "২×২ নির্ণায়ক: ২×২: প্রধান−অপ্রধান কর্ণ। \\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
   "latex": "\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
   "tags": [
     "hsc",
@@ -21,49 +21,57 @@
     },
     {
       "symbol": "m",
-      "meaning": "ভর",
+      "meaning": "সারি / ঘাত",
       "unit": "kg"
     },
     {
       "symbol": "a",
-      "meaning": "ত্বরণ",
+      "meaning": "সহগ / ধ্রুবক",
       "unit": "m/s²"
     },
     {
       "symbol": "t",
-      "meaning": "সময়",
+      "meaning": "প্যারামিটার / সময়",
       "unit": "s"
     }
   ],
   "derivation": {
-    "lead": "২×২: প্রধান−অপ্রধান কর্ণ। \\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
+    "lead": "২×২ নির্ণায়ক প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
-        "note": "২×২ নির্ণায়ক এর প্রাথমিক রূপ।"
+        "note": "২×২ নির্ণায়ক: ২×২: প্রধান−অপ্রধান কর্ণ। \\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "২×২: প্রধান−অপ্রধান কর্ণ। \\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "২×২ নির্ণায়ক এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "২×২ নির্ণায়ক এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "২×২ নির্ণায়ক কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc\\text{ — }২×২: প্রধান−অপ্রধান কর্ণ। \\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc"
+    },
+    {
+      "examType": "Concept",
+      "question": "২×২ নির্ণায়ক দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc"
     }
   ],
   "memorize": {
     "trick": "২×২: প্রধান−অপ্রধান কর্ণ। \\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
     "steps": [
       "২×২: প্রধান−অপ্রধান কর্ণ। \\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
-      "মনে রাখো — ২×২: প্রধান−অপ্রধান কর্ণ। \\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
-      "চিহ্ন চেক: v, m, a"
+      "প্রশ্নে ২×২ নির্ণায়ক বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: v=ad−bc, m=সারি / ঘাত।"
     ]
   },
   "subjects": [

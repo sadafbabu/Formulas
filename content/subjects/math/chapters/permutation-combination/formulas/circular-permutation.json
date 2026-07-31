@@ -3,7 +3,7 @@
   "chapter": "permutation-combination",
   "title": "Circular Permutation",
   "titleBn": "বৃত্তাকার ক্রম",
-  "summary": "Linear n! → Circular (n−1)!; one fixed point।",
+  "summary": "বৃত্তাকার ক্রম: Linear n! → Circular (n−1)!; one fixed point।",
   "latex": "P_{\\text{circular}}=(n-1)!",
   "tags": [
     "hsc",
@@ -31,39 +31,42 @@
     }
   ],
   "derivation": {
-    "lead": "Linear n! → Circular (n−1)!; one fixed point।",
+    "lead": "বৃত্তাকার ক্রম প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "P_{\\text{circular}}=(n-1)!",
-        "note": "বৃত্তাকার ক্রম এর প্রাথমিক রূপ।"
+        "note": "বৃত্তাকার ক্রম: Linear n! → Circular (n−1)!; one fixed point।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "P_{\\text{circular}}=(n-1)!",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Linear n! → Circular (n−1)!; one fixed point।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "বৃত্তাকার ক্রম এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বৃত্তাকার ক্রম লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "P_{\\text{circular}}=(n-1)!"
+      "question": "বৃত্তাকার ক্রম কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "P_{\\text{circular}}=(n-1)!\\text{ — }Linear n! → Circular (n−1)!; one fixed point।"
     },
     {
       "examType": "Concept",
-      "question": "বৃত্তাকার ক্রম দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Linear n! → Circular (n1)!; one fixed point।}"
+      "question": "বৃত্তাকার ক্রম কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "P_{\\text{circular}}=(n-1)!\\text{ — }Linear n! → Circular (n−1)!; one fixed point।"
     }
   ],
   "memorize": {
     "trick": "Linear n! → Circular (n−1)!; one fixed point।",
     "steps": [
       "Linear n! → Circular (n−1)!; one fixed point।",
-      "মনে রাখো — Linear n! → Circular (n−1)!; one fixed point।",
-      "চিহ্ন চেক: P, circular, n"
+      "প্রশ্নে বৃত্তাকার ক্রম বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: P=(n−1)!, n=মোল সংখ্যা / কোটি।"
     ]
   },
   "subjects": [

@@ -3,7 +3,7 @@
   "chapter": "magnetic-current",
   "title": "Moving Coil Galvanometer",
   "titleBn": "চল কুণ্ডলী গ্যালভানোমিটার",
-  "summary": "বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
+  "summary": "চল কুণ্ডলী গ্যালভানোমিটার: বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
   "latex": "NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
   "tags": [
     "hsc",
@@ -37,34 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
+    "lead": "চল কুণ্ডলী গ্যালভানোমিটার প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
-        "note": "চল কুণ্ডলী গ্যালভানোমিটার এর প্রাথমিক রূপ।"
+        "note": "চল কুণ্ডলী গ্যালভানোমিটার: বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "চল কুণ্ডলী গ্যালভানোমিটার লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta"
+      "question": "চল কুণ্ডলী গ্যালভানোমিটার কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta\\text{ — }বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta"
+    },
+    {
+      "examType": "Concept",
+      "question": "চল কুণ্ডলী গ্যালভানোমিটার দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=kthetaquadRightarrowquad Iproptotheta}"
     }
   ],
   "memorize": {
     "trick": "বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
     "steps": [
       "বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
-      "মনে রাখো — বিচ্যুতি প্রবাহের সমানুপাতিক। NIAB=k\\theta\\quad\\Rightarrow\\quad I\\propto\\theta",
-      "চিহ্ন চেক: N, I, A"
+      "প্রশ্নে চল কুণ্ডলী গ্যালভানোমিটার বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: N=চল কুণ্ডলী গ্যালভানোমিটার, I=তড়িৎ প্রবাহ / জড়তার ভ্রামক।"
     ]
   },
   "subjects": [

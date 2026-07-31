@@ -42,34 +42,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "I_{avg}=\\frac{2I_0}{\\pi},\\quad I_{rms}=\\frac{I_0}{\\sqrt{2}},\\quad I_0=\\sqrt{2}\\,I_{rms}",
-        "note": "AC-এর গড় ও শীর্ষ মান এর প্রাথমিক রূপ।"
+        "note": "পূর্ণাঙ্গ সাইনের গড় ও শীর্ষ সম্পর্ক"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "I_{avg}=\\frac{2I_0}{\\pi},\\quad I_{rms}=\\frac{I_0}{\\sqrt{2}},\\quad I_0=\\sqrt{2}\\,I_{rms}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "I₀ = √2 I_rms; অর্ধচক্র গড় = 2I₀/π।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "AC-এর গড় ও শীর্ষ মান লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "I_{avg}=\\frac{2I_0}{\\pi},\\quad I_{rms}=\\frac{I_0}{\\sqrt{2}},\\quad I_0=\\sqrt{2}\\,I_{rms}"
+      "question": "AC-এর গড় ও শীর্ষ মান কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "I_{avg}=\\frac{2I_0}{\\pi},\\quad I_{rms}=\\frac{I_0}{\\sqrt{2}},\\quad I_0=\\sqrt{2}\\,I_{rms}\\text{ — }I₀ = √2 I_rms; অর্ধচক্র গড় = 2I₀/π।"
     },
     {
       "examType": "Concept",
-      "question": "AC-এর গড় ও শীর্ষ মান দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{I₀ = √2 I rms; অর্ধচক্র গড় = 2I₀/π।}"
+      "question": "AC-এর গড় ও শীর্ষ মান কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "I_{avg}=\\frac{2I_0}{\\pi},\\quad I_{rms}=\\frac{I_0}{\\sqrt{2}},\\quad I_0=\\sqrt{2}\\,I_{rms}\\text{ — }I₀ = √2 I_rms; অর্ধচক্র গড় = 2I₀/π।"
     }
   ],
   "memorize": {
     "trick": "I₀ = √2 I_rms; অর্ধচক্র গড় = 2I₀/π।",
     "steps": [
       "I₀ = √2 I_rms; অর্ধচক্র গড় = 2I₀/π।",
-      "মনে রাখো — পূর্ণাঙ্গ সাইনের গড় ও শীর্ষ সম্পর্ক",
-      "চিহ্ন চেক: I, a, v"
+      "প্রশ্নে AC-এর গড় ও শীর্ষ মান বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: I=AC-এর গড় ও শীর্ষ মান, a=ত্বরণ।"
     ]
   },
   "subjects": [

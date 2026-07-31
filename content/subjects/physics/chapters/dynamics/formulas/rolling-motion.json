@@ -64,6 +64,11 @@
       "examType": "Admission",
       "question": "হুপ I=mR² হলে মোট K?",
       "answer": "K=mv^2"
+    },
+    {
+      "examType": "Concept",
+      "question": "বিশুদ্ধ গড়ান দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{শুদ্ধ গড়ানো: v=ωR; মোট KE = ½mv²(1+I/mR²)।}"
     }
   ],
   "memorize": {

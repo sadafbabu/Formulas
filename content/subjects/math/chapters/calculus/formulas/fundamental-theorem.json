@@ -34,12 +34,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\int_a^b f(x)\\,dx = F(b) - F(a), \\quad \\frac{d}{dx}\\int_a^x f(t)\\,dt = f(x)",
-        "note": "ক্যালকুলাসের মৌলিক উপপাদ্য এর প্রাথমিক রূপ।"
+        "note": "অন্তরীকরণ ও যোগজীকরণের সম্পর্ক"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\int_a^b f(x)\\,dx = F(b) - F(a), \\quad \\frac{d}{dx}\\int_a^x f(t)\\,dt = f(x)",
-        "note": "যোগজ ও অবকলন পরস্পরের বিপরীত — এটাই মৌলিক উপপাদ্য। ∫ₐᵇf = F(b) − F(a) ('উপরে বসিয়ে নিচে বসানো বাদ'), আর d/dx∫ₐˣf(t)dt ="
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "note": "যোগজ ও অবকলন পরস্পরের বিপরীত — এটাই মৌলিক উপপাদ্য। ∫ₐᵇf = F(b) − F(a) ('উপরে বসিয়ে নিচে বসানো বাদ'), আর d/dx∫ₐˣf(t)dt = f(x) ('অবকলন যোগজকে"
       }
     ],
     "assumptions": [
@@ -53,6 +53,11 @@
       "examType": "HSC / Varsity",
       "question": "\\frac{d}{dx}\\int_a^x f(t)\\,dt = ?",
       "answer": "f(x)"
+    },
+    {
+      "examType": "Concept",
+      "question": "ক্যালকুলাসের মৌলিক উপপাদ্য দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\int_a^b f(x)\\,dx = F(b) - F(a), \\quad \\frac{d}{dx}\\int_a^x f(t)\\,dt = f(x)"
     }
   ],
   "memorize": {

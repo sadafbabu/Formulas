@@ -47,11 +47,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "B_H = B \\cos \\delta, \\quad B_V = B \\sin \\delta, \\quad \\tan \\delta = \\frac{B_V}{B_H}",
-        "note": "ভূ-চৌম্বক উপাংশ ও বিনতি কোণ এর প্রাথমিক রূপ।"
+        "note": "ভূ-চৌম্বক ক্ষেত্রের অনুভূমিক (B_H) ও উল্লম্ব (B_V) উপাংশ এবং বিনতি কোণ (δ)।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "B_H = B \\cos \\delta, \\quad B_V = B \\sin \\delta, \\quad \\tan \\delta = \\frac{B_V}{B_H}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "B-এর দুই উপাংশ: অনুভূমিক B_H = B cosδ, উল্লম্ব B_V = B sinδ। 'কোসাইন শোয়া (অনুভূমিক), সাইন খাড়া (উল্লম্ব)'।"
       }
     ],
@@ -64,6 +64,11 @@
       "examType": "BUET / Varsity KA (Hard)",
       "question": "কোনো স্থানে ভূ-চৌম্বক ক্ষেত্রের অনুভূমিক উপাংশ 3.1 × 10⁻⁵ T এবং বিনতি কোণ ৬০° হলে ওই স্থানের মোট ভূ-চৌম্বক ক্ষেত্র B এবং উল্লম্ব উপাংশ B_V নির্ণয় করো।",
       "answer": "B = \\frac{B_H}{\\cos 60^\\circ} = \\frac{3.1 \\times 10^{-5}}{0.5} = 6.2 \\times 10^{-5} \\text{ T}, \\quad B_V = B_H \\tan 60^\\circ = 3.1 \\times 10^{-5} \\times \\sqrt{3} = 5.37 \\times 10^{-5} \\text{ T}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ভূ-চৌম্বক উপাংশ ও বিনতি কোণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "B_H = B \\cos \\delta, \\quad B_V = B \\sin \\delta, \\quad \\tan \\delta = \\frac{B_V}{B_H}"
     }
   ],
   "memorize": {

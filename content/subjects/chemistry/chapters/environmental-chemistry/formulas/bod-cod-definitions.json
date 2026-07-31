@@ -42,20 +42,28 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\text{ demand}",
-        "note": "BOD ও COD এর প্রাথমিক রূপ।"
+        "note": "BOD ও COD এর মূল সম্পর্ক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\text{ demand}",
-        "note": "BOD বেশি = পানি দূষিত। \\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\text{ dema"
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "note": "BOD বেশি = পানি দূষিত। \\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\text{ demand}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "BOD ও COD এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "BOD ও COD কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\text{ demand}"
+    },
+    {
+      "examType": "Concept",
+      "question": "BOD ও COD দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "\\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\text{ demand}"
     }
   ],
@@ -63,8 +71,8 @@
     "trick": "BOD বেশি = পানি দূষিত। \\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\text{ demand}",
     "steps": [
       "BOD বেশি = পানি দূষিত। \\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}…",
-      "মনে রাখো — BOD বেশি = পানি দূষিত। \\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\",
-      "চিহ্ন চেক: BOD, O, used by microbes"
+      "প্রশ্নে BOD ও COD বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: BOD=oxygen demand।"
     ]
   },
   "subjects": [

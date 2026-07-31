@@ -3,7 +3,7 @@
   "chapter": "measurement",
   "title": "Vernier Least Count",
   "titleBn": "ভার্নিয়ার লঘিষ্ঠ পাঠ",
-  "summary": "n ভাগে ভাগ করলে LC = MSD/n। \\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
+  "summary": "ভার্নিয়ার লঘিষ্ঠ পাঠ: n ভাগে ভাগ করলে LC = MSD/n। \\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
   "latex": "\\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
   "tags": [
     "hsc",
@@ -37,34 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "n ভাগে ভাগ করলে LC = MSD/n। \\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
+    "lead": "ভার্নিয়ার লঘিষ্ঠ পাঠ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
-        "note": "ভার্নিয়ার লঘিষ্ঠ পাঠ এর প্রাথমিক রূপ।"
+        "note": "ভার্নিয়ার লঘিষ্ঠ পাঠ: n ভাগে ভাগ করলে LC = MSD/n। \\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "n ভাগে ভাগ করলে LC = MSD/n। \\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভার্নিয়ার লঘিষ্ঠ পাঠ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "ভার্নিয়ার লঘিষ্ঠ পাঠ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ভার্নিয়ার লঘিষ্ঠ পাঠ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{n ভাগে ভাগ করলে LC = MSD/n। mathrmLC=1,mathrmMSD-1,mathrmVSD=frac1,mathrmMSDn}"
     }
   ],
   "memorize": {
     "trick": "n ভাগে ভাগ করলে LC = MSD/n। \\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
     "steps": [
       "n ভাগে ভাগ করলে LC = MSD/n। \\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
-      "মনে রাখো — n ভাগে ভাগ করলে LC = MSD/n। \\mathrm{LC}=1\\,\\mathrm{MSD}-1\\,\\mathrm{VSD}=\\frac{1\\,\\mathrm{MSD}}{n}",
-      "চিহ্ন চেক: L, C, M"
+      "প্রশ্নে ভার্নিয়ার লঘিষ্ঠ পাঠ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: L=ভার্নিয়ার লঘিষ্ঠ পাঠ, C=ধারণক্ষমতা / ধারকত্ব।"
     ]
   },
   "subjects": [

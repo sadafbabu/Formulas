@@ -3,7 +3,7 @@
   "chapter": "nuclear-chemistry",
   "title": "n/p Stability",
   "titleBn": "n/p স্থিতিশীলতা",
-  "summary": "ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।",
+  "summary": "n/p স্থিতিশীলতা: ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।",
   "latex": "\\text{stable }n/p\\approx1\\ (\\text{light})\\to\\approx1.5\\ (\\text{heavy})",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।",
+    "lead": "n/p স্থিতিশীলতা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{stable }n/p\\approx1\\ (\\text{light})\\to\\approx1.5\\ (\\text{heavy})",
-        "note": "n/p স্থিতিশীলতা এর প্রাথমিক রূপ।"
+        "note": "n/p স্থিতিশীলতা: ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{stable }n/p\\approx1\\ (\\text{light})\\to\\approx1.5\\ (\\text{heavy})",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "n/p স্থিতিশীলতা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{stable }n/p\\approx1\\ (\\text{light})\\to\\approx1.5\\ (\\text{heavy})"
+      "question": "n/p স্থিতিশীলতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{stable }n/p\\approx1\\ (\\text{light})\\to\\approx1.5\\ (\\text{heavy})\\text{ — }ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।"
     },
     {
       "examType": "Concept",
-      "question": "n/p স্থিতিশীলতা দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।}"
+      "question": "n/p স্থিতিশীলতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{stable }n/p\\approx1\\ (\\text{light})\\to\\approx1.5\\ (\\text{heavy})\\text{ — }ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।"
     }
   ],
   "memorize": {
     "trick": "ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।",
     "steps": [
       "ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।",
-      "মনে রাখো — ভারী নিউক্লিয়াসে নিউট্রন বেশি লাগে।",
-      "চিহ্ন চেক: stable, n, p"
+      "প্রশ্নে n/p স্থিতিশীলতা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: stable=band of stability, n=মোল সংখ্যা / কোটি।"
     ]
   },
   "subjects": [

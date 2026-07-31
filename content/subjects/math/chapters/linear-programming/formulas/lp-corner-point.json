@@ -3,7 +3,7 @@
   "chapter": "linear-programming",
   "title": "Corner Point Method",
   "titleBn": "কোণ বিন্দু পদ্ধতি",
-  "summary": "Optimum ALWAYS at corner — graph-এ vertex-গুলোতে Z বসাও।",
+  "summary": "কোণ বিন্দু পদ্ধতি: Optimum ALWAYS at corner — graph-এ vertex-গুলোতে Z বসাও।",
   "latex": "Z_{\\max/\\min}\\text{ at a corner point of feasible region}",
   "tags": [
     "hsc",
@@ -18,47 +18,45 @@
       "symbol": "Z",
       "meaning": "vertices-এ Z মান",
       "unit": "—"
-    },
-    {
-      "symbol": "at a corner point of feasible region",
-      "meaning": "at a corner point of feasible region (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "Optimum ALWAYS at corner — graph-এ vertex-গুলোতে Z বসাও।",
+    "lead": "কোণ বিন্দু পদ্ধতি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "Z_{\\max/\\min}\\text{ at a corner point of feasible region}",
-        "note": "কোণ বিন্দু পদ্ধতি এর প্রাথমিক রূপ।"
+        "note": "কোণ বিন্দু পদ্ধতি: Optimum ALWAYS at corner — graph-এ vertex-গুলোতে Z বসাও।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "Z_{\\max/\\min}\\text{ at a corner point of feasible region}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Optimum ALWAYS at corner — graph-এ vertex-গুলোতে Z বসাও।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "কোণ বিন্দু পদ্ধতি এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কোণ বিন্দু পদ্ধতি এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "কোণ বিন্দু পদ্ধতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "Z_{\\max/\\min}\\text{ at a corner point of feasible region}\\text{ — }Optimum ALWAYS at corner — graph-এ vertex-গুলোতে Z বসাও।"
     },
     {
       "examType": "Concept",
-      "question": "কোণ বিন্দু পদ্ধতি দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{Optimum ALWAYS at corner  graph-এ vertex-গুলোতে Z বসাও।}"
+      "question": "কোণ বিন্দু পদ্ধতি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "Z_{\\max/\\min}\\text{ at a corner point of feasible region}\\text{ — }Optimum ALWAYS at corner — graph-এ vertex-গুলোতে Z বসাও।"
     }
   ],
   "memorize": {
     "trick": "Optimum ALWAYS at corner — graph-এ vertex-গুলোতে Z বসাও।",
     "steps": [
       "Optimum ALWAYS at corner — graph-এ vertex-গুলোতে Z বসাও।",
-      "মনে রাখো — Optimum ALWAYS at corner — graph-এ vertex-গুলোতে Z বসাও।",
-      "চিহ্ন চেক: Z, at a corner point of feasible region"
+      "প্রশ্নে কোণ বিন্দু পদ্ধতি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: Z=vertices-এ Z মান।"
     ]
   },
   "subjects": [

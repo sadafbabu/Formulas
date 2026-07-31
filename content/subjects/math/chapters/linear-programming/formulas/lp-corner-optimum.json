@@ -3,7 +3,7 @@
   "chapter": "linear-programming",
   "title": "Corner Point Theorem",
   "titleBn": "কোণবিন্দু উপপাদ্য",
-  "summary": "সব কোণে Z হিসাব করে বড়/ছোট নাও।",
+  "summary": "কোণবিন্দু উপপাদ্য: সব কোণে Z হিসাব করে বড়/ছোট নাও।",
   "latex": "\\text{optimal }Z\\text{ occurs at a corner of the feasible region}",
   "tags": [
     "hsc",
@@ -23,47 +23,45 @@
       "symbol": "Z",
       "meaning": "পারমাণবিক সংখ্যা / প্রতিবন্ধকতা",
       "unit": "1 বা Ω"
-    },
-    {
-      "symbol": "occurs at a corner of the feasible region",
-      "meaning": "occurs at a corner of the feasible region (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "সব কোণে Z হিসাব করে বড়/ছোট নাও।",
+    "lead": "কোণবিন্দু উপপাদ্য প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{optimal }Z\\text{ occurs at a corner of the feasible region}",
-        "note": "কোণবিন্দু উপপাদ্য এর প্রাথমিক রূপ।"
+        "note": "কোণবিন্দু উপপাদ্য: সব কোণে Z হিসাব করে বড়/ছোট নাও।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{optimal }Z\\text{ occurs at a corner of the feasible region}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "সব কোণে Z হিসাব করে বড়/ছোট নাও।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "কোণবিন্দু উপপাদ্য এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কোণবিন্দু উপপাদ্য এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "কোণবিন্দু উপপাদ্য কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\text{optimal }Z\\text{ occurs at a corner of the feasible region}\\text{ — }সব কোণে Z হিসাব করে বড়/ছোট নাও।"
     },
     {
       "examType": "Concept",
-      "question": "কোণবিন্দু উপপাদ্য দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{সব কোণে Z হিসাব করে বড়/ছোট নাও।}"
+      "question": "কোণবিন্দু উপপাদ্য কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{optimal }Z\\text{ occurs at a corner of the feasible region}\\text{ — }সব কোণে Z হিসাব করে বড়/ছোট নাও।"
     }
   ],
   "memorize": {
     "trick": "সব কোণে Z হিসাব করে বড়/ছোট নাও।",
     "steps": [
       "সব কোণে Z হিসাব করে বড়/ছোট নাও।",
-      "মনে রাখো — সব কোণে Z হিসাব করে বড়/ছোট নাও।",
-      "চিহ্ন চেক: optimal, Z, occurs at a corner of the feasible region"
+      "প্রশ্নে কোণবিন্দু উপপাদ্য বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: optimal=optimum at vertex, Z=পারমাণবিক সংখ্যা / প্রতিবন্ধকতা।"
     ]
   },
   "subjects": [

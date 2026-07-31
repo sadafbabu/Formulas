@@ -3,7 +3,7 @@
   "chapter": "chemical-equilibrium",
   "title": "Ka × Kb = Kw",
   "titleBn": "Ka·Kb=Kw",
-  "summary": "কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
+  "summary": "Ka·Kb=Kw: কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
   "latex": "K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
+    "lead": "Ka·Kb=Kw প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
-        "note": "Ka·Kb=Kw এর প্রাথমিক রূপ।"
+        "note": "Ka·Kb=Kw: কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "Ka·Kb=Kw লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})"
+      "question": "Ka·Kb=Kw কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})\\text{ — }কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})"
     },
     {
       "examType": "Concept",
-      "question": "Ka·Kb=Kw দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{কনজুগেট জোড়ায় KaKb=Kw। K acdot K b=K w=10 -14 (25 circmathrmC)}"
+      "question": "Ka·Kb=Kw কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})\\text{ — }কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})"
     }
   ],
   "memorize": {
     "trick": "কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
     "steps": [
       "কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
-      "মনে রাখো — কনজুগেট জোড়ায় Ka×Kb=Kw। K_a\\cdot K_b=K_w=10^{-14}\\ (25^\\circ\\mathrm{C})",
-      "চিহ্ন চেক: K, a, b"
+      "প্রশ্নে Ka·Kb=Kw বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: K=conjugate pair, a=ত্বরণ।"
     ]
   },
   "subjects": [

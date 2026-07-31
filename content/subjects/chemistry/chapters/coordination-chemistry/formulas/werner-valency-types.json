@@ -3,7 +3,7 @@
   "chapter": "coordination-chemistry",
   "title": "Werner Primary & Secondary Valency",
   "titleBn": "ওয়ার্নার প্রাথমিক ও মাধ্যমিক যোজনী",
-  "summary": "প্রাথমিক আয়নীয়; মাধ্যমিক দিকনির্দেশক।",
+  "summary": "ওয়ার্নার প্রাথমিক ও মাধ্যমিক যোজনী: প্রাথমিক আয়নীয়; মাধ্যমিক দিকনির্দেশক।",
   "latex": "\\text{primary = oxidation number};\\quad \\text{secondary = coordination number}",
   "tags": [
     "hsc",
@@ -16,50 +16,48 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "primary = oxidation number",
-      "meaning": "oxidation vs coordination",
-      "unit": "—"
-    },
-    {
-      "symbol": "secondary = coordination number",
-      "meaning": "secondary = coordination number (সূত্রের রাশি)",
+      "symbol": "\\text{key}",
+      "meaning": "ওয়ার্নার প্রাথমিক ও মাধ্যমিক যোজনী এর মূল রাশি",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "প্রাথমিক আয়নীয়; মাধ্যমিক দিকনির্দেশক।",
+    "lead": "ওয়ার্নার প্রাথমিক ও মাধ্যমিক যোজনী প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{primary = oxidation number};\\quad \\text{secondary = coordination number}",
-        "note": "ওয়ার্নার প্রাথমিক ও মাধ্যমিক যোজনী এর প্রাথমিক রূপ।"
+        "note": "ওয়ার্নার প্রাথমিক ও মাধ্যমিক যোজনী: প্রাথমিক আয়নীয়; মাধ্যমিক দিকনির্দেশক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{primary = oxidation number};\\quad \\text{secondary = coordination number}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "প্রাথমিক আয়নীয়; মাধ্যমিক দিকনির্দেশক।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ওয়ার্নার প্রাথমিক ও মাধ্যমিক যোজনী লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{primary = oxidation number};\\quad \\text{secondary = coordination number}"
+      "question": "ওয়ার্নার প্রাথমিক ও মাধ্যমিক যোজনী কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{primary = oxidation number};\\quad \\text{secondary = coordination number}\\text{ — }প্রাথমিক আয়নীয়; মাধ্যমিক দিকনির্দেশক।"
     },
     {
       "examType": "Concept",
-      "question": "ওয়ার্নার প্রাথমিক ও মাধ্যমিক যোজনী দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{প্রাথমিক আয়নীয়; মাধ্যমিক দিকনির্দেশক।}"
+      "question": "ওয়ার্নার প্রাথমিক ও মাধ্যমিক যোজনী কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{primary = oxidation number};\\quad \\text{secondary = coordination number}\\text{ — }প্রাথমিক আয়নীয়; মাধ্যমিক দিকনির্দেশক।"
     }
   ],
   "memorize": {
     "trick": "প্রাথমিক আয়নীয়; মাধ্যমিক দিকনির্দেশক।",
     "steps": [
       "প্রাথমিক আয়নীয়; মাধ্যমিক দিকনির্দেশক।",
-      "মনে রাখো — প্রাথমিক আয়নীয়; মাধ্যমিক দিকনির্দেশক।",
-      "চিহ্ন চেক: primary = oxidation number, secondary = coordination number"
+      "প্রশ্নে ওয়ার্নার প্রাথমিক ও মাধ্যমিক যোজনী বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "একক, চিহ্ন ও সীমাবদ্ধতা যাচাই করে উত্তর লেখো।"
     ]
   },
   "subjects": [

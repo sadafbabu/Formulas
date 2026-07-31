@@ -31,7 +31,7 @@
     },
     {
       "symbol": "t",
-      "meaning": "সময়",
+      "meaning": "প্যারামিটার / সময়",
       "unit": "s"
     }
   ],
@@ -41,29 +41,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
-        "note": "প্যারামিতিক অন্তরীকরণ এর প্রাথমিক রূপ।"
+        "note": "প্যারামিতিক অন্তরীকরণ এর মূল সম্পর্ক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "t বাদ না দিয়েই ঢাল। \\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "প্যারামিতিক অন্তরীকরণ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্যারামিতিক অন্তরীকরণ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}"
+      "question": "প্যারামিতিক অন্তরীকরণ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}\\text{ — }t বাদ না দিয়েই ঢাল। \\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}"
+    },
+    {
+      "examType": "Concept",
+      "question": "প্যারামিতিক অন্তরীকরণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{t বাদ না দিয়েই ঢাল। fracdydx=fracdy/dtdx/dt}"
     }
   ],
   "memorize": {
     "trick": "t বাদ না দিয়েই ঢাল। \\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
     "steps": [
       "t বাদ না দিয়েই ঢাল। \\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
-      "মনে রাখো — t বাদ না দিয়েই ঢাল। \\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}",
-      "চিহ্ন চেক: d, y, x"
+      "প্রশ্নে প্যারামিতিক অন্তরীকরণ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: d=dy/dx=(dy/dt)/(dx/dt), y=অবস্থান।"
     ]
   },
   "subjects": [

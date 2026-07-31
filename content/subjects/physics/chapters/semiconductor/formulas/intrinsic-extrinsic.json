@@ -83,6 +83,11 @@
       "examType": "Eng Admission",
       "question": "একটি স্বকীয় অর্ধপরিবাহীতে n_i = 1.5×10¹⁶ m⁻³। ডোপ করে n = 5×10²⁰ m⁻³ করা হলে হোল ঘনত্ব কত?",
       "answer": "p = \\frac{n_i^2}{n} = \\frac{(1.5\\times10^{16})^2}{5\\times10^{20}} = 4.5\\times10^{11}\\ \\text{m}^{-3}"
+    },
+    {
+      "examType": "Concept",
+      "question": "স্বকীয় ও অপদ্রব্যযুক্ত অর্ধপরিবাহী দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "n_i = p_i, \\quad np = n_i^2, \\quad \\sigma = e(n\\mu_e + p\\mu_h)"
     }
   ],
   "memorize": {

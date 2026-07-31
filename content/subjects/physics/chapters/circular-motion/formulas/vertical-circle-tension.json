@@ -54,6 +54,11 @@
       "examType": "Admission",
       "question": "উপরে T=0 হলে v?",
       "answer": "v=\\sqrt{gr}"
+    },
+    {
+      "examType": "Concept",
+      "question": "উল্লম্ব বৃত্ত দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{নিচে টান বেশি (mv²/r+mg), উপরে কম (mv²/r−mg)।}"
     }
   ],
   "memorize": {

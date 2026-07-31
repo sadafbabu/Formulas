@@ -3,7 +3,7 @@
   "chapter": "quantitative-chem",
   "title": "Percentage Composition",
   "titleBn": "শতকরা সংযুক্তি",
-  "summary": "যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
+  "summary": "শতকরা সংযুক্তি: যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
   "latex": "\\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
   "tags": [
     "hsc",
@@ -16,36 +16,39 @@
   "order": 40,
   "symbols": [
     {
-      "symbol": "mass of element in formula",
-      "meaning": "% element",
-      "unit": "—"
-    },
-    {
       "symbol": "molar mass",
       "meaning": "molar mass (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
+    "lead": "শতকরা সংযুক্তি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
-        "note": "শতকরা সংযুক্তি এর প্রাথমিক রূপ।"
+        "note": "শতকরা সংযুক্তি: যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "শতকরা সংযুক্তি লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "শতকরা সংযুক্তি কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100"
+    },
+    {
+      "examType": "Concept",
+      "question": "শতকরা সংযুক্তি দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "\\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100"
     }
   ],
@@ -53,8 +56,8 @@
     "trick": "যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
     "steps": [
       "যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
-      "মনে রাখো — যৌগে মৌলের ভর অনুপাত × ১০০। \\%=\\frac{\\text{mass of element in formula}}{\\text{molar mass}}\\times100",
-      "চিহ্ন চেক: mass of element in formula, molar mass"
+      "প্রশ্নে শতকরা সংযুক্তি বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "একক, চিহ্ন ও সীমাবদ্ধতা যাচাই করে উত্তর লেখো।"
     ]
   },
   "subjects": [

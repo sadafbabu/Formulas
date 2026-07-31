@@ -3,7 +3,7 @@
   "chapter": "permutation-combination",
   "title": "Combination Identities",
   "titleBn": "সমাবেশ অভেদ",
-  "summary": "C(n,r)=C(n,n−r); যোগফল 2ⁿ। {}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n",
+  "summary": "সমাবেশ অভেদ: C(n,r)=C(n,n−r); যোগফল 2ⁿ। {}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n",
   "latex": "{}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n",
   "tags": [
     "hsc",
@@ -28,42 +28,45 @@
       "symbol": "r",
       "meaning": "ব্যাসার্ধ / দূরত্ব",
       "unit": "m"
-    },
-    {
-      "symbol": "sum",
-      "meaning": "sum (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "C(n,r)=C(n,n−r); যোগফল 2ⁿ। {}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n",
+    "lead": "সমাবেশ অভেদ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "{}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n",
-        "note": "সমাবেশ অভেদ এর প্রাথমিক রূপ।"
+        "note": "সমাবেশ অভেদ: C(n,r)=C(n,n−r); যোগফল 2ⁿ। {}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "{}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "C(n,r)=C(n,n−r); যোগফল 2ⁿ। {}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "সমাবেশ অভেদ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমাবেশ অভেদ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "সমাবেশ অভেদ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "{}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n\\text{ — }C(n,r)=C(n,n−r); যোগফল 2ⁿ। {}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সমাবেশ অভেদ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "{}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n"
     }
   ],
   "memorize": {
     "trick": "C(n,r)=C(n,n−r); যোগফল 2ⁿ। {}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2^n",
     "steps": [
       "C(n,r)=C(n,n−r); যোগফল 2ⁿ। {}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_…",
-      "মনে রাখো — C(n,r)=C(n,n−r); যোগফল 2ⁿ। {}^nC_r={}^nC_{n-r},\\quad{}^nC_r+{}^nC_{r-1}={}^{n+1}C_r,\\quad\\sum_{r=0}^n{}^nC_r=2",
-      "চিহ্ন চেক: n, C, r"
+      "প্রশ্নে সমাবেশ অভেদ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: n=পাস্কাল ও সমষ্টি অভেদ, C=ধারণক্ষমতা / ধারকত্ব।"
     ]
   },
   "subjects": [

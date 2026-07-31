@@ -3,7 +3,7 @@
   "chapter": "solid-state-chemistry",
   "title": "Crystal Density",
   "titleBn": "স্ফটিক ঘনত্ব",
-  "summary": "Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}",
+  "summary": "স্ফটিক ঘনত্ব: Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}",
   "latex": "\\rho=\\frac{ZM}{N_A a^3}",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}",
+    "lead": "স্ফটিক ঘনত্ব প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\rho=\\frac{ZM}{N_A a^3}",
-        "note": "স্ফটিক ঘনত্ব এর প্রাথমিক রূপ।"
+        "note": "স্ফটিক ঘনত্ব: Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\rho=\\frac{ZM}{N_A a^3}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্ফটিক ঘনত্ব এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "স্ফটিক ঘনত্ব কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\rho=\\frac{ZM}{N_A a^3}\\text{ — }Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}"
     },
     {
       "examType": "Concept",
-      "question": "স্ফটিক ঘনত্ব দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{rho= frac ZM N A a 3}"
+      "question": "স্ফটিক ঘনত্ব কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\rho=\\frac{ZM}{N_A a^3}\\text{ — }Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}"
     }
   ],
   "memorize": {
     "trick": "Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}",
     "steps": [
       "Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}",
-      "মনে রাখো — Z = একক কোষে কণা সংখ্যা। \\rho=\\frac{ZM}{N_A a^3}",
-      "চিহ্ন চেক: rho, Z, M"
+      "প্রশ্নে স্ফটিক ঘনত্ব বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: rho=ρ = ZM/(N_A a³), Z=পারমাণবিক সংখ্যা / প্রতিবন্ধকতা।"
     ]
   },
   "subjects": [

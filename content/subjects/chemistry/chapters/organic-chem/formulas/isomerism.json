@@ -64,6 +64,11 @@
       "examType": "Medical Admission",
       "question": "\\ce{CH3-CH(OH)-COOH}-এ কয়টি chiral center ও সর্বোচ্চ optical isomer আছে?",
       "answer": "n=1,\\quad N=2^1=2\\ \\text{(এক জোড়া enantiomer)}"
+    },
+    {
+      "examType": "Concept",
+      "question": "গাঠনিক ও স্থানিক সমাণুতা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{একই formula, ভিন্ন connectivity = structural; একই connectivity, ভিন্ন 3D = stereoisomer। Chiral carbon-এ চারটি আলাদা gro}"
     }
   ],
   "memorize": {

@@ -64,6 +64,11 @@
       "examType": "HSC",
       "question": "f=500 Hz, λ=0.68 m। v?",
       "answer": "v=500\\times0.68=340\\mathrm{m/s}"
+    },
+    {
+      "examType": "Concept",
+      "question": "তরঙ্গ বেগ সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{সব তরঙ্গের বেসিক: v=fλ — কম্পাঙ্ক×তরঙ্গদৈর্ঘ্য।}"
     }
   ],
   "memorize": {

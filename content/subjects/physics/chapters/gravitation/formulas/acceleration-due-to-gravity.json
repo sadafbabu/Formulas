@@ -64,6 +64,11 @@
       "examType": "HSC",
       "question": "h=R উচ্চতায় g′/g কত?",
       "answer": "g^{\\prime}/g=(R/2R)^2=1/4"
+    },
+    {
+      "examType": "Concept",
+      "question": "অভিকর্ষজ ত্বরণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{g=GM/R²; উচ্চতায় g′=g[R/(R+h)]² — উপরে গেলে হালকা।}"
     }
   ],
   "memorize": {

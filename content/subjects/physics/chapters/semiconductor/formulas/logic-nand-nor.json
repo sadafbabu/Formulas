@@ -54,14 +54,19 @@
       "examType": "HSC",
       "question": "কেন NAND সার্বজনীন?",
       "answer": "\\text{NOT, AND, OR সব NAND দিয়ে তৈরি যায়}"
+    },
+    {
+      "examType": "Concept",
+      "question": "NAND ও NOR গেট দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{NAND ও NOR = universal gates। NAND/NOR সার্বজনীন গেট — যেকোনো লজিক বানানো যায়}"
     }
   ],
   "memorize": {
     "trick": "NAND ও NOR = universal gates। NAND/NOR সার্বজনীন গেট — যেকোনো লজিক বানানো যায়",
     "steps": [
       "NAND ও NOR = universal gates। NAND/NOR সার্বজনীন গেট — যেকোনো লজিক বানানো যায়",
-      "মনে রাখো — NAND/NOR সার্বজনীন গেট — যেকোনো লজিক বানানো যায়",
-      "চিহ্ন চেক: A, B, Y"
+      "প্রশ্নে NAND ও NOR গেট বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: A=ইনপুট, B=চৌম্বক ক্ষেত্র।"
     ]
   },
   "subjects": [

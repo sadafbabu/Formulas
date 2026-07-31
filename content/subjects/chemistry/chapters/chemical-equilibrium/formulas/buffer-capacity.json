@@ -3,7 +3,7 @@
   "chapter": "chemical-equilibrium",
   "title": "Buffer Capacity",
   "titleBn": "বাফার ক্ষমতা",
-  "summary": "Henderson + capacity β = dn/d(pH)।",
+  "summary": "বাফার ক্ষমতা: Henderson + capacity β = dn/d(pH)।",
   "latex": "\\mathrm{pH}=pK_a+\\log\\frac{[\\mathrm{salt}]}{[\\mathrm{acid}]},\\quad\\beta=\\frac{dn}{d(\\mathrm{pH})}",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "Henderson + capacity β = dn/d(pH)।",
+    "lead": "বাফার ক্ষমতা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{pH}=pK_a+\\log\\frac{[\\mathrm{salt}]}{[\\mathrm{acid}]},\\quad\\beta=\\frac{dn}{d(\\mathrm{pH})}",
-        "note": "বাফার ক্ষমতা এর প্রাথমিক রূপ।"
+        "note": "বাফার ক্ষমতা: Henderson + capacity β = dn/d(pH)।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\mathrm{pH}=pK_a+\\log\\frac{[\\mathrm{salt}]}{[\\mathrm{acid}]},\\quad\\beta=\\frac{dn}{d(\\mathrm{pH})}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Henderson + capacity β = dn/d(pH)।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "বাফার ক্ষমতা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\mathrm{pH}=pK_a+\\log\\frac{[\\mathrm{salt}]}{[\\mathrm{acid}]},\\quad\\beta=\\frac{dn}{d(\\mathrm{pH})}"
+      "question": "বাফার ক্ষমতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{pH}=pK_a+\\log\\frac{[\\mathrm{salt}]}{[\\mathrm{acid}]},\\quad\\beta=\\frac{dn}{d(\\mathrm{pH})}\\text{ — }Henderson + capacity β = dn/d(pH)।"
     },
     {
       "examType": "Concept",
-      "question": "বাফার ক্ষমতা দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Henderson + capacity β = dn/d(pH)।}"
+      "question": "বাফার ক্ষমতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{pH}=pK_a+\\log\\frac{[\\mathrm{salt}]}{[\\mathrm{acid}]},\\quad\\beta=\\frac{dn}{d(\\mathrm{pH})}\\text{ — }Henderson + capacity β = dn/d(pH)।"
     }
   ],
   "memorize": {
     "trick": "Henderson + capacity β = dn/d(pH)।",
     "steps": [
       "Henderson + capacity β = dn/d(pH)।",
-      "মনে রাখো — Henderson + capacity β = dn/d(pH)।",
-      "চিহ্ন চেক: pH, p, K"
+      "প্রশ্নে বাফার ক্ষমতা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: pH=বাফার pH ও ক্ষমতা, p=ভরবেগ / চাপ।"
     ]
   },
   "subjects": [

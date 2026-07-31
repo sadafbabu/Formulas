@@ -3,7 +3,7 @@
   "chapter": "sequences-series",
   "title": "Cauchy–Schwarz Inequality",
   "titleBn": "কোশি–শ্বারজ অসমতা",
-  "summary": "সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
+  "summary": "কোশি–শ্বারজ অসমতা: সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
   "latex": "\\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
   "tags": [
     "hsc",
@@ -20,13 +20,8 @@
       "unit": "—"
     },
     {
-      "symbol": "sum",
-      "meaning": "sum (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
       "symbol": "a",
-      "meaning": "ত্বরণ",
+      "meaning": "সহগ / ধ্রুবক",
       "unit": "m/s²"
     },
     {
@@ -36,25 +31,33 @@
     }
   ],
   "derivation": {
-    "lead": "সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
+    "lead": "কোশি–শ্বারজ অসমতা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
-        "note": "কোশি–শ্বারজ অসমতা এর প্রাথমিক রূপ।"
+        "note": "কোশি–শ্বারজ অসমতা: সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "কোশি–শ্বারজ অসমতা এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "কোশি–শ্বারজ অসমতা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "কোশি–শ্বারজ অসমতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2"
+    },
+    {
+      "examType": "Concept",
+      "question": "কোশি–শ্বারজ অসমতা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "\\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2"
     }
   ],
@@ -62,8 +65,8 @@
     "trick": "সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
     "steps": [
       "সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
-      "মনে রাখো — সমানতা যখন a ও b সমানুপাতিক। \\Big(\\sum a_i^2\\Big)\\Big(\\sum b_i^2\\Big)\\ge\\Big(\\sum a_i b_i\\Big)^2",
-      "চিহ্ন চেক: Big, sum, a"
+      "প্রশ্নে কোশি–শ্বারজ অসমতা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: Big=(Σa²)(Σb²)≥(Σab)², a=সহগ / ধ্রুবক।"
     ]
   },
   "subjects": [

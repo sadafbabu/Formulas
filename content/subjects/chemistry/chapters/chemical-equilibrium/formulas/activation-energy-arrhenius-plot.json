@@ -3,7 +3,7 @@
   "chapter": "chemical-equilibrium",
   "title": "Arrhenius Plot",
   "titleBn": "আরেনিয়াস প্লট",
-  "summary": "ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}",
+  "summary": "আরেনিয়াস প্লট: ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}",
   "latex": "\\ln k=\\ln A-\\frac{E_a}{RT}",
   "tags": [
     "hsc",
@@ -27,8 +27,8 @@
     },
     {
       "symbol": "E",
-      "meaning": "শক্তি / তড়িৎক্ষেত্র",
-      "unit": "J বা N/C"
+      "meaning": "বন্ধন শক্তি / কোশ বিভব",
+      "unit": "J বা kJ/mol"
     },
     {
       "symbol": "a",
@@ -37,25 +37,33 @@
     }
   ],
   "derivation": {
-    "lead": "ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}",
+    "lead": "আরেনিয়াস প্লট প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\ln k=\\ln A-\\frac{E_a}{RT}",
-        "note": "আরেনিয়াস প্লট এর প্রাথমিক রূপ।"
+        "note": "আরেনিয়াস প্লট: ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\ln k=\\ln A-\\frac{E_a}{RT}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আরেনিয়াস প্লট লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "আরেনিয়াস প্লট কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\ln k=\\ln A-\\frac{E_a}{RT}\\text{ — }ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}"
+    },
+    {
+      "examType": "Concept",
+      "question": "আরেনিয়াস প্লট দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "\\ln k=\\ln A-\\frac{E_a}{RT}"
     }
   ],
@@ -63,8 +71,8 @@
     "trick": "ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}",
     "steps": [
       "ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}",
-      "মনে রাখো — ঢাল = −E_a/R। \\ln k=\\ln A-\\frac{E_a}{RT}",
-      "চিহ্ন চেক: k, A, E"
+      "প্রশ্নে আরেনিয়াস প্লট বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: k=ln k vs 1/T, A=ক্ষেত্রফল / বিস্তার।"
     ]
   },
   "subjects": [

@@ -32,7 +32,16 @@ const stats = {
   relatedRashiSymbols: [],
   oldTemplateQuestions: [],
   dupDerivationLatex: [],
+  softEchoMemorize: [],
+  softQuestions: [],
+  echoSummaryTrickLead: [],
+  junkSymbols: [],
 }
+
+const OPERATOR_SYMBOLS = new Set([
+  'sum', 'prod', 'int', 'rightarrow', 'leftarrow', 'xrightarrow',
+  'rightleftharpoons', 'cdot', 'times', 'main:',
+])
 
 for (const file of files) {
   const data = JSON.parse(fs.readFileSync(file, 'utf8'))
@@ -54,6 +63,11 @@ for (const file of files) {
   ) {
     stats.autoMemorizeSteps.push(rel)
   }
+  if (
+    steps.some((s) => /^(মনে রাখো —|চিহ্ন চেক:|কাজ:|প্রয়োগ:|পরীক্ষায়:)/.test(String(s)))
+  ) {
+    stats.softEchoMemorize.push(rel)
+  }
 
   const summary = (data.summary || '').trim()
   if (summary.length < 24 || /^=|^[A-Za-z\\{}_^0-9Δλπσ≈∝\s+\-−]+$/.test(summary)) {
@@ -74,6 +88,19 @@ for (const file of files) {
   }
   if (symbols.some((s) => String(s.meaning || '').includes('সম্পর্কিত রাশি'))) {
     stats.relatedRashiSymbols.push(rel)
+  }
+  if (
+    symbols.some((s) => {
+      const sym = String(s.symbol || '').replace(/^\\/, '').replace(/[_^].*$/, '')
+      const meaning = String(s.meaning || '')
+      return (
+        OPERATOR_SYMBOLS.has(sym) ||
+        meaning.includes('(সূত্রের রাশি)') ||
+        /\s/.test(String(s.symbol || '')) && String(s.symbol || '').length > 18
+      )
+    })
+  ) {
+    stats.junkSymbols.push(rel)
   }
 
   const questions = data.questions || []
@@ -97,6 +124,15 @@ for (const file of files) {
   ) {
     stats.oldTemplateQuestions.push(rel)
   }
+  if (
+    questions.some((q) =>
+      /লিখো এবং একটি ব্যবহার|দিয়ে কী নির্ণয়|মূল সূত্র কী\? এক লাইনে|সংক্ষেপে কী কাজে লাগে/.test(
+        q.question || '',
+      ),
+    )
+  ) {
+    stats.softQuestions.push(rel)
+  }
 
   const der = data.derivation || {}
   const derSteps = der.steps || []
@@ -108,6 +144,11 @@ for (const file of files) {
     (derSteps[0].latex || '') === (derSteps[1].latex || '')
   ) {
     stats.dupDerivationLatex.push(rel)
+  }
+
+  const lead = (der.lead || '').trim()
+  if (summary && trick && lead && summary === trick && trick === lead) {
+    stats.echoSummaryTrickLead.push(rel)
   }
 }
 
@@ -141,6 +182,10 @@ const report = {
     relatedRashiSymbols: bucket(stats.relatedRashiSymbols),
     oldTemplateQuestions: bucket(stats.oldTemplateQuestions),
     dupDerivationLatex: bucket(stats.dupDerivationLatex),
+    softEchoMemorize: bucket(stats.softEchoMemorize),
+    softQuestions: bucket(stats.softQuestions),
+    echoSummaryTrickLead: bucket(stats.echoSummaryTrickLead),
+    junkSymbols: bucket(stats.junkSymbols),
   },
 }
 

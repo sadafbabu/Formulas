@@ -37,11 +37,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "I_{\\mathrm{rms}} = \\frac{I_0}{\\sqrt{2}} \\approx 0.707 I_0, \\quad V_{\\mathrm{rms}} = \\frac{V_0}{\\sqrt{2}} \\approx 0.707 V_0",
-        "note": "পর্যায়বৃত্ত প্রবাহের RMS মান এর প্রাথমিক রূপ।"
+        "note": "এসি কারেন্ট ও ভোল্টেজের কার্যকর মান (Root Mean Square)"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "I_{\\mathrm{rms}} = \\frac{I_0}{\\sqrt{2}} \\approx 0.707 I_0, \\quad V_{\\mathrm{rms}} = \\frac{V_0}{\\sqrt{2}} \\approx 0.707 V_0",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "RMS = শীর্ষমান ÷ √2 ≈ 0.707 × শীর্ষমান। বাসার ২২০ V হলো RMS; শীর্ষমান আসলে ২২০√2 ≈ ৩১১ V। আর গড় মান = 0.637 × শীর্ষমান।"
       }
     ],
@@ -54,6 +54,11 @@
       "examType": "CKRUET Admission",
       "question": "বাসাবাড়ির লাইনে 220 V এসি ভোল্টেজের পিক বা শীর্ষমান কত?",
       "answer": "V_0 = V_{\\mathrm{rms}} \\sqrt{2} = 220 \\times 1.414 = 311.1\\text{ V}"
+    },
+    {
+      "examType": "Concept",
+      "question": "পর্যায়বৃত্ত প্রবাহের RMS মান দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{RMS = শীর্ষমান ÷ √2 ≈ 0.707 × শীর্ষমান। বাসার ২২০ V হলো RMS; শীর্ষমান আসলে ২২০√2 ≈ ৩১১ V। আর গড় মান = 0.637 × শীর্ষমান।}"
     }
   ],
   "memorize": {

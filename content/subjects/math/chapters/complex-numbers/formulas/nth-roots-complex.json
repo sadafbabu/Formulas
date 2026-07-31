@@ -62,6 +62,11 @@
       "examType": "Eng Admission",
       "question": "8i-এর cube roots-এর polar form লিখুন।",
       "answer": "8i=8e^{i\\pi/2};\\ z_k=2e^{i(\\pi/6+2k\\pi/3)},\\quad k=0,1,2"
+    },
+    {
+      "examType": "Concept",
+      "question": "জটিল সংখ্যার n-তম মূল দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{n-th root-এ modulus-এর n-th root, angle-এর সাথে 2kπ যোগ করে n দিয়ে ভাগ; k=0 থেকে n−1—ঠিক nটি root। তারা regular n-gon ব}"
     }
   ],
   "memorize": {

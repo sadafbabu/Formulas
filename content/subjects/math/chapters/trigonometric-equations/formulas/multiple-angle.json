@@ -18,11 +18,6 @@
       "unit": "—"
     },
     {
-      "symbol": "\\pm",
-      "meaning": "\\pm রাশি",
-      "unit": "—"
-    },
-    {
       "symbol": "\\sqrt",
       "meaning": "\\sqrt রাশি",
       "unit": "—"
@@ -34,12 +29,12 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\sin 2A = 2\\sin A\\cos A, \\quad \\cos 2A = 2\\cos^2 A - 1, \\quad \\sin\\frac{A}{2} = \\pm\\sqrt{\\frac{1-\\cos A}{2}}",
-        "note": "গুণিতক ও উপগুণিতক কোণ সূত্র এর প্রাথমিক রূপ।"
+        "note": "দ্বিগুণ, ত্রিগুণ ও অর্ধ কোণের ত্রিকোণমিতিক সূত্র"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\sin 2A = 2\\sin A\\cos A, \\quad \\cos 2A = 2\\cos^2 A - 1, \\quad \\sin\\frac{A}{2} = \\pm\\sqrt{\\frac{1-\\cos A}{2}}",
-        "note": "sin2A = 2sinAcosA ('দুই সাইন কস'), cos2A-এর তিন রূপ: 1 − 2sin²A, 2cos²A − 1, cos²A − sin²A — যেটা দরকার সেটা বাছুন। আর t"
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "note": "sin2A = 2sinAcosA ('দুই সাইন কস'), cos2A-এর তিন রূপ: 1 − 2sin²A, 2cos²A − 1, cos²A − sin²A — যেটা দরকার সেটা বাছুন। আর tan2A = 2tanA/(1 − ta"
       }
     ],
     "assumptions": [
@@ -53,6 +48,11 @@
       "examType": "HSC",
       "question": "\\sin 2A এর মান কী?",
       "answer": "\\sin 2A = 2\\sin A\\cos A, \\quad \\cos 2A = 2\\cos^2 A - 1, \\quad \\sin\\frac{A}{2} = \\pm\\sqrt{\\frac{1-\\cos A}{2}}"
+    },
+    {
+      "examType": "Concept",
+      "question": "গুণিতক ও উপগুণিতক কোণ সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{sin2A = 2sinAcosA ('দুই সাইন কস'), cos2A-এর তিন রূপ: 1 − 2sin²A, 2cos²A − 1, cos²A − sin²A — যেটা দরকার সেটা বাছুন। আর t}"
     }
   ],
   "memorize": {

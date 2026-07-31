@@ -24,24 +24,19 @@
       "symbol": "\\vec r_i",
       "meaning": "অবস্থান ভেক্টর",
       "unit": "m"
-    },
-    {
-      "symbol": "\\vec r_{\\mathrm{cm}}",
-      "meaning": "ভরকেন্দ্র",
-      "unit": "m"
     }
   ],
   "derivation": {
-    "lead": "ভরকেন্দ্র = ভর-ওজনকৃত গড় অবস্থান — ভারী দিক টানে।",
+    "lead": "ভরকেন্দ্র প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\vec r_{\\mathrm{cm}}=\\dfrac{\\sum m_i\\vec r_i}{\\sum m_i}",
-        "note": "ভরকেন্দ্র এর প্রাথমিক রূপ।"
+        "note": "ভরকেন্দ্র এর মূল সম্পর্ক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\vec r_{\\mathrm{cm}}=\\dfrac{\\sum m_i\\vec r_i}{\\sum m_i}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "ভরকেন্দ্র = ভর-ওজনকৃত গড় অবস্থান — ভারী দিক টানে।"
       }
     ],
@@ -54,6 +49,11 @@
       "examType": "HSC",
       "question": "m ও 2m যথাক্রমে x=0 ও x=3। x_cm?",
       "answer": "x_{\\mathrm{cm}}=2\\,\\mathrm{m}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ভরকেন্দ্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{ভরকেন্দ্র = ভর-ওজনকৃত গড় অবস্থান — ভারী দিক টানে।}"
     }
   ],
   "memorize": {

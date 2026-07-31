@@ -3,7 +3,7 @@
   "chapter": "coordination-chemistry",
   "title": "Werner's Theory",
   "titleBn": "ভার্নারের তত্ত্ব",
-  "summary": "Primary = oxidation state; Secondary = coordination।",
+  "summary": "ভার্নারের তত্ত্ব: Primary = oxidation state; Secondary = coordination।",
   "latex": "\\text{Primary valence = ionizable; Secondary = non-ionizable}",
   "tags": [
     "hsc",
@@ -16,45 +16,48 @@
   "order": 30,
   "symbols": [
     {
-      "symbol": "Primary valence = ionizable; Secondary = non-ionizable",
-      "meaning": "primary+secondary valence",
+      "symbol": "\\text{key}",
+      "meaning": "ভার্নারের তত্ত্ব এর মূল রাশি",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "Primary = oxidation state; Secondary = coordination।",
+    "lead": "ভার্নারের তত্ত্ব প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{Primary valence = ionizable; Secondary = non-ionizable}",
-        "note": "ভার্নারের তত্ত্ব এর প্রাথমিক রূপ।"
+        "note": "ভার্নারের তত্ত্ব: Primary = oxidation state; Secondary = coordination।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{Primary valence = ionizable; Secondary = non-ionizable}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Primary = oxidation state; Secondary = coordination।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ভার্নারের তত্ত্ব লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{Primary valence = ionizable; Secondary = non-ionizable}"
+      "question": "ভার্নারের তত্ত্ব কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{Primary valence = ionizable; Secondary = non-ionizable}\\text{ — }Primary = oxidation state; Secondary = coordination।"
     },
     {
       "examType": "Concept",
-      "question": "ভার্নারের তত্ত্ব দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Primary = oxidation state; Secondary = coordination।}"
+      "question": "ভার্নারের তত্ত্ব কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{Primary valence = ionizable; Secondary = non-ionizable}\\text{ — }Primary = oxidation state; Secondary = coordination।"
     }
   ],
   "memorize": {
     "trick": "Primary = oxidation state; Secondary = coordination।",
     "steps": [
       "Primary = oxidation state; Secondary = coordination।",
-      "মনে রাখো — Primary = oxidation state; Secondary = coordination।",
-      "চিহ্ন চেক: Primary valence = ionizable; Secondary = non-ionizable"
+      "প্রশ্নে ভার্নারের তত্ত্ব বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "একক, চিহ্ন ও সীমাবদ্ধতা যাচাই করে উত্তর লেখো।"
     ]
   },
   "subjects": [

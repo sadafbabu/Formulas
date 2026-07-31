@@ -37,11 +37,6 @@
       "symbol": "EA",
       "meaning": "ইলেকট্রন আসক্তি এনথালপি",
       "unit": "kJ/mol"
-    },
-    {
-      "symbol": "\\Delta H_{\\mathrm{latt}}",
-      "meaning": "ল্যাটিস গঠন এনথালপি",
-      "unit": "kJ/mol"
     }
   ],
   "derivation": {
@@ -68,6 +63,11 @@
       "examType": "BUET Admission",
       "question": "একটি Born–Haber cycle-এ অন্য ধাপগুলোর যোগ +৩৮০ kJ/mol এবং ΔH°f = −৪১০ kJ/mol হলে lattice formation enthalpy কত?",
       "answer": "\\Delta H_{\\mathrm{latt}}=-410-380=-790\\ \\mathrm{kJ/mol}"
+    },
+    {
+      "examType": "Concept",
+      "question": "বর্ন–হেবার চক্র ও ল্যাটিস শক্তি দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Born–Haber আসলে Hess-এর সূত্র। ক্রম: solid→gas→cation; X₂→atom→anion; শেষে gaseous ion→solid lattice। চিহ্ন ঠিক রাখাই মূ}"
     }
   ],
   "memorize": {

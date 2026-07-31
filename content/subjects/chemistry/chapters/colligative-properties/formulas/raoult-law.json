@@ -60,6 +60,11 @@
       "examType": "Admission",
       "question": "আদর্শ দ্বৈত মিশ্রণে মোট বাষ্পচাপের সূত্র?",
       "answer": "p_{\\mathrm{total}}=x_A p_A^\\circ+x_B p_B^\\circ"
+    },
+    {
+      "examType": "Concept",
+      "question": "রাউলের সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{আংশিক চাপ = মোল ভাগ × বিশুদ্ধ চাপ (p = x · p°)।}"
     }
   ],
   "memorize": {

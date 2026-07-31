@@ -16,11 +16,6 @@
   "order": 10,
   "symbols": [
     {
-      "symbol": "\\mathbf{A} \\cdot \\mathbf{B}",
-      "meaning": "স্কেলার গুণফল",
-      "unit": "A ও B-এর এককের গুণফল"
-    },
-    {
       "symbol": "\\theta",
       "meaning": "ভেক্টরদ্বয়ের অন্তর্ভুক্ত কোণ",
       "unit": "ডিগ্রী (°)"
@@ -37,11 +32,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathbf{A} \\cdot \\mathbf{B} = |\\mathbf{A}||\\mathbf{B}| \\cos\\theta = A_x B_x + A_y B_y + A_z B_z, \\quad \\cos\\theta = \\frac{A_x B_x + A_y B_y + A_z B_z}{|\\mathbf{A}||\\mathbf{B}|}",
-        "note": "ভেক্টর ডট গুণন ও অন্তর্ভুক্ত কোণ এর প্রাথমিক রূপ।"
+        "note": "দুইটি ভেক্টরের স্কেলার গুণন ও তাদের অন্তর্ভুক্ত কোণ নির্ণয়"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\mathbf{A} \\cdot \\mathbf{B} = |\\mathbf{A}||\\mathbf{B}| \\cos\\theta = A_x B_x + A_y B_y + A_z B_z, \\quad \\cos\\theta = \\frac{A_x B_x + A_y B_y + A_z B_z}{|\\mathbf{A}||\\mathbf{B}|}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "cosθ = (A·B)/(|A||B|) — দুই ভেক্টরের মধ্যবর্তী কোণ বের করার একমাত্র সূত্র। উপরে ডট গুণফল, নিচে মানের গুণফল।"
       }
     ],
@@ -54,6 +49,11 @@
       "examType": "BUET Admission Hard",
       "question": "A = 2i + 2j - k এবং B = 6i - 3j + 2k ভেক্টরদ্বয়ের অন্তর্ভুক্ত কোণ কত?",
       "answer": "\\mathbf{A} \\cdot \\mathbf{B} = 2(6) + 2(-3) + (-1)(2) = 12 - 6 - 2 = 4, \\quad |\\mathbf{A}| = 3, \\, |\\mathbf{B}| = 7 \\implies \\cos\\theta = \\frac{4}{21} \\implies \\theta = \\cos^{-1}(0.1904) \\approx 79.02^\\circ"
+    },
+    {
+      "examType": "Concept",
+      "question": "ভেক্টর ডট গুণন ও অন্তর্ভুক্ত কোণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{cosθ = (A·B)/(|A||B|) — দুই ভেক্টরের মধ্যবর্তী কোণ বের করার একমাত্র সূত্র। উপরে ডট গুণফল, নিচে মানের গুণফল।}"
     }
   ],
   "memorize": {

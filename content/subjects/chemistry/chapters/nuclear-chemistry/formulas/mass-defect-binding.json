@@ -54,6 +54,11 @@
       "examType": "Admission",
       "question": "1 u ভর ত্রুটির শক্তি সমতুল্য?",
       "answer": "931\\ \\mathrm{MeV}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ভর ত্রুটি ও বন্ধন শক্তি দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{ভর কম = শক্তি বেরিয়েছে: BE = Δm × 931 MeV।}"
     }
   ],
   "memorize": {

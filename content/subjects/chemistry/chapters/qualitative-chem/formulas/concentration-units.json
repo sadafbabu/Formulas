@@ -72,6 +72,11 @@
       "examType": "HSC Board",
       "question": "২ M দ্রবণের ২৫ mL-কে ১০০ mL করলে নতুন মোলারিটি কত?",
       "answer": "M_2=\\frac{M_1V_1}{V_2}=\\frac{2\\times25}{100}=0.50\\ \\mathrm M"
+    },
+    {
+      "examType": "Concept",
+      "question": "দ্রবণের ঘনমাত্রা: মোলারিটি, মোলালিটি ও মোল ভগ্নাংশ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{মোলারিটিতে লিটার দ্রবণ, মোলালিটিতে কেজি দ্রাবক—‘M = solution, m = solvent’। শুধু M তাপমাত্রায় বদলায়; m ও mole fraction}"
     }
   ],
   "memorize": {

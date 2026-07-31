@@ -3,7 +3,7 @@
   "chapter": "differentiation",
   "title": "Standard Limit sin x / x",
   "titleBn": "প্রমিত সীমা sinx/x",
-  "summary": "রেডিয়ানে সত্য; ডিগ্রিতে নয়। \\lim_{x\\to0}\\frac{\\sin x}{x}=1",
+  "summary": "প্রমিত সীমা sinx/x: রেডিয়ানে সত্য; ডিগ্রিতে নয়। \\lim_{x\\to0}\\frac{\\sin x}{x}=1",
   "latex": "\\lim_{x\\to0}\\frac{\\sin x}{x}=1",
   "tags": [
     "hsc",
@@ -26,39 +26,42 @@
     }
   ],
   "derivation": {
-    "lead": "রেডিয়ানে সত্য; ডিগ্রিতে নয়। \\lim_{x\\to0}\\frac{\\sin x}{x}=1",
+    "lead": "প্রমিত সীমা sinx/x প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\lim_{x\\to0}\\frac{\\sin x}{x}=1",
-        "note": "প্রমিত সীমা sinx/x এর প্রাথমিক রূপ।"
+        "note": "প্রমিত সীমা sinx/x: রেডিয়ানে সত্য; ডিগ্রিতে নয়। \\lim_{x\\to0}\\frac{\\sin x}{x}=1"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\lim_{x\\to0}\\frac{\\sin x}{x}=1",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "রেডিয়ানে সত্য; ডিগ্রিতে নয়। \\lim_{x\\to0}\\frac{\\sin x}{x}=1"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "প্রমিত সীমা sinx/x এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্রমিত সীমা sinx/x এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "প্রমিত সীমা sinx/x কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\lim_{x\\to0}\\frac{\\sin x}{x}=1\\text{ — }রেডিয়ানে সত্য; ডিগ্রিতে নয়। \\lim_{x\\to0}\\frac{\\sin x}{x}=1"
     },
     {
       "examType": "Concept",
-      "question": "প্রমিত সীমা sinx/x দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{lim x to0 frac sin x x =1}"
+      "question": "প্রমিত সীমা sinx/x কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\lim_{x\\to0}\\frac{\\sin x}{x}=1\\text{ — }রেডিয়ানে সত্য; ডিগ্রিতে নয়। \\lim_{x\\to0}\\frac{\\sin x}{x}=1"
     }
   ],
   "memorize": {
     "trick": "রেডিয়ানে সত্য; ডিগ্রিতে নয়। \\lim_{x\\to0}\\frac{\\sin x}{x}=1",
     "steps": [
       "রেডিয়ানে সত্য; ডিগ্রিতে নয়। \\lim_{x\\to0}\\frac{\\sin x}{x}=1",
-      "মনে রাখো — রেডিয়ানে সত্য; ডিগ্রিতে নয়। \\lim_{x\\to0}\\frac{\\sin x}{x}=1",
-      "চিহ্ন চেক: lim, x"
+      "প্রশ্নে প্রমিত সীমা sinx/x বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: lim=→1 as x→0, x=অবস্থান / অজানা।"
     ]
   },
   "subjects": [

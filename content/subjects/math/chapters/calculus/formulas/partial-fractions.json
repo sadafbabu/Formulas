@@ -3,7 +3,7 @@
   "chapter": "calculus",
   "title": "Partial Fractions",
   "titleBn": "আংশিক ভগ্নাংশ",
-  "summary": "Denominator factor → A/(x−a) terms; then integrate।",
+  "summary": "আংশিক ভগ্নাংশ: Denominator factor → A/(x−a) terms; then integrate।",
   "latex": "\\frac{P(x)}{Q(x)}=\\sum\\frac{A_i}{(x-a_i)^{n_i}}",
   "tags": [
     "hsc",
@@ -28,47 +28,45 @@
       "symbol": "Q",
       "meaning": "তাপ / চার্জ",
       "unit": "J বা C"
-    },
-    {
-      "symbol": "sum",
-      "meaning": "sum (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "Denominator factor → A/(x−a) terms; then integrate।",
+    "lead": "আংশিক ভগ্নাংশ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{P(x)}{Q(x)}=\\sum\\frac{A_i}{(x-a_i)^{n_i}}",
-        "note": "আংশিক ভগ্নাংশ এর প্রাথমিক রূপ।"
+        "note": "আংশিক ভগ্নাংশ: Denominator factor → A/(x−a) terms; then integrate।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\frac{P(x)}{Q(x)}=\\sum\\frac{A_i}{(x-a_i)^{n_i}}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Denominator factor → A/(x−a) terms; then integrate।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "আংশিক ভগ্নাংশ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আংশিক ভগ্নাংশ লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\frac{P(x)}{Q(x)}=\\sum\\frac{A_i}{(x-a_i)^{n_i}}"
+      "question": "আংশিক ভগ্নাংশ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{P(x)}{Q(x)}=\\sum\\frac{A_i}{(x-a_i)^{n_i}}\\text{ — }Denominator factor → A/(x−a) terms; then integrate।"
     },
     {
       "examType": "Concept",
-      "question": "আংশিক ভগ্নাংশ দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Denominator factor → A/(xa) terms; then integrate।}"
+      "question": "আংশিক ভগ্নাংশ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\frac{P(x)}{Q(x)}=\\sum\\frac{A_i}{(x-a_i)^{n_i}}\\text{ — }Denominator factor → A/(x−a) terms; then integrate।"
     }
   ],
   "memorize": {
     "trick": "Denominator factor → A/(x−a) terms; then integrate।",
     "steps": [
       "Denominator factor → A/(x−a) terms; then integrate।",
-      "মনে রাখো — Denominator factor → A/(x−a) terms; then integrate।",
-      "চিহ্ন চেক: P, x, Q"
+      "প্রশ্নে আংশিক ভগ্নাংশ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: P=decompose rational, x=অবস্থান / অজানা।"
     ]
   },
   "subjects": [

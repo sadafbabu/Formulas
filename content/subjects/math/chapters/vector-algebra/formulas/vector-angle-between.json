@@ -3,7 +3,7 @@
   "chapter": "vector-algebra",
   "title": "Angle Between Vectors",
   "titleBn": "দুই ভেক্টরের কোণ",
-  "summary": "কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
+  "summary": "দুই ভেক্টরের কোণ: কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
   "latex": "\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
   "tags": [
     "hsc",
@@ -21,54 +21,57 @@
     },
     {
       "symbol": "vec",
-      "meaning": "a",
+      "meaning": "vec (সূত্রের রাশি)",
       "unit": "—"
     },
     {
       "symbol": "a",
-      "meaning": "b",
+      "meaning": "সহগ / ধ্রুবক",
       "unit": "—"
     },
     {
       "symbol": "b",
-      "meaning": ")",
+      "meaning": "সহগ / ধ্রুবক",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
+    "lead": "দুই ভেক্টরের কোণ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
-        "note": "দুই ভেক্টরের কোণ এর প্রাথমিক রূপ।"
+        "note": "দুই ভেক্টরের কোণ: কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "দুই ভেক্টরের কোণ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "দুই ভেক্টরের কোণ এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "দুই ভেক্টরের কোণ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}"
     },
     {
       "examType": "Concept",
-      "question": "দুই ভেক্টরের কোণ দিয়ে কী নির্ণয় করা যায়?",
-      "answer": "\\text{cos theta= frac vec a cdot vec b | vec a|| vec b|}"
+      "question": "দুই ভেক্টরের কোণ কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}"
     }
   ],
   "memorize": {
     "trick": "কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
     "steps": [
       "কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
-      "মনে রাখো — কোণ বের করতে ডট ব্যবহার করো। \\cos\\theta=\\frac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
-      "চিহ্ন চেক: theta, vec, a"
+      "প্রশ্নে দুই ভেক্টরের কোণ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: theta=cosθ = (a·b)/(, a=সহগ / ধ্রুবক।"
     ]
   },
   "subjects": [

@@ -29,12 +29,12 @@
     },
     {
       "symbol": "\\vec{b}\\",
-      "meaning": "\\vec{b}\\ (সূত্রের রাশি)",
+      "meaning": "vecb\\ (সূত্রের রাশি)",
       "unit": "a, b ও c-এর এককের গুণফল"
     },
     {
       "symbol": "\\vec{c}]",
-      "meaning": "\\vec{c}] (সূত্রের রাশি)",
+      "meaning": "vecc] (সূত্রের রাশি)",
       "unit": "a, b ও c-এর এককের গুণফল"
     },
     {
@@ -71,6 +71,11 @@
       "examType": "Varsity Admission",
       "question": "\\vec{a} = \\hat{i}, \\vec{b} = \\hat{j}, \\vec{c} = \\hat{k} হলে স্কেলার ত্রৈগুণিক গুণফল ও আয়তন কত?",
       "answer": "[\\vec{a}\\,\\vec{b}\\,\\vec{c}] = \\vec{a}\\cdot(\\vec{b}\\times\\vec{c}) = \\begin{vmatrix} a_x & a_y & a_z \\\\ b_x & b_y & b_z \\\\ c_x & c_y & c_z \\end{vmatrix}"
+    },
+    {
+      "examType": "Concept",
+      "question": "স্কেলার ত্রৈগুণিক গুণফল ও আয়তন দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{স্কেলার ত্রৈগুণিক = ৩×৩ নির্ণায়ক = আয়তন। শূন্য হলেই তিন ভেক্টর সমতলীয় — এটাই সমতলীয়তা যাচাইয়ের সবচেয়ে দ্রুত উপায়।}"
     }
   ],
   "memorize": {

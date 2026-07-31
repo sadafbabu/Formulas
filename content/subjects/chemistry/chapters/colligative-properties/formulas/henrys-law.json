@@ -59,6 +59,11 @@
       "examType": "HSC",
       "question": "হেনরির সূত্র অনুযায়ী চাপ দ্বিগুণ হলে দ্রাব্যতা কী হয়?",
       "answer": "\\text{দ্রাব্যতা দ্বিগুণ}"
+    },
+    {
+      "examType": "Concept",
+      "question": "হেনরির সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "P=K_H\\,x\\quad(\\text{বা }C=K_H P)"
     }
   ],
   "memorize": {

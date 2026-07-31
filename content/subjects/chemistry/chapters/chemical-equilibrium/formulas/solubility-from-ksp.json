@@ -49,6 +49,11 @@
       "examType": "HSC",
       "question": "AgCl-এর Ksp=10⁻¹⁰। s কত?",
       "answer": "s=10^{-5}\\,\\mathrm{mol/L}"
+    },
+    {
+      "examType": "Concept",
+      "question": "Ksp থেকে দ্রাব্যতা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{AB→√Ksp; AB₂→∛(Ksp/4) — চার্জ গুণে ভুলো না।}"
     }
   ],
   "memorize": {

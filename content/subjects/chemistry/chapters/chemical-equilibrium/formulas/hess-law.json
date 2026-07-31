@@ -44,6 +44,11 @@
       "examType": "HSC",
       "question": "A→B এর \\Delta H=10, B→C এর \\Delta H=5 হলে A→C?",
       "answer": "15\\ \\text{(একই একক)}"
+    },
+    {
+      "examType": "Concept",
+      "question": "হেসের সূত্র দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Hess: যোগ করো ধাপের ΔH — পথ আলাদা হলেও মোট একই।}"
     }
   ],
   "memorize": {

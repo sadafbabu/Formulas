@@ -3,7 +3,7 @@
   "chapter": "wave-optics",
   "title": "Thin Film Interference",
   "titleBn": "অপাতল স্তরে ব্যতিচার",
-  "summary": "Phase reversal at one surface → half wavelength path difference।",
+  "summary": "অপাতল স্তরে ব্যতিচার: Phase reversal at one surface → half wavelength path difference।",
   "latex": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda",
   "tags": [
     "hsc",
@@ -31,39 +31,42 @@
     }
   ],
   "derivation": {
-    "lead": "Phase reversal at one surface → half wavelength path difference।",
+    "lead": "অপাতল স্তরে ব্যতিচার প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda",
-        "note": "অপাতল স্তরে ব্যতিচার এর প্রাথমিক রূপ।"
+        "note": "অপাতল স্তরে ব্যতিচার: Phase reversal at one surface → half wavelength path difference।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Phase reversal at one surface → half wavelength path difference।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "SI একক ব্যবহার করো",
+      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "অপাতল স্তরে ব্যতিচার লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda"
+      "question": "অপাতল স্তরে ব্যতিচার কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda\\text{ — }Phase reversal at one surface → half wavelength path difference।"
     },
     {
       "examType": "Concept",
-      "question": "অপাতল স্তরে ব্যতিচার দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Phase reversal at one surface → half wavelength path difference।}"
+      "question": "অপাতল স্তরে ব্যতিচার কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "2nt=\\left(m+\\tfrac{1}{2}\\right)\\lambda\\text{ — }Phase reversal at one surface → half wavelength path difference।"
     }
   ],
   "memorize": {
     "trick": "Phase reversal at one surface → half wavelength path difference।",
     "steps": [
       "Phase reversal at one surface → half wavelength path difference।",
-      "মনে রাখো — Phase reversal at one surface → half wavelength path difference।",
-      "চিহ্ন চেক: n, t, m"
+      "প্রশ্নে অপাতল স্তরে ব্যতিচার বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: n=অপাতল স্তরে ব্যতিচার, t=সময়।"
     ]
   },
   "subjects": [

@@ -32,29 +32,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
-        "note": "ইমালশনের প্রকার এর প্রাথমিক রূপ।"
+        "note": "ইমালশনের প্রকার এর মূল সম্পর্ক।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "দুধ = O/W; মাখন = W/O। \\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ইমালশনের প্রকার লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}"
+      "question": "ইমালশনের প্রকার কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}\\text{ — }দুধ = O/W; মাখন = W/O। \\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}"
+    },
+    {
+      "examType": "Concept",
+      "question": "ইমালশনের প্রকার দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{দুধ = O/W; মাখন = W/O। textO/W (oil in water),quad textW/O (water in oil)}"
     }
   ],
   "memorize": {
     "trick": "দুধ = O/W; মাখন = W/O। \\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
     "steps": [
       "দুধ = O/W; মাখন = W/O। \\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
-      "মনে রাখো — দুধ = O/W; মাখন = W/O। \\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
-      "চিহ্ন চেক: O/W (oil in water), W/O (water in oil)"
+      "প্রশ্নে ইমালশনের প্রকার বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: O/W (oil in water)=O/W and W/O।"
     ]
   },
   "subjects": [

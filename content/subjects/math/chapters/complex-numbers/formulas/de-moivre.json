@@ -36,29 +36,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "(\\cos\\theta + i\\sin\\theta)^n = \\cos(n\\theta) + i\\sin(n\\theta), \\quad e^{i\\theta} = \\cos\\theta + i\\sin\\theta",
-        "note": "দ্য ময়ভারের উপপাদ্য ও জটিল সংখ্যার ঘাত এর প্রাথমিক রূপ।"
+        "note": "জটিল সংখ্যার মেরু রূপ এবং দ্য ময়ভারের উপপাদ্য প্রয়োগ"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "(\\cos\\theta + i\\sin\\theta)^n = \\cos(n\\theta) + i\\sin(n\\theta), \\quad e^{i\\theta} = \\cos\\theta + i\\sin\\theta",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "(cosθ + i sinθ)^n = cos(nθ) + i sin(nθ)—modulus-এর n-th power, argument n গুণ; single-valued identity-তে n পূর্ণসংখ্যা।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "দ্য ময়ভারের উপপাদ্য ও জটিল সংখ্যার ঘাত এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "BUET Admission",
       "question": "(cos 30° + i sin 30°)⁶ এর মান কত?",
       "answer": "(\\cos 30° + i\\sin 30°)^6 = \\cos(6 \\times 30°) + i\\sin(6 \\times 30°) = \\cos 180° + i\\sin 180° = -1 + 0i = -1"
+    },
+    {
+      "examType": "Concept",
+      "question": "দ্য ময়ভারের উপপাদ্য ও জটিল সংখ্যার ঘাত দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "(\\cos\\theta + i\\sin\\theta)^n = \\cos(n\\theta) + i\\sin(n\\theta), \\quad e^{i\\theta} = \\cos\\theta + i\\sin\\theta"
     }
   ],
   "memorize": {
     "trick": "(cosθ + i sinθ)^n = cos(nθ) + i sin(nθ)—modulus-এর n-th power, argument n গুণ; single-valued identity-তে n পূর্ণসংখ্যা।",
     "steps": [
       "(cosθ + i sinθ)^n = cos(nθ) + i sin(nθ)—modulus-এর n-th power, argument n গুণ; single-valued identity-তে n …",
-      "মনে রাখো — জটিল সংখ্যার মেরু রূপ এবং দ্য ময়ভারের উপপাদ্য প্রয়োগ",
-      "চিহ্ন চেক: i, \\theta, n"
+      "প্রশ্নে দ্য ময়ভারের উপপাদ্য ও জটিল সংখ্যার ঘাত বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: i=কাল্পনিক একক, i² = -1, \\theta=আর্গুমেন্ট (কোণ)।"
     ]
   },
   "subjects": [

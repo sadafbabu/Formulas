@@ -3,7 +3,7 @@
   "chapter": "coordination-chemistry",
   "title": "Crystal Field Splitting",
   "titleBn": "স্ফটিক ক্ষেত্র বিভাজন",
-  "summary": "বড় Δ → নিম্ন স্পিন; ছোট Δ → উচ্চ স্পিন।",
+  "summary": "স্ফটিক ক্ষেত্র বিভাজন: বড় Δ → নিম্ন স্পিন; ছোট Δ → উচ্চ স্পিন।",
   "latex": "\\Delta_o\\ (\\text{octahedral}),\\quad \\Delta_t=\\tfrac45\\Delta_o\\ (\\text{approx. for tetrahedral})",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "বড় Δ → নিম্ন স্পিন; ছোট Δ → উচ্চ স্পিন।",
+    "lead": "স্ফটিক ক্ষেত্র বিভাজন প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\Delta_o\\ (\\text{octahedral}),\\quad \\Delta_t=\\tfrac45\\Delta_o\\ (\\text{approx. for tetrahedral})",
-        "note": "স্ফটিক ক্ষেত্র বিভাজন এর প্রাথমিক রূপ।"
+        "note": "স্ফটিক ক্ষেত্র বিভাজন: বড় Δ → নিম্ন স্পিন; ছোট Δ → উচ্চ স্পিন।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\Delta_o\\ (\\text{octahedral}),\\quad \\Delta_t=\\tfrac45\\Delta_o\\ (\\text{approx. for tetrahedral})",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "বড় Δ → নিম্ন স্পিন; ছোট Δ → উচ্চ স্পিন।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "স্ফটিক ক্ষেত্র বিভাজন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\Delta_o\\ (\\text{octahedral}),\\quad \\Delta_t=\\tfrac45\\Delta_o\\ (\\text{approx. for tetrahedral})"
+      "question": "স্ফটিক ক্ষেত্র বিভাজন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\Delta_o\\ (\\text{octahedral}),\\quad \\Delta_t=\\tfrac45\\Delta_o\\ (\\text{approx. for tetrahedral})\\text{ — }বড় Δ → নিম্ন স্পিন; ছোট Δ → উচ্চ স্পিন।"
     },
     {
       "examType": "Concept",
-      "question": "স্ফটিক ক্ষেত্র বিভাজন দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{বড় Δ → নিম্ন স্পিন; ছোট Δ → উচ্চ স্পিন।}"
+      "question": "স্ফটিক ক্ষেত্র বিভাজন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\Delta_o\\ (\\text{octahedral}),\\quad \\Delta_t=\\tfrac45\\Delta_o\\ (\\text{approx. for tetrahedral})\\text{ — }বড় Δ → নিম্ন স্পিন; ছোট Δ → উচ্চ স্পিন।"
     }
   ],
   "memorize": {
     "trick": "বড় Δ → নিম্ন স্পিন; ছোট Δ → উচ্চ স্পিন।",
     "steps": [
       "বড় Δ → নিম্ন স্পিন; ছোট Δ → উচ্চ স্পিন।",
-      "মনে রাখো — বড় Δ → নিম্ন স্পিন; ছোট Δ → উচ্চ স্পিন।",
-      "চিহ্ন চেক: Delta, o, octahedral"
+      "প্রশ্নে স্ফটিক ক্ষেত্র বিভাজন বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: Delta=Δ_o / Δ_t, t=সময়।"
     ]
   },
   "subjects": [

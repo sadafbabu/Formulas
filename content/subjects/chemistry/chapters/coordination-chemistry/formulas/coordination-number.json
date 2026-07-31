@@ -3,7 +3,7 @@
   "chapter": "coordination-chemistry",
   "title": "Coordination Number",
   "titleBn": "সমন্বয় সংখ্যা",
-  "summary": "Ligand donor atoms count; common CN=4,6।",
+  "summary": "সমন্বয় সংখ্যা: Ligand donor atoms count; common CN=4,6।",
   "latex": "\\text{CN}=\\text{number of donor atoms bonded to central metal}",
   "tags": [
     "hsc",
@@ -19,47 +19,45 @@
       "symbol": "CN",
       "meaning": "CN=?",
       "unit": "—"
-    },
-    {
-      "symbol": "number of donor atoms bonded to central metal",
-      "meaning": "number of donor atoms bonded to central metal (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "Ligand donor atoms count; common CN=4,6।",
+    "lead": "সমন্বয় সংখ্যা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{CN}=\\text{number of donor atoms bonded to central metal}",
-        "note": "সমন্বয় সংখ্যা এর প্রাথমিক রূপ।"
+        "note": "সমন্বয় সংখ্যা: Ligand donor atoms count; common CN=4,6।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{CN}=\\text{number of donor atoms bonded to central metal}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Ligand donor atoms count; common CN=4,6।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সমন্বয় সংখ্যা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{CN}=\\text{number of donor atoms bonded to central metal}"
+      "question": "সমন্বয় সংখ্যা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{CN}=\\text{number of donor atoms bonded to central metal}\\text{ — }Ligand donor atoms count; common CN=4,6।"
     },
     {
       "examType": "Concept",
-      "question": "সমন্বয় সংখ্যা দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{Ligand donor atoms count; common CN=4,6।}"
+      "question": "সমন্বয় সংখ্যা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{CN}=\\text{number of donor atoms bonded to central metal}\\text{ — }Ligand donor atoms count; common CN=4,6।"
     }
   ],
   "memorize": {
     "trick": "Ligand donor atoms count; common CN=4,6।",
     "steps": [
       "Ligand donor atoms count; common CN=4,6।",
-      "মনে রাখো — Ligand donor atoms count; common CN=4,6।",
-      "চিহ্ন চেক: CN, number of donor atoms bonded to central metal"
+      "প্রশ্নে সমন্বয় সংখ্যা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: CN=CN=?।"
     ]
   },
   "subjects": [

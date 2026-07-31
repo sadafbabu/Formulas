@@ -3,7 +3,7 @@
   "chapter": "solid-state-chemistry",
   "title": "Packing Efficiency",
   "titleBn": "প্যাকিং দক্ষতা",
-  "summary": "SC=52%, BCC=68%, FCC/HCP=74% — memorize।",
+  "summary": "প্যাকিং দক্ষতা: SC=52%, BCC=68%, FCC/HCP=74% — memorize।",
   "latex": "\\text{PE}=\\frac{\\text{volume of atoms}}{\\text{volume of unit cell}}\\times100\\%",
   "tags": [
     "hsc",
@@ -24,33 +24,36 @@
       "symbol": "volume of atoms",
       "meaning": "volume of atoms (সূত্রের রাশি)",
       "unit": "—"
-    },
-    {
-      "symbol": "volume of unit cell",
-      "meaning": "volume of unit cell (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "SC=52%, BCC=68%, FCC/HCP=74% — memorize।",
+    "lead": "প্যাকিং দক্ষতা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\text{PE}=\\frac{\\text{volume of atoms}}{\\text{volume of unit cell}}\\times100\\%",
-        "note": "প্যাকিং দক্ষতা এর প্রাথমিক রূপ।"
+        "note": "প্যাকিং দক্ষতা: SC=52%, BCC=68%, FCC/HCP=74% — memorize।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{PE}=\\frac{\\text{volume of atoms}}{\\text{volume of unit cell}}\\times100\\%",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "SC=52%, BCC=68%, FCC/HCP=74% — memorize।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "প্যাকিং দক্ষতা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
+      "question": "প্যাকিং দক্ষতা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{PE}=\\frac{\\text{volume of atoms}}{\\text{volume of unit cell}}\\times100\\%\\text{ — }SC=52%, BCC=68%, FCC/HCP=74% — memorize।"
+    },
+    {
+      "examType": "Concept",
+      "question": "প্যাকিং দক্ষতা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "\\text{PE}=\\frac{\\text{volume of atoms}}{\\text{volume of unit cell}}\\times100\\%"
     }
   ],
@@ -58,8 +61,8 @@
     "trick": "SC=52%, BCC=68%, FCC/HCP=74% — memorize।",
     "steps": [
       "SC=52%, BCC=68%, FCC/HCP=74% — memorize।",
-      "মনে রাখো — SC=52%, BCC=68%, FCC/HCP=74% — memorize।",
-      "চিহ্ন চেক: PE, volume of atoms, volume of unit cell"
+      "প্রশ্নে প্যাকিং দক্ষতা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: PE=volume occupied।"
     ]
   },
   "subjects": [

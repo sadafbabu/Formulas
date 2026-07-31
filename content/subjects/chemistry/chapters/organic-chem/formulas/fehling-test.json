@@ -3,7 +3,7 @@
   "chapter": "organic-chem",
   "title": "Fehling's Test",
   "titleBn": "ফেলিং পরীক্ষা",
-  "summary": "Aldehyde → red Cu₂O precipitate; ketone negative।",
+  "summary": "ফেলিং পরীক্ষা: Aldehyde → red Cu₂O precipitate; ketone negative।",
   "latex": "\\ce{RCHO + 2Cu(OH)2 -> RCOOH + Cu2O + 2H2O}",
   "tags": [
     "hsc",
@@ -32,35 +32,38 @@
     },
     {
       "symbol": "H",
-      "meaning": "চৌম্বক ক্ষেত্র / এনথ্যালপি",
-      "unit": "A/m বা J"
+      "meaning": "এনথ্যালপি",
+      "unit": "J বা kJ"
     }
   ],
   "derivation": {
-    "lead": "Aldehyde → red Cu₂O precipitate; ketone negative।",
+    "lead": "ফেলিং পরীক্ষা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\ce{RCHO + 2Cu(OH)2 -> RCOOH + Cu2O + 2H2O}",
-        "note": "ফেলিং পরীক্ষা এর প্রাথমিক রূপ।"
+        "note": "ফেলিং পরীক্ষা: Aldehyde → red Cu₂O precipitate; ketone negative।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\ce{RCHO + 2Cu(OH)2 -> RCOOH + Cu2O + 2H2O}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "Aldehyde → red Cu₂O precipitate; ketone negative।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "ফেলিং পরীক্ষা লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\ce{RCHO + 2Cu(OH)2 -> RCOOH + Cu2O + 2H2O}"
+      "question": "ফেলিং পরীক্ষা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{Aldehyde → red Cu₂O precipitate; ketone negative।}"
     },
     {
       "examType": "Concept",
-      "question": "ফেলিং পরীক্ষা দিয়ে কী নির্ণয়/বোঝা যায়?",
+      "question": "ফেলিং পরীক্ষা কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
       "answer": "\\text{Aldehyde → red Cu₂O precipitate; ketone negative।}"
     }
   ],
@@ -68,8 +71,8 @@
     "trick": "Aldehyde → red Cu₂O precipitate; ketone negative।",
     "steps": [
       "Aldehyde → red Cu₂O precipitate; ketone negative।",
-      "মনে রাখো — Aldehyde → red Cu₂O precipitate; ketone negative।",
-      "চিহ্ন চেক: ce, R, C"
+      "প্রশ্নে ফেলিং পরীক্ষা বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: ce=aldehyde detection, R=রোধ / গ্যাস ধ্রুবক / ব্যাসার্ধ।"
     ]
   },
   "subjects": [

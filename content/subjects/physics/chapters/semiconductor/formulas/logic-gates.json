@@ -72,6 +72,11 @@
       "examType": "HSC Board",
       "question": "NAND গেটের দুই ইনপুট একসাথে যুক্ত করলে কোন গেট পাওয়া যায়?",
       "answer": "Y = \\overline{A \\cdot A} = \\bar{A} \\Rightarrow \\text{NOT গেট}"
+    },
+    {
+      "examType": "Concept",
+      "question": "লজিক গেট ও বুলিয়ান বীজগণিত দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{AND = গুণ (সব ১ হলে ১), OR = যোগ (একটি ১ হলেই ১)। XOR = \"আলাদা হলে ১\"। আর দ্য মরগ্যান: \"বার ভাঙলে চিহ্ন বদলায়\" — যোগ হয}"
     }
   ],
   "memorize": {

@@ -67,6 +67,11 @@
       "examType": "Eng Admission",
       "question": "১ m উঁচু থেকে ফেলা একটি বল ০.৬৪ m উঁচুতে ওঠে। e কত এবং দ্বিতীয় লাফে কত উঁচুতে উঠবে?",
       "answer": "e = \\sqrt{0.64/1} = 0.8, \\quad h_2 = e^4 h_0 = 0.4096\\ \\text{m}"
+    },
+    {
+      "examType": "Concept",
+      "question": "স্থিতিস্থাপক সহগ ও লাফানো বলের উচ্চতা দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "e = \\frac{v_2 - v_1}{u_1 - u_2}, \\quad h_n = e^{2n}h_0, \\quad 0 \\le e \\le 1"
     }
   ],
   "memorize": {

@@ -79,14 +79,19 @@
       "examType": "Admission",
       "question": "তির্যক সংঘর্ষে কোন উপাংশ অপরিবর্তিত থাকে?",
       "answer": "\\text{স্পর্শক (tangential) উপাংশ}"
+    },
+    {
+      "examType": "Concept",
+      "question": "তির্যক সংঘর্ষ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Tangent একই থাকে; Normal-এ 1D collision + e।}"
     }
   ],
   "memorize": {
     "trick": "Tangent একই থাকে; Normal-এ 1D collision + e।",
     "steps": [
       "Tangent একই থাকে; Normal-এ 1D collision + e।",
-      "মনে রাখো — স্পর্শক উপাংশ অপরিবর্তিত; অভিলম্ব বরাবর 1D সংঘর্ষ",
-      "চিহ্ন চেক: u_{it}, v_{it}, u_{in}"
+      "প্রশ্নে তির্যক সংঘর্ষ বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: u_{it}=i-তম বস্তুর স্পর্শক বেগ উপাংশ, v_{it}=বেগ।"
     ]
   },
   "subjects": [

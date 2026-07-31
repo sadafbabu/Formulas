@@ -42,34 +42,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "[\\alpha]=\\frac{\\alpha}{l\\cdot c},\\quad\\mathrm{ee}=\\frac{[\\alpha]_{obs}}{[\\alpha]_{pure}}\\times100\\%",
-        "note": "আপেক্ষিক ঘূর্ণন এর প্রাথমিক রূপ।"
+        "note": "অপটিক্যাল অ্যাকটিভিটির পরিমাপ"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "[\\alpha]=\\frac{\\alpha}{l\\cdot c},\\quad\\mathrm{ee}=\\frac{[\\alpha]_{obs}}{[\\alpha]_{pure}}\\times100\\%",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "[α]=α/(l·c); ee অনুপাতে বিশুদ্ধতা।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আপেক্ষিক ঘূর্ণন লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "[\\alpha]=\\frac{\\alpha}{l\\cdot c},\\quad\\mathrm{ee}=\\frac{[\\alpha]_{obs}}{[\\alpha]_{pure}}\\times100\\%"
+      "question": "আপেক্ষিক ঘূর্ণন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "[\\alpha]=\\frac{\\alpha}{l\\cdot c},\\quad\\mathrm{ee}=\\frac{[\\alpha]_{obs}}{[\\alpha]_{pure}}\\times100\\%\\text{ — }[α]=α/(l·c); ee অনুপাতে বিশুদ্ধতা।"
     },
     {
       "examType": "Concept",
-      "question": "আপেক্ষিক ঘূর্ণন দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{[α]=α/(lc); ee অনুপাতে বিশুদ্ধতা।}"
+      "question": "আপেক্ষিক ঘূর্ণন কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "[\\alpha]=\\frac{\\alpha}{l\\cdot c},\\quad\\mathrm{ee}=\\frac{[\\alpha]_{obs}}{[\\alpha]_{pure}}\\times100\\%\\text{ — }[α]=α/(l·c); ee অনুপাতে বিশুদ্ধতা।"
     }
   ],
   "memorize": {
     "trick": "[α]=α/(l·c); ee অনুপাতে বিশুদ্ধতা।",
     "steps": [
       "[α]=α/(l·c); ee অনুপাতে বিশুদ্ধতা।",
-      "মনে রাখো — অপটিক্যাল অ্যাকটিভিটির পরিমাপ",
-      "চিহ্ন চেক: alpha, l, c"
+      "প্রশ্নে আপেক্ষিক ঘূর্ণন বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: alpha=অপটিক্যাল অ্যাকটিভিটির পরিমাপ, l=দৈর্ঘ্য / আবেশ / ল্যাটেন্ট।"
     ]
   },
   "subjects": [

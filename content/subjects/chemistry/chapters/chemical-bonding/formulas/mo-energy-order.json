@@ -3,7 +3,7 @@
   "chapter": "chemical-bonding",
   "title": "MO Energy Order",
   "titleBn": "আণবিক অরবিটাল শক্তি ক্রম",
-  "summary": "N₂-তে π আগে σ2p; O₂-তে σ2p আগে।",
+  "summary": "আণবিক অরবিটাল শক্তি ক্রম: N₂-তে π আগে σ2p; O₂-তে σ2p আগে।",
   "latex": "\\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\sigma^*2s\\,\\sigma2p\\,\\pi2p\\,\\pi^*",
   "tags": [
     "hsc",
@@ -37,39 +37,42 @@
     }
   ],
   "derivation": {
-    "lead": "N₂-তে π আগে σ2p; O₂-তে σ2p আগে।",
+    "lead": "আণবিক অরবিটাল শক্তি ক্রম প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\sigma^*2s\\,\\sigma2p\\,\\pi2p\\,\\pi^*",
-        "note": "আণবিক অরবিটাল শক্তি ক্রম এর প্রাথমিক রূপ।"
+        "note": "আণবিক অরবিটাল শক্তি ক্রম: N₂-তে π আগে σ2p; O₂-তে σ2p আগে।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\sigma^*2s\\,\\sigma2p\\,\\pi2p\\,\\pi^*",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "N₂-তে π আগে σ2p; O₂-তে σ2p আগে।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আণবিক অরবিটাল শক্তি ক্রম লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\sigma^*2s\\,\\sigma2p\\,\\pi2p\\,\\pi^*"
+      "question": "আণবিক অরবিটাল শক্তি ক্রম কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\sigma^*2s\\,\\sigma2p\\,\\pi2p\\,\\pi^*\\text{ — }N₂-তে π আগে σ2p; O₂-তে σ2p আগে।"
     },
     {
       "examType": "Concept",
-      "question": "আণবিক অরবিটাল শক্তি ক্রম দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{N₂-তে π আগে σ2p; O₂-তে σ2p আগে।}"
+      "question": "আণবিক অরবিটাল শক্তি ক্রম কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{N_2}:\\sigma2s\\,\\sigma^*2s\\,\\pi2p\\,\\sigma2p;\\quad\\mathrm{O_2}:\\sigma2s\\,\\sigma^*2s\\,\\sigma2p\\,\\pi2p\\,\\pi^*\\text{ — }N₂-তে π আগে σ2p; O₂-তে σ2p আগে।"
     }
   ],
   "memorize": {
     "trick": "N₂-তে π আগে σ2p; O₂-তে σ2p আগে।",
     "steps": [
       "N₂-তে π আগে σ2p; O₂-তে σ2p আগে।",
-      "মনে রাখো — N₂-তে π আগে σ2p; O₂-তে σ2p আগে।",
-      "চিহ্ন চেক: N_2, sigma, s"
+      "প্রশ্নে আণবিক অরবিটাল শক্তি ক্রম বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: N_2=N₂ ও O₂ এর MO ক্রম, sigma=স্ট্রেস / স্টেফান ধ্রুবক / পরিবাহিতা।"
     ]
   },
   "subjects": [

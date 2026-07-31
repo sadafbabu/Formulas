@@ -15,8 +15,8 @@
   "order": 60,
   "symbols": [
     {
-      "symbol": "feasible region = intersection of all constraints",
-      "meaning": "intersection of half-planes",
+      "symbol": "\\text{key}",
+      "meaning": "সম্ভাব্য অঞ্চল এর মূল রাশি",
       "unit": "—"
     }
   ],
@@ -26,34 +26,37 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{feasible region = intersection of all constraints}",
-        "note": "সম্ভাব্য অঞ্চল এর প্রাথমিক রূপ।"
+        "note": "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\text{feasible region = intersection of all constraints}",
-        "note": "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।"
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "note": "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত। — সম্ভাব্য অঞ্চল মনে রাখার চাবিকাঠি।"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
+      "সম্ভাব্য অঞ্চল এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "সম্ভাব্য অঞ্চল লিখো এবং একটি ব্যবহার উল্লেখ করো।",
-      "answer": "\\text{feasible region = intersection of all constraints}"
+      "question": "সম্ভাব্য অঞ্চল কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{feasible region = intersection of all constraints}\\text{ — }বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত। — সম্ভাব্য অঞ্চল মনে রাখার চাবিকাঠি।"
     },
     {
       "examType": "Concept",
-      "question": "সম্ভাব্য অঞ্চল দিয়ে কী নির্ণয়/বোঝা যায়?",
-      "answer": "\\text{বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।}"
+      "question": "সম্ভাব্য অঞ্চল কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\text{feasible region = intersection of all constraints}\\text{ — }বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত। — সম্ভাব্য অঞ্চল মনে রাখার চাবিকাঠি।"
     }
   ],
   "memorize": {
     "trick": "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত। — সম্ভাব্য অঞ্চল মনে রাখার চাবিকাঠি।",
     "steps": [
-      "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।",
-      "মনে রাখো — বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত।",
-      "চিহ্ন চেক: feasible region = intersection of all constraints"
+      "বন্ধ ও সীমাবদ্ধ হলে সমাধান নিশ্চিত। — সম্ভাব্য অঞ্চল মনে রাখার চাবিকাঠি।",
+      "প্রশ্নে সম্ভাব্য অঞ্চল বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "একক, চিহ্ন ও সীমাবদ্ধতা যাচাই করে উত্তর লেখো।"
     ]
   },
   "subjects": [

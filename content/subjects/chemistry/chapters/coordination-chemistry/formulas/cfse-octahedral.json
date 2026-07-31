@@ -54,6 +54,11 @@
       "examType": "Admission",
       "question": "d⁶ low-spin (t₂g⁶)-এর CFSE?",
       "answer": "-2.4\\Delta_o"
+    },
+    {
+      "examType": "Concept",
+      "question": "অষ্টতলকীয় জটিলের CFSE দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\mathrm{CFSE}=(-0.4\\,n_{t_{2g}}+0.6\\,n_{e_g})\\Delta_o"
     }
   ],
   "memorize": {

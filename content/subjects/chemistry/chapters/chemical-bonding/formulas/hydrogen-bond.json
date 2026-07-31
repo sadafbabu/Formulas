@@ -56,7 +56,12 @@
     {
       "examType": "Medical Admission",
       "question": "\\ce{H2O}, \\ce{H2S}, \\ce{H2Se}, \\ce{H2Te}—কোনটির স্ফুটনাঙ্ক অস্বাভাবিক বেশি ও কেন?",
-      "answer": "\\ce{H2O};\\ \\text{প্রবল আন্তঃআণবিক hydrogen bonding-এর জন্য।}"
+      "answer": "\\text{Hydrogen bond-এর ‘FON rule’: H অবশ্যই F, O বা N-এ বাঁধা। এ জন্য H₂O, HF, NH₃-এর boiling point অস্বাভাবিক বেশি।}"
+    },
+    {
+      "examType": "Concept",
+      "question": "হাইড্রোজেন বন্ধন ও আন্তঃআণবিক আকর্ষণ দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{Hydrogen bond-এর ‘FON rule’: H অবশ্যই F, O বা N-এ বাঁধা। এ জন্য H₂O, HF, NH₃-এর boiling point অস্বাভাবিক বেশি।}"
     }
   ],
   "memorize": {

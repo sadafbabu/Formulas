@@ -59,6 +59,11 @@
       "examType": "Admission",
       "question": "T½=5 দিন। τ কত?",
       "answer": "\\tau=5/\\ln2\\approx7.21\\\\ \\mathrm{day}"
+    },
+    {
+      "examType": "Concept",
+      "question": "সক্রিয়তা ও গড় আয়ু দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
+      "answer": "\\text{A=λN; গড় আয়ু τ≈1.44×অর্ধায়ু — τ > T½ সবসময়।}"
     }
   ],
   "memorize": {

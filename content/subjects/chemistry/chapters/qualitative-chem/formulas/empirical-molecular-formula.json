@@ -3,7 +3,7 @@
   "chapter": "qualitative-chem",
   "title": "Empirical & Molecular Formula",
   "titleBn": "আনুভবিক ও আণবিক সংকেত",
-  "summary": "n = আণবিক ভর ÷ আনুভবিক ভর। \\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
+  "summary": "আনুভবিক ও আণবিক সংকেত: n = আণবিক ভর ÷ আনুভবিক ভর। \\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
   "latex": "\\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
   "tags": [
     "hsc",
@@ -37,25 +37,33 @@
     }
   ],
   "derivation": {
-    "lead": "n = আণবিক ভর ÷ আনুভবিক ভর। \\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
+    "lead": "আনুভবিক ও আণবিক সংকেত প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
     "steps": [
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
-        "note": "আনুভবিক ও আণবিক সংকেত এর প্রাথমিক রূপ।"
+        "note": "আনুভবিক ও আণবিক সংকেত: n = আণবিক ভর ÷ আনুভবিক ভর। \\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}"
       },
       {
-        "title": "মনে রাখা ও প্রয়োগ",
-        "latex": "\\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
+        "title": "প্রয়োগের ধাপ",
+        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
         "note": "n = আণবিক ভর ÷ আনুভবিক ভর। \\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}"
       }
     ],
-    "assumptions": []
+    "assumptions": [
+      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
+      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+    ]
   },
   "questions": [
     {
       "examType": "HSC / Admission",
-      "question": "আনুভবিক ও আণবিক সংকেত এর মূল সূত্র কী? এক লাইনে কখন কাজে লাগে?",
+      "question": "আনুভবিক ও আণবিক সংকেত কোন পরিস্থিতিতে লাগে? একটি উদাহরণ দাও।",
+      "answer": "\\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}"
+    },
+    {
+      "examType": "Concept",
+      "question": "আনুভবিক ও আণবিক সংকেত দিয়ে কী বোঝা যায় / সাধারণ ভুল কী?",
       "answer": "\\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}"
     }
   ],
@@ -63,8 +71,8 @@
     "trick": "n = আণবিক ভর ÷ আনুভবিক ভর। \\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
     "steps": [
       "n = আণবিক ভর ÷ আনুভবিক ভর। \\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
-      "মনে রাখো — n = আণবিক ভর ÷ আনুভবিক ভর। \\mathrm{MF}=(\\mathrm{EF})_n,\\quad n=\\frac{M_{mol}}{M_{emp}}",
-      "চিহ্ন চেক: MF, EF, n"
+      "প্রশ্নে আনুভবিক ও আণবিক সংকেত বা একই রাশি দেখলে এই সূত্র বসাও।",
+      "রাশি মিলিয়ে নাও: MF=EF থেকে MF নির্ণয়, n=মোল সংখ্যা / কোটি।"
     ]
   },
   "subjects": [
