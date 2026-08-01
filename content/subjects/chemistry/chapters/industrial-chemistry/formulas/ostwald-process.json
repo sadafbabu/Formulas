@@ -29,30 +29,24 @@
       "symbol": "H",
       "meaning": "এনথ্যালপি",
       "unit": "J বা kJ"
-    },
-    {
-      "symbol": "O",
-      "meaning": "O (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "অস্টওয়াল্ড পদ্ধতি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
+    "lead": "অস্টওয়াল্ড পদ্ধতি: প্রদত্ত মান বসিয়ে সম্পর্ক প্রয়োগ করো।",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "\\ce{4NH3 + 5O2 -> 4NO + 6H2O};\\quad \\ce{NO -> NO2 -> HNO3}",
+        "latex": "\\text{অস্টওয়াল্ড পদ্ধতি: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "অস্টওয়াল্ড পদ্ধতি: Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{মান বসাও} \\rightarrow \\text{ফলাফল যাচাই}",
         "note": "Ammonia oxidation → NO → NO₂ → HNO₃; Pt catalyst।"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "শিল্প প্রক্রিয়ার প্রধান ধাপ"
     ]
   },
   "questions": [

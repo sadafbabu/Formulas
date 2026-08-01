@@ -42,17 +42,16 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}",
-        "note": "ট্রান্সফরমার সমীকরণ এর মূল সম্পর্ক।"
+        "note": "স্টেপ-আপ: Ns>Np। \\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{ট্রান্সফরমার সমীকরণ: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "স্টেপ-আপ: Ns>Np। \\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}"
       }
     ],
     "assumptions": [
-      "SI একক ব্যবহার করো",
-      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+      "সাইনসয়েডাল স্থিতিশীল অবস্থা"
     ]
   },
   "questions": [

@@ -19,20 +19,10 @@
       "symbol": "ppm",
       "meaning": "parts per million",
       "unit": "—"
-    },
-    {
-      "symbol": "mass solute",
-      "meaning": "mass solute (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
-      "symbol": "mass solution",
-      "meaning": "mass solution (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "ppm ও ppb প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
+    "lead": "ppm ও ppb: প্রদত্ত মান বসিয়ে সম্পর্ক প্রয়োগ করো।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -40,14 +30,13 @@
         "note": "ppm ও ppb: জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{ppm ও ppb: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "জল দূষণ/অশোধনে ppm; ১ ppm ≈ ১ mg/L জলে।"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "মোল ধারণা ও ভর সংরক্ষণ"
     ]
   },
   "questions": [

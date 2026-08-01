@@ -29,11 +29,6 @@
       "unit": "cm"
     },
     {
-      "symbol": "f_e",
-      "meaning": "আইপিসের ফোকাস দূরত্ব",
-      "unit": "cm"
-    },
-    {
       "symbol": "D",
       "meaning": "স্পষ্ট দৃষ্টির নিকট দূরত্ব",
       "unit": "cm",
@@ -43,11 +38,6 @@
       "symbol": "L",
       "meaning": "নলের দৈর্ঘ্য",
       "unit": "cm"
-    },
-    {
-      "symbol": "D_{\\mathrm{ap}}",
-      "meaning": "objective aperture-এর ব্যাস",
-      "unit": "m"
     }
   ],
   "derivation": {

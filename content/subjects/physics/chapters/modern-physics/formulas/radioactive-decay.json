@@ -45,13 +45,13 @@
         "note": "তেজস্ক্রিয় পরমাণুর ক্ষয়ের হার ও অর্ধায়ুর সমীকরণ"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{তেজস্ক্রিয় ক্ষয় সূত্র ও অর্ধায়ু: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "N = N₀e^(-λt); T½ = 0.693/λ — অর্ধায়ু = 0.693 ÷ ক্ষয় ধ্রুবক।"
       }
     ],
     "assumptions": [
-      "HSC/ভর্তি পর্যায়ে প্রচলিত আদর্শ শর্ত প্রযোজ্য"
+      "প্রদত্ত কোয়ান্টাম/আপেক্ষিকতা শর্ত"
     ]
   },
   "questions": [
@@ -80,8 +80,6 @@
   "related": [
     "activity-mean-life",
     "mass-energy-photoelectric",
-    "de-broglie-wavelength",
-    "half-life-chem",
-    "radioactive-decay-law-chem"
+    "de-broglie-wavelength"
   ]
 }

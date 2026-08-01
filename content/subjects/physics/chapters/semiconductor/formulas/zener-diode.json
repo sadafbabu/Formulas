@@ -37,9 +37,9 @@
         "note": "জেনার ব্রেকডাউন বিভব ও নিয়ন্ত্রণ সার্কিট"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
-        "note": "Voltage regulator হিসেবে Zener diode reverse-breakdown অঞ্চলে চালানো হয়; I_Z,min ≤ I_Z ≤ I_Z,max এবং power rating মানলে V_out ≈ V_Z স্থির থ"
+        "title": "প্রয়োগ",
+        "latex": "\\text{জেনার ডায়োড বিভব নিয়ন্ত্রক: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
+        "note": "Voltage regulator হিসেবে Zener diode reverse-breakdown অঞ্চলে চালানো হয়; I_Z,min ≤ I_Z ≤ I_Z,max এবং power rating মানলে V_out ≈ V_Z স্থির থাকে।"
       }
     ],
     "assumptions": [

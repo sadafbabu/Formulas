@@ -21,11 +21,6 @@
       "unit": "kg"
     },
     {
-      "symbol": "m_2",
-      "meaning": "ভর",
-      "unit": "kg"
-    },
-    {
       "symbol": "\\theta",
       "meaning": "আনতির কোণ",
       "unit": "°"

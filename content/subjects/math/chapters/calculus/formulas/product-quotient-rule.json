@@ -19,17 +19,12 @@
     },
     {
       "symbol": "v",
-      "meaning": "v (সূত্রের রাশি)",
+      "meaning": "v",
       "unit": "m/s"
     },
     {
       "symbol": "u'",
       "meaning": "অন্তরীকৃত ফাংশন",
-      "unit": "—"
-    },
-    {
-      "symbol": "v'",
-      "meaning": "v' (সূত্রের রাশি)",
       "unit": "—"
     }
   ],
@@ -42,8 +37,8 @@
         "note": "দুটি ফাংশনের গুণফল ও ভাগফলের অন্তরীকরণ"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{গুণফল ও ভাগফল নিয়ম: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "গুণফলে যোগ, ভাগফলে বিয়োগ। গুণফল: u'v + uv'। ভাগফল: (u'v − uv')/v² — ছড়া: 'নিচে গুণ লবের অবকল, বিয়োগ লব গুণ নিচের অবকল, ভাগ নিচের বর্গ'।"
       }
     ],
@@ -78,7 +73,6 @@
     "math"
   ],
   "related": [
-    "product-rule-diff",
     "differentiation-chain-rule",
     "fundamental-theorem",
     "definite-integral-area"

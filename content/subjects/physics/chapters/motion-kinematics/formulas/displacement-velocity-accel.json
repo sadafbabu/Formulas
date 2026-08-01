@@ -40,8 +40,8 @@
         "note": "v = ds/dt; a = dv/dt = d²s/dt²"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{বেগ ও ত্বরণের সংজ্ঞা: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "সরণ→বেগ→ত্বরণ = একবার করে অবকলন: v=ds/dt, a=dv/dt।"
       }
     ],

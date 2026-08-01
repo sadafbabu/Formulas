@@ -21,11 +21,6 @@
       "unit": "s"
     },
     {
-      "symbol": "\\tau_{C}",
-      "meaning": "RC সময় ধ্রুবক",
-      "unit": "s"
-    },
-    {
       "symbol": "i",
       "meaning": "প্রবাহ ও চার্জ",
       "unit": "A, C"
@@ -78,7 +73,9 @@
     "physics"
   ],
   "related": [
-    "rc-charging",
-    "ac-impedance"
+    "ac-impedance",
+    "ac-average-peak",
+    "motional-emf",
+    "ac-through-l-c-r"
   ]
 }

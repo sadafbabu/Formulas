@@ -21,11 +21,6 @@
       "unit": "pm"
     },
     {
-      "symbol": "r_-",
-      "meaning": "ব্যাসার্ধ / দূরত্ব",
-      "unit": "pm"
-    },
-    {
       "symbol": "\\rho",
       "meaning": "ব্যাসার্ধ অনুপাত",
       "unit": "—"

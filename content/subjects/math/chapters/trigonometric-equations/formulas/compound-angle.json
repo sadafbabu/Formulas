@@ -32,8 +32,8 @@
         "note": "sin, cos, tan এর যোগফল ও বিয়োগফল কোণ সূত্র"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{যৌগিক কোণের সূত্র: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "sin(A±B) = sinA cosB ± cosA sinB; cos(A±B) = cosA cosB ∓ sinA sinB — sin মিশ্র চিহ্ন, cos বিপরীত চিহ্ন।"
       }
     ],

@@ -29,11 +29,6 @@
       "symbol": "C",
       "meaning": "ধারণক্ষমতা / ধারকত্ব",
       "unit": "F বা J/K"
-    },
-    {
-      "symbol": "circ",
-      "meaning": "circ (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
@@ -45,14 +40,13 @@
         "note": "একই ইলেকট্রোডে ঘনমাত্রা পার্থক্য থেকে emf"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{ঘনমাত্রা কোষ: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "E = (0.059/n) log(C₂/C₁) — বেশি ঘন দিকে বিজারিত।"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "প্রমিত/প্রদত্ত তাপমাত্রা; আদর্শ দ্রবণ আনুমানিক"
     ]
   },
   "questions": [
@@ -79,6 +73,9 @@
     "chemistry"
   ],
   "related": [
-    "nernst-equation"
+    "nernst-equation",
+    "batteries-fuel-cell",
+    "specific-conductivity",
+    "corrosion"
   ]
 }

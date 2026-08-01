@@ -33,11 +33,6 @@
       "unit": "C"
     },
     {
-      "symbol": "q_j",
-      "meaning": "চার্জ",
-      "unit": "C"
-    },
-    {
       "symbol": "r_{ij}",
       "meaning": "দূরত্ব",
       "unit": "m"

@@ -46,8 +46,7 @@
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "মোল ধারণা ও ভর সংরক্ষণ"
     ]
   },
   "questions": [
@@ -80,7 +79,7 @@
   ],
   "related": [
     "mole-concept-basic",
-    "raoult-law",
-    "osmotic-pressure"
+    "normality-relation",
+    "percentage-composition"
   ]
 }

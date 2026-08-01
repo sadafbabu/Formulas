@@ -29,11 +29,6 @@
       "symbol": "\\beta",
       "meaning": "শব্দের মাত্রা",
       "unit": "dB"
-    },
-    {
-      "symbol": "I_0",
-      "meaning": "প্রমাণ তীব্রতা 10⁻¹²",
-      "unit": "W/m²"
     }
   ],
   "derivation": {

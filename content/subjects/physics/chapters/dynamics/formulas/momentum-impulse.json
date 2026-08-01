@@ -19,7 +19,9 @@
   ],
   "related": [
     "newtons-laws",
-    "elastic-collision"
+    "moment-of-inertia",
+    "motion-equations",
+    "angular-momentum"
   ],
   "symbols": [
     {

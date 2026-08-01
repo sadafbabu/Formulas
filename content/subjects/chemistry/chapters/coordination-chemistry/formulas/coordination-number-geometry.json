@@ -22,12 +22,7 @@
     },
     {
       "symbol": "linear",
-      "meaning": "linear (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
-      "symbol": "octahedral",
-      "meaning": "octahedral (সূত্রের রাশি)",
+      "meaning": "linear",
       "unit": "—"
     }
   ],
@@ -37,17 +32,16 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}",
-        "note": "সমন্বয় সংখ্যা ও জ্যামিতি এর মূল সম্পর্ক।"
+        "note": "CN=৬ সাধারণত অষ্টতলক। \\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{সমন্বয় সংখ্যা ও জ্যামিতি: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "CN=৬ সাধারণত অষ্টতলক। \\mathrm{CN}=2\\to\\text{linear};\\ 4\\to\\text{tetrahedral/square planar};\\ 6\\to\\text{octahedral}"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "ওয়ার্নার/CFSE আনুমানিক মডেল"
     ]
   },
   "questions": [

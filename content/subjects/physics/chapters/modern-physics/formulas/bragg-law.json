@@ -40,14 +40,13 @@
         "note": "স্ফটিক থেকে এক্স-রে অপবর্তন"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{ব্র্যাগের সূত্র: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "2d sinθ = nλ — পথপার্থক্য দুই স্তরে।"
       }
     ],
     "assumptions": [
-      "SI একক ব্যবহার করো",
-      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+      "প্রদত্ত কোয়ান্টাম/আপেক্ষিকতা শর্ত"
     ]
   },
   "questions": [
@@ -74,6 +73,9 @@
     "physics"
   ],
   "related": [
-    "x-ray-characteristic"
+    "x-ray-characteristic",
+    "einstein-photoelectric",
+    "photoelectric-threshold",
+    "activity-mean-life"
   ]
 }

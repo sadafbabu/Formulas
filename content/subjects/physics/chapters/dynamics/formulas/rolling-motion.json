@@ -83,6 +83,8 @@
   ],
   "related": [
     "moment-of-inertia",
-    "kinetic-energy"
+    "angular-kinematics",
+    "atwood-machine",
+    "center-of-mass"
   ]
 }

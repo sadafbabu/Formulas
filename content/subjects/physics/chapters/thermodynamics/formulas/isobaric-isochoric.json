@@ -26,11 +26,6 @@
       "unit": "Pa, m³"
     },
     {
-      "symbol": "\\Delta V",
-      "meaning": "Delta V (সূত্রের রাশি)",
-      "unit": "Pa, m³"
-    },
-    {
       "symbol": "C_V",
       "meaning": "স্থির আয়তনে মোলার তাপধারণক্ষমতা",
       "unit": "J/(mol·K)"

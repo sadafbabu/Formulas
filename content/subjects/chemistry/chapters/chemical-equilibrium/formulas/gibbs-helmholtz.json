@@ -26,11 +26,6 @@
       "unit": "J/mol, J/(mol·K)"
     },
     {
-      "symbol": "\\Delta S",
-      "meaning": "Delta S (সূত্রের রাশি)",
-      "unit": "J/mol, J/(mol·K)"
-    },
-    {
       "symbol": "K",
       "meaning": "সাম্য ধ্রুবক",
       "unit": "—"

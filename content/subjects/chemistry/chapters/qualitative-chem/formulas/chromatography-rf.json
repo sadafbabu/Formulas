@@ -30,8 +30,8 @@
         "note": "R_f = স্পটের দূরত্ব / দ্রাবকের দূরত্ব"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{ক্রোমাটোগ্রাফি Rf মান: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "R_f = স্পট/সলভেন্ট — ১-এর বেশি হয় না।"
       }
     ],
@@ -63,6 +63,9 @@
     "chemistry"
   ],
   "related": [
-    "quantum-numbers"
+    "quantum-numbers",
+    "atomic-radius-trend",
+    "electronegativity-pauling",
+    "electron-affinity-trend"
   ]
 }

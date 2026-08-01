@@ -21,23 +21,18 @@
       "unit": "—"
     },
     {
-      "symbol": "circ",
-      "meaning": "circ (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
       "symbol": "x",
       "meaning": "অবস্থান / অজানা",
       "unit": "m"
     },
     {
       "symbol": "B",
-      "meaning": "B (সূত্রের রাশি)",
-      "unit": "T"
+      "meaning": "B",
+      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "বাষ্পচাপের আপেক্ষিক হ্রাস প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
+    "lead": "বাষ্পচাপের আপেক্ষিক হ্রাস: প্রদত্ত মান বসিয়ে সম্পর্ক প্রয়োগ করো।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -45,14 +40,13 @@
         "note": "বাষ্পচাপের আপেক্ষিক হ্রাস: ΔP/P° = mole fraction of solute; Raoult's law base।"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{বাষ্পচাপের আপেক্ষিক হ্রাস: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "ΔP/P° = mole fraction of solute; Raoult's law base।"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "অত্যধিক লঘু দ্রবণ"
     ]
   },
   "questions": [

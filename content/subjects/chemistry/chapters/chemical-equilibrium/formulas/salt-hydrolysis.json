@@ -19,8 +19,8 @@
   ],
   "related": [
     "acid-base-equilibria",
-    "ph-poh-water",
-    "buffer-solution"
+    "hess-gibbs",
+    "arrhenius-equation"
   ],
   "symbols": [
     {
@@ -44,12 +44,12 @@
     "steps": [
       {
         "title": "দুর্বল acid + শক্ত base-এর লবণ",
-        "latex": "K_h=\\frac{K_w}{K_a},\\quad [\\ce{OH-}]=\\sqrt{\\frac{K_wC}{K_a}}",
+        "latex": "K_h=\\frac{K_w}{K_a}\\ (\\text{দুর্বল acid-এর লবণ}),\\quad \\mathrm{pH}=7+\\tfrac12(pK_a+\\log C)",
         "note": "দ্রবণ ক্ষারীয়; pH = 7 + ½(pKₐ + log C)।"
       },
       {
         "title": "দুর্বল base + শক্ত acid-এর লবণ",
-        "latex": "K_h=\\frac{K_w}{K_b},\\quad [\\ce{H+}]=\\sqrt{\\frac{K_wC}{K_b}}",
+        "latex": "\\text{লবণের আর্দ্রবিশ্লেষণ ও দ্রবণের pH: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "দ্রবণ অম্লীয়; pH = 7 − ½(pK_b + log C)।"
       },
       {

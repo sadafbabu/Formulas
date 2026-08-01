@@ -45,8 +45,8 @@
         "note": "a_c = v²/r = ω²r — কেন্দ্রের দিকে"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{কেন্দ্রমুখী ত্বরণ: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "কেন্দ্রে টানে: a_c = v²/r = ω²r — বড় বেগ/ছোট r = বেশি টান।"
       }
     ],
@@ -77,7 +77,8 @@
     "physics"
   ],
   "related": [
-    "centripetal-force",
-    "angular-linear-relation"
+    "angular-linear-relation",
+    "period-frequency-circular",
+    "banking-of-road-ideal"
   ]
 }

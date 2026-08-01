@@ -17,7 +17,9 @@
     "physics"
   ],
   "related": [
-    "galvanometer-ammeter"
+    "galvanometer-ammeter",
+    "moving-coil-galvanometer",
+    "tangent-galvanometer"
   ],
   "symbols": [
     {
@@ -50,8 +52,8 @@
         "note": "গ্যালভানোমিটারের সাথে শ্রেণীতে উচ্চ মানের রোধ R যুক্ত করে ভোল্টমিটারে রূপান্তর।"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{গ্যালভানোমিটার থেকে ভোল্টমিটার (উচ্চ শ্র: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "ভোল্টমিটার = শ্রেণীতে বড় রোধ। R = V/I_g − G — 'মোট রোধ থেকে গ্যালভানোমিটারের রোধ বাদ'।"
       }
     ],

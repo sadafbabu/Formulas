@@ -24,11 +24,6 @@
       "symbol": "v_{\\mathrm{top}}",
       "meaning": "উপরের ন্যূনতম বেগ",
       "unit": "m/s"
-    },
-    {
-      "symbol": "v_{\\mathrm{bottom}}",
-      "meaning": "নিচের সংশ্লিষ্ট বেগ",
-      "unit": "m/s"
     }
   ],
   "derivation": {
@@ -73,6 +68,7 @@
   ],
   "related": [
     "vertical-circle-tension",
-    "centripetal-force"
+    "conical-pendulum",
+    "banking-of-road-ideal"
   ]
 }

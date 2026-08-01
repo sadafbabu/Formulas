@@ -19,18 +19,12 @@
   ],
   "related": [
     "pn-junction-diode",
-    "transistor-alpha-beta",
-    "resistivity-temperature"
+    "transistor-alpha-beta"
   ],
   "symbols": [
     {
       "symbol": "n_i",
       "meaning": "স্বকীয় আধানবাহক ঘনত্ব",
-      "unit": "m⁻³"
-    },
-    {
-      "symbol": "n",
-      "meaning": "ইলেকট্রন ঘনত্ব",
       "unit": "m⁻³"
     },
     {
@@ -41,11 +35,6 @@
     {
       "symbol": "\\mu_e",
       "meaning": "ইলেকট্রন ও হোলের চলনশীলতা",
-      "unit": "m²/(V·s)"
-    },
-    {
-      "symbol": "\\mu_h",
-      "meaning": "প্রতিসরাঙ্ক / চৌম্বক ভ্রামক",
       "unit": "m²/(V·s)"
     },
     {

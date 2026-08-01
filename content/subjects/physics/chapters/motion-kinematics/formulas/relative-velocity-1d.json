@@ -19,16 +19,6 @@
       "symbol": "v_A",
       "meaning": "ভূমি সাপেক্ষে বেগ (চিহ্নসহ)",
       "unit": "m/s"
-    },
-    {
-      "symbol": "v_B",
-      "meaning": "বেগ",
-      "unit": "m/s"
-    },
-    {
-      "symbol": "v_{AB}",
-      "meaning": "B সাপেক্ষে A-এর বেগ",
-      "unit": "m/s"
     }
   ],
   "derivation": {

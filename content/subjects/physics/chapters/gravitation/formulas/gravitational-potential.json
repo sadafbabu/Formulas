@@ -44,9 +44,9 @@
         "note": "মহাকর্ষীয় বিভব শক্তি ও বিভব সূত্র"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
-        "note": "অসীমে শূন্য বিভব ধরলে বিন্দু-ভরের V = −GM/r এবং দুই ভরের U = −GMm/r। ঋণাত্মক চিহ্ন bound attractive system বোঝায়; kinetic বা unbound total "
+        "title": "প্রয়োগ",
+        "latex": "\\text{মহাকর্ষীয় বিভব ও ক্ষেত্র: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
+        "note": "অসীমে শূন্য বিভব ধরলে বিন্দু-ভরের V = −GM/r এবং দুই ভরের U = −GMm/r। ঋণাত্মক চিহ্ন bound attractive system বোঝায়; kinetic বা unbound total energy অবশ্যই ঋণাত্ম"
       }
     ],
     "assumptions": [

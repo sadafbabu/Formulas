@@ -26,18 +26,13 @@
       "unit": "1 বা Ω"
     },
     {
-      "symbol": "oxidation state",
-      "meaning": "oxidation state (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
       "symbol": "CN",
-      "meaning": "CN (সূত্রের রাশি)",
+      "meaning": "সমন্বয় সংখ্যা",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "কার্যকর পরমাণু সংখ্যা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
+    "lead": "কার্যকর পরমাণু সংখ্যা: প্রদত্ত মান বসিয়ে সম্পর্ক প্রয়োগ করো।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -45,14 +40,13 @@
         "note": "কার্যকর পরমাণু সংখ্যা: EAN ≈ next noble gas (18 or 36) → stable complex।"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{কার্যকর পরমাণু সংখ্যা: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "EAN ≈ next noble gas (18 or 36) → stable complex।"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "ওয়ার্নার/CFSE আনুমানিক মডেল"
     ]
   },
   "questions": [

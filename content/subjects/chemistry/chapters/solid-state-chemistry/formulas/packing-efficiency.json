@@ -19,15 +19,10 @@
       "symbol": "PE",
       "meaning": "volume occupied",
       "unit": "—"
-    },
-    {
-      "symbol": "volume of atoms",
-      "meaning": "volume of atoms (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "প্যাকিং দক্ষতা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
+    "lead": "প্যাকিং দক্ষতা: প্রদত্ত মান বসিয়ে সম্পর্ক প্রয়োগ করো।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -35,14 +30,13 @@
         "note": "প্যাকিং দক্ষতা: SC=52%, BCC=68%, FCC/HCP=74% — memorize।"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{প্যাকিং দক্ষতা: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "SC=52%, BCC=68%, FCC/HCP=74% — memorize।"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "আদর্শ স্ফটিক জালি আনুমানিক"
     ]
   },
   "questions": [

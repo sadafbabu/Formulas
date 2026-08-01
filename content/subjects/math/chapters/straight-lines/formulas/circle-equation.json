@@ -17,7 +17,6 @@
     "math"
   ],
   "related": [
-    "circle-general-equation",
     "distance-formula",
     "equation-forms",
     "perpendicular-distance"
@@ -29,11 +28,6 @@
       "unit": "বিন্দু"
     },
     {
-      "symbol": "k)",
-      "meaning": "k) (সূত্রের রাশি)",
-      "unit": "বিন্দু"
-    },
-    {
       "symbol": "r",
       "meaning": "ব্যাসার্ধ",
       "unit": "একক"
@@ -41,11 +35,6 @@
     {
       "symbol": "(-g",
       "meaning": "সাধারণ রূপের কেন্দ্র",
-      "unit": "বিন্দু"
-    },
-    {
-      "symbol": "-f)",
-      "meaning": "-f) (সূত্রের রাশি)",
       "unit": "বিন্দু"
     },
     {
@@ -63,8 +52,8 @@
         "note": "কেন্দ্র ও ব্যাসার্ধ থেকে বৃত্তের সাধারণ ও প্রমাণ সমীকরণ"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{বৃত্তের সমীকরণ: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "কেন্দ্র (h,k) ও ব্যাসার্ধ r: (x-h)² + (y-k)² = r²। সাধারণ রূপে কেন্দ্র = (-g,-f), r = √(g²+f²-c)।"
       }
     ],

@@ -21,11 +21,6 @@
       "unit": "rad/s"
     },
     {
-      "symbol": "\\omega_0",
-      "meaning": "কৌণিক বেগ",
-      "unit": "rad/s"
-    },
-    {
       "symbol": "\\alpha",
       "meaning": "কৌণিক ত্বরণ",
       "unit": "rad/s²"

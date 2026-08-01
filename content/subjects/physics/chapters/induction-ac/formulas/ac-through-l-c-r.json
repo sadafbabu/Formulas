@@ -30,11 +30,6 @@
       "unit": "Ω"
     },
     {
-      "symbol": "X_C",
-      "meaning": "ধারকীয় বিক্রিয়া",
-      "unit": "Ω"
-    },
-    {
       "symbol": "f",
       "meaning": "কম্পাঙ্ক",
       "unit": "Hz"

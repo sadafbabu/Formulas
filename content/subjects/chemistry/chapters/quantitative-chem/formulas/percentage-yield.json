@@ -16,8 +16,8 @@
   "order": 100,
   "symbols": [
     {
-      "symbol": "\\text{key}",
-      "meaning": "শতকরা উৎপাদন এর মূল রাশি",
+      "symbol": "n",
+      "meaning": "শতকরা উৎপাদন এর প্রধান রাশি",
       "unit": "—"
     }
   ],
@@ -30,8 +30,8 @@
         "note": "% yield = (actual / theoretical) × 100"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{শতকরা উৎপাদন: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "% yield = যা পেয়েছ / যা পাওয়ার কথা × 100।"
       }
     ],

@@ -22,8 +22,8 @@
     },
     {
       "symbol": "[\\mathrm{RHS}]",
-      "meaning": "[\\mathrmRHS] (সূত্রের রাশি)",
-      "unit": "—"
+      "meaning": "\\mathrm{RHS} এর ঘনমাত্রা",
+      "unit": "mol/L"
     }
   ],
   "derivation": {
@@ -35,8 +35,8 @@
         "note": "সমীকরণের দুই পাশের মাত্রা সমান হতে হবে"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{মাত্রিক সমসত্ত্বতার নীতি: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "দুই পাশের মাত্রা মেলাতে হবে। সমীকরণের দুই পাশের মাত্রা সমান হতে হবে"
       }
     ],
@@ -68,6 +68,8 @@
     "physics"
   ],
   "related": [
-    "dimensional-formula"
+    "dimensional-formula",
+    "percentage-error",
+    "error-propagation-product"
   ]
 }

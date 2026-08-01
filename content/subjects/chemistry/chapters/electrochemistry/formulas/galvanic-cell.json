@@ -27,11 +27,6 @@
       "symbol": "E^\\circ_{\\mathrm{cell}}",
       "meaning": "আদর্শ কোষ বিভব",
       "unit": "V"
-    },
-    {
-      "symbol": "E^\\circ_{\\mathrm{cathode}}",
-      "meaning": "ক্যাথোডের reduction potential",
-      "unit": "V"
     }
   ],
   "derivation": {
@@ -39,7 +34,7 @@
     "steps": [
       {
         "title": "Daniell cell",
-        "latex": "\\ce{Zn -> Zn^{2+}+2e-}\\ (\\text{anode});\\quad \\ce{Cu^{2+}+2e- -> Cu}\\ (\\text{cathode})",
+        "latex": "\\text{গ্যালভানিক কোষ, কোষ সংকেত ও তড়িৎদ্ব: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "Electron বাহ্যিক বর্তনীতে Zn থেকে Cu-তে যায়।"
       },
       {

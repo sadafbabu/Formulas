@@ -21,11 +21,6 @@
       "unit": "m"
     },
     {
-      "symbol": "\\vec r_2",
-      "meaning": "vec r (সূত্রের রাশি)",
-      "unit": "m"
-    },
-    {
       "symbol": "m:n",
       "meaning": "অভ্যন্তরীণ বিভাজন অনুপাত",
       "unit": "—"

@@ -24,11 +24,6 @@
       "symbol": "\\mathrm{p}K_{a1}",
       "meaning": "দ্বিমেরু আয়নের সংশ্লিষ্ট pKa",
       "unit": "—"
-    },
-    {
-      "symbol": "\\mathrm{p}K_{a2}",
-      "meaning": "\\mathrm{p}K_{a2} (রাসায়নিক রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
@@ -40,8 +35,8 @@
         "note": "pI = (pKa₁ + pKa₂)/2 — অ্যামিনো অ্যাসিডের নেট চার্জ শূন্য"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{আইসোইলেকট্রিক বিন্দু: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "pI = দুই প্রাসঙ্গিক pKa-এর গড় — এখানে নেট চার্জ শূন্য।"
       }
     ],
@@ -72,7 +67,8 @@
     "chemistry"
   ],
   "related": [
-    "henderson-hasselbalch",
-    "ph-weak-acid"
+    "soap-saponification",
+    "huckel-rule",
+    "peptide-bond"
   ]
 }

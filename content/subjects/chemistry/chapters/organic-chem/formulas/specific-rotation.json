@@ -32,7 +32,7 @@
     },
     {
       "symbol": "ee",
-      "meaning": "ee (সূত্রের রাশি)",
+      "meaning": "ee",
       "unit": "—"
     }
   ],
@@ -45,14 +45,13 @@
         "note": "অপটিক্যাল অ্যাকটিভিটির পরিমাপ"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{আপেক্ষিক ঘূর্ণন: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "[α]=α/(l·c); ee অনুপাতে বিশুদ্ধতা।"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "প্রদত্ত কাঠামো ও স্টেরিও রসায়ন"
     ]
   },
   "questions": [
@@ -79,6 +78,9 @@
     "chemistry"
   ],
   "related": [
-    "isomerism"
+    "isomerism",
+    "fehling-test",
+    "polymerization",
+    "tollens-test"
   ]
 }

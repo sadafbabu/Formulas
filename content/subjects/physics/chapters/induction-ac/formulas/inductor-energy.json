@@ -37,11 +37,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "U=\\tfrac12 L I^2",
-        "note": "আবেশকে সঞ্চিত শক্তি এর মূল সম্পর্ক।"
+        "note": "ধারক ½CV²; আবেশক ½LI²। U=\\tfrac12 L I^2"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{আবেশকে সঞ্চিত শক্তি: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "ধারক ½CV²; আবেশক ½LI²। U=\\tfrac12 L I^2"
       }
     ],
@@ -74,7 +74,6 @@
   ],
   "related": [
     "self-inductance",
-    "capacitor-energy",
     "lr-cr-transient"
   ]
 }

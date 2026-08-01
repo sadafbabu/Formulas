@@ -26,13 +26,8 @@
       "unit": "J বা kJ/mol"
     },
     {
-      "symbol": "circ",
-      "meaning": "circ (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
       "symbol": "first",
-      "meaning": "first (সূত্রের রাশি)",
+      "meaning": "first",
       "unit": "—"
     }
   ],
@@ -45,14 +40,13 @@
         "note": "ইলেকট্রোলাইসিসে কোন আয়ন নিঃসৃত হয়"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{অগ্রাধিকার নিঃসরণ: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "ক্যাথোডে সহজে বিজারিত (উচ্চ E°) আগে।"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "প্রমিত/প্রদত্ত তাপমাত্রা; আদর্শ দ্রবণ আনুমানিক"
     ]
   },
   "questions": [
@@ -79,6 +73,9 @@
     "chemistry"
   ],
   "related": [
-    "faradays-electrolysis"
+    "faradays-electrolysis",
+    "electrochemical-cell-notation",
+    "specific-conductivity",
+    "cell-emf-series"
   ]
 }

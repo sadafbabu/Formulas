@@ -29,11 +29,6 @@
       "symbol": "X_L=\\omega L",
       "meaning": "আবেশিক প্রতিঘাত",
       "unit": "Ω"
-    },
-    {
-      "symbol": "X_C=1/(\\omega C)",
-      "meaning": "ধারকীয় প্রতিঘাত",
-      "unit": "Ω"
     }
   ],
   "derivation": {

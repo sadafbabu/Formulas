@@ -44,17 +44,17 @@
     "steps": [
       {
         "title": "activating o,p",
-        "latex": "\\ce{-OH,-OR,-NH2,-NHR,-R}",
+        "latex": "\\text{বেনজিনে নির্দেশক প্রভাব: ortho/para : প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "electron donate করে ring activate ও ortho/para intermediate স্থিতিশীল করে।"
       },
       {
         "title": "deactivating meta",
-        "latex": "\\ce{-NO2,-CN,-SO3H,-CHO,-COR,-COOH}",
+        "latex": "\\text{মান বসাও} \\rightarrow \\text{ফলাফল যাচাই}",
         "note": "electron withdraw করে; ortho/para intermediate বেশি অস্থিতিশীল, তাই meta প্রধান।"
       },
       {
         "title": "halogen exception",
-        "latex": "\\ce{-F,-Cl,-Br,-I}:\\ \\text{deactivating but o,p-directing}",
+        "latex": "\\text{বেনজিনে নির্দেশক প্রভাব: ortho/para : প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "−I ring deactivate করে, কিন্তু lone-pair resonance o,p নির্দেশ করে।"
       }
     ],

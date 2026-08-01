@@ -29,11 +29,6 @@
       "symbol": "t",
       "meaning": "সময়",
       "unit": "s"
-    },
-    {
-      "symbol": "or",
-      "meaning": "or (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
@@ -42,17 +37,16 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}",
-        "note": "সমাকলিত প্রথম ক্রম এর মূল সম্পর্ক।"
+        "note": "ln[A] বনাম t সরলরেখা। \\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{সমাকলিত প্রথম ক্রম: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "ln[A] বনাম t সরলরেখা। \\ln\\frac{[A]_0}{[A]}=kt\\quad\\text{or}\\quad [A]=[A]_0 e^{-kt}"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "ধ্রুব T; আদর্শ আচরণ আনুমানিক"
     ]
   },
   "questions": [

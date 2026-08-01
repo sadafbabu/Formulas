@@ -45,14 +45,13 @@
         "note": "ঘর্ষণসহ যান্ত্রিক শক্তির পরিবর্তন"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{অসংরক্ষী বলের কাজ: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "অসংরক্ষী কাজ = মোট যান্ত্রিক শক্তির পরিবর্তন।"
       }
     ],
     "assumptions": [
-      "SI একক ব্যবহার করো",
-      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+      "কাজ-শক্তি উপপাদ্য যান্ত্রিক শক্তির জন্য"
     ]
   },
   "questions": [
@@ -80,6 +79,8 @@
   ],
   "related": [
     "conservation-mechanical-energy",
-    "friction"
+    "gravitational-pe",
+    "work-by-constant-force",
+    "power-force-velocity"
   ]
 }

@@ -29,11 +29,6 @@
       "symbol": "C",
       "meaning": "ধারণক্ষমতা / ধারকত্ব",
       "unit": "F বা J/K"
-    },
-    {
-      "symbol": "O",
-      "meaning": "O (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
@@ -41,18 +36,17 @@
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "\\ce{R2C=CR2 ->[1. O3][2. Zn/H2O] 2 R2C=O}",
+        "latex": "\\text{অ্যালকিনের ওজোন বিয়োজন: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "দ্বিবন্ধন ছেদ করে কার্বনিল"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{মান বসাও} \\rightarrow \\text{ফলাফল যাচাই}",
         "note": "C=C কেটে দুই পাশে C=O — গঠন নির্ণয়ে কাজে লাগে।"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "প্রদত্ত কাঠামো ও স্টেরিও রসায়ন"
     ]
   },
   "questions": [
@@ -79,6 +73,9 @@
     "chemistry"
   ],
   "related": [
-    "markovnikov-rule"
+    "markovnikov-rule",
+    "aldol-cannizzaro",
+    "wurtz-fittig",
+    "amines-diazonium"
   ]
 }

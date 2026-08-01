@@ -45,14 +45,13 @@
         "note": "পূর্ণাঙ্গ সাইনের গড় ও শীর্ষ সম্পর্ক"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{AC-এর গড় ও শীর্ষ মান: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "I₀ = √2 I_rms; অর্ধচক্র গড় = 2I₀/π।"
       }
     ],
     "assumptions": [
-      "SI একক ব্যবহার করো",
-      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+      "সাইনসয়েডাল স্থিতিশীল অবস্থা"
     ]
   },
   "questions": [
@@ -79,6 +78,9 @@
     "physics"
   ],
   "related": [
-    "ac-rms-values"
+    "ac-rms-values",
+    "eddy-current-loss",
+    "lr-cr-transient",
+    "ac-impedance"
   ]
 }

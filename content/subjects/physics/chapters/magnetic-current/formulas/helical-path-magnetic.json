@@ -21,11 +21,6 @@
       "unit": "m/s"
     },
     {
-      "symbol": "v_\\parallel",
-      "meaning": "B-এর সমান্তরাল উপাংশ",
-      "unit": "m/s"
-    },
-    {
       "symbol": "|q|",
       "meaning": "চার্জের মান",
       "unit": "C"

@@ -36,11 +36,14 @@ const stats = {
   softQuestions: [],
   echoSummaryTrickLead: [],
   junkSymbols: [],
+  applyLatexSteps: [],
+  genericAssumptions: [],
+  thinRelated: [],
 }
 
 const OPERATOR_SYMBOLS = new Set([
   'sum', 'prod', 'int', 'rightarrow', 'leftarrow', 'xrightarrow',
-  'rightleftharpoons', 'cdot', 'times', 'main:',
+  'rightleftharpoons', 'cdot', 'times', 'main:', 'circ', 'or', 'text', 'key',
 ])
 
 for (const file of files) {
@@ -91,12 +94,14 @@ for (const file of files) {
   }
   if (
     symbols.some((s) => {
-      const sym = String(s.symbol || '').replace(/^\\/, '').replace(/[_^].*$/, '')
+      const raw = String(s.symbol || '')
+      const sym = raw.replace(/^\\/, '').replace(/[_^].*$/, '')
       const meaning = String(s.meaning || '')
       return (
         OPERATOR_SYMBOLS.has(sym) ||
+        raw.includes('text{key}') ||
         meaning.includes('(সূত্রের রাশি)') ||
-        /\s/.test(String(s.symbol || '')) && String(s.symbol || '').length > 18
+        (/\s/.test(raw) && raw.length > 18)
       )
     })
   ) {
@@ -145,10 +150,27 @@ for (const file of files) {
   ) {
     stats.dupDerivationLatex.push(rel)
   }
+  if (derSteps.some((s) => /রাশি চিহ্নিত করো/.test(String(s.latex || '')))) {
+    stats.applyLatexSteps.push(rel)
+  }
+  const assum = der.assumptions || []
+  if (
+    assum.some((a) =>
+      /SI একক ব্যবহার করো|প্রমিত\/প্রদত্ত তাপমাত্রা-চাপ ধরো|প্রদত্ত শর্ত ও ডোমেইন মেনে চলো/.test(
+        String(a),
+      ),
+    )
+  ) {
+    stats.genericAssumptions.push(rel)
+  }
 
   const lead = (der.lead || '').trim()
   if (summary && trick && lead && summary === trick && trick === lead) {
     stats.echoSummaryTrickLead.push(rel)
+  }
+
+  if ((data.related || []).length < 2) {
+    stats.thinRelated.push(rel)
   }
 }
 
@@ -186,6 +208,9 @@ const report = {
     softQuestions: bucket(stats.softQuestions),
     echoSummaryTrickLead: bucket(stats.echoSummaryTrickLead),
     junkSymbols: bucket(stats.junkSymbols),
+    applyLatexSteps: bucket(stats.applyLatexSteps),
+    genericAssumptions: bucket(stats.genericAssumptions),
+    thinRelated: bucket(stats.thinRelated),
   },
 }
 

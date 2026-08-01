@@ -21,11 +21,6 @@
       "unit": "m"
     },
     {
-      "symbol": "d_{\\mathrm{app}}",
-      "meaning": "আপাত গভীরতা",
-      "unit": "m"
-    },
-    {
       "symbol": "\\mu",
       "meaning": "প্রতিসরাঙ্ক",
       "unit": "—"

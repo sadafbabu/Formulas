@@ -29,11 +29,6 @@
       "symbol": "\\Delta P",
       "meaning": "চাপ ও আয়তন পরিবর্তন",
       "unit": "Pa, m³"
-    },
-    {
-      "symbol": "\\Delta V",
-      "meaning": "Delta V (সূত্রের রাশি)",
-      "unit": "Pa, m³"
     }
   ],
   "derivation": {

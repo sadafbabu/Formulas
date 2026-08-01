@@ -18,18 +18,14 @@
   ],
   "related": [
     "complex-modulus-argument",
-    "circle-equation",
-    "perpendicular-distance"
+    "complex-inequalities",
+    "nth-roots-complex",
+    "arg-quotient-product"
   ],
   "symbols": [
     {
       "symbol": "z",
       "meaning": "চলমান complex point x+iy",
-      "unit": "—"
-    },
-    {
-      "symbol": "z_0",
-      "meaning": "স্থির point",
       "unit": "—"
     },
     {

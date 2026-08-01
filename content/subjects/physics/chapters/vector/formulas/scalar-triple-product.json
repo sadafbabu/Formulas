@@ -28,16 +28,6 @@
       "unit": "a, b ও c-এর এককের গুণফল"
     },
     {
-      "symbol": "\\vec{b}\\",
-      "meaning": "vecb\\ (সূত্রের রাশি)",
-      "unit": "a, b ও c-এর এককের গুণফল"
-    },
-    {
-      "symbol": "\\vec{c}]",
-      "meaning": "vecc] (সূত্রের রাশি)",
-      "unit": "a, b ও c-এর এককের গুণফল"
-    },
-    {
       "symbol": "V",
       "meaning": "সামান্তরিক ঘনকের আয়তন",
       "unit": "দৈর্ঘ্য³ (তিনটি displacement vector হলে)"

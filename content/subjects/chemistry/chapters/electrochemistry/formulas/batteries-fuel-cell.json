@@ -44,12 +44,12 @@
     "steps": [
       {
         "title": "lead-acid discharge",
-        "latex": "\\ce{Pb + PbO2 + 2H2SO4 -> 2PbSO4 + 2H2O}",
+        "latex": "\\text{প্রাথমিক, গৌণ ব্যাটারি ও হাইড্রোজেন : প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "প্রতি cell প্রায় 2 V; 12 V car battery-তে 6টি cell।"
       },
       {
         "title": "fuel cell",
-        "latex": "\\ce{2H2+O2 -> 2H2O},\\quad E^\\circ=1.23\\ \\mathrm V",
+        "latex": "\\text{মান বসাও} \\rightarrow \\text{ফলাফল যাচাই}",
         "note": "fuel continuously সরবরাহ হয়; উৎপাদ পানি, তাই local emission কম।"
       },
       {

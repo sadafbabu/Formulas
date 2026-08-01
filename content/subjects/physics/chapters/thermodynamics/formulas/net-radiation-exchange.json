@@ -21,11 +21,6 @@
       "unit": "K"
     },
     {
-      "symbol": "T_0",
-      "meaning": "পারিপার্শ্বিক তাপমাত্রা",
-      "unit": "K"
-    },
-    {
       "symbol": "e",
       "meaning": "উৎসরতা",
       "unit": "—"
@@ -37,11 +32,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)",
-        "note": "নিট তাপীয় বিকিরণ এর মূল সম্পর্ক।"
+        "note": "T⁴ − T₀⁴ — শুধু T⁴ নয়। P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{নিট তাপীয় বিকিরণ: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "T⁴ − T₀⁴ — শুধু T⁴ নয়। P_{\\mathrm{net}}=e\\sigma A(T^4-T_0^4)"
       }
     ],

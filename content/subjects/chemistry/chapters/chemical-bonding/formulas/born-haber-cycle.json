@@ -19,8 +19,7 @@
   ],
   "related": [
     "fajans-rule",
-    "bond-parameters",
-    "hess-gibbs"
+    "bond-parameters"
   ],
   "symbols": [
     {
@@ -44,12 +43,12 @@
     "steps": [
       {
         "title": "গ্যাসীয় আয়ন সৃষ্টি",
-        "latex": "\\ce{M(s)->M(g)->M+(g)},\\qquad \\ce{\\tfrac12X2(g)->X(g)->X-(g)}",
+        "latex": "\\Delta H_f^\\circ=\\Delta H_{\\mathrm{sub}}+\\tfrac12D+IE+EA+\\Delta H_{\\mathrm{latt}}",
         "note": "sublimation, bond dissociation, IE ও EA ধাপ যোগ হয়।"
       },
       {
         "title": "ল্যাটিস গঠন",
-        "latex": "\\ce{M+(g)+X-(g)->MX(s)}",
+        "latex": "\\text{বর্ন–হেবার চক্র ও ল্যাটিস শক্তি: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "এই ধাপের এনথালপি ঋণাত্মক; lattice বিচ্ছেদ শক্তি সমমান ধনাত্মক।"
       }
     ],

@@ -31,7 +31,7 @@
     }
   ],
   "derivation": {
-    "lead": "অপাতল স্তরে ব্যতিচার প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
+    "lead": "অপাতল স্তরে ব্যতিচার: প্রদত্ত মান বসিয়ে সম্পর্ক প্রয়োগ করো।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -39,14 +39,13 @@
         "note": "অপাতল স্তরে ব্যতিচার: Phase reversal at one surface → half wavelength path difference।"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{অপাতল স্তরে ব্যতিচার: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "Phase reversal at one surface → half wavelength path difference।"
       }
     ],
     "assumptions": [
-      "SI একক ব্যবহার করো",
-      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+      "প্যারাক্সিয়াল রশ্মি (ছোট কোণ)"
     ]
   },
   "questions": [

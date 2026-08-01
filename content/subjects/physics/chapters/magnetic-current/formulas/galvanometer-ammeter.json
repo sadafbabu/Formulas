@@ -17,7 +17,9 @@
     "physics"
   ],
   "related": [
-    "galvanometer-voltmeter"
+    "galvanometer-voltmeter",
+    "moving-coil-galvanometer",
+    "moving-charge-energy"
   ],
   "symbols": [
     {
@@ -33,11 +35,6 @@
     {
       "symbol": "I_g",
       "meaning": "গ্যালভানোমিটারের সর্বোচ্চ প্রবাহ ক্ষমতা",
-      "unit": "A"
-    },
-    {
-      "symbol": "I",
-      "meaning": "অ্যামিটার দ্বারা পরিমাপযোগ্য মোট বিদ্যুৎপ্রবাহ",
       "unit": "A"
     }
   ],

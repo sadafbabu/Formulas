@@ -21,11 +21,6 @@
       "unit": "W (J/s)"
     },
     {
-      "symbol": "\\vec F",
-      "meaning": "vec F (সূত্রের রাশি)",
-      "unit": "N"
-    },
-    {
       "symbol": "\\vec v",
       "meaning": "বেগ",
       "unit": "m/s"

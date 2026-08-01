@@ -44,17 +44,17 @@
     "steps": [
       {
         "title": "reduction",
-        "latex": "\\ce{RCHO ->[NaBH4/LiAlH4] RCH2OH};\\quad \\ce{R2CO -> R2CHOH}",
+        "latex": "\\text{অ্যালডিহাইড ও কিটোনের গাঠনিক বিক্রিয: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "Aldehyde থেকে ১° alcohol, ketone থেকে ২° alcohol।"
       },
       {
         "title": "Tollens/Fehling",
-        "latex": "\\ce{RCHO -> RCOOH};\\quad \\ce{Ag+ -> Ag},\\ \\ce{Cu^{2+}->Cu2O(s)}",
+        "latex": "\\text{মান বসাও} \\rightarrow \\text{ফলাফল যাচাই}",
         "note": "সাধারণ aldehyde positive; ketone negative। Fehling-এ aromatic aldehyde সাধারণত negative।"
       },
       {
         "title": "iodoform",
-        "latex": "\\ce{CH3CO-R,\\ CH3CH(OH)-R -> CHI3(s)}",
+        "latex": "\\text{অ্যালডিহাইড ও কিটোনের গাঠনিক বিক্রিয: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "Methyl ketone, ethanal, ethanol, এবং oxidation-এ methyl ketone দেয় এমন CH₃CH(OH)R group হলুদ CHI₃ দেয়।"
       }
     ],

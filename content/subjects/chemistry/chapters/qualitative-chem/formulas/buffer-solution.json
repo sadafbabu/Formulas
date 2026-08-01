@@ -40,8 +40,8 @@
         "note": "বাফার দ্রবণের pH নির্ণয়ের Henderson-Hasselbalch সমীকরণ"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{বাফার দ্রবণ ও পিএইচ সূত্র: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "pH = pKa + log([লবণ]/[অম্ল]) — সমান হলে pH = pKa। লবণ বাড়লে pH বাড়ে।"
       }
     ],

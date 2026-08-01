@@ -50,8 +50,8 @@
         "note": "stress ∝ strain; Y = stress/strain (স্থিতিস্থাপক সীমায়)"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{হুকের সূত্র: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "স্থিতিস্থাপক সীমায় stress∝strain; Y=stress/strain।"
       }
     ],

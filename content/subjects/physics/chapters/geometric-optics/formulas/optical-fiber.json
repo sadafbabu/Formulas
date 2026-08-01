@@ -21,16 +21,6 @@
       "unit": "—"
     },
     {
-      "symbol": "n_2",
-      "meaning": "ক্ল্যাডিংয়ের প্রতিসরাঙ্ক",
-      "unit": "—"
-    },
-    {
-      "symbol": "n_0",
-      "meaning": "বাহ্যিক মাধ্যম (সাধারণত বায়ু=1)",
-      "unit": "—"
-    },
-    {
       "symbol": "i_a",
       "meaning": "গ্রহণ কোণ (acceptance angle)",
       "unit": "°"

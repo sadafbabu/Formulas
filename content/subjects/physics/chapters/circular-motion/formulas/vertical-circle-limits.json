@@ -22,7 +22,7 @@
     },
     {
       "symbol": "top",
-      "meaning": "top (সূত্রের রাশি)",
+      "meaning": "top",
       "unit": "—"
     },
     {
@@ -42,17 +42,16 @@
       {
         "title": "মূল সূত্র",
         "latex": "v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})",
-        "note": "উল্লম্ব বৃত্তের চরম এর মূল সম্পর্ক।"
+        "note": "শীর্ষে ন্যূনতম √(gr)। v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{উল্লম্ব বৃত্তের চরম: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "শীর্ষে ন্যূনতম √(gr)। v_{\\top}\\ge\\sqrt{gr},\\quad v_{\\bot}=\\sqrt{u^2-4gr}\\ (\\text{string})"
       }
     ],
     "assumptions": [
-      "SI একক ব্যবহার করো",
-      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+      "বৃত্তাকার পথে |v| ধ্রুব ধরলে কেন্দ্রমুখী ত্বরণ v²/r"
     ]
   },
   "questions": [
@@ -80,6 +79,7 @@
   ],
   "related": [
     "banking-of-road",
-    "centripetal-force"
+    "banked-road-with-friction",
+    "death-well-loop"
   ]
 }

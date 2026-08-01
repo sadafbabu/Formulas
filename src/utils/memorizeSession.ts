@@ -29,6 +29,16 @@ export function saveMemorizeProgress(progress: MemorizeProgress): void {
   }
 }
 
+/** Wipe all memorize progress (known/seen flags). */
+export function clearMemorizeProgress(): MemorizeProgress {
+  try {
+    localStorage.removeItem(STORAGE_KEY)
+  } catch {
+    // ignore
+  }
+  return {}
+}
+
 export function markFormulaSeen(
   progress: MemorizeProgress,
   id: string,

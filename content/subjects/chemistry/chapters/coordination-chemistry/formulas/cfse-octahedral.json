@@ -21,11 +21,6 @@
       "unit": "—"
     },
     {
-      "symbol": "n_{e_g}",
-      "meaning": "মোল সংখ্যা / কোটি",
-      "unit": "mol"
-    },
-    {
       "symbol": "\\Delta_o",
       "meaning": "অষ্টতলকীয় বিভাজন শক্তি",
       "unit": "cm⁻¹ / kJ·mol⁻¹"

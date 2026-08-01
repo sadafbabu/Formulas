@@ -44,17 +44,17 @@
     "steps": [
       {
         "title": "হ্যালাইড পরীক্ষা",
-        "latex": "\\ce{AgCl\\ (white),\\ AgBr\\ (cream),\\ AgI\\ (yellow)}",
+        "latex": "\\text{গুণগত বিশ্লেষণে আয়ন শনাক্তকরণ: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "AgCl লঘু NH₃-তে, AgBr ঘন NH₃-তে দ্রবীভূত; AgI দ্রবীভূত নয়।"
       },
       {
         "title": "শিখা পরীক্ষা",
-        "latex": "\\ce{Na+:\\ yellow,\\ K+:\\ lilac,\\ Ca^{2+}:\\ brick-red,\\ Cu^{2+}:\\ blue-green}",
+        "latex": "\\text{মান বসাও} \\rightarrow \\text{ফলাফল যাচাই}",
         "note": "উত্তেজিত ইলেকট্রন নিম্ন স্তরে ফিরে নির্দিষ্ট রঙের আলো দেয়।"
       },
       {
         "title": "গ্যাস পরীক্ষা",
-        "latex": "\\ce{CO2 + Ca(OH)2 -> CaCO3(s) + H2O}",
+        "latex": "\\text{গুণগত বিশ্লেষণে আয়ন শনাক্তকরণ: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "CO₂ চুনপানিকে দুধের মতো করে; NH₃ সিক্ত লাল লিটমাস নীল করে।"
       }
     ],

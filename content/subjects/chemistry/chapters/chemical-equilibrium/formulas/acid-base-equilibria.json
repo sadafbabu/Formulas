@@ -18,26 +18,16 @@
     "chemistry"
   ],
   "related": [
-    "ph-poh-water",
-    "buffer-solution",
-    "degree-dissociation"
+    "degree-dissociation",
+    "arrhenius-equation",
+    "salt-hydrolysis",
+    "hess-gibbs"
   ],
   "symbols": [
     {
       "symbol": "K_a",
       "meaning": "অম্ল বিয়োজন ধ্রুবক",
       "unit": "—"
-    },
-    {
-      "symbol": "K_b",
-      "meaning": "ক্ষার বিয়োজন ধ্রুবক",
-      "unit": "—"
-    },
-    {
-      "symbol": "K_w",
-      "meaning": "পানির আয়ন গুণফল",
-      "unit": "—",
-      "value": "10⁻¹⁴ at 25°C"
     }
   ],
   "derivation": {
@@ -45,12 +35,12 @@
     "steps": [
       {
         "title": "দুর্বল অম্ল",
-        "latex": "K_a=\\frac{x^2}{C-x}\\approx\\frac{x^2}{C}\\Rightarrow x=[\\ce{H+}]=\\sqrt{K_aC}",
+        "latex": "\\text{অম্ল–ক্ষার সাম্য, Ka/Kb ও দুর্বল অম্: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "তাই pH = ½(pKₐ − log C)।"
       },
       {
         "title": "দুর্বল ক্ষার",
-        "latex": "[\\ce{OH-}]=\\sqrt{K_bC},\\quad \\mathrm{pOH}=\\tfrac12(pK_b-\\log C)",
+        "latex": "\\text{মান বসাও} \\rightarrow \\text{ফলাফল যাচাই}",
         "note": "শেষে pH = 14 − pOH (২৫°C)।"
       },
       {

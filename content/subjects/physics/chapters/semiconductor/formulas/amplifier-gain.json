@@ -18,18 +18,12 @@
   ],
   "related": [
     "transistor-alpha-beta",
-    "logic-gates",
-    "lc-lcr-circuit"
+    "logic-gates"
   ],
   "symbols": [
     {
       "symbol": "A_v",
       "meaning": "ভোল্টেজ লাভ",
-      "unit": "—"
-    },
-    {
-      "symbol": "A_p",
-      "meaning": "ক্ষমতা লাভ",
       "unit": "—"
     },
     {

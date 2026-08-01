@@ -20,8 +20,7 @@
   "related": [
     "hybridization-shapes",
     "formal-charge",
-    "vsepr-theory",
-    "structural-condensed-formula"
+    "vsepr-theory"
   ],
   "symbols": [
     {
@@ -44,8 +43,8 @@
         "note": "লুইস কাঠামোতে যোজ্যতা ইলেকট্রন জোড় ও অষ্টক নিয়ম দিয়ে বন্ধন আঁকা হয়।"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{লুইস কাঠামো ও অক্টেট নীতি: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "অষ্টক নীতি: ৮ ইলেকট্রন পেতে চায়। বন্ধন সংখ্যা = ৮ − যোজ্য ইলেকট্রন। H/He এর জন্য দুইলন (২)।"
       }
     ],

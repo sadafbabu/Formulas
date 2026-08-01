@@ -82,6 +82,8 @@
     "physics"
   ],
   "related": [
-    "poiseuille-law"
+    "poiseuille-law",
+    "bulk-shear-modulus",
+    "surface-tension"
   ]
 }

@@ -26,7 +26,7 @@
     },
     {
       "symbol": "binom",
-      "meaning": "binom (সূত্রের রাশি)",
+      "meaning": "binom",
       "unit": "—"
     },
     {
@@ -44,14 +44,13 @@
         "note": "বিস্তৃতিতে x^0 পদ নির্ণয়"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{স্বাধীন বা ধ্রুবক পদ: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "T_{r+1}-এর x-এর ঘাত = ০ করে r বের করুন।"
       }
     ],
     "assumptions": [
-      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
-      "স্বাধীন বা ধ্রুবক পদ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+      "স্বাধীন বা ধ্রুবক পদ: প্রদত্ত ডোমেইন ও শর্ত মেনে চলো"
     ]
   },
   "questions": [
@@ -78,6 +77,9 @@
     "math"
   ],
   "related": [
-    "general-term"
+    "general-term",
+    "binomial-ratio-term",
+    "coefficient-extraction",
+    "multinomial-theorem"
   ]
 }

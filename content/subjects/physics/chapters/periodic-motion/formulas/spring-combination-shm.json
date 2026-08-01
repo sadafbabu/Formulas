@@ -19,11 +19,6 @@
       "symbol": "k_s",
       "meaning": "শ্রেণি সমতুল্য",
       "unit": "N/m"
-    },
-    {
-      "symbol": "k_p",
-      "meaning": "সমান্তরাল সমতুল্য",
-      "unit": "N/m"
     }
   ],
   "derivation": {
@@ -74,7 +69,6 @@
   ],
   "related": [
     "shm-time-period",
-    "shm-equations",
-    "potential-energy-spring"
+    "shm-equations"
   ]
 }

@@ -45,14 +45,13 @@
         "note": "সমবিভবে কাজ শূন্য এবং E=-∇V"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{সমবিভব তল ও কাজ: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "সমবিভব তলে চললে কাজ শূন্য; E অভিলম্ব।"
       }
     ],
     "assumptions": [
-      "SI একক ব্যবহার করো",
-      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+      "সমবিভব তল ও কাজ: প্রদত্ত শর্ত ও SI একক মেনে চলো"
     ]
   },
   "questions": [
@@ -79,6 +78,9 @@
     "physics"
   ],
   "related": [
-    "electric-potential"
+    "electric-potential",
+    "gauss-law",
+    "spherical-capacitor",
+    "field-infinite-sheet"
   ]
 }

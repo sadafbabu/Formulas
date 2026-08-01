@@ -21,12 +21,12 @@
     },
     {
       "symbol": "adj",
-      "meaning": "adj (সূত্রের রাশি)",
+      "meaning": "adj",
       "unit": "—"
     },
     {
       "symbol": "det",
-      "meaning": "det (সূত্রের রাশি)",
+      "meaning": "det",
       "unit": "—"
     },
     {
@@ -41,17 +41,16 @@
       {
         "title": "মূল সূত্র",
         "latex": "A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I",
-        "note": "অ্যাডজয়েন্টের ধর্ম এর মূল সম্পর্ক।"
+        "note": "A·adjA = (detA)I। A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{অ্যাডজয়েন্টের ধর্ম: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "A·adjA = (detA)I। A(\\mathrm{adj} A)=(\\mathrm{adj} A)A=(\\det A)I"
       }
     ],
     "assumptions": [
-      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
-      "অ্যাডজয়েন্টের ধর্ম এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+      "বর্গ ম্যাট্রিক্স যেখানে নির্ণায়ক লাগে"
     ]
   },
   "questions": [

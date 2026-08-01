@@ -26,11 +26,6 @@
       "unit": "Hz"
     },
     {
-      "symbol": "f_0",
-      "meaning": "কম্পাঙ্ক / বল (প্রসঙ্গমতে)",
-      "unit": "Hz"
-    },
-    {
       "symbol": "\\phi",
       "meaning": "কাজফল (work function)",
       "unit": "J বা eV"

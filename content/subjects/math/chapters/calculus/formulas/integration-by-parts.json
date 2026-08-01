@@ -26,12 +26,12 @@
     },
     {
       "symbol": "v",
-      "meaning": "v (সূত্রের রাশি)",
+      "meaning": "v",
       "unit": "m/s"
     }
   ],
   "derivation": {
-    "lead": "অংশীয় যোগজীকরণ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
+    "lead": "অংশীয় যোগজীকরণ: প্রদত্ত মান বসিয়ে সম্পর্ক প্রয়োগ করো।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -39,14 +39,13 @@
         "note": "অংশীয় যোগজীকরণ: LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u।"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{অংশীয় যোগজীকরণ: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "LIATE: Log, Inverse, Algebraic, Trig, Exp — choose u।"
       }
     ],
     "assumptions": [
-      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
-      "অংশীয় যোগজীকরণ এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+      "ডোমেইনে ফাংশন অবকলন/যোগজযোগ্য"
     ]
   },
   "questions": [
@@ -73,7 +72,6 @@
     "math"
   ],
   "related": [
-    "integral-by-parts-ilate",
     "taylor-maclaurin",
     "partial-fractions",
     "implicit-differentiation"

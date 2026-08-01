@@ -21,11 +21,6 @@
       "unit": "—"
     },
     {
-      "symbol": "energy gap between",
-      "meaning": "energy gap between (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
       "symbol": "e",
       "meaning": "ইলেকট্রন চার্জ / ভিত্তি",
       "unit": "C"
@@ -37,7 +32,7 @@
     }
   ],
   "derivation": {
-    "lead": "ক্রিস্টাল ক্ষেত্র বিভাজন প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
+    "lead": "ক্রিস্টাল ক্ষেত্র বিভাজন: প্রদত্ত মান বসিয়ে সম্পর্ক প্রয়োগ করো।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -45,14 +40,13 @@
         "note": "ক্রিস্টাল ক্ষেত্র বিভাজন: Octahedral: eg vs t2g; color from d-d transition।"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{ক্রিস্টাল ক্ষেত্র বিভাজন: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "Octahedral: eg vs t2g; color from d-d transition।"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "ওয়ার্নার/CFSE আনুমানিক মডেল"
     ]
   },
   "questions": [

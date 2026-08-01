@@ -40,8 +40,8 @@
         "note": "T = 2π√(I/(mgd)); সমতুল্য সরল L_eq = I/(md)"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{যৌগিক দোলক: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "T=2π√(I/mgd) — সরল দোলকের L_eq=I/(md)।"
       }
     ],
@@ -72,6 +72,9 @@
     "physics"
   ],
   "related": [
-    "shm-time-period"
+    "shm-time-period",
+    "sound-intensity",
+    "stationary-waves",
+    "organ-pipe-end-correction"
   ]
 }

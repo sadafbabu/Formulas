@@ -37,7 +37,7 @@
     }
   ],
   "derivation": {
-    "lead": "বাফার ক্ষমতা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
+    "lead": "বাফার ক্ষমতা: প্রদত্ত মান বসিয়ে সম্পর্ক প্রয়োগ করো।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -45,14 +45,13 @@
         "note": "বাফার ক্ষমতা: Henderson + capacity β = dn/d(pH)।"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{বাফার ক্ষমতা: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "Henderson + capacity β = dn/d(pH)।"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "ধ্রুব T; আদর্শ আচরণ আনুমানিক"
     ]
   },
   "questions": [
@@ -79,6 +78,8 @@
     "chemistry"
   ],
   "related": [
-    "buffer-solution"
+    "ph-strong-acid",
+    "zero-order-kinetics",
+    "hess-law"
   ]
 }

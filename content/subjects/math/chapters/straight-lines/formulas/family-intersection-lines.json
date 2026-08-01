@@ -28,11 +28,6 @@
       "unit": "—"
     },
     {
-      "symbol": "L_2",
-      "meaning": "দৈর্ঘ্য / আবেশ / ল্যাটেন্ট",
-      "unit": "m বা H"
-    },
-    {
       "symbol": "\\lambda",
       "meaning": "পরিবার parameter",
       "unit": "—"

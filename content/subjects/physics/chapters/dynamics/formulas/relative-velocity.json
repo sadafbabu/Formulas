@@ -17,23 +17,15 @@
     "physics"
   ],
   "related": [
-    "vector-resultant",
-    "motion-equations"
+    "motion-equations",
+    "angular-momentum",
+    "center-of-mass",
+    "angular-kinematics"
   ],
   "symbols": [
     {
       "symbol": "v_{AB}",
       "meaning": "B-এর সাপেক্ষে A-এর বেগ",
-      "unit": "m/s"
-    },
-    {
-      "symbol": "v_b",
-      "meaning": "স্থির পানিতে নৌকার বেগ",
-      "unit": "m/s"
-    },
-    {
-      "symbol": "v_r",
-      "meaning": "নদীর স্রোতের বেগ",
       "unit": "m/s"
     },
     {

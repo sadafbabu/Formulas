@@ -19,11 +19,6 @@
       "symbol": "O/W (oil in water)",
       "meaning": "O/W and W/O",
       "unit": "—"
-    },
-    {
-      "symbol": "W/O (water in oil)",
-      "meaning": "W/O (water in oil) (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
@@ -32,17 +27,16 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}",
-        "note": "ইমালশনের প্রকার এর মূল সম্পর্ক।"
+        "note": "দুধ = O/W; মাখন = W/O। \\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{ইমালশনের প্রকার: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "দুধ = O/W; মাখন = W/O। \\text{O/W (oil in water)},\\quad \\text{W/O (water in oil)}"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "প্রদত্ত তাপমাত্রা-চাপে"
     ]
   },
   "questions": [

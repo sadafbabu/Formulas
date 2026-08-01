@@ -26,11 +26,6 @@
       "unit": "—"
     },
     {
-      "symbol": "o",
-      "meaning": "o (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
       "symbol": "b",
       "meaning": "চৌম্বক ক্ষেত্র",
       "unit": "T"
@@ -45,14 +40,13 @@
         "note": "দ্বিমেরু ভ্রামক থেকে আয়নিক শতাংশ"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{শতকরা আয়নিক চরিত্র: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "%ionic = μ_obs/μ_ionic × 100। দ্বিমেরু ভ্রামক থেকে আয়নিক শতাংশ"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "লুইস/VSEPR আনুমানিক; ব্যতিক্রম আলাদা"
     ]
   },
   "questions": [
@@ -79,6 +73,9 @@
     "chemistry"
   ],
   "related": [
-    "dipole-moment"
+    "dipole-moment",
+    "bond-enthalpy",
+    "hydrogen-bond",
+    "born-haber-cycle"
   ]
 }

@@ -29,11 +29,6 @@
       "symbol": "f",
       "meaning": "কম্পাঙ্ক / বল (প্রসঙ্গমতে)",
       "unit": "Hz বা N"
-    },
-    {
-      "symbol": "o",
-      "meaning": "o (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
@@ -45,14 +40,13 @@
         "note": "খোলা প্রান্তে end correction"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{বায়ুস্তম্ভে প্রান্ত সংশোধন: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "প্রতি খোলা প্রান্তে +0.3d; বদ্ধে এক প্রান্ত।"
       }
     ],
     "assumptions": [
-      "SI একক ব্যবহার করো",
-      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+      "বায়ুস্তম্ভে প্রান্ত সংশোধন: প্রদত্ত শর্ত ও SI একক মেনে চলো"
     ]
   },
   "questions": [
@@ -79,6 +73,9 @@
     "physics"
   ],
   "related": [
-    "stationary-waves"
+    "stationary-waves",
+    "sound-intensity",
+    "spring-combination-shm",
+    "compound-pendulum"
   ]
 }

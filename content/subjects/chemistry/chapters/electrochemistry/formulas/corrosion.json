@@ -39,17 +39,17 @@
     "steps": [
       {
         "title": "anodic অঞ্চল",
-        "latex": "\\ce{Fe -> Fe^{2+}+2e-}",
+        "latex": "\\text{তড়িৎ রাসায়নিক ক্ষয় ও মরিচা প্রতির: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "লোহা দ্রবীভূত হয়।"
       },
       {
         "title": "cathodic অঞ্চল",
-        "latex": "\\ce{O2+2H2O+4e- -> 4OH-}",
+        "latex": "\\text{মান বসাও} \\rightarrow \\text{ফলাফল যাচাই}",
         "note": "বায়ুর oxygen ও পানি electron গ্রহণ করে।"
       },
       {
         "title": "প্রতিরোধ",
-        "latex": "\\ce{Zn -> Zn^{2+}+2e-}\\quad(\\text{sacrificial anode})",
+        "latex": "\\text{তড়িৎ রাসায়নিক ক্ষয় ও মরিচা প্রতির: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "Zn লোহার আগে জারিত হয়; coating আঁচড়ালেও সুরক্ষা দেয়।"
       }
     ],

@@ -19,7 +19,6 @@
   ],
   "related": [
     "dipole-moment",
-    "periodic-trends",
     "bond-parameters"
   ],
   "symbols": [
@@ -31,11 +30,6 @@
     {
       "symbol": "r_+",
       "meaning": "ক্যাটায়নের ব্যাসার্ধ",
-      "unit": "pm"
-    },
-    {
-      "symbol": "r_-",
-      "meaning": "অ্যানায়নের ব্যাসার্ধ",
       "unit": "pm"
     }
   ],
@@ -49,7 +43,7 @@
       },
       {
         "title": "অ্যানায়নের polarizability",
-        "latex": "\\ce{F^- < Cl^- < Br^- < I^-}",
+        "latex": "\\text{ফাজানের নীতি ও সমযোজী চরিত্র: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "বড় অ্যানায়নের ইলেকট্রন মেঘ সহজে বিকৃত হয়।"
       }
     ],

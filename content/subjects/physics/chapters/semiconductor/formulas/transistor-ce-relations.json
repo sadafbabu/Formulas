@@ -42,17 +42,16 @@
       {
         "title": "মূল সূত্র",
         "latex": "I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}",
-        "note": "CE ট্রানজিস্টর প্রবাহ সম্পর্ক এর মূল সম্পর্ক।"
+        "note": "IE=IB+IC; β≈α/(1−α)। I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{CE ট্রানজিস্টর প্রবাহ সম্পর্ক: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "IE=IB+IC; β≈α/(1−α)। I_E=I_B+I_C,\\quad\\beta=\\frac{I_C}{I_B},\\quad\\alpha=\\frac{\\beta}{\\beta+1}"
       }
     ],
     "assumptions": [
-      "SI একক ব্যবহার করো",
-      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+      "ফ্যারাডের সূত্র; ফ্লাক্সের চিহ্ন সাবধানে"
     ]
   },
   "questions": [

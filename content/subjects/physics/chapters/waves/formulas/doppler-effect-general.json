@@ -21,23 +21,8 @@
       "unit": "Hz"
     },
     {
-      "symbol": "f'",
-      "meaning": "f' (সূত্রের রাশি)",
-      "unit": "Hz"
-    },
-    {
       "symbol": "v",
       "meaning": "শব্দের বেগ মাধ্যমে",
-      "unit": "m/s"
-    },
-    {
-      "symbol": "v_o",
-      "meaning": "পর্যবেক্ষকের বেগ",
-      "unit": "m/s"
-    },
-    {
-      "symbol": "v_s",
-      "meaning": "উৎসের বেগ",
       "unit": "m/s"
     }
   ],

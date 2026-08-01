@@ -34,11 +34,6 @@
       "unit": "°"
     },
     {
-      "symbol": "\\delta_m",
-      "meaning": "সর্বনিম্ন চ্যুতি কোণ",
-      "unit": "°"
-    },
-    {
       "symbol": "\\mu",
       "meaning": "প্রতিসরাঙ্ক",
       "unit": "—"

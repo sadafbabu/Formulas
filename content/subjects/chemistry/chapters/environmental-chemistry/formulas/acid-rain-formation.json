@@ -17,7 +17,7 @@
   "symbols": [
     {
       "symbol": "SO_2",
-      "meaning": "SO (সূত্রের রাশি)",
+      "meaning": "SO",
       "unit": "—"
     },
     {
@@ -26,18 +26,13 @@
       "unit": "—"
     },
     {
-      "symbol": "H_2SO_3",
-      "meaning": "এনথ্যালপি",
-      "unit": "J বা kJ"
-    },
-    {
       "symbol": "NO_2",
-      "meaning": "NO (সূত্রের রাশি)",
+      "meaning": "NO",
       "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "অ্যাসিড বৃষ্টি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
+    "lead": "অ্যাসিড বৃষ্টি: প্রদত্ত মান বসিয়ে সম্পর্ক প্রয়োগ করো।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -45,14 +40,13 @@
         "note": "অ্যাসিড বৃষ্টি: pH < ৫.৬ হলে অ্যাসিড বৃষ্টি। \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{অ্যাসিড বৃষ্টি: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "pH < ৫.৬ হলে অ্যাসিড বৃষ্টি। \\mathrm{SO_2}+\\mathrm{H_2O}\\to\\mathrm{H_2SO_3};\\quad \\mathrm{NO_2}+\\mathrm{H_2O}\\to\\mathrm{HNO_3}"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "বায়ুমণ্ডলীয় প্রমিত শর্ত আনুমানিক"
     ]
   },
   "questions": [

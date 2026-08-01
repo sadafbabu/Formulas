@@ -72,6 +72,9 @@
     "physics"
   ],
   "related": [
-    "ac-impedance"
+    "ac-impedance",
+    "ac-power-factor",
+    "ideal-transformer-ratio",
+    "ac-generator-emf"
   ]
 }

@@ -34,11 +34,6 @@
       "symbol": "N",
       "meaning": "কণা সংখ্যা",
       "unit": "1"
-    },
-    {
-      "symbol": "N_A",
-      "meaning": "অ্যাভোগাড্রো সংখ্যা \\(6.022\\times10^{23}\\,\\mathrm{mol^{-1}}\\)",
-      "unit": "mol⁻¹"
     }
   ],
   "derivation": {
@@ -56,8 +51,7 @@
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "মোল ধারণা ও ভর সংরক্ষণ"
     ]
   },
   "questions": [
@@ -90,8 +84,6 @@
   ],
   "related": [
     "molarity-molality",
-    "mole-avogadro",
-    "empirical-molecular-formula",
     "percentage-composition"
   ]
 }

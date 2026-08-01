@@ -19,11 +19,6 @@
       "symbol": "E^\\circ_{\\mathrm{cathode}}",
       "meaning": "বিজারণ বিভব (ধনাত্মক তড়িদ)",
       "unit": "V"
-    },
-    {
-      "symbol": "E^\\circ_{\\mathrm{anode}}",
-      "meaning": "অ্যানোডের বিজারণ বিভব",
-      "unit": "V"
     }
   ],
   "derivation": {

@@ -40,8 +40,8 @@
         "note": "s–t ঢাল = v; v–t ঢাল = a; v–t ক্ষেত্রফল = সরণ"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{গতি লেখচিত্র: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "s–t ঢাল=বেগ; v–t ঢাল=ত্বরণ; v–t ক্ষেত্রফল=সরণ।"
       }
     ],
@@ -72,6 +72,9 @@
     "physics"
   ],
   "related": [
-    "displacement-velocity-accel"
+    "displacement-velocity-accel",
+    "river-boat-crossing",
+    "vertical-motion-gravity",
+    "rain-man-relative"
   ]
 }

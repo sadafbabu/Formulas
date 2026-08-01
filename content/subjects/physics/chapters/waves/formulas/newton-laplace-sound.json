@@ -74,7 +74,8 @@
   ],
   "related": [
     "wave-v-f-lambda",
-    "ideal-gas-equation",
-    "cp-cv-relation"
+    "organ-pipe-open",
+    "sound-speed-temperature",
+    "organ-pipe-closed"
   ]
 }

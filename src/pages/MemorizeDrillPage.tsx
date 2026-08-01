@@ -13,6 +13,7 @@ import type { TagId } from '../data/types'
 import { bookReturnPath, formulaDetailPath } from '../utils/bookLinks'
 import {
   buildDrillQueue,
+  clearMemorizeProgress,
   filterDrillFormulas,
   isStarTag,
   loadMemorizeProgress,
@@ -241,6 +242,22 @@ export function MemorizeDrillPage() {
     setRevealed(false)
   }
 
+  const clearProgress = () => {
+    const ok = window.confirm(
+      'সব মুখস্থ প্রগ্রেস (জানি/আবার) মুছে যাবে। নিশ্চিত?',
+    )
+    if (!ok) return
+    const empty = clearMemorizeProgress()
+    setProgress(empty)
+    setQueue(buildDrillQueue(pool, empty, false, startId))
+    setIndex(0)
+    setSessionKnown(0)
+    setSessionAgain(0)
+    setDone(pool.length === 0)
+    setRevealed(false)
+    if (unknownOnly) setUnknownOnly(false)
+  }
+
   return (
     <div className="book-shell detail-shell memorize-shell">
       <NavMenu
@@ -325,6 +342,16 @@ export function MemorizeDrillPage() {
             />
             শুধু অজানা / নতুন সূত্র
           </label>
+
+          <div className="memorize-progress-row">
+            <button
+              type="button"
+              className="memorize-btn memorize-btn-clear"
+              onClick={clearProgress}
+            >
+              প্রগ্রেস মুছুন
+            </button>
+          </div>
 
           {visibleCount === 0 ? (
             <div className="memorize-empty">

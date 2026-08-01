@@ -37,16 +37,6 @@
       "symbol": "a_x",
       "meaning": "আয়ত উপাংশ",
       "unit": "ভেক্টরের একক"
-    },
-    {
-      "symbol": "a_y",
-      "meaning": "ত্বরণ",
-      "unit": "ভেক্টরের একক"
-    },
-    {
-      "symbol": "a_z",
-      "meaning": "ত্বরণ",
-      "unit": "ভেক্টরের একক"
     }
   ],
   "derivation": {

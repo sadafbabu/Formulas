@@ -26,23 +26,8 @@
       "unit": "m/s"
     },
     {
-      "symbol": "u_{in}",
-      "meaning": "অভিলম্ব (line of impact) উপাংশ",
-      "unit": "m/s"
-    },
-    {
-      "symbol": "v_{in}",
-      "meaning": "বেগ",
-      "unit": "m/s"
-    },
-    {
       "symbol": "m_1",
       "meaning": "দুই বস্তুর ভর",
-      "unit": "kg"
-    },
-    {
-      "symbol": "m_2",
-      "meaning": "ভর",
       "unit": "kg"
     },
     {
@@ -98,7 +83,9 @@
     "physics"
   ],
   "related": [
-    "elastic-collision",
-    "momentum-impulse"
+    "momentum-impulse",
+    "apparent-weight-elevator",
+    "atwood-machine",
+    "rolling-motion"
   ]
 }

@@ -21,18 +21,8 @@
       "unit": "—"
     },
     {
-      "symbol": "O",
-      "meaning": "O (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
-      "symbol": "used by microbes",
-      "meaning": "used by microbes (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
       "symbol": "COD",
-      "meaning": "COD (সূত্রের রাশি)",
+      "meaning": "COD",
       "unit": "—"
     }
   ],
@@ -42,17 +32,16 @@
       {
         "title": "মূল সূত্র",
         "latex": "\\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\text{ demand}",
-        "note": "BOD ও COD এর মূল সম্পর্ক।"
+        "note": "BOD বেশি = পানি দূষিত। \\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\text{ demand}"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{BOD ও COD: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "BOD বেশি = পানি দূষিত। \\mathrm{BOD}=\\text{O}_2\\text{ used by microbes};\\quad \\mathrm{COD}=\\text{chemical O}_2\\text{ demand}"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "বায়ুমণ্ডলীয় প্রমিত শর্ত আনুমানিক"
     ]
   },
   "questions": [

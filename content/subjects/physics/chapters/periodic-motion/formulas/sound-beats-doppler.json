@@ -34,16 +34,6 @@
       "value": "≈343 m/s at 20°C dry air"
     },
     {
-      "symbol": "v_o",
-      "meaning": "শ্রোতার বেগ",
-      "unit": "m/s"
-    },
-    {
-      "symbol": "v_s",
-      "meaning": "উৎসের বেগ",
-      "unit": "m/s"
-    },
-    {
       "symbol": "f'",
       "meaning": "আপাত কম্পাঙ্ক",
       "unit": "Hz"

@@ -22,12 +22,12 @@
     },
     {
       "symbol": "NH_3",
-      "meaning": "NH (সূত্রের রাশি)",
+      "meaning": "NH",
       "unit": "—"
     },
     {
       "symbol": "CO_2",
-      "meaning": "CO (সূত্রের রাশি)",
+      "meaning": "CO",
       "unit": "—"
     },
     {
@@ -37,7 +37,7 @@
     }
   ],
   "derivation": {
-    "lead": "সলভে বাইকার্বোনেট ধাপ প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
+    "lead": "সলভে বাইকার্বোনেট ধাপ: প্রদত্ত মান বসিয়ে সম্পর্ক প্রয়োগ করো।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -45,14 +45,13 @@
         "note": "সলভে বাইকার্বোনেট ধাপ: NaHCO₃ তাপে Na₂CO₃ দেয়। \\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+\\mathrm{NH_4Cl}"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{সলভে বাইকার্বোনেট ধাপ: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "NaHCO₃ তাপে Na₂CO₃ দেয়। \\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}\\to\\mathrm{NaHCO_3}\\downarrow+\\mathrm{NH_4Cl}"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "শিল্প প্রক্রিয়ার প্রধান ধাপ"
     ]
   },
   "questions": [

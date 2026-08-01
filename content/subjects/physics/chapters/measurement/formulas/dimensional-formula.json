@@ -45,8 +45,8 @@
         "note": "রাশির মাত্রা [M^a L^b T^c …]"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{মাত্রিক সূত্র: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "F: MLT⁻²; E: ML²T⁻²; P: ML⁻¹T⁻²। — মাত্রিক সূত্র মনে রাখার চাবিকাঠি।"
       }
     ],
@@ -78,6 +78,8 @@
     "physics"
   ],
   "related": [
-    "dimensional-homogeneity"
+    "dimensional-homogeneity",
+    "percentage-error",
+    "error-propagation-product"
   ]
 }

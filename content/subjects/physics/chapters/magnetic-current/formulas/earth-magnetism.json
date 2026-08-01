@@ -17,22 +17,15 @@
     "physics"
   ],
   "related": [
-    "magnetic-intensity"
+    "magnetic-intensity",
+    "bar-magnet-field",
+    "tangent-galvanometer",
+    "galvanometer-voltmeter"
   ],
   "symbols": [
     {
       "symbol": "B_H",
       "meaning": "ভূ-চৌম্বক ক্ষেত্রের অনুভূমিক উপাংশ",
-      "unit": "T"
-    },
-    {
-      "symbol": "B_V",
-      "meaning": "ভূ-চৌম্বক ক্ষেত্রের উল্লম্ব উপাংশ",
-      "unit": "T"
-    },
-    {
-      "symbol": "B",
-      "meaning": "মোট ভূ-চৌম্বক লব্ধি ক্ষেত্র",
       "unit": "T"
     },
     {
@@ -50,8 +43,8 @@
         "note": "ভূ-চৌম্বক ক্ষেত্রের অনুভূমিক (B_H) ও উল্লম্ব (B_V) উপাংশ এবং বিনতি কোণ (δ)।"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{ভূ-চৌম্বক উপাংশ ও বিনতি কোণ: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "B-এর দুই উপাংশ: অনুভূমিক B_H = B cosδ, উল্লম্ব B_V = B sinδ। 'কোসাইন শোয়া (অনুভূমিক), সাইন খাড়া (উল্লম্ব)'।"
       }
     ],

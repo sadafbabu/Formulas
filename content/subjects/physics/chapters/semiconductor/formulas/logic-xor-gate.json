@@ -22,22 +22,17 @@
     },
     {
       "symbol": "oplus",
-      "meaning": "oplus (সূত্রের রাশি)",
+      "meaning": "oplus",
       "unit": "—"
     },
     {
       "symbol": "B",
       "meaning": "চৌম্বক ক্ষেত্র",
       "unit": "T"
-    },
-    {
-      "symbol": "overline",
-      "meaning": "overline (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "XOR গেট প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
+    "lead": "XOR গেট: প্রদত্ত মান বসিয়ে সম্পর্ক প্রয়োগ করো।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -45,14 +40,13 @@
         "note": "XOR গেট: একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{XOR গেট: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "একই হলে ০; ভিন্ন হলে ১। A\\oplus B=A\\overline{B}+\\overline{A}B"
       }
     ],
     "assumptions": [
-      "SI একক ব্যবহার করো",
-      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+      "ফ্যারাডের সূত্র; ফ্লাক্সের চিহ্ন সাবধানে"
     ]
   },
   "questions": [

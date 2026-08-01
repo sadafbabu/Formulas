@@ -44,17 +44,17 @@
     "steps": [
       {
         "title": "esterification",
-        "latex": "\\ce{RCOOH + R'OH <=>[conc. H2SO4] RCOOR' + H2O}",
+        "latex": "\\text{কার্বক্সিলিক অ্যাসিড, esterification: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "Reversible; acid catalyst ও পানি অপসারণ product বাড়ায়।"
       },
       {
         "title": "decarboxylation",
-        "latex": "\\ce{RCOONa + NaOH ->[CaO,\\Delta] RH + Na2CO3}",
+        "latex": "\\text{মান বসাও} \\rightarrow \\text{ফলাফল যাচাই}",
         "note": "Soda lime-এ এক carbon কম alkane তৈরি হয়।"
       },
       {
         "title": "derivative reactivity",
-        "latex": "\\ce{RCOCl > (RCO)2O > RCOOR' > RCONH2}",
+        "latex": "\\text{কার্বক্সিলিক অ্যাসিড, esterification: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "Leaving group যত ভালো, nucleophilic acyl substitution তত দ্রুত।"
       }
     ],

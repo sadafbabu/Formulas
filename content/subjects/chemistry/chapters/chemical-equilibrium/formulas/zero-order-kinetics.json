@@ -40,14 +40,13 @@
         "note": "শূন্য ক্রমের সমাকলিত সূত্র"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{শূন্য ক্রমের গতিবিদ্যা: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "[A] রৈখিক কমছে; t½ ∝ [A]₀। শূন্য ক্রমের সমাকলিত সূত্র"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "ধ্রুব T; আদর্শ আচরণ আনুমানিক"
     ]
   },
   "questions": [
@@ -74,6 +73,9 @@
     "chemistry"
   ],
   "related": [
-    "rate-law-order"
+    "rate-law-order",
+    "buffer-capacity",
+    "second-order-kinetics",
+    "delta-g-equilibrium"
   ]
 }

@@ -24,11 +24,6 @@
       "symbol": "x_A",
       "meaning": "দ্রবণে A-এর মোল ভগ্নাংশ",
       "unit": "1"
-    },
-    {
-      "symbol": "p_A^\\circ",
-      "meaning": "বিশুদ্ধ A-এর বাষ্পচাপ",
-      "unit": "Pa"
     }
   ],
   "derivation": {

@@ -34,11 +34,6 @@
       "symbol": "W",
       "meaning": "কাজ ও পৃষ্ঠ বৃদ্ধি",
       "unit": "J, m²"
-    },
-    {
-      "symbol": "\\Delta A",
-      "meaning": "Delta A (সূত্রের রাশি)",
-      "unit": "J, m²"
     }
   ],
   "derivation": {
@@ -50,8 +45,8 @@
         "note": "S = F/l = W/ΔA — পৃষ্ঠ টান"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{পৃষ্ঠটান: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "S=F/l; সাবান ফিল্মে দুই পৃষ্ঠ → F=2Sl।"
       }
     ],

@@ -31,7 +31,7 @@
     }
   ],
   "derivation": {
-    "lead": "মূল হতে সমীকরণ গঠন প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
+    "lead": "মূল হতে সমীকরণ গঠন: প্রদত্ত মান বসিয়ে সম্পর্ক প্রয়োগ করো।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -39,14 +39,13 @@
         "note": "মূল হতে সমীকরণ গঠন: x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{মূল হতে সমীকরণ গঠন: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "x² − (সমষ্টি)x + (গুণফল) = ০। (x-\\alpha)(x-\\beta)=0\\Rightarrow x^2-(\\alpha+\\beta)x+\\alpha\\beta=0"
       }
     ],
     "assumptions": [
-      "প্রদত্ত শর্ত ও ডোমেইন মেনে চলো",
-      "মূল হতে সমীকরণ গঠন এর সংজ্ঞা অনুযায়ী সীমাবদ্ধতা দেখো"
+      "মূল হতে সমীকরণ গঠন: প্রদত্ত ডোমেইন ও শর্ত মেনে চলো"
     ]
   },
   "questions": [
@@ -73,6 +72,9 @@
     "math"
   ],
   "related": [
-    "vieta-formulas"
+    "vieta-formulas",
+    "descartes-rule",
+    "multiple-roots",
+    "reciprocal-equations"
   ]
 }

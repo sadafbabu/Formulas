@@ -26,33 +26,27 @@
       "unit": "J/K বা N/m"
     },
     {
-      "symbol": "O",
-      "meaning": "O (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
       "symbol": "H",
       "meaning": "এনথ্যালপি",
       "unit": "J বা kJ"
     }
   ],
   "derivation": {
-    "lead": "কন্টাক্ট পদ্ধতি প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
+    "lead": "কন্টাক্ট পদ্ধতি: প্রদত্ত মান বসিয়ে সম্পর্ক প্রয়োগ করো।",
     "steps": [
       {
         "title": "মূল সূত্র",
-        "latex": "\\ce{2SO2 + O2 <=> 2SO3};\\quad \\ce{SO3 + H2SO4 -> H2S2O7 -> 2H2SO4}",
+        "latex": "\\text{কন্টাক্ট পদ্ধতি: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "কন্টাক্ট পদ্ধতি: V₂O₅ catalyst; oleum intermediate H₂S₂O₇।"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{মান বসাও} \\rightarrow \\text{ফলাফল যাচাই}",
         "note": "V₂O₅ catalyst; oleum intermediate H₂S₂O₇।"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "শিল্প প্রক্রিয়ার প্রধান ধাপ"
     ]
   },
   "questions": [

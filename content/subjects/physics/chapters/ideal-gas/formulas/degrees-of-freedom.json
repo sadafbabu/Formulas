@@ -17,9 +17,10 @@
     "physics"
   ],
   "related": [
-    "cp-cv-relation",
     "kinetic-energy-gas",
-    "first-law-thermo"
+    "dalton-graham-law",
+    "van-der-waals",
+    "mean-free-path"
   ],
   "symbols": [
     {

@@ -37,11 +37,11 @@
       {
         "title": "মূল সূত্র",
         "latex": "C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}",
-        "note": "গোলীয় ধারক এর মূল সম্পর্ক।"
+        "note": "C=4πε₀ ab/(b−a)। C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{গোলীয় ধারক: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "C=4πε₀ ab/(b−a)। C=4\\pi\\varepsilon_0\\dfrac{ab}{b-a}"
       }
     ],
@@ -73,6 +73,9 @@
     "physics"
   ],
   "related": [
-    "capacitor-parallel-plate"
+    "capacitor-parallel-plate",
+    "equipotential-work",
+    "field-line-ring",
+    "charge-potential-energy"
   ]
 }

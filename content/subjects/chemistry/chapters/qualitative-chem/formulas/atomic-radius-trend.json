@@ -19,25 +19,10 @@
       "symbol": "r",
       "meaning": "radius across/down",
       "unit": "—"
-    },
-    {
-      "symbol": "downarrow",
-      "meaning": "downarrow (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
-      "symbol": "across period",
-      "meaning": "across period (সূত্রের রাশি)",
-      "unit": "—"
-    },
-    {
-      "symbol": "uparrow",
-      "meaning": "uparrow (সূত্রের রাশি)",
-      "unit": "—"
     }
   ],
   "derivation": {
-    "lead": "পারমাণবিক ব্যাসার্ধের প্রবণতা প্রয়োগের আগে রাশি ও একক ঠিক করে নাও।",
+    "lead": "পারমাণবিক ব্যাসার্ধের প্রবণতা: প্রদত্ত মান বসিয়ে সম্পর্ক প্রয়োগ করো।",
     "steps": [
       {
         "title": "মূল সূত্র",
@@ -45,14 +30,13 @@
         "note": "পারমাণবিক ব্যাসার্ধের প্রবণতা: বামে→ডানে ছোট; উপরে→নিচে বড়। r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{পারমাণবিক ব্যাসার্ধের প্রবণতা: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "বামে→ডানে ছোট; উপরে→নিচে বড়। r\\downarrow\\text{ across period};\\quad r\\uparrow\\text{ down group}"
       }
     ],
     "assumptions": [
-      "প্রমিত/প্রদত্ত তাপমাত্রা-চাপ ধরো",
-      "প্রতিক্রিয়া/গঠন প্রশ্নে দেওয়া তথ্য অনুসরণ করো"
+      "প্রদত্ত পরীক্ষার শর্ত"
     ]
   },
   "questions": [

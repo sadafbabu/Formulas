@@ -18,7 +18,8 @@
   ],
   "related": [
     "elastic-collision",
-    "momentum-impulse"
+    "conservation-mechanical-energy",
+    "work-variable-force"
   ],
   "symbols": [
     {
@@ -29,11 +30,6 @@
     {
       "symbol": "h_0",
       "meaning": "আদি উচ্চতা",
-      "unit": "m"
-    },
-    {
-      "symbol": "h_n",
-      "meaning": "n-তম লাফের উচ্চতা",
       "unit": "m"
     },
     {

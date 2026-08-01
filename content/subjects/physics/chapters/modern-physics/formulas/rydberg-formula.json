@@ -24,11 +24,6 @@
       "symbol": "n_1",
       "meaning": "স্তর সংখ্যা (n₂ > n₁)",
       "unit": "—"
-    },
-    {
-      "symbol": "n_2",
-      "meaning": "মোল সংখ্যা / কোটি",
-      "unit": "mol"
     }
   ],
   "derivation": {

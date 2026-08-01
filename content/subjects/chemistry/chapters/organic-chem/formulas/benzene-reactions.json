@@ -39,17 +39,17 @@
     "steps": [
       {
         "title": "nitration",
-        "latex": "\\ce{HNO3+H2SO4 -> NO2+ + HSO4- + H2O};\\quad \\ce{C6H6+NO2+->C6H5NO2+H+}",
+        "latex": "\\text{বেনজিনের ইলেকট্রোফিলিক প্রতিস্থাপন ব: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "H₂SO₄ শক্তিশালী acid হয়ে electrophile NO₂⁺ তৈরি করে।"
       },
       {
         "title": "halogenation",
-        "latex": "\\ce{C6H6 + Br2 ->[FeBr3] C6H5Br + HBr}",
+        "latex": "\\text{মান বসাও} \\rightarrow \\text{ফলাফল যাচাই}",
         "note": "FeBr₃/FeCl₃ Lewis acid catalyst।"
       },
       {
         "title": "Friedel–Crafts",
-        "latex": "\\ce{C6H6 ->[RCl/AlCl3] C6H5R};\\quad \\ce{C6H6 ->[RCOCl/AlCl3] C6H5COR}",
+        "latex": "\\text{বেনজিনের ইলেকট্রোফিলিক প্রতিস্থাপন ব: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "Alkylation-এ rearrangement হতে পারে; acylation-এ হয় না।"
       }
     ],

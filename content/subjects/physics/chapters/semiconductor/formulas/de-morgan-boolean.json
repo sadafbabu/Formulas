@@ -40,14 +40,13 @@
         "note": "বুলিয়ান বীজগণিতের ডি মরগান"
       },
       {
-        "title": "প্রয়োগের ধাপ",
-        "latex": "\\text{রাশি চিহ্নিত করো} \\rightarrow \\text{সূত্রে মান বসাও}",
+        "title": "প্রয়োগ",
+        "latex": "\\text{ডি মরগানের সূত্র: প্রয়োগ} \\rightarrow \\text{ফলাফল}",
         "note": "বার ভাঙলে OR↔AND বদলায়। বুলিয়ান বীজগণিতের ডি মরগান"
       }
     ],
     "assumptions": [
-      "SI একক ব্যবহার করো",
-      "প্রশ্নে উল্লিখিত আদর্শ শর্ত প্রযোজ্য"
+      "ফ্যারাডের সূত্র; ফ্লাক্সের চিহ্ন সাবধানে"
     ]
   },
   "questions": [
@@ -74,6 +73,9 @@
     "physics"
   ],
   "related": [
-    "logic-gates"
+    "logic-gates",
+    "led-principle",
+    "transistor-ce-relations",
+    "amplifier-gain"
   ]
 }
